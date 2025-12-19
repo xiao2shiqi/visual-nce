@@ -55,6 +55,17 @@ const formatTime = (seconds: number) => {
   const s = Math.floor(seconds % 60);
   return `${m}:${s.toString().padStart(2, '0')}`;
 };
+
+const playAt = (seconds: number) => {
+  if (!audioRef.value) return;
+  audioRef.value.currentTime = seconds;
+  audioRef.value.play();
+  isPlaying.value = true;
+};
+
+defineExpose({
+  playAt
+});
 </script>
 
 <template>

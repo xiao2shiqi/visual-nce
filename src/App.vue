@@ -26,6 +26,7 @@ const handleBackToHome = () => {
       />
       <LessonView 
         v-else 
+        :lesson="selectedCourse"
         @back="handleBackToHome"
       />
     </Transition>
