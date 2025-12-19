@@ -1,0 +1,63 @@
+{
+  "id": "l1",
+  "title": "Lesson 1: Excuse me",
+  "audio": "/audio/l1.mp3",
+  "segments": [
+    {
+      "id": "s1",
+      "role": "Man",
+      "text": "Excuse me!",
+      "startTime": 15.11,
+      "endTime": 16.65,
+      "image": "/images/l1/scene1.png"
+    },
+    {
+      "id": "s2",
+      "role": "Woman",
+      "text": "Yes?",
+      "startTime": 16.66,
+      "endTime": 18.25,
+      "image": "/images/l1/scene1.png"
+    },
+    {
+      "id": "s3",
+      "role": "Man",
+      "text": "Is this your handbag?",
+      "startTime": 18.26,
+      "endTime": 21.43,
+      "image": "/images/l1/scene2.png"
+    },
+    {
+      "id": "s4",
+      "role": "Woman",
+      "text": "Pardon?",
+      "startTime": 21.44,
+      "endTime": 23.16,
+      "image": "/images/l1/scene2.png"
+    },
+    {
+      "id": "s5",
+      "role": "Man",
+      "text": "Is this your handbag?",
+      "startTime": 23.17,
+      "endTime": 26.72,
+      "image": "/images/l1/scene3.png"
+    },
+    {
+      "id": "s6",
+      "role": "Woman",
+      "text": "Yes, it is.",
+      "startTime": 26.73,
+      "endTime": 29.48,
+      "image": "/images/l1/scene4.png"
+    },
+    {
+      "id": "s7",
+      "role": "Woman",
+      "text": "Thank you very much.",
+      "startTime": 29.49,
+      "endTime": 33.0,
+      "image": "/images/l1/scene4.png"
+    }
+  ]
+}
