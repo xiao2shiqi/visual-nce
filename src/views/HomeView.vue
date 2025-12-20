@@ -53,12 +53,6 @@ defineEmits(['select-course']);
         </button>
       </div>
 
-      <!-- Active Book Highlight -->
-      <div class="mb-12 text-center animate-fade-in" :key="activeBookId">
-        <h2 class="text-3xl font-black text-slate-900 mb-3">{{ activeBook.title }}</h2>
-        <p class="text-slate-500 font-medium">{{ activeBook.description }}</p>
-      </div>
-
       <!-- Lessons Grid -->
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 animate-slide-up" :key="activeBookId + 'grid'">
         <div 
@@ -102,6 +96,12 @@ defineEmits(['select-course']);
           </div>
           <p class="text-slate-400 font-bold uppercase tracking-widest text-xs">Waiting for Content Update</p>
         </div>
+      </div>
+
+      <!-- Active Book Highlight (Moved to bottom) -->
+      <div class="mt-16 text-center animate-fade-in" :key="activeBookId">
+        <h2 class="text-3xl font-black text-slate-900 mb-3">{{ activeBook.title }}</h2>
+        <p class="text-slate-500 font-medium">{{ activeBook.description }}</p>
       </div>
     </section>
 

@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted, watch } from 'vue';
 
 const props = defineProps<{
   src: string;
+  playbackRate?: number;
 }>();
 
 const emit = defineEmits<{
@@ -13,6 +14,11 @@ const audioRef = ref<HTMLAudioElement | null>(null);
 const isPlaying = ref(false);
 const currentTime = ref(0);
 const duration = ref(0);
+watch(() => props.playbackRate, (newRate) => {
+  if (audioRef.value && newRate) {
+    audioRef.value.playbackRate = newRate;
+  }
+});
 
 const togglePlay = () => {
   if (!audioRef.value) return;
@@ -63,13 +69,22 @@ const playAt = (seconds: number) => {
   isPlaying.value = true;
 };
 
+const pause = () => {
+  if (!audioRef.value) return;
+  audioRef.value.pause();
+  isPlaying.value = false;
+};
+
 defineExpose({
-  playAt
+  playAt,
+  pause,
+  isPlaying,
+  innerAudio: audioRef
 });
 </script>
 
 <template>
-  <div class="audio-player glass p-5 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex items-center gap-6 border border-white/40">
+  <div class="audio-player glass p-4 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex items-center gap-4 border border-white/40">
     <!-- Play/Pause Button -->
     <button 
       @click="togglePlay"
@@ -131,14 +146,12 @@ defineExpose({
       </div>
     </div>
 
-    <!-- Additional Controls placeholder (Volume/Speed) -->
-    <div class="hidden sm:flex items-center gap-3 pl-2 border-l border-gray-200/50">
-       <button class="p-2 text-gray-400 hover:text-blue-600 transition-colors">
+       <!-- Volume Icon Placeholder -->
+       <button class="p-2 text-gray-400 hover:text-blue-600 transition-colors hidden sm:block">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
           </svg>
        </button>
-    </div>
 
     <audio
       ref="audioRef"
