@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import curriculum from '../data/curriculum.json';
+import { resolvePath } from '../utils/resolvePath';
 
 const activeBookId = ref('nce1');
 
@@ -65,7 +66,7 @@ defineEmits(['select-course']);
           <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-white shadow-lg ring-1 ring-slate-200/50 transition-all duration-500 group-hover:shadow-blue-200 group-hover:-translate-y-2 group-hover:ring-blue-500/30">
             <!-- Lesson Image -->
             <img 
-              :src="lesson.image" 
+              :src="resolvePath(lesson.image)" 
               :alt="lesson.title"
               class="w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
             />

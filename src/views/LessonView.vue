@@ -3,6 +3,7 @@ import { ref, computed, watch, nextTick, onMounted, shallowRef } from 'vue';
 import LessonHeader from '../components/LessonHeader.vue';
 import SceneViewer from '../components/SceneViewer.vue';
 import DialogueScript from '../components/DialogueScript.vue';
+import { resolvePath } from '../utils/resolvePath';
 
 /**
  * @author xiaobin
@@ -68,16 +69,20 @@ const currentImage = computed(() => {
     (s: any) => currentTime.value >= s.startTime && currentTime.value <= s.endTime
   );
   
-  if (segment && segment.image) return segment.image;
-  
-  // 保持显示最后一张匹配的图片，避免空白
-  const pastSegments = lessonData.value.segments.filter((s: any) => s.startTime <= currentTime.value);
-  if (pastSegments.length > 0) {
-    const lastImg = pastSegments[pastSegments.length - 1].image;
-    if (lastImg) return lastImg;
+  let rawImg = '';
+  if (segment && segment.image) {
+    rawImg = segment.image;
+  } else {
+    // 保持显示最后一张匹配的图片，避免空白
+    const pastSegments = lessonData.value.segments.filter((s: any) => s.startTime <= currentTime.value);
+    if (pastSegments.length > 0) {
+      rawImg = pastSegments[pastSegments.length - 1].image;
+    } else {
+      rawImg = lessonData.value.segments[0]?.image || '';
+    }
   }
   
-  return lessonData.value.segments[0]?.image || '';
+  return resolvePath(rawImg);
 });
 
 // 记录当前点击的句子起止时间
@@ -186,7 +191,7 @@ watch(activeSegmentId, async (newId) => {
           ref="sceneViewerRef"
           :current-image="currentImage"
           :active-segment-id="activeSegmentId"
-          :audio-src="lessonData.audio"
+          :audio-src="resolvePath(lessonData.audio)"
           :playback-rate="playbackRate"
           :progress="(lessonData.segments.findIndex((s: any) => s.id === activeSegmentId) + 1) / lessonData.segments.length * 100"
           :segments-count="lessonData.segments.length"
