@@ -5,7 +5,8 @@ import curriculum from '../data/curriculum.json';
 const activeBookId = ref('nce1');
 
 const activeBook = computed(() => {
-  return curriculum.books.find(b => b.id === activeBookId.value) || curriculum.books[0];
+  const book = curriculum.books.find(b => b.id === activeBookId.value);
+  return (book || curriculum.books[0]) as typeof curriculum.books[0];
 });
 
 defineEmits(['select-course']);
