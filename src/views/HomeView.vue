@@ -32,7 +32,7 @@ defineEmits(['select-course']);
         
         <div class="max-w-3xl mx-auto">
           <p class="text-lg text-slate-600 font-medium leading-relaxed">
-            项目愿景：重新定义经典。通过沉浸式的场景与音频交互，让《新概念英语》的学习不再枯燥。
+            融合 AI 与现代 Web 技术重构经典。通过沉浸式的场景与音频交互，让《新概念英语》的学习不再枯燥。
           </p>
         </div>
       </div>
