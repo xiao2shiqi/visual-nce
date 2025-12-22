@@ -2,6 +2,10 @@
 
 ![Visual NCE Header](https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=2000&auto=format&fit=crop)
 
+## 在线体验
+
+在线体验：[Visual NCE](https://xiao2shiqi.github.io/visual-nce/)
+
 ## 🌟 项目愿景 (Vision)
 
 **Visual NCE** 的诞生源于一个核心理念：学习英语的重点在于**听力**与**视觉**的深度融合。我认为，学习语言最高效的方式是实现“音画同步”——即在听到声音的瞬间，大脑能立刻产生对应的视觉画面，而非在脑中进行枯燥的文字和语法的翻译。
