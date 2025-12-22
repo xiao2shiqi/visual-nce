@@ -1,31 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import type { Segment } from '../types/lesson';
+
 /**
+ * DialogueScript 组件
+ * 显示对话脚本，支持播放控制、翻译切换和语法分析
  * @author xiaobin
  */
-interface GrammarPart {
-  text: string;
-  label: string;
-}
-
-interface Word {
-  word: string;
-  pos: string;
-  meaning: string;
-}
-
-interface Segment {
-  id: string;
-  role: string;
-  text: string;
-  translation: string;
-  startTime: number;
-  endTime: number;
-  analysis?: {
-    grammar: GrammarPart[];
-    words: Word[];
-  };
-}
 
 const props = defineProps<{
   segments: Segment[];
@@ -48,6 +29,27 @@ const expandedSegmentId = ref<string | null>(null);
 const toggleAnalysis = (id: string, event: Event) => {
   event.stopPropagation();
   expandedSegmentId.value = expandedSegmentId.value === id ? null : id;
+};
+
+// 使用 Web Speech API 朗读单词
+const speakWord = (word: string) => {
+  // 取消正在进行的语音
+  window.speechSynthesis.cancel();
+  
+  const utterance = new SpeechSynthesisUtterance(word);
+  utterance.lang = 'en-US'; // 设置为美式英语
+  utterance.rate = 0.9; // 稍微慢一点，便于学习
+  utterance.pitch = 1;
+  
+  // 尝试选择英语语音
+  const voices = window.speechSynthesis.getVoices();
+  const englishVoice = voices.find(v => v.lang.startsWith('en-') && v.name.includes('Female')) 
+    || voices.find(v => v.lang.startsWith('en-'));
+  if (englishVoice) {
+    utterance.voice = englishVoice;
+  }
+  
+  window.speechSynthesis.speak(utterance);
 };
 
 const scrollToActive = (id: string) => {
@@ -182,43 +184,7 @@ defineExpose({
                 {{ s.translation }}
               </p>
 
-              <!-- Analysis Drawer (Option A) -->
-              <Transition name="expand">
-                <div v-if="expandedSegmentId === s.id && s.analysis" class="mt-4 pt-4 border-t border-blue-50/50 space-y-4 overflow-hidden">
-                  <!-- Grammar Structure -->
-                  <div class="space-y-2">
-                    <h5 class="text-[9px] font-black text-blue-500 uppercase tracking-widest">Grammar Structure</h5>
-                    <div class="flex flex-wrap gap-2">
-                      <div 
-                        v-for="(part, i) in s.analysis.grammar" 
-                        :key="i"
-                        class="px-2 py-1 rounded-md bg-blue-50 border border-blue-100/50 flex flex-col"
-                      >
-                        <span class="text-xs font-bold text-slate-700">{{ part.text }}</span>
-                        <span class="text-[8px] font-black text-blue-400 uppercase tracking-tighter">{{ part.label }}</span>
-                      </div>
-                    </div>
-                  </div>
 
-                  <!-- Word Details -->
-                  <div class="space-y-2">
-                    <h5 class="text-[9px] font-black text-indigo-500 uppercase tracking-widest">Vocabulary</h5>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      <div 
-                        v-for="(word, i) in s.analysis.words" 
-                        :key="i"
-                        class="p-2 rounded-lg bg-slate-50 border border-slate-100 group/word transition-all hover:bg-white hover:shadow-md hover:border-indigo-100"
-                      >
-                        <div class="flex items-baseline gap-1.5">
-                          <span class="text-xs font-black text-slate-800">{{ word.word }}</span>
-                          <span class="text-[8px] font-bold text-slate-400 italic">{{ word.pos }}</span>
-                        </div>
-                        <p class="text-[10px] text-slate-500 font-medium mt-0.5">{{ word.meaning }}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Transition>
             </div>
             
             <!-- Analysis Trigger (Magic Wand) -->
@@ -234,9 +200,9 @@ defineExpose({
               </svg>
             </button>
 
-            <!-- Play Indicator (Removed for static segments or moved) -->
+            <!-- Play Indicator -->
             <div 
-              v-if="s.startTime !== undefined && expandedSegmentId !== s.id"
+              v-if="s.startTime !== undefined"
               class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300"
               :class="activeSegmentId === s.id ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-400 opacity-0 group-hover:opacity-100'"
             >
@@ -253,6 +219,102 @@ defineExpose({
         </div>
       </div>
     </div>
+
+    <!-- Analysis Modal with Glassmorphism -->
+    <Teleport to="body">
+      <Transition name="modal">
+        <div 
+          v-if="expandedSegmentId && segments.find(s => s.id === expandedSegmentId)?.analysis"
+          class="fixed inset-0 z-50 flex items-center justify-center p-4"
+          @click="expandedSegmentId = null"
+        >
+          <!-- Backdrop with blur -->
+          <div class="absolute inset-0 bg-slate-900/30 backdrop-blur-md"></div>
+          
+          <!-- Modal Content -->
+          <div 
+            class="relative max-w-2xl w-full max-h-[80vh] overflow-y-auto bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/20 p-6"
+            @click.stop
+          >
+            <!-- Close Button -->
+            <button 
+              @click="expandedSegmentId = null"
+              class="absolute top-4 right-4 w-8 h-8 rounded-full bg-slate-100/80 hover:bg-slate-200/80 flex items-center justify-center transition-all duration-200 group"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 text-slate-600 group-hover:text-slate-900">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>
+            </button>
+
+            <!-- Modal Header -->
+            <div class="mb-6 pr-8">
+              <div class="flex items-center gap-2 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 text-blue-500">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z" />
+                </svg>
+                <h3 class="text-lg font-black text-slate-900">句子分析</h3>
+              </div>
+              <div class="p-4 rounded-xl bg-gradient-to-r from-slate-50 to-slate-100/50 border border-slate-200/30">
+                <p class="text-base text-slate-800 font-semibold leading-relaxed">
+                  {{ segments.find(s => s.id === expandedSegmentId)?.text }}
+                </p>
+                <p class="text-sm text-slate-500 mt-2 font-medium">
+                  {{ segments.find(s => s.id === expandedSegmentId)?.translation }}
+                </p>
+              </div>
+            </div>
+
+            <!-- Analysis Content -->
+            <div v-if="segments.find(s => s.id === expandedSegmentId)?.analysis" class="space-y-6">
+              <!-- Grammar Structure -->
+              <div class="space-y-3">
+                <h5 class="text-xs font-black text-blue-600 uppercase tracking-widest flex items-center gap-2">
+                  <div class="w-1 h-4 bg-blue-500 rounded-full"></div>
+                  语法结构
+                </h5>
+                <div class="flex flex-wrap gap-2">
+                  <div 
+                    v-for="(part, i) in segments.find(s => s.id === expandedSegmentId)?.analysis?.grammar" 
+                    :key="i"
+                    class="px-3 py-2 rounded-lg bg-gradient-to-br from-blue-50 to-blue-100/50 border border-blue-200/50 flex flex-col shadow-sm"
+                  >
+                    <span class="text-sm font-bold text-slate-800">{{ part.text }}</span>
+                    <span class="text-[9px] font-black text-blue-500 uppercase tracking-wider mt-0.5">{{ part.label }}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Word Details -->
+              <div class="space-y-3">
+                <h5 class="text-xs font-black text-indigo-600 uppercase tracking-widest flex items-center gap-2">
+                  <div class="w-1 h-4 bg-indigo-500 rounded-full"></div>
+                  词汇详解
+                  <span class="text-[9px] font-medium text-slate-400 normal-case tracking-normal ml-1">点击发音</span>
+                </h5>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <button 
+                    v-for="(word, i) in segments.find(s => s.id === expandedSegmentId)?.analysis?.words" 
+                    :key="i"
+                    @click="speakWord(word.word)"
+                    class="p-3 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 border border-slate-200/50 group/word transition-all hover:shadow-lg hover:border-indigo-200 hover:from-indigo-50 hover:to-indigo-100/30 text-left cursor-pointer"
+                  >
+                    <div class="flex items-center gap-2 mb-1">
+                      <span class="text-sm font-black text-slate-900 group-hover/word:text-indigo-700">{{ word.word }}</span>
+                      <span class="text-[9px] font-bold text-slate-400 italic">{{ word.pos }}</span>
+                      <!-- Speaker Icon -->
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5 text-indigo-400 opacity-0 group-hover/word:opacity-100 transition-opacity">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+                      </svg>
+                    </div>
+                    <p class="text-xs text-slate-600 font-medium">{{ word.meaning }}</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
   </div>
 </template>
 
@@ -272,20 +334,26 @@ defineExpose({
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Expand Transition */
-.expand-enter-active,
-.expand-leave-active {
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  max-height: 400px;
+/* Modal Transition */
+.modal-enter-active,
+.modal-leave-active {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.expand-enter-from,
-.expand-leave-to {
+.modal-enter-from,
+.modal-leave-to {
   opacity: 0;
-  max-height: 0;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  transform: translateY(-10px);
+}
+
+.modal-enter-from > div:first-child,
+.modal-leave-to > div:first-child {
+  backdrop-filter: blur(0px);
+}
+
+.modal-enter-from > div:last-child,
+.modal-leave-to > div:last-child {
+  transform: scale(0.95);
+  opacity: 0;
 }
 
 .animate-pulse-slow {
