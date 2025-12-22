@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watch, nextTick, onMounted, shallowRef } from 'vue';
+import { ref, computed, watch, nextTick, onMounted, onUnmounted, shallowRef } from 'vue';
 import LessonHeader from '../components/LessonHeader.vue';
 import SceneViewer from '../components/SceneViewer.vue';
 import DialogueScript from '../components/DialogueScript.vue';
@@ -54,9 +54,9 @@ watch(() => props.lesson?.id, (newId) => {
 
 // 计算当前活跃的片段 ID
 const activeSegmentId = computed(() => {
-  if (!lessonData.value) return null;
+  if (!lessonData.value || !lessonData.value.segments) return null;
   const segment = lessonData.value.segments.find(
-    (s: any) => currentTime.value >= s.startTime && currentTime.value <= s.endTime
+    (s: any) => s.startTime !== undefined && currentTime.value >= s.startTime && currentTime.value <= s.endTime
   );
   return segment ? segment.id : null;
 });
@@ -65,8 +65,13 @@ const activeSegmentId = computed(() => {
 const currentImage = computed(() => {
   if (!lessonData.value) return '';
   
+  // 优先使用根节点的图片
+  if (lessonData.value.image) {
+    return resolvePath(lessonData.value.image);
+  }
+  
   const segment = lessonData.value.segments.find(
-    (s: any) => currentTime.value >= s.startTime && currentTime.value <= s.endTime
+    (s: any) => s.startTime !== undefined && currentTime.value >= s.startTime && currentTime.value <= s.endTime
   );
   
   let rawImg = '';
@@ -74,7 +79,7 @@ const currentImage = computed(() => {
     rawImg = segment.image;
   } else {
     // 保持显示最后一张匹配的图片，避免空白
-    const pastSegments = lessonData.value.segments.filter((s: any) => s.startTime <= currentTime.value);
+    const pastSegments = lessonData.value.segments.filter((s: any) => s.startTime !== undefined && s.startTime <= currentTime.value);
     if (pastSegments.length > 0) {
       rawImg = pastSegments[pastSegments.length - 1].image;
     } else {
@@ -130,18 +135,28 @@ const stopMonitoring = () => {
 };
 
 const handleSegmentClick = (segment: any) => {
-  stopMonitoring(); 
   const audioPlayer = sceneViewerRef.value?.audioPlayerRef;
-  
-  if (playMode.value === 'single' || playMode.value === 'repeat') {
-    singlePlayStartTime.value = segment.startTime;
-    singlePlayEndTime.value = segment.endTime;
-    audioPlayer?.playAt(segment.startTime);
-    nextTick(() => startMonitoring());
+  if (!audioPlayer) return;
+
+  if (segment.startTime !== undefined) {
+    stopMonitoring(); 
+    if (playMode.value === 'single' || playMode.value === 'repeat') {
+      singlePlayStartTime.value = segment.startTime;
+      singlePlayEndTime.value = segment.endTime;
+      audioPlayer.playAt(segment.startTime);
+      nextTick(() => startMonitoring());
+    } else {
+      singlePlayStartTime.value = null;
+      singlePlayEndTime.value = null;
+      audioPlayer.playAt(segment.startTime);
+    }
   } else {
-    singlePlayStartTime.value = null;
-    singlePlayEndTime.value = null;
-    audioPlayer?.playAt(segment.startTime);
+    // If no timing, clicking a segment just toggles main playback
+    if (audioPlayer.innerAudio?.paused) {
+      audioPlayer.innerAudio.play();
+    } else {
+      audioPlayer.innerAudio?.pause();
+    }
   }
 };
 
@@ -167,6 +182,73 @@ watch(activeSegmentId, async (newId) => {
     await nextTick();
     scriptRef.value?.scrollToActive(newId);
   }
+});
+
+// 快捷键处理
+const handleKeyDown = (e: KeyboardEvent) => {
+  if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) return;
+
+  const audioPlayer = sceneViewerRef.value?.audioPlayerRef;
+  if (!audioPlayer || !lessonData.value) return;
+
+  const segments = lessonData.value.segments;
+  const currentIndex = segments.findIndex((s: any) => s.id === activeSegmentId.value);
+
+  switch (e.code) {
+    case 'Space':
+      e.preventDefault();
+      if (audioPlayer.innerAudio?.paused) {
+        audioPlayer.innerAudio.play();
+      } else {
+        audioPlayer.innerAudio?.pause();
+      }
+      break;
+
+    case 'ArrowLeft':
+      e.preventDefault();
+      if (currentIndex > 0) {
+        handleSegmentClick(segments[currentIndex - 1]);
+      } else if (currentIndex === 0) {
+        audioPlayer.playAt(0);
+      } else {
+        // 如果当前不在任何片段中，找到前一个最近的片段
+        const prevIdx = segments.reduce((acc: number, s: any, idx: number) => 
+          s.startTime < currentTime.value ? idx : acc, -1);
+        if (prevIdx !== -1) handleSegmentClick(segments[prevIdx]);
+      }
+      break;
+
+    case 'ArrowRight':
+      e.preventDefault();
+      if (currentIndex !== -1 && currentIndex < segments.length - 1) {
+        handleSegmentClick(segments[currentIndex + 1]);
+      } else if (currentIndex === -1) {
+        // 如果当前不在任何片段中，找到后一个最近的片段
+        const nextIdx = segments.findIndex((s: any) => s.startTime > currentTime.value);
+        if (nextIdx !== -1) handleSegmentClick(segments[nextIdx]);
+      }
+      break;
+
+    case 'KeyR':
+      e.preventDefault();
+      if (currentIndex !== -1) {
+        handleSegmentClick(segments[currentIndex]);
+      } else {
+        audioPlayer.playAt(0);
+      }
+      break;
+  }
+};
+
+onMounted(() => {
+  if (props.lesson?.id) {
+    loadLessonData(props.lesson.id);
+  }
+  window.addEventListener('keydown', handleKeyDown);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeyDown);
 });
 </script>
 

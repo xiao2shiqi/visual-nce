@@ -108,8 +108,6 @@ defineExpose({
             EN+CN
           </button>
         </div>
-
-        <p class="text-xs text-gray-400">Click to play</p>
       </div>
     </div>
 
@@ -134,7 +132,11 @@ defineExpose({
             <!-- Avatar -->
             <div 
               class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center text-[10px] font-bold shadow-sm transition-transform duration-300 group-hover:scale-110"
-              :class="s.role === 'Man' ? 'bg-gradient-to-br from-blue-500 to-blue-600 text-white' : 'bg-gradient-to-br from-indigo-500 to-violet-600 text-white'"
+              :class="[
+                s.role === 'Man' ? 'bg-gradient-to-br from-blue-500 to-blue-600 text-white' : 
+                s.role === 'Woman' ? 'bg-gradient-to-br from-indigo-500 to-violet-600 text-white' :
+                'bg-gradient-to-br from-slate-500 to-slate-600 text-white'
+              ]"
             >
               {{ s.role[0] }}
             </div>
@@ -158,8 +160,9 @@ defineExpose({
               </p>
             </div>
             
-            <!-- Play Indicator -->
+            <!-- Play Indicator (Removed for static segments) -->
             <div 
+              v-if="s.startTime !== undefined"
               class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300"
               :class="activeSegmentId === s.id ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-400 opacity-0 group-hover:opacity-100'"
             >

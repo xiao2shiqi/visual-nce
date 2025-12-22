@@ -40,9 +40,9 @@ defineExpose({
         <!-- Scene Badge -->
         <div class="absolute top-4 left-4">
           <div class="backdrop-blur-xl bg-black/40 px-3 py-1.5 rounded-full flex items-center gap-2">
-            <div class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></div>
+            <div class="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse"></div>
             <span class="text-[10px] font-bold text-white uppercase tracking-wider">
-              Scene {{ activeSegmentId?.replace('s', '') || '1' }}
+              {{ lessonTitle }}
             </span>
           </div>
         </div>
@@ -69,7 +69,6 @@ defineExpose({
         </div>
         <span class="text-xs text-gray-500 font-medium">2 speakers</span>
       </div>
-      <span class="text-xs text-gray-400 font-mono">{{ segmentsCount }} segments</span>
     </div>
 
     <!-- Audio Player -->

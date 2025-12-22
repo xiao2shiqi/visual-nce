@@ -2,15 +2,47 @@
   "id": "l1",
   "title": "Lesson 1: Excuse me",
   "audio": "/audio/l1.mp3",
+  "image": "/images/l1/scene1.png",
   "segments": [
+    {
+      "id": "intro_1",
+      "role": "Narrator",
+      "text": "Lesson 1",
+      "translation": "第1课",
+      "startTime": 0.61,
+      "endTime": 2.70
+    },
+    {
+      "id": "intro_2",
+      "role": "Narrator",
+      "text": "Excuse me!",
+      "translation": "对不起（标题）",
+      "startTime": 2.71,
+      "endTime": 5.60
+    },
+    {
+      "id": "intro_3",
+      "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 5.61,
+      "endTime": 10.79
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
+      "text": "Whose handbag is it?",
+      "translation": "这是谁的手提包？",
+      "startTime": 10.80,
+      "endTime": 15.10
+    },
     {
       "id": "s1",
       "role": "Man",
       "text": "Excuse me!",
       "translation": "对不起，请问……",
       "startTime": 15.11,
-      "endTime": 16.65,
-      "image": "/images/l1/scene1.png"
+      "endTime": 16.65
     },
     {
       "id": "s2",
@@ -18,8 +50,7 @@
       "text": "Yes?",
       "translation": "什么事？",
       "startTime": 16.66,
-      "endTime": 18.25,
-      "image": "/images/l1/scene2.png"
+      "endTime": 18.25
     },
     {
       "id": "s3",
@@ -27,8 +58,7 @@
       "text": "Is this your handbag?",
       "translation": "这是您的手提包吗？",
       "startTime": 18.26,
-      "endTime": 21.43,
-      "image": "/images/l1/scene3.png"
+      "endTime": 21.43
     },
     {
       "id": "s4",
@@ -36,8 +66,7 @@
       "text": "Pardon?",
       "translation": "再说一遍好吗？",
       "startTime": 21.44,
-      "endTime": 23.16,
-      "image": "/images/l1/scene4.png"
+      "endTime": 23.16
     },
     {
       "id": "s5",
@@ -45,8 +74,7 @@
       "text": "Is this your handbag?",
       "translation": "这是您的手提包吗？",
       "startTime": 23.17,
-      "endTime": 26.72,
-      "image": "/images/l1/scene5.png"
+      "endTime": 26.72
     },
     {
       "id": "s6",
@@ -54,8 +82,7 @@
       "text": "Yes, it is.",
       "translation": "是的，它是。",
       "startTime": 26.73,
-      "endTime": 29.48,
-      "image": "/images/l1/scene6.png"
+      "endTime": 29.48
     },
     {
       "id": "s7",
@@ -63,8 +90,7 @@
       "text": "Thank you very much.",
       "translation": "非常感谢。",
       "startTime": 29.49,
-      "endTime": 33.0,
-      "image": "/images/l1/scene7.png"
+      "endTime": 33.0
     }
   ]
 }
