@@ -12,12 +12,22 @@
       "startTime": 0.8,
       "endTime": 3.74,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 137",
+            "label": "标题/课程编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "137",
+            "pos": "num.",
+            "meaning": "一百三十七"
           }
         ]
       }
@@ -28,7 +38,32 @@
       "text": "A pleasant dream",
       "translation": "一个美好的梦想",
       "startTime": 3.75,
-      "endTime": 6.44
+      "endTime": 6.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A pleasant dream",
+            "label": "名词短语/标题"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "pleasant",
+            "pos": "adj.",
+            "meaning": "愉快的，美好的"
+          },
+          {
+            "word": "dream",
+            "pos": "n.",
+            "meaning": "梦，梦想"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -40,15 +75,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -63,8 +141,12 @@
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What would Julie like to do",
+            "label": "主句/虚拟语气"
+          },
+          {
+            "text": "if she had the money",
+            "label": "条件从句"
           }
         ],
         "words": [
@@ -72,6 +154,56 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "would",
+            "pos": "modal v.",
+            "meaning": "会（虚拟语气）"
+          },
+          {
+            "word": "Julie",
+            "pos": "n.",
+            "meaning": "朱莉（女子名）"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "想要（would like to意为想要）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "有（have的过去式，虚拟语气）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
           }
         ]
       }
@@ -86,15 +218,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Are",
-            "label": "谓语/系动词"
+            "text": "Are you doing",
+            "label": "谓语/现在进行时疑问"
+          },
+          {
+            "text": "the football pools",
+            "label": "宾语"
+          },
+          {
+            "text": "Brain",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "You",
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是（be动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做（do的现在分词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "football",
+            "pos": "n.",
+            "meaning": "足球"
+          },
+          {
+            "word": "pools",
+            "pos": "n.",
+            "meaning": "彩票（football pools意为足球彩票）"
+          },
+          {
+            "word": "Brain",
+            "pos": "n.",
+            "meaning": "布莱恩（男子名）"
           }
         ]
       }
@@ -107,12 +277,50 @@
       "startTime": 23.55,
       "endTime": 26.79,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "I've nearly finished",
+            "label": "主句/现在完成时"
+          },
+          {
+            "text": "Julie",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.",
+            "meaning": "已经（have的缩写）"
+          },
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎，差不多"
+          },
+          {
+            "word": "finished",
+            "pos": "v.",
+            "meaning": "完成（finish的过去分词）"
+          },
+          {
+            "word": "Julie",
+            "pos": "n.",
+            "meaning": "朱莉（女子名）"
           }
         ]
       }
@@ -127,20 +335,59 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "I'm sure",
+            "label": "主句"
+          },
+          {
+            "text": "we'll win something this week",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
           },
           {
-            "word": "This",
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确信的"
+          },
+          {
+            "word": "we",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会（will的缩写）"
+          },
+          {
+            "word": "win",
+            "pos": "v.",
+            "meaning": "赢得"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某物，一些东西"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "周"
           }
         ]
       }
@@ -155,20 +402,63 @@
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "You always say that",
+            "label": "并列句1"
+          },
+          {
+            "text": "but",
+            "label": "转折连词"
+          },
+          {
+            "text": "we never win anything",
+            "label": "并列句2"
           }
         ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "That",
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那样（指前面的话）"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
+            "word": "win",
+            "pos": "v.",
+            "meaning": "赢得"
+          },
+          {
+            "word": "anything",
+            "pos": "pron.",
+            "meaning": "任何东西"
           }
         ]
       }
@@ -183,8 +473,12 @@
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What will you do",
+            "label": "主句/一般将来时疑问"
+          },
+          {
+            "text": "if you win a lot of money",
+            "label": "条件从句"
           }
         ],
         "words": [
@@ -194,9 +488,54 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
+            "word": "will",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "win",
+            "pos": "v.",
+            "meaning": "赢得"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "（不定冠词）"
+          },
+          {
+            "word": "lot",
+            "pos": "n.",
+            "meaning": "很多（a lot of意为许多）"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
           }
         ]
       }
@@ -211,20 +550,84 @@
       "analysis": {
         "grammar": [
           {
-            "text": "coat",
-            "label": "名词"
+            "text": "If I win a lot of money",
+            "label": "条件从句"
+          },
+          {
+            "text": "I'll buy you a mink coat",
+            "label": "主句"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "Coat",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "win",
+            "pos": "v.",
+            "meaning": "赢得"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "（不定冠词）"
+          },
+          {
+            "word": "lot",
             "pos": "n.",
-            "meaning": "上衣，大衣"
+            "meaning": "很多"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会（will的缩写）"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你（间接宾语）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一件（不定冠词）"
+          },
+          {
+            "word": "mink",
+            "pos": "n.",
+            "meaning": "貂皮"
+          },
+          {
+            "word": "coat",
+            "pos": "n.",
+            "meaning": "大衣，外套"
           }
         ]
       }
@@ -239,15 +642,48 @@
       "analysis": {
         "grammar": [
           {
-            "text": "coat",
-            "label": "名词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't want",
+            "label": "谓语否定"
+          },
+          {
+            "text": "a mink coat",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Coat",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.",
+            "meaning": "不（do not的缩写）"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一件（不定冠词）"
+          },
+          {
+            "word": "mink",
             "pos": "n.",
-            "meaning": "上衣，大衣"
+            "meaning": "貂皮"
+          },
+          {
+            "word": "coat",
+            "pos": "n.",
+            "meaning": "大衣"
           }
         ]
       }
@@ -258,7 +694,55 @@
       "text": "I want to see the world.",
       "translation": "我想去看看这个世界。",
       "startTime": 51.09,
-      "endTime": 54.82
+      "endTime": 54.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "want to see",
+            "label": "谓语/不定式"
+          },
+          {
+            "text": "the world",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见，游览"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -266,7 +750,27 @@
       "text": "All right.",
       "translation": "好的。",
       "startTime": 54.83,
-      "endTime": 56.53
+      "endTime": 56.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "All right",
+            "label": "表示同意"
+          }
+        ],
+        "words": [
+          {
+            "word": "All",
+            "pos": "adv.",
+            "meaning": "完全（all right意为好的）"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "正确的，好的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -276,17 +780,129 @@
       "startTime": 56.54,
       "endTime": 65.42,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "text": "If we win a lot of money",
+            "label": "条件从句"
           },
           {
-            "word": "At",
+            "text": "we'll travel round the world",
+            "label": "主句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "we'll stay at the best hotels",
+            "label": "主句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "win",
+            "pos": "v.",
+            "meaning": "赢得"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "（不定冠词）"
+          },
+          {
+            "word": "lot",
+            "pos": "n.",
+            "meaning": "很多"
+          },
+          {
+            "word": "of",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "travel",
+            "pos": "v.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "round",
+            "pos": "prep.",
+            "meaning": "环绕（travel round意为环游）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，并且"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "住，停留"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "best",
+            "pos": "adj.",
+            "meaning": "最好的（good的最高级）"
+          },
+          {
+            "word": "hotels",
+            "pos": "n.",
+            "meaning": "酒店（复数）"
           }
         ]
       }
@@ -299,17 +915,89 @@
       "startTime": 65.43,
       "endTime": 71.96,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "text": "Then",
+            "label": "连接词"
           },
           {
-            "word": "House",
+            "text": "we'll return home",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "buy a big house in the country",
+            "label": "并列句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "return",
+            "pos": "v.",
+            "meaning": "返回"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一座（不定冠词）"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "乡下，乡村"
           }
         ]
       }
@@ -322,12 +1010,55 @@
       "startTime": 71.97,
       "endTime": 75.84,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'ll have",
+            "label": "谓语/将来时"
+          },
+          {
+            "text": "a beautiful garden",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Well",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "beautiful",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "美丽的"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，还有"
           }
         ]
       }
@@ -342,20 +1073,78 @@
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "But",
+            "label": "转折连词"
+          },
+          {
+            "text": "if we spend all that money",
+            "label": "条件从句"
+          },
+          {
+            "text": "we'll be poor again",
+            "label": "主句"
           }
         ],
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Well",
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "spend",
+            "pos": "v.",
+            "meaning": "花费"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
+            "meaning": "那些"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是，变得"
+          },
+          {
+            "word": "poor",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "贫穷的"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
           }
         ]
       }
@@ -370,11 +1159,45 @@
       "analysis": {
         "grammar": [
           {
-            "text": "do",
-            "label": "助动词"
+            "text": "What",
+            "label": "疑问词/宾语"
+          },
+          {
+            "text": "'ll we do",
+            "label": "谓语/将来时"
+          },
+          {
+            "text": "then",
+            "label": "状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那时，到时候"
+          }
+        ]
       }
     },
     {
@@ -385,12 +1208,91 @@
       "startTime": 85.3,
       "endTime": 92.32,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "If we spend all the money",
+            "label": "条件从句"
+          },
+          {
+            "text": "we'll try and win the football pools again",
+            "label": "主句"
+          }
+        ],
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "spend",
+            "pos": "v.",
+            "meaning": "花费"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "try",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且（try and相当于try to）"
+          },
+          {
+            "word": "win",
+            "pos": "v.",
+            "meaning": "赢得"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "football",
+            "pos": "n.",
+            "meaning": "足球"
+          },
+          {
+            "word": "pools",
+            "pos": "n.",
+            "meaning": "彩票"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
           }
         ]
       }
@@ -405,11 +1307,70 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It's a pleasant dream",
+            "label": "并列句1"
+          },
+          {
+            "text": "but",
+            "label": "转折连词"
+          },
+          {
+            "text": "everything depends on 'if'",
+            "label": "并列句2"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它（指前面说的计划）"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "pleasant",
+            "pos": "adj.",
+            "meaning": "愉快的，美好的"
+          },
+          {
+            "word": "dream",
+            "pos": "n.",
+            "meaning": "梦，梦想"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "everything",
+            "pos": "pron.",
+            "meaning": "一切，所有事情"
+          },
+          {
+            "word": "depends",
+            "pos": "v.",
+            "meaning": "取决于（depend的第三人称单数）"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上（depend on意为取决于）"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果（此处作名词用）"
+          }
+        ]
       }
     }
   ]
