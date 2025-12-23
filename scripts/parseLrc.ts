@@ -1,5 +1,5 @@
 /**
- * LRC 文件解析器 - 将 LRC 文件转换为课程 JSON 格式
+ * LRC 文件解析器 - 自动扫描并生成所有 NCE1 课程 JSON
  * 用法: npx ts-node scripts/parseLrc.ts
  */
 
@@ -23,6 +23,9 @@ interface LessonData {
     segments: Segment[];
 }
 
+const GHIBLI_LESSONS = new Set(['l1', 'l127', 'l129', 'l131', 'l133', 'l135', 'l137', 'l139']);
+const COMING_SOON_IMAGE = '/images/coming-soon.png';
+
 // 解析 LRC 时间戳 [mm:ss.xx] -> 秒数
 function parseTime(timeStr: string): number {
     const match = timeStr.match(/\[(\d+):(\d+)\.(\d+)\]/);
@@ -35,34 +38,22 @@ function parseTime(timeStr: string): number {
 
 // 判断角色
 function detectRole(text: string, prevRole: string): string {
-    // 叙述性文本通常包含这些关键词
     const narrativeKeywords = ['Lesson', 'Listen to', 'answer this question', 'Why', 'What', 'How', 'Which', 'Who'];
-
     for (const kw of narrativeKeywords) {
         if (text.startsWith(kw) || text.includes('Listen to the tape')) {
             return 'Narrator';
         }
     }
-
-    // 根据引号和上下文判断
-    if (text.includes('"') || text.includes("'")) {
-        // 可能是引用，保持 Narrator
-        return 'Narrator';
-    }
-
-    // 简单的对话交替
     if (prevRole === 'Narrator') return 'Man';
     if (prevRole === 'Man') return 'Woman';
     if (prevRole === 'Woman') return 'Man';
-
     return 'Narrator';
 }
 
 // 解析 LRC 文件
-function parseLrc(lrcContent: string, lessonNum: string, title: string): LessonData {
+function parseLrc(lrcContent: string, lessonNum: string, title: string, audioFileName: string): LessonData {
     const lines = lrcContent.split('\n').filter(line => line.trim());
     const segments: Segment[] = [];
-
     let prevRole = 'Narrator';
     let segmentIndex = 0;
 
@@ -76,12 +67,10 @@ function parseLrc(lrcContent: string, lessonNum: string, title: string): LessonD
         const startTime = parseTime(`[${timeMatch[1]}]`);
         const content = line.replace(/^\[\d+:\d+\.\d+\]/, '').trim();
 
-        // 分离英文和中文
         const parts = content.split('|');
         const text = parts[0]?.trim() || content;
         const translation = parts[1]?.trim() || '';
 
-        // 计算结束时间（使用下一行的开始时间，或者当前时间 +5 秒）
         let endTime = startTime + 5;
         if (i + 1 < contentLines.length) {
             const nextTimeMatch = contentLines[i + 1].match(/^\[(\d+:\d+\.\d+)\]/);
@@ -90,13 +79,8 @@ function parseLrc(lrcContent: string, lessonNum: string, title: string): LessonD
             }
         }
 
-        // 判断角色
         let role = detectRole(text, prevRole);
-
-        // 前几行通常是标题和说明
-        if (segmentIndex < 4) {
-            role = 'Narrator';
-        }
+        if (segmentIndex < 4) role = 'Narrator';
 
         const segmentId = segmentIndex < 4 ? `intro_${segmentIndex + 1}` : `s${segmentIndex - 3}`;
 
@@ -113,57 +97,79 @@ function parseLrc(lrcContent: string, lessonNum: string, title: string): LessonD
         segmentIndex++;
     }
 
+    const lessonId = `l${lessonNum}`;
+    const image = GHIBLI_LESSONS.has(lessonId) ? `/images/nce1/${lessonId}/scene1.png` : COMING_SOON_IMAGE;
+
     return {
-        id: `l${lessonNum}`,
+        id: lessonId,
         title: `Lesson ${lessonNum}: ${title}`,
-        audio: `/audio/nce1/${lessonNum.padStart(3, '0')}&${(parseInt(lessonNum) + 1).toString().padStart(3, '0')}－${title.replace(/[?!]/g, '')}.mp3`,
-        image: `/images/nce1/l${lessonNum}/scene1.png`,
+        audio: `/audio/nce1/${audioFileName}`,
+        image,
         segments
     };
 }
 
-// 主函数
 async function main() {
     const audioDir = path.join(process.cwd(), 'public/audio/nce1');
     const outputDir = path.join(process.cwd(), 'src/data/lessons');
+    const curriculumPath = path.join(process.cwd(), 'src/data/curriculum.json');
 
-    // 课程映射
-    const lessons = [
-        { num: '3', title: 'Sorry, Sir.' },
-        { num: '5', title: 'Nice to Meet You.' },
-        { num: '7', title: 'Are You a Teacher' },
-        { num: '9', title: 'How Are You Today' },
-        { num: '131', title: "Don't be So Sure" },
-        { num: '133', title: 'Sensational News' },
-        { num: '135', title: 'The Latest Report' },
-        { num: '137', title: 'A Pleasant Dream' },
-        { num: '139', title: 'Is That You, John' },
-        { num: '141', title: "Sally's First Train Ride" },
-        { num: '143', title: 'A Walk Through the Woods' },
-    ];
+    const files = fs.readdirSync(audioDir);
+    const lrcFiles = files.filter(f => f.endsWith('.lrc'));
 
-    for (const lesson of lessons) {
-        // 查找对应的 LRC 文件
-        const files = fs.readdirSync(audioDir);
-        const searchNum = lesson.num.padStart(3, '0');
-        const lrcFile = files.find(f => f.startsWith(searchNum) && f.endsWith('.lrc'));
+    const curriculum = JSON.parse(fs.readFileSync(curriculumPath, 'utf-8'));
+    const book1 = curriculum.books.find((b: any) => b.id === 'nce1');
 
-        if (!lrcFile) {
-            console.log(`未找到 Lesson ${lesson.num} 的 LRC 文件`);
-            continue;
+    const lessonsData: any[] = [];
+
+    for (const lrcFile of lrcFiles) {
+        const match = lrcFile.match(/^(\d+)&(\d+)－(.+)\.lrc$/);
+        if (!match) continue;
+
+        const lessonNum = parseInt(match[1], 10).toString();
+        const title = match[3].trim();
+        const lessonId = `l${lessonNum}`;
+        const audioFileName = lrcFile.replace('.lrc', '.mp3');
+
+        const outputPath = path.join(outputDir, `${lessonId}.json`);
+
+        let lessonData;
+        if (!fs.existsSync(outputPath)) {
+            const lrcPath = path.join(audioDir, lrcFile);
+            const lrcContent = fs.readFileSync(lrcPath, 'utf-8');
+            lessonData = parseLrc(lrcContent, lessonNum, title, audioFileName);
+            fs.writeFileSync(outputPath, JSON.stringify(lessonData, null, 2), 'utf-8');
+            console.log(`生成新课程: ${lessonId}`);
+        } else {
+            // 如果已存在，读取并根据是否在吉卜力名单中更新图片
+            lessonData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+            const targetImage = GHIBLI_LESSONS.has(lessonId) ? `/images/nce1/${lessonId}/scene1.png` : COMING_SOON_IMAGE;
+            if (lessonData.image !== targetImage) {
+                lessonData.image = targetImage;
+                // 同时更新 segments 中的图片 (如果有)
+                if (lessonData.segments) {
+                    lessonData.segments.forEach((seg: any) => {
+                        if (seg.image) seg.image = targetImage;
+                    });
+                }
+                fs.writeFileSync(outputPath, JSON.stringify(lessonData, null, 2), 'utf-8');
+                console.log(`更新图片路径: ${lessonId}`);
+            }
         }
 
-        const lrcPath = path.join(audioDir, lrcFile);
-        const lrcContent = fs.readFileSync(lrcPath, 'utf-8');
-
-        const lessonData = parseLrc(lrcContent, lesson.num, lesson.title);
-
-        // 写入 JSON 文件
-        const outputPath = path.join(outputDir, `l${lesson.num}.json`);
-        fs.writeFileSync(outputPath, JSON.stringify(lessonData, null, 2), 'utf-8');
-
-        console.log(`已生成: l${lesson.num}.json`);
+        lessonsData.push({
+            id: lessonId,
+            title: `Lesson ${lessonNum}`,
+            subtitle: title,
+            image: lessonData.image
+        });
     }
+
+    // 排序
+    book1.lessons = lessonsData.sort((a, b) => parseInt(a.id.slice(1)) - parseInt(b.id.slice(1)));
+
+    fs.writeFileSync(curriculumPath, JSON.stringify(curriculum, null, 4), 'utf-8');
+    console.log('所有课程同步完成！');
 }
 
 main().catch(console.error);
