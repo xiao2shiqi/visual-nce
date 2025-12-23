@@ -31,27 +31,27 @@ const BOOKS = [
     {
         id: 'nce1',
         title: 'First Things First',
-        subtitle: 'New Concept English 1',
+        subtitle: 'NCE 1',
         description: '英语初阶 - 建立英语基础的关键。',
         level: 'Beginner',
         color: 'from-blue-500 to-cyan-500',
         folder: 'nce1',
-        filenamePattern: /^(\d+)&(\d+)－(.+)\.lrc$/ // NCE1 特殊格式: 001&002
+        filenamePattern: /^(\d+)&(\d+)－(.+)\.lrc$/
     },
     {
         id: 'nce2',
         title: 'Practice and Progress',
-        subtitle: 'New Concept English 2',
+        subtitle: 'NCE 2',
         description: '实践与进步 - 掌握语法规则，提高口语能力。',
         level: 'Pre-Intermediate',
         color: 'from-green-500 to-emerald-500',
         folder: 'nce2',
-        filenamePattern: /^(\d+)－(.+)\.lrc$/ // NCE2-4 格式: 01－Title
+        filenamePattern: /^(\d+)－(.+)\.lrc$/
     },
     {
         id: 'nce3',
         title: 'Developing Skills',
-        subtitle: 'New Concept English 3',
+        subtitle: 'NCE 3',
         description: '培养技能 - 强化阅读与写作，深入语言精髓。',
         level: 'Intermediate',
         color: 'from-yellow-500 to-orange-500',
@@ -61,7 +61,7 @@ const BOOKS = [
     {
         id: 'nce4',
         title: 'Fluency in English',
-        subtitle: 'New Concept English 4',
+        subtitle: 'NCE 4',
         description: '流利英语 - 体会英语文化，达到流利水准。',
         level: 'Advanced',
         color: 'from-purple-500 to-indigo-500',
@@ -257,7 +257,6 @@ async function main() {
         // 更新 curriculum.json 中的 book entry
         let bookEntry = curriculum.books.find((b: any) => b.id === book.id);
         if (!bookEntry) {
-            // 如果 curriculum 中没有这本书，新建
             bookEntry = {
                 id: book.id,
                 title: book.title,
@@ -268,6 +267,13 @@ async function main() {
                 lessons: []
             };
             curriculum.books.push(bookEntry);
+        } else {
+            // Update existing book metadata
+            bookEntry.title = book.title;
+            bookEntry.subtitle = book.subtitle;
+            bookEntry.description = book.description;
+            bookEntry.level = book.level;
+            bookEntry.color = book.color;
         }
 
         // 更新 lessons 列表
