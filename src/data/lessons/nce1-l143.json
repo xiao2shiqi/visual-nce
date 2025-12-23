@@ -12,12 +12,22 @@
       "startTime": 0.95,
       "endTime": 3.86,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 143",
+            "label": "标题/课程编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "143",
+            "pos": "num.",
+            "meaning": "一百四十三"
           }
         ]
       }
@@ -28,7 +38,46 @@
       "text": "A walk through the woods",
       "translation": "在树林中散步",
       "startTime": 3.87,
-      "endTime": 7.32
+      "endTime": 7.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A walk",
+            "label": "名词短语/主语"
+          },
+          {
+            "text": "through the woods",
+            "label": "介词短语/状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一次（不定冠词）"
+          },
+          {
+            "word": "walk",
+            "pos": "n.",
+            "meaning": "散步，步行"
+          },
+          {
+            "word": "through",
+            "pos": "prep.",
+            "meaning": "穿过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "woods",
+            "pos": "n.",
+            "meaning": "树林（wood的复数）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -40,15 +89,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -64,7 +156,15 @@
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/主语"
+          },
+          {
+            "text": "was so funny",
+            "label": "系表结构"
+          },
+          {
+            "text": "about the words on the sign",
+            "label": "状语"
           }
         ],
         "words": [
@@ -72,6 +172,51 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（过去式）"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此，这么"
+          },
+          {
+            "word": "funny",
+            "pos": "adj.",
+            "meaning": "好笑的，滑稽的"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "words",
+            "pos": "n.",
+            "meaning": "文字，单词（word的复数）"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "sign",
+            "pos": "n.",
+            "meaning": "招牌，告示"
           }
         ]
       }
@@ -86,29 +231,79 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "I live in a very old town",
+            "label": "主句"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "which is surrounded by beautiful woods",
+            "label": "定语从句"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "live",
+            "pos": "v.",
+            "meaning": "居住"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
           },
           {
-            "word": "Old",
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "古老的"
           },
           {
-            "word": "Is",
+            "word": "town",
+            "pos": "n.",
+            "meaning": "城镇"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "这（引导定语从句）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "surrounded",
+            "pos": "v.",
+            "meaning": "包围（surround的过去分词）"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "被"
+          },
+          {
+            "word": "beautiful",
+            "pos": "adj.",
+            "meaning": "美丽的"
+          },
+          {
+            "word": "woods",
+            "pos": "n.",
+            "meaning": "树林"
           }
         ]
       }
@@ -124,11 +319,15 @@
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "a famous beauty spot",
+            "label": "表语"
           }
         ],
         "words": [
@@ -138,9 +337,29 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "famous",
+            "pos": "adj.",
+            "meaning": "著名的"
+          },
+          {
+            "word": "beauty",
+            "pos": "n.",
+            "meaning": "美（beauty spot意为景点，风景优美的地方）"
+          },
+          {
+            "word": "spot",
+            "pos": "n.",
+            "meaning": "地点"
           }
         ]
       }
@@ -155,11 +374,119 @@
       "analysis": {
         "grammar": [
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "On Sundays",
+            "label": "时间状语"
+          },
+          {
+            "text": "hundreds of people",
+            "label": "主语"
+          },
+          {
+            "text": "come from the city",
+            "label": "谓语+状语"
+          },
+          {
+            "text": "to see our town and to walk through the woods",
+            "label": "并列的不定式目的状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "On",
+            "pos": "prep.",
+            "meaning": "在（星期几）"
+          },
+          {
+            "word": "Sundays",
+            "pos": "n.",
+            "meaning": "星期日（复数，表每逢星期日）"
+          },
+          {
+            "word": "hundreds",
+            "pos": "num.",
+            "meaning": "数百（hundreds of意为成百上千）"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "city",
+            "pos": "n.",
+            "meaning": "城市"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志，表目的）"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看，参观"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "town",
+            "pos": "n.",
+            "meaning": "城镇"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "walk",
+            "pos": "v.",
+            "meaning": "散步"
+          },
+          {
+            "word": "through",
+            "pos": "prep.",
+            "meaning": "穿过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "woods",
+            "pos": "n.",
+            "meaning": "树林"
+          }
+        ]
       }
     },
     {
@@ -168,7 +495,80 @@
       "text": "Visitors have been asked to keep the woods clean and tidy.",
       "translation": "游客们被要求保持树林的整洁。",
       "startTime": 42.5,
-      "endTime": 49.54
+      "endTime": 49.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Visitors",
+            "label": "主语"
+          },
+          {
+            "text": "have been asked",
+            "label": "现在完成时被动态"
+          },
+          {
+            "text": "to keep the woods clean and tidy",
+            "label": "宾语补足语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Visitors",
+            "pos": "n.",
+            "meaning": "游客（复数）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "（助动词，用于构成完成时）"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "是（be的过去分词）"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "被要求（ask的过去分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "keep",
+            "pos": "v.",
+            "meaning": "保持"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "woods",
+            "pos": "n.",
+            "meaning": "树林"
+          },
+          {
+            "word": "clean",
+            "pos": "adj.",
+            "meaning": "干净的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "tidy",
+            "pos": "adj.",
+            "meaning": "整洁的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -180,11 +580,95 @@
       "analysis": {
         "grammar": [
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "Litter baskets have been placed under the trees",
+            "label": "并列句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "people still throw their rubbish everywhere",
+            "label": "并列句2"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Litter",
+            "pos": "n.",
+            "meaning": "垃圾"
+          },
+          {
+            "word": "baskets",
+            "pos": "n.",
+            "meaning": "篮子（复数，litter basket意为垃圾篓）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "placed",
+            "pos": "v.",
+            "meaning": "放置（place的过去分词）"
+          },
+          {
+            "word": "under",
+            "pos": "prep.",
+            "meaning": "在...下面"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "trees",
+            "pos": "n.",
+            "meaning": "树（复数）"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "throw",
+            "pos": "v.",
+            "meaning": "扔"
+          },
+          {
+            "word": "their",
+            "pos": "pron.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "rubbish",
+            "pos": "n.",
+            "meaning": "垃圾"
+          },
+          {
+            "word": "everywhere",
+            "pos": "adv.",
+            "meaning": "到处"
+          }
+        ]
       }
     },
     {
@@ -193,7 +677,79 @@
       "text": "Last Wednesday, I went for a walk in the woods.",
       "translation": "上周三，我去树林里散步了。",
       "startTime": 58.99,
-      "endTime": 65.5
+      "endTime": 65.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Last Wednesday",
+            "label": "时间状语"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "went for a walk",
+            "label": "谓语/习语"
+          },
+          {
+            "text": "in the woods",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "Wednesday",
+            "pos": "n.",
+            "meaning": "星期三"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "went",
+            "pos": "v.",
+            "meaning": "去（go for a walk意为去散步，此处为过去式）"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一次（不定冠词）"
+          },
+          {
+            "word": "walk",
+            "pos": "n.",
+            "meaning": "散步"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "woods",
+            "pos": "n.",
+            "meaning": "树林"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -205,33 +761,57 @@
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What I saw",
+            "label": "主语从句"
+          },
+          {
+            "text": "made",
+            "label": "谓语/过去时"
           },
           {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "宾语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "very sad",
+            "label": "宾语补足语"
           }
         ],
         "words": [
           {
             "word": "What",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "（引导主语从句的内容）"
           },
           {
-            "word": "Me",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "saw",
+            "pos": "v.",
+            "meaning": "看见（see的过去式）"
+          },
+          {
+            "word": "made",
+            "pos": "v.",
+            "meaning": "使得（make的过去式）"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "sad",
+            "pos": "adj.",
+            "meaning": "悲伤的，难过的"
           }
         ]
       }
@@ -244,12 +824,65 @@
       "startTime": 70.74,
       "endTime": 78.11,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "counted",
+            "label": "谓语/过去时"
+          },
+          {
+            "text": "seven old cars and three old refrigerators",
+            "label": "并列宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Old",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "counted",
+            "pos": "v.",
+            "meaning": "数，点收（count的过去式）"
+          },
+          {
+            "word": "seven",
+            "pos": "num.",
+            "meaning": "七"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "旧的"
+          },
+          {
+            "word": "cars",
+            "pos": "n.",
+            "meaning": "汽车（复数）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "old",
+            "pos": "adj.",
+            "meaning": "旧的"
+          },
+          {
+            "word": "refrigerators",
+            "pos": "n.",
+            "meaning": "电冰箱（复数）"
           }
         ]
       }
@@ -260,7 +893,95 @@
       "text": "The little baskets were empty and the ground was covered with pieces of paper,",
       "translation": "那些小篮子都是空的，地上到处是纸片、",
       "startTime": 78.12,
-      "endTime": 85.79
+      "endTime": 85.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The little baskets were empty",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "the ground was covered with pieces of paper",
+            "label": "并列句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "那（定冠词）"
+          },
+          {
+            "word": "little",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "baskets",
+            "pos": "n.",
+            "meaning": "篮子（复数）"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是（过去式）"
+          },
+          {
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地面"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "被（be covered with意为被...覆盖，此处为过去式）"
+          },
+          {
+            "word": "covered",
+            "pos": "v.",
+            "meaning": "覆盖（cover的过去分词）"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "用"
+          },
+          {
+            "word": "pieces",
+            "pos": "n.",
+            "meaning": "碎片（复数）"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "paper",
+            "pos": "n.",
+            "meaning": "纸"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -270,12 +991,69 @@
       "startTime": 85.8,
       "endTime": 94.48,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "cigarette ends",
+            "label": "名词短语"
+          },
+          {
+            "text": "old tyres",
+            "label": "名词短语"
+          },
+          {
+            "text": "empty bottles",
+            "label": "名词短语"
+          },
+          {
+            "text": "rusty tins",
+            "label": "名词短语"
+          }
+        ],
         "words": [
           {
-            "word": "Old",
+            "word": "cigarette",
+            "pos": "n.",
+            "meaning": "香烟"
+          },
+          {
+            "word": "ends",
+            "pos": "n.",
+            "meaning": "尽头（此处指烟蒂）"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "旧的"
+          },
+          {
+            "word": "tyres",
+            "pos": "n.",
+            "meaning": "轮胎（复数）"
+          },
+          {
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
+          },
+          {
+            "word": "bottles",
+            "pos": "n.",
+            "meaning": "瓶子（复数）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "rusty",
+            "pos": "adj.",
+            "meaning": "生了锈的"
+          },
+          {
+            "word": "tins",
+            "pos": "n.",
+            "meaning": "罐头（复数）"
           }
         ]
       }
@@ -290,11 +1068,119 @@
       "analysis": {
         "grammar": [
           {
-            "text": "will",
-            "label": "助动词"
+            "text": "Among the rubbish",
+            "label": "地点状语"
+          },
+          {
+            "text": "I found a sign",
+            "label": "主句"
+          },
+          {
+            "text": "which said",
+            "label": "定语从句"
+          },
+          {
+            "text": "'Anyone who leaves litter in these woods will be prosecuted!'",
+            "label": "直接引语/从句内容"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Among",
+            "pos": "prep.",
+            "meaning": "在...之中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "rubbish",
+            "pos": "n.",
+            "meaning": "垃圾"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现（find的过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "sign",
+            "pos": "n.",
+            "meaning": "告示，标志"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "这（引导定语从句）"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "写着，说（此处指文字内容，过去式）"
+          },
+          {
+            "word": "Anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "谁（引导定语从句）"
+          },
+          {
+            "word": "leaves",
+            "pos": "v.",
+            "meaning": "留下（此处指乱扔垃圾，第三人称单数）"
+          },
+          {
+            "word": "litter",
+            "pos": "n.",
+            "meaning": "垃圾"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "these",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "woods",
+            "pos": "n.",
+            "meaning": "树林"
+          },
+          {
+            "word": "will",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "被"
+          },
+          {
+            "word": "prosecuted",
+            "pos": "v.",
+            "meaning": "起诉，被追究法律责任（prosecute的过去分词）"
+          }
+        ]
       }
     }
   ]

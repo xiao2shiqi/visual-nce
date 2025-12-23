@@ -12,12 +12,22 @@
       "startTime": 0.63,
       "endTime": 3.45,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 141",
+            "label": "标题/课程编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "141",
+            "pos": "num.",
+            "meaning": "一百四十一"
           }
         ]
       }
@@ -28,7 +38,46 @@
       "text": "Sally's first train ride",
       "translation": "莎莉的第一次火车旅行",
       "startTime": 3.46,
-      "endTime": 7.63
+      "endTime": 7.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Sally's",
+            "label": "名词所有格"
+          },
+          {
+            "text": "first train ride",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉（女子名）"
+          },
+          {
+            "word": "'s",
+            "pos": "suffix",
+            "meaning": "的（所有格标志）"
+          },
+          {
+            "word": "first",
+            "pos": "adj.",
+            "meaning": "第一，第一次的"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          },
+          {
+            "word": "ride",
+            "pos": "n.",
+            "meaning": "乘坐，旅程"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -40,15 +89,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -59,7 +151,54 @@
       "text": "Why was the mother embarrassed?",
       "translation": "为什么那位母亲感到尴尬？",
       "startTime": 13.15,
-      "endTime": 17.9
+      "endTime": 17.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Why",
+            "label": "疑问词/状语"
+          },
+          {
+            "text": "was",
+            "label": "系动词/过去时"
+          },
+          {
+            "text": "the mother",
+            "label": "主语"
+          },
+          {
+            "text": "embarrassed",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "mother",
+            "pos": "n.",
+            "meaning": "母亲"
+          },
+          {
+            "word": "embarrassed",
+            "pos": "adj.",
+            "meaning": "尴尬的，难为情的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -71,20 +210,87 @@
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "Last week",
+            "label": "时间状语"
+          },
+          {
+            "text": "my four-year-old daughter, Sally",
+            "label": "主语（同位语）"
+          },
+          {
+            "text": "was invited to",
+            "label": "被动态/过去时"
+          },
+          {
+            "text": "a children's party",
+            "label": "状语/地点"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "Last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "周"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "Daughter",
+            "word": "four-year-old",
+            "pos": "adj.",
+            "meaning": "四岁的"
+          },
+          {
+            "word": "daughter",
             "pos": "n.",
             "meaning": "女儿"
+          },
+          {
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉（女子名）"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "被"
+          },
+          {
+            "word": "invited",
+            "pos": "v.",
+            "meaning": "邀请（invite的过去分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "参加，到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子们（child的复数）"
+          },
+          {
+            "word": "'s",
+            "pos": "suffix",
+            "meaning": "的（所有格）"
+          },
+          {
+            "word": "party",
+            "pos": "n.",
+            "meaning": "聚会，派对"
           }
         ]
       }
@@ -99,11 +305,59 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "decided",
+            "label": "谓语/过去时"
+          },
+          {
+            "text": "to take her",
+            "label": "不定式/宾语"
+          },
+          {
+            "text": "by train",
+            "label": "方式状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "decided",
+            "pos": "v.",
+            "meaning": "决定（decide的过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "take",
+            "pos": "v.",
+            "meaning": "带"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她（宾格）"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "乘坐"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          }
+        ]
       }
     },
     {
@@ -116,15 +370,83 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "Sally",
+            "label": "主语"
+          },
+          {
+            "text": "was very excited",
+            "label": "系表结构"
+          },
+          {
+            "text": "because she had never travelled on a train before",
+            "label": "原因状语从句"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉（女子名）"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "excited",
+            "pos": "adj.",
+            "meaning": "兴奋的"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "曾/已经（与traveller构成过去完成时）"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不，从未"
+          },
+          {
+            "word": "travelled",
+            "pos": "v.",
+            "meaning": "旅行（travel的过去分词）"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一列（不定冠词）"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          },
+          {
+            "word": "before",
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }
@@ -135,7 +457,89 @@
       "text": "She sat near the window and asked questions about everything she saw.",
       "translation": "她坐在窗边，对看到的一切都充满了好奇，不停地提问。",
       "startTime": 39.52,
-      "endTime": 48.08
+      "endTime": 48.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "sat near the window",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "asked questions about everything she saw",
+            "label": "并列句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "sat",
+            "pos": "v.",
+            "meaning": "坐（sit的过去式）"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "window",
+            "pos": "n.",
+            "meaning": "窗子"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "问（ask的过去式）"
+          },
+          {
+            "word": "questions",
+            "pos": "n.",
+            "meaning": "问题（复数）"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "everything",
+            "pos": "pron.",
+            "meaning": "一切"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "saw",
+            "pos": "v.",
+            "meaning": "看见（see的过去式）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -143,7 +547,93 @@
       "text": "Suddenly, a middle-age lady got on the train and sat opposite Sally.",
       "translation": "突然，一位中年女士上了火车，坐在莎莉的对面。",
       "startTime": 48.09,
-      "endTime": 58.14
+      "endTime": 58.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Suddenly",
+            "label": "状语"
+          },
+          {
+            "text": "a middle-age lady",
+            "label": "主语"
+          },
+          {
+            "text": "got on the train",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "sat opposite Sally",
+            "label": "并列句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "Suddenly",
+            "pos": "adv.",
+            "meaning": "突然"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "middle-age",
+            "pos": "adj.",
+            "meaning": "中年的"
+          },
+          {
+            "word": "lady",
+            "pos": "n.",
+            "meaning": "女士"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "得到（get on意为上车，此处为过去式）"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "sat",
+            "pos": "v.",
+            "meaning": "坐（sit的过去式）"
+          },
+          {
+            "word": "opposite",
+            "pos": "prep.",
+            "meaning": "在...对面"
+          },
+          {
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉（女子名）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -151,7 +641,46 @@
       "text": "'Hello, little girl,' she said.",
       "translation": "“你好，小姑娘，”女士说道。",
       "startTime": 58.15,
-      "endTime": 62.41
+      "endTime": 62.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "'Hello, little girl'",
+            "label": "直接引语"
+          },
+          {
+            "text": "she said",
+            "label": "主句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hello",
+            "pos": "int.",
+            "meaning": "你好"
+          },
+          {
+            "word": "little",
+            "pos": "adj.",
+            "meaning": "幼小的"
+          },
+          {
+            "word": "girl",
+            "pos": "n.",
+            "meaning": "女孩"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说（say的过去式）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -163,20 +692,67 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "Sally",
+            "label": "主语"
+          },
+          {
+            "text": "did not answer",
+            "label": "并列句1/否定"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "looked at her curiously",
+            "label": "并列句2"
           }
         ],
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉（女子名）"
           },
           {
-            "word": "At",
+            "word": "did",
+            "pos": "v.",
+            "meaning": "（助动词，用于过去时否定）"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "looked",
+            "pos": "v.",
+            "meaning": "看（look at意为盯着看，此处为过去式）"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "对着"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她（宾格）"
+          },
+          {
+            "word": "curiously",
+            "pos": "adv.",
+            "meaning": "好奇地"
           }
         ]
       }
@@ -191,20 +767,83 @@
       "analysis": {
         "grammar": [
           {
-            "text": "coat",
-            "label": "名词"
+            "text": "The lady",
+            "label": "主语"
+          },
+          {
+            "text": "was dressed in",
+            "label": "系表结构/习惯搭配"
+          },
+          {
+            "text": "a blue coat and a large, funny hat",
+            "label": "宾语/状语"
           }
         ],
         "words": [
           {
-            "word": "Blue",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "那（定冠词）"
+          },
+          {
+            "word": "lady",
+            "pos": "n.",
+            "meaning": "女士"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（be dressed in意为穿着）"
+          },
+          {
+            "word": "dressed",
+            "pos": "adj.",
+            "meaning": "穿着...的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里（此指衣物中）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一件（不定冠词）"
+          },
+          {
+            "word": "blue",
             "pos": "adj.",
             "meaning": "蓝色的"
           },
           {
-            "word": "Coat",
+            "word": "coat",
             "pos": "n.",
-            "meaning": "上衣，大衣"
+            "meaning": "大衣，外套"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一顶（不定冠词）"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "funny",
+            "pos": "adj.",
+            "meaning": "滑稽的，有趣的"
+          },
+          {
+            "word": "hat",
+            "pos": "n.",
+            "meaning": "帽子"
           }
         ]
       }
@@ -219,19 +858,116 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "After the train had left the station",
+            "label": "时间状语从句"
           },
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "the lady",
+            "label": "主语"
+          },
+          {
+            "text": "opened her handbag",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "took out her powder compact",
+            "label": "并列句2"
           }
         ],
         "words": [
           {
-            "word": "Handbag",
+            "word": "After",
+            "pos": "conj.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "train",
             "pos": "n.",
-            "meaning": "（女用）手提包"
+            "meaning": "火车"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "曾（与left构成过去完成时）"
+          },
+          {
+            "word": "left",
+            "pos": "v.",
+            "meaning": "离开（leave的过去分词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "station",
+            "pos": "n.",
+            "meaning": "站，火车站"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那（定冠词）"
+          },
+          {
+            "word": "lady",
+            "pos": "n.",
+            "meaning": "女士"
+          },
+          {
+            "word": "opened",
+            "pos": "v.",
+            "meaning": "打开（open的过去式）"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "handbag",
+            "pos": "n.",
+            "meaning": "手提包"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "took",
+            "pos": "v.",
+            "meaning": "拿（take out意为拿出，此处为过去式）"
+          },
+          {
+            "word": "out",
+            "pos": "adv.",
+            "meaning": "出，向外"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "powder",
+            "pos": "n.",
+            "meaning": "粉末"
+          },
+          {
+            "word": "compact",
+            "pos": "n.",
+            "meaning": "带粉扑和镜子的粉盒"
           }
         ]
       }
@@ -246,11 +982,60 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "then",
+            "label": "状语"
+          },
+          {
+            "text": "began to make up her face",
+            "label": "谓语/不定式"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "began",
+            "pos": "v.",
+            "meaning": "开始（begin的过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "做（make up意为化妆）"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "face",
+            "pos": "n.",
+            "meaning": "脸"
+          }
+        ]
       }
     },
     {
@@ -263,24 +1048,49 @@
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "'Why are you doing that?'",
+            "label": "直接引语/现在进行时"
           },
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "Sally asked",
+            "label": "主句"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
           },
           {
-            "word": "That",
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "你"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做（do的现在分词）"
+          },
+          {
+            "word": "that",
+            "pos": "pron.",
+            "meaning": "那，那个（指化妆这件事）"
+          },
+          {
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉（女子名）"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "问（ask的过去式）"
           }
         ]
       }
@@ -291,7 +1101,56 @@
       "text": "'To make myself beautiful,' the lady answered.",
       "translation": "“为了让自己变得更美丽，”那位女士回答道。",
       "startTime": 97.49,
-      "endTime": 103.3
+      "endTime": 103.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "'To make myself beautiful'",
+            "label": "直接引语/不定式表目的"
+          },
+          {
+            "text": "the lady answered",
+            "label": "主句"
+          }
+        ],
+        "words": [
+          {
+            "word": "To",
+            "pos": "prep.",
+            "meaning": "（不定式标志，表目的）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "使得"
+          },
+          {
+            "word": "myself",
+            "pos": "pron.",
+            "meaning": "我自己"
+          },
+          {
+            "word": "beautiful",
+            "pos": "adj.",
+            "meaning": "美丽的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "lady",
+            "pos": "n.",
+            "meaning": "女士"
+          },
+          {
+            "word": "answered",
+            "pos": "v.",
+            "meaning": "回答（answer的过去式）"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -303,11 +1162,64 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "put away her compact",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "smiled kindly",
+            "label": "并列句2"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "put",
+            "pos": "v.",
+            "meaning": "放（put away意为收起来，此处为过去式）"
+          },
+          {
+            "word": "away",
+            "pos": "adv.",
+            "meaning": "离开，去处"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "compact",
+            "pos": "n.",
+            "meaning": "粉盒"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "smiled",
+            "pos": "v.",
+            "meaning": "微笑（smile的过去式）"
+          },
+          {
+            "word": "kindly",
+            "pos": "adv.",
+            "meaning": "亲切地，友善地"
+          }
+        ]
       }
     },
     {
@@ -320,15 +1232,49 @@
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "'But you are still ugly'",
+            "label": "直接引语"
+          },
+          {
+            "text": "Sally said",
+            "label": "主句"
           }
         ],
         "words": [
           {
-            "word": "You",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "ugly",
+            "pos": "adj.",
+            "meaning": "丑陋的，难看的"
+          },
+          {
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -343,15 +1289,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "Sally was amused",
+            "label": "并列句1/系表结构"
+          },
+          {
+            "text": "but",
+            "label": "转折连词"
+          },
+          {
+            "text": "I was very embarrassed",
+            "label": "并列句2/系表结构"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "莎莉"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "amused",
+            "pos": "adj.",
+            "meaning": "觉得有趣的，被逗乐的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "embarrassed",
+            "pos": "adj.",
+            "meaning": "尴尬的，窘迫的"
           }
         ]
       }
