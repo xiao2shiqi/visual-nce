@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+
 import type { Segment } from '../types/lesson';
 
 const props = defineProps<{

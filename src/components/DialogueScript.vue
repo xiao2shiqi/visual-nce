@@ -25,7 +25,7 @@ const emit = defineEmits([
   'segmentClick'
 ]);
 
-const expandedSegmentId = ref<string | null>(null);
+
 const activeAnalysisSegment = ref<Segment | null>(null);
 
 const toggleAnalysis = (segment: Segment, event: Event) => {
