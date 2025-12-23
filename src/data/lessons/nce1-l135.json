@@ -12,12 +12,22 @@
       "startTime": 0.9,
       "endTime": 3.72,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 135",
+            "label": "标题/课程编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "135",
+            "pos": "num.",
+            "meaning": "一百三十五"
           }
         ]
       }
@@ -28,7 +38,32 @@
       "text": "The latest report",
       "translation": "最新报告",
       "startTime": 3.73,
-      "endTime": 6.81
+      "endTime": 6.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The latest report",
+            "label": "名词短语/标题"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "latest",
+            "pos": "adj.",
+            "meaning": "最新的（late的最高级）"
+          },
+          {
+            "word": "report",
+            "pos": "n.",
+            "meaning": "报告，报道"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -40,15 +75,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -63,20 +141,59 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Is",
-            "label": "谓语/系动词"
+            "text": "Is Karen Marsh going to retire",
+            "label": "主句/一般疑问"
+          },
+          {
+            "text": "do you think",
+            "label": "插入语"
           }
         ],
         "words": [
           {
             "word": "Is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "是（be动词）"
           },
           {
-            "word": "You",
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦（女子名）"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "retire",
+            "pos": "v.",
+            "meaning": "退休"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为，觉得"
           }
         ]
       }
@@ -91,15 +208,54 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Are",
-            "label": "谓语/系动词"
+            "text": "Are you really going to retire",
+            "label": "谓语/将来时疑问"
+          },
+          {
+            "text": "Miss Marsh",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "You",
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是（be动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "您"
+          },
+          {
+            "word": "really",
+            "pos": "adv.",
+            "meaning": "真的"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "retire",
+            "pos": "v.",
+            "meaning": "退休"
+          },
+          {
+            "word": "Miss",
+            "pos": "n.",
+            "meaning": "小姐"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
           }
         ]
       }
@@ -114,11 +270,26 @@
       "analysis": {
         "grammar": [
           {
+            "text": "I",
+            "label": "主语"
+          },
+          {
             "text": "may",
-            "label": "情态动词"
+            "label": "谓语/情态动词"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "may",
+            "pos": "modal v.",
+            "meaning": "可能"
+          }
+        ]
       }
     },
     {
@@ -131,15 +302,48 @@
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "can't make up",
+            "label": "谓语/情态动词否定"
+          },
+          {
+            "text": "my mind",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "modal v.",
+            "meaning": "不能（cannot的缩写）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "做（make up one's mind意为下定决心）"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来（与make组成短语）"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "mind",
+            "pos": "n.",
+            "meaning": "主意，想法"
           }
         ]
       }
@@ -154,15 +358,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "will have to ask",
+            "label": "谓语/将来时+have to"
+          },
+          {
+            "text": "my future husband",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "will",
+            "pos": "modal v.",
+            "meaning": "将（表示将来）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "必须（have to意为不得不）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "ask",
+            "pos": "v.",
+            "meaning": "问，询问"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "future",
+            "pos": "adj.",
+            "meaning": "未来的"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫（future husband意为未婚夫）"
           }
         ]
       }
@@ -177,15 +424,57 @@
       "analysis": {
         "grammar": [
           {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "won't let",
+            "label": "谓语否定"
+          },
+          {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "宾语"
+          },
+          {
+            "text": "make another film",
+            "label": "宾语补足语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "won't",
+            "pos": "modal v.",
+            "meaning": "不会（will not的缩写）"
+          },
+          {
+            "word": "let",
+            "pos": "v.",
+            "meaning": "让，允许"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "制作，拍摄"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一部"
+          },
+          {
+            "word": "film",
+            "pos": "n.",
+            "meaning": "电影"
           }
         ]
       }
@@ -200,15 +489,39 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Your",
-            "label": "形容词性物主代词"
+            "text": "Your future husband",
+            "label": "名词短语/省略句"
+          },
+          {
+            "text": "Miss Marsh",
+            "label": "呼语"
           }
         ],
         "words": [
           {
             "word": "Your",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "您的"
+          },
+          {
+            "word": "future",
+            "pos": "adj.",
+            "meaning": "未来的"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          },
+          {
+            "word": "Miss",
+            "pos": "n.",
+            "meaning": "小姐"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
           }
         ]
       }
@@ -221,7 +534,12 @@
       "startTime": 39.99,
       "endTime": 41.15,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -241,20 +559,48 @@
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Let me introduce",
+            "label": "祈使句"
+          },
+          {
+            "text": "him",
+            "label": "宾语"
+          },
+          {
+            "text": "to you",
+            "label": "介词短语/间接宾语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "Let",
+            "pos": "v.",
+            "meaning": "让"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "You",
+            "word": "introduce",
+            "pos": "v.",
+            "meaning": "介绍"
+          },
+          {
+            "word": "him",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "他（宾格）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "给，向"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -269,24 +615,38 @@
       "analysis": {
         "grammar": [
           {
-            "text": "His",
-            "label": "形容词性物主代词"
+            "text": "His name",
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Carlos",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Name",
+            "word": "His",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "name",
             "pos": "n.",
             "meaning": "名字"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "Carlos",
+            "pos": "n.",
+            "meaning": "卡洛斯（男子名）"
           }
         ]
       }
@@ -297,7 +657,65 @@
       "text": "We're going to get married next week.",
       "translation": "我们下周就要结婚了。",
       "startTime": 47.66,
-      "endTime": 52.99
+      "endTime": 52.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'re going to get married",
+            "label": "谓语/将来时"
+          },
+          {
+            "text": "next week",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是（are的缩写）"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "变得（get married意为结婚）"
+          },
+          {
+            "word": "married",
+            "pos": "adj.",
+            "meaning": "已婚的"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "周"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -307,12 +725,26 @@
       "startTime": 53,
       "endTime": 54.65,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Look",
+            "label": "祈使句"
+          },
+          {
+            "text": "Liz",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Look",
             "pos": "v.",
             "meaning": "看"
+          },
+          {
+            "word": "Liz",
+            "pos": "n.",
+            "meaning": "莉兹（女子名）"
           }
         ]
       }
@@ -323,15 +755,111 @@
       "text": "Here's another report about Karen Marsh.",
       "translation": "这是另一份关于凯伦·马什的报告。",
       "startTime": 54.66,
-      "endTime": 59.21
+      "endTime": 59.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Here",
+            "label": "引导词"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "another report",
+            "label": "主语"
+          },
+          {
+            "text": "about Karen Marsh",
+            "label": "后置定语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这儿"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一份"
+          },
+          {
+            "word": "report",
+            "pos": "n.",
+            "meaning": "报告，报道"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦（女子名）"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Narrator",
       "text": "Listen: 'Karen Marsh: The latest.",
-      "translation": "听着：“凯伦·马什：最新消息。”",
+      "translation": "听着：凯伦·马什：最新消息。",
       "startTime": 59.22,
-      "endTime": 64.65
+      "endTime": 64.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Listen",
+            "label": "祈使句"
+          },
+          {
+            "text": "Karen Marsh: The latest",
+            "label": "标题"
+          }
+        ],
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦（女子名）"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
+          },
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "latest",
+            "pos": "n.",
+            "meaning": "最新消息"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -343,20 +871,86 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "At her London Hotel today",
+            "label": "地点+时间状语"
+          },
+          {
+            "text": "Miss Marsh",
+            "label": "主语"
+          },
+          {
+            "text": "told",
+            "label": "谓语"
+          },
+          {
+            "text": "reporters",
+            "label": "间接宾语"
+          },
+          {
+            "text": "she might retire",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
           },
           {
-            "word": "Today",
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          },
+          {
+            "word": "Hotel",
+            "pos": "n.",
+            "meaning": "酒店"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
+          },
+          {
+            "word": "Miss",
+            "pos": "n.",
+            "meaning": "小姐"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉（tell的过去式）"
+          },
+          {
+            "word": "reporters",
+            "pos": "n.",
+            "meaning": "记者们"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "might",
+            "pos": "modal v.",
+            "meaning": "可能（may的过去式）"
+          },
+          {
+            "word": "retire",
+            "pos": "v.",
+            "meaning": "退休"
           }
         ]
       }
@@ -371,11 +965,60 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "said",
+            "label": "谓语"
+          },
+          {
+            "text": "she couldn't make up her mind",
+            "label": "宾语从句"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说（say的过去式）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "couldn't",
+            "pos": "modal v.",
+            "meaning": "不能（could not的缩写）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "做（make up one's mind意为下定决心）"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "mind",
+            "pos": "n.",
+            "meaning": "主意"
+          }
+        ]
       }
     },
     {
@@ -388,11 +1031,70 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "said",
+            "label": "谓语"
+          },
+          {
+            "text": "she would have to ask her future husband",
+            "label": "宾语从句"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "would",
+            "pos": "modal v.",
+            "meaning": "将会（will的过去式）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "ask",
+            "pos": "v.",
+            "meaning": "问，询问"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "future",
+            "pos": "adj.",
+            "meaning": "未来的"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          }
+        ]
       }
     },
     {
@@ -405,19 +1107,78 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "She",
+            "label": "主语"
           },
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "said",
+            "label": "谓语"
+          },
+          {
+            "text": "her future husband would not let her make another film",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "Not",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "future",
+            "pos": "adj.",
+            "meaning": "未来的"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          },
+          {
+            "word": "would",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "let",
+            "pos": "v.",
+            "meaning": "让，允许"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她（宾格）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "制作，拍摄"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一部"
+          },
+          {
+            "word": "film",
+            "pos": "n.",
+            "meaning": "电影"
           }
         ]
       }
@@ -428,7 +1189,104 @@
       "text": "Then she introduced us to Carlos and told us they would get married next week.'",
       "translation": "然后她把我们介绍给了卡洛斯，并告诉我们他们下周就要结婚了。",
       "startTime": 92.03,
-      "endTime": 101.86
+      "endTime": 101.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Then",
+            "label": "连接词"
+          },
+          {
+            "text": "she introduced us to Carlos",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "told us they would get married next week",
+            "label": "并列句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "introduced",
+            "pos": "v.",
+            "meaning": "介绍（introduce的过去式）"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们（宾格）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "给，向"
+          },
+          {
+            "word": "Carlos",
+            "pos": "n.",
+            "meaning": "卡洛斯（男子名）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉（tell的过去式）"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们（宾格）"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "would",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "变得（get married意为结婚）"
+          },
+          {
+            "word": "married",
+            "pos": "adj.",
+            "meaning": "已婚的"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "周"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -440,15 +1298,61 @@
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "sensational news",
+            "label": "表语"
+          },
+          {
+            "text": "isn't it",
+            "label": "反意疑问"
+          },
+          {
+            "text": "Kate",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "sensational",
+            "pos": "adj.",
+            "meaning": "轰动的，耸人听闻的"
+          },
+          {
+            "word": "news",
+            "pos": "n.",
+            "meaning": "新闻，消息"
+          },
+          {
+            "word": "isn't",
+            "pos": "v.",
+            "meaning": "不是（is not的缩写）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "Kate",
+            "pos": "n.",
+            "meaning": "凯特（女子名）"
           }
         ]
       }
@@ -464,21 +1368,30 @@
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
+          },
+          {
+            "text": "certainly",
+            "label": "状语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指这则消息）"
           },
           {
-            "word": "Is",
+            "word": "certainly",
+            "pos": "adv.",
+            "meaning": "确实，当然"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -495,11 +1408,50 @@
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'ll be",
+            "label": "谓语/将来时"
+          },
+          {
+            "text": "her sixth husband",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会（will的缩写）"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是，成为"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "sixth",
+            "pos": "num.",
+            "meaning": "第六"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          }
+        ]
       }
     }
   ]

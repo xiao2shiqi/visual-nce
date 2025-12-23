@@ -12,12 +12,22 @@
       "startTime": 0.78,
       "endTime": 3.57,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 133",
+            "label": "标题/课程编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "133",
+            "pos": "num.",
+            "meaning": "一百三十三"
           }
         ]
       }
@@ -28,7 +38,27 @@
       "text": "Sensational news!",
       "translation": "惊人的新闻！",
       "startTime": 3.58,
-      "endTime": 6.86
+      "endTime": 6.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Sensational news",
+            "label": "感叹句/名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Sensational",
+            "pos": "adj.",
+            "meaning": "轰动的，耸人听闻的"
+          },
+          {
+            "word": "news",
+            "pos": "n.",
+            "meaning": "新闻，消息"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -40,15 +70,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -63,15 +136,68 @@
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What reasons",
+            "label": "宾语/疑问词+名词"
+          },
+          {
+            "text": "did Karen Marsh give",
+            "label": "谓语/一般过去时疑问"
+          },
+          {
+            "text": "for wanting to retire",
+            "label": "目的状语"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
+          },
+          {
+            "word": "reasons",
+            "pos": "n.",
+            "meaning": "理由（复数）"
+          },
+          {
+            "word": "did",
+            "pos": "v.",
+            "meaning": "（助动词，构成过去时疑问）"
+          },
+          {
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦（女子名）"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给出，提供"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "wanting",
+            "pos": "v.",
+            "meaning": "想要（want的现在分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "retire",
+            "pos": "v.",
+            "meaning": "退休"
           }
         ]
       }
@@ -84,12 +210,65 @@
       "startTime": 20.87,
       "endTime": 25.33,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Have you just made",
+            "label": "谓语/现在完成时疑问"
+          },
+          {
+            "text": "a new film",
+            "label": "宾语"
+          },
+          {
+            "text": "Miss Marsh",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Have",
+            "pos": "v.",
+            "meaning": "（助动词，构成完成时）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "您"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "made",
+            "pos": "v.",
+            "meaning": "制作（make的过去分词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一部（不定冠词）"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "film",
+            "pos": "n.",
+            "meaning": "电影"
+          },
+          {
+            "word": "Miss",
+            "pos": "n.",
+            "meaning": "小姐（对未婚女性的称呼）"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
           }
         ]
       }
@@ -102,12 +281,31 @@
       "startTime": 25.34,
       "endTime": 28.09,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "I have",
+            "label": "简略回答/现在完成时"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "（助动词，表示完成）"
           }
         ]
       }
@@ -122,15 +320,44 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Are",
-            "label": "谓语/系动词"
+            "text": "Are you going to make",
+            "label": "谓语/将来时疑问"
+          },
+          {
+            "text": "another",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "You",
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是（be动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "您"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "制作，拍摄"
+          },
+          {
+            "word": "another",
+            "pos": "pron.",
+            "meaning": "另一个，再一部"
           }
         ]
       }
@@ -143,12 +370,36 @@
       "startTime": 30.85,
       "endTime": 33.15,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "I'm not",
+            "label": "简略否定"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "No",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
           }
         ]
       }
@@ -159,7 +410,46 @@
       "text": "I'm going to retire.",
       "translation": "我打算退休了。",
       "startTime": 33.16,
-      "endTime": 36.16
+      "endTime": 36.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m going to retire",
+            "label": "谓语/将来时"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "retire",
+            "pos": "v.",
+            "meaning": "退休"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -171,20 +461,38 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "feel",
+            "label": "系动词"
+          },
+          {
+            "text": "very tired",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
           },
           {
-            "word": "Tired",
+            "word": "feel",
+            "pos": "v.",
+            "meaning": "感到，觉得"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "tired",
             "pos": "adj.",
-            "meaning": "疲劳的"
+            "meaning": "疲倦的，累的"
           }
         ]
       }
@@ -195,7 +503,84 @@
       "text": "I don't want to make another film for a long time.",
       "translation": "我很长时间都不想再拍电影了。",
       "startTime": 39.16,
-      "endTime": 46.45
+      "endTime": 46.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't want",
+            "label": "谓语否定"
+          },
+          {
+            "text": "to make another film",
+            "label": "宾语/不定式短语"
+          },
+          {
+            "text": "for a long time",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.",
+            "meaning": "不（do not的缩写）"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "制作，拍摄"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一部"
+          },
+          {
+            "word": "film",
+            "pos": "n.",
+            "meaning": "电影"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "持续（一段时间）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一段（不定冠词）"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -203,7 +588,50 @@
       "text": "Let's buy a newspaper, Liz.",
       "translation": "我们买份报纸吧，莉兹。",
       "startTime": 46.46,
-      "endTime": 50.27
+      "endTime": 50.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Let's buy",
+            "label": "祈使句/建议"
+          },
+          {
+            "text": "a newspaper",
+            "label": "宾语"
+          },
+          {
+            "text": "Liz",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Let's",
+            "pos": "v.",
+            "meaning": "让我们（let us的缩写）"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一份（不定冠词）"
+          },
+          {
+            "word": "newspaper",
+            "pos": "n.",
+            "meaning": "报纸"
+          },
+          {
+            "word": "Liz",
+            "pos": "n.",
+            "meaning": "莉兹（女子名）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -215,15 +643,29 @@
       "analysis": {
         "grammar": [
           {
+            "text": "Listen to",
+            "label": "谓语/祈使句"
+          },
+          {
             "text": "this",
-            "label": "指示代词"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "This",
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这个"
           }
         ]
       }
@@ -234,7 +676,41 @@
       "text": "'Karen Marsh: Sensational News!",
       "translation": "凯伦·马什：轰动性新闻！",
       "startTime": 52.8,
-      "endTime": 57.44
+      "endTime": 57.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Karen Marsh",
+            "label": "标题/人名"
+          },
+          {
+            "text": "Sensational News",
+            "label": "标题/名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦（女子名）"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
+          },
+          {
+            "word": "Sensational",
+            "pos": "adj.",
+            "meaning": "轰动的，耸人听闻的"
+          },
+          {
+            "word": "News",
+            "pos": "n.",
+            "meaning": "新闻"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -246,11 +722,41 @@
       "analysis": {
         "grammar": [
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "By our reporter",
+            "label": "介词短语/作者署名"
+          },
+          {
+            "text": "Alan Jones",
+            "label": "同位语/人名"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "By",
+            "pos": "prep.",
+            "meaning": "由，通过"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的（指报社的）"
+          },
+          {
+            "word": "reporter",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
+            "word": "Alan",
+            "pos": "n.",
+            "meaning": "艾伦（男子名）"
+          },
+          {
+            "word": "Jones",
+            "pos": "n.",
+            "meaning": "琼斯（姓氏）"
+          }
+        ]
       }
     },
     {
@@ -261,15 +767,57 @@
       "startTime": 62.26,
       "endTime": 67.84,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "text": "Karen Marsh",
+            "label": "主语"
           },
           {
-            "word": "Today",
+            "text": "arrived",
+            "label": "谓语/过去时"
+          },
+          {
+            "text": "at London Airport",
+            "label": "地点状语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦（女子名）"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什（姓氏）"
+          },
+          {
+            "word": "arrived",
+            "pos": "v.",
+            "meaning": "到达（arrive的过去式）"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在（小地点）"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          },
+          {
+            "word": "Airport",
+            "pos": "n.",
+            "meaning": "机场"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           }
@@ -286,29 +834,68 @@
       "analysis": {
         "grammar": [
           {
-            "text": "dress",
-            "label": "名词"
+            "text": "She",
+            "label": "主语"
           },
           {
-            "text": "coat",
-            "label": "名词"
+            "text": "was wearing",
+            "label": "谓语/过去进行时"
+          },
+          {
+            "text": "a blue dress and a mink coat",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Blue",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（be动词过去式）"
+          },
+          {
+            "word": "wearing",
+            "pos": "v.",
+            "meaning": "穿着（wear的现在分词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一条（不定冠词）"
+          },
+          {
+            "word": "blue",
             "pos": "adj.",
             "meaning": "蓝色的"
           },
           {
-            "word": "Dress",
+            "word": "dress",
             "pos": "n.",
             "meaning": "连衣裙"
           },
           {
-            "word": "Coat",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一件（不定冠词）"
+          },
+          {
+            "word": "mink",
             "pos": "n.",
-            "meaning": "上衣，大衣"
+            "meaning": "貂皮"
+          },
+          {
+            "word": "coat",
+            "pos": "n.",
+            "meaning": "大衣，外套"
           }
         ]
       }
@@ -323,15 +910,72 @@
       "analysis": {
         "grammar": [
           {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "told",
+            "label": "谓语"
+          },
+          {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "间接宾语"
+          },
+          {
+            "text": "she had just made a new film",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉（tell的过去式）"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "（助动词，构成过去完成时）"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "made",
+            "pos": "v.",
+            "meaning": "制作（make的过去分词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一部（不定冠词）"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "film",
+            "pos": "n.",
+            "meaning": "电影"
           }
         ]
       }
@@ -344,12 +988,65 @@
       "startTime": 79.7,
       "endTime": 85.89,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "said",
+            "label": "谓语"
+          },
+          {
+            "text": "she was not going to make another",
+            "label": "宾语从句"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说（say的过去式）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（be动词过去式）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "制作，拍摄"
+          },
+          {
+            "word": "another",
+            "pos": "pron.",
+            "meaning": "另一部"
           }
         ]
       }
@@ -360,7 +1057,60 @@
       "text": "She said she was going to retire.",
       "translation": "她说她打算退休了。",
       "startTime": 85.9,
-      "endTime": 90.49
+      "endTime": 90.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "said",
+            "label": "谓语"
+          },
+          {
+            "text": "she was going to retire",
+            "label": "宾语从句"
+          }
+        ],
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说（say的过去式）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（be动词过去式）"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "retire",
+            "pos": "v.",
+            "meaning": "退休"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -372,20 +1122,112 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "told",
+            "label": "谓语"
+          },
+          {
+            "text": "reporters",
+            "label": "间接宾语"
+          },
+          {
+            "text": "she felt very tired and didn't want to make another film for a long time",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
           },
           {
-            "word": "Tired",
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉（tell的过去式）"
+          },
+          {
+            "word": "reporters",
+            "pos": "n.",
+            "meaning": "记者们（复数）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "felt",
+            "pos": "v.",
+            "meaning": "感到（feel的过去式）"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "tired",
             "pos": "adj.",
-            "meaning": "疲劳的"
+            "meaning": "疲倦的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "didn't",
+            "pos": "v.",
+            "meaning": "不（did not的缩写）"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "制作"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一部"
+          },
+          {
+            "word": "film",
+            "pos": "n.",
+            "meaning": "电影"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "持续"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一段"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
           }
         ]
       }
@@ -396,7 +1238,40 @@
       "text": "I wonder why!",
       "translation": "真不知道为什么！",
       "startTime": 102.05,
-      "endTime": 107.05
+      "endTime": 107.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "wonder",
+            "label": "谓语"
+          },
+          {
+            "text": "why",
+            "label": "宾语从句（省略）"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "wonder",
+            "pos": "v.",
+            "meaning": "想知道，纳闷"
+          },
+          {
+            "word": "why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          }
+        ]
+      }
     }
   ]
 }
