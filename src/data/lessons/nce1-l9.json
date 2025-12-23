@@ -10,7 +10,17 @@
       "text": "Lesson 9",
       "translation": "第9课",
       "startTime": 0.56,
-      "endTime": 2.47
+      "endTime": 2.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,32 @@
       "text": "How are you today?",
       "translation": "你今天好吗？",
       "startTime": 2.48,
-      "endTime": 5.78
+      "endTime": 5.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +61,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.79,
-      "endTime": 11.53
+      "endTime": 11.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +84,27 @@
       "text": "How is Emma?",
       "translation": "埃玛身体好吗？",
       "startTime": 11.54,
-      "endTime": 15.16
+      "endTime": 15.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +128,32 @@
       "text": "How are you today?",
       "translation": "你今天好吗？",
       "startTime": 19.02,
-      "endTime": 21.68
+      "endTime": 21.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +161,37 @@
       "text": "I'm very well thank you.",
       "translation": "我很好，谢谢你。",
       "startTime": 21.69,
-      "endTime": 24.27
+      "endTime": 24.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +199,17 @@
       "text": "And you?",
       "translation": "你呢？",
       "startTime": 24.28,
-      "endTime": 25.75
+      "endTime": 25.75,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +217,22 @@
       "text": "I'm fine thanks.",
       "translation": "我也很好，谢谢。",
       "startTime": 25.76,
-      "endTime": 28.78
+      "endTime": 28.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          },
+          {
+            "word": "Thanks",
+            "pos": "n.",
+            "meaning": "谢谢"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +240,27 @@
       "text": "How is Tony?",
       "translation": "托尼好吗？",
       "startTime": 28.79,
-      "endTime": 30.79
+      "endTime": 30.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +268,22 @@
       "text": "He's fine thanks.",
       "translation": "他很好，谢谢。",
       "startTime": 30.8,
-      "endTime": 33.35
+      "endTime": 33.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          },
+          {
+            "word": "Thanks",
+            "pos": "n.",
+            "meaning": "谢谢"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +299,32 @@
       "text": "She's very well too Helen.",
       "translation": "她也很好，海伦。",
       "startTime": 34.95,
-      "endTime": 39.19
+      "endTime": 39.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +340,22 @@
       "text": "Nice to see you.",
       "translation": "很高兴见到你。",
       "startTime": 40.7,
-      "endTime": 42.75
+      "endTime": 42.75,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +363,27 @@
       "text": "Nice to see you too Steven.",
       "translation": "我也很高兴见到你，史蒂文。",
       "startTime": 42.76,
-      "endTime": 46.16
+      "endTime": 46.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s14",

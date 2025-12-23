@@ -10,7 +10,17 @@
       "text": "Lesson 2",
       "translation": "",
       "startTime": 0.39,
-      "endTime": 8.71
+      "endTime": 8.71,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "How much of each year do spiders spend killing insects?",
       "translation": "",
       "startTime": 8.72,
-      "endTime": 14.82
+      "endTime": 14.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,22 @@
       "text": "Why, you may wonder, should spiders be our friends?",
       "translation": "",
       "startTime": 14.83,
-      "endTime": 19.14
+      "endTime": 19.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +82,22 @@
       "text": "Insects would make it impossible for us to live in the world;",
       "translation": "",
       "startTime": 26.74,
-      "endTime": 30.37
+      "endTime": 30.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +105,20 @@
       "text": "they would devour all our crops and kill our flocks and herds,",
       "translation": "",
       "startTime": 30.38,
-      "endTime": 34.61
+      "endTime": 34.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +126,27 @@
       "text": "if it were not for the protection we get from insect eating animals.",
       "translation": "",
       "startTime": 34.62,
-      "endTime": 39.76
+      "endTime": 39.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +162,17 @@
       "text": "but all of them put together kill only a fraction of the number destroyed by spiders.",
       "translation": "",
       "startTime": 43.73,
-      "endTime": 49.78
+      "endTime": 49.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +180,16 @@
       "text": "Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.",
       "translation": "",
       "startTime": 49.79,
-      "endTime": 58.71
+      "endTime": 58.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +197,22 @@
       "text": "Spiders are not insects, as many people think, nor even nearly related to them.",
       "translation": "",
       "startTime": 58.72,
-      "endTime": 65.21
+      "endTime": 65.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +220,17 @@
       "text": "One can tell the difference almost at a glance, for a spider always has eight legs and an insect never more than six.",
       "translation": "",
       "startTime": 65.22,
-      "endTime": 74.92
+      "endTime": 74.92,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +238,35 @@
       "text": "How many spiders are engaged in this work on our behalf?",
       "translation": "",
       "startTime": 74.93,
-      "endTime": 79.24
+      "endTime": 79.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +282,22 @@
       "text": "and he estimated that there were more than 2, 250, 000 in one acre;",
       "translation": "",
       "startTime": 85.79,
-      "endTime": 93.17
+      "endTime": 93.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +305,31 @@
       "text": "that is something like 6, 000, 000 spiders of different kinds on a football pitch.",
       "translation": "",
       "startTime": 93.18,
-      "endTime": 99.85
+      "endTime": 99.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +337,27 @@
       "text": "Spiders are busy for at least half the year in killing insects.",
       "translation": "",
       "startTime": 99.86,
-      "endTime": 104.97
+      "endTime": 104.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +365,55 @@
       "text": "It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day.",
       "translation": "",
       "startTime": 104.98,
-      "endTime": 115.87
+      "endTime": 115.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Hungry",
+            "pos": "adj.",
+            "meaning": "饥饿的"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +421,31 @@
       "text": "It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.",
       "translation": "",
       "startTime": 115.88,
-      "endTime": 120.88
+      "endTime": 120.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

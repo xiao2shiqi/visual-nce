@@ -10,7 +10,22 @@
       "text": "What was the joke?",
       "translation": "",
       "startTime": 11.32,
-      "endTime": 15.07
+      "endTime": 15.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,16 @@
       "text": "'To end our special news bulletin,'",
       "translation": "",
       "startTime": 15.08,
-      "endTime": 18.78
+      "endTime": 18.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +58,22 @@
       "text": "Macaroni has been grown in this area for over six hundred years.",
       "translation": "",
       "startTime": 28.34,
-      "endTime": 34.56
+      "endTime": 34.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +89,40 @@
       "text": "tell me that they have been expecting a splendid crop this year and harvesting has begun earlier than usual.",
       "translation": "",
       "startTime": 41.31,
-      "endTime": 50.78
+      "endTime": 50.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +130,22 @@
       "text": "Here you can see two workers who, between them,",
       "translation": "",
       "startTime": 50.79,
-      "endTime": 55.36
+      "endTime": 55.36,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +161,22 @@
       "text": "The whole village has been working day and night gathering and threshing this year's crop before the September rains.",
       "translation": "",
       "startTime": 62.84,
-      "endTime": 73.33
+      "endTime": 73.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +184,17 @@
       "text": "On the right, you can see Mrs. Brabante herself.",
       "translation": "",
       "startTime": 73.34,
-      "endTime": 78.46
+      "endTime": 78.46,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +202,16 @@
       "text": "She has been helping her husband for thirty years now.",
       "translation": "",
       "startTime": 78.47,
-      "endTime": 83.08
+      "endTime": 83.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +219,26 @@
       "text": "Mrs. Brabante is talking to the manager of the local factory where the crop is processed.",
       "translation": "",
       "startTime": 83.09,
-      "endTime": 90.38
+      "endTime": 90.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +246,41 @@
       "text": "This last scene shows you what will happen at the end of the harvest:",
       "translation": "",
       "startTime": 90.39,
-      "endTime": 96.22
+      "endTime": 96.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +296,22 @@
       "text": "Signor Fratelli, the present champion, has won it every year since 1991.",
       "translation": "",
       "startTime": 101.42,
-      "endTime": 109.68
+      "endTime": 109.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +319,31 @@
       "text": "And that ends our special bulletin for today, Thursday, April 1st.",
       "translation": "",
       "startTime": 109.69,
-      "endTime": 116.24
+      "endTime": 116.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s13",

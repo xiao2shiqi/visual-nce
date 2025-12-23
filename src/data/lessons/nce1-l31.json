@@ -10,7 +10,17 @@
       "text": "Lesson 31",
       "translation": "",
       "startTime": 0.51,
-      "endTime": 3.03
+      "endTime": 3.03,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.65,
-      "endTime": 11.44
+      "endTime": 11.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "Is the cat climbing the tree?",
       "translation": "",
       "startTime": 11.45,
-      "endTime": 15.83
+      "endTime": 15.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -74,7 +114,27 @@
       "text": "Is Tim in the garden, too?",
       "translation": "",
       "startTime": 26.56,
-      "endTime": 29.87
+      "endTime": 29.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +142,27 @@
       "text": "Yes, he is.",
       "translation": "",
       "startTime": 29.88,
-      "endTime": 31.81
+      "endTime": 31.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +178,22 @@
       "text": "I beg your pardon?",
       "translation": "",
       "startTime": 34.68,
-      "endTime": 36.9
+      "endTime": 36.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +209,22 @@
       "text": "Tim is.",
       "translation": "",
       "startTime": 39.47,
-      "endTime": 41.4
+      "endTime": 41.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +232,22 @@
       "text": "What about the dog?",
       "translation": "",
       "startTime": 41.41,
-      "endTime": 44.24
+      "endTime": 44.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +255,17 @@
       "text": "The dog's in the garden, too.",
       "translation": "",
       "startTime": 44.25,
-      "endTime": 46.88
+      "endTime": 46.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +273,16 @@
       "text": "It's running across the grass.",
       "translation": "",
       "startTime": 46.89,
-      "endTime": 50.01
+      "endTime": 50.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +290,16 @@
       "text": "It's running after a cat.",
       "translation": "",
       "startTime": 50.02,
-      "endTime": 55.02
+      "endTime": 55.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

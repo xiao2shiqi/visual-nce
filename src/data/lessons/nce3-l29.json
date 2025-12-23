@@ -10,7 +10,17 @@
       "text": "Lesson 29",
       "translation": "",
       "startTime": 0.3,
-      "endTime": 2.22
+      "endTime": 2.22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Funny or not?",
       "translation": "",
       "startTime": 2.23,
-      "endTime": 9.33
+      "endTime": 9.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,31 @@
       "text": "What is the basis of 'sick' humour?",
       "translation": "",
       "startTime": 9.34,
-      "endTime": 14.45
+      "endTime": 14.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +78,17 @@
       "text": "Whether we find a joke funny or not largely depends on where we have been brought up.",
       "translation": "",
       "startTime": 14.46,
-      "endTime": 21.13
+      "endTime": 21.13,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +96,22 @@
       "text": "The sense of humour is mysteriously bound up with national characteristics.",
       "translation": "",
       "startTime": 21.14,
-      "endTime": 27.57
+      "endTime": 27.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +119,27 @@
       "text": "A Frenchman, for instance, might find it hard to laugh at a Russian joke.",
       "translation": "",
       "startTime": 27.58,
-      "endTime": 33.14
+      "endTime": 33.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -74,7 +163,16 @@
       "text": "Most funny stories are based on comic situations.",
       "translation": "",
       "startTime": 43.08,
-      "endTime": 47.98
+      "endTime": 47.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -90,7 +188,17 @@
       "text": "No matter where you live,",
       "translation": "",
       "startTime": 54.56,
-      "endTime": 56.46
+      "endTime": 56.46,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +206,37 @@
       "text": "you would find it difficult not to laugh at, say, Charlie Chaplin's early films.",
       "translation": "",
       "startTime": 56.47,
-      "endTime": 63.15
+      "endTime": 63.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +252,35 @@
       "text": "It is called 'sick humour'. Comedians base their jokes on tragic situations like violent death or serious accidents.",
       "translation": "",
       "startTime": 71.51,
-      "endTime": 82.67
+      "endTime": 82.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +288,22 @@
       "text": "Many people find this sort of joke distasteful.",
       "translation": "",
       "startTime": 82.68,
-      "endTime": 87.29
+      "endTime": 87.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +311,17 @@
       "text": "The following example of 'sick humour' will enable you to judge for yourself.",
       "translation": "",
       "startTime": 87.3,
-      "endTime": 93.86
+      "endTime": 93.86,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +329,22 @@
       "text": "A man who had broken his right leg was taken to hospital a few weeks before Christmas.",
       "translation": "",
       "startTime": 93.87,
-      "endTime": 100.54
+      "endTime": 100.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +360,16 @@
       "text": "he kept on pestering his doctor to tell him when he would be able to go home.",
       "translation": "",
       "startTime": 102.86,
-      "endTime": 108.83
+      "endTime": 108.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -170,7 +385,16 @@
       "text": "Though the doctor did his best, the patient's recovery was slow.",
       "translation": "",
       "startTime": 112.72,
-      "endTime": 117.97
+      "endTime": 117.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +402,22 @@
       "text": "On Christmas day, the man still had his right leg in plaster.",
       "translation": "",
       "startTime": 117.98,
-      "endTime": 123.67
+      "endTime": 123.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -202,7 +441,26 @@
       "text": "that his chances of being able to leave hospital in time for New Year celebrations were good.",
       "translation": "",
       "startTime": 134.27,
-      "endTime": 141.55
+      "endTime": 141.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +468,17 @@
       "text": "The man took heart and sure enough, on New Year's Eve he was able to hobble along to a party.",
       "translation": "",
       "startTime": 141.56,
-      "endTime": 149.67
+      "endTime": 149.67,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +486,16 @@
       "text": "To compensate for his unpleasant experiences in hospital,",
       "translation": "",
       "startTime": 149.68,
-      "endTime": 154.62
+      "endTime": 154.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -226,7 +503,17 @@
       "text": "the man drank a little more than was good for him.",
       "translation": "",
       "startTime": 154.63,
-      "endTime": 158.27
+      "endTime": 158.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +521,22 @@
       "text": "In the process, he enjoyed himself thoroughly and kept telling everybody how much he hated hospitals.",
       "translation": "",
       "startTime": 158.28,
-      "endTime": 167.14
+      "endTime": 167.14,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +544,22 @@
       "text": "He was still mumbling something about hospitals at the end of the party when he slipped on a piece of ice and broke his left leg.",
       "translation": "",
       "startTime": 167.15,
-      "endTime": 172.15
+      "endTime": 172.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

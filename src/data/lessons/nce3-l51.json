@@ -10,7 +10,17 @@
       "text": "Lesson 51",
       "translation": "",
       "startTime": 0.34,
-      "endTime": 3.52
+      "endTime": 3.52,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What was the 'future' electronic development that Leon Bagrit wasn't able to foresee?",
       "translation": "",
       "startTime": 10.26,
-      "endTime": 19.39
+      "endTime": 19.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,22 @@
       "text": "Predicting the future is notoriously difficult.",
       "translation": "",
       "startTime": 19.4,
-      "endTime": 23.2
+      "endTime": 23.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +99,22 @@
       "text": "that by the end of the 20th century, computers would be as common in people's homes as TV sets?",
       "translation": "",
       "startTime": 28.33,
-      "endTime": 36.22
+      "endTime": 36.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -82,7 +146,22 @@
       "text": "Mainframe computers were very large indeed often occupying whole air-conditioned rooms,",
       "translation": "",
       "startTime": 52.06,
-      "endTime": 59.07
+      "endTime": 59.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -106,7 +185,16 @@
       "text": "many of their functions have been taken over by small powerful personal computers, commonly known as PCs.",
       "translation": "",
       "startTime": 68.14,
-      "endTime": 78.11
+      "endTime": 78.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -122,7 +210,26 @@
       "text": "It can properly be described as the first 'home computer' and it pointed the way to the future.",
       "translation": "",
       "startTime": 86.54,
-      "endTime": 93.57
+      "endTime": 93.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +237,27 @@
       "text": "This was followed, at the end of the 1970s, by a machine called an Apple.",
       "translation": "",
       "startTime": 93.58,
-      "endTime": 101.08
+      "endTime": 101.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +273,22 @@
       "text": "This ran on an 'operating system' called DOS,",
       "translation": "",
       "startTime": 109.76,
-      "endTime": 114.14
+      "endTime": 114.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -178,7 +320,22 @@
       "text": "we have seen the development of the user-friendly home computers and multimedia machines which are in common use today.",
       "translation": "",
       "startTime": 126.11,
-      "endTime": 136.31
+      "endTime": 136.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +343,49 @@
       "text": "Considering how recent these developments are, it is even more remarkable that as long ago as the 1960s, an Englishman,",
       "translation": "",
       "startTime": 136.32,
-      "endTime": 147.51
+      "endTime": 147.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +393,17 @@
       "text": "Leon Bagrit, was able to predict some of the uses of computers which we know today.",
       "translation": "",
       "startTime": 147.52,
-      "endTime": 154.97
+      "endTime": 154.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +411,22 @@
       "text": "Bagrit dismissed the idea that computers would learn to 'think' for themselves and would 'rule the world', which people liked to believe in those days.",
       "translation": "",
       "startTime": 154.98,
-      "endTime": 165.75
+      "endTime": 165.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -258,7 +482,22 @@
       "text": "the worldwide system that enables us to communicate instantly with anyone in any part of the world by using computers linked to telephone networks.",
       "translation": "",
       "startTime": 204.3,
-      "endTime": 217.48
+      "endTime": 217.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +505,17 @@
       "text": "Nor could he have foreseen how we could use the Internet to obtain information on every known subject,",
       "translation": "",
       "startTime": 217.49,
-      "endTime": 224.78
+      "endTime": 224.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +523,35 @@
       "text": "so we can read it on a screen in our homes and even print it as well if we want to.",
       "translation": "",
       "startTime": 224.79,
-      "endTime": 231.86
+      "endTime": 231.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -290,7 +567,40 @@
       "text": "This is what makes Leon Bagrit's predictions particularly remarkable.",
       "translation": "",
       "startTime": 239.55,
-      "endTime": 244.9
+      "endTime": 244.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -298,7 +608,27 @@
       "text": "If he, or someone like him, were alive today, he might be able to tell us what to expect in the next fifty years.",
       "translation": "",
       "startTime": 244.91,
-      "endTime": 249.91
+      "endTime": 249.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     }
   ]
 }

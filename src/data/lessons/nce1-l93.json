@@ -10,7 +10,17 @@
       "text": "Lesson 93",
       "translation": "",
       "startTime": 0.51,
-      "endTime": 3
+      "endTime": 3,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,16 @@
       "text": "Our new neighbour",
       "translation": "",
       "startTime": 3.01,
-      "endTime": 6.02
+      "endTime": 6.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.03,
-      "endTime": 11.97
+      "endTime": 11.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,27 @@
       "text": "Why is Nigel a lucky man?",
       "translation": "",
       "startTime": 11.98,
-      "endTime": 17.18
+      "endTime": 17.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +96,26 @@
       "text": "Nigel is our new next-door neighbour.",
       "translation": "",
       "startTime": 17.19,
-      "endTime": 21.63
+      "endTime": 21.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -66,7 +139,16 @@
       "text": "He will fly to New York next month.",
       "translation": "",
       "startTime": 28.29,
-      "endTime": 33.18
+      "endTime": 33.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -82,7 +164,17 @@
       "text": "At the moment, he's in Madrid.",
       "translation": "",
       "startTime": 38.62,
-      "endTime": 42.3
+      "endTime": 42.3,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -106,7 +198,17 @@
       "text": "He's only forty-one years old,",
       "translation": "",
       "startTime": 52.15,
-      "endTime": 55.88
+      "endTime": 55.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +224,36 @@
       "text": "Nigel is a very lucky man.",
       "translation": "",
       "startTime": 63.42,
-      "endTime": 67.19
+      "endTime": 67.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +261,26 @@
       "text": "But his wife isn't very lucky.",
       "translation": "",
       "startTime": 67.2,
-      "endTime": 70.51
+      "endTime": 70.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +288,17 @@
       "text": "She usually stays at home!",
       "translation": "",
       "startTime": 70.52,
-      "endTime": 75.52
+      "endTime": 75.52,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

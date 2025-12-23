@@ -10,7 +10,17 @@
       "text": "Lesson 113",
       "translation": "",
       "startTime": 0.73,
-      "endTime": 3.87
+      "endTime": 3.87,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.48,
-      "endTime": 11.97
+      "endTime": 11.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +67,17 @@
       "text": "Fares, please!",
       "translation": "",
       "startTime": 17.39,
-      "endTime": 19.06
+      "endTime": 19.06,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +85,17 @@
       "text": "Trafalgar Square, please.",
       "translation": "",
       "startTime": 19.07,
-      "endTime": 21.53
+      "endTime": 21.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +103,22 @@
       "text": "I'm sorry, sir.",
       "translation": "",
       "startTime": 21.54,
-      "endTime": 24.16
+      "endTime": 24.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          },
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +134,17 @@
       "text": "Haven't you got any small change?",
       "translation": "",
       "startTime": 28.14,
-      "endTime": 31.96
+      "endTime": 31.96,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +160,16 @@
       "text": "I am afraid.",
       "translation": "",
       "startTime": 34.53,
-      "endTime": 36.5
+      "endTime": 36.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -106,7 +185,22 @@
       "text": "Have you any small change, sir?",
       "translation": "",
       "startTime": 40.19,
-      "endTime": 43.63
+      "endTime": 43.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +208,17 @@
       "text": "I'm sorry.",
       "translation": "",
       "startTime": 43.64,
-      "endTime": 44.95
+      "endTime": 44.95,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -138,7 +242,27 @@
       "text": "Can you change this ten-pound note, madam?",
       "translation": "",
       "startTime": 51.8,
-      "endTime": 56.83
+      "endTime": 56.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +278,16 @@
       "text": "Neither can I.",
       "translation": "",
       "startTime": 60.13,
-      "endTime": 62.93
+      "endTime": 62.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +295,32 @@
       "text": "I'm very sorry, sir.",
       "translation": "",
       "startTime": 62.94,
-      "endTime": 65.28
+      "endTime": 65.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          },
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +328,17 @@
       "text": "You must get off the bus.",
       "translation": "",
       "startTime": 65.29,
-      "endTime": 68.53
+      "endTime": 68.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +346,26 @@
       "text": "None of our passengers can change this note.",
       "translation": "",
       "startTime": 68.54,
-      "endTime": 73.62
+      "endTime": 73.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s19",

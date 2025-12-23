@@ -10,7 +10,17 @@
       "text": "Lesson 14",
       "translation": "",
       "startTime": 0.4,
-      "endTime": 1.83
+      "endTime": 1.83,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Why do small errors make it impossible to predict the weather system with a high degree of accuracy?",
       "translation": "",
       "startTime": 8.25,
-      "endTime": 17.45
+      "endTime": 17.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "Beyond two or three days, the world's best weather forecasts are speculative,",
       "translation": "",
       "startTime": 17.46,
-      "endTime": 23.19
+      "endTime": 23.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +76,16 @@
       "text": "and beyond six or seven they are worthless.",
       "translation": "",
       "startTime": 23.2,
-      "endTime": 26.83
+      "endTime": 26.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +93,22 @@
       "text": "The Butterfly Effect is the reason.",
       "translation": "",
       "startTime": 26.84,
-      "endTime": 30.01
+      "endTime": 30.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +124,16 @@
       "text": "and to a global forecaster, small can mean thunderstorms and blizzards--",
       "translation": "",
       "startTime": 32.07,
-      "endTime": 37.12
+      "endTime": 37.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -90,7 +157,22 @@
       "text": "from dust devils and squalls up to continent-size eddies that only satellites can see.",
       "translation": "",
       "startTime": 46.71,
-      "endTime": 53.9
+      "endTime": 53.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -130,7 +212,17 @@
       "text": "rising at one-foot intervals all the way to the top of the atmosphere.",
       "translation": "",
       "startTime": 73.41,
-      "endTime": 78.99
+      "endTime": 78.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -154,7 +246,27 @@
       "text": "Precisely at noon an infinitely powerful computer takes all the data and calculates what will happen at each point",
       "translation": "",
       "startTime": 90.61,
-      "endTime": 99.24
+      "endTime": 99.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +274,17 @@
       "text": "at 12.01, then 12.02, then 12.03...",
       "translation": "",
       "startTime": 99.25,
-      "endTime": 105.37
+      "endTime": 105.37,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +292,20 @@
       "text": "The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away.",
       "translation": "",
       "startTime": 105.38,
-      "endTime": 114.41
+      "endTime": 114.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          },
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +313,32 @@
       "text": "At noon the spaces between the sensors will hide fluctuations that the computer will not know about,",
       "translation": "",
       "startTime": 114.42,
-      "endTime": 121.51
+      "endTime": 121.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -194,7 +354,16 @@
       "text": "By 12.01, those fluctuations will already have created small errors one foot away.",
       "translation": "",
       "startTime": 124.37,
-      "endTime": 131.93
+      "endTime": 131.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s21",
@@ -202,7 +371,16 @@
       "text": "Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.",
       "translation": "",
       "startTime": 131.94,
-      "endTime": 136.94
+      "endTime": 136.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

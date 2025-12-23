@@ -10,7 +10,31 @@
       "text": "What evidence is there of a ghost?",
       "translation": "",
       "startTime": 10.47,
-      "endTime": 15.81
+      "endTime": 15.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +42,27 @@
       "text": "A public house which was recently bought by Mr.Ian Thompson is up for sale.",
       "translation": "",
       "startTime": 15.82,
-      "endTime": 23.78
+      "endTime": 23.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +70,39 @@
       "text": "Mr.Thompson is going to sell it because it is haunted.",
       "translation": "",
       "startTime": 23.79,
-      "endTime": 29.62
+      "endTime": 29.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +110,36 @@
       "text": "He told me that he could not go to sleep one night",
       "translation": "",
       "startTime": 29.63,
-      "endTime": 33.58
+      "endTime": 33.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +163,22 @@
       "text": "he found that the doors had been blocked by chairs and the furniture had been moved.",
       "translation": "",
       "startTime": 40.43,
-      "endTime": 47.6
+      "endTime": 47.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -82,7 +202,27 @@
       "text": "He also said that he had found five empty whisky bottles",
       "translation": "",
       "startTime": 56.42,
-      "endTime": 61.9
+      "endTime": 61.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +230,16 @@
       "text": "which the ghost must have drunk the night before.",
       "translation": "",
       "startTime": 61.91,
-      "endTime": 66.67
+      "endTime": 66.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +247,22 @@
       "text": "When I suggested that some villagers must have come",
       "translation": "",
       "startTime": 66.68,
-      "endTime": 70.56
+      "endTime": 70.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +270,16 @@
       "text": "in for a free drink, Mr.Thompson shook his head.",
       "translation": "",
       "startTime": 70.57,
-      "endTime": 76.51
+      "endTime": 76.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +287,22 @@
       "text": "The villagers have told him that",
       "translation": "",
       "startTime": 76.52,
-      "endTime": 78.78
+      "endTime": 78.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +310,27 @@
       "text": "they will not accept the pub even if he gives it away.",
       "translation": "",
       "startTime": 78.79,
-      "endTime": 83.79
+      "endTime": 83.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

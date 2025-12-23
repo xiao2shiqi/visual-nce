@@ -10,7 +10,17 @@
       "text": "Lesson 26",
       "translation": "",
       "startTime": 0.46,
-      "endTime": 2.44
+      "endTime": 2.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,16 @@
       "text": "No one can avoid being influenced by advertisements.",
       "translation": "",
       "startTime": 15.29,
-      "endTime": 19.61
+      "endTime": 19.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +61,22 @@
       "text": "Much as we may pride ourselves on our good taste,",
       "translation": "",
       "startTime": 19.62,
-      "endTime": 23.31
+      "endTime": 23.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +84,16 @@
       "text": "we are no longer free to choose the things we want,",
       "translation": "",
       "startTime": 23.32,
-      "endTime": 26.6
+      "endTime": 26.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -66,7 +109,35 @@
       "text": "In their efforts to persuade us to buy this or that product,",
       "translation": "",
       "startTime": 30.96,
-      "endTime": 35.1
+      "endTime": 35.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +145,16 @@
       "text": "advertisers have made a close study of human nature and have classified all our little weaknesses.",
       "translation": "",
       "startTime": 35.11,
-      "endTime": 43.14
+      "endTime": 43.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +162,22 @@
       "text": "Advertisers discovered years ago that all of us love to get something for nothing.",
       "translation": "",
       "startTime": 43.15,
-      "endTime": 48.95
+      "endTime": 48.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +185,16 @@
       "text": "An advertisement which begins with the magic word FREE can rarely go wrong.",
       "translation": "",
       "startTime": 48.96,
-      "endTime": 55.86
+      "endTime": 55.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +202,17 @@
       "text": "These days, advertisers not only offer free samples,",
       "translation": "",
       "startTime": 55.87,
-      "endTime": 59.81
+      "endTime": 59.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +220,17 @@
       "text": "but free cars, free houses, and free trips round the world as well.",
       "translation": "",
       "startTime": 59.82,
-      "endTime": 66.79
+      "endTime": 66.79,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +238,16 @@
       "text": "They devise hundreds of competitions which will enable us to win huge sums of money.",
       "translation": "",
       "startTime": 66.8,
-      "endTime": 72.72
+      "endTime": 72.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +255,31 @@
       "text": "Radio and television have made it possible for advertisers to capture the attention of millions of people in this way.",
       "translation": "",
       "startTime": 72.73,
-      "endTime": 81.11
+      "endTime": 81.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +287,16 @@
       "text": "During a radio programme, a company of biscuit manufacturers once asked listeners to bake biscuits and send them to their factory.",
       "translation": "",
       "startTime": 81.12,
-      "endTime": 91.28
+      "endTime": 91.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -146,7 +312,22 @@
       "text": "The response to this competition was tremendous.",
       "translation": "",
       "startTime": 97.09,
-      "endTime": 100.85
+      "endTime": 100.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +335,17 @@
       "text": "Before long, biscuits of all shapes and sizes began arriving at the factory.",
       "translation": "",
       "startTime": 100.86,
-      "endTime": 107.04
+      "endTime": 107.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +353,22 @@
       "text": "One lady brought biscuit on a wheelbarrow. It weighed nearly 500 pounds.",
       "translation": "",
       "startTime": 107.05,
-      "endTime": 113.4
+      "endTime": 113.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +376,27 @@
       "text": "A little later, a man came along with a biscuit which occupied the whole boot of his car.",
       "translation": "",
       "startTime": 113.41,
-      "endTime": 120.7
+      "endTime": 120.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +404,22 @@
       "text": "All the biscuits that were sent were carefully weighed.",
       "translation": "",
       "startTime": 120.71,
-      "endTime": 124.29
+      "endTime": 124.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +427,40 @@
       "text": "The largest was 713 pounds. It seemed certain that this would win the prize.",
       "translation": "",
       "startTime": 124.3,
-      "endTime": 132.32
+      "endTime": 132.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -202,7 +476,17 @@
       "text": "a lorry arrived at the factory with a truly colossal biscuit which weighed 2, 400 pounds.",
       "translation": "",
       "startTime": 135.63,
-      "endTime": 144.43
+      "endTime": 144.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +494,27 @@
       "text": "It had been baked by a college student who had used over 1, 000 pounds of flour, 800 pounds of sugar,",
       "translation": "",
       "startTime": 144.44,
-      "endTime": 152.58
+      "endTime": 152.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +522,17 @@
       "text": "200 pounds of fat, and 400 pounds of various other ingredients.",
       "translation": "",
       "startTime": 152.59,
-      "endTime": 158.25
+      "endTime": 158.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fat",
+            "pos": "adj.",
+            "meaning": "胖的"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +540,35 @@
       "text": "It was so heavy that a crane had to be used to remove it from the lorry.",
       "translation": "",
       "startTime": 158.26,
-      "endTime": 163.96
+      "endTime": 163.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +576,17 @@
       "text": "The manufacturers had to pay more money than they had anticipated, for they bought the biscuit from the student for $24, 000.",
       "translation": "",
       "startTime": 163.97,
-      "endTime": 168.97
+      "endTime": 168.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          }
+        ]
+      }
     }
   ]
 }

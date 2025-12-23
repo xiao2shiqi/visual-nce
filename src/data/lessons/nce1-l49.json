@@ -10,7 +10,17 @@
       "text": "Lesson 49",
       "translation": "",
       "startTime": 0.64,
-      "endTime": 3.04
+      "endTime": 3.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "At the butcher's",
       "translation": "",
       "startTime": 3.05,
-      "endTime": 5.65
+      "endTime": 5.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.66,
-      "endTime": 11.37
+      "endTime": 11.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,22 @@
       "text": "What does Mr. Bird like?",
       "translation": "",
       "startTime": 11.38,
-      "endTime": 15.7
+      "endTime": 15.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +92,22 @@
       "text": "Do you want any meat today, Mrs. Bird?",
       "translation": "",
       "startTime": 15.71,
-      "endTime": 20.63
+      "endTime": 20.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +115,22 @@
       "text": "Yes, please.",
       "translation": "",
       "startTime": 20.64,
-      "endTime": 23.29
+      "endTime": 23.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +138,17 @@
       "text": "Do you want beef or lamb?",
       "translation": "",
       "startTime": 23.3,
-      "endTime": 27.04
+      "endTime": 27.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +156,17 @@
       "text": "Beef, please.",
       "translation": "",
       "startTime": 27.05,
-      "endTime": 29.76
+      "endTime": 29.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +174,31 @@
       "text": "This lamb's very good.",
       "translation": "",
       "startTime": 29.77,
-      "endTime": 33.74
+      "endTime": 33.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +206,22 @@
       "text": "I like lamb, but my husband doesn't.",
       "translation": "",
       "startTime": 33.75,
-      "endTime": 38.61
+      "endTime": 38.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +229,22 @@
       "text": "What about some steak?",
       "translation": "",
       "startTime": 38.62,
-      "endTime": 41.56
+      "endTime": 41.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +252,36 @@
       "text": "This is a nice piece.",
       "translation": "",
       "startTime": 41.57,
-      "endTime": 44.99
+      "endTime": 44.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +289,36 @@
       "text": "Give me that piece, please.",
       "translation": "",
       "startTime": 45,
-      "endTime": 48.26
+      "endTime": 48.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +326,17 @@
       "text": "And a pound of mince, too.",
       "translation": "",
       "startTime": 48.27,
-      "endTime": 52.95
+      "endTime": 52.95,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +344,17 @@
       "text": "Do you want a chicken, Mrs. Bird?",
       "translation": "",
       "startTime": 52.96,
-      "endTime": 57.45
+      "endTime": 57.45,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +362,27 @@
       "text": "They're very nice.",
       "translation": "",
       "startTime": 57.46,
-      "endTime": 59.87
+      "endTime": 59.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +390,22 @@
       "text": "No, thank you.",
       "translation": "",
       "startTime": 59.88,
-      "endTime": 62.22
+      "endTime": 62.22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +413,22 @@
       "text": "My husband likes steak,",
       "translation": "",
       "startTime": 62.23,
-      "endTime": 65.04
+      "endTime": 65.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +444,17 @@
       "text": "To tell you the truth, Mrs. Bird,",
       "translation": "",
       "startTime": 68.64,
-      "endTime": 72.96
+      "endTime": 72.96,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s17",

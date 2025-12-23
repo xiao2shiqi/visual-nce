@@ -10,7 +10,17 @@
       "text": "Lesson 36",
       "translation": "",
       "startTime": 0.13,
-      "endTime": 2.11
+      "endTime": 2.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What was the chance in a million?",
       "translation": "",
       "startTime": 9.59,
-      "endTime": 13.44
+      "endTime": 13.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "We are less credulous than we used to be.",
       "translation": "",
       "startTime": 13.45,
-      "endTime": 17.12
+      "endTime": 17.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +76,16 @@
       "text": "In the nineteenth century, a novelist would bring his story to a conclusion",
       "translation": "",
       "startTime": 17.13,
-      "endTime": 22.59
+      "endTime": 22.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +93,16 @@
       "text": "by presenting his readers with a series of coincidences--most of them wildly improbable.",
       "translation": "",
       "startTime": 22.6,
-      "endTime": 30.28
+      "endTime": 30.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +110,22 @@
       "text": "Readers happily accepted the fact that an obscure maidservant was really the hero's mother.",
       "translation": "",
       "startTime": 30.29,
-      "endTime": 37.77
+      "endTime": 37.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -90,7 +157,16 @@
       "text": "Yet, in real life, circumstances do sometimes conspire to bring about coincidences which anyone but a nineteenth century novelist would find incredible.",
       "translation": "",
       "startTime": 56.13,
-      "endTime": 69.38
+      "endTime": 69.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +174,51 @@
       "text": "When I was a boy, my grandfather told me how a German taxi driver, Franz Bussman,",
       "translation": "",
       "startTime": 69.39,
-      "endTime": 76.36
+      "endTime": 76.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "German",
+            "pos": "adj.",
+            "meaning": "德国的，德语"
+          },
+          {
+            "word": "Taxi",
+            "pos": "n.",
+            "meaning": "出租车"
+          },
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +234,16 @@
       "text": "While on a walking tour with his wife, he stopped to talk to a workman.",
       "translation": "",
       "startTime": 81.39,
-      "endTime": 87.09
+      "endTime": 87.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +251,16 @@
       "text": "After they had gone on, Mrs. Bussman commented on the workman's close resemblance to her husband",
       "translation": "",
       "startTime": 87.1,
-      "endTime": 94.33
+      "endTime": 94.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +268,26 @@
       "text": "and even suggested that he might be his brother.",
       "translation": "",
       "startTime": 94.34,
-      "endTime": 98.7
+      "endTime": 98.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +303,26 @@
       "text": "pointing out that his brother had been killed in action during the war.",
       "translation": "",
       "startTime": 102.09,
-      "endTime": 107.34
+      "endTime": 107.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +330,22 @@
       "text": "Though Mrs. Bussman was fully acquainted with this story,",
       "translation": "",
       "startTime": 107.35,
-      "endTime": 111.69
+      "endTime": 111.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +353,26 @@
       "text": "she thought that there was a chance in a million that she might be right.",
       "translation": "",
       "startTime": 111.7,
-      "endTime": 117.08
+      "endTime": 117.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +380,22 @@
       "text": "A few days later, she sent a boy to the workman to ask him if his name was Hans Bussman.",
       "translation": "",
       "startTime": 117.09,
-      "endTime": 125
+      "endTime": 125,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +403,17 @@
       "text": "Needless to say, the man's name was Hans Bussman and he really was Franz's long-lost brother.",
       "translation": "",
       "startTime": 125.01,
-      "endTime": 133.93
+      "endTime": 133.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -194,7 +429,36 @@
       "text": "Hans explained how it was that he was still alive.",
       "translation": "",
       "startTime": 136.2,
-      "endTime": 140.35
+      "endTime": 140.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +474,16 @@
       "text": "he had been sent to hospital and was separated from his unit.",
       "translation": "",
       "startTime": 144.73,
-      "endTime": 149.83
+      "endTime": 149.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s23",
@@ -218,7 +491,16 @@
       "text": "The hospital had been bombed and Hans had made his way back into Western Germany on foot.",
       "translation": "",
       "startTime": 149.84,
-      "endTime": 157.63
+      "endTime": 157.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -226,7 +508,16 @@
       "text": "Meanwhile, his unit was lost and all records of him had been destroyed.",
       "translation": "",
       "startTime": 157.64,
-      "endTime": 163.73
+      "endTime": 163.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s25",
@@ -234,7 +525,22 @@
       "text": "Hans returned to his family home, but the house had been bombed",
       "translation": "",
       "startTime": 163.74,
-      "endTime": 168.36
+      "endTime": 168.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +548,22 @@
       "text": "and no one in the neighbourhood knew what had become of the inhabitants.",
       "translation": "",
       "startTime": 168.37,
-      "endTime": 173.02
+      "endTime": 173.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +571,31 @@
       "text": "Assuming that his family had been killed during an air raid,",
       "translation": "",
       "startTime": 173.03,
-      "endTime": 176.99
+      "endTime": 176.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s28",

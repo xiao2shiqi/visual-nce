@@ -10,7 +10,17 @@
       "text": "Lesson 3",
       "translation": "",
       "startTime": 0.41,
-      "endTime": 2.09
+      "endTime": 2.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Matterhorn man",
       "translation": "",
       "startTime": 2.1,
-      "endTime": 9.81
+      "endTime": 9.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "What was the main objective of early mountain climbers?",
       "translation": "",
       "startTime": 9.82,
-      "endTime": 15.29
+      "endTime": 15.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,16 @@
       "text": "Modern alpinists try to climb mountains by a route which will give them good sport,",
       "translation": "",
       "startTime": 15.3,
-      "endTime": 21.92
+      "endTime": 21.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +86,39 @@
       "text": "and the more difficult it is, the more highly it is regarded.",
       "translation": "",
       "startTime": 21.93,
-      "endTime": 27.37
+      "endTime": 27.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +126,32 @@
       "text": "In the pioneering days however, this was not the case at all.",
       "translation": "",
       "startTime": 27.38,
-      "endTime": 33.64
+      "endTime": 33.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +167,22 @@
       "text": "especially if it had never been attained before.",
       "translation": "",
       "startTime": 41.88,
-      "endTime": 46.24
+      "endTime": 46.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +190,44 @@
       "text": "It is true that during their explorations they often faced difficulties and dangers of the most perilous nature,",
       "translation": "",
       "startTime": 46.25,
-      "endTime": 55.53
+      "endTime": 55.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +235,17 @@
       "text": "equipped in a manner which would make a modern climber shudder at the thought,",
       "translation": "",
       "startTime": 55.54,
-      "endTime": 61.18
+      "endTime": 61.18,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +253,22 @@
       "text": "but they did not go out of their way to court such excitement.",
       "translation": "",
       "startTime": 61.19,
-      "endTime": 65.86
+      "endTime": 65.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +284,40 @@
       "text": "It is hard for us to realize nowadays how difficult it was for the pioneers.",
       "translation": "",
       "startTime": 72.55,
-      "endTime": 79.2
+      "endTime": 79.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -138,7 +349,17 @@
       "text": "the food simply local cheese accompanied by bread often twelve months old,",
       "translation": "",
       "startTime": 101.98,
-      "endTime": 107.85
+      "endTime": 107.85,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +375,17 @@
       "text": "Often a valley boasted no inn at all, and climbers found shelter wherever they could --",
       "translation": "",
       "startTime": 111.85,
-      "endTime": 118.37
+      "endTime": 118.37,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +393,16 @@
       "text": "sometimes with the local priest (who was usually as poor as his parishioners),",
       "translation": "",
       "startTime": 118.38,
-      "endTime": 124.88
+      "endTime": 124.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s17",
@@ -178,7 +418,22 @@
       "text": "Invariably the background was the same:dirt and poverty, and very uncomfortable.",
       "translation": "",
       "startTime": 128.72,
-      "endTime": 137.07
+      "endTime": 137.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +441,22 @@
       "text": "For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home,",
       "translation": "",
       "startTime": 137.08,
-      "endTime": 144.65
+      "endTime": 144.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +464,22 @@
       "text": "the change to the Alps must have been very hard indeed.",
       "translation": "",
       "startTime": 144.66,
-      "endTime": 149.66
+      "endTime": 149.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     }
   ]
 }

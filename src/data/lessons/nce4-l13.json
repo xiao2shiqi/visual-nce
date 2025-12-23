@@ -10,7 +10,17 @@
       "text": "Lesson 13",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 2.41
+      "endTime": 2.41,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What do oilmen want to achieve as soon as they strike oil?",
       "translation": "",
       "startTime": 10.79,
-      "endTime": 16.97
+      "endTime": 16.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "The deepest holes of all are made for oil, and they go down to as much as 25, 000 feet.",
       "translation": "",
       "startTime": 16.98,
-      "endTime": 26.08
+      "endTime": 26.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,22 @@
       "text": "But we do not need to send man down to get the oil out, as we must with other mineral deposits.",
       "translation": "",
       "startTime": 26.09,
-      "endTime": 34.3
+      "endTime": 34.3,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +105,16 @@
       "text": "The holes are only borings, less than a foot in diameter.",
       "translation": "",
       "startTime": 34.31,
-      "endTime": 40.17
+      "endTime": 40.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +122,31 @@
       "text": "My particular experience is largely in oil, and the search for oil has done more to improve deep drilling than any other mining activity.",
       "translation": "",
       "startTime": 40.18,
-      "endTime": 52.3
+      "endTime": 52.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +154,26 @@
       "text": "When it has been decided where we are going to drill,",
       "translation": "",
       "startTime": 52.31,
-      "endTime": 56.07
+      "endTime": 56.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +181,17 @@
       "text": "we put up at the surface an oil derrick.",
       "translation": "",
       "startTime": 56.08,
-      "endTime": 59.83
+      "endTime": 59.83,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +199,40 @@
       "text": "It has to be tall because it is like a giant block and tackle and we have to lower into the ground",
       "translation": "",
       "startTime": 59.84,
-      "endTime": 66.81
+      "endTime": 66.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Tall",
+            "pos": "adj.",
+            "meaning": "高的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +240,22 @@
       "text": "and haul out of the ground great lengths of drill pipe which are rotated by an engine at the top",
       "translation": "",
       "startTime": 66.82,
-      "endTime": 73.83
+      "endTime": 73.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +263,22 @@
       "text": "and are fitted with a cutting bit at the bottom.",
       "translation": "",
       "startTime": 73.84,
-      "endTime": 77.94
+      "endTime": 77.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +286,22 @@
       "text": "The geologist needs to know what rocks the drill has reached,",
       "translation": "",
       "startTime": 77.95,
-      "endTime": 82.66
+      "endTime": 82.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +309,22 @@
       "text": "so every so often a sample is obtained with a coring bit.",
       "translation": "",
       "startTime": 82.67,
-      "endTime": 88.1
+      "endTime": 88.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +332,22 @@
       "text": "It cuts a clean cylinder of rock, from which can be seen the strata the drill has been cutting through.",
       "translation": "",
       "startTime": 88.11,
-      "endTime": 96.44
+      "endTime": 96.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +355,35 @@
       "text": "Once we get down to the oil, it usually flows to the surface because great pressure either from gas or water, is pushing it.",
       "translation": "",
       "startTime": 96.45,
-      "endTime": 106.92
+      "endTime": 106.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +391,31 @@
       "text": "This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe.",
       "translation": "",
       "startTime": 106.93,
-      "endTime": 116.21
+      "endTime": 116.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +423,17 @@
       "text": "We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas.",
       "translation": "",
       "startTime": 116.22,
-      "endTime": 124.32
+      "endTime": 124.32,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +441,26 @@
       "text": "We want it to stay down the hole until we can lead it off in a controlled manner.",
       "translation": "",
       "startTime": 124.33,
-      "endTime": 129.33
+      "endTime": 129.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

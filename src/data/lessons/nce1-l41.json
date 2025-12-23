@@ -10,7 +10,17 @@
       "text": "Lesson 41",
       "translation": "",
       "startTime": 0.5,
-      "endTime": 2.89
+      "endTime": 2.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.69,
-      "endTime": 11.87
+      "endTime": 11.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "Who is the tin of tobacco for?",
       "translation": "",
       "startTime": 11.88,
-      "endTime": 17.88
+      "endTime": 17.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,31 @@
       "text": "Is that bag heavy, Penny?",
       "translation": "",
       "startTime": 17.89,
-      "endTime": 20.82
+      "endTime": 20.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +114,27 @@
       "text": "Not very.",
       "translation": "",
       "startTime": 20.83,
-      "endTime": 22.99
+      "endTime": 22.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +142,17 @@
       "text": "Here!",
       "translation": "",
       "startTime": 23,
-      "endTime": 24.29
+      "endTime": 24.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +160,31 @@
       "text": "Put it on this chair.",
       "translation": "",
       "startTime": 24.3,
-      "endTime": 27.11
+      "endTime": 27.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +192,22 @@
       "text": "What's in it?",
       "translation": "",
       "startTime": 27.12,
-      "endTime": 29.26
+      "endTime": 29.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -154,7 +287,40 @@
       "text": "Is that tin of tobacco for me?",
       "translation": "",
       "startTime": 57.57,
-      "endTime": 62.06
+      "endTime": 62.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +328,36 @@
       "text": "Well, it's certainly not for me!",
       "translation": "",
       "startTime": 62.07,
-      "endTime": 67.07
+      "endTime": 67.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "Why did the writer become very worried?",
       "translation": "",
       "startTime": 12.07,
-      "endTime": 17.47
+      "endTime": 17.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,36 @@
       "text": "Dentists always ask questions when it is impossible for you to answer.",
       "translation": "",
       "startTime": 17.48,
-      "endTime": 24.99
+      "endTime": 24.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +70,35 @@
       "text": "My dentist had just pulled out one of my teeth and had told me to rest for a while.",
       "translation": "",
       "startTime": 25,
-      "endTime": 32.3
+      "endTime": 32.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +114,22 @@
       "text": "but my mouth was full of cotton wool.",
       "translation": "",
       "startTime": 34.47,
-      "endTime": 38.39
+      "endTime": 38.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +137,31 @@
       "text": "He knew I collected match boxes and asked me whether my collection was growing.",
       "translation": "",
       "startTime": 38.4,
-      "endTime": 44.88
+      "endTime": 44.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +169,40 @@
       "text": "He then asked me how my brother was and whether I liked my new job in London.",
       "translation": "",
       "startTime": 44.89,
-      "endTime": 52.97
+      "endTime": 52.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +218,27 @@
       "text": "Meanwhile, my tongue was busy searching out the hole where the tooth had been.",
       "translation": "",
       "startTime": 60.04,
-      "endTime": 66.93
+      "endTime": 66.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +246,27 @@
       "text": "I suddenly felt very worried, but could not say anything.",
       "translation": "",
       "startTime": 66.94,
-      "endTime": 73.51
+      "endTime": 73.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +274,27 @@
       "text": "When the dentist at last removed the cotton wool from my mouth,",
       "translation": "",
       "startTime": 73.52,
-      "endTime": 78.75
+      "endTime": 78.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +302,22 @@
       "text": "I was able to tell him that he had pulled out the wrong tooth.",
       "translation": "",
       "startTime": 78.76,
-      "endTime": 83.76
+      "endTime": 83.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

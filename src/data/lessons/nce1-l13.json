@@ -10,7 +10,17 @@
       "text": "Lesson 13",
       "translation": "",
       "startTime": 0.41,
-      "endTime": 2.7
+      "endTime": 2.7,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "A new dress",
       "translation": "",
       "startTime": 2.71,
-      "endTime": 5.52
+      "endTime": 5.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.53,
-      "endTime": 11.71
+      "endTime": 11.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +74,31 @@
       "text": "What colour is Anna's hat?",
       "translation": "",
       "startTime": 11.72,
-      "endTime": 16.66
+      "endTime": 16.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +106,40 @@
       "text": "What colour's your new dress?",
       "translation": "",
       "startTime": 16.67,
-      "endTime": 20.45
+      "endTime": 20.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +147,22 @@
       "text": "It's green.",
       "translation": "",
       "startTime": 20.46,
-      "endTime": 22.51
+      "endTime": 22.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +170,22 @@
       "text": "Come upstairs and see it.",
       "translation": "",
       "startTime": 22.52,
-      "endTime": 25.77
+      "endTime": 25.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +193,22 @@
       "text": "Thank you.",
       "translation": "",
       "startTime": 25.78,
-      "endTime": 27.52
+      "endTime": 27.52,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +216,17 @@
       "text": "Look!",
       "translation": "",
       "startTime": 27.53,
-      "endTime": 28.65
+      "endTime": 28.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +234,36 @@
       "text": "Here it is!",
       "translation": "",
       "startTime": 28.66,
-      "endTime": 30.78
+      "endTime": 30.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +271,27 @@
       "text": "That's a nice dress.",
       "translation": "",
       "startTime": 30.79,
-      "endTime": 33.5
+      "endTime": 33.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +299,26 @@
       "text": "It's very smart.",
       "translation": "",
       "startTime": 33.51,
-      "endTime": 36.15
+      "endTime": 36.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +326,27 @@
       "text": "My hat's new too.",
       "translation": "",
       "startTime": 36.16,
-      "endTime": 39.21
+      "endTime": 39.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +354,40 @@
       "text": "What colour is it?",
       "translation": "",
       "startTime": 39.22,
-      "endTime": 41.61
+      "endTime": 41.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +395,16 @@
       "text": "It's the same colour.",
       "translation": "",
       "startTime": 41.62,
-      "endTime": 44.17
+      "endTime": 44.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +412,27 @@
       "text": "It's green  too.",
       "translation": "",
       "startTime": 44.18,
-      "endTime": 47.11
+      "endTime": 47.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +440,31 @@
       "text": "That is a lovely hat!",
       "translation": "",
       "startTime": 47.12,
-      "endTime": 52.12
+      "endTime": 52.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

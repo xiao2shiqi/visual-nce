@@ -10,7 +10,17 @@
       "text": "Lesson 56",
       "translation": "",
       "startTime": 0.32,
-      "endTime": 2.54
+      "endTime": 2.54,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,16 @@
       "text": "Our neighbour, the river",
       "translation": "",
       "startTime": 2.55,
-      "endTime": 9.4
+      "endTime": 9.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,16 @@
       "text": "Why had the neighbours left their farm?",
       "translation": "",
       "startTime": 9.41,
-      "endTime": 13.9
+      "endTime": 13.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +62,20 @@
       "text": "The river which forms the eastern boundary of our farm has always played an important part in our lives.",
       "translation": "",
       "startTime": 13.91,
-      "endTime": 21.25
+      "endTime": 21.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +83,27 @@
       "text": "Without it we could not make a living.",
       "translation": "",
       "startTime": 21.26,
-      "endTime": 24.32
+      "endTime": 24.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +111,27 @@
       "text": "There is only enough spring water to supply the needs of the house so we have to pump from the river for farm use.",
       "translation": "",
       "startTime": 24.33,
-      "endTime": 32.58
+      "endTime": 32.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +139,16 @@
       "text": "We tell the river all our secrets.",
       "translation": "",
       "startTime": 32.59,
-      "endTime": 35.35
+      "endTime": 35.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +156,16 @@
       "text": "We know instinctively, just as beekeepers with their bees,",
       "translation": "",
       "startTime": 35.36,
-      "endTime": 39.97
+      "endTime": 39.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +173,40 @@
       "text": "that misfortune might overtake us if the important events of our lives were not related to it.",
       "translation": "",
       "startTime": 39.98,
-      "endTime": 48.61
+      "endTime": 48.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -98,7 +230,22 @@
       "text": "sometimes we have our party at the boathouse,",
       "translation": "",
       "startTime": 56.49,
-      "endTime": 59.6
+      "endTime": 59.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +253,17 @@
       "text": "which a predecessor of ours at the farm built in the meadow hard by the deepest pool for swimming and diving.",
       "translation": "",
       "startTime": 59.61,
-      "endTime": 67.73
+      "endTime": 67.73,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +271,31 @@
       "text": "In a heat wave we choose a midnight birthday party and that is the most exciting of all.",
       "translation": "",
       "startTime": 67.74,
-      "endTime": 74.49
+      "endTime": 74.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +311,17 @@
       "text": "holding a summer festival on Midsummer Eve, giving thanks for the harvest in the autumn, and throwing a holly wreath into the current in the winter.",
       "translation": "",
       "startTime": 81.08,
-      "endTime": 92.65
+      "endTime": 92.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thanks",
+            "pos": "n.",
+            "meaning": "谢谢"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +329,16 @@
       "text": "After a long period of rain the river may overflow its banks.",
       "translation": "",
       "startTime": 92.66,
-      "endTime": 97.92
+      "endTime": 97.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +346,35 @@
       "text": "This is a rare occurrence as our climate seldom goes to extremes.",
       "translation": "",
       "startTime": 97.93,
-      "endTime": 103.1
+      "endTime": 103.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +382,26 @@
       "text": "We are lucky in that only the lower fields,",
       "translation": "",
       "startTime": 103.11,
-      "endTime": 106.39
+      "endTime": 106.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +409,30 @@
       "text": "which make up a very small proportion of our farm, are affected by flooding,",
       "translation": "",
       "startTime": 106.4,
-      "endTime": 111.72
+      "endTime": 111.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +440,20 @@
       "text": "but other farms are less favourably sited, and flooding can sometimes spell disaster for their owners.",
       "translation": "",
       "startTime": 111.73,
-      "endTime": 120.32
+      "endTime": 120.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -194,7 +477,16 @@
       "text": "We were, however, worried about our nearest neighbours, whose farm was low lying and who were newcomers to the district.",
       "translation": "",
       "startTime": 131.01,
-      "endTime": 140.07
+      "endTime": 140.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s21",
@@ -202,7 +494,22 @@
       "text": "As the floods had put the telephone out of order, we could not find out how they were managing.",
       "translation": "",
       "startTime": 140.08,
-      "endTime": 146.29
+      "endTime": 146.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +517,16 @@
       "text": "From an attic window we could get a sweeping view of the river where their land joined ours,",
       "translation": "",
       "startTime": 146.3,
-      "endTime": 152.64
+      "endTime": 152.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s23",
@@ -218,7 +534,27 @@
       "text": "and at the most critical juncture we took turns in watching that point.",
       "translation": "",
       "startTime": 152.65,
-      "endTime": 157.79
+      "endTime": 157.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -242,7 +578,35 @@
       "text": "but we were afraid that the strength of the current would prevent its landing anywhere before it became exhausted.",
       "translation": "",
       "startTime": 166.07,
-      "endTime": 173.84
+      "endTime": 173.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -258,7 +622,22 @@
       "text": "We realized that they must have become unduly frightened by the rising flood,",
       "translation": "",
       "startTime": 185.9,
-      "endTime": 191.62
+      "endTime": 191.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +645,31 @@
       "text": "for their house, which had sound foundations, would have stood stoutly even if it had been almost submerged.",
       "translation": "",
       "startTime": 191.63,
-      "endTime": 200.41
+      "endTime": 200.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +677,20 @@
       "text": "The men of our family waded down through our flooded meadows with boat hooks,",
       "translation": "",
       "startTime": 200.42,
-      "endTime": 205.33
+      "endTime": 205.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s31",
@@ -282,7 +698,26 @@
       "text": "in the hope of being able to grapple a corner of the raft and pull it out of the current towrds our bank.",
       "translation": "",
       "startTime": 205.34,
-      "endTime": 213.52
+      "endTime": 213.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +725,31 @@
       "text": "We still think it a miracle that they were able to do so.",
       "translation": "",
       "startTime": 213.53,
-      "endTime": 218.53
+      "endTime": 218.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

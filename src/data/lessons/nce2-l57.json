@@ -10,7 +10,27 @@
       "text": "Did the woman get what she wanted?",
       "translation": "",
       "startTime": 10.74,
-      "endTime": 15.07
+      "endTime": 15.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +38,22 @@
       "text": "A woman in jeans stood at the window of an expensive shop.",
       "translation": "",
       "startTime": 15.08,
-      "endTime": 20.59
+      "endTime": 20.59,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +69,31 @@
       "text": "she finally went in and asked to see a dress that was in the window.",
       "translation": "",
       "startTime": 23.77,
-      "endTime": 30.32
+      "endTime": 30.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +101,22 @@
       "text": "The assistant who served her did not like the way she was dressed.",
       "translation": "",
       "startTime": 30.33,
-      "endTime": 35.87
+      "endTime": 35.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +124,44 @@
       "text": "Glancing at her scornfully, he told her that the dress was sold.",
       "translation": "",
       "startTime": 35.88,
-      "endTime": 41.88
+      "endTime": 41.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +169,17 @@
       "text": "The woman walked out of the shop angrily and decided to punish the assistant next day.",
       "translation": "",
       "startTime": 41.89,
-      "endTime": 48.84
+      "endTime": 48.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +187,22 @@
       "text": "She returned to the shop the following morning dressed in a fur coat,",
       "translation": "",
       "startTime": 48.85,
-      "endTime": 54.12
+      "endTime": 54.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "coat",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Coat",
+            "pos": "n.",
+            "meaning": "上衣，大衣"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +210,27 @@
       "text": "with a handbag in one hand and a long umbrella in the other.",
       "translation": "",
       "startTime": 54.13,
-      "endTime": 60.04
+      "endTime": 60.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "umbrella",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Handbag",
+            "pos": "n.",
+            "meaning": "（女用）手提包"
+          },
+          {
+            "word": "Umbrella",
+            "pos": "n.",
+            "meaning": "雨伞"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +246,22 @@
       "text": "she asked for the same dress.",
       "translation": "",
       "startTime": 62.91,
-      "endTime": 66.19
+      "endTime": 66.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +269,31 @@
       "text": "Not realizing who she was, the assistant was eager to serve her this time.",
       "translation": "",
       "startTime": 66.2,
-      "endTime": 73.8
+      "endTime": 73.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +301,22 @@
       "text": "With great difficulty, he climbed into the shop window to get the dress.",
       "translation": "",
       "startTime": 73.81,
-      "endTime": 80.44
+      "endTime": 80.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +324,36 @@
       "text": "As soon as she saw it, the woman said she did not like it.",
       "translation": "",
       "startTime": 80.45,
-      "endTime": 86.17
+      "endTime": 86.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +369,22 @@
       "text": "before finally buying the dress she had first asked for.",
       "translation": "",
       "startTime": 92.04,
-      "endTime": 97.04
+      "endTime": 97.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "Why did the prisoner attack the driver?",
       "translation": "",
       "startTime": 9.76,
-      "endTime": 14.71
+      "endTime": 14.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +49,22 @@
       "text": "Now, dressed in a blue uniform and with a rifle over his shoulder,",
       "translation": "",
       "startTime": 29.11,
-      "endTime": 35.6
+      "endTime": 35.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +88,27 @@
       "text": "Lights were blazing and men were running here and there: they had just discovered that a prisoner had escaped.",
       "translation": "",
       "startTime": 44.53,
-      "endTime": 54.18
+      "endTime": 54.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +116,46 @@
       "text": "At that moment, a large black car with four officers inside it, stopped at the camp gates.",
       "translation": "",
       "startTime": 54.19,
-      "endTime": 63.79
+      "endTime": 63.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +171,22 @@
       "text": "When they had gone the driver of the car came towards him.",
       "translation": "",
       "startTime": 71.43,
-      "endTime": 76.64
+      "endTime": 76.64,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +194,17 @@
       "text": "The man obviously wanted to talk.",
       "translation": "",
       "startTime": 76.65,
-      "endTime": 80.27
+      "endTime": 80.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +212,22 @@
       "text": "He was rather elderly with grey hair and clear blue eyes.",
       "translation": "",
       "startTime": 80.28,
-      "endTime": 85.89
+      "endTime": 85.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Grey",
+            "pos": "adj.",
+            "meaning": "灰色的"
+          },
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +235,17 @@
       "text": "The prisoner felt sorry for him, but there was nothing else he could do.",
       "translation": "",
       "startTime": 85.9,
-      "endTime": 92.47
+      "endTime": 92.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +253,17 @@
       "text": "As the man came near the prisoner knocked him to the ground with a sharp blow.",
       "translation": "",
       "startTime": 92.48,
-      "endTime": 99.65
+      "endTime": 99.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +271,17 @@
       "text": "Then, jumping into the car, he drove off as quickly as he could.",
       "translation": "",
       "startTime": 99.66,
-      "endTime": 104.66
+      "endTime": 104.66,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     }
   ]
 }

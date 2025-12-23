@@ -10,7 +10,22 @@
       "text": "Why do people think the writer is mad?",
       "translation": "",
       "startTime": 10.51,
-      "endTime": 15.82
+      "endTime": 15.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,26 @@
       "text": "Aeroplanes are slowly driving me mad.",
       "translation": "",
       "startTime": 15.83,
-      "endTime": 20.57
+      "endTime": 20.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +60,16 @@
       "text": "I live near an airport and passing planes can be heard night and day.",
       "translation": "",
       "startTime": 20.58,
-      "endTime": 27.19
+      "endTime": 27.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +77,27 @@
       "text": "The airport was built years ago, but for some reason it could not be used then.",
       "translation": "",
       "startTime": 27.2,
-      "endTime": 34.92
+      "endTime": 34.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +105,22 @@
       "text": "Last year, however, it came into use.",
       "translation": "",
       "startTime": 34.93,
-      "endTime": 39.65
+      "endTime": 39.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +128,16 @@
       "text": "Over a hundred people must have been driven away from their homes by the noise.",
       "translation": "",
       "startTime": 39.66,
-      "endTime": 46.46
+      "endTime": 46.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +145,16 @@
       "text": "I am one of the few people left.",
       "translation": "",
       "startTime": 46.47,
-      "endTime": 50.38
+      "endTime": 50.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +162,27 @@
       "text": "Sometimes I think this house will be knocked down by a passing plane.",
       "translation": "",
       "startTime": 50.39,
-      "endTime": 57.23
+      "endTime": 57.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +190,22 @@
       "text": "I have been offered a large sum of money to go away, but I am determined to stay here.",
       "translation": "",
       "startTime": 57.24,
-      "endTime": 65.81
+      "endTime": 65.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +213,16 @@
       "text": "Everybody says I must be mad and they are probably right.",
       "translation": "",
       "startTime": 65.82,
-      "endTime": 70.82
+      "endTime": 70.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

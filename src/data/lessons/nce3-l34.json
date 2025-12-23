@@ -10,7 +10,17 @@
       "text": "Lesson 34",
       "translation": "",
       "startTime": 0.38,
-      "endTime": 2.38
+      "endTime": 2.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What was the 'happy discovery' ?",
       "translation": "",
       "startTime": 9.99,
-      "endTime": 14.52
+      "endTime": 14.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +67,16 @@
       "text": "The more expensive kind of antique shop where rare objects are beautifully displayed in glass cases",
       "translation": "",
       "startTime": 21.2,
-      "endTime": 29.1
+      "endTime": 29.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +84,22 @@
       "text": "to keep them free from dust is usually a forbidding place.",
       "translation": "",
       "startTime": 29.11,
-      "endTime": 34.64
+      "endTime": 34.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +115,39 @@
       "text": "There is always hope that in its labyrinth of musty, dark, disordered rooms a real rarity will be found amongst the piles of assorted junk that litter the floors.",
       "translation": "",
       "startTime": 41.64,
-      "endTime": 55.09
+      "endTime": 55.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +163,16 @@
       "text": "A truly dedicated bargain hunter must have patience,",
       "translation": "",
       "startTime": 59.29,
-      "endTime": 63.18
+      "endTime": 63.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +180,22 @@
       "text": "and above all, the ability to recognize the worth of something when he sees it.",
       "translation": "",
       "startTime": 63.19,
-      "endTime": 69.73
+      "endTime": 69.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +203,27 @@
       "text": "To do this, he must be at least as knowledgeable as the dealer.",
       "translation": "",
       "startTime": 69.74,
-      "endTime": 75.7
+      "endTime": 75.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +239,22 @@
       "text": "he must cherish the hope that one day he will be amply rewarded.",
       "translation": "",
       "startTime": 79.36,
-      "endTime": 85.19
+      "endTime": 85.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +262,36 @@
       "text": "My old friend, Frank Halliday, is just such a person.",
       "translation": "",
       "startTime": 85.2,
-      "endTime": 90.89
+      "endTime": 90.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +299,27 @@
       "text": "He has often described to me how he picked up a masterpiece for a mere ￡50.",
       "translation": "",
       "startTime": 90.9,
-      "endTime": 97.5
+      "endTime": 97.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +327,22 @@
       "text": "One Saturday morning, Frank visited an antique shop in my neighbourhood.",
       "translation": "",
       "startTime": 97.51,
-      "endTime": 104.15
+      "endTime": 104.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -162,7 +366,44 @@
       "text": "The dealer told him that it had just come in, but that he could not be bothered to open it.",
       "translation": "",
       "startTime": 119.25,
-      "endTime": 126.28
+      "endTime": 126.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +411,22 @@
       "text": "Frank begged him to do so and the dealer reluctantly prised it open.",
       "translation": "",
       "startTime": 126.29,
-      "endTime": 132.13
+      "endTime": 132.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -186,7 +442,27 @@
       "text": "Apart from an interesting-looking carved dagger, the box was full of crockery, much of it broken.",
       "translation": "",
       "startTime": 134.85,
-      "endTime": 143.02
+      "endTime": 143.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +470,17 @@
       "text": "Frank gently lifted the crockery out of the box and suddenly noticed a miniature painting at the bottom of the packing case.",
       "translation": "",
       "startTime": 143.03,
-      "endTime": 153.15
+      "endTime": 153.15,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +488,36 @@
       "text": "As its composition and line reminded him of an Italian painting he knew well, he decided to buy it.",
       "translation": "",
       "startTime": 153.16,
-      "endTime": 162.43
+      "endTime": 162.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Italian",
+            "pos": "adj.",
+            "meaning": "意大利的"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +525,40 @@
       "text": "Glancing at it briefly the dealer told him that it was worth ￡50.",
       "translation": "",
       "startTime": 162.44,
-      "endTime": 168.2
+      "endTime": 168.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +566,26 @@
       "text": "Frank could hardly conceal his excitement, for he knew that he had made a real discovery.",
       "translation": "",
       "startTime": 168.21,
-      "endTime": 175.46
+      "endTime": 175.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s24",

@@ -10,7 +10,17 @@
       "text": "Lesson 38",
       "translation": "",
       "startTime": 0.54,
-      "endTime": 2.4
+      "endTime": 2.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What does this text describe?",
       "translation": "",
       "startTime": 9.59,
-      "endTime": 13.49
+      "endTime": 13.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,22 @@
       "text": "Contamination of water supplies is usually due to poor sanitation close to water sources,",
       "translation": "",
       "startTime": 13.5,
-      "endTime": 21.29
+      "endTime": 21.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +99,53 @@
       "text": "Even if a piped water supply is safe at its source, it is not always safe by the time it reaches the tap.",
       "translation": "",
       "startTime": 32.17,
-      "endTime": 39.71
+      "endTime": 39.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +153,16 @@
       "text": "Intermittent tap-water supplies should be regarded as particularly suspect.",
       "translation": "",
       "startTime": 39.72,
-      "endTime": 45.75
+      "endTime": 45.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "should",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +170,17 @@
       "text": "Travellers on short trips to areas with water supplies of uncertain quality",
       "translation": "",
       "startTime": 45.76,
-      "endTime": 51.07
+      "endTime": 51.07,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +188,16 @@
       "text": "should avoid drinking tap-water, or untreated water from any other source.",
       "translation": "",
       "startTime": 51.08,
-      "endTime": 56.94
+      "endTime": 56.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "should",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +205,45 @@
       "text": "It is best to keep to hot drinks, bottled or canned drinks of well-known brand names-international standard of water treatment are usually followed at bottling plants.",
       "translation": "",
       "startTime": 56.95,
-      "endTime": 68.26
+      "endTime": 68.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +251,16 @@
       "text": "Carbonated drinks are acidic, and slightly safer.",
       "translation": "",
       "startTime": 68.27,
-      "endTime": 72.23
+      "endTime": 72.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +268,47 @@
       "text": "Make sure that all bottles are opened in your presence, and that their rims are clean and dry.",
       "translation": "",
       "startTime": 72.24,
-      "endTime": 79.13
+      "endTime": 79.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +316,22 @@
       "text": "Boiling is always a good way of treating water.",
       "translation": "",
       "startTime": 79.14,
-      "endTime": 82.35
+      "endTime": 82.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +339,22 @@
       "text": "Some hotels supply boiled water on request and this can be used for drinking, or for brushing teeth.",
       "translation": "",
       "startTime": 82.36,
-      "endTime": 89.48
+      "endTime": 89.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +362,35 @@
       "text": "Portable boiling elements that can boil small quantities of water are useful when the right voltage of electricity is available.",
       "translation": "",
       "startTime": 89.49,
-      "endTime": 97.85
+      "endTime": 97.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +398,17 @@
       "text": "Refuse politely any cold drink from an unknown source.",
       "translation": "",
       "startTime": 97.86,
-      "endTime": 103.21
+      "endTime": 103.21,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +416,35 @@
       "text": "Ice is only as safe as the water from which it is made,",
       "translation": "",
       "startTime": 103.22,
-      "endTime": 106.78
+      "endTime": 106.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +452,36 @@
       "text": "and should not be put in drinks unless it is known to be safe.",
       "translation": "",
       "startTime": 106.79,
-      "endTime": 111.79
+      "endTime": 111.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +489,16 @@
       "text": "Drinks can be cooled by placing them on ice rather than adding ice to them.",
       "translation": "",
       "startTime": 111.8,
-      "endTime": 118.16
+      "endTime": 118.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +506,17 @@
       "text": "Alcohol may be a medical disinfectant, but should not be relied upon to sterilize water.",
       "translation": "",
       "startTime": 118.17,
-      "endTime": 125.56
+      "endTime": 125.56,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +524,27 @@
       "text": "Ethanol is more effective at a concentration of 50-70 percent;",
       "translation": "",
       "startTime": 125.57,
-      "endTime": 130.71
+      "endTime": 130.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +552,26 @@
       "text": "below 20 per cent, its bactericidal action is negligible.",
       "translation": "",
       "startTime": 130.72,
-      "endTime": 135.9
+      "endTime": 135.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -202,7 +595,31 @@
       "text": "which is very poisonous and should never be added to drinking water.",
       "translation": "",
       "startTime": 144.89,
-      "endTime": 150.7
+      "endTime": 150.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +627,16 @@
       "text": "If no other safe water supply can be obtained,",
       "translation": "",
       "startTime": 150.71,
-      "endTime": 154.44
+      "endTime": 154.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s23",
@@ -218,7 +644,49 @@
       "text": "tap water that is too hot to touch can be left to cool and is generally safe to drink.",
       "translation": "",
       "startTime": 154.45,
-      "endTime": 161.49
+      "endTime": 161.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "can",
+            "label": "情态动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +694,27 @@
       "text": "Those planning a trip to remote areas, or intending to live in countries where drinking water is not readily available,",
       "translation": "",
       "startTime": 161.5,
-      "endTime": 169.28
+      "endTime": 169.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +722,16 @@
       "text": "should know about the various possible methods for making water safe.",
       "translation": "",
       "startTime": 169.29,
-      "endTime": 174.29
+      "endTime": 174.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "should",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

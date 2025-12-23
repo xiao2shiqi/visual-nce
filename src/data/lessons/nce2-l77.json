@@ -10,7 +10,22 @@
       "text": "Did the doctors find out how the woman died?",
       "translation": "",
       "startTime": 10.98,
-      "endTime": 16.54
+      "endTime": 16.54,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "The mummy of an Egyptian woman who died in 800 B.C. has just had an operation.",
       "translation": "",
       "startTime": 16.55,
-      "endTime": 25.13
+      "endTime": 25.13,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,31 @@
       "text": "The mummy is that of Shepenmut who was once a singer in the Temple of Thebes.",
       "translation": "",
       "startTime": 25.14,
-      "endTime": 32.43
+      "endTime": 32.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +91,17 @@
       "text": "doctors have been trying to find out whether the woman died of a rare disease.",
       "translation": "",
       "startTime": 38.2,
-      "endTime": 44.91
+      "endTime": 44.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +109,22 @@
       "text": "The only way to do this was to operate.",
       "translation": "",
       "startTime": 44.92,
-      "endTime": 49.59
+      "endTime": 49.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +140,22 @@
       "text": "proved to be very difficult because of the hard resin which covered the skin.",
       "translation": "",
       "startTime": 54.4,
-      "endTime": 60.88
+      "endTime": 60.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +163,22 @@
       "text": "The doctors removed a section of the mummy and sent it to a laboratory.",
       "translation": "",
       "startTime": 60.89,
-      "endTime": 66.74
+      "endTime": 66.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +186,17 @@
       "text": "They also found something which the X-ray plates did not show: a small wax figure of the god Duamutef.",
       "translation": "",
       "startTime": 66.75,
-      "endTime": 77.09
+      "endTime": 77.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +204,22 @@
       "text": "This god which has the head of a cow was normally placed inside a mummy.",
       "translation": "",
       "startTime": 77.1,
-      "endTime": 83.77
+      "endTime": 83.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +227,27 @@
       "text": "The doctors have not yet decided how the woman died.",
       "translation": "",
       "startTime": 83.78,
-      "endTime": 88.89
+      "endTime": 88.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +255,31 @@
       "text": "They feared that the mummy would fall to pieces when they cut it open,",
       "translation": "",
       "startTime": 88.9,
-      "endTime": 93.9
+      "endTime": 93.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +287,27 @@
       "text": "but fortunately this has not happened.",
       "translation": "",
       "startTime": 93.91,
-      "endTime": 97.76
+      "endTime": 97.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",

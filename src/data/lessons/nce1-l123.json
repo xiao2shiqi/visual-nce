@@ -10,7 +10,17 @@
       "text": "Lesson 123",
       "translation": "",
       "startTime": 0.73,
-      "endTime": 3.99
+      "endTime": 3.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 7.35,
-      "endTime": 12.93
+      "endTime": 12.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,27 @@
       "text": "Who is the man with the beard?",
       "translation": "",
       "startTime": 12.94,
-      "endTime": 17.82
+      "endTime": 17.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +87,17 @@
       "text": "Look, Scott.",
       "translation": "",
       "startTime": 17.83,
-      "endTime": 19.98
+      "endTime": 19.98,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +105,40 @@
       "text": "This is a photograph I took during my trip to Australia.",
       "translation": "",
       "startTime": 19.99,
-      "endTime": 26.63
+      "endTime": 26.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +146,31 @@
       "text": "Let me see it, Mike.",
       "translation": "",
       "startTime": 26.64,
-      "endTime": 29.23
+      "endTime": 29.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +178,31 @@
       "text": "This is a good photograph.",
       "translation": "",
       "startTime": 29.24,
-      "endTime": 31.94
+      "endTime": 31.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +210,16 @@
       "text": "Who are these people?",
       "translation": "",
       "startTime": 31.95,
-      "endTime": 35.03
+      "endTime": 35.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -98,7 +243,22 @@
       "text": "What a beautiful ship!",
       "translation": "",
       "startTime": 42.39,
-      "endTime": 45
+      "endTime": 45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +266,22 @@
       "text": "Who's this?",
       "translation": "",
       "startTime": 45.01,
-      "endTime": 47.11
+      "endTime": 47.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +289,22 @@
       "text": "That's the man I told you about.",
       "translation": "",
       "startTime": 47.12,
-      "endTime": 50.18
+      "endTime": 50.18,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +320,17 @@
       "text": "Ah yes.",
       "translation": "",
       "startTime": 51.58,
-      "endTime": 53.09
+      "endTime": 53.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +338,17 @@
       "text": "The one who offered you a job in Australia.",
       "translation": "",
       "startTime": 53.1,
-      "endTime": 57.43
+      "endTime": 57.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +364,22 @@
       "text": "Who's this?",
       "translation": "",
       "startTime": 58.9,
-      "endTime": 60.63
+      "endTime": 60.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -170,7 +395,45 @@
       "text": "It's not you, is it?",
       "translation": "",
       "startTime": 61.74,
-      "endTime": 64.16
+      "endTime": 64.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -186,7 +449,22 @@
       "text": "I grew a beard during the trip, but I shaved it off when I came home.",
       "translation": "",
       "startTime": 66.73,
-      "endTime": 73.49
+      "endTime": 73.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +472,27 @@
       "text": "Why did you shave it off?",
       "translation": "",
       "startTime": 73.5,
-      "endTime": 76.15
+      "endTime": 76.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +500,31 @@
       "text": "My wife didn't like it!",
       "translation": "",
       "startTime": 76.16,
-      "endTime": 81.16
+      "endTime": 81.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

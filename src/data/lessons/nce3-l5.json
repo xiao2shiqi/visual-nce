@@ -10,7 +10,17 @@
       "text": "Lesson 5",
       "translation": "",
       "startTime": 0.67,
-      "endTime": 2.11
+      "endTime": 2.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What was the consequence of the editor's insistence on facts and statistics?",
       "translation": "",
       "startTime": 8.68,
-      "endTime": 16.64
+      "endTime": 16.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "Editors of newspapers and magazines often go to extremes to provide their readers with unimportant facts and statistics.",
       "translation": "",
       "startTime": 16.65,
-      "endTime": 25
+      "endTime": 25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -50,7 +84,22 @@
       "text": "When the article arrived, the editor read the first sentence and then refused to publish it.",
       "translation": "",
       "startTime": 35.09,
-      "endTime": 42.42
+      "endTime": 42.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +115,22 @@
       "text": "The editor at once sent the journalist a fax instructing him to find out the exact number of steps and the height of the wall.",
       "translation": "",
       "startTime": 50.24,
-      "endTime": 61.27
+      "endTime": 61.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -98,7 +162,27 @@
       "text": "He sent yet another fax informing the journalist that if he did not reply soon he would be fired.",
       "translation": "",
       "startTime": 79.44,
-      "endTime": 86.8
+      "endTime": 86.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +190,22 @@
       "text": "When the journalist again failed to reply,  the editor reluctantly published the article as it had originally been written.",
       "translation": "",
       "startTime": 86.81,
-      "endTime": 95.6
+      "endTime": 95.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +213,17 @@
       "text": "A week later, the editor at last received a fax from the journalist.",
       "translation": "",
       "startTime": 95.61,
-      "endTime": 100.97
+      "endTime": 100.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +231,27 @@
       "text": "Not only had the poor man been arrested, but he had been sent to prison as well.",
       "translation": "",
       "startTime": 100.98,
-      "endTime": 107.18
+      "endTime": 107.18,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +259,27 @@
       "text": "However, he had at last been allowed to send a fax in which he informed the editor that he had been arrested",
       "translation": "",
       "startTime": 107.19,
-      "endTime": 115.98
+      "endTime": 115.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",

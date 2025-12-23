@@ -10,7 +10,27 @@
       "text": "Why did the writer not get off the bus at Woodford Green?",
       "translation": "",
       "startTime": 9.59,
-      "endTime": 16.08
+      "endTime": 16.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +46,22 @@
       "text": "but I don't like losing my way.",
       "translation": "",
       "startTime": 18.92,
-      "endTime": 22.62
+      "endTime": 22.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +77,31 @@
       "text": "but my trip took me longer than I expected.",
       "translation": "",
       "startTime": 25.41,
-      "endTime": 30.19
+      "endTime": 30.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +109,17 @@
       "text": "'I'm going to Woodford Green,'",
       "translation": "",
       "startTime": 30.2,
-      "endTime": 32.62
+      "endTime": 32.62,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +135,31 @@
       "text": "'but I don't know where it is.'",
       "translation": "",
       "startTime": 36.84,
-      "endTime": 40.49
+      "endTime": 40.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +167,17 @@
       "text": "'I'll tell you where to get off.' answered the conductor.",
       "translation": "",
       "startTime": 40.5,
-      "endTime": 45.99
+      "endTime": 45.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -98,7 +201,22 @@
       "text": "Looking round, I realized with a shock that I was the only passenger left on the bus.",
       "translation": "",
       "startTime": 55.92,
-      "endTime": 64.2
+      "endTime": 64.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +224,17 @@
       "text": "'You'll have to get off here,'",
       "translation": "",
       "startTime": 64.21,
-      "endTime": 67.02
+      "endTime": 67.02,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +242,31 @@
       "text": "the conductor said. 'This is as far as we go.'",
       "translation": "",
       "startTime": 67.03,
-      "endTime": 72.41
+      "endTime": 72.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +274,36 @@
       "text": "'Is this Woodford Green?' I asked.",
       "translation": "",
       "startTime": 72.42,
-      "endTime": 76.03
+      "endTime": 76.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +319,17 @@
       "text": "'I forgot to put you off.'",
       "translation": "",
       "startTime": 80.23,
-      "endTime": 83.31
+      "endTime": 83.31,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +337,27 @@
       "text": "'It doesn't matter,' I said. 'I'll get off here.'",
       "translation": "",
       "startTime": 83.32,
-      "endTime": 88.44
+      "endTime": 88.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +373,27 @@
       "text": "'Well, in that case,",
       "translation": "",
       "startTime": 92.68,
-      "endTime": 94.89
+      "endTime": 94.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",

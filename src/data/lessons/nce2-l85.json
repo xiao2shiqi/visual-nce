@@ -10,7 +10,17 @@
       "text": "How long has Mr. Page been teaching?",
       "translation": "",
       "startTime": 10.57,
-      "endTime": 14.96
+      "endTime": 14.96,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,54 @@
       "text": "I have just received a letter from my old school, informing me that my former headmaster, Mr. Stuart Page, will be retiring next week.",
       "translation": "",
       "startTime": 14.97,
-      "endTime": 27.94
+      "endTime": 27.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +83,22 @@
       "text": "Pupils of the school old and new, will be sending him a present to mark the occasion.",
       "translation": "",
       "startTime": 27.95,
-      "endTime": 35.52
+      "endTime": 35.52,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +106,16 @@
       "text": "All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home.",
       "translation": "",
       "startTime": 35.53,
-      "endTime": 45.52
+      "endTime": 45.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +123,22 @@
       "text": "We shall all remember Mr. Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school.",
       "translation": "",
       "startTime": 45.53,
-      "endTime": 59.47
+      "endTime": 59.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +146,16 @@
       "text": "A great many former pupils will be attending a farewell dinner in his honour next Thursday.",
       "translation": "",
       "startTime": 59.48,
-      "endTime": 67.39
+      "endTime": 67.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +163,44 @@
       "text": "It is a curious coincidence that the day before his retirement, Mr. Page will have been teaching for a total of forty years.",
       "translation": "",
       "startTime": 67.4,
-      "endTime": 78.65
+      "endTime": 78.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +208,16 @@
       "text": "After he has retired he will devote himself to gardening.",
       "translation": "",
       "startTime": 78.66,
-      "endTime": 84.21
+      "endTime": 84.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +225,22 @@
       "text": "For him, this will be an entirely new hobby.",
       "translation": "",
       "startTime": 84.22,
-      "endTime": 89.05
+      "endTime": 89.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +248,46 @@
       "text": "But this does not matter, for, as he has often remarked, one is never too old to learn.",
       "translation": "",
       "startTime": 89.06,
-      "endTime": 94.06
+      "endTime": 94.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     }
   ]
 }

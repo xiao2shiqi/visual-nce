@@ -18,7 +18,22 @@
       "text": "It was Sunday.",
       "translation": "",
       "startTime": 16,
-      "endTime": 17.98
+      "endTime": 17.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -42,7 +57,22 @@
       "text": "Last Sunday I got up very late.",
       "translation": "",
       "startTime": 26.81,
-      "endTime": 31.05
+      "endTime": 31.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +88,22 @@
       "text": "It was dark outside.",
       "translation": "",
       "startTime": 33.45,
-      "endTime": 35.83
+      "endTime": 35.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +111,22 @@
       "text": "'What a day!' I thought.",
       "translation": "",
       "startTime": 35.84,
-      "endTime": 39.59
+      "endTime": 39.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +134,16 @@
       "text": "'It's raining again.'",
       "translation": "",
       "startTime": 39.6,
-      "endTime": 42.6
+      "endTime": 42.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -90,7 +159,31 @@
       "text": "It was my aunt Lucy.",
       "translation": "",
       "startTime": 46.04,
-      "endTime": 49.03
+      "endTime": 49.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +199,17 @@
       "text": "'I'm coming to see you.'",
       "translation": "",
       "startTime": 53.09,
-      "endTime": 56
+      "endTime": 56,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +225,31 @@
       "text": "'What are you doing?' she asked.",
       "translation": "",
       "startTime": 60.54,
-      "endTime": 63.83
+      "endTime": 63.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +265,22 @@
       "text": "'Dear me,' she said.",
       "translation": "",
       "startTime": 67.5,
-      "endTime": 70.39
+      "endTime": 70.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +288,17 @@
       "text": "'Do you always get up so late?",
       "translation": "",
       "startTime": 70.4,
-      "endTime": 73.38
+      "endTime": 73.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +306,16 @@
       "text": "It's one o'clock!'",
       "translation": "",
       "startTime": 73.39,
-      "endTime": 78.39
+      "endTime": 78.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

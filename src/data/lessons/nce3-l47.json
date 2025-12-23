@@ -10,7 +10,17 @@
       "text": "Lesson 47",
       "translation": "",
       "startTime": 0.24,
-      "endTime": 2.44
+      "endTime": 2.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Too high a price?",
       "translation": "",
       "startTime": 2.45,
-      "endTime": 9.97
+      "endTime": 9.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "What does the writer describe as an 'amusing old-fashioned source of noise' ?",
       "translation": "",
       "startTime": 9.98,
-      "endTime": 18.64
+      "endTime": 18.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,22 @@
       "text": "Pollution is the price we pay for an overpopulated, overindustrialized planet.",
       "translation": "",
       "startTime": 18.65,
-      "endTime": 25.48
+      "endTime": 25.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +92,31 @@
       "text": "When you come to think about it, there are only four ways you can deal with rubbish:",
       "translation": "",
       "startTime": 25.49,
-      "endTime": 30.75
+      "endTime": 30.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +124,39 @@
       "text": "dump it, burn it, turn it into something you can use again, attempt to produce less of it.",
       "translation": "",
       "startTime": 30.76,
-      "endTime": 37.72
+      "endTime": 37.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +172,26 @@
       "text": "Rubbish, however, is only part of the problem of polluting our planet.",
       "translation": "",
       "startTime": 48.1,
-      "endTime": 53.49
+      "endTime": 53.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -98,7 +223,17 @@
       "text": "The price we pay for cheap food may be already too high:",
       "translation": "",
       "startTime": 74.44,
-      "endTime": 79.62
+      "endTime": 79.62,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +249,17 @@
       "text": "And if you think you'll abandon meat and become a vegetarian,",
       "translation": "",
       "startTime": 89.65,
-      "endTime": 93.85
+      "endTime": 93.85,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +267,27 @@
       "text": "you have the choice of very expensive organically-grown vegetables",
       "translation": "",
       "startTime": 93.86,
-      "endTime": 98.88
+      "endTime": 98.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +295,17 @@
       "text": "or a steady diet of pesticides every time you think you're eating fresh salads and vegetables,",
       "translation": "",
       "startTime": 98.89,
-      "endTime": 105.58
+      "endTime": 105.58,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +321,43 @@
       "text": "However, there is an even more insidious kind of pollution that particularly affects urban area and invades our daily lives, and that is noise.",
       "translation": "",
       "startTime": 109.6,
-      "endTime": 122.47
+      "endTime": 122.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +365,17 @@
       "text": "Burglar alarms going off at any time of the day or night serve only to annoy passers-by and actually assist burglars to burgle.",
       "translation": "",
       "startTime": 122.48,
-      "endTime": 133.09
+      "endTime": 133.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +383,27 @@
       "text": "Car alarms constantly scream at us in the street and are a source of profound irritation.",
       "translation": "",
       "startTime": 133.1,
-      "endTime": 140.08
+      "endTime": 140.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +419,22 @@
       "text": "that dogs barking incessantly in the night rated the highest form of noise pollution on a scale ranging from 1 to 7.",
       "translation": "",
       "startTime": 145.37,
-      "endTime": 155.36
+      "endTime": 155.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +442,27 @@
       "text": "The survey revealed a large number of sources of noise that we really dislike.",
       "translation": "",
       "startTime": 155.37,
-      "endTime": 161.78
+      "endTime": 161.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -218,7 +494,17 @@
       "text": "planes and helicopters flying overhead, large radios carried round in public places and played at maximum volume.",
       "translation": "",
       "startTime": 176.23,
-      "endTime": 186.29
+      "endTime": 186.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +512,16 @@
       "text": "New technology has also made its own contribution to noise.",
       "translation": "",
       "startTime": 186.3,
-      "endTime": 191.43
+      "endTime": 191.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s25",
@@ -234,7 +529,16 @@
       "text": "A lot of people object to mobile phones, especially when they are used in public places like restaurant or on public transport.",
       "translation": "",
       "startTime": 191.44,
-      "endTime": 201.68
+      "endTime": 201.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s26",
@@ -242,7 +546,16 @@
       "text": "Loud conversations on mobile phones invade our thoughts or interrupt the pleasure of meeting friends for a quiet chat.",
       "translation": "",
       "startTime": 201.69,
-      "endTime": 211.16
+      "endTime": 211.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s27",
@@ -258,7 +571,22 @@
       "text": "It turned out to be snoring! Men were found to be the worst offenders.",
       "translation": "",
       "startTime": 219.9,
-      "endTime": 226.21
+      "endTime": 226.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +594,35 @@
       "text": "It was revealed that 20% of men in their mid-thirties snore.",
       "translation": "",
       "startTime": 226.22,
-      "endTime": 232.05
+      "endTime": 232.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +630,26 @@
       "text": "This figure rises to a staggering 60% of men in their sixties.",
       "translation": "",
       "startTime": 232.06,
-      "endTime": 238.25
+      "endTime": 238.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -282,7 +657,31 @@
       "text": "Against these figures, it was found that only 5% of women snore regularly,",
       "translation": "",
       "startTime": 238.26,
-      "endTime": 244.51
+      "endTime": 244.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +689,20 @@
       "text": "while the rest are constantly woken or kept awake by their trumpeting partners.",
       "translation": "",
       "startTime": 244.52,
-      "endTime": 251.33
+      "endTime": 251.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s33",
@@ -298,7 +710,31 @@
       "text": "Whatever the source of noise, one thing is certain: silence, it seems, has become a golden memory.",
       "translation": "",
       "startTime": 251.34,
-      "endTime": 256.34
+      "endTime": 256.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

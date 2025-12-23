@@ -10,7 +10,17 @@
       "text": "Lesson 55",
       "translation": "",
       "startTime": 0.37,
-      "endTime": 2.46
+      "endTime": 2.46,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,16 @@
       "text": "Which life forms are most likely to develop on a distant planet?",
       "translation": "",
       "startTime": 10.35,
-      "endTime": 17.4
+      "endTime": 17.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +53,26 @@
       "text": "Recent developments in astronomy have made it possible to detect planets in our own Milky Way and in other galaxies.",
       "translation": "",
       "startTime": 17.41,
-      "endTime": 26.54
+      "endTime": 26.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +80,49 @@
       "text": "This is a major achievement because, in relative terms, planets are very small and do not emit light.",
       "translation": "",
       "startTime": 26.55,
-      "endTime": 34.98
+      "endTime": 34.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +130,22 @@
       "text": "Finding planets is proving hard enough, but finding life on them will prove infinitely more difficult.",
       "translation": "",
       "startTime": 34.99,
-      "endTime": 42.51
+      "endTime": 42.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +153,22 @@
       "text": "The first question to answer is whether a planet can actually support life.",
       "translation": "",
       "startTime": 42.52,
-      "endTime": 48.54
+      "endTime": 48.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +176,45 @@
       "text": "In our own solar system, for example, Venus is far to hot and Mars is far too cold to support life.",
       "translation": "",
       "startTime": 48.55,
-      "endTime": 57.02
+      "endTime": 57.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +222,27 @@
       "text": "Only the Earth provides ideal conditions, and even here it has taken more than four billion years for plant and animal life to evolve.",
       "translation": "",
       "startTime": 57.03,
-      "endTime": 68.34
+      "endTime": 68.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +250,39 @@
       "text": "Whether a planet can support life depends on the size and brightness of its star, that is its 'sun'.",
       "translation": "",
       "startTime": 68.35,
-      "endTime": 75.67
+      "endTime": 75.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +290,16 @@
       "text": "Imagine a star up to twenty times larger, brighter and hotter than our own sun.",
       "translation": "",
       "startTime": 75.68,
-      "endTime": 82.24
+      "endTime": 82.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +307,31 @@
       "text": "A planet would have to be a very long way from it to be capable of supporting life.",
       "translation": "",
       "startTime": 82.25,
-      "endTime": 87.91
+      "endTime": 87.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +347,22 @@
       "text": "the life-supporting planet would have to have a close orbit round it and also provide the perfect conditions for life forms to develop.",
       "translation": "",
       "startTime": 91.09,
-      "endTime": 101.36
+      "endTime": 101.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +370,17 @@
       "text": "But how would we find such a planet?",
       "translation": "",
       "startTime": 101.37,
-      "endTime": 104.72
+      "endTime": 104.72,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +388,40 @@
       "text": "At present, there is no telescope in existence that is capable of detecting the presence of life.",
       "translation": "",
       "startTime": 104.73,
-      "endTime": 112.37
+      "endTime": 112.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +429,16 @@
       "text": "The development of such a telescope will be one of the great astronomical projects of the 21st century.",
       "translation": "",
       "startTime": 112.38,
-      "endTime": 121.14
+      "endTime": 121.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +446,36 @@
       "text": "It is impossible to look for life on another planet using earth-based telescopes.",
       "translation": "",
       "startTime": 121.15,
-      "endTime": 127.33
+      "endTime": 127.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +483,16 @@
       "text": "Our own warm atmosphere and the heat generated by the telescope",
       "translation": "",
       "startTime": 127.34,
-      "endTime": 131.97
+      "endTime": 131.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +500,22 @@
       "text": "would make it impossible to detect objects as small as planets.",
       "translation": "",
       "startTime": 131.98,
-      "endTime": 137.09
+      "endTime": 137.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +523,22 @@
       "text": "Even a telescope in orbit round the earth, like the very successful Hubble telescope,",
       "translation": "",
       "startTime": 137.1,
-      "endTime": 143.31
+      "endTime": 143.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +546,22 @@
       "text": "would not be suitable because of the dust particles in our solar system.",
       "translation": "",
       "startTime": 143.32,
-      "endTime": 149.02
+      "endTime": 149.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +569,17 @@
       "text": "A telescope would have to be as far away as the planet Jupiter to look for life in outer space,",
       "translation": "",
       "startTime": 149.03,
-      "endTime": 156.54
+      "endTime": 156.54,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +587,16 @@
       "text": "because the dust becomes thinner the further we travel towards the outer edges of our own solar system.",
       "translation": "",
       "startTime": 156.55,
-      "endTime": 163.96
+      "endTime": 163.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s21",
@@ -202,7 +604,16 @@
       "text": "Once we detected a planet, we would have to find a way of blotting out the light from its star,",
       "translation": "",
       "startTime": 163.97,
-      "endTime": 170.46
+      "endTime": 170.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s22",
@@ -210,7 +621,26 @@
       "text": "so that we would be able to 'see' the planet properly and analyse its atmosphere.",
       "translation": "",
       "startTime": 170.47,
-      "endTime": 176.37
+      "endTime": 176.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +648,17 @@
       "text": "In the first instance, we would be looking for plant life, rather than 'little green men'.",
       "translation": "",
       "startTime": 176.38,
-      "endTime": 182.98
+      "endTime": 182.98,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -234,7 +674,40 @@
       "text": "It is bacteria that have generated the oxygen we breathe on earth.",
       "translation": "",
       "startTime": 188.85,
-      "endTime": 194.07
+      "endTime": 194.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +715,16 @@
       "text": "For most of the earth's history they have been the only form of life on our planet.",
       "translation": "",
       "startTime": 194.08,
-      "endTime": 199.94
+      "endTime": 199.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s27",
@@ -250,7 +732,31 @@
       "text": "As Earth-dwellers, we always cherish the hope that we will be visited by little green men and that we will be able to communicate with them.",
       "translation": "",
       "startTime": 199.95,
-      "endTime": 210.23
+      "endTime": 210.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +764,31 @@
       "text": "But this hope is always in the realms of science fiction.",
       "translation": "",
       "startTime": 210.24,
-      "endTime": 215.37
+      "endTime": 215.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +796,26 @@
       "text": "If we were able to discover lowly forms of life like bacteria on another planet, it would completely change our view of ourselves.",
       "translation": "",
       "startTime": 215.38,
-      "endTime": 225.4
+      "endTime": 225.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -282,7 +831,22 @@
       "text": "No human endeavour or thought would be unchanged by it.'",
       "translation": "",
       "startTime": 232.33,
-      "endTime": 237.33
+      "endTime": 237.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

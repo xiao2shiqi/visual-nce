@@ -10,7 +10,17 @@
       "text": "Lesson 29",
       "translation": "",
       "startTime": 0.52,
-      "endTime": 3.32
+      "endTime": 3.32,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.85,
-      "endTime": 12.59
+      "endTime": 12.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,17 @@
       "text": "How must Amy clean the floor?",
       "translation": "",
       "startTime": 12.6,
-      "endTime": 17.29
+      "endTime": 17.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +85,17 @@
       "text": "Shut the door, please.",
       "translation": "",
       "startTime": 19.85,
-      "endTime": 22.48
+      "endTime": 22.48,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +103,31 @@
       "text": "This bedroom's very untidy.",
       "translation": "",
       "startTime": 22.49,
-      "endTime": 26.82
+      "endTime": 26.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +135,22 @@
       "text": "What must I do, Mrs. Jones?",
       "translation": "",
       "startTime": 26.83,
-      "endTime": 30.52
+      "endTime": 30.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +158,17 @@
       "text": "Open the window and air the room.",
       "translation": "",
       "startTime": 30.53,
-      "endTime": 34.91
+      "endTime": 34.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s6",

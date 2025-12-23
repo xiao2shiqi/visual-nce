@@ -10,7 +10,22 @@
       "text": "What did the team find?",
       "translation": "",
       "startTime": 10.19,
-      "endTime": 14.24
+      "endTime": 14.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +49,22 @@
       "text": "and it has been used to detect gold which has been buried in the ground.",
       "translation": "",
       "startTime": 25.28,
-      "endTime": 32.06
+      "endTime": 32.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +72,22 @@
       "text": "The machine was used in a cave near the seashore where--it is said--pirates used to hide gold.",
       "translation": "",
       "startTime": 32.07,
-      "endTime": 41.96
+      "endTime": 41.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +95,22 @@
       "text": "The pirates would often bury gold in the cave and then fail to collect it.",
       "translation": "",
       "startTime": 41.97,
-      "endTime": 49.06
+      "endTime": 49.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +126,22 @@
       "text": "The leader of the party was examining the soil near the entrance to the cave when the machine showed that there was gold under the ground.",
       "translation": "",
       "startTime": 57.25,
-      "endTime": 68.5
+      "endTime": 68.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +149,22 @@
       "text": "Very excited, the party dug a hole two feet deep.",
       "translation": "",
       "startTime": 68.51,
-      "endTime": 74.13
+      "endTime": 74.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +180,17 @@
       "text": "The party then searched the whole cave thoroughly but did not find anything except an empty tin trunk.",
       "translation": "",
       "startTime": 80.66,
-      "endTime": 91.2
+      "endTime": 91.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +198,35 @@
       "text": "In spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.",
       "translation": "",
       "startTime": 91.21,
-      "endTime": 96.21
+      "endTime": 96.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

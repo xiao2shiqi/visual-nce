@@ -10,7 +10,17 @@
       "text": "Lesson 15",
       "translation": "",
       "startTime": 0.5,
-      "endTime": 2.88
+      "endTime": 2.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,27 @@
       "text": "Your passports please.",
       "translation": "",
       "startTime": 2.89,
-      "endTime": 6.36
+      "endTime": 6.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +56,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.37,
-      "endTime": 12.29
+      "endTime": 12.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +79,22 @@
       "text": "Is there a problem with the Customs officer?",
       "translation": "",
       "startTime": 12.3,
-      "endTime": 18.82
+      "endTime": 18.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +102,22 @@
       "text": "Are you Swedish?",
       "translation": "",
       "startTime": 18.83,
-      "endTime": 21.39
+      "endTime": 21.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +125,22 @@
       "text": "No we are not.",
       "translation": "",
       "startTime": 21.4,
-      "endTime": 23.93
+      "endTime": 23.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +148,16 @@
       "text": "We are Danish.",
       "translation": "",
       "startTime": 23.94,
-      "endTime": 26.62
+      "endTime": 26.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +165,31 @@
       "text": "Are your friends Danish too?",
       "translation": "",
       "startTime": 26.63,
-      "endTime": 30.2
+      "endTime": 30.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +205,16 @@
       "text": "They are Norwegian.",
       "translation": "",
       "startTime": 33.75,
-      "endTime": 37.45
+      "endTime": 37.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +222,27 @@
       "text": "Your passports please.",
       "translation": "",
       "startTime": 37.46,
-      "endTime": 40.56
+      "endTime": 40.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +250,22 @@
       "text": "Here they are.",
       "translation": "",
       "startTime": 40.57,
-      "endTime": 43.14
+      "endTime": 43.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +273,26 @@
       "text": "Are these your cases?",
       "translation": "",
       "startTime": 43.15,
-      "endTime": 46.06
+      "endTime": 46.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +308,20 @@
       "text": "Our cases are brown.",
       "translation": "",
       "startTime": 48.94,
-      "endTime": 53.06
+      "endTime": 53.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +329,22 @@
       "text": "Here they are.",
       "translation": "",
       "startTime": 53.07,
-      "endTime": 56.08
+      "endTime": 56.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +352,22 @@
       "text": "Are you tourists?",
       "translation": "",
       "startTime": 56.09,
-      "endTime": 58.85
+      "endTime": 58.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +375,22 @@
       "text": "Yes we are.",
       "translation": "",
       "startTime": 58.86,
-      "endTime": 61.86
+      "endTime": 61.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +398,31 @@
       "text": "Are your friends tourists too?",
       "translation": "",
       "startTime": 61.87,
-      "endTime": 65.4
+      "endTime": 65.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +430,22 @@
       "text": "Yes they are.",
       "translation": "",
       "startTime": 65.41,
-      "endTime": 68.65
+      "endTime": 68.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +453,17 @@
       "text": "That's fine.",
       "translation": "",
       "startTime": 68.66,
-      "endTime": 70.77
+      "endTime": 70.77,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +471,37 @@
       "text": "Thank you very much.",
       "translation": "",
       "startTime": 70.78,
-      "endTime": 75.78
+      "endTime": 75.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     }
   ]
 }

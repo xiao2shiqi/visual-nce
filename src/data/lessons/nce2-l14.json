@@ -10,7 +10,22 @@
       "text": "Did the young man speak English?",
       "translation": "",
       "startTime": 10.47,
-      "endTime": 15.26
+      "endTime": 15.26,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -42,7 +57,32 @@
       "text": "On the way, a young man waved to me.",
       "translation": "",
       "startTime": 26.82,
-      "endTime": 30.57
+      "endTime": 30.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +90,22 @@
       "text": "I stopped and he asked me for a lift.",
       "translation": "",
       "startTime": 30.58,
-      "endTime": 34.61
+      "endTime": 34.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +113,17 @@
       "text": "As soon as he had got into the car,",
       "translation": "",
       "startTime": 34.62,
-      "endTime": 37.89
+      "endTime": 37.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +131,17 @@
       "text": "I said good morning to him in French and he replied in the same language.",
       "translation": "",
       "startTime": 37.9,
-      "endTime": 44.35
+      "endTime": 44.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +157,27 @@
       "text": "I do not know any French at all.",
       "translation": "",
       "startTime": 46.65,
-      "endTime": 50.16
+      "endTime": 50.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +193,32 @@
       "text": "I had nearly reached the town, when the young man suddenly said, very slowly,",
       "translation": "",
       "startTime": 53.32,
-      "endTime": 60.62
+      "endTime": 60.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +226,17 @@
       "text": "'Do you speak English?'",
       "translation": "",
       "startTime": 60.63,
-      "endTime": 64.62
+      "endTime": 64.62,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s10",

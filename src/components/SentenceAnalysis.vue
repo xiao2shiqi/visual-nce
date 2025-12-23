@@ -11,20 +11,44 @@ const emit = defineEmits(['close']);
 
 // 使用 Web Speech API 朗读单词
 const speakWord = (word: string) => {
+  if (!window.speechSynthesis) return;
+
+  // 确保语音引擎没有暂停
+  window.speechSynthesis.resume();
   // 取消正在进行的语音
   window.speechSynthesis.cancel();
   
   const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = 'en-US'; // 设置为美式英语
-  utterance.rate = 0.9;
+  utterance.lang = 'en-US'; 
+  utterance.rate = 0.8;
   utterance.pitch = 1;
   
-  // 尝试选择英语语音
-  const voices = window.speechSynthesis.getVoices();
-  const englishVoice = voices.find(v => v.lang.startsWith('en-') && v.name.includes('Female')) 
-    || voices.find(v => v.lang.startsWith('en-'));
-  if (englishVoice) {
-    utterance.voice = englishVoice;
+  // 更加鲁棒的语音选择
+  const selectVoice = () => {
+    const voices = window.speechSynthesis.getVoices();
+    if (voices.length === 0) return null;
+    
+    // 优先选择美式英语女声，其次是美式英语，最后是任何英语
+    return voices.find(v => v.lang === 'en-US' && v.name.includes('Female')) 
+      || voices.find(v => v.lang === 'en-US')
+      || voices.find(v => v.lang.startsWith('en-'))
+      || voices[0];
+  };
+
+  const voice = selectVoice();
+  if (voice) {
+    utterance.voice = voice;
+  } else {
+    // 如果还没加载好语音（常见于 Chrome 启动时），监听事件
+    window.speechSynthesis.onvoiceschanged = () => {
+      const v = selectVoice();
+      if (v) utterance.voice = v;
+      window.speechSynthesis.speak(utterance);
+      window.speechSynthesis.onvoiceschanged = null; // 只执行一次
+    };
+    const currentVoices = window.speechSynthesis.getVoices();
+    if (currentVoices.length > 0) window.speechSynthesis.speak(utterance);
+    return;
   }
   
   window.speechSynthesis.speak(utterance);

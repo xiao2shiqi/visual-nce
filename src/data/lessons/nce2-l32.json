@@ -18,7 +18,22 @@
       "text": "People are not so honest as",
       "translation": "",
       "startTime": 14.65,
-      "endTime": 16.8
+      "endTime": 16.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +49,22 @@
       "text": "The temptation to steal is greater than",
       "translation": "",
       "startTime": 18.75,
-      "endTime": 22.11
+      "endTime": 22.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +88,17 @@
       "text": "woman who always went into a large store",
       "translation": "",
       "startTime": 30.36,
-      "endTime": 33.79
+      "endTime": 33.79,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -90,7 +130,17 @@
       "text": "than usual when the woman came in,",
       "translation": "",
       "startTime": 39.71,
-      "endTime": 43.51
+      "endTime": 43.51,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +148,31 @@
       "text": "so it was easier for the detective to watch her.",
       "translation": "",
       "startTime": 43.52,
-      "endTime": 48.59
+      "endTime": 48.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +180,17 @@
       "text": "The woman first bought a few small articles.",
       "translation": "",
       "startTime": 48.6,
-      "endTime": 52.97
+      "endTime": 52.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -130,7 +214,22 @@
       "text": "in the shop and handed it to an assistant",
       "translation": "",
       "startTime": 58.71,
-      "endTime": 62.4
+      "endTime": 62.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +237,26 @@
       "text": "who wrapped it up for her as quickly as possible.",
       "translation": "",
       "startTime": 62.41,
-      "endTime": 67.15
+      "endTime": 67.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +264,17 @@
       "text": "Then the woman simply took the parcel",
       "translation": "",
       "startTime": 67.16,
-      "endTime": 70.93
+      "endTime": 70.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -170,7 +298,22 @@
       "text": "the detective found out that",
       "translation": "",
       "startTime": 77.49,
-      "endTime": 79.48
+      "endTime": 79.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +321,22 @@
       "text": "the shop assistant was her daughter.",
       "translation": "",
       "startTime": 79.49,
-      "endTime": 83.01
+      "endTime": 83.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Daughter",
+            "pos": "n.",
+            "meaning": "女儿"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +344,16 @@
       "text": "The girl 'gave' her mother",
       "translation": "",
       "startTime": 83.02,
-      "endTime": 85.32
+      "endTime": 85.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s20",
@@ -194,7 +361,22 @@
       "text": "a free dress once a week!",
       "translation": "",
       "startTime": 85.33,
-      "endTime": 90.33
+      "endTime": 90.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     }
   ]
 }

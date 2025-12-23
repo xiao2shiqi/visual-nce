@@ -10,7 +10,22 @@
       "text": "What happened when the snake charmer began to play jazz?",
       "translation": "",
       "startTime": 10.09,
-      "endTime": 16.23
+      "endTime": 16.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "As we had had a long walk through one of the markets of old Delhi,",
       "translation": "",
       "startTime": 16.24,
-      "endTime": 22
+      "endTime": 22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,17 @@
       "text": "we stopped at a square to have a rest.",
       "translation": "",
       "startTime": 22.01,
-      "endTime": 26.04
+      "endTime": 26.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +77,17 @@
       "text": "two large baskets at the other side of the square,",
       "translation": "",
       "startTime": 29.8,
-      "endTime": 34.05
+      "endTime": 34.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +95,22 @@
       "text": "so we went to have a look at him.",
       "translation": "",
       "startTime": 34.06,
-      "endTime": 37.58
+      "endTime": 37.58,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -82,7 +142,16 @@
       "text": "we had our first glimpse of the snake.",
       "translation": "",
       "startTime": 49.89,
-      "endTime": 53.84
+      "endTime": 53.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +159,22 @@
       "text": "It rose out of the basket and began to follow the movements of the pipe.",
       "translation": "",
       "startTime": 53.85,
-      "endTime": 60.18
+      "endTime": 60.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +182,27 @@
       "text": "We were very much surprised when the snake charmer",
       "translation": "",
       "startTime": 60.19,
-      "endTime": 63.8
+      "endTime": 63.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -122,7 +226,27 @@
       "text": "It obviously could not tell the difference between Indian music and jazz!",
       "translation": "",
       "startTime": 74.53,
-      "endTime": 79.53
+      "endTime": 79.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "How fast did the winning car go?",
       "translation": "",
       "startTime": 10.5,
-      "endTime": 15.45
+      "endTime": 15.45,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,27 @@
       "text": "Once a year, a race is held for old cars.",
       "translation": "",
       "startTime": 15.46,
-      "endTime": 20.92
+      "endTime": 20.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +61,31 @@
       "text": "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.",
       "translation": "",
       "startTime": 20.93,
-      "endTime": 30.66
+      "endTime": 30.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +101,17 @@
       "text": "The most unusual car was a Benz which had only three wheels.",
       "translation": "",
       "startTime": 36.65,
-      "endTime": 43.41
+      "endTime": 43.41,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +119,27 @@
       "text": "Built in 1885, it was the oldest car taking part.",
       "translation": "",
       "startTime": 43.42,
-      "endTime": 50.16
+      "endTime": 50.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +155,16 @@
       "text": "Many of the cars broke down on the course and some drivers spent more time under their cars than in them!",
       "translation": "",
       "startTime": 56.11,
-      "endTime": 65.85
+      "endTime": 65.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -82,7 +180,27 @@
       "text": "The winning car reached a speed of forty miles an hour -- much faster than any of its rivals.",
       "translation": "",
       "startTime": 69.7,
-      "endTime": 78.46
+      "endTime": 78.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +208,40 @@
       "text": "It sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.",
       "translation": "",
       "startTime": 78.47,
-      "endTime": 86.03
+      "endTime": 86.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +257,36 @@
       "text": "It was very different from modern car races but no less exciting.",
       "translation": "",
       "startTime": 90.19,
-      "endTime": 95.19
+      "endTime": 95.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     }
   ]
 }

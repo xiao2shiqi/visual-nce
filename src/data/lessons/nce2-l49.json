@@ -10,7 +10,17 @@
       "text": "How did the dream end?",
       "translation": "",
       "startTime": 11.05,
-      "endTime": 15.14
+      "endTime": 15.14,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Tired of sleeping on the floor,",
       "translation": "",
       "startTime": 15.15,
-      "endTime": 18
+      "endTime": 18,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Tired",
+            "pos": "adj.",
+            "meaning": "疲劳的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "a young man in Teheran saved up for years to buy a real bed.",
       "translation": "",
       "startTime": 18.01,
-      "endTime": 24.97
+      "endTime": 24.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,16 @@
       "text": "For the first time in his life,",
       "translation": "",
       "startTime": 24.98,
-      "endTime": 28.04
+      "endTime": 28.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -50,7 +94,27 @@
       "text": "Because the weather was very hot,",
       "translation": "",
       "startTime": 35.22,
-      "endTime": 38.61
+      "endTime": 38.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +122,22 @@
       "text": "he carried the bed on to the roof of his house.",
       "translation": "",
       "startTime": 38.62,
-      "endTime": 43.35
+      "endTime": 43.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +145,27 @@
       "text": "He slept very well for the first two nights,",
       "translation": "",
       "startTime": 43.36,
-      "endTime": 47.99
+      "endTime": 47.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +181,22 @@
       "text": "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.",
       "translation": "",
       "startTime": 53.12,
-      "endTime": 62.02
+      "endTime": 62.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +204,27 @@
       "text": "The young man did not wake up",
       "translation": "",
       "startTime": 62.03,
-      "endTime": 64.43
+      "endTime": 64.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -114,7 +248,17 @@
       "text": "the man was miraculously unhurt.",
       "translation": "",
       "startTime": 72.03,
-      "endTime": 76.2
+      "endTime": 76.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +274,27 @@
       "text": "Glancing at the bits of wood and metal that lay around him,",
       "translation": "",
       "startTime": 80.84,
-      "endTime": 85.71
+      "endTime": 85.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +302,36 @@
       "text": "the man sadly picked up the mattress and carried it into his house.",
       "translation": "",
       "startTime": 85.72,
-      "endTime": 91.81
+      "endTime": 91.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +339,22 @@
       "text": "After he had put it on the floor,",
       "translation": "",
       "startTime": 91.82,
-      "endTime": 94.55
+      "endTime": 94.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s15",

@@ -10,7 +10,17 @@
       "text": "Lesson 24",
       "translation": "",
       "startTime": 0.34,
-      "endTime": 2.43
+      "endTime": 2.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,17 @@
       "text": "We often read in novels how a seemingly respectable person",
       "translation": "",
       "startTime": 11.87,
-      "endTime": 17.05
+      "endTime": 17.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +70,22 @@
       "text": "The English language possesses a vivid saying to describe this sort of situation.",
       "translation": "",
       "startTime": 24.73,
-      "endTime": 30.6
+      "endTime": 30.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +93,22 @@
       "text": "The terrible secret is called 'a skeleton in the cupboard'.",
       "translation": "",
       "startTime": 30.61,
-      "endTime": 35.68
+      "endTime": 35.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +116,27 @@
       "text": "At some dramatic moment in the story, the terrible secret becomes known and a reputation is ruined.",
       "translation": "",
       "startTime": 35.69,
-      "endTime": 43.07
+      "endTime": 43.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +144,22 @@
       "text": "The reader's hair stands on end when he reads in the final pages of the novel that the heroine,",
       "translation": "",
       "startTime": 43.08,
-      "endTime": 49.33
+      "endTime": 49.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +167,31 @@
       "text": "a dear old lady who had always been so kind to everybody, had, in her youth, poisoned every one of her five husbands.",
       "translation": "",
       "startTime": 49.34,
-      "endTime": 59.78
+      "endTime": 59.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +199,45 @@
       "text": "It is all very well for such things to occur in fiction.",
       "translation": "",
       "startTime": 59.79,
-      "endTime": 64.46
+      "endTime": 64.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +245,22 @@
       "text": "To varying degrees, we all have secrets which we do not want even our closest friends to learn,",
       "translation": "",
       "startTime": 64.47,
-      "endTime": 71.75
+      "endTime": 71.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +276,35 @@
       "text": "The only person I know who has a skeleton in the cupboard is George Carlton, and he is very proud of the fact.",
       "translation": "",
       "startTime": 75.5,
-      "endTime": 83.86
+      "endTime": 83.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +312,16 @@
       "text": "George studied medicine in his youth.",
       "translation": "",
       "startTime": 83.87,
-      "endTime": 86.66
+      "endTime": 86.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -138,7 +337,27 @@
       "text": "I once spent an uncomfortable weekend which I shall never forget at his house.",
       "translation": "",
       "startTime": 93.77,
-      "endTime": 99.37
+      "endTime": 99.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +365,22 @@
       "text": "George showed me to the guestroom which, he said, was rarely used.",
       "translation": "",
       "startTime": 99.38,
-      "endTime": 104.01
+      "endTime": 104.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +388,31 @@
       "text": "He told me to unpack my things and then come down to dinner.",
       "translation": "",
       "startTime": 104.02,
-      "endTime": 108.32
+      "endTime": 108.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +420,31 @@
       "text": "After I had stacked my shirts and underclothes in two empty drawers, I decided to hang one of the two suits I had brought with me in the cupboard.",
       "translation": "",
       "startTime": 108.33,
-      "endTime": 118.37
+      "endTime": 118.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +452,22 @@
       "text": "I opened the cupboard door and then stood in front of it petrified.",
       "translation": "",
       "startTime": 118.38,
-      "endTime": 123.31
+      "endTime": 123.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +475,22 @@
       "text": "A skeleton was dangling before my eyes.",
       "translation": "",
       "startTime": 123.32,
-      "endTime": 127.05
+      "endTime": 127.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +498,57 @@
       "text": "The sudden movement of the door made it sway slightly and it gave me the impression that it was about to leap out at me.",
       "translation": "",
       "startTime": 127.06,
-      "endTime": 135.31
+      "endTime": 135.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +556,22 @@
       "text": "Dropping my suit, I dashed downstairs to tell George.",
       "translation": "",
       "startTime": 135.32,
-      "endTime": 140.39
+      "endTime": 140.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +579,26 @@
       "text": "This was worse than 'a terrible secret'; this was a real skeleton!",
       "translation": "",
       "startTime": 140.4,
-      "endTime": 145.84
+      "endTime": 145.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -218,7 +614,27 @@
       "text": "'Oh, that,' he said with a smile as if he were talking about an old friend.",
       "translation": "",
       "startTime": 148.42,
-      "endTime": 154.55
+      "endTime": 154.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +642,32 @@
       "text": "'That's Sebastian. You forget that I was a medical student once upon a time.'",
       "translation": "",
       "startTime": 154.56,
-      "endTime": 159.56
+      "endTime": 159.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          }
+        ]
+      }
     }
   ]
 }

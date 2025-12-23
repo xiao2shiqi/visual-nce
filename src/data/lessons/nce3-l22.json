@@ -10,7 +10,17 @@
       "text": "Lesson 22",
       "translation": "",
       "startTime": 0.51,
-      "endTime": 2.54
+      "endTime": 2.54,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,26 @@
       "text": "Some plays are so successful that they run for years on end.",
       "translation": "",
       "startTime": 17.32,
-      "endTime": 22.4
+      "endTime": 22.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +71,35 @@
       "text": "In many ways, this is unfortunate for the poor actors who are required to go on repeating the same lines night after night.",
       "translation": "",
       "startTime": 22.41,
-      "endTime": 32.96
+      "endTime": 32.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +107,16 @@
       "text": "One would expect them to know their parts by heart and never have cause to falter.",
       "translation": "",
       "startTime": 32.97,
-      "endTime": 39.11
+      "endTime": 39.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +124,36 @@
       "text": "Yet this is not always the case.",
       "translation": "",
       "startTime": 39.12,
-      "endTime": 42.8
+      "endTime": 42.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -82,7 +177,36 @@
       "text": "Even though the noble was expected to read the letter at each performance, he always insisted that it should be written out in full.",
       "translation": "",
       "startTime": 63.38,
-      "endTime": 72.8
+      "endTime": 72.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +214,16 @@
       "text": "One night, the gaoler decided to play a joke on his colleague to find out if,",
       "translation": "",
       "startTime": 72.81,
-      "endTime": 78.4
+      "endTime": 78.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -106,7 +239,16 @@
       "text": "The curtain went up on the final act of the play and revealed the aristocrat sitting alone behind bars in his dark cell.",
       "translation": "",
       "startTime": 85.45,
-      "endTime": 95.15
+      "endTime": 95.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +256,16 @@
       "text": "Just then, the gaoler appeared with the precious letter in his hands.",
       "translation": "",
       "startTime": 95.16,
-      "endTime": 100.54
+      "endTime": 100.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -130,7 +281,17 @@
       "text": "But the copy he gave him had not been written out in full as usual.",
       "translation": "",
       "startTime": 105.36,
-      "endTime": 110.49
+      "endTime": 110.49,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +299,22 @@
       "text": "It was simply a blank sheet of paper.",
       "translation": "",
       "startTime": 110.5,
-      "endTime": 114.13
+      "endTime": 114.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +322,26 @@
       "text": "The gaoler looked on eagerly, anxious to see if his fellow actor had at last learnt his lines.",
       "translation": "",
       "startTime": 114.14,
-      "endTime": 122.22
+      "endTime": 122.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +349,17 @@
       "text": "The noble stared at the blank sheet of paper for a few seconds.",
       "translation": "",
       "startTime": 122.23,
-      "endTime": 127.44
+      "endTime": 127.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +367,35 @@
       "text": "Then, squinting his eyes, he said: 'The light is dim. Read the letter to me.'",
       "translation": "",
       "startTime": 127.45,
-      "endTime": 136.03
+      "endTime": 136.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +411,27 @@
       "text": "Finding that he could not remember a word of the letter either,",
       "translation": "",
       "startTime": 140.49,
-      "endTime": 144.82
+      "endTime": 144.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +439,31 @@
       "text": "the gaoler replied: 'The light is indeed dim, sire.  I must get my glasses.  '",
       "translation": "",
       "startTime": 144.83,
-      "endTime": 152.55
+      "endTime": 152.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +471,22 @@
       "text": "With this, he hurried off the stage.",
       "translation": "",
       "startTime": 152.56,
-      "endTime": 156.37
+      "endTime": 156.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +494,17 @@
       "text": "Much to the aristocrat's amusement,",
       "translation": "",
       "startTime": 156.38,
-      "endTime": 158.82
+      "endTime": 158.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s22",

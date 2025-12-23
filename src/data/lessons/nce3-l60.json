@@ -10,7 +10,17 @@
       "text": "Lesson 60",
       "translation": "",
       "startTime": 0.22,
-      "endTime": 2.38
+      "endTime": 2.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Too early and too late",
       "translation": "",
       "startTime": 2.39,
-      "endTime": 10.61
+      "endTime": 10.61,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,17 @@
       "text": "Why did the young girl miss the train?",
       "translation": "",
       "startTime": 10.62,
-      "endTime": 15.75
+      "endTime": 15.75,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +64,22 @@
       "text": "Punctuality is a necessary habit in all public affairs in civilized society.",
       "translation": "",
       "startTime": 15.76,
-      "endTime": 23.3
+      "endTime": 23.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +87,22 @@
       "text": "Without it, nothing could ever be brought to a conclusion; everything would be in a state of chaos.",
       "translation": "",
       "startTime": 23.31,
-      "endTime": 31.52
+      "endTime": 31.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +110,35 @@
       "text": "Only in a sparsely-populated rural community is it possible to disregard it.",
       "translation": "",
       "startTime": 31.53,
-      "endTime": 38.43
+      "endTime": 38.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +146,16 @@
       "text": "In ordinary living, there can be some tolerance of unpunctuality.",
       "translation": "",
       "startTime": 38.44,
-      "endTime": 44.03
+      "endTime": 44.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +163,22 @@
       "text": "The intellectual, who is working on some abstruse problem, has everything coordinated and organized for the matter in hand.",
       "translation": "",
       "startTime": 44.04,
-      "endTime": 53.52
+      "endTime": 53.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +186,22 @@
       "text": "He is therefore forgiven if late for a dinner party.",
       "translation": "",
       "startTime": 53.53,
-      "endTime": 58.06
+      "endTime": 58.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +209,35 @@
       "text": "But people are often reproached for unpunctuality when their only fault is cutting things fine.",
       "translation": "",
       "startTime": 58.07,
-      "endTime": 65.62
+      "endTime": 65.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +245,31 @@
       "text": "It is hard for energetic, quick-minded people to waste time,",
       "translation": "",
       "startTime": 65.63,
-      "endTime": 70.46
+      "endTime": 70.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +277,16 @@
       "text": "so they are often tempted to finish a job before setting out to keep an appointment.",
       "translation": "",
       "startTime": 70.47,
-      "endTime": 76.24
+      "endTime": 76.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +294,16 @@
       "text": "If no accidents occur on the way, like punctured tyres, diversions of traffic, sudden descent of fog, they will be on time.",
       "translation": "",
       "startTime": 76.25,
-      "endTime": 85.87
+      "endTime": 85.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +311,20 @@
       "text": "They are often more industrious, useful citizens than those who are never late.",
       "translation": "",
       "startTime": 85.88,
-      "endTime": 92.03
+      "endTime": 92.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +332,17 @@
       "text": "The over-punctual can be as much a trial to others as the unpunctual.",
       "translation": "",
       "startTime": 92.04,
-      "endTime": 98.11
+      "endTime": 98.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +350,27 @@
       "text": "The guest who arrives half an hour too soon is the greatest nuisance.",
       "translation": "",
       "startTime": 98.12,
-      "endTime": 104.55
+      "endTime": 104.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +378,31 @@
       "text": "Some friends of my family had this irritating habit.",
       "translation": "",
       "startTime": 104.56,
-      "endTime": 108.31
+      "endTime": 108.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +410,16 @@
       "text": "The only thing to do was ask them to come half an hour later than the other guests.",
       "translation": "",
       "startTime": 108.32,
-      "endTime": 114.08
+      "endTime": 114.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -162,7 +435,45 @@
       "text": "If you are catching a train, it is always better to be comfortably early than even a fraction of a minute too late.",
       "translation": "",
       "startTime": 117.69,
-      "endTime": 125.96
+      "endTime": 125.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +481,16 @@
       "text": "Although being early may mean wasting a little time,",
       "translation": "",
       "startTime": 125.97,
-      "endTime": 129.56
+      "endTime": 129.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "may",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +498,27 @@
       "text": "this will be less than if you miss the train and have to wait an hour or more for the next one;",
       "translation": "",
       "startTime": 129.57,
-      "endTime": 135.47
+      "endTime": 135.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +526,50 @@
       "text": "and you avoid the frustration of arriving at the very moment when the train is drawing out of the station and being unable to get on it.",
       "translation": "",
       "startTime": 135.48,
-      "endTime": 146.34
+      "endTime": 146.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +577,36 @@
       "text": "An even harder situation is to be on the platform in good time for a train and still to see it go off without you.",
       "translation": "",
       "startTime": 146.35,
-      "endTime": 156.01
+      "endTime": 156.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +614,17 @@
       "text": "Such an experience befell a certain young girl the first time she was travelling alone.",
       "translation": "",
       "startTime": 156.02,
-      "endTime": 162.71
+      "endTime": 162.71,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -218,7 +640,20 @@
       "text": "since her parents had impressed upon her",
       "translation": "",
       "startTime": 167.2,
-      "endTime": 169.95
+      "endTime": 169.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -226,7 +661,44 @@
       "text": "that it would be unforgivable to miss it and cause the friends with whom she was going to stay to make two journeys to meet her.",
       "translation": "",
       "startTime": 169.96,
-      "endTime": 179.31
+      "endTime": 179.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +706,30 @@
       "text": "She gave her luggage to a porter and showed him her ticket.",
       "translation": "",
       "startTime": 179.32,
-      "endTime": 183.91
+      "endTime": 183.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "ticket",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Ticket",
+            "pos": "n.",
+            "meaning": "票"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +737,31 @@
       "text": "To her horror he said that she was two hours too soon.",
       "translation": "",
       "startTime": 183.92,
-      "endTime": 189.15
+      "endTime": 189.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +769,35 @@
       "text": "She felt in her handbag for the piece of paper on which her father had written down all the details of the journey and gave it to the porter.",
       "translation": "",
       "startTime": 189.16,
-      "endTime": 198.84
+      "endTime": 198.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Handbag",
+            "pos": "n.",
+            "meaning": "（女用）手提包"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +805,45 @@
       "text": "He agreed that a train did come into the station at the time on the paper and that it did stop, but only to take on mail, not passengers.",
       "translation": "",
       "startTime": 198.85,
-      "endTime": 210.89
+      "endTime": 210.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +851,31 @@
       "text": "The girl asked to see a timetable, feeling sure that her father could not have made such a mistake.",
       "translation": "",
       "startTime": 210.9,
-      "endTime": 218.28
+      "endTime": 218.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -282,7 +891,31 @@
       "text": "who produced it with a flourish and pointed out a microscopic 'o' beside the time of the arrival of the train at his station;",
       "translation": "",
       "startTime": 223.19,
-      "endTime": 233.03
+      "endTime": 233.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +923,31 @@
       "text": "this little 'o' indicated that the train only stopped for mail.",
       "translation": "",
       "startTime": 233.04,
-      "endTime": 238.85
+      "endTime": 238.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -298,7 +955,22 @@
       "text": "Just as that moment the train came into the station.",
       "translation": "",
       "startTime": 238.86,
-      "endTime": 243.58
+      "endTime": 243.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s34",
@@ -306,7 +978,16 @@
       "text": "The girl, tears streaming down her face, begged to be allowed to slip into the guard's van.",
       "translation": "",
       "startTime": 243.59,
-      "endTime": 250.77
+      "endTime": 250.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s35",
@@ -314,7 +995,17 @@
       "text": "But the station master was adamant: rules could not be broken.",
       "translation": "",
       "startTime": 250.78,
-      "endTime": 257.07
+      "endTime": 257.07,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s36",
@@ -322,7 +1013,31 @@
       "text": "And she had to watch that train disappear towards her destination while she was left behind.",
       "translation": "",
       "startTime": 257.08,
-      "endTime": 262.08
+      "endTime": 262.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

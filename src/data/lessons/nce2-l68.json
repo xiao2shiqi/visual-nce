@@ -10,7 +10,22 @@
       "text": "Why did Elizabeth tell Nigel that she was going to the dentist?",
       "translation": "",
       "startTime": 10.12,
-      "endTime": 17.61
+      "endTime": 17.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,26 @@
       "text": "I crossed the street to avoid meeting him but he saw me and came running towards me.",
       "translation": "",
       "startTime": 17.62,
-      "endTime": 25.24
+      "endTime": 25.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +60,36 @@
       "text": "It was no use pretending that I had not seen him, so I waved to him.",
       "translation": "",
       "startTime": 25.25,
-      "endTime": 32.55
+      "endTime": 32.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +105,16 @@
       "text": "He never has anything to do.",
       "translation": "",
       "startTime": 36.76,
-      "endTime": 40.33
+      "endTime": 40.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +122,32 @@
       "text": "No matter how busy you are, he always insists on coming with you.",
       "translation": "",
       "startTime": 40.34,
-      "endTime": 47.76
+      "endTime": 47.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +155,22 @@
       "text": "I had to think of a way of preventing him from following me around all morning.",
       "translation": "",
       "startTime": 47.77,
-      "endTime": 54.79
+      "endTime": 54.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +178,22 @@
       "text": "'Hello, Nigel,' I said 'Fancy meeting you here!'",
       "translation": "",
       "startTime": 54.8,
-      "endTime": 60.58
+      "endTime": 60.58,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +201,22 @@
       "text": "'Hi, Elizabeth,' Nigel answered. 'I was just wondering how to spend the morning--until I saw you.",
       "translation": "",
       "startTime": 60.59,
-      "endTime": 70.76
+      "endTime": 70.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +224,32 @@
       "text": "You're not busy doing anything, are you?'",
       "translation": "",
       "startTime": 70.77,
-      "endTime": 74.55
+      "endTime": 74.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +257,22 @@
       "text": "'No, not at all,' I answered. 'I'm going to...'",
       "translation": "",
       "startTime": 74.56,
-      "endTime": 79.85
+      "endTime": 79.85,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +280,27 @@
       "text": "'Would you mind my coming with you?' he asked, before I had finished speaking.",
       "translation": "",
       "startTime": 79.86,
-      "endTime": 86.52
+      "endTime": 86.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +308,22 @@
       "text": "'Not at all,' I lied, 'but I'm going to the dentist.'",
       "translation": "",
       "startTime": 86.53,
-      "endTime": 92.56
+      "endTime": 92.56,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +331,17 @@
       "text": "'Then I'll come with you,' he answered.",
       "translation": "",
       "startTime": 92.57,
-      "endTime": 96.01
+      "endTime": 96.01,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",

@@ -10,7 +10,17 @@
       "text": "Lesson 8",
       "translation": "",
       "startTime": 0.54,
-      "endTime": 2.14
+      "endTime": 2.14,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,26 @@
       "text": "What are the St.Bernard dogs used for?",
       "translation": "",
       "startTime": 9.49,
-      "endTime": 15.02
+      "endTime": 15.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +71,36 @@
       "text": "At 2,473 metres, it is the highest mountain pass in Europe.",
       "translation": "",
       "startTime": 20.49,
-      "endTime": 28.14
+      "endTime": 28.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -90,7 +148,31 @@
       "text": "Now that a tunnel has been built through the mountains, the Pass is less dangerous,",
       "translation": "",
       "startTime": 53.39,
-      "endTime": 58.91
+      "endTime": 58.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +180,26 @@
       "text": "but each year, the dogs are still sent out into the snow whenever a traveller is in difficulty.",
       "translation": "",
       "startTime": 58.92,
-      "endTime": 66.31
+      "endTime": 66.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +215,16 @@
       "text": "there are still a few people who rashly attempt to cross the Pass on foot.",
       "translation": "",
       "startTime": 67.93,
-      "endTime": 74.68
+      "endTime": 74.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +232,36 @@
       "text": "During the summer months, the monastery is very busy,",
       "translation": "",
       "startTime": 74.69,
-      "endTime": 78.29
+      "endTime": 78.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +269,31 @@
       "text": "for it is visited by thousands of people who cross the Pass in cars.",
       "translation": "",
       "startTime": 78.3,
-      "endTime": 84
+      "endTime": 84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +301,16 @@
       "text": "As there are so many people about, the dogs have to be kept in a special enclosure.",
       "translation": "",
       "startTime": 84.01,
-      "endTime": 90.31
+      "endTime": 90.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +318,27 @@
       "text": "In winter, however, life at the monastery is quite different.",
       "translation": "",
       "startTime": 90.32,
-      "endTime": 95.71
+      "endTime": 95.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +354,22 @@
       "text": "and very few people attempt to cross the Pass.",
       "translation": "",
       "startTime": 98.73,
-      "endTime": 102.73
+      "endTime": 102.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +385,17 @@
       "text": "The dogs have greater freedom, too,",
       "translation": "",
       "startTime": 107.68,
-      "endTime": 110.38
+      "endTime": 110.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +403,20 @@
       "text": "for they are allowed to wander outside their enclosure.",
       "translation": "",
       "startTime": 110.39,
-      "endTime": 113.91
+      "endTime": 113.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s20",
@@ -194,7 +424,22 @@
       "text": "The only regular visitors to the monastery in winter are parties of skiers who go there at Christmas and Easter.",
       "translation": "",
       "startTime": 113.92,
-      "endTime": 122.35
+      "endTime": 122.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +447,17 @@
       "text": "These young people,",
       "translation": "",
       "startTime": 122.36,
-      "endTime": 124.33
+      "endTime": 124.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -218,7 +473,17 @@
       "text": "always receive a warm welcome at St.Bernard's monastery.",
       "translation": "",
       "startTime": 126.56,
-      "endTime": 131.56
+      "endTime": 131.56,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

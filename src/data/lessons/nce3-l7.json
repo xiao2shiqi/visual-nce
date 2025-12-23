@@ -10,7 +10,17 @@
       "text": "Lesson 7",
       "translation": "",
       "startTime": 0.24,
-      "endTime": 1.88
+      "endTime": 1.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,16 @@
       "text": "Why did Jane cook John's wallet?",
       "translation": "",
       "startTime": 8.69,
-      "endTime": 12.77
+      "endTime": 12.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +53,27 @@
       "text": "Has it ever happened to you?",
       "translation": "",
       "startTime": 12.78,
-      "endTime": 15.16
+      "endTime": 15.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +81,31 @@
       "text": "Have you ever put your trousers in the washing machine and then remembered there was a large bank note in your back pocket?",
       "translation": "",
       "startTime": 15.17,
-      "endTime": 23.28
+      "endTime": 23.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +113,32 @@
       "text": "When you rescued your trousers, did you find the note was whiter than white?",
       "translation": "",
       "startTime": 23.29,
-      "endTime": 29.09
+      "endTime": 29.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "White",
+            "pos": "adj.",
+            "meaning": "白色的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +146,22 @@
       "text": "People who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!",
       "translation": "",
       "startTime": 29.1,
-      "endTime": 36.61
+      "endTime": 36.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +177,20 @@
       "text": "which deals with claims from people who fed their money to a machine or to their dog.",
       "translation": "",
       "startTime": 42.32,
-      "endTime": 48.61
+      "endTime": 48.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +198,22 @@
       "text": "Dogs, it seems, love to chew up money!",
       "translation": "",
       "startTime": 48.62,
-      "endTime": 52.93
+      "endTime": 52.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +229,26 @@
       "text": "John had a very good day and put his wallet containing ￡3, 000 into the microwave oven for safekeeping.",
       "translation": "",
       "startTime": 61.06,
-      "endTime": 69.98
+      "endTime": 69.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +264,35 @@
       "text": "When they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiance's wallet as well.",
       "translation": "",
       "startTime": 72.63,
-      "endTime": 82.98
+      "endTime": 82.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +300,16 @@
       "text": "Imagine their dismay when they found a beautifully-cooked wallet and notes turned to ash!",
       "translation": "",
       "startTime": 82.99,
-      "endTime": 91.08
+      "endTime": 91.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +317,16 @@
       "text": "John went to see his bank manager who sent the remains of wallet and the money",
       "translation": "",
       "startTime": 91.09,
-      "endTime": 96.67
+      "endTime": 96.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -146,7 +342,16 @@
       "text": "They examined the remains and John got all his money back.",
       "translation": "",
       "startTime": 102.82,
-      "endTime": 108.32
+      "endTime": 108.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -154,7 +359,16 @@
       "text": "'So long as there's something to identify, we will give people their money back,' said a spokeswoman for the Bank.",
       "translation": "",
       "startTime": 108.33,
-      "endTime": 116.55
+      "endTime": 116.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",

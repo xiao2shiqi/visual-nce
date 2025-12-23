@@ -10,7 +10,17 @@
       "text": "Lesson 43",
       "translation": "",
       "startTime": 0.29,
-      "endTime": 3
+      "endTime": 3,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,16 @@
       "text": "Insurance companies are normally willing to insure anything.",
       "translation": "",
       "startTime": 15.55,
-      "endTime": 20.84
+      "endTime": 20.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +61,22 @@
       "text": "Insuring public or private property is a standard practice in most countries in the world.",
       "translation": "",
       "startTime": 20.85,
-      "endTime": 28.13
+      "endTime": 28.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +84,32 @@
       "text": "If, however, you were holding an open air garden party or a fete it would be equally possible to insure yourself in the event of bad weather.",
       "translation": "",
       "startTime": 28.14,
-      "endTime": 40.26
+      "endTime": 40.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +117,17 @@
       "text": "Needless to say, the bigger the risk an insurance company takes, the higher the premium you will have to pay.",
       "translation": "",
       "startTime": 40.27,
-      "endTime": 49.89
+      "endTime": 49.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +135,45 @@
       "text": "It is not uncommon to hear that a shipping company has made a claim for the cost of salvaging a sunken ship.",
       "translation": "",
       "startTime": 49.9,
-      "endTime": 58.01
+      "endTime": 58.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +181,16 @@
       "text": "But the claim made by a local authority to recover the cost of salvaging a sunken pie dish must surely be unique.",
       "translation": "",
       "startTime": 58.02,
-      "endTime": 68.33
+      "endTime": 68.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +198,26 @@
       "text": "Admittedly it was an unusual pie dish, for it was eighteen feet long and six feet wide.",
       "translation": "",
       "startTime": 68.34,
-      "endTime": 77.39
+      "endTime": 77.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +225,31 @@
       "text": "It had been purchased by a local authority so that an enormous pie could be baked for an annual fair.",
       "translation": "",
       "startTime": 77.4,
-      "endTime": 86.39
+      "endTime": 86.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +257,31 @@
       "text": "The pie committee decided that the best way to transport the dish would be by canal so they insured it for the trip.",
       "translation": "",
       "startTime": 86.4,
-      "endTime": 96.6
+      "endTime": 96.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +289,22 @@
       "text": "Shortly after it was launched, the pie committee went to a local inn to celebrate.",
       "translation": "",
       "startTime": 96.61,
-      "endTime": 103.27
+      "endTime": 103.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +312,27 @@
       "text": "At the same time, a number of teenagers climbed on to the dish and held a little party of their own.",
       "translation": "",
       "startTime": 103.28,
-      "endTime": 111.26
+      "endTime": 111.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +348,22 @@
       "text": "for during the party it capsized and sank in seven feet of water.",
       "translation": "",
       "startTime": 115.25,
-      "endTime": 121.75
+      "endTime": 121.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +379,16 @@
       "text": "Shivering in their wet clothes, the teenagers looked on while three men dived repeatedly into the water to locate the dish.",
       "translation": "",
       "startTime": 130.67,
-      "endTime": 141.4
+      "endTime": 141.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -154,7 +396,26 @@
       "text": "They had little difficulty in finding it, but hauling it out of the water proved to be a serious problem.",
       "translation": "",
       "startTime": 141.41,
-      "endTime": 150.26
+      "endTime": 150.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +423,35 @@
       "text": "The sides of the dish were so smooth that it was almost impossible to attach hawsers and chains to the rim without damaging it.",
       "translation": "",
       "startTime": 150.27,
-      "endTime": 162.11
+      "endTime": 162.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -194,7 +483,22 @@
       "text": "but it suddenly overbalanced and slid back into the water.",
       "translation": "",
       "startTime": 185.67,
-      "endTime": 191.33
+      "endTime": 191.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +514,31 @@
       "text": "This time they fixed heavy metal clamps to both sides of the dish so that they could fasten the chains.",
       "translation": "",
       "startTime": 195.82,
-      "endTime": 204.76
+      "endTime": 204.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -242,7 +570,35 @@
       "text": "Water streamed in torrents over its sides with such force that it set up a huge wave in the canal.",
       "translation": "",
       "startTime": 225.3,
-      "endTime": 233.95
+      "endTime": 233.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +606,22 @@
       "text": "There was a danger that the wave would rebound off the other side of the bank and send the dish plunging into the water again.",
       "translation": "",
       "startTime": 233.96,
-      "endTime": 244.43
+      "endTime": 244.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +629,17 @@
       "text": "By working at tremendous speed, the men managed to get the dish on to dry land before the wave returned.",
       "translation": "",
       "startTime": 244.44,
-      "endTime": 249.44
+      "endTime": 249.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

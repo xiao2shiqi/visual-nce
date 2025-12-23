@@ -10,7 +10,17 @@
       "text": "Lesson 9",
       "translation": "",
       "startTime": 0.7,
-      "endTime": 2.61
+      "endTime": 2.61,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,17 @@
       "text": "How do cats try to protect themselves when falling from great heights?",
       "translation": "",
       "startTime": 10.02,
-      "endTime": 17.33
+      "endTime": 17.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +62,22 @@
       "text": "They can be friendly and affectionate towards humans, but they lead mysterious lives of their own as well.",
       "translation": "",
       "startTime": 21.77,
-      "endTime": 29.46
+      "endTime": 29.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -66,7 +101,16 @@
       "text": "Most cats remain suspicious of humans all their lives.",
       "translation": "",
       "startTime": 39.36,
-      "endTime": 43.9
+      "endTime": 43.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +118,35 @@
       "text": "One of the things that fascinates us most about cats is the popular belief that they have nine lives.",
       "translation": "",
       "startTime": 43.91,
-      "endTime": 51.85
+      "endTime": 51.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +154,31 @@
       "text": "Apparently, there is a good deal of truth in this idea.",
       "translation": "",
       "startTime": 51.86,
-      "endTime": 57.68
+      "endTime": 57.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +186,22 @@
       "text": "A cat's ability to survive falls is based on fact.",
       "translation": "",
       "startTime": 57.69,
-      "endTime": 63.17
+      "endTime": 63.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +209,17 @@
       "text": "Recently the New York Animal Medical Centre made a study of 132 cats over a period of five months.",
       "translation": "",
       "startTime": 63.18,
-      "endTime": 72.99
+      "endTime": 72.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -122,7 +243,31 @@
       "text": "Of course, New York is the ideal place for such an interesting study, because there is no shortage of tall buildings.",
       "translation": "",
       "startTime": 84.07,
-      "endTime": 93.78
+      "endTime": 93.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Tall",
+            "pos": "adj.",
+            "meaning": "高的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +275,16 @@
       "text": "There are plenty of high-rise windowsills to fall from!",
       "translation": "",
       "startTime": 93.79,
-      "endTime": 98.47
+      "endTime": 98.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -154,7 +308,35 @@
       "text": "It seems that the further cats fall, the less they are likely to injure themselves.",
       "translation": "",
       "startTime": 112.15,
-      "endTime": 119.15
+      "endTime": 119.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -170,7 +352,17 @@
       "text": "At high speeds, falling cats have time to relax.",
       "translation": "",
       "startTime": 125.01,
-      "endTime": 129.22
+      "endTime": 129.22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +370,16 @@
       "text": "They stretch out their legs like flying squirrels.",
       "translation": "",
       "startTime": 129.23,
-      "endTime": 133.68
+      "endTime": 133.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +387,26 @@
       "text": "This increases their air-resistance and reduces the shock of impact when they hit the ground.",
       "translation": "",
       "startTime": 133.69,
-      "endTime": 138.69
+      "endTime": 138.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     }
   ]
 }

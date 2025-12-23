@@ -10,7 +10,17 @@
       "text": "Lesson 61",
       "translation": "",
       "startTime": 0.6,
-      "endTime": 3.05
+      "endTime": 3.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "A bad cold",
       "translation": "",
       "startTime": 3.06,
-      "endTime": 5.91
+      "endTime": 5.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.92,
-      "endTime": 11.14
+      "endTime": 11.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,31 @@
       "text": "What is good news for Jimmy?",
       "translation": "",
       "startTime": 11.15,
-      "endTime": 16.54
+      "endTime": 16.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -82,7 +141,16 @@
       "text": "We must call the doctor.",
       "translation": "",
       "startTime": 27.86,
-      "endTime": 31.04
+      "endTime": 31.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +158,17 @@
       "text": "Yes, we must.",
       "translation": "",
       "startTime": 31.05,
-      "endTime": 34.11
+      "endTime": 34.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +176,22 @@
       "text": "Can you remember the doctor's telephone number?",
       "translation": "",
       "startTime": 34.12,
-      "endTime": 38.74
+      "endTime": 38.74,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +199,22 @@
       "text": "Yes. It's 09754.",
       "translation": "",
       "startTime": 38.75,
-      "endTime": 45.77
+      "endTime": 45.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +222,22 @@
       "text": "Open your mouth, Jimmy.",
       "translation": "",
       "startTime": 45.78,
-      "endTime": 48.36
+      "endTime": 48.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +245,31 @@
       "text": "Show me your tongue. Say, 'Ah'.",
       "translation": "",
       "startTime": 48.37,
-      "endTime": 53.62
+      "endTime": 53.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +285,22 @@
       "text": "He has a bad cold, Mr. Williams, so he must stay in bed for a week.",
       "translation": "",
       "startTime": 57.22,
-      "endTime": 65.8
+      "endTime": 65.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -162,7 +324,17 @@
       "text": "Because he doesn't like school!",
       "translation": "",
       "startTime": 72.36,
-      "endTime": 77.36
+      "endTime": 77.36,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     }
   ]
 }

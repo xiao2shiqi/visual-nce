@@ -10,7 +10,17 @@
       "text": "How many cards did the writer send?",
       "translation": "",
       "startTime": 11.05,
-      "endTime": 16.16
+      "endTime": 16.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "Postcards always spoil my holidays.",
       "translation": "",
       "startTime": 16.17,
-      "endTime": 21
+      "endTime": 21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -42,7 +67,27 @@
       "text": "A friendly waiter taught me a few words of Italian.",
       "translation": "",
       "startTime": 28.95,
-      "endTime": 33.44
+      "endTime": 33.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Italian",
+            "pos": "adj.",
+            "meaning": "意大利的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +95,27 @@
       "text": "Then he lent me a book.",
       "translation": "",
       "startTime": 33.45,
-      "endTime": 36.09
+      "endTime": 36.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Book",
+            "pos": "n.",
+            "meaning": "书"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +123,17 @@
       "text": "I read a few lines, but I did not understand a word.",
       "translation": "",
       "startTime": 36.1,
-      "endTime": 41.77
+      "endTime": 41.77,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +149,22 @@
       "text": "My holidays passed quickly,",
       "translation": "",
       "startTime": 46.08,
-      "endTime": 48.83
+      "endTime": 48.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +172,27 @@
       "text": "but I did not send cards to my friends.",
       "translation": "",
       "startTime": 48.84,
-      "endTime": 52.97
+      "endTime": 52.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -106,7 +216,22 @@
       "text": "I spent the whole day in my room,",
       "translation": "",
       "startTime": 63.08,
-      "endTime": 66.54
+      "endTime": 66.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +239,17 @@
       "text": "but I did not write a single card!",
       "translation": "",
       "startTime": 66.55,
-      "endTime": 71.55
+      "endTime": 71.55,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

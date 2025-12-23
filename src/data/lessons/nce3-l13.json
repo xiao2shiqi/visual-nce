@@ -10,7 +10,17 @@
       "text": "Lesson 13",
       "translation": "",
       "startTime": 0.63,
-      "endTime": 2.83
+      "endTime": 2.83,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,26 @@
       "text": "'It's only me'",
       "translation": "",
       "startTime": 2.84,
-      "endTime": 10.86
+      "endTime": 10.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +55,27 @@
       "text": "What did the man expect to find under the stairs?",
       "translation": "",
       "startTime": 10.87,
-      "endTime": 16.41
+      "endTime": 16.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +83,30 @@
       "text": "After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her bedroom.",
       "translation": "",
       "startTime": 16.42,
-      "endTime": 24.95
+      "endTime": 24.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +114,31 @@
       "text": "She was too excited to do any housework that morning, for in the evening she would be going to a fancy-dress party with her husband.",
       "translation": "",
       "startTime": 24.96,
-      "endTime": 34.88
+      "endTime": 34.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +146,35 @@
       "text": "She intended to dress up as a ghost and as she had made her costume the night before, she was impatient to try it on.",
       "translation": "",
       "startTime": 34.89,
-      "endTime": 44.22
+      "endTime": 44.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +182,31 @@
       "text": "Though the costume consisted only of a sheet, it was very effective.",
       "translation": "",
       "startTime": 44.23,
-      "endTime": 49.61
+      "endTime": 49.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +214,22 @@
       "text": "After putting it on, Mrs. Richards went downstairs.",
       "translation": "",
       "startTime": 49.62,
-      "endTime": 53.92
+      "endTime": 53.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +237,22 @@
       "text": "She wanted to find out whether it would be comfortable to wear.",
       "translation": "",
       "startTime": 53.93,
-      "endTime": 58.26
+      "endTime": 58.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +268,31 @@
       "text": "She knew that it must be the baker.",
       "translation": "",
       "startTime": 64.84,
-      "endTime": 67.47
+      "endTime": 67.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +308,22 @@
       "text": "Not wanting to frighten the poor man, Mrs. Richards quickly hid in the small storeroom under the stairs.",
       "translation": "",
       "startTime": 74.42,
-      "endTime": 82.12
+      "endTime": 82.12,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +339,17 @@
       "text": "Suddenly the door of the storeroom was opened and a man entered.",
       "translation": "",
       "startTime": 87.05,
-      "endTime": 91.47
+      "endTime": 91.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +357,36 @@
       "text": "Mrs. Richards realized that it must be the man from the Electricity Board who had come to read the metre.",
       "translation": "",
       "startTime": 91.48,
-      "endTime": 98.77
+      "endTime": 98.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +402,40 @@
       "text": "'It's only me', but it was too late.",
       "translation": "",
       "startTime": 102.15,
-      "endTime": 106.48
+      "endTime": 106.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +443,17 @@
       "text": "The man let out a cry and jumped back several paces.",
       "translation": "",
       "startTime": 106.49,
-      "endTime": 111.81
+      "endTime": 111.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s16",

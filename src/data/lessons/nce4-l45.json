@@ -10,7 +10,17 @@
       "text": "Lesson 45",
       "translation": "",
       "startTime": 0.87,
-      "endTime": 2.86
+      "endTime": 2.86,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What is the most influential factor in any human society?",
       "translation": "",
       "startTime": 11.2,
-      "endTime": 18.74
+      "endTime": 18.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,16 @@
       "text": "In man's early days, competition with other creatures must have been critical.",
       "translation": "",
       "startTime": 18.75,
-      "endTime": 25.21
+      "endTime": 25.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +85,35 @@
       "text": "But this phase of our development is now finished.",
       "translation": "",
       "startTime": 25.22,
-      "endTime": 28.87
+      "endTime": 28.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +129,26 @@
       "text": "I am sure that, without modern weapons,",
       "translation": "",
       "startTime": 35.97,
-      "endTime": 39.2
+      "endTime": 39.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +156,45 @@
       "text": "I would make a very poor show of disputing the ownership of a cave with a bear, and in this I do not think that I stand alone.",
       "translation": "",
       "startTime": 39.21,
-      "endTime": 49.64
+      "endTime": 49.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +202,17 @@
       "text": "The last creature to compete with man was the mosquito.",
       "translation": "",
       "startTime": 49.65,
-      "endTime": 53.95
+      "endTime": 53.95,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -98,7 +236,35 @@
       "text": "community against community, still persists, however; and it is as fierce as it ever was.",
       "translation": "",
       "startTime": 66.13,
-      "endTime": 74.54
+      "endTime": 74.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +272,32 @@
       "text": "But the competition of man against man is not the simple process envisioned in biology.",
       "translation": "",
       "startTime": 74.55,
-      "endTime": 81.73
+      "endTime": 81.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +305,36 @@
       "text": "It is not a simple competition for a fixed amount of food determined by the physical environment,",
       "translation": "",
       "startTime": 81.74,
-      "endTime": 88.54
+      "endTime": 88.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +342,35 @@
       "text": "because the environment that determines our evolution is no longer essentially physical.",
       "translation": "",
       "startTime": 88.55,
-      "endTime": 95.72
+      "endTime": 95.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +378,26 @@
       "text": "Our environment is chiefly conditoned by the things we believe.",
       "translation": "",
       "startTime": 95.73,
-      "endTime": 101.68
+      "endTime": 101.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +405,26 @@
       "text": "Morocco and California are bits of the Earth in very similar latitudes,",
       "translation": "",
       "startTime": 101.69,
-      "endTime": 107.46
+      "endTime": 107.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +440,26 @@
       "text": "Yet their present development is wholly different,",
       "translation": "",
       "startTime": 115.79,
-      "endTime": 120.01
+      "endTime": 120.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +467,22 @@
       "text": "not so much because of different people even,",
       "translation": "",
       "startTime": 120.02,
-      "endTime": 123.47
+      "endTime": 123.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +490,26 @@
       "text": "but because of the different thoughts that exist in the minds of their inhabitants.",
       "translation": "",
       "startTime": 123.48,
-      "endTime": 129.44
+      "endTime": 129.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +517,31 @@
       "text": "This is the point I wish to emphasize.",
       "translation": "",
       "startTime": 129.45,
-      "endTime": 132.43
+      "endTime": 132.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +549,30 @@
       "text": "The most important factor in our environment is the state of our own minds.",
       "translation": "",
       "startTime": 132.44,
-      "endTime": 139.01
+      "endTime": 139.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +580,55 @@
       "text": "It is well known that where the white man has invaded a primitive culture,",
       "translation": "",
       "startTime": 139.02,
-      "endTime": 144.01
+      "endTime": 144.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "White",
+            "pos": "adj.",
+            "meaning": "白色的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +636,17 @@
       "text": "the most destructive effects have come not from physical weapons but from ideas.",
       "translation": "",
       "startTime": 144.02,
-      "endTime": 151.34
+      "endTime": 151.34,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +654,16 @@
       "text": "Ideas are dangerous.",
       "translation": "",
       "startTime": 151.35,
-      "endTime": 154.28
+      "endTime": 154.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s23",
@@ -218,7 +671,36 @@
       "text": "The Holy Office knew this full well when it caused heretics to be burned in days gone by.",
       "translation": "",
       "startTime": 154.29,
-      "endTime": 161.1
+      "endTime": 161.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +708,26 @@
       "text": "Indeed, the concept of free speech only exists in our modern society because when you are inside a community,",
       "translation": "",
       "startTime": 161.11,
-      "endTime": 170.22
+      "endTime": 170.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +735,58 @@
       "text": "you are conditioned by the conventions of the community to such a degree that it is very difficult to conceive of anything really destructive.",
       "translation": "",
       "startTime": 170.23,
-      "endTime": 180.75
+      "endTime": 180.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +794,40 @@
       "text": "It is only someone looking on from outside that can inject the dangerous thoughts.",
       "translation": "",
       "startTime": 180.76,
-      "endTime": 187.34
+      "endTime": 187.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +835,40 @@
       "text": "I do not doubt that it would be possible to inject ideas into the modern world that would utterly destroy us.",
       "translation": "",
       "startTime": 187.35,
-      "endTime": 195.03
+      "endTime": 195.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +876,17 @@
       "text": "I would like to give you an example, but fortunately I cannot do so.",
       "translation": "",
       "startTime": 195.04,
-      "endTime": 201.16
+      "endTime": 201.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +894,22 @@
       "text": "Perhaps it will suffice to mention the nuclear bomb.",
       "translation": "",
       "startTime": 201.17,
-      "endTime": 205.21
+      "endTime": 205.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -282,7 +925,36 @@
       "text": "one that still does not possess the bomb, of making it aware of the possibility, of supplying suffcient details to enable the thing to be constructed.",
       "translation": "",
       "startTime": 211,
-      "endTime": 222.1
+      "endTime": 222.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -306,7 +978,31 @@
       "text": "It is a strange thought, but I believe a correct one,",
       "translation": "",
       "startTime": 234.74,
-      "endTime": 239.39
+      "endTime": 239.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s35",
@@ -314,7 +1010,31 @@
       "text": "that twenty or thirty pages of ideas and information would be capable of turning the present-day world upside down, or even destroying it.",
       "translation": "",
       "startTime": 239.4,
-      "endTime": 252.65
+      "endTime": 252.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s36",
@@ -322,7 +1042,22 @@
       "text": "I have often tried to conceive of what those pages might contain,",
       "translation": "",
       "startTime": 252.66,
-      "endTime": 258.17
+      "endTime": 258.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s37",
@@ -330,7 +1065,26 @@
       "text": "but of course I cannot do so because I am a prisoner of the present-day world, just as all of you are.",
       "translation": "",
       "startTime": 258.18,
-      "endTime": 266.8
+      "endTime": 266.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s38",
@@ -338,7 +1092,30 @@
       "text": "We cannot think outside the particular patterns that our brains are conditioned to, or,",
       "translation": "",
       "startTime": 266.81,
-      "endTime": 273.86
+      "endTime": 273.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s39",
@@ -346,7 +1123,30 @@
       "text": "to be more accurate we can think only a very little way outside and then only if we are very original.",
       "translation": "",
       "startTime": 273.87,
-      "endTime": 278.87
+      "endTime": 278.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     }
   ]
 }

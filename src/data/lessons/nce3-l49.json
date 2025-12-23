@@ -10,7 +10,17 @@
       "text": "Lesson 49",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 2.33
+      "endTime": 2.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What was Bessie's 'little weakness' ?",
       "translation": "",
       "startTime": 9.9,
-      "endTime": 14.95
+      "endTime": 14.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,40 @@
       "text": "It is a good thing my aunt Harriet died years ago.",
       "translation": "",
       "startTime": 14.96,
-      "endTime": 18.96
+      "endTime": 18.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +100,36 @@
       "text": "If she were alive today she would not be able to air her views on her favourite topic of conversation: domestic servants.",
       "translation": "",
       "startTime": 18.97,
-      "endTime": 29.24
+      "endTime": 29.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +137,22 @@
       "text": "Aunt Harriet lived in that leisurely age when servants were employed to do housework.",
       "translation": "",
       "startTime": 29.25,
-      "endTime": 35.41
+      "endTime": 35.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +160,17 @@
       "text": "She had a huge, rambling country house called 'The Gables'.",
       "translation": "",
       "startTime": 35.42,
-      "endTime": 40.35
+      "endTime": 40.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +178,27 @@
       "text": "She was sentimentally attached to this house,",
       "translation": "",
       "startTime": 40.36,
-      "endTime": 43.81
+      "endTime": 43.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +206,35 @@
       "text": "for even though it was far too big for her needs, she persisted in living there long after her husband's death.",
       "translation": "",
       "startTime": 43.82,
-      "endTime": 52.81
+      "endTime": 52.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +242,17 @@
       "text": "Before she grew old, aunt Harriet used to entertain lavishly.",
       "translation": "",
       "startTime": 52.82,
-      "endTime": 57.83
+      "endTime": 57.83,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +268,22 @@
       "text": "No matter how many guests were present, the great house was always immaculate.",
       "translation": "",
       "startTime": 61.45,
-      "endTime": 67.61
+      "endTime": 67.61,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -122,7 +307,22 @@
       "text": "even my uncle's huge collection of books was kept miraculously free from dust.",
       "translation": "",
       "startTime": 76.31,
-      "endTime": 83.37
+      "endTime": 83.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +330,22 @@
       "text": "Aunt Harriet presided over an invisible army of servants that continuously scrubbed, cleaned, and polished.",
       "translation": "",
       "startTime": 83.38,
-      "endTime": 92.82
+      "endTime": 92.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +361,26 @@
       "text": "for they came and went with such frequency that I never even got a chance to learn their names.",
       "translation": "",
       "startTime": 97.88,
-      "endTime": 105.55
+      "endTime": 105.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +388,31 @@
       "text": "Though my aunt pursued what was, in those days an enlightened policy,",
       "translation": "",
       "startTime": 105.56,
-      "endTime": 111.25
+      "endTime": 111.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +420,31 @@
       "text": "in that she never allowed her domestic staff to work more than eight hours a day, she was extremely difficult to please.",
       "translation": "",
       "startTime": 111.26,
-      "endTime": 120.27
+      "endTime": 120.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +460,16 @@
       "text": "she carried on an unrelenting search for the ideal servant to the end of her days,",
       "translation": "",
       "startTime": 124.95,
-      "endTime": 132.09
+      "endTime": 132.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -202,7 +493,35 @@
       "text": "During that time she so gained my aunt's confidence, that she was put in charge of the domestic staff.",
       "translation": "",
       "startTime": 141.04,
-      "endTime": 149.02
+      "endTime": 149.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +529,17 @@
       "text": "Aunt Harriet could not find words to praise Bessie's industriousness and efficiency.",
       "translation": "",
       "startTime": 149.03,
-      "endTime": 156.04
+      "endTime": 156.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +547,16 @@
       "text": "In addition to all her other qualifications, Bessie was an expert cook.",
       "translation": "",
       "startTime": 156.05,
-      "endTime": 162.09
+      "endTime": 162.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -226,7 +564,16 @@
       "text": "She acted the role of the perfect servant for three years before Aunt Harriet discovered her 'little weakness'.",
       "translation": "",
       "startTime": 162.1,
-      "endTime": 170.66
+      "endTime": 170.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s25",
@@ -242,7 +589,22 @@
       "text": "my aunt unexpectedly returned one afternoon with a party of guests and instructed Bessie to prepare dinner.",
       "translation": "",
       "startTime": 173.84,
-      "endTime": 182.2
+      "endTime": 182.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +612,22 @@
       "text": "Not only was the meal well below the usual standard, but Bessie seemed unable to walk steadily.",
       "translation": "",
       "startTime": 182.21,
-      "endTime": 189.96
+      "endTime": 189.96,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -274,7 +651,27 @@
       "text": "and the pudding went flying through the air, narrowly missed my aunt, and crashed on the dining table with considerable force.",
       "translation": "",
       "startTime": 201.08,
-      "endTime": 211.3
+      "endTime": 211.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -282,7 +679,22 @@
       "text": "Though this caused great mirth among the guests, Aunt Harriet was horrified.",
       "translation": "",
       "startTime": 211.31,
-      "endTime": 218.36
+      "endTime": 218.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +702,22 @@
       "text": "She reluctantly came to the conclusion that Bessie was drunk.",
       "translation": "",
       "startTime": 218.37,
-      "endTime": 223.36
+      "endTime": 223.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -298,7 +725,22 @@
       "text": "The guests had, of course, realized this from the moment Bessie opened the door for them and, long before the final catastrophe,",
       "translation": "",
       "startTime": 223.37,
-      "endTime": 233.34
+      "endTime": 233.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s34",
@@ -306,7 +748,16 @@
       "text": "had had a difficult time trying to conceal their amusement.",
       "translation": "",
       "startTime": 233.35,
-      "endTime": 238.03
+      "endTime": 238.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s35",
@@ -322,7 +773,35 @@
       "text": "After her departure, Aunt Harriet discovered that there were piles of empty wine bottles of all shapes and sizes neatly stacked in what had once been Bessie's wardrobe.",
       "translation": "",
       "startTime": 241.69,
-      "endTime": 254.96
+      "endTime": 254.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s37",
@@ -330,7 +809,16 @@
       "text": "They had mysteriously found their way there from the wine cellar!",
       "translation": "",
       "startTime": 254.97,
-      "endTime": 259.97
+      "endTime": 259.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

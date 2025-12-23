@@ -10,7 +10,17 @@
       "text": "Lesson 1",
       "translation": "",
       "startTime": 0.68,
-      "endTime": 2.35
+      "endTime": 2.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "A puma at large",
       "translation": "",
       "startTime": 2.36,
-      "endTime": 9.8
+      "endTime": 9.8,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,16 @@
       "text": "Where must the puma have come from?",
       "translation": "",
       "startTime": 9.81,
-      "endTime": 14.47
+      "endTime": 14.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +63,20 @@
       "text": "Pumas are large, cat-like animals which are found in America.",
       "translation": "",
       "startTime": 14.48,
-      "endTime": 19.16
+      "endTime": 19.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +84,22 @@
       "text": "When reports came into London Zoo that a wild puma had been spotted forty-five miles south of London,",
       "translation": "",
       "startTime": 19.17,
-      "endTime": 26.26
+      "endTime": 26.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +107,17 @@
       "text": "they were not taken seriously.",
       "translation": "",
       "startTime": 26.27,
-      "endTime": 29.14
+      "endTime": 29.14,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -82,7 +149,27 @@
       "text": "The hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat'only five yards away from her.",
       "translation": "",
       "startTime": 43.86,
-      "endTime": 53.6
+      "endTime": 53.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +177,26 @@
       "text": "It immediately ran away when she saw it,",
       "translation": "",
       "startTime": 53.61,
-      "endTime": 56.48
+      "endTime": 56.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +204,45 @@
       "text": "and experts confirmed that a puma will not attack a human being unless it is cornered.",
       "translation": "",
       "startTime": 56.49,
-      "endTime": 62.93
+      "endTime": 62.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +258,17 @@
       "text": "for the puma was often observed at one place in the morning and at another place twenty miles away in the evening.",
       "translation": "",
       "startTime": 65.2,
-      "endTime": 72.57
+      "endTime": 72.57,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +276,30 @@
       "text": "Wherever it went, it left behind it a trail of dead deer and small animals like rabbits.",
       "translation": "",
       "startTime": 72.58,
-      "endTime": 79.37
+      "endTime": 79.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +307,17 @@
       "text": "Paw prints were seen in a number of places and puma fur was found clinging to bushes.",
       "translation": "",
       "startTime": 79.38,
-      "endTime": 85.38
+      "endTime": 85.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +325,17 @@
       "text": "Several people complained of 'cat-like noises' at night and a businessman on a fishing trip saw the puma up a tree.",
       "translation": "",
       "startTime": 85.39,
-      "endTime": 94.25
+      "endTime": 94.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +343,22 @@
       "text": "The experts were now fully convinced that the animal was a puma,",
       "translation": "",
       "startTime": 94.26,
-      "endTime": 98.71
+      "endTime": 98.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +366,22 @@
       "text": "but where had it come from?",
       "translation": "",
       "startTime": 98.72,
-      "endTime": 101.26
+      "endTime": 101.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -170,7 +397,22 @@
       "text": "this one must have been in the possession of a private collector and somehow managed to escape.",
       "translation": "",
       "startTime": 105.55,
-      "endTime": 112.15
+      "endTime": 112.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -186,7 +428,17 @@
       "text": "but the puma was not caught.",
       "translation": "",
       "startTime": 114.18,
-      "endTime": 117.41
+      "endTime": 117.41,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +446,49 @@
       "text": "It is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.",
       "translation": "",
       "startTime": 117.42,
-      "endTime": 122.42
+      "endTime": 122.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

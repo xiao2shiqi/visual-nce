@@ -10,7 +10,17 @@
       "text": "Lesson 133",
       "translation": "第133课",
       "startTime": 0.78,
-      "endTime": 3.57
+      "endTime": 3.57,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "先听这段录音，然后再回答这个问题。",
       "startTime": 6.87,
-      "endTime": 12.6
+      "endTime": 12.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "What reasons did Karen Marsh give for wanting to retire?",
       "translation": "凯伦·马什提出了哪些想要退休的理由？",
       "startTime": 12.61,
-      "endTime": 20.86
+      "endTime": 20.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,17 @@
       "text": "Have you just made a new film, Miss Marsh?",
       "translation": "马什小姐，您刚刚完成了一部新电影的制作吗？",
       "startTime": 20.87,
-      "endTime": 25.33
+      "endTime": 25.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +100,17 @@
       "text": "Yes, I have.",
       "translation": "是的。",
       "startTime": 25.34,
-      "endTime": 28.09
+      "endTime": 28.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +118,22 @@
       "text": "Are you going to make another?",
       "translation": "您还准备再拍一部吗？",
       "startTime": 28.1,
-      "endTime": 30.84
+      "endTime": 30.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +141,17 @@
       "text": "No, I'm not.",
       "translation": "不，不拍了。",
       "startTime": 30.85,
-      "endTime": 33.15
+      "endTime": 33.15,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +167,27 @@
       "text": "I feel very tired.",
       "translation": "我感到非常疲倦。",
       "startTime": 36.17,
-      "endTime": 39.15
+      "endTime": 39.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Tired",
+            "pos": "adj.",
+            "meaning": "疲劳的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -106,7 +211,22 @@
       "text": "Listen to this!",
       "translation": "你听听这个！",
       "startTime": 50.28,
-      "endTime": 52.79
+      "endTime": 52.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +242,16 @@
       "text": "By our reporter, Alan Jones.",
       "translation": "本报记者艾伦·琼斯报道。",
       "startTime": 57.45,
-      "endTime": 62.25
+      "endTime": 62.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +259,22 @@
       "text": "Karen Marsh arrived at London Airport today.",
       "translation": "凯伦·马什今天抵达了伦敦机场。",
       "startTime": 62.26,
-      "endTime": 67.84
+      "endTime": 67.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +282,36 @@
       "text": "She was wearing a blue dress and a mink coat.",
       "translation": "她穿着一条蓝色的连衣裙和一件貂皮大衣。",
       "startTime": 67.85,
-      "endTime": 73.85
+      "endTime": 73.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "coat",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "Coat",
+            "pos": "n.",
+            "meaning": "上衣，大衣"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +319,22 @@
       "text": "She told me she had just made a new film.",
       "translation": "她告诉我她刚刚完成了一部新电影的制作。",
       "startTime": 73.86,
-      "endTime": 79.69
+      "endTime": 79.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +342,17 @@
       "text": "she said she was not going to make another.",
       "translation": "她说她不会再拍了。",
       "startTime": 79.7,
-      "endTime": 85.89
+      "endTime": 85.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -170,7 +368,27 @@
       "text": "She told reporters she felt very tired and didn't want to make another film for a long time.'",
       "translation": "她对记者们表示，她感到非常疲惫，暂时不想再拍电影了。",
       "startTime": 90.5,
-      "endTime": 102.04
+      "endTime": 102.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Tired",
+            "pos": "adj.",
+            "meaning": "疲劳的"
+          }
+        ]
+      }
     },
     {
       "id": "s18",

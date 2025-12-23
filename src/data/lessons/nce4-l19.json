@@ -10,7 +10,17 @@
       "text": "Lesson 19",
       "translation": "",
       "startTime": 0.79,
-      "endTime": 2.69
+      "endTime": 2.69,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What is going on when a person experiences rapid eye-movements during sleep?",
       "translation": "",
       "startTime": 10.86,
-      "endTime": 18.36
+      "endTime": 18.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,53 @@
       "text": "It is fairly clear that the sleeping period must have some function, and because there is so much of it the function would seem to be important.",
       "translation": "",
       "startTime": 18.37,
-      "endTime": 28.7
+      "endTime": 28.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +122,16 @@
       "text": "Speculations about its nature have been going on for literally thousands of years,",
       "translation": "",
       "startTime": 28.71,
-      "endTime": 35.15
+      "endTime": 35.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +139,67 @@
       "text": "and one odd finding that makes the problem puzzling is that it looks very much as if sleeping is not simply a matter of giving the body a rest.",
       "translation": "",
       "startTime": 35.16,
-      "endTime": 45.35
+      "endTime": 45.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +207,16 @@
       "text": "'Rest', in terms of muscle relaxation and so on, can be achieved by a brief period lying, or even sitting down.",
       "translation": "",
       "startTime": 45.36,
-      "endTime": 55.74
+      "endTime": 55.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +224,16 @@
       "text": "The body's tissues are self-repairing and self-restoring to a degree, and function best when more or less continuously active.",
       "translation": "",
       "startTime": 55.75,
-      "endTime": 66.26
+      "endTime": 66.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +241,22 @@
       "text": "In fact a basic amount of movement occurs during sleep which is specifically concerned with preventing muscle inactivity.",
       "translation": "",
       "startTime": 66.27,
-      "endTime": 75.65
+      "endTime": 75.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +264,53 @@
       "text": "If it is not a question of resting the body, then perhaps it is the brain that needs resting?",
       "translation": "",
       "startTime": 75.66,
-      "endTime": 83.64
+      "endTime": 83.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +318,36 @@
       "text": "This might be a plausible hypothesis were it not for two factors.",
       "translation": "",
       "startTime": 83.65,
-      "endTime": 89.36
+      "endTime": 89.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +355,22 @@
       "text": "First the electroencephalograph (which is simply a device for recording the electrical activity of the brain by attaching electrodes to the scalp)",
       "translation": "",
       "startTime": 89.37,
-      "endTime": 100.74
+      "endTime": 100.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +378,31 @@
       "text": "shows that while there is a change in the pattern of activity during sleep,",
       "translation": "",
       "startTime": 100.75,
-      "endTime": 105.79
+      "endTime": 105.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +410,35 @@
       "text": "there is no evidence that the total amount of activity is any less.",
       "translation": "",
       "startTime": 105.8,
-      "endTime": 111.35
+      "endTime": 111.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +446,22 @@
       "text": "The second factor is more interesting and more fundamental.",
       "translation": "",
       "startTime": 111.36,
-      "endTime": 115.99
+      "endTime": 115.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +469,17 @@
       "text": "Some years ago an American psychiatrist named William Dement published experiments dealing with the recording of eye-movements during sleep.",
       "translation": "",
       "startTime": 116,
-      "endTime": 126.9
+      "endTime": 126.9,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "American",
+            "pos": "adj.",
+            "meaning": "美国的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +487,31 @@
       "text": "He showed that the average individual's sleep cycle is punctuated with peculiar bursts of eye-movements, some drifting and slow, others jerky and rapid.",
       "translation": "",
       "startTime": 126.91,
-      "endTime": 140.32
+      "endTime": 140.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +519,22 @@
       "text": "People woken during these periods of eye-movements generally reported that they had been dreaming.",
       "translation": "",
       "startTime": 140.33,
-      "endTime": 146.9
+      "endTime": 146.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +542,17 @@
       "text": "When woken at other times they reported no dreams.",
       "translation": "",
       "startTime": 146.91,
-      "endTime": 150.84
+      "endTime": 150.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +560,16 @@
       "text": "If one group of people were disturbed from their eye-movement sleep for several nights on end,",
       "translation": "",
       "startTime": 150.85,
-      "endTime": 156.29
+      "endTime": 156.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s17",
@@ -170,7 +577,17 @@
       "text": "and another group were disturbed for an equal period of time but when they were not exhibiting eye-movements,",
       "translation": "",
       "startTime": 156.3,
-      "endTime": 165.43
+      "endTime": 165.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -186,7 +603,49 @@
       "text": "The implications of all this were that it was not the disturbance of sleep that mattered, but the disturbance of dreaming.",
       "translation": "",
       "startTime": 174.88,
-      "endTime": 179.88
+      "endTime": 179.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

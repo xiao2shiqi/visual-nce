@@ -10,7 +10,16 @@
       "text": "Why will the police have a difficult time?",
       "translation": "",
       "startTime": 9.99,
-      "endTime": 15.27
+      "endTime": 15.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,16 @@
       "text": "The Greenwood Boys are a group of pop singers.",
       "translation": "",
       "startTime": 15.28,
-      "endTime": 19.37
+      "endTime": 19.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +44,22 @@
       "text": "At present, they are visiting all parts of the country.",
       "translation": "",
       "startTime": 19.38,
-      "endTime": 24.47
+      "endTime": 24.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +67,17 @@
       "text": "They will be arriving here tomorrow.",
       "translation": "",
       "startTime": 24.48,
-      "endTime": 27.75
+      "endTime": 27.75,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +85,22 @@
       "text": "They will be coming by train and most of the young people in the town will be meeting them at the station.",
       "translation": "",
       "startTime": 27.76,
-      "endTime": 35.8
+      "endTime": 35.8,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +108,17 @@
       "text": "Tomorrow evening they will be singing at the Workers' Club.",
       "translation": "",
       "startTime": 35.81,
-      "endTime": 40.81
+      "endTime": 40.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +126,17 @@
       "text": "The Greenwood Boys will be staying for five days.",
       "translation": "",
       "startTime": 40.82,
-      "endTime": 45.23
+      "endTime": 45.23,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +144,27 @@
       "text": "During this time, they will give five performances.",
       "translation": "",
       "startTime": 45.24,
-      "endTime": 50.15
+      "endTime": 50.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +172,16 @@
       "text": "As usual, the police will have a difficult time.",
       "translation": "",
       "startTime": 50.16,
-      "endTime": 54.69
+      "endTime": 54.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +189,16 @@
       "text": "They will be trying to keep order.",
       "translation": "",
       "startTime": 54.7,
-      "endTime": 57.55
+      "endTime": 57.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +206,31 @@
       "text": "It is always the same on these occasions.",
       "translation": "",
       "startTime": 57.56,
-      "endTime": 62.56
+      "endTime": 62.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

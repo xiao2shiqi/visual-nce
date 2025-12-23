@@ -10,7 +10,22 @@
       "text": "What was the danger to the villages after the fire?",
       "translation": "",
       "startTime": 10.3,
-      "endTime": 16.42
+      "endTime": 16.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,22 @@
       "text": "Firemen had been fighting the forest fire for nearly three weeks before they could get it under control.",
       "translation": "",
       "startTime": 16.43,
-      "endTime": 24.7
+      "endTime": 24.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +56,17 @@
       "text": "A short time before, great trees had covered the countryside for miles around.",
       "translation": "",
       "startTime": 24.71,
-      "endTime": 32.81
+      "endTime": 32.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -50,7 +90,22 @@
       "text": "for heavy rain would not only wash away the soil but would cause serious floods as well.",
       "translation": "",
       "startTime": 48.68,
-      "endTime": 56.95
+      "endTime": 56.95,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +113,17 @@
       "text": "When the fire had at last been put out,",
       "translation": "",
       "startTime": 56.96,
-      "endTime": 60.52
+      "endTime": 60.52,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -82,7 +147,22 @@
       "text": "The planes had been planting seed for nearly a month when it began to rain.",
       "translation": "",
       "startTime": 75.84,
-      "endTime": 81.83
+      "endTime": 81.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -106,7 +186,17 @@
       "text": "patches of green had begun to appear in the blackened soil.",
       "translation": "",
       "startTime": 93.66,
-      "endTime": 98.66
+      "endTime": 98.66,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          }
+        ]
+      }
     }
   ]
 }

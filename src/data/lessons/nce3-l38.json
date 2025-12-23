@@ -10,7 +10,17 @@
       "text": "Lesson 38",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 2.22
+      "endTime": 2.22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What is the importance of the dots, lines, and symbols engraved on stone, bones and ivory?",
       "translation": "",
       "startTime": 9.58,
-      "endTime": 20.51
+      "endTime": 20.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,16 @@
       "text": "Future historians will be in a unique position when they come to record the history of our own times.",
       "translation": "",
       "startTime": 20.52,
-      "endTime": 28.57
+      "endTime": 28.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +85,22 @@
       "text": "They will hardly know which facts to select from the great mass of evidence that steadily accumulates.",
       "translation": "",
       "startTime": 28.58,
-      "endTime": 37.06
+      "endTime": 37.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +108,36 @@
       "text": "What is more, they will not have to rely solely on the written word.",
       "translation": "",
       "startTime": 37.07,
-      "endTime": 42.24
+      "endTime": 42.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +145,16 @@
       "text": "Films, videos, CDs and CD-ROMs are just some of the bewildering amount of information they will have.",
       "translation": "",
       "startTime": 42.25,
-      "endTime": 52.4
+      "endTime": 52.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +162,22 @@
       "text": "They will be able, as it were, to see and hear us in action.",
       "translation": "",
       "startTime": 52.41,
-      "endTime": 58.89
+      "endTime": 58.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +185,22 @@
       "text": "But the historian attempting to reconstruct the distant past is always faced with a difficult task.",
       "translation": "",
       "startTime": 58.9,
-      "endTime": 66.99
+      "endTime": 66.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +208,22 @@
       "text": "He has to deduce what he can from the few scanty clues available.",
       "translation": "",
       "startTime": 67,
-      "endTime": 72.6
+      "endTime": 72.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +231,17 @@
       "text": "Even seemingly insignificant remains can shed interesting light on the history of early man.",
       "translation": "",
       "startTime": 72.61,
-      "endTime": 80.68
+      "endTime": 80.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +249,22 @@
       "text": "Up to now, historians have assumed that calendars came into being with the advent of agriculture,",
       "translation": "",
       "startTime": 80.69,
-      "endTime": 88.66
+      "endTime": 88.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +272,17 @@
       "text": "for then man was faced with a real need to understand something about the seasons.",
       "translation": "",
       "startTime": 88.67,
-      "endTime": 95.54
+      "endTime": 95.54,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +290,40 @@
       "text": "Recent scientific evidence seems to indicate that this assumption is incorrect.",
       "translation": "",
       "startTime": 95.55,
-      "endTime": 103
+      "endTime": 103,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -146,7 +355,22 @@
       "text": "historians have been able to read this difficult code.",
       "translation": "",
       "startTime": 133.81,
-      "endTime": 138.1
+      "endTime": 138.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +378,40 @@
       "text": "They have found that it is connected with the passage of days and the phases of the moon.",
       "translation": "",
       "startTime": 138.11,
-      "endTime": 144.48
+      "endTime": 144.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +419,31 @@
       "text": "It is, in fact, a primitive type of calendar.",
       "translation": "",
       "startTime": 144.49,
-      "endTime": 149.24
+      "endTime": 149.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +451,36 @@
       "text": "It has long been known that the hunting scenes depicted on walls were not simply a form of artistic expression.",
       "translation": "",
       "startTime": 149.25,
-      "endTime": 157.39
+      "endTime": 157.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +488,17 @@
       "text": "They had a definite meaning, for they were as near as early man could get to writing.",
       "translation": "",
       "startTime": 157.4,
-      "endTime": 163.93
+      "endTime": 163.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +506,48 @@
       "text": "It is possible that there is a definite relation between these paintings and the markings that sometimes accompany them.",
       "translation": "",
       "startTime": 163.94,
-      "endTime": 173.57
+      "endTime": 173.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +555,36 @@
       "text": "It seems that man was making a real effort to understand the seasons 20, 000 years earlier than has been supposed.",
       "translation": "",
       "startTime": 173.58,
-      "endTime": 178.58
+      "endTime": 178.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     }
   ]
 }

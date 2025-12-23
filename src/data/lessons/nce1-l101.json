@@ -10,7 +10,17 @@
       "text": "Lesson 101",
       "translation": "",
       "startTime": 0.81,
-      "endTime": 4.28
+      "endTime": 4.28,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 7.43,
-      "endTime": 12.93
+      "endTime": 12.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,17 @@
       "text": "Does grandmother seem pleased to get a card from Jimmy? Why/Why not?",
       "translation": "",
       "startTime": 12.94,
-      "endTime": 23.6
+      "endTime": 23.6,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +77,27 @@
       "text": "Read Jimmy's card to me please, Penny.",
       "translation": "",
       "startTime": 23.61,
-      "endTime": 28.93
+      "endTime": 28.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +105,17 @@
       "text": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'",
       "translation": "",
       "startTime": 28.94,
-      "endTime": 37.15
+      "endTime": 37.15,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -74,7 +139,17 @@
       "text": "He says he's staying at a Youth Hostel.",
       "translation": "",
       "startTime": 44.04,
-      "endTime": 49.4
+      "endTime": 49.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +157,17 @@
       "text": "You know he's a member of the Y.H.A.",
       "translation": "",
       "startTime": 49.41,
-      "endTime": 56.33
+      "endTime": 56.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +175,22 @@
       "text": "The what?",
       "translation": "",
       "startTime": 56.34,
-      "endTime": 58.17
+      "endTime": 58.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -114,7 +214,22 @@
       "text": "What else does he say?",
       "translation": "",
       "startTime": 65.82,
-      "endTime": 69.35
+      "endTime": 69.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +245,27 @@
       "text": "I hope you are all well.'",
       "translation": "",
       "startTime": 72.45,
-      "endTime": 76.63
+      "endTime": 76.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +273,22 @@
       "text": "What? Speak up, Penny.",
       "translation": "",
       "startTime": 76.64,
-      "endTime": 80.29
+      "endTime": 80.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +296,17 @@
       "text": "I'm afraid I can't hear you.",
       "translation": "",
       "startTime": 80.3,
-      "endTime": 84.19
+      "endTime": 84.19,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +322,22 @@
       "text": "He hopes we are all well.",
       "translation": "",
       "startTime": 88.45,
-      "endTime": 92.59
+      "endTime": 92.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +353,31 @@
       "text": "Is that all?",
       "translation": "",
       "startTime": 95.71,
-      "endTime": 97.9
+      "endTime": 97.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +385,27 @@
       "text": "He doesn't say very much, does he?",
       "translation": "",
       "startTime": 97.91,
-      "endTime": 102.42
+      "endTime": 102.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +413,27 @@
       "text": "He can't write very much on a card, Mum.",
       "translation": "",
       "startTime": 102.43,
-      "endTime": 107.43
+      "endTime": 107.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     }
   ]
 }

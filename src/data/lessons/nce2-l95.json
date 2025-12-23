@@ -18,7 +18,16 @@
       "text": "When the Ambassador of Escalopia returned home for lunch, his wife got a shock.",
       "translation": "",
       "startTime": 14.92,
-      "endTime": 23.21
+      "endTime": 23.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +35,16 @@
       "text": "He looked pale and his clothes were in a frightful state.",
       "translation": "",
       "startTime": 23.22,
-      "endTime": 28.73
+      "endTime": 28.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +52,22 @@
       "text": "'What has happened?' she asked.",
       "translation": "",
       "startTime": 28.74,
-      "endTime": 32.76
+      "endTime": 32.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +75,27 @@
       "text": "'How did your clothes get into such a mess?'",
       "translation": "",
       "startTime": 32.77,
-      "endTime": 37.8
+      "endTime": 37.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +103,22 @@
       "text": "'A fire extinguisher, my dear,' answered the Ambassador drily.",
       "translation": "",
       "startTime": 37.81,
-      "endTime": 43.65
+      "endTime": 43.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +126,22 @@
       "text": "'University students set the Embassy on fire this morning.'",
       "translation": "",
       "startTime": 43.66,
-      "endTime": 48.62
+      "endTime": 48.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +149,16 @@
       "text": "'Good heavens!' exclaimed his wife.",
       "translation": "",
       "startTime": 48.63,
-      "endTime": 52.86
+      "endTime": 52.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +166,22 @@
       "text": "'And where were you at the time?'",
       "translation": "",
       "startTime": 52.87,
-      "endTime": 56.6
+      "endTime": 56.6,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +189,22 @@
       "text": "'I was in my office as usual,' answered the Ambassador.",
       "translation": "",
       "startTime": 56.61,
-      "endTime": 61.44
+      "endTime": 61.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +220,22 @@
       "text": "I went down immediately, of course, and that fool, Horst,",
       "translation": "",
       "startTime": 64.41,
-      "endTime": 69.86
+      "endTime": 69.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +243,27 @@
       "text": "aimed a fire extinguisher at me.",
       "translation": "",
       "startTime": 69.87,
-      "endTime": 72.79
+      "endTime": 72.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +279,22 @@
       "text": "I must definitely get that fellow posted.'",
       "translation": "",
       "startTime": 75.67,
-      "endTime": 80.32
+      "endTime": 80.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +310,16 @@
       "text": "when she suddenly noticed a big hole in her husband's hat.",
       "translation": "",
       "startTime": 84.4,
-      "endTime": 90.26
+      "endTime": 90.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +327,32 @@
       "text": "'And how can you explain that?' she asked.",
       "translation": "",
       "startTime": 90.27,
-      "endTime": 94.87
+      "endTime": 94.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +360,22 @@
       "text": "'Oh, that,' said the Ambassador.",
       "translation": "",
       "startTime": 94.88,
-      "endTime": 98.55
+      "endTime": 98.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +383,22 @@
       "text": "'Someone fired a shot through my office window.",
       "translation": "",
       "startTime": 98.56,
-      "endTime": 102.58
+      "endTime": 102.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +406,17 @@
       "text": "Accurate, don't you think?",
       "translation": "",
       "startTime": 102.59,
-      "endTime": 104.87
+      "endTime": 104.87,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +424,27 @@
       "text": "Fortunately, I wasn't wearing it at the time.",
       "translation": "",
       "startTime": 104.88,
-      "endTime": 109.35
+      "endTime": 109.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +452,17 @@
       "text": "If I had been, I would not have been able to get home for lunch.'",
       "translation": "",
       "startTime": 109.36,
-      "endTime": 114.36
+      "endTime": 114.36,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

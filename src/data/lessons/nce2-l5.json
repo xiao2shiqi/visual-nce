@@ -10,7 +10,22 @@
       "text": "What does 'No wrong numbers' mean?",
       "translation": "",
       "startTime": 10.38,
-      "endTime": 15.78
+      "endTime": 15.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +49,27 @@
       "text": "Pinhurst is only five miles from Silbury,",
       "translation": "",
       "startTime": 25.6,
-      "endTime": 29.71
+      "endTime": 29.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +77,16 @@
       "text": "but Mr. Scott cannot get a telephone for his new garage,",
       "translation": "",
       "startTime": 29.72,
-      "endTime": 34.56
+      "endTime": 34.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -98,7 +142,26 @@
       "text": "In this way, he has begun his own private 'telephone' service.",
       "translation": "",
       "startTime": 60.95,
-      "endTime": 65.95
+      "endTime": 65.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     }
   ]
 }

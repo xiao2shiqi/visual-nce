@@ -10,7 +10,17 @@
       "text": "Why was the first tunnel not completed?",
       "translation": "",
       "startTime": 10,
-      "endTime": 14.66
+      "endTime": 14.66,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "In 1858, a French engineer, Aime Thome de Gamond,",
       "translation": "",
       "startTime": 14.67,
-      "endTime": 20.79
+      "endTime": 20.79,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          },
+          {
+            "word": "Engineer",
+            "pos": "n.",
+            "meaning": "工程师"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +59,31 @@
       "text": "He said that it would be possible to build a platform in the centre of the Channel.",
       "translation": "",
       "startTime": 27.69,
-      "endTime": 34.16
+      "endTime": 34.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,22 @@
       "text": "This platform would serve as a port and a railway station.",
       "translation": "",
       "startTime": 34.17,
-      "endTime": 39.62
+      "endTime": 39.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +114,17 @@
       "text": "The tunnel would be well-ventilated if tall chimneys were built above sea level.",
       "translation": "",
       "startTime": 39.63,
-      "endTime": 46.34
+      "endTime": 46.34,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Tall",
+            "pos": "adj.",
+            "meaning": "高的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +140,22 @@
       "text": "He suggested that a double railway-tunnel should be built.",
       "translation": "",
       "startTime": 53.93,
-      "endTime": 58.65
+      "endTime": 58.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +163,44 @@
       "text": "This would solve the problem of ventilation for if a train entered this tunnel, it would draw in fresh air behind it.",
       "translation": "",
       "startTime": 58.66,
-      "endTime": 68.88
+      "endTime": 68.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +216,32 @@
       "text": "If, at the time, the British had not feared invasion, it would have been completed.",
       "translation": "",
       "startTime": 73.97,
-      "endTime": 82.12
+      "endTime": 82.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +257,22 @@
       "text": "It was officially opened on March 7, 1994, finally connecting Britain to the European continent.",
       "translation": "",
       "startTime": 88.61,
-      "endTime": 93.61
+      "endTime": 93.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

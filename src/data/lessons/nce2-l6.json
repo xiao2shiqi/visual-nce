@@ -10,7 +10,22 @@
       "text": "Who is Percy Buttons?",
       "translation": "",
       "startTime": 10.05,
-      "endTime": 14.49
+      "endTime": 14.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "I have just moved to a house in Bridge Street.",
       "translation": "",
       "startTime": 14.5,
-      "endTime": 18.75
+      "endTime": 18.75,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,27 @@
       "text": "Yesterday a beggar knocked at my door.",
       "translation": "",
       "startTime": 18.76,
-      "endTime": 22.35
+      "endTime": 22.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +79,22 @@
       "text": "He asked me for a meal and a glass of beer.",
       "translation": "",
       "startTime": 22.36,
-      "endTime": 26.53
+      "endTime": 26.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +102,22 @@
       "text": "In return for this,",
       "translation": "",
       "startTime": 26.54,
-      "endTime": 28.4
+      "endTime": 28.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +125,16 @@
       "text": "the beggar stood on his head and sang songs.",
       "translation": "",
       "startTime": 28.41,
-      "endTime": 32.86
+      "endTime": 32.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -74,7 +158,16 @@
       "text": "Then he put a piece of cheese in his pocket and went away.",
       "translation": "",
       "startTime": 38.41,
-      "endTime": 43.22
+      "endTime": 43.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +175,22 @@
       "text": "Later a neighbour told me about him.",
       "translation": "",
       "startTime": 43.23,
-      "endTime": 46.46
+      "endTime": 46.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +206,31 @@
       "text": "His name is Percy Buttons.",
       "translation": "",
       "startTime": 48.63,
-      "endTime": 51.36
+      "endTime": 51.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "His",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +238,22 @@
       "text": "He calls at every house in the street once a month",
       "translation": "",
       "startTime": 51.37,
-      "endTime": 55.38
+      "endTime": 55.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s10",

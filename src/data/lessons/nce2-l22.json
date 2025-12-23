@@ -10,7 +10,17 @@
       "text": "How did Jane receive a letter from a stranger?",
       "translation": "",
       "startTime": 10.79,
-      "endTime": 16.78
+      "endTime": 16.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,31 @@
       "text": "My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.",
       "translation": "",
       "startTime": 16.79,
-      "endTime": 26.86
+      "endTime": 26.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Daughter",
+            "pos": "n.",
+            "meaning": "女儿"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +60,31 @@
       "text": "Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.",
       "translation": "",
       "startTime": 26.87,
-      "endTime": 37.7
+      "endTime": 37.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +100,22 @@
       "text": "She never thought of it again, but ten months later, she received a letter from a girl in Holland.",
       "translation": "",
       "startTime": 41.19,
-      "endTime": 49.92
+      "endTime": 49.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -66,7 +139,20 @@
       "text": "Letters will cost a little more, but they will certainly travel faster.",
       "translation": "",
       "startTime": 59.72,
-      "endTime": 64.72
+      "endTime": 64.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          },
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

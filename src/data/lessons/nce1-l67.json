@@ -10,7 +10,17 @@
       "text": "Lesson 67",
       "translation": "",
       "startTime": 0.73,
-      "endTime": 3.31
+      "endTime": 3.31,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.44,
-      "endTime": 10.86
+      "endTime": 10.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,31 @@
       "text": "What are the Johnsons going to do at the weekend?",
       "translation": "",
       "startTime": 10.87,
-      "endTime": 17.78
+      "endTime": 17.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,22 @@
       "text": "Hello. Were you at the butcher's?",
       "translation": "",
       "startTime": 17.79,
-      "endTime": 21.89
+      "endTime": 21.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +114,17 @@
       "text": "Yes, I was.",
       "translation": "",
       "startTime": 21.9,
-      "endTime": 23.88
+      "endTime": 23.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +132,27 @@
       "text": "Were you at the butcher's, too?",
       "translation": "",
       "startTime": 23.89,
-      "endTime": 27.4
+      "endTime": 27.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +168,17 @@
       "text": "I was at the greengrocer's.",
       "translation": "",
       "startTime": 30.53,
-      "endTime": 34.28
+      "endTime": 34.28,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +186,17 @@
       "text": "How's Jimmy today?",
       "translation": "",
       "startTime": 34.29,
-      "endTime": 37.17
+      "endTime": 37.17,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +204,37 @@
       "text": "He's very well, thank you.",
       "translation": "",
       "startTime": 37.18,
-      "endTime": 41.16
+      "endTime": 41.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +242,17 @@
       "text": "Was he absent from school last week?",
       "translation": "",
       "startTime": 41.17,
-      "endTime": 45.76
+      "endTime": 45.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +260,17 @@
       "text": "Yes, he was.",
       "translation": "",
       "startTime": 45.77,
-      "endTime": 48.27
+      "endTime": 48.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +286,27 @@
       "text": "How are you all keeping?",
       "translation": "",
       "startTime": 55.93,
-      "endTime": 59.57
+      "endTime": 59.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +314,37 @@
       "text": "Very well, thank you.",
       "translation": "",
       "startTime": 59.58,
-      "endTime": 62.39
+      "endTime": 62.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +360,27 @@
       "text": "We're going to stay at my mother's for the weekend.",
       "translation": "",
       "startTime": 67.49,
-      "endTime": 73.42
+      "endTime": 73.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +396,17 @@
       "text": "Aren't you lucky!",
       "translation": "",
       "startTime": 78.99,
-      "endTime": 83.99
+      "endTime": 83.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     }
   ]
 }

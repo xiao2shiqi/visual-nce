@@ -10,7 +10,22 @@
       "text": "Why is Joe's garden",
       "translation": "",
       "startTime": 9.96,
-      "endTime": 12.04
+      "endTime": 12.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +49,16 @@
       "text": "in our town.",
       "translation": "",
       "startTime": 20.67,
-      "endTime": 22.26
+      "endTime": 22.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -66,7 +90,22 @@
       "text": "Bill Frith's garden is larger than Joe's.",
       "translation": "",
       "startTime": 32.6,
-      "endTime": 36.51
+      "endTime": 36.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -90,7 +129,22 @@
       "text": "but Joe's garden is more interesting.",
       "translation": "",
       "startTime": 42.12,
-      "endTime": 45.74
+      "endTime": 45.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -114,7 +168,17 @@
       "text": "I like gardens too,",
       "translation": "",
       "startTime": 52.25,
-      "endTime": 54.37
+      "endTime": 54.37,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +186,17 @@
       "text": "but I do not like hard work.",
       "translation": "",
       "startTime": 54.38,
-      "endTime": 57.79
+      "endTime": 57.79,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +212,17 @@
       "text": "I enter for the garden competition too,",
       "translation": "",
       "startTime": 59.05,
-      "endTime": 62.75
+      "endTime": 62.75,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s14",

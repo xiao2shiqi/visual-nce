@@ -10,7 +10,17 @@
       "text": "Lesson 139",
       "translation": "第139课",
       "startTime": 0.6,
-      "endTime": 3.53
+      "endTime": 3.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,36 @@
       "text": "Is that you, John?",
       "translation": "那是你吗，约翰？",
       "startTime": 3.54,
-      "endTime": 6.84
+      "endTime": 6.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +65,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "先听这段录音，然后再回答这个问题。",
       "startTime": 6.85,
-      "endTime": 12.52
+      "endTime": 12.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +88,22 @@
       "text": "Which John Smith does Graham Turner think he is talking to?",
       "translation": "格雷厄姆·特纳认为他正在和哪个叫“约翰·史密斯”的人交谈呢？",
       "startTime": 12.53,
-      "endTime": 20.28
+      "endTime": 20.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +111,36 @@
       "text": "Is that you, John?",
       "translation": "那是你吗，约翰？",
       "startTime": 20.29,
-      "endTime": 22.69
+      "endTime": 22.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +148,17 @@
       "text": "Yes, speaking.",
       "translation": "是的，我就是。",
       "startTime": 22.7,
-      "endTime": 24.79
+      "endTime": 24.79,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +166,27 @@
       "text": "Tell Mary we'll be late for dinner this evening.",
       "translation": "告诉玛丽，我们今晚吃晚饭会迟到。",
       "startTime": 24.8,
-      "endTime": 29.31
+      "endTime": 29.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +202,17 @@
       "text": "Hasn't Mary told you?",
       "translation": "玛丽不是已经告诉你了吗？",
       "startTime": 33.23,
-      "endTime": 36.11
+      "endTime": 36.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +220,31 @@
       "text": "She invited Charlotte and me to dinner this evening.",
       "translation": "她邀请了夏洛特和我今晚一起吃晚餐。",
       "startTime": 36.12,
-      "endTime": 41.47
+      "endTime": 41.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +252,41 @@
       "text": "I said I would be at your house at six o'clock, but the boss wants me to do some extra work.",
       "translation": "我说过六点会去你家，但老板让我去做一些额外的工作。",
       "startTime": 41.48,
-      "endTime": 51.45
+      "endTime": 51.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +294,17 @@
       "text": "I'll have to stay at the office.",
       "translation": "我得留在办公室。",
       "startTime": 51.46,
-      "endTime": 54.71
+      "endTime": 54.71,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +320,22 @@
       "text": "Oh, and by the way, my wife wants to know if Mary needs any help.",
       "translation": "哦，顺便问一下，我妻子想知道玛丽是否需要帮忙。",
       "startTime": 58.11,
-      "endTime": 66.15
+      "endTime": 66.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +343,22 @@
       "text": "I don't know what you're talking about.",
       "translation": "我不明白你在说什么。",
       "startTime": 66.16,
-      "endTime": 70.66
+      "endTime": 70.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +366,40 @@
       "text": "That is John Smith, isn't it?",
       "translation": "你是约翰·史密斯，对吧？",
       "startTime": 70.67,
-      "endTime": 74.42
+      "endTime": 74.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +407,17 @@
       "text": "Yes, I'm John Smith.",
       "translation": "是的，我就是约翰·史密斯。",
       "startTime": 74.43,
-      "endTime": 77.21
+      "endTime": 77.21,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +425,27 @@
       "text": "You are John Smith, the engineer, aren't you?",
       "translation": "你是那位工程师约翰·史密斯，对吗？",
       "startTime": 77.22,
-      "endTime": 82.33
+      "endTime": 82.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Engineer",
+            "pos": "n.",
+            "meaning": "工程师"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +461,17 @@
       "text": "You work for the Overseas Engineering Company, don't you?",
       "translation": "你在海外工程公司工作，对吗？",
       "startTime": 84.34,
-      "endTime": 90.12
+      "endTime": 90.12,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +487,27 @@
       "text": "I'm John Smith the telephone engineer and I'm repairing your telephone line.",
       "translation": "我是电话工程师约翰·史密斯，我正在修理你们的电话线路。",
       "startTime": 91.96,
-      "endTime": 96.96
+      "endTime": 96.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Engineer",
+            "pos": "n.",
+            "meaning": "工程师"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     }
   ]
 }

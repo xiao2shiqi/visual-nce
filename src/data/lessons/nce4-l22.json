@@ -10,7 +10,17 @@
       "text": "Lesson 22",
       "translation": "",
       "startTime": 0.44,
-      "endTime": 2.09
+      "endTime": 2.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,27 @@
       "text": "In what two areas have people made no 'progress' at all?",
       "translation": "",
       "startTime": 8.93,
-      "endTime": 15.86
+      "endTime": 15.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +64,16 @@
       "text": "Why does the idea of progress loom so large in the modern world?",
       "translation": "",
       "startTime": 15.87,
-      "endTime": 21.4
+      "endTime": 21.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "does",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +81,22 @@
       "text": "Surely because progress of a particular kind is actually taking place around us",
       "translation": "",
       "startTime": 21.41,
-      "endTime": 27.62
+      "endTime": 27.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +104,22 @@
       "text": "and is becoming more and more manifest.",
       "translation": "",
       "startTime": 27.63,
-      "endTime": 30.3
+      "endTime": 30.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +135,22 @@
       "text": "it has made extraordinary progress in the accumulation of knowledge.",
       "translation": "",
       "startTime": 36.16,
-      "endTime": 41.36
+      "endTime": 41.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -98,7 +182,17 @@
       "text": "for knowledge could then be not only communicated but also stored.",
       "translation": "",
       "startTime": 53.67,
-      "endTime": 58.65
+      "endTime": 58.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +200,16 @@
       "text": "Libraries made education possible, and education in its turn added to libraries:",
       "translation": "",
       "startTime": 58.66,
-      "endTime": 65.38
+      "endTime": 65.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -130,7 +233,22 @@
       "text": "All this was comparatively slow until, with the coming of science,",
       "translation": "",
       "startTime": 74.03,
-      "endTime": 79.52
+      "endTime": 79.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -162,7 +280,35 @@
       "text": "Moreover, as soon as new knowledge is acquired, it is now turned to practical account.",
       "translation": "",
       "startTime": 92.98,
-      "endTime": 99.17
+      "endTime": 99.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +316,31 @@
       "text": "What is called 'modern civilization'",
       "translation": "",
       "startTime": 99.18,
-      "endTime": 102
+      "endTime": 102,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +348,27 @@
       "text": "is not the result of a balanced development of all man's nature,",
       "translation": "",
       "startTime": 102.01,
-      "endTime": 106.38
+      "endTime": 106.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -194,7 +384,22 @@
       "text": "The problem now facing humanity is:",
       "translation": "",
       "startTime": 111.47,
-      "endTime": 114.52
+      "endTime": 114.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +407,40 @@
       "text": "What is going to be done with all this knowledge?",
       "translation": "",
       "startTime": 114.53,
-      "endTime": 118.11
+      "endTime": 118.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +448,26 @@
       "text": "As is so often pointed out, knowledge is a two-edged weapon",
       "translation": "",
       "startTime": 118.12,
-      "endTime": 122.96
+      "endTime": 122.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +475,16 @@
       "text": "which can be used equally for good or evil.",
       "translation": "",
       "startTime": 122.97,
-      "endTime": 126.87
+      "endTime": 126.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -226,7 +492,31 @@
       "text": "It is now being used indifferently for both.",
       "translation": "",
       "startTime": 126.88,
-      "endTime": 130.64
+      "endTime": 130.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -242,7 +532,22 @@
       "text": "than that of gunners using science to shatter men's bodies",
       "translation": "",
       "startTime": 134.99,
-      "endTime": 139.83
+      "endTime": 139.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +555,27 @@
       "text": "while, close at hand, surgeons use it to restore them?",
       "translation": "",
       "startTime": 139.84,
-      "endTime": 144.71
+      "endTime": 144.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +583,22 @@
       "text": "We have to ask ourselves very seriously",
       "translation": "",
       "startTime": 144.72,
-      "endTime": 147.63
+      "endTime": 147.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +606,31 @@
       "text": "what will happen if this twofold use of knowledge,",
       "translation": "",
       "startTime": 147.64,
-      "endTime": 151.65
+      "endTime": 151.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +638,16 @@
       "text": "with its ever-increasing power, continues.",
       "translation": "",
       "startTime": 151.66,
-      "endTime": 156.66
+      "endTime": 156.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

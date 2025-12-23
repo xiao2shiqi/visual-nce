@@ -10,7 +10,17 @@
       "text": "Lesson 23",
       "translation": "",
       "startTime": 0.35,
-      "endTime": 2.27
+      "endTime": 2.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "One man's meat is another man's poison",
       "translation": "",
       "startTime": 2.28,
-      "endTime": 11.54
+      "endTime": 11.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,48 @@
       "text": "What was it about snails that made the writer collect them for his friend on that day in particular?",
       "translation": "",
       "startTime": 11.55,
-      "endTime": 20.28
+      "endTime": 20.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +100,26 @@
       "text": "People become quite illogical when they try to decide what can be eaten and what cannot be eaten.",
       "translation": "",
       "startTime": 20.29,
-      "endTime": 28.5
+      "endTime": 28.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +127,17 @@
       "text": "If you lived in the Mediterranean, for instance, you would consider octopus a great delicacy.",
       "translation": "",
       "startTime": 28.51,
-      "endTime": 35.91
+      "endTime": 35.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +145,32 @@
       "text": "You would not be able to understand why some people find it repulsive.",
       "translation": "",
       "startTime": 35.92,
-      "endTime": 41.77
+      "endTime": 41.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +178,27 @@
       "text": "On the other hand, your stomach would turn at the idea of frying potatoes in animal fat-the normally accepted practice in many northern countries.",
       "translation": "",
       "startTime": 41.78,
-      "endTime": 53.9
+      "endTime": 53.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +206,35 @@
       "text": "The sad truth is that most of us have been brought up to eat certain foods and we stick to them all our lives.",
       "translation": "",
       "startTime": 53.91,
-      "endTime": 63.18
+      "endTime": 63.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +250,16 @@
       "text": "Cooked in wine, snails are a great luxury in various parts of the world.",
       "translation": "",
       "startTime": 69.56,
-      "endTime": 75.42
+      "endTime": 75.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +267,20 @@
       "text": "There are countless people who, ever since their early years, have learned to associate snails with food.",
       "translation": "",
       "startTime": 75.43,
-      "endTime": 84.19
+      "endTime": 84.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +288,26 @@
       "text": "My friend, Robert, lives in a country where snails are despised.",
       "translation": "",
       "startTime": 84.2,
-      "endTime": 90.3
+      "endTime": 90.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +315,30 @@
       "text": "As his flat is in a large town, he has no garden of his own.",
       "translation": "",
       "startTime": 90.31,
-      "endTime": 95.3
+      "endTime": 95.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +346,31 @@
       "text": "For years he has been asking me to collect snails from my garden and take them to him.",
       "translation": "",
       "startTime": 95.31,
-      "endTime": 102.45
+      "endTime": 102.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +378,36 @@
       "text": "The idea never appealed to me very much, but one day, after a heavy shower,",
       "translation": "",
       "startTime": 102.46,
-      "endTime": 109.16
+      "endTime": 109.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +415,31 @@
       "text": "I happened to be walking in my garden when I noticed a huge number of snails taking a stroll on some of my prize plants.",
       "translation": "",
       "startTime": 109.17,
-      "endTime": 118.54
+      "endTime": 118.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +455,31 @@
       "text": "Robert was delighted to see me and equally pleased with my little gift.",
       "translation": "",
       "startTime": 127.01,
-      "endTime": 133.02
+      "endTime": 133.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +495,22 @@
       "text": "I had forgotten all about the snails when Robert suddenly said that I must stay to dinner.",
       "translation": "",
       "startTime": 140.56,
-      "endTime": 147.72
+      "endTime": 147.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +526,17 @@
       "text": "I did not fancy the idea and I reluctantly followed Robert out of the room.",
       "translation": "",
       "startTime": 151.79,
-      "endTime": 157.89
+      "endTime": 157.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +544,16 @@
       "text": "To our dismay,",
       "translation": "",
       "startTime": 157.9,
-      "endTime": 159.69
+      "endTime": 159.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s20",
@@ -194,7 +561,22 @@
       "text": "we saw that there were snails everywhere:",
       "translation": "",
       "startTime": 159.7,
-      "endTime": 162.96
+      "endTime": 162.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +592,22 @@
       "text": "and had taken complete possession of the hall! I have never be able to look at a snail since then.",
       "translation": "",
       "startTime": 165.4,
-      "endTime": 170.4
+      "endTime": 170.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

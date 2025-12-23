@@ -10,7 +10,17 @@
       "text": "Lesson 25",
       "translation": "",
       "startTime": 0.72,
-      "endTime": 3.38
+      "endTime": 3.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What conclusion does the author draw about noise and health in this piece?",
       "translation": "",
       "startTime": 13.04,
-      "endTime": 20.96
+      "endTime": 20.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -50,7 +84,22 @@
       "text": "regard any investigation of this question as a waste of time;",
       "translation": "",
       "startTime": 28.11,
-      "endTime": 33.51
+      "endTime": 33.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +107,31 @@
       "text": "they are not prepared even to admit the possibility that noise affects people.",
       "translation": "",
       "startTime": 33.52,
-      "endTime": 39.58
+      "endTime": 39.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +147,16 @@
       "text": "those who dislike noise will sometimes use most inadequate evidence",
       "translation": "",
       "startTime": 41.14,
-      "endTime": 46.04
+      "endTime": 46.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +164,16 @@
       "text": "to support their pleas for a quieter society.",
       "translation": "",
       "startTime": 46.05,
-      "endTime": 51.23
+      "endTime": 51.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +181,35 @@
       "text": "This is a pity, because noise abatement really is a good cause,",
       "translation": "",
       "startTime": 51.24,
-      "endTime": 57.24
+      "endTime": 57.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +217,35 @@
       "text": "and it is likely to be discredited if it gets to be associated with bad science.",
       "translation": "",
       "startTime": 57.25,
-      "endTime": 64.02
+      "endTime": 64.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +253,31 @@
       "text": "One allegation often made is that noise produces mental illness.",
       "translation": "",
       "startTime": 64.03,
-      "endTime": 69.77
+      "endTime": 69.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -138,7 +309,22 @@
       "text": "On turning eagerly to the text, one learns that the lady was a typist",
       "translation": "",
       "startTime": 88.22,
-      "endTime": 93.75
+      "endTime": 93.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +332,16 @@
       "text": "who found the sound of office typewriters worried her more and more",
       "translation": "",
       "startTime": 93.76,
-      "endTime": 97.85
+      "endTime": 97.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -162,7 +357,40 @@
       "text": "Now the snag in this sort of anecdote is of course that one cannot distinguish cause and effect.",
       "translation": "",
       "startTime": 102.71,
-      "endTime": 110.44
+      "endTime": 110.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -186,7 +414,17 @@
       "text": "Another patient might equally well complain",
       "translation": "",
       "startTime": 117.48,
-      "endTime": 120.29
+      "endTime": 120.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +432,34 @@
       "text": "that her neighbours were combining to slander her and persecute her,",
       "translation": "",
       "startTime": 120.3,
-      "endTime": 124.91
+      "endTime": 124.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +467,22 @@
       "text": "and yet one might be cautious about believing this statement.",
       "translation": "",
       "startTime": 124.92,
-      "endTime": 129.73
+      "endTime": 129.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +490,35 @@
       "text": "What is needed in the case of noise is a study of large numbers of people living under noisy conditions,",
       "translation": "",
       "startTime": 129.74,
-      "endTime": 137.16
+      "endTime": 137.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +526,20 @@
       "text": "to discover whether they are mentally ill more often than other people are.",
       "translation": "",
       "startTime": 137.17,
-      "endTime": 142.65
+      "endTime": 142.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -234,7 +555,27 @@
       "text": "examined a very large number of men working on aircraft carriers:",
       "translation": "",
       "startTime": 146.76,
-      "endTime": 151.99
+      "endTime": 151.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -250,7 +591,22 @@
       "text": "It can be unpleasant to live even several miles from an aerodrome;",
       "translation": "",
       "startTime": 156.39,
-      "endTime": 161.66
+      "endTime": 161.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +614,36 @@
       "text": "if you think what it must be like to share the deck of a ship with several squadrons of jet aircraft,",
       "translation": "",
       "startTime": 161.67,
-      "endTime": 168.59
+      "endTime": 168.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +651,36 @@
       "text": "you will realize that a modern navy is a good place to study noise.",
       "translation": "",
       "startTime": 168.6,
-      "endTime": 174.97
+      "endTime": 174.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -282,7 +696,17 @@
       "text": "were able to show any effects upon these American sailors.",
       "translation": "",
       "startTime": 179.61,
-      "endTime": 184.4
+      "endTime": 184.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "American",
+            "pos": "adj.",
+            "meaning": "美国的"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +714,27 @@
       "text": "This result merely confirms earlier American and British studies:",
       "translation": "",
       "startTime": 184.41,
-      "endTime": 189.98
+      "endTime": 189.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "American",
+            "pos": "adj.",
+            "meaning": "美国的"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -298,7 +742,22 @@
       "text": "if there is any effect of noise upon mental health,",
       "translation": "",
       "startTime": 189.99,
-      "endTime": 193.89
+      "endTime": 193.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s34",
@@ -306,7 +765,35 @@
       "text": "it must be so small that present methods of psychiatric diagnosis cannot find it.",
       "translation": "",
       "startTime": 193.9,
-      "endTime": 202.53
+      "endTime": 202.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s35",
@@ -314,7 +801,44 @@
       "text": "That does not prove that it does not exist; but it does mean",
       "translation": "",
       "startTime": 202.54,
-      "endTime": 207.72
+      "endTime": 207.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s36",
@@ -322,7 +846,31 @@
       "text": "that noise is less dangerous than, say being brought up in an orphanage",
       "translation": "",
       "startTime": 207.73,
-      "endTime": 213.71
+      "endTime": 213.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s37",
@@ -330,7 +878,22 @@
       "text": "--which really is a mental health hazard.",
       "translation": "",
       "startTime": 213.72,
-      "endTime": 218.72
+      "endTime": 218.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

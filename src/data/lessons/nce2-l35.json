@@ -10,7 +10,17 @@
       "text": "How did Roy stop the thieves?",
       "translation": "",
       "startTime": 11.67,
-      "endTime": 16.4
+      "endTime": 16.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Roy Trenton used to drive a taxi.",
       "translation": "",
       "startTime": 16.41,
-      "endTime": 20.61
+      "endTime": 20.61,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Taxi",
+            "pos": "n.",
+            "meaning": "出租车"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,17 @@
       "text": "A short while ago, however,",
       "translation": "",
       "startTime": 20.62,
-      "endTime": 23.64
+      "endTime": 23.64,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +64,17 @@
       "text": "he became a bus driver",
       "translation": "",
       "startTime": 23.65,
-      "endTime": 25.92
+      "endTime": 25.92,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,27 @@
       "text": "and he has not regretted it.",
       "translation": "",
       "startTime": 25.93,
-      "endTime": 29.26
+      "endTime": 29.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +110,26 @@
       "text": "He is finding his new work far more exciting.",
       "translation": "",
       "startTime": 29.27,
-      "endTime": 34.52
+      "endTime": 34.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -82,7 +161,17 @@
       "text": "and run towards a waiting car.",
       "translation": "",
       "startTime": 43.02,
-      "endTime": 46.36
+      "endTime": 46.36,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -106,7 +195,17 @@
       "text": "straight at the thieves.",
       "translation": "",
       "startTime": 54.46,
-      "endTime": 57.28
+      "endTime": 57.28,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +221,22 @@
       "text": "that he dropped the bag.",
       "translation": "",
       "startTime": 60.67,
-      "endTime": 63.24
+      "endTime": 63.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +244,22 @@
       "text": "As the thieves were trying to get away in their car,",
       "translation": "",
       "startTime": 63.25,
-      "endTime": 67.59
+      "endTime": 67.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +267,26 @@
       "text": "Roy drove his bus into the back of it.",
       "translation": "",
       "startTime": 67.6,
-      "endTime": 71.88
+      "endTime": 71.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +294,17 @@
       "text": "While the battered car was moving away,",
       "translation": "",
       "startTime": 71.89,
-      "endTime": 75.45
+      "endTime": 75.45,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +312,16 @@
       "text": "Roy stopped his bus and telephoned the police.",
       "translation": "",
       "startTime": 75.46,
-      "endTime": 79.32
+      "endTime": 79.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +329,17 @@
       "text": "The thieves' car was badly damaged and easy to recognize.",
       "translation": "",
       "startTime": 79.33,
-      "endTime": 85.04
+      "endTime": 85.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +355,17 @@
       "text": "the police stopped the car and both men were arrested.",
       "translation": "",
       "startTime": 87.27,
-      "endTime": 92.27
+      "endTime": 92.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     }
   ]
 }

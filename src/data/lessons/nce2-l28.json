@@ -10,7 +10,31 @@
       "text": "What is Jasper White's problem?",
       "translation": "",
       "startTime": 9.64,
-      "endTime": 14.21
+      "endTime": 14.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +42,27 @@
       "text": "Jasper White is one of those rare people who believes in ancient myths.",
       "translation": "",
       "startTime": 14.22,
-      "endTime": 21.11
+      "endTime": 21.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "White",
+            "pos": "adj.",
+            "meaning": "白色的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +70,22 @@
       "text": "He has just bought a new house in the city, but ever since he moved in, he has had trouble with cars and their owners.",
       "translation": "",
       "startTime": 21.12,
-      "endTime": 31.95
+      "endTime": 31.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +93,36 @@
       "text": "When he returns home at night, he always finds that someone has parked a car outside his gate.",
       "translation": "",
       "startTime": 31.96,
-      "endTime": 40.55
+      "endTime": 40.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +130,40 @@
       "text": "Because of this, he has not been able to get his own car into his garage even once.",
       "translation": "",
       "startTime": 40.56,
-      "endTime": 49.01
+      "endTime": 49.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +171,22 @@
       "text": "Jasper has put up 'No Parking' signs outside his gate, but these have not had any effect.",
       "translation": "",
       "startTime": 49.02,
-      "endTime": 58.93
+      "endTime": 58.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +202,31 @@
       "text": "It is one of the ugliest faces I have ever seen.",
       "translation": "",
       "startTime": 64.19,
-      "endTime": 69.5
+      "endTime": 69.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +234,53 @@
       "text": "I asked him what it was and he told me that it was Medusa, the Gorgon.",
       "translation": "",
       "startTime": 69.51,
-      "endTime": 76.74
+      "endTime": 76.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +288,26 @@
       "text": "Jasper hopes that she will turn cars and their owners to stone.",
       "translation": "",
       "startTime": 76.75,
-      "endTime": 82.57
+      "endTime": 82.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",

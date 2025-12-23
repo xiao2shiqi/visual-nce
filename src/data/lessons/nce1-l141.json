@@ -10,7 +10,17 @@
       "text": "Lesson 141",
       "translation": "第141课",
       "startTime": 0.63,
-      "endTime": 3.45
+      "endTime": 3.45,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "请听录音，然后回答这个问题：",
       "startTime": 7.64,
-      "endTime": 13.14
+      "endTime": 13.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +67,27 @@
       "text": "Last week, my four-year-old daughter, Sally, was invited to a children's party.",
       "translation": "上周，我四岁的女儿莎莉被邀请参加一个儿童派对。",
       "startTime": 17.91,
-      "endTime": 26.46
+      "endTime": 26.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Daughter",
+            "pos": "n.",
+            "meaning": "女儿"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +95,16 @@
       "text": "I decided to take her by train.",
       "translation": "我决定带她坐火车去。",
       "startTime": 26.47,
-      "endTime": 30.66
+      "endTime": 30.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +112,22 @@
       "text": "Sally was very excited because she had never travelled on a train before.",
       "translation": "莎莉非常兴奋，因为她以前从未坐过火车。",
       "startTime": 30.67,
-      "endTime": 39.51
+      "endTime": 39.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -90,7 +159,27 @@
       "text": "Sally did not answer, but looked at her curiously.",
       "translation": "莎莉没有回答，只是好奇地盯着她看。",
       "startTime": 62.42,
-      "endTime": 68.68
+      "endTime": 68.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +187,27 @@
       "text": "The lady was dressed in a blue coat and a large, funny hat.",
       "translation": "那位女士穿着一件蓝色外套，戴着一顶又大又有趣的帽子。",
       "startTime": 68.69,
-      "endTime": 76.19
+      "endTime": 76.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "coat",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          },
+          {
+            "word": "Coat",
+            "pos": "n.",
+            "meaning": "上衣，大衣"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +215,26 @@
       "text": "After the train had left the station, the lady opened her handbag and took out her powder compact.",
       "translation": "火车离开车站后，那位女士打开她的手提包，拿出了她的粉饼。",
       "startTime": 76.2,
-      "endTime": 87.11
+      "endTime": 87.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Handbag",
+            "pos": "n.",
+            "meaning": "（女用）手提包"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +242,16 @@
       "text": "She then began to make up her face.",
       "translation": "然后她开始化妆。",
       "startTime": 87.12,
-      "endTime": 92.75
+      "endTime": 92.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +259,31 @@
       "text": "'Why are you doing that?' Sally asked.",
       "translation": "“你为什么要那么做？”莎莉问道。",
       "startTime": 92.76,
-      "endTime": 97.48
+      "endTime": 97.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +299,16 @@
       "text": "She put away her compact and smiled kindly.",
       "translation": "她收起了她的粉饼，然后露出了友善的微笑。",
       "startTime": 103.31,
-      "endTime": 109.48
+      "endTime": 109.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +316,22 @@
       "text": "'But you are still ugly,' Sally said.",
       "translation": "“但你还是很难看，”莎莉说。",
       "startTime": 109.49,
-      "endTime": 114.62
+      "endTime": 114.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +339,22 @@
       "text": "Sally was amused, but I was very embarrassed!",
       "translation": "莎莉觉得这很有趣，但我却感到非常尴尬！",
       "startTime": 114.63,
-      "endTime": 119.63
+      "endTime": 119.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     }
   ]
 }

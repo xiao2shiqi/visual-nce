@@ -10,7 +10,17 @@
       "text": "How many people visited the Great Exhibition of 1851?",
       "translation": "",
       "startTime": 10.28,
-      "endTime": 18.19
+      "endTime": 18.19,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,22 @@
       "text": "The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.",
       "translation": "",
       "startTime": 33.43,
-      "endTime": 43
+      "endTime": 43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +67,26 @@
       "text": "It was one of the biggest buildings of all time and a lot of people from many countries came to see it.",
       "translation": "",
       "startTime": 43.01,
-      "endTime": 52.22
+      "endTime": 52.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -74,7 +118,41 @@
       "text": "Though in those days travelling was not as easy as it is today,",
       "translation": "",
       "startTime": 71.5,
-      "endTime": 77.78
+      "endTime": 77.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -122,7 +200,26 @@
       "text": "It remained one of the most famous buildings in the world until it was burnt down in 1936.",
       "translation": "",
       "startTime": 104.67,
-      "endTime": 109.67
+      "endTime": 109.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "What had happened to the writer's bag?",
       "translation": "",
       "startTime": 9.56,
-      "endTime": 14.27
+      "endTime": 14.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,27 @@
       "text": "After I had had lunch at a village pub, I looked for my bag.",
       "translation": "",
       "startTime": 14.28,
-      "endTime": 20.97
+      "endTime": 20.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +61,26 @@
       "text": "I had left it on a chair beside the door and now it wasn't there!",
       "translation": "",
       "startTime": 20.98,
-      "endTime": 27.44
+      "endTime": 27.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +88,22 @@
       "text": "As I was looking for it, the landlord came in.",
       "translation": "",
       "startTime": 27.45,
-      "endTime": 32.44
+      "endTime": 32.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +111,17 @@
       "text": "'Did you have a good meal?' he asked.",
       "translation": "",
       "startTime": 32.45,
-      "endTime": 35.93
+      "endTime": 35.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +129,37 @@
       "text": "'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'",
       "translation": "",
       "startTime": 35.94,
-      "endTime": 44.29
+      "endTime": 44.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +175,40 @@
       "text": "In a few minutes he returned with my bag and gave it back to me.",
       "translation": "",
       "startTime": 48.8,
-      "endTime": 54.92
+      "endTime": 54.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +216,27 @@
       "text": "'I'm very sorry,' he said.",
       "translation": "",
       "startTime": 54.93,
-      "endTime": 58.42
+      "endTime": 58.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +244,40 @@
       "text": "'My dog had taken it into the garden. He often does this!'",
       "translation": "",
       "startTime": 58.43,
-      "endTime": 63.43
+      "endTime": 63.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     }
   ]
 }

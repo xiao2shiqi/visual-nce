@@ -10,7 +10,22 @@
       "text": "What two interruptions did the writer have?",
       "translation": "",
       "startTime": 10.52,
-      "endTime": 15.82
+      "endTime": 15.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "After breakfast, I sent the children to school and then I went to the shops.",
       "translation": "",
       "startTime": 15.83,
-      "endTime": 23.01
+      "endTime": 23.01,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,22 @@
       "text": "It was still early when I returned home.",
       "translation": "",
       "startTime": 23.02,
-      "endTime": 27.29
+      "endTime": 27.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +74,37 @@
       "text": "The children were at school, my husband was at work and the house was quiet.",
       "translation": "",
       "startTime": 27.3,
-      "endTime": 34.04
+      "endTime": 34.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +120,22 @@
       "text": "In a short time I was busy mixing butter",
       "translation": "",
       "startTime": 38.34,
-      "endTime": 41.81
+      "endTime": 41.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          },
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +143,22 @@
       "text": "and flour and my hands were soon covered with sticky pastry.",
       "translation": "",
       "startTime": 41.82,
-      "endTime": 47.97
+      "endTime": 47.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +166,27 @@
       "text": "At exactly that moment, the telephone rang.",
       "translation": "",
       "startTime": 47.98,
-      "endTime": 53.27
+      "endTime": 53.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -90,7 +210,40 @@
       "text": "It took me ten minutes to persuade her to ring back later. At last I hung up the receiver.",
       "translation": "",
       "startTime": 68.01,
-      "endTime": 77.21
+      "endTime": 77.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +251,31 @@
       "text": "What a mess! There was pastry on my fingers, on the telephone, and on the doorknobs.",
       "translation": "",
       "startTime": 77.22,
-      "endTime": 87
+      "endTime": 87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +291,45 @@
       "text": "This time it was the postman and he wanted me to sign for a registered letter!",
       "translation": "",
       "startTime": 95.88,
-      "endTime": 100.88
+      "endTime": 100.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Postman",
+            "pos": "n.",
+            "meaning": "邮递员"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,16 @@
       "text": "When will the writer see the play?",
       "translation": "",
       "startTime": 10.2,
-      "endTime": 15.13
+      "endTime": 15.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,17 @@
       "text": "'The play may begin at any moment,' I said.",
       "translation": "",
       "startTime": 15.14,
-      "endTime": 19.46
+      "endTime": 19.46,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,22 @@
       "text": "'It may have begun already,' Susan answered.",
       "translation": "",
       "startTime": 19.47,
-      "endTime": 24.54
+      "endTime": 24.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,22 @@
       "text": "I hurried to the ticket office.",
       "translation": "",
       "startTime": 24.55,
-      "endTime": 27.77
+      "endTime": 27.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "ticket",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Ticket",
+            "pos": "n.",
+            "meaning": "票"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,17 @@
       "text": "'May I have two tickets please?' I asked.",
       "translation": "",
       "startTime": 27.78,
-      "endTime": 32.34
+      "endTime": 32.34,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +109,17 @@
       "text": "'I'm sorry, we've sold out,' the girl said.",
       "translation": "",
       "startTime": 32.35,
-      "endTime": 37.09
+      "endTime": 37.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +127,22 @@
       "text": "'What a pity!' Susan exclaimed.",
       "translation": "",
       "startTime": 37.1,
-      "endTime": 41.5
+      "endTime": 41.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +150,27 @@
       "text": "Just then, a man hurried to the ticket office.",
       "translation": "",
       "startTime": 41.51,
-      "endTime": 46.58
+      "endTime": 46.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "ticket",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Ticket",
+            "pos": "n.",
+            "meaning": "票"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +178,16 @@
       "text": "'Can I return these two tickets?' he asked.",
       "translation": "",
       "startTime": 46.59,
-      "endTime": 51.14
+      "endTime": 51.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -90,7 +203,27 @@
       "text": "I went back to the ticket office at once.",
       "translation": "",
       "startTime": 55.05,
-      "endTime": 59.43
+      "endTime": 59.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "ticket",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Ticket",
+            "pos": "n.",
+            "meaning": "票"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +231,17 @@
       "text": "'Could I have those two tickets please?' I asked.",
       "translation": "",
       "startTime": 59.44,
-      "endTime": 65.2
+      "endTime": 65.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -122,7 +265,17 @@
       "text": "Do you still want them?'",
       "translation": "",
       "startTime": 72.4,
-      "endTime": 75.34
+      "endTime": 75.34,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +283,17 @@
       "text": "'I might as well have them,' I said sadly.",
       "translation": "",
       "startTime": 75.35,
-      "endTime": 80.35
+      "endTime": 80.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,32 @@
       "text": "Why doesn't Aunt Jennifer tell anyone how old she is?",
       "translation": "",
       "startTime": 10.34,
-      "endTime": 17.38
+      "endTime": 17.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +43,31 @@
       "text": "My aunt Jennifer is an actress.",
       "translation": "",
       "startTime": 17.39,
-      "endTime": 20.94
+      "endTime": 20.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +75,22 @@
       "text": "She must be at least thirty-five years old.",
       "translation": "",
       "startTime": 20.95,
-      "endTime": 25.2
+      "endTime": 25.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +98,27 @@
       "text": "In spite of this, she often appears on the stage as a young girl.",
       "translation": "",
       "startTime": 25.21,
-      "endTime": 31.67
+      "endTime": 31.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +126,16 @@
       "text": "Jennifer will have to take part in a new play soon.",
       "translation": "",
       "startTime": 31.68,
-      "endTime": 36.09
+      "endTime": 36.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +143,22 @@
       "text": "This time, she will be a girl of seventeen.",
       "translation": "",
       "startTime": 36.1,
-      "endTime": 41.17
+      "endTime": 41.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +166,36 @@
       "text": "In the play, she must appear in a bright red dress and long black stockings.",
       "translation": "",
       "startTime": 41.18,
-      "endTime": 49.16
+      "endTime": 49.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Red",
+            "pos": "adj.",
+            "meaning": "红色的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +211,27 @@
       "text": "she had to wear short socks and a bright, orange-coloured dress.",
       "translation": "",
       "startTime": 51.7,
-      "endTime": 58.44
+      "endTime": 58.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +239,36 @@
       "text": "If anyone ever asks her how old she is,",
       "translation": "",
       "startTime": 58.45,
-      "endTime": 62.54
+      "endTime": 62.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +276,22 @@
       "text": "she always answers, 'Darling, it must be terrible to be grown up!'",
       "translation": "",
       "startTime": 62.55,
-      "endTime": 67.55
+      "endTime": 67.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,17 @@
       "text": "Lesson 5",
       "translation": "第5课",
       "startTime": 0.58,
-      "endTime": 2.39
+      "endTime": 2.39,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,27 @@
       "text": "Nice to meet you.",
       "translation": "很高兴见到你。",
       "startTime": 2.4,
-      "endTime": 5.07
+      "endTime": 5.07,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +56,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.08,
-      "endTime": 9.94
+      "endTime": 9.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +79,27 @@
       "text": "Is Chang-woo Chinese?",
       "translation": "昌宇是中国人吗？",
       "startTime": 9.95,
-      "endTime": 14.22
+      "endTime": 14.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Chinese",
+            "pos": "adj.",
+            "meaning": "中国的，中文"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +123,31 @@
       "text": "This is Miss Sophie Dupont.",
       "translation": "这位是索菲·杜邦小姐。",
       "startTime": 19.72,
-      "endTime": 23.6
+      "endTime": 23.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +155,27 @@
       "text": "Sophie is a new student.",
       "translation": "索菲是一名新学生。",
       "startTime": 23.61,
-      "endTime": 26.54
+      "endTime": 26.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +183,27 @@
       "text": "She is French.",
       "translation": "她是法国人。",
       "startTime": 26.55,
-      "endTime": 28.98
+      "endTime": 28.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +211,31 @@
       "text": "Sophie this is Hans.",
       "translation": "索菲，这位是汉斯。",
       "startTime": 28.99,
-      "endTime": 32.53
+      "endTime": 32.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +243,27 @@
       "text": "He is German.",
       "translation": "他是德国人。",
       "startTime": 32.54,
-      "endTime": 34.55
+      "endTime": 34.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "German",
+            "pos": "adj.",
+            "meaning": "德国的，德语"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +271,27 @@
       "text": "Nice to meet you.",
       "translation": "很高兴见到你。",
       "startTime": 34.56,
-      "endTime": 37.32
+      "endTime": 37.32,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +299,31 @@
       "text": "And this is Naoko.",
       "translation": "这位是直子。",
       "startTime": 37.33,
-      "endTime": 39.98
+      "endTime": 39.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +331,17 @@
       "text": "She's Japanese.",
       "translation": "她是日本人。",
       "startTime": 39.99,
-      "endTime": 42.24
+      "endTime": 42.24,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Japanese",
+            "pos": "adj.",
+            "meaning": "日本的，日语"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +349,27 @@
       "text": "Nice to meet you.",
       "translation": "很高兴见到你。",
       "startTime": 42.25,
-      "endTime": 44.8
+      "endTime": 44.8,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +377,31 @@
       "text": "And this is Chang-woo.",
       "translation": "这位是昌宇。",
       "startTime": 44.81,
-      "endTime": 47.48
+      "endTime": 47.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +409,17 @@
       "text": "He's Korean.",
       "translation": "他是韩国人。",
       "startTime": 47.49,
-      "endTime": 49.25
+      "endTime": 49.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Korean",
+            "pos": "adj.",
+            "meaning": "韩国的，韩语"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +427,27 @@
       "text": "Nice to meet you.",
       "translation": "很高兴见到你。",
       "startTime": 49.26,
-      "endTime": 51.64
+      "endTime": 51.64,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +455,31 @@
       "text": "And this is Luming.",
       "translation": "这位是鲁明。",
       "startTime": 51.65,
-      "endTime": 54.13
+      "endTime": 54.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +487,17 @@
       "text": "He's Chinese.",
       "translation": "他是中国人。",
       "startTime": 54.14,
-      "endTime": 56.19
+      "endTime": 56.19,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Chinese",
+            "pos": "adj.",
+            "meaning": "中国的，中文"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +505,27 @@
       "text": "Nice to meet you.",
       "translation": "很高兴见到你。",
       "startTime": 56.2,
-      "endTime": 58.55
+      "endTime": 58.55,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +533,31 @@
       "text": "And this is Xiaohui.",
       "translation": "这位是晓惠。",
       "startTime": 58.56,
-      "endTime": 61.72
+      "endTime": 61.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +565,32 @@
       "text": "She is Chinese too.",
       "translation": "她也是中国人。",
       "startTime": 61.73,
-      "endTime": 64.2
+      "endTime": 64.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Chinese",
+            "pos": "adj.",
+            "meaning": "中国的，中文"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +598,27 @@
       "text": "Nice to meet you.",
       "translation": "很高兴见到你。",
       "startTime": 64.21,
-      "endTime": 69.21
+      "endTime": 69.21,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     }
   ]
 }

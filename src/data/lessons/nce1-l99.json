@@ -10,7 +10,17 @@
       "text": "Lesson 99",
       "translation": "",
       "startTime": 0.65,
-      "endTime": 2.84
+      "endTime": 2.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 4.74,
-      "endTime": 10.48
+      "endTime": 10.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "Must Andy go to see the doctor?",
       "translation": "",
       "startTime": 10.49,
-      "endTime": 15.55
+      "endTime": 15.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -66,7 +100,17 @@
       "text": "Have you hurt yourself?",
       "translation": "",
       "startTime": 23.62,
-      "endTime": 26.45
+      "endTime": 26.45,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +118,17 @@
       "text": "Yes, I have.",
       "translation": "",
       "startTime": 26.46,
-      "endTime": 28.47
+      "endTime": 28.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +136,31 @@
       "text": "I think that I've hurt my back.",
       "translation": "",
       "startTime": 28.48,
-      "endTime": 32.53
+      "endTime": 32.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +176,17 @@
       "text": "Can you stand up?",
       "translation": "",
       "startTime": 35.29,
-      "endTime": 37.44
+      "endTime": 37.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +194,17 @@
       "text": "Here.",
       "translation": "",
       "startTime": 37.45,
-      "endTime": 38.52
+      "endTime": 38.52,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +212,27 @@
       "text": "Let me help you.",
       "translation": "",
       "startTime": 38.53,
-      "endTime": 41.5
+      "endTime": 41.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +240,17 @@
       "text": "I'm sorry, Lucy.",
       "translation": "",
       "startTime": 41.51,
-      "endTime": 43.98
+      "endTime": 43.98,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +258,22 @@
       "text": "I'm afraid that I can't get up.",
       "translation": "",
       "startTime": 43.99,
-      "endTime": 48.03
+      "endTime": 48.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +281,27 @@
       "text": "I think that the doctor had better see you.",
       "translation": "",
       "startTime": 48.04,
-      "endTime": 52.96
+      "endTime": 52.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +317,27 @@
       "text": "The doctor says that he will come at once.",
       "translation": "",
       "startTime": 56.97,
-      "endTime": 61.82
+      "endTime": 61.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +345,27 @@
       "text": "I'm sure that you need an X-ray, Andy.",
       "translation": "",
       "startTime": 61.83,
-      "endTime": 66.83
+      "endTime": 66.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     }
   ]
 }

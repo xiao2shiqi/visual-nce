@@ -10,7 +10,16 @@
       "text": "Why does the vicar refuse to cut down the tree?",
       "translation": "",
       "startTime": 11.01,
-      "endTime": 16.93
+      "endTime": 16.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "does",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,22 @@
       "text": "The tiny village of Frinley is said to possess a 'cursed tree'.",
       "translation": "",
       "startTime": 16.94,
-      "endTime": 22.88
+      "endTime": 22.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +58,17 @@
       "text": "the number of visitors to Frinley has now increased.",
       "translation": "",
       "startTime": 26.47,
-      "endTime": 31.7
+      "endTime": 31.7,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +76,44 @@
       "text": "The tree was planted near the church fifty years ago, but it is only in recent years that it has gained an evil reputation.",
       "translation": "",
       "startTime": 31.71,
-      "endTime": 43.06
+      "endTime": 43.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +121,40 @@
       "text": "It is said that if anyone touches the tree, he will have bad luck; if he picks a leaf, he will die.",
       "translation": "",
       "startTime": 43.07,
-      "endTime": 52.88
+      "endTime": 52.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +162,27 @@
       "text": "Many villagers believe that the tree has already claimed a number of victims.",
       "translation": "",
       "startTime": 52.89,
-      "endTime": 59.94
+      "endTime": 59.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +198,31 @@
       "text": "He has pointed out that the tree is a useful source of income,",
       "translation": "",
       "startTime": 68.52,
-      "endTime": 74.12
+      "endTime": 74.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +230,22 @@
       "text": "as tourists have been coming from all parts of the country to see it.",
       "translation": "",
       "startTime": 74.13,
-      "endTime": 80.03
+      "endTime": 80.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +253,22 @@
       "text": "In spite of all that has been said,",
       "translation": "",
       "startTime": 80.04,
-      "endTime": 83.22
+      "endTime": 83.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +276,16 @@
       "text": "the tourists have been picking leaves and cutting their names on the tree-trunk.",
       "translation": "",
       "startTime": 83.23,
-      "endTime": 89.09
+      "endTime": 89.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +293,17 @@
       "text": "So far, not one of them has been struck down by sudden death!",
       "translation": "",
       "startTime": 89.1,
-      "endTime": 94.1
+      "endTime": 94.1,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

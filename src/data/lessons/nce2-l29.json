@@ -10,7 +10,27 @@
       "text": "Does Captain Fawcett think any trip is too dangerous?",
       "translation": "",
       "startTime": 9.28,
-      "endTime": 15.68
+      "endTime": 15.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +38,17 @@
       "text": "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.",
       "translation": "",
       "startTime": 15.69,
-      "endTime": 23.33
+      "endTime": 23.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Taxi",
+            "pos": "n.",
+            "meaning": "出租车"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +56,27 @@
       "text": "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.",
       "translation": "",
       "startTime": 23.34,
-      "endTime": 29.68
+      "endTime": 29.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Taxi",
+            "pos": "n.",
+            "meaning": "出租车"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +84,22 @@
       "text": "This wonderful plane can carry seven passengers.",
       "translation": "",
       "startTime": 29.69,
-      "endTime": 34.39
+      "endTime": 34.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +107,44 @@
       "text": "The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.",
       "translation": "",
       "startTime": 34.4,
-      "endTime": 47.1
+      "endTime": 47.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -66,7 +168,17 @@
       "text": "Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.",
       "translation": "",
       "startTime": 64.48,
-      "endTime": 74.85
+      "endTime": 74.85,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +194,17 @@
       "text": "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean,",
       "translation": "",
       "startTime": 81.17,
-      "endTime": 88.26
+      "endTime": 88.26,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +212,22 @@
       "text": "but Captain Fawcett did not take him because the trip was too dangerous.",
       "translation": "",
       "startTime": 88.27,
-      "endTime": 93.27
+      "endTime": 93.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     }
   ]
 }

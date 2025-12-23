@@ -10,7 +10,31 @@
       "text": "What is Debbie going to try to do?",
       "translation": "",
       "startTime": 9.9,
-      "endTime": 14.65
+      "endTime": 14.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +42,22 @@
       "text": "Debbie Hart is going to swim",
       "translation": "",
       "startTime": 14.66,
-      "endTime": 16.97
+      "endTime": 16.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +73,27 @@
       "text": "She is going to set out from the French coast",
       "translation": "",
       "startTime": 20.41,
-      "endTime": 23.59
+      "endTime": 23.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +101,22 @@
       "text": "at five o'clock in the morning.",
       "translation": "",
       "startTime": 23.6,
-      "endTime": 26.59
+      "endTime": 26.59,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +124,27 @@
       "text": "Debbie is only eleven years old",
       "translation": "",
       "startTime": 26.6,
-      "endTime": 29.69
+      "endTime": 29.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +160,22 @@
       "text": "She is a strong swimmer and many people feel",
       "translation": "",
       "startTime": 33.42,
-      "endTime": 36.8
+      "endTime": 36.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +183,31 @@
       "text": "that she is sure to succeed.",
       "translation": "",
       "startTime": 36.81,
-      "endTime": 40.06
+      "endTime": 40.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +215,16 @@
       "text": "Debbie's father will set out with her",
       "translation": "",
       "startTime": 40.07,
-      "endTime": 42.84
+      "endTime": 42.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -98,7 +240,22 @@
       "text": "Mr. Hart has trained his daughter for years.",
       "translation": "",
       "startTime": 44.91,
-      "endTime": 49.15
+      "endTime": 49.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Daughter",
+            "pos": "n.",
+            "meaning": "女儿"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +263,16 @@
       "text": "Tomorrow he will be watching her anxiously",
       "translation": "",
       "startTime": 49.16,
-      "endTime": 52.65
+      "endTime": 52.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -122,7 +288,17 @@
       "text": "Debbie intends to take short rests every two hours.",
       "translation": "",
       "startTime": 56.89,
-      "endTime": 61.67
+      "endTime": 61.67,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +306,16 @@
       "text": "She will have something to drink",
       "translation": "",
       "startTime": 61.68,
-      "endTime": 63.58
+      "endTime": 63.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +323,17 @@
       "text": "but she will not eat any solid food.",
       "translation": "",
       "startTime": 63.59,
-      "endTime": 67.62
+      "endTime": 67.62,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +341,17 @@
       "text": "Most of Debbie's school friends will be",
       "translation": "",
       "startTime": 67.63,
-      "endTime": 70.17
+      "endTime": 70.17,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +359,16 @@
       "text": "waiting for her on the English coast.",
       "translation": "",
       "startTime": 70.18,
-      "endTime": 73.29
+      "endTime": 73.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +376,16 @@
       "text": "Among them will be Debbie's mother,",
       "translation": "",
       "startTime": 73.3,
-      "endTime": 76.32
+      "endTime": 76.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s17",

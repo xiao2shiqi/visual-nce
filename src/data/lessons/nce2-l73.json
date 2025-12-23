@@ -10,7 +10,16 @@
       "text": "Did the boy go where he wanted to?",
       "translation": "",
       "startTime": 10.76,
-      "endTime": 15.4
+      "endTime": 15.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,22 @@
       "text": "Children who play truant from school are unimaginative.",
       "translation": "",
       "startTime": 15.41,
-      "endTime": 20.82
+      "endTime": 20.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +58,22 @@
       "text": "or eight hours in a cinema seeing the same film over and over again, is usually as far as they get.",
       "translation": "",
       "startTime": 22.88,
-      "endTime": 32.67
+      "endTime": 32.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +97,22 @@
       "text": "When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais.",
       "translation": "",
       "startTime": 51.32,
-      "endTime": 60.89
+      "endTime": 60.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -82,7 +136,17 @@
       "text": "The driver gave him a few biscuits and a cup of coffee and left him just outside the city.",
       "translation": "",
       "startTime": 69.46,
-      "endTime": 78.08
+      "endTime": 78.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +154,32 @@
       "text": "The next car the boy stopped did not take him into the centre of Paris as he hoped it would,",
       "translation": "",
       "startTime": 78.09,
-      "endTime": 86.39
+      "endTime": 86.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +195,17 @@
       "text": "There he was picked up by a policeman and sent back to England by the local authorities.",
       "translation": "",
       "startTime": 91.54,
-      "endTime": 99.09
+      "endTime": 99.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +213,17 @@
       "text": "He has surely set up a record for the thousands of children who dream of evading school.",
       "translation": "",
       "startTime": 99.1,
-      "endTime": 104.1
+      "endTime": 104.1,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     }
   ]
 }

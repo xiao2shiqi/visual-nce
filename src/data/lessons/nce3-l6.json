@@ -10,7 +10,17 @@
       "text": "Lesson 6",
       "translation": "",
       "startTime": 0.42,
-      "endTime": 2.21
+      "endTime": 2.21,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,17 @@
       "text": "How did Mr. Taylor try to stop the thieves?",
       "translation": "",
       "startTime": 8.7,
-      "endTime": 13.9
+      "endTime": 13.9,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +62,27 @@
       "text": "At this time of the morning, the arcade was almost empty.",
       "translation": "",
       "startTime": 19.86,
-      "endTime": 24.52
+      "endTime": 24.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +98,16 @@
       "text": "Two of his assistants had been working busily since 8 o'clock and had only just finished.",
       "translation": "",
       "startTime": 30.92,
-      "endTime": 38.09
+      "endTime": 38.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +115,17 @@
       "text": "Diamond necklaces and rings had been beautifully arranged on a background of black velvet.",
       "translation": "",
       "startTime": 38.1,
-      "endTime": 45.35
+      "endTime": 45.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +133,22 @@
       "text": "After gazing at the display for several minutes, Mr. Taylor went back into his shop.",
       "translation": "",
       "startTime": 45.36,
-      "endTime": 52.12
+      "endTime": 52.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +156,26 @@
       "text": "The silence was suddenly broken when a large car, with its headlights on and its horn blaring, roared down the arcade.",
       "translation": "",
       "startTime": 52.13,
-      "endTime": 61.85
+      "endTime": 61.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +183,22 @@
       "text": "It came to a stop outside the jeweller's.",
       "translation": "",
       "startTime": 61.86,
-      "endTime": 65.67
+      "endTime": 65.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +206,32 @@
       "text": "One man stayed at the wheel while two others with black stockings over their faces jumped out and smashed the window of the shop with iron bars.",
       "translation": "",
       "startTime": 65.68,
-      "endTime": 76.81
+      "endTime": 76.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +239,22 @@
       "text": "While this was going on, Mr. Taylor was upstairs.",
       "translation": "",
       "startTime": 76.82,
-      "endTime": 81.35
+      "endTime": 81.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +262,16 @@
       "text": "He and his staff began throwing furniture out of the window.",
       "translation": "",
       "startTime": 81.36,
-      "endTime": 86.24
+      "endTime": 86.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -138,7 +295,22 @@
       "text": "but he was too busy helping himself to diamonds to notice any pain.",
       "translation": "",
       "startTime": 94.21,
-      "endTime": 100.35
+      "endTime": 100.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +318,32 @@
       "text": "The raid was all over in three minutes, for the men scrambled back into the car and it moved off at a fantastic speed.",
       "translation": "",
       "startTime": 100.36,
-      "endTime": 110.18
+      "endTime": 110.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +351,22 @@
       "text": "Just as it was leaving,",
       "translation": "",
       "startTime": 110.19,
-      "endTime": 112.37
+      "endTime": 112.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +374,22 @@
       "text": "Mr.Taylor rushed out and ran after it throwing ashtrays and vases,",
       "translation": "",
       "startTime": 112.38,
-      "endTime": 117.85
+      "endTime": 117.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +397,22 @@
       "text": "but it was impossible to stop the thieves.",
       "translation": "",
       "startTime": 117.86,
-      "endTime": 120.98
+      "endTime": 120.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",

@@ -10,7 +10,17 @@
       "text": "Lesson 2",
       "translation": "",
       "startTime": 0.29,
-      "endTime": 2.17
+      "endTime": 2.17,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Was the vicar pleased that the clock was striking? Why?",
       "translation": "",
       "startTime": 10.1,
-      "endTime": 16.62
+      "endTime": 16.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,26 @@
       "text": "Our vicar is always raising money for one cause or another,",
       "translation": "",
       "startTime": 16.63,
-      "endTime": 20.86
+      "endTime": 20.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +102,16 @@
       "text": "One night, however, our vicar woke up with a start:the clock was striking the hours!",
       "translation": "",
       "startTime": 36.38,
-      "endTime": 43.47
+      "endTime": 43.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +119,45 @@
       "text": "Looking at his watch, he saw that it was one o'clock,",
       "translation": "",
       "startTime": 43.48,
-      "endTime": 47.37
+      "endTime": 47.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +165,22 @@
       "text": "but the bell struck thirteen times before it stopped.",
       "translation": "",
       "startTime": 47.38,
-      "endTime": 51.9
+      "endTime": 51.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +188,22 @@
       "text": "Armed with a torch, the vicar went up into the clock tower to see what was going on.",
       "translation": "",
       "startTime": 51.91,
-      "endTime": 58.02
+      "endTime": 58.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +211,16 @@
       "text": "In the torchlight, he caught sight of a figure whom he immediately recognized as Bill Wilkins, our local grocer.",
       "translation": "",
       "startTime": 58.03,
-      "endTime": 66.23
+      "endTime": 66.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +228,27 @@
       "text": "'Whatever are you doing up here Bill?' asked the vicar in surprise.",
       "translation": "",
       "startTime": 66.24,
-      "endTime": 71.56
+      "endTime": 71.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +264,17 @@
       "text": "'I've been coming up here night after night for weeks now.",
       "translation": "",
       "startTime": 75.23,
-      "endTime": 78.63
+      "endTime": 78.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +282,17 @@
       "text": "You see, I was hoping to give you a surprise.'",
       "translation": "",
       "startTime": 78.64,
-      "endTime": 82.39
+      "endTime": 82.39,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +300,27 @@
       "text": "'You certainly did give me a surprise!' said the vicar.",
       "translation": "",
       "startTime": 82.4,
-      "endTime": 85.81
+      "endTime": 85.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +328,17 @@
       "text": "'You've probably woken up everyone in the village as well.",
       "translation": "",
       "startTime": 85.82,
-      "endTime": 89.5
+      "endTime": 89.5,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +346,22 @@
       "text": "Still, I'm glad the bell is working again.'",
       "translation": "",
       "startTime": 89.51,
-      "endTime": 93
+      "endTime": 93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +369,16 @@
       "text": "'That's the trouble, vicar, 'answered Bill. 'It's working all right,",
       "translation": "",
       "startTime": 93.01,
-      "endTime": 98.06
+      "endTime": 98.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +386,40 @@
       "text": "but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.'",
       "translation": "",
       "startTime": 98.07,
-      "endTime": 105
+      "endTime": 105,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +427,27 @@
       "text": "'We'll get used to that, Bill, 'said the vicar.",
       "translation": "",
       "startTime": 105.01,
-      "endTime": 108.04
+      "endTime": 108.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +455,31 @@
       "text": "'Thirteen is not as good as one, but it's better than nothing.",
       "translation": "",
       "startTime": 108.05,
-      "endTime": 112.94
+      "endTime": 112.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",

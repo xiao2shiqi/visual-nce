@@ -10,7 +10,17 @@
       "text": "Was Mrs. Rumbold a good companion at dinner?",
       "translation": "",
       "startTime": 9.79,
-      "endTime": 15.05
+      "endTime": 15.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Last week at a dinner party,",
       "translation": "",
       "startTime": 15.06,
-      "endTime": 17.54
+      "endTime": 17.54,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,27 @@
       "text": "the hostess asked me to sit next to Mrs. Rumbold.",
       "translation": "",
       "startTime": 17.55,
-      "endTime": 22.73
+      "endTime": 22.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hostess",
+            "pos": "n.",
+            "meaning": "女乘务员"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +82,27 @@
       "text": "unsmiling lady in a tight black dress.",
       "translation": "",
       "startTime": 24.99,
-      "endTime": 29.33
+      "endTime": 29.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +110,36 @@
       "text": "She did not even look up when I took my seat beside her.",
       "translation": "",
       "startTime": 29.34,
-      "endTime": 34.72
+      "endTime": 34.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +147,26 @@
       "text": "Her eyes were fixed on her plate and in a short time,",
       "translation": "",
       "startTime": 34.73,
-      "endTime": 39.21
+      "endTime": 39.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +174,17 @@
       "text": "she was busy eating.",
       "translation": "",
       "startTime": 39.22,
-      "endTime": 42.08
+      "endTime": 42.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +200,22 @@
       "text": "'A new play is coming to \"The Globe\" soon,'",
       "translation": "",
       "startTime": 44.95,
-      "endTime": 48.26
+      "endTime": 48.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +223,27 @@
       "text": "I said. 'Will you be seeing it?'",
       "translation": "",
       "startTime": 48.27,
-      "endTime": 53.11
+      "endTime": 53.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +259,36 @@
       "text": "'Will you be spending your holidays abroad this year?' I asked.",
       "translation": "",
       "startTime": 55.95,
-      "endTime": 63.22
+      "endTime": 63.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +304,17 @@
       "text": "'Will you be staying in England?' I asked.",
       "translation": "",
       "startTime": 65.81,
-      "endTime": 69.91
+      "endTime": 69.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +330,20 @@
       "text": "In despair, I asked her whether she was enjoying her dinner.",
       "translation": "",
       "startTime": 72.94,
-      "endTime": 78.49
+      "endTime": 78.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +351,22 @@
       "text": "'Young man,' she answered,",
       "translation": "",
       "startTime": 78.5,
-      "endTime": 81.69
+      "endTime": 81.69,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +374,22 @@
       "text": "'if you ate more and talked less, we would both enjoy our dinner!'",
       "translation": "",
       "startTime": 81.7,
-      "endTime": 86.7
+      "endTime": 86.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     }
   ]
 }

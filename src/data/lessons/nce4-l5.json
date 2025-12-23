@@ -10,7 +10,17 @@
       "text": "Lesson 5",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 2.27
+      "endTime": 2.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "How does the writer like to treat young people?",
       "translation": "",
       "startTime": 9.33,
-      "endTime": 14.43
+      "endTime": 14.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "People are always talking about 'the problem of youth'.",
       "translation": "",
       "startTime": 14.44,
-      "endTime": 20.17
+      "endTime": 20.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +76,22 @@
       "text": "If there is one -- which I take leave to doubt",
       "translation": "",
       "startTime": 20.18,
-      "endTime": 24.25
+      "endTime": 24.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +99,45 @@
       "text": "-- then it is older people who create it, not the young themselves.",
       "translation": "",
       "startTime": 24.26,
-      "endTime": 29.97
+      "endTime": 29.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +145,31 @@
       "text": "Let us get down to fundamentals and agree that the young are after all human beings",
       "translation": "",
       "startTime": 29.98,
-      "endTime": 36.73
+      "endTime": 36.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +177,16 @@
       "text": "-- people just like their elders.",
       "translation": "",
       "startTime": 36.74,
-      "endTime": 39.59
+      "endTime": 39.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +194,37 @@
       "text": "There is only one difference between an old man and a young one:",
       "translation": "",
       "startTime": 39.6,
-      "endTime": 44.99
+      "endTime": 44.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +232,22 @@
       "text": "the young man has a glorious future before him",
       "translation": "",
       "startTime": 45,
-      "endTime": 48.84
+      "endTime": 48.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +255,40 @@
       "text": "and the old one has a splendid future behind him: and maybe that is where the rub is.",
       "translation": "",
       "startTime": 48.85,
-      "endTime": 57.11
+      "endTime": 57.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +296,27 @@
       "text": "When I was a teenager, I felt that I was just young and uncertain --",
       "translation": "",
       "startTime": 57.12,
-      "endTime": 63.41
+      "endTime": 63.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +324,27 @@
       "text": "that I was a new boy in a huge school,",
       "translation": "",
       "startTime": 63.42,
-      "endTime": 66.65
+      "endTime": 66.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +352,22 @@
       "text": "and I would have been very pleased to be regarded as something so interesting as a problem.",
       "translation": "",
       "startTime": 66.66,
-      "endTime": 73.56
+      "endTime": 73.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +375,17 @@
       "text": "For one thing, being a problem gives you a certain identity,",
       "translation": "",
       "startTime": 73.57,
-      "endTime": 78.91
+      "endTime": 78.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +393,40 @@
       "text": "and that is one of the things the young are busily engaged in seeking.",
       "translation": "",
       "startTime": 78.92,
-      "endTime": 84.13
+      "endTime": 84.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +434,17 @@
       "text": "I find young people exciting.",
       "translation": "",
       "startTime": 84.14,
-      "endTime": 87.08
+      "endTime": 87.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +452,17 @@
       "text": "They have an air of freedom,",
       "translation": "",
       "startTime": 87.09,
-      "endTime": 89.41
+      "endTime": 89.41,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +470,17 @@
       "text": "and they have not a dreary commitment to mean ambitions or love of comfort.",
       "translation": "",
       "startTime": 89.42,
-      "endTime": 95.46
+      "endTime": 95.46,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +488,22 @@
       "text": "They are not anxious social climbers, and they have no devotion to material things.",
       "translation": "",
       "startTime": 95.47,
-      "endTime": 102.96
+      "endTime": 102.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +511,31 @@
       "text": "All this seems to me to link them with life and the origins of things.",
       "translation": "",
       "startTime": 102.97,
-      "endTime": 109.62
+      "endTime": 109.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +543,16 @@
       "text": "It's as if they were in some sense cosmic beings in violent and lovely contrast with us suburban creatures.",
       "translation": "",
       "startTime": 109.63,
-      "endTime": 119.56
+      "endTime": 119.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +560,50 @@
       "text": "All that is in my mind when I meet a young person.",
       "translation": "",
       "startTime": 119.57,
-      "endTime": 124.35
+      "endTime": 124.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +611,17 @@
       "text": "He may be conceited, ill-mannered,  presumptuous or fatuous,  but I do not turn for protection to dreary cliches about respect for elders --",
       "translation": "",
       "startTime": 124.36,
-      "endTime": 136.78
+      "endTime": 136.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +637,35 @@
       "text": "I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.",
       "translation": "",
       "startTime": 141.38,
-      "endTime": 146.38
+      "endTime": 146.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "Who made the only funny joke that evening and why?",
       "translation": "",
       "startTime": 10.5,
-      "endTime": 16.67
+      "endTime": 16.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,31 @@
       "text": "People will do anything to see a free show--even if it is a bad one.",
       "translation": "",
       "startTime": 16.68,
-      "endTime": 24.42
+      "endTime": 24.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +65,22 @@
       "text": "When the news got round that a comedy show would be presented",
       "translation": "",
       "startTime": 24.43,
-      "endTime": 29.23
+      "endTime": 29.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +88,31 @@
       "text": "at our local cinema by the P. and U. Bird Seed Company, we all rushed to see it.",
       "translation": "",
       "startTime": 29.24,
-      "endTime": 37.1
+      "endTime": 37.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +120,16 @@
       "text": "We had to queue for hours to get in and there must have been several hundred people present just before the show began.",
       "translation": "",
       "startTime": 37.11,
-      "endTime": 47.16
+      "endTime": 47.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -58,7 +145,17 @@
       "text": "Those who failed to get in need not have felt disappointed,",
       "translation": "",
       "startTime": 53.4,
-      "endTime": 59.05
+      "endTime": 59.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +163,17 @@
       "text": "as many of the artistes who should have appeared did not come.",
       "translation": "",
       "startTime": 59.06,
-      "endTime": 64.68
+      "endTime": 64.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +181,27 @@
       "text": "The only funny things we heard that evening came from the advertiser at the beginning of the programme.",
       "translation": "",
       "startTime": 64.69,
-      "endTime": 72.8
+      "endTime": 72.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +209,22 @@
       "text": "He was obviously very nervous and for some minutes stood awkwardly before the microphone.",
       "translation": "",
       "startTime": 72.81,
-      "endTime": 81.17
+      "endTime": 81.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +232,16 @@
       "text": "As soon as he opened his mouth, everyone burst out laughing.",
       "translation": "",
       "startTime": 81.18,
-      "endTime": 87.75
+      "endTime": 87.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +249,27 @@
       "text": "We all know what the poor man should have said,",
       "translation": "",
       "startTime": 87.76,
-      "endTime": 91.47
+      "endTime": 91.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +277,40 @@
       "text": "but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good ladies, evening and gentlemen!'",
       "translation": "",
       "startTime": 91.48,
-      "endTime": 96.48
+      "endTime": 96.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

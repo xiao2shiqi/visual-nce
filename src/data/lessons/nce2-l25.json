@@ -10,7 +10,16 @@
       "text": "Do they speak English?",
       "translation": "",
       "startTime": 3.3,
-      "endTime": 12.25
+      "endTime": 12.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,17 @@
       "text": "Why does the writer not understand the porter?",
       "translation": "",
       "startTime": 12.26,
-      "endTime": 17.7
+      "endTime": 17.7,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,17 @@
       "text": "I arrived in London at last.",
       "translation": "",
       "startTime": 17.71,
-      "endTime": 21.04
+      "endTime": 21.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +63,17 @@
       "text": "The railway station was big, black and dark.",
       "translation": "",
       "startTime": 21.05,
-      "endTime": 26.34
+      "endTime": 26.34,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +81,27 @@
       "text": "I did not know the way to my hotel, so I asked a porter.",
       "translation": "",
       "startTime": 26.35,
-      "endTime": 32.59
+      "endTime": 32.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +109,36 @@
       "text": "I not only spoke English very carefully, but very clearly as well.",
       "translation": "",
       "startTime": 32.6,
-      "endTime": 40.15
+      "endTime": 40.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +146,27 @@
       "text": "The porter, however, could not understand me.",
       "translation": "",
       "startTime": 40.16,
-      "endTime": 44.43
+      "endTime": 44.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +174,27 @@
       "text": "I repeated my question several times and at last he understood.",
       "translation": "",
       "startTime": 44.44,
-      "endTime": 51.36
+      "endTime": 51.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +202,22 @@
       "text": "he answered me, but he spoke neither slowly nor clearly.",
       "translation": "",
       "startTime": 51.37,
-      "endTime": 57.41
+      "endTime": 57.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +225,16 @@
       "text": "'I am a foreigner,' I said.",
       "translation": "",
       "startTime": 57.42,
-      "endTime": 61.11
+      "endTime": 61.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +242,17 @@
       "text": "Then he spoke slowly, but I could not understand him.",
       "translation": "",
       "startTime": 61.12,
-      "endTime": 67.14
+      "endTime": 67.14,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +260,36 @@
       "text": "My teacher never spoke English like that!",
       "translation": "",
       "startTime": 67.15,
-      "endTime": 71.67
+      "endTime": 71.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Teacher",
+            "pos": "n.",
+            "meaning": "老师"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +297,17 @@
       "text": "The porter and I looked at each other and smiled.",
       "translation": "",
       "startTime": 71.68,
-      "endTime": 75.9
+      "endTime": 75.9,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +315,22 @@
       "text": "Then he said something and I understood it.",
       "translation": "",
       "startTime": 75.91,
-      "endTime": 80.13
+      "endTime": 80.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",

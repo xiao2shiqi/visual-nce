@@ -10,7 +10,22 @@
       "text": "What was the polite request?",
       "translation": "",
       "startTime": 10.02,
-      "endTime": 14.63
+      "endTime": 14.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,32 @@
       "text": "If you park your car in the wrong place,",
       "translation": "",
       "startTime": 14.64,
-      "endTime": 18.1
+      "endTime": 18.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +66,31 @@
       "text": "a traffic policeman will soon find it.",
       "translation": "",
       "startTime": 18.11,
-      "endTime": 21.67
+      "endTime": 21.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +98,36 @@
       "text": "You will be very lucky if he lets you go without a ticket.",
       "translation": "",
       "startTime": 21.68,
-      "endTime": 26.85
+      "endTime": 26.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "ticket",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Ticket",
+            "pos": "n.",
+            "meaning": "票"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +135,27 @@
       "text": "However, this does not always happen.",
       "translation": "",
       "startTime": 26.86,
-      "endTime": 31.47
+      "endTime": 31.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +163,26 @@
       "text": "Traffic police are sometimes very polite.",
       "translation": "",
       "startTime": 31.48,
-      "endTime": 35.97
+      "endTime": 35.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +198,36 @@
       "text": "I found this note on my car:",
       "translation": "",
       "startTime": 38.66,
-      "endTime": 42.03
+      "endTime": 42.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +235,45 @@
       "text": "'sir, we welcome you to our city. This is a No Parking area.",
       "translation": "",
       "startTime": 42.04,
-      "endTime": 49.84
+      "endTime": 49.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +281,54 @@
       "text": "You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'",
       "translation": "",
       "startTime": 49.85,
-      "endTime": 60.3
+      "endTime": 60.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +336,36 @@
       "text": "If you receive a request like this, you cannot fail to obey it!",
       "translation": "",
       "startTime": 60.31,
-      "endTime": 65.31
+      "endTime": 65.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

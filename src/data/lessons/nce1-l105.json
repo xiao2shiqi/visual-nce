@@ -10,7 +10,17 @@
       "text": "Lesson 105",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 3.44
+      "endTime": 3.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 7.08,
-      "endTime": 13.48
+      "endTime": 13.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "What was Sandra's present?",
       "translation": "",
       "startTime": 13.49,
-      "endTime": 18.32
+      "endTime": 18.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +90,16 @@
       "text": "I want her.",
       "translation": "",
       "startTime": 20.63,
-      "endTime": 23.4
+      "endTime": 23.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +107,22 @@
       "text": "Do you want to speak to her?",
       "translation": "",
       "startTime": 23.41,
-      "endTime": 27.37
+      "endTime": 27.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +130,17 @@
       "text": "Yes, I do.",
       "translation": "",
       "startTime": 27.38,
-      "endTime": 29.61
+      "endTime": 29.61,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +148,26 @@
       "text": "I want her to come to my office.",
       "translation": "",
       "startTime": 29.62,
-      "endTime": 33.41
+      "endTime": 33.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +175,22 @@
       "text": "Tell her to come at once.",
       "translation": "",
       "startTime": 33.42,
-      "endTime": 37.21
+      "endTime": 37.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +198,27 @@
       "text": "Did you want to see me?",
       "translation": "",
       "startTime": 37.22,
-      "endTime": 40.64
+      "endTime": 40.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +226,17 @@
       "text": "Ah, yes, Sandra.",
       "translation": "",
       "startTime": 40.65,
-      "endTime": 43.7
+      "endTime": 43.7,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +244,22 @@
       "text": "How do you spell 'intelligent'?",
       "translation": "",
       "startTime": 43.71,
-      "endTime": 47.25
+      "endTime": 47.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +267,27 @@
       "text": "Can you tell me?",
       "translation": "",
       "startTime": 47.26,
-      "endTime": 49.6
+      "endTime": 49.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -138,7 +311,22 @@
       "text": "You've typed it with only one 'L'.",
       "translation": "",
       "startTime": 62.79,
-      "endTime": 66.74
+      "endTime": 66.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +334,22 @@
       "text": "This letter's full of mistakes.",
       "translation": "",
       "startTime": 66.75,
-      "endTime": 70.64
+      "endTime": 70.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +357,27 @@
       "text": "I want you to type it again.",
       "translation": "",
       "startTime": 70.65,
-      "endTime": 74.88
+      "endTime": 74.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +385,27 @@
       "text": "Yes, I'll do that.",
       "translation": "",
       "startTime": 74.89,
-      "endTime": 77.6
+      "endTime": 77.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +413,27 @@
       "text": "I'm sorry about that.",
       "translation": "",
       "startTime": 77.61,
-      "endTime": 80.42
+      "endTime": 80.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +441,17 @@
       "text": "And here's a little present for you.",
       "translation": "",
       "startTime": 80.43,
-      "endTime": 83.77
+      "endTime": 83.77,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +459,40 @@
       "text": "What is it?",
       "translation": "",
       "startTime": 83.78,
-      "endTime": 85.47
+      "endTime": 85.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +500,16 @@
       "text": "It's a dictionary.",
       "translation": "",
       "startTime": 85.48,
-      "endTime": 87.6
+      "endTime": 87.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s21",
@@ -202,7 +517,17 @@
       "text": "I hope it'll help you.",
       "translation": "",
       "startTime": 87.61,
-      "endTime": 92.61
+      "endTime": 92.61,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     }
   ]
 }

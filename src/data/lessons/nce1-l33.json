@@ -10,7 +10,17 @@
       "text": "Lesson 33",
       "translation": "",
       "startTime": 0.71,
-      "endTime": 3.25
+      "endTime": 3.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "A fine day",
       "translation": "",
       "startTime": 3.26,
-      "endTime": 6.01
+      "endTime": 6.01,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.02,
-      "endTime": 11.41
+      "endTime": 11.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,22 @@
       "text": "Where is the Jones family?",
       "translation": "",
       "startTime": 11.42,
-      "endTime": 16.25
+      "endTime": 16.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +92,41 @@
       "text": "It is a fine day today.",
       "translation": "",
       "startTime": 16.26,
-      "endTime": 19.96
+      "endTime": 19.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +134,16 @@
       "text": "There are some clouds in the sky,",
       "translation": "",
       "startTime": 19.97,
-      "endTime": 24.17
+      "endTime": 24.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +151,22 @@
       "text": "but the sun is shining.",
       "translation": "",
       "startTime": 24.18,
-      "endTime": 27.73
+      "endTime": 27.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +174,26 @@
       "text": "Mr. Jones is with his family.",
       "translation": "",
       "startTime": 27.74,
-      "endTime": 31.77
+      "endTime": 31.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +201,16 @@
       "text": "They are walking over the bridge.",
       "translation": "",
       "startTime": 31.78,
-      "endTime": 35.82
+      "endTime": 35.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +218,16 @@
       "text": "There are some boats on the river.",
       "translation": "",
       "startTime": 35.83,
-      "endTime": 39.85
+      "endTime": 39.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +235,26 @@
       "text": "Mr. Jones and his wife are looking at them.",
       "translation": "",
       "startTime": 39.86,
-      "endTime": 45.72
+      "endTime": 45.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +262,27 @@
       "text": "Sally is looking at a big ship.",
       "translation": "",
       "startTime": 45.73,
-      "endTime": 50.17
+      "endTime": 50.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +290,22 @@
       "text": "The ship is going under the bridge.",
       "translation": "",
       "startTime": 50.18,
-      "endTime": 54.74
+      "endTime": 54.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +313,27 @@
       "text": "Tim is looking at an aeroplane.",
       "translation": "",
       "startTime": 54.75,
-      "endTime": 59.5
+      "endTime": 59.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +341,22 @@
       "text": "The aeroplane is flying over the river.",
       "translation": "",
       "startTime": 59.51,
-      "endTime": 64.51
+      "endTime": 64.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

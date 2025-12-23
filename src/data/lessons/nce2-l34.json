@@ -10,7 +10,22 @@
       "text": "How long had the police taken to find his bicycle?",
       "translation": "",
       "startTime": 10.3,
-      "endTime": 16.57
+      "endTime": 16.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -42,7 +57,17 @@
       "text": "In the letter he was asked to call at the station.",
       "translation": "",
       "startTime": 26.19,
-      "endTime": 30.93
+      "endTime": 30.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -74,7 +99,27 @@
       "text": "and now he is not worried anymore.",
       "translation": "",
       "startTime": 38.53,
-      "endTime": 42.17
+      "endTime": 42.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +127,17 @@
       "text": "At the station,",
       "translation": "",
       "startTime": 42.18,
-      "endTime": 43.71
+      "endTime": 43.71,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +145,17 @@
       "text": "he was told by a smiling policeman",
       "translation": "",
       "startTime": 43.72,
-      "endTime": 46.8
+      "endTime": 46.8,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +163,26 @@
       "text": "that his bicycle had been found.",
       "translation": "",
       "startTime": 46.81,
-      "endTime": 50.68
+      "endTime": 50.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +190,22 @@
       "text": "Five days ago, the policeman told him,",
       "translation": "",
       "startTime": 50.69,
-      "endTime": 54.68
+      "endTime": 54.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -130,7 +229,35 @@
       "text": "It is now being sent to his home by train.",
       "translation": "",
       "startTime": 61.27,
-      "endTime": 65.6
+      "endTime": 65.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -154,7 +281,17 @@
       "text": "He was amused too,",
       "translation": "",
       "startTime": 70.41,
-      "endTime": 73.15
+      "endTime": 73.15,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -178,7 +315,22 @@
       "text": "It was stolen twenty years ago",
       "translation": "",
       "startTime": 78.36,
-      "endTime": 81.43
+      "endTime": 81.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s19",

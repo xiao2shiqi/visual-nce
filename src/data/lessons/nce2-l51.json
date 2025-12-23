@@ -10,7 +10,17 @@
       "text": "Why did Hugh's diet not work?",
       "translation": "",
       "startTime": 10.28,
-      "endTime": 15.32
+      "endTime": 15.32,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,27 @@
       "text": "My friend, Hugh, has always been fat,",
       "translation": "",
       "startTime": 15.33,
-      "endTime": 19.76
+      "endTime": 19.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Fat",
+            "pos": "adj.",
+            "meaning": "胖的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +56,22 @@
       "text": "but things got so bad recently that he decided to go on a diet.",
       "translation": "",
       "startTime": 19.77,
-      "endTime": 26.31
+      "endTime": 26.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +79,16 @@
       "text": "He began his diet a week ago.",
       "translation": "",
       "startTime": 26.32,
-      "endTime": 29.6
+      "endTime": 29.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -74,7 +128,32 @@
       "text": "I rang the bell and was not surprised to see that Hugh was still as fat as ever.",
       "translation": "",
       "startTime": 51.97,
-      "endTime": 59.27
+      "endTime": 59.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Fat",
+            "pos": "adj.",
+            "meaning": "胖的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +161,30 @@
       "text": "He led me into his room and hurriedly hid a large parcel under his desk.",
       "translation": "",
       "startTime": 59.28,
-      "endTime": 65.79
+      "endTime": 65.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +192,40 @@
       "text": "It was obvious that he was very embarrassed.",
       "translation": "",
       "startTime": 65.8,
-      "endTime": 70.02
+      "endTime": 70.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +233,22 @@
       "text": "When I asked him what he was doing,",
       "translation": "",
       "startTime": 70.03,
-      "endTime": 72.69
+      "endTime": 72.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +264,30 @@
       "text": "He explained that his diet was so strict that he had to reward himself occasionally.",
       "translation": "",
       "startTime": 77.78,
-      "endTime": 85.58
+      "endTime": 85.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +295,22 @@
       "text": "Then he showed me the contents of the parcel.",
       "translation": "",
       "startTime": 85.59,
-      "endTime": 89.34
+      "endTime": 89.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +318,27 @@
       "text": "It contained five large bars of chocolate and three bags of sweets!",
       "translation": "",
       "startTime": 89.35,
-      "endTime": 94.35
+      "endTime": 94.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     }
   ]
 }

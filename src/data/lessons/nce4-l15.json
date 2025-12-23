@@ -10,7 +10,17 @@
       "text": "Lesson 15",
       "translation": "",
       "startTime": 0.37,
-      "endTime": 2.57
+      "endTime": 2.57,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Why is secrecy particularly important in the chemical industries?",
       "translation": "",
       "startTime": 10.68,
-      "endTime": 17.81
+      "endTime": 17.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +67,35 @@
       "text": "One is the general atmosphere of secrecy in which it is carried out,",
       "translation": "",
       "startTime": 25.27,
-      "endTime": 31
+      "endTime": 31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +111,22 @@
       "text": "In so far as any inquiry is a secret one,",
       "translation": "",
       "startTime": 36.05,
-      "endTime": 40.12
+      "endTime": 40.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +134,30 @@
       "text": "it naturally limits all those engaged in carrying it out from effective contact with their fellow scientists either in other countries or in universities,",
       "translation": "",
       "startTime": 40.13,
-      "endTime": 51.2
+      "endTime": 51.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -90,7 +181,20 @@
       "text": "Some of the bigger firms are engaged in researches which are of such general and fundamental nature",
       "translation": "",
       "startTime": 61.76,
-      "endTime": 69.14
+      "endTime": 69.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +202,45 @@
       "text": "that it is a positive advantage to them not to keep them secret.",
       "translation": "",
       "startTime": 69.15,
-      "endTime": 75.01
+      "endTime": 75.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +248,22 @@
       "text": "Yet a great many processes depending on such research are sought for with complete secrecy until the stage at which patents can be taken out.",
       "translation": "",
       "startTime": 75.02,
-      "endTime": 85.74
+      "endTime": 85.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +271,22 @@
       "text": "Even more processes are never patented at all but kept as secret processes.",
       "translation": "",
       "startTime": 85.75,
-      "endTime": 92.42
+      "endTime": 92.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +294,22 @@
       "text": "This applies particularly to chemical industries,",
       "translation": "",
       "startTime": 92.43,
-      "endTime": 96.99
+      "endTime": 96.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +317,17 @@
       "text": "where chance discoveries play a much larger part than they do in physical and mechanical industries.",
       "translation": "",
       "startTime": 97,
-      "endTime": 104.5
+      "endTime": 104.5,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +335,22 @@
       "text": "Sometimes the secrecy goes to such an extent that the whole nature of the research cannot be mentioned.",
       "translation": "",
       "startTime": 104.51,
-      "endTime": 113.16
+      "endTime": 113.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +366,26 @@
       "text": "because they are unwilling to have their names entered as having taken out such and such a book,",
       "translation": "",
       "startTime": 120.95,
-      "endTime": 127.64
+      "endTime": 127.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Book",
+            "pos": "n.",
+            "meaning": "书"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +393,16 @@
       "text": "for fear the agents of other firms should be able to trace the kind of research they are likely to be undertaking.",
       "translation": "",
       "startTime": 127.65,
-      "endTime": 132.65
+      "endTime": 132.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

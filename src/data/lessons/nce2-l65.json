@@ -10,7 +10,16 @@
       "text": "Why did the police have to push Jumbo off the main street?",
       "translation": "",
       "startTime": 11.07,
-      "endTime": 17.77
+      "endTime": 17.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -42,7 +51,31 @@
       "text": "He should have known that the police would never allow this sort of thing.",
       "translation": "",
       "startTime": 41.6,
-      "endTime": 47.86
+      "endTime": 47.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +83,17 @@
       "text": "A policeman approached Jimmy and told him he ought to have gone along a side street as Jumbo was holding up the traffic.",
       "translation": "",
       "startTime": 47.87,
-      "endTime": 57.77
+      "endTime": 57.77,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +101,17 @@
       "text": "Though Jimmy agreed to go at once, Jumbo refused to move.",
       "translation": "",
       "startTime": 57.78,
-      "endTime": 64.86
+      "endTime": 64.86,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +119,22 @@
       "text": "Fifteen policemen had to push very hard to get him off the main street.",
       "translation": "",
       "startTime": 64.87,
-      "endTime": 71.04
+      "endTime": 71.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +150,22 @@
       "text": "'Jumbo must weigh a few tons,' said a policeman afterwards,",
       "translation": "",
       "startTime": 76.72,
-      "endTime": 82.76
+      "endTime": 82.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +173,31 @@
       "text": "'so it was fortunate that we didn't have to carry him.",
       "translation": "",
       "startTime": 82.77,
-      "endTime": 87.78
+      "endTime": 87.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +205,22 @@
       "text": "Of course, we should arrest him, but as he has a good record, we shall let him off this time.'",
       "translation": "",
       "startTime": 87.79,
-      "endTime": 92.79
+      "endTime": 92.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     }
   ]
 }

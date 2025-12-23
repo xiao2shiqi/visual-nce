@@ -10,7 +10,22 @@
       "text": "Why was their disguise 'too perfect' ?",
       "translation": "",
       "startTime": 11.18,
-      "endTime": 16.65
+      "endTime": 16.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +41,17 @@
       "text": "Dressed in dark glasses and old clothes,",
       "translation": "",
       "startTime": 25.63,
-      "endTime": 29.27
+      "endTime": 29.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "they had taken special precautions so that no one should recognize them.",
       "translation": "",
       "startTime": 29.28,
-      "endTime": 35.83
+      "endTime": 35.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,17 @@
       "text": "But as they soon discovered, disguises can sometimes be too perfect.",
       "translation": "",
       "startTime": 35.84,
-      "endTime": 43.82
+      "endTime": 43.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +100,31 @@
       "text": "'This is a wonderful place for a picnic,' said Gloria Gleam.",
       "translation": "",
       "startTime": 43.83,
-      "endTime": 49.61
+      "endTime": 49.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +132,22 @@
       "text": "'It couldn't be better, Gloria,' Brinksley Meers agreed.",
       "translation": "",
       "startTime": 49.62,
-      "endTime": 55.03
+      "endTime": 55.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -98,7 +187,22 @@
       "text": "He looked very angry.",
       "translation": "",
       "startTime": 82.56,
-      "endTime": 85.95
+      "endTime": 85.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +210,22 @@
       "text": "'Now you get out of here, all of you!' he shouted.",
       "translation": "",
       "startTime": 85.96,
-      "endTime": 91.28
+      "endTime": 91.28,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +233,41 @@
       "text": "'I'm sheriff here. Do you see that notice? It says \"No Camping\"  -- in case you can't read!'",
       "translation": "",
       "startTime": 91.29,
-      "endTime": 103.11
+      "endTime": 103.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +275,17 @@
       "text": "'Look, sheriff,' said Rockwall,",
       "translation": "",
       "startTime": 103.12,
-      "endTime": 106.53
+      "endTime": 106.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +293,36 @@
       "text": "'don't be too hard on us. I'm Rockwall Slinger and this is Merlin Greeves.'",
       "translation": "",
       "startTime": 106.54,
-      "endTime": 115.68
+      "endTime": 115.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +330,31 @@
       "text": "'Oh, is it?' said the sheriff with a sneer.",
       "translation": "",
       "startTime": 115.69,
-      "endTime": 120.1
+      "endTime": 120.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +362,51 @@
       "text": "'Well, I'm Brinksley Meers, and my other name is Gloria Gleam. Now you get out of here fast!'",
       "translation": "",
       "startTime": 120.11,
-      "endTime": 125.11
+      "endTime": 125.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     }
   ]
 }

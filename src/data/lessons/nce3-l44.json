@@ -10,7 +10,17 @@
       "text": "Lesson 44",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 2.16
+      "endTime": 2.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,17 @@
       "text": "Which type of transport does the writer prefer, do you think?",
       "translation": "",
       "startTime": 8.93,
-      "endTime": 15.04
+      "endTime": 15.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +54,17 @@
       "text": "People travelling long distances frequently have to decide whether they would prefer to go by land, sea, or air.",
       "translation": "",
       "startTime": 15.05,
-      "endTime": 23.93
+      "endTime": 23.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +72,16 @@
       "text": "Hardly anyone can positively enjoy sitting in a train for more than a few hours.",
       "translation": "",
       "startTime": 23.94,
-      "endTime": 30.97
+      "endTime": 30.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -58,7 +97,40 @@
       "text": "It is almost impossible to take your mind off the journey.",
       "translation": "",
       "startTime": 34.86,
-      "endTime": 39.09
+      "endTime": 39.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +138,27 @@
       "text": "Reading is only a partial solution, for the monotonous rhythm of the wheels clicking on the rails soon lull you to sleep.",
       "translation": "",
       "startTime": 39.1,
-      "endTime": 49.09
+      "endTime": 49.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +174,22 @@
       "text": "At night, when you really wish to go to sleep, you rarely manage to do so.",
       "translation": "",
       "startTime": 52.9,
-      "endTime": 58.59
+      "endTime": 58.59,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +197,22 @@
       "text": "If you are lucky enough to get a sleeper,",
       "translation": "",
       "startTime": 58.6,
-      "endTime": 61.42
+      "endTime": 61.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +220,46 @@
       "text": "you spend half the night staring at the small blue light in the ceiling, or fumbling to find your ticket for inspection.",
       "translation": "",
       "startTime": 61.43,
-      "endTime": 70.9
+      "endTime": 70.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "ticket",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Ticket",
+            "pos": "n.",
+            "meaning": "票"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +267,32 @@
       "text": "Inevitably you arrive at your destination almost exhausted.",
       "translation": "",
       "startTime": 70.91,
-      "endTime": 77.12
+      "endTime": 77.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +300,40 @@
       "text": "Long car journeys are even less pleasant, for it is quite impossible even to read.",
       "translation": "",
       "startTime": 77.13,
-      "endTime": 83.67
+      "endTime": 83.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +341,22 @@
       "text": "On motorways you can, at least, travel fairly safely at high speeds,",
       "translation": "",
       "startTime": 83.68,
-      "endTime": 89.3
+      "endTime": 89.3,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +364,37 @@
       "text": "but more often than not, the greater part of the journey is spent on roads with few service stations and too much traffic.",
       "translation": "",
       "startTime": 89.31,
-      "endTime": 98.93
+      "endTime": 98.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +410,27 @@
       "text": "You can stretch your legs on the spacious decks, play games,",
       "translation": "",
       "startTime": 106.94,
-      "endTime": 110.99
+      "endTime": 110.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +438,36 @@
       "text": "meet interesting people and enjoy good food--always assuming, of course, that the sea is calm.",
       "translation": "",
       "startTime": 111,
-      "endTime": 120.52
+      "endTime": 120.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +475,45 @@
       "text": "If it is not, and you are likely to get seasick, no form of transport could be worse.",
       "translation": "",
       "startTime": 120.53,
-      "endTime": 128.14
+      "endTime": 128.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +521,17 @@
       "text": "Even if you travel in ideal weather, sea journeys take a long time.",
       "translation": "",
       "startTime": 128.15,
-      "endTime": 133.68
+      "endTime": 133.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +539,16 @@
       "text": "Relatively few people are prepared to sacrifice holiday time for the pleasure of travelling by sea.",
       "translation": "",
       "startTime": 133.69,
-      "endTime": 141.97
+      "endTime": 141.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +556,16 @@
       "text": "Aeroplanes have the reputation of being dangerous and even hardened travellers are intimidated by them.",
       "translation": "",
       "startTime": 141.98,
-      "endTime": 149.85
+      "endTime": 149.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s20",
@@ -202,7 +581,16 @@
       "text": "But nothing can match them for speed and comfort.",
       "translation": "",
       "startTime": 155.68,
-      "endTime": 160.06
+      "endTime": 160.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s22",
@@ -210,7 +598,27 @@
       "text": "Travelling at a height of 30, 000 feet, far above the clouds, and at over 500 miles an hour is an exhilarating experience.",
       "translation": "",
       "startTime": 160.07,
-      "endTime": 171.16
+      "endTime": 171.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +626,36 @@
       "text": "You do not have to devise ways of taking your mind off the journey, for an aeroplane gets you to your destination rapidly.",
       "translation": "",
       "startTime": 171.17,
-      "endTime": 179.71
+      "endTime": 179.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +663,17 @@
       "text": "For a few hours, you settle back in a deep armchair to enjoy the flight.",
       "translation": "",
       "startTime": 179.72,
-      "endTime": 186.25
+      "endTime": 186.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +681,22 @@
       "text": "The real escapist can watch a film and sip champagne on some services.",
       "translation": "",
       "startTime": 186.26,
-      "endTime": 192.78
+      "endTime": 192.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +704,36 @@
       "text": "But even when such refinements are not available, there is plenty to keep you occupied.",
       "translation": "",
       "startTime": 192.79,
-      "endTime": 198.56
+      "endTime": 198.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +741,17 @@
       "text": "An aeroplane offers you an unusual and breathtaking view of the world.",
       "translation": "",
       "startTime": 198.57,
-      "endTime": 204.6
+      "endTime": 204.6,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +759,17 @@
       "text": "You soar effortlessly over high mountains and deep valleys.",
       "translation": "",
       "startTime": 204.61,
-      "endTime": 209.83
+      "endTime": 209.83,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +777,17 @@
       "text": "You really see the shape of the land.",
       "translation": "",
       "startTime": 209.84,
-      "endTime": 212.93
+      "endTime": 212.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +795,22 @@
       "text": "If the landscape is hidden from view,",
       "translation": "",
       "startTime": 212.94,
-      "endTime": 215.58
+      "endTime": 215.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -282,7 +818,27 @@
       "text": "you can enjoy the extraordinary sight of unbroken cloud plains that stretch out for miles before you, while the sun shines brilliantly in a clear sky.",
       "translation": "",
       "startTime": 215.59,
-      "endTime": 228.88
+      "endTime": 228.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +846,40 @@
       "text": "The journey is so smooth that there is nothing to prevent you from reading or sleeping.",
       "translation": "",
       "startTime": 228.89,
-      "endTime": 235.61
+      "endTime": 235.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -298,7 +887,45 @@
       "text": "However you decide to spend your time, one thing is certain: you will arrive at your destination fresh and uncrumpled.",
       "translation": "",
       "startTime": 235.62,
-      "endTime": 245.56
+      "endTime": 245.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s34",
@@ -306,7 +933,22 @@
       "text": "You will not have to spend the next few days recovering from a long and arduous journey.",
       "translation": "",
       "startTime": 245.57,
-      "endTime": 250.57
+      "endTime": 250.57,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

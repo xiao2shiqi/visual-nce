@@ -10,7 +10,16 @@
       "text": "Why did the writer complain to the people behind him?",
       "translation": "",
       "startTime": 9.77,
-      "endTime": 15.9
+      "endTime": 15.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +35,22 @@
       "text": "I had a very good seat.",
       "translation": "",
       "startTime": 19.39,
-      "endTime": 22.06
+      "endTime": 22.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +58,22 @@
       "text": "The play was very interesting.",
       "translation": "",
       "startTime": 22.07,
-      "endTime": 25.09
+      "endTime": 25.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +81,27 @@
       "text": "I did not enjoy it.",
       "translation": "",
       "startTime": 25.1,
-      "endTime": 27.42
+      "endTime": 27.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +109,37 @@
       "text": "A young man and a young woman were sitting behind me.",
       "translation": "",
       "startTime": 27.43,
-      "endTime": 31.95
+      "endTime": 31.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +155,22 @@
       "text": "I got very angry.",
       "translation": "",
       "startTime": 34.59,
-      "endTime": 37.4
+      "endTime": 37.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +178,17 @@
       "text": "I could not hear the actors.",
       "translation": "",
       "startTime": 37.41,
-      "endTime": 40.63
+      "endTime": 40.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +204,27 @@
       "text": "I looked at the man and the woman angrily.",
       "translation": "",
       "startTime": 42.8,
-      "endTime": 47.26
+      "endTime": 47.26,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +232,17 @@
       "text": "They did not pay any attention.",
       "translation": "",
       "startTime": 47.27,
-      "endTime": 50.68
+      "endTime": 50.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +250,27 @@
       "text": "In the end, I could not bear it.",
       "translation": "",
       "startTime": 50.69,
-      "endTime": 54.97
+      "endTime": 54.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -130,7 +294,26 @@
       "text": "'It's none of your business,'",
       "translation": "",
       "startTime": 63.45,
-      "endTime": 66.26
+      "endTime": 66.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +321,22 @@
       "text": "the young man said rudely.",
       "translation": "",
       "startTime": 66.27,
-      "endTime": 68.99
+      "endTime": 68.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +344,31 @@
       "text": "'This is a private conversation!'",
       "translation": "",
       "startTime": 69,
-      "endTime": 74
+      "endTime": 74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

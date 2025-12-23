@@ -10,7 +10,22 @@
       "text": "What was 'sweet as honey' and why?",
       "translation": "",
       "startTime": 10.69,
-      "endTime": 16.03
+      "endTime": 16.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +49,17 @@
       "text": "The plane wasn't too badly damaged,",
       "translation": "",
       "startTime": 28.6,
-      "endTime": 31.6
+      "endTime": 31.6,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +83,22 @@
       "text": "By this time, a Lancaster bomber in reasonable condition was rare and worth rescuing.",
       "translation": "",
       "startTime": 51.34,
-      "endTime": 59.88
+      "endTime": 59.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +106,17 @@
       "text": "The French authorities had the plane packaged and moved in parts back to France.",
       "translation": "",
       "startTime": 59.89,
-      "endTime": 66.27
+      "endTime": 66.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +124,16 @@
       "text": "Now a group of enthusiasts are going to have the plane restored.",
       "translation": "",
       "startTime": 66.28,
-      "endTime": 71.63
+      "endTime": 71.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +141,22 @@
       "text": "It has four Rolls-Royce Merlin engines but the group will need to have only three of them rebuilt.",
       "translation": "",
       "startTime": 71.64,
-      "endTime": 80.43
+      "endTime": 80.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +164,16 @@
       "text": "Imagine their surprise and delight when they broke open the packing cases",
       "translation": "",
       "startTime": 80.44,
-      "endTime": 86.62
+      "endTime": 86.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +181,22 @@
       "text": "and found that the fourth engine was sweet as honey--still in perfect condition.",
       "translation": "",
       "startTime": 86.63,
-      "endTime": 94.2
+      "endTime": 94.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +204,22 @@
       "text": "A colony of bees had turned the engine into a hive and it was totally preserved in beeswax!",
       "translation": "",
       "startTime": 94.21,
-      "endTime": 99.21
+      "endTime": 99.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

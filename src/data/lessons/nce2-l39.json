@@ -10,7 +10,16 @@
       "text": "Why did Mr. Gilbert telephone Dr. Millington?",
       "translation": "",
       "startTime": 10.49,
-      "endTime": 16.41
+      "endTime": 16.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +35,16 @@
       "text": "he asked his doctor to tell him",
       "translation": "",
       "startTime": 19.72,
-      "endTime": 22.54
+      "endTime": 22.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +52,16 @@
       "text": "whether his operation had been successful,",
       "translation": "",
       "startTime": 22.55,
-      "endTime": 26.15
+      "endTime": 26.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +69,16 @@
       "text": "but the doctor refused to do so.",
       "translation": "",
       "startTime": 26.16,
-      "endTime": 30.05
+      "endTime": 30.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -122,7 +158,31 @@
       "text": "and the doctor told him that it had been.",
       "translation": "",
       "startTime": 60.49,
-      "endTime": 64.87
+      "endTime": 64.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -146,7 +206,22 @@
       "text": "that he would have to stay",
       "translation": "",
       "startTime": 71.67,
-      "endTime": 73.06
+      "endTime": 73.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -186,7 +261,16 @@
       "text": "'I am Mr. John Gilbert.'",
       "translation": "",
       "startTime": 86.57,
-      "endTime": 91.57
+      "endTime": 91.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

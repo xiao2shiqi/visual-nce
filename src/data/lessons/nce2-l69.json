@@ -10,7 +10,31 @@
       "text": "Do you think that the writer passed his driving test? Why?",
       "translation": "",
       "startTime": 11.05,
-      "endTime": 18.02
+      "endTime": 18.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -42,7 +66,31 @@
       "text": "Sure that I had passed, I was almost beginning to enjoy my test.",
       "translation": "",
       "startTime": 37.95,
-      "endTime": 45.03
+      "endTime": 45.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +98,22 @@
       "text": "The examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing Mr. Eames.",
       "translation": "",
       "startTime": 45.04,
-      "endTime": 55.65
+      "endTime": 55.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +121,27 @@
       "text": "Let us suppose that a child suddenly crosses the road in front of you.",
       "translation": "",
       "startTime": 55.66,
-      "endTime": 61.74
+      "endTime": 61.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +149,22 @@
       "text": "As soon as I tap on the window, you must stop within five feet.'",
       "translation": "",
       "startTime": 61.75,
-      "endTime": 68.31
+      "endTime": 68.31,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +180,31 @@
       "text": "Though the sound could be heard clearly, it took me a long time to react.",
       "translation": "",
       "startTime": 74.64,
-      "endTime": 81.61
+      "endTime": 81.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +220,27 @@
       "text": "The examiner looked at me sadly.",
       "translation": "",
       "startTime": 87.64,
-      "endTime": 91.21
+      "endTime": 91.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +248,27 @@
       "text": "'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'",
       "translation": "",
       "startTime": 91.22,
-      "endTime": 96.22
+      "endTime": 96.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

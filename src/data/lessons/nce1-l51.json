@@ -10,7 +10,17 @@
       "text": "Lesson 51",
       "translation": "",
       "startTime": 0.5,
-      "endTime": 3.12
+      "endTime": 3.12,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.18,
-      "endTime": 11.84
+      "endTime": 11.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "Does it ever snow in Greece?",
       "translation": "",
       "startTime": 11.85,
-      "endTime": 17
+      "endTime": 17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,17 @@
       "text": "Where do you come from?",
       "translation": "",
       "startTime": 17.01,
-      "endTime": 19.89
+      "endTime": 19.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +108,22 @@
       "text": "What's the climate like in your country?",
       "translation": "",
       "startTime": 22.94,
-      "endTime": 27.31
+      "endTime": 27.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +131,26 @@
       "text": "It's very pleasant.",
       "translation": "",
       "startTime": 27.32,
-      "endTime": 30.36
+      "endTime": 30.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +166,16 @@
       "text": "It's often windy in March.",
       "translation": "",
       "startTime": 34.29,
-      "endTime": 37.78
+      "endTime": 37.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +183,26 @@
       "text": "It's always warm in April and May, but it rains sometimes.",
       "translation": "",
       "startTime": 37.79,
-      "endTime": 45.52
+      "endTime": 45.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +210,22 @@
       "text": "What's it like in summer?",
       "translation": "",
       "startTime": 45.53,
-      "endTime": 49.03
+      "endTime": 49.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +233,22 @@
       "text": "It's always hot in June, July and August.",
       "translation": "",
       "startTime": 49.04,
-      "endTime": 54.69
+      "endTime": 54.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +264,36 @@
       "text": "Is it cold or warm in autumn?",
       "translation": "",
       "startTime": 58.16,
-      "endTime": 62.16
+      "endTime": 62.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +301,16 @@
       "text": "It's always warm in September and October.",
       "translation": "",
       "startTime": 62.17,
-      "endTime": 67.1
+      "endTime": 67.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +318,31 @@
       "text": "It's often cold in November and it rains sometimes.",
       "translation": "",
       "startTime": 67.11,
-      "endTime": 73.5
+      "endTime": 73.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +350,45 @@
       "text": "Is it very cold in winter?",
       "translation": "",
       "startTime": 73.51,
-      "endTime": 77.22
+      "endTime": 77.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +396,22 @@
       "text": "It's often cold in December, January and February.",
       "translation": "",
       "startTime": 77.23,
-      "endTime": 83.33
+      "endTime": 83.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +419,22 @@
       "text": "It snows sometimes.",
       "translation": "",
       "startTime": 83.34,
-      "endTime": 88.34
+      "endTime": 88.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

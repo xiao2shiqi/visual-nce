@@ -10,7 +10,17 @@
       "text": "Lesson 4",
       "translation": "",
       "startTime": 0.78,
-      "endTime": 2.43
+      "endTime": 2.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,16 @@
       "text": "Why did Alf want a white-collar job?",
       "translation": "",
       "startTime": 11.34,
-      "endTime": 16.82
+      "endTime": 16.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +53,16 @@
       "text": "These days, people who do manual work often receive far more money than people who work in offices.",
       "translation": "",
       "startTime": 16.83,
-      "endTime": 24.75
+      "endTime": 24.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +70,26 @@
       "text": "People who work in offices are frequently referred to as 'white-collar workers' for the simple reason that they usually wear a collar and tie to go to work.",
       "translation": "",
       "startTime": 24.76,
-      "endTime": 36.73
+      "endTime": 36.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +97,35 @@
       "text": "Such is human nature, that a great many people are often willing to sacrifice higher pay for the privilege of becoming white-collar workers.",
       "translation": "",
       "startTime": 36.74,
-      "endTime": 48.18
+      "endTime": 48.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +133,31 @@
       "text": "This can give rise to curious situations, as it did in the case of Alfred Bloggs who worked as a dustman for the Ellesmere Corporation.",
       "translation": "",
       "startTime": 48.19,
-      "endTime": 60.77
+      "endTime": 60.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +165,26 @@
       "text": "When he got married, Alf was too embarrassed to say anything to his wife about his job.",
       "translation": "",
       "startTime": 60.78,
-      "endTime": 67.62
+      "endTime": 67.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +192,26 @@
       "text": "He simply told her that he worked for the Corporation.",
       "translation": "",
       "startTime": 67.63,
-      "endTime": 71.56
+      "endTime": 71.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +219,17 @@
       "text": "Every morning, he left home dressed in a smart black suit.",
       "translation": "",
       "startTime": 71.57,
-      "endTime": 76.44
+      "endTime": 76.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +245,22 @@
       "text": "Before returning home at night, he took a shower and changed back into his suit.",
       "translation": "",
       "startTime": 82.9,
-      "endTime": 89.01
+      "endTime": 89.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +268,30 @@
       "text": "Alf did this for over two years and his fellow dustmen kept his secret.",
       "translation": "",
       "startTime": 89.02,
-      "endTime": 95.65
+      "endTime": 95.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +299,22 @@
       "text": "Alf's wife has never discovered that she married a dustman and she never will, for Alf has just found another job.",
       "translation": "",
       "startTime": 95.66,
-      "endTime": 104.46
+      "endTime": 104.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +322,16 @@
       "text": "He will soon be working in an office.",
       "translation": "",
       "startTime": 104.47,
-      "endTime": 107.6
+      "endTime": 107.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +339,45 @@
       "text": "He will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.",
       "translation": "",
       "startTime": 107.61,
-      "endTime": 117.04
+      "endTime": 117.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +385,17 @@
       "text": "From now on, he will wear a suit all day and others will call him 'Mr.Bloggs', not 'Alf'.",
       "translation": "",
       "startTime": 117.05,
-      "endTime": 122.05
+      "endTime": 122.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

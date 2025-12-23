@@ -10,7 +10,17 @@
       "text": "How was the drunk removed from the ring?",
       "translation": "",
       "startTime": 10.54,
-      "endTime": 15.51
+      "endTime": 15.51,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,22 @@
       "text": "The bull was busy with the matador at the time,",
       "translation": "",
       "startTime": 28.65,
-      "endTime": 33.02
+      "endTime": 33.02,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +67,27 @@
       "text": "but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.",
       "translation": "",
       "startTime": 33.03,
-      "endTime": 41.13
+      "endTime": 41.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Red",
+            "pos": "adj.",
+            "meaning": "红色的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +103,17 @@
       "text": "the bull forgot all about the matador and charged at the drunk.",
       "translation": "",
       "startTime": 44.66,
-      "endTime": 50.68
+      "endTime": 50.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -82,7 +137,22 @@
       "text": "When the bull got close to him, he clumsily stepped aside to let it pass.",
       "translation": "",
       "startTime": 59.38,
-      "endTime": 66.5
+      "endTime": 66.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +168,22 @@
       "text": "By this time, however three men had come into the ring and they quickly dragged the drunk to safety.",
       "translation": "",
       "startTime": 71.33,
-      "endTime": 80.1
+      "endTime": 80.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +191,17 @@
       "text": "Even the bull seemed to feel sorry for him,",
       "translation": "",
       "startTime": 80.11,
-      "endTime": 83.78
+      "endTime": 83.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sorry",
+            "pos": "adj.",
+            "meaning": "抱歉的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +209,26 @@
       "text": "for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.",
       "translation": "",
       "startTime": 83.79,
-      "endTime": 88.79
+      "endTime": 88.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

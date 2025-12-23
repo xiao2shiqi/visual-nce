@@ -10,7 +10,17 @@
       "text": "Lesson 37",
       "translation": "",
       "startTime": 0.73,
-      "endTime": 3.11
+      "endTime": 3.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What is one of the most unpleasant discoveries we make about ourselves as we get older?",
       "translation": "",
       "startTime": 11.66,
-      "endTime": 20.54
+      "endTime": 20.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,31 @@
       "text": "At the age of twelve years, the human body is at its most vigorous.",
       "translation": "",
       "startTime": 20.55,
-      "endTime": 26.84
+      "endTime": 26.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +100,61 @@
       "text": "It has yet to reach its full size and strength, and its owner his or her full intelligence: but at this age the likelihood of death is least.",
       "translation": "",
       "startTime": 26.85,
-      "endTime": 39.38
+      "endTime": 39.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +162,17 @@
       "text": "Earlier, we were infants and young children, and consequently more vulnerable;",
       "translation": "",
       "startTime": 39.39,
-      "endTime": 47.24
+      "endTime": 47.24,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +180,22 @@
       "text": "later, we shall undergo a progressive loss of our vigour and resistance which, though imperceptible at first",
       "translation": "",
       "startTime": 47.25,
-      "endTime": 56.6
+      "endTime": 56.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +203,22 @@
       "text": "will finally become so steep that we can live no longer,",
       "translation": "",
       "startTime": 56.61,
-      "endTime": 61.7
+      "endTime": 61.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +226,27 @@
       "text": "however well we look after ourselves, and however well society, and our doctors, look after us.",
       "translation": "",
       "startTime": 61.71,
-      "endTime": 70.09
+      "endTime": 70.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +254,31 @@
       "text": "This decline in vigour with the passing of time is called ageing.",
       "translation": "",
       "startTime": 70.1,
-      "endTime": 75.33
+      "endTime": 75.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +286,53 @@
       "text": "It is one of the most unpleasant discoveries which we all make that we must decline in this way, that if we escape wars,",
       "translation": "",
       "startTime": 75.34,
-      "endTime": 85.34
+      "endTime": 85.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +340,41 @@
       "text": "accidents and diseases we shall eventually 'die of old age', and that this happens at a rate which differs little from person to person,",
       "translation": "",
       "startTime": 85.35,
-      "endTime": 96.89
+      "endTime": 96.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +382,30 @@
       "text": "so that there are heavy odds in favour of our dying between the ages of 65 and 80.",
       "translation": "",
       "startTime": 96.9,
-      "endTime": 104.67
+      "endTime": 104.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +413,20 @@
       "text": "Some of us will die sooner, a few will live longer -- on into a ninth or tenth decade.",
       "translation": "",
       "startTime": 104.68,
-      "endTime": 112.88
+      "endTime": 112.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          },
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +434,26 @@
       "text": "But the chances are against it,",
       "translation": "",
       "startTime": 112.89,
-      "endTime": 115.44
+      "endTime": 115.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +461,31 @@
       "text": "and there is a virtual limit on how long we can hope to remain alive, however lucky and robust we are.",
       "translation": "",
       "startTime": 115.45,
-      "endTime": 123.87
+      "endTime": 123.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +493,35 @@
       "text": "Normal people tend to forget this process unless and until they are reminded of it.",
       "translation": "",
       "startTime": 123.88,
-      "endTime": 130.4
+      "endTime": 130.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +529,39 @@
       "text": "We are so familiar with the fact that man ages, that people have for years assumed that the process of losing vigour with time,",
       "translation": "",
       "startTime": 130.41,
-      "endTime": 139.47
+      "endTime": 139.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +577,17 @@
       "text": "like the cooling of a hot kettle or the wearing-out of a pair of shoes.",
       "translation": "",
       "startTime": 145.37,
-      "endTime": 150.72
+      "endTime": 150.72,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +595,22 @@
       "text": "They have also assumed that all animals,",
       "translation": "",
       "startTime": 150.73,
-      "endTime": 154.16
+      "endTime": 154.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +618,16 @@
       "text": "and probably other organisms such as trees, or even the universe itself, must in the nature of things 'wear out'.",
       "translation": "",
       "startTime": 154.17,
-      "endTime": 164.81
+      "endTime": 164.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +635,20 @@
       "text": "Most animals we commonly observe do in fact age as we do,",
       "translation": "",
       "startTime": 164.82,
-      "endTime": 169.81
+      "endTime": 169.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s20",
@@ -202,7 +664,17 @@
       "text": "and mechanical systems like a wound watch, or the sun,",
       "translation": "",
       "startTime": 172.42,
-      "endTime": 177.53
+      "endTime": 177.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +682,27 @@
       "text": "do in fact run out of energy in accordance with the second law of thermodynamics (whether the whole universe does so is a moot point at present).",
       "translation": "",
       "startTime": 177.54,
-      "endTime": 189.16
+      "endTime": 189.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +710,36 @@
       "text": "But these are not analogous to what happens when man ages.",
       "translation": "",
       "startTime": 189.17,
-      "endTime": 194.67
+      "endTime": 194.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +747,31 @@
       "text": "A run-down watch is still a watch and can be rewound.",
       "translation": "",
       "startTime": 194.68,
-      "endTime": 199.88
+      "endTime": 199.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +779,55 @@
       "text": "An old watch, by contrast, becomes so worn and unreliable that it eventually is not worth mending.",
       "translation": "",
       "startTime": 199.89,
-      "endTime": 209.97
+      "endTime": 209.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +835,27 @@
       "text": "But a watch could never repair itself--it does not consist of living parts, only of metal, which wears away by friction.",
       "translation": "",
       "startTime": 209.98,
-      "endTime": 220.97
+      "endTime": 220.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "does",
+            "label": "助动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +863,17 @@
       "text": "We could, at one time, repair ourselves--well enough, at least, to overcome all but the most instantly fatal illnesses and accidents.",
       "translation": "",
       "startTime": 220.98,
-      "endTime": 233.68
+      "endTime": 233.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +881,22 @@
       "text": "Between twelve and eighty years we gradually lose this power;",
       "translation": "",
       "startTime": 233.69,
-      "endTime": 239.71
+      "endTime": 239.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +904,22 @@
       "text": "an illness which at 12 would knock us over, at 80 can knock us out, and into our grave.",
       "translation": "",
       "startTime": 239.72,
-      "endTime": 248.78
+      "endTime": 248.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +927,22 @@
       "text": "If we could stay as vigorous as we are at twelve,",
       "translation": "",
       "startTime": 248.79,
-      "endTime": 252.53
+      "endTime": 252.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -282,7 +950,22 @@
       "text": "it would take about 700 years for half of us to die, and another 700 for the survivors to be reduced by half again.",
       "translation": "",
       "startTime": 252.54,
-      "endTime": 257.54
+      "endTime": 257.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

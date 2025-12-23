@@ -10,7 +10,17 @@
       "text": "Lesson 53",
       "translation": "",
       "startTime": 0.4,
-      "endTime": 2.64
+      "endTime": 2.64,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,27 @@
       "text": "What could not be reported in the official files?",
       "translation": "",
       "startTime": 9.65,
-      "endTime": 15.79
+      "endTime": 15.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +64,26 @@
       "text": "The Scandinavian countries are much admired all over the world for their enlightened social policies.",
       "translation": "",
       "startTime": 15.8,
-      "endTime": 23.37
+      "endTime": 23.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +99,41 @@
       "text": "The system has worked so well, that it has been adopted in other countries too.",
       "translation": "",
       "startTime": 33.22,
-      "endTime": 40.2
+      "endTime": 40.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +141,22 @@
       "text": "The Swedes were the first to recognize that public officials like civil servants,",
       "translation": "",
       "startTime": 40.21,
-      "endTime": 46.22
+      "endTime": 46.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +164,26 @@
       "text": "police officers, health inspectors or tax-collectors can make mistakes or act over-zealously in the belief that they are serving the public.",
       "translation": "",
       "startTime": 46.23,
-      "endTime": 56.75
+      "endTime": 56.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +199,22 @@
       "text": "A parliamentary committee representing all political parties appoints a person who is suitably qualified to investigate private grievances against the State.",
       "translation": "",
       "startTime": 66.75,
-      "endTime": 78.62
+      "endTime": 78.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +222,22 @@
       "text": "The official title of the person is 'Justiteombudsman', but the Swedes commonly refer to him as the 'J.O.' or 'Ombudsman'.",
       "translation": "",
       "startTime": 78.63,
-      "endTime": 89.5
+      "endTime": 89.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +245,27 @@
       "text": "The Ombudsman is not subject to political pressure.",
       "translation": "",
       "startTime": 89.51,
-      "endTime": 93.71
+      "endTime": 93.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +273,22 @@
       "text": "He investigates complaints large and small that come to him from all levels of society.",
       "translation": "",
       "startTime": 93.72,
-      "endTime": 100.3
+      "endTime": 100.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +296,16 @@
       "text": "As complaints must be made in writing, the Ombudsman receives an average of 1, 200 letters a year.",
       "translation": "",
       "startTime": 100.31,
-      "endTime": 108.77
+      "endTime": 108.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -130,7 +321,30 @@
       "text": "There is nothing secretive about the Ombudsman's work, for his correspondence is open to public inspection.",
       "translation": "",
       "startTime": 116.26,
-      "endTime": 124.49
+      "endTime": 124.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +352,26 @@
       "text": "If a citizen's complaint is justified the Ombudsman will act on his behalf.",
       "translation": "",
       "startTime": 124.5,
-      "endTime": 131.25
+      "endTime": 131.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +387,22 @@
       "text": "He may gently reprimand an official or even suggest to parliament that a law be altered.",
       "translation": "",
       "startTime": 136,
-      "endTime": 143.22
+      "endTime": 143.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +410,22 @@
       "text": "The following case is a typical example of the Ombudsman's work.",
       "translation": "",
       "startTime": 143.23,
-      "endTime": 149.27
+      "endTime": 149.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +433,22 @@
       "text": "A foreigner living in a Swedish village wrote to the Ombudsman complaining that he had been ill-treated by the police,",
       "translation": "",
       "startTime": 149.28,
-      "endTime": 157.36
+      "endTime": 157.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -194,7 +472,22 @@
       "text": "There was nothing in the record to show that the foreigner's complaint was justified",
       "translation": "",
       "startTime": 169.38,
-      "endTime": 175.31
+      "endTime": 175.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +503,22 @@
       "text": "It was impossible for the Ombudsman to take action,",
       "translation": "",
       "startTime": 180.56,
-      "endTime": 184.51
+      "endTime": 184.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -226,7 +534,16 @@
       "text": "he immediately sent one of his lawyers to investigate the matter.",
       "translation": "",
       "startTime": 190.2,
-      "endTime": 195.02
+      "endTime": 195.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s25",
@@ -234,7 +551,27 @@
       "text": "The lawyer ascertained that a policeman had indeed dealt roughly with foreigners on several occasions.",
       "translation": "",
       "startTime": 195.03,
-      "endTime": 203.17
+      "endTime": 203.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +579,32 @@
       "text": "The fact that the policeman was prejudiced against foreigners could not be recorded in the official files.",
       "translation": "",
       "startTime": 203.18,
-      "endTime": 210.54
+      "endTime": 210.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +612,35 @@
       "text": "It was only possible for the Ombudsman to find this out by sending one of his representatives to check the facts.",
       "translation": "",
       "startTime": 210.55,
-      "endTime": 220.23
+      "endTime": 220.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +648,17 @@
       "text": "The policeman in question was severely reprimanded",
       "translation": "",
       "startTime": 220.24,
-      "endTime": 224.19
+      "endTime": 224.19,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +666,22 @@
       "text": "and was informed that if any further complaints were lodged against him, he would be prosecuted.",
       "translation": "",
       "startTime": 224.2,
-      "endTime": 231.77
+      "endTime": 231.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +689,17 @@
       "text": "The Ombudsman's prompt action at once put an end to an unpleasant practice which might have gone unnoticed.",
       "translation": "",
       "startTime": 231.78,
-      "endTime": 236.78
+      "endTime": 236.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "What kind of race do the children compete in?",
       "translation": "",
       "startTime": 11.29,
-      "endTime": 16.62
+      "endTime": 16.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,36 @@
       "text": "Experiments have proved that children can be instructed in swimming at a very early age.",
       "translation": "",
       "startTime": 16.63,
-      "endTime": 25.09
+      "endTime": 25.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +70,17 @@
       "text": "At a special swimming pool in Los Angeles,",
       "translation": "",
       "startTime": 25.1,
-      "endTime": 28.71
+      "endTime": 28.71,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +88,22 @@
       "text": "children become expert at holding their breath under water even before they can walk.",
       "translation": "",
       "startTime": 28.72,
-      "endTime": 36.49
+      "endTime": 36.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +111,22 @@
       "text": "Babies of two months old do not appear to be reluctant to enter the water.",
       "translation": "",
       "startTime": 36.5,
-      "endTime": 42.94
+      "endTime": 42.94,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +134,49 @@
       "text": "It is not long before they are so accustomed to swimming that they can pick up weights from the floor of the pool.",
       "translation": "",
       "startTime": 42.95,
-      "endTime": 51.7
+      "endTime": 51.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +184,49 @@
       "text": "A game that is very popular with these young swimmers is the underwater tricycle race.",
       "translation": "",
       "startTime": 51.71,
-      "endTime": 59.55
+      "endTime": 59.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +234,16 @@
       "text": "Tricycles are lined up on the floor of the pool seven feet under water.",
       "translation": "",
       "startTime": 59.56,
-      "endTime": 66.25
+      "endTime": 66.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -82,7 +259,16 @@
       "text": "Many pedal their tricycles but most of them prefer to push or drag them.",
       "translation": "",
       "startTime": 72.26,
-      "endTime": 79.67
+      "endTime": 79.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +276,16 @@
       "text": "Some children can cover the whole length of the pool without coming up for breath even once.",
       "translation": "",
       "startTime": 79.68,
-      "endTime": 88.11
+      "endTime": 88.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +293,20 @@
       "text": "Whether they will ever become future Olympic champions, only time will tell.",
       "translation": "",
       "startTime": 88.12,
-      "endTime": 94.49
+      "endTime": 94.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          },
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +314,31 @@
       "text": "Meanwhile, they should encourage those among us who cannot swim five yards before they are gasping for air.",
       "translation": "",
       "startTime": 94.5,
-      "endTime": 99.5
+      "endTime": 99.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "should",
+            "label": "情态动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     }
   ]
 }

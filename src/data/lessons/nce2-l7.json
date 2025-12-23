@@ -10,7 +10,16 @@
       "text": "Did the detectives save the diamonds?",
       "translation": "",
       "startTime": 9.23,
-      "endTime": 14.03
+      "endTime": 14.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,17 @@
       "text": "The plane was late and detectives were waiting at the airport all morning.",
       "translation": "",
       "startTime": 14.04,
-      "endTime": 20.37
+      "endTime": 20.37,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -42,7 +61,22 @@
       "text": "someone had told the police that",
       "translation": "",
       "startTime": 28.29,
-      "endTime": 30.51
+      "endTime": 30.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -98,7 +132,27 @@
       "text": "and carried it into the Customs House.",
       "translation": "",
       "startTime": 48.13,
-      "endTime": 51.79
+      "endTime": 51.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +160,17 @@
       "text": "While two detectives were keeping guard at the door,",
       "translation": "",
       "startTime": 51.8,
-      "endTime": 55.92
+      "endTime": 55.92,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +186,16 @@
       "text": "To their surprise,",
       "translation": "",
       "startTime": 58.93,
-      "endTime": 60.97
+      "endTime": 60.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",

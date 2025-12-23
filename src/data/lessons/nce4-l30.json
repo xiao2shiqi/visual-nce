@@ -10,7 +10,17 @@
       "text": "Lesson 30",
       "translation": "",
       "startTime": 0.93,
-      "endTime": 2.37
+      "endTime": 2.37,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,27 @@
       "text": "How did people probably imagine the sea-floor before it was investigated?",
       "translation": "",
       "startTime": 9.48,
-      "endTime": 17.44
+      "endTime": 17.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +64,16 @@
       "text": "Our knowledge of the oceans a hundred years ago was confined to the two-dimensional shape of the sea surface",
       "translation": "",
       "startTime": 17.45,
-      "endTime": 24.89
+      "endTime": 24.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -58,7 +97,22 @@
       "text": "and anyone who gave more than a passing thought to the bottom confines of the oceans probably assumed that the sea-bed was flat.",
       "translation": "",
       "startTime": 36.86,
-      "endTime": 45.66
+      "endTime": 45.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +120,17 @@
       "text": "Sir James Clark Ross had obtained a sounding of over 2, 400 fathoms in 1839,",
       "translation": "",
       "startTime": 45.67,
-      "endTime": 53.25
+      "endTime": 53.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +138,32 @@
       "text": "but it was not until 1869, when H.M.S. Porcupine was put at the disposal of the Royal Society for several cruises",
       "translation": "",
       "startTime": 53.26,
-      "endTime": 63.37
+      "endTime": 63.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +171,22 @@
       "text": "that a series of deep soundings was obtained in the Atlantic and the first samples were collected by dredging the bottom.",
       "translation": "",
       "startTime": 63.38,
-      "endTime": 71.83
+      "endTime": 71.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +194,22 @@
       "text": "Shortly after this the famous H.M.S. Challenger expedition established the study of the sea-floor",
       "translation": "",
       "startTime": 71.84,
-      "endTime": 79
+      "endTime": 79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -114,7 +233,22 @@
       "text": "soon confirmed the Challenger's observation that many parts of the ocean were two to three miles deep,",
       "translation": "",
       "startTime": 89.62,
-      "endTime": 97.27
+      "endTime": 97.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +264,22 @@
       "text": "Today, enough soundings are available to enable a relief map of the Atlantic to be drawn",
       "translation": "",
       "startTime": 102.74,
-      "endTime": 109.01
+      "endTime": 109.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -154,7 +303,31 @@
       "text": "it is quite reasonable to regard the sea floor as the basic form of the crust of the earth,",
       "translation": "",
       "startTime": 118.56,
-      "endTime": 124.87
+      "endTime": 124.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +335,22 @@
       "text": "with superimposed upon it the continents,",
       "translation": "",
       "startTime": 124.88,
-      "endTime": 128.73
+      "endTime": 128.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -186,7 +374,16 @@
       "text": "From the shore line, out to a distance which may be anywhere from a few miles to a few hundred miles,",
       "translation": "",
       "startTime": 140.95,
-      "endTime": 148.62
+      "endTime": 148.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "may",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s20",
@@ -202,7 +399,17 @@
       "text": "The real dividing line between continents and oceans occurs at the foot of a steeper slope.",
       "translation": "",
       "startTime": 155.45,
-      "endTime": 162.69
+      "endTime": 162.69,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +417,27 @@
       "text": "This continental slope usually starts at a place somewhere near the 100-fathom mark",
       "translation": "",
       "startTime": 162.7,
-      "endTime": 168.9
+      "endTime": 168.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +445,17 @@
       "text": "and in the course of a few hundred miles reaches the true ocean floor at 2, 500-3, 500 fathoms.",
       "translation": "",
       "startTime": 168.91,
-      "endTime": 179.07
+      "endTime": 179.07,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -242,7 +479,30 @@
       "text": "and near its lower reaches there is a long tailing-off which is almost certainly the result of",
       "translation": "",
       "startTime": 188.14,
-      "endTime": 194.35
+      "endTime": 194.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s27",

@@ -10,7 +10,17 @@
       "text": "Lesson 111",
       "translation": "",
       "startTime": 0.86,
-      "endTime": 4.24
+      "endTime": 4.24,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 8.02,
-      "endTime": 13.89
+      "endTime": 13.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,27 @@
       "text": "Can Mr. Frith buy the television on instalments? How does it work?",
       "translation": "",
       "startTime": 13.9,
-      "endTime": 23.62
+      "endTime": 23.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +87,36 @@
       "text": "I like this television very much.",
       "translation": "",
       "startTime": 23.63,
-      "endTime": 27.22
+      "endTime": 27.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +124,32 @@
       "text": "How much does it cost?",
       "translation": "",
       "startTime": 27.23,
-      "endTime": 30.52
+      "endTime": 30.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +157,16 @@
       "text": "It's the most expensive model in the shop.",
       "translation": "",
       "startTime": 30.53,
-      "endTime": 34.6
+      "endTime": 34.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +174,27 @@
       "text": "It costs five hundred pounds.",
       "translation": "",
       "startTime": 34.61,
-      "endTime": 38.78
+      "endTime": 38.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +202,17 @@
       "text": "That's too expensive for us.",
       "translation": "",
       "startTime": 38.79,
-      "endTime": 42.32
+      "endTime": 42.32,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +220,22 @@
       "text": "We can't afford all that money.",
       "translation": "",
       "startTime": 42.33,
-      "endTime": 45.98
+      "endTime": 45.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +243,31 @@
       "text": "This model's less expensive than that one.",
       "translation": "",
       "startTime": 45.99,
-      "endTime": 50.07
+      "endTime": 50.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +275,16 @@
       "text": "It's only three hundred pounds.",
       "translation": "",
       "startTime": 50.08,
-      "endTime": 53.05
+      "endTime": 53.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +292,22 @@
       "text": "But, of course, it's not as good as the expensive one.",
       "translation": "",
       "startTime": 53.06,
-      "endTime": 59.94
+      "endTime": 59.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +315,22 @@
       "text": "I don't like this model.",
       "translation": "",
       "startTime": 59.95,
-      "endTime": 62.77
+      "endTime": 62.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +338,16 @@
       "text": "The other model's more expensive, but it's worth the money.",
       "translation": "",
       "startTime": 62.78,
-      "endTime": 69.35
+      "endTime": 69.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +355,22 @@
       "text": "Can we buy it on instalments?",
       "translation": "",
       "startTime": 69.36,
-      "endTime": 73.11
+      "endTime": 73.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +386,17 @@
       "text": "You can pay a deposit of thirty pounds,",
       "translation": "",
       "startTime": 74.59,
-      "endTime": 78.62
+      "endTime": 78.62,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +412,27 @@
       "text": "Do you like it, dear?",
       "translation": "",
       "startTime": 84.54,
-      "endTime": 87.68
+      "endTime": 87.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +440,16 @@
       "text": "I certainly do, but I don't like the price.",
       "translation": "",
       "startTime": 87.69,
-      "endTime": 93
+      "endTime": 93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +457,27 @@
       "text": "You always want the best, but we can't afford it.",
       "translation": "",
       "startTime": 93.01,
-      "endTime": 98.97
+      "endTime": 98.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +485,17 @@
       "text": "Sometimes you think you're a millionaire!",
       "translation": "",
       "startTime": 98.98,
-      "endTime": 105.27
+      "endTime": 105.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s20",

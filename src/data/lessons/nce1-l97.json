@@ -10,7 +10,17 @@
       "text": "Lesson 97",
       "translation": "",
       "startTime": 0.57,
-      "endTime": 2.82
+      "endTime": 2.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "A small blue case",
       "translation": "",
       "startTime": 2.83,
-      "endTime": 7.02
+      "endTime": 7.02,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 7.03,
-      "endTime": 12.78
+      "endTime": 12.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,16 @@
       "text": "Does Mr. Hall get his case back?",
       "translation": "",
       "startTime": 12.79,
-      "endTime": 18.39
+      "endTime": 18.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -50,7 +94,32 @@
       "text": "Can you describe it, sir?",
       "translation": "",
       "startTime": 24.39,
-      "endTime": 27.8
+      "endTime": 27.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +127,26 @@
       "text": "It's a small blue case and it's got a zip.",
       "translation": "",
       "startTime": 27.81,
-      "endTime": 34.26
+      "endTime": 34.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +154,36 @@
       "text": "There's a label on the handle with my name and address on it.",
       "translation": "",
       "startTime": 34.27,
-      "endTime": 40.4
+      "endTime": 40.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +191,31 @@
       "text": "Is this case yours?",
       "translation": "",
       "startTime": 40.41,
-      "endTime": 43.13
+      "endTime": 43.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +223,17 @@
       "text": "No, that's not mine.",
       "translation": "",
       "startTime": 43.14,
-      "endTime": 45.82
+      "endTime": 45.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +241,31 @@
       "text": "What about this one?",
       "translation": "",
       "startTime": 45.83,
-      "endTime": 48.24
+      "endTime": 48.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +273,22 @@
       "text": "This one's got a label.",
       "translation": "",
       "startTime": 48.25,
-      "endTime": 51.5
+      "endTime": 51.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +296,31 @@
       "text": "Let me see it.",
       "translation": "",
       "startTime": 51.51,
-      "endTime": 53.97
+      "endTime": 53.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +328,27 @@
       "text": "What's your name and address?",
       "translation": "",
       "startTime": 53.98,
-      "endTime": 57.49
+      "endTime": 57.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -146,7 +380,17 @@
       "text": "Three pounds fifty pence, please.",
       "translation": "",
       "startTime": 69.99,
-      "endTime": 73.68
+      "endTime": 73.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +398,27 @@
       "text": "Here you are.",
       "translation": "",
       "startTime": 73.69,
-      "endTime": 75.51
+      "endTime": 75.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +426,22 @@
       "text": "Thank you.",
       "translation": "",
       "startTime": 75.52,
-      "endTime": 76.88
+      "endTime": 76.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -186,7 +465,31 @@
       "text": "This case doesn't belong to me!",
       "translation": "",
       "startTime": 80.09,
-      "endTime": 84.55
+      "endTime": 84.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +497,22 @@
       "text": "You've given me the wrong case!",
       "translation": "",
       "startTime": 84.56,
-      "endTime": 89.56
+      "endTime": 89.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     }
   ]
 }

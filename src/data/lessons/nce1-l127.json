@@ -10,7 +10,32 @@
       "translation": "你能认出那个女人吗，莉兹？",
       "startTime": 20.6,
       "endTime": 25.12,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -19,7 +44,16 @@
       "translation": "我想我能认出来，凯特。",
       "startTime": 25.13,
       "endTime": 28.26,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -28,7 +62,22 @@
       "translation": "那一定是凯伦·马什，那位女演员。",
       "startTime": 28.27,
       "endTime": 33.28,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -46,7 +95,26 @@
       "translation": "她旁边的是谁？",
       "startTime": 35.36,
       "endTime": 38.29,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -55,7 +123,22 @@
       "translation": "那一定是康拉德·里夫斯。",
       "startTime": 38.3,
       "endTime": 42.78,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -73,7 +156,22 @@
       "translation": "不可能是他。",
       "startTime": 45.91,
       "endTime": 47.83,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -82,7 +180,27 @@
       "translation": "让我再看看。",
       "startTime": 47.84,
       "endTime": 51.48,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -100,7 +218,16 @@
       "translation": "他不是她的第三任丈夫吗？",
       "startTime": 53.62,
       "endTime": 57.45,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -118,7 +245,16 @@
       "translation": "他一定是她的第四或第五任丈夫。",
       "startTime": 58.91,
       "endTime": 63.88,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -127,7 +263,22 @@
       "translation": "凯伦·马什看起来真老啊！",
       "startTime": 63.89,
       "endTime": 67.5,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -136,7 +287,16 @@
       "translation": "是啊，她看起来是挺老的。",
       "startTime": 67.51,
       "endTime": 71.02,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "does",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -145,7 +305,17 @@
       "translation": "我记得她才29岁，但实际上她至少有40岁了。",
       "startTime": 71.03,
       "endTime": 79.15,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -154,7 +324,22 @@
       "translation": "我肯定她有。",
       "startTime": 79.16,
       "endTime": 82.51,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -163,7 +348,22 @@
       "translation": "我还在上学的时候，她就已经是著名演员了。",
       "startTime": 82.52,
       "endTime": 88.88,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -172,7 +372,31 @@
       "translation": "那已经是很久以前的事了，对吧？",
       "startTime": 88.89,
       "endTime": 93.4,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -181,7 +405,27 @@
       "translation": "没那么久吧！",
       "startTime": 93.41,
       "endTime": 96.33,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -190,7 +434,17 @@
       "translation": "我自己也才29岁。",
       "startTime": 96.34,
       "endTime": 100,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ],
   "image": "/images/nce1/l127/scene1.png"

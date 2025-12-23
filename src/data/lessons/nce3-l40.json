@@ -10,7 +10,17 @@
       "text": "Lesson 40",
       "translation": "",
       "startTime": 0.27,
-      "endTime": 1.98
+      "endTime": 1.98,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,36 @@
       "text": "How did the policeman discover that the whole thing was a joke?",
       "translation": "",
       "startTime": 8.14,
-      "endTime": 14.2
+      "endTime": 14.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +73,22 @@
       "text": "It has never been explained why university students seem to enjoy practical jokes more than anyone else.",
       "translation": "",
       "startTime": 14.21,
-      "endTime": 22.7
+      "endTime": 22.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +104,27 @@
       "text": "Inviting the fire brigade to put out a nonexistent fire is a crude form of deception which no self-respecting student would ever indulde in.",
       "translation": "",
       "startTime": 28.79,
-      "endTime": 39.44
+      "endTime": 39.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +132,16 @@
       "text": "Students often create amusing situations which are funny to everyone except the victims.",
       "translation": "",
       "startTime": 39.45,
-      "endTime": 46.92
+      "endTime": 46.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +149,22 @@
       "text": "When a student recently saw two workmen using a pneumatic drill outside his university,",
       "translation": "",
       "startTime": 46.93,
-      "endTime": 54.23
+      "endTime": 54.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +172,22 @@
       "text": "he immediately telephoned the police and informed them that two students dressed up as workmen",
       "translation": "",
       "startTime": 54.24,
-      "endTime": 61.19
+      "endTime": 61.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +203,27 @@
       "text": "As soon as he had hung up, he went over to the workmen and told them that if a policeman ordered them to go away,",
       "translation": "",
       "startTime": 64.69,
-      "endTime": 72.69
+      "endTime": 72.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +231,17 @@
       "text": "they were not to take him seriously.",
       "translation": "",
       "startTime": 72.7,
-      "endTime": 75.41
+      "endTime": 75.41,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +249,32 @@
       "text": "He added that a student had dressed up as a policeman and was playing all sorts of silly jokes on people.",
       "translation": "",
       "startTime": 75.42,
-      "endTime": 83.77
+      "endTime": 83.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +282,27 @@
       "text": "Both the police and the workmen were grateful to the student for this piece of advance information.",
       "translation": "",
       "startTime": 83.78,
-      "endTime": 91.57
+      "endTime": 91.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +310,32 @@
       "text": "The student hid in an archway nearby where he could watch and hear everything that went on.",
       "translation": "",
       "startTime": 91.58,
-      "endTime": 98.72
+      "endTime": 98.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Student",
+            "pos": "n.",
+            "meaning": "学生"
+          },
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +343,17 @@
       "text": "Sure enough, a policeman arrived on the scene and politely asked the workmen to go away.",
       "translation": "",
       "startTime": 98.73,
-      "endTime": 105.74
+      "endTime": 105.74,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +361,22 @@
       "text": "When he received a very rude reply from one of the workmen, he threatened to remove them by force.",
       "translation": "",
       "startTime": 105.75,
-      "endTime": 113.53
+      "endTime": 113.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +384,22 @@
       "text": "The workmen told him to do as he pleased and the policeman telephoned for help.",
       "translation": "",
       "startTime": 113.54,
-      "endTime": 119.15
+      "endTime": 119.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -170,7 +423,16 @@
       "text": "The workmen struggled fiercely and one of them lost his temper.",
       "translation": "",
       "startTime": 132.84,
-      "endTime": 138.03
+      "endTime": 138.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -186,7 +448,40 @@
       "text": "At this, the police pointed out ironically that this would hardly be necessary as the men were already under arrest.",
       "translation": "",
       "startTime": 140.87,
-      "endTime": 150.33
+      "endTime": 150.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -202,7 +497,17 @@
       "text": "Permission was granted and a policeman accompanied him to a pay phone.",
       "translation": "",
       "startTime": 159.61,
-      "endTime": 165.08
+      "endTime": 165.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +515,31 @@
       "text": "Only when he saw that the man was actually telephoning the police did he realize that they had all been the victims of a hoax.",
       "translation": "",
       "startTime": 165.09,
-      "endTime": 170.09
+      "endTime": 170.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     }
   ]
 }

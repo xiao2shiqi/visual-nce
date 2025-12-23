@@ -10,7 +10,27 @@
       "text": "Where is Captain Alison going and how?",
       "translation": "",
       "startTime": 10.64,
-      "endTime": 16.14
+      "endTime": 16.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +38,16 @@
       "text": "Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.",
       "translation": "",
       "startTime": 16.15,
-      "endTime": 23.67
+      "endTime": 23.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +55,27 @@
       "text": "We'll meet him at the harbour early in the morning.",
       "translation": "",
       "startTime": 23.68,
-      "endTime": 27.5
+      "endTime": 27.5,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +83,16 @@
       "text": "He will be in his small boat, Topsail.",
       "translation": "",
       "startTime": 27.51,
-      "endTime": 31.63
+      "endTime": 31.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +100,22 @@
       "text": "Topsail is a famous little boat.",
       "translation": "",
       "startTime": 31.64,
-      "endTime": 34.96
+      "endTime": 34.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +123,22 @@
       "text": "It has sailed across the Atlantic many times.",
       "translation": "",
       "startTime": 34.97,
-      "endTime": 39.47
+      "endTime": 39.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +146,17 @@
       "text": "Captain Alison will set out at eight o'clock,",
       "translation": "",
       "startTime": 39.48,
-      "endTime": 43.03
+      "endTime": 43.03,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +164,17 @@
       "text": "so we'll have plenty of time.",
       "translation": "",
       "startTime": 43.04,
-      "endTime": 45.99
+      "endTime": 45.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +182,22 @@
       "text": "We'll see his boat and then we'll say goodbye to him.",
       "translation": "",
       "startTime": 46,
-      "endTime": 50.15
+      "endTime": 50.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +205,16 @@
       "text": "He will be away for two months.",
       "translation": "",
       "startTime": 50.16,
-      "endTime": 53.08
+      "endTime": 53.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +222,26 @@
       "text": "We are very proud of him.",
       "translation": "",
       "startTime": 53.09,
-      "endTime": 55.9
+      "endTime": 55.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +249,16 @@
       "text": "He will take part in an important race across the Atlantic.",
       "translation": "",
       "startTime": 55.91,
-      "endTime": 60.91
+      "endTime": 60.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

@@ -10,7 +10,7 @@
       "text": "Lesson 1",
       "translation": "第1课",
       "startTime": 0.61,
-      "endTime": 2.70,
+      "endTime": 2.7,
       "analysis": {
         "grammar": [
           {
@@ -37,7 +37,7 @@
       "text": "Excuse me!",
       "translation": "对不起（标题）",
       "startTime": 2.71,
-      "endTime": 5.60,
+      "endTime": 5.6,
       "analysis": {
         "grammar": [
           {
@@ -109,33 +109,34 @@
       "role": "Narrator",
       "text": "Whose handbag is it?",
       "translation": "这是谁的手提包？",
-      "startTime": 10.80,
-      "endTime": 15.10,
+      "startTime": 10.8,
+      "endTime": 15.1,
       "analysis": {
         "grammar": [
           {
-            "text": "Whose handbag",
-            "label": "疑问词/表语"
-          },
-          {
             "text": "is",
-            "label": "系动词"
+            "label": "谓语/系动词"
           },
           {
             "text": "it",
-            "label": "主语"
+            "label": "人称代词/主语"
           }
         ],
         "words": [
           {
-            "word": "Whose",
-            "pos": "det.",
-            "meaning": "谁的"
+            "word": "Handbag",
+            "pos": "n.",
+            "meaning": "（女用）手提包"
           },
           {
-            "word": "handbag",
-            "pos": "n.",
-            "meaning": "手提包"
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
           }
         ]
       }
@@ -206,32 +207,37 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词"
+            "label": "谓语/系动词"
           },
           {
             "text": "this",
-            "label": "主语/指示代词"
+            "label": "指示代词"
           },
           {
-            "text": "your handbag",
-            "label": "表语"
+            "text": "your",
+            "label": "形容词性物主代词"
           }
         ],
         "words": [
           {
-            "word": "this",
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "your",
-            "pos": "det.",
+            "word": "Your",
+            "pos": "pron.",
             "meaning": "你的，你们的"
           },
           {
-            "word": "handbag",
+            "word": "Handbag",
             "pos": "n.",
-            "meaning": "手提包"
+            "meaning": "（女用）手提包"
           }
         ]
       }
@@ -270,22 +276,37 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词"
+            "label": "谓语/系动词"
           },
           {
             "text": "this",
-            "label": "主语"
+            "label": "指示代词"
           },
           {
-            "text": "your handbag",
-            "label": "表语"
+            "text": "your",
+            "label": "形容词性物主代词"
           }
         ],
         "words": [
           {
-            "word": "handbag",
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Handbag",
             "pos": "n.",
-            "meaning": "手提包"
+            "meaning": "（女用）手提包"
           }
         ]
       }
@@ -300,23 +321,29 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Yes",
-            "label": "肯定回答"
-          },
-          {
             "text": "it",
-            "label": "主语"
+            "label": "人称代词/主语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "谓语/系动词"
           }
         ],
         "words": [
           {
-            "word": "it",
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "It",
             "pos": "pron.",
-            "meaning": "它（指代handbag）"
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -327,20 +354,12 @@
       "text": "Thank you very much.",
       "translation": "非常感谢。",
       "startTime": 29.49,
-      "endTime": 33.0,
+      "endTime": 33,
       "analysis": {
         "grammar": [
           {
-            "text": "Thank",
-            "label": "谓语"
-          },
-          {
-            "text": "you",
-            "label": "宾语"
-          },
-          {
-            "text": "very much",
-            "label": "程度状语"
+            "text": "very",
+            "label": "程度副词"
           }
         ],
         "words": [
@@ -350,7 +369,17 @@
             "meaning": "感谢"
           },
           {
-            "word": "much",
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
             "pos": "adv.",
             "meaning": "非常"
           }

@@ -10,7 +10,17 @@
       "text": "Lesson 28",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 2.33
+      "endTime": 2.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,26 @@
       "text": "What are patients looking for when they visit the doctor?",
       "translation": "",
       "startTime": 9.46,
-      "endTime": 14.78
+      "endTime": 14.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +63,31 @@
       "text": "This is a sceptical age,",
       "translation": "",
       "startTime": 14.79,
-      "endTime": 16.93
+      "endTime": 16.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +95,20 @@
       "text": "but although our faith in many of the things in which our forefathers fervently believed has weakened,",
       "translation": "",
       "startTime": 16.94,
-      "endTime": 23.69
+      "endTime": 23.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +116,16 @@
       "text": "our confidence in the curative properties of the bottle of medicine remains the same as theirs.",
       "translation": "",
       "startTime": 23.7,
-      "endTime": 30.51
+      "endTime": 30.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +133,31 @@
       "text": "This modern faith in medicines is proved by the fact",
       "translation": "",
       "startTime": 30.52,
-      "endTime": 34.22
+      "endTime": 34.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +165,31 @@
       "text": "that the annual drug bill of the Health Services is mounting to astronomical figures.",
       "translation": "",
       "startTime": 34.23,
-      "endTime": 40.5
+      "endTime": 40.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +197,17 @@
       "text": "and shows no signs at present of ceasing to rise.",
       "translation": "",
       "startTime": 40.51,
-      "endTime": 45.24
+      "endTime": 45.24,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +215,26 @@
       "text": "The majority of the patients attending the medical out-patients departments of our hospitals feel that",
       "translation": "",
       "startTime": 45.25,
-      "endTime": 51.21
+      "endTime": 51.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +242,22 @@
       "text": "they have not received adequate treatment unless they are able to carry home with them",
       "translation": "",
       "startTime": 51.22,
-      "endTime": 56.21
+      "endTime": 56.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -114,7 +281,27 @@
       "text": "and the doctor in charge of the department is only too ready to provide them with these requirements.",
       "translation": "",
       "startTime": 64.21,
-      "endTime": 70.97
+      "endTime": 70.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +309,35 @@
       "text": "There is no quicker method of disposing of patients than by giving them what they are asking for,",
       "translation": "",
       "startTime": 70.98,
-      "endTime": 77.29
+      "endTime": 77.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +345,16 @@
       "text": "and since most medical men in the Health Services are overworked",
       "translation": "",
       "startTime": 77.3,
-      "endTime": 81.57
+      "endTime": 81.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -154,7 +378,16 @@
       "text": "the bottle, the box, and the jar are almost always granted them.",
       "translation": "",
       "startTime": 93.81,
-      "endTime": 99.02
+      "endTime": 99.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +395,31 @@
       "text": "Nor is it only the ignorant and ill-educated person who has such faith in the bottle of medicine.",
       "translation": "",
       "startTime": 99.03,
-      "endTime": 105.78
+      "endTime": 105.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +427,44 @@
       "text": "It is recounted of Thomas Carlyle that when he heard of the illness of his friend, Henry Taylor,",
       "translation": "",
       "startTime": 105.79,
-      "endTime": 112.97
+      "endTime": 112.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -186,7 +480,26 @@
       "text": "carrying with him in his pocket what remained a bottle of medicine formerly prescribed for an indisposition of Mrs. Carlyle's.",
       "translation": "",
       "startTime": 115.99,
-      "endTime": 126.15
+      "endTime": 126.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +507,26 @@
       "text": "Carlyle was entirely ignorant of what the bottle in his pocket contained,",
       "translation": "",
       "startTime": 126.16,
-      "endTime": 131.21
+      "endTime": 131.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +534,16 @@
       "text": "of the nature of the illness from which his friend was suffering,",
       "translation": "",
       "startTime": 131.22,
-      "endTime": 135.01
+      "endTime": 135.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s22",
@@ -210,7 +551,26 @@
       "text": "and of what had previously been wrong with his wife,",
       "translation": "",
       "startTime": 135.02,
-      "endTime": 138.69
+      "endTime": 138.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +578,27 @@
       "text": "but a medicine that had worked so well in one form of illness would surely be of equal benefit in another,",
       "translation": "",
       "startTime": 138.7,
-      "endTime": 145.87
+      "endTime": 145.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +606,16 @@
       "text": "and comforted by the thought of the help he was bringing to his friend,",
       "translation": "",
       "startTime": 145.88,
-      "endTime": 150.15
+      "endTime": 150.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s25",
@@ -234,7 +623,17 @@
       "text": "he hastened to Henry Taylor's house.",
       "translation": "",
       "startTime": 150.16,
-      "endTime": 153.65
+      "endTime": 153.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +641,26 @@
       "text": "History does not relate whether his friend accepted his medical help, but in all probability he did.",
       "translation": "",
       "startTime": 153.66,
-      "endTime": 160.73
+      "endTime": 160.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +668,40 @@
       "text": "The great advantage of taking medicine is that it makes no demands on the taker",
       "translation": "",
       "startTime": 160.74,
-      "endTime": 165.64
+      "endTime": 165.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +709,22 @@
       "text": "beyond that of putting up for a moment with a disgusting taste,",
       "translation": "",
       "startTime": 165.65,
-      "endTime": 169.85
+      "endTime": 169.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +732,49 @@
       "text": "and that is what all patients demand of their doctors--to be cured at no inconvenience to themselves.",
       "translation": "",
       "startTime": 169.86,
-      "endTime": 174.86
+      "endTime": 174.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

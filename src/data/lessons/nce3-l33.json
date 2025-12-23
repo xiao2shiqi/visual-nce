@@ -10,7 +10,17 @@
       "text": "Lesson 33",
       "translation": "",
       "startTime": 0.19,
-      "endTime": 2.44
+      "endTime": 2.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What incident began the series of traffic accidents?",
       "translation": "",
       "startTime": 8.98,
-      "endTime": 15.46
+      "endTime": 15.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +67,17 @@
       "text": "A day may begin well enough, but suddenly everything seems to get out of control.",
       "translation": "",
       "startTime": 19.83,
-      "endTime": 25.97
+      "endTime": 25.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +85,50 @@
       "text": "What invariably happens is that a great number of things choose to go wrong at precisely the same moment.",
       "translation": "",
       "startTime": 25.98,
-      "endTime": 33.96
+      "endTime": 33.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +136,31 @@
       "text": "It is as if a single unimportant event set up a chain of reactions.",
       "translation": "",
       "startTime": 33.97,
-      "endTime": 39.92
+      "endTime": 39.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +168,36 @@
       "text": "Let us suppose that you are preparing a meal and keeping an eye on the baby at the same time.",
       "translation": "",
       "startTime": 39.93,
-      "endTime": 47.22
+      "endTime": 47.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +205,22 @@
       "text": "The telephone rings and this marks the prelude to an unforeseen series of catastrophes.",
       "translation": "",
       "startTime": 47.23,
-      "endTime": 55.43
+      "endTime": 55.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +228,22 @@
       "text": "While you are on the phone, the baby pulls the tablecloth off the table,",
       "translation": "",
       "startTime": 55.44,
-      "endTime": 61.11
+      "endTime": 61.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +251,22 @@
       "text": "smashing half your best crockery and cutting himself in the process.",
       "translation": "",
       "startTime": 61.12,
-      "endTime": 66.48
+      "endTime": 66.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +274,17 @@
       "text": "You hang up hurriedly and attend to baby, crockery, etc.",
       "translation": "",
       "startTime": 66.49,
-      "endTime": 71.89
+      "endTime": 71.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +300,41 @@
       "text": "As if this were not enough to reduce you to tears, your husband arrives, unexpectedly bringing three guests to dinner.",
       "translation": "",
       "startTime": 74.62,
-      "endTime": 84.5
+      "endTime": 84.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +342,17 @@
       "text": "Things can go wrong on a big scale as a number of people recently discovered in Parramatta, a suburb of Sydney.",
       "translation": "",
       "startTime": 84.51,
-      "endTime": 93.51
+      "endTime": 93.51,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +368,17 @@
       "text": "The woman immediately behind the two cars happened to be a learner.",
       "translation": "",
       "startTime": 101.09,
-      "endTime": 106.29
+      "endTime": 106.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +386,22 @@
       "text": "She suddenly got into a panic and stopped her car.",
       "translation": "",
       "startTime": 106.3,
-      "endTime": 110.96
+      "endTime": 110.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +409,31 @@
       "text": "This made the driver following her brake hard.",
       "translation": "",
       "startTime": 110.97,
-      "endTime": 114.79
+      "endTime": 114.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +441,16 @@
       "text": "His wife was sitting beside him holding a large cake.",
       "translation": "",
       "startTime": 114.8,
-      "endTime": 119.07
+      "endTime": 119.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "His",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s17",
@@ -186,7 +474,17 @@
       "text": "Seeing a cake flying through the air,",
       "translation": "",
       "startTime": 126.53,
-      "endTime": 129.41
+      "endTime": 129.41,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +492,22 @@
       "text": "a lorry driver who was drawing up alongside the car, pulled up all of a sudden.",
       "translation": "",
       "startTime": 129.42,
-      "endTime": 136.16
+      "endTime": 136.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +523,22 @@
       "text": "This led to yet another angry argument. Meanwhile, the traffic piled up behind.",
       "translation": "",
       "startTime": 145.47,
-      "endTime": 153.45
+      "endTime": 153.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +546,22 @@
       "text": "It took the police nearly an hour to get the traffic on the move again.",
       "translation": "",
       "startTime": 153.46,
-      "endTime": 158.95
+      "endTime": 158.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +569,17 @@
       "text": "In the meantime, the lorry driver had to sweep up hundreds of broken bottles.",
       "translation": "",
       "startTime": 158.96,
-      "endTime": 165.56
+      "endTime": 165.56,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Driver",
+            "pos": "n.",
+            "meaning": "驾驶员"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +587,31 @@
       "text": "Only two stray dogs benefited from all this confusion, for they greedily devoured what was left of the cake.",
       "translation": "",
       "startTime": 165.57,
-      "endTime": 174.21
+      "endTime": 174.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +619,22 @@
       "text": "It was just one of those days!",
       "translation": "",
       "startTime": 174.22,
-      "endTime": 179.22
+      "endTime": 179.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "Why is fishing the writer's favourite sport?",
       "translation": "",
       "startTime": 11.03,
-      "endTime": 15.89
+      "endTime": 15.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,31 @@
       "text": "Fishing is my favourite sport.",
       "translation": "",
       "startTime": 15.9,
-      "endTime": 18.87
+      "endTime": 18.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +73,36 @@
       "text": "But this does not worry me.",
       "translation": "",
       "startTime": 24.11,
-      "endTime": 27.64
+      "endTime": 27.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +110,16 @@
       "text": "Some fishermen are unlucky.",
       "translation": "",
       "startTime": 27.65,
-      "endTime": 30.68
+      "endTime": 30.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -58,7 +135,17 @@
       "text": "they catch old boots and rubbish.",
       "translation": "",
       "startTime": 33.27,
-      "endTime": 37.32
+      "endTime": 37.32,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +153,16 @@
       "text": "I am even less lucky.",
       "translation": "",
       "startTime": 37.33,
-      "endTime": 40.23
+      "endTime": 40.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +170,22 @@
       "text": "I never catch anything  --  not even old boots.",
       "translation": "",
       "startTime": 40.24,
-      "endTime": 46.47
+      "endTime": 46.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -98,7 +209,31 @@
       "text": "'You must give up fishing!' my friends say. 'It's a waste of time.'",
       "translation": "",
       "startTime": 54.86,
-      "endTime": 62.49
+      "endTime": 62.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +249,17 @@
       "text": "I'm not really interested in fishing.",
       "translation": "",
       "startTime": 67.05,
-      "endTime": 70.77
+      "endTime": 70.77,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +267,22 @@
       "text": "I am only interested in sitting in a boat and doing nothing at all!",
       "translation": "",
       "startTime": 70.78,
-      "endTime": 75.78
+      "endTime": 75.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,16 @@
       "text": "Why did Patrick keep on asking the same question?",
       "translation": "",
       "startTime": 10.65,
-      "endTime": 16.89
+      "endTime": 16.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +35,22 @@
       "text": "He is now retiring from political life and has gone abroad.",
       "translation": "",
       "startTime": 24.64,
-      "endTime": 30.49
+      "endTime": 30.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +58,22 @@
       "text": "My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party.",
       "translation": "",
       "startTime": 30.5,
-      "endTime": 39.86
+      "endTime": 39.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +81,17 @@
       "text": "After the elections, Patrick went to the former Prime Minister's house.",
       "translation": "",
       "startTime": 39.87,
-      "endTime": 46.35
+      "endTime": 46.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +99,31 @@
       "text": "When he asked if Mr. Lane lived there, the policeman on duty told him that since his defeat, the ex-Prime Minister had gone abroad.",
       "translation": "",
       "startTime": 46.36,
-      "endTime": 58.52
+      "endTime": 58.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +131,17 @@
       "text": "On the following day Patrick went to the house again.",
       "translation": "",
       "startTime": 58.53,
-      "endTime": 63.76
+      "endTime": 63.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +149,17 @@
       "text": "The same policeman was just walking slowly past the entrance, when Patrick asked the same question.",
       "translation": "",
       "startTime": 63.77,
-      "endTime": 72.82
+      "endTime": 72.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +167,27 @@
       "text": "Though a little suspicious this time the policeman gave him the same answer.",
       "translation": "",
       "startTime": 72.83,
-      "endTime": 80.09
+      "endTime": 80.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +195,17 @@
       "text": "The day after, Patrick went to the house once more and asked exactly the same question.",
       "translation": "",
       "startTime": 80.1,
-      "endTime": 89.63
+      "endTime": 89.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +213,31 @@
       "text": "This time, the policeman lost his temper.",
       "translation": "",
       "startTime": 89.64,
-      "endTime": 94.33
+      "endTime": 94.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Policeman",
+            "pos": "n.",
+            "meaning": "警察"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +245,17 @@
       "text": "'I told you yesterday and the day before yesterday,' he shouted,",
       "translation": "",
       "startTime": 94.34,
-      "endTime": 101.64
+      "endTime": 101.64,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -122,7 +279,27 @@
       "text": "'I know,' answered Patrick,' but I love to hear you say it!'",
       "translation": "",
       "startTime": 112,
-      "endTime": 117
+      "endTime": 117,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,31 @@
       "text": "What is the writer's carpet made of?",
       "translation": "",
       "startTime": 9.89,
-      "endTime": 14.41
+      "endTime": 14.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +42,17 @@
       "text": "We have just moved into a new house and I have been working hard all morning.",
       "translation": "",
       "startTime": 14.42,
-      "endTime": 22.26
+      "endTime": 22.26,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +60,22 @@
       "text": "I have been trying to get my new room in order.",
       "translation": "",
       "startTime": 22.27,
-      "endTime": 27.16
+      "endTime": 27.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +83,27 @@
       "text": "This has not been easy because I own over a thousand books.",
       "translation": "",
       "startTime": 27.17,
-      "endTime": 34
+      "endTime": 34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +119,22 @@
       "text": "the room is rather small,",
       "translation": "",
       "startTime": 36.02,
-      "endTime": 38.7
+      "endTime": 38.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +142,22 @@
       "text": "so I have temporarily put my books on the floor.",
       "translation": "",
       "startTime": 38.71,
-      "endTime": 44.29
+      "endTime": 44.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +165,17 @@
       "text": "At the moment, they cover every inch of floor space",
       "translation": "",
       "startTime": 44.3,
-      "endTime": 48.82
+      "endTime": 48.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +191,45 @@
       "text": "A short while ago, my sister helped me to carry one of my old bookcases up the stairs.",
       "translation": "",
       "startTime": 55.8,
-      "endTime": 64.51
+      "endTime": 64.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +237,22 @@
       "text": "She went into my room and got a big surprise when she saw all those books on the floor.",
       "translation": "",
       "startTime": 64.52,
-      "endTime": 73.34
+      "endTime": 73.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +260,31 @@
       "text": "'This is the prettiest carpet I have ever seen,' she said.",
       "translation": "",
       "startTime": 73.35,
-      "endTime": 79.76
+      "endTime": 79.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +292,27 @@
       "text": "She gazed at it for some time then added,",
       "translation": "",
       "startTime": 79.77,
-      "endTime": 84.02
+      "endTime": 84.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +320,22 @@
       "text": "'You don't need bookcases at all.",
       "translation": "",
       "startTime": 84.03,
-      "endTime": 87.24
+      "endTime": 87.24,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +343,32 @@
       "text": "You can sit here in your spare time and read the carpet!'",
       "translation": "",
       "startTime": 87.25,
-      "endTime": 92.25
+      "endTime": 92.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     }
   ]
 }

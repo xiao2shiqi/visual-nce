@@ -10,7 +10,17 @@
       "text": "Lesson 12",
       "translation": "",
       "startTime": 0.43,
-      "endTime": 2.25
+      "endTime": 2.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,16 @@
       "text": "Banks and their customers",
       "translation": "",
       "startTime": 2.26,
-      "endTime": 7.91
+      "endTime": 7.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,31 @@
       "text": "Why is there no risk to the customer when a bank prints the customer's name on his cheques?",
       "translation": "",
       "startTime": 7.92,
-      "endTime": 15.49
+      "endTime": 15.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +77,27 @@
       "text": "When anyone opens a current account at a bank, he is lending the bank money,",
       "translation": "",
       "startTime": 15.5,
-      "endTime": 20.68
+      "endTime": 20.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +105,17 @@
       "text": "repayment of which he may demand at any time either in cash or by drawing a cheque in favour of another person.",
       "translation": "",
       "startTime": 20.69,
-      "endTime": 29.27
+      "endTime": 29.27,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +123,31 @@
       "text": "Primarily, the banker-customer relationship is that of debtor and creditor--",
       "translation": "",
       "startTime": 29.28,
-      "endTime": 35.25
+      "endTime": 35.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +155,30 @@
       "text": "who is which depending on whether the customer's account is in credit or is overdrawn.",
       "translation": "",
       "startTime": 35.26,
-      "endTime": 40.52
+      "endTime": 40.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +186,22 @@
       "text": "But, in addition to that basically simple concept,",
       "translation": "",
       "startTime": 40.53,
-      "endTime": 43.75
+      "endTime": 43.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +209,22 @@
       "text": "the bank and its customer owe a large number of obligations to one another.",
       "translation": "",
       "startTime": 43.76,
-      "endTime": 49.71
+      "endTime": 49.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +232,16 @@
       "text": "Many of these obligations can give rise to problems and complications but a bank customer, unlike, say, a buyer of goods,",
       "translation": "",
       "startTime": 49.72,
-      "endTime": 58.86
+      "endTime": 58.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +249,31 @@
       "text": "cannot complain that the law is loaded against him.",
       "translation": "",
       "startTime": 58.87,
-      "endTime": 62.58
+      "endTime": 62.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +281,22 @@
       "text": "The bank must obey its customer's instructions, and not those of anyone else.",
       "translation": "",
       "startTime": 62.59,
-      "endTime": 67.78
+      "endTime": 67.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +304,16 @@
       "text": "When, for example, a customer first opens an account, he instructs the bank to debit his account only in respect of cheques drawn by himself.",
       "translation": "",
       "startTime": 67.79,
-      "endTime": 77.87
+      "endTime": 77.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +321,35 @@
       "text": "He gives the bank specimens of his signature, and there is a very firm rule",
       "translation": "",
       "startTime": 77.88,
-      "endTime": 82.81
+      "endTime": 82.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +357,22 @@
       "text": "that the bank has no right or authority to pay out a customer's money on a cheque",
       "translation": "",
       "startTime": 82.82,
-      "endTime": 87.93
+      "endTime": 87.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +380,16 @@
       "text": "on which its customer's signature has been forged.",
       "translation": "",
       "startTime": 87.94,
-      "endTime": 91.89
+      "endTime": 91.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +397,40 @@
       "text": "It makes no difference that the forgery may have been a very skillful one:",
       "translation": "",
       "startTime": 91.9,
-      "endTime": 96.47
+      "endTime": 96.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +438,16 @@
       "text": "the bank must recognize its customer's signature.",
       "translation": "",
       "startTime": 96.48,
-      "endTime": 100.23
+      "endTime": 100.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -154,7 +455,40 @@
       "text": "For this reason there is no risk to the customer in the practice, adopted by banks, of printing the customer's name on his cheques.",
       "translation": "",
       "startTime": 100.24,
-      "endTime": 108.99
+      "endTime": 108.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +496,45 @@
       "text": "If this facilitates forgery, it is the bank which will lose, not the customer.",
       "translation": "",
       "startTime": 109,
-      "endTime": 114
+      "endTime": 114,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

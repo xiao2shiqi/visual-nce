@@ -10,7 +10,17 @@
       "text": "Lesson 48",
       "translation": "",
       "startTime": 0.7,
-      "endTime": 2.49
+      "endTime": 2.49,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "How does the older investor differ in his approach to investment from the younger investor?",
       "translation": "",
       "startTime": 10.35,
-      "endTime": 19.16
+      "endTime": 19.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "There is no shortage of tipsters around offering 'get-rich-quick' opportunities.",
       "translation": "",
       "startTime": 19.17,
-      "endTime": 24.87
+      "endTime": 24.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,22 @@
       "text": "But if you are a serious private investor, leave the Las Vegas mentality to those with money to fritter.",
       "translation": "",
       "startTime": 24.88,
-      "endTime": 32.4
+      "endTime": 32.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +113,27 @@
       "text": "But exactly how does a newcomer to the stock market go about achieving that?",
       "translation": "",
       "startTime": 41.88,
-      "endTime": 48.14
+      "endTime": 48.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +141,46 @@
       "text": "Well, if you go to five reputable stock brokers and ask them what you should do with your money,",
       "translation": "",
       "startTime": 48.15,
-      "endTime": 54.43
+      "endTime": 54.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +188,17 @@
       "text": "you're likely to get five different answers,",
       "translation": "",
       "startTime": 54.44,
-      "endTime": 57.31
+      "endTime": 57.31,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +206,40 @@
       "text": "--  even if you give all the relevant information about your age, family, finances and what you want from your investments.",
       "translation": "",
       "startTime": 57.32,
-      "endTime": 65.47
+      "endTime": 65.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +247,22 @@
       "text": "Moral? There is no one 'right' way to structure a portfolio.",
       "translation": "",
       "startTime": 65.48,
-      "endTime": 70.43
+      "endTime": 70.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +270,40 @@
       "text": "However, there are undoubtedly some wrong ways, and you can be sure that none of our five advisers",
       "translation": "",
       "startTime": 70.44,
-      "endTime": 77.22
+      "endTime": 77.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +311,22 @@
       "text": "would have suggested sinking all (or perhaps any) of your money into Periwigs.",
       "translation": "",
       "startTime": 77.23,
-      "endTime": 83.35
+      "endTime": 83.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +334,27 @@
       "text": "So what should you do?",
       "translation": "",
       "startTime": 83.36,
-      "endTime": 85.2
+      "endTime": 85.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +362,32 @@
       "text": "We'll assume that you have sorted out the basics--like mortgages, pensions, insurance and access to sufficient cash reserves.",
       "translation": "",
       "startTime": 85.21,
-      "endTime": 93.99
+      "endTime": 93.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +395,27 @@
       "text": "You should then establish your own individual aims.",
       "translation": "",
       "startTime": 94,
-      "endTime": 97.55
+      "endTime": 97.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +423,16 @@
       "text": "These are partly a matter of personal circumstances, partly a matter of psychology.",
       "translation": "",
       "startTime": 97.56,
-      "endTime": 103.66
+      "endTime": 103.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +440,36 @@
       "text": "For instance, if you are older you have less time to recover from any major losses, and you may well wish to boost your pension income.",
       "translation": "",
       "startTime": 103.67,
-      "endTime": 113.08
+      "endTime": 113.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +477,30 @@
       "text": "So preserving your capital and generating extra income are your main priorities.",
       "translation": "",
       "startTime": 113.09,
-      "endTime": 119.35
+      "endTime": 119.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +508,27 @@
       "text": "In this case, you'd probably construct a portfolio with some shares (but not high risk ones), along with gilts, cash deposits,",
       "translation": "",
       "startTime": 119.36,
-      "endTime": 128.99
+      "endTime": 128.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +544,22 @@
       "text": "If you are younger, and in a solid financial position,",
       "translation": "",
       "startTime": 135.11,
-      "endTime": 139.48
+      "endTime": 139.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +567,17 @@
       "text": "you may decide to take an aggressive approach--but only if you're blessed with a sanguine disposition and won't suffer sleepless nights over share prices.",
       "translation": "",
       "startTime": 139.49,
-      "endTime": 149.67
+      "endTime": 149.67,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +585,27 @@
       "text": "If you recognize yourself in this description,",
       "translation": "",
       "startTime": 149.68,
-      "endTime": 152.71
+      "endTime": 152.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +613,31 @@
       "text": "you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments.",
       "translation": "",
       "startTime": 152.72,
-      "endTime": 160.95
+      "endTime": 160.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +645,31 @@
       "text": "Once you have decided on your investment aims you can then decide where to put your money.",
       "translation": "",
       "startTime": 160.96,
-      "endTime": 167.64
+      "endTime": 167.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +677,45 @@
       "text": "The golden rule here is spread your risk--if you put all of your money into Periwigs International,",
       "translation": "",
       "startTime": 167.65,
-      "endTime": 175.43
+      "endTime": 175.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s24",

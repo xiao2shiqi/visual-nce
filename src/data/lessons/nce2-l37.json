@@ -10,7 +10,22 @@
       "text": "When was the last time this country",
       "translation": "",
       "startTime": 10.34,
-      "endTime": 12.96
+      "endTime": 12.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +41,16 @@
       "text": "The Olympic Games will be held",
       "translation": "",
       "startTime": 17,
-      "endTime": 18.97
+      "endTime": 18.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +58,16 @@
       "text": "in our country in four years' time.",
       "translation": "",
       "startTime": 18.98,
-      "endTime": 22.59
+      "endTime": 22.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +75,16 @@
       "text": "As a great many people will be",
       "translation": "",
       "startTime": 22.6,
-      "endTime": 25.13
+      "endTime": 25.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -58,7 +100,16 @@
       "text": "the government will be building new hotels,",
       "translation": "",
       "startTime": 26.97,
-      "endTime": 30.44
+      "endTime": 30.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -82,7 +133,16 @@
       "text": "They will also be building new roads",
       "translation": "",
       "startTime": 36.32,
-      "endTime": 39.28
+      "endTime": 39.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -98,7 +158,16 @@
       "text": "The Games will be held just outside the capital",
       "translation": "",
       "startTime": 42.09,
-      "endTime": 45.89
+      "endTime": 45.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +175,16 @@
       "text": "and the whole area will be called 'Olympic City'.",
       "translation": "",
       "startTime": 45.9,
-      "endTime": 50.48
+      "endTime": 50.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +192,16 @@
       "text": "Workers will have completed the new roads",
       "translation": "",
       "startTime": 50.49,
-      "endTime": 53.24
+      "endTime": 53.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +209,22 @@
       "text": "by the end of this year.",
       "translation": "",
       "startTime": 53.25,
-      "endTime": 55.81
+      "endTime": 55.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +240,16 @@
       "text": "they will have finished work on the new stadium.",
       "translation": "",
       "startTime": 58.16,
-      "endTime": 62.03
+      "endTime": 62.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -162,7 +273,16 @@
       "text": "Everybody will be watching anxiously",
       "translation": "",
       "startTime": 68.47,
-      "endTime": 71.31
+      "endTime": 71.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s17",
@@ -178,7 +298,30 @@
       "text": "We are all very excited and are looking forward to",
       "translation": "",
       "startTime": 74.63,
-      "endTime": 78.74
+      "endTime": 78.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -194,7 +337,22 @@
       "text": "they have never been held before in this country.",
       "translation": "",
       "startTime": 80.74,
-      "endTime": 85.74
+      "endTime": 85.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     }
   ]
 }

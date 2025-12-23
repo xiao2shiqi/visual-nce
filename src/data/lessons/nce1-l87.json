@@ -10,7 +10,17 @@
       "text": "Lesson 87",
       "translation": "",
       "startTime": 0.67,
-      "endTime": 3.06
+      "endTime": 3.06,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "A car crash",
       "translation": "",
       "startTime": 3.07,
-      "endTime": 5.53
+      "endTime": 5.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.54,
-      "endTime": 11.38
+      "endTime": 11.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,17 @@
       "text": "Can the mechanics repair Mr. Wood's car?",
       "translation": "",
       "startTime": 11.39,
-      "endTime": 17.38
+      "endTime": 17.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +87,36 @@
       "text": "Is my car ready yet?",
       "translation": "",
       "startTime": 17.39,
-      "endTime": 20.11
+      "endTime": 20.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +124,17 @@
       "text": "I don't know, sir.",
       "translation": "",
       "startTime": 20.12,
-      "endTime": 22.26
+      "endTime": 22.26,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +142,32 @@
       "text": "What's the number of your car?",
       "translation": "",
       "startTime": 22.27,
-      "endTime": 25.56
+      "endTime": 25.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +175,16 @@
       "text": "It's LFZ 312 G.",
       "translation": "",
       "startTime": 25.57,
-      "endTime": 32.17
+      "endTime": 32.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +192,27 @@
       "text": "When did you bring it to us?",
       "translation": "",
       "startTime": 32.18,
-      "endTime": 35.39
+      "endTime": 35.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +220,27 @@
       "text": "I brought it here three days ago.",
       "translation": "",
       "startTime": 35.4,
-      "endTime": 39.1
+      "endTime": 39.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +248,17 @@
       "text": "Ah yes, I remember now.",
       "translation": "",
       "startTime": 39.11,
-      "endTime": 42.94
+      "endTime": 42.94,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +266,22 @@
       "text": "Have your mechanics finished yet?",
       "translation": "",
       "startTime": 42.95,
-      "endTime": 46.26
+      "endTime": 46.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +289,22 @@
       "text": "No, they're still working on it.",
       "translation": "",
       "startTime": 46.27,
-      "endTime": 49.55
+      "endTime": 49.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +312,32 @@
       "text": "Let's go into the garage and have a look at it.",
       "translation": "",
       "startTime": 49.56,
-      "endTime": 55.75
+      "endTime": 55.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +345,36 @@
       "text": "Isn't that your car?",
       "translation": "",
       "startTime": 55.76,
-      "endTime": 58.74
+      "endTime": 58.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +382,41 @@
       "text": "Well, it was my car.",
       "translation": "",
       "startTime": 58.75,
-      "endTime": 62.53
+      "endTime": 62.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +424,17 @@
       "text": "Didn't you have a crash?",
       "translation": "",
       "startTime": 62.54,
-      "endTime": 65.22
+      "endTime": 65.22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +450,22 @@
       "text": "I drove it into a lamp-post.",
       "translation": "",
       "startTime": 66.95,
-      "endTime": 70.39
+      "endTime": 70.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +473,31 @@
       "text": "Can your mechanics repair it?",
       "translation": "",
       "startTime": 70.4,
-      "endTime": 73.53
+      "endTime": 73.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +505,32 @@
       "text": "Well, they're trying to repair it, sir.",
       "translation": "",
       "startTime": 73.54,
-      "endTime": 77.01
+      "endTime": 77.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +538,22 @@
       "text": "But to tell you the truth, you need a new car!",
       "translation": "",
       "startTime": 77.02,
-      "endTime": 82.02
+      "endTime": 82.02,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,27 @@
       "text": "What happened to the man in the boat?",
       "translation": "",
       "startTime": 9.99,
-      "endTime": 13.77
+      "endTime": 13.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +38,40 @@
       "text": "The Wayle is a small river that cuts across the park near my home.",
       "translation": "",
       "startTime": 13.78,
-      "endTime": 20.01
+      "endTime": 20.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +79,17 @@
       "text": "I like sitting by the Wayle on fine afternoons.",
       "translation": "",
       "startTime": 20.02,
-      "endTime": 24.72
+      "endTime": 24.72,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +97,22 @@
       "text": "It was warm last Sunday, so I went and sat on the river bank as usual.",
       "translation": "",
       "startTime": 24.73,
-      "endTime": 32.2
+      "endTime": 32.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +128,31 @@
       "text": "Suddenly, one of the children kicked a ball very hard and it went towards a passing boat.",
       "translation": "",
       "startTime": 39.58,
-      "endTime": 48.03
+      "endTime": 48.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +160,22 @@
       "text": "Some people on the bank called out to the man in the boat, but he did not hear them.",
       "translation": "",
       "startTime": 48.04,
-      "endTime": 55.55
+      "endTime": 55.55,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +183,22 @@
       "text": "The ball struck him so hard that he nearly fell into the water.",
       "translation": "",
       "startTime": 55.56,
-      "endTime": 62.51
+      "endTime": 62.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +206,22 @@
       "text": "I turned to look at the children, but there weren't any in sight: they had all run away!",
       "translation": "",
       "startTime": 62.52,
-      "endTime": 70.22
+      "endTime": 70.22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +229,27 @@
       "text": "The man laughed when he realized what had happened.",
       "translation": "",
       "startTime": 70.23,
-      "endTime": 74.82
+      "endTime": 74.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s7",

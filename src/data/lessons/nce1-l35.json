@@ -10,7 +10,17 @@
       "text": "Lesson 35",
       "translation": "",
       "startTime": 0.68,
-      "endTime": 3.2
+      "endTime": 3.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,16 @@
       "text": "Our village",
       "translation": "",
       "startTime": 3.21,
-      "endTime": 6.05
+      "endTime": 6.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.06,
-      "endTime": 11.73
+      "endTime": 11.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,26 @@
       "text": "Are the children coming out of the park or going into it?",
       "translation": "",
       "startTime": 11.74,
-      "endTime": 18.96
+      "endTime": 18.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +95,35 @@
       "text": "This is a photograph of our village.",
       "translation": "",
       "startTime": 18.97,
-      "endTime": 23.49
+      "endTime": 23.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +131,26 @@
       "text": "Our village is in a valley.",
       "translation": "",
       "startTime": 23.5,
-      "endTime": 26.88
+      "endTime": 26.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +158,31 @@
       "text": "It is between two hills.",
       "translation": "",
       "startTime": 26.89,
-      "endTime": 30.23
+      "endTime": 30.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +190,22 @@
       "text": "The village is on a river.",
       "translation": "",
       "startTime": 30.24,
-      "endTime": 34.68
+      "endTime": 34.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +213,27 @@
       "text": "Here is another photograph of the village.",
       "translation": "",
       "startTime": 34.69,
-      "endTime": 39.61
+      "endTime": 39.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +241,26 @@
       "text": "My wife and I are walking along the banks of the river.",
       "translation": "",
       "startTime": 39.62,
-      "endTime": 46.38
+      "endTime": 46.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +268,16 @@
       "text": "We are on the left.",
       "translation": "",
       "startTime": 46.39,
-      "endTime": 49.58
+      "endTime": 49.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +285,22 @@
       "text": "There is a boy in the water.",
       "translation": "",
       "startTime": 49.59,
-      "endTime": 52.92
+      "endTime": 52.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +308,22 @@
       "text": "He is swimming across the river.",
       "translation": "",
       "startTime": 52.93,
-      "endTime": 58.25
+      "endTime": 58.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +331,27 @@
       "text": "Here is another photograph.",
       "translation": "",
       "startTime": 58.26,
-      "endTime": 61.75
+      "endTime": 61.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +359,36 @@
       "text": "This is the school building.",
       "translation": "",
       "startTime": 61.76,
-      "endTime": 64.75
+      "endTime": 64.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +396,31 @@
       "text": "It is beside a park.",
       "translation": "",
       "startTime": 64.76,
-      "endTime": 68.08
+      "endTime": 68.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +428,22 @@
       "text": "The park is on the right.",
       "translation": "",
       "startTime": 68.09,
-      "endTime": 71.51
+      "endTime": 71.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +451,16 @@
       "text": "Some children are coming out of the building.",
       "translation": "",
       "startTime": 71.52,
-      "endTime": 75.98
+      "endTime": 75.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -154,7 +468,16 @@
       "text": "Some of them are going into the park.",
       "translation": "",
       "startTime": 75.99,
-      "endTime": 80.99
+      "endTime": 80.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

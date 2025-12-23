@@ -10,7 +10,17 @@
       "text": "Lesson 43",
       "translation": "",
       "startTime": 0.78,
-      "endTime": 3.15
+      "endTime": 3.15,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.71,
-      "endTime": 11.32
+      "endTime": 11.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,32 @@
       "text": "How do you know Sam doesn't make the tea very often?",
       "translation": "",
       "startTime": 11.33,
-      "endTime": 18.2
+      "endTime": 18.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +92,17 @@
       "text": "Can you make the tea, Sam?",
       "translation": "",
       "startTime": 18.21,
-      "endTime": 22.13
+      "endTime": 22.13,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +110,17 @@
       "text": "Yes, of course I can, Penny.",
       "translation": "",
       "startTime": 22.14,
-      "endTime": 27.29
+      "endTime": 27.29,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +128,31 @@
       "text": "Is there any water in this kettle?",
       "translation": "",
       "startTime": 27.3,
-      "endTime": 31
+      "endTime": 31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +160,27 @@
       "text": "Yes, there is.",
       "translation": "",
       "startTime": 31.01,
-      "endTime": 33.6
+      "endTime": 33.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +196,16 @@
       "text": "It's over there, behind the teapot.",
       "translation": "",
       "startTime": 35.39,
-      "endTime": 40.98
+      "endTime": 40.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +213,27 @@
       "text": "Can you see it?",
       "translation": "",
       "startTime": 40.99,
-      "endTime": 43.55
+      "endTime": 43.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +241,16 @@
       "text": "I can see the teapot, but I can't see the tea.",
       "translation": "",
       "startTime": 43.56,
-      "endTime": 49.72
+      "endTime": 49.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +258,31 @@
       "text": "There it is!",
       "translation": "",
       "startTime": 49.73,
-      "endTime": 51.34
+      "endTime": 51.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +290,22 @@
       "text": "It's in front of you!",
       "translation": "",
       "startTime": 51.35,
-      "endTime": 53.55
+      "endTime": 53.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +313,27 @@
       "text": "Ah yes, I can see it now.",
       "translation": "",
       "startTime": 53.56,
-      "endTime": 58.78
+      "endTime": 58.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +341,16 @@
       "text": "Where are the cups?",
       "translation": "",
       "startTime": 58.79,
-      "endTime": 61.22
+      "endTime": 61.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +358,16 @@
       "text": "There are some in the cupboard.",
       "translation": "",
       "startTime": 61.23,
-      "endTime": 64.09
+      "endTime": 64.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s14",
@@ -146,7 +375,17 @@
       "text": "Can you find them?",
       "translation": "",
       "startTime": 64.1,
-      "endTime": 66.21
+      "endTime": 66.21,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +393,27 @@
       "text": "Yes. Here they are.",
       "translation": "",
       "startTime": 66.22,
-      "endTime": 69.12
+      "endTime": 69.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s16",

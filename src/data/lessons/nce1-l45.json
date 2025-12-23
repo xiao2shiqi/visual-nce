@@ -10,7 +10,17 @@
       "text": "Lesson 45",
       "translation": "",
       "startTime": 0.31,
-      "endTime": 3.01
+      "endTime": 3.01,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.17,
-      "endTime": 11.9
+      "endTime": 11.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +67,27 @@
       "text": "Can you come here a minute please, Bob?",
       "translation": "",
       "startTime": 17.66,
-      "endTime": 21.76
+      "endTime": 21.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +95,22 @@
       "text": "Yes, sir?",
       "translation": "",
       "startTime": 21.77,
-      "endTime": 24.02
+      "endTime": 24.02,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -74,7 +134,22 @@
       "text": "She's in her office, sir.",
       "translation": "",
       "startTime": 28.24,
-      "endTime": 31.47
+      "endTime": 31.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +157,31 @@
       "text": "Can she type this letter for me?",
       "translation": "",
       "startTime": 31.48,
-      "endTime": 35.18
+      "endTime": 35.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +189,22 @@
       "text": "Ask her please.",
       "translation": "",
       "startTime": 35.19,
-      "endTime": 36.91
+      "endTime": 36.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +212,22 @@
       "text": "Yes, sir.",
       "translation": "",
       "startTime": 36.92,
-      "endTime": 39.3
+      "endTime": 39.3,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Sir",
+            "pos": "n.",
+            "meaning": "先生"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +235,32 @@
       "text": "Can you type this letter for the boss please, Pamela?",
       "translation": "",
       "startTime": 39.31,
-      "endTime": 44.14
+      "endTime": 44.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +268,17 @@
       "text": "Yes, of course I can.",
       "translation": "",
       "startTime": 44.15,
-      "endTime": 47.74
+      "endTime": 47.74,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +286,27 @@
       "text": "Here you are.",
       "translation": "",
       "startTime": 47.75,
-      "endTime": 49.35
+      "endTime": 49.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +314,22 @@
       "text": "Thank you, Bob.",
       "translation": "",
       "startTime": 49.36,
-      "endTime": 51.87
+      "endTime": 51.87,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +345,17 @@
       "text": "Yes?",
       "translation": "",
       "startTime": 52.73,
-      "endTime": 53.93
+      "endTime": 53.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +371,22 @@
       "text": "I can't type this letter.",
       "translation": "",
       "startTime": 56.11,
-      "endTime": 59.29
+      "endTime": 59.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +394,22 @@
       "text": "I can't read it!",
       "translation": "",
       "startTime": 59.3,
-      "endTime": 61.58
+      "endTime": 61.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +417,22 @@
       "text": "The boss's handwriting is terrible!",
       "translation": "",
       "startTime": 61.59,
-      "endTime": 66.59
+      "endTime": 66.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

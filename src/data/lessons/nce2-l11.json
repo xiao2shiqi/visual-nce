@@ -18,7 +18,17 @@
       "text": "I was having dinner at a restaurant when Tony Steele came in.",
       "translation": "",
       "startTime": 14.36,
-      "endTime": 19.89
+      "endTime": 19.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +44,27 @@
       "text": "but he is now working at a bank.",
       "translation": "",
       "startTime": 23.42,
-      "endTime": 27.03
+      "endTime": 27.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +80,26 @@
       "text": "but he always borrows money from his friends and never pays it back.",
       "translation": "",
       "startTime": 29.43,
-      "endTime": 35.6
+      "endTime": 35.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +107,27 @@
       "text": "Tony saw me and came and sat at the same table.",
       "translation": "",
       "startTime": 35.61,
-      "endTime": 39.93
+      "endTime": 39.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +135,22 @@
       "text": "He has never borrowed money from me.",
       "translation": "",
       "startTime": 39.94,
-      "endTime": 43.18
+      "endTime": 43.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +158,22 @@
       "text": "While he was eating, I asked him to lend me twenty pounds.",
       "translation": "",
       "startTime": 43.19,
-      "endTime": 48.32
+      "endTime": 48.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +181,31 @@
       "text": "To my surprise, he gave me the money immediately.",
       "translation": "",
       "startTime": 48.33,
-      "endTime": 53.77
+      "endTime": 53.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +213,17 @@
       "text": "'I have never borrowed any money from you,'",
       "translation": "",
       "startTime": 53.78,
-      "endTime": 56.76
+      "endTime": 56.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +231,27 @@
       "text": "Tony said, 'so now you can pay for my dinner!'",
       "translation": "",
       "startTime": 56.77,
-      "endTime": 61.77
+      "endTime": 61.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     }
   ]
 }

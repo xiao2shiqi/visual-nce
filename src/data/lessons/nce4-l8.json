@@ -10,7 +10,17 @@
       "text": "Lesson 8",
       "translation": "",
       "startTime": 0.53,
-      "endTime": 1.59
+      "endTime": 1.59,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What makes trading between rich countries difficult?",
       "translation": "",
       "startTime": 7.22,
-      "endTime": 13.08
+      "endTime": 13.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "Chickens slaughtered in the United States, claim officials in Brussels, are not fit to grace European tables.",
       "translation": "",
       "startTime": 13.09,
-      "endTime": 21.99
+      "endTime": 21.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,26 @@
       "text": "No, say the Americans: our fowl are fine, we simply clean them in a different way.",
       "translation": "",
       "startTime": 22,
-      "endTime": 28.93
+      "endTime": 28.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +109,40 @@
       "text": "These days, it is differences in national regulations, far more than tariffs, that put sand in the wheels of trade between rich countries.",
       "translation": "",
       "startTime": 28.94,
-      "endTime": 39.32
+      "endTime": 39.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +150,40 @@
       "text": "It is not just farmers who are complaining.",
       "translation": "",
       "startTime": 39.33,
-      "endTime": 42.32
+      "endTime": 42.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +191,40 @@
       "text": "An electric razor that meets the European Union's safety standards must be approved by American testers before it can be sold in the United States, and an American-made dialysis machine needs the EU's okay before it hits the market in Europe.",
       "translation": "",
       "startTime": 42.33,
-      "endTime": 61.15
+      "endTime": 61.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "American",
+            "pos": "adj.",
+            "meaning": "美国的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +232,44 @@
       "text": "As it happens, a razor that is safe in Europe is unlikely to electrocute Americans.",
       "translation": "",
       "startTime": 61.16,
-      "endTime": 67.59
+      "endTime": 67.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +277,16 @@
       "text": "So, ask businesses on both sides of the Atlantic, why have two lots of tests where one would do?",
       "translation": "",
       "startTime": 67.6,
-      "endTime": 75.56
+      "endTime": 75.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -98,7 +302,16 @@
       "text": "They hope to finish in time for a trade summit between America and the EU on May 28th.",
       "translation": "",
       "startTime": 85.21,
-      "endTime": 92
+      "endTime": 92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "May",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +319,35 @@
       "text": "Although negotiators are optimistic, the details are complex enough that they may be hard-pressed to get a deal at all.",
       "translation": "",
       "startTime": 92.01,
-      "endTime": 100.06
+      "endTime": 100.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +355,22 @@
       "text": "Why? One difficulty is to construct the agreements.",
       "translation": "",
       "startTime": 100.07,
-      "endTime": 104.68
+      "endTime": 104.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +386,17 @@
       "text": "The EU -- following fine continental traditions -- wants agreement on general principles,",
       "translation": "",
       "startTime": 116.39,
-      "endTime": 122.76
+      "endTime": 122.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Fine",
+            "pos": "adj.",
+            "meaning": "健康的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",

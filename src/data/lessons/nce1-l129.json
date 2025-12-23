@@ -10,7 +10,17 @@
       "translation": "看，加里！",
       "startTime": 19.23,
       "endTime": 21.07,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -19,7 +29,27 @@
       "translation": "那个警察正在向你挥手。",
       "startTime": 21.08,
       "endTime": 24.5,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -28,7 +58,17 @@
       "translation": "他希望你停下来。",
       "startTime": 24.51,
       "endTime": 27.9,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -37,7 +77,22 @@
       "translation": "你以为自己在哪里啊？",
       "startTime": 27.91,
       "endTime": 31.31,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -55,7 +110,22 @@
       "translation": "你当时肯定是以每小时70英里的速度在开车。",
       "startTime": 33.56,
       "endTime": 38.87,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -73,7 +143,17 @@
       "translation": "我超过你的时候，时速是八十英里。",
       "startTime": 41.85,
       "endTime": 46.36,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -82,7 +162,17 @@
       "translation": "你没看到限速标志吗？",
       "startTime": 46.37,
       "endTime": 49.76,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -100,7 +190,16 @@
       "translation": "我肯定是在做梦。",
       "startTime": 52.83,
       "endTime": 56,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -136,7 +235,31 @@
       "translation": "请让我看一下你的驾驶执照。",
       "startTime": 107.8,
       "endTime": 111.74,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -145,7 +268,27 @@
       "translation": "这次我就不罚你了。",
       "startTime": 111.75,
       "endTime": 114.75,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -154,7 +297,27 @@
       "translation": "但你最好别再这么做了！",
       "startTime": 114.76,
       "endTime": 118.43,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -163,7 +326,22 @@
       "translation": "谢谢。",
       "startTime": 118.44,
       "endTime": 119.73,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -181,7 +359,17 @@
       "translation": "我早就告诉过你要开慢一点，加里。",
       "startTime": 123.39,
       "endTime": 127.44,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -190,7 +378,27 @@
       "translation": "你总是让我开慢车，亲爱的。",
       "startTime": 127.45,
       "endTime": 131.78,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -199,7 +407,27 @@
       "translation": "嗯，下次你最好还是听我的建议吧！",
       "startTime": 131.79,
       "endTime": 136,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     }
   ],
   "image": "/images/nce1/l129/scene1.png"

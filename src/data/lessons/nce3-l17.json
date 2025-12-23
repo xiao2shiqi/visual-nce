@@ -10,7 +10,17 @@
       "text": "Lesson 17",
       "translation": "",
       "startTime": 0.29,
-      "endTime": 2.82
+      "endTime": 2.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,27 @@
       "text": "How is the bridge supported?",
       "translation": "",
       "startTime": 12.3,
-      "endTime": 16.66
+      "endTime": 16.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +64,36 @@
       "text": "Verrazano, an Italian about whom little is known, sailed into New York Harbour in 1524 and named it Angouleme.",
       "translation": "",
       "startTime": 16.67,
-      "endTime": 28.42
+      "endTime": 28.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Italian",
+            "pos": "adj.",
+            "meaning": "意大利的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +101,31 @@
       "text": "He described it as 'a very agreeable situation located within two small hills in the midst of which flowed a great river.'",
       "translation": "",
       "startTime": 28.43,
-      "endTime": 39.42
+      "endTime": 39.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +133,31 @@
       "text": "Though Verrazano is by no means considered to be a great explorer, his name will probably remain immortal,",
       "translation": "",
       "startTime": 39.43,
-      "endTime": 48.06
+      "endTime": 48.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -74,7 +181,22 @@
       "text": "It has a span of 4, 260 feet.",
       "translation": "",
       "startTime": 67.72,
-      "endTime": 72.51
+      "endTime": 72.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +204,35 @@
       "text": "The bridge is so long that the shape of the earth had to be taken into account by its designer.",
       "translation": "",
       "startTime": 72.52,
-      "endTime": 79.91
+      "endTime": 79.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +248,16 @@
       "text": "The towers are built on immense underwater platforms made of steel and concrete.",
       "translation": "",
       "startTime": 85.53,
-      "endTime": 92.27
+      "endTime": 92.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -146,7 +305,39 @@
       "text": "It has been estimated that if the bridge were packed with cars, it would still only be carrying a third of its total capacity.",
       "translation": "",
       "startTime": 119.62,
-      "endTime": 129.72
+      "endTime": 129.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +345,31 @@
       "text": "However, size and strength are not the only important things about this bridge.",
       "translation": "",
       "startTime": 129.73,
-      "endTime": 135.92
+      "endTime": 135.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +377,35 @@
       "text": "Despite its immensity, it is both simple and elegant,",
       "translation": "",
       "startTime": 135.93,
-      "endTime": 141.48
+      "endTime": 141.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +413,16 @@
       "text": "fulfilling its designer's dream to creat 'an enormous object drawn as faintly as possible'.",
       "translation": "",
       "startTime": 141.49,
-      "endTime": 146.49
+      "endTime": 146.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

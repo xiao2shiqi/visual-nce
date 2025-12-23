@@ -10,7 +10,17 @@
       "text": "Lesson 36",
       "translation": "",
       "startTime": 0.73,
-      "endTime": 3.65
+      "endTime": 3.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,39 @@
       "text": "If a nation is essentialy disunited, it is left to the government to hold it together.",
       "translation": "",
       "startTime": 21.57,
-      "endTime": 27.96
+      "endTime": 27.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +84,31 @@
       "text": "This increases the expense of government, and reduces correspondingly the amount of economic resources that could be used for developing the country.",
       "translation": "",
       "startTime": 27.97,
-      "endTime": 39.41
+      "endTime": 39.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +116,36 @@
       "text": "And it should not be forgotten how small those resources are in a poor and backward country.",
       "translation": "",
       "startTime": 39.42,
-      "endTime": 45.73
+      "endTime": 45.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +153,26 @@
       "text": "Where the cost of government is high, resources for development are correspondingly low.",
       "translation": "",
       "startTime": 45.74,
-      "endTime": 52.65
+      "endTime": 52.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +180,31 @@
       "text": "This may be illustrated by comparing the position of a nation with that of a private business enterprise.",
       "translation": "",
       "startTime": 52.66,
-      "endTime": 59.83
+      "endTime": 59.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +220,20 @@
       "text": "For our purposes, we are concerned only with one kind of cost--the cost of managing and administering the business.",
       "translation": "",
       "startTime": 66.88,
-      "endTime": 75.35
+      "endTime": 75.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +241,16 @@
       "text": "Such administrative overheads in a business are analogous to the cost of government in a nation.",
       "translation": "",
       "startTime": 75.36,
-      "endTime": 82.52
+      "endTime": 82.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +258,26 @@
       "text": "The administrative overheads of a business are low to the extent that everyone working in the business",
       "translation": "",
       "startTime": 82.53,
-      "endTime": 88.2
+      "endTime": 88.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +285,22 @@
       "text": "can be trusted to behave in a way that best promotes the interests of the firm.",
       "translation": "",
       "startTime": 88.21,
-      "endTime": 94.05
+      "endTime": 94.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +308,16 @@
       "text": "If they can each be trusted to take such responsibilities,",
       "translation": "",
       "startTime": 94.06,
-      "endTime": 97.78
+      "endTime": 97.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +325,16 @@
       "text": "and to exercise such initiative as falls within their sphere, then administrative overheads will be low.",
       "translation": "",
       "startTime": 97.79,
-      "endTime": 106.4
+      "endTime": 106.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +342,49 @@
       "text": "It will be low because it will be necessary to have only one man looking after each job without having another man to check upon what he is doing,",
       "translation": "",
       "startTime": 106.41,
-      "endTime": 116.05
+      "endTime": 116.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +400,16 @@
       "text": "But if no one can be trusted to act in a loyal and responsible manner towards his job,",
       "translation": "",
       "startTime": 120.59,
-      "endTime": 126.87
+      "endTime": 126.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -154,7 +417,20 @@
       "text": "then the business will require armies of administrators, checkers and foremen and administrative overheads will rise correspondingly.",
       "translation": "",
       "startTime": 126.88,
-      "endTime": 136.65
+      "endTime": 136.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          },
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -162,7 +438,16 @@
       "text": "As administrative overheads rise, so the earnings of the business after meeting the expense of administration, will fall;",
       "translation": "",
       "startTime": 136.66,
-      "endTime": 144.75
+      "endTime": 144.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s17",
@@ -170,7 +455,16 @@
       "text": "and the business will have less money to distribute as dividends or invest directly in its future progress and development.",
       "translation": "",
       "startTime": 144.76,
-      "endTime": 152.85
+      "endTime": 152.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +472,31 @@
       "text": "It is precisely the same with a nation.",
       "translation": "",
       "startTime": 152.86,
-      "endTime": 156.05
+      "endTime": 156.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +504,22 @@
       "text": "To the extent that the people can be relied on to behave in a loyal and responsible manner,",
       "translation": "",
       "startTime": 156.06,
-      "endTime": 162.16
+      "endTime": 162.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +527,17 @@
       "text": "the government does not require armies of police and civil servants to keep them in order.",
       "translation": "",
       "startTime": 162.17,
-      "endTime": 168.59
+      "endTime": 168.59,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +545,31 @@
       "text": "But if a nation is disunited, the government cannot be sure that the actions of the people will be in the interests of the nation;",
       "translation": "",
       "startTime": 168.6,
-      "endTime": 177.2
+      "endTime": 177.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +577,31 @@
       "text": "and it will have to watch, check, and control the people accordingly.",
       "translation": "",
       "startTime": 177.21,
-      "endTime": 182.35
+      "endTime": 182.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          }
+        ]
+      }
     },
     {
       "id": "s23",

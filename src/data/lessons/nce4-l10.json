@@ -10,7 +10,17 @@
       "text": "Lesson 10",
       "translation": "",
       "startTime": 0.67,
-      "endTime": 2.02
+      "endTime": 2.02,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What does the computer industry thrive on apart from anarchy?",
       "translation": "",
       "startTime": 8.14,
-      "endTime": 14.58
+      "endTime": 14.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "Technology trends may push Silicon Valley back to the future.",
       "translation": "",
       "startTime": 14.59,
-      "endTime": 19.03
+      "endTime": 19.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "may",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +76,40 @@
       "text": "Carver Mead, a pioneer in integrated circuits and a professor of computer science at the California Institute of Technology, notes there are now workstations that enable engineers to design, test and produce chips right on their desks, much the way and editor creates a newsletter on a Macintosh.",
       "translation": "",
       "startTime": 19.04,
-      "endTime": 41.87
+      "endTime": 41.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +117,16 @@
       "text": "As the time and cost of making a chip drop to a few days and a few hundred dollars, engineers may soon be free to let their imaginations soar without being penalized by expensive failures.",
       "translation": "",
       "startTime": 41.88,
-      "endTime": 55.02
+      "endTime": 55.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +134,27 @@
       "text": "Mead predicts that inventors will be able to perfect powerful customized chips over a weekend at the office --",
       "translation": "",
       "startTime": 55.03,
-      "endTime": 62.3
+      "endTime": 62.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +162,16 @@
       "text": "spawning a new generation of garage start-ups and giving the U. S.  a jump on its foreign rivals in getting new products to market fast.",
       "translation": "",
       "startTime": 62.31,
-      "endTime": 73.09
+      "endTime": 73.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -82,7 +187,17 @@
       "text": "And on Asians. Already, orientals and Asian Americans constitute the majority of the engineering staffs at many Valley firms.",
       "translation": "",
       "startTime": 80.92,
-      "endTime": 91.08
+      "endTime": 91.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +205,27 @@
       "text": "And Chinese, Korean, Filipino and Indian engineers are graduating in droves from California's colleges.",
       "translation": "",
       "startTime": 91.09,
-      "endTime": 100.08
+      "endTime": 100.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Chinese",
+            "pos": "adj.",
+            "meaning": "中国的，中文"
+          },
+          {
+            "word": "Korean",
+            "pos": "adj.",
+            "meaning": "韩国的，韩语"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +233,16 @@
       "text": "As the heads of next-generation start-ups, these Asian innovators can draw on customs and languages to forge tighter links with crucial Pacific Rim markets.",
       "translation": "",
       "startTime": 100.09,
-      "endTime": 112.16
+      "endTime": 112.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -122,7 +266,22 @@
       "text": "Before it becomes a retirement village, Silicon Valley may prove a classroom for building a global business.",
       "translation": "",
       "startTime": 137.26,
-      "endTime": 142.26
+      "endTime": 142.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

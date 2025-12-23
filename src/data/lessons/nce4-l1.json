@@ -10,7 +10,17 @@
       "text": "Lesson 1",
       "translation": "",
       "startTime": 0.46,
-      "endTime": 2.58
+      "endTime": 2.58,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "Finding fossil man",
       "translation": "",
       "startTime": 2.59,
-      "endTime": 10.89
+      "endTime": 10.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,16 @@
       "text": "Why are legends handed down by storytellers useful?",
       "translation": "",
       "startTime": 10.9,
-      "endTime": 17.42
+      "endTime": 17.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +63,22 @@
       "text": "We can read of things that happened 5, 000 years ago in the Near East,",
       "translation": "",
       "startTime": 17.43,
-      "endTime": 23.27
+      "endTime": 23.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +94,16 @@
       "text": "But there are some parts of the world where even now people cannot write.",
       "translation": "",
       "startTime": 26.92,
-      "endTime": 33.39
+      "endTime": 33.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +111,44 @@
       "text": "The only way that they can preserve their history is to recount it as sagas legends handed down from one generation of storytellers to another.",
       "translation": "",
       "startTime": 33.4,
-      "endTime": 46.14
+      "endTime": 46.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +156,16 @@
       "text": "These legends are useful because they can tell us something about migrations of people who lived long ago,",
       "translation": "",
       "startTime": 46.15,
-      "endTime": 54.21
+      "endTime": 54.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +173,22 @@
       "text": "but none could write down what they did.",
       "translation": "",
       "startTime": 54.22,
-      "endTime": 57.66
+      "endTime": 57.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +204,22 @@
       "text": "The sagas of these people explain that some of them came from Indonesia about 2, 000 years ago.",
       "translation": "",
       "startTime": 66.91,
-      "endTime": 75.25
+      "endTime": 75.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +227,30 @@
       "text": "But the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten.",
       "translation": "",
       "startTime": 75.26,
-      "endTime": 85.7
+      "endTime": 85.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -122,7 +274,31 @@
       "text": "because this is easier to shape than other kinds.",
       "translation": "",
       "startTime": 101.45,
-      "endTime": 105.73
+      "endTime": 105.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +306,16 @@
       "text": "They may also have used wood and skins, but these have rotted away.",
       "translation": "",
       "startTime": 105.74,
-      "endTime": 112.15
+      "endTime": 112.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "may",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +323,17 @@
       "text": "Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.",
       "translation": "",
       "startTime": 112.16,
-      "endTime": 117.16
+      "endTime": 117.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

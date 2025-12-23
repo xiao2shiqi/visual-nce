@@ -10,7 +10,17 @@
       "text": "Lesson 19",
       "translation": "",
       "startTime": 0.65,
-      "endTime": 2.85
+      "endTime": 2.85,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "Tired and thirsty",
       "translation": "",
       "startTime": 2.86,
-      "endTime": 6.23
+      "endTime": 6.23,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Tired",
+            "pos": "adj.",
+            "meaning": "疲劳的"
+          },
+          {
+            "word": "Thirsty",
+            "pos": "adj.",
+            "meaning": "口渴的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.24,
-      "endTime": 12.27
+      "endTime": 12.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +74,22 @@
       "text": "Why do the children thank their mother?",
       "translation": "",
       "startTime": 12.28,
-      "endTime": 17.94
+      "endTime": 17.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +105,17 @@
       "text": "We're tired ...",
       "translation": "",
       "startTime": 20.85,
-      "endTime": 22.7
+      "endTime": 22.7,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Tired",
+            "pos": "adj.",
+            "meaning": "疲劳的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +123,17 @@
       "text": "... and thirsty  Mum.",
       "translation": "",
       "startTime": 22.71,
-      "endTime": 25.25
+      "endTime": 25.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thirsty",
+            "pos": "adj.",
+            "meaning": "口渴的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +141,17 @@
       "text": "Sit down here.",
       "translation": "",
       "startTime": 25.26,
-      "endTime": 27.81
+      "endTime": 27.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +159,22 @@
       "text": "Are you all right now?",
       "translation": "",
       "startTime": 27.82,
-      "endTime": 30.1
+      "endTime": 30.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +190,17 @@
       "text": "Look!",
       "translation": "",
       "startTime": 32.52,
-      "endTime": 33.6
+      "endTime": 33.6,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +208,17 @@
       "text": "There's an ice cream man.",
       "translation": "",
       "startTime": 33.61,
-      "endTime": 36.93
+      "endTime": 36.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +226,17 @@
       "text": "Two ice cream please.",
       "translation": "",
       "startTime": 36.94,
-      "endTime": 40.67
+      "endTime": 40.67,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +244,27 @@
       "text": "Here you are children.",
       "translation": "",
       "startTime": 40.68,
-      "endTime": 43.65
+      "endTime": 43.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +272,17 @@
       "text": "Thanks Mum.",
       "translation": "",
       "startTime": 43.66,
-      "endTime": 46.08
+      "endTime": 46.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thanks",
+            "pos": "n.",
+            "meaning": "谢谢"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +290,22 @@
       "text": "These ice creams are nice.",
       "translation": "",
       "startTime": 46.09,
-      "endTime": 49.81
+      "endTime": 49.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +313,22 @@
       "text": "Are you all right now?",
       "translation": "",
       "startTime": 49.82,
-      "endTime": 52.88
+      "endTime": 52.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +336,32 @@
       "text": "Yes we are thank you!",
       "translation": "",
       "startTime": 52.89,
-      "endTime": 57.89
+      "endTime": 57.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     }
   ]
 }

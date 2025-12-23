@@ -10,7 +10,17 @@
       "text": "Lesson 39",
       "translation": "",
       "startTime": 0.32,
-      "endTime": 2.18
+      "endTime": 2.18,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,31 @@
       "text": "What was the differnce between Bruce's behaviour and that of other people?",
       "translation": "",
       "startTime": 10.93,
-      "endTime": 18.54
+      "endTime": 18.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,22 @@
       "text": "The rough road across the plain soon became so bad that we tried to get Bruce to drive back to the village we had come from.",
       "translation": "",
       "startTime": 18.55,
-      "endTime": 28.48
+      "endTime": 28.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,17 @@
       "text": "Even though the road was littered with boulders and pitted with holes, Bruce was not in the least perturbed.",
       "translation": "",
       "startTime": 28.49,
-      "endTime": 37.63
+      "endTime": 37.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +109,31 @@
       "text": "Glancing at his map, he informed us that the next village was a mere twenty miles away.",
       "translation": "",
       "startTime": 37.64,
-      "endTime": 45.61
+      "endTime": 45.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +141,36 @@
       "text": "It was not that Bruce always underestimated difficulties.",
       "translation": "",
       "startTime": 45.62,
-      "endTime": 49.75
+      "endTime": 49.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +178,17 @@
       "text": "He simply had no sense of danger at all.",
       "translation": "",
       "startTime": 49.76,
-      "endTime": 53.86
+      "endTime": 53.86,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +196,45 @@
       "text": "No matter what the conditions were, he believed that a car should be driven as fast as it could possibly go.",
       "translation": "",
       "startTime": 53.87,
-      "endTime": 62.57
+      "endTime": 62.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +250,17 @@
       "text": "The wheels scooped up stones which hammered ominously under the car.",
       "translation": "",
       "startTime": 68.47,
-      "endTime": 74.89
+      "endTime": 74.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +268,26 @@
       "text": "We felt sure that sooner or later a stone would rip a hole in our petrol tank or damage the engine.",
       "translation": "",
       "startTime": 74.9,
-      "endTime": 83.59
+      "endTime": 83.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +295,22 @@
       "text": "Because of this, we kept looking back, wondering if we were leaving a trail of oil and petrol behind us.",
       "translation": "",
       "startTime": 83.6,
-      "endTime": 93.21
+      "endTime": 93.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +318,31 @@
       "text": "What a relief it was when the boulders suddenly disappeared,",
       "translation": "",
       "startTime": 93.22,
-      "endTime": 97.44
+      "endTime": 97.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -146,7 +374,17 @@
       "text": "Though we all got out to examine the fissure, he remained in the car.",
       "translation": "",
       "startTime": 116.77,
-      "endTime": 122.08
+      "endTime": 122.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +392,22 @@
       "text": "We informed him that the fissure extended for fifty yards and was two feet wide and four feet deep.",
       "translation": "",
       "startTime": 122.09,
-      "endTime": 131.3
+      "endTime": 131.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +415,22 @@
       "text": "Even this had no effect.",
       "translation": "",
       "startTime": 131.31,
-      "endTime": 134.87
+      "endTime": 134.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +438,17 @@
       "text": "Bruce went into a low gear and drove at a terrifying speed,",
       "translation": "",
       "startTime": 134.88,
-      "endTime": 140.66
+      "endTime": 140.66,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +456,16 @@
       "text": "keeping the front wheels astride the crack as he followed its zigzag course.",
       "translation": "",
       "startTime": 140.67,
-      "endTime": 147.13
+      "endTime": 147.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +473,22 @@
       "text": "Before we had time to worry about what might happen, we were back on the plain again.",
       "translation": "",
       "startTime": 147.14,
-      "endTime": 154.66
+      "endTime": 154.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +496,22 @@
       "text": "Bruce consulted the map once more and told us that the village was now only fifteen miles away.",
       "translation": "",
       "startTime": 154.67,
-      "endTime": 163.23
+      "endTime": 163.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +519,16 @@
       "text": "Our next obstacle was a shallow pool of water about half a mile across.",
       "translation": "",
       "startTime": 163.24,
-      "endTime": 169.11
+      "endTime": 169.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s22",
@@ -210,7 +536,32 @@
       "text": "Bruce charged at it, but in the middle, the car came to a grinding halt.",
       "translation": "",
       "startTime": 169.12,
-      "endTime": 175.95
+      "endTime": 175.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Car",
+            "pos": "n.",
+            "meaning": "轿车"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +569,27 @@
       "text": "A yellow light on the dashboard flashed angrily and Bruce cheerfully announced that there was no oil in the engine!",
       "translation": "",
       "startTime": 175.96,
-      "endTime": 180.96
+      "endTime": 180.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Yellow",
+            "pos": "adj.",
+            "meaning": "黄色的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

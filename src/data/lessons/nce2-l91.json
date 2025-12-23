@@ -18,7 +18,17 @@
       "text": "A pilot noticed a balloon which seemed to be making for a Royal Air Force station nearby.",
       "translation": "",
       "startTime": 16.33,
-      "endTime": 24.06
+      "endTime": 24.06,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +36,17 @@
       "text": "He informed the station at once, but no one there was able to explain the mystery.",
       "translation": "",
       "startTime": 24.07,
-      "endTime": 31.74
+      "endTime": 31.74,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +54,22 @@
       "text": "The officer in the control tower was very angry when he heard the news,",
       "translation": "",
       "startTime": 31.75,
-      "endTime": 37.88
+      "endTime": 37.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +77,16 @@
       "text": "because balloons can be a great danger to aircraft.",
       "translation": "",
       "startTime": 37.89,
-      "endTime": 42.82
+      "endTime": 42.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +94,22 @@
       "text": "He said that someone might be spying on the station and the pilot was ordered to keep track of the strange object.",
       "translation": "",
       "startTime": 42.83,
-      "endTime": 52.03
+      "endTime": 52.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +125,22 @@
       "text": "He could make out three men in a basket under it and one of them was holding a pair of binoculars.",
       "translation": "",
       "startTime": 56.94,
-      "endTime": 64.91
+      "endTime": 64.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +156,22 @@
       "text": "Soon afterwards, the balloon began to descend and it landed near an airfield.",
       "translation": "",
       "startTime": 72.18,
-      "endTime": 79.24
+      "endTime": 79.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +179,17 @@
       "text": "The police were called in, but they could not arrest anyone,",
       "translation": "",
       "startTime": 79.25,
-      "endTime": 84
+      "endTime": 84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +205,27 @@
       "text": "As the Commanding Officer explained later, one half of the station did not know what the other half was doing!",
       "translation": "",
       "startTime": 91.62,
-      "endTime": 96.62
+      "endTime": 96.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     }
   ]
 }

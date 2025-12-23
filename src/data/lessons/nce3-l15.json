@@ -10,7 +10,17 @@
       "text": "Lesson 15",
       "translation": "",
       "startTime": 0.44,
-      "endTime": 2.64
+      "endTime": 2.64,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,26 @@
       "text": "Did George get anything for his fifty pence? What?",
       "translation": "",
       "startTime": 10.16,
-      "endTime": 16.64
+      "endTime": 16.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +71,16 @@
       "text": "Mum or dad, of course, provides a regular supply of pocket money, but uncles and aunts are always a source of extra income.",
       "translation": "",
       "startTime": 20.6,
-      "endTime": 30.98
+      "endTime": 30.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -58,7 +96,22 @@
       "text": "If fifty pence pieces are not exchanged for sweets, they rattle for months inside money boxes.",
       "translation": "",
       "startTime": 35.17,
-      "endTime": 43.15
+      "endTime": 43.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +119,22 @@
       "text": "Only very thrifty children manage to fill up a money box.",
       "translation": "",
       "startTime": 43.16,
-      "endTime": 48.58
+      "endTime": 48.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +142,27 @@
       "text": "For most of them, fifty pence is a small price to pay for a nice big bar of chocolate.",
       "translation": "",
       "startTime": 48.59,
-      "endTime": 56.94
+      "endTime": 56.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +170,40 @@
       "text": "My nephew, George, has a money box but it is always empty.",
       "translation": "",
       "startTime": 56.95,
-      "endTime": 62.33
+      "endTime": 62.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +211,26 @@
       "text": "Very few of the fifty pence pieces and pound coins I have given him have found their way there.",
       "translation": "",
       "startTime": 62.34,
-      "endTime": 70.04
+      "endTime": 70.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Very",
+            "label": "程度副词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +238,22 @@
       "text": "I gave him fifty pence yesterday and advised him to save it.",
       "translation": "",
       "startTime": 70.05,
-      "endTime": 74.62
+      "endTime": 74.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +269,30 @@
       "text": "On his way to the sweet shop, he dropped his fifty pence and it bounced along the pavement and then disappeared down a drain.",
       "translation": "",
       "startTime": 79.56,
-      "endTime": 89.8
+      "endTime": 89.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +300,26 @@
       "text": "George took off his jacket,",
       "translation": "",
       "startTime": 89.81,
-      "endTime": 92.2
+      "endTime": 92.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "jacket",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Jacket",
+            "pos": "n.",
+            "meaning": "夹克衫"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +327,20 @@
       "text": "rolled up his sleeves and pushed his right arm through the drain cover.",
       "translation": "",
       "startTime": 92.21,
-      "endTime": 97.53
+      "endTime": 97.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +348,44 @@
       "text": "He could not find his 50 pence piece anywhere, and what is more, he could not get his arm out.",
       "translation": "",
       "startTime": 97.54,
-      "endTime": 105.85
+      "endTime": 105.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +393,16 @@
       "text": "A crowd of people gathered round him and a lady rubbed his arm with soap and butter, but George was firmly stuck.",
       "translation": "",
       "startTime": 105.86,
-      "endTime": 115.34
+      "endTime": 115.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -162,7 +418,31 @@
       "text": "George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.",
       "translation": "",
       "startTime": 122.73,
-      "endTime": 127.73
+      "endTime": 127.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     }
   ]
 }

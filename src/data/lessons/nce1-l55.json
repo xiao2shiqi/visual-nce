@@ -10,7 +10,17 @@
       "text": "Lesson 55",
       "translation": "",
       "startTime": 0.58,
-      "endTime": 3.25
+      "endTime": 3.25,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.23,
-      "endTime": 11.82
+      "endTime": 11.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "When do the children do their homework?",
       "translation": "",
       "startTime": 11.83,
-      "endTime": 16.8
+      "endTime": 16.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +76,17 @@
       "text": "The Sawyers live at 87 King Street.",
       "translation": "",
       "startTime": 16.81,
-      "endTime": 21.93
+      "endTime": 21.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +94,17 @@
       "text": "In the morning, Mr. Sawyer goes to work and the children go to school.",
       "translation": "",
       "startTime": 21.94,
-      "endTime": 29.96
+      "endTime": 29.96,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +112,22 @@
       "text": "Their father takes them to school every day.",
       "translation": "",
       "startTime": 29.97,
-      "endTime": 35.1
+      "endTime": 35.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +135,17 @@
       "text": "Mrs. Sawyer stays at home every day.",
       "translation": "",
       "startTime": 35.11,
-      "endTime": 39.2
+      "endTime": 39.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +153,16 @@
       "text": "She does the housework.",
       "translation": "",
       "startTime": 39.21,
-      "endTime": 42.06
+      "endTime": 42.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "does",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +170,22 @@
       "text": "She always eats her lunch at noon.",
       "translation": "",
       "startTime": 42.07,
-      "endTime": 46.81
+      "endTime": 46.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +193,16 @@
       "text": "In the afternoon, she usually sees her friends.",
       "translation": "",
       "startTime": 46.82,
-      "endTime": 52.1
+      "endTime": 52.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -106,7 +218,17 @@
       "text": "In the evening, the children come home from school.",
       "translation": "",
       "startTime": 55.86,
-      "endTime": 60.78
+      "endTime": 60.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "School",
+            "pos": "n.",
+            "meaning": "学校"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -138,7 +260,22 @@
       "text": "At night, the children always do their homework.",
       "translation": "",
       "startTime": 71.49,
-      "endTime": 76.22
+      "endTime": 76.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +291,26 @@
       "text": "Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television.",
       "translation": "",
       "startTime": 79.17,
-      "endTime": 84.17
+      "endTime": 84.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          }
+        ]
+      }
     }
   ]
 }

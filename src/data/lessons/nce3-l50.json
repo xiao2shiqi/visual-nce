@@ -10,7 +10,17 @@
       "text": "Lesson 50",
       "translation": "",
       "startTime": 0.52,
-      "endTime": 2.78
+      "endTime": 2.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What marked the end of the writer's New Year resolutions?",
       "translation": "",
       "startTime": 10.99,
-      "endTime": 16.8
+      "endTime": 16.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "The New Year is a time for resolutions.",
       "translation": "",
       "startTime": 16.81,
-      "endTime": 19.9
+      "endTime": 19.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,17 @@
       "text": "Mentally, at least, most of us could compile formidable lists of 'dos' and 'don'ts'.",
       "translation": "",
       "startTime": 19.91,
-      "endTime": 27.53
+      "endTime": 27.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +100,17 @@
       "text": "The same old favourites recur year in year out with monotonous regularity.",
       "translation": "",
       "startTime": 27.54,
-      "endTime": 34.26
+      "endTime": 34.26,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +126,17 @@
       "text": "find more time to play with the children, do a thousand and one jobs about the house,",
       "translation": "",
       "startTime": 38.35,
-      "endTime": 44.11
+      "endTime": 44.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +144,17 @@
       "text": "be nice to people we don't like, drive carefully, and take the dog for a walk every day.",
       "translation": "",
       "startTime": 44.12,
-      "endTime": 51.72
+      "endTime": 51.72,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +162,26 @@
       "text": "Past experience has taught us that certain accomplishments are beyond attainment.",
       "translation": "",
       "startTime": 51.73,
-      "endTime": 57.85
+      "endTime": 57.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +189,40 @@
       "text": "If we remain inveterate smokers, it is only because we have so often experienced the frustration that results from failure.",
       "translation": "",
       "startTime": 57.86,
-      "endTime": 67.82
+      "endTime": 67.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +230,35 @@
       "text": "Most of us fail in our efforts at sel-improvement because our schemes are too ambitious and we never have time to carry them out.",
       "translation": "",
       "startTime": 67.83,
-      "endTime": 77.36
+      "endTime": 77.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +266,16 @@
       "text": "We also make the fundamental error of announcing our resolutions to everybody",
       "translation": "",
       "startTime": 77.37,
-      "endTime": 83
+      "endTime": 83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +283,36 @@
       "text": "so that we look even more foolish when we slip back into our bad old ways.",
       "translation": "",
       "startTime": 83.01,
-      "endTime": 89.19
+      "endTime": 89.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +320,31 @@
       "text": "Aware of these pitfalls, this year I attempted to keep my resolutions to myself.",
       "translation": "",
       "startTime": 89.2,
-      "endTime": 96.2
+      "endTime": 96.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +352,16 @@
       "text": "I limited myself to two modest ambitions: to do physical exercises every morning and to read more of an evening.",
       "translation": "",
       "startTime": 96.21,
-      "endTime": 106.6
+      "endTime": 106.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +369,36 @@
       "text": "An all-night party on New Year's Eve provided me with a good excuse for not carrying out either of these new resolutions on the first day of the year,",
       "translation": "",
       "startTime": 106.61,
-      "endTime": 117.89
+      "endTime": 117.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "excuse",
+            "label": "谓语/动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Excuse",
+            "pos": "v.",
+            "meaning": "原谅，宽恕"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +414,16 @@
       "text": "The daily exercises lasted only eleven minutes and I proposed to do them early in the morning before anyone had got up.",
       "translation": "",
       "startTime": 123.67,
-      "endTime": 133.39
+      "endTime": 133.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -170,7 +439,22 @@
       "text": "Nevertheless, I managed to creep down into the living room for two days before anyone found me out.",
       "translation": "",
       "startTime": 141.74,
-      "endTime": 151.02
+      "endTime": 151.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -186,7 +470,17 @@
       "text": "I sat down at the breakfast table in an exhausted condition.",
       "translation": "",
       "startTime": 157.82,
-      "endTime": 162.88
+      "endTime": 162.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +488,49 @@
       "text": "It was this that betrayed me.",
       "translation": "",
       "startTime": 162.89,
-      "endTime": 165.77
+      "endTime": 165.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +538,17 @@
       "text": "The next morning the whole family trooped in to watch the performance.",
       "translation": "",
       "startTime": 165.78,
-      "endTime": 170.5
+      "endTime": 170.5,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +556,22 @@
       "text": "That was really unsettling but I fended off the taunts and jibes of the family good-humouredly and soon everybody got used to the idea.",
       "translation": "",
       "startTime": 170.51,
-      "endTime": 180.39
+      "endTime": 180.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +579,22 @@
       "text": "However, my enthusiasm waned.",
       "translation": "",
       "startTime": 180.4,
-      "endTime": 183.84
+      "endTime": 183.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +602,17 @@
       "text": "The time I spent at exercises gradually diminished.",
       "translation": "",
       "startTime": 183.85,
-      "endTime": 187.66
+      "endTime": 187.66,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -250,7 +636,27 @@
       "text": "I argued that if I spent less time exhausting myself at exercises in the morning,",
       "translation": "",
       "startTime": 197.33,
-      "endTime": 203.53
+      "endTime": 203.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +664,22 @@
       "text": "I would keep my mind fresh for reading when I got home from work.",
       "translation": "",
       "startTime": 203.54,
-      "endTime": 208.31
+      "endTime": 208.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -274,7 +695,31 @@
       "text": "I sat in my room for a few evenings with my eyes glued to a book.",
       "translation": "",
       "startTime": 212.16,
-      "endTime": 217.17
+      "endTime": 217.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Book",
+            "pos": "n.",
+            "meaning": "书"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -282,7 +727,17 @@
       "text": "One night, however, feeling cold and lonely, I went downstairs and sat in front of the television pretending to read.",
       "translation": "",
       "startTime": 217.18,
-      "endTime": 227.04
+      "endTime": 227.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +745,40 @@
       "text": "That proved to be my undoing, for I soon got back to my old bad habit of dozing off in front of the screen.",
       "translation": "",
       "startTime": 227.05,
-      "endTime": 237.31
+      "endTime": 237.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -298,7 +786,22 @@
       "text": "I still haven't given up my resolution to do more reading.",
       "translation": "",
       "startTime": 237.32,
-      "endTime": 241.21
+      "endTime": 241.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s34",
@@ -306,7 +809,22 @@
       "text": "In fact, I have just bought a book entitled How to Read a Thousand Words a Minute.",
       "translation": "",
       "startTime": 241.22,
-      "endTime": 248.69
+      "endTime": 248.69,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Book",
+            "pos": "n.",
+            "meaning": "书"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s35",
@@ -314,7 +832,35 @@
       "text": "Perhaps it will solve my problem, but I just haven't had time to read it!",
       "translation": "",
       "startTime": 248.7,
-      "endTime": 253.7
+      "endTime": 253.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     }
   ]
 }

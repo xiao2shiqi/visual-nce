@@ -10,7 +10,22 @@
       "text": "What was Frank's first job?",
       "translation": "",
       "startTime": 10.09,
-      "endTime": 14.47
+      "endTime": 14.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,22 @@
       "text": "Yesterday afternoon Frank Hawkins was telling me about",
       "translation": "",
       "startTime": 14.48,
-      "endTime": 19.07
+      "endTime": 19.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +56,27 @@
       "text": "his experiences as a young man.",
       "translation": "",
       "startTime": 19.08,
-      "endTime": 23.06
+      "endTime": 23.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -50,7 +100,22 @@
       "text": "a very large business company, but as a boy he used to work in a small shop.",
       "translation": "",
       "startTime": 26.96,
-      "endTime": 34.43
+      "endTime": 34.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +123,26 @@
       "text": "It was his job to repair bicycles",
       "translation": "",
       "startTime": 34.44,
-      "endTime": 37.49
+      "endTime": 37.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +150,27 @@
       "text": "and at that time he used to work fourteen hours a day.",
       "translation": "",
       "startTime": 37.5,
-      "endTime": 42.97
+      "endTime": 42.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +186,16 @@
       "text": "in 1958 he bought a small workshop of his own.",
       "translation": "",
       "startTime": 45.37,
-      "endTime": 50.76
+      "endTime": 50.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +203,16 @@
       "text": "In his twenties Frank used to make spare parts for aeroplanes.",
       "translation": "",
       "startTime": 50.77,
-      "endTime": 56.62
+      "endTime": 56.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +220,27 @@
       "text": "At that time he had two helpers.",
       "translation": "",
       "startTime": 56.63,
-      "endTime": 60.17
+      "endTime": 60.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -122,7 +264,16 @@
       "text": "Frank smiled when he remembered his hard early years and the long road to success.",
       "translation": "",
       "startTime": 70.63,
-      "endTime": 78.23
+      "endTime": 78.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s12",
@@ -130,7 +281,16 @@
       "text": "He was still smiling when the door opened and his wife came in.",
       "translation": "",
       "startTime": 78.24,
-      "endTime": 83.58
+      "endTime": 83.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +298,16 @@
       "text": "She wanted him to repair their grandson's bicycle!",
       "translation": "",
       "startTime": 83.59,
-      "endTime": 88.59
+      "endTime": 88.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

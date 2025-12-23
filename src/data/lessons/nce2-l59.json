@@ -10,7 +10,16 @@
       "text": "Why did Rex run away?",
       "translation": "",
       "startTime": 11.22,
-      "endTime": 15.51
+      "endTime": 15.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,20 @@
       "text": "Our dog, Rex, used to sit outside our front gate and bark.",
       "translation": "",
       "startTime": 15.52,
-      "endTime": 22.53
+      "endTime": 22.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +56,26 @@
       "text": "As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.",
       "translation": "",
       "startTime": 30.39,
-      "endTime": 41.55
+      "endTime": 41.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +83,17 @@
       "text": "Rex soon became an expert at opening the gate.",
       "translation": "",
       "startTime": 41.56,
-      "endTime": 46.21
+      "endTime": 46.21,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +109,31 @@
       "text": "This time he was barking so that someone would let him out!",
       "translation": "",
       "startTime": 54.81,
-      "endTime": 60.08
+      "endTime": 60.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -90,7 +165,22 @@
       "text": "After this he immediately lets himself in and begins barking again.",
       "translation": "",
       "startTime": 78.58,
-      "endTime": 86.27
+      "endTime": 86.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +188,27 @@
       "text": "Yesterday my husband removed the gate and Rex got so annoyed we have not seen him since.",
       "translation": "",
       "startTime": 86.28,
-      "endTime": 91.28
+      "endTime": 91.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

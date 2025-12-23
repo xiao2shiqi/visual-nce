@@ -10,7 +10,17 @@
       "text": "Lesson 103",
       "translation": "",
       "startTime": 0.66,
-      "endTime": 3.53
+      "endTime": 3.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,17 @@
       "text": "The French test",
       "translation": "",
       "startTime": 3.54,
-      "endTime": 6.76
+      "endTime": 6.76,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +46,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.77,
-      "endTime": 12.81
+      "endTime": 12.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,17 @@
       "text": "How long did the exam last?",
       "translation": "",
       "startTime": 12.82,
-      "endTime": 17.9
+      "endTime": 17.9,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +87,17 @@
       "text": "How was the exam, Richard?",
       "translation": "",
       "startTime": 17.91,
-      "endTime": 20.79
+      "endTime": 20.79,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +105,22 @@
       "text": "Not too bad.",
       "translation": "",
       "startTime": 20.8,
-      "endTime": 22.55
+      "endTime": 22.55,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +136,22 @@
       "text": "The questions were very easy.",
       "translation": "",
       "startTime": 27.28,
-      "endTime": 30.33
+      "endTime": 30.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +159,22 @@
       "text": "How about you, Gary?",
       "translation": "",
       "startTime": 30.34,
-      "endTime": 33.98
+      "endTime": 33.98,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +182,22 @@
       "text": "The English and Maths papers weren't easy enough for me.",
       "translation": "",
       "startTime": 33.99,
-      "endTime": 39.97
+      "endTime": 39.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +213,17 @@
       "text": "I think I failed the French paper.",
       "translation": "",
       "startTime": 42.79,
-      "endTime": 46.59
+      "endTime": 46.59,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +239,22 @@
       "text": "They were very easy.",
       "translation": "",
       "startTime": 50.56,
-      "endTime": 53.02
+      "endTime": 53.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +270,27 @@
       "text": "They were too difficult for me.",
       "translation": "",
       "startTime": 56.21,
-      "endTime": 60.28
+      "endTime": 60.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +298,22 @@
       "text": "French tests are awful, aren't they?",
       "translation": "",
       "startTime": 60.29,
-      "endTime": 63.84
+      "endTime": 63.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -170,7 +345,17 @@
       "text": "Perhaps we didn't do too badly.",
       "translation": "",
       "startTime": 72.73,
-      "endTime": 77
+      "endTime": 77,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +363,36 @@
       "text": "The guy next to me wrote his name at the top of the paper.",
       "translation": "",
       "startTime": 77.01,
-      "endTime": 82.52
+      "endTime": 82.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +400,17 @@
       "text": "Yes?",
       "translation": "",
       "startTime": 82.53,
-      "endTime": 84.1
+      "endTime": 84.1,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +418,27 @@
       "text": "Then he sat there and looked at it for three hours!",
       "translation": "",
       "startTime": 84.11,
-      "endTime": 89.35
+      "endTime": 89.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s21",

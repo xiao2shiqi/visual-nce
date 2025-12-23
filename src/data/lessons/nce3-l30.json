@@ -10,7 +10,17 @@
       "text": "Lesson 30",
       "translation": "",
       "startTime": 0.35,
-      "endTime": 2.08
+      "endTime": 2.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,16 @@
       "text": "Why did the two brothers keep the secret?",
       "translation": "",
       "startTime": 9.46,
-      "endTime": 13.74
+      "endTime": 13.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +53,22 @@
       "text": "For years, villagers believed that Endley farm was haunted.",
       "translation": "",
       "startTime": 13.75,
-      "endTime": 18.86
+      "endTime": 18.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +92,16 @@
       "text": "Every time a worker gave up his job, he told the same story.",
       "translation": "",
       "startTime": 29.26,
-      "endTime": 34.94
+      "endTime": 34.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +109,26 @@
       "text": "Farm labourers said that they always woke up to find that work had been done overnight.",
       "translation": "",
       "startTime": 34.95,
-      "endTime": 41.58
+      "endTime": 41.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -90,7 +152,39 @@
       "text": "In time, it became an accepted fact that the Cox brothers employed a conscientious ghost that did most of their work for them.",
       "translation": "",
       "startTime": 53.64,
-      "endTime": 64.01
+      "endTime": 64.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +192,22 @@
       "text": "No one suspected that there might be someone else on the farm who had never been seen.",
       "translation": "",
       "startTime": 64.02,
-      "endTime": 70.06
+      "endTime": 70.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +215,22 @@
       "text": "This was indeed the case.",
       "translation": "",
       "startTime": 70.07,
-      "endTime": 72.8
+      "endTime": 72.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +238,27 @@
       "text": "A short time ago, villagers were astonished to learn that the ghost of Endley had died.",
       "translation": "",
       "startTime": 72.81,
-      "endTime": 79.99
+      "endTime": 79.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -130,7 +274,22 @@
       "text": "a third brother who was supposed to have died as a young man.",
       "translation": "",
       "startTime": 86.85,
-      "endTime": 91.42
+      "endTime": 91.42,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +305,36 @@
       "text": "Eric had been the eldest son of the family, very much older than his two brothers.",
       "translation": "",
       "startTime": 99.48,
-      "endTime": 105.48
+      "endTime": 105.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Son",
+            "pos": "n.",
+            "meaning": "儿子"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +350,16 @@
       "text": "As he hated army life, he decided to desert his regiment.",
       "translation": "",
       "startTime": 110.25,
-      "endTime": 116.12
+      "endTime": 116.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s17",
@@ -170,7 +367,22 @@
       "text": "When he learnt that he would be sent abroad,",
       "translation": "",
       "startTime": 116.13,
-      "endTime": 118.98
+      "endTime": 118.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +390,16 @@
       "text": "he returned to the farm and his father hid him until the end of the war.",
       "translation": "",
       "startTime": 118.99,
-      "endTime": 124.4
+      "endTime": 124.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +407,17 @@
       "text": "Fearing the authorities, Eric remained in hiding after the war as well.",
       "translation": "",
       "startTime": 124.41,
-      "endTime": 130.35
+      "endTime": 130.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +425,26 @@
       "text": "His father told everybody that Eric had been killed in action.",
       "translation": "",
       "startTime": 130.36,
-      "endTime": 135.02
+      "endTime": 135.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "His",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +460,22 @@
       "text": "They did not even tell their wives.",
       "translation": "",
       "startTime": 139.49,
-      "endTime": 142.68
+      "endTime": 142.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +483,30 @@
       "text": "When their father died they thought it their duty to keep Eric in hiding.",
       "translation": "",
       "startTime": 142.69,
-      "endTime": 147.69
+      "endTime": 147.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -234,7 +522,17 @@
       "text": "He used to sleep during the day and work at night,",
       "translation": "",
       "startTime": 152.66,
-      "endTime": 155.65
+      "endTime": 155.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +540,22 @@
       "text": "quite unaware of the fact that he had become the ghost of Endley.",
       "translation": "",
       "startTime": 155.66,
-      "endTime": 160.59
+      "endTime": 160.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +563,26 @@
       "text": "When he died, however, his brothers found it impossible to keep the secret any longer.",
       "translation": "",
       "startTime": 160.6,
-      "endTime": 165.6
+      "endTime": 165.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

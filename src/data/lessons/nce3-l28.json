@@ -10,7 +10,17 @@
       "text": "Lesson 28",
       "translation": "",
       "startTime": 0.36,
-      "endTime": 2.67
+      "endTime": 2.67,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "Five pounds too dear",
       "translation": "",
       "startTime": 2.68,
-      "endTime": 10.71
+      "endTime": 10.71,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,22 @@
       "text": "Why was even five pounds 'too dear' ?",
       "translation": "",
       "startTime": 10.72,
-      "endTime": 16.87
+      "endTime": 16.87,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -66,7 +106,27 @@
       "text": "It was difficult not to be tempted.",
       "translation": "",
       "startTime": 40.08,
-      "endTime": 43.29
+      "endTime": 43.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +142,17 @@
       "text": "but I decided not to buy anything until I had disembarked.",
       "translation": "",
       "startTime": 47.47,
-      "endTime": 53.55
+      "endTime": 53.55,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +160,27 @@
       "text": "I had no sooner got off the ship than I was assailed by a man who wanted to sell me a diamond ring.",
       "translation": "",
       "startTime": 53.56,
-      "endTime": 62.15
+      "endTime": 62.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +196,27 @@
       "text": "but I could not conceal the fact that I was impressed by the size of the diamonds.",
       "translation": "",
       "startTime": 64.87,
-      "endTime": 71.43
+      "endTime": 71.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +232,27 @@
       "text": "The man went to great lengths to prove that the diamonds were real.",
       "translation": "",
       "startTime": 74.63,
-      "endTime": 79.89
+      "endTime": 79.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +268,31 @@
       "text": "It took me over half an hour to get rid of him.",
       "translation": "",
       "startTime": 88.9,
-      "endTime": 92.92
+      "endTime": 92.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +300,27 @@
       "text": "The next man to approach me was selling expensive pens and watches.",
       "translation": "",
       "startTime": 92.93,
-      "endTime": 98.09
+      "endTime": 98.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +328,22 @@
       "text": "I examined one of the pens closely. It certainly looked genuine.",
       "translation": "",
       "startTime": 98.1,
-      "endTime": 103.78
+      "endTime": 103.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +351,17 @@
       "text": "At the base of the gold cap, the words 'made in the U.S.A.' had been neatly inscribed.",
       "translation": "",
       "startTime": 103.79,
-      "endTime": 112.3
+      "endTime": 112.3,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +369,50 @@
       "text": "The man said that the pen was worth ￡50, but as a special favour, he would let me have it for ￡30.",
       "translation": "",
       "startTime": 112.31,
-      "endTime": 122.2
+      "endTime": 122.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Pen",
+            "pos": "n.",
+            "meaning": "钢笔"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +420,36 @@
       "text": "I shook my head and held up five fingers indicating that I was willing to pay ￡5.",
       "translation": "",
       "startTime": 122.21,
-      "endTime": 130.5
+      "endTime": 130.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +457,27 @@
       "text": "Gesticulating wildly, the man acted as if he found my offer outrageous,",
       "translation": "",
       "startTime": 130.51,
-      "endTime": 137.41
+      "endTime": 137.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -202,7 +493,22 @@
       "text": "Shrugging my shoulders I began to walk away when,",
       "translation": "",
       "startTime": 142.62,
-      "endTime": 146.61
+      "endTime": 146.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +516,36 @@
       "text": "a moment later, he ran after me and thrust the pen into my hands.",
       "translation": "",
       "startTime": 146.62,
-      "endTime": 153.34
+      "endTime": 153.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Pen",
+            "pos": "n.",
+            "meaning": "钢笔"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +553,16 @@
       "text": "Though he kept throwing up his arms in despair, he readily accepted the ￡5 I gave him.",
       "translation": "",
       "startTime": 153.35,
-      "endTime": 160.56
+      "endTime": 160.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -226,7 +570,22 @@
       "text": "I felt especially pleased with my wonderful bargain--until I got back to the ship.",
       "translation": "",
       "startTime": 160.57,
-      "endTime": 167.76
+      "endTime": 167.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +593,17 @@
       "text": "No matter how hard I tried,",
       "translation": "",
       "startTime": 167.77,
-      "endTime": 170.57
+      "endTime": 170.57,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +611,44 @@
       "text": "it was impossible to fill this beautiful pen with ink and to this day it has never written a single word!",
       "translation": "",
       "startTime": 170.58,
-      "endTime": 175.58
+      "endTime": 175.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Pen",
+            "pos": "n.",
+            "meaning": "钢笔"
+          }
+        ]
+      }
     }
   ]
 }

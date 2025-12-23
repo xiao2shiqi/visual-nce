@@ -10,7 +10,17 @@
       "text": "Lesson 25",
       "translation": "",
       "startTime": 0.32,
-      "endTime": 2.34
+      "endTime": 2.34,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What piece of bad luck prevented the Cutty Sark from winning the race?",
       "translation": "",
       "startTime": 9.48,
-      "endTime": 16.13
+      "endTime": 16.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,17 @@
       "text": "One of the most famous sailing ships of the nineteenth century, the Cutty Sark, can still be seen at Greenwich.",
       "translation": "",
       "startTime": 16.14,
-      "endTime": 24.38
+      "endTime": 24.38,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +77,22 @@
       "text": "She stands on dry land and is visited by thousands of people each year.",
       "translation": "",
       "startTime": 24.39,
-      "endTime": 30.27
+      "endTime": 30.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -74,7 +124,22 @@
       "text": "The Cutty Sark was one of the fastest sailing ships that has ever been built.",
       "translation": "",
       "startTime": 47.25,
-      "endTime": 53.21
+      "endTime": 53.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +147,16 @@
       "text": "The only other ship to match her was the Thermopylae.",
       "translation": "",
       "startTime": 53.22,
-      "endTime": 58.14
+      "endTime": 58.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -98,7 +172,26 @@
       "text": "This race, which went on for exactly four months, was the last of its kind.",
       "translation": "",
       "startTime": 67.82,
-      "endTime": 74.6
+      "endTime": 74.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +199,22 @@
       "text": "It marked the end of the great tradition of ships with sails and the beginning of a new era.",
       "translation": "",
       "startTime": 74.61,
-      "endTime": 82.5
+      "endTime": 82.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -130,7 +238,31 @@
       "text": "It seemed certain that she would be the first ship home,",
       "translation": "",
       "startTime": 93.88,
-      "endTime": 97.66
+      "endTime": 97.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +278,26 @@
       "text": "In August, she was struck by a very heavy storm during which her rudder was torn away.",
       "translation": "",
       "startTime": 101.86,
-      "endTime": 109.42
+      "endTime": 109.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +305,26 @@
       "text": "The Cutty Sark rolled from side to side and it became impossible to steer her.",
       "translation": "",
       "startTime": 109.43,
-      "endTime": 115.92
+      "endTime": 115.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +332,22 @@
       "text": "A temporary rudder was made on board from spare planks and it was fitted with great difficulty.",
       "translation": "",
       "startTime": 115.93,
-      "endTime": 123.63
+      "endTime": 123.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +355,36 @@
       "text": "This greatly reduced the speed of the ship, for there was a danger that if she travelled too quickly,",
       "translation": "",
       "startTime": 123.64,
-      "endTime": 130.85
+      "endTime": 130.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +392,27 @@
       "text": "this rudder would be torn away as well.",
       "translation": "",
       "startTime": 130.86,
-      "endTime": 134.59
+      "endTime": 134.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +420,26 @@
       "text": "Because of this, the Cutty Sark lost her lead.",
       "translation": "",
       "startTime": 134.6,
-      "endTime": 138.73
+      "endTime": 138.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +447,17 @@
       "text": "After crossing the Equator, the captain called in at a port to have a new rudder fitted,",
       "translation": "",
       "startTime": 138.74,
-      "endTime": 145.64
+      "endTime": 145.64,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +465,17 @@
       "text": "but by now the Thermopylae was over five hundred miles ahead.",
       "translation": "",
       "startTime": 145.65,
-      "endTime": 150.97
+      "endTime": 150.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +483,27 @@
       "text": "Though the new rudder was fitted at tremendous speed, it was impossible for the Cutty Sark to win.",
       "translation": "",
       "startTime": 150.98,
-      "endTime": 159.17
+      "endTime": 159.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -226,7 +519,31 @@
       "text": "Even this was remarkable, considering that she had had so many delays.",
       "translation": "",
       "startTime": 163.39,
-      "endTime": 169.28
+      "endTime": 169.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +551,40 @@
       "text": "There is no doubt that if she had not lost her rudder she would have won the race easily.",
       "translation": "",
       "startTime": 169.29,
-      "endTime": 174.29
+      "endTime": 174.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

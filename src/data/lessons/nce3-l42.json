@@ -10,7 +10,17 @@
       "text": "Lesson 42",
       "translation": "",
       "startTime": 0.2,
-      "endTime": 2.19
+      "endTime": 2.19,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "With what does the writer compare the Gouffre Berger?",
       "translation": "",
       "startTime": 9.46,
-      "endTime": 15.3
+      "endTime": 15.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,31 @@
       "text": "Cave exploration, or pot-holing, as it has come to be known, is a relatively new sport.",
       "translation": "",
       "startTime": 15.31,
-      "endTime": 23.33
+      "endTime": 23.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,40 @@
       "text": "Perhaps it is the desire for solitude or the chance of making an unexpected discovery that lures people down to the depths of the earth.",
       "translation": "",
       "startTime": 23.34,
-      "endTime": 34.41
+      "endTime": 34.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +132,31 @@
       "text": "It is impossible to give a satisfactory explanation for a pot-holer's motives.",
       "translation": "",
       "startTime": 34.42,
-      "endTime": 40.91
+      "endTime": 40.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -66,7 +172,16 @@
       "text": "They arouse instincts which can only be dimly understood.",
       "translation": "",
       "startTime": 48.99,
-      "endTime": 54.41
+      "endTime": 54.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "can",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +189,27 @@
       "text": "Exploring really deep caves is not a task for the Sunday afternoon rambler.",
       "translation": "",
       "startTime": 54.42,
-      "endTime": 60.18
+      "endTime": 60.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -90,7 +225,31 @@
       "text": "It can take as long as eight days to rig up rope ladders and to establish supply bases before a descent can be made into a very deep cave.",
       "translation": "",
       "startTime": 68.04,
-      "endTime": 80.6
+      "endTime": 80.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +257,44 @@
       "text": "Precautions of this sort are necessary, for it is impossible to foretell the exact nature of the difficulties which will confront the pot-holer.",
       "translation": "",
       "startTime": 80.61,
-      "endTime": 92.05
+      "endTime": 92.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +302,22 @@
       "text": "The deepest known cave in the world is the Gouffre Berger near Grenoble.",
       "translation": "",
       "startTime": 92.06,
-      "endTime": 98.65
+      "endTime": 98.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +325,22 @@
       "text": "It extends to a depth of 3, 723 feet.",
       "translation": "",
       "startTime": 98.66,
-      "endTime": 104.32
+      "endTime": 104.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +348,22 @@
       "text": "This immense chasm has been formed by an underground stream which has tunnelled a course through a flaw in the rocks.",
       "translation": "",
       "startTime": 104.33,
-      "endTime": 113.64
+      "endTime": 113.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +371,22 @@
       "text": "The entrance to the cave is on a plateau in the Dauphine Alps.",
       "translation": "",
       "startTime": 113.65,
-      "endTime": 120.12
+      "endTime": 120.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +394,39 @@
       "text": "As it is only six feet across, it is barely noticeable.",
       "translation": "",
       "startTime": 120.13,
-      "endTime": 125.38
+      "endTime": 125.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +434,22 @@
       "text": "The cave might never have been discovered had not the entrance been spotted by the distinguished French pot-holer, Berger.",
       "translation": "",
       "startTime": 125.39,
-      "endTime": 134.99
+      "endTime": 134.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +457,26 @@
       "text": "Since its discovery, it has become a sort of pot-holers' Everest.",
       "translation": "",
       "startTime": 135,
-      "endTime": 140.65
+      "endTime": 140.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +484,32 @@
       "text": "Though a number of descents have been made, much of it still remains to be explored.",
       "translation": "",
       "startTime": 140.66,
-      "endTime": 147.84
+      "endTime": 147.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -194,7 +541,26 @@
       "text": "They had to edge their way along this,",
       "translation": "",
       "startTime": 163.62,
-      "endTime": 166.28
+      "endTime": 166.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +576,17 @@
       "text": "Suddenly they came to a waterfall which dropped into an underground lake at the bottom of the cave.",
       "translation": "",
       "startTime": 172.62,
-      "endTime": 180.68
+      "endTime": 180.68,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +594,16 @@
       "text": "They plunged into the lake, and after loading their gear on an inflatable rubber dinghy, let the current carry them to the other side.",
       "translation": "",
       "startTime": 180.69,
-      "endTime": 191.66
+      "endTime": 191.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s24",
@@ -234,7 +619,17 @@
       "text": "At the far end of the lake, they came to huge piles of rubble which had been washed up by the water.",
       "translation": "",
       "startTime": 198.58,
-      "endTime": 206.86
+      "endTime": 206.86,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +637,22 @@
       "text": "In this part of the cave, they could hear an insistent booming sound",
       "translation": "",
       "startTime": 206.87,
-      "endTime": 212.16
+      "endTime": 212.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -258,7 +668,17 @@
       "text": "Squeezing through a cleft in the rocks, the pot-holers arrived at an enormous cavern, the size of a huge concert hall.",
       "translation": "",
       "startTime": 220.42,
-      "endTime": 229.71
+      "endTime": 229.71,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -274,7 +694,17 @@
       "text": "they saw great stalagmites--some of them over forty feet high--rising up like tree-trunks to meet the stalactites suspended from the roof.",
       "translation": "",
       "startTime": 233,
-      "endTime": 245.42
+      "endTime": 245.42,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -290,7 +720,22 @@
       "text": "In the eerie silence of the cavern, the only sound that could be heard was made by water which dripped continuously from the high dome above them.",
       "translation": "",
       "startTime": 252.14,
-      "endTime": 257.14
+      "endTime": 257.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

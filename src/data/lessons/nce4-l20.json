@@ -10,7 +10,17 @@
       "text": "Lesson 20",
       "translation": "",
       "startTime": 0.77,
-      "endTime": 2.23
+      "endTime": 2.23,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,26 @@
       "text": "What are the two different ways in which snake poison acts?",
       "translation": "",
       "startTime": 8.79,
-      "endTime": 15.31
+      "endTime": 15.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +63,36 @@
       "text": "How in came about that snakes manufactured poison is a mystery.",
       "translation": "",
       "startTime": 15.32,
-      "endTime": 20.32
+      "endTime": 20.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +100,35 @@
       "text": "Over the periods their saliva, a mild, digestive juice like our own, was converted into a poison that defies analysis even today.",
       "translation": "",
       "startTime": 20.33,
-      "endTime": 30.45
+      "endTime": 30.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Today",
+            "pos": "adv.",
+            "meaning": "今天"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +136,27 @@
       "text": "It was not forced upon them by the survival competition;",
       "translation": "",
       "startTime": 30.46,
-      "endTime": 34.45
+      "endTime": 34.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +164,16 @@
       "text": "they could have caught and lived on prey without using poison, just as the thousands of non-poisonous snakes still do.",
       "translation": "",
       "startTime": 34.46,
-      "endTime": 42.75
+      "endTime": 42.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +181,22 @@
       "text": "Poison to a snake is merely a luxury;",
       "translation": "",
       "startTime": 42.76,
-      "endTime": 46.29
+      "endTime": 46.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +204,39 @@
       "text": "it enables it to get its food with very little effort, no more effort than one bite.",
       "translation": "",
       "startTime": 46.3,
-      "endTime": 53.07
+      "endTime": 53.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -106,7 +268,26 @@
       "text": "In fact, it would be an assistance to all carnivores though it would be a two-edged weapon when they fought each other.",
       "translation": "",
       "startTime": 66.56,
-      "endTime": 74.25
+      "endTime": 74.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -130,7 +311,36 @@
       "text": "In the conversion of saliva into poison, one might suppose that a fixed process took place. It did not;",
       "translation": "",
       "startTime": 88.19,
-      "endTime": 96.05
+      "endTime": 96.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +348,22 @@
       "text": "some snakes manufactured a poison different in every respect from that of others,",
       "translation": "",
       "startTime": 96.06,
-      "endTime": 101.46
+      "endTime": 101.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +371,22 @@
       "text": "as different as arsenic is from strychnine, and having different effects.",
       "translation": "",
       "startTime": 101.47,
-      "endTime": 107.06
+      "endTime": 107.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +402,26 @@
       "text": "The makers of the nerve poison include the mambas and the cobras and their venom is called neurotoxic.",
       "translation": "",
       "startTime": 111.5,
-      "endTime": 119.28
+      "endTime": 119.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +429,22 @@
       "text": "Vipers (adders) and rattlesnakes manufacture the blood poison, which is known as haemolytic.",
       "translation": "",
       "startTime": 119.29,
-      "endTime": 127.06
+      "endTime": 127.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +452,26 @@
       "text": "Both poisons are unpleasant, but by far the more unpleasant is the blood poison.",
       "translation": "",
       "startTime": 127.07,
-      "endTime": 132.6
+      "endTime": 132.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +479,52 @@
       "text": "It is said that the nerve poison is the more primitive of the two, that the blood poison is, so to speak, a newer product from an improved formula.",
       "translation": "",
       "startTime": 132.61,
-      "endTime": 142.07
+      "endTime": 142.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +532,40 @@
       "text": "Be that as it may, the nerve poison does its business with man far more quickly than the blood poison.",
       "translation": "",
       "startTime": 142.08,
-      "endTime": 148.43
+      "endTime": 148.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +573,22 @@
       "text": "This, however, means nothing.",
       "translation": "",
       "startTime": 148.44,
-      "endTime": 150.84
+      "endTime": 150.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -210,7 +596,27 @@
       "text": "Snakes did not acquire their poison for use against man but for use against prey such as rats and mice,",
       "translation": "",
       "startTime": 150.85,
-      "endTime": 158.19
+      "endTime": 158.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +624,22 @@
       "text": "and the effects on these of viperine poison is almost immediate.",
       "translation": "",
       "startTime": 158.2,
-      "endTime": 163.2
+      "endTime": 163.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "What happened to the clavichord?",
       "translation": "",
       "startTime": 8.89,
-      "endTime": 12.56
+      "endTime": 12.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "We have an old musical instrument.",
       "translation": "",
       "startTime": 12.57,
-      "endTime": 16.09
+      "endTime": 16.09,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,31 @@
       "text": "It is called a clavichord.",
       "translation": "",
       "startTime": 16.1,
-      "endTime": 18.9
+      "endTime": 18.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +83,22 @@
       "text": "It was made in Germany in 1681.",
       "translation": "",
       "startTime": 18.91,
-      "endTime": 23.77
+      "endTime": 23.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +106,26 @@
       "text": "Our clavichord is kept in the living room.",
       "translation": "",
       "startTime": 23.78,
-      "endTime": 27.3
+      "endTime": 27.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +133,26 @@
       "text": "It has belonged to our family for a long time.",
       "translation": "",
       "startTime": 27.31,
-      "endTime": 31.6
+      "endTime": 31.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +160,22 @@
       "text": "The instrument was bought by my grandfather many years ago.",
       "translation": "",
       "startTime": 31.61,
-      "endTime": 36.41
+      "endTime": 36.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +183,22 @@
       "text": "Recently it was damaged by a visitor.",
       "translation": "",
       "startTime": 36.42,
-      "endTime": 39.86
+      "endTime": 39.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +206,22 @@
       "text": "She tried to play jazz on it!",
       "translation": "",
       "startTime": 39.87,
-      "endTime": 42.87
+      "endTime": 42.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +229,17 @@
       "text": "She struck the keys too hard and two of the strings were broken.",
       "translation": "",
       "startTime": 42.88,
-      "endTime": 48.42
+      "endTime": 48.42,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +247,22 @@
       "text": "My father was shocked.",
       "translation": "",
       "startTime": 48.43,
-      "endTime": 51.31
+      "endTime": 51.31,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +270,31 @@
       "text": "Now we are not allowed to touch it.",
       "translation": "",
       "startTime": 51.32,
-      "endTime": 54.35
+      "endTime": 54.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +302,40 @@
       "text": "It is being repaired by a friend of my father's.",
       "translation": "",
       "startTime": 54.36,
-      "endTime": 59.36
+      "endTime": 59.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     }
   ]
 }

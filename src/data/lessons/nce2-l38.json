@@ -10,7 +10,22 @@
       "text": "Why did Harrison sell his house so quickly?",
       "translation": "",
       "startTime": 10.98,
-      "endTime": 16.5
+      "endTime": 16.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,27 @@
       "text": "My old friend, Harrison, had lived in",
       "translation": "",
       "startTime": 16.51,
-      "endTime": 19.99
+      "endTime": 19.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -66,7 +101,17 @@
       "text": "a house and went to live there.",
       "translation": "",
       "startTime": 37.38,
-      "endTime": 40.04
+      "endTime": 40.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -90,7 +135,22 @@
       "text": "for even though it was still summer,",
       "translation": "",
       "startTime": 45.62,
-      "endTime": 49.19
+      "endTime": 49.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +158,31 @@
       "text": "it rained continually and it was often bitterly cold.",
       "translation": "",
       "startTime": 49.2,
-      "endTime": 54.83
+      "endTime": 54.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -130,7 +214,22 @@
       "text": "In the end, it was more than he could bear.",
       "translation": "",
       "startTime": 65.6,
-      "endTime": 69.78
+      "endTime": 69.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +245,17 @@
       "text": "when he sold the house and left the country.",
       "translation": "",
       "startTime": 73.04,
-      "endTime": 77.2
+      "endTime": 77.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
+      }
     },
     {
       "id": "s15",

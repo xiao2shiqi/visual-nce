@@ -10,7 +10,31 @@
       "text": "What does 'a cold welcome' refer to?",
       "translation": "",
       "startTime": 9.41,
-      "endTime": 15.21
+      "endTime": 15.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "does",
+            "label": "助动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +50,22 @@
       "text": "It was the last day of the year",
       "translation": "",
       "startTime": 19.29,
-      "endTime": 21.85
+      "endTime": 21.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +81,22 @@
       "text": "It would strike twelve in twenty minutes' time.",
       "translation": "",
       "startTime": 27.32,
-      "endTime": 31.51
+      "endTime": 31.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +112,22 @@
       "text": "at five to twelve, the clock stopped.",
       "translation": "",
       "startTime": 34.22,
-      "endTime": 37.84
+      "endTime": 37.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +135,17 @@
       "text": "The big minute hand did not move.",
       "translation": "",
       "startTime": 37.85,
-      "endTime": 40.73
+      "endTime": 40.73,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -98,7 +177,16 @@
       "text": "'It's two minutes past twelve!",
       "translation": "",
       "startTime": 47.69,
-      "endTime": 50.71
+      "endTime": 50.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -114,7 +202,32 @@
       "text": "I looked at my watch.",
       "translation": "",
       "startTime": 53.03,
-      "endTime": 54.69
+      "endTime": 54.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Watch",
+            "pos": "n.",
+            "meaning": "手表"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +235,22 @@
       "text": "It was true.",
       "translation": "",
       "startTime": 54.7,
-      "endTime": 56.42
+      "endTime": 56.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +266,27 @@
       "text": "At that moment, everybody began to laugh and sing.",
       "translation": "",
       "startTime": 60.66,
-      "endTime": 65.66
+      "endTime": 65.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     }
   ]
 }

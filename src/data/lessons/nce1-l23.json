@@ -10,7 +10,17 @@
       "text": "Lesson 23",
       "translation": "",
       "startTime": 0.42,
-      "endTime": 2.91
+      "endTime": 2.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.64,
-      "endTime": 11.82
+      "endTime": 11.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,17 @@
       "text": "Which glasses does the man want?",
       "translation": "",
       "startTime": 11.83,
-      "endTime": 17.13
+      "endTime": 17.13,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +77,27 @@
       "text": "Give me some glasses please, Jane.",
       "translation": "",
       "startTime": 17.14,
-      "endTime": 21.17
+      "endTime": 21.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -66,7 +121,17 @@
       "text": "No, not those.",
       "translation": "",
       "startTime": 25.83,
-      "endTime": 28.57
+      "endTime": 28.57,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -90,7 +155,22 @@
       "text": "Yes, please.",
       "translation": "",
       "startTime": 32.84,
-      "endTime": 34.97
+      "endTime": 34.97,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +178,27 @@
       "text": "Here you are.",
       "translation": "",
       "startTime": 34.98,
-      "endTime": 37.12
+      "endTime": 37.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +206,17 @@
       "text": "Thanks.",
       "translation": "",
       "startTime": 37.13,
-      "endTime": 42.13
+      "endTime": 42.13,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thanks",
+            "pos": "n.",
+            "meaning": "谢谢"
+          }
+        ]
+      }
     }
   ]
 }

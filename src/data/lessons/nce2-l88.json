@@ -10,7 +10,22 @@
       "text": "Why is the rescue taking so long?",
       "translation": "",
       "startTime": 10.1,
-      "endTime": 15.17
+      "endTime": 15.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +41,26 @@
       "text": "If they are not brought to the surface soon they may lose their lives.",
       "translation": "",
       "startTime": 21.12,
-      "endTime": 26.78
+      "endTime": 26.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,16 @@
       "text": "However, rescue operations are proving difficult.",
       "translation": "",
       "startTime": 26.79,
-      "endTime": 31.64
+      "endTime": 31.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +85,16 @@
       "text": "If explosives are used, vibrations will cause the roof of the mine to collapse.",
       "translation": "",
       "startTime": 31.65,
-      "endTime": 38.72
+      "endTime": 38.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -50,7 +102,16 @@
       "text": "Rescue workers are therefore drilling a hole on the north side of the mine.",
       "translation": "",
       "startTime": 38.73,
-      "endTime": 45.13
+      "endTime": 45.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -66,7 +127,17 @@
       "text": "If there had not been a hard layer of rock beneath the soil,",
       "translation": "",
       "startTime": 50.09,
-      "endTime": 55.14
+      "endTime": 55.14,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +153,31 @@
       "text": "As it is, they have been drilling for 16 hours and they still have a long way to go.",
       "translation": "",
       "startTime": 59.64,
-      "endTime": 68.61
+      "endTime": 68.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +193,16 @@
       "text": "has enabled the men to keep in touch with their closest relatives.",
       "translation": "",
       "startTime": 75.18,
-      "endTime": 80.73
+      "endTime": 80.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +210,16 @@
       "text": "Though they are running out of food and drink,",
       "translation": "",
       "startTime": 80.74,
-      "endTime": 84.17
+      "endTime": 84.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +227,26 @@
       "text": "the men are cheerful and confident that they will get out soon.",
       "translation": "",
       "startTime": 84.18,
-      "endTime": 89.89
+      "endTime": 89.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +254,26 @@
       "text": "They have been told that rescue operations are progressing smoothly.",
       "translation": "",
       "startTime": 89.9,
-      "endTime": 95.4
+      "endTime": 95.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +281,27 @@
       "text": "If they knew how difficult it was to drill through the hard rock, they would lose heart.",
       "translation": "",
       "startTime": 95.41,
-      "endTime": 100.41
+      "endTime": 100.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

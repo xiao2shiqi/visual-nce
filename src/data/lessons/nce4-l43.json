@@ -10,7 +10,17 @@
       "text": "Lesson 43",
       "translation": "",
       "startTime": 0.55,
-      "endTime": 3.11
+      "endTime": 3.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,16 @@
       "text": "Are there strangers in space?",
       "translation": "",
       "startTime": 3.12,
-      "endTime": 11.43
+      "endTime": 11.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,22 @@
       "text": "What does the 'uniquely rational way' for us to communicate with other intelligent beings in space depend on?",
       "translation": "",
       "startTime": 11.44,
-      "endTime": 22.79
+      "endTime": 22.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,16 @@
       "text": "We must conclude from the work of those who have studied the origin of life,",
       "translation": "",
       "startTime": 22.8,
-      "endTime": 28.35
+      "endTime": 28.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +85,35 @@
       "text": "that given a planet only approximately like our own, life is almost certain to start.",
       "translation": "",
       "startTime": 28.36,
-      "endTime": 36.12
+      "endTime": 36.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +121,30 @@
       "text": "Of all the planets in our solar system, we are now pretty certain the Earth is the only one on which life can survive.",
       "translation": "",
       "startTime": 36.13,
-      "endTime": 46.39
+      "endTime": 46.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +152,36 @@
       "text": "Mars is too dry and poor in oxygen, Venus far too hot, and so is Mercury,",
       "translation": "",
       "startTime": 46.4,
-      "endTime": 54.03
+      "endTime": 54.03,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +197,39 @@
       "text": "But other suns, start as the astronomers call them, are bound to have planets like our own, and as is the number of stars in the universe is so vast,",
       "translation": "",
       "startTime": 62.12,
-      "endTime": 74.37
+      "endTime": 74.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +237,22 @@
       "text": "this possibility becomes virtual certainty.",
       "translation": "",
       "startTime": 74.38,
-      "endTime": 78.32
+      "endTime": 78.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +260,20 @@
       "text": "There are one hundred thousand million starts in our own Milky Way alone,",
       "translation": "",
       "startTime": 78.33,
-      "endTime": 84.72
+      "endTime": 84.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +281,16 @@
       "text": "and then there are three thousand million other milky ways or galaxies, in the universe.",
       "translation": "",
       "startTime": 84.73,
-      "endTime": 92.53
+      "endTime": 92.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +298,41 @@
       "text": "so the number of stars that we know exist is now estimated at about 300 million million million.",
       "translation": "",
       "startTime": 92.54,
-      "endTime": 103.28
+      "endTime": 103.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +340,22 @@
       "text": "Although perhaps only 1 percent of the life that has started somewhere will develop into highly complex and intelligent patterns,",
       "translation": "",
       "startTime": 103.29,
-      "endTime": 112.46
+      "endTime": 112.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +363,40 @@
       "text": "so vast is the number of planets, that intelligent life is bound to be a natural part of the universe.",
       "translation": "",
       "startTime": 112.47,
-      "endTime": 120.94
+      "endTime": 120.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +404,26 @@
       "text": "If then we are so certain that other intelligent life exists in the universe, why have we had no visitors from outer space yet?",
       "translation": "",
       "startTime": 120.95,
-      "endTime": 130.92
+      "endTime": 130.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +431,22 @@
       "text": "First of all, they may have come to this planet of ours thousands or millions of years ago,",
       "translation": "",
       "startTime": 130.93,
-      "endTime": 138.51
+      "endTime": 138.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +454,20 @@
       "text": "and found our then prevailing primitive state completely uninteresting to their own advanced knowledge.",
       "translation": "",
       "startTime": 138.52,
-      "endTime": 146.41
+      "endTime": 146.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -154,7 +475,17 @@
       "text": "Professor Ronald Bracewell, a leading American radio astronomer,",
       "translation": "",
       "startTime": 146.42,
-      "endTime": 152
+      "endTime": 152,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "American",
+            "pos": "adj.",
+            "meaning": "美国的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +493,26 @@
       "text": "argued in Nature that such a superior civilization, on a visit to our own solar system,",
       "translation": "",
       "startTime": 152.01,
-      "endTime": 160.12
+      "endTime": 160.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +520,16 @@
       "text": "may have left an automatic messenger behind to await the possible awakening of an advanced civilization.",
       "translation": "",
       "startTime": 160.13,
-      "endTime": 168.53
+      "endTime": 168.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "may",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +537,16 @@
       "text": "Such a messenger, receiving our radio and television signals,",
       "translation": "",
       "startTime": 168.54,
-      "endTime": 173.47
+      "endTime": 173.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +554,22 @@
       "text": "might well re-transmit them back to its home-planet,",
       "translation": "",
       "startTime": 173.48,
-      "endTime": 177.83
+      "endTime": 177.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +577,31 @@
       "text": "although what impression any other civilization would thus get from us is best left unsaid.",
       "translation": "",
       "startTime": 177.84,
-      "endTime": 186.45
+      "endTime": 186.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +609,17 @@
       "text": "But here we come up against the most difficult of all obstacles to contact with people on other planets",
       "translation": "",
       "startTime": 186.46,
-      "endTime": 194.04
+      "endTime": 194.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -226,7 +643,27 @@
       "text": "(A light year is the distance which light travels at 186, 000 miles per second in one year, namely 6 million million miles.)",
       "translation": "",
       "startTime": 206.43,
-      "endTime": 218.42
+      "endTime": 218.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +671,17 @@
       "text": "Radio waves also travel at the speed of light,",
       "translation": "",
       "startTime": 218.43,
-      "endTime": 222.03
+      "endTime": 222.03,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +689,16 @@
       "text": "and assuming such an automatic messenger picked up our first broadcasts of the 1920's,",
       "translation": "",
       "startTime": 222.04,
-      "endTime": 228.74
+      "endTime": 228.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s27",
@@ -250,7 +706,26 @@
       "text": "the message to its home planet is barely halfway there.",
       "translation": "",
       "startTime": 228.75,
-      "endTime": 233.47
+      "endTime": 233.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +733,16 @@
       "text": "Similarly, our own present primitive chemical rockets,",
       "translation": "",
       "startTime": 233.48,
-      "endTime": 238.29
+      "endTime": 238.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s29",
@@ -282,7 +766,22 @@
       "text": "Fortunately, there is a 'uniquely rational way' for us to communicate with other intelligent beings,",
       "translation": "",
       "startTime": 253.85,
-      "endTime": 262.32
+      "endTime": 262.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +789,31 @@
       "text": "as Walter Sullivan has put it in his excellent book,",
       "translation": "",
       "startTime": 262.33,
-      "endTime": 266.33
+      "endTime": 266.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Book",
+            "pos": "n.",
+            "meaning": "书"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -298,7 +821,22 @@
       "text": "We Are not Alone.",
       "translation": "",
       "startTime": 266.34,
-      "endTime": 268.59
+      "endTime": 268.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s34",
@@ -306,7 +844,22 @@
       "text": "This depends on the precise radio frequency of the 21-cm wavelength, or 1420 megacycles per second.",
       "translation": "",
       "startTime": 268.6,
-      "endTime": 281.41
+      "endTime": 281.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s35",
@@ -314,7 +867,31 @@
       "text": "It is the natural frequency of emission of the hydrogen atoms in space and was discovered by us in 1951;",
       "translation": "",
       "startTime": 281.42,
-      "endTime": 290.3
+      "endTime": 290.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s36",
@@ -322,7 +899,22 @@
       "text": "it must be known to any kind of radio astronomer in the universe.",
       "translation": "",
       "startTime": 290.31,
-      "endTime": 295.84
+      "endTime": 295.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s37",
@@ -330,7 +922,22 @@
       "text": "Once the existence of this wave-length had been discovered,",
       "translation": "",
       "startTime": 295.85,
-      "endTime": 299.83
+      "endTime": 299.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s38",
@@ -338,7 +945,31 @@
       "text": "it was not long before its use as the uniquely recognizable broadcasting frequency for interstellar communication was suggested.",
       "translation": "",
       "startTime": 299.84,
-      "endTime": 309.29
+      "endTime": 309.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s39",
@@ -346,7 +977,22 @@
       "text": "Without something of this kind,",
       "translation": "",
       "startTime": 309.3,
-      "endTime": 311.48
+      "endTime": 311.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s40",
@@ -354,7 +1000,17 @@
       "text": "searching for intelligences on other planets would be like trying to meet a friend in London without a pre-arranged rendezvous",
       "translation": "",
       "startTime": 311.49,
-      "endTime": 319.4
+      "endTime": 319.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          }
+        ]
+      }
     },
     {
       "id": "s41",

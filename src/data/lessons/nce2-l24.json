@@ -26,7 +26,22 @@
       "text": "I had just lost ￡50 and I felt very upset.",
       "translation": "",
       "startTime": 20.13,
-      "endTime": 26.38
+      "endTime": 26.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +49,31 @@
       "text": "'I left the money in my room,' I said, 'and it's not there now.  '",
       "translation": "",
       "startTime": 26.39,
-      "endTime": 33.32
+      "endTime": 33.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +81,16 @@
       "text": "The manager was sympathetic, but he could do nothing.",
       "translation": "",
       "startTime": 33.33,
-      "endTime": 38.92
+      "endTime": 38.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "do",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s2",
@@ -58,7 +106,27 @@
       "text": "He started to complain about this wicked world but was interrupted by a knock at the door.",
       "translation": "",
       "startTime": 44.08,
-      "endTime": 52.52
+      "endTime": 52.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +134,16 @@
       "text": "A girl came in and put an envelope on his desk.",
       "translation": "",
       "startTime": 52.53,
-      "endTime": 56.97
+      "endTime": 56.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +151,22 @@
       "text": "It contained ￡50.",
       "translation": "",
       "startTime": 56.98,
-      "endTime": 59.96
+      "endTime": 59.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +174,26 @@
       "text": "'I found this outside this gentleman's room,' she said.",
       "translation": "",
       "startTime": 59.97,
-      "endTime": 65.15
+      "endTime": 65.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +201,36 @@
       "text": "'Well,' I said to the manager,'there is still some honesty in this world!'",
       "translation": "",
       "startTime": 65.16,
-      "endTime": 70.16
+      "endTime": 70.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,17 @@
       "text": "Lesson 48",
       "translation": "",
       "startTime": 0.43,
-      "endTime": 2.44
+      "endTime": 2.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +44,30 @@
       "text": "In this much-travelled world, there are still thousands of places which are inaccessible to tourists.",
       "translation": "",
       "startTime": 14.61,
-      "endTime": 23.06
+      "endTime": 23.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +75,26 @@
       "text": "We always assume that villagers in remote places are friendly and hospitable.",
       "translation": "",
       "startTime": 23.07,
-      "endTime": 29.73
+      "endTime": 29.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +102,26 @@
       "text": "But people who are cut off not only from foreign tourists, but even from their own countrymen can be hostile to travellers.",
       "translation": "",
       "startTime": 29.74,
-      "endTime": 40.01
+      "endTime": 40.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +129,26 @@
       "text": "Visits to really remote villages are seldom enjoyable--as my wife and I discovered during a tour through the Balkans.",
       "translation": "",
       "startTime": 40.02,
-      "endTime": 48.8
+      "endTime": 48.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +156,22 @@
       "text": "We had spent several days in a small town and visited a number of old churches in the vicinity.",
       "translation": "",
       "startTime": 48.81,
-      "endTime": 56.12
+      "endTime": 56.12,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +179,27 @@
       "text": "These attracted many visitors, for they were not only of great architectural interest, but contained a large number of beautifully preserved frescoes as well.",
       "translation": "",
       "startTime": 56.13,
-      "endTime": 67.94
+      "endTime": 67.94,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +207,16 @@
       "text": "On the day before our departure, several bus loads of tourists descended on the town.",
       "translation": "",
       "startTime": 67.95,
-      "endTime": 74.49
+      "endTime": 74.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +224,26 @@
       "text": "This was more than we could bear, so we decided to spend our last day exploring the countryside.",
       "translation": "",
       "startTime": 74.5,
-      "endTime": 82.85
+      "endTime": 82.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +259,35 @@
       "text": "We expected the path to end abruptly, but we found that it traced its way through the trees.",
       "translation": "",
       "startTime": 90.38,
-      "endTime": 98.21
+      "endTime": 98.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +295,17 @@
       "text": "We tramped through the wood for over two hours until we arrived at a deep stream.",
       "translation": "",
       "startTime": 98.22,
-      "endTime": 104.53
+      "endTime": 104.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +313,27 @@
       "text": "We could see that the path continued on the other side, but we had no idea how we could get across the stream.",
       "translation": "",
       "startTime": 104.54,
-      "endTime": 113.49
+      "endTime": 113.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +341,22 @@
       "text": "Suddenly my wife spotted a boat moored to the bank.",
       "translation": "",
       "startTime": 113.5,
-      "endTime": 117.75
+      "endTime": 117.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +364,22 @@
       "text": "In it there was a boatman fast asleep.",
       "translation": "",
       "startTime": 117.76,
-      "endTime": 121.37
+      "endTime": 121.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +395,17 @@
       "text": "Though he was reluctant to do so at first, we eventually persuaded him to take us.",
       "translation": "",
       "startTime": 126.67,
-      "endTime": 133.22
+      "endTime": 133.22,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -178,7 +429,22 @@
       "text": "Even under a clear blue sky, the village looked forbidding, as all the houses were built of grey mud bricks.",
       "translation": "",
       "startTime": 146.93,
-      "endTime": 156.08
+      "endTime": 156.08,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          },
+          {
+            "word": "Grey",
+            "pos": "adj.",
+            "meaning": "灰色的"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -194,7 +460,22 @@
       "text": "the only sign of life being an ugly-looking black goat on a short length of rope tied to a tree in a field nearby.",
       "translation": "",
       "startTime": 158.49,
-      "endTime": 169.11
+      "endTime": 169.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          },
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -210,7 +491,36 @@
       "text": "All at once, I noticed that my wife seemed to be filled with alarm.",
       "translation": "",
       "startTime": 178.85,
-      "endTime": 184.71
+      "endTime": 184.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +528,27 @@
       "text": "Looking up I saw that we were surrounded by children in rags who were looking at us silently as we ate.",
       "translation": "",
       "startTime": 184.72,
-      "endTime": 193.29
+      "endTime": 193.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -234,7 +564,22 @@
       "text": "I concluded that they were simply shy of strangers.",
       "translation": "",
       "startTime": 199.93,
-      "endTime": 204.11
+      "endTime": 204.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -258,7 +603,17 @@
       "text": "Faces appeared at windows.",
       "translation": "",
       "startTime": 218.24,
-      "endTime": 220.39
+      "endTime": 220.39,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +621,27 @@
       "text": "Men in shirt sleeves stood outside their houses and glared at us.",
       "translation": "",
       "startTime": 220.4,
-      "endTime": 225.77
+      "endTime": 225.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -274,7 +649,27 @@
       "text": "Old women in black shawls peered at us from doorways.",
       "translation": "",
       "startTime": 225.78,
-      "endTime": 230.72
+      "endTime": 230.72,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s31",
@@ -282,7 +677,27 @@
       "text": "The most frightening thing of all was that not a sound could be heard.",
       "translation": "",
       "startTime": 230.73,
-      "endTime": 236.63
+      "endTime": 236.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s32",
@@ -290,7 +705,22 @@
       "text": "There was no doubt that we were unwelcome visitors.",
       "translation": "",
       "startTime": 236.64,
-      "endTime": 241.53
+      "endTime": 241.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s33",
@@ -314,7 +744,20 @@
       "text": "we quickened our pace and made our way rapidly towards the stream where we hoped the boatman was waiting.",
       "translation": "",
       "startTime": 246.6,
-      "endTime": 251.6
+      "endTime": 251.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

@@ -10,7 +10,17 @@
       "text": "Lesson 25",
       "translation": "",
       "startTime": 0.41,
-      "endTime": 3.17
+      "endTime": 3.17,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.61,
-      "endTime": 12.57
+      "endTime": 12.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,31 @@
       "text": "What colour is the electric cooker?",
       "translation": "",
       "startTime": 12.58,
-      "endTime": 18.3
+      "endTime": 18.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,22 @@
       "text": "Mrs. Smith's kitchen is small.",
       "translation": "",
       "startTime": 18.31,
-      "endTime": 23.11
+      "endTime": 23.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +114,22 @@
       "text": "There is a refrigerator in the kitchen.",
       "translation": "",
       "startTime": 23.12,
-      "endTime": 27.7
+      "endTime": 27.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +137,27 @@
       "text": "The refrigerator is white.",
       "translation": "",
       "startTime": 27.71,
-      "endTime": 31.61
+      "endTime": 31.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "White",
+            "pos": "adj.",
+            "meaning": "白色的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +165,31 @@
       "text": "It is on the right.",
       "translation": "",
       "startTime": 31.62,
-      "endTime": 35.02
+      "endTime": 35.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +197,22 @@
       "text": "There is an electric cooker in the kitchen.",
       "translation": "",
       "startTime": 35.03,
-      "endTime": 39.61
+      "endTime": 39.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +220,27 @@
       "text": "The cooker is blue.",
       "translation": "",
       "startTime": 39.62,
-      "endTime": 42.94
+      "endTime": 42.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +248,31 @@
       "text": "It is on the left.",
       "translation": "",
       "startTime": 42.95,
-      "endTime": 46.21
+      "endTime": 46.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +280,22 @@
       "text": "There is a table in the middle of the room.",
       "translation": "",
       "startTime": 46.22,
-      "endTime": 51.53
+      "endTime": 51.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +303,22 @@
       "text": "There is a bottle on the table.",
       "translation": "",
       "startTime": 51.54,
-      "endTime": 55.26
+      "endTime": 55.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +326,22 @@
       "text": "The bottle is empty.",
       "translation": "",
       "startTime": 55.27,
-      "endTime": 59.09
+      "endTime": 59.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +349,27 @@
       "text": "There is a cup on the table, too.",
       "translation": "",
       "startTime": 59.1,
-      "endTime": 63.82
+      "endTime": 63.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +377,22 @@
       "text": "The cup is clean.",
       "translation": "",
       "startTime": 63.83,
-      "endTime": 68.83
+      "endTime": 68.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

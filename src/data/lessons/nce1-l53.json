@@ -10,7 +10,17 @@
       "text": "Lesson 53",
       "translation": "",
       "startTime": 0.66,
-      "endTime": 3.48
+      "endTime": 3.48,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 7.26,
-      "endTime": 13.6
+      "endTime": 13.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,31 @@
       "text": "What is the favourite subject of conversation in England?",
       "translation": "",
       "startTime": 13.61,
-      "endTime": 21.64
+      "endTime": 21.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,17 @@
       "text": "Where do you come from?",
       "translation": "",
       "startTime": 21.65,
-      "endTime": 24.78
+      "endTime": 24.78,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +117,22 @@
       "text": "What's the climate like in your country?",
       "translation": "",
       "startTime": 27.82,
-      "endTime": 31.81
+      "endTime": 31.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +140,26 @@
       "text": "It's mild, but it's not always pleasant.",
       "translation": "",
       "startTime": 31.82,
-      "endTime": 37.46
+      "endTime": 37.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +167,17 @@
       "text": "The weather's often cold in the North and windy in the East.",
       "translation": "",
       "startTime": 37.47,
-      "endTime": 44.42
+      "endTime": 44.42,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +185,16 @@
       "text": "It's often wet in the West and sometimes warm in the South.",
       "translation": "",
       "startTime": 44.43,
-      "endTime": 52.32
+      "endTime": 52.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +202,17 @@
       "text": "Which seasons do you like best?",
       "translation": "",
       "startTime": 52.33,
-      "endTime": 56.65
+      "endTime": 56.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +228,26 @@
       "text": "The days are long and the nights are short.",
       "translation": "",
       "startTime": 59.99,
-      "endTime": 65.67
+      "endTime": 65.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -130,7 +271,26 @@
       "text": "The days are short and the nights are long.",
       "translation": "",
       "startTime": 74.91,
-      "endTime": 80.75
+      "endTime": 80.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -146,7 +306,44 @@
       "text": "Our climate is not very good, but it's certainly interesting.",
       "translation": "",
       "startTime": 86.55,
-      "endTime": 93.78
+      "endTime": 93.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Our",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +351,20 @@
       "text": "It's our favourite subject of conversation.",
       "translation": "",
       "startTime": 93.79,
-      "endTime": 98.79
+      "endTime": 98.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

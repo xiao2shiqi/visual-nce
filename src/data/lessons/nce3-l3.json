@@ -10,7 +10,17 @@
       "text": "Lesson 3",
       "translation": "",
       "startTime": 0.95,
-      "endTime": 2.33
+      "endTime": 2.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,27 @@
       "text": "How did the archaeologists know that the statue was a goddess?",
       "translation": "",
       "startTime": 10.64,
-      "endTime": 16.22
+      "endTime": 16.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +72,17 @@
       "text": "An American team explored a temple which stands in an ancient city on the promontory of Ayia Irini.",
       "translation": "",
       "startTime": 24.33,
-      "endTime": 32.7
+      "endTime": 32.7,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "American",
+            "pos": "adj.",
+            "meaning": "美国的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +90,27 @@
       "text": "The city at one time must have been prosperous, for it enjoyed a high level of civilization.",
       "translation": "",
       "startTime": 32.71,
-      "endTime": 38.97
+      "endTime": 38.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -98,7 +158,17 @@
       "text": "Each of these represented a goddess and had, at one time, been painted.",
       "translation": "",
       "startTime": 74.21,
-      "endTime": 80.17
+      "endTime": 80.17,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +184,16 @@
       "text": "Its missing head happened to be among remains of the fifth century B.C.",
       "translation": "",
       "startTime": 87.02,
-      "endTime": 92.79
+      "endTime": 92.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +201,22 @@
       "text": "This head must have been found in Classical times and carefully preserved.",
       "translation": "",
       "startTime": 92.8,
-      "endTime": 97.83
+      "endTime": 97.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +224,36 @@
       "text": "It was very old and precious even then.",
       "translation": "",
       "startTime": 97.84,
-      "endTime": 101.86
+      "endTime": 101.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +261,36 @@
       "text": "When the archaeologists reconstructed the fragments, they were amazed to find that the goddess turned out to be a very modern-looking woman.",
       "translation": "",
       "startTime": 101.87,
-      "endTime": 111.06
+      "endTime": 111.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +298,20 @@
       "text": "She stood three feet high and her hands rested on her hips.",
       "translation": "",
       "startTime": 111.07,
-      "endTime": 115.75
+      "endTime": 115.75,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -154,7 +319,22 @@
       "text": "She was wearing a full-length skirt which swept the ground.",
       "translation": "",
       "startTime": 115.76,
-      "endTime": 119.94
+      "endTime": 119.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "skirt",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Skirt",
+            "pos": "n.",
+            "meaning": "裙子"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +342,30 @@
       "text": "Despite her great age, she was very graceful indeed, but, so far, the archaeologists have been unable to discover her identity.",
       "translation": "",
       "startTime": 119.95,
-      "endTime": 124.95
+      "endTime": 124.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     }
   ]
 }

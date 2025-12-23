@@ -10,7 +10,26 @@
       "text": "What kind of fish are they?",
       "translation": "",
       "startTime": 10.32,
-      "endTime": 14.63
+      "endTime": 14.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -34,7 +53,35 @@
       "text": "So it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs.",
       "translation": "",
       "startTime": 27.29,
-      "endTime": 37.29
+      "endTime": 37.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -50,7 +97,16 @@
       "text": "have been frightened out of their wits by giant fish bumping into them as they work.",
       "translation": "",
       "startTime": 47.27,
-      "endTime": 54.82
+      "endTime": 54.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -66,7 +122,22 @@
       "text": "The fish are not sharks or killer whales,",
       "translation": "",
       "startTime": 61.06,
-      "endTime": 65.11
+      "endTime": 65.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +153,17 @@
       "text": "sometimes as much as twelve feet in length.",
       "translation": "",
       "startTime": 72.92,
-      "endTime": 77.84
+      "endTime": 77.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +179,17 @@
       "text": "the warm water round the hot oil pipes under the sea;",
       "translation": "",
       "startTime": 83.01,
-      "endTime": 88.16
+      "endTime": 88.16,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",

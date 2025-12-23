@@ -10,7 +10,22 @@
       "text": "What was wrong with the man's story?",
       "translation": "",
       "startTime": 11.31,
-      "endTime": 16.12
+      "endTime": 16.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,22 @@
       "text": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.",
       "translation": "",
       "startTime": 16.13,
-      "endTime": 25.95
+      "endTime": 25.95,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +56,17 @@
       "text": "'Do you always catch such an early train?' asked the inspector.",
       "translation": "",
       "startTime": 25.96,
-      "endTime": 31.7
+      "endTime": 31.7,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +74,17 @@
       "text": "'Of course I do,' answered the man.",
       "translation": "",
       "startTime": 31.71,
-      "endTime": 35.85
+      "endTime": 35.85,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +92,17 @@
       "text": "'I must be at work at 10 o'clock.",
       "translation": "",
       "startTime": 35.86,
-      "endTime": 38.99
+      "endTime": 38.99,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +110,31 @@
       "text": "My employer will confirm that I was there on time.'",
       "translation": "",
       "startTime": 39,
-      "endTime": 44.68
+      "endTime": 44.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +142,17 @@
       "text": "'Would a later train get you to work on time?' asked the inspector.",
       "translation": "",
       "startTime": 44.69,
-      "endTime": 51.07
+      "endTime": 51.07,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +160,22 @@
       "text": "'I suppose it would, but I never catch a later train.'",
       "translation": "",
       "startTime": 51.08,
-      "endTime": 57.14
+      "endTime": 57.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +183,32 @@
       "text": "'At what time did you arrive at the station?'",
       "translation": "",
       "startTime": 57.15,
-      "endTime": 62.04
+      "endTime": 62.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +216,17 @@
       "text": "'At ten to eight. I bought a paper and waited for the train.'",
       "translation": "",
       "startTime": 62.05,
-      "endTime": 68.07
+      "endTime": 68.07,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +234,17 @@
       "text": "'And you didn't notice anything unusual?'",
       "translation": "",
       "startTime": 68.08,
-      "endTime": 73.12
+      "endTime": 73.12,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +252,17 @@
       "text": "'Of course not.'",
       "translation": "",
       "startTime": 73.13,
-      "endTime": 75.67
+      "endTime": 75.67,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +270,36 @@
       "text": "'I suggest,' said the inspector,' that you are not telling the truth.",
       "translation": "",
       "startTime": 75.68,
-      "endTime": 82.97
+      "endTime": 82.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +307,32 @@
       "text": "I suggest that you did not catch the 8 o'clock train,",
       "translation": "",
       "startTime": 82.98,
-      "endTime": 87.83
+      "endTime": 87.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +340,27 @@
       "text": "but that you caught the 8.25 which would still get you to work on time.",
       "translation": "",
       "startTime": 87.84,
-      "endTime": 94.86
+      "endTime": 94.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +368,27 @@
       "text": "You see, on the morning of the murder, the 8 o'clock train did not run at all.",
       "translation": "",
       "startTime": 94.87,
-      "endTime": 102.65
+      "endTime": 102.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +396,27 @@
       "text": "It broke down at Ferngreen station and was taken off the line.'",
       "translation": "",
       "startTime": 102.66,
-      "endTime": 107.66
+      "endTime": 107.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

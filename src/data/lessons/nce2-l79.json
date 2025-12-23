@@ -10,7 +10,16 @@
       "text": "Why did the plane turn back?",
       "translation": "",
       "startTime": 10.25,
-      "endTime": 14.77
+      "endTime": 14.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +27,17 @@
       "text": "I used to travel by air a great deal when I was a boy.",
       "translation": "",
       "startTime": 14.78,
-      "endTime": 20.05
+      "endTime": 20.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +45,22 @@
       "text": "My parents used to live in South America and I used to fly there from Europe in the holidays.",
       "translation": "",
       "startTime": 20.06,
-      "endTime": 28.91
+      "endTime": 28.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +68,22 @@
       "text": "A flight attendant would take charge of me and I never had an unpleasant experience.",
       "translation": "",
       "startTime": 28.92,
-      "endTime": 36.24
+      "endTime": 36.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +91,22 @@
       "text": "I am used to travelling by air and only on one occasion have I ever felt frightened.",
       "translation": "",
       "startTime": 36.25,
-      "endTime": 44.15
+      "endTime": 44.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "am",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -74,7 +138,22 @@
       "text": "and to get off the plane quietly as soon as it had touched down.",
       "translation": "",
       "startTime": 63.46,
-      "endTime": 69.22
+      "endTime": 69.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +161,22 @@
       "text": "Everybody on board was worried and we were curious to find out what had happened.",
       "translation": "",
       "startTime": 69.23,
-      "endTime": 76.2
+      "endTime": 76.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +184,31 @@
       "text": "Later we learnt that there was a very important person on board.",
       "translation": "",
       "startTime": 76.21,
-      "endTime": 81.16
+      "endTime": 81.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +216,22 @@
       "text": "The police had been told that a bomb had been planted on the plane.",
       "translation": "",
       "startTime": 81.17,
-      "endTime": 86.78
+      "endTime": 86.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +247,17 @@
       "text": "Fortunately, nothing was found and five hours later we were able to take off again.",
       "translation": "",
       "startTime": 91.89,
-      "endTime": 96.89
+      "endTime": 96.89,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     }
   ]
 }

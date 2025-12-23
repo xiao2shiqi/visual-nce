@@ -10,7 +10,17 @@
       "text": "Lesson 17",
       "translation": "",
       "startTime": 0.58,
-      "endTime": 2.88
+      "endTime": 2.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "How do you do?",
       "translation": "",
       "startTime": 2.89,
-      "endTime": 6.39
+      "endTime": 6.39,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.4,
-      "endTime": 12.61
+      "endTime": 12.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +74,26 @@
       "text": "What are Michael Baker and Jeremy Short's jobs?",
       "translation": "",
       "startTime": 12.62,
-      "endTime": 19.58
+      "endTime": 19.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +101,22 @@
       "text": "Come and meet our employees Mr.Richards.",
       "translation": "",
       "startTime": 19.59,
-      "endTime": 25.18
+      "endTime": 25.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +124,22 @@
       "text": "Thank you Mr. Jackson.",
       "translation": "",
       "startTime": 25.19,
-      "endTime": 28.44
+      "endTime": 28.44,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +147,36 @@
       "text": "This is Nicola Grey",
       "translation": "",
       "startTime": 28.45,
-      "endTime": 31.56
+      "endTime": 31.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Grey",
+            "pos": "adj.",
+            "meaning": "灰色的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +184,31 @@
       "text": "and this is Claire Taylor.",
       "translation": "",
       "startTime": 31.57,
-      "endTime": 35.29
+      "endTime": 35.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +216,22 @@
       "text": "How do you do?",
       "translation": "",
       "startTime": 35.3,
-      "endTime": 38.39
+      "endTime": 38.39,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +239,26 @@
       "text": "Those women are very hard-working.",
       "translation": "",
       "startTime": 38.4,
-      "endTime": 43.17
+      "endTime": 43.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +266,30 @@
       "text": "What are their jobs?",
       "translation": "",
       "startTime": 43.18,
-      "endTime": 46.59
+      "endTime": 46.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -106,7 +305,31 @@
       "text": "This is Michael Baker",
       "translation": "",
       "startTime": 50.9,
-      "endTime": 53.84
+      "endTime": 53.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +337,36 @@
       "text": "and this is Jeremy Short.",
       "translation": "",
       "startTime": 53.85,
-      "endTime": 57.41
+      "endTime": 57.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +374,22 @@
       "text": "How do you do?",
       "translation": "",
       "startTime": 57.42,
-      "endTime": 60.66
+      "endTime": 60.66,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +397,27 @@
       "text": "They aren't very busy!",
       "translation": "",
       "startTime": 60.67,
-      "endTime": 63.79
+      "endTime": 63.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Busy",
+            "pos": "adj.",
+            "meaning": "忙碌的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +425,30 @@
       "text": "What are their jobs?",
       "translation": "",
       "startTime": 63.8,
-      "endTime": 67.94
+      "endTime": 67.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -154,7 +464,27 @@
       "text": "They're very lazy.",
       "translation": "",
       "startTime": 70.21,
-      "endTime": 73.27
+      "endTime": 73.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Lazy",
+            "pos": "adj.",
+            "meaning": "懒惰的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +492,41 @@
       "text": "Who is this young man?",
       "translation": "",
       "startTime": 73.28,
-      "endTime": 77.02
+      "endTime": 77.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +534,31 @@
       "text": "This is Jim.",
       "translation": "",
       "startTime": 77.03,
-      "endTime": 79.41
+      "endTime": 79.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +566,16 @@
       "text": "He's our office assistant.",
       "translation": "",
       "startTime": 79.42,
-      "endTime": 84.42
+      "endTime": 84.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

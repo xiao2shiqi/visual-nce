@@ -10,7 +10,22 @@
       "text": "Does what Madam Bellinsky said come true?",
       "translation": "",
       "startTime": 9.35,
-      "endTime": 14.65
+      "endTime": 14.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "At a village fair, I decided to visit a fortune-teller called Madam Bellinsky.",
       "translation": "",
       "startTime": 14.66,
-      "endTime": 22.33
+      "endTime": 22.33,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,26 @@
       "text": "I went into her tent and she told me to sit down.",
       "translation": "",
       "startTime": 22.34,
-      "endTime": 27.22
+      "endTime": 27.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +78,16 @@
       "text": "After I had given her some money, she looked into a crystal ball and said:",
       "translation": "",
       "startTime": 27.23,
-      "endTime": 34.1
+      "endTime": 34.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +95,27 @@
       "text": "'A relation of yours is coming to see you.",
       "translation": "",
       "startTime": 34.11,
-      "endTime": 38.28
+      "endTime": 38.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +123,22 @@
       "text": "She will be arriving this evening and intends to stay for a few days.",
       "translation": "",
       "startTime": 38.29,
-      "endTime": 44.39
+      "endTime": 44.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +146,27 @@
       "text": "The moment you leave this tent, you will get a big surprise.",
       "translation": "",
       "startTime": 44.4,
-      "endTime": 49.82
+      "endTime": 49.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +174,27 @@
       "text": "A woman you know well will rush towards you.",
       "translation": "",
       "startTime": 49.83,
-      "endTime": 54.17
+      "endTime": 54.17,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Woman",
+            "pos": "n.",
+            "meaning": "女人"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +202,45 @@
       "text": "She will speak to you and then she will lead you away from this place. That is all.'",
       "translation": "",
       "startTime": 54.18,
-      "endTime": 62.39
+      "endTime": 62.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "That",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +248,31 @@
       "text": "As soon as I went outside, I forgot all about Madam Bellinsky because my wife hurried towards me.",
       "translation": "",
       "startTime": 62.4,
-      "endTime": 71.47
+      "endTime": 71.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +280,17 @@
       "text": "'Where have you been hiding?' she asked impatiently.",
       "translation": "",
       "startTime": 71.48,
-      "endTime": 76.82
+      "endTime": 76.82,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +298,45 @@
       "text": "'Your sister will be here in less than an hour and we must be at the station to meet her. We are late already.'",
       "translation": "",
       "startTime": 76.83,
-      "endTime": 86.57
+      "endTime": 86.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Your",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          },
+          {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "Meet",
+            "pos": "v.",
+            "meaning": "遇见，结识"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +344,16 @@
       "text": "As she walked away, I followed her out of the fair.",
       "translation": "",
       "startTime": 86.58,
-      "endTime": 91.58
+      "endTime": 91.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     }
   ]
 }

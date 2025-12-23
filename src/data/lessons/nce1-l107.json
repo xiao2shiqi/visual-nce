@@ -10,7 +10,17 @@
       "text": "Lesson 107",
       "translation": "",
       "startTime": 0.7,
-      "endTime": 4.05
+      "endTime": 4.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "It's too small.",
       "translation": "",
       "startTime": 4.06,
-      "endTime": 7.32
+      "endTime": 7.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 7.33,
-      "endTime": 13.34
+      "endTime": 13.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +74,35 @@
       "text": "What kind of dress does the Lady want?",
       "translation": "",
       "startTime": 13.35,
-      "endTime": 19.26
+      "endTime": 19.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "does",
+            "label": "助动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +110,40 @@
       "text": "Do you like this dress, madam?",
       "translation": "",
       "startTime": 19.27,
-      "endTime": 23.42
+      "endTime": 23.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +151,27 @@
       "text": "I like the colour very much.",
       "translation": "",
       "startTime": 23.43,
-      "endTime": 27.06
+      "endTime": 27.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Much",
+            "pos": "adv.",
+            "meaning": "非常"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +179,44 @@
       "text": "It's a lovely dress, but it's too small for me.",
       "translation": "",
       "startTime": 27.07,
-      "endTime": 33.32
+      "endTime": 33.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +224,31 @@
       "text": "What about this one?",
       "translation": "",
       "startTime": 33.33,
-      "endTime": 35.77
+      "endTime": 35.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +256,26 @@
       "text": "It's a lovely dress.",
       "translation": "",
       "startTime": 35.78,
-      "endTime": 38.39
+      "endTime": 38.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +283,26 @@
       "text": "It's very smart.",
       "translation": "",
       "startTime": 38.4,
-      "endTime": 40.97
+      "endTime": 40.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +310,22 @@
       "text": "Short skirts are in fashion now.",
       "translation": "",
       "startTime": 40.98,
-      "endTime": 44.67
+      "endTime": 44.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Short",
+            "pos": "adj.",
+            "meaning": "矮的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +333,27 @@
       "text": "Would you like to try it?",
       "translation": "",
       "startTime": 44.68,
-      "endTime": 47.66
+      "endTime": 47.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +369,64 @@
       "text": "I'm afraid this green dress is too small for me as well.",
       "translation": "",
       "startTime": 49.82,
-      "endTime": 57.9
+      "endTime": 57.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Green",
+            "pos": "adj.",
+            "meaning": "绿色的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +434,22 @@
       "text": "It's smaller than the blue one.",
       "translation": "",
       "startTime": 57.91,
-      "endTime": 62.58
+      "endTime": 62.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -138,7 +465,36 @@
       "text": "It doesn't suit me at all.",
       "translation": "",
       "startTime": 66.22,
-      "endTime": 70.02
+      "endTime": 70.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +502,36 @@
       "text": "I think the blue dress is prettier.",
       "translation": "",
       "startTime": 70.03,
-      "endTime": 74.76
+      "endTime": 74.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +539,41 @@
       "text": "Could you show me another blue dress?",
       "translation": "",
       "startTime": 74.77,
-      "endTime": 79.36
+      "endTime": 79.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "Blue",
+            "pos": "adj.",
+            "meaning": "蓝色的"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +581,53 @@
       "text": "I want a dress like that one, but it must be my size.",
       "translation": "",
       "startTime": 79.37,
-      "endTime": 87.33
+      "endTime": 87.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "must",
+            "label": "情态动词"
+          },
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +635,22 @@
       "text": "I'm afraid I haven't got a larger dress.",
       "translation": "",
       "startTime": 87.34,
-      "endTime": 92.56
+      "endTime": 92.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +658,40 @@
       "text": "This is the largest dress in the shop.",
       "translation": "",
       "startTime": 92.57,
-      "endTime": 97.57
+      "endTime": 97.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "dress",
+            "label": "名词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
+          }
+        ]
+      }
     }
   ]
 }

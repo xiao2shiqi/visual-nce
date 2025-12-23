@@ -10,7 +10,17 @@
       "text": "Lesson 17",
       "translation": "",
       "startTime": 0.59,
-      "endTime": 2.77
+      "endTime": 2.77,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "What factor helped to spread the disease of myxomatosis?",
       "translation": "",
       "startTime": 11.76,
-      "endTime": 18.27
+      "endTime": 18.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +67,44 @@
       "text": "This rabbit had no natural enemies in the Antipodes, so that it multiplied with that promiscuous abandon characteristic of rabbits.",
       "translation": "",
       "startTime": 28.42,
-      "endTime": 40.41
+      "endTime": 40.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +112,22 @@
       "text": "It overran a whole continent.",
       "translation": "",
       "startTime": 40.42,
-      "endTime": 43.86
+      "endTime": 43.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +135,22 @@
       "text": "It caused devastation by burrowing and by devouring the herbage which might have maintained millions of sheep and cattle.",
       "translation": "",
       "startTime": 43.87,
-      "endTime": 52.98
+      "endTime": 52.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +158,31 @@
       "text": "Scientists discovered that this particular variety of rabbit (and apparently no other animal) was susceptible to a fatal virus disease, myxomatosis.",
       "translation": "",
       "startTime": 52.99,
-      "endTime": 66.83
+      "endTime": 66.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +190,22 @@
       "text": "By infecting animals and letting them loose in the burrows, local epidemics of this disease could be created.",
       "translation": "",
       "startTime": 66.84,
-      "endTime": 75.05
+      "endTime": 75.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +213,44 @@
       "text": "Later it was found that there was a type of mosquito which acted as the carrier of this disease and passed it on to the rabbits.",
       "translation": "",
       "startTime": 75.06,
-      "endTime": 83.83
+      "endTime": 83.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +258,22 @@
       "text": "So while the rest of the world was trying to get rid of mosquitoes, Australia was encouraging this one.",
       "translation": "",
       "startTime": 83.84,
-      "endTime": 91.13
+      "endTime": 91.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +281,22 @@
       "text": "It effectively spread the disease all over the continent and drastically reduced the rabit population.",
       "translation": "",
       "startTime": 91.14,
-      "endTime": 99.61
+      "endTime": 99.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +304,40 @@
       "text": "It later became apparent that rabbits were developing a degree of resistance to this disease,",
       "translation": "",
       "startTime": 99.62,
-      "endTime": 105.87
+      "endTime": 105.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +345,22 @@
       "text": "so that the rabbit population was unlikely to be completely exterminated.",
       "translation": "",
       "startTime": 105.88,
-      "endTime": 111.87
+      "endTime": 111.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +368,22 @@
       "text": "There were hopes, however, that the problem of the rabbit would become manageable.",
       "translation": "",
       "startTime": 111.88,
-      "endTime": 118.71
+      "endTime": 118.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +391,22 @@
       "text": "Ironically, Europe, which had bequeathed the rabbit as a pest to Australia, acquired this man-made disease as a pestilence.",
       "translation": "",
       "startTime": 118.72,
-      "endTime": 129.36
+      "endTime": 129.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +414,22 @@
       "text": "A French physician decided to get rid of the wild rabbits on his own estate and introduced myxomatosis.",
       "translation": "",
       "startTime": 129.37,
-      "endTime": 137.02
+      "endTime": 137.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的，法语"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +437,36 @@
       "text": "It did not, however, remain within the confines of this estate.",
       "translation": "",
       "startTime": 137.03,
-      "endTime": 142.12
+      "endTime": 142.12,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +474,31 @@
       "text": "It spread through France, where wild rabbits are not generally regarded as a pest but as a sport and a useful food supply,",
       "translation": "",
       "startTime": 142.13,
-      "endTime": 151.52
+      "endTime": 151.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +506,26 @@
       "text": "and it spread to Britain where wild rabbits are regarded as a pest but where domesticated rabbits,",
       "translation": "",
       "startTime": 151.53,
-      "endTime": 158.61
+      "endTime": 158.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +533,16 @@
       "text": "equally susceptible to the disease, are the basis of a profitable fur industry.",
       "translation": "",
       "startTime": 158.62,
-      "endTime": 165.49
+      "endTime": 165.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +550,17 @@
       "text": "The question became one of whether Man could control the disease he had invented.",
       "translation": "",
       "startTime": 165.5,
-      "endTime": 170.5
+      "endTime": 170.5,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,17 @@
       "text": "Lesson 71",
       "translation": "",
       "startTime": 0.67,
-      "endTime": 2.94
+      "endTime": 2.94,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 5.84,
-      "endTime": 11.81
+      "endTime": 11.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,22 @@
       "text": "How did Pauline answer the telephone at nine o'clock?",
       "translation": "",
       "startTime": 11.82,
-      "endTime": 19.63
+      "endTime": 19.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +98,22 @@
       "text": "He telephoned me four times yesterday and three times the day before yesterday.",
       "translation": "",
       "startTime": 26.62,
-      "endTime": 37.21
+      "endTime": 37.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +129,22 @@
       "text": "My boss answered the telephone.",
       "translation": "",
       "startTime": 45.55,
-      "endTime": 50.13
+      "endTime": 50.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "My",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +152,31 @@
       "text": "What did your boss say to him?",
       "translation": "",
       "startTime": 50.14,
-      "endTime": 53.79
+      "endTime": 53.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +184,22 @@
       "text": "He said, 'Pauline is typing letters.",
       "translation": "",
       "startTime": 53.8,
-      "endTime": 58.49
+      "endTime": 58.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +207,17 @@
       "text": "She can't speak to you now!'",
       "translation": "",
       "startTime": 58.5,
-      "endTime": 62.35
+      "endTime": 62.35,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +225,17 @@
       "text": "Then I arrived home at six o'clock yesterday evening.",
       "translation": "",
       "startTime": 62.36,
-      "endTime": 68.81
+      "endTime": 68.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -130,7 +259,16 @@
       "text": "Did he telephone again last night?",
       "translation": "",
       "startTime": 75.67,
-      "endTime": 79.82
+      "endTime": 79.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +276,17 @@
       "text": "Yes, he did.",
       "translation": "",
       "startTime": 79.83,
-      "endTime": 82.2
+      "endTime": 82.2,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +294,17 @@
       "text": "He telephoned at nine o'clock.",
       "translation": "",
       "startTime": 82.21,
-      "endTime": 86.4
+      "endTime": 86.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +312,27 @@
       "text": "What did you say to him?",
       "translation": "",
       "startTime": 86.41,
-      "endTime": 89.66
+      "endTime": 89.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +340,31 @@
       "text": "I said, 'This is Pauline's mother.",
       "translation": "",
       "startTime": 89.67,
-      "endTime": 93.81
+      "endTime": 93.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +372,32 @@
       "text": "Please don't telephone my daughter again!'",
       "translation": "",
       "startTime": 93.82,
-      "endTime": 99.43
+      "endTime": 99.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "my",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          },
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "Daughter",
+            "pos": "n.",
+            "meaning": "女儿"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +405,16 @@
       "text": "Did he telephone again?",
       "translation": "",
       "startTime": 99.44,
-      "endTime": 102.09
+      "endTime": 102.09,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Did",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",

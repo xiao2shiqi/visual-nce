@@ -10,7 +10,17 @@
       "text": "Lesson 109",
       "translation": "",
       "startTime": 0.67,
-      "endTime": 3.26
+      "endTime": 3.26,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.16,
-      "endTime": 11.66
+      "endTime": 11.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,26 @@
       "text": "What does Jane have with her coffee?",
       "translation": "",
       "startTime": 11.67,
-      "endTime": 16.96
+      "endTime": 16.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -58,7 +102,16 @@
       "text": "It's ready.",
       "translation": "",
       "startTime": 26.07,
-      "endTime": 27.96
+      "endTime": 27.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +119,17 @@
       "text": "Do you want any milk?",
       "translation": "",
       "startTime": 27.97,
-      "endTime": 30.93
+      "endTime": 30.93,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +137,17 @@
       "text": "Just a little, please.",
       "translation": "",
       "startTime": 30.94,
-      "endTime": 34.42
+      "endTime": 34.42,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +155,22 @@
       "text": "What about some sugar?",
       "translation": "",
       "startTime": 34.43,
-      "endTime": 37.45
+      "endTime": 37.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -98,7 +186,22 @@
       "text": "No, less than that.",
       "translation": "",
       "startTime": 40.68,
-      "endTime": 43.62
+      "endTime": 43.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +209,17 @@
       "text": "One and a half teaspoonfuls, please.",
       "translation": "",
       "startTime": 43.63,
-      "endTime": 48.28
+      "endTime": 48.28,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +227,22 @@
       "text": "That's enough for me.",
       "translation": "",
       "startTime": 48.29,
-      "endTime": 52.02
+      "endTime": 52.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +250,36 @@
       "text": "That was very nice.",
       "translation": "",
       "startTime": 52.03,
-      "endTime": 55.24
+      "endTime": 55.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "好的，漂亮的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +287,17 @@
       "text": "Would you like some more?",
       "translation": "",
       "startTime": 55.25,
-      "endTime": 58.04
+      "endTime": 58.04,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +305,22 @@
       "text": "Yes, please.",
       "translation": "",
       "startTime": 58.05,
-      "endTime": 61.39
+      "endTime": 61.39,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +328,17 @@
       "text": "I'd like a cigarette, too.",
       "translation": "",
       "startTime": 61.4,
-      "endTime": 64.84
+      "endTime": 64.84,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +346,16 @@
       "text": "May I have one?",
       "translation": "",
       "startTime": 64.85,
-      "endTime": 67.49
+      "endTime": 67.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "May",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s16",
@@ -170,7 +371,26 @@
       "text": "I think there are a few in that box.",
       "translation": "",
       "startTime": 69.46,
-      "endTime": 74.66
+      "endTime": 74.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -178,7 +398,16 @@
       "text": "I'm afraid it's empty.",
       "translation": "",
       "startTime": 74.67,
-      "endTime": 78.17
+      "endTime": 78.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s19",
@@ -186,7 +415,22 @@
       "text": "What a pity!",
       "translation": "",
       "startTime": 78.18,
-      "endTime": 80.49
+      "endTime": 80.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +438,22 @@
       "text": "It doesn't matter.",
       "translation": "",
       "startTime": 80.5,
-      "endTime": 83.22
+      "endTime": 83.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -218,7 +477,22 @@
       "text": "That's very good advice!",
       "translation": "",
       "startTime": 90.32,
-      "endTime": 95.32
+      "endTime": 95.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     }
   ]
 }

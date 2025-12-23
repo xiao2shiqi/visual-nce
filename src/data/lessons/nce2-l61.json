@@ -10,7 +10,31 @@
       "text": "What is the special importance of a telescope in space?",
       "translation": "",
       "startTime": 10.59,
-      "endTime": 17.1
+      "endTime": 17.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +50,17 @@
       "text": "space by NASA on April 20, 1990 at a cost of over a billion dollars.",
       "translation": "",
       "startTime": 19.66,
-      "endTime": 28.67
+      "endTime": 28.67,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -42,7 +76,35 @@
       "text": "The pictures it sent us were very disappointing because its main mirror was faulty!",
       "translation": "",
       "startTime": 33.84,
-      "endTime": 41.3
+      "endTime": 41.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          },
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +112,22 @@
       "text": "NASA is now going to put the telescope right,",
       "translation": "",
       "startTime": 41.31,
-      "endTime": 45.33
+      "endTime": 45.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +135,26 @@
       "text": "so it will soon be sending up four astronauts to repair it.",
       "translation": "",
       "startTime": 45.34,
-      "endTime": 51.19
+      "endTime": 51.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +162,16 @@
       "text": "The shuttle Endeavour will be taking the astronauts to the Hubble.",
       "translation": "",
       "startTime": 51.2,
-      "endTime": 56.32
+      "endTime": 56.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s5",
@@ -74,7 +179,22 @@
       "text": "A robot-arm from the Endeavour will grab the telescope and hold it while the astronauts make the necessary repairs.",
       "translation": "",
       "startTime": 56.33,
-      "endTime": 66.34
+      "endTime": 66.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +202,22 @@
       "text": "Of course, the Hubble is above the earth's atmosphere,",
       "translation": "",
       "startTime": 66.35,
-      "endTime": 71.23
+      "endTime": 71.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +225,31 @@
       "text": "so it will soon be sending us the clearest pictures of the stars and distant galaxies that we have ever seen.",
       "translation": "",
       "startTime": 71.24,
-      "endTime": 80.72
+      "endTime": 80.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +257,16 @@
       "text": "The Hubble will tell us a great deal about the age and size of the universe.",
       "translation": "",
       "startTime": 80.73,
-      "endTime": 87.73
+      "endTime": 87.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +274,27 @@
       "text": "By the time you read this, the Hubble's eagle eye will have sent us thousands and thousands of wonderful pictures.",
       "translation": "",
       "startTime": 87.74,
-      "endTime": 92.74
+      "endTime": 92.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     }
   ]
 }

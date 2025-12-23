@@ -10,7 +10,36 @@
       "text": "What did the man in this story do?",
       "translation": "",
       "startTime": 11.39,
-      "endTime": 16.14
+      "endTime": 16.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +47,17 @@
       "text": "When a plane from London arrived at Sydney airport,",
       "translation": "",
       "startTime": 16.15,
-      "endTime": 20.65
+      "endTime": 20.65,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +65,17 @@
       "text": "workers began to unload a number of wooden boxes which contained clothing.",
       "translation": "",
       "startTime": 20.66,
-      "endTime": 27.94
+      "endTime": 27.94,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +83,22 @@
       "text": "No one could account for the fact that one of the boxes was extremely heavy.",
       "translation": "",
       "startTime": 27.95,
-      "endTime": 35.41
+      "endTime": 35.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +106,22 @@
       "text": "It suddenly occurred to one of the workers to open up the box.",
       "translation": "",
       "startTime": 35.42,
-      "endTime": 41.61
+      "endTime": 41.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +129,27 @@
       "text": "He was astonished at what he found.",
       "translation": "",
       "startTime": 41.62,
-      "endTime": 45.56
+      "endTime": 45.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +157,17 @@
       "text": "A man was lying in the box on top of a pile of woollen goods.",
       "translation": "",
       "startTime": 45.57,
-      "endTime": 52.4
+      "endTime": 52.4,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +175,32 @@
       "text": "He was so surprised at being discovered that he did not even try to run away.",
       "translation": "",
       "startTime": 52.41,
-      "endTime": 60.84
+      "endTime": 60.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +216,17 @@
       "text": "the man admitted hiding in the box before the plane left London.",
       "translation": "",
       "startTime": 63.1,
-      "endTime": 70.05
+      "endTime": 70.05,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -106,7 +250,17 @@
       "text": "The man was ordered to pay ￡3, 500 for the cost of the trip.",
       "translation": "",
       "startTime": 81.89,
-      "endTime": 89.88
+      "endTime": 89.88,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +268,31 @@
       "text": "The normal price of a ticket is ￡2, 000!",
       "translation": "",
       "startTime": 89.89,
-      "endTime": 94.89
+      "endTime": 94.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "ticket",
+            "label": "名词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Ticket",
+            "pos": "n.",
+            "meaning": "票"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     }
   ]
 }

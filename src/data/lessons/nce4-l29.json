@@ -10,7 +10,17 @@
       "text": "Lesson 29",
       "translation": "",
       "startTime": 1.06,
-      "endTime": 2.95
+      "endTime": 2.95,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,44 @@
       "text": "What is a hovercraft riding on when it is in motion?",
       "translation": "",
       "startTime": 10.31,
-      "endTime": 16.54
+      "endTime": 16.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +81,16 @@
       "text": "Many strange new means of transport have been developed in our century,",
       "translation": "",
       "startTime": 16.55,
-      "endTime": 22.28
+      "endTime": 22.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "our",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -50,7 +106,22 @@
       "text": "In 1953, a former electronics engineer in his fifties, Christopher Cockerell,",
       "translation": "",
       "startTime": 27.29,
-      "endTime": 35.43
+      "endTime": 35.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Engineer",
+            "pos": "n.",
+            "meaning": "工程师"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -74,7 +145,27 @@
       "text": "It was the idea of supporting a craft on a 'pad', or cushion, of low-pressure air, ringed with a curtain of higher pressure air.",
       "translation": "",
       "startTime": 48.13,
-      "endTime": 60.19
+      "endTime": 60.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +173,16 @@
       "text": "Ever since, people have had difficulty in deciding whether the craft should be ranged among ships, planes,",
       "translation": "",
       "startTime": 60.2,
-      "endTime": 69.37
+      "endTime": 69.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "should",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s7",
@@ -90,7 +190,31 @@
       "text": "or land vehicles--for it is something in between a boat and an aircraft.",
       "translation": "",
       "startTime": 69.38,
-      "endTime": 77.56
+      "endTime": 77.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +222,16 @@
       "text": "As a shipbuilder, Cockerell was trying to find a solution to the problem of the wave resistance which wastes a good deal of a surface ship's power and limits its speed.",
       "translation": "",
       "startTime": 77.57,
-      "endTime": 91.53
+      "endTime": 91.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +239,31 @@
       "text": "His answer was to lift the vessel out of the water by making it ride on a cushion of air, no more than one or two feet thick.",
       "translation": "",
       "startTime": 91.54,
-      "endTime": 102.59
+      "endTime": 102.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "His",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +271,41 @@
       "text": "This is done by a great number of ring-shaped air jets on the bottom of the craft.",
       "translation": "",
       "startTime": 102.6,
-      "endTime": 109.59
+      "endTime": 109.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Number",
+            "pos": "n.",
+            "meaning": "号码，数字"
+          },
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +313,30 @@
       "text": "It 'flies', therefore, but it cannot fly higher--its action depends on the surface, water or ground, over which it rides.",
       "translation": "",
       "startTime": 109.6,
-      "endTime": 122.28
+      "endTime": 122.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -146,7 +360,22 @@
       "text": "Later it crossed the Channel, riding smoothly over the waves, which presented no problem.",
       "translation": "",
       "startTime": 139.57,
-      "endTime": 148.88
+      "endTime": 148.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +383,22 @@
       "text": "Since that time, various types of hovercraft have appeared and taken up regular service.",
       "translation": "",
       "startTime": 148.89,
-      "endTime": 156.3
+      "endTime": 156.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +406,22 @@
       "text": "The hovercraft is particularly useful in large areas with poor communications such as Africa or Australia;",
       "translation": "",
       "startTime": 156.31,
-      "endTime": 164.81
+      "endTime": 164.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +429,22 @@
       "text": "it can become a 'flying fruit-bowl', carrying bananas from the plantations to the ports;",
       "translation": "",
       "startTime": 164.82,
-      "endTime": 171.88
+      "endTime": 171.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -186,7 +460,17 @@
       "text": "and the railway of the future may well be the 'hovertrain',",
       "translation": "",
       "startTime": 175.67,
-      "endTime": 179.98
+      "endTime": 179.98,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +478,36 @@
       "text": "riding on its air cushion over a single rail, which it never touches, at speeds, up to 300 m.p.h.--the possibilities appear unlimited.",
       "translation": "",
       "startTime": 179.99,
-      "endTime": 184.99
+      "endTime": 184.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Air",
+            "pos": "n.",
+            "meaning": "空格"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     }
   ]
 }

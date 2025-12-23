@@ -10,7 +10,17 @@
       "text": "Lesson 10",
       "translation": "",
       "startTime": 1.14,
-      "endTime": 2.91
+      "endTime": 2.91,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -58,7 +68,36 @@
       "text": "At that time, however, she was not only the largest ship that had ever been built, but was regarded as unsinkable, for she had sixteen water-tight compartments.",
       "translation": "",
       "startTime": 42.72,
-      "endTime": 55.7
+      "endTime": 55.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -74,7 +113,26 @@
       "text": "The tragic sinking of this great liner will always be remembered, for she went down on her first voyage with heavy loss of life.",
       "translation": "",
       "startTime": 60.83,
-      "endTime": 71.81
+      "endTime": 71.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -106,7 +164,16 @@
       "text": "The Titanic turned just in time, narrowly missing the immense wall of ice which rose over 100 feet out of the water beside her.",
       "translation": "",
       "startTime": 91.18,
-      "endTime": 102.59
+      "endTime": 102.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -122,7 +189,22 @@
       "text": "and the captain went down to see what had happened.",
       "translation": "",
       "startTime": 107.57,
-      "endTime": 111.72
+      "endTime": 111.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +212,26 @@
       "text": "The noise had been so faint that no one thought that the ship had been damaged.",
       "translation": "",
       "startTime": 111.73,
-      "endTime": 117.35
+      "endTime": 117.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +239,26 @@
       "text": "Below, the captain realized to his horror that the Titanic was sinking rapidly,",
       "translation": "",
       "startTime": 117.36,
-      "endTime": 123.97
+      "endTime": 123.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +266,22 @@
       "text": "for five of her sixteen watertight compartments had already been flooded!",
       "translation": "",
       "startTime": 123.98,
-      "endTime": 129.99
+      "endTime": 129.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Five",
+            "pos": "num.",
+            "meaning": "五"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -162,7 +297,17 @@
       "text": "As there were not enough life-boats for everybody, 1, 500 lives were lost.",
       "translation": "",
       "startTime": 137.23,
-      "endTime": 142.23
+      "endTime": 142.23,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

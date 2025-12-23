@@ -10,7 +10,17 @@
       "text": "Lesson 58",
       "translation": "",
       "startTime": 0.48,
-      "endTime": 2.47
+      "endTime": 2.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,27 @@
       "text": "What did the old lady find when she got home?",
       "translation": "",
       "startTime": 9.52,
-      "endTime": 14.72
+      "endTime": 14.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +64,22 @@
       "text": "The old lady was glad to be back at the block of flats where she lived.",
       "translation": "",
       "startTime": 14.73,
-      "endTime": 20.85
+      "endTime": 20.85,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +87,30 @@
       "text": "Her shopping had tired her and her basket had grown heavier with every step of the way home.",
       "translation": "",
       "startTime": 20.86,
-      "endTime": 28.26
+      "endTime": 28.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Tired",
+            "pos": "adj.",
+            "meaning": "疲劳的"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +118,16 @@
       "text": "In the lift her thoughts were on lunch and a good rest;",
       "translation": "",
       "startTime": 28.27,
-      "endTime": 32.64
+      "endTime": 32.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -58,7 +135,39 @@
       "text": "but when she got out at her own floor, both were forgotten in her sudden discovery that her front door was open.",
       "translation": "",
       "startTime": 32.65,
-      "endTime": 42.06
+      "endTime": 42.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +175,26 @@
       "text": "She was thinking that she must reprimand her home help the next morning for such a monstrous piece of negligence,",
       "translation": "",
       "startTime": 42.07,
-      "endTime": 50.43
+      "endTime": 50.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +202,30 @@
       "text": "when she remembered that she had gone shopping after the home help had left and she knew that she had turned both keys in their locks.",
       "translation": "",
       "startTime": 50.44,
-      "endTime": 60.62
+      "endTime": 60.62,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +233,27 @@
       "text": "She walked slowly into the hall and at once noticed that all the room doors were open,",
       "translation": "",
       "startTime": 60.63,
-      "endTime": 67.57
+      "endTime": 67.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +261,16 @@
       "text": "yet following her regular practice she had shut them before going out.",
       "translation": "",
       "startTime": 67.58,
-      "endTime": 72.68
+      "endTime": 72.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +278,16 @@
       "text": "Looking into the drawing room, she saw a scene of confusion over by her writing desk.",
       "translation": "",
       "startTime": 72.69,
-      "endTime": 79.27
+      "endTime": 79.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +295,35 @@
       "text": "It was as clear as daylight then that burglars had forced an entry during her absence.",
       "translation": "",
       "startTime": 79.28,
-      "endTime": 85.88
+      "endTime": 85.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +331,16 @@
       "text": "Her first impulse was to go round all the rooms looking for the thieves,",
       "translation": "",
       "startTime": 85.89,
-      "endTime": 91.22
+      "endTime": 91.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +348,44 @@
       "text": "but then she decided that at her age it might be more prudent to have someone with her,",
       "translation": "",
       "startTime": 91.23,
-      "endTime": 97.61
+      "endTime": 97.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +393,16 @@
       "text": "so she went to fetch the porter from his basement.",
       "translation": "",
       "startTime": 97.62,
-      "endTime": 101.7
+      "endTime": 101.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +410,35 @@
       "text": "By this time her legs were beginning to tremble, so she sat down and accepted a cup of very strong tea, while he telephoned the police.",
       "translation": "",
       "startTime": 101.71,
-      "endTime": 112.26
+      "endTime": 112.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +446,20 @@
       "text": "Then, her composure regained, she was ready to set off with the porter's assistance to search for any intruders who might still be lurking in her flat.",
       "translation": "",
       "startTime": 112.27,
-      "endTime": 124.53
+      "endTime": 124.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s15",
@@ -162,7 +475,22 @@
       "text": "as they did not want to hinder the police in their search for fingerprints.",
       "translation": "",
       "startTime": 128.73,
-      "endTime": 133.87
+      "endTime": 133.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -178,7 +506,17 @@
       "text": "She had lived in the flat for thirty years and was a veritable magpie at hoarding:",
       "translation": "",
       "startTime": 137.27,
-      "endTime": 143.58
+      "endTime": 143.58,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +524,22 @@
       "text": "and it seemed as though everything she possessed had been tossed out and turned over and over.",
       "translation": "",
       "startTime": 143.59,
-      "endTime": 151.07
+      "endTime": 151.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +547,22 @@
       "text": "At least sorting out the things she should have discarded years ago was now being made easier for her.",
       "translation": "",
       "startTime": 151.08,
-      "endTime": 158.72
+      "endTime": 158.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -202,7 +570,16 @@
       "text": "Then a police inspector arrived with a constable and she told them of her discovery of the ransacked flat.",
       "translation": "",
       "startTime": 158.73,
-      "endTime": 167.14
+      "endTime": 167.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s22",
@@ -210,7 +587,32 @@
       "text": "The inspector began to look for fingerprints, while the constable checked that the front door locks had not been forced,",
       "translation": "",
       "startTime": 167.15,
-      "endTime": 174.39
+      "endTime": 174.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +620,22 @@
       "text": "thereby proving that the burglars had either used skeleton keys or entered over the balcony.",
       "translation": "",
       "startTime": 174.4,
-      "endTime": 182.02
+      "endTime": 182.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +643,37 @@
       "text": "There was no trace of fingerprints, but the inspector found a dirty red bundle that contained jewellery which the old lady said was not hers.",
       "translation": "",
       "startTime": 182.03,
-      "endTime": 193.06
+      "endTime": 193.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Red",
+            "pos": "adj.",
+            "meaning": "红色的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +681,40 @@
       "text": "So their entry into this flat was apparently not the burglars' first job that day and they must have been disturbed.",
       "translation": "",
       "startTime": 193.07,
-      "endTime": 201.83
+      "endTime": 201.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -242,7 +722,27 @@
       "text": "The inspector then asked the old lady to try to check what was missing by the next day,",
       "translation": "",
       "startTime": 201.84,
-      "endTime": 208.19
+      "endTime": 208.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -250,7 +750,22 @@
       "text": "and advised her not to stay alone in the flat for a few nights.",
       "translation": "",
       "startTime": 208.2,
-      "endTime": 212.1
+      "endTime": 212.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -258,7 +773,17 @@
       "text": "The old lady thought he was a fussy creature,",
       "translation": "",
       "startTime": 212.11,
-      "endTime": 216.46
+      "endTime": 216.46,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -266,7 +791,35 @@
       "text": "but since the porter agreed with him, she rang up her daughter and asked for her help in what she described as a little spot of bother.",
       "translation": "",
       "startTime": 216.47,
-      "endTime": 221.47
+      "endTime": 221.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Daughter",
+            "pos": "n.",
+            "meaning": "女儿"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     }
   ]
 }

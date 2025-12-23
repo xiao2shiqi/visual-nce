@@ -10,7 +10,22 @@
       "text": "How did Mrs. Sterling get her bag back?",
       "translation": "",
       "startTime": 10.02,
-      "endTime": 15.22
+      "endTime": 15.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "Mrs. Anne Sterling did not think of the risk",
       "translation": "",
       "startTime": 15.23,
-      "endTime": 18.73
+      "endTime": 18.73,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -34,7 +59,22 @@
       "text": "They had rushed up to her while she was having a picnic at the edge of a forest",
       "translation": "",
       "startTime": 24.91,
-      "endTime": 30.38
+      "endTime": 30.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +82,26 @@
       "text": "with her children and tried to steal her handbag.",
       "translation": "",
       "startTime": 30.39,
-      "endTime": 35
+      "endTime": 35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "her",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Handbag",
+            "pos": "n.",
+            "meaning": "（女用）手提包"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -58,7 +117,16 @@
       "text": "with the bag in their possession,",
       "translation": "",
       "startTime": 38.4,
-      "endTime": 41.11
+      "endTime": 41.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -74,7 +142,22 @@
       "text": "Mrs. Sterling got so angry that she ran after them.",
       "translation": "",
       "startTime": 45.45,
-      "endTime": 51.06
+      "endTime": 51.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -106,7 +189,22 @@
       "text": "she saw that they had sat down and were going through the contents of the bag,",
       "translation": "",
       "startTime": 58.28,
-      "endTime": 64.49
+      "endTime": 64.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +212,17 @@
       "text": "so she ran straight at them.",
       "translation": "",
       "startTime": 64.5,
-      "endTime": 67.8
+      "endTime": 67.8,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +230,22 @@
       "text": "The men got such a fright that they dropped the bag and ran away.",
       "translation": "",
       "startTime": 67.81,
-      "endTime": 74.74
+      "endTime": 74.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +253,17 @@
       "text": "'The strap needs mending,' said Mrs. Sterling later, 'but they did not steal anything.'",
       "translation": "",
       "startTime": 74.75,
-      "endTime": 79.75
+      "endTime": 79.75,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,22 @@
       "text": "What caused the fire?",
       "translation": "",
       "startTime": 10.58,
-      "endTime": 14.43
+      "endTime": 14.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +33,17 @@
       "text": "At last firemen have put out a big forest fire in California.",
       "translation": "",
       "startTime": 14.44,
-      "endTime": 21.1
+      "endTime": 21.1,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,17 @@
       "text": "Since then, they have been trying to find out how the fire began.",
       "translation": "",
       "startTime": 21.11,
-      "endTime": 27.62
+      "endTime": 27.62,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +69,16 @@
       "text": "Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.",
       "translation": "",
       "startTime": 27.63,
-      "endTime": 37.95
+      "endTime": 37.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -50,7 +94,17 @@
       "text": "but were not able to find any broken glass.",
       "translation": "",
       "startTime": 42.32,
-      "endTime": 46.79
+      "endTime": 46.79,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +112,27 @@
       "text": "They were also quite sure that a cigarette end did not start the fire.",
       "translation": "",
       "startTime": 46.8,
-      "endTime": 53
+      "endTime": 53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -66,7 +140,22 @@
       "text": "This morning, however, a firemen accidentally discovered the cause.",
       "translation": "",
       "startTime": 53.01,
-      "endTime": 59.37
+      "endTime": 59.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "This",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -82,7 +171,22 @@
       "text": "In this way, he was able to solve the mystery.",
       "translation": "",
       "startTime": 69.98,
-      "endTime": 74.64
+      "endTime": 74.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +194,22 @@
       "text": "The explanation was simple but very unusual.",
       "translation": "",
       "startTime": 74.65,
-      "endTime": 80.02
+      "endTime": 80.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +217,22 @@
       "text": "A bird had snatched up the snake from the ground and then dropped it on to the wires.",
       "translation": "",
       "startTime": 80.03,
-      "endTime": 87.82
+      "endTime": 87.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -114,7 +248,26 @@
       "text": "When it did so, it sent sparks down to the ground and these immediately started a fire.",
       "translation": "",
       "startTime": 91.74,
-      "endTime": 96.74
+      "endTime": 96.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,17 @@
       "text": "Lesson 125",
       "translation": "",
       "startTime": 0.51,
-      "endTime": 3.45
+      "endTime": 3.45,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -26,7 +36,22 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "",
       "startTime": 6.26,
-      "endTime": 11.21
+      "endTime": 11.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +59,16 @@
       "text": "Does Susan have tea by herself?",
       "translation": "",
       "startTime": 11.22,
-      "endTime": 16.46
+      "endTime": 16.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Does",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +76,17 @@
       "text": "Can't you come in and have tea now, Peter?",
       "translation": "",
       "startTime": 16.47,
-      "endTime": 20.96
+      "endTime": 20.96,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +94,17 @@
       "text": "Not yet.",
       "translation": "",
       "startTime": 20.97,
-      "endTime": 22.37
+      "endTime": 22.37,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +112,16 @@
       "text": "I must water the garden first.",
       "translation": "",
       "startTime": 22.38,
-      "endTime": 25.77
+      "endTime": 25.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +129,27 @@
       "text": "Do you have to water it now?",
       "translation": "",
       "startTime": 25.78,
-      "endTime": 29.51
+      "endTime": 29.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +157,16 @@
       "text": "I'm afraid I must.",
       "translation": "",
       "startTime": 29.52,
-      "endTime": 31.53
+      "endTime": 31.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "must",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +174,32 @@
       "text": "Look at it!",
       "translation": "",
       "startTime": 31.54,
-      "endTime": 33.01
+      "endTime": 33.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +207,16 @@
       "text": "It's terribly dry.",
       "translation": "",
       "startTime": 33.02,
-      "endTime": 35.4
+      "endTime": 35.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +224,22 @@
       "text": "What a nuisance!",
       "translation": "",
       "startTime": 35.41,
-      "endTime": 37.99
+      "endTime": 37.99,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +247,36 @@
       "text": "Last summer it was very dry, too.",
       "translation": "",
       "startTime": 38,
-      "endTime": 41.97
+      "endTime": 41.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "very",
+            "label": "程度副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Very",
+            "pos": "adv.",
+            "meaning": "很，非常"
+          },
+          {
+            "word": "Too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -114,7 +284,17 @@
       "text": "Don't you remember?",
       "translation": "",
       "startTime": 41.98,
-      "endTime": 44.15
+      "endTime": 44.15,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -122,7 +302,22 @@
       "text": "I had to water it every day.",
       "translation": "",
       "startTime": 44.16,
-      "endTime": 47.51
+      "endTime": 47.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +325,17 @@
       "text": "Well, I'll have tea by myself.",
       "translation": "",
       "startTime": 47.52,
-      "endTime": 52.69
+      "endTime": 52.69,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Well",
+            "pos": "adj.",
+            "meaning": "健康的，良好的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -138,7 +343,22 @@
       "text": "That was quick!",
       "translation": "",
       "startTime": 52.7,
-      "endTime": 54.72
+      "endTime": 54.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -146,7 +366,17 @@
       "text": "Have you finished already?",
       "translation": "",
       "startTime": 54.73,
-      "endTime": 57.47
+      "endTime": 57.47,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -154,7 +384,17 @@
       "text": "Yes.",
       "translation": "",
       "startTime": 57.48,
-      "endTime": 58.63
+      "endTime": 58.63,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -162,7 +402,17 @@
       "text": "Look out of the window.",
       "translation": "",
       "startTime": 58.64,
-      "endTime": 61.34
+      "endTime": 61.34,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Look",
+            "pos": "v.",
+            "meaning": "看"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -170,7 +420,16 @@
       "text": "It's raining!",
       "translation": "",
       "startTime": 61.35,
-      "endTime": 63.45
+      "endTime": 63.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +437,27 @@
       "text": "That means you don't need to water the garden.",
       "translation": "",
       "startTime": 63.46,
-      "endTime": 68.79
+      "endTime": 68.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +465,22 @@
       "text": "That was a pleasant surprise.",
       "translation": "",
       "startTime": 68.8,
-      "endTime": 72.28
+      "endTime": 72.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +488,22 @@
       "text": "It means I can have tea, instead.",
       "translation": "",
       "startTime": 72.29,
-      "endTime": 77.29
+      "endTime": 77.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     }
   ]
 }

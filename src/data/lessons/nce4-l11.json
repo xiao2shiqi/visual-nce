@@ -10,7 +10,17 @@
       "text": "Lesson 11",
       "translation": "",
       "startTime": 0.4,
-      "endTime": 2.43
+      "endTime": 2.43,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课程，第...课"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +28,22 @@
       "text": "How to grow old",
       "translation": "",
       "startTime": 2.44,
-      "endTime": 10.59
+      "endTime": 10.59,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样，如何"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +51,36 @@
       "text": "What, according to the author, is the best way to overcome the fear of death as you get older?",
       "translation": "",
       "startTime": 10.6,
-      "endTime": 20.21
+      "endTime": 20.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词"
+          },
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你，你们"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +88,22 @@
       "text": "Some old people are oppressed by the fear of death.",
       "translation": "",
       "startTime": 20.22,
-      "endTime": 25.13
+      "endTime": 25.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "are",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -42,7 +111,36 @@
       "text": "In the young there is a justification for this feeling.",
       "translation": "",
       "startTime": 25.14,
-      "endTime": 28.82
+      "endTime": 28.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +148,27 @@
       "text": "Young men who have reason to fear that they will be killed in battle",
       "translation": "",
       "startTime": 28.83,
-      "endTime": 33.23
+      "endTime": 33.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Young",
+            "pos": "adj.",
+            "meaning": "年轻的"
+          },
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +176,16 @@
       "text": "may justifiably feel bitter in the thought",
       "translation": "",
       "startTime": 33.24,
-      "endTime": 36.78
+      "endTime": 36.78,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "may",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +193,26 @@
       "text": "that they have been cheated of the best things that life has to offer.",
       "translation": "",
       "startTime": 36.79,
-      "endTime": 42.44
+      "endTime": 42.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "that",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +220,22 @@
       "text": "But in an old man who has known human joys and sorrows,",
       "translation": "",
       "startTime": 42.45,
-      "endTime": 48.11
+      "endTime": 48.11,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -82,7 +243,22 @@
       "text": "and has achieved whatever work it was in him to do,",
       "translation": "",
       "startTime": 48.12,
-      "endTime": 52
+      "endTime": 52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +266,22 @@
       "text": "the fear of death is somewhat abject and ignoble.",
       "translation": "",
       "startTime": 52.01,
-      "endTime": 56.92
+      "endTime": 56.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +289,36 @@
       "text": "The best way to overcome it--so at least it seems to me--",
       "translation": "",
       "startTime": 56.93,
-      "endTime": 62.66
+      "endTime": 62.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "it",
+            "label": "人称代词/主语"
+          },
+          {
+            "text": "me",
+            "label": "宾语/代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +326,31 @@
       "text": "is to make your interests gradually wider and more impersonal,",
       "translation": "",
       "startTime": 62.67,
-      "endTime": 68.04
+      "endTime": 68.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "is",
+            "label": "谓语/系动词"
+          },
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -122,7 +366,22 @@
       "text": "and your life becomes increasingly merged in the universal life.",
       "translation": "",
       "startTime": 73.22,
-      "endTime": 77.72
+      "endTime": 77.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "your",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你的，你们的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -130,7 +389,16 @@
       "text": "An individual human existence should be like a river--",
       "translation": "",
       "startTime": 77.73,
-      "endTime": 83.5
+      "endTime": 83.5,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "should",
+            "label": "情态动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s13",
@@ -138,7 +406,22 @@
       "text": "small at first, narrowly contained within its banks,",
       "translation": "",
       "startTime": 83.51,
-      "endTime": 88.41
+      "endTime": 88.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "its",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -170,7 +453,16 @@
       "text": "and painlessly lose their individual being.",
       "translation": "",
       "startTime": 107.44,
-      "endTime": 111.18
+      "endTime": 111.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "their",
+            "label": "形容词性物主代词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s18",
@@ -178,7 +470,36 @@
       "text": "The man who, in old age can see his life in this way,",
       "translation": "",
       "startTime": 111.19,
-      "endTime": 116.76
+      "endTime": 116.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "his",
+            "label": "形容词性物主代词"
+          },
+          {
+            "text": "this",
+            "label": "指示代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Old",
+            "pos": "adj.",
+            "meaning": "老的，旧的"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -186,7 +507,17 @@
       "text": "will not suffer from the fear of death,",
       "translation": "",
       "startTime": 116.77,
-      "endTime": 119.53
+      "endTime": 119.53,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -194,7 +525,16 @@
       "text": "since the things he cares for will continue.",
       "translation": "",
       "startTime": 119.54,
-      "endTime": 123.37
+      "endTime": 123.37,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "will",
+            "label": "助动词"
+          }
+        ],
+        "words": []
+      }
     },
     {
       "id": "s21",
@@ -210,7 +550,17 @@
       "text": "the thought of rest will be not unwelcome.",
       "translation": "",
       "startTime": 130.52,
-      "endTime": 134.28
+      "endTime": 134.28,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "Not",
+            "pos": "adv.",
+            "meaning": "不，不是"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -218,7 +568,17 @@
       "text": "I should wish to die while still at work,",
       "translation": "",
       "startTime": 134.29,
-      "endTime": 137.81
+      "endTime": 137.81,
+      "analysis": {
+        "grammar": [],
+        "words": [
+          {
+            "word": "At",
+            "pos": "prep.",
+            "meaning": "在...（小地点/时刻）"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -226,7 +586,31 @@
       "text": "knowing that others will carry on what I can no longer do,",
       "translation": "",
       "startTime": 137.82,
-      "endTime": 142.35
+      "endTime": 142.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -234,7 +618,31 @@
       "text": "and content in the thought that what was possible has been done.",
       "translation": "",
       "startTime": 142.36,
-      "endTime": 147.36
+      "endTime": 147.36,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "that",
+            "label": "指示代词"
+          },
+          {
+            "text": "what",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          }
+        ]
+      }
     }
   ]
 }
