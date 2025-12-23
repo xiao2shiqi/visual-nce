@@ -124,11 +124,15 @@ function parseLrc(lrcContent: string, lessonNum: string, title: string): LessonD
 
 // 主函数
 async function main() {
-    const audioDir = path.join(__dirname, '../public/audio');
-    const outputDir = path.join(__dirname, '../src/data/lessons');
+    const audioDir = path.join(process.cwd(), 'public/audio');
+    const outputDir = path.join(process.cwd(), 'src/data/lessons');
 
     // 课程映射
     const lessons = [
+        { num: '3', title: 'Sorry, Sir.' },
+        { num: '5', title: 'Nice to Meet You.' },
+        { num: '7', title: 'Are You a Teacher' },
+        { num: '9', title: 'How Are You Today' },
         { num: '131', title: "Don't be So Sure" },
         { num: '133', title: 'Sensational News' },
         { num: '135', title: 'The Latest Report' },
@@ -141,7 +145,8 @@ async function main() {
     for (const lesson of lessons) {
         // 查找对应的 LRC 文件
         const files = fs.readdirSync(audioDir);
-        const lrcFile = files.find(f => f.startsWith(lesson.num) && f.endsWith('.lrc'));
+        const searchNum = lesson.num.padStart(3, '0');
+        const lrcFile = files.find(f => f.startsWith(searchNum) && f.endsWith('.lrc'));
 
         if (!lrcFile) {
             console.log(`未找到 Lesson ${lesson.num} 的 LRC 文件`);
