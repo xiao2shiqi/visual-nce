@@ -12,12 +12,22 @@
       "startTime": 0.6,
       "endTime": 3.53,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 139",
+            "label": "标题/课程编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "139",
+            "pos": "num.",
+            "meaning": "一百三十九"
           }
         ]
       }
@@ -32,12 +42,12 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Is",
-            "label": "谓语/系动词"
+            "text": "Is that you",
+            "label": "一般疑问句"
           },
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "John",
+            "label": "呼语"
           }
         ],
         "words": [
@@ -47,14 +57,19 @@
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那（电话中询问对方身份）"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "John",
+            "pos": "n.",
+            "meaning": "约翰（男子名）"
           }
         ]
       }
@@ -69,15 +84,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -86,21 +144,79 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Which John Smith does Graham Turner think he is talking to?",
-      "translation": "格雷厄姆·特纳认为他正在和哪个叫“约翰·史密斯”的人交谈呢？",
+      "translation": "格雷厄姆·特纳认为他正在和哪个叫约翰·史密斯的人交谈呢？",
       "startTime": 12.53,
       "endTime": 20.28,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Which John Smith",
+            "label": "疑问词+宾语"
+          },
+          {
+            "text": "does Graham Turner think",
+            "label": "谓语/插入语"
+          },
+          {
+            "text": "he is talking to",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一个"
+          },
+          {
+            "word": "John",
+            "pos": "n.",
+            "meaning": "约翰（男子名）"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯（姓氏）"
+          },
+          {
+            "word": "does",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Graham",
+            "pos": "n.",
+            "meaning": "格雷厄姆（男子名）"
+          },
+          {
+            "word": "Turner",
+            "pos": "n.",
+            "meaning": "特纳（姓氏）"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "talking",
+            "pos": "v.",
+            "meaning": "交谈（talk的现在分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "与...（talk to意为与...交谈）"
           }
         ]
       }
@@ -115,12 +231,12 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Is",
-            "label": "谓语/系动词"
+            "text": "Is that you",
+            "label": "一般疑问句"
           },
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "John",
+            "label": "呼语"
           }
         ],
         "words": [
@@ -130,14 +246,19 @@
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那（电话用语）"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "John",
+            "pos": "n.",
+            "meaning": "约翰（男子名）"
           }
         ]
       }
@@ -150,12 +271,26 @@
       "startTime": 22.7,
       "endTime": 24.79,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "speaking",
+            "label": "电话用语（我就是）"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "speaking",
+            "pos": "v.",
+            "meaning": "（我）就是（电话用语）"
           }
         ]
       }
@@ -170,20 +305,64 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Tell Mary",
+            "label": "祈使句"
+          },
+          {
+            "text": "we'll be late for dinner this evening",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "Tell",
+            "pos": "v.",
+            "meaning": "告诉"
           },
           {
-            "word": "This",
+            "word": "Mary",
+            "pos": "n.",
+            "meaning": "玛丽（女子名）"
+          },
+          {
+            "word": "we",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "late",
+            "pos": "adj.",
+            "meaning": "迟到的"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "dinner",
+            "pos": "n.",
+            "meaning": "晚餐"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "晚上"
           }
         ]
       }
@@ -194,7 +373,51 @@
       "text": "I'm afraid I don't understand.",
       "translation": "恐怕我不太明白。",
       "startTime": 29.32,
-      "endTime": 33.22
+      "endTime": 33.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I'm afraid",
+            "label": "插入语（表示委婉）"
+          },
+          {
+            "text": "I don't understand",
+            "label": "主句"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕（I'm afraid表委婉）"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.",
+            "meaning": "不"
+          },
+          {
+            "word": "understand",
+            "pos": "v.",
+            "meaning": "理解，明白"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -204,12 +427,32 @@
       "startTime": 33.23,
       "endTime": 36.11,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Hasn't Mary told you",
+            "label": "现在完成时否定疑问"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Hasn't",
+            "pos": "v.",
+            "meaning": "难道没有（has not的缩写）"
+          },
+          {
+            "word": "Mary",
+            "pos": "n.",
+            "meaning": "玛丽（女子名）"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉（tell的过去分词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -224,24 +467,67 @@
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "She",
+            "label": "主语"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "invited",
+            "label": "谓语/过去时"
+          },
+          {
+            "text": "Charlotte and me",
+            "label": "宾语"
+          },
+          {
+            "text": "to dinner this evening",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "invited",
+            "pos": "v.",
+            "meaning": "邀请（invite的过去式）"
+          },
+          {
+            "word": "Charlotte",
+            "pos": "n.",
+            "meaning": "夏洛特（女子名）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去，参加"
+          },
+          {
+            "word": "dinner",
+            "pos": "n.",
+            "meaning": "晚餐"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "晚上"
           }
         ]
       }
@@ -256,34 +542,123 @@
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "I said I would be at your house at six o'clock",
+            "label": "主句+宾语从句"
           },
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "but",
+            "label": "转折连词"
+          },
+          {
+            "text": "the boss wants me to do some extra work",
+            "label": "转折句"
           }
         ],
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "Your",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "我"
           },
           {
-            "word": "House",
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说（say的过去式）"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "would",
+            "pos": "modal v.",
+            "meaning": "会（will的过去式）"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "在"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
-            "meaning": "房子"
+            "meaning": "家，房子"
           },
           {
-            "word": "Me",
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在（时间点）"
+          },
+          {
+            "word": "six",
+            "pos": "num.",
+            "meaning": "六"
+          },
+          {
+            "word": "o'clock",
+            "pos": "n.",
+            "meaning": "点钟"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "boss",
+            "pos": "n.",
+            "meaning": "老板"
+          },
+          {
+            "word": "wants",
+            "pos": "v.",
+            "meaning": "想要（want的第三人称单数）"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "extra",
+            "pos": "adj.",
+            "meaning": "额外的"
+          },
+          {
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -296,12 +671,60 @@
       "startTime": 51.46,
       "endTime": 54.71,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ll have to stay",
+            "label": "谓语/将来时+have to"
+          },
+          {
+            "text": "at the office",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "必须（have to意为不得不）"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "留，待"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
           }
         ]
       }
@@ -312,7 +735,56 @@
       "text": "I don't know when I'll finish.",
       "translation": "我不知道我什么时候能弄完。",
       "startTime": 54.72,
-      "endTime": 58.1
+      "endTime": 58.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I don't know",
+            "label": "主句"
+          },
+          {
+            "text": "when I'll finish",
+            "label": "宾语从句"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.",
+            "meaning": "不"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "when",
+            "pos": "adv.",
+            "meaning": "什么时候"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "finish",
+            "pos": "v.",
+            "meaning": "完成"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -324,15 +796,97 @@
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "Oh",
+            "label": "感叹词"
+          },
+          {
+            "text": "by the way",
+            "label": "插入语（顺便说）"
+          },
+          {
+            "text": "my wife wants to know",
+            "label": "主句"
+          },
+          {
+            "text": "if Mary needs any help",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "Oh",
+            "pos": "interj.",
+            "meaning": "哦"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过（by the way意为顺便说）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "方式"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "wants",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
+            "word": "Mary",
+            "pos": "n.",
+            "meaning": "玛丽（女子名）"
+          },
+          {
+            "word": "needs",
+            "pos": "v.",
+            "meaning": "需要（need的第三人称单数）"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "help",
+            "pos": "n.",
+            "meaning": "帮助"
           }
         ]
       }
@@ -347,15 +901,54 @@
       "analysis": {
         "grammar": [
           {
-            "text": "what",
-            "label": "疑问词"
+            "text": "I don't know",
+            "label": "主句"
+          },
+          {
+            "text": "what you're talking about",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "What",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.",
+            "meaning": "不"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道，明白"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "正在（are的缩写）"
+          },
+          {
+            "word": "talking",
+            "pos": "v.",
+            "meaning": "谈论（talk的现在分词）"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
           }
         ]
       }
@@ -370,33 +963,44 @@
       "analysis": {
         "grammar": [
           {
-            "text": "That",
-            "label": "指示代词"
+            "text": "That is John Smith",
+            "label": "陈述句"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
-          },
-          {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "isn't it",
+            "label": "反意疑问"
           }
         ],
         "words": [
           {
             "word": "That",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那（指电话那头的人）"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "John",
+            "pos": "n.",
+            "meaning": "约翰（男子名）"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯（姓氏）"
+          },
+          {
+            "word": "isn't",
+            "pos": "v.",
+            "meaning": "不是（is not的缩写）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "（形式主语）"
           }
         ]
       }
@@ -409,12 +1013,41 @@
       "startTime": 74.43,
       "endTime": 77.21,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "I'm John Smith",
+            "label": "主句"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "John",
+            "pos": "n.",
+            "meaning": "约翰（男子名）"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯（姓氏）"
           }
         ]
       }
@@ -429,20 +1062,54 @@
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "You are John Smith, the engineer",
+            "label": "陈述句"
+          },
+          {
+            "text": "aren't you",
+            "label": "反意疑问"
           }
         ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Engineer",
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "John",
+            "pos": "n.",
+            "meaning": "约翰（男子名）"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯（姓氏）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那位（定冠词）"
+          },
+          {
+            "word": "engineer",
             "pos": "n.",
             "meaning": "工程师"
+          },
+          {
+            "word": "aren't",
+            "pos": "v.",
+            "meaning": "不是（are not的缩写）"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -453,7 +1120,32 @@
       "text": "That's right.",
       "translation": "没错。",
       "startTime": 82.34,
-      "endTime": 84.33
+      "endTime": 84.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That's right",
+            "label": "表示肯定"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "对的，正确的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -463,12 +1155,61 @@
       "startTime": 84.34,
       "endTime": 90.12,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "You work for the Overseas Engineering Company",
+            "label": "陈述句"
+          },
+          {
+            "text": "don't you",
+            "label": "反意疑问"
+          }
+        ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "work",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为...（work for意为为...工作）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "Overseas",
+            "pos": "adj.",
+            "meaning": "海外的"
+          },
+          {
+            "word": "Engineering",
+            "pos": "n.",
+            "meaning": "工程"
+          },
+          {
+            "word": "Company",
+            "pos": "n.",
+            "meaning": "公司"
+          },
+          {
+            "word": "don't",
+            "pos": "v.",
+            "meaning": "不是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -479,7 +1220,36 @@
       "text": "No, I don't.",
       "translation": "不，我不在那里工作。",
       "startTime": 90.13,
-      "endTime": 91.95
+      "endTime": 91.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "I don't",
+            "label": "简略否定"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.",
+            "meaning": "不"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -491,20 +1261,88 @@
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "I'm John Smith the telephone engineer",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "I'm repairing your telephone line",
+            "label": "并列句2/现在进行时"
           }
         ],
         "words": [
           {
-            "word": "Engineer",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "John",
+            "pos": "n.",
+            "meaning": "约翰（男子名）"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯（姓氏）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位（定冠词）"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
+          },
+          {
+            "word": "engineer",
             "pos": "n.",
             "meaning": "工程师"
           },
           {
-            "word": "Your",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "正在（am的缩写）"
+          },
+          {
+            "word": "repairing",
+            "pos": "v.",
+            "meaning": "修理（repair的现在分词）"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你们的"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
+          },
+          {
+            "word": "line",
+            "pos": "n.",
+            "meaning": "线路"
           }
         ]
       }
