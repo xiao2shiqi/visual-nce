@@ -1,5 +1,5 @@
 /**
- * LRC 文件解析器 - 自动扫描并生成所有 NCE1 课程 JSON
+ * LRC 文件解析器 - 自动扫描并生成 NCE1-4 所有课程 JSON
  * 用法: npx ts-node scripts/parseLrc.ts
  */
 
@@ -23,10 +23,53 @@ interface LessonData {
     segments: Segment[];
 }
 
-const GHIBLI_LESSONS = new Set(['l1', 'l127', 'l129', 'l131', 'l133', 'l135', 'l137', 'l139']);
+// 仅 NCE1 的特定课程享有吉卜力风格插画，其他全部为 Coming Soon
+const GHIBLI_LESSONS_NCE1 = new Set(['nce1-l1', 'nce1-l127', 'nce1-l129', 'nce1-l131', 'nce1-l133', 'nce1-l135', 'nce1-l137', 'nce1-l139']);
 const COMING_SOON_IMAGE = '/images/coming-soon.png';
 
-// 解析 LRC 时间戳 [mm:ss.xx] -> 秒数
+const BOOKS = [
+    {
+        id: 'nce1',
+        title: 'First Things First',
+        subtitle: 'New Concept English 1',
+        description: '英语初阶 - 建立英语基础的关键。',
+        level: 'Beginner',
+        color: 'from-blue-500 to-cyan-500',
+        folder: 'nce1',
+        filenamePattern: /^(\d+)&(\d+)－(.+)\.lrc$/ // NCE1 特殊格式: 001&002
+    },
+    {
+        id: 'nce2',
+        title: 'Practice and Progress',
+        subtitle: 'New Concept English 2',
+        description: '实践与进步 - 掌握语法规则，提高口语能力。',
+        level: 'Pre-Intermediate',
+        color: 'from-green-500 to-emerald-500',
+        folder: 'nce2',
+        filenamePattern: /^(\d+)－(.+)\.lrc$/ // NCE2-4 格式: 01－Title
+    },
+    {
+        id: 'nce3',
+        title: 'Developing Skills',
+        subtitle: 'New Concept English 3',
+        description: '培养技能 - 强化阅读与写作，深入语言精髓。',
+        level: 'Intermediate',
+        color: 'from-yellow-500 to-orange-500',
+        folder: 'nce3',
+        filenamePattern: /^(\d+)－(.+)\.lrc$/
+    },
+    {
+        id: 'nce4',
+        title: 'Fluency in English',
+        subtitle: 'New Concept English 4',
+        description: '流利英语 - 体会英语文化，达到流利水准。',
+        level: 'Advanced',
+        color: 'from-purple-500 to-indigo-500',
+        folder: 'nce4',
+        filenamePattern: /^(\d+)－(.+)\.lrc$/
+    }
+];
+
 function parseTime(timeStr: string): number {
     const match = timeStr.match(/\[(\d+):(\d+)\.(\d+)\]/);
     if (!match) return 0;
@@ -36,7 +79,6 @@ function parseTime(timeStr: string): number {
     return minutes * 60 + seconds + centiseconds / 100;
 }
 
-// 判断角色
 function detectRole(text: string, prevRole: string): string {
     const narrativeKeywords = ['Lesson', 'Listen to', 'answer this question', 'Why', 'What', 'How', 'Which', 'Who'];
     for (const kw of narrativeKeywords) {
@@ -50,8 +92,7 @@ function detectRole(text: string, prevRole: string): string {
     return 'Narrator';
 }
 
-// 解析 LRC 文件
-function parseLrc(lrcContent: string, lessonNum: string, title: string, audioFileName: string): LessonData {
+function parseLrc(lrcContent: string, bookId: string, lessonNum: string, title: string, audioFileName: string): LessonData {
     const lines = lrcContent.split('\n').filter(line => line.trim());
     const segments: Segment[] = [];
     let prevRole = 'Narrator';
@@ -97,79 +138,150 @@ function parseLrc(lrcContent: string, lessonNum: string, title: string, audioFil
         segmentIndex++;
     }
 
-    const lessonId = `l${lessonNum}`;
-    const image = GHIBLI_LESSONS.has(lessonId) ? `/images/nce1/${lessonId}/scene1.png` : COMING_SOON_IMAGE;
+    const lessonId = `${bookId}-l${lessonNum}`;
+
+    // 图片逻辑: NCE1 的特定课程保留 Ghibli 图, 其他所有书的所有课都用 Coming Soon
+    let image = COMING_SOON_IMAGE;
+    if (GHIBLI_LESSONS_NCE1.has(lessonId)) {
+        image = `/images/${bookId}/l${lessonNum}/scene1.png`;
+    }
 
     return {
         id: lessonId,
         title: `Lesson ${lessonNum}: ${title}`,
-        audio: `/audio/nce1/${audioFileName}`,
+        audio: `/audio/${bookId}/${audioFileName}`,
         image,
         segments
     };
 }
 
 async function main() {
-    const audioDir = path.join(process.cwd(), 'public/audio/nce1');
     const outputDir = path.join(process.cwd(), 'src/data/lessons');
     const curriculumPath = path.join(process.cwd(), 'src/data/curriculum.json');
+    let curriculum = JSON.parse(fs.readFileSync(curriculumPath, 'utf-8'));
 
-    const files = fs.readdirSync(audioDir);
-    const lrcFiles = files.filter(f => f.endsWith('.lrc'));
+    // 确保 outputDir 存在
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-    const curriculum = JSON.parse(fs.readFileSync(curriculumPath, 'utf-8'));
-    const book1 = curriculum.books.find((b: any) => b.id === 'nce1');
+    for (const book of BOOKS) {
+        console.log(`正在处理: ${book.title} (${book.id})...`);
+        const audioDir = path.join(process.cwd(), `public/audio/${book.folder}`);
 
-    const lessonsData: any[] = [];
-
-    for (const lrcFile of lrcFiles) {
-        const match = lrcFile.match(/^(\d+)&(\d+)－(.+)\.lrc$/);
-        if (!match) continue;
-
-        const lessonNum = parseInt(match[1], 10).toString();
-        const title = match[3].trim();
-        const lessonId = `l${lessonNum}`;
-        const audioFileName = lrcFile.replace('.lrc', '.mp3');
-
-        const outputPath = path.join(outputDir, `${lessonId}.json`);
-
-        let lessonData;
-        if (!fs.existsSync(outputPath)) {
-            const lrcPath = path.join(audioDir, lrcFile);
-            const lrcContent = fs.readFileSync(lrcPath, 'utf-8');
-            lessonData = parseLrc(lrcContent, lessonNum, title, audioFileName);
-            fs.writeFileSync(outputPath, JSON.stringify(lessonData, null, 2), 'utf-8');
-            console.log(`生成新课程: ${lessonId}`);
-        } else {
-            // 如果已存在，读取并根据是否在吉卜力名单中更新图片
-            lessonData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
-            const targetImage = GHIBLI_LESSONS.has(lessonId) ? `/images/nce1/${lessonId}/scene1.png` : COMING_SOON_IMAGE;
-            if (lessonData.image !== targetImage) {
-                lessonData.image = targetImage;
-                // 同时更新 segments 中的图片 (如果有)
-                if (lessonData.segments) {
-                    lessonData.segments.forEach((seg: any) => {
-                        if (seg.image) seg.image = targetImage;
-                    });
-                }
-                fs.writeFileSync(outputPath, JSON.stringify(lessonData, null, 2), 'utf-8');
-                console.log(`更新图片路径: ${lessonId}`);
-            }
+        if (!fs.existsSync(audioDir)) {
+            console.warn(`警告: 音频目录不存在 ${audioDir}`);
+            continue;
         }
 
-        lessonsData.push({
-            id: lessonId,
-            title: `Lesson ${lessonNum}`,
-            subtitle: title,
-            image: lessonData.image
+        const files = fs.readdirSync(audioDir);
+        const lrcFiles = files.filter(f => f.endsWith('.lrc'));
+        const bookLessons: any[] = [];
+
+        for (const lrcFile of lrcFiles) {
+            const match = lrcFile.match(book.filenamePattern);
+            if (!match) continue;
+
+            const lessonNum = parseInt(match[1], 10).toString();
+            // NCE1 的正则 match[3] 是 title, NCE2-4 match[2] 是 title
+            const title = book.id === 'nce1' ? match[3].trim() : match[2].trim();
+
+            const lessonId = `${book.id}-l${lessonNum}`;
+            const audioFileName = lrcFile.replace('.lrc', '.mp3');
+
+            // 生成 JSON 文件路径
+            const outputPath = path.join(outputDir, `${lessonId}.json`);
+
+            // 如果文件不存在，生成它
+            if (!fs.existsSync(outputPath)) {
+                const lrcPath = path.join(audioDir, lrcFile);
+                const lrcContent = fs.readFileSync(lrcPath, 'utf-8');
+                const lessonData = parseLrc(lrcContent, book.id, lessonNum, title, audioFileName);
+                fs.writeFileSync(outputPath, JSON.stringify(lessonData, null, 2), 'utf-8');
+                console.log(`+ 生成: ${lessonId}`);
+            } else {
+                // 如果文件存在，我们要确保图片和ID是最新的 (迁移逻辑)
+                // 读取现有文件
+                const existingData = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+                let changed = false;
+
+                // 检查 ID 是否匹配新格式 (之前已手动批量 rename 且 sed replace, 但这里做双重保险)
+                if (existingData.id !== lessonId) {
+                    existingData.id = lessonId;
+                    changed = true;
+                }
+
+                // 检查图片逻辑
+                let targetImage = COMING_SOON_IMAGE;
+                if (GHIBLI_LESSONS_NCE1.has(lessonId)) {
+                    targetImage = `/images/${book.id}/l${lessonNum}/scene1.png`;
+                }
+
+                if (existingData.image !== targetImage) {
+                    existingData.image = targetImage;
+                    // 同时更新 segments 中的图片
+                    if (existingData.segments) {
+                        existingData.segments.forEach((seg: any) => {
+                            if (seg.image) seg.image = targetImage;
+                        });
+                    }
+                    changed = true;
+                }
+
+                if (changed) {
+                    fs.writeFileSync(outputPath, JSON.stringify(existingData, null, 2), 'utf-8');
+                    console.log(`~ 更新: ${lessonId}`);
+                }
+            }
+
+            // 收集 curriculum 数据
+            // 为了避免覆盖手工修改的 curriculum 图片 (如果有), 再次检查
+            let displayImage = COMING_SOON_IMAGE;
+            if (GHIBLI_LESSONS_NCE1.has(lessonId)) {
+                displayImage = `/images/${book.id}/l${lessonNum}/scene1.png`;
+            }
+
+            bookLessons.push({
+                id: lessonId,
+                title: `Lesson ${lessonNum}`,
+                subtitle: title,
+                image: displayImage
+            });
+        }
+
+        // 排序 lessons
+        bookLessons.sort((a, b) => {
+            const numA = parseInt(a.id.split('-l')[1]);
+            const numB = parseInt(b.id.split('-l')[1]);
+            return numA - numB;
         });
+
+        // 更新 curriculum.json 中的 book entry
+        let bookEntry = curriculum.books.find((b: any) => b.id === book.id);
+        if (!bookEntry) {
+            // 如果 curriculum 中没有这本书，新建
+            bookEntry = {
+                id: book.id,
+                title: book.title,
+                subtitle: book.subtitle,
+                description: book.description,
+                level: book.level,
+                color: book.color,
+                lessons: []
+            };
+            curriculum.books.push(bookEntry);
+        }
+
+        // 更新 lessons 列表
+        // 保留原 curriculum 中可能存在的自定义数据? 
+        // 简单策略: 全量替换为 file system 扫描结果，因为我们希望 filesystem 是 source of truth
+        // 但对于 NCE1，我们之前已经 carefully curated.
+        // 如果我们完全替换，就会覆盖掉 NCE1 之前保留的 image 路径吗？
+        // 我们的 displayImage 逻辑已经涵盖了 Ghibli 白名单。
+        // 所以全量替换是安全的，且能保证顺序和完整性。
+        bookEntry.lessons = bookLessons;
     }
 
-    // 排序
-    book1.lessons = lessonsData.sort((a, b) => parseInt(a.id.slice(1)) - parseInt(b.id.slice(1)));
-
     fs.writeFileSync(curriculumPath, JSON.stringify(curriculum, null, 4), 'utf-8');
-    console.log('所有课程同步完成！');
+    console.log('Curriculum 更新完成！');
 }
 
 main().catch(console.error);
