@@ -116,15 +116,15 @@ function parseLrc(lrcContent: string, lessonNum: string, title: string): LessonD
     return {
         id: `l${lessonNum}`,
         title: `Lesson ${lessonNum}: ${title}`,
-        audio: `/audio/${lessonNum.padStart(3, '0')}&${(parseInt(lessonNum) + 1).toString().padStart(3, '0')}－${title.replace(/[?!]/g, '')}.mp3`,
-        image: `/images/l${lessonNum}/scene1.png`,
+        audio: `/audio/nce1/${lessonNum.padStart(3, '0')}&${(parseInt(lessonNum) + 1).toString().padStart(3, '0')}－${title.replace(/[?!]/g, '')}.mp3`,
+        image: `/images/nce1/l${lessonNum}/scene1.png`,
         segments
     };
 }
 
 // 主函数
 async function main() {
-    const audioDir = path.join(process.cwd(), 'public/audio');
+    const audioDir = path.join(process.cwd(), 'public/audio/nce1');
     const outputDir = path.join(process.cwd(), 'src/data/lessons');
 
     // 课程映射
