@@ -1,6 +1,6 @@
 {
   "id": "nce1-l11",
-  "title": "Lesson 11: Is This Your Shirt",
+  "title": "Lesson 11: Is This Your Shirt?",
   "audio": "/audio/nce1/011&012－Is This Your Shirt.mp3",
   "image": "/images/coming-soon.png",
   "segments": [
@@ -8,16 +8,25 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 11",
-      "translation": "",
+      "translation": "第11课",
       "startTime": 0.84,
       "endTime": 3.38,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson",
+            "label": "名词/标题"
+          },
+          {
+            "text": "11",
+            "label": "数词/编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
           }
         ]
       }
@@ -26,44 +35,34 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Is this your shirt?",
-      "translation": "",
+      "translation": "这是你的衬衫吗？",
       "startTime": 3.39,
       "endTime": 6.64,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系动词（疑问提前）"
           },
           {
             "text": "this",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "your shirt",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫（尤其是指男式有领的那种）"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Your",
+            "word": "your",
             "pos": "pron.",
             "meaning": "你的，你们的"
-          },
-          {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
           }
         ]
       }
@@ -72,21 +71,38 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.65,
       "endTime": 13.22,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to",
+            "label": "谓语1"
+          },
+          {
+            "text": "the tape",
+            "label": "宾语1"
+          },
+          {
+            "text": "answer",
+            "label": "谓语2"
+          },
+          {
+            "text": "this question",
+            "label": "宾语2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -95,29 +111,32 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Whose shirt is white?",
-      "translation": "",
+      "translation": "谁的衬衫是白色的？",
       "startTime": 13.23,
       "endTime": 17.17,
       "analysis": {
         "grammar": [
           {
+            "text": "Whose shirt",
+            "label": "主语/疑问短语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "white",
+            "label": "表语/颜色"
           }
         ],
         "words": [
           {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
+            "word": "Whose",
+            "pos": "pron.",
+            "meaning": "谁的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "White",
+            "word": "white",
             "pos": "adj.",
             "meaning": "白色的"
           }
@@ -128,33 +147,27 @@
       "id": "s1",
       "role": "Narrator",
       "text": "Whose shirt is that?",
-      "translation": "",
+      "translation": "那是谁的衬衫？",
       "startTime": 17.18,
       "endTime": 20.07,
       "analysis": {
         "grammar": [
           {
+            "text": "Whose shirt",
+            "label": "表语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
             "text": "that",
-            "label": "指示代词"
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
           }
@@ -165,44 +178,33 @@
       "id": "s2",
       "role": "Man",
       "text": "Is this your shirt Dave?",
-      "translation": "",
+      "translation": "戴夫，这是你的衬衫吗？",
       "startTime": 20.08,
       "endTime": 23.17,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
             "text": "this",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "your shirt",
+            "label": "表语"
+          },
+          {
+            "text": "Dave",
+            "label": "呼语/人名"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          },
-          {
-            "word": "Shirt",
+            "word": "Dave",
             "pos": "n.",
-            "meaning": "衬衫"
+            "meaning": "戴夫（男子名）"
           }
         ]
       }
@@ -211,11 +213,20 @@
       "id": "s3",
       "role": "Woman",
       "text": "No. Sir.",
-      "translation": "",
+      "translation": "不是的，先生。",
       "startTime": 23.18,
       "endTime": 24.57,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "Sir",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Sir",
@@ -229,35 +240,29 @@
       "id": "s4",
       "role": "Man",
       "text": "It's not my shirt.",
-      "translation": "",
+      "translation": "它不是我的衬衫。",
       "startTime": 24.58,
       "endTime": 27.85,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
           },
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "'s not",
+            "label": "系动词+否定词"
+          },
+          {
+            "text": "my shirt",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "My",
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
-          },
-          {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
           }
         ]
       }
@@ -266,44 +271,29 @@
       "id": "s5",
       "role": "Woman",
       "text": "This is my shirt.",
-      "translation": "",
+      "translation": "这是我的衬衫。",
       "startTime": 27.86,
       "endTime": 30.44,
       "analysis": {
         "grammar": [
           {
             "text": "This",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "my shirt",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "My",
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
-          },
-          {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
           }
         ]
       }
@@ -312,24 +302,27 @@
       "id": "s6",
       "role": "Man",
       "text": "My shirt's blue.",
-      "translation": "",
+      "translation": "我的衬衫是蓝色的。",
       "startTime": 30.45,
       "endTime": 33.3,
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My shirt",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "blue",
+            "label": "表语/颜色"
           }
         ],
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "Blue",
+            "word": "blue",
             "pos": "adj.",
             "meaning": "蓝色的"
           }
@@ -340,35 +333,29 @@
       "id": "s7",
       "role": "Woman",
       "text": "Is this shirt Tim's?",
-      "translation": "",
+      "translation": "这件衬衫是蒂姆的吗？",
       "startTime": 33.31,
       "endTime": 36.51,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "this shirt",
+            "label": "主语"
+          },
+          {
+            "text": "Tim's",
+            "label": "表语/名词性物主格"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
+            "word": "Tim's",
+            "pos": "n. poss.",
+            "meaning": "蒂姆的"
           }
         ]
       }
@@ -377,35 +364,29 @@
       "id": "s8",
       "role": "Man",
       "text": "Perhaps it is sir.",
-      "translation": "",
+      "translation": "先生，也许是吧。",
       "startTime": 36.52,
       "endTime": 39.5,
       "analysis": {
         "grammar": [
           {
+            "text": "Perhaps",
+            "label": "状语/副词"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Sir",
-            "pos": "n.",
-            "meaning": "先生"
+            "word": "Perhaps",
+            "pos": "adv.",
+            "meaning": "可能，也许"
           }
         ]
       }
@@ -414,14 +395,27 @@
       "id": "s9",
       "role": "Woman",
       "text": "Tim's shirt's white.",
-      "translation": "",
+      "translation": "蒂姆的衬衫是白色的。",
       "startTime": 39.51,
       "endTime": 42.21,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Tim's shirt",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "white",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "White",
+            "word": "white",
             "pos": "adj.",
             "meaning": "白色的"
           }
@@ -432,29 +426,48 @@
       "id": "s10",
       "role": "Man",
       "text": "Tim!",
-      "translation": "",
+      "translation": "蒂姆！",
       "startTime": 42.22,
-      "endTime": 43.77
+      "endTime": 43.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Tim",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "蒂姆（男子名）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Woman",
       "text": "Yes sir?",
-      "translation": "",
+      "translation": "先生，什么事？",
       "startTime": 43.78,
       "endTime": 45.34,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "应答语"
+          },
+          {
+            "text": "sir",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
-          },
-          {
-            "word": "Sir",
-            "pos": "n.",
-            "meaning": "先生"
           }
         ]
       }
@@ -463,44 +476,29 @@
       "id": "s12",
       "role": "Man",
       "text": "Is this your shirt?",
-      "translation": "",
+      "translation": "这是你的衬衫吗？",
       "startTime": 45.35,
       "endTime": 47.37,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
             "text": "this",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "your shirt",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "This",
+            "word": "your",
             "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          },
-          {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
+            "meaning": "你的"
           }
         ]
       }
@@ -509,19 +507,19 @@
       "id": "s13",
       "role": "Woman",
       "text": "Yes sir.",
-      "translation": "",
+      "translation": "是的，先生。",
       "startTime": 47.38,
       "endTime": 48.79,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          }
+        ],
         "words": [
           {
-            "word": "Yes",
-            "pos": "adv.",
-            "meaning": "是的"
-          },
-          {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -532,14 +530,22 @@
       "id": "s14",
       "role": "Man",
       "text": "Here you are.",
-      "translation": "",
+      "translation": "给你。",
       "startTime": 48.8,
       "endTime": 50.44,
       "analysis": {
         "grammar": [
           {
+            "text": "Here",
+            "label": "倒装句引导词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
@@ -547,11 +553,6 @@
             "word": "Here",
             "pos": "adv.",
             "meaning": "这里"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
           }
         ]
       }
@@ -560,34 +561,48 @@
       "id": "s15",
       "role": "Woman",
       "text": "Catch!",
-      "translation": "",
+      "translation": "接着！",
       "startTime": 50.45,
-      "endTime": 51.53
+      "endTime": 51.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Catch",
+            "label": "谓语/祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Catch",
+            "pos": "v.",
+            "meaning": "接住，抓住"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Man",
       "text": "Thank you sir.",
-      "translation": "",
+      "translation": "谢谢您，先生。",
       "startTime": 51.54,
       "endTime": 56.54,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thank you",
+            "label": "礼貌用语"
+          },
+          {
+            "text": "sir",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Thank",
             "pos": "v.",
             "meaning": "感谢"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Sir",
-            "pos": "n.",
-            "meaning": "先生"
           }
         ]
       }

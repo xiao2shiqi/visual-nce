@@ -8,16 +8,25 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 15",
-      "translation": "",
+      "translation": "第15课",
       "startTime": 0.5,
       "endTime": 2.88,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson",
+            "label": "名词/标题"
+          },
+          {
+            "text": "15",
+            "label": "数词/编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
           }
         ]
       }
@@ -26,24 +35,28 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Your passports please.",
-      "translation": "",
+      "translation": "请出示您的护照。",
       "startTime": 2.89,
       "endTime": 6.36,
       "analysis": {
         "grammar": [
           {
-            "text": "Your",
-            "label": "形容词性物主代词"
+            "text": "Your passports",
+            "label": "宾语（祈使句省略谓语）"
+          },
+          {
+            "text": "please",
+            "label": "礼貌用语"
           }
         ],
         "words": [
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "passports",
+            "pos": "n. pl.",
+            "meaning": "护照（复数）"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -54,21 +67,38 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.37,
       "endTime": 12.29,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to",
+            "label": "谓语1"
+          },
+          {
+            "text": "the tape",
+            "label": "宾语1"
+          },
+          {
+            "text": "answer",
+            "label": "谓语2"
+          },
+          {
+            "text": "this question",
+            "label": "宾语2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -77,21 +107,39 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Is there a problem with the Customs officer?",
-      "translation": "",
+      "translation": "海关官员有什么问题吗？",
       "startTime": 12.3,
       "endTime": 18.82,
       "analysis": {
         "grammar": [
           {
-            "text": "Is",
-            "label": "谓语/系动词"
+            "text": "Is there",
+            "label": "There be句型/谓语"
+          },
+          {
+            "text": "a problem",
+            "label": "主语"
+          },
+          {
+            "text": "with the Customs officer",
+            "label": "定语/介词短语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题，麻烦"
+          },
+          {
+            "word": "Customs",
+            "pos": "n.",
+            "meaning": "海关"
+          },
+          {
+            "word": "officer",
+            "pos": "n.",
+            "meaning": "官员"
           }
         ]
       }
@@ -100,21 +148,29 @@
       "id": "s1",
       "role": "Man",
       "text": "Are you Swedish?",
-      "translation": "",
+      "translation": "你们是瑞典人吗？",
       "startTime": 18.83,
       "endTime": 21.39,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "Swedish",
+            "label": "表语/国籍"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Swedish",
+            "pos": "adj./n.",
+            "meaning": "瑞典人的；瑞典人"
           }
         ]
       }
@@ -123,21 +179,29 @@
       "id": "s2",
       "role": "Woman",
       "text": "No we are not.",
-      "translation": "",
+      "translation": "不，我们不是。",
       "startTime": 21.4,
       "endTime": 23.93,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "we",
+            "label": "主语"
+          },
+          {
+            "text": "are not",
+            "label": "系动词+否定词"
           }
         ],
         "words": [
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           }
         ]
       }
@@ -146,47 +210,64 @@
       "id": "s3",
       "role": "Man",
       "text": "We are Danish.",
-      "translation": "",
+      "translation": "我们是丹麦人。",
       "startTime": 23.94,
       "endTime": 26.62,
       "analysis": {
         "grammar": [
           {
+            "text": "We",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Danish",
+            "label": "表语/国籍"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Danish",
+            "pos": "adj./n.",
+            "meaning": "丹麦人的；丹麦人"
+          }
+        ]
       }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "Are your friends Danish too?",
-      "translation": "",
+      "translation": "你的朋友们也是丹麦人吗？",
       "startTime": 26.63,
       "endTime": 30.2,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "your friends",
+            "label": "主语"
+          },
+          {
+            "text": "Danish",
+            "label": "表语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          },
-          {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "friends",
+            "pos": "n. pl.",
+            "meaning": "朋友（复数）"
           }
         ]
       }
@@ -195,51 +276,87 @@
       "id": "s5",
       "role": "Man",
       "text": "No  they aren't.",
-      "translation": "",
+      "translation": "不，他们不是。",
       "startTime": 30.21,
-      "endTime": 33.74
+      "endTime": 33.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "aren't",
+            "label": "系动词+否定词"
+          }
+        ],
+        "words": [
+          {
+            "word": "aren't",
+            "pos": "v.",
+            "meaning": "不是（are not的缩写）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "They are Norwegian.",
-      "translation": "",
+      "translation": "他们是挪威人。",
       "startTime": 33.75,
       "endTime": 37.45,
       "analysis": {
         "grammar": [
           {
+            "text": "They",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Norwegian",
+            "label": "表语/国籍"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Norwegian",
+            "pos": "adj./n.",
+            "meaning": "挪威人的；挪威人"
+          }
+        ]
       }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "Your passports please.",
-      "translation": "",
+      "translation": "请出示您的护照。",
       "startTime": 37.46,
       "endTime": 40.56,
       "analysis": {
         "grammar": [
           {
-            "text": "Your",
-            "label": "形容词性物主代词"
+            "text": "Your passports",
+            "label": "宾语（缩略句）"
+          },
+          {
+            "text": "please",
+            "label": "礼貌用语"
           }
         ],
         "words": [
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          },
-          {
-            "word": "Please",
-            "pos": "int.",
-            "meaning": "请"
+            "word": "passports",
+            "pos": "n. pl.",
+            "meaning": "护照（复数）"
           }
         ]
       }
@@ -248,21 +365,29 @@
       "id": "s8",
       "role": "Woman",
       "text": "Here they are.",
-      "translation": "",
+      "translation": "给您。",
       "startTime": 40.57,
       "endTime": 43.14,
       "analysis": {
         "grammar": [
           {
+            "text": "Here",
+            "label": "地点状语（倒装句引导词）"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "这儿"
           }
         ]
       }
@@ -271,25 +396,34 @@
       "id": "s9",
       "role": "Man",
       "text": "Are these your cases?",
-      "translation": "",
+      "translation": "这些是你们的箱子吗？",
       "startTime": 43.15,
       "endTime": 46.06,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "these",
+            "label": "主语"
+          },
+          {
+            "text": "your cases",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Your",
+            "word": "cases",
+            "pos": "n. pl.",
+            "meaning": "手提箱，箱子（复数）"
+          },
+          {
+            "word": "these",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "这些"
           }
         ]
       }
@@ -298,50 +432,96 @@
       "id": "s10",
       "role": "Woman",
       "text": "No they aren't.",
-      "translation": "",
+      "translation": "不，不是我们的。",
       "startTime": 46.07,
-      "endTime": 48.93
+      "endTime": 48.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "aren't",
+            "label": "系动词否定"
+          }
+        ],
+        "words": [
+          {
+            "word": "aren't",
+            "pos": "v.",
+            "meaning": "不是"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Our cases are brown.",
-      "translation": "",
+      "translation": "我们的箱子是棕色的。",
       "startTime": 48.94,
       "endTime": 53.06,
       "analysis": {
         "grammar": [
           {
-            "text": "Our",
-            "label": "形容词性物主代词"
+            "text": "Our cases",
+            "label": "主语"
           },
           {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "brown",
+            "label": "表语/颜色"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "brown",
+            "pos": "adj.",
+            "meaning": "棕色的"
+          },
+          {
+            "word": "Our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          }
+        ]
       }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "Here they are.",
-      "translation": "",
+      "translation": "在这里。",
       "startTime": 53.07,
       "endTime": 56.08,
       "analysis": {
         "grammar": [
           {
+            "text": "Here",
+            "label": "引导词"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "这儿"
           }
         ]
       }
@@ -350,21 +530,29 @@
       "id": "s13",
       "role": "Man",
       "text": "Are you tourists?",
-      "translation": "",
+      "translation": "你们是游客吗？",
       "startTime": 56.09,
       "endTime": 58.85,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "tourists",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "tourists",
+            "pos": "n. pl.",
+            "meaning": "游客（复数）"
           }
         ]
       }
@@ -373,14 +561,22 @@
       "id": "s14",
       "role": "Woman",
       "text": "Yes we are.",
-      "translation": "",
+      "translation": "是的，我们是。",
       "startTime": 58.86,
       "endTime": 61.86,
       "analysis": {
         "grammar": [
           {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "we",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
@@ -396,30 +592,33 @@
       "id": "s15",
       "role": "Man",
       "text": "Are your friends tourists too?",
-      "translation": "",
+      "translation": "你们的朋友也是游客吗？",
       "startTime": 61.87,
       "endTime": 65.4,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "your friends",
+            "label": "主语"
+          },
+          {
+            "text": "tourists",
+            "label": "表语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          },
-          {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "tourists",
+            "pos": "n. pl.",
+            "meaning": "游客（复数）"
           }
         ]
       }
@@ -428,14 +627,22 @@
       "id": "s16",
       "role": "Woman",
       "text": "Yes they are.",
-      "translation": "",
+      "translation": "是的，他们也是。",
       "startTime": 65.41,
       "endTime": 68.65,
       "analysis": {
         "grammar": [
           {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
@@ -451,16 +658,29 @@
       "id": "s17",
       "role": "Man",
       "text": "That's fine.",
-      "translation": "",
+      "translation": "好了，没事了。",
       "startTime": 68.66,
       "endTime": 70.77,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "fine",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Fine",
+            "word": "fine",
             "pos": "adj.",
-            "meaning": "健康的"
+            "meaning": "好的，可以了"
           }
         ]
       }
@@ -469,34 +689,28 @@
       "id": "s18",
       "role": "Woman",
       "text": "Thank you very much.",
-      "translation": "",
+      "translation": "非常感谢您。",
       "startTime": 70.78,
       "endTime": 75.78,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "Thank you",
+            "label": "谓语+礼貌语"
+          },
+          {
+            "text": "very much",
+            "label": "程度状语"
           }
         ],
         "words": [
           {
-            "word": "Thank",
-            "pos": "v.",
-            "meaning": "感谢"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Very",
+            "word": "much",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "多（在这里表示程度）"
           },
           {
-            "word": "Much",
+            "word": "very",
             "pos": "adv.",
             "meaning": "非常"
           }

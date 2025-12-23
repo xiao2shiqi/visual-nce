@@ -8,16 +8,25 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 19",
-      "translation": "",
+      "translation": "第19课",
       "startTime": 0.65,
       "endTime": 2.85,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson",
+            "label": "名词/标题"
+          },
+          {
+            "text": "19",
+            "label": "数词/编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
           }
         ]
       }
@@ -26,16 +35,29 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Tired and thirsty",
-      "translation": "",
+      "translation": "又累又渴",
       "startTime": 2.86,
       "endTime": 6.23,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Tired",
+            "label": "形容词1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "thirsty",
+            "label": "形容词2"
+          }
+        ],
         "words": [
           {
             "word": "Tired",
             "pos": "adj.",
-            "meaning": "疲劳的"
+            "meaning": "疲劳的，累的"
           },
           {
             "word": "Thirsty",
@@ -49,21 +71,38 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.24,
       "endTime": 12.27,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to",
+            "label": "谓语1"
+          },
+          {
+            "text": "the tape",
+            "label": "宾语1"
+          },
+          {
+            "text": "answer",
+            "label": "谓语2"
+          },
+          {
+            "text": "this question",
+            "label": "宾语2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -72,21 +111,42 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why do the children thank their mother?",
-      "translation": "",
+      "translation": "孩子们为什么感谢他们的母亲？",
       "startTime": 12.28,
       "endTime": 17.94,
       "analysis": {
         "grammar": [
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "Why",
+            "label": "疑问副词/状语"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "the children",
+            "label": "主语"
+          },
+          {
+            "text": "thank",
+            "label": "谓语"
+          },
+          {
+            "text": "their mother",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Thank",
-            "pos": "v.",
-            "meaning": "感谢"
+            "word": "children",
+            "pos": "n. pl.",
+            "meaning": "孩子们（child的复数）"
+          },
+          {
+            "word": "mother",
+            "pos": "n.",
+            "meaning": "母亲"
           }
         ]
       }
@@ -95,24 +155,64 @@
       "id": "s1",
       "role": "Narrator",
       "text": "What's the matter children?",
-      "translation": "",
+      "translation": "怎么了，孩子们？",
       "startTime": 17.95,
-      "endTime": 20.84
+      "endTime": 20.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "表语/疑问词"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "the matter",
+            "label": "主语"
+          },
+          {
+            "text": "children",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "matter",
+            "pos": "n.",
+            "meaning": "事情，问题"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Man",
       "text": "We're tired ...",
-      "translation": "",
+      "translation": "我们累了……",
       "startTime": 20.85,
       "endTime": 22.7,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'re",
+            "label": "系动词"
+          },
+          {
+            "text": "tired",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Tired",
+            "word": "tired",
             "pos": "adj.",
-            "meaning": "疲劳的"
+            "meaning": "累的，疲劳的"
           }
         ]
       }
@@ -121,16 +221,30 @@
       "id": "s3",
       "role": "Woman",
       "text": "... and thirsty  Mum.",
-      "translation": "",
+      "translation": "……还渴了，妈妈。",
       "startTime": 22.71,
       "endTime": 25.25,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "thirsty",
+            "label": "表语2"
+          },
+          {
+            "text": "Mum",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
-            "word": "Thirsty",
+            "word": "thirsty",
             "pos": "adj.",
             "meaning": "口渴的"
+          },
+          {
+            "word": "Mum",
+            "pos": "n.",
+            "meaning": "妈妈（口语）"
           }
         ]
       }
@@ -139,16 +253,30 @@
       "id": "s4",
       "role": "Man",
       "text": "Sit down here.",
-      "translation": "",
+      "translation": "坐在这儿吧。",
       "startTime": 25.26,
       "endTime": 27.81,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Sit down",
+            "label": "谓语/祈使句"
+          },
+          {
+            "text": "here",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "Here",
+            "word": "Sit",
+            "pos": "v.",
+            "meaning": "坐"
+          },
+          {
+            "word": "down",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "向下"
           }
         ]
       }
@@ -157,21 +285,33 @@
       "id": "s5",
       "role": "Woman",
       "text": "Are you all right now?",
-      "translation": "",
+      "translation": "你们现在好了吗？",
       "startTime": 27.82,
       "endTime": 30.1,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "all right",
+            "label": "表语/形容词短语"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "好的，正确的"
           }
         ]
       }
@@ -180,19 +320,47 @@
       "id": "s6",
       "role": "Man",
       "text": "No we aren't.",
-      "translation": "",
+      "translation": "不，还没有。",
       "startTime": 30.11,
-      "endTime": 32.51
+      "endTime": 32.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "we",
+            "label": "主语"
+          },
+          {
+            "text": "aren't",
+            "label": "系动词否定"
+          }
+        ],
+        "words": [
+          {
+            "word": "aren't",
+            "pos": "v.",
+            "meaning": "不是"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Woman",
       "text": "Look!",
-      "translation": "",
+      "translation": "看！",
       "startTime": 32.52,
       "endTime": 33.6,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Look",
+            "label": "谓语/祈使句"
+          }
+        ],
         "words": [
           {
             "word": "Look",
@@ -206,16 +374,34 @@
       "id": "s8",
       "role": "Man",
       "text": "There's an ice cream man.",
-      "translation": "",
+      "translation": "那儿有个卖冰淇淋的人。",
       "startTime": 33.61,
       "endTime": 36.93,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "There",
+            "label": "引导词"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "an ice cream man",
+            "label": "真正的主语"
+          }
+        ],
         "words": [
           {
-            "word": "Man",
+            "word": "ice cream",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "冰淇淋"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "男人，售货员"
           }
         ]
       }
@@ -224,16 +410,25 @@
       "id": "s9",
       "role": "Woman",
       "text": "Two ice cream please.",
-      "translation": "",
+      "translation": "请拿两个冰淇淋。",
       "startTime": 36.94,
       "endTime": 40.67,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Two ice cream",
+            "label": "宾语（缺谓语）"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
-            "pos": "int.",
-            "meaning": "请"
+            "word": "Two",
+            "pos": "num.",
+            "meaning": "二，两个"
           }
         ]
       }
@@ -242,26 +437,33 @@
       "id": "s10",
       "role": "Man",
       "text": "Here you are children.",
-      "translation": "",
+      "translation": "给你们，孩子们。",
       "startTime": 40.68,
       "endTime": 43.65,
       "analysis": {
         "grammar": [
           {
+            "text": "Here",
+            "label": "引导词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "children",
+            "label": "呼语"
           }
         ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "这里"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "这儿"
           }
         ]
       }
@@ -270,15 +472,24 @@
       "id": "s11",
       "role": "Woman",
       "text": "Thanks Mum.",
-      "translation": "",
+      "translation": "谢谢，妈妈。",
       "startTime": 43.66,
       "endTime": 46.08,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thanks",
+            "label": "感叹语"
+          },
+          {
+            "text": "Mum",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Thanks",
-            "pos": "n.",
+            "pos": "int.",
             "meaning": "谢谢"
           }
         ]
@@ -288,21 +499,29 @@
       "id": "s12",
       "role": "Man",
       "text": "These ice creams are nice.",
-      "translation": "",
+      "translation": "这些冰淇淋真好吃。",
       "startTime": 46.09,
       "endTime": 49.81,
       "analysis": {
         "grammar": [
           {
+            "text": "These ice creams",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "nice",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Nice",
+            "word": "nice",
             "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "meaning": "好的，好吃的"
           }
         ]
       }
@@ -311,54 +530,58 @@
       "id": "s13",
       "role": "Woman",
       "text": "Are you all right now?",
-      "translation": "",
+      "translation": "你们现在好了吗？",
       "startTime": 49.82,
       "endTime": 52.88,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "all right",
+            "label": "表语"
           }
         ],
-        "words": [
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s14",
       "role": "Man",
       "text": "Yes we are thank you!",
-      "translation": "",
+      "translation": "是的，我们好了，谢谢您！",
       "startTime": 52.89,
       "endTime": 57.89,
       "analysis": {
         "grammar": [
           {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "we",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "thank you",
+            "label": "礼貌语"
           }
         ],
         "words": [
           {
-            "word": "Yes",
-            "pos": "adv.",
-            "meaning": "是的"
-          },
-          {
             "word": "Thank",
             "pos": "v.",
             "meaning": "感谢"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
           }
         ]
       }

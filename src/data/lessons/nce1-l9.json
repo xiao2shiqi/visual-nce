@@ -12,12 +12,21 @@
       "startTime": 0.56,
       "endTime": 2.47,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson",
+            "label": "名词/标题"
+          },
+          {
+            "text": "9",
+            "label": "数词/编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
           }
         ]
       }
@@ -32,23 +41,30 @@
       "analysis": {
         "grammar": [
           {
+            "text": "How",
+            "label": "表语/疑问副词（提前）"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "（询问身体健康状况）怎么样"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Today",
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           }
@@ -65,15 +81,32 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to",
+            "label": "谓语1/祈使句"
+          },
+          {
+            "text": "the tape",
+            "label": "宾语1"
+          },
+          {
+            "text": "answer",
+            "label": "谓语2"
+          },
+          {
+            "text": "this question",
+            "label": "宾语2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -88,20 +121,23 @@
       "analysis": {
         "grammar": [
           {
+            "text": "How",
+            "label": "表语/疑问副词"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Emma",
+            "label": "主语/人名"
           }
         ],
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Emma",
+            "pos": "n.",
+            "meaning": "埃玛（女子名）"
           }
         ]
       }
@@ -112,7 +148,26 @@
       "text": "Hello Helen.",
       "translation": "你好，海伦。",
       "startTime": 15.17,
-      "endTime": 17.18
+      "endTime": 17.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hello",
+            "label": "打招呼"
+          },
+          {
+            "text": "Helen",
+            "label": "人名"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hello",
+            "pos": "int.",
+            "meaning": "喂，你好"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -120,7 +175,26 @@
       "text": "Hi Steven.",
       "translation": "你好，史蒂文。",
       "startTime": 17.19,
-      "endTime": 19.01
+      "endTime": 19.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hi",
+            "label": "非正式打招呼"
+          },
+          {
+            "text": "Steven",
+            "label": "人名"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hi",
+            "pos": "int.",
+            "meaning": "你好"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -132,23 +206,25 @@
       "analysis": {
         "grammar": [
           {
+            "text": "How",
+            "label": "表语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Today",
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           }
@@ -165,30 +241,28 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "I'm",
+            "label": "I am的缩写"
+          },
+          {
+            "text": "very well",
+            "label": "表语/形容词短语"
+          },
+          {
+            "text": "thank you",
+            "label": "礼貌用语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "well",
+            "pos": "adj.",
+            "meaning": "（此处指身体健康状况）良好的，健康的"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
             "meaning": "很，非常"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          },
-          {
-            "word": "Thank",
-            "pos": "v.",
-            "meaning": "感谢"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
           }
         ]
       }
@@ -201,12 +275,17 @@
       "startTime": 24.28,
       "endTime": 25.75,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "And you?",
+            "label": "省略疑问句（How are you?）"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -219,17 +298,30 @@
       "startTime": 25.76,
       "endTime": 28.78,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Fine",
-            "pos": "adj.",
-            "meaning": "健康的"
+            "text": "I'm",
+            "label": "I am的缩写"
           },
           {
-            "word": "Thanks",
-            "pos": "n.",
-            "meaning": "谢谢"
+            "text": "fine",
+            "label": "表语/形容词"
+          },
+          {
+            "text": "thanks",
+            "label": "谢谢"
+          }
+        ],
+        "words": [
+          {
+            "word": "fine",
+            "pos": "adj.",
+            "meaning": "（身体）健康的，舒适的"
+          },
+          {
+            "word": "thanks",
+            "pos": "int.",
+            "meaning": "谢谢，感谢"
           }
         ]
       }
@@ -244,20 +336,23 @@
       "analysis": {
         "grammar": [
           {
+            "text": "How",
+            "label": "疑问副词"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Tony",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Tony",
+            "pos": "n.",
+            "meaning": "托尼（男子名）"
           }
         ]
       }
@@ -270,17 +365,21 @@
       "startTime": 30.8,
       "endTime": 33.35,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Fine",
-            "pos": "adj.",
-            "meaning": "健康的"
+            "text": "He's",
+            "label": "He is的缩写"
           },
           {
-            "word": "Thanks",
-            "pos": "n.",
-            "meaning": "谢谢"
+            "text": "fine",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "fine",
+            "pos": "adj.",
+            "meaning": "健康的"
           }
         ]
       }
@@ -291,7 +390,26 @@
       "text": "How's Emma?",
       "translation": "埃玛好吗？",
       "startTime": 33.36,
-      "endTime": 34.94
+      "endTime": 34.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "How's",
+            "label": "How is的缩写"
+          },
+          {
+            "text": "Emma",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Emma",
+            "pos": "n.",
+            "meaning": "埃玛"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -303,23 +421,21 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "She's",
+            "label": "She is的缩写"
+          },
+          {
+            "text": "very well",
+            "label": "形容词短语表语"
+          },
+          {
+            "text": "too",
+            "label": "状语/副词"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          },
-          {
-            "word": "Too",
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -332,7 +448,22 @@
       "text": "Goodbye Helen.",
       "translation": "再见，海伦。",
       "startTime": 39.2,
-      "endTime": 40.69
+      "endTime": 40.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Goodbye",
+            "label": "离别用语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Goodbye",
+            "pos": "int.",
+            "meaning": "再见"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -342,17 +473,21 @@
       "startTime": 40.7,
       "endTime": 42.75,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Nice",
-            "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "text": "Nice",
+            "label": "省略形式"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "to see you",
+            "label": "真正主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见，会面"
           }
         ]
       }
@@ -365,20 +500,19 @@
       "startTime": 42.76,
       "endTime": 46.16,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "too",
+            "label": "状语"
+          },
+          {
+            "text": "Steven",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
-            "word": "Nice",
-            "pos": "adj.",
-            "meaning": "好的，漂亮的"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Too",
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -391,7 +525,22 @@
       "text": "Goodbye.",
       "translation": "再见。",
       "startTime": 46.17,
-      "endTime": 51.17
+      "endTime": 51.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Goodbye",
+            "label": "离别用语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Goodbye",
+            "pos": "int.",
+            "meaning": "再见"
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "nce1-l17",
-  "title": "Lesson 17: How do you do",
+  "title": "Lesson 17: How do you do?",
   "audio": "/audio/nce1/017&018－How do you do.mp3",
   "image": "/images/coming-soon.png",
   "segments": [
@@ -8,16 +8,25 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 17",
-      "translation": "",
+      "translation": "第17课",
       "startTime": 0.58,
       "endTime": 2.88,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson",
+            "label": "名词/标题"
+          },
+          {
+            "text": "17",
+            "label": "数词/编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
           }
         ]
       }
@@ -26,21 +35,26 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "How do you do?",
-      "translation": "",
+      "translation": "您好！",
       "startTime": 2.89,
       "endTime": 6.39,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "How do you do",
+            "label": "固定问候语（初次见面）"
+          }
+        ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做（助动词）"
           }
         ]
       }
@@ -49,21 +63,38 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.4,
       "endTime": 12.61,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to",
+            "label": "谓语1"
+          },
+          {
+            "text": "the tape",
+            "label": "宾语1"
+          },
+          {
+            "text": "answer",
+            "label": "谓语2"
+          },
+          {
+            "text": "this question",
+            "label": "宾语2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -72,25 +103,29 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What are Michael Baker and Jeremy Short's jobs?",
-      "translation": "",
+      "translation": "迈克尔·贝克和杰里米·肖特的工作是什么？",
       "startTime": 12.62,
       "endTime": 19.58,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "表语/疑问词"
           },
           {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Michael Baker and Jeremy Short's jobs",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "jobs",
+            "pos": "n. pl.",
+            "meaning": "工作（复数）"
           }
         ]
       }
@@ -99,21 +134,34 @@
       "id": "s1",
       "role": "Man",
       "text": "Come and meet our employees Mr.Richards.",
-      "translation": "",
+      "translation": "理查兹先生，来见见我们的雇员。",
       "startTime": 19.59,
       "endTime": 25.18,
       "analysis": {
         "grammar": [
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "Meet",
+            "label": "谓语"
+          },
+          {
+            "text": "our employees",
+            "label": "宾语"
+          },
+          {
+            "text": "Mr.Richards",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "Meet",
+            "word": "employees",
+            "pos": "n. pl.",
+            "meaning": "雇员（复数）"
+          },
+          {
+            "word": "meet",
             "pos": "v.",
-            "meaning": "遇见，结识"
+            "meaning": "遇见，认识"
           }
         ]
       }
@@ -122,21 +170,25 @@
       "id": "s2",
       "role": "Woman",
       "text": "Thank you Mr. Jackson.",
-      "translation": "",
+      "translation": "谢谢你，杰克逊先生。",
       "startTime": 25.19,
       "endTime": 28.44,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thank you",
+            "label": "礼貌语"
+          },
+          {
+            "text": "Mr. Jackson",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Thank",
             "pos": "v.",
             "meaning": "感谢"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
           }
         ]
       }
@@ -145,35 +197,29 @@
       "id": "s3",
       "role": "Man",
       "text": "This is Nicola Grey",
-      "translation": "",
+      "translation": "这位是妮科拉·格雷，",
       "startTime": 28.45,
       "endTime": 31.56,
       "analysis": {
         "grammar": [
           {
             "text": "This",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Nicola Grey",
+            "label": "表语/人名"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Grey",
-            "pos": "adj.",
-            "meaning": "灰色的"
+            "word": "Nicola",
+            "pos": "n.",
+            "meaning": "妮科拉（女子名）"
           }
         ]
       }
@@ -182,30 +228,29 @@
       "id": "s4",
       "role": "Woman",
       "text": "and this is Claire Taylor.",
-      "translation": "",
+      "translation": "这位是克莱尔·泰勒。",
       "startTime": 31.57,
       "endTime": 35.29,
       "analysis": {
         "grammar": [
           {
             "text": "this",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Claire Taylor",
+            "label": "表语/人名"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Claire",
+            "pos": "n.",
+            "meaning": "克莱尔（女子名）"
           }
         ]
       }
@@ -214,21 +259,21 @@
       "id": "s5",
       "role": "Narrator",
       "text": "How do you do?",
-      "translation": "",
+      "translation": "您好！",
       "startTime": 35.3,
       "endTime": 38.39,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "How do you do",
+            "label": "问候语"
+          }
+        ],
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -237,25 +282,34 @@
       "id": "s6",
       "role": "Man",
       "text": "Those women are very hard-working.",
-      "translation": "",
+      "translation": "那些妇女非常勤奋。",
       "startTime": 38.4,
       "endTime": 43.17,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Those women",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "are",
+            "label": "系动词"
+          },
+          {
+            "text": "very hard-working",
+            "label": "表语/形容词短语"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "hard-working",
+            "pos": "adj.",
+            "meaning": "勤奋的"
+          },
+          {
+            "word": "women",
+            "pos": "n. pl.",
+            "meaning": "女人，妇女（复数）"
           }
         ]
       }
@@ -264,29 +318,29 @@
       "id": "s7",
       "role": "Narrator",
       "text": "What are their jobs?",
-      "translation": "",
+      "translation": "她们的工作是什么？",
       "startTime": 43.18,
       "endTime": 46.59,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "表语"
           },
           {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "their jobs",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "What",
+            "word": "their",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "她们的"
           }
         ]
       }
@@ -295,38 +349,65 @@
       "id": "s8",
       "role": "Man",
       "text": "They're keyboard operators.",
-      "translation": "",
+      "translation": "她们是电脑录入员。",
       "startTime": 46.6,
-      "endTime": 50.89
+      "endTime": 50.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "'re",
+            "label": "系动词"
+          },
+          {
+            "text": "keyboard operators",
+            "label": "表语/名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "keyboard",
+            "pos": "n.",
+            "meaning": "键盘"
+          },
+          {
+            "word": "operators",
+            "pos": "n. pl.",
+            "meaning": "操作人员"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Woman",
       "text": "This is Michael Baker",
-      "translation": "",
+      "translation": "这位是迈克尔·贝克，",
       "startTime": 50.9,
       "endTime": 53.84,
       "analysis": {
         "grammar": [
           {
             "text": "This",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Michael Baker",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Michael",
+            "pos": "n.",
+            "meaning": "迈克尔（男子名）"
           }
         ]
       }
@@ -335,35 +416,29 @@
       "id": "s10",
       "role": "Man",
       "text": "and this is Jeremy Short.",
-      "translation": "",
+      "translation": "这位是杰里米·肖特。",
       "startTime": 53.85,
       "endTime": 57.41,
       "analysis": {
         "grammar": [
           {
             "text": "this",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Jeremy Short",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Short",
-            "pos": "adj.",
-            "meaning": "矮的"
+            "word": "Jeremy",
+            "pos": "n.",
+            "meaning": "杰里米（男子名）"
           }
         ]
       }
@@ -372,47 +447,44 @@
       "id": "s11",
       "role": "Narrator",
       "text": "How do you do?",
-      "translation": "",
+      "translation": "您好！",
       "startTime": 57.42,
       "endTime": 60.66,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "How do you do",
+            "label": "问候语"
           }
-        ]
+        ],
+        "words": []
       }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "They aren't very busy!",
-      "translation": "",
+      "translation": "他们不怎么忙！",
       "startTime": 60.67,
       "endTime": 63.79,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "aren't",
+            "label": "系动词否定"
+          },
+          {
+            "text": "very busy",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Busy",
+            "word": "busy",
             "pos": "adj.",
             "meaning": "忙碌的"
           }
@@ -423,29 +495,29 @@
       "id": "s13",
       "role": "Narrator",
       "text": "What are their jobs?",
-      "translation": "",
+      "translation": "他们的工作是什么？",
       "startTime": 63.8,
       "endTime": 67.94,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "表语"
           },
           {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系动词"
           },
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "their jobs",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "What",
+            "word": "their",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "他们的"
           }
         ]
       }
@@ -454,32 +526,63 @@
       "id": "s14",
       "role": "Man",
       "text": "They're sales reps.",
-      "translation": "",
+      "translation": "他们是推销员。",
       "startTime": 67.95,
-      "endTime": 70.2
+      "endTime": 70.2,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "'re",
+            "label": "系动词"
+          },
+          {
+            "text": "sales reps",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "sales",
+            "pos": "n.",
+            "meaning": "销售"
+          },
+          {
+            "word": "reps",
+            "pos": "n. pl.",
+            "meaning": "代表（representatives的缩写）"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Woman",
       "text": "They're very lazy.",
-      "translation": "",
+      "translation": "他们非常懒。",
       "startTime": 70.21,
       "endTime": 73.27,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "'re",
+            "label": "系动词"
+          },
+          {
+            "text": "very lazy",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Lazy",
+            "word": "lazy",
             "pos": "adj.",
             "meaning": "懒惰的"
           }
@@ -490,40 +593,29 @@
       "id": "s16",
       "role": "Narrator",
       "text": "Who is this young man?",
-      "translation": "",
+      "translation": "这位年轻男子是谁？",
       "startTime": 73.28,
       "endTime": 77.02,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Who",
+            "label": "表语/疑问词"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "is",
+            "label": "系动词"
+          },
+          {
+            "text": "this young man",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Young",
+            "word": "young",
             "pos": "adj.",
             "meaning": "年轻的"
-          },
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
           }
         ]
       }
@@ -532,30 +624,29 @@
       "id": "s17",
       "role": "Man",
       "text": "This is Jim.",
-      "translation": "",
+      "translation": "这位是吉姆。",
       "startTime": 77.03,
       "endTime": 79.41,
       "analysis": {
         "grammar": [
           {
             "text": "This",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
+          },
+          {
+            "text": "Jim",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Jim",
+            "pos": "n.",
+            "meaning": "吉姆（男子名）"
           }
         ]
       }
@@ -564,17 +655,36 @@
       "id": "s18",
       "role": "Woman",
       "text": "He's our office assistant.",
-      "translation": "",
+      "translation": "他是我们的办公室助理。",
       "startTime": 79.42,
       "endTime": 84.42,
       "analysis": {
         "grammar": [
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "our office assistant",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "assistant",
+            "pos": "n.",
+            "meaning": "助理"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
+          }
+        ]
       }
     }
   ]
