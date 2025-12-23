@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 91",
-      "translation": "",
+      "translation": "第91课",
       "startTime": 0.91,
       "endTime": 3.44,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 91",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "91",
+            "pos": "num.",
+            "meaning": "九十一"
           }
         ]
       }
@@ -26,29 +36,96 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Poor Ian!",
-      "translation": "",
+      "translation": "可怜的伊恩！",
       "startTime": 3.45,
-      "endTime": 6.25
+      "endTime": 6.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Poor",
+            "label": "形容词/修饰语"
+          },
+          {
+            "text": "Ian",
+            "label": "呼语/对象"
+          }
+        ],
+        "words": [
+          {
+            "word": "Poor",
+            "pos": "adj.",
+            "meaning": "可怜的/贫穷的"
+          },
+          {
+            "word": "Ian",
+            "pos": "n.",
+            "meaning": "伊恩（人名）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.26,
       "endTime": 12.12,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,14 +134,52 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Who wanted to sell the house?",
-      "translation": "",
+      "translation": "谁想卖掉这所房子？",
       "startTime": 12.13,
       "endTime": 17.54,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Who",
+            "label": "疑问代词/主语"
+          },
+          {
+            "text": "wanted to sell",
+            "label": "谓语"
+          },
+          {
+            "text": "the house",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "House",
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "wanted",
+            "pos": "v.",
+            "meaning": "想要（want过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "sell",
+            "pos": "v.",
+            "meaning": "卖"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           }
@@ -73,41 +188,101 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Woman",
       "text": "Has Ian sold his house yet?",
-      "translation": "",
+      "translation": "伊恩卖掉他的房子了吗？",
       "startTime": 17.55,
       "endTime": 21.24,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Has",
+            "label": "助动词"
+          },
+          {
+            "text": "Ian",
+            "label": "主语"
+          },
+          {
+            "text": "sold",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "his house",
+            "label": "宾语"
+          },
+          {
+            "text": "yet",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "House",
+            "word": "Has",
+            "pos": "v.aux.",
+            "meaning": "已经（完成时助动词）"
+          },
+          {
+            "word": "Ian",
+            "pos": "n.",
+            "meaning": "伊恩"
+          },
+          {
+            "word": "sold",
+            "pos": "v.",
+            "meaning": "卖（sell过去分词）"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还/已经"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Man",
       "text": "Yes, he has.",
-      "translation": "",
+      "translation": "是的，他卖了。",
       "startTime": 21.25,
       "endTime": 23.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定应答"
+          },
+          {
+            "text": "he has",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "v.aux.",
+            "meaning": "已经（卖了）"
           }
         ]
       }
@@ -116,21 +291,53 @@
       "id": "s3",
       "role": "Man",
       "text": "He sold it last week.",
-      "translation": "",
+      "translation": "他上星期把它卖了。",
       "startTime": 23.21,
       "endTime": 26.91,
       "analysis": {
         "grammar": [
           {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "sold",
+            "label": "谓语 (过去时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语 (指房子)"
+          },
+          {
+            "text": "last week",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "sold",
+            "pos": "v.",
+            "meaning": "卖（过去式）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期"
           }
         ]
       }
@@ -138,22 +345,73 @@
     {
       "id": "s4",
       "role": "Woman",
-      "text": "Has he moved to his new house yet?",
-      "translation": "",
+      "text": "Has he moved into his new house yet?",
+      "translation": "他搬进他的新房子了吗？",
       "startTime": 26.92,
       "endTime": 31.44,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Has",
+            "label": "助动词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "moved into",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "his new house",
+            "label": "宾语 (地点)"
+          },
+          {
+            "text": "yet",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "House",
+            "word": "Has",
+            "pos": "v.aux.",
+            "meaning": "有/已经"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "moved",
+            "pos": "v.",
+            "meaning": "搬动/搬家"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进到...里"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还/已经"
           }
         ]
       }
@@ -162,34 +420,85 @@
       "id": "s5",
       "role": "Man",
       "text": "No, not yet.",
-      "translation": "",
+      "translation": "不，还没有。",
       "startTime": 31.45,
       "endTime": 33.8,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定应答"
+          },
+          {
+            "text": "not yet",
+            "label": "简短否定回答"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "No",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "没"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Man",
       "text": "He's still here.",
-      "translation": "",
+      "translation": "他还在那儿。",
       "startTime": 33.81,
       "endTime": 36.04,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "still",
+            "label": "状语"
+          },
+          {
+            "text": "here",
+            "label": "地点状语/表语"
+          }
+        ],
         "words": [
           {
-            "word": "Here",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "still",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "仍然"
+          },
+          {
+            "word": "here",
+            "pos": "adv.",
+            "meaning": "在这里"
           }
         ]
       }
@@ -198,66 +507,291 @@
       "id": "s7",
       "role": "Man",
       "text": "He's going to move tomorrow.",
-      "translation": "",
+      "translation": "他打算明天搬家。",
       "startTime": 36.05,
-      "endTime": 39.81
+      "endTime": 39.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'re going to move",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "tomorrow",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "move",
+            "pos": "v.",
+            "meaning": "搬家/移动"
+          },
+          {
+            "word": "tomorrow",
+            "pos": "adv.",
+            "meaning": "明天"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "When? Tomorrow morning?",
-      "translation": "",
+      "translation": "什么时候？明天上午吗？",
       "startTime": 39.82,
-      "endTime": 44.11
+      "endTime": 44.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "When",
+            "label": "疑问词"
+          },
+          {
+            "text": "Tomorrow morning",
+            "label": "时间短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
+          },
+          {
+            "word": "Tomorrow",
+            "pos": "adv.",
+            "meaning": "明天"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨/上午"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "No. Tomorrow afternoon.",
-      "translation": "",
+      "translation": "不，明天下午。",
       "startTime": 44.12,
-      "endTime": 47.82
+      "endTime": 47.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "应答词"
+          },
+          {
+            "text": "Tomorrow afternoon",
+            "label": "时间短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "Tomorrow",
+            "pos": "adv.",
+            "meaning": "明天"
+          },
+          {
+            "word": "afternoon",
+            "pos": "n.",
+            "meaning": "下午"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "I'll miss him.",
-      "translation": "",
+      "translation": "我会想念他的。",
       "startTime": 47.83,
-      "endTime": 49.88
+      "endTime": 49.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ll miss",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "him",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ll",
+            "pos": "v.aux.",
+            "meaning": "将要 (will)"
+          },
+          {
+            "word": "miss",
+            "pos": "v.",
+            "meaning": "想念/错过"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
-      "text": "He has always been a good neighbour.",
-      "translation": "",
+      "text": "He's always been a good neighbour.",
+      "translation": "他一直是个好邻居。",
       "startTime": 49.89,
-      "endTime": 54.56
+      "endTime": 54.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s always been",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "a good neighbour",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "有/已经（has）"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "是（过去分词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "neighbour",
+            "pos": "n.",
+            "meaning": "邻居"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "He's a very nice person.",
-      "translation": "",
+      "translation": "他是个非常好的人。",
       "startTime": 54.57,
       "endTime": 58.16,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "a very nice person",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
           },
           {
-            "word": "Nice",
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "nice",
             "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "meaning": "好的"
+          },
+          {
+            "word": "person",
+            "pos": "n.",
+            "meaning": "人"
           }
         ]
       }
@@ -266,16 +800,49 @@
       "id": "s13",
       "role": "Man",
       "text": "We'll all miss him.",
-      "translation": "",
+      "translation": "我们大家都会想念他的。",
       "startTime": 58.17,
       "endTime": 62.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'ll all miss",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "him",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ll",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "全部/都"
+          },
+          {
+            "word": "miss",
+            "pos": "v.",
+            "meaning": "想念"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
           }
         ]
       }
@@ -284,24 +851,67 @@
       "id": "s14",
       "role": "Woman",
       "text": "When will the new people move into this house?",
-      "translation": "",
+      "translation": "新住户什么时候搬进这所房子？",
       "startTime": 62.21,
       "endTime": 67.53,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "When",
+            "label": "疑问词"
+          },
+          {
+            "text": "will the new people move",
+            "label": "谓语 (将来疑问)"
+          },
+          {
+            "text": "into this house",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
           },
           {
-            "word": "House",
+            "word": "will",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们/住户"
+          },
+          {
+            "word": "move",
+            "pos": "v.",
+            "meaning": "搬动"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "搬进"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           }
@@ -312,21 +922,83 @@
       "id": "s15",
       "role": "Man",
       "text": "I think that they'll move in the day after tomorrow.",
-      "translation": "",
+      "translation": "我想他们后天搬进来。",
       "startTime": 67.54,
       "endTime": 74.21,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "think",
+            "label": "谓语"
+          },
+          {
+            "text": "that they'll move in",
+            "label": "宾语从句"
+          },
+          {
+            "text": "the day after tomorrow",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "想/认为"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "'ll",
+            "pos": "v.aux.",
+            "meaning": "（将要）"
+          },
+          {
+            "word": "move",
+            "pos": "v.",
+            "meaning": "搬动"
+          },
+          {
+            "word": "in",
+            "pos": "adv.",
+            "meaning": "进来"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "日子"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "tomorrow",
+            "pos": "adv.",
+            "meaning": "明天"
           }
         ]
       }
@@ -334,22 +1006,55 @@
     {
       "id": "s16",
       "role": "Woman",
-      "text": "Will you see Ian today, Jenny?",
-      "translation": "",
+      "text": "Will you see Ian today, James?",
+      "translation": "詹姆斯，你今天会见到伊恩吗？",
       "startTime": 74.22,
       "endTime": 79.7,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "Will you see",
+            "label": "谓语 (将来疑问)"
           },
           {
-            "word": "Today",
+            "text": "Ian",
+            "label": "宾语"
+          },
+          {
+            "text": "James",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Will",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "见/看见"
+          },
+          {
+            "word": "Ian",
+            "pos": "n.",
+            "meaning": "伊恩"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
+          },
+          {
+            "word": "James",
+            "pos": "n.",
+            "meaning": "詹姆斯"
           }
         ]
       }
@@ -358,16 +1063,35 @@
       "id": "s17",
       "role": "Man",
       "text": "Yes, I will.",
-      "translation": "",
+      "translation": "是的，我会的。",
       "startTime": 79.71,
       "endTime": 83.08,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定应答"
+          },
+          {
+            "text": "I will",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "will",
+            "pos": "v.aux.",
+            "meaning": "（会）"
           }
         ]
       }
@@ -376,14 +1100,26 @@
       "id": "s18",
       "role": "Woman",
       "text": "Please give him my regards.",
-      "translation": "",
+      "translation": "请代我向他问好。",
       "startTime": 83.09,
       "endTime": 87.82,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "Please",
+            "label": "语气词"
+          },
+          {
+            "text": "give",
+            "label": "谓语 (祈使)"
+          },
+          {
+            "text": "him",
+            "label": "间接宾语"
+          },
+          {
+            "text": "my regards",
+            "label": "直接宾语"
           }
         ],
         "words": [
@@ -393,9 +1129,24 @@
             "meaning": "请"
           },
           {
-            "word": "My",
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给/传送"
+          },
+          {
+            "word": "him",
             "pos": "pron.",
+            "meaning": "他（宾格）"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "regards",
+            "pos": "n.",
+            "meaning": "问候"
           }
         ]
       }
@@ -404,24 +1155,71 @@
       "id": "s19",
       "role": "Man",
       "text": "Poor Ian! He didn't want to leave this house.",
-      "translation": "",
+      "translation": "可怜的伊恩！他本身不想离开这所房子。",
       "startTime": 87.83,
       "endTime": 94.48,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Poor Ian",
+            "label": "呼感/语气"
+          },
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "did not want to leave",
+            "label": "谓语 (过去否定)"
+          },
+          {
+            "text": "this house",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Poor",
+            "pos": "adj.",
+            "meaning": "可怜的"
           },
           {
-            "word": "House",
+            "word": "Ian",
+            "pos": "n.",
+            "meaning": "伊恩"
+          },
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "didn't",
+            "pos": "v.aux.",
+            "meaning": "不/没 (did not)"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "leave",
+            "pos": "v.",
+            "meaning": "离开"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           }
@@ -432,17 +1230,80 @@
       "id": "s20",
       "role": "Woman",
       "text": "No, he didn't want to leave, but his wife did!",
-      "translation": "",
+      "translation": "是的，他不想离开，但他妻子想离开！",
       "startTime": 94.49,
       "endTime": 99.49,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "No",
+            "label": "赞同应答"
+          },
+          {
+            "text": "he didn't want to leave",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "his wife did",
+            "label": "分句2 (强调)"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不/是啊（表赞同）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "didn't",
+            "pos": "v.aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "leave",
+            "pos": "v.",
+            "meaning": "离开"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "did",
+            "pos": "v.",
+            "meaning": "想离开（助动词强调）"
+          }
+        ]
       }
     }
   ]

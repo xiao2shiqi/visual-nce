@@ -26,7 +26,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "1",
+            "pos": "num.",
+            "meaning": "一"
           }
         ]
       }
@@ -42,18 +47,18 @@
         "grammar": [
           {
             "text": "Excuse",
-            "label": "谓语/动词"
+            "label": "动词/谓语"
           },
           {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "代词/宾语"
           }
         ],
         "words": [
           {
             "word": "Excuse",
             "pos": "v.",
-            "meaning": "原谅，宽恕"
+            "meaning": "原谅"
           },
           {
             "word": "me",
@@ -87,14 +92,39 @@
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "磁带，录音"
           },
           {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
             "word": "answer",
             "pos": "v.",
             "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -114,27 +144,40 @@
       "analysis": {
         "grammar": [
           {
+            "text": "Whose",
+            "label": "疑问词/定语"
+          },
+          {
+            "text": "handbag",
+            "label": "主语"
+          },
+          {
             "text": "is",
             "label": "谓语/系动词"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "代词/形式主语（此处引导倒装）"
           }
         ],
         "words": [
           {
-            "word": "Handbag",
-            "pos": "n.",
-            "meaning": "（女用）手提包"
+            "word": "Whose",
+            "pos": "det.",
+            "meaning": "谁的"
           },
           {
-            "word": "Is",
+            "word": "handbag",
+            "pos": "n.",
+            "meaning": "手提包"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -152,23 +195,23 @@
         "grammar": [
           {
             "text": "Excuse",
-            "label": "动词原形"
+            "label": "动词/祈使语气"
           },
           {
             "text": "me",
-            "label": "代词宾格"
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "Excuse",
             "pos": "v.",
-            "meaning": "原谅"
+            "meaning": "原谅，打扰（用于引起注意）"
           },
           {
             "word": "me",
             "pos": "pron.",
-            "meaning": "我"
+            "meaning": "我（宾格）"
           }
         ]
       }
@@ -211,11 +254,15 @@
           },
           {
             "text": "this",
-            "label": "指示代词"
+            "label": "主语/指示代词"
           },
           {
             "text": "your",
-            "label": "形容词性物主代词"
+            "label": "定语/代词"
+          },
+          {
+            "text": "handbag",
+            "label": "表语"
           }
         ],
         "words": [
@@ -225,19 +272,19 @@
             "meaning": "是"
           },
           {
-            "word": "This",
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "Your",
+            "word": "your",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "你的，您的"
           },
           {
-            "word": "Handbag",
+            "word": "handbag",
             "pos": "n.",
-            "meaning": "（女用）手提包"
+            "meaning": "手提包"
           }
         ]
       }
@@ -253,14 +300,14 @@
         "grammar": [
           {
             "text": "Pardon",
-            "label": "省略句/请求重复"
+            "label": "省略疑问句"
           }
         ],
         "words": [
           {
             "word": "Pardon",
-            "pos": "n./v.",
-            "meaning": "原谅（此处指：请再说一遍）"
+            "pos": "int.",
+            "meaning": "请再说一遍"
           }
         ]
       }
@@ -280,11 +327,15 @@
           },
           {
             "text": "this",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "your",
-            "label": "形容词性物主代词"
+            "label": "定语"
+          },
+          {
+            "text": "handbag",
+            "label": "表语"
           }
         ],
         "words": [
@@ -294,19 +345,19 @@
             "meaning": "是"
           },
           {
-            "word": "This",
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "Your",
+            "word": "your",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "你的"
           },
           {
-            "word": "Handbag",
+            "word": "handbag",
             "pos": "n.",
-            "meaning": "（女用）手提包"
+            "meaning": "手提包"
           }
         ]
       }
@@ -321,12 +372,16 @@
       "analysis": {
         "grammar": [
           {
+            "text": "Yes",
+            "label": "语气词"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系动词"
           }
         ],
         "words": [
@@ -336,12 +391,12 @@
             "meaning": "是的"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -358,8 +413,12 @@
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "Thank you",
+            "label": "动词短语/谓语"
+          },
+          {
+            "text": "very much",
+            "label": "状语"
           }
         ],
         "words": [
@@ -369,17 +428,17 @@
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
             "meaning": "很，非常"
           },
           {
-            "word": "Much",
+            "word": "much",
             "pos": "adv.",
             "meaning": "非常"
           }

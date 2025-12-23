@@ -14,12 +14,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "7",
-            "label": "数词/编号"
+            "text": "Lesson 7",
+            "label": "标题"
           }
         ],
         "words": [
@@ -27,6 +23,11 @@
             "word": "Lesson",
             "pos": "n.",
             "meaning": "课"
+          },
+          {
+            "word": "7",
+            "pos": "num.",
+            "meaning": "七"
           }
         ]
       }
@@ -42,7 +43,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词（疑问式提前）"
+            "label": "系词（提前）"
           },
           {
             "text": "you",
@@ -50,14 +51,29 @@
           },
           {
             "text": "a teacher",
-            "label": "表语/职业"
+            "label": "表语"
           }
         ],
         "words": [
           {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
             "word": "teacher",
             "pos": "n.",
-            "meaning": "老师，教师"
+            "meaning": "教师"
           }
         ]
       }
@@ -72,27 +88,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen to",
-            "label": "谓语1/祈使句"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
-            "text": "the tape",
-            "label": "宾语1"
+            "text": "then",
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "谓语2（并列）"
-          },
-          {
-            "text": "this question",
-            "label": "宾语2"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -113,11 +155,11 @@
         "grammar": [
           {
             "text": "What",
-            "label": "表语/疑问代词（提前）"
+            "label": "疑问词/表语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Robert's job",
@@ -126,14 +168,29 @@
         ],
         "words": [
           {
-            "word": "job",
-            "pos": "n.",
-            "meaning": "工作，职业"
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
           },
           {
-            "word": "Robert's",
-            "pos": "n. poss.",
-            "meaning": "罗伯特的（名词所有格）"
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Robert",
+            "pos": "n.",
+            "meaning": "罗伯特"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的（所有格）"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -153,7 +210,7 @@
           },
           {
             "text": "am",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "a new student",
@@ -162,14 +219,29 @@
         ],
         "words": [
           {
-            "word": "student",
-            "pos": "n.",
-            "meaning": "学生"
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一名"
           },
           {
             "word": "new",
             "pos": "adj.",
             "meaning": "新的"
+          },
+          {
+            "word": "student",
+            "pos": "n.",
+            "meaning": "学生"
           }
         ]
       }
@@ -189,7 +261,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词（is的缩写）"
+            "label": "系词缩写"
           },
           {
             "text": "Robert",
@@ -198,9 +270,24 @@
         ],
         "words": [
           {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
             "word": "name",
             "pos": "n.",
             "meaning": "名字"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "Robert",
+            "pos": "n.",
+            "meaning": "罗伯特"
           }
         ]
       }
@@ -215,19 +302,30 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Nice",
-            "label": "省略形式表语"
-          },
-          {
-            "text": "to meet you",
-            "label": "真正主语"
+            "text": "Nice to meet you",
+            "label": "常用问候语"
           }
         ],
         "words": [
           {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "愉快的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
             "word": "meet",
             "pos": "v.",
-            "meaning": "结识，遇见"
+            "meaning": "遇见"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -247,7 +345,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Sophie",
@@ -256,9 +354,24 @@
         ],
         "words": [
           {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Sophie",
             "pos": "n.",
-            "meaning": "索菲（女子名）"
+            "meaning": "索菲"
           }
         ]
       }
@@ -274,7 +387,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词（疑问提前）"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -286,6 +399,16 @@
           }
         ],
         "words": [
+          {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
           {
             "word": "French",
             "pos": "adj.",
@@ -305,7 +428,7 @@
         "grammar": [
           {
             "text": "Yes",
-            "label": "肯定回答"
+            "label": "回答词"
           },
           {
             "text": "I",
@@ -313,7 +436,7 @@
           },
           {
             "text": "am",
-            "label": "系动词（省略表语 French）"
+            "label": "系词"
           }
         ],
         "words": [
@@ -321,6 +444,16 @@
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -336,7 +469,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -348,10 +481,25 @@
           },
           {
             "text": "too",
-            "label": "状语"
+            "label": "副词"
           }
         ],
         "words": [
+          {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国人的"
+          },
           {
             "word": "too",
             "pos": "adv.",
@@ -371,7 +519,7 @@
         "grammar": [
           {
             "text": "No",
-            "label": "否定回答"
+            "label": "回答词"
           },
           {
             "text": "I",
@@ -379,14 +527,29 @@
           },
           {
             "text": "am not",
-            "label": "系动词+否定词"
+            "label": "系词否定"
           }
         ],
         "words": [
           {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           }
         ]
       }
@@ -402,11 +565,11 @@
         "grammar": [
           {
             "text": "What nationality",
-            "label": "表语（疑问短语提前）"
+            "label": "疑问短语/表语"
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -415,9 +578,24 @@
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "det.",
+            "meaning": "什么"
+          },
+          {
             "word": "nationality",
             "pos": "n.",
             "meaning": "国籍"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -437,10 +615,20 @@
           },
           {
             "text": "Italian",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "Italian",
             "pos": "adj.",
@@ -460,7 +648,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -473,9 +661,24 @@
         ],
         "words": [
           {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一名"
+          },
+          {
             "word": "teacher",
             "pos": "n.",
-            "meaning": "教师，老师"
+            "meaning": "教师"
           }
         ]
       }
@@ -491,16 +694,31 @@
         "grammar": [
           {
             "text": "No",
-            "label": "否定回答"
+            "label": "回答词"
           },
           {
             "text": "I'm not",
-            "label": "I am not的缩写"
+            "label": "否定简答"
           }
         ],
         "words": [
           {
             "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
             "meaning": "不"
           }
@@ -518,7 +736,7 @@
         "grammar": [
           {
             "text": "What's",
-            "label": "What is的缩写"
+            "label": "What is"
           },
           {
             "text": "your job",
@@ -527,9 +745,24 @@
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
             "word": "job",
             "pos": "n.",
-            "meaning": "工作，职业"
+            "meaning": "工作"
           }
         ]
       }
@@ -544,19 +777,30 @@
       "analysis": {
         "grammar": [
           {
-            "text": "I",
-            "label": "主语"
-          },
-          {
-            "text": "am",
-            "label": "系动词"
+            "text": "I'm",
+            "label": "主语+系词"
           },
           {
             "text": "a keyboard operator",
-            "label": "表语/名词短语"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一名"
+          },
           {
             "word": "keyboard",
             "pos": "n.",
@@ -565,7 +809,7 @@
           {
             "word": "operator",
             "pos": "n.",
-            "meaning": "操作人员"
+            "meaning": "操作员"
           }
         ]
       }
@@ -580,12 +824,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "表语"
-          },
-          {
-            "text": "is",
-            "label": "系动词"
+            "text": "What's",
+            "label": "What is"
           },
           {
             "text": "your job",
@@ -594,9 +834,24 @@
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "your",
             "pos": "pron.",
             "meaning": "你的"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -612,14 +867,29 @@
         "grammar": [
           {
             "text": "I'm",
-            "label": "I am的缩写"
+            "label": "主语+系词"
           },
           {
             "text": "an engineer",
-            "label": "表语/职业"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一名"
+          },
           {
             "word": "engineer",
             "pos": "n.",

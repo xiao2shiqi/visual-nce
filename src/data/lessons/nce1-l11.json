@@ -14,12 +14,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "11",
-            "label": "数词/编号"
+            "text": "Lesson 11",
+            "label": "标题"
           }
         ],
         "words": [
@@ -27,6 +23,11 @@
             "word": "Lesson",
             "pos": "n.",
             "meaning": "课"
+          },
+          {
+            "word": "11",
+            "pos": "num.",
+            "meaning": "十一"
           }
         ]
       }
@@ -42,7 +43,7 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词（疑问提前）"
+            "label": "系词（提前）"
           },
           {
             "text": "this",
@@ -55,14 +56,24 @@
         ],
         "words": [
           {
-            "word": "shirt",
-            "pos": "n.",
-            "meaning": "衬衫（尤其是指男式有领的那种）"
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
           },
           {
             "word": "your",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "你的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
           }
         ]
       }
@@ -77,27 +88,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen to",
-            "label": "谓语1"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
-            "text": "the tape",
-            "label": "宾语1"
+            "text": "then",
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "谓语2"
-          },
-          {
-            "text": "this question",
-            "label": "宾语2"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -118,15 +155,15 @@
         "grammar": [
           {
             "text": "Whose shirt",
-            "label": "主语/疑问短语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "white",
-            "label": "表语/颜色"
+            "label": "表语"
           }
         ],
         "words": [
@@ -134,6 +171,16 @@
             "word": "Whose",
             "pos": "pron.",
             "meaning": "谁的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
           },
           {
             "word": "white",
@@ -158,7 +205,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "that",
@@ -167,9 +214,24 @@
         ],
         "words": [
           {
+            "word": "Whose",
+            "pos": "pron.",
+            "meaning": "谁的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
           }
         ]
       }
@@ -185,7 +247,7 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "this",
@@ -197,14 +259,34 @@
           },
           {
             "text": "Dave",
-            "label": "呼语/人名"
+            "label": "称呼语"
           }
         ],
         "words": [
           {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
+          },
+          {
             "word": "Dave",
             "pos": "n.",
-            "meaning": "戴夫（男子名）"
+            "meaning": "戴夫"
           }
         ]
       }
@@ -224,10 +306,15 @@
           },
           {
             "text": "Sir",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
           {
             "word": "Sir",
             "pos": "n.",
@@ -251,7 +338,7 @@
           },
           {
             "text": "'s not",
-            "label": "系动词+否定词"
+            "label": "系词否定"
           },
           {
             "text": "my shirt",
@@ -260,9 +347,29 @@
         ],
         "words": [
           {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
             "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
           }
         ]
       }
@@ -282,7 +389,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "my shirt",
@@ -291,9 +398,24 @@
         ],
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
           }
         ]
       }
@@ -313,14 +435,29 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "blue",
-            "label": "表语/颜色"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "blue",
             "pos": "adj.",
@@ -340,7 +477,7 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "this shirt",
@@ -348,14 +485,34 @@
           },
           {
             "text": "Tim's",
-            "label": "表语/名词性物主格"
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Tim's",
-            "pos": "n. poss.",
-            "meaning": "蒂姆的"
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这件"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
+          },
+          {
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "蒂姆"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
           }
         ]
       }
@@ -379,14 +536,33 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
+          },
+          {
+            "text": "sir",
+            "label": "称呼语"
           }
         ],
         "words": [
           {
             "word": "Perhaps",
             "pos": "adv.",
-            "meaning": "可能，也许"
+            "meaning": "也许"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sir",
+            "pos": "n.",
+            "meaning": "先生"
           }
         ]
       }
@@ -406,7 +582,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "white",
@@ -414,6 +590,26 @@
           }
         ],
         "words": [
+          {
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "蒂姆"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "white",
             "pos": "adj.",
@@ -440,7 +636,7 @@
           {
             "word": "Tim",
             "pos": "n.",
-            "meaning": "蒂姆（男子名）"
+            "meaning": "蒂姆"
           }
         ]
       }
@@ -455,19 +651,20 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Yes",
+            "text": "Yes sir",
             "label": "应答语"
-          },
-          {
-            "text": "sir",
-            "label": "呼语"
           }
         ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
-            "meaning": "是的"
+            "meaning": "是"
+          },
+          {
+            "word": "sir",
+            "pos": "n.",
+            "meaning": "先生"
           }
         ]
       }
@@ -483,7 +680,7 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "this",
@@ -496,9 +693,24 @@
         ],
         "words": [
           {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
             "word": "your",
             "pos": "pron.",
             "meaning": "你的"
+          },
+          {
+            "word": "shirt",
+            "pos": "n.",
+            "meaning": "衬衫"
           }
         ]
       }
@@ -513,11 +725,16 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Yes",
+            "text": "Yes sir",
             "label": "肯定回答"
           }
         ],
         "words": [
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是"
+          },
           {
             "word": "sir",
             "pos": "n.",
@@ -536,16 +753,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Here",
-            "label": "倒装句引导词"
-          },
-          {
-            "text": "you",
-            "label": "主语"
-          },
-          {
-            "text": "are",
-            "label": "系动词"
+            "text": "Here you are",
+            "label": "常用语"
           }
         ],
         "words": [
@@ -553,6 +762,16 @@
             "word": "Here",
             "pos": "adv.",
             "meaning": "这里"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -568,14 +787,14 @@
         "grammar": [
           {
             "text": "Catch",
-            "label": "谓语/祈使句"
+            "label": "祈使句"
           }
         ],
         "words": [
           {
             "word": "Catch",
             "pos": "v.",
-            "meaning": "接住，抓住"
+            "meaning": "接住"
           }
         ]
       }
@@ -591,11 +810,11 @@
         "grammar": [
           {
             "text": "Thank you",
-            "label": "礼貌用语"
+            "label": "礼貌语"
           },
           {
             "text": "sir",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
@@ -603,6 +822,16 @@
             "word": "Thank",
             "pos": "v.",
             "meaning": "感谢"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "sir",
+            "pos": "n.",
+            "meaning": "先生"
           }
         ]
       }

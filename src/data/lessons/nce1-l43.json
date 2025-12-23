@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 43",
-      "translation": "",
+      "translation": "第43课",
       "startTime": 0.78,
       "endTime": 3.15,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 43",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "43",
+            "pos": "num.",
+            "meaning": "四十三"
           }
         ]
       }
@@ -26,29 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Hurry up!",
-      "translation": "",
+      "translation": "快点！",
       "startTime": 3.16,
-      "endTime": 5.7
+      "endTime": 5.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hurry up",
+            "label": "祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hurry",
+            "pos": "v.",
+            "meaning": "赶紧"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "（构成短语）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.71,
       "endTime": 11.32,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,31 +130,79 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "How do you know Sam doesn't make the tea very often?",
-      "translation": "",
+      "translation": "你怎么知道萨姆不常沏茶？",
       "startTime": 11.33,
       "endTime": 18.2,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "How",
+            "label": "疑问副词/状语"
+          },
+          {
+            "text": "do you know",
+            "label": "主句 (谓语)"
+          },
+          {
+            "text": "Sam doesn't make the tea very often",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "怎样"
           },
           {
-            "word": "You",
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Very",
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          },
+          {
+            "word": "doesn't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "沏（茶）/制作"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "常常"
           }
         ]
       }
@@ -90,16 +211,50 @@
       "id": "s1",
       "role": "Man",
       "text": "Can you make the tea, Sam?",
-      "translation": "",
+      "translation": "萨姆，你会沏茶吗？",
       "startTime": 18.21,
       "endTime": 22.13,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Can you make the tea",
+            "label": "疑问句 (情态)"
+          },
+          {
+            "text": "Sam",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能/会"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "沏（茶）/制作"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
           }
         ]
       }
@@ -108,16 +263,53 @@
       "id": "s2",
       "role": "Woman",
       "text": "Yes, of course I can, Penny.",
-      "translation": "",
+      "translation": "潘妮，我当然会。",
       "startTime": 22.14,
       "endTime": 27.29,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "of course",
+            "label": "状语"
+          },
+          {
+            "text": "I can",
+            "label": "主句核心"
+          },
+          {
+            "text": "Penny",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "of course",
+            "pos": "adv.",
+            "meaning": "当然"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "Penny",
+            "pos": "n.",
+            "meaning": "潘妮"
           }
         ]
       }
@@ -126,30 +318,59 @@
       "id": "s3",
       "role": "Man",
       "text": "Is there any water in this kettle?",
-      "translation": "",
+      "translation": "这水壶里有水吗？",
       "startTime": 27.3,
       "endTime": 31,
       "analysis": {
         "grammar": [
           {
-            "text": "Is",
-            "label": "谓语/系动词"
+            "text": "Is there",
+            "label": "There be 句型 (疑问)"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "any water",
+            "label": "主语"
+          },
+          {
+            "text": "in this kettle",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
             "word": "Is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有/是"
           },
           {
-            "word": "This",
+            "word": "there",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "一些（用于疑问/否定）"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "kettle",
+            "pos": "n.",
+            "meaning": "水壶"
           }
         ]
       }
@@ -158,14 +379,18 @@
       "id": "s4",
       "role": "Woman",
       "text": "Yes, there is.",
-      "translation": "",
+      "translation": "是的，有水。",
       "startTime": 31.01,
       "endTime": 33.6,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "there is",
+            "label": "There be 句型 (肯定简略回答)"
           }
         ],
         "words": [
@@ -175,9 +400,14 @@
             "meaning": "是的"
           },
           {
-            "word": "Is",
+            "word": "there",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
           }
         ]
       }
@@ -186,49 +416,144 @@
       "id": "s5",
       "role": "Man",
       "text": "Where's the tea?",
-      "translation": "",
+      "translation": "茶叶在哪儿？",
       "startTime": 33.61,
-      "endTime": 35.38
+      "endTime": 35.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Where",
+            "label": "疑问副词"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the tea",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶叶"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "It's over there, behind the teapot.",
-      "translation": "",
+      "translation": "在那儿，茶壶后面。",
       "startTime": 35.39,
       "endTime": 40.98,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "over there",
+            "label": "地点状语1"
+          },
+          {
+            "text": "behind the teapot",
+            "label": "地点状语2"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "over there",
+            "pos": "adv.",
+            "meaning": "在那边"
+          },
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在...后面"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "teapot",
+            "pos": "n.",
+            "meaning": "茶壶"
+          }
+        ]
       }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "Can you see it?",
-      "translation": "",
+      "translation": "你能看见它吗？",
       "startTime": 40.99,
       "endTime": 43.55,
       "analysis": {
         "grammar": [
           {
+            "text": "Can you see",
+            "label": "疑问句 (情态)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "It",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -239,47 +564,112 @@
       "id": "s8",
       "role": "Woman",
       "text": "I can see the teapot, but I can't see the tea.",
-      "translation": "",
+      "translation": "我能看见茶壶，但看不见茶叶。",
       "startTime": 43.56,
       "endTime": 49.72,
       "analysis": {
         "grammar": [
           {
-            "text": "can",
-            "label": "情态动词"
+            "text": "I can see the teapot",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "I can't see the tea",
+            "label": "分句2"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "teapot",
+            "pos": "n.",
+            "meaning": "茶壶"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶叶"
+          }
+        ]
       }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "There it is!",
-      "translation": "",
+      "translation": "在哪儿呢！",
       "startTime": 49.73,
       "endTime": 51.34,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
-          },
-          {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There it is",
+            "label": "常用语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "There",
+            "pos": "adv.",
+            "meaning": "在那里"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "在"
           }
         ]
       }
@@ -288,21 +678,44 @@
       "id": "s10",
       "role": "Woman",
       "text": "It's in front of you!",
-      "translation": "",
+      "translation": "就在你面前！",
       "startTime": 51.35,
       "endTime": 53.55,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "in front of you",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "You",
+            "word": "It",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in front of",
+            "pos": "prep.",
+            "meaning": "在...前面"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -311,26 +724,59 @@
       "id": "s11",
       "role": "Man",
       "text": "Ah yes, I can see it now.",
-      "translation": "",
+      "translation": "啊，是的，我现在看见了。",
       "startTime": 53.56,
       "endTime": 58.78,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "Ah yes",
+            "label": "感叹/肯定"
+          },
+          {
+            "text": "I can see it",
+            "label": "主句核心"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Yes",
+            "word": "Ah",
+            "pos": "int.",
+            "meaning": "啊"
+          },
+          {
+            "word": "yes",
             "pos": "adv.",
             "meaning": "是的"
           },
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -339,50 +785,142 @@
       "id": "s12",
       "role": "Woman",
       "text": "Where are the cups?",
-      "translation": "",
+      "translation": "杯子在那儿？",
       "startTime": 58.79,
       "endTime": 61.22,
       "analysis": {
         "grammar": [
           {
+            "text": "Where",
+            "label": "疑问副词"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "the cups",
+            "label": "主语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cups",
+            "pos": "n.",
+            "meaning": "杯子"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "There are some in the cupboard.",
-      "translation": "",
+      "translation": "柜子里有一些。",
       "startTime": 61.23,
       "endTime": 64.09,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "There be 句型"
+          },
+          {
+            "text": "some",
+            "label": "主语"
+          },
+          {
+            "text": "in the cupboard",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "pron.",
+            "meaning": "一些"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cupboard",
+            "pos": "n.",
+            "meaning": "橱柜"
+          }
+        ]
       }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "Can you find them?",
-      "translation": "",
+      "translation": "你能找到它们吗？",
       "startTime": 64.1,
       "endTime": 66.21,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Can you find",
+            "label": "疑问句 (情态)"
+          },
+          {
+            "text": "them",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
           }
         ]
       }
@@ -391,14 +929,18 @@
       "id": "s15",
       "role": "Man",
       "text": "Yes. Here they are.",
-      "translation": "",
+      "translation": "找到了。在这儿呢。",
       "startTime": 66.22,
       "endTime": 69.12,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "Here they are",
+            "label": "常用语"
           }
         ],
         "words": [
@@ -411,6 +953,16 @@
             "word": "Here",
             "pos": "adv.",
             "meaning": "这里"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "在/是"
           }
         ]
       }
@@ -419,17 +971,80 @@
       "id": "s16",
       "role": "Woman",
       "text": "Hurry up, Sam!",
-      "translation": "",
+      "translation": "萨姆，快点！",
       "startTime": 69.13,
-      "endTime": 71
+      "endTime": 71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hurry up",
+            "label": "祈使句"
+          },
+          {
+            "text": "Sam",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hurry",
+            "pos": "v.",
+            "meaning": "赶紧"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "（构成短语）"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
       "role": "Man",
       "text": "The kettle's boiling!",
-      "translation": "",
+      "translation": "水开了！",
       "startTime": 71.01,
-      "endTime": 76.01
+      "endTime": 76.01,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The kettle",
+            "label": "主语"
+          },
+          {
+            "text": "'s boiling",
+            "label": "谓语 (现在进行时)"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "kettle",
+            "pos": "n.",
+            "meaning": "水壶"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "boiling",
+            "pos": "v.",
+            "meaning": "沸腾"
+          }
+        ]
+      }
     }
   ]
 }

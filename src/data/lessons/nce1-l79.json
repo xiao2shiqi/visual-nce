@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 79",
-      "translation": "",
+      "translation": "第79课",
       "startTime": 0.71,
       "endTime": 3.51,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 79",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "79",
+            "pos": "num.",
+            "meaning": "七十九"
           }
         ]
       }
@@ -26,29 +36,101 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Carol's shopping list",
-      "translation": "",
+      "translation": "卡罗尔的购物单",
       "startTime": 3.52,
-      "endTime": 6.71
+      "endTime": 6.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Carol's",
+            "label": "所有格"
+          },
+          {
+            "text": "shopping list",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Carol's",
+            "pos": "n.",
+            "meaning": "卡罗尔的"
+          },
+          {
+            "word": "shopping",
+            "pos": "n.",
+            "meaning": "购物"
+          },
+          {
+            "word": "list",
+            "pos": "n.",
+            "meaning": "单子/列表"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.72,
       "endTime": 12.23,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,18 +139,26 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What is Carol not going to buy?",
-      "translation": "",
+      "translation": "卡罗尔不打算买什么？",
       "startTime": 12.24,
       "endTime": 17.9,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "助动词"
+          },
+          {
+            "text": "Carol",
+            "label": "主语"
+          },
+          {
+            "text": "not going to buy",
+            "label": "谓语 (将来否定)"
           }
         ],
         "words": [
@@ -78,14 +168,34 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
-            "pos": "v.",
+            "word": "is",
+            "pos": "v.aux.",
             "meaning": "是"
           },
           {
-            "word": "Not",
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
           }
         ]
       }
@@ -94,7 +204,7 @@
       "id": "s1",
       "role": "Narrator",
       "text": "What are you doing, Carol?",
-      "translation": "",
+      "translation": "卡罗尔，你在做什么？",
       "startTime": 17.91,
       "endTime": 21.72,
       "analysis": {
@@ -104,8 +214,12 @@
             "label": "疑问词"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "are you doing",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "Carol",
+            "label": "呼语"
           }
         ],
         "words": [
@@ -115,9 +229,24 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做（正在）"
+          },
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
           }
         ]
       }
@@ -126,22 +255,91 @@
       "id": "s2",
       "role": "Man",
       "text": "I'm making a shopping list, Tom.",
-      "translation": "",
+      "translation": "我在写购物单，汤姆。",
       "startTime": 21.73,
-      "endTime": 26.47
+      "endTime": 26.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m making",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "a shopping list",
+            "label": "宾语"
+          },
+          {
+            "text": "Tom",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "making",
+            "pos": "v.",
+            "meaning": "做/编写"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "shopping",
+            "pos": "n.",
+            "meaning": "购物"
+          },
+          {
+            "word": "list",
+            "pos": "n.",
+            "meaning": "单子"
+          },
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Narrator",
       "text": "What do we need?",
-      "translation": "",
+      "translation": "我们需要什么？",
       "startTime": 26.48,
       "endTime": 29.56,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "we",
+            "label": "主语"
+          },
+          {
+            "text": "need",
+            "label": "谓语"
           }
         ],
         "words": [
@@ -149,6 +347,21 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
           }
         ]
       }
@@ -157,21 +370,68 @@
       "id": "s4",
       "role": "Man",
       "text": "We need a lot of things this week.",
-      "translation": "",
+      "translation": "这星期我们需要很多东西。",
       "startTime": 29.57,
       "endTime": 33.61,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "need",
+            "label": "谓语"
+          },
+          {
+            "text": "a lot of things",
+            "label": "宾语 (可数复数)"
+          },
+          {
+            "text": "this week",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "This",
+            "word": "We",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我们"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "lot",
+            "pos": "n.",
+            "meaning": "大量"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "（属于）"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "东西/事情"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期"
           }
         ]
       }
@@ -180,33 +440,155 @@
       "id": "s5",
       "role": "Woman",
       "text": "I must go to the grocer's.",
-      "translation": "",
+      "translation": "我必须去食品店。",
       "startTime": 33.62,
       "endTime": 37.24,
       "analysis": {
         "grammar": [
           {
-            "text": "must",
-            "label": "情态动词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "must go",
+            "label": "谓语"
+          },
+          {
+            "text": "to the grocer's",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "grocer's",
+            "pos": "n.",
+            "meaning": "食品店"
+          }
+        ]
       }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "We haven't got much tea or coffee, and we haven't got any sugar or jam.",
-      "translation": "",
+      "translation": "我们的茶和咖啡不多了，糖和果酱也没有了。",
       "startTime": 37.25,
       "endTime": 46.58,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "We haven't got much tea or coffee",
+            "label": "分句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "we haven't got any sugar or jam",
+            "label": "分句2"
+          }
+        ],
         "words": [
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "haven't",
+            "pos": "v.",
+            "meaning": "没有 (have not)"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "much",
+            "pos": "det.",
+            "meaning": "许多（修饰不可数）"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "haven't",
+            "pos": "v.",
+            "meaning": "没有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "sugar",
+            "pos": "n.",
+            "meaning": "糖"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "jam",
+            "pos": "n.",
+            "meaning": "果酱"
           }
         ]
       }
@@ -215,14 +597,18 @@
       "id": "s7",
       "role": "Narrator",
       "text": "What about vegetables?",
-      "translation": "",
+      "translation": "蔬菜呢？",
       "startTime": 46.59,
       "endTime": 49.37,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What about",
+            "label": "固定短语 (提议/询问)"
+          },
+          {
+            "text": "vegetables",
+            "label": "宾语"
           }
         ],
         "words": [
@@ -230,6 +616,16 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "vegetables",
+            "pos": "n.",
+            "meaning": "蔬菜"
           }
         ]
       }
@@ -238,39 +634,208 @@
       "id": "s8",
       "role": "Man",
       "text": "I must go to the greengroce's.",
-      "translation": "",
+      "translation": "我必须去蔬菜水果店。",
       "startTime": 49.38,
       "endTime": 53.54,
       "analysis": {
         "grammar": [
           {
-            "text": "must",
-            "label": "情态动词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "must go",
+            "label": "谓语"
+          },
+          {
+            "text": "to the greengrocer's",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "greengrocer's",
+            "pos": "n.",
+            "meaning": "蔬菜水果店"
+          }
+        ]
       }
     },
     {
       "id": "s9",
       "role": "Woman",
       "text": "We haven't got many tomatoes, but we've got a lot of potatoes.",
-      "translation": "",
+      "translation": "我们番茄不多了，但有很多土豆。",
       "startTime": 53.55,
-      "endTime": 61.49
+      "endTime": 61.49,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We haven't got many tomatoes",
+            "label": "分句1 (可数少)"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "we've got a lot of potatoes",
+            "label": "分句2 (多)"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "haven't",
+            "pos": "v.",
+            "meaning": "没有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "many",
+            "pos": "det.",
+            "meaning": "许多（修饰可数复数）"
+          },
+          {
+            "word": "tomatoes",
+            "pos": "n.",
+            "meaning": "番茄"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "lot",
+            "pos": "n.",
+            "meaning": "量"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "（属于）"
+          },
+          {
+            "word": "potatoes",
+            "pos": "n.",
+            "meaning": "土豆"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Man",
       "text": "I must go to the butcher's, too.",
-      "translation": "",
+      "translation": "我也必须去肉店。",
       "startTime": 61.5,
       "endTime": 65.44,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "must go",
+            "label": "谓语"
+          },
+          {
+            "text": "to the butcher's",
+            "label": "地点状语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
+          }
+        ],
         "words": [
           {
-            "word": "Too",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "butcher's",
+            "pos": "n.",
+            "meaning": "肉店"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -281,24 +846,109 @@
       "id": "s11",
       "role": "Woman",
       "text": "We need some meat.",
-      "translation": "",
+      "translation": "我们需要一些肉。",
       "startTime": 65.45,
-      "endTime": 68.22
+      "endTime": 68.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "need",
+            "label": "谓语"
+          },
+          {
+            "text": "some meat",
+            "label": "宾语 (不可数)"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "meat",
+            "pos": "n.",
+            "meaning": "肉"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "We haven't got any meat at all.",
-      "translation": "",
+      "translation": "我们一点肉也没有了。",
       "startTime": 68.23,
       "endTime": 73.33,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "haven't got",
+            "label": "谓语"
+          },
+          {
+            "text": "any meat",
+            "label": "宾语"
+          },
+          {
+            "text": "at all",
+            "label": "状语 (根本不)"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "haven't",
+            "pos": "v.",
+            "meaning": "没有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "meat",
+            "pos": "n.",
+            "meaning": "肉"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "全部"
           }
         ]
       }
@@ -307,32 +957,162 @@
       "id": "s13",
       "role": "Woman",
       "text": "Have we got any beer and wine?",
-      "translation": "",
+      "translation": "我们还有啤酒和葡萄酒吗？",
       "startTime": 73.34,
-      "endTime": 77.29
+      "endTime": 77.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Have we got",
+            "label": "疑问/谓语"
+          },
+          {
+            "text": "any beer and wine",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Have",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "beer",
+            "pos": "n.",
+            "meaning": "啤酒"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "wine",
+            "pos": "n.",
+            "meaning": "葡萄酒"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Man",
       "text": "No, we haven't.",
-      "translation": "",
+      "translation": "不，没有了。",
       "startTime": 77.3,
-      "endTime": 79.76
+      "endTime": 79.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "we haven't",
+            "label": "简短回答"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "haven't",
+            "pos": "v.aux.",
+            "meaning": "没有"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Woman",
       "text": "And I'm not going to get any!",
-      "translation": "",
+      "translation": "我也不打算去买！",
       "startTime": 79.77,
       "endTime": 83.53,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "And",
+            "label": "连词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m not going to get",
+            "label": "谓语"
+          },
+          {
+            "text": "any",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "而"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "得到/买"
+          },
+          {
+            "word": "any",
+            "pos": "pron.",
+            "meaning": "任何 (beer or wine)"
           }
         ]
       }
@@ -341,21 +1121,64 @@
       "id": "s16",
       "role": "Man",
       "text": "I hope that you've got some money.",
-      "translation": "",
+      "translation": "我希望你带了钱。",
       "startTime": 83.54,
       "endTime": 87.02,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "hope",
+            "label": "谓语"
+          },
+          {
+            "text": "that you've got some money",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "hope",
+            "pos": "v.",
+            "meaning": "希望"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（连接词）"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
           }
         ]
       }
@@ -364,16 +1187,44 @@
       "id": "s17",
       "role": "Woman",
       "text": "I haven't got much.",
-      "translation": "",
+      "translation": "我没带多少。",
       "startTime": 87.03,
       "endTime": 89.54,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "haven't got",
+            "label": "谓语"
+          },
+          {
+            "text": "much",
+            "label": "宾语 (指钱)"
+          }
+        ],
         "words": [
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "haven't",
+            "pos": "v.aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "much",
+            "pos": "pron.",
+            "meaning": "多（许多钱）"
           }
         ]
       }
@@ -382,21 +1233,62 @@
       "id": "s18",
       "role": "Man",
       "text": "Well, I haven't got much either!",
-      "translation": "",
+      "translation": "好啦，我带的也不多！",
       "startTime": 89.55,
       "endTime": 94.55,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Well",
+            "label": "语气词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "haven't got",
+            "label": "谓语"
+          },
+          {
+            "text": "much",
+            "label": "宾语"
+          },
+          {
+            "text": "either",
+            "label": "状语 (也, 用于否定)"
+          }
+        ],
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "好吧/那么"
           },
           {
-            "word": "Much",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "haven't",
+            "pos": "v.aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "much",
+            "pos": "pron.",
+            "meaning": "多"
+          },
+          {
+            "word": "either",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "也（用于否定句末）"
           }
         ]
       }

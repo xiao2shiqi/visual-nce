@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 83",
-      "translation": "",
+      "translation": "第83课",
       "startTime": 0.82,
       "endTime": 3.17,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 83",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "83",
+            "pos": "num.",
+            "meaning": "八十三"
           }
         ]
       }
@@ -26,29 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Going on holiday",
-      "translation": "",
+      "translation": "去度假",
       "startTime": 3.18,
-      "endTime": 6.51
+      "endTime": 6.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Going on holiday",
+            "label": "动名词短语/标题"
+          }
+        ],
+        "words": [
+          {
+            "word": "Going",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "处于...状态"
+          },
+          {
+            "word": "holiday",
+            "pos": "n.",
+            "meaning": "假期"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.52,
       "endTime": 12.14,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,25 +135,81 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Where did Sam go for his holiday this year?",
-      "translation": "",
+      "translation": "萨姆今年去哪儿度假了？",
       "startTime": 12.15,
       "endTime": 18.99,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Where",
+            "label": "疑问词/地点状语"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "Sam",
+            "label": "主语"
+          },
+          {
+            "text": "go",
+            "label": "谓语"
+          },
+          {
+            "text": "for his holiday",
+            "label": "目的状语"
+          },
+          {
+            "text": "this year",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了/由于"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "holiday",
+            "pos": "n.",
+            "meaning": "假期"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -84,48 +218,206 @@
       "id": "s1",
       "role": "Man",
       "text": "Hello, Sam.",
-      "translation": "",
+      "translation": "你好，萨姆。",
       "startTime": 19,
-      "endTime": 20.58
+      "endTime": 20.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hello",
+            "label": "招呼语"
+          },
+          {
+            "text": "Sam",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hello",
+            "pos": "int.",
+            "meaning": "你好"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "Come in.",
-      "translation": "",
+      "translation": "请进。",
       "startTime": 20.59,
-      "endTime": 23.05
+      "endTime": 23.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Come in",
+            "label": "祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "in",
+            "pos": "adv.",
+            "meaning": "进来"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "Hi, Sam.",
-      "translation": "",
+      "translation": "你好，萨姆。",
       "startTime": 23.06,
-      "endTime": 24.7
+      "endTime": 24.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hi",
+            "label": "招呼语"
+          },
+          {
+            "text": "Sam",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hi",
+            "pos": "int.",
+            "meaning": "嗨"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "We're having lunch.",
-      "translation": "",
+      "translation": "我们正在吃午饭。",
       "startTime": 24.71,
-      "endTime": 26.87
+      "endTime": 26.87,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'re having",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "lunch",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "having",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午饭"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "Do you want to have lunch with us?",
-      "translation": "",
+      "translation": "你想和我们一起吃午饭吗？",
       "startTime": 26.88,
       "endTime": 30.97,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "want to have lunch",
+            "label": "谓语"
+          },
+          {
+            "text": "with us",
+            "label": "伴随状语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午饭"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "和...一起"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们（宾格）"
           }
         ]
       }
@@ -134,21 +426,40 @@
       "id": "s6",
       "role": "Woman",
       "text": "No, thank you, Tom.",
-      "translation": "",
+      "translation": "不，汤姆，谢谢了。",
       "startTime": 30.98,
       "endTime": 33.17,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No, thank you",
+            "label": "礼貌谢绝"
+          },
+          {
+            "text": "Tom",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
-            "word": "Thank",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
           }
         ]
       }
@@ -157,24 +468,114 @@
       "id": "s7",
       "role": "Man",
       "text": "I've already had lunch.",
-      "translation": "",
+      "translation": "我已经吃过饭了。",
       "startTime": 33.18,
-      "endTime": 35.96
+      "endTime": 35.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ve already had",
+            "label": "谓语 (现在完成时)"
+          },
+          {
+            "text": "lunch",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "已经（have）"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "吃（过去分词）"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午饭"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "I had lunch at half past twelve.",
-      "translation": "",
+      "translation": "我在12点半吃过了。",
       "startTime": 35.97,
       "endTime": 39.97,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "had",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "lunch",
+            "label": "宾语"
+          },
+          {
+            "text": "at half past twelve",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "吃（have过去式）"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午饭"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "half",
+            "pos": "n.",
+            "meaning": "一半"
+          },
+          {
+            "word": "past",
+            "pos": "prep.",
+            "meaning": "过"
+          },
+          {
+            "word": "twelve",
+            "pos": "num.",
+            "meaning": "十二"
           }
         ]
       }
@@ -183,29 +584,120 @@
       "id": "s9",
       "role": "Man",
       "text": "Have a cup of coffee then.",
-      "translation": "",
+      "translation": "那么，喝杯咖啡吧。",
       "startTime": 39.98,
-      "endTime": 42.92
+      "endTime": 42.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Have",
+            "label": "谓语 (祈使/招待)"
+          },
+          {
+            "text": "a cup of coffee",
+            "label": "宾语"
+          },
+          {
+            "text": "then",
+            "label": "语气词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Have",
+            "pos": "v.",
+            "meaning": "喝/享用"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "cup",
+            "pos": "n.",
+            "meaning": "杯"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之于"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那么"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "I've just had a cup, thank you.",
-      "translation": "",
+      "translation": "我刚才喝了一杯了，谢谢。",
       "startTime": 42.93,
       "endTime": 46.24,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ve just had",
+            "label": "谓语 (现在完成时)"
+          },
+          {
+            "text": "a cup",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Thank",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "喝（过去分词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "cup",
+            "pos": "n.",
+            "meaning": "杯"
+          },
+          {
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -214,21 +706,58 @@
       "id": "s11",
       "role": "Man",
       "text": "I had one after my lunch.",
-      "translation": "",
+      "translation": "饭后我喝了一杯。",
       "startTime": 46.25,
       "endTime": 49.95,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "had",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "one",
+            "label": "宾语 (指代咖啡)"
+          },
+          {
+            "text": "after my lunch",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "喝（过去式）"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个（杯）"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午饭"
           }
         ]
       }
@@ -237,46 +766,165 @@
       "id": "s12",
       "role": "Woman",
       "text": "Let's go into the living room, Carol.",
-      "translation": "",
+      "translation": "卡罗尔，咱们到客厅去吧。",
       "startTime": 49.96,
-      "endTime": 53.74
+      "endTime": 53.74,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Let's go",
+            "label": "祈使/建议"
+          },
+          {
+            "text": "into the living room",
+            "label": "地点状语"
+          },
+          {
+            "text": "Carol",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Let's",
+            "pos": "v.",
+            "meaning": "让我们 (let us)"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "走/去"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进到...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "living",
+            "pos": "n.",
+            "meaning": "起居/生活"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "We can have our coffee there.",
-      "translation": "",
+      "translation": "我们可以在那儿喝咖啡。",
       "startTime": 53.75,
       "endTime": 57.11,
       "analysis": {
         "grammar": [
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "can have",
+            "label": "谓语"
+          },
+          {
+            "text": "our coffee",
+            "label": "宾语"
+          },
+          {
+            "text": "there",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能/可以"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "在那里"
+          }
+        ]
       }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "Excuse the mess, Sam.",
-      "translation": "",
+      "translation": "萨姆，请原谅这儿很乱。",
       "startTime": 57.12,
       "endTime": 60.32,
       "analysis": {
         "grammar": [
           {
             "text": "Excuse",
-            "label": "谓语/动词"
+            "label": "谓语 (祈使)"
+          },
+          {
+            "text": "the mess",
+            "label": "宾语"
+          },
+          {
+            "text": "Sam",
+            "label": "呼语"
           }
         ],
         "words": [
           {
             "word": "Excuse",
             "pos": "v.",
-            "meaning": "原谅，宽恕"
+            "meaning": "原谅"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "mess",
+            "pos": "n.",
+            "meaning": "混乱"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
           }
         ]
       }
@@ -285,30 +933,49 @@
       "id": "s15",
       "role": "Man",
       "text": "This room's very untidy.",
-      "translation": "",
+      "translation": "这屋子非常乱。",
       "startTime": 60.33,
       "endTime": 63.5,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This room",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "very untidy",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这"
           },
           {
-            "word": "Very",
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "untidy",
+            "pos": "adj.",
+            "meaning": "不整洁的/乱的"
           }
         ]
       }
@@ -317,58 +984,217 @@
       "id": "s16",
       "role": "Woman",
       "text": "We're packing our suitcases.",
-      "translation": "",
+      "translation": "我们正在收拾手提箱。",
       "startTime": 63.51,
       "endTime": 66.41,
       "analysis": {
         "grammar": [
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'re packing",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "our suitcases",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "packing",
+            "pos": "v.",
+            "meaning": "包装/收拾"
+          },
+          {
+            "word": "our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "suitcases",
+            "pos": "n.",
+            "meaning": "手提箱"
+          }
+        ]
       }
     },
     {
       "id": "s17",
       "role": "Man",
       "text": "We're going to leave tomorrow.",
-      "translation": "",
+      "translation": "我们明天打算离家去度假。",
       "startTime": 66.42,
-      "endTime": 69.84
+      "endTime": 69.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'re going to leave",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "tomorrow",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "leave",
+            "pos": "v.",
+            "meaning": "离开"
+          },
+          {
+            "word": "tomorrow",
+            "pos": "adv.",
+            "meaning": "明天"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
       "role": "Woman",
       "text": "Tom and I are going to have a holiday.",
-      "translation": "",
+      "translation": "汤姆和我要去度假了。",
       "startTime": 69.85,
       "endTime": 74.32,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Tom and I",
+            "label": "复合主语"
+          },
+          {
+            "text": "are going to have",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "a holiday",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "度过"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "holiday",
+            "pos": "n.",
+            "meaning": "假期"
+          }
+        ]
       }
     },
     {
       "id": "s19",
       "role": "Man",
       "text": "Aren't you lucky!",
-      "translation": "",
+      "translation": "你们真幸运！",
       "startTime": 74.33,
       "endTime": 77.48,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Are not",
+            "label": "系词 (反问感叹)"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "lucky",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Aren't",
+            "pos": "v.",
+            "meaning": "不是 (are not)"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你/你们"
+          },
+          {
+            "word": "lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
           }
         ]
       }
@@ -377,21 +1203,73 @@
       "id": "s20",
       "role": "Woman",
       "text": "When are you going to have a holiday, Sam?",
-      "translation": "",
+      "translation": "萨姆，你什么时候度假？",
       "startTime": 77.49,
       "endTime": 81.57,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "When",
+            "label": "疑问词/时间状语"
+          },
+          {
+            "text": "are you going to have",
+            "label": "谓语 (将来疑问)"
+          },
+          {
+            "text": "a holiday",
+            "label": "宾语"
+          },
+          {
+            "text": "Sam",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "You",
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "度过"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "holiday",
+            "pos": "n.",
+            "meaning": "假期"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
           }
         ]
       }
@@ -400,38 +1278,105 @@
       "id": "s21",
       "role": "Man",
       "text": "I don't know.",
-      "translation": "",
+      "translation": "我不知道。",
       "startTime": 81.58,
-      "endTime": 83.45
+      "endTime": 83.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't know",
+            "label": "谓语 (否定)"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
       "role": "Woman",
       "text": "I've already had my holiday this year.",
-      "translation": "",
+      "translation": "我今年已经度过假了。",
       "startTime": 83.46,
       "endTime": 88.09,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I",
+            "label": "主语"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "'ve already had",
+            "label": "谓语 (现在完成时)"
+          },
+          {
+            "text": "my holiday",
+            "label": "宾语"
+          },
+          {
+            "text": "this year",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "度过（过去分词）"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "holiday",
+            "pos": "n.",
+            "meaning": "假期"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -440,16 +1385,48 @@
       "id": "s23",
       "role": "Man",
       "text": "Where did you go?",
-      "translation": "",
+      "translation": "你去哪儿了？",
       "startTime": 88.1,
       "endTime": 90.21,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Where",
+            "label": "疑问词"
+          },
+          {
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "go",
+            "label": "谓语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
           }
         ]
       }
@@ -458,16 +1435,44 @@
       "id": "s24",
       "role": "Woman",
       "text": "I stayed at home!",
-      "translation": "",
+      "translation": "我呆在家里了！",
       "startTime": 90.22,
       "endTime": 95.22,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "stayed",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "at home",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "stayed",
+            "pos": "v.",
+            "meaning": "停留/呆着"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
           }
         ]
       }

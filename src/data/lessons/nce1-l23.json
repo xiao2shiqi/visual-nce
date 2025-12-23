@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 23",
-      "translation": "",
+      "translation": "第23课",
       "startTime": 0.42,
       "endTime": 2.91,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 23",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "23",
+            "pos": "num.",
+            "meaning": "二十三"
           }
         ]
       }
@@ -26,29 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Which glasses?",
-      "translation": "",
+      "translation": "哪几只杯子？",
       "startTime": 2.92,
-      "endTime": 5.63
+      "endTime": 5.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Which glasses",
+            "label": "疑问短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一些"
+          },
+          {
+            "word": "glasses",
+            "pos": "n.",
+            "meaning": "杯子"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.64,
       "endTime": 11.82,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,16 +130,58 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Which glasses does the man want?",
-      "translation": "",
+      "translation": "那个男人想要哪几只杯子？",
       "startTime": 11.83,
       "endTime": 17.13,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Which glasses",
+            "label": "疑问短语/宾语"
+          },
+          {
+            "text": "does",
+            "label": "助动词"
+          },
+          {
+            "text": "the man",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          }
+        ],
         "words": [
           {
-            "word": "Man",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一些"
+          },
+          {
+            "word": "glasses",
+            "pos": "n.",
+            "meaning": "杯子"
+          },
+          {
+            "word": "does",
+            "pos": "v.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
           }
         ]
       }
@@ -75,26 +190,58 @@
       "id": "s1",
       "role": "Man",
       "text": "Give me some glasses please, Jane.",
-      "translation": "",
+      "translation": "简，请给我几只杯子。",
       "startTime": 17.14,
       "endTime": 21.17,
       "analysis": {
         "grammar": [
           {
+            "text": "Give",
+            "label": "谓语 (祈使句)"
+          },
+          {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "间接宾语"
+          },
+          {
+            "text": "some glasses",
+            "label": "直接宾语"
+          },
+          {
+            "text": "Jane",
+            "label": "称呼语"
           }
         ],
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "Give",
+            "pos": "v.",
+            "meaning": "给"
           },
           {
-            "word": "Please",
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "glasses",
+            "pos": "n.",
+            "meaning": "杯子"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Jane",
+            "pos": "n.",
+            "meaning": "简"
           }
         ]
       }
@@ -103,32 +250,91 @@
       "id": "s2",
       "role": "Narrator",
       "text": "Which glasses?",
-      "translation": "",
+      "translation": "哪几只杯子？",
       "startTime": 21.18,
-      "endTime": 23.27
+      "endTime": 23.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Which glasses",
+            "label": "疑问短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一些"
+          },
+          {
+            "word": "glasses",
+            "pos": "n.",
+            "meaning": "杯子"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "These glasses?",
-      "translation": "",
+      "translation": "是这几只吗？",
       "startTime": 23.28,
-      "endTime": 25.82
+      "endTime": 25.82,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "These glasses",
+            "label": "代词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "These",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "glasses",
+            "pos": "n.",
+            "meaning": "杯子"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "No, not those.",
-      "translation": "",
+      "translation": "不，不是那几只。",
       "startTime": 25.83,
       "endTime": 28.57,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "not those",
+            "label": "否定短语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "No",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些"
           }
         ]
       }
@@ -137,35 +343,98 @@
       "id": "s5",
       "role": "Man",
       "text": "The ones on the shelf.",
-      "translation": "",
+      "translation": "架子上的那几只。",
       "startTime": 28.58,
-      "endTime": 31.39
+      "endTime": 31.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The ones",
+            "label": "主语/代词"
+          },
+          {
+            "text": "on the shelf",
+            "label": "介词短语/定语"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "ones",
+            "pos": "pron.",
+            "meaning": "几个"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "shelf",
+            "pos": "n.",
+            "meaning": "架子"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "These?",
-      "translation": "",
+      "translation": "是这几只吗？",
       "startTime": 31.4,
-      "endTime": 32.83
+      "endTime": 32.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "These",
+            "label": "代词"
+          }
+        ],
+        "words": [
+          {
+            "word": "These",
+            "pos": "pron.",
+            "meaning": "这些"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "Yes, please.",
-      "translation": "",
+      "translation": "是的，请。/ 是的，请拿给我。",
       "startTime": 32.84,
       "endTime": 34.97,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定词"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
-            "meaning": "是的"
+            "meaning": "是"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -176,14 +445,14 @@
       "id": "s8",
       "role": "Woman",
       "text": "Here you are.",
-      "translation": "",
+      "translation": "给你。",
       "startTime": 34.98,
       "endTime": 37.12,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Here you are",
+            "label": "常用语"
           }
         ],
         "words": [
@@ -193,9 +462,14 @@
             "meaning": "这里"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -204,15 +478,20 @@
       "id": "s9",
       "role": "Man",
       "text": "Thanks.",
-      "translation": "",
+      "translation": "谢谢。",
       "startTime": 37.13,
       "endTime": 42.13,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thanks",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
-            "word": "Thanks",
-            "pos": "n.",
+            "word": "thanks",
+            "pos": "int.",
             "meaning": "谢谢"
           }
         ]

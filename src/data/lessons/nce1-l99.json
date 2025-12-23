@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 99",
-      "translation": "",
+      "translation": "第99课",
       "startTime": 0.65,
       "endTime": 2.84,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 99",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "99",
+            "pos": "num.",
+            "meaning": "九十九"
           }
         ]
       }
@@ -26,29 +36,87 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Ow!",
-      "translation": "",
+      "translation": "哎呦！",
       "startTime": 2.85,
-      "endTime": 4.73
+      "endTime": 4.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Ow",
+            "label": "感叹词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Ow",
+            "pos": "int.",
+            "meaning": "哎呦（表示疼痛）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 4.74,
       "endTime": 10.48,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,7 +125,7 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Must Andy go to see the doctor?",
-      "translation": "",
+      "translation": "安迪一定要去看医生吗？",
       "startTime": 10.49,
       "endTime": 15.55,
       "analysis": {
@@ -65,49 +133,226 @@
           {
             "text": "Must",
             "label": "情态动词"
+          },
+          {
+            "text": "Andy",
+            "label": "主语"
+          },
+          {
+            "text": "go to see",
+            "label": "谓语"
+          },
+          {
+            "text": "the doctor",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "Andy",
+            "pos": "n.",
+            "meaning": "安迪"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Ow!",
-      "translation": "",
+      "translation": "哎呦！",
       "startTime": 15.56,
-      "endTime": 17.04
+      "endTime": 17.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Ow",
+            "label": "感叹词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Ow",
+            "pos": "int.",
+            "meaning": "哎呦"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
-      "role": "Narrator",
+      "role": "Woman",
       "text": "What's the matter, Andy?",
-      "translation": "",
+      "translation": "怎么了，安迪？",
       "startTime": 17.05,
-      "endTime": 20.05
+      "endTime": 20.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词/表语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the matter",
+            "label": "主语"
+          },
+          {
+            "text": "Andy",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "matter",
+            "pos": "n.",
+            "meaning": "问题/事情"
+          },
+          {
+            "word": "Andy",
+            "pos": "n.",
+            "meaning": "安迪"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "I slipped and fell downstairs.",
-      "translation": "",
+      "translation": "我滑了一跤，从楼梯上摔了下来。",
       "startTime": 20.06,
-      "endTime": 23.61
+      "endTime": 23.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "slipped and fell",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "downstairs",
+            "label": "方向状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "slipped",
+            "pos": "v.",
+            "meaning": "滑倒（slip过去式）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "fell",
+            "pos": "v.",
+            "meaning": "摔倒（fall过去式）"
+          },
+          {
+            "word": "downstairs",
+            "pos": "adv.",
+            "meaning": "下楼"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "Have you hurt yourself?",
-      "translation": "",
+      "translation": "你摔伤了吗？",
       "startTime": 23.62,
       "endTime": 26.45,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Have you hurt",
+            "label": "谓语 (完成时疑问)"
+          },
+          {
+            "text": "yourself",
+            "label": "宾语 (反身代词)"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Have",
+            "pos": "v.aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "hurt",
+            "pos": "v.",
+            "meaning": "伤害/弄伤"
+          },
+          {
+            "word": "yourself",
+            "pos": "pron.",
+            "meaning": "你自己"
           }
         ]
       }
@@ -116,92 +361,200 @@
       "id": "s5",
       "role": "Man",
       "text": "Yes, I have.",
-      "translation": "",
+      "translation": "是的，摔伤了。",
       "startTime": 26.46,
       "endTime": 28.47,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定应答"
+          },
+          {
+            "text": "I have",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.aux.",
+            "meaning": "（已经）"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Man",
       "text": "I think that I've hurt my back.",
-      "translation": "",
+      "translation": "我想我把我的背摔伤了。",
       "startTime": 28.48,
       "endTime": 32.53,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
           },
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "think",
+            "label": "谓语"
+          },
+          {
+            "text": "that I've hurt my back",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
           },
           {
-            "word": "My",
+            "word": "think",
+            "pos": "v.",
+            "meaning": "想/认为"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "hurt",
+            "pos": "v.",
+            "meaning": "伤害"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "back",
+            "pos": "n.",
+            "meaning": "背"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Woman",
       "text": "Try and stand up.",
-      "translation": "",
+      "translation": "试着站起来。",
       "startTime": 32.54,
-      "endTime": 35.28
+      "endTime": 35.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Try and stand up",
+            "label": "祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Try",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "stand",
+            "pos": "v.",
+            "meaning": "站立"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "Can you stand up?",
-      "translation": "",
+      "translation": "你能站起来吗？",
       "startTime": 35.29,
       "endTime": 37.44,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Can you stand up",
+            "label": "谓语 (情态疑问)"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "stand",
+            "pos": "v.",
+            "meaning": "站立"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Woman",
       "text": "Here.",
-      "translation": "",
+      "translation": "来。",
       "startTime": 37.45,
       "endTime": 38.52,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Here",
+            "label": "状语/指示"
+          }
+        ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "这里/来"
           }
         ]
       }
@@ -210,26 +563,40 @@
       "id": "s10",
       "role": "Woman",
       "text": "Let me help you.",
-      "translation": "",
+      "translation": "让我帮你。",
       "startTime": 38.53,
       "endTime": 41.5,
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Let me help",
+            "label": "祈使句"
+          },
+          {
+            "text": "you",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "Let",
+            "pos": "v.",
+            "meaning": "让"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "You",
+            "word": "help",
+            "pos": "v.",
+            "meaning": "帮助"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -238,67 +605,177 @@
       "id": "s11",
       "role": "Man",
       "text": "I'm sorry, Lucy.",
-      "translation": "",
+      "translation": "对不起，露西。",
       "startTime": 41.51,
       "endTime": 43.98,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m sorry",
+            "label": "谓语/表语"
+          },
+          {
+            "text": "Lucy",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
-            "word": "Sorry",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
+          },
+          {
+            "word": "Lucy",
+            "pos": "n.",
+            "meaning": "露西"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Man",
       "text": "I'm afraid that I can't get up.",
-      "translation": "",
+      "translation": "恐怕我站不起来了。",
       "startTime": 43.99,
       "endTime": 48.03,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I'm afraid",
+            "label": "主句"
+          },
+          {
+            "text": "that I can't get up",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "担心/恐怕"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Woman",
       "text": "I think that the doctor had better see you.",
-      "translation": "",
+      "translation": "我想最好请医生来给你看一看。",
       "startTime": 48.04,
       "endTime": 52.96,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "think",
+            "label": "谓语"
+          },
+          {
+            "text": "that the doctor had better see you",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
           },
           {
-            "word": "You",
+            "word": "think",
+            "pos": "v.",
+            "meaning": "想"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          },
+          {
+            "word": "had",
+            "pos": "v.aux.",
+            "meaning": "最好 (had better)"
+          },
+          {
+            "word": "better",
+            "pos": "adv.",
+            "meaning": "更好"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看诊"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -307,34 +784,120 @@
       "id": "s14",
       "role": "Woman",
       "text": "I'll phone Dr. Carter.",
-      "translation": "",
+      "translation": "我给卡特医生打电话。",
       "startTime": 52.97,
-      "endTime": 56.96
+      "endTime": 56.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ll phone",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "Dr. Carter",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ll",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "phone",
+            "pos": "v.",
+            "meaning": "打电话给"
+          },
+          {
+            "word": "Dr.",
+            "pos": "n.",
+            "meaning": "医生/博士"
+          },
+          {
+            "word": "Carter",
+            "pos": "n.",
+            "meaning": "卡特"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Woman",
       "text": "The doctor says that he will come at once.",
-      "translation": "",
+      "translation": "医生说他马上就来。",
       "startTime": 56.97,
       "endTime": 61.82,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "The doctor",
+            "label": "主语"
+          },
+          {
+            "text": "says",
+            "label": "谓语"
+          },
+          {
+            "text": "that he will come at once",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
           },
           {
-            "word": "At",
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          },
+          {
+            "word": "says",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "will",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "once",
+            "pos": "adv.",
+            "meaning": "立刻"
           }
         ]
       }
@@ -343,26 +906,69 @@
       "id": "s16",
       "role": "Woman",
       "text": "I'm sure that you need an X-ray, Andy.",
-      "translation": "",
+      "translation": "安迪，我肯定你需要拍一张X光片。",
       "startTime": 61.83,
       "endTime": 66.83,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I'm sure",
+            "label": "主句"
+          },
+          {
+            "text": "that you need an X-ray",
+            "label": "宾语从句"
+          },
+          {
+            "text": "Andy",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
           },
           {
-            "word": "You",
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确定的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "X-ray",
+            "pos": "n.",
+            "meaning": "X光片"
+          },
+          {
+            "word": "Andy",
+            "pos": "n.",
+            "meaning": "安迪"
           }
         ]
       }

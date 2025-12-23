@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 95",
-      "translation": "",
+      "translation": "第95课",
       "startTime": 1.01,
       "endTime": 3.51,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 95",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "95",
+            "pos": "num.",
+            "meaning": "九十五"
           }
         ]
       }
@@ -26,14 +36,28 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Tickets, please.",
-      "translation": "",
+      "translation": "请出示车票。",
       "startTime": 3.52,
       "endTime": 6.51,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Tickets",
+            "label": "省略句/主语"
+          },
+          {
+            "text": "please",
+            "label": "语气词"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Tickets",
+            "pos": "n.",
+            "meaning": "票（复数）"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -44,21 +68,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.52,
       "endTime": 12.46,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,31 +134,118 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why did George and Ken miss the train?",
-      "translation": "",
+      "translation": "为什么乔治和肯误了火车？",
       "startTime": 12.47,
       "endTime": 19.38,
       "analysis": {
         "grammar": [
           {
-            "text": "did",
-            "label": "助动词"
+            "text": "Why",
+            "label": "疑问词"
+          },
+          {
+            "text": "did George and Ken miss",
+            "label": "谓语 (过去疑问)"
+          },
+          {
+            "text": "the train",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Ken",
+            "pos": "n.",
+            "meaning": "肯"
+          },
+          {
+            "word": "miss",
+            "pos": "v.",
+            "meaning": "错过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Two return tickets to London, please.",
-      "translation": "",
+      "translation": "买两张到伦敦的往返票。",
       "startTime": 19.39,
       "endTime": 23.43,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Two return tickets",
+            "label": "省略句/宾语"
+          },
+          {
+            "text": "to London",
+            "label": "地点状语"
+          },
+          {
+            "text": "please",
+            "label": "语气词"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Two",
+            "pos": "num.",
+            "meaning": "两"
+          },
+          {
+            "word": "return",
+            "pos": "adj.",
+            "meaning": "往返的"
+          },
+          {
+            "word": "tickets",
+            "pos": "n.",
+            "meaning": "票"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -100,171 +254,637 @@
     },
     {
       "id": "s2",
-      "role": "Narrator",
+      "role": "Man",
       "text": "What time will the next train leave?",
-      "translation": "",
+      "translation": "下一班火车什么时候发车？",
       "startTime": 23.44,
       "endTime": 27.21,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What time",
+            "label": "疑问短语"
+          },
+          {
+            "text": "will the next train leave",
+            "label": "谓语 (将来疑问)"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "will",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          },
+          {
+            "word": "leave",
+            "pos": "v.",
+            "meaning": "离开/发车"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Woman",
       "text": "At nineteen minutes past eight.",
-      "translation": "",
+      "translation": "8点19分。",
       "startTime": 27.22,
       "endTime": 31.51,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "At nineteen minutes past eight",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "nineteen",
+            "pos": "num.",
+            "meaning": "十九"
+          },
+          {
+            "word": "minutes",
+            "pos": "n.",
+            "meaning": "分钟"
+          },
+          {
+            "word": "past",
+            "pos": "prep.",
+            "meaning": "过"
+          },
+          {
+            "word": "eight",
+            "pos": "num.",
+            "meaning": "八"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Narrator",
+      "role": "Man",
       "text": "Which platform?",
-      "translation": "",
+      "translation": "哪个站台？",
       "startTime": 31.52,
-      "endTime": 33.39
+      "endTime": 33.39,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Which platform",
+            "label": "疑问短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪个"
+          },
+          {
+            "word": "platform",
+            "pos": "n.",
+            "meaning": "站台"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Woman",
       "text": "Platform Two.",
-      "translation": "",
+      "translation": "2号站台。",
       "startTime": 33.4,
-      "endTime": 35.17
+      "endTime": 35.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Platform Two",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Platform",
+            "pos": "n.",
+            "meaning": "站台"
+          },
+          {
+            "word": "Two",
+            "pos": "num.",
+            "meaning": "二"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "Over the bridge.",
-      "translation": "",
+      "translation": "过天桥。",
       "startTime": 35.18,
-      "endTime": 38.22
+      "endTime": 38.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Over the bridge",
+            "label": "介词短语/方向"
+          }
+        ],
+        "words": [
+          {
+            "word": "Over",
+            "pos": "prep.",
+            "meaning": "越过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "bridge",
+            "pos": "n.",
+            "meaning": "桥"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
-      "role": "Narrator",
+      "role": "Man",
       "text": "What time will the next train leave?",
-      "translation": "",
+      "translation": "下一班火车什么时候发车？",
       "startTime": 38.23,
       "endTime": 42.15,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What time",
+            "label": "疑问短语"
+          },
+          {
+            "text": "will the next train leave",
+            "label": "谓语 (将来疑问)"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "will",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          },
+          {
+            "word": "leave",
+            "pos": "v.",
+            "meaning": "离开/发车"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Woman",
       "text": "At eight nineteen.",
-      "translation": "",
+      "translation": "8点19分。",
       "startTime": 42.16,
       "endTime": 44.94,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "At eight nineteen",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "eight",
+            "pos": "num.",
+            "meaning": "八"
+          },
+          {
+            "word": "nineteen",
+            "pos": "num.",
+            "meaning": "十九"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Man",
       "text": "We've got plenty of time.",
-      "translation": "",
+      "translation": "我们时间还很充裕。",
       "startTime": 44.95,
-      "endTime": 48.55
+      "endTime": 48.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'ve got",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "plenty of time",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有/得到"
+          },
+          {
+            "word": "plenty",
+            "pos": "n.",
+            "meaning": "大量"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之于"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Man",
       "text": "It's only three minutes to eight.",
-      "translation": "",
+      "translation": "现在才7点57分。",
       "startTime": 48.56,
       "endTime": 52.52,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语 (指时间)"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "only three minutes to eight",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它（指时间）"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "minutes",
+            "pos": "n.",
+            "meaning": "分钟"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "差"
+          },
+          {
+            "word": "eight",
+            "pos": "num.",
+            "meaning": "八"
+          }
+        ]
       }
     },
     {
       "id": "s11",
-      "role": "Woman",
+      "role": "Man",
       "text": "Let's go and have a drink.",
-      "translation": "",
+      "translation": "我们去喝点东西吧。",
       "startTime": 52.53,
-      "endTime": 55.52
+      "endTime": 55.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Let's go",
+            "label": "祈使/建议1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "have a drink",
+            "label": "祈使/建议2"
+          }
+        ],
+        "words": [
+          {
+            "word": "Let's",
+            "pos": "v.",
+            "meaning": "让我们"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "drink",
+            "pos": "n.",
+            "meaning": "饮料"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "There's a bar next door to the station.",
-      "translation": "",
+      "translation": "车站隔壁有一个酒吧。",
       "startTime": 55.53,
-      "endTime": 60.68
+      "endTime": 60.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "There is",
+            "label": "存在句"
+          },
+          {
+            "text": "a bar",
+            "label": "主语"
+          },
+          {
+            "text": "next door to the station",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "有"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bar",
+            "pos": "n.",
+            "meaning": "酒吧"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "隔壁"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "station",
+            "pos": "n.",
+            "meaning": "车站"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Man",
       "text": "We had better go back to the station now, Ken.",
-      "translation": "",
+      "translation": "肯，我们现在最好回车站去。",
       "startTime": 60.69,
-      "endTime": 65.79
+      "endTime": 65.79,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "had better go back",
+            "label": "谓语 (建议)"
+          },
+          {
+            "text": "to the station",
+            "label": "地点状语"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
+          },
+          {
+            "text": "Ken",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "had",
+            "pos": "v.aux.",
+            "meaning": "最好 (had better)"
+          },
+          {
+            "word": "better",
+            "pos": "adv.",
+            "meaning": "更好"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "回"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "station",
+            "pos": "n.",
+            "meaning": "车站"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "Ken",
+            "pos": "n.",
+            "meaning": "肯"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
-      "role": "Man",
+      "role": "Woman",
       "text": "Tickets, please.",
-      "translation": "",
+      "translation": "请出示车票。",
       "startTime": 65.8,
       "endTime": 68.22,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Tickets",
+            "label": "省略句/主语"
+          },
+          {
+            "text": "please",
+            "label": "语气词"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Tickets",
+            "pos": "n.",
+            "meaning": "票（复数）"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -273,29 +893,124 @@
     },
     {
       "id": "s15",
-      "role": "Woman",
+      "role": "Man",
       "text": "We want to catch the eight nineteen to London.",
-      "translation": "",
+      "translation": "我们要赶8点19分去伦敦的那班火车。",
       "startTime": 68.23,
-      "endTime": 72.9
+      "endTime": 72.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "want to catch",
+            "label": "谓语"
+          },
+          {
+            "text": "the eight nineteen",
+            "label": "宾语"
+          },
+          {
+            "text": "to London",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "catch",
+            "pos": "v.",
+            "meaning": "赶上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "eight",
+            "pos": "num.",
+            "meaning": "八"
+          },
+          {
+            "word": "nineteen",
+            "pos": "num.",
+            "meaning": "十九"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
-      "role": "Man",
+      "role": "Woman",
       "text": "You've just missed it!",
-      "translation": "",
+      "translation": "你们刚错过了！",
       "startTime": 72.91,
       "endTime": 75.69,
       "analysis": {
         "grammar": [
           {
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "'ve just missed",
+            "label": "谓语 (完成时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你们"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "missed",
+            "pos": "v.",
+            "meaning": "错过"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -304,22 +1019,22 @@
     },
     {
       "id": "s17",
-      "role": "Narrator",
+      "role": "Man",
       "text": "What!",
-      "translation": "",
+      "translation": "什么！",
       "startTime": 75.7,
       "endTime": 77.01,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "感叹词"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "int.",
             "meaning": "什么"
           }
         ]
@@ -329,36 +1044,93 @@
       "id": "s18",
       "role": "Man",
       "text": "It's only eight fifteen.",
-      "translation": "",
+      "translation": "现在才8点15分。",
       "startTime": 77.02,
       "endTime": 80.18,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语 (指时间)"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "only eight fifteen",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它（指时间）"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "eight",
+            "pos": "num.",
+            "meaning": "八"
+          },
+          {
+            "word": "fifteen",
+            "pos": "num.",
+            "meaning": "十五"
+          }
+        ]
       }
     },
     {
       "id": "s19",
       "role": "Woman",
       "text": "I'm sorry, sir.",
-      "translation": "",
+      "translation": "对不起，先生。",
       "startTime": 80.19,
       "endTime": 82.23,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m sorry",
+            "label": "谓语/表语"
+          },
+          {
+            "text": "sir",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
-            "word": "Sorry",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
           },
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -367,49 +1139,145 @@
     },
     {
       "id": "s20",
-      "role": "Man",
+      "role": "Woman",
       "text": "That clock's ten minutes slow.",
-      "translation": "",
+      "translation": "那个钟慢了10分钟。",
       "startTime": 82.24,
       "endTime": 86.15,
       "analysis": {
         "grammar": [
           {
-            "text": "That",
-            "label": "指示代词"
+            "text": "That clock",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "ten minutes slow",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "That",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "那个"
+          },
+          {
+            "word": "clock",
+            "pos": "n.",
+            "meaning": "钟"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "ten",
+            "pos": "num.",
+            "meaning": "十"
+          },
+          {
+            "word": "minutes",
+            "pos": "n.",
+            "meaning": "分钟"
+          },
+          {
+            "word": "slow",
+            "pos": "adj.",
+            "meaning": "慢的"
           }
         ]
       }
     },
     {
       "id": "s21",
-      "role": "Woman",
+      "role": "Man",
       "text": "When's the next train?",
-      "translation": "",
+      "translation": "下一班火车什么时候到？",
       "startTime": 86.16,
-      "endTime": 88.76
+      "endTime": 88.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "When",
+            "label": "疑问词"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the next train",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
-      "role": "Man",
+      "role": "Woman",
       "text": "In five hours' time!",
-      "translation": "",
+      "translation": "5个小时以后！",
       "startTime": 88.77,
       "endTime": 93.77,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "In five hours' time",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "Five",
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "five",
             "pos": "num.",
             "meaning": "五"
+          },
+          {
+            "word": "hours'",
+            "pos": "n.",
+            "meaning": "小时的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
           }
         ]
       }

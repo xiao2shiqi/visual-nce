@@ -14,19 +14,20 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "3",
-            "label": "数词/编号"
+            "text": "Lesson 3",
+            "label": "标题/课程编号"
           }
         ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "（课本中的）课，课程"
+            "meaning": "课"
+          },
+          {
+            "word": "3",
+            "pos": "num.",
+            "meaning": "三"
           }
         ]
       }
@@ -53,12 +54,12 @@
           {
             "word": "Sorry",
             "pos": "adj.",
-            "meaning": "对不起，抱歉（用于失礼、冒犯等）"
+            "meaning": "对不起，抱歉"
           },
           {
             "word": "sir",
             "pos": "n.",
-            "meaning": "先生（对男性的尊称）"
+            "meaning": "先生"
           }
         ]
       }
@@ -73,41 +74,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen",
-            "label": "祈使句谓语"
-          },
-          {
-            "text": "to the tape",
-            "label": "介词短语/对象"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
             "text": "then",
-            "label": "连词/先后关系"
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "并列谓语"
-          },
-          {
-            "text": "this question",
-            "label": "宾语"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
             "word": "Listen",
             "pos": "v.",
-            "meaning": "听（有意识地听）"
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "磁带，录音带"
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
           },
           {
             "word": "answer",
             "pos": "v.",
             "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -145,19 +158,39 @@
         ],
         "words": [
           {
-            "word": "get",
+            "word": "Does",
             "pos": "v.",
-            "meaning": "获得，得到"
+            "meaning": "（助动词）"
           },
           {
-            "word": "back",
-            "pos": "adv.",
-            "meaning": "回到原处，找回"
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（定冠词）"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
           },
           {
             "word": "umbrella",
             "pos": "n.",
-            "meaning": "伞，雨伞"
+            "meaning": "伞"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "回（get back意为拿回）"
           }
         ]
       }
@@ -172,29 +205,52 @@
       "analysis": {
         "grammar": [
           {
-            "text": "My coat and my umbrella",
-            "label": "并列名词短语/请求内容"
+            "text": "My coat",
+            "label": "并列主语1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "my umbrella",
+            "label": "并列主语2"
           },
           {
             "text": "please",
-            "label": "礼貌用语"
+            "label": "礼貌语"
           }
         ],
         "words": [
           {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
             "word": "coat",
             "pos": "n.",
-            "meaning": "大衣，外套"
+            "meaning": "大衣"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "my",
+            "pos": "pron.",
+            "meaning": "我的"
           },
           {
             "word": "umbrella",
             "pos": "n.",
-            "meaning": "雨伞"
+            "meaning": "伞"
           },
           {
             "word": "please",
             "pos": "int.",
-            "meaning": "请（用于客气地请求）"
+            "meaning": "请"
           }
         ]
       }
@@ -210,7 +266,7 @@
         "grammar": [
           {
             "text": "Here",
-            "label": "地点副词/提前"
+            "label": "地点状语（倒装）"
           },
           {
             "text": "is",
@@ -218,19 +274,29 @@
           },
           {
             "text": "my ticket",
-            "label": "主语（倒装句）"
+            "label": "主语"
           }
         ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "（用于递给某物时）在这儿"
+            "meaning": "在这里"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "my",
+            "pos": "pron.",
+            "meaning": "我的"
           },
           {
             "word": "ticket",
             "pos": "n.",
-            "meaning": "票（此处指存放衣物的号码牌或凭据）"
+            "meaning": "票"
           }
         ]
       }
@@ -262,6 +328,16 @@
             "word": "Thank",
             "pos": "v.",
             "meaning": "感谢"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "sir",
+            "pos": "n.",
+            "meaning": "先生"
           }
         ]
       }
@@ -276,19 +352,20 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Number",
-            "label": "名词/编号"
-          },
-          {
-            "text": "five",
-            "label": "数词/数字"
+            "text": "Number five",
+            "label": "名词短语"
           }
         ],
         "words": [
           {
             "word": "Number",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "号码"
+          },
+          {
+            "word": "five",
+            "pos": "num.",
+            "meaning": "五"
           }
         ]
       }
@@ -313,9 +390,34 @@
         ],
         "words": [
           {
+            "word": "Here",
+            "pos": "adv.",
+            "meaning": "这儿"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
             "word": "your",
             "pos": "pron.",
-            "meaning": "你的，您的"
+            "meaning": "您的"
+          },
+          {
+            "word": "umbrella",
+            "pos": "n.",
+            "meaning": "伞"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "coat",
+            "pos": "n.",
+            "meaning": "大衣"
           }
         ]
       }
@@ -331,11 +433,11 @@
         "grammar": [
           {
             "text": "This",
-            "label": "主语/指示代词"
+            "label": "主语"
           },
           {
             "text": "is not",
-            "label": "系动词（否定式）"
+            "label": "系动词（否定）"
           },
           {
             "text": "my umbrella",
@@ -344,9 +446,29 @@
         ],
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "my",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "umbrella",
+            "pos": "n.",
+            "meaning": "伞"
           }
         ]
       }
@@ -362,7 +484,7 @@
         "grammar": [
           {
             "text": "Sorry",
-            "label": "形容词/礼貌用语"
+            "label": "礼貌语"
           },
           {
             "text": "sir",
@@ -373,7 +495,12 @@
           {
             "word": "Sorry",
             "pos": "adj.",
-            "meaning": "对不起"
+            "meaning": "抱歉"
+          },
+          {
+            "word": "sir",
+            "pos": "n.",
+            "meaning": "先生"
           }
         ]
       }
@@ -389,7 +516,7 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词（提前构成疑问）"
+            "label": "系动词"
           },
           {
             "text": "this",
@@ -402,9 +529,24 @@
         ],
         "words": [
           {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
             "word": "your",
             "pos": "pron.",
-            "meaning": "你的，您的"
+            "meaning": "您的"
+          },
+          {
+            "word": "umbrella",
+            "pos": "n.",
+            "meaning": "伞"
           }
         ]
       }
@@ -433,9 +575,24 @@
         ],
         "words": [
           {
-            "word": "isn't",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "is not的缩写"
+            "meaning": "是"
+          },
+          {
+            "word": "n't",
+            "pos": "adv.",
+            "meaning": "不（not的缩写）"
           }
         ]
       }
@@ -464,9 +621,19 @@
         ],
         "words": [
           {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
             "word": "it",
             "pos": "pron.",
-            "meaning": "它（指前面提到的伞）"
+            "meaning": "它"
           }
         ]
       }
@@ -498,6 +665,16 @@
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -513,23 +690,33 @@
         "grammar": [
           {
             "text": "Thank you",
-            "label": "固定表达"
+            "label": "动词短语"
           },
           {
             "text": "very much",
-            "label": "程度状语"
+            "label": "状语"
           }
         ],
         "words": [
           {
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
             "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
           },
           {
             "word": "much",
             "pos": "adv.",
-            "meaning": "非常地"
+            "meaning": "非常"
           }
         ]
       }

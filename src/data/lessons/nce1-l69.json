@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 69",
-      "translation": "",
+      "translation": "第69课",
       "startTime": 0.98,
       "endTime": 3.49,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 69",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "69",
+            "pos": "num.",
+            "meaning": "六十九"
           }
         ]
       }
@@ -26,16 +36,31 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The car race",
-      "translation": "",
+      "translation": "汽车比赛",
       "startTime": 3.5,
       "endTime": 6.28,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The car race",
+            "label": "名词短语"
+          }
+        ],
         "words": [
           {
-            "word": "Car",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
+          },
+          {
+            "word": "race",
+            "pos": "n.",
+            "meaning": "比赛"
           }
         ]
       }
@@ -44,21 +69,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.29,
       "endTime": 12.09,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,16 +135,63 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Which car was the winner in 1995?",
-      "translation": "",
+      "translation": "1995年哪辆车是获胜者？",
       "startTime": 12.1,
       "endTime": 19.14,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Which car",
+            "label": "疑问短语/主语"
+          },
+          {
+            "text": "was",
+            "label": "系词"
+          },
+          {
+            "text": "the winner",
+            "label": "表语"
+          },
+          {
+            "text": "in 1995",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "Car",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一个"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是 (过去式)"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "winner",
+            "pos": "n.",
+            "meaning": "获胜者"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "1995",
+            "pos": "num.",
+            "meaning": "一九九五"
           }
         ]
       }
@@ -85,30 +200,78 @@
       "id": "s1",
       "role": "Man",
       "text": "There is a car race near our town every year.",
-      "translation": "",
+      "translation": "每年在我们镇子附近都有一场汽车比赛。",
       "startTime": 19.15,
       "endTime": 25.35,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "存现句"
           },
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "a car race",
+            "label": "主语"
+          },
+          {
+            "text": "near our town",
+            "label": "地点状语"
+          },
+          {
+            "text": "every year",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "There",
+            "pos": "adv.",
+            "meaning": "（表示存在）"
           },
           {
-            "word": "Car",
+            "word": "is",
+            "pos": "v.",
+            "meaning": "有/是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一场"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
+          },
+          {
+            "word": "race",
+            "pos": "n.",
+            "meaning": "比赛"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "town",
+            "pos": "n.",
+            "meaning": "镇"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每个"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -117,21 +280,64 @@
       "id": "s2",
       "role": "Woman",
       "text": "In 1995, there was a very big race.",
-      "translation": "",
+      "translation": "1995年，有一场规模非常大的比赛。",
       "startTime": 25.36,
       "endTime": 32.19,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "In 1995",
+            "label": "时间状语"
+          },
+          {
+            "text": "there was",
+            "label": "存现句 (过去式)"
+          },
+          {
+            "text": "a very big race",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "1995",
+            "pos": "num.",
+            "meaning": "一九九五"
+          },
+          {
+            "word": "there",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "（表示存在）"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "很"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "race",
+            "pos": "n.",
+            "meaning": "比赛"
           }
         ]
       }
@@ -140,34 +346,120 @@
       "id": "s3",
       "role": "Man",
       "text": "There were hundreds of people there.",
-      "translation": "",
+      "translation": "那儿有数以百计的人。",
       "startTime": 32.2,
-      "endTime": 36.02
+      "endTime": 36.02,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "There were",
+            "label": "存现句 (复数过去式)"
+          },
+          {
+            "text": "hundreds of people",
+            "label": "主语"
+          },
+          {
+            "text": "there",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "There",
+            "pos": "adv.",
+            "meaning": "有"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "有（复数）"
+          },
+          {
+            "word": "hundreds",
+            "pos": "n.",
+            "meaning": "数百"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人（复数）"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "在那里"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "My wife and I were at the race.",
-      "translation": "",
+      "translation": "我妻子和我当时都在看比赛。",
       "startTime": 36.03,
       "endTime": 40.27,
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My wife and I",
+            "label": "并列主语"
+          },
+          {
+            "text": "were",
+            "label": "系词"
+          },
+          {
+            "text": "at the race",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
             "word": "My",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "At",
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "race",
+            "pos": "n.",
+            "meaning": "比赛"
           }
         ]
       }
@@ -176,19 +468,66 @@
       "id": "s5",
       "role": "Man",
       "text": "Our friends Julie and Jack were there, too.",
-      "translation": "",
+      "translation": "我们的朋友朱莉和杰克也在那儿。",
       "startTime": 40.28,
       "endTime": 45.6,
       "analysis": {
         "grammar": [
           {
-            "text": "Our",
-            "label": "形容词性物主代词"
+            "text": "Our friends Julie and Jack",
+            "label": "主语"
+          },
+          {
+            "text": "were",
+            "label": "系词"
+          },
+          {
+            "text": "there",
+            "label": "状语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "Too",
+            "word": "Our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "friends",
+            "pos": "n.",
+            "meaning": "朋友（复数）"
+          },
+          {
+            "word": "Julie",
+            "pos": "n.",
+            "meaning": "朱莉"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Jack",
+            "pos": "n.",
+            "meaning": "杰克"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "在那里"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -199,16 +538,63 @@
       "id": "s6",
       "role": "Woman",
       "text": "You can see us in the crowd.",
-      "translation": "",
+      "translation": "你可以在人群中看到我们。",
       "startTime": 45.61,
       "endTime": 49.47,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "can see",
+            "label": "谓语"
+          },
+          {
+            "text": "us",
+            "label": "宾语"
+          },
+          {
+            "text": "in the crowd",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们（宾格）"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "crowd",
+            "pos": "n.",
+            "meaning": "人群"
           }
         ]
       }
@@ -217,46 +603,167 @@
       "id": "s7",
       "role": "Man",
       "text": "We are standing on the left.",
-      "translation": "",
+      "translation": "我们正站在左边。",
       "startTime": 49.48,
       "endTime": 53.97,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "are standing",
+            "label": "谓语 (进行)"
+          },
+          {
+            "text": "on the left",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "standing",
+            "pos": "v.",
+            "meaning": "站立"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "left",
+            "pos": "n.",
+            "meaning": "左边"
+          }
+        ]
       }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "There were twenty cars in the race.",
-      "translation": "",
+      "translation": "有20辆车参加比赛。",
       "startTime": 53.98,
-      "endTime": 58.24
+      "endTime": 58.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "There were",
+            "label": "存现句"
+          },
+          {
+            "text": "twenty cars",
+            "label": "主语"
+          },
+          {
+            "text": "in the race",
+            "label": "状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "There",
+            "pos": "adv.",
+            "meaning": "有"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "twenty",
+            "pos": "num.",
+            "meaning": "二十"
+          },
+          {
+            "word": "cars",
+            "pos": "n.",
+            "meaning": "汽车（复数）"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "race",
+            "pos": "n.",
+            "meaning": "比赛"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.",
-      "translation": "",
+      "translation": "有英国车、法国车、德国车、意大利车、美国车和日本车。",
       "startTime": 58.25,
       "endTime": 71.86,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "There were",
+            "label": "存现句"
+          },
+          {
+            "text": "English cars... and Japanese cars",
+            "label": "主语 (并列)"
+          }
+        ],
         "words": [
+          {
+            "word": "There",
+            "pos": "adv.",
+            "meaning": "有"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "English",
+            "pos": "adj.",
+            "meaning": "英国的"
+          },
+          {
+            "word": "cars",
+            "pos": "n.",
+            "meaning": "汽车"
+          },
           {
             "word": "French",
             "pos": "adj.",
-            "meaning": "法国的，法语"
+            "meaning": "法国的"
           },
           {
             "word": "German",
             "pos": "adj.",
-            "meaning": "德国的，德语"
+            "meaning": "德国的"
           },
           {
             "word": "Italian",
@@ -269,9 +776,14 @@
             "meaning": "美国的"
           },
           {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
             "word": "Japanese",
             "pos": "adj.",
-            "meaning": "日本的，日语"
+            "meaning": "日本的"
           }
         ]
       }
@@ -280,14 +792,22 @@
       "id": "s10",
       "role": "Woman",
       "text": "It was an exciting finish.",
-      "translation": "",
+      "translation": "结尾非常激动人心。",
       "startTime": 71.87,
       "endTime": 75.68,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "系词"
+          },
+          {
+            "text": "an exciting finish",
+            "label": "表语"
           }
         ],
         "words": [
@@ -295,6 +815,26 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "exciting",
+            "pos": "adj.",
+            "meaning": "令人兴奋的"
+          },
+          {
+            "word": "finish",
+            "pos": "n.",
+            "meaning": "结局/终点"
           }
         ]
       }
@@ -303,29 +843,105 @@
       "id": "s11",
       "role": "Man",
       "text": "The winner was Billy Stewart.",
-      "translation": "",
+      "translation": "获胜者是比利亚·斯图尔特。",
       "startTime": 75.69,
-      "endTime": 79.43
+      "endTime": 79.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The winner",
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "系词"
+          },
+          {
+            "text": "Billy Stewart",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "winner",
+            "pos": "n.",
+            "meaning": "获胜者"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Billy",
+            "pos": "n.",
+            "meaning": "比利"
+          },
+          {
+            "word": "Stewart",
+            "pos": "n.",
+            "meaning": "斯图尔特"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "He was in car number fifteen.",
-      "translation": "",
+      "translation": "他在15号车里。",
       "startTime": 79.44,
       "endTime": 83.52,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Car",
-            "pos": "n.",
-            "meaning": "轿车"
+            "text": "He",
+            "label": "主语"
           },
           {
-            "word": "Number",
+            "text": "was",
+            "label": "系词"
+          },
+          {
+            "text": "in car number fifteen",
+            "label": "地点状语/表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "汽车"
+          },
+          {
+            "word": "number",
+            "pos": "n.",
+            "meaning": "数字/号码"
+          },
+          {
+            "word": "fifteen",
+            "pos": "num.",
+            "meaning": "十五"
           }
         ]
       }
@@ -334,16 +950,59 @@
       "id": "s13",
       "role": "Man",
       "text": "Five other cars were just behind him.",
-      "translation": "",
+      "translation": "另外5辆车紧随其后。",
       "startTime": 83.53,
       "endTime": 89.06,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Five other cars",
+            "label": "主语"
+          },
+          {
+            "text": "were",
+            "label": "系词"
+          },
+          {
+            "text": "just behind him",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
             "word": "Five",
             "pos": "num.",
             "meaning": "五"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "cars",
+            "pos": "n.",
+            "meaning": "汽车"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "在/是"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "就在"
+          },
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在...后面"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
           }
         ]
       }
@@ -352,30 +1011,93 @@
       "id": "s14",
       "role": "Woman",
       "text": "On the way home, my wife said to me, 'Don't drive so quickly!",
-      "translation": "",
+      "translation": "在回家的路上，我妻子对我说：“别开得那么快！”",
       "startTime": 89.07,
       "endTime": 97.3,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "On the way home",
+            "label": "地点/时间状语"
           },
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "my wife",
+            "label": "主语"
+          },
+          {
+            "text": "said to me",
+            "label": "谓语"
+          },
+          {
+            "text": "Don't drive so quickly",
+            "label": "直接引语 (否定祈使)"
           }
         ],
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
+            "word": "On",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "路/方式"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "回家/向家"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "Me",
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
+          },
+          {
+            "word": "Don't",
+            "pos": "v.aux.",
+            "meaning": "不要"
+          },
+          {
+            "word": "drive",
+            "pos": "v.",
+            "meaning": "驾驶"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "那么"
+          },
+          {
+            "word": "quickly",
+            "pos": "adv.",
+            "meaning": "快地"
           }
         ]
       }
@@ -384,16 +1106,53 @@
       "id": "s15",
       "role": "Man",
       "text": "You're not Billy Stewart!'",
-      "translation": "",
+      "translation": "你可不是比利·斯图尔特！”",
       "startTime": 97.31,
       "endTime": 102.31,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "'re",
+            "label": "系词"
+          },
+          {
+            "text": "not",
+            "label": "否定副词"
+          },
+          {
+            "text": "Billy Stewart",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不/不是"
+          },
+          {
+            "word": "Billy",
+            "pos": "n.",
+            "meaning": "比利"
+          },
+          {
+            "word": "Stewart",
+            "pos": "n.",
+            "meaning": "斯图尔特"
           }
         ]
       }

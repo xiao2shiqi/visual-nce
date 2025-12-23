@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 55",
-      "translation": "",
+      "translation": "第55课",
       "startTime": 0.58,
       "endTime": 3.25,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 55",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "55",
+            "pos": "num.",
+            "meaning": "五十五"
           }
         ]
       }
@@ -26,29 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The Sawyer family",
-      "translation": "",
+      "translation": "索耶一家",
       "startTime": 3.26,
-      "endTime": 6.22
+      "endTime": 6.22,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The Sawyer family",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "family",
+            "pos": "n.",
+            "meaning": "家庭"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.23,
       "endTime": 11.82,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,33 +135,128 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "When do the children do their homework?",
-      "translation": "",
+      "translation": "孩子们什么时候做作业？",
       "startTime": 11.83,
       "endTime": 16.8,
       "analysis": {
         "grammar": [
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "When",
+            "label": "疑问副词"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "the children",
+            "label": "主语"
+          },
+          {
+            "text": "do",
+            "label": "谓语动词"
+          },
+          {
+            "text": "their homework",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子（复数）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "their",
+            "pos": "det.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "homework",
+            "pos": "n.",
+            "meaning": "家庭作业"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "The Sawyers live at 87 King Street.",
-      "translation": "",
+      "translation": "索耶一家住在国王街87号。",
       "startTime": 16.81,
       "endTime": 21.93,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The Sawyers",
+            "label": "主语"
+          },
+          {
+            "text": "live",
+            "label": "谓语"
+          },
+          {
+            "text": "at 87 King Street",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Sawyers",
+            "pos": "n.",
+            "meaning": "索耶一家"
+          },
+          {
+            "word": "live",
+            "pos": "v.",
+            "meaning": "居住"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（处所）"
+          },
+          {
+            "word": "87",
+            "pos": "num.",
+            "meaning": "八十七"
+          },
+          {
+            "word": "King",
+            "pos": "n.",
+            "meaning": "金（国王）"
+          },
+          {
+            "word": "Street",
+            "pos": "n.",
+            "meaning": "街道"
           }
         ]
       }
@@ -92,14 +265,96 @@
       "id": "s2",
       "role": "Woman",
       "text": "In the morning, Mr. Sawyer goes to work and the children go to school.",
-      "translation": "",
+      "translation": "早晨，索耶先生去上班，孩子们去上学。",
       "startTime": 21.94,
       "endTime": 29.96,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "In the morning",
+            "label": "时间状语"
+          },
+          {
+            "text": "Mr. Sawyer goes to work",
+            "label": "分句1"
+          },
+          {
+            "text": "and",
+            "label": "连接词"
+          },
+          {
+            "text": "the children go to school",
+            "label": "分句2"
+          }
+        ],
         "words": [
           {
-            "word": "School",
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "goes",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子（复数）"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
           }
@@ -110,21 +365,72 @@
       "id": "s3",
       "role": "Man",
       "text": "Their father takes them to school every day.",
-      "translation": "",
+      "translation": "他们的父亲每天送他们上学。",
       "startTime": 29.97,
       "endTime": 35.1,
       "analysis": {
         "grammar": [
           {
-            "text": "Their",
-            "label": "形容词性物主代词"
+            "text": "Their father",
+            "label": "主语"
+          },
+          {
+            "text": "takes",
+            "label": "谓语"
+          },
+          {
+            "text": "them",
+            "label": "宾语"
+          },
+          {
+            "text": "to school",
+            "label": "地点状语"
+          },
+          {
+            "text": "every day",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "School",
+            "word": "Their",
+            "pos": "det.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "father",
+            "pos": "n.",
+            "meaning": "父亲"
+          },
+          {
+            "word": "takes",
+            "pos": "v.",
+            "meaning": "送/带去"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "他们（宾格）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每个"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
           }
         ]
       }
@@ -133,16 +439,63 @@
       "id": "s4",
       "role": "Woman",
       "text": "Mrs. Sawyer stays at home every day.",
-      "translation": "",
+      "translation": "索耶夫人每天呆在家里。",
       "startTime": 35.11,
       "endTime": 39.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Mrs. Sawyer",
+            "label": "主语"
+          },
+          {
+            "text": "stays",
+            "label": "谓语"
+          },
+          {
+            "text": "at home",
+            "label": "地点状语"
+          },
+          {
+            "text": "every day",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "stays",
+            "pos": "v.",
+            "meaning": "停留/呆在"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（处所）"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每个"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
           }
         ]
       }
@@ -151,38 +504,113 @@
       "id": "s5",
       "role": "Man",
       "text": "She does the housework.",
-      "translation": "",
+      "translation": "她做家务。",
       "startTime": 39.21,
       "endTime": 42.06,
       "analysis": {
         "grammar": [
           {
+            "text": "She",
+            "label": "主语"
+          },
+          {
             "text": "does",
-            "label": "助动词"
+            "label": "谓语动词 (实义)"
+          },
+          {
+            "text": "the housework",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "does",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "housework",
+            "pos": "n.",
+            "meaning": "家务劳动"
+          }
+        ]
       }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "She always eats her lunch at noon.",
-      "translation": "",
+      "translation": "她总是在正午吃午饭。",
       "startTime": 42.07,
       "endTime": 46.81,
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "always",
+            "label": "频率状语"
+          },
+          {
+            "text": "eats",
+            "label": "谓语"
+          },
+          {
+            "text": "her lunch",
+            "label": "宾语"
+          },
+          {
+            "text": "at noon",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "At",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "eats",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "her",
+            "pos": "det.",
+            "meaning": "她的"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午饭"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（时间）"
+          },
+          {
+            "word": "noon",
+            "pos": "n.",
+            "meaning": "正午"
           }
         ]
       }
@@ -191,39 +619,204 @@
       "id": "s7",
       "role": "Man",
       "text": "In the afternoon, she usually sees her friends.",
-      "translation": "",
+      "translation": "下午，她通常会见她的朋友。",
       "startTime": 46.82,
       "endTime": 52.1,
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "In the afternoon",
+            "label": "时间状语"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "usually",
+            "label": "频率状语"
+          },
+          {
+            "text": "sees",
+            "label": "谓语"
+          },
+          {
+            "text": "her friends",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "afternoon",
+            "pos": "n.",
+            "meaning": "下午"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "sees",
+            "pos": "v.",
+            "meaning": "会见/看见"
+          },
+          {
+            "word": "her",
+            "pos": "det.",
+            "meaning": "她的"
+          },
+          {
+            "word": "friends",
+            "pos": "n.",
+            "meaning": "朋友（复数）"
+          }
+        ]
       }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "They often drink tea together.",
-      "translation": "",
+      "translation": "她们经常在一起喝茶。",
       "startTime": 52.11,
-      "endTime": 55.85
+      "endTime": 55.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "often",
+            "label": "频率状语"
+          },
+          {
+            "text": "drink",
+            "label": "谓语"
+          },
+          {
+            "text": "tea",
+            "label": "宾语"
+          },
+          {
+            "text": "together",
+            "label": "伴随状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "她们"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "drink",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "together",
+            "pos": "adv.",
+            "meaning": "一起"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "In the evening, the children come home from school.",
-      "translation": "",
+      "translation": "傍晚，孩子们从学校回到家。",
       "startTime": 55.86,
       "endTime": 60.78,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "In the evening",
+            "label": "时间状语"
+          },
+          {
+            "text": "the children",
+            "label": "主语"
+          },
+          {
+            "text": "come home",
+            "label": "谓语和状语"
+          },
+          {
+            "text": "from school",
+            "label": "来源状语"
+          }
+        ],
         "words": [
           {
-            "word": "School",
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "傍晚"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子（复数）"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来/回"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...来"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
           }
@@ -234,45 +827,220 @@
       "id": "s10",
       "role": "Woman",
       "text": "They arrive home early.",
-      "translation": "",
+      "translation": "他们到家很早。",
       "startTime": 60.79,
-      "endTime": 64.19
+      "endTime": 64.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "arrive home",
+            "label": "谓语和状语"
+          },
+          {
+            "text": "early",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "arrive",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "early",
+            "pos": "adv.",
+            "meaning": "早"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Mr. Sawyer comes home from work.",
-      "translation": "",
+      "translation": "索耶先生下班回到家。",
       "startTime": 64.2,
-      "endTime": 67.94
+      "endTime": 67.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Mr. Sawyer",
+            "label": "主语"
+          },
+          {
+            "text": "comes home",
+            "label": "谓语和状语"
+          },
+          {
+            "text": "from work",
+            "label": "来源状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "comes",
+            "pos": "v.",
+            "meaning": "来/回"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...来"
+          },
+          {
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "He arrives home late.",
-      "translation": "",
+      "translation": "他到家很晚。",
       "startTime": 67.95,
-      "endTime": 71.48
+      "endTime": 71.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "arrive home",
+            "label": "谓语和状语"
+          },
+          {
+            "text": "late",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "arrives",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "late",
+            "pos": "adv.",
+            "meaning": "晚"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "At night, the children always do their homework.",
-      "translation": "",
+      "translation": "晚上，孩子们总是做作业。",
       "startTime": 71.49,
       "endTime": 76.22,
       "analysis": {
         "grammar": [
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "At night",
+            "label": "时间状语"
+          },
+          {
+            "text": "the children",
+            "label": "主语"
+          },
+          {
+            "text": "always",
+            "label": "频率状语"
+          },
+          {
+            "text": "do",
+            "label": "谓语"
+          },
+          {
+            "text": "their homework",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（时间）"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "夜晚"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子（复数）"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "their",
+            "pos": "det.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "homework",
+            "pos": "n.",
+            "meaning": "家庭作业"
           }
         ]
       }
@@ -281,33 +1049,145 @@
       "id": "s14",
       "role": "Woman",
       "text": "Then they go to bed.",
-      "translation": "",
+      "translation": "然后他们就去睡觉。",
       "startTime": 76.23,
-      "endTime": 79.16
+      "endTime": 79.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Then",
+            "label": "连接词"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "go to bed",
+            "label": "谓语短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television.",
-      "translation": "",
+      "translation": "索耶先生通常看报纸，但有时他和他的妻子看电视。",
       "startTime": 79.17,
       "endTime": 84.17,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Mr. Sawyer usually reads his newspaper",
+            "label": "分句1"
           },
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "sometimes he and his wife watch television",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Watch",
+            "word": "Mr.",
             "pos": "n.",
-            "meaning": "手表"
+            "meaning": "先生"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "reads",
+            "pos": "v.",
+            "meaning": "阅读/看（书报）"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "newspaper",
+            "pos": "n.",
+            "meaning": "报纸"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "sometimes",
+            "pos": "adv.",
+            "meaning": "有时"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "watch",
+            "pos": "v.",
+            "meaning": "观看"
+          },
+          {
+            "word": "television",
+            "pos": "n.",
+            "meaning": "电视"
           }
         ]
       }

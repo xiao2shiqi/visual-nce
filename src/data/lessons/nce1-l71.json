@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 71",
-      "translation": "",
+      "translation": "第71课",
       "startTime": 0.67,
       "endTime": 2.94,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 71",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "71",
+            "pos": "num.",
+            "meaning": "七十一"
           }
         ]
       }
@@ -26,29 +36,105 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "He's awful!",
-      "translation": "",
+      "translation": "他真讨厌！",
       "startTime": 2.95,
-      "endTime": 5.83
+      "endTime": 5.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "awful",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "awful",
+            "pos": "adj.",
+            "meaning": "讨厌的/极坏的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.84,
       "endTime": 11.81,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,21 +143,77 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "How did Pauline answer the telephone at nine o'clock?",
-      "translation": "",
+      "translation": "波琳在9点钟接电话时是怎么说的？",
       "startTime": 11.82,
       "endTime": 19.63,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "How",
+            "label": "疑问状语"
+          },
+          {
+            "text": "did",
+            "label": "助动词 (过去式)"
+          },
+          {
+            "text": "Pauline",
+            "label": "主语"
+          },
+          {
+            "text": "answer the telephone",
+            "label": "谓语和宾语"
+          },
+          {
+            "text": "at nine o'clock",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
           },
           {
-            "word": "At",
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Pauline",
+            "pos": "n.",
+            "meaning": "波琳"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答/接听"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "nine",
+            "pos": "num.",
+            "meaning": "九"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -80,37 +222,202 @@
       "id": "s1",
       "role": "Narrator",
       "text": "What's Ron Marston like, Pauline?",
-      "translation": "",
+      "translation": "波琳，罗恩·马斯顿是一个什么样的人？",
       "startTime": 19.64,
-      "endTime": 24.06
+      "endTime": 24.06,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词/表语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "Ron Marston",
+            "label": "主语"
+          },
+          {
+            "text": "like",
+            "label": "介词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Ron",
+            "pos": "n.",
+            "meaning": "罗恩"
+          },
+          {
+            "word": "Marston",
+            "pos": "n.",
+            "meaning": "马斯顿"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像...一样"
+          },
+          {
+            "word": "Pauline",
+            "pos": "n.",
+            "meaning": "波琳"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Man",
       "text": "He's awful!",
-      "translation": "",
+      "translation": "他这人太客气了（此处意为讨厌）！",
       "startTime": 24.07,
-      "endTime": 26.61
+      "endTime": 26.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "awful",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "awful",
+            "pos": "adj.",
+            "meaning": "讨厌的/糟糕的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Woman",
       "text": "He telephoned me four times yesterday and three times the day before yesterday.",
-      "translation": "",
+      "translation": "他昨天给我打了4次电话，前天打了3次。",
       "startTime": 26.62,
       "endTime": 37.21,
       "analysis": {
         "grammar": [
           {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "telephoned",
+            "label": "谓语"
+          },
+          {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "宾语"
+          },
+          {
+            "text": "four times yesterday",
+            "label": "状语1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "three times the day before yesterday",
+            "label": "状语2"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "telephoned",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "four",
+            "pos": "num.",
+            "meaning": "四"
+          },
+          {
+            "word": "times",
+            "pos": "n.",
+            "meaning": "次数/倍（复数）"
+          },
+          {
+            "word": "yesterday",
+            "pos": "adv.",
+            "meaning": "昨天"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "times",
+            "pos": "n.",
+            "meaning": "次数"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
+          },
+          {
+            "word": "before",
+            "pos": "prep.",
+            "meaning": "在...之前"
+          },
+          {
+            "word": "yesterday",
+            "pos": "n./adv.",
+            "meaning": "昨天"
           }
         ]
       }
@@ -119,29 +426,124 @@
       "id": "s4",
       "role": "Man",
       "text": "He telephoned the office yesterday morning and yesterday afternoon.",
-      "translation": "",
+      "translation": "昨天上午和昨天下午他都给办公室打了电话。",
       "startTime": 37.22,
-      "endTime": 45.54
+      "endTime": 45.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "telephoned",
+            "label": "谓语"
+          },
+          {
+            "text": "the office",
+            "label": "宾语"
+          },
+          {
+            "text": "yesterday morning and yesterday afternoon",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "telephoned",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
+          },
+          {
+            "word": "yesterday",
+            "pos": "adj.",
+            "meaning": "昨天的"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "yesterday",
+            "pos": "adj.",
+            "meaning": "昨天的"
+          },
+          {
+            "word": "afternoon",
+            "pos": "n.",
+            "meaning": "下午"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Woman",
       "text": "My boss answered the telephone.",
-      "translation": "",
+      "translation": "是我老板接的电话。",
       "startTime": 45.55,
       "endTime": 50.13,
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My boss",
+            "label": "主语"
+          },
+          {
+            "text": "answered",
+            "label": "谓语"
+          },
+          {
+            "text": "the telephone",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "My",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "boss",
+            "pos": "n.",
+            "meaning": "老板"
+          },
+          {
+            "word": "answered",
+            "pos": "v.",
+            "meaning": "接听/回答"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
           }
         ]
       }
@@ -150,18 +552,30 @@
       "id": "s6",
       "role": "Narrator",
       "text": "What did your boss say to him?",
-      "translation": "",
+      "translation": "你老板是怎么对他说的？",
       "startTime": 50.14,
       "endTime": 53.79,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "your boss",
+            "label": "主语"
+          },
+          {
+            "text": "say",
+            "label": "谓语"
+          },
+          {
+            "text": "to him",
+            "label": "对象状语"
           }
         ],
         "words": [
@@ -171,9 +585,34 @@
             "meaning": "什么"
           },
           {
-            "word": "Your",
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "boss",
+            "pos": "n.",
+            "meaning": "老板"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "him",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "他（宾格）"
           }
         ]
       }
@@ -182,21 +621,54 @@
       "id": "s7",
       "role": "Man",
       "text": "He said, 'Pauline is typing letters.",
-      "translation": "",
+      "translation": "他说：“波琳正在打信。”",
       "startTime": 53.8,
       "endTime": 58.49,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "said",
+            "label": "谓语"
+          },
+          {
+            "text": "Pauline is typing letters",
+            "label": "宾语从句 (进行时)"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "Pauline",
+            "pos": "n.",
+            "meaning": "波琳"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "typing",
+            "pos": "v.",
+            "meaning": "打字"
+          },
+          {
+            "word": "letters",
+            "pos": "n.",
+            "meaning": "信件（复数）"
           }
         ]
       }
@@ -205,16 +677,58 @@
       "id": "s8",
       "role": "Woman",
       "text": "She can't speak to you now!'",
-      "translation": "",
+      "translation": "“她现在不能和你通话。”",
       "startTime": 58.5,
       "endTime": 62.35,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "can't speak",
+            "label": "谓语 (不能)"
+          },
+          {
+            "text": "to you",
+            "label": "对象状语"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "She",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "她"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "speak",
+            "pos": "v.",
+            "meaning": "说话/通话"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/和"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -223,16 +737,81 @@
       "id": "s9",
       "role": "Man",
       "text": "Then I arrived home at six o'clock yesterday evening.",
-      "translation": "",
+      "translation": "后来我昨天傍晚6点钟到家。",
       "startTime": 62.36,
       "endTime": 68.81,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Then",
+            "label": "连接词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "arrived",
+            "label": "谓语"
+          },
+          {
+            "text": "home",
+            "label": "地点状语"
+          },
+          {
+            "text": "at six o'clock",
+            "label": "时间状语1"
+          },
+          {
+            "text": "yesterday evening",
+            "label": "时间状语2"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后/后来"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "arrived",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "six",
+            "pos": "num.",
+            "meaning": "六"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
+          },
+          {
+            "word": "yesterday",
+            "pos": "adj.",
+            "meaning": "昨天的"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "晚上"
           }
         ]
       }
@@ -241,23 +820,108 @@
       "id": "s10",
       "role": "Woman",
       "text": "He telephoned again.",
-      "translation": "",
+      "translation": "他又来电话了。",
       "startTime": 68.82,
-      "endTime": 71.6
+      "endTime": 71.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "telephoned",
+            "label": "谓语"
+          },
+          {
+            "text": "again",
+            "label": "状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "telephoned",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再一次"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "But I didn't answer the phone!",
-      "translation": "",
+      "translation": "但我没接电话！",
       "startTime": 71.61,
-      "endTime": 75.66
+      "endTime": 75.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "But",
+            "label": "连词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "didn't answer",
+            "label": "谓语 (否定过去)"
+          },
+          {
+            "text": "the phone",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "didn't",
+            "pos": "v.aux.",
+            "meaning": "没有 (did not)"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "接/接听"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "phone",
+            "pos": "n.",
+            "meaning": "电话"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "Did he telephone again last night?",
-      "translation": "",
+      "translation": "昨晚他又打电话了吗？",
       "startTime": 75.67,
       "endTime": 79.82,
       "analysis": {
@@ -265,25 +929,91 @@
           {
             "text": "Did",
             "label": "助动词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "telephone",
+            "label": "谓语"
+          },
+          {
+            "text": "again",
+            "label": "状语"
+          },
+          {
+            "text": "last night",
+            "label": "时间状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "telephone",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "晚上"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "Yes, he did.",
-      "translation": "",
+      "translation": "是的，他打了。",
       "startTime": 79.83,
       "endTime": 82.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定词"
+          },
+          {
+            "text": "he did",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "做了（指代打了电话）"
           }
         ]
       }
@@ -292,16 +1022,49 @@
       "id": "s14",
       "role": "Woman",
       "text": "He telephoned at nine o'clock.",
-      "translation": "",
+      "translation": "他在9点钟打来电话。",
       "startTime": 82.21,
       "endTime": 86.4,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "telephoned",
+            "label": "谓语"
+          },
+          {
+            "text": "at nine o'clock",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "telephoned",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "nine",
+            "pos": "num.",
+            "meaning": "九"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -310,14 +1073,30 @@
       "id": "s15",
       "role": "Narrator",
       "text": "What did you say to him?",
-      "translation": "",
+      "translation": "你对他怎么说的？",
       "startTime": 86.41,
       "endTime": 89.66,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
+          },
+          {
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "say",
+            "label": "谓语"
+          },
+          {
+            "text": "to him",
+            "label": "状语"
           }
         ],
         "words": [
@@ -327,9 +1106,29 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
           }
         ]
       }
@@ -338,30 +1137,54 @@
       "id": "s16",
       "role": "Man",
       "text": "I said, 'This is Pauline's mother.",
-      "translation": "",
+      "translation": "我说：“我是波琳的母亲。”",
       "startTime": 89.67,
       "endTime": 93.81,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "said",
+            "label": "谓语"
+          },
+          {
+            "text": "This is Pauline's mother",
+            "label": "宾语 (引语)"
           }
         ],
         "words": [
           {
-            "word": "This",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
           },
           {
-            "word": "Is",
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这/我（用于介绍）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "Pauline's",
+            "pos": "n.",
+            "meaning": "波琳的"
+          },
+          {
+            "word": "mother",
+            "pos": "n.",
+            "meaning": "母亲"
           }
         ]
       }
@@ -370,14 +1193,26 @@
       "id": "s17",
       "role": "Woman",
       "text": "Please don't telephone my daughter again!'",
-      "translation": "",
+      "translation": "“请不要再给我女儿打电话了！”",
       "startTime": 93.82,
       "endTime": 99.43,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "Please",
+            "label": "礼貌语"
+          },
+          {
+            "text": "don't telephone",
+            "label": "否定祈使"
+          },
+          {
+            "text": "my daughter",
+            "label": "宾语"
+          },
+          {
+            "text": "again",
+            "label": "状语"
           }
         ],
         "words": [
@@ -387,14 +1222,29 @@
             "meaning": "请"
           },
           {
-            "word": "My",
-            "pos": "pron.",
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不要"
+          },
+          {
+            "word": "telephone",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "Daughter",
+            "word": "daughter",
             "pos": "n.",
             "meaning": "女儿"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再"
           }
         ]
       }
@@ -403,7 +1253,7 @@
       "id": "s18",
       "role": "Man",
       "text": "Did he telephone again?",
-      "translation": "",
+      "translation": "他又打来电话了吗？",
       "startTime": 99.44,
       "endTime": 102.09,
       "analysis": {
@@ -411,18 +1261,80 @@
           {
             "text": "Did",
             "label": "助动词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "telephone",
+            "label": "谓语"
+          },
+          {
+            "text": "again",
+            "label": "状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "telephone",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再"
+          }
+        ]
       }
     },
     {
       "id": "s19",
       "role": "Woman",
       "text": "No, he didn't!",
-      "translation": "",
+      "translation": "没，他没再打过！",
       "startTime": 102.1,
-      "endTime": 107.1
+      "endTime": 107.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "he didn't",
+            "label": "简短回答"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "didn't",
+            "pos": "v.aux.",
+            "meaning": "没有"
+          }
+        ]
+      }
     }
   ]
 }

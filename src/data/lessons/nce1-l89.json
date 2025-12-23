@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 89",
-      "translation": "",
+      "translation": "第89课",
       "startTime": 0.6,
       "endTime": 2.98,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 89",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "89",
+            "pos": "num.",
+            "meaning": "八十九"
           }
         ]
       }
@@ -26,29 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "For sale",
-      "translation": "",
+      "translation": "待售",
       "startTime": 2.99,
-      "endTime": 5.45
+      "endTime": 5.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "For sale",
+            "label": "介词短语/标题"
+          }
+        ],
+        "words": [
+          {
+            "word": "For",
+            "pos": "prep.",
+            "meaning": "为了/供"
+          },
+          {
+            "word": "sale",
+            "pos": "n.",
+            "meaning": "出售"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.46,
       "endTime": 11.19,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,104 +130,251 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why couldn't Nigel decide?",
-      "translation": "",
+      "translation": "为什么内杰尔不能做出决定？",
       "startTime": 11.2,
-      "endTime": 16.24
+      "endTime": 16.24,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Why",
+            "label": "疑问词/原因状语"
+          },
+          {
+            "text": "could not",
+            "label": "情态动词 (过去否定)"
+          },
+          {
+            "text": "Nigel",
+            "label": "主语"
+          },
+          {
+            "text": "decide",
+            "label": "谓语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "couldn't",
+            "pos": "v.aux.",
+            "meaning": "不能 (could not)"
+          },
+          {
+            "word": "Nigel",
+            "pos": "n.",
+            "meaning": "内杰尔"
+          },
+          {
+            "word": "decide",
+            "pos": "v.",
+            "meaning": "决定"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Good afternoon.",
-      "translation": "",
+      "translation": "下午好。",
       "startTime": 16.25,
-      "endTime": 18.35
+      "endTime": 18.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Good afternoon",
+            "label": "问候语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "afternoon",
+            "pos": "n.",
+            "meaning": "下午"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Man",
       "text": "I believe that this house is for sale.",
-      "translation": "",
+      "translation": "我相信这所房子是要卖的。",
       "startTime": 18.36,
       "endTime": 22.73,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "believe",
+            "label": "谓语"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "that this house is for sale",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "believe",
+            "pos": "v.",
+            "meaning": "相信"
           },
           {
-            "word": "House",
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "sale",
+            "pos": "n.",
+            "meaning": "出售"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Woman",
       "text": "That's right.",
-      "translation": "",
+      "translation": "是的。",
       "startTime": 22.74,
-      "endTime": 24.52
+      "endTime": 24.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "right",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "正确的/对的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Man",
       "text": "May I have a look at it, please?",
-      "translation": "",
+      "translation": "我可以看一看吗？",
       "startTime": 24.53,
       "endTime": 27.98,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "May",
+            "label": "情态动词 (委婉请求)"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "have a look at it",
+            "label": "谓语/宾语"
+          },
+          {
+            "text": "please",
+            "label": "语气词"
           }
         ],
         "words": [
           {
-            "word": "Look",
+            "word": "May",
+            "pos": "v.aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
             "pos": "v.",
+            "meaning": "有/进行"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "look",
+            "pos": "n.",
             "meaning": "看"
           },
           {
-            "word": "At",
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "向"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -163,18 +383,37 @@
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Woman",
       "text": "Yes, of course.",
-      "translation": "",
+      "translation": "是的，当然可以。",
       "startTime": 27.99,
       "endTime": 29.73,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "of course",
+            "label": "状语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "当然 (固定搭配)"
+          },
+          {
+            "word": "course",
+            "pos": "n.",
+            "meaning": "过程 (固定搭配)"
           }
         ]
       }
@@ -183,81 +422,256 @@
       "id": "s6",
       "role": "Woman",
       "text": "Come in.",
-      "translation": "",
+      "translation": "请进。",
       "startTime": 29.74,
-      "endTime": 31.64
+      "endTime": 31.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Come in",
+            "label": "祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "in",
+            "pos": "adv.",
+            "meaning": "进来"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
-      "role": "Narrator",
+      "role": "Man",
       "text": "How long have you lived here?",
-      "translation": "",
+      "translation": "您在这儿住了多久了？",
       "startTime": 31.65,
       "endTime": 34.86,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "How long",
+            "label": "疑问短语/时间状语"
+          },
+          {
+            "text": "have you lived",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "here",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "多/多么"
           },
           {
-            "word": "You",
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "久/长的"
+          },
+          {
+            "word": "have",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Here",
+            "word": "lived",
+            "pos": "v.",
+            "meaning": "居住（过去分词）"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "在这里"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Woman",
       "text": "I've lived here for twenty years.",
-      "translation": "",
+      "translation": "我在这儿已经住了20年了。",
       "startTime": 34.87,
       "endTime": 38.27,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ve lived",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "here",
+            "label": "地点状语"
+          },
+          {
+            "text": "for twenty years",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "Here",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "已经（have）"
+          },
+          {
+            "word": "lived",
+            "pos": "v.",
+            "meaning": "居住"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "在这里"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "达...之久"
+          },
+          {
+            "word": "twenty",
+            "pos": "num.",
+            "meaning": "二十"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Man",
       "text": "Twenty years!",
-      "translation": "",
+      "translation": "20年！",
       "startTime": 38.28,
-      "endTime": 40.46
+      "endTime": 40.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Twenty years",
+            "label": "名词短语/感叹"
+          }
+        ],
+        "words": [
+          {
+            "word": "Twenty",
+            "pos": "num.",
+            "meaning": "二十"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Man",
       "text": "That's a long time.",
-      "translation": "",
+      "translation": "那是一段很长的时间。",
       "startTime": 40.47,
-      "endTime": 42.7
+      "endTime": 42.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "a long time",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的/久的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Woman",
       "text": "Yes, I've been here since 1976.",
-      "translation": "",
+      "translation": "是的，我从1976年起就住在这儿。",
       "startTime": 42.71,
       "endTime": 48.12,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ve been",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "here",
+            "label": "地点状语"
+          },
+          {
+            "text": "since 1976",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -265,9 +679,34 @@
             "meaning": "是的"
           },
           {
-            "word": "Here",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "在/处于"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "在这里"
+          },
+          {
+            "word": "since",
+            "pos": "prep.",
+            "meaning": "自从"
+          },
+          {
+            "word": "1976",
+            "pos": "num.",
+            "meaning": "一九七六"
           }
         ]
       }
@@ -276,24 +715,66 @@
       "id": "s12",
       "role": "Man",
       "text": "Then why do you want to sell it?",
-      "translation": "",
+      "translation": "那么，您为什么要卖掉它呢？",
       "startTime": 48.13,
       "endTime": 51.81,
       "analysis": {
         "grammar": [
           {
+            "text": "Then",
+            "label": "状语"
+          },
+          {
+            "text": "why",
+            "label": "疑问词"
+          },
+          {
+            "text": "do you want to sell",
+            "label": "谓语"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "那么"
           },
           {
-            "word": "It",
+            "word": "why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "sell",
+            "pos": "v.",
+            "meaning": "卖"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -304,103 +785,332 @@
       "id": "s13",
       "role": "Woman",
       "text": "Because I've just retired.",
-      "translation": "",
+      "translation": "因为我刚退休。",
       "startTime": 51.82,
-      "endTime": 54.67
+      "endTime": 54.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Because",
+            "label": "连词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ve just retired",
+            "label": "谓语 (完成时)"
+          }
+        ],
+        "words": [
+          {
+            "word": "Because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "retired",
+            "pos": "v.",
+            "meaning": "退休（过去分词）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
-      "role": "Man",
+      "role": "Woman",
       "text": "I want to buy a small house in the country.",
-      "translation": "",
+      "translation": "我想在乡下买一幢小房子。",
       "startTime": 54.68,
       "endTime": 60.21,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "want to buy",
+            "label": "谓语"
+          },
+          {
+            "text": "a small house",
+            "label": "宾语"
+          },
+          {
+            "text": "in the country",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "House",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "乡下/国家"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Narrator",
+      "role": "Man",
       "text": "How much does this house cost?",
-      "translation": "",
+      "translation": "这幢房子卖多少钱？",
       "startTime": 60.22,
       "endTime": 63.84,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "How much",
+            "label": "疑问短语/宾语"
+          },
+          {
+            "text": "does",
+            "label": "助动词"
+          },
+          {
+            "text": "this house",
+            "label": "主语"
+          },
+          {
+            "text": "cost",
+            "label": "谓语"
           }
         ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "多少"
           },
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "much",
+            "pos": "adj.",
+            "meaning": "多"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
           },
           {
-            "word": "House",
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "cost",
+            "pos": "v.",
+            "meaning": "花费/价值"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Man",
+      "role": "Woman",
       "text": "￡68, 500.",
-      "translation": "",
+      "translation": "68,500英镑。",
       "startTime": 63.85,
-      "endTime": 68.34
+      "endTime": 68.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "￡68, 500",
+            "label": "金额"
+          }
+        ],
+        "words": [
+          {
+            "word": "￡68,",
+            "pos": "num.",
+            "meaning": "六万八千"
+          },
+          {
+            "word": "500",
+            "pos": "num.",
+            "meaning": "五百"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
-      "role": "Woman",
+      "role": "Man",
       "text": "That's a lot of money!",
-      "translation": "",
+      "translation": "太贵了！",
       "startTime": 68.35,
-      "endTime": 70.88
+      "endTime": 70.88,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "a lot of money",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "lot",
+            "pos": "n.",
+            "meaning": "许多"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之于"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
-      "role": "Man",
+      "role": "Woman",
       "text": "It's worth every penny of it.",
-      "translation": "",
+      "translation": "它确确实实值那么多钱。",
       "startTime": 70.89,
       "endTime": 73.89,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "is worth",
+            "label": "谓语/表语"
+          },
+          {
+            "text": "every penny of it",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "worth",
+            "pos": "adj.",
+            "meaning": "值得"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每一"
+          },
+          {
+            "word": "penny",
+            "pos": "n.",
+            "meaning": "便士"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之于"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -409,23 +1119,80 @@
     },
     {
       "id": "s19",
-      "role": "Woman",
+      "role": "Man",
       "text": "Well, I like the house, but I can't decide yet.",
-      "translation": "",
+      "translation": "好吧，我喜欢这房子，但我现在还不能决定。",
       "startTime": 73.9,
       "endTime": 80.42,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Well",
+            "label": "语气词"
+          },
+          {
+            "text": "I like the house",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "I can't decide yet",
+            "label": "分句2"
+          }
+        ],
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "好吧/嗯"
           },
           {
-            "word": "House",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能 (can not)"
+          },
+          {
+            "word": "decide",
+            "pos": "v.",
+            "meaning": "决定"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还（用于否定句）"
           }
         ]
       }
@@ -434,30 +1201,58 @@
       "id": "s20",
       "role": "Man",
       "text": "My wife must see it first.",
-      "translation": "",
+      "translation": "我妻子必须先来看看。",
       "startTime": 80.43,
       "endTime": 83.75,
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My wife",
+            "label": "主语"
+          },
+          {
+            "text": "must see",
+            "label": "谓语"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
+          },
+          {
+            "text": "first",
+            "label": "状语"
           }
         ],
         "words": [
           {
             "word": "My",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "It",
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "首先"
           }
         ]
       }
@@ -466,9 +1261,57 @@
       "id": "s21",
       "role": "Woman",
       "text": "Women always have the last word.",
-      "translation": "",
+      "translation": "女人总是最后说了算的。",
       "startTime": 83.76,
-      "endTime": 88.76
+      "endTime": 88.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Women",
+            "label": "主语"
+          },
+          {
+            "text": "always have",
+            "label": "谓语"
+          },
+          {
+            "text": "the last word",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Women",
+            "pos": "n.",
+            "meaning": "女人（复数）"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这/那"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "最后的"
+          },
+          {
+            "word": "word",
+            "pos": "n.",
+            "meaning": "话/决定权"
+          }
+        ]
+      }
     }
   ]
 }

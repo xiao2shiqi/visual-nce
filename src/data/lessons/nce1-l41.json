@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 41",
-      "translation": "",
+      "translation": "第41课",
       "startTime": 0.5,
       "endTime": 2.89,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 41",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "41",
+            "pos": "num.",
+            "meaning": "四十一"
           }
         ]
       }
@@ -26,29 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Penny's bag",
-      "translation": "",
+      "translation": "潘妮的提包",
       "startTime": 2.9,
-      "endTime": 5.68
+      "endTime": 5.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Penny's bag",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Penny's",
+            "pos": "n.",
+            "meaning": "潘妮的"
+          },
+          {
+            "word": "bag",
+            "pos": "n.",
+            "meaning": "提包"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.69,
       "endTime": 11.87,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,21 +130,63 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Who is the tin of tobacco for?",
-      "translation": "",
+      "translation": "那罐烟丝是给谁买的？",
       "startTime": 11.88,
       "endTime": 17.88,
       "analysis": {
         "grammar": [
           {
+            "text": "Who",
+            "label": "疑问代词"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "the tin of tobacco",
+            "label": "主语"
+          },
+          {
+            "text": "for",
+            "label": "介词 (表对象)"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这/那"
+          },
+          {
+            "word": "tin",
+            "pos": "n.",
+            "meaning": "罐"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "tobacco",
+            "pos": "n.",
+            "meaning": "烟丝"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "给"
           }
         ]
       }
@@ -80,18 +195,26 @@
       "id": "s1",
       "role": "Man",
       "text": "Is that bag heavy, Penny?",
-      "translation": "",
+      "translation": "潘妮，那个提包重吗？",
       "startTime": 17.89,
       "endTime": 20.82,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "that bag",
+            "label": "主语"
+          },
+          {
+            "text": "heavy",
+            "label": "表语"
+          },
+          {
+            "text": "Penny",
+            "label": "称呼语"
           }
         ],
         "words": [
@@ -101,9 +224,24 @@
             "meaning": "是"
           },
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "that",
+            "pos": "det.",
             "meaning": "那个"
+          },
+          {
+            "word": "bag",
+            "pos": "n.",
+            "meaning": "提包"
+          },
+          {
+            "word": "heavy",
+            "pos": "adj.",
+            "meaning": "重的"
+          },
+          {
+            "word": "Penny",
+            "pos": "n.",
+            "meaning": "潘妮"
           }
         ]
       }
@@ -112,26 +250,26 @@
       "id": "s2",
       "role": "Woman",
       "text": "Not very.",
-      "translation": "",
+      "translation": "不太重。",
       "startTime": 20.83,
       "endTime": 22.99,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "Not very",
+            "label": "否定短语"
           }
         ],
         "words": [
           {
             "word": "Not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很/非常"
           }
         ]
       }
@@ -140,11 +278,16 @@
       "id": "s3",
       "role": "Man",
       "text": "Here!",
-      "translation": "",
+      "translation": "给你！",
       "startTime": 23,
       "endTime": 24.29,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Here",
+            "label": "感叹/常用语"
+          }
+        ],
         "words": [
           {
             "word": "Here",
@@ -158,30 +301,45 @@
       "id": "s4",
       "role": "Woman",
       "text": "Put it on this chair.",
-      "translation": "",
+      "translation": "把它放在这把椅子上。",
       "startTime": 24.3,
       "endTime": 27.11,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "Put it",
+            "label": "祈使句核心"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "on this chair",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "Put",
+            "pos": "v.",
+            "meaning": "放"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "chair",
+            "pos": "n.",
+            "meaning": "椅子"
           }
         ]
       }
@@ -190,19 +348,42 @@
       "id": "s5",
       "role": "Narrator",
       "text": "What's in it?",
-      "translation": "",
+      "translation": "提包里是什么东西？",
       "startTime": 27.12,
       "endTime": 29.26,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "What",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "in it",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -213,94 +394,393 @@
       "id": "s6",
       "role": "Man",
       "text": "A piece of cheese.",
-      "translation": "",
+      "translation": "一块乳酪。",
       "startTime": 29.27,
-      "endTime": 32.13
+      "endTime": 32.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A piece of cheese",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个/一块"
+          },
+          {
+            "word": "piece",
+            "pos": "n.",
+            "meaning": "片/块"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "cheese",
+            "pos": "n.",
+            "meaning": "乳酪"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Woman",
       "text": "A loaf of bread.",
-      "translation": "",
+      "translation": "一个面包。",
       "startTime": 32.14,
-      "endTime": 34.76
+      "endTime": 34.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A loaf of bread",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "loaf",
+            "pos": "n.",
+            "meaning": "条/块"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "bread",
+            "pos": "n.",
+            "meaning": "面包"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Man",
       "text": "A bar of soap.",
-      "translation": "",
+      "translation": "一块肥皂。",
       "startTime": 34.77,
-      "endTime": 37.51
+      "endTime": 37.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A bar of soap",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bar",
+            "pos": "n.",
+            "meaning": "条/块"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "soap",
+            "pos": "n.",
+            "meaning": "肥皂"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Woman",
       "text": "A bar of chocolate.",
-      "translation": "",
+      "translation": "一块巧克力。",
       "startTime": 37.52,
-      "endTime": 40.18
+      "endTime": 40.18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A bar of chocolate",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bar",
+            "pos": "n.",
+            "meaning": "条/块"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "chocolate",
+            "pos": "n.",
+            "meaning": "巧克力"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Man",
       "text": "A bottle of milk.",
-      "translation": "",
+      "translation": "一瓶牛奶。",
       "startTime": 40.19,
-      "endTime": 42.76
+      "endTime": 42.76,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A bottle of milk",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个/一瓶"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "milk",
+            "pos": "n.",
+            "meaning": "牛奶"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Woman",
       "text": "A pound of sugar.",
-      "translation": "",
+      "translation": "一磅糖。",
       "startTime": 42.77,
-      "endTime": 45.73
+      "endTime": 45.73,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A pound of sugar",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "pound",
+            "pos": "n.",
+            "meaning": "磅"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "sugar",
+            "pos": "n.",
+            "meaning": "糖"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "Half a pound of coffee.",
-      "translation": "",
+      "translation": "半磅咖啡。",
       "startTime": 45.74,
-      "endTime": 49.16
+      "endTime": 49.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Half a pound of coffee",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Half",
+            "pos": "num.",
+            "meaning": "一半"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "pound",
+            "pos": "n.",
+            "meaning": "磅"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Woman",
       "text": "A quarter of a pound of tea.",
-      "translation": "",
+      "translation": "1/4 磅茶叶。",
       "startTime": 49.17,
-      "endTime": 53.11
+      "endTime": 53.11,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A quarter of a pound of tea",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "quarter",
+            "pos": "n.",
+            "meaning": "四分之一"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "pound",
+            "pos": "n.",
+            "meaning": "磅"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶叶"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Man",
       "text": "And a tin of tobacco.",
-      "translation": "",
+      "translation": "还有一罐烟丝。",
       "startTime": 53.12,
-      "endTime": 57.56
+      "endTime": 57.56,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "And",
+            "label": "连词"
+          },
+          {
+            "text": "a tin of tobacco",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "和/而且"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "tin",
+            "pos": "n.",
+            "meaning": "罐"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "tobacco",
+            "pos": "n.",
+            "meaning": "烟丝"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Woman",
       "text": "Is that tin of tobacco for me?",
-      "translation": "",
+      "translation": "那罐烟丝是给我的吗？",
       "startTime": 57.57,
       "endTime": 62.06,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "that tin of tobacco",
+            "label": "主语"
           },
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "for me",
+            "label": "表语"
           }
         ],
         "words": [
@@ -310,12 +790,32 @@
             "meaning": "是"
           },
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "that",
+            "pos": "det.",
             "meaning": "那个"
           },
           {
-            "word": "Me",
+            "word": "tin",
+            "pos": "n.",
+            "meaning": "罐"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "tobacco",
+            "pos": "n.",
+            "meaning": "烟丝"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "给"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           }
@@ -326,33 +826,69 @@
       "id": "s16",
       "role": "Man",
       "text": "Well, it's certainly not for me!",
-      "translation": "",
+      "translation": "噢，当然不是给我的！",
       "startTime": 62.07,
       "endTime": 67.07,
       "analysis": {
         "grammar": [
           {
-            "text": "its",
-            "label": "形容词性物主代词"
+            "text": "Well",
+            "label": "叹词"
           },
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "it",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "certainly",
+            "label": "状语"
+          },
+          {
+            "text": "not",
+            "label": "否定"
+          },
+          {
+            "text": "for me",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "好吧/噢"
           },
           {
-            "word": "Not",
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "certainly",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "当然地/确实地"
           },
           {
-            "word": "Me",
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "给"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           }

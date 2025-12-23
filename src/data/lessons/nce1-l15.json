@@ -14,12 +14,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "15",
-            "label": "数词/编号"
+            "text": "Lesson 15",
+            "label": "标题"
           }
         ],
         "words": [
@@ -27,6 +23,11 @@
             "word": "Lesson",
             "pos": "n.",
             "meaning": "课"
+          },
+          {
+            "word": "15",
+            "pos": "num.",
+            "meaning": "十五"
           }
         ]
       }
@@ -42,7 +43,7 @@
         "grammar": [
           {
             "text": "Your passports",
-            "label": "宾语（祈使句省略谓语）"
+            "label": "宾语 (省略谓语)"
           },
           {
             "text": "please",
@@ -51,9 +52,14 @@
         ],
         "words": [
           {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你们的"
+          },
+          {
             "word": "passports",
-            "pos": "n. pl.",
-            "meaning": "护照（复数）"
+            "pos": "n.",
+            "meaning": "护照"
           },
           {
             "word": "please",
@@ -73,27 +79,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen to",
-            "label": "谓语1"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
-            "text": "the tape",
-            "label": "宾语1"
+            "text": "then",
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "谓语2"
-          },
-          {
-            "text": "this question",
-            "label": "宾语2"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -114,7 +146,7 @@
         "grammar": [
           {
             "text": "Is there",
-            "label": "There be句型/谓语"
+            "label": "系词+引导词"
           },
           {
             "text": "a problem",
@@ -122,14 +154,39 @@
           },
           {
             "text": "with the Customs officer",
-            "label": "定语/介词短语"
+            "label": "介词短语"
           }
         ],
         "words": [
           {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "there",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
             "word": "problem",
             "pos": "n.",
-            "meaning": "问题，麻烦"
+            "meaning": "问题"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这名"
           },
           {
             "word": "Customs",
@@ -155,7 +212,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -163,14 +220,24 @@
           },
           {
             "text": "Swedish",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
           {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你们"
+          },
+          {
             "word": "Swedish",
-            "pos": "adj./n.",
-            "meaning": "瑞典人的；瑞典人"
+            "pos": "adj.",
+            "meaning": "瑞典人的"
           }
         ]
       }
@@ -186,7 +253,7 @@
         "grammar": [
           {
             "text": "No",
-            "label": "否定回答"
+            "label": "回答词"
           },
           {
             "text": "we",
@@ -194,10 +261,25 @@
           },
           {
             "text": "are not",
-            "label": "系动词+否定词"
+            "label": "系词否定"
           }
         ],
         "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "not",
             "pos": "adv.",
@@ -221,18 +303,28 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Danish",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
           {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Danish",
-            "pos": "adj./n.",
-            "meaning": "丹麦人的；丹麦人"
+            "pos": "adj.",
+            "meaning": "丹麦人的"
           }
         ]
       }
@@ -248,7 +340,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "your friends",
@@ -260,14 +352,34 @@
           },
           {
             "text": "too",
-            "label": "状语"
+            "label": "副词"
           }
         ],
         "words": [
           {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
             "word": "friends",
-            "pos": "n. pl.",
-            "meaning": "朋友（复数）"
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
+            "word": "Danish",
+            "pos": "adj.",
+            "meaning": "丹麦人的"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "也"
           }
         ]
       }
@@ -283,7 +395,7 @@
         "grammar": [
           {
             "text": "No",
-            "label": "否定回答"
+            "label": "回答词"
           },
           {
             "text": "they",
@@ -291,14 +403,29 @@
           },
           {
             "text": "aren't",
-            "label": "系动词+否定词"
+            "label": "系词否定"
           }
         ],
         "words": [
           {
-            "word": "aren't",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
             "pos": "v.",
-            "meaning": "不是（are not的缩写）"
+            "meaning": "是"
+          },
+          {
+            "word": "n't",
+            "pos": "adv.",
+            "meaning": "不"
           }
         ]
       }
@@ -318,18 +445,28 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Norwegian",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
           {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Norwegian",
-            "pos": "adj./n.",
-            "meaning": "挪威人的；挪威人"
+            "pos": "adj.",
+            "meaning": "挪威人的"
           }
         ]
       }
@@ -345,7 +482,7 @@
         "grammar": [
           {
             "text": "Your passports",
-            "label": "宾语（缩略句）"
+            "label": "宾语 (省略谓语)"
           },
           {
             "text": "please",
@@ -354,9 +491,19 @@
         ],
         "words": [
           {
+            "word": "Your",
+            "pos": "pron.",
+            "meaning": "你们的"
+          },
+          {
             "word": "passports",
-            "pos": "n. pl.",
-            "meaning": "护照（复数）"
+            "pos": "n.",
+            "meaning": "护照"
+          },
+          {
+            "word": "please",
+            "pos": "int.",
+            "meaning": "请"
           }
         ]
       }
@@ -371,23 +518,25 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Here",
-            "label": "地点状语（倒装句引导词）"
-          },
-          {
-            "text": "they",
-            "label": "主语"
-          },
-          {
-            "text": "are",
-            "label": "系动词"
+            "text": "Here they are",
+            "label": "常用倒装句"
           }
         ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "这儿"
+            "meaning": "这里"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -403,7 +552,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "these",
@@ -416,14 +565,24 @@
         ],
         "words": [
           {
-            "word": "cases",
-            "pos": "n. pl.",
-            "meaning": "手提箱，箱子（复数）"
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
           },
           {
             "word": "these",
             "pos": "pron.",
             "meaning": "这些"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你们的"
+          },
+          {
+            "word": "cases",
+            "pos": "n.",
+            "meaning": "箱子"
           }
         ]
       }
@@ -439,7 +598,7 @@
         "grammar": [
           {
             "text": "No",
-            "label": "否定回答"
+            "label": "回答词"
           },
           {
             "text": "they",
@@ -447,14 +606,29 @@
           },
           {
             "text": "aren't",
-            "label": "系动词否定"
+            "label": "系词否定"
           }
         ],
         "words": [
           {
-            "word": "aren't",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "are",
             "pos": "v.",
-            "meaning": "不是"
+            "meaning": "是"
+          },
+          {
+            "word": "n't",
+            "pos": "adv.",
+            "meaning": "不"
           }
         ]
       }
@@ -474,23 +648,33 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "brown",
-            "label": "表语/颜色"
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "brown",
-            "pos": "adj.",
-            "meaning": "棕色的"
-          },
-          {
             "word": "Our",
             "pos": "pron.",
             "meaning": "我们的"
+          },
+          {
+            "word": "cases",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "brown",
+            "pos": "adj.",
+            "meaning": "棕色的"
           }
         ]
       }
@@ -505,23 +689,25 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Here",
-            "label": "引导词"
-          },
-          {
-            "text": "they",
-            "label": "主语"
-          },
-          {
-            "text": "are",
-            "label": "系动词"
+            "text": "Here they are",
+            "label": "常用倒装句"
           }
         ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "这儿"
+            "meaning": "这里"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -537,7 +723,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -550,9 +736,19 @@
         ],
         "words": [
           {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你们"
+          },
+          {
             "word": "tourists",
-            "pos": "n. pl.",
-            "meaning": "游客（复数）"
+            "pos": "n.",
+            "meaning": "游客"
           }
         ]
       }
@@ -568,7 +764,7 @@
         "grammar": [
           {
             "text": "Yes",
-            "label": "肯定回答"
+            "label": "回答词"
           },
           {
             "text": "we",
@@ -576,7 +772,7 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           }
         ],
         "words": [
@@ -584,6 +780,16 @@
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -599,7 +805,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "your friends",
@@ -611,14 +817,34 @@
           },
           {
             "text": "too",
-            "label": "状语"
+            "label": "副词"
           }
         ],
         "words": [
           {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "friends",
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
             "word": "tourists",
-            "pos": "n. pl.",
-            "meaning": "游客（复数）"
+            "pos": "n.",
+            "meaning": "游客"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "也"
           }
         ]
       }
@@ -634,7 +860,7 @@
         "grammar": [
           {
             "text": "Yes",
-            "label": "肯定回答"
+            "label": "回答词"
           },
           {
             "text": "they",
@@ -642,7 +868,7 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           }
         ],
         "words": [
@@ -650,6 +876,16 @@
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -664,23 +900,25 @@
       "analysis": {
         "grammar": [
           {
-            "text": "That",
-            "label": "主语"
-          },
-          {
-            "text": "'s",
-            "label": "系动词"
-          },
-          {
-            "text": "fine",
-            "label": "表语"
+            "text": "That's fine",
+            "label": "常用语"
           }
         ],
         "words": [
           {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "fine",
             "pos": "adj.",
-            "meaning": "好的，可以了"
+            "meaning": "好"
           }
         ]
       }
@@ -696,7 +934,7 @@
         "grammar": [
           {
             "text": "Thank you",
-            "label": "谓语+礼貌语"
+            "label": "谓语+宾语"
           },
           {
             "text": "very much",
@@ -705,14 +943,24 @@
         ],
         "words": [
           {
-            "word": "much",
-            "pos": "adv.",
-            "meaning": "多（在这里表示程度）"
+            "word": "Thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           },
           {
             "word": "very",
             "pos": "adv.",
             "meaning": "非常"
+          },
+          {
+            "word": "much",
+            "pos": "adv.",
+            "meaning": "多"
           }
         ]
       }

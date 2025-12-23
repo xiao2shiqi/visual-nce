@@ -1,6 +1,6 @@
 {
   "id": "nce1-l63",
-  "title": "Lesson 63: Thank You, Doctor.",
+  "title": "Lesson 63: Thank You, Doctor",
   "audio": "/audio/nce1/063&064－Thank You, Doctor..mp3",
   "image": "/images/coming-soon.png",
   "segments": [
@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 63",
-      "translation": "",
+      "translation": "第63课",
       "startTime": 0.78,
       "endTime": 3.44,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 63",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "63",
+            "pos": "num.",
+            "meaning": "六十三"
           }
         ]
       }
@@ -26,11 +36,20 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Thank you, doctor.",
-      "translation": "",
+      "translation": "谢谢你，医生。",
       "startTime": 3.45,
       "endTime": 6.44,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thank you",
+            "label": "礼貌用语"
+          },
+          {
+            "text": "doctor",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Thank",
@@ -38,9 +57,14 @@
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
           }
         ]
       }
@@ -49,21 +73,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.45,
       "endTime": 12.68,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -72,26 +139,63 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Who else is in bed today? Why?",
-      "translation": "",
+      "translation": "今天还有谁卧床休息？为什么？",
       "startTime": 12.69,
       "endTime": 19.21,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Who else",
+            "label": "疑问短语/主语"
+          },
+          {
+            "text": "is in bed",
+            "label": "谓语和状语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
+          },
+          {
+            "text": "Why",
+            "label": "疑问词"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
           },
           {
-            "word": "Today",
+            "word": "else",
+            "pos": "adv.",
+            "meaning": "别的/其他"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是/在"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
+          },
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
           }
         ]
       }
@@ -100,14 +204,46 @@
       "id": "s1",
       "role": "Narrator",
       "text": "How's Jimmy today?",
-      "translation": "",
+      "translation": "吉米今天怎么样了？",
       "startTime": 19.22,
       "endTime": 21.57,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "How",
+            "label": "疑问副词"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "Jimmy",
+            "label": "主语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "Today",
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           }
@@ -118,19 +254,43 @@
       "id": "s2",
       "role": "Man",
       "text": "Better.",
-      "translation": "",
+      "translation": "好些了。",
       "startTime": 21.58,
-      "endTime": 22.69
+      "endTime": 22.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Better",
+            "label": "形容词 (比较级)"
+          }
+        ],
+        "words": [
+          {
+            "word": "Better",
+            "pos": "adj.",
+            "meaning": "较好的/好转的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Woman",
       "text": "Thank you, doctor.",
-      "translation": "",
+      "translation": "谢谢，医生。",
       "startTime": 22.7,
       "endTime": 25,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thank you",
+            "label": "礼貌用语"
+          },
+          {
+            "text": "doctor",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
             "word": "Thank",
@@ -138,9 +298,14 @@
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
           }
         ]
       }
@@ -149,16 +314,63 @@
       "id": "s4",
       "role": "Man",
       "text": "Can I see him please, Mrs. Williams?",
-      "translation": "",
+      "translation": "威廉姆斯夫人，我能见见他吗？",
       "startTime": 25.01,
       "endTime": 29.27,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Can",
+            "label": "助动词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "see",
+            "label": "谓语"
+          },
+          {
+            "text": "him",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看/会见"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Williams",
+            "pos": "n.",
+            "meaning": "威廉姆斯"
           }
         ]
       }
@@ -167,52 +379,109 @@
       "id": "s5",
       "role": "Woman",
       "text": "Certainly, doctor.",
-      "translation": "",
+      "translation": "当然可以，医生。",
       "startTime": 29.28,
-      "endTime": 31.34
+      "endTime": 31.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Certainly",
+            "label": "修饰副词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Certainly",
+            "pos": "adv.",
+            "meaning": "当然"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "Come upstairs.",
-      "translation": "",
+      "translation": "上楼来吧。",
       "startTime": 31.35,
-      "endTime": 34.16
+      "endTime": 34.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Come",
+            "label": "谓语 (祈使)"
+          },
+          {
+            "text": "upstairs",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "upstairs",
+            "pos": "adv.",
+            "meaning": "往楼上/在楼上"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Woman",
       "text": "You look very well, Jimmy.",
-      "translation": "",
+      "translation": "吉米，你看上去身体很好。",
       "startTime": 34.17,
       "endTime": 37.08,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "look",
+            "label": "系动词"
+          },
+          {
+            "text": "very well",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Look",
+            "word": "look",
             "pos": "v.",
-            "meaning": "看"
+            "meaning": "看起来/神色"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
           },
           {
-            "word": "Well",
+            "word": "well",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "身体好的"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
           }
         ]
       }
@@ -221,21 +490,74 @@
       "id": "s8",
       "role": "Man",
       "text": "You are better now, but you mustn't get up yet.",
-      "translation": "",
+      "translation": "你现在好些了，但你还不该起床。",
       "startTime": 37.09,
       "endTime": 42.59,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "You are better now",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "you mustn't get up yet",
+            "label": "分句2"
           }
         ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "better",
+            "pos": "adj.",
+            "meaning": "好些的"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "mustn't",
+            "pos": "v.aux.",
+            "meaning": "不该/禁止"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "变/得"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "向上 (与get构成起床)"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还/尚"
           }
         ]
       }
@@ -244,16 +566,73 @@
       "id": "s9",
       "role": "Woman",
       "text": "You must stay in bed for another two days.",
-      "translation": "",
+      "translation": "你必须再卧床休息两天。",
       "startTime": 42.6,
       "endTime": 48.31,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "must stay",
+            "label": "谓语"
+          },
+          {
+            "text": "in bed",
+            "label": "地点状语"
+          },
+          {
+            "text": "for another two days",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "停留/呆在"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "计（时长）"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一个/再一"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "天（复数）"
           }
         ]
       }
@@ -262,16 +641,73 @@
       "id": "s10",
       "role": "Man",
       "text": "The boy mustn't go to school yet, Mrs. Williams.",
-      "translation": "",
+      "translation": "威廉姆斯夫人，这孩子还不该去上学。",
       "startTime": 48.32,
       "endTime": 53.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The boy",
+            "label": "主语"
+          },
+          {
+            "text": "mustn't go",
+            "label": "谓语"
+          },
+          {
+            "text": "to school",
+            "label": "地点状语"
+          },
+          {
+            "text": "yet",
+            "label": "时间副词"
+          }
+        ],
         "words": [
           {
-            "word": "School",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "boy",
             "pos": "n.",
-            "meaning": "学校"
+            "meaning": "男孩"
+          },
+          {
+            "word": "mustn't",
+            "pos": "v.aux.",
+            "meaning": "不该/禁止"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到/向"
+          },
+          {
+            "word": "school",
+            "pos": "n.",
+            "meaning": "学校/上学"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Williams",
+            "pos": "n.",
+            "meaning": "威廉姆斯"
           }
         ]
       }
@@ -280,15 +716,67 @@
       "id": "s11",
       "role": "Woman",
       "text": "And he mustn't eat rich food.",
-      "translation": "",
+      "translation": "他还不该吃油腻的食物。",
       "startTime": 53.21,
-      "endTime": 58.1
+      "endTime": 58.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "And",
+            "label": "连接词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "mustn't eat",
+            "label": "谓语"
+          },
+          {
+            "text": "rich food",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "mustn't",
+            "pos": "v.aux.",
+            "meaning": "不该/禁止"
+          },
+          {
+            "word": "eat",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "rich",
+            "pos": "adj.",
+            "meaning": "油腻的/丰富的"
+          },
+          {
+            "word": "food",
+            "pos": "n.",
+            "meaning": "食物"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "Does he have a temperature, doctor?",
-      "translation": "",
+      "translation": "医生，他发烧吗？",
       "startTime": 58.11,
       "endTime": 62.08,
       "analysis": {
@@ -296,24 +784,92 @@
           {
             "text": "Does",
             "label": "助动词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "have a temperature",
+            "label": "谓语短语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "temperature",
+            "pos": "n.",
+            "meaning": "体温/发烧"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Woman",
       "text": "No, he doesn't.",
-      "translation": "",
+      "translation": "不，他不发烧。",
       "startTime": 62.09,
-      "endTime": 64.05
+      "endTime": 64.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "he doesn't",
+            "label": "简短回答"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "doesn't",
+            "pos": "v.aux.",
+            "meaning": "不（代指does not have a temperature）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Man",
       "text": "Must he stay in bed?",
-      "translation": "",
+      "translation": "他必须卧床吗？",
       "startTime": 64.06,
       "endTime": 67.05,
       "analysis": {
@@ -321,25 +877,121 @@
           {
             "text": "Must",
             "label": "情态动词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "stay in bed",
+            "label": "谓语短语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "停留/呆在"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          }
+        ]
       }
     },
     {
       "id": "s15",
       "role": "Woman",
       "text": "Yes. He must remain in bed for another two days.",
-      "translation": "",
+      "translation": "是的，他必须再卧床休息两天。",
       "startTime": 67.06,
       "endTime": 72.83,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "must remain",
+            "label": "谓语"
+          },
+          {
+            "text": "in bed",
+            "label": "地点状语"
+          },
+          {
+            "text": "for another two days",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "remain",
+            "pos": "v.",
+            "meaning": "保持/呆在"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "计（时长）"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一个/再一个"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "天"
           }
         ]
       }
@@ -348,16 +1000,109 @@
       "id": "s16",
       "role": "Man",
       "text": "He can get up for about two hours each day, but you must keep the room warm.",
-      "translation": "",
+      "translation": "他每天可以起床活动约两个小时，但你必须保持房间温暖。",
       "startTime": 72.84,
       "endTime": 83.48,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He can get up for about two hours each day",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "you must keep the room warm",
+            "label": "分句2"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "他"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "变得"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "向上"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "计（时长）"
+          },
+          {
+            "word": "about",
+            "pos": "adv.",
+            "meaning": "大约"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "hours",
+            "pos": "n.",
+            "meaning": "小时（复数）"
+          },
+          {
+            "word": "each",
+            "pos": "det.",
+            "meaning": "每个"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "keep",
+            "pos": "v.",
+            "meaning": "保持"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "温暖的"
           }
         ]
       }
@@ -366,21 +1111,58 @@
       "id": "s17",
       "role": "Woman",
       "text": "Where's Mr. Williams this evening?",
-      "translation": "",
+      "translation": "请问威廉姆斯先生今晚在哪儿？",
       "startTime": 83.49,
       "endTime": 87.34,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Where",
+            "label": "疑问副词"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "Mr. Williams",
+            "label": "主语"
+          },
+          {
+            "text": "this evening",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Williams",
+            "pos": "n.",
+            "meaning": "威廉姆斯"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "傍晚"
           }
         ]
       }
@@ -389,27 +1171,102 @@
       "id": "s18",
       "role": "Man",
       "text": "He's in bed, doctor.",
-      "translation": "",
+      "translation": "医生，他也卧床休息了。",
       "startTime": 87.35,
-      "endTime": 90.47
+      "endTime": 90.47,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "in bed",
+            "label": "状语/表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
       "role": "Woman",
       "text": "Can you see him please?",
-      "translation": "",
+      "translation": "请你也给他看看好吗？",
       "startTime": 90.48,
       "endTime": 93.23,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "Can",
+            "label": "助动词"
           },
           {
-            "word": "Please",
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "see",
+            "label": "谓语"
+          },
+          {
+            "text": "him",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看/诊治"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -420,19 +1277,56 @@
       "id": "s20",
       "role": "Man",
       "text": "He has a bad cold, too!",
-      "translation": "",
+      "translation": "他也得了重感冒！",
       "startTime": 93.24,
       "endTime": 98.24,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Cold",
-            "pos": "adj.",
-            "meaning": "冷的"
+            "text": "He",
+            "label": "主语"
           },
           {
-            "word": "Too",
+            "text": "has",
+            "label": "谓语"
+          },
+          {
+            "text": "a bad cold",
+            "label": "宾语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "有/得了"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bad",
+            "pos": "adj.",
+            "meaning": "严重的"
+          },
+          {
+            "word": "cold",
+            "pos": "n.",
+            "meaning": "感冒"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }

@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 81",
-      "translation": "",
+      "translation": "第81课",
       "startTime": 0.57,
       "endTime": 3.04,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 81",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "81",
+            "pos": "num.",
+            "meaning": "八十一"
           }
         ]
       }
@@ -26,29 +36,110 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Roast beef and potatoes",
-      "translation": "",
+      "translation": "烤牛肉和土豆",
       "startTime": 3.05,
-      "endTime": 6.91
+      "endTime": 6.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Roast beef",
+            "label": "名词短语"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "potatoes",
+            "label": "名词复数"
+          }
+        ],
+        "words": [
+          {
+            "word": "Roast",
+            "pos": "adj.",
+            "meaning": "烤的"
+          },
+          {
+            "word": "beef",
+            "pos": "n.",
+            "meaning": "牛肉"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "potatoes",
+            "pos": "n.",
+            "meaning": "土豆"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.92,
       "endTime": 12.4,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,21 +148,48 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why is Carol disappointed?",
-      "translation": "",
+      "translation": "卡罗尔为什么感到失望？",
       "startTime": 12.41,
       "endTime": 17,
       "analysis": {
         "grammar": [
           {
+            "text": "Why",
+            "label": "疑问词"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "Carol",
+            "label": "主语"
+          },
+          {
+            "text": "disappointed",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
+          },
+          {
+            "word": "disappointed",
+            "pos": "adj.",
+            "meaning": "失望的"
           }
         ]
       }
@@ -80,48 +198,195 @@
       "id": "s1",
       "role": "Man",
       "text": "Hi, Carol! Where's Tom?",
-      "translation": "",
+      "translation": "你好，卡罗尔！汤姆在哪儿？",
       "startTime": 17.01,
-      "endTime": 20.32
+      "endTime": 20.32,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hi",
+            "label": "招呼语"
+          },
+          {
+            "text": "Carol",
+            "label": "呼语"
+          },
+          {
+            "text": "Where",
+            "label": "疑问词/表语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "Tom",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hi",
+            "pos": "int.",
+            "meaning": "嗨"
+          },
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
+          },
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "He's upstairs.",
-      "translation": "",
+      "translation": "他在楼上。",
       "startTime": 20.33,
-      "endTime": 22.38
+      "endTime": 22.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "upstairs",
+            "label": "表语/状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是/在"
+          },
+          {
+            "word": "upstairs",
+            "pos": "adv.",
+            "meaning": "在楼上"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Woman",
       "text": "He's having a bath.",
-      "translation": "",
+      "translation": "他正在洗澡。",
       "startTime": 22.39,
-      "endTime": 24.59
+      "endTime": 24.59,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s having",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "a bath",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "having",
+            "pos": "v.",
+            "meaning": "进行/洗"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bath",
+            "pos": "n.",
+            "meaning": "洗澡"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "Tom!",
-      "translation": "",
+      "translation": "汤姆！",
       "startTime": 24.6,
-      "endTime": 26.77
+      "endTime": 26.77,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Tom",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "Yes?",
-      "translation": "",
+      "translation": "什么事？",
       "startTime": 26.78,
       "endTime": 28.27,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "应答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
-            "pos": "adv.",
-            "meaning": "是的"
+            "pos": "int.",
+            "meaning": "是的/什么事"
           }
         ]
       }
@@ -130,14 +395,37 @@
       "id": "s6",
       "role": "Woman",
       "text": "Sam's here.",
-      "translation": "",
+      "translation": "萨姆在这儿呢。",
       "startTime": 28.28,
       "endTime": 30.14,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Sam",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "here",
+            "label": "表语/状语"
+          }
+        ],
         "words": [
           {
-            "word": "Here",
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "在"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
             "meaning": "这里"
           }
@@ -148,40 +436,146 @@
       "id": "s7",
       "role": "Man",
       "text": "I'm nearly ready.",
-      "translation": "",
+      "translation": "我这就穿好了。",
       "startTime": 30.15,
-      "endTime": 32.83
+      "endTime": 32.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "am",
+            "label": "系词"
+          },
+          {
+            "text": "nearly ready",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎/快要"
+          },
+          {
+            "word": "ready",
+            "pos": "adj.",
+            "meaning": "准备好的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "Hello, Sam.",
-      "translation": "",
+      "translation": "你好，萨姆。",
       "startTime": 32.84,
-      "endTime": 34.68
+      "endTime": 34.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hello",
+            "label": "招呼语"
+          },
+          {
+            "text": "Sam",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hello",
+            "pos": "int.",
+            "meaning": "你好"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "Have a cigarette.",
-      "translation": "",
+      "translation": "抽烟吗？",
       "startTime": 34.69,
-      "endTime": 36.58
+      "endTime": 36.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Have",
+            "label": "谓语 (祈使/招待)"
+          },
+          {
+            "text": "a cigarette",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Have",
+            "pos": "v.",
+            "meaning": "吃/抽/享用"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一支"
+          },
+          {
+            "word": "cigarette",
+            "pos": "n.",
+            "meaning": "香烟"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "No, thanks, Tom.",
-      "translation": "",
+      "translation": "不，谢谢，汤姆。",
       "startTime": 36.59,
       "endTime": 39.05,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No, thanks",
+            "label": "礼貌谢绝"
+          }
+        ],
         "words": [
           {
-            "word": "Thanks",
-            "pos": "n.",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "thanks",
+            "pos": "int.",
             "meaning": "谢谢"
+          },
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
           }
         ]
       }
@@ -190,31 +584,99 @@
       "id": "s11",
       "role": "Man",
       "text": "Have a glass of whisky then.",
-      "translation": "",
+      "translation": "那么，喝杯威士忌吧。",
       "startTime": 39.06,
-      "endTime": 41.69
+      "endTime": 41.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Have",
+            "label": "谓语 (祈使)"
+          },
+          {
+            "text": "a glass of whisky",
+            "label": "宾语 (短语)"
+          },
+          {
+            "text": "then",
+            "label": "语气词/那么"
+          }
+        ],
+        "words": [
+          {
+            "word": "Have",
+            "pos": "v.",
+            "meaning": "喝/享用"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "glass",
+            "pos": "n.",
+            "meaning": "玻璃杯"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之于"
+          },
+          {
+            "word": "whisky",
+            "pos": "n.",
+            "meaning": "威士忌"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那么"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "OK.",
-      "translation": "",
+      "translation": "好。",
       "startTime": 41.7,
-      "endTime": 42.57
+      "endTime": 42.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "OK",
+            "label": "同意"
+          }
+        ],
+        "words": [
+          {
+            "word": "OK",
+            "pos": "int.",
+            "meaning": "行/可以"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "Thanks.",
-      "translation": "",
+      "translation": "谢谢。",
       "startTime": 42.58,
       "endTime": 44.17,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thanks",
+            "label": "致谢"
+          }
+        ],
         "words": [
           {
             "word": "Thanks",
-            "pos": "n.",
+            "pos": "int.",
             "meaning": "谢谢"
           }
         ]
@@ -223,15 +685,27 @@
     {
       "id": "s14",
       "role": "Woman",
-      "text": "Is dinnner ready, Carol?",
-      "translation": "",
+      "text": "Is dinner ready, Carol?",
+      "translation": "卡罗尔，饭好了吗？",
       "startTime": 44.18,
       "endTime": 47.83,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "dinner",
+            "label": "主语"
+          },
+          {
+            "text": "ready",
+            "label": "表语"
+          },
+          {
+            "text": "Carol",
+            "label": "呼语"
           }
         ],
         "words": [
@@ -239,6 +713,21 @@
             "word": "Is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "dinner",
+            "pos": "n.",
+            "meaning": "正餐/晚饭"
+          },
+          {
+            "word": "ready",
+            "pos": "adj.",
+            "meaning": "准备好的"
+          },
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
           }
         ]
       }
@@ -247,33 +736,109 @@
       "id": "s15",
       "role": "Man",
       "text": "It's nearly ready.",
-      "translation": "",
+      "translation": "快好了。",
       "startTime": 47.84,
       "endTime": 50.11,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "nearly ready",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎/快要"
+          },
+          {
+            "word": "ready",
+            "pos": "adj.",
+            "meaning": "准备好的"
+          }
+        ]
       }
     },
     {
       "id": "s16",
       "role": "Woman",
       "text": "We can have dinner at seven o'clock.",
-      "translation": "",
+      "translation": "我们7点钟可以开饭。",
       "startTime": 50.12,
       "endTime": 54.79,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "can have",
+            "label": "谓语"
+          },
+          {
+            "text": "dinner",
+            "label": "宾语"
+          },
+          {
+            "text": "at seven o'clock",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能/可以"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "dinner",
+            "pos": "n.",
+            "meaning": "晚饭"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "seven",
+            "pos": "num.",
+            "meaning": "七"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -282,14 +847,65 @@
       "id": "s17",
       "role": "Man",
       "text": "Sam and I had lunch together today.",
-      "translation": "",
+      "translation": "萨姆和我今天一起吃了午饭。",
       "startTime": 54.8,
       "endTime": 58.62,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Sam and I",
+            "label": "复合主语"
+          },
+          {
+            "text": "had",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "lunch",
+            "label": "宾语"
+          },
+          {
+            "text": "together",
+            "label": "状语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "Today",
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "吃（have过去式）"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午饭"
+          },
+          {
+            "word": "together",
+            "pos": "adv.",
+            "meaning": "在一起"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           }
@@ -300,22 +916,77 @@
       "id": "s18",
       "role": "Woman",
       "text": "We went to a restaurant.",
-      "translation": "",
+      "translation": "我们去了一家饭馆。",
       "startTime": 58.63,
-      "endTime": 61.29
+      "endTime": 61.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "went",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "to a restaurant",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "went",
+            "pos": "v.",
+            "meaning": "去（go过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "restaurant",
+            "pos": "n.",
+            "meaning": "饭馆"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
       "role": "Narrator",
       "text": "What did you have?",
-      "translation": "",
+      "translation": "你们吃了什么？",
       "startTime": 61.3,
       "endTime": 63.41,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
+          },
+          {
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
           }
         ],
         "words": [
@@ -325,9 +996,19 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你/你们"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "吃"
           }
         ]
       }
@@ -336,40 +1017,230 @@
       "id": "s20",
       "role": "Man",
       "text": "We had roast beef and potatoes.",
-      "translation": "",
+      "translation": "我们吃的是烤牛肉和土豆。",
       "startTime": 63.42,
-      "endTime": 67.48
+      "endTime": 67.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "had",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "roast beef and potatoes",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "吃（过去式）"
+          },
+          {
+            "word": "roast",
+            "pos": "adj.",
+            "meaning": "烤的"
+          },
+          {
+            "word": "beef",
+            "pos": "n.",
+            "meaning": "牛肉"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "potatoes",
+            "pos": "n.",
+            "meaning": "土豆"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
       "role": "Woman",
       "text": "Oh!",
-      "translation": "",
+      "translation": "噢！",
       "startTime": 67.49,
-      "endTime": 68.7
+      "endTime": 68.7,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Oh",
+            "label": "感叹词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Oh",
+            "pos": "int.",
+            "meaning": "噢（表示惊讶或领悟）"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
-      "role": "Narrator",
+      "role": "Man",
       "text": "What's the matter, Carol?",
-      "translation": "",
+      "translation": "怎么了，卡罗尔？",
       "startTime": 68.71,
-      "endTime": 71.04
+      "endTime": 71.04,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词/主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the matter",
+            "label": "表语"
+          },
+          {
+            "text": "Carol",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这/那"
+          },
+          {
+            "word": "matter",
+            "pos": "n.",
+            "meaning": "事情/麻烦"
+          },
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
       "role": "Man",
       "text": "Well, you're going to have roast beef and potatoes again tonight!",
-      "translation": "",
+      "translation": "唉，今晚你又要吃烤牛肉和土豆了！",
       "startTime": 71.05,
       "endTime": 76.05,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Well",
+            "label": "语气词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "are going to have",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "roast beef and potatoes",
+            "label": "宾语"
+          },
+          {
+            "text": "again",
+            "label": "状语"
+          },
+          {
+            "text": "tonight",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "Well",
+            "pos": "int.",
+            "meaning": "唉/好吧"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "roast",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "烤的"
+          },
+          {
+            "word": "beef",
+            "pos": "n.",
+            "meaning": "牛肉"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "potatoes",
+            "pos": "n.",
+            "meaning": "土豆"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
+          },
+          {
+            "word": "tonight",
+            "pos": "adv.",
+            "meaning": "今晚"
           }
         ]
       }

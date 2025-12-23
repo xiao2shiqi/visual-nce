@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 97",
-      "translation": "",
+      "translation": "第97课",
       "startTime": 0.57,
       "endTime": 2.82,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 97",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "97",
+            "pos": "num.",
+            "meaning": "九十七"
           }
         ]
       }
@@ -26,16 +36,36 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A small blue case",
-      "translation": "",
+      "translation": "一只蓝色的小箱子",
       "startTime": 2.83,
       "endTime": 7.02,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "A small blue case",
+            "label": "名词短语/标题"
+          }
+        ],
         "words": [
           {
-            "word": "Blue",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "blue",
             "pos": "adj.",
             "meaning": "蓝色的"
+          },
+          {
+            "word": "case",
+            "pos": "n.",
+            "meaning": "箱子"
           }
         ]
       }
@@ -44,21 +74,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 7.03,
       "endTime": 12.78,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,54 +140,202 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Does Mr. Hall get his case back?",
-      "translation": "",
+      "translation": "霍尔先生有没有要回他的箱子？",
       "startTime": 12.79,
       "endTime": 18.39,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Does",
+            "label": "助动词"
+          },
+          {
+            "text": "Mr. Hall",
+            "label": "主语"
+          },
+          {
+            "text": "get his case back",
+            "label": "谓语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Hall",
+            "pos": "n.",
+            "meaning": "霍尔"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "case",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "回"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "I left a suitcase on the train to London the other day.",
-      "translation": "",
+      "translation": "几天前我把一只行李箱忘在开往伦敦的火车上了。",
       "startTime": 18.4,
-      "endTime": 24.38
+      "endTime": 24.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "left",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "a suitcase",
+            "label": "宾语"
+          },
+          {
+            "text": "on the train to London",
+            "label": "地点状语"
+          },
+          {
+            "text": "the other day",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "left",
+            "pos": "v.",
+            "meaning": "遗忘/离开（leave过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "suitcase",
+            "pos": "n.",
+            "meaning": "行李箱"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "日子"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "Can you describe it, sir?",
-      "translation": "",
+      "translation": "您能描述一下吗，先生？",
       "startTime": 24.39,
       "endTime": 27.8,
       "analysis": {
         "grammar": [
           {
+            "text": "Can you describe",
+            "label": "谓语 (情态疑问)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
+          },
+          {
+            "text": "sir",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "It",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "describe",
+            "pos": "v.",
+            "meaning": "描述"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -125,60 +346,182 @@
       "id": "s3",
       "role": "Man",
       "text": "It's a small blue case and it's got a zip.",
-      "translation": "",
+      "translation": "它是一只蓝色的小箱子，有一个拉链。",
       "startTime": 27.81,
       "endTime": 34.26,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It is a small blue case",
+            "label": "分句1"
           },
           {
-            "text": "its",
-            "label": "形容词性物主代词"
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "it's got a zip",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Blue",
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "blue",
             "pos": "adj.",
             "meaning": "蓝色的"
+          },
+          {
+            "word": "case",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "zip",
+            "pos": "n.",
+            "meaning": "拉链"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Man",
       "text": "There's a label on the handle with my name and address on it.",
-      "translation": "",
+      "translation": "把手上有一个标签，上面写着我的名字和地址。",
       "startTime": 34.27,
       "endTime": 40.4,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "There is",
+            "label": "存在句"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "a label",
+            "label": "主语"
+          },
+          {
+            "text": "on the handle",
+            "label": "地点状语"
+          },
+          {
+            "text": "with my name and address on it",
+            "label": "修饰语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "There",
             "pos": "pron.",
+            "meaning": "有"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "label",
+            "pos": "n.",
+            "meaning": "标签"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "handle",
+            "pos": "n.",
+            "meaning": "把手"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "带有"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "Name",
+            "word": "name",
             "pos": "n.",
             "meaning": "名字"
           },
           {
-            "word": "It",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "address",
+            "pos": "n.",
+            "meaning": "地址"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -187,20 +530,24 @@
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Woman",
       "text": "Is this case yours?",
-      "translation": "",
+      "translation": "这只箱子是您的吗？",
       "startTime": 40.41,
       "endTime": 43.13,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "this case",
+            "label": "主语"
+          },
+          {
+            "text": "yours",
+            "label": "表语"
           }
         ],
         "words": [
@@ -210,47 +557,94 @@
             "meaning": "是"
           },
           {
-            "word": "This",
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "case",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "yours",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你的（名词性物主代词）"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Man",
       "text": "No, that's not mine.",
-      "translation": "",
+      "translation": "不，那不是我的。",
       "startTime": 43.14,
       "endTime": 45.82,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定"
+          },
+          {
+            "text": "that",
+            "label": "主语"
+          },
+          {
+            "text": "is not",
+            "label": "系词 (否定)"
+          },
+          {
+            "text": "mine",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "No",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "that",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "mine",
+            "pos": "pron.",
+            "meaning": "我的（名词性物主代词）"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Narrator",
+      "role": "Woman",
       "text": "What about this one?",
-      "translation": "",
+      "translation": "这只呢？",
       "startTime": 45.83,
       "endTime": 48.24,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What about",
+            "label": "疑问短语"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "this one",
+            "label": "宾语"
           }
         ],
         "words": [
@@ -260,62 +654,115 @@
             "meaning": "什么"
           },
           {
-            "word": "This",
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于/怎么样"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "一个（代指箱子）"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Woman",
       "text": "This one's got a label.",
-      "translation": "",
+      "translation": "这只有标签。",
       "startTime": 48.25,
       "endTime": 51.5,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This one",
+            "label": "主语"
+          },
+          {
+            "text": "'s got",
+            "label": "谓语"
+          },
+          {
+            "text": "a label",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "This",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "一个"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "label",
+            "pos": "n.",
+            "meaning": "标签"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Man",
       "text": "Let me see it.",
-      "translation": "",
+      "translation": "让我看看它。",
       "startTime": 51.51,
       "endTime": 53.97,
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Let me see",
+            "label": "祈使句"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "Let",
+            "pos": "v.",
+            "meaning": "让"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "It",
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -324,28 +771,56 @@
     },
     {
       "id": "s10",
-      "role": "Narrator",
+      "role": "Woman",
       "text": "What's your name and address?",
-      "translation": "",
+      "translation": "您叫什么名字？住在哪里？",
       "startTime": 53.98,
       "endTime": 57.49,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "What",
+            "label": "疑问词/表语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "your name and address",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "Your",
+            "word": "What",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "什么"
           },
           {
-            "word": "Name",
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "name",
             "pos": "n.",
             "meaning": "名字"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "address",
+            "pos": "n.",
+            "meaning": "地址"
           }
         ]
       }
@@ -354,38 +829,175 @@
       "id": "s11",
       "role": "Man",
       "text": "David Hall, 83, Bridge Street.",
-      "translation": "",
+      "translation": "大卫·霍尔，布里奇大街83号。",
       "startTime": 57.5,
-      "endTime": 62.63
+      "endTime": 62.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "David Hall, 83, Bridge Street",
+            "label": "姓名与地址"
+          }
+        ],
+        "words": [
+          {
+            "word": "David",
+            "pos": "n.",
+            "meaning": "大卫"
+          },
+          {
+            "word": "Hall",
+            "pos": "n.",
+            "meaning": "霍尔"
+          },
+          {
+            "word": "83",
+            "pos": "num.",
+            "meaning": "八十三"
+          },
+          {
+            "word": "Bridge",
+            "pos": "n.",
+            "meaning": "布里奇"
+          },
+          {
+            "word": "Street",
+            "pos": "n.",
+            "meaning": "街"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "That's right.",
-      "translation": "",
+      "translation": "对了。",
       "startTime": 62.64,
-      "endTime": 64.13
+      "endTime": 64.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "right",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "正确的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Woman",
       "text": "D. N. Hall, 83, Bridge Street.",
-      "translation": "",
+      "translation": "D·N·霍尔，布里奇大街83号。",
       "startTime": 64.14,
-      "endTime": 69.98
+      "endTime": 69.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "D. N. Hall, 83, Bridge Street",
+            "label": "姓名与地址"
+          }
+        ],
+        "words": [
+          {
+            "word": "D.",
+            "pos": "n.",
+            "meaning": "D（首字母）"
+          },
+          {
+            "word": "N.",
+            "pos": "n.",
+            "meaning": "N（首字母）"
+          },
+          {
+            "word": "Hall",
+            "pos": "n.",
+            "meaning": "霍尔"
+          },
+          {
+            "word": "83",
+            "pos": "num.",
+            "meaning": "八十三"
+          },
+          {
+            "word": "Bridge",
+            "pos": "n.",
+            "meaning": "布里奇"
+          },
+          {
+            "word": "Street",
+            "pos": "n.",
+            "meaning": "街"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "Three pounds fifty pence, please.",
-      "translation": "",
+      "translation": "请付3英镑50便士。",
       "startTime": 69.99,
       "endTime": 73.68,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Three pounds fifty pence",
+            "label": "金额"
+          },
+          {
+            "text": "please",
+            "label": "语气词"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "pounds",
+            "pos": "n.",
+            "meaning": "英镑"
+          },
+          {
+            "word": "fifty",
+            "pos": "num.",
+            "meaning": "五十"
+          },
+          {
+            "word": "pence",
+            "pos": "n.",
+            "meaning": "便士"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -396,14 +1008,14 @@
       "id": "s15",
       "role": "Man",
       "text": "Here you are.",
-      "translation": "",
+      "translation": "给你。",
       "startTime": 73.69,
       "endTime": 75.51,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Here you are",
+            "label": "习惯用语"
           }
         ],
         "words": [
@@ -413,9 +1025,14 @@
             "meaning": "这里"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "（习惯用语）"
           }
         ]
       }
@@ -424,11 +1041,16 @@
       "id": "s16",
       "role": "Woman",
       "text": "Thank you.",
-      "translation": "",
+      "translation": "谢谢。",
       "startTime": 75.52,
       "endTime": 76.88,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thank you",
+            "label": "习惯用语"
+          }
+        ],
         "words": [
           {
             "word": "Thank",
@@ -436,9 +1058,9 @@
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -447,44 +1069,121 @@
       "id": "s17",
       "role": "Man",
       "text": "Hey!",
-      "translation": "",
+      "translation": "嘿！",
       "startTime": 76.89,
-      "endTime": 78.1
+      "endTime": 78.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hey",
+            "label": "感叹词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hey",
+            "pos": "int.",
+            "meaning": "嘿"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
-      "role": "Narrator",
+      "role": "Woman",
       "text": "What's the matter?",
-      "translation": "",
+      "translation": "怎么回事？",
       "startTime": 78.11,
-      "endTime": 80.08
+      "endTime": 80.08,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词/表语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the matter",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "matter",
+            "pos": "n.",
+            "meaning": "问题/事情"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
       "role": "Man",
       "text": "This case doesn't belong to me!",
-      "translation": "",
+      "translation": "这只箱子不是我的！",
       "startTime": 80.09,
       "endTime": 84.55,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This case",
+            "label": "主语"
+          },
+          {
+            "text": "does not belong to",
+            "label": "谓语 (否定)"
           },
           {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这"
           },
           {
-            "word": "Me",
+            "word": "case",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "doesn't",
+            "pos": "v.aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "belong",
+            "pos": "v.",
+            "meaning": "属于"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "于"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           }
@@ -493,23 +1192,65 @@
     },
     {
       "id": "s20",
-      "role": "Woman",
+      "role": "Man",
       "text": "You've given me the wrong case!",
-      "translation": "",
+      "translation": "你给错箱子了！",
       "startTime": 84.56,
       "endTime": 89.56,
       "analysis": {
         "grammar": [
           {
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "'ve given",
+            "label": "谓语 (完成时)"
+          },
+          {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "间接宾语"
+          },
+          {
+            "text": "the wrong case",
+            "label": "直接宾语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "given",
+            "pos": "v.",
+            "meaning": "给（give过去分词）"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "wrong",
+            "pos": "adj.",
+            "meaning": "错误的"
+          },
+          {
+            "word": "case",
+            "pos": "n.",
+            "meaning": "箱子"
           }
         ]
       }

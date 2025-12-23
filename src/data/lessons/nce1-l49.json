@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 49",
-      "translation": "",
+      "translation": "第49课",
       "startTime": 0.64,
       "endTime": 3.04,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 49",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "49",
+            "pos": "num.",
+            "meaning": "四十九"
           }
         ]
       }
@@ -26,16 +36,31 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "At the butcher's",
-      "translation": "",
+      "translation": "在肉店里",
       "startTime": 3.05,
       "endTime": 5.65,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "At the butcher's",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在...里/到...去"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "butcher's",
+            "pos": "n.",
+            "meaning": "肉店"
           }
         ]
       }
@@ -44,21 +69,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.66,
       "endTime": 11.37,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,14 +135,26 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What does Mr. Bird like?",
-      "translation": "",
+      "translation": "伯德先生喜欢什么？",
       "startTime": 11.38,
       "endTime": 15.7,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问代词/宾语"
+          },
+          {
+            "text": "does",
+            "label": "助动词"
+          },
+          {
+            "text": "Mr. Bird",
+            "label": "主语"
+          },
+          {
+            "text": "like",
+            "label": "谓语动词"
           }
         ],
         "words": [
@@ -82,6 +162,26 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Bird",
+            "pos": "n.",
+            "meaning": "伯德"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
           }
         ]
       }
@@ -90,21 +190,68 @@
       "id": "s1",
       "role": "Man",
       "text": "Do you want any meat today, Mrs. Bird?",
-      "translation": "",
+      "translation": "伯德夫人，您今天买点肉吗？",
       "startTime": 15.71,
       "endTime": 20.63,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "Do you want",
+            "label": "一般疑问句"
           },
           {
-            "word": "Today",
+            "text": "any meat",
+            "label": "宾语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
+          },
+          {
+            "text": "Mrs. Bird",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "meat",
+            "pos": "n.",
+            "meaning": "肉"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Bird",
+            "pos": "n.",
+            "meaning": "伯德"
           }
         ]
       }
@@ -113,11 +260,20 @@
       "id": "s2",
       "role": "Woman",
       "text": "Yes, please.",
-      "translation": "",
+      "translation": "是的，我想买点。",
       "startTime": 20.64,
       "endTime": 23.29,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -125,7 +281,7 @@
             "meaning": "是的"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -136,16 +292,50 @@
       "id": "s3",
       "role": "Man",
       "text": "Do you want beef or lamb?",
-      "translation": "",
+      "translation": "您要牛肉还是羔羊肉？",
       "startTime": 23.3,
       "endTime": 27.04,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you want",
+            "label": "选择疑问句核心"
+          },
+          {
+            "text": "beef or lamb",
+            "label": "宾语 (选择)"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "beef",
+            "pos": "n.",
+            "meaning": "牛肉"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "lamb",
+            "pos": "n.",
+            "meaning": "羔羊肉"
           }
         ]
       }
@@ -154,14 +344,28 @@
       "id": "s4",
       "role": "Woman",
       "text": "Beef, please.",
-      "translation": "",
+      "translation": "请给我牛肉。",
       "startTime": 27.05,
       "endTime": 29.76,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Beef",
+            "label": "核心成分"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Beef",
+            "pos": "n.",
+            "meaning": "牛肉"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -172,30 +376,49 @@
       "id": "s5",
       "role": "Man",
       "text": "This lamb's very good.",
-      "translation": "",
+      "translation": "这羔羊肉很好。",
       "startTime": 29.77,
       "endTime": 33.74,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This lamb",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "very good",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
-            "word": "Very",
+            "word": "lamb",
+            "pos": "n.",
+            "meaning": "羔羊肉"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
           }
         ]
       }
@@ -204,21 +427,59 @@
       "id": "s6",
       "role": "Woman",
       "text": "I like lamb, but my husband doesn't.",
-      "translation": "",
+      "translation": "我喜欢羔羊肉，但我丈夫不喜欢。",
       "startTime": 33.75,
       "endTime": 38.61,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I like lamb",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "my husband doesn't",
+            "label": "分句2 (省略)"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "lamb",
+            "pos": "n.",
+            "meaning": "羔羊肉"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          },
+          {
+            "word": "doesn't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
           }
         ]
       }
@@ -227,14 +488,18 @@
       "id": "s7",
       "role": "Narrator",
       "text": "What about some steak?",
-      "translation": "",
+      "translation": "买点牛排吗？",
       "startTime": 38.62,
       "endTime": 41.56,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What about",
+            "label": "提建议"
+          },
+          {
+            "text": "some steak",
+            "label": "对象"
           }
         ],
         "words": [
@@ -242,6 +507,21 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "steak",
+            "pos": "n.",
+            "meaning": "牛排"
           }
         ]
       }
@@ -250,35 +530,49 @@
       "id": "s8",
       "role": "Man",
       "text": "This is a nice piece.",
-      "translation": "",
+      "translation": "这是一块很好的肉。",
       "startTime": 41.57,
       "endTime": 44.99,
       "analysis": {
         "grammar": [
           {
             "text": "This",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "a nice piece",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Nice",
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "nice",
             "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "meaning": "好的"
+          },
+          {
+            "word": "piece",
+            "pos": "n.",
+            "meaning": "块"
           }
         ]
       }
@@ -287,33 +581,47 @@
       "id": "s9",
       "role": "Woman",
       "text": "Give me that piece, please.",
-      "translation": "",
+      "translation": "请把那块给我。",
       "startTime": 45,
       "endTime": 48.26,
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Give me",
+            "label": "祈使句核心/双宾"
           },
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "that piece",
+            "label": "直接宾语"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "Give",
+            "pos": "v.",
+            "meaning": "给"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "that",
+            "pos": "det.",
             "meaning": "那个"
           },
           {
-            "word": "Please",
+            "word": "piece",
+            "pos": "n.",
+            "meaning": "块"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -324,14 +632,52 @@
       "id": "s10",
       "role": "Man",
       "text": "And a pound of mince, too.",
-      "translation": "",
+      "translation": "还要一磅肉馅。",
       "startTime": 48.27,
       "endTime": 52.95,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "And",
+            "label": "连词"
+          },
+          {
+            "text": "a pound of mince",
+            "label": "名词短语"
+          },
+          {
+            "text": "too",
+            "label": "状态/状语"
+          }
+        ],
         "words": [
           {
-            "word": "Too",
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "和/再有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "pound",
+            "pos": "n.",
+            "meaning": "磅"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "mince",
+            "pos": "n.",
+            "meaning": "肉泥/肉馅"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -342,16 +688,59 @@
       "id": "s11",
       "role": "Woman",
       "text": "Do you want a chicken, Mrs. Bird?",
-      "translation": "",
+      "translation": "伯德夫人，您要只鸡吗？",
       "startTime": 52.96,
       "endTime": 57.45,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you want",
+            "label": "一般疑问句"
+          },
+          {
+            "text": "a chicken",
+            "label": "宾语"
+          },
+          {
+            "text": "Mrs. Bird",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个/一只"
+          },
+          {
+            "word": "chicken",
+            "pos": "n.",
+            "meaning": "鸡"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Bird",
+            "pos": "n.",
+            "meaning": "伯德"
           }
         ]
       }
@@ -360,26 +749,44 @@
       "id": "s12",
       "role": "Man",
       "text": "They're very nice.",
-      "translation": "",
+      "translation": "这些鸡很好。",
       "startTime": 57.46,
       "endTime": 59.87,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "'re",
+            "label": "系词"
+          },
+          {
+            "text": "very nice",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "它们"
           },
           {
-            "word": "Nice",
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "很"
+          },
+          {
+            "word": "nice",
             "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "meaning": "好的"
           }
         ]
       }
@@ -388,21 +795,30 @@
       "id": "s13",
       "role": "Woman",
       "text": "No, thank you.",
-      "translation": "",
+      "translation": "不，谢谢。",
       "startTime": 59.88,
       "endTime": 62.22,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Thank",
-            "pos": "v.",
-            "meaning": "感谢"
+            "text": "No",
+            "label": "否定回答"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "thank you",
+            "label": "感谢语"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "thank you",
+            "pos": "int.",
+            "meaning": "谢谢"
           }
         ]
       }
@@ -411,21 +827,44 @@
       "id": "s14",
       "role": "Man",
       "text": "My husband likes steak,",
-      "translation": "",
+      "translation": "我丈夫喜欢牛排，",
       "startTime": 62.23,
       "endTime": 65.04,
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My husband",
+            "label": "主语"
+          },
+          {
+            "text": "likes",
+            "label": "谓语"
+          },
+          {
+            "text": "steak",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "My",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          },
+          {
+            "word": "likes",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "steak",
+            "pos": "n.",
+            "meaning": "牛排"
           }
         ]
       }
@@ -434,24 +873,110 @@
       "id": "s15",
       "role": "Woman",
       "text": "but he doesn't like chicken.",
-      "translation": "",
+      "translation": "但他不喜欢鸡肉。",
       "startTime": 65.05,
-      "endTime": 68.63
+      "endTime": 68.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "doesn't like",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "chicken",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "doesn't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "chicken",
+            "pos": "n.",
+            "meaning": "鸡/鸡肉"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Man",
       "text": "To tell you the truth, Mrs. Bird,",
-      "translation": "",
+      "translation": "伯德夫人，老实告诉你，",
       "startTime": 68.64,
       "endTime": 72.96,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "To tell you the truth",
+            "label": "插入语/不定式"
+          },
+          {
+            "text": "Mrs. Bird",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "To",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你（宾格）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "truth",
+            "pos": "n.",
+            "meaning": "真相/实话"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Bird",
+            "pos": "n.",
+            "meaning": "伯德"
           }
         ]
       }
@@ -460,9 +985,56 @@
       "id": "s17",
       "role": "Woman",
       "text": "I don't like chicken either!",
-      "translation": "",
+      "translation": "我也不喜欢鸡肉！",
       "startTime": 72.97,
-      "endTime": 77.97
+      "endTime": 77.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't like",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "chicken",
+            "label": "宾语"
+          },
+          {
+            "text": "either",
+            "label": "也 (用于否定句)"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "chicken",
+            "pos": "n.",
+            "meaning": "鸡/鸡肉"
+          },
+          {
+            "word": "either",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     }
   ]
 }

@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 25",
-      "translation": "",
+      "translation": "第25课",
       "startTime": 0.41,
       "endTime": 3.17,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 25",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "25",
+            "pos": "num.",
+            "meaning": "二十五"
           }
         ]
       }
@@ -26,29 +36,102 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Mrs. Smith's Kitchen",
-      "translation": "",
+      "translation": "史密斯夫人的厨房",
       "startTime": 3.18,
-      "endTime": 6.6
+      "endTime": 6.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Mrs. Smith's Kitchen",
+            "label": "名词所有格短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
+          },
+          {
+            "word": "Kitchen",
+            "pos": "n.",
+            "meaning": "厨房"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.61,
       "endTime": 12.57,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,30 +140,54 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What colour is the electric cooker?",
-      "translation": "",
+      "translation": "电灶是什么颜色的？",
       "startTime": 12.58,
       "endTime": 18.3,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What colour",
+            "label": "疑问短语/表语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "the electric cooker",
+            "label": "主语"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "colour",
+            "pos": "n.",
+            "meaning": "颜色"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "electric",
+            "pos": "adj.",
+            "meaning": "电的"
+          },
+          {
+            "word": "cooker",
+            "pos": "n.",
+            "meaning": "灶具"
           }
         ]
       }
@@ -89,21 +196,54 @@
       "id": "s1",
       "role": "Man",
       "text": "Mrs. Smith's kitchen is small.",
-      "translation": "",
+      "translation": "史密斯夫人的厨房很小。",
       "startTime": 18.31,
       "endTime": 23.11,
       "analysis": {
         "grammar": [
           {
+            "text": "Mrs. Smith's kitchen",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "small",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
+          },
+          {
+            "word": "kitchen",
+            "pos": "n.",
+            "meaning": "厨房"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
           }
         ]
       }
@@ -112,21 +252,59 @@
       "id": "s2",
       "role": "Woman",
       "text": "There is a refrigerator in the kitchen.",
-      "translation": "",
+      "translation": "厨房里有一个冰箱。",
       "startTime": 23.12,
       "endTime": 27.7,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "存现句引导词+系词"
+          },
+          {
+            "text": "a refrigerator",
+            "label": "主语"
+          },
+          {
+            "text": "in the kitchen",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "refrigerator",
+            "pos": "n.",
+            "meaning": "冰箱"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "kitchen",
+            "pos": "n.",
+            "meaning": "厨房"
           }
         ]
       }
@@ -135,24 +313,42 @@
       "id": "s3",
       "role": "Man",
       "text": "The refrigerator is white.",
-      "translation": "",
+      "translation": "冰箱是白色的。",
       "startTime": 27.71,
       "endTime": 31.61,
       "analysis": {
         "grammar": [
           {
+            "text": "The refrigerator",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "white",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "refrigerator",
+            "pos": "n.",
+            "meaning": "冰箱"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "White",
+            "word": "white",
             "pos": "adj.",
             "meaning": "白色的"
           }
@@ -163,18 +359,22 @@
       "id": "s4",
       "role": "Woman",
       "text": "It is on the right.",
-      "translation": "",
+      "translation": "它在右边。",
       "startTime": 31.62,
       "endTime": 35.02,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "on the right",
+            "label": "地点状语"
           }
         ],
         "words": [
@@ -184,9 +384,24 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "right",
+            "pos": "n.",
+            "meaning": "右边"
           }
         ]
       }
@@ -195,21 +410,64 @@
       "id": "s5",
       "role": "Man",
       "text": "There is an electric cooker in the kitchen.",
-      "translation": "",
+      "translation": "厨房里有一个电灶。",
       "startTime": 35.03,
       "endTime": 39.61,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "存现句引导词+系词"
+          },
+          {
+            "text": "an electric cooker",
+            "label": "主语"
+          },
+          {
+            "text": "in the kitchen",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "electric",
+            "pos": "adj.",
+            "meaning": "电的"
+          },
+          {
+            "word": "cooker",
+            "pos": "n.",
+            "meaning": "灶具"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "kitchen",
+            "pos": "n.",
+            "meaning": "厨房"
           }
         ]
       }
@@ -218,24 +476,42 @@
       "id": "s6",
       "role": "Woman",
       "text": "The cooker is blue.",
-      "translation": "",
+      "translation": "电灶是蓝色的。",
       "startTime": 39.62,
       "endTime": 42.94,
       "analysis": {
         "grammar": [
           {
+            "text": "The cooker",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "blue",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cooker",
+            "pos": "n.",
+            "meaning": "灶具"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Blue",
+            "word": "blue",
             "pos": "adj.",
             "meaning": "蓝色的"
           }
@@ -246,18 +522,22 @@
       "id": "s7",
       "role": "Man",
       "text": "It is on the left.",
-      "translation": "",
+      "translation": "它在左边。",
       "startTime": 42.95,
       "endTime": 46.21,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "on the left",
+            "label": "地点状语"
           }
         ],
         "words": [
@@ -267,9 +547,24 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "left",
+            "pos": "n.",
+            "meaning": "左边"
           }
         ]
       }
@@ -278,21 +573,74 @@
       "id": "s8",
       "role": "Woman",
       "text": "There is a table in the middle of the room.",
-      "translation": "",
+      "translation": "房间正中有一张桌子。",
       "startTime": 46.22,
       "endTime": 51.53,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "存现句引导词+系词"
+          },
+          {
+            "text": "a table",
+            "label": "主语"
+          },
+          {
+            "text": "in the middle of the room",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "table",
+            "pos": "n.",
+            "meaning": "桌子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "middle",
+            "pos": "n.",
+            "meaning": "中间"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
           }
         ]
       }
@@ -301,21 +649,59 @@
       "id": "s9",
       "role": "Man",
       "text": "There is a bottle on the table.",
-      "translation": "",
+      "translation": "桌子上有一个瓶子。",
       "startTime": 51.54,
       "endTime": 55.26,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "存现句引导词+系词"
+          },
+          {
+            "text": "a bottle",
+            "label": "主语"
+          },
+          {
+            "text": "on the table",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "table",
+            "pos": "n.",
+            "meaning": "桌子"
           }
         ]
       }
@@ -324,21 +710,44 @@
       "id": "s10",
       "role": "Woman",
       "text": "The bottle is empty.",
-      "translation": "",
+      "translation": "瓶子是空的。",
       "startTime": 55.27,
       "endTime": 59.09,
       "analysis": {
         "grammar": [
           {
+            "text": "The bottle",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "empty",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
           }
         ]
       }
@@ -347,24 +756,66 @@
       "id": "s11",
       "role": "Man",
       "text": "There is a cup on the table, too.",
-      "translation": "",
+      "translation": "桌子上还有一个杯子。",
       "startTime": 59.1,
       "endTime": 63.82,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "存现句引导词+系词"
+          },
+          {
+            "text": "a cup",
+            "label": "主语"
+          },
+          {
+            "text": "on the table",
+            "label": "地点状语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
           },
           {
-            "word": "Too",
+            "word": "is",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "cup",
+            "pos": "n.",
+            "meaning": "杯子"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "table",
+            "pos": "n.",
+            "meaning": "桌子"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -375,21 +826,44 @@
       "id": "s12",
       "role": "Woman",
       "text": "The cup is clean.",
-      "translation": "",
+      "translation": "杯子很干净。",
       "startTime": 63.83,
       "endTime": 68.83,
       "analysis": {
         "grammar": [
           {
+            "text": "The cup",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "clean",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cup",
+            "pos": "n.",
+            "meaning": "杯子"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "clean",
+            "pos": "adj.",
+            "meaning": "干净的"
           }
         ]
       }

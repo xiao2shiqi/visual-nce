@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 47",
-      "translation": "",
+      "translation": "第47课",
       "startTime": 0.68,
       "endTime": 3.18,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 47",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "47",
+            "pos": "num.",
+            "meaning": "四十七"
           }
         ]
       }
@@ -26,29 +36,102 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A cup of coffee",
-      "translation": "",
+      "translation": "一杯咖啡",
       "startTime": 3.19,
-      "endTime": 6.26
+      "endTime": 6.26,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A cup of coffee",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "cup",
+            "pos": "n.",
+            "meaning": "杯"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.27,
       "endTime": 12.15,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,21 +140,62 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "How does Ann like her coffee?",
-      "translation": "",
+      "translation": "安喜欢什么样的咖啡？",
       "startTime": 12.16,
       "endTime": 17.14,
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "How",
+            "label": "疑问副词/状语"
+          },
+          {
+            "text": "does",
+            "label": "助动词"
+          },
+          {
+            "text": "Ann",
+            "label": "主语"
+          },
+          {
+            "text": "like",
+            "label": "谓语动词"
+          },
+          {
+            "text": "her coffee",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "怎样/如何"
+          },
+          {
+            "word": "does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Ann",
+            "pos": "n.",
+            "meaning": "安"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "her",
+            "pos": "det.",
+            "meaning": "她的"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
           }
         ]
       }
@@ -80,16 +204,45 @@
       "id": "s1",
       "role": "Man",
       "text": "Do you like coffee, Ann?",
-      "translation": "",
+      "translation": "安，你喜欢咖啡吗？",
       "startTime": 17.15,
       "endTime": 20.6,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you like coffee",
+            "label": "一般疑问句"
+          },
+          {
+            "text": "Ann",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
+          },
+          {
+            "word": "Ann",
+            "pos": "n.",
+            "meaning": "安"
           }
         ]
       }
@@ -98,16 +251,35 @@
       "id": "s2",
       "role": "Woman",
       "text": "Yes, I do.",
-      "translation": "",
+      "translation": "是的，我喜欢。",
       "startTime": 20.61,
       "endTime": 23.42,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "I do",
+            "label": "简略回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
           }
         ]
       }
@@ -116,16 +288,45 @@
       "id": "s3",
       "role": "Man",
       "text": "Do you want a cup?",
-      "translation": "",
+      "translation": "你想喝一杯吗？",
       "startTime": 23.43,
       "endTime": 26.39,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you want",
+            "label": "一般疑问句"
+          },
+          {
+            "text": "a cup",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "cup",
+            "pos": "n.",
+            "meaning": "杯"
           }
         ]
       }
@@ -134,11 +335,24 @@
       "id": "s4",
       "role": "Woman",
       "text": "Yes, please, Christine.",
-      "translation": "",
+      "translation": "是的，克里斯廷，请给我一杯。",
       "startTime": 26.4,
       "endTime": 30.35,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          },
+          {
+            "text": "Christine",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -146,9 +360,14 @@
             "meaning": "是的"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Christine",
+            "pos": "n.",
+            "meaning": "克里斯廷"
           }
         ]
       }
@@ -157,16 +376,45 @@
       "id": "s5",
       "role": "Man",
       "text": "Do you want any sugar?",
-      "translation": "",
+      "translation": "你要加糖吗？",
       "startTime": 30.36,
       "endTime": 33.57,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you want",
+            "label": "一般疑问句"
+          },
+          {
+            "text": "any sugar",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "sugar",
+            "pos": "n.",
+            "meaning": "糖"
           }
         ]
       }
@@ -175,11 +423,20 @@
       "id": "s6",
       "role": "Woman",
       "text": "Yes, please.",
-      "translation": "",
+      "translation": "是的，请加糖。",
       "startTime": 33.58,
       "endTime": 36.04,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -187,7 +444,7 @@
             "meaning": "是的"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -198,16 +455,45 @@
       "id": "s7",
       "role": "Man",
       "text": "Do you want any milk?",
-      "translation": "",
+      "translation": "你要加牛奶吗？",
       "startTime": 36.05,
       "endTime": 39.17,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you want",
+            "label": "一般疑问句"
+          },
+          {
+            "text": "any milk",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "milk",
+            "pos": "n.",
+            "meaning": "牛奶"
           }
         ]
       }
@@ -216,21 +502,30 @@
       "id": "s8",
       "role": "Woman",
       "text": "No, thank you.",
-      "translation": "",
+      "translation": "不，谢谢。",
       "startTime": 39.18,
       "endTime": 40.91,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Thank",
-            "pos": "v.",
-            "meaning": "感谢"
+            "text": "No",
+            "label": "否定回答"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "thank you",
+            "label": "感谢语"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "thank you",
+            "pos": "int.",
+            "meaning": "谢谢"
           }
         ]
       }
@@ -239,21 +534,63 @@
       "id": "s9",
       "role": "Man",
       "text": "I don't like milk in my coffee.",
-      "translation": "",
+      "translation": "我不喜欢咖啡里加牛奶。",
       "startTime": 40.92,
       "endTime": 44.55,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't like",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "milk",
+            "label": "宾语"
+          },
+          {
+            "text": "in my coffee",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "milk",
+            "pos": "n.",
+            "meaning": "牛奶"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
           }
         ]
       }
@@ -262,16 +599,44 @@
       "id": "s10",
       "role": "Woman",
       "text": "I like black coffee.",
-      "translation": "",
+      "translation": "我喜欢清咖啡。",
       "startTime": 44.56,
       "endTime": 48.4,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "like",
+            "label": "谓语"
+          },
+          {
+            "text": "black coffee",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Black",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "black",
             "pos": "adj.",
-            "meaning": "黑色的"
+            "meaning": "黑色的/清的"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
           }
         ]
       }
@@ -280,16 +645,40 @@
       "id": "s11",
       "role": "Man",
       "text": "Do you like biscuits?",
-      "translation": "",
+      "translation": "你喜欢饼干吗？",
       "startTime": 48.41,
       "endTime": 51.32,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you like",
+            "label": "一般疑问句"
+          },
+          {
+            "text": "biscuits",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "biscuits",
+            "pos": "n.",
+            "meaning": "饼干"
           }
         ]
       }
@@ -298,16 +687,35 @@
       "id": "s12",
       "role": "Woman",
       "text": "Yes, I do.",
-      "translation": "",
+      "translation": "是的，我喜欢。",
       "startTime": 51.33,
       "endTime": 53.87,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "I do",
+            "label": "简略回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
           }
         ]
       }
@@ -316,16 +724,40 @@
       "id": "s13",
       "role": "Man",
       "text": "Do you want one?",
-      "translation": "",
+      "translation": "你要一个吗？",
       "startTime": 53.88,
       "endTime": 56.01,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do you want",
+            "label": "一般疑问句"
+          },
+          {
+            "text": "one",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
           }
         ]
       }
@@ -334,11 +766,20 @@
       "id": "s14",
       "role": "Woman",
       "text": "Yes, please.",
-      "translation": "",
+      "translation": "好的，请给我一个。",
       "startTime": 56.02,
       "endTime": 61.02,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -346,7 +787,7 @@
             "meaning": "是的"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }

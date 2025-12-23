@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 85",
-      "translation": "",
+      "translation": "第85课",
       "startTime": 0.54,
       "endTime": 2.93,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 85",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "85",
+            "pos": "num.",
+            "meaning": "八十五"
           }
         ]
       }
@@ -26,29 +36,102 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "'Paris in the Spring'.",
-      "translation": "",
+      "translation": "《巴黎之春》",
       "startTime": 2.94,
-      "endTime": 6.33
+      "endTime": 6.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Paris in the Spring",
+            "label": "电影名/短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Paris",
+            "pos": "n.",
+            "meaning": "巴黎"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Spring",
+            "pos": "n.",
+            "meaning": "春天"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.34,
       "endTime": 11.74,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,26 +140,77 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "At what time of year did Ken visit Paris?",
-      "translation": "",
+      "translation": "肯在一年中的什么季节访问了巴黎？",
       "startTime": 11.75,
       "endTime": 18.62,
       "analysis": {
         "grammar": [
           {
-            "text": "what",
-            "label": "疑问词"
+            "text": "At what time of year",
+            "label": "疑问短语/时间状语"
+          },
+          {
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "Ken",
+            "label": "主语"
+          },
+          {
+            "text": "visit",
+            "label": "谓语"
+          },
+          {
+            "text": "Paris",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（时间/地点）"
           },
           {
-            "word": "What",
-            "pos": "pron.",
+            "word": "what",
+            "pos": "det.",
             "meaning": "什么"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间/时候"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "（属于）"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Ken",
+            "pos": "n.",
+            "meaning": "肯"
+          },
+          {
+            "word": "visit",
+            "pos": "v.",
+            "meaning": "访问/参观"
+          },
+          {
+            "word": "Paris",
+            "pos": "n.",
+            "meaning": "巴黎"
           }
         ]
       }
@@ -85,87 +219,293 @@
       "id": "s1",
       "role": "Man",
       "text": "Hello, Ken.",
-      "translation": "",
+      "translation": "你好，肯。",
       "startTime": 18.63,
-      "endTime": 20.17
+      "endTime": 20.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hello",
+            "label": "招呼语"
+          },
+          {
+            "text": "Ken",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hello",
+            "pos": "int.",
+            "meaning": "你好"
+          },
+          {
+            "word": "Ken",
+            "pos": "n.",
+            "meaning": "肯"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Man",
       "text": "Hi, George.",
-      "translation": "",
+      "translation": "你好，乔治。",
       "startTime": 20.18,
-      "endTime": 22.19
+      "endTime": 22.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Hi",
+            "label": "招呼语"
+          },
+          {
+            "text": "George",
+            "label": "呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hi",
+            "pos": "int.",
+            "meaning": "嗨"
+          },
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "Have you just been to the cinema?",
-      "translation": "",
+      "translation": "你刚才去电影院了吗？",
       "startTime": 22.2,
       "endTime": 25.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Have you just been to",
+            "label": "谓语 (现在完成时/疑问)"
+          },
+          {
+            "text": "the cinema",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Have",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "去过"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cinema",
+            "pos": "n.",
+            "meaning": "电影院"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Man",
       "text": "Yes, I have.",
-      "translation": "",
+      "translation": "是的，我刚去过。",
       "startTime": 25.21,
       "endTime": 27.5,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定的应答"
+          },
+          {
+            "text": "I have",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.aux.",
+            "meaning": "已经去过"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Narrator",
+      "role": "Man",
       "text": "What's on?",
-      "translation": "",
+      "translation": "映的是什么片子？",
       "startTime": 27.51,
-      "endTime": 29.13
+      "endTime": 29.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问代词/主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "on",
+            "label": "表语 (正在上演/放映)"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "上演/放映/正在进行"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "'Paris in the Spring'.",
-      "translation": "",
+      "translation": "《巴黎之春》。",
       "startTime": 29.14,
-      "endTime": 31.65
+      "endTime": 31.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Paris in the Spring",
+            "label": "名称/短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Paris",
+            "pos": "n.",
+            "meaning": "巴黎"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...期间"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "spring",
+            "pos": "n.",
+            "meaning": "春天"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Man",
       "text": "Oh, I've already seen it.",
-      "translation": "",
+      "translation": "噢，我见过这档片子了。",
       "startTime": 31.66,
       "endTime": 34.86,
       "analysis": {
         "grammar": [
           {
+            "text": "Oh",
+            "label": "感叹词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ve already seen",
+            "label": "谓语 (现在完成时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语 (指电影)"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "Oh",
+            "pos": "int.",
+            "meaning": "噢"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "seen",
+            "pos": "v.",
+            "meaning": "看见/看（过去分词）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -176,14 +516,91 @@
       "id": "s8",
       "role": "Man",
       "text": "I saw it on television last year.",
-      "translation": "",
+      "translation": "去年我在电视上见过。",
       "startTime": 34.87,
       "endTime": 38.83,
       "analysis": {
         "grammar": [
           {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "saw",
+            "label": "谓语 (过去时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
+          },
+          {
+            "text": "on television",
+            "label": "媒介状语"
+          },
+          {
+            "text": "last year",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "saw",
+            "pos": "v.",
+            "meaning": "看/看见（see过去式）"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "television",
+            "pos": "n.",
+            "meaning": "电视"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "role": "Man",
+      "text": "It's an old film, but it's very good.",
+      "translation": "那是一部老片子，但很好看。",
+      "startTime": 38.84,
+      "endTime": 43.42,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It's an old film",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "it's very good",
+            "label": "分句2"
           }
         ],
         "words": [
@@ -191,42 +608,51 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Woman",
-      "text": "It's an old film, but it's very good.",
-      "translation": "",
-      "startTime": 38.84,
-      "endTime": 43.42,
-      "analysis": {
-        "grammar": [
-          {
-            "text": "Its",
-            "label": "形容词性物主代词"
           },
           {
-            "text": "its",
-            "label": "形容词性物主代词"
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
           },
           {
-            "text": "very",
-            "label": "程度副词"
-          }
-        ],
-        "words": [
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
           {
-            "word": "Old",
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "老的"
           },
           {
-            "word": "Very",
+            "word": "film",
+            "pos": "n.",
+            "meaning": "电影"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
           }
         ]
       }
@@ -235,65 +661,193 @@
       "id": "s10",
       "role": "Man",
       "text": "Paris is a beautiful city.",
-      "translation": "",
+      "translation": "巴黎是个美丽的城市。",
       "startTime": 43.43,
       "endTime": 46.8,
       "analysis": {
         "grammar": [
           {
+            "text": "Paris",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "a beautiful city",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Paris",
+            "pos": "n.",
+            "meaning": "巴黎"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "beautiful",
+            "pos": "adj.",
+            "meaning": "美丽的"
+          },
+          {
+            "word": "city",
+            "pos": "n.",
+            "meaning": "城市"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Woman",
+      "role": "Man",
       "text": "I've never been there.",
-      "translation": "",
+      "translation": "我从未去过那儿。",
       "startTime": 46.81,
-      "endTime": 48.96
+      "endTime": 48.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'ve never been",
+            "label": "谓语 (完成否定)"
+          },
+          {
+            "text": "there",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'ve",
+            "pos": "v.aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从未"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "去过"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "在那里"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "Have you ever been there, Ken?",
-      "translation": "",
+      "translation": "肯，你去过那儿吗？",
       "startTime": 48.97,
       "endTime": 51.99,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Have you ever been",
+            "label": "谓语 (完成疑问)"
+          },
+          {
+            "text": "there",
+            "label": "地点状语"
+          },
+          {
+            "text": "Ken",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Have",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "ever",
+            "pos": "adv.",
+            "meaning": "曾经"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "去过"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "在那儿"
+          },
+          {
+            "word": "Ken",
+            "pos": "n.",
+            "meaning": "肯"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Man",
       "text": "Yes, I have.",
-      "translation": "",
+      "translation": "是的，我去过。",
       "startTime": 52,
       "endTime": 53.94,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定应答"
+          },
+          {
+            "text": "I have",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.aux.",
+            "meaning": "去过"
           }
         ]
       }
@@ -302,60 +856,217 @@
       "id": "s14",
       "role": "Man",
       "text": "I was there in April.",
-      "translation": "",
+      "translation": "我是4月份在那儿的。",
       "startTime": 53.95,
-      "endTime": 57.34
+      "endTime": 57.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "谓语"
+          },
+          {
+            "text": "there",
+            "label": "地点状语"
+          },
+          {
+            "text": "in April",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "在（过去时）"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "在那儿"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "April",
+            "pos": "n.",
+            "meaning": "四月"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
-      "role": "Woman",
+      "role": "Man",
       "text": "Paris in the spring, eh?",
-      "translation": "",
+      "translation": "巴黎之春，是吗？",
       "startTime": 57.35,
-      "endTime": 60.45
+      "endTime": 60.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Paris in the spring",
+            "label": "名词短语"
+          },
+          {
+            "text": "eh",
+            "label": "语气助词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Paris",
+            "pos": "n.",
+            "meaning": "巴黎"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...期间"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "spring",
+            "pos": "n.",
+            "meaning": "春天"
+          },
+          {
+            "word": "eh",
+            "pos": "int.",
+            "meaning": "嗯/是吧"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Man",
       "text": "It was spring, but the weather was awful.",
-      "translation": "",
+      "translation": "虽然是春天，但天气太糟糕了。",
       "startTime": 60.46,
       "endTime": 64.67,
       "analysis": {
         "grammar": [
           {
-            "text": "It",
-            "label": "人称代词/主语"
+            "text": "It was spring",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "the weather was awful",
+            "label": "分句2"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指时间/天气）"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "spring",
+            "pos": "n.",
+            "meaning": "春天"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "weather",
+            "pos": "n.",
+            "meaning": "天气"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "awful",
+            "pos": "adj.",
+            "meaning": "糟糕的"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Woman",
+      "role": "Man",
       "text": "It rained all the time.",
-      "translation": "",
+      "translation": "一直在下雨。",
       "startTime": 64.68,
       "endTime": 67.88,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语 (指天气)"
+          },
+          {
+            "text": "rained",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "all the time",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "（代词，无实义，指天气）"
+          },
+          {
+            "word": "rained",
+            "pos": "v.",
+            "meaning": "下雨"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
           }
         ]
       }
@@ -364,9 +1075,38 @@
       "id": "s18",
       "role": "Man",
       "text": "Just like London!",
-      "translation": "",
+      "translation": "就像伦敦一样！",
       "startTime": 67.89,
-      "endTime": 72.89
+      "endTime": 72.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Just",
+            "label": "副词"
+          },
+          {
+            "text": "like London",
+            "label": "介词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Just",
+            "pos": "adv.",
+            "meaning": "正/就像"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          }
+        ]
+      }
     }
   ]
 }

@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 65",
-      "translation": "",
+      "translation": "第65课",
       "startTime": 0.73,
       "endTime": 3.34,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 65",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "65",
+            "pos": "num.",
+            "meaning": "六十五"
           }
         ]
       }
@@ -26,16 +36,31 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Not a baby",
-      "translation": "",
+      "translation": "不是小孩子",
       "startTime": 3.35,
       "endTime": 6.24,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Not a baby",
+            "label": "名词短语 (否定意义)"
+          }
+        ],
         "words": [
           {
             "word": "Not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "baby",
+            "pos": "n.",
+            "meaning": "婴儿/小孩"
           }
         ]
       }
@@ -44,21 +69,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.25,
       "endTime": 11.57,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,7 +135,7 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Does Jill take the key to the front door?",
-      "translation": "",
+      "translation": "吉林拿了前门的钥匙了吗？",
       "startTime": 11.58,
       "endTime": 17.66,
       "analysis": {
@@ -75,31 +143,89 @@
           {
             "text": "Does",
             "label": "助动词"
+          },
+          {
+            "text": "Jill",
+            "label": "主语"
+          },
+          {
+            "text": "take",
+            "label": "谓语"
+          },
+          {
+            "text": "the key to the front door",
+            "label": "宾语 (带状语)"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Jill",
+            "pos": "n.",
+            "meaning": "吉尔"
+          },
+          {
+            "word": "take",
+            "pos": "v.",
+            "meaning": "拿/带"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "key",
+            "pos": "n.",
+            "meaning": "钥匙"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "front",
+            "pos": "adj.",
+            "meaning": "前面的"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Narrator",
       "text": "What are you going to do this evening, Jill?",
-      "translation": "",
+      "translation": "吉尔，你今晚打算做什么？",
       "startTime": 17.67,
       "endTime": 22.62,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "are you going to do",
+            "label": "谓语 (将来时)"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "this evening",
+            "label": "时间状语"
           }
         ],
         "words": [
@@ -109,14 +235,44 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           },
           {
-            "word": "This",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "晚上"
+          },
+          {
+            "word": "Jill",
+            "pos": "n.",
+            "meaning": "吉尔"
           }
         ]
       }
@@ -125,16 +281,64 @@
       "id": "s2",
       "role": "Man",
       "text": "I'm going to meet some friends, Dad.",
-      "translation": "",
+      "translation": "爸爸，我打算去见见几个朋友。",
       "startTime": 22.63,
       "endTime": 27.14,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m going to meet",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "some friends",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Meet",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
             "pos": "v.",
-            "meaning": "遇见，结识"
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "meet",
+            "pos": "v.",
+            "meaning": "遇见/会面"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "friends",
+            "pos": "n.",
+            "meaning": "朋友（复数）"
+          },
+          {
+            "word": "Dad",
+            "pos": "n.",
+            "meaning": "爸爸"
           }
         ]
       }
@@ -143,16 +347,53 @@
       "id": "s3",
       "role": "Woman",
       "text": "You mustn't come home late.",
-      "translation": "",
+      "translation": "你不可以很晚才回家。",
       "startTime": 27.15,
       "endTime": 30.18,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "mustn't come",
+            "label": "谓语 (禁止)"
+          },
+          {
+            "text": "home",
+            "label": "地点状语"
+          },
+          {
+            "text": "late",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "mustn't",
+            "pos": "v.aux.",
+            "meaning": "不该/禁止"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "回家/在家"
+          },
+          {
+            "word": "late",
+            "pos": "adv.",
+            "meaning": "晚地"
           }
         ]
       }
@@ -161,21 +402,68 @@
       "id": "s4",
       "role": "Man",
       "text": "You must be home at half past ten.",
-      "translation": "",
+      "translation": "你必须在10点半前回家。",
       "startTime": 30.19,
       "endTime": 34.86,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "You",
+            "label": "主语"
+          },
+          {
+            "text": "must be",
+            "label": "谓语"
+          },
+          {
+            "text": "home",
+            "label": "表语/状语"
+          },
+          {
+            "text": "at half past ten",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "At",
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "在/是"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "half",
+            "pos": "n.",
+            "meaning": "半/一半"
+          },
+          {
+            "word": "past",
+            "pos": "prep.",
+            "meaning": "过/经过"
+          },
+          {
+            "word": "ten",
+            "pos": "num.",
+            "meaning": "十"
           }
         ]
       }
@@ -184,22 +472,141 @@
       "id": "s5",
       "role": "Woman",
       "text": "I can't get home so early, Dad!",
-      "translation": "",
+      "translation": "爸爸，我不能那么早回家！",
       "startTime": 34.87,
-      "endTime": 39.4
+      "endTime": 39.4,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "can't get",
+            "label": "谓语 (不能)"
+          },
+          {
+            "text": "home",
+            "label": "地点状语"
+          },
+          {
+            "text": "so early",
+            "label": "程度与时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "那么"
+          },
+          {
+            "word": "early",
+            "pos": "adv.",
+            "meaning": "早地"
+          },
+          {
+            "word": "Dad",
+            "pos": "n.",
+            "meaning": "爸爸"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "Can I have the key to the front door, please?",
-      "translation": "",
+      "translation": "我能拿前门的钥匙吗？",
       "startTime": 39.41,
       "endTime": 44.47,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Can",
+            "label": "助动词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "the key to the front door",
+            "label": "宾语 (带短语)"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有/拿"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "key",
+            "pos": "n.",
+            "meaning": "钥匙"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "front",
+            "pos": "adj.",
+            "meaning": "前面的"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -210,16 +617,35 @@
       "id": "s7",
       "role": "Woman",
       "text": "No, you can't.",
-      "translation": "",
+      "translation": "不，你不能拿。",
       "startTime": 44.48,
       "endTime": 47.6,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "you can't",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
           }
         ]
       }
@@ -228,16 +654,54 @@
       "id": "s8",
       "role": "Man",
       "text": "Jill's eighteen years old, Tom.",
-      "translation": "",
+      "translation": "汤姆，吉尔18岁了。",
       "startTime": 47.61,
       "endTime": 51.88,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Jill",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "eighteen years old",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Old",
+            "word": "Jill",
+            "pos": "n.",
+            "meaning": "吉尔"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "eighteen",
+            "pos": "num.",
+            "meaning": "十八"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年份/岁（复数）"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "岁数的"
+          },
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
           }
         ]
       }
@@ -246,16 +710,53 @@
       "id": "s9",
       "role": "Woman",
       "text": "She's not a baby.",
-      "translation": "",
+      "translation": "她不是小孩子了。",
       "startTime": 51.89,
       "endTime": 54.73,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "not",
+            "label": "否定副词"
+          },
+          {
+            "text": "a baby",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "baby",
+            "pos": "n.",
+            "meaning": "婴儿/孩子"
           }
         ]
       }
@@ -264,47 +765,160 @@
       "id": "s10",
       "role": "Man",
       "text": "Give her the key.",
-      "translation": "",
+      "translation": "把钥匙给她吧。",
       "startTime": 54.74,
       "endTime": 56.97,
       "analysis": {
         "grammar": [
           {
+            "text": "Give",
+            "label": "谓语 (祈使)"
+          },
+          {
             "text": "her",
-            "label": "形容词性物主代词"
+            "label": "间接宾语"
+          },
+          {
+            "text": "the key",
+            "label": "直接宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Give",
+            "pos": "v.",
+            "meaning": "给"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她（宾格）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "key",
+            "pos": "n.",
+            "meaning": "钥匙"
+          }
+        ]
       }
     },
     {
       "id": "s11",
       "role": "Woman",
       "text": "She always comes home early.",
-      "translation": "",
+      "translation": "她总是早早回家。",
       "startTime": 56.98,
-      "endTime": 61.07
+      "endTime": 61.07,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "always",
+            "label": "频度状语"
+          },
+          {
+            "text": "comes",
+            "label": "谓语"
+          },
+          {
+            "text": "home",
+            "label": "地点状语"
+          },
+          {
+            "text": "early",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "comes",
+            "pos": "v.",
+            "meaning": "来/回"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "early",
+            "pos": "adv.",
+            "meaning": "早地"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "Oh, all right!",
-      "translation": "",
+      "translation": "好吧！",
       "startTime": 61.08,
-      "endTime": 64.44
+      "endTime": 64.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "all right",
+            "label": "形容词短语/感叹词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Oh",
+            "pos": "int.",
+            "meaning": "噢"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "全部"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "正确的/好的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Woman",
       "text": "Here you are.",
-      "translation": "",
+      "translation": "给你。",
       "startTime": 64.45,
       "endTime": 66.26,
       "analysis": {
         "grammar": [
           {
+            "text": "Here",
+            "label": "地点状语 (倒装)"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "谓语"
           }
         ],
         "words": [
@@ -314,9 +928,14 @@
             "meaning": "这里"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -325,16 +944,82 @@
       "id": "s14",
       "role": "Man",
       "text": "But you mustn't come home after a quarter past eleven.",
-      "translation": "",
+      "translation": "但你不准在11点1刻以后回家。",
       "startTime": 66.27,
       "endTime": 71.51,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "But",
+            "label": "连词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "mustn't come",
+            "label": "谓语"
+          },
+          {
+            "text": "home",
+            "label": "地点状语"
+          },
+          {
+            "text": "after a quarter past eleven",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "mustn't",
+            "pos": "v.aux.",
+            "meaning": "不该/禁止"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "家"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "quarter",
+            "pos": "n.",
+            "meaning": "一刻钟"
+          },
+          {
+            "word": "past",
+            "pos": "prep.",
+            "meaning": "过"
+          },
+          {
+            "word": "eleven",
+            "pos": "num.",
+            "meaning": "十一"
           }
         ]
       }
@@ -343,16 +1028,39 @@
       "id": "s15",
       "role": "Woman",
       "text": "Do you hear?",
-      "translation": "",
+      "translation": "听见了吗？",
       "startTime": 71.52,
       "endTime": 73.56,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "hear",
+            "label": "谓语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "hear",
+            "pos": "v.",
+            "meaning": "听见"
           }
         ]
       }
@@ -361,16 +1069,26 @@
       "id": "s16",
       "role": "Man",
       "text": "Yes, Dad.",
-      "translation": "",
+      "translation": "听见了，爸爸。",
       "startTime": 73.57,
       "endTime": 75.81,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "Dad",
+            "pos": "n.",
+            "meaning": "爸爸"
           }
         ]
       }
@@ -379,16 +1097,26 @@
       "id": "s17",
       "role": "Woman",
       "text": "Thanks, Mum.",
-      "translation": "",
+      "translation": "谢谢，妈妈。",
       "startTime": 75.82,
       "endTime": 77.8,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thanks",
+            "label": "礼貌用语"
+          }
+        ],
         "words": [
           {
             "word": "Thanks",
-            "pos": "n.",
+            "pos": "int.",
             "meaning": "谢谢"
+          },
+          {
+            "word": "Mum",
+            "pos": "n.",
+            "meaning": "妈妈"
           }
         ]
       }
@@ -397,41 +1125,180 @@
       "id": "s18",
       "role": "Man",
       "text": "That's all right.",
-      "translation": "",
+      "translation": "没关系。",
       "startTime": 77.81,
-      "endTime": 79.91
+      "endTime": 79.91,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "all right",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "全部"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "好的"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
       "role": "Woman",
       "text": "Goodbye.",
-      "translation": "",
+      "translation": "再见。",
       "startTime": 79.92,
-      "endTime": 81.51
+      "endTime": 81.51,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Goodbye",
+            "label": "告别语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Goodbye",
+            "pos": "int.",
+            "meaning": "再见"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
       "role": "Man",
       "text": "Enjoy yourself!",
-      "translation": "",
+      "translation": "玩得开心点！",
       "startTime": 81.52,
-      "endTime": 84.38
+      "endTime": 84.38,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Enjoy",
+            "label": "谓语 (祈使)"
+          },
+          {
+            "text": "yourself",
+            "label": "宾语 (反身)"
+          }
+        ],
+        "words": [
+          {
+            "word": "Enjoy",
+            "pos": "v.",
+            "meaning": "享受/玩得开心"
+          },
+          {
+            "word": "yourself",
+            "pos": "pron.",
+            "meaning": "你自己"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
       "role": "Woman",
       "text": "We always enjoy ourselves, Mum.",
-      "translation": "",
+      "translation": "妈妈，我们总是玩得很开心的。",
       "startTime": 84.39,
-      "endTime": 88.29
+      "endTime": 88.29,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "always",
+            "label": "状语"
+          },
+          {
+            "text": "enjoy",
+            "label": "谓语"
+          },
+          {
+            "text": "ourselves",
+            "label": "宾语 (反身)"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "enjoy",
+            "pos": "v.",
+            "meaning": "享受"
+          },
+          {
+            "word": "ourselves",
+            "pos": "pron.",
+            "meaning": "我们自己"
+          },
+          {
+            "word": "Mum",
+            "pos": "n.",
+            "meaning": "妈妈"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
       "role": "Man",
       "text": "Bye-bye.",
-      "translation": "",
+      "translation": "再见。",
       "startTime": 88.3,
-      "endTime": 93.3
+      "endTime": 93.3,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Bye-bye",
+            "label": "告别语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Bye-bye",
+            "pos": "int.",
+            "meaning": "再见"
+          }
+        ]
+      }
     }
   ]
 }

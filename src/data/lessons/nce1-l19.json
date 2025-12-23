@@ -14,12 +14,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "19",
-            "label": "数词/编号"
+            "text": "Lesson 19",
+            "label": "标题"
           }
         ],
         "words": [
@@ -27,6 +23,11 @@
             "word": "Lesson",
             "pos": "n.",
             "meaning": "课"
+          },
+          {
+            "word": "19",
+            "pos": "num.",
+            "meaning": "十九"
           }
         ]
       }
@@ -41,26 +42,23 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Tired",
-            "label": "形容词1"
-          },
-          {
-            "text": "and",
-            "label": "连词"
-          },
-          {
-            "text": "thirsty",
-            "label": "形容词2"
+            "text": "Tired and thirsty",
+            "label": "形容词短语"
           }
         ],
         "words": [
           {
             "word": "Tired",
             "pos": "adj.",
-            "meaning": "疲劳的，累的"
+            "meaning": "疲劳的"
           },
           {
-            "word": "Thirsty",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "thirsty",
             "pos": "adj.",
             "meaning": "口渴的"
           }
@@ -77,27 +75,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen to",
-            "label": "谓语1"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
-            "text": "the tape",
-            "label": "宾语1"
+            "text": "then",
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "谓语2"
-          },
-          {
-            "text": "this question",
-            "label": "宾语2"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -118,7 +142,7 @@
         "grammar": [
           {
             "text": "Why",
-            "label": "疑问副词/状语"
+            "label": "疑问副词"
           },
           {
             "text": "do",
@@ -139,9 +163,34 @@
         ],
         "words": [
           {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
             "word": "children",
-            "pos": "n. pl.",
-            "meaning": "孩子们（child的复数）"
+            "pos": "n.",
+            "meaning": "孩子们"
+          },
+          {
+            "word": "thank",
+            "pos": "v.",
+            "meaning": "感谢"
+          },
+          {
+            "word": "their",
+            "pos": "pron.",
+            "meaning": "他们的"
           },
           {
             "word": "mother",
@@ -162,11 +211,11 @@
         "grammar": [
           {
             "text": "What",
-            "label": "表语/疑问词"
+            "label": "表语"
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "the matter",
@@ -174,14 +223,34 @@
           },
           {
             "text": "children",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "matter",
             "pos": "n.",
-            "meaning": "事情，问题"
+            "meaning": "事情"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子们"
           }
         ]
       }
@@ -201,7 +270,7 @@
           },
           {
             "text": "'re",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "tired",
@@ -210,9 +279,19 @@
         ],
         "words": [
           {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "tired",
             "pos": "adj.",
-            "meaning": "累的，疲劳的"
+            "meaning": "累的"
           }
         ]
       }
@@ -227,24 +306,33 @@
       "analysis": {
         "grammar": [
           {
+            "text": "and",
+            "label": "连接词"
+          },
+          {
             "text": "thirsty",
-            "label": "表语2"
+            "label": "表语"
           },
           {
             "text": "Mum",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
           {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
             "word": "thirsty",
             "pos": "adj.",
-            "meaning": "口渴的"
+            "meaning": "渴的"
           },
           {
             "word": "Mum",
             "pos": "n.",
-            "meaning": "妈妈（口语）"
+            "meaning": "妈妈"
           }
         ]
       }
@@ -260,11 +348,11 @@
         "grammar": [
           {
             "text": "Sit down",
-            "label": "谓语/祈使句"
+            "label": "谓语 (祈使句)"
           },
           {
             "text": "here",
-            "label": "地点状语"
+            "label": "状语"
           }
         ],
         "words": [
@@ -276,7 +364,12 @@
           {
             "word": "down",
             "pos": "adv.",
-            "meaning": "向下"
+            "meaning": "下"
+          },
+          {
+            "word": "here",
+            "pos": "adv.",
+            "meaning": "这里"
           }
         ]
       }
@@ -292,7 +385,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -300,18 +393,38 @@
           },
           {
             "text": "all right",
-            "label": "表语/形容词短语"
+            "label": "表语"
           },
           {
             "text": "now",
-            "label": "时间状语"
+            "label": "状语"
           }
         ],
         "words": [
           {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你/你们"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "完全"
+          },
+          {
             "word": "right",
             "pos": "adj.",
-            "meaning": "好的，正确的"
+            "meaning": "好的"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -327,7 +440,7 @@
         "grammar": [
           {
             "text": "No",
-            "label": "否定回答"
+            "label": "回答词"
           },
           {
             "text": "we",
@@ -335,14 +448,29 @@
           },
           {
             "text": "aren't",
-            "label": "系动词否定"
+            "label": "系词否定"
           }
         ],
         "words": [
           {
-            "word": "aren't",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
             "pos": "v.",
-            "meaning": "不是"
+            "meaning": "是"
+          },
+          {
+            "word": "n't",
+            "pos": "adv.",
+            "meaning": "不"
           }
         ]
       }
@@ -358,7 +486,7 @@
         "grammar": [
           {
             "text": "Look",
-            "label": "谓语/祈使句"
+            "label": "祈使句"
           }
         ],
         "words": [
@@ -380,19 +508,30 @@
       "analysis": {
         "grammar": [
           {
-            "text": "There",
-            "label": "引导词"
-          },
-          {
-            "text": "'s",
-            "label": "系动词"
+            "text": "There's",
+            "label": "引导词+系词"
           },
           {
             "text": "an ice cream man",
-            "label": "真正的主语"
+            "label": "主语"
           }
         ],
         "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
           {
             "word": "ice cream",
             "pos": "n.",
@@ -401,7 +540,7 @@
           {
             "word": "man",
             "pos": "n.",
-            "meaning": "男人，售货员"
+            "meaning": "人"
           }
         ]
       }
@@ -417,7 +556,7 @@
         "grammar": [
           {
             "text": "Two ice cream",
-            "label": "宾语（缺谓语）"
+            "label": "宾语 (省略谓语)"
           },
           {
             "text": "please",
@@ -428,7 +567,17 @@
           {
             "word": "Two",
             "pos": "num.",
-            "meaning": "二，两个"
+            "meaning": "两个"
+          },
+          {
+            "word": "ice cream",
+            "pos": "n.",
+            "meaning": "冰淇淋"
+          },
+          {
+            "word": "please",
+            "pos": "int.",
+            "meaning": "请"
           }
         ]
       }
@@ -443,27 +592,34 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Here",
-            "label": "引导词"
-          },
-          {
-            "text": "you",
-            "label": "主语"
-          },
-          {
-            "text": "are",
-            "label": "系动词"
+            "text": "Here you are",
+            "label": "常用倒装句"
           },
           {
             "text": "children",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
           {
             "word": "Here",
             "pos": "adv.",
-            "meaning": "这儿"
+            "meaning": "这里"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你/你们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子们"
           }
         ]
       }
@@ -479,11 +635,11 @@
         "grammar": [
           {
             "text": "Thanks",
-            "label": "感叹语"
+            "label": "感谢语"
           },
           {
             "text": "Mum",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
@@ -491,6 +647,11 @@
             "word": "Thanks",
             "pos": "int.",
             "meaning": "谢谢"
+          },
+          {
+            "word": "Mum",
+            "pos": "n.",
+            "meaning": "妈妈"
           }
         ]
       }
@@ -510,7 +671,7 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "nice",
@@ -519,9 +680,24 @@
         ],
         "words": [
           {
+            "word": "These",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "ice creams",
+            "pos": "n.",
+            "meaning": "冰淇淋"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "nice",
             "pos": "adj.",
-            "meaning": "好的，好吃的"
+            "meaning": "好的"
           }
         ]
       }
@@ -537,7 +713,7 @@
         "grammar": [
           {
             "text": "Are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "you",
@@ -548,7 +724,28 @@
             "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你/你们"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "完全"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "好的"
+          }
+        ]
       }
     },
     {
@@ -562,7 +759,7 @@
         "grammar": [
           {
             "text": "Yes",
-            "label": "肯定回答"
+            "label": "回答词"
           },
           {
             "text": "we",
@@ -570,7 +767,7 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "thank you",
@@ -579,9 +776,29 @@
         ],
         "words": [
           {
-            "word": "Thank",
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }

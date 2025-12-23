@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 93",
-      "translation": "",
+      "translation": "第93课",
       "startTime": 0.51,
       "endTime": 3,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 91",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "93",
+            "pos": "num.",
+            "meaning": "九十三"
           }
         ]
       }
@@ -26,38 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Our new neighbour",
-      "translation": "",
+      "translation": "我们的新邻居",
       "startTime": 3.01,
       "endTime": 6.02,
       "analysis": {
         "grammar": [
           {
-            "text": "Our",
-            "label": "形容词性物主代词"
+            "text": "Our new neighbour",
+            "label": "名词短语/标题"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "neighbour",
+            "pos": "n.",
+            "meaning": "邻居"
+          }
+        ]
       }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.03,
       "endTime": 11.97,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -66,26 +135,58 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why is Nigel a lucky man?",
-      "translation": "",
+      "translation": "为什么内杰尔是个幸运的人？",
       "startTime": 11.98,
       "endTime": 17.18,
       "analysis": {
         "grammar": [
           {
+            "text": "Why",
+            "label": "疑问词"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "Nigel",
+            "label": "主语"
+          },
+          {
+            "text": "a lucky man",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Man",
+            "word": "Nigel",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "内杰尔"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "男人/人"
           }
         ]
       }
@@ -94,25 +195,54 @@
       "id": "s1",
       "role": "Man",
       "text": "Nigel is our new next-door neighbour.",
-      "translation": "",
+      "translation": "内杰尔是我们家新搬来的隔壁邻居。",
       "startTime": 17.19,
       "endTime": 21.63,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Nigel",
+            "label": "主语"
           },
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "our new next-door neighbour",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Nigel",
+            "pos": "n.",
+            "meaning": "内杰尔"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "next-door",
+            "pos": "adj.",
+            "meaning": "隔壁的"
+          },
+          {
+            "word": "neighbour",
+            "pos": "n.",
+            "meaning": "邻居"
           }
         ]
       }
@@ -121,57 +251,305 @@
       "id": "s2",
       "role": "Woman",
       "text": "He's a pilot.",
-      "translation": "",
+      "translation": "他是个飞行员。",
       "startTime": 21.64,
-      "endTime": 24.15
+      "endTime": 24.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "a pilot",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "pilot",
+            "pos": "n.",
+            "meaning": "飞行员"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "He was in the R.A.F.",
-      "translation": "",
+      "translation": "他曾在皇家空军服役。",
       "startTime": 24.16,
-      "endTime": 28.28
+      "endTime": 28.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "系词 (过去时)"
+          },
+          {
+            "text": "in the R.A.F.",
+            "label": "介词短语/表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是/在（过去式）"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "R.A.F.",
+            "pos": "n.",
+            "meaning": "皇家空军(Royal Air Force)"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "He will fly to New York next month.",
-      "translation": "",
+      "translation": "下个月他将飞往纽约。",
       "startTime": 28.29,
       "endTime": 33.18,
       "analysis": {
         "grammar": [
           {
-            "text": "will",
-            "label": "助动词"
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "will fly",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "to New York",
+            "label": "地点状语"
+          },
+          {
+            "text": "next month",
+            "label": "时间状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "will",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "fly",
+            "pos": "v.",
+            "meaning": "飞"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "New",
+            "pos": "adj.",
+            "meaning": "新"
+          },
+          {
+            "word": "York",
+            "pos": "n.",
+            "meaning": "约"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          },
+          {
+            "word": "month",
+            "pos": "n.",
+            "meaning": "月份"
+          }
+        ]
       }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "The month after next he'll fly to Tokyo.",
-      "translation": "",
+      "translation": "下下个月他将飞往东京。",
       "startTime": 33.19,
-      "endTime": 38.61
+      "endTime": 38.61,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The month after next",
+            "label": "时间状语"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "'ll fly",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "to Tokyo",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "month",
+            "pos": "n.",
+            "meaning": "月份"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...以后"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'ll",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "fly",
+            "pos": "v.",
+            "meaning": "飞"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "Tokyo",
+            "pos": "n.",
+            "meaning": "东京"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "At the moment, he's in Madrid.",
-      "translation": "",
+      "translation": "现在他正在马德里。",
       "startTime": 38.62,
       "endTime": 42.3,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "At the moment",
+            "label": "时间状语"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "in Madrid",
+            "label": "地点状语/表语"
+          }
+        ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "moment",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "Madrid",
+            "pos": "n.",
+            "meaning": "马德里"
           }
         ]
       }
@@ -180,32 +558,194 @@
       "id": "s7",
       "role": "Man",
       "text": "He flew to Spain a week ago.",
-      "translation": "",
+      "translation": "他是一个星期以前飞往西班牙的。",
       "startTime": 42.31,
-      "endTime": 46.57
+      "endTime": 46.57,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "flew",
+            "label": "谓语 (过去时)"
+          },
+          {
+            "text": "to Spain",
+            "label": "地点状语"
+          },
+          {
+            "text": "a week ago",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "flew",
+            "pos": "v.",
+            "meaning": "飞（fly过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "Spain",
+            "pos": "n.",
+            "meaning": "西班牙"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "He'll return to London the week after next.",
-      "translation": "",
+      "translation": "下下个星期他将返回伦敦。",
       "startTime": 46.58,
-      "endTime": 52.14
+      "endTime": 52.14,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'ll return",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "to London",
+            "label": "地点状语"
+          },
+          {
+            "text": "the week after next",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'ll",
+            "pos": "v.aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "return",
+            "pos": "v.",
+            "meaning": "返回"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...以后"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "He's only forty-one years old,",
-      "translation": "",
+      "translation": "他只有41岁，",
       "startTime": 52.15,
       "endTime": 55.88,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "only forty-one years old",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Old",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "forty-one",
+            "pos": "num.",
+            "meaning": "四十一"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "岁"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "年龄的/老的"
           }
         ]
       }
@@ -214,41 +754,146 @@
       "id": "s10",
       "role": "Woman",
       "text": "and he has already been to nearly every country in the world.",
-      "translation": "",
+      "translation": "但他已经去过世界上几乎每一个国家了。",
       "startTime": 55.89,
-      "endTime": 63.41
+      "endTime": 63.41,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "has already been to",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "nearly every country",
+            "label": "宾语"
+          },
+          {
+            "text": "in the world",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "v.aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "曾经在（go/be过去分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每一"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Nigel is a very lucky man.",
-      "translation": "",
+      "translation": "内杰尔是个非常幸运的人。",
       "startTime": 63.42,
       "endTime": 67.19,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Nigel",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "a very lucky man",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Nigel",
+            "pos": "n.",
+            "meaning": "内杰尔"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
           },
           {
-            "word": "Man",
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
           }
@@ -259,25 +904,58 @@
       "id": "s12",
       "role": "Woman",
       "text": "But his wife isn't very lucky.",
-      "translation": "",
+      "translation": "可他的妻子就不怎么幸运了。",
       "startTime": 67.2,
       "endTime": 70.51,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "But",
+            "label": "连词"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "his wife",
+            "label": "主语"
+          },
+          {
+            "text": "isn't",
+            "label": "系词 (否定)"
+          },
+          {
+            "text": "very lucky",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "isn't",
+            "pos": "v.",
+            "meaning": "不是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
+          },
+          {
+            "word": "lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
           }
         ]
       }
@@ -286,16 +964,49 @@
       "id": "s13",
       "role": "Man",
       "text": "She usually stays at home!",
-      "translation": "",
+      "translation": "她通常呆在家里！",
       "startTime": 70.52,
       "endTime": 75.52,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "usually stays",
+            "label": "谓语"
+          },
+          {
+            "text": "at home",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "stays",
+            "pos": "v.",
+            "meaning": "停留/呆"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
           }
         ]
       }

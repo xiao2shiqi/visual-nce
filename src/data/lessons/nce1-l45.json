@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 45",
-      "translation": "",
+      "translation": "第45课",
       "startTime": 0.31,
       "endTime": 3.01,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 45",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "45",
+            "pos": "num.",
+            "meaning": "四十五"
           }
         ]
       }
@@ -26,29 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The boss's letter",
-      "translation": "",
+      "translation": "老板的信",
       "startTime": 3.02,
-      "endTime": 6.16
+      "endTime": 6.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The boss's letter",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "boss's",
+            "pos": "n.",
+            "meaning": "老板的"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.17,
       "endTime": 11.9,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,34 +135,132 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why can't Pamela type the letter?",
-      "translation": "",
+      "translation": "为什么帕梅拉不能打这封信？",
       "startTime": 11.91,
-      "endTime": 17.65
+      "endTime": 17.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Why",
+            "label": "疑问副词"
+          },
+          {
+            "text": "can't",
+            "label": "情态动词 (否定)"
+          },
+          {
+            "text": "Pamela",
+            "label": "主语"
+          },
+          {
+            "text": "type",
+            "label": "谓语动词"
+          },
+          {
+            "text": "the letter",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "Pamela",
+            "pos": "n.",
+            "meaning": "帕梅拉"
+          },
+          {
+            "word": "type",
+            "pos": "v.",
+            "meaning": "打字"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Can you come here a minute please, Bob?",
-      "translation": "",
+      "translation": "鲍勃，请你过来一下好吗？",
       "startTime": 17.66,
       "endTime": 21.76,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "Can you come here",
+            "label": "请求/疑问"
           },
           {
-            "word": "Here",
+            "text": "a minute",
+            "label": "时间状语"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          },
+          {
+            "text": "Bob",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
             "meaning": "这里"
           },
           {
-            "word": "Please",
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "minute",
+            "pos": "n.",
+            "meaning": "分钟"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Bob",
+            "pos": "n.",
+            "meaning": "鲍勃"
           }
         ]
       }
@@ -93,11 +269,20 @@
       "id": "s2",
       "role": "Woman",
       "text": "Yes, sir?",
-      "translation": "",
+      "translation": "是的，先生？",
       "startTime": 21.77,
       "endTime": 24.02,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定/回应"
+          },
+          {
+            "text": "sir",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -105,7 +290,7 @@
             "meaning": "是的"
           },
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -116,35 +301,138 @@
       "id": "s3",
       "role": "Man",
       "text": "Where's Pamela?",
-      "translation": "",
+      "translation": "帕梅拉在哪儿？",
       "startTime": 24.03,
-      "endTime": 26.19
+      "endTime": 26.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Where",
+            "label": "疑问副词"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "Pamela",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Pamela",
+            "pos": "n.",
+            "meaning": "帕梅拉"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "She's next door.",
-      "translation": "",
+      "translation": "她在隔壁。",
       "startTime": 26.2,
-      "endTime": 28.23
+      "endTime": 28.23,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "next door",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "next door",
+            "pos": "adv.",
+            "meaning": "在隔壁"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "She's in her office, sir.",
-      "translation": "",
+      "translation": "先生，她在她的办公室里。",
       "startTime": 28.24,
       "endTime": 31.47,
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "in her office",
+            "label": "地点状语"
+          },
+          {
+            "text": "sir",
+            "label": "称呼语"
           }
         ],
         "words": [
           {
-            "word": "Sir",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "her",
+            "pos": "det.",
+            "meaning": "她的"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
+          },
+          {
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -155,28 +443,57 @@
       "id": "s6",
       "role": "Woman",
       "text": "Can she type this letter for me?",
-      "translation": "",
+      "translation": "她能为我打这封信吗？",
       "startTime": 31.48,
       "endTime": 35.18,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Can she type",
+            "label": "疑问句 (情态)"
           },
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "this letter",
+            "label": "宾语"
+          },
+          {
+            "text": "for me",
+            "label": "对象状语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "Me",
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "type",
+            "pos": "v.",
+            "meaning": "打字"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           }
@@ -187,19 +504,33 @@
       "id": "s7",
       "role": "Man",
       "text": "Ask her please.",
-      "translation": "",
+      "translation": "请问问她。",
       "startTime": 35.19,
       "endTime": 36.91,
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "Ask her",
+            "label": "祈使句"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
           }
         ],
         "words": [
           {
-            "word": "Please",
+            "word": "Ask",
+            "pos": "v.",
+            "meaning": "询问/要求"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她（宾格）"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -210,11 +541,20 @@
       "id": "s8",
       "role": "Woman",
       "text": "Yes, sir.",
-      "translation": "",
+      "translation": "好的，先生。",
       "startTime": 36.92,
       "endTime": 39.3,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定/回应"
+          },
+          {
+            "text": "sir",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -222,7 +562,7 @@
             "meaning": "是的"
           },
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -233,31 +573,82 @@
       "id": "s9",
       "role": "Man",
       "text": "Can you type this letter for the boss please, Pamela?",
-      "translation": "",
+      "translation": "帕梅拉，请你为老板打这封信好吗？",
       "startTime": 39.31,
       "endTime": 44.14,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Can you type",
+            "label": "请求/疑问"
+          },
+          {
+            "text": "this letter",
+            "label": "宾语"
+          },
+          {
+            "text": "for the boss",
+            "label": "对象状语"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          },
+          {
+            "text": "Pamela",
+            "label": "称呼语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "This",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
           },
           {
-            "word": "Please",
+            "word": "type",
+            "pos": "v.",
+            "meaning": "打字"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "boss",
+            "pos": "n.",
+            "meaning": "老板"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Pamela",
+            "pos": "n.",
+            "meaning": "帕梅拉"
           }
         ]
       }
@@ -266,16 +657,44 @@
       "id": "s10",
       "role": "Woman",
       "text": "Yes, of course I can.",
-      "translation": "",
+      "translation": "好的，我当然能打。",
       "startTime": 44.15,
       "endTime": 47.74,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定回答"
+          },
+          {
+            "text": "of course",
+            "label": "状语"
+          },
+          {
+            "text": "I can",
+            "label": "主句核心"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "of course",
+            "pos": "adv.",
+            "meaning": "当然"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能"
           }
         ]
       }
@@ -284,14 +703,14 @@
       "id": "s11",
       "role": "Man",
       "text": "Here you are.",
-      "translation": "",
+      "translation": "给你。",
       "startTime": 47.75,
       "endTime": 49.35,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Here you are",
+            "label": "常用语"
           }
         ],
         "words": [
@@ -301,9 +720,14 @@
             "meaning": "这里"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -312,11 +736,20 @@
       "id": "s12",
       "role": "Woman",
       "text": "Thank you, Bob.",
-      "translation": "",
+      "translation": "谢谢你，鲍勃。",
       "startTime": 49.36,
       "endTime": 51.87,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thank you",
+            "label": "感谢语"
+          },
+          {
+            "text": "Bob",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
             "word": "Thank",
@@ -324,9 +757,14 @@
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "Bob",
+            "pos": "n.",
+            "meaning": "鲍勃"
           }
         ]
       }
@@ -335,19 +773,39 @@
       "id": "s13",
       "role": "Man",
       "text": "Bob!",
-      "translation": "",
+      "translation": "鲍勃！",
       "startTime": 51.88,
-      "endTime": 52.72
+      "endTime": 52.72,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Bob",
+            "label": "称呼语/呼唤"
+          }
+        ],
+        "words": [
+          {
+            "word": "Bob",
+            "pos": "n.",
+            "meaning": "鲍勃"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "Yes?",
-      "translation": "",
+      "translation": "什么事？",
       "startTime": 52.73,
       "endTime": 53.93,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "疑问/回应"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -361,29 +819,95 @@
       "id": "s15",
       "role": "Narrator",
       "text": "What's the matter?",
-      "translation": "",
+      "translation": "怎么回事？",
       "startTime": 53.94,
-      "endTime": 56.1
+      "endTime": 56.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the matter",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "matter",
+            "pos": "n.",
+            "meaning": "事情/麻烦"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Man",
       "text": "I can't type this letter.",
-      "translation": "",
+      "translation": "我没法打这封信。",
       "startTime": 56.11,
       "endTime": 59.29,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "can't type",
+            "label": "谓语 (情态否定)"
+          },
+          {
+            "text": "this letter",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "This",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "type",
+            "pos": "v.",
+            "meaning": "打字"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
           }
         ]
       }
@@ -392,19 +916,42 @@
       "id": "s17",
       "role": "Woman",
       "text": "I can't read it!",
-      "translation": "",
+      "translation": "我看不懂这封信！",
       "startTime": 59.3,
       "endTime": 61.58,
       "analysis": {
         "grammar": [
           {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "can't read",
+            "label": "谓语 (情态否定)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "read",
+            "pos": "v.",
+            "meaning": "阅读/识别"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -415,21 +962,49 @@
       "id": "s18",
       "role": "Man",
       "text": "The boss's handwriting is terrible!",
-      "translation": "",
+      "translation": "老板的手写字太糟糕了！",
       "startTime": 61.59,
       "endTime": 66.59,
       "analysis": {
         "grammar": [
           {
+            "text": "The boss's handwriting",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "terrible",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "boss's",
+            "pos": "n.",
+            "meaning": "老板的"
+          },
+          {
+            "word": "handwriting",
+            "pos": "n.",
+            "meaning": "手写字"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "terrible",
+            "pos": "adj.",
+            "meaning": "糟糕的/可怕的"
           }
         ]
       }

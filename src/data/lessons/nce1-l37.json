@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 37",
-      "translation": "",
+      "translation": "第37课",
       "startTime": 0.54,
       "endTime": 3.04,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 37",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "37",
+            "pos": "num.",
+            "meaning": "三十七"
           }
         ]
       }
@@ -26,29 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Making a bookcase",
-      "translation": "",
+      "translation": "做书架",
       "startTime": 3.05,
-      "endTime": 6.1
+      "endTime": 6.1,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Making a bookcase",
+            "label": "动名词短语/标题"
+          }
+        ],
+        "words": [
+          {
+            "word": "Making",
+            "pos": "v.",
+            "meaning": "制作"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bookcase",
+            "pos": "n.",
+            "meaning": "书架"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.11,
       "endTime": 12.29,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,18 +135,22 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What is Susan's favourite colour?",
-      "translation": "",
+      "translation": "苏珊最喜欢的颜色是什么？",
       "startTime": 12.3,
       "endTime": 17.44,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问代词/表语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "Susan's favourite colour",
+            "label": "主语"
           }
         ],
         "words": [
@@ -78,9 +160,24 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "Susan's",
+            "pos": "n.",
+            "meaning": "苏珊的"
+          },
+          {
+            "word": "favourite",
+            "pos": "adj.",
+            "meaning": "最喜欢的"
+          },
+          {
+            "word": "colour",
+            "pos": "n.",
+            "meaning": "颜色"
           }
         ]
       }
@@ -89,26 +186,77 @@
       "id": "s1",
       "role": "Man",
       "text": "You're working hard, George.",
-      "translation": "",
+      "translation": "乔治，你干活真卖力。",
       "startTime": 17.45,
-      "endTime": 20.71
+      "endTime": 20.71,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "You're working",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "hard",
+            "label": "程度状语"
+          },
+          {
+            "text": "George",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "You",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "'re",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "hard",
+            "pos": "adv.",
+            "meaning": "努力地"
+          },
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Narrator",
       "text": "What are you doing?",
-      "translation": "",
+      "translation": "你正在做什么？",
       "startTime": 20.72,
       "endTime": 23.21,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问代词/宾语"
           },
           {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "doing",
+            "label": "现在分词/主要动词"
           }
         ],
         "words": [
@@ -118,9 +266,19 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -129,43 +287,105 @@
       "id": "s3",
       "role": "Man",
       "text": "I'm making a bookcase.",
-      "translation": "",
+      "translation": "我正在做一个书架。",
       "startTime": 23.22,
-      "endTime": 26.8
+      "endTime": 26.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m making",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "a bookcase",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "making",
+            "pos": "v.",
+            "meaning": "制作"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bookcase",
+            "pos": "n.",
+            "meaning": "书架"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "Give me that hammer please, Dan.",
-      "translation": "",
+      "translation": "丹，请把那把锤子给我。",
       "startTime": 26.81,
       "endTime": 30.81,
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Give me that hammer",
+            "label": "祈使句 (双宾语)"
           },
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "please",
+            "label": "礼貌语"
+          },
+          {
+            "text": "Dan",
+            "label": "称呼语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "Give",
+            "pos": "v.",
+            "meaning": "给"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "that",
+            "pos": "det.",
+            "meaning": "那把"
           },
           {
-            "word": "Please",
+            "word": "hammer",
+            "pos": "n.",
+            "meaning": "锤子"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Dan",
+            "pos": "n.",
+            "meaning": "丹"
           }
         ]
       }
@@ -174,29 +394,54 @@
       "id": "s5",
       "role": "Narrator",
       "text": "Which hammer?",
-      "translation": "",
+      "translation": "哪一把锤子？",
       "startTime": 30.82,
-      "endTime": 32.63
+      "endTime": 32.63,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Which hammer",
+            "label": "疑问短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一个"
+          },
+          {
+            "word": "hammer",
+            "pos": "n.",
+            "meaning": "锤子"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "This one?",
-      "translation": "",
+      "translation": "这一把吗？",
       "startTime": 32.64,
       "endTime": 34.11,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This one",
+            "label": "疑问短语"
           }
         ],
         "words": [
           {
             "word": "This",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "一个（指代锤子）"
           }
         ]
       }
@@ -205,26 +450,40 @@
       "id": "s7",
       "role": "Woman",
       "text": "No, not that one.",
-      "translation": "",
+      "translation": "不，不是那一把。",
       "startTime": 34.12,
       "endTime": 36.52,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "No",
+            "label": "否定回答"
+          },
+          {
+            "text": "not that one",
+            "label": "否定短语"
           }
         ],
         "words": [
           {
-            "word": "Not",
+            "word": "No",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "That",
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不是"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
+            "meaning": "那"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "一个"
           }
         ]
       }
@@ -233,22 +492,47 @@
       "id": "s8",
       "role": "Man",
       "text": "The big one.",
-      "translation": "",
+      "translation": "那把大的。",
       "startTime": 36.53,
-      "endTime": 38.93
+      "endTime": 38.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The big one",
+            "label": "名词短语/指定"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这/那"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Woman",
       "text": "Here you are.",
-      "translation": "",
+      "translation": "给你。",
       "startTime": 38.94,
       "endTime": 40.55,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Here you are",
+            "label": "常用语"
           }
         ],
         "words": [
@@ -258,9 +542,14 @@
             "meaning": "这里"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -269,16 +558,30 @@
       "id": "s10",
       "role": "Man",
       "text": "Thanks, Dan.",
-      "translation": "",
+      "translation": "谢谢，丹。",
       "startTime": 40.56,
       "endTime": 43.5,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thanks",
+            "label": "常用语"
+          },
+          {
+            "text": "Dan",
+            "label": "称呼语"
+          }
+        ],
         "words": [
           {
             "word": "Thanks",
             "pos": "n.",
             "meaning": "谢谢"
+          },
+          {
+            "word": "Dan",
+            "pos": "n.",
+            "meaning": "丹"
           }
         ]
       }
@@ -287,18 +590,26 @@
       "id": "s11",
       "role": "Narrator",
       "text": "What are you going to do now, George?",
-      "translation": "",
+      "translation": "乔治，你现在打算做什么？",
       "startTime": 43.51,
       "endTime": 47.83,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "are you going to do",
+            "label": "谓语 (一般将来时)"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
+          },
+          {
+            "text": "George",
+            "label": "称呼语"
           }
         ],
         "words": [
@@ -308,9 +619,39 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
           }
         ]
       }
@@ -319,19 +660,52 @@
       "id": "s12",
       "role": "Man",
       "text": "I'm going to paint it.",
-      "translation": "",
+      "translation": "我打算把它刷上漆。",
       "startTime": 47.84,
       "endTime": 51.11,
       "analysis": {
         "grammar": [
           {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m going to paint",
+            "label": "谓语 (一般将来时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "paint",
+            "pos": "v.",
+            "meaning": "刷漆"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -342,37 +716,62 @@
       "id": "s13",
       "role": "Narrator",
       "text": "What colour are you going to paint it?",
-      "translation": "",
+      "translation": "你打算把它刷成什么颜色？",
       "startTime": 51.12,
       "endTime": 55.47,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What colour",
+            "label": "疑问短语/宾补"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "are you going to paint",
+            "label": "谓语 (一般将来时)"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "colour",
+            "pos": "n.",
+            "meaning": "颜色"
           },
           {
-            "word": "It",
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "paint",
+            "pos": "v.",
+            "meaning": "刷漆"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -383,21 +782,63 @@
       "id": "s14",
       "role": "Man",
       "text": "I'm going to paint it pink.",
-      "translation": "",
+      "translation": "我打算把它刷成粉红色。",
       "startTime": 55.48,
       "endTime": 59.49,
       "analysis": {
         "grammar": [
           {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m going to paint",
+            "label": "谓语 (一般将来时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
+          },
+          {
+            "text": "pink",
+            "label": "宾补"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "paint",
+            "pos": "v.",
+            "meaning": "刷漆"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "pink",
+            "pos": "adj.",
+            "meaning": "粉红色的"
           }
         ]
       }
@@ -406,36 +847,75 @@
       "id": "s15",
       "role": "Woman",
       "text": "Pink!",
-      "translation": "",
+      "translation": "粉红色！",
       "startTime": 59.5,
-      "endTime": 60.98
+      "endTime": 60.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Pink",
+            "label": "感叹语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Pink",
+            "pos": "adj.",
+            "meaning": "粉红色的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Man",
       "text": "This bookcase isn't for me.",
-      "translation": "",
+      "translation": "这个书架不是给我的。",
       "startTime": 60.99,
       "endTime": 63.95,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This bookcase",
+            "label": "主语"
           },
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "isn't",
+            "label": "系词 (否定)"
+          },
+          {
+            "text": "for me",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
-            "word": "Me",
+            "word": "bookcase",
+            "pos": "n.",
+            "meaning": "书架"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了/给"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           }
@@ -446,30 +926,58 @@
       "id": "s17",
       "role": "Woman",
       "text": "It's for my daughter, Susan.",
-      "translation": "",
+      "translation": "它是给我女儿苏珊的。",
       "startTime": 63.96,
       "endTime": 67.09,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
           },
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "for my daughter",
+            "label": "表语"
+          },
+          {
+            "text": "Susan",
+            "label": "同位语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "It",
             "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了/给"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "Daughter",
+            "word": "daughter",
             "pos": "n.",
             "meaning": "女儿"
+          },
+          {
+            "word": "Susan",
+            "pos": "n.",
+            "meaning": "苏珊"
           }
         ]
       }
@@ -478,17 +986,51 @@
       "id": "s18",
       "role": "Man",
       "text": "Pink's her favourite colour.",
-      "translation": "",
+      "translation": "粉红色是她最喜欢的颜色。",
       "startTime": 67.1,
       "endTime": 72.1,
       "analysis": {
         "grammar": [
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "Pink",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "her favourite colour",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Pink",
+            "pos": "n.",
+            "meaning": "粉红色"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "her",
+            "pos": "det.",
+            "meaning": "她的"
+          },
+          {
+            "word": "favourite",
+            "pos": "adj.",
+            "meaning": "最喜欢的"
+          },
+          {
+            "word": "colour",
+            "pos": "n.",
+            "meaning": "颜色"
+          }
+        ]
       }
     }
   ]

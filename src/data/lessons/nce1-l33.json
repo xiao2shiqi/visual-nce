@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 33",
-      "translation": "",
+      "translation": "第33课",
       "startTime": 0.71,
       "endTime": 3.25,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 33",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "33",
+            "pos": "num.",
+            "meaning": "三十三"
           }
         ]
       }
@@ -26,16 +36,31 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A fine day",
-      "translation": "",
+      "translation": "一个晴天",
       "startTime": 3.26,
       "endTime": 6.01,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "A fine day",
+            "label": "名词短语"
+          }
+        ],
         "words": [
           {
-            "word": "Fine",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "fine",
             "pos": "adj.",
-            "meaning": "健康的"
+            "meaning": "晴朗的"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "日子"
           }
         ]
       }
@@ -44,21 +69,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.02,
       "endTime": 11.41,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,21 +135,49 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Where is the Jones family?",
-      "translation": "",
+      "translation": "琼斯一家人在哪里？",
       "startTime": 11.42,
       "endTime": 16.25,
       "analysis": {
         "grammar": [
           {
+            "text": "Where",
+            "label": "疑问副词/状语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "the Jones family",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Jones",
+            "pos": "n.",
+            "meaning": "琼斯"
+          },
+          {
+            "word": "family",
+            "pos": "n.",
+            "meaning": "家庭"
           }
         ]
       }
@@ -90,38 +186,56 @@
       "id": "s1",
       "role": "Man",
       "text": "It is a fine day today.",
-      "translation": "",
+      "translation": "今天天真好。",
       "startTime": 16.26,
       "endTime": 19.96,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "无人称代词/形式主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "a fine day",
+            "label": "表语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指天气）"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Fine",
-            "pos": "adj.",
-            "meaning": "健康的"
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
           },
           {
-            "word": "Today",
+            "word": "fine",
+            "pos": "adj.",
+            "meaning": "晴朗的"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "日子"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           }
@@ -132,38 +246,110 @@
       "id": "s2",
       "role": "Woman",
       "text": "There are some clouds in the sky,",
-      "translation": "",
+      "translation": "天空中有些云，",
       "startTime": 19.97,
       "endTime": 24.17,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "some clouds",
+            "label": "主语"
+          },
+          {
+            "text": "in the sky",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "clouds",
+            "pos": "n.",
+            "meaning": "云"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "sky",
+            "pos": "n.",
+            "meaning": "天空"
+          }
+        ]
       }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "but the sun is shining.",
-      "translation": "",
+      "translation": "但是灿烂的阳光正照耀着。",
       "startTime": 24.18,
       "endTime": 27.73,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "but",
+            "label": "连词 (转折)"
+          },
+          {
+            "text": "the sun",
+            "label": "主语"
+          },
+          {
+            "text": "is shining",
+            "label": "谓语 (现在进行时)"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "sun",
+            "pos": "n.",
+            "meaning": "太阳"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
             "meaning": "是"
+          },
+          {
+            "word": "shining",
+            "pos": "v.",
+            "meaning": "照耀"
           }
         ]
       }
@@ -172,25 +358,54 @@
       "id": "s4",
       "role": "Woman",
       "text": "Mr. Jones is with his family.",
-      "translation": "",
+      "translation": "琼斯先生正和他的家人在一起。",
       "startTime": 27.74,
       "endTime": 31.77,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Mr. Jones",
+            "label": "主语"
           },
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "with his family",
+            "label": "伴随状语/表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Jones",
+            "pos": "n.",
+            "meaning": "琼斯"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "同...一起"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "family",
+            "pos": "n.",
+            "meaning": "家人"
           }
         ]
       }
@@ -199,59 +414,186 @@
       "id": "s5",
       "role": "Man",
       "text": "They are walking over the bridge.",
-      "translation": "",
+      "translation": "他们正从桥上走过。",
       "startTime": 31.78,
       "endTime": 35.82,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "are walking",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "over the bridge",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "walking",
+            "pos": "v.",
+            "meaning": "走"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "跨越"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "bridge",
+            "pos": "n.",
+            "meaning": "桥"
+          }
+        ]
       }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "There are some boats on the river.",
-      "translation": "",
+      "translation": "河上有几条小船。",
       "startTime": 35.83,
       "endTime": 39.85,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "some boats",
+            "label": "主语"
+          },
+          {
+            "text": "on the river",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "boats",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "river",
+            "pos": "n.",
+            "meaning": "河"
+          }
+        ]
       }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "Mr. Jones and his wife are looking at them.",
-      "translation": "",
+      "translation": "琼斯先生和他的妻子正在看着它们。",
       "startTime": 39.86,
       "endTime": 45.72,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Mr. Jones and his wife",
+            "label": "并列主语"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "are looking at",
+            "label": "谓语 (现在进行时+介词)"
+          },
+          {
+            "text": "them",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "At",
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Jones",
+            "pos": "n.",
+            "meaning": "琼斯"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "looking",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "对着"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
           }
         ]
       }
@@ -260,26 +602,59 @@
       "id": "s8",
       "role": "Woman",
       "text": "Sally is looking at a big ship.",
-      "translation": "",
+      "translation": "萨莉正在看着一艘大船。",
       "startTime": 45.73,
       "endTime": 50.17,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Sally",
+            "label": "主语"
+          },
+          {
+            "text": "is looking at",
+            "label": "谓语 (现在进行时+介词)"
+          },
+          {
+            "text": "a big ship",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "萨莉"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
             "meaning": "是"
           },
           {
-            "word": "At",
+            "word": "looking",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "对着"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一艘"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
           }
         ]
       }
@@ -288,21 +663,59 @@
       "id": "s9",
       "role": "Man",
       "text": "The ship is going under the bridge.",
-      "translation": "",
+      "translation": "那艘大船正从桥下驶过。",
       "startTime": 50.18,
       "endTime": 54.74,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "The ship",
+            "label": "主语"
+          },
+          {
+            "text": "is going",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "under the bridge",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这艘"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
             "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "走/驶"
+          },
+          {
+            "word": "under",
+            "pos": "prep.",
+            "meaning": "在...下"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "bridge",
+            "pos": "n.",
+            "meaning": "桥"
           }
         ]
       }
@@ -311,26 +724,54 @@
       "id": "s10",
       "role": "Woman",
       "text": "Tim is looking at an aeroplane.",
-      "translation": "",
+      "translation": "提姆正望着一架飞机。",
       "startTime": 54.75,
       "endTime": 59.5,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Tim",
+            "label": "主语"
+          },
+          {
+            "text": "is looking at",
+            "label": "谓语 (现在进行时+介词)"
+          },
+          {
+            "text": "an aeroplane",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "提姆"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
             "meaning": "是"
           },
           {
-            "word": "At",
+            "word": "looking",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "对着"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一架"
+          },
+          {
+            "word": "aeroplane",
+            "pos": "n.",
+            "meaning": "飞机"
           }
         ]
       }
@@ -339,21 +780,59 @@
       "id": "s11",
       "role": "Man",
       "text": "The aeroplane is flying over the river.",
-      "translation": "",
+      "translation": "飞机正从河上飞过。",
       "startTime": 59.51,
       "endTime": 64.51,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "The aeroplane",
+            "label": "主语"
+          },
+          {
+            "text": "is flying",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "over the river",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这架"
+          },
+          {
+            "word": "aeroplane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
             "meaning": "是"
+          },
+          {
+            "word": "flying",
+            "pos": "v.",
+            "meaning": "飞"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "在...之上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "river",
+            "pos": "n.",
+            "meaning": "河"
           }
         ]
       }

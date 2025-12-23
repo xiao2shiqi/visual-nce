@@ -14,12 +14,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "5",
-            "label": "数词/编号"
+            "text": "Lesson 5",
+            "label": "标题/课程编号"
           }
         ],
         "words": [
@@ -27,6 +23,11 @@
             "word": "Lesson",
             "pos": "n.",
             "meaning": "课"
+          },
+          {
+            "word": "5",
+            "pos": "num.",
+            "meaning": "五"
           }
         ]
       }
@@ -41,33 +42,30 @@
       "analysis": {
         "grammar": [
           {
-            "text": "It is",
-            "label": "省略形式"
-          },
-          {
-            "text": "Nice",
-            "label": "表语/形容词"
-          },
-          {
-            "text": "to meet you",
-            "label": "真正主语/不定式短语"
+            "text": "Nice to meet you",
+            "label": "常用问候语"
           }
         ],
         "words": [
           {
             "word": "Nice",
             "pos": "adj.",
-            "meaning": "令人愉快的，好的"
+            "meaning": "愉快的，好的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
           },
           {
             "word": "meet",
             "pos": "v.",
-            "meaning": "结识，遇见"
+            "meaning": "遇见，结识"
           },
           {
             "word": "you",
             "pos": "pron.",
-            "meaning": "你，您"
+            "meaning": "你"
           }
         ]
       }
@@ -82,27 +80,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen to",
-            "label": "谓语/祈使句"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
-            "text": "the tape",
-            "label": "宾语"
+            "text": "then",
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "并列谓语"
-          },
-          {
-            "text": "this question",
-            "label": "宾语"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -123,7 +147,7 @@
         "grammar": [
           {
             "text": "Is",
-            "label": "系动词/提前"
+            "label": "谓语/系词"
           },
           {
             "text": "Chang-woo",
@@ -136,9 +160,19 @@
         ],
         "words": [
           {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Chang-woo",
+            "pos": "n.",
+            "meaning": "昌宇（韩国人名）"
+          },
+          {
             "word": "Chinese",
             "pos": "adj.",
-            "meaning": "中国人的"
+            "meaning": "中国（人）的"
           }
         ]
       }
@@ -154,14 +188,19 @@
         "grammar": [
           {
             "text": "Good morning",
-            "label": "问候语"
+            "label": "固定问候语"
           }
         ],
         "words": [
           {
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
             "word": "morning",
             "pos": "n.",
-            "meaning": "早晨，上午"
+            "meaning": "早晨"
           }
         ]
       }
@@ -186,9 +225,24 @@
         ],
         "words": [
           {
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
+          },
+          {
             "word": "Mr.",
-            "pos": "abbr.",
-            "meaning": "先生（用于男性的姓氏前）"
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Blake",
+            "pos": "n.",
+            "meaning": "布莱克（姓氏）"
           }
         ]
       }
@@ -204,22 +258,42 @@
         "grammar": [
           {
             "text": "This",
-            "label": "主语/指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Miss Sophie Dupont",
-            "label": "表语/人名"
+            "label": "表语"
           }
         ],
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Miss",
             "pos": "n.",
-            "meaning": "小姐（用于未婚女姓的姓氏前）"
+            "meaning": "小姐"
+          },
+          {
+            "word": "Sophie",
+            "pos": "n.",
+            "meaning": "索菲（女子名）"
+          },
+          {
+            "word": "Dupont",
+            "pos": "n.",
+            "meaning": "杜邦（姓氏）"
           }
         ]
       }
@@ -239,14 +313,29 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "a new student",
-            "label": "表语/名词短语"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "Sophie",
+            "pos": "n.",
+            "meaning": "索菲"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
           {
             "word": "new",
             "pos": "adj.",
@@ -271,11 +360,11 @@
         "grammar": [
           {
             "text": "She",
-            "label": "主语/代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "French",
@@ -283,6 +372,16 @@
           }
         ],
         "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "French",
             "pos": "adj.",
@@ -310,7 +409,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Hans",
@@ -319,9 +418,24 @@
         ],
         "words": [
           {
+            "word": "Sophie",
+            "pos": "n.",
+            "meaning": "索菲"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Hans",
             "pos": "n.",
-            "meaning": "汉斯（德语男子名）"
+            "meaning": "汉斯（男子名）"
           }
         ]
       }
@@ -341,14 +455,24 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "German",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "German",
             "pos": "adj.",
@@ -367,19 +491,30 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Nice",
-            "label": "省略句表语"
-          },
-          {
-            "text": "to meet you",
-            "label": "真正主语"
+            "text": "Nice to meet you",
+            "label": "常用问候语"
           }
         ],
         "words": [
           {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "愉快的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
             "word": "meet",
             "pos": "v.",
-            "meaning": "结识"
+            "meaning": "遇见"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -403,7 +538,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Naoko",
@@ -414,7 +549,22 @@
           {
             "word": "And",
             "pos": "conj.",
-            "meaning": "而且，并且"
+            "meaning": "而且"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Naoko",
+            "pos": "n.",
+            "meaning": "直子（女子名）"
           }
         ]
       }
@@ -434,10 +584,20 @@
           },
           {
             "text": "Japanese",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "Japanese",
             "pos": "adj.",
@@ -461,10 +621,20 @@
           },
           {
             "text": "Korean",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "Korean",
             "pos": "adj.",
@@ -488,10 +658,20 @@
           },
           {
             "text": "Chinese",
-            "label": "表语/国籍"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "Chinese",
             "pos": "adj.",
@@ -515,7 +695,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Chinese",
@@ -523,14 +703,29 @@
           },
           {
             "text": "too",
-            "label": "状语/副词"
+            "label": "副词/也"
           }
         ],
         "words": [
           {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Chinese",
+            "pos": "adj.",
+            "meaning": "中国人的"
+          },
+          {
             "word": "too",
             "pos": "adv.",
-            "meaning": "也（位于句末，前常有逗号）"
+            "meaning": "也"
           }
         ]
       }

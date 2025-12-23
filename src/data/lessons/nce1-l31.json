@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 31",
-      "translation": "",
+      "translation": "第31课",
       "startTime": 0.51,
       "endTime": 3.03,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 31",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "31",
+            "pos": "num.",
+            "meaning": "三十一"
           }
         ]
       }
@@ -26,29 +36,105 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Where's Sally?",
-      "translation": "",
+      "translation": "萨莉在哪里？",
       "startTime": 3.04,
-      "endTime": 5.64
+      "endTime": 5.64,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Where",
+            "label": "疑问副词/状语"
+          },
+          {
+            "text": "'s",
+            "label": "系词 (is的缩写)"
+          },
+          {
+            "text": "Sally",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "萨莉"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.65,
       "endTime": 11.44,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,21 +143,58 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Is the cat climbing the tree?",
-      "translation": "",
+      "translation": "猫正在爬树吗？",
       "startTime": 11.45,
       "endTime": 15.83,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "助动词"
+          },
+          {
+            "text": "the cat",
+            "label": "主语"
+          },
+          {
+            "text": "climbing",
+            "label": "现在分词/主要动词"
+          },
+          {
+            "text": "the tree",
+            "label": "宾语"
           }
         ],
         "words": [
           {
             "word": "Is",
-            "pos": "v.",
+            "pos": "v.aux.",
             "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cat",
+            "pos": "n.",
+            "meaning": "猫"
+          },
+          {
+            "word": "climbing",
+            "pos": "v.",
+            "meaning": "爬"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
           }
         ]
       }
@@ -80,46 +203,234 @@
       "id": "s1",
       "role": "Man",
       "text": "Where's Sally, Jack?",
-      "translation": "",
+      "translation": "杰克，萨莉在哪里？",
       "startTime": 15.84,
-      "endTime": 18.66
+      "endTime": 18.66,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Where's Sally",
+            "label": "疑问句"
+          },
+          {
+            "text": "Jack",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Sally",
+            "pos": "n.",
+            "meaning": "萨莉"
+          },
+          {
+            "word": "Jack",
+            "pos": "n.",
+            "meaning": "杰克"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "She's in the garden, Jean.",
-      "translation": "",
+      "translation": "吉恩，她在花园里。",
       "startTime": 18.67,
-      "endTime": 21.44
+      "endTime": 21.44,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "in the garden",
+            "label": "地点状语"
+          },
+          {
+            "text": "Jean",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
+          },
+          {
+            "word": "Jean",
+            "pos": "n.",
+            "meaning": "吉恩"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Narrator",
       "text": "What's she doing?",
-      "translation": "",
+      "translation": "她正在做什么？",
       "startTime": 21.45,
-      "endTime": 23.46
+      "endTime": 23.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问代词/宾语"
+          },
+          {
+            "text": "'s",
+            "label": "助动词 (is的缩写)"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "doing",
+            "label": "现在分词/主要动词"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Man",
       "text": "She's sitting under the tree.",
-      "translation": "",
+      "translation": "她正坐在树下。",
       "startTime": 23.47,
-      "endTime": 26.55
+      "endTime": 26.55,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "She",
+            "label": "主语"
+          },
+          {
+            "text": "'s sitting",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "under the tree",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "sitting",
+            "pos": "v.",
+            "meaning": "坐"
+          },
+          {
+            "word": "under",
+            "pos": "prep.",
+            "meaning": "在...下"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Woman",
       "text": "Is Tim in the garden, too?",
-      "translation": "",
+      "translation": "提姆也在花园里吗？",
       "startTime": 26.56,
       "endTime": 29.87,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "Tim",
+            "label": "主语"
+          },
+          {
+            "text": "in the garden",
+            "label": "地点状语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
           }
         ],
         "words": [
@@ -129,7 +440,27 @@
             "meaning": "是"
           },
           {
-            "word": "Too",
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "提姆"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -140,24 +471,33 @@
       "id": "s6",
       "role": "Man",
       "text": "Yes, he is.",
-      "translation": "",
+      "translation": "是的，他在。",
       "startTime": 29.88,
       "endTime": 31.81,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "Yes",
+            "label": "肯定词"
+          },
+          {
+            "text": "he is",
+            "label": "简略回答"
           }
         ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
-            "meaning": "是的"
+            "meaning": "是"
           },
           {
-            "word": "Is",
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -168,29 +508,87 @@
       "id": "s7",
       "role": "Woman",
       "text": "He's climbing the tree.",
-      "translation": "",
+      "translation": "他正在爬树。",
       "startTime": 31.82,
-      "endTime": 34.67
+      "endTime": 34.67,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s climbing",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "the tree",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "climbing",
+            "pos": "v.",
+            "meaning": "爬"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Man",
       "text": "I beg your pardon?",
-      "translation": "",
+      "translation": "你说什么？ / 请再说一遍？",
       "startTime": 34.68,
       "endTime": 36.9,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "I beg your pardon",
+            "label": "常用语"
           }
         ],
         "words": [
           {
-            "word": "Your",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "我"
+          },
+          {
+            "word": "beg",
+            "pos": "v.",
+            "meaning": "请求"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "pardon",
+            "pos": "n.",
+            "meaning": "原谅"
           }
         ]
       }
@@ -199,27 +597,79 @@
       "id": "s9",
       "role": "Narrator",
       "text": "Who's climbing the tree?",
-      "translation": "",
+      "translation": "谁正在爬树？",
       "startTime": 36.91,
-      "endTime": 39.46
+      "endTime": 39.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Who",
+            "label": "疑问代词/主语"
+          },
+          {
+            "text": "'s climbing",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "the tree",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "climbing",
+            "pos": "v.",
+            "meaning": "爬"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Man",
       "text": "Tim is.",
-      "translation": "",
+      "translation": "是提姆。",
       "startTime": 39.47,
       "endTime": 41.4,
       "analysis": {
         "grammar": [
           {
+            "text": "Tim",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "谓语 (省略后续部分)"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "提姆"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -230,14 +680,18 @@
       "id": "s11",
       "role": "Narrator",
       "text": "What about the dog?",
-      "translation": "",
+      "translation": "那条狗呢？",
       "startTime": 41.41,
       "endTime": 44.24,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What about",
+            "label": "疑问短语"
+          },
+          {
+            "text": "the dog",
+            "label": "核心话题"
           }
         ],
         "words": [
@@ -245,6 +699,21 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dog",
+            "pos": "n.",
+            "meaning": "狗"
           }
         ]
       }
@@ -253,14 +722,61 @@
       "id": "s12",
       "role": "Man",
       "text": "The dog's in the garden, too.",
-      "translation": "",
+      "translation": "那条狗也在花园里。",
       "startTime": 44.25,
       "endTime": 46.88,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The dog",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词 (is的缩写)"
+          },
+          {
+            "text": "in the garden",
+            "label": "地点状语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
+          }
+        ],
         "words": [
           {
-            "word": "Too",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dog",
+            "pos": "n.",
+            "meaning": "狗"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -271,34 +787,112 @@
       "id": "s13",
       "role": "Woman",
       "text": "It's running across the grass.",
-      "translation": "",
+      "translation": "它正跑过草地。",
       "startTime": 46.89,
       "endTime": 50.01,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
+          },
+          {
+            "text": "'s running",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "across the grass",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "running",
+            "pos": "v.",
+            "meaning": "跑"
+          },
+          {
+            "word": "across",
+            "pos": "prep.",
+            "meaning": "横过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "grass",
+            "pos": "n.",
+            "meaning": "草坪"
+          }
+        ]
       }
     },
     {
       "id": "s14",
       "role": "Man",
       "text": "It's running after a cat.",
-      "translation": "",
+      "translation": "它正追逐一只猫。",
       "startTime": 50.02,
       "endTime": 55.02,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
+          },
+          {
+            "text": "'s running after",
+            "label": "谓语 (现在进行时+介词)"
+          },
+          {
+            "text": "a cat",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "running",
+            "pos": "v.",
+            "meaning": "跑"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后/追求"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一只"
+          },
+          {
+            "word": "cat",
+            "pos": "n.",
+            "meaning": "猫"
+          }
+        ]
       }
     }
   ]

@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 29",
-      "translation": "",
+      "translation": "第29课",
       "startTime": 0.52,
       "endTime": 3.32,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 29",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "29",
+            "pos": "num.",
+            "meaning": "二十九"
           }
         ]
       }
@@ -26,29 +36,101 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Come in, Amy.",
-      "translation": "",
+      "translation": "进来，埃米。",
       "startTime": 3.33,
-      "endTime": 6.84
+      "endTime": 6.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Come in",
+            "label": "不及物动词短语 (祈使句)"
+          },
+          {
+            "text": "Amy",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "in",
+            "pos": "adv.",
+            "meaning": "进"
+          },
+          {
+            "word": "Amy",
+            "pos": "n.",
+            "meaning": "埃米"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.85,
       "endTime": 12.59,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,16 +139,62 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "How must Amy clean the floor?",
-      "translation": "",
+      "translation": "埃米必须如何打扫地面？",
       "startTime": 12.6,
       "endTime": 17.29,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "How",
+            "label": "疑问副词/状语"
+          },
+          {
+            "text": "must",
+            "label": "情态动词"
+          },
+          {
+            "text": "Amy",
+            "label": "主语"
+          },
+          {
+            "text": "clean",
+            "label": "谓语动词"
+          },
+          {
+            "text": "the floor",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "Amy",
+            "pos": "n.",
+            "meaning": "埃米"
+          },
+          {
+            "word": "clean",
+            "pos": "v.",
+            "meaning": "打扫"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "floor",
+            "pos": "n.",
+            "meaning": "地面"
           }
         ]
       }
@@ -75,22 +203,75 @@
       "id": "s1",
       "role": "Man",
       "text": "Come in, Amy.",
-      "translation": "",
+      "translation": "进来，埃米。",
       "startTime": 17.3,
-      "endTime": 19.84
+      "endTime": 19.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Come in",
+            "label": "祈使句"
+          },
+          {
+            "text": "Amy",
+            "label": "称呼语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "in",
+            "pos": "adv.",
+            "meaning": "进"
+          },
+          {
+            "word": "Amy",
+            "pos": "n.",
+            "meaning": "埃米"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "Shut the door, please.",
-      "translation": "",
+      "translation": "请关门。",
       "startTime": 19.85,
       "endTime": 22.48,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Shut the door",
+            "label": "祈使句"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "Shut",
+            "pos": "v.",
+            "meaning": "关"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -101,30 +282,49 @@
       "id": "s3",
       "role": "Man",
       "text": "This bedroom's very untidy.",
-      "translation": "",
+      "translation": "这间卧室很乱。",
       "startTime": 22.49,
       "endTime": 26.82,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This bedroom",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "'s",
+            "label": "系词 (is的缩写)"
+          },
+          {
+            "text": "very untidy",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这"
           },
           {
-            "word": "Very",
+            "word": "bedroom",
+            "pos": "n.",
+            "meaning": "卧室"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
+          },
+          {
+            "word": "untidy",
+            "pos": "adj.",
+            "meaning": "乱的"
           }
         ]
       }
@@ -133,14 +333,30 @@
       "id": "s4",
       "role": "Narrator",
       "text": "What must I do, Mrs. Jones?",
-      "translation": "",
+      "translation": "琼斯夫人，我必须做什么？",
       "startTime": 26.83,
       "endTime": 30.52,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问代词/宾语"
+          },
+          {
+            "text": "must",
+            "label": "情态动词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "do",
+            "label": "谓语动词"
+          },
+          {
+            "text": "Mrs. Jones",
+            "label": "称呼语"
           }
         ],
         "words": [
@@ -148,6 +364,31 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Jones",
+            "pos": "n.",
+            "meaning": "琼斯"
           }
         ]
       }
@@ -156,16 +397,59 @@
       "id": "s5",
       "role": "Man",
       "text": "Open the window and air the room.",
-      "translation": "",
+      "translation": "打开窗户，使房间通风。",
       "startTime": 30.53,
       "endTime": 34.91,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Open the window",
+            "label": "祈使句1"
+          },
+          {
+            "text": "and",
+            "label": "连接词"
+          },
+          {
+            "text": "air the room",
+            "label": "祈使句2"
+          }
+        ],
         "words": [
           {
-            "word": "Air",
+            "word": "Open",
+            "pos": "v.",
+            "meaning": "打开"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "window",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "窗户"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "air",
+            "pos": "v.",
+            "meaning": "通风"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
           }
         ]
       }
@@ -174,33 +458,179 @@
       "id": "s6",
       "role": "Woman",
       "text": "Then put these clothes in the wardrobe.",
-      "translation": "",
+      "translation": "然后把这些衣服放进衣柜。",
       "startTime": 34.92,
-      "endTime": 39.68
+      "endTime": 39.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Then",
+            "label": "时间副词"
+          },
+          {
+            "text": "put these clothes",
+            "label": "祈使句核心/及物"
+          },
+          {
+            "text": "in the wardrobe",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "put",
+            "pos": "v.",
+            "meaning": "放"
+          },
+          {
+            "word": "these",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "clothes",
+            "pos": "n.",
+            "meaning": "衣服"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "wardrobe",
+            "pos": "n.",
+            "meaning": "衣柜"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "Then make the bed.",
-      "translation": "",
+      "translation": "然后铺床。",
       "startTime": 39.69,
-      "endTime": 42.8
+      "endTime": 42.8,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Then",
+            "label": "时间副词"
+          },
+          {
+            "text": "make the bed",
+            "label": "祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "整理"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "Dust the dressing table.",
-      "translation": "",
+      "translation": "掸掉梳妆台上的灰尘。",
       "startTime": 42.81,
-      "endTime": 45.84
+      "endTime": 45.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Dust the dressing table",
+            "label": "祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Dust",
+            "pos": "v.",
+            "meaning": "掸灰"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dressing table",
+            "pos": "n.",
+            "meaning": "梳妆台"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "Then sweep the floor.",
-      "translation": "",
+      "translation": "然后扫地。",
       "startTime": 45.85,
-      "endTime": 50.85
+      "endTime": 50.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Then",
+            "label": "时间副词"
+          },
+          {
+            "text": "sweep the floor",
+            "label": "祈使句"
+          }
+        ],
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "sweep",
+            "pos": "v.",
+            "meaning": "扫"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "floor",
+            "pos": "n.",
+            "meaning": "地面"
+          }
+        ]
+      }
     }
   ]
 }

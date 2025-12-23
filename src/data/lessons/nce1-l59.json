@@ -1,6 +1,6 @@
 {
   "id": "nce1-l59",
-  "title": "Lesson 59: Is That All",
+  "title": "Lesson 59: Is That All?",
   "audio": "/audio/nce1/059&060－Is That All.mp3",
   "image": "/images/coming-soon.png",
   "segments": [
@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 59",
-      "translation": "",
+      "translation": "第59课",
       "startTime": 0.71,
       "endTime": 3.19,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 59",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "59",
+            "pos": "num.",
+            "meaning": "五十九"
           }
         ]
       }
@@ -26,18 +36,22 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Is that all?",
-      "translation": "",
+      "translation": "就这些吗？",
       "startTime": 3.2,
       "endTime": 6.17,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
             "text": "that",
-            "label": "指示代词"
+            "label": "主语"
+          },
+          {
+            "text": "all",
+            "label": "表语"
           }
         ],
         "words": [
@@ -47,9 +61,14 @@
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
+          },
+          {
+            "word": "all",
+            "pos": "pron.",
+            "meaning": "全部"
           }
         ]
       }
@@ -58,21 +77,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.18,
       "endTime": 11.76,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -81,7 +143,7 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Does the lady buy any chalk?",
-      "translation": "",
+      "translation": "那位女士买粉笔了吗？",
       "startTime": 11.77,
       "endTime": 16.32,
       "analysis": {
@@ -89,23 +151,99 @@
           {
             "text": "Does",
             "label": "助动词"
+          },
+          {
+            "text": "the lady",
+            "label": "主语"
+          },
+          {
+            "text": "buy",
+            "label": "谓语"
+          },
+          {
+            "text": "any chalk",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "lady",
+            "pos": "n.",
+            "meaning": "女士"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何（用于疑问句）"
+          },
+          {
+            "word": "chalk",
+            "pos": "n.",
+            "meaning": "粉笔"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "I want some envelopes, please.",
-      "translation": "",
+      "translation": "我想要些信封。",
       "startTime": 16.33,
       "endTime": 20.24,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          },
+          {
+            "text": "some envelopes",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "envelopes",
+            "pos": "n.",
+            "meaning": "信封（复数）"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -116,16 +254,78 @@
       "id": "s2",
       "role": "Woman",
       "text": "Do you want the large size or the small size?",
-      "translation": "",
+      "translation": "要大号的还是小号的？",
       "startTime": 20.25,
       "endTime": 25.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          },
+          {
+            "text": "the large size or the small size",
+            "label": "宾语 (选择)"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "尺寸/号"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "尺寸/号"
           }
         ]
       }
@@ -134,14 +334,34 @@
       "id": "s3",
       "role": "Man",
       "text": "The large size, please.",
-      "translation": "",
+      "translation": "请给大号的。",
       "startTime": 25.21,
       "endTime": 28.54,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The large size",
+            "label": "名词短语/宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "尺寸/号"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -152,16 +372,58 @@
       "id": "s4",
       "role": "Woman",
       "text": "Do you have any writing paper?",
-      "translation": "",
+      "translation": "有信纸吗？",
       "startTime": 28.55,
       "endTime": 31.83,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "any writing paper",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "writing",
+            "pos": "adj.",
+            "meaning": "书写的"
+          },
+          {
+            "word": "paper",
+            "pos": "n.",
+            "meaning": "纸"
           }
         ]
       }
@@ -170,16 +432,35 @@
       "id": "s5",
       "role": "Man",
       "text": "Yes, we do.",
-      "translation": "",
+      "translation": "是的，有。",
       "startTime": 31.84,
       "endTime": 34.4,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "感叹词"
+          },
+          {
+            "text": "we do",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（代替have）"
           }
         ]
       }
@@ -188,32 +469,164 @@
       "id": "s6",
       "role": "Woman",
       "text": "I don't have any small pads.",
-      "translation": "",
+      "translation": "我没有小信纸本。",
       "startTime": 34.41,
-      "endTime": 38.33
+      "endTime": 38.33,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't have",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "any small pads",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "pads",
+            "pos": "n.",
+            "meaning": "便笺本/信纸本（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "I only have large ones.",
-      "translation": "",
+      "translation": "我只有大号的。",
       "startTime": 38.34,
-      "endTime": 41.65
+      "endTime": 41.65,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "only",
+            "label": "范围状语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "large ones",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只/仅仅"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "ones",
+            "pos": "pron.",
+            "meaning": "代词 (指pads)"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "Do you want a pad?",
-      "translation": "",
+      "translation": "你要这种本子吗？",
       "startTime": 41.66,
       "endTime": 44.16,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          },
+          {
+            "text": "a pad",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "pad",
+            "pos": "n.",
+            "meaning": "信纸本"
           }
         ]
       }
@@ -222,11 +635,20 @@
       "id": "s9",
       "role": "Man",
       "text": "Yes, please.",
-      "translation": "",
+      "translation": "好的。",
       "startTime": 44.17,
       "endTime": 46.43,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "感叹词"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
@@ -234,7 +656,7 @@
             "meaning": "是的"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -245,30 +667,164 @@
       "id": "s10",
       "role": "Woman",
       "text": "And I want some glue.",
-      "translation": "",
+      "translation": "我还要些胶水。",
       "startTime": 46.44,
-      "endTime": 49.86
+      "endTime": 49.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "And",
+            "label": "连接词"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          },
+          {
+            "text": "some glue",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "glue",
+            "pos": "n.",
+            "meaning": "胶水"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "A bottle of glue.",
-      "translation": "",
+      "translation": "一瓶胶水。",
       "startTime": 49.87,
-      "endTime": 53.05
+      "endTime": 53.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A bottle of glue",
+            "label": "名词短语/单位量"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "对于/的"
+          },
+          {
+            "word": "glue",
+            "pos": "n.",
+            "meaning": "胶水"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "And I want a large box of chalk, too.",
-      "translation": "",
+      "translation": "我还要一大盒粉笔。",
       "startTime": 53.06,
       "endTime": 58.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          },
+          {
+            "text": "a large box of chalk",
+            "label": "宾语"
+          },
+          {
+            "text": "too",
+            "label": "添加状语"
+          }
+        ],
         "words": [
           {
-            "word": "Too",
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "box",
+            "pos": "n.",
+            "meaning": "盒子"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "对于/的"
+          },
+          {
+            "word": "chalk",
+            "pos": "n.",
+            "meaning": "粉笔"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -279,24 +835,103 @@
       "id": "s13",
       "role": "Man",
       "text": "I only have small boxes.",
-      "translation": "",
+      "translation": "我只有小盒的。",
       "startTime": 58.21,
-      "endTime": 61.45
+      "endTime": 61.45,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "only",
+            "label": "范围状语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "small boxes",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只/仅仅"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "boxes",
+            "pos": "n.",
+            "meaning": "盒子（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "Do you want one?",
-      "translation": "",
+      "translation": "你要一盒吗？",
       "startTime": 61.46,
       "endTime": 63.07,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          },
+          {
+            "text": "one",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个 (指box)"
           }
         ]
       }
@@ -305,21 +940,35 @@
       "id": "s15",
       "role": "Man",
       "text": "No, thank you.",
-      "translation": "",
+      "translation": "不，谢谢。",
       "startTime": 63.08,
       "endTime": 64.93,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "No",
+            "label": "感叹词"
+          },
+          {
+            "text": "thank you",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
-            "word": "Thank",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -328,18 +977,22 @@
       "id": "s16",
       "role": "Woman",
       "text": "Is that all?",
-      "translation": "",
+      "translation": "就这些吗？",
       "startTime": 64.94,
       "endTime": 66.56,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
             "text": "that",
-            "label": "指示代词"
+            "label": "主语"
+          },
+          {
+            "text": "all",
+            "label": "表语"
           }
         ],
         "words": [
@@ -349,9 +1002,14 @@
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
+          },
+          {
+            "word": "all",
+            "pos": "pron.",
+            "meaning": "全部"
           }
         ]
       }
@@ -360,21 +1018,49 @@
       "id": "s17",
       "role": "Man",
       "text": "That's all, thank you.",
-      "translation": "",
+      "translation": "就这些，谢谢。",
       "startTime": 66.57,
       "endTime": 69.28,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "all",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Thank",
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "all",
+            "pos": "pron.",
+            "meaning": "全部"
+          },
+          {
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -383,14 +1069,26 @@
       "id": "s18",
       "role": "Narrator",
       "text": "What else do you want?",
-      "translation": "",
+      "translation": "你还要别的吗？",
       "startTime": 69.29,
       "endTime": 71.54,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What else",
+            "label": "疑问短语/宾语"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
           }
         ],
         "words": [
@@ -400,9 +1098,24 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
+            "word": "else",
+            "pos": "adv.",
+            "meaning": "别的"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
           }
         ]
       }
@@ -411,21 +1124,44 @@
       "id": "s19",
       "role": "Man",
       "text": "I want my change.",
-      "translation": "",
+      "translation": "我要找给我的零钱。",
       "startTime": 71.55,
       "endTime": 76.55,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
+          },
+          {
+            "text": "my change",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "找的零钱"
           }
         ]
       }

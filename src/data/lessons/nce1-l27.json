@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 27",
-      "translation": "",
+      "translation": "第27课",
       "startTime": 0.55,
       "endTime": 3.18,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 27",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "27",
+            "pos": "num.",
+            "meaning": "二十七"
           }
         ]
       }
@@ -26,29 +36,102 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Mrs. Smith's living room",
-      "translation": "",
+      "translation": "史密斯夫人的客厅",
       "startTime": 3.19,
-      "endTime": 6.95
+      "endTime": 6.95,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Mrs. Smith's living room",
+            "label": "名词所有格短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
+          },
+          {
+            "word": "living room",
+            "pos": "n.",
+            "meaning": "客厅"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.96,
       "endTime": 12.76,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,38 +140,100 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Where are the books?",
-      "translation": "",
+      "translation": "书在哪里？",
       "startTime": 12.77,
       "endTime": 16.75,
       "analysis": {
         "grammar": [
           {
+            "text": "Where",
+            "label": "疑问副词/状语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "the books",
+            "label": "主语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Mrs. Smith's living room is large.",
-      "translation": "",
+      "translation": "史密斯夫人的客厅很大。",
       "startTime": 16.76,
       "endTime": 21.62,
       "analysis": {
         "grammar": [
           {
+            "text": "Mrs. Smith's living room",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "large",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Smith",
+            "pos": "n.",
+            "meaning": "史密斯"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
+          },
+          {
+            "word": "living room",
+            "pos": "n.",
+            "meaning": "客厅"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
           }
         ]
       }
@@ -97,21 +242,59 @@
       "id": "s2",
       "role": "Woman",
       "text": "There is a television in the room.",
-      "translation": "",
+      "translation": "房间里有一台电视机。",
       "startTime": 21.63,
       "endTime": 26.39,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "a television",
+            "label": "主语"
+          },
+          {
+            "text": "in the room",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一台"
+          },
+          {
+            "word": "television",
+            "pos": "n.",
+            "meaning": "电视机"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
           }
         ]
       }
@@ -120,21 +303,54 @@
       "id": "s3",
       "role": "Man",
       "text": "The television is near the window.",
-      "translation": "",
+      "translation": "电视机在窗户附近。",
       "startTime": 26.4,
       "endTime": 31.27,
       "analysis": {
         "grammar": [
           {
+            "text": "The television",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "near the window",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "television",
+            "pos": "n.",
+            "meaning": "电视机"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "window",
+            "pos": "n.",
+            "meaning": "窗户"
           }
         ]
       }
@@ -143,38 +359,120 @@
       "id": "s4",
       "role": "Woman",
       "text": "There are some magazines on the television.",
-      "translation": "",
+      "translation": "电视机上有一些杂志。",
       "startTime": 31.28,
       "endTime": 36.44,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "some magazines",
+            "label": "主语"
+          },
+          {
+            "text": "on the television",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "magazines",
+            "pos": "n.",
+            "meaning": "杂志"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "television",
+            "pos": "n.",
+            "meaning": "电视机"
+          }
+        ]
       }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "There is a table in the room.",
-      "translation": "",
+      "translation": "房间里有一张桌子。",
       "startTime": 36.45,
       "endTime": 40.43,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "a table",
+            "label": "主语"
+          },
+          {
+            "text": "in the room",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "table",
+            "pos": "n.",
+            "meaning": "桌子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
           }
         ]
       }
@@ -183,72 +481,229 @@
       "id": "s6",
       "role": "Woman",
       "text": "There are some newspapers on the table.",
-      "translation": "",
+      "translation": "桌子上有几份报纸。",
       "startTime": 40.44,
       "endTime": 45.1,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "some newspapers",
+            "label": "主语"
+          },
+          {
+            "text": "on the table",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "newspapers",
+            "pos": "n.",
+            "meaning": "报纸"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "table",
+            "pos": "n.",
+            "meaning": "桌子"
+          }
+        ]
       }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "There are some armchairs in the room.",
-      "translation": "",
+      "translation": "房间里有几把扶手椅。",
       "startTime": 45.11,
       "endTime": 49.26,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "some armchairs",
+            "label": "主语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "armchairs",
+            "pos": "n.",
+            "meaning": "扶手椅"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          }
+        ]
       }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "The armchairs are near the table.",
-      "translation": "",
+      "translation": "扶手椅在桌子附近。",
       "startTime": 49.27,
       "endTime": 53.3,
       "analysis": {
         "grammar": [
           {
+            "text": "The armchairs",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "near the table",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "armchairs",
+            "pos": "n.",
+            "meaning": "扶手椅"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "table",
+            "pos": "n.",
+            "meaning": "桌子"
+          }
+        ]
       }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "There is a stereo in the room.",
-      "translation": "",
+      "translation": "房间里有一台立体声音响。",
       "startTime": 53.31,
       "endTime": 57.52,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "a stereo",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一台"
+          },
+          {
+            "word": "stereo",
+            "pos": "n.",
+            "meaning": "立体声音响"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
           }
         ]
       }
@@ -257,21 +712,54 @@
       "id": "s10",
       "role": "Woman",
       "text": "The stereo is near the door.",
-      "translation": "",
+      "translation": "立体声音响在门附近。",
       "startTime": 57.53,
       "endTime": 61.54,
       "analysis": {
         "grammar": [
           {
+            "text": "The stereo",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "near the door",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "stereo",
+            "pos": "n.",
+            "meaning": "立体声音响"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
           }
         ]
       }
@@ -280,51 +768,174 @@
       "id": "s11",
       "role": "Man",
       "text": "There are some books on the stereo.",
-      "translation": "",
+      "translation": "音响上有一些书。",
       "startTime": 61.55,
       "endTime": 65.68,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "some books",
+            "label": "主语"
+          },
+          {
+            "text": "on the stereo",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "stereo",
+            "pos": "n.",
+            "meaning": "立体声音响"
+          }
+        ]
       }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "There are some pictures in the room.",
-      "translation": "",
+      "translation": "房间里有几幅画。",
       "startTime": 65.69,
       "endTime": 69.61,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "There are",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "some pictures",
+            "label": "主语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "pictures",
+            "pos": "n.",
+            "meaning": "画"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "The pictures are on the wall.",
-      "translation": "",
+      "translation": "画在墙上。",
       "startTime": 69.62,
       "endTime": 74.62,
       "analysis": {
         "grammar": [
           {
+            "text": "The pictures",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "on the wall",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "pictures",
+            "pos": "n.",
+            "meaning": "画"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "在"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "wall",
+            "pos": "n.",
+            "meaning": "墙"
+          }
+        ]
       }
     }
   ]

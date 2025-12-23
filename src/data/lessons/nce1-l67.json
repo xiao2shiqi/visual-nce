@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 67",
-      "translation": "",
+      "translation": "第67课",
       "startTime": 0.73,
       "endTime": 3.31,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 67",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "67",
+            "pos": "num.",
+            "meaning": "六十七"
           }
         ]
       }
@@ -26,29 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The weekend",
-      "translation": "",
+      "translation": "周末",
       "startTime": 3.32,
-      "endTime": 5.43
+      "endTime": 5.43,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The weekend",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "weekend",
+            "pos": "n.",
+            "meaning": "周末"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.44,
       "endTime": 10.86,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,18 +130,22 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What are the Johnsons going to do at the weekend?",
-      "translation": "",
+      "translation": "约翰逊夫妇周末打算做什么？",
       "startTime": 10.87,
       "endTime": 17.78,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/宾语"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "are the Johnsons going to do",
+            "label": "谓语 (将来时)"
+          },
+          {
+            "text": "at the weekend",
+            "label": "时间状语"
           }
         ],
         "words": [
@@ -78,9 +155,49 @@
             "meaning": "什么"
           },
           {
-            "word": "At",
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "（用于家族姓氏前）"
+          },
+          {
+            "word": "Johnsons",
+            "pos": "n.",
+            "meaning": "约翰逊一家"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "weekend",
+            "pos": "n.",
+            "meaning": "周末"
           }
         ]
       }
@@ -89,21 +206,54 @@
       "id": "s1",
       "role": "Man",
       "text": "Hello. Were you at the butcher's?",
-      "translation": "",
+      "translation": "你好。你刚才在肉店里吗？",
       "startTime": 17.79,
       "endTime": 21.89,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "Were",
+            "label": "系词 (过去式)"
           },
           {
-            "word": "At",
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "at the butcher's",
+            "label": "地点状语/表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Hello",
+            "pos": "int.",
+            "meaning": "你好"
+          },
+          {
+            "word": "Were",
+            "pos": "v.",
+            "meaning": "是 (过去式)"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你/你们"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "butcher's",
+            "pos": "n.",
+            "meaning": "肉店"
           }
         ]
       }
@@ -112,16 +262,35 @@
       "id": "s2",
       "role": "Woman",
       "text": "Yes, I was.",
-      "translation": "",
+      "translation": "是的，我在肉店。",
       "startTime": 21.9,
       "endTime": 23.88,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定词"
+          },
+          {
+            "text": "I was",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是 (过去式)"
           }
         ]
       }
@@ -130,24 +299,56 @@
       "id": "s3",
       "role": "Man",
       "text": "Were you at the butcher's, too?",
-      "translation": "",
+      "translation": "你也在肉店吗？",
       "startTime": 23.89,
       "endTime": 27.4,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Were",
+            "label": "系词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "at the butcher's",
+            "label": "地点状语"
+          },
+          {
+            "text": "too",
+            "label": "状语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "At",
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
           },
           {
-            "word": "Too",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "butcher's",
+            "pos": "n.",
+            "meaning": "肉店"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -158,24 +359,86 @@
       "id": "s4",
       "role": "Woman",
       "text": "No, I wasn't.",
-      "translation": "",
+      "translation": "不，我不在肉店。",
       "startTime": 27.41,
-      "endTime": 30.52
+      "endTime": 30.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "I wasn't",
+            "label": "简短回答"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "wasn't",
+            "pos": "v.",
+            "meaning": "不是 (was not)"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "I was at the greengrocer's.",
-      "translation": "",
+      "translation": "我在蔬菜水果店。",
       "startTime": 30.53,
       "endTime": 34.28,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "系词"
+          },
+          {
+            "text": "at the greengrocer's",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "greengrocer's",
+            "pos": "n.",
+            "meaning": "蔬菜水果店"
           }
         ]
       }
@@ -184,14 +447,46 @@
       "id": "s6",
       "role": "Narrator",
       "text": "How's Jimmy today?",
-      "translation": "",
+      "translation": "吉米今天怎么样了？",
       "startTime": 34.29,
       "endTime": 37.17,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "How",
+            "label": "疑问副词"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "Jimmy",
+            "label": "主语"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "Today",
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           }
@@ -202,36 +497,54 @@
       "id": "s7",
       "role": "Man",
       "text": "He's very well, thank you.",
-      "translation": "",
+      "translation": "他很好，谢谢你。",
       "startTime": 37.18,
       "endTime": 41.16,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "very well",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
           },
           {
-            "word": "Well",
+            "word": "well",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "健康的"
           },
           {
-            "word": "Thank",
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -240,16 +553,63 @@
       "id": "s8",
       "role": "Woman",
       "text": "Was he absent from school last week?",
-      "translation": "",
+      "translation": "上周他缺课了吗？",
       "startTime": 41.17,
       "endTime": 45.76,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Was",
+            "label": "系词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "absent from school",
+            "label": "表语"
+          },
+          {
+            "text": "last week",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "School",
+            "word": "Was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "absent",
+            "pos": "adj.",
+            "meaning": "缺席的"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "离/自"
+          },
+          {
+            "word": "school",
             "pos": "n.",
-            "meaning": "学校"
+            "meaning": "学校/课"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期"
           }
         ]
       }
@@ -258,16 +618,35 @@
       "id": "s9",
       "role": "Man",
       "text": "Yes, he was.",
-      "translation": "",
+      "translation": "是的，缺课了。",
       "startTime": 45.77,
       "endTime": 48.27,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定词"
+          },
+          {
+            "text": "he was",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -276,34 +655,120 @@
       "id": "s10",
       "role": "Woman",
       "text": "He was absent on Monday, Tuesday, Wednesday and Thursday.",
-      "translation": "",
+      "translation": "他周一、周二、周三和周四都请假了。",
       "startTime": 48.28,
-      "endTime": 55.92
+      "endTime": 55.92,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "系词"
+          },
+          {
+            "text": "absent",
+            "label": "表语"
+          },
+          {
+            "text": "on Monday, Tuesday, Wednesday and Thursday",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "absent",
+            "pos": "adj.",
+            "meaning": "缺席的"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在（具体日期）"
+          },
+          {
+            "word": "Monday",
+            "pos": "n.",
+            "meaning": "星期一"
+          },
+          {
+            "word": "Tuesday",
+            "pos": "n.",
+            "meaning": "星期二"
+          },
+          {
+            "word": "Wednesday",
+            "pos": "n.",
+            "meaning": "星期三"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Thursday",
+            "pos": "n.",
+            "meaning": "星期四"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Narrator",
       "text": "How are you all keeping?",
-      "translation": "",
+      "translation": "你们大家身体都好吗？",
       "startTime": 55.93,
       "endTime": 59.57,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "How",
+            "label": "疑问状语"
+          },
+          {
+            "text": "are you all keeping",
+            "label": "谓语 (进行)"
           }
         ],
         "words": [
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
           },
           {
-            "word": "You",
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你/你们"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "全部"
+          },
+          {
+            "word": "keeping",
+            "pos": "v.",
+            "meaning": "保持（指身体状况）"
           }
         ]
       }
@@ -312,36 +777,36 @@
       "id": "s12",
       "role": "Man",
       "text": "Very well, thank you.",
-      "translation": "",
+      "translation": "很好，谢谢你。",
       "startTime": 59.58,
       "endTime": 62.39,
       "analysis": {
         "grammar": [
           {
-            "text": "Very",
-            "label": "程度副词"
+            "text": "Very well",
+            "label": "表语短语 (省略句)"
           }
         ],
         "words": [
           {
             "word": "Very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
           },
           {
-            "word": "Well",
+            "word": "well",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "身体好的"
           },
           {
-            "word": "Thank",
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -350,34 +815,163 @@
       "id": "s13",
       "role": "Woman",
       "text": "We're going to spend three days in the country!",
-      "translation": "",
+      "translation": "我们打算到乡下去住3天！",
       "startTime": 62.4,
-      "endTime": 67.48
+      "endTime": 67.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'re going to spend",
+            "label": "谓语"
+          },
+          {
+            "text": "three days",
+            "label": "宾语 (时间量)"
+          },
+          {
+            "text": "in the country",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "spend",
+            "pos": "v.",
+            "meaning": "度过/消费"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "天（复数）"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "乡下/国家"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Man",
       "text": "We're going to stay at my mother's for the weekend.",
-      "translation": "",
+      "translation": "我们打算在我母亲家度周末。",
       "startTime": 67.49,
       "endTime": 73.42,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "'re going to stay",
+            "label": "谓语"
+          },
+          {
+            "text": "at my mother's",
+            "label": "地点状语"
+          },
+          {
+            "text": "for the weekend",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
           },
           {
-            "word": "My",
-            "pos": "pron.",
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去/打算"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "呆在"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "mother's",
+            "pos": "n.",
+            "meaning": "母亲家"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "计（时长）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "weekend",
+            "pos": "n.",
+            "meaning": "周末"
           }
         ]
       }
@@ -386,24 +980,96 @@
       "id": "s15",
       "role": "Woman",
       "text": "Friday, Saturday and Sunday in the country!",
-      "translation": "",
+      "translation": "周五、周六和周日在乡下！",
       "startTime": 73.43,
-      "endTime": 78.98
+      "endTime": 78.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Friday, Saturday and Sunday",
+            "label": "并列主语/话题"
+          },
+          {
+            "text": "in the country",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Friday",
+            "pos": "n.",
+            "meaning": "星期五"
+          },
+          {
+            "word": "Saturday",
+            "pos": "n.",
+            "meaning": "星期六"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Sunday",
+            "pos": "n.",
+            "meaning": "星期日"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "乡下"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Man",
       "text": "Aren't you lucky!",
-      "translation": "",
+      "translation": "你们真够幸运的！",
       "startTime": 78.99,
       "endTime": 83.99,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Aren't",
+            "label": "系词 (否定倒装)"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "lucky",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Aren't",
+            "pos": "v.",
+            "meaning": "不是 (are not)"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你/你们"
+          },
+          {
+            "word": "lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
           }
         ]
       }

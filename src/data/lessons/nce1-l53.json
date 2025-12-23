@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 53",
-      "translation": "",
+      "translation": "第53课",
       "startTime": 0.66,
       "endTime": 3.48,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 53",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "53",
+            "pos": "num.",
+            "meaning": "五十三"
           }
         ]
       }
@@ -26,29 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "An interesting climate",
-      "translation": "",
+      "translation": "有趣的气候",
       "startTime": 3.49,
-      "endTime": 7.25
+      "endTime": 7.25,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "An interesting climate",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "An",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "interesting",
+            "pos": "adj.",
+            "meaning": "有趣的"
+          },
+          {
+            "word": "climate",
+            "pos": "n.",
+            "meaning": "气候"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 7.26,
       "endTime": 13.6,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,18 +135,26 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What is the favourite subject of conversation in England?",
-      "translation": "",
+      "translation": "在英国，最受欢迎的谈话主题是什么？",
       "startTime": 13.61,
       "endTime": 21.64,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问词/表语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "the favourite subject of conversation",
+            "label": "主语"
+          },
+          {
+            "text": "in England",
+            "label": "地点状语"
           }
         ],
         "words": [
@@ -78,9 +164,44 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "favourite",
+            "pos": "adj.",
+            "meaning": "最喜欢的"
+          },
+          {
+            "word": "subject",
+            "pos": "n.",
+            "meaning": "题目/主旨"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "conversation",
+            "pos": "n.",
+            "meaning": "谈话"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "England",
+            "pos": "n.",
+            "meaning": "英国"
           }
         ]
       }
@@ -89,16 +210,53 @@
       "id": "s1",
       "role": "Man",
       "text": "Where do you come from?",
-      "translation": "",
+      "translation": "你是哪国人？",
       "startTime": 21.65,
       "endTime": 24.78,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Where",
+            "label": "疑问副词"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "come from",
+            "label": "谓语短语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...来"
           }
         ]
       }
@@ -107,29 +265,110 @@
       "id": "s2",
       "role": "Woman",
       "text": "I come from England.",
-      "translation": "",
+      "translation": "我从英国来。",
       "startTime": 24.79,
-      "endTime": 27.81
+      "endTime": 27.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "come from",
+            "label": "谓语短语"
+          },
+          {
+            "text": "England",
+            "label": "地点/宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...来"
+          },
+          {
+            "word": "England",
+            "pos": "n.",
+            "meaning": "英国"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Narrator",
       "text": "What's the climate like in your country?",
-      "translation": "",
+      "translation": "你们国家的气候怎么样？",
       "startTime": 27.82,
       "endTime": 31.81,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "What's...like",
+            "label": "询问特征"
+          },
+          {
+            "text": "the climate",
+            "label": "主语"
+          },
+          {
+            "text": "in your country",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Your",
+            "word": "What",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "climate",
+            "pos": "n.",
+            "meaning": "气候"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像...一样"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
           }
         ]
       }
@@ -138,25 +377,69 @@
       "id": "s4",
       "role": "Man",
       "text": "It's mild, but it's not always pleasant.",
-      "translation": "",
+      "translation": "气候温和，但并不总是宜人的。",
       "startTime": 31.82,
       "endTime": 37.46,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It's mild",
+            "label": "分句1"
           },
           {
-            "text": "its",
-            "label": "形容词性物主代词"
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "it's not always pleasant",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Not",
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "mild",
+            "pos": "adj.",
+            "meaning": "温和的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "pleasant",
+            "pos": "adj.",
+            "meaning": "宜人的"
           }
         ]
       }
@@ -165,16 +448,97 @@
       "id": "s5",
       "role": "Woman",
       "text": "The weather's often cold in the North and windy in the East.",
-      "translation": "",
+      "translation": "北方经常寒冷，东方经常刮风。",
       "startTime": 37.47,
       "endTime": 44.42,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The weather",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "often cold in the North",
+            "label": "并列项1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "windy in the East",
+            "label": "并列项2"
+          }
+        ],
         "words": [
           {
-            "word": "Cold",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "weather",
+            "pos": "n.",
+            "meaning": "天气"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "cold",
             "pos": "adj.",
-            "meaning": "冷的"
+            "meaning": "寒冷的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "North",
+            "pos": "n.",
+            "meaning": "北方"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "windy",
+            "pos": "adj.",
+            "meaning": "有风的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "East",
+            "pos": "n.",
+            "meaning": "东方"
           }
         ]
       }
@@ -183,33 +547,157 @@
       "id": "s6",
       "role": "Man",
       "text": "It's often wet in the West and sometimes warm in the South.",
-      "translation": "",
+      "translation": "西方经常潮湿，南方有时温暖。",
       "startTime": 44.43,
       "endTime": 52.32,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语 (天气)"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "often wet in the West",
+            "label": "并列项1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "sometimes warm in the South",
+            "label": "并列项2"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "wet",
+            "pos": "adj.",
+            "meaning": "潮湿的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "West",
+            "pos": "n.",
+            "meaning": "西方"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "sometimes",
+            "pos": "adv.",
+            "meaning": "有时"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "温暖的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "South",
+            "pos": "n.",
+            "meaning": "南方"
+          }
+        ]
       }
     },
     {
       "id": "s7",
       "role": "Narrator",
       "text": "Which seasons do you like best?",
-      "translation": "",
+      "translation": "你最喜欢哪些季节？",
       "startTime": 52.33,
       "endTime": 56.65,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Which seasons",
+            "label": "疑问词/宾语"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "like...best",
+            "label": "谓语和状语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪个/哪些"
+          },
+          {
+            "word": "seasons",
+            "pos": "n.",
+            "meaning": "季节（复数）"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "best",
+            "pos": "adv.",
+            "meaning": "最"
           }
         ]
       }
@@ -218,33 +706,120 @@
       "id": "s8",
       "role": "Man",
       "text": "I like spring and summer.",
-      "translation": "",
+      "translation": "我喜欢春天和夏天。",
       "startTime": 56.66,
-      "endTime": 59.98
+      "endTime": 59.98,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "like",
+            "label": "谓语"
+          },
+          {
+            "text": "spring and summer",
+            "label": "宾语 (并列)"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "spring",
+            "pos": "n.",
+            "meaning": "春天"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "summer",
+            "pos": "n.",
+            "meaning": "夏天"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Woman",
       "text": "The days are long and the nights are short.",
-      "translation": "",
+      "translation": "白天长，夜晚短。",
       "startTime": 59.99,
       "endTime": 65.67,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "The days are long",
+            "label": "分句1"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "the nights are short",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Short",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "日子/白天"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "long",
             "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "长的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "nights",
+            "pos": "n.",
+            "meaning": "夜晚"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "short",
+            "pos": "adj.",
+            "meaning": "短的"
           }
         ]
       }
@@ -253,41 +828,190 @@
       "id": "s10",
       "role": "Man",
       "text": "The sun rises early and sets late.",
-      "translation": "",
+      "translation": "太阳升得早，落得晚。",
       "startTime": 65.68,
-      "endTime": 70.85
+      "endTime": 70.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The sun",
+            "label": "主语"
+          },
+          {
+            "text": "rises early",
+            "label": "谓语项1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "sets late",
+            "label": "谓语项2"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "sun",
+            "pos": "n.",
+            "meaning": "太阳"
+          },
+          {
+            "word": "rises",
+            "pos": "v.",
+            "meaning": "升起"
+          },
+          {
+            "word": "early",
+            "pos": "adv.",
+            "meaning": "早"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "sets",
+            "pos": "v.",
+            "meaning": "落下"
+          },
+          {
+            "word": "late",
+            "pos": "adv.",
+            "meaning": "晚"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Woman",
       "text": "I don't like autumn and winter.",
-      "translation": "",
+      "translation": "我不喜欢秋天和冬天。",
       "startTime": 70.86,
-      "endTime": 74.9
+      "endTime": 74.9,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't like",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "autumn and winter",
+            "label": "宾语 (并列)"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "autumn",
+            "pos": "n.",
+            "meaning": "秋天"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "winter",
+            "pos": "n.",
+            "meaning": "冬天"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Man",
       "text": "The days are short and the nights are long.",
-      "translation": "",
+      "translation": "白天短，夜晚长。",
       "startTime": 74.91,
       "endTime": 80.75,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "The days are short",
+            "label": "分句1"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "the nights are long",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Short",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "日子/白天"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "short",
             "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "短的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "nights",
+            "pos": "n.",
+            "meaning": "夜晚"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
           }
         ]
       }
@@ -296,51 +1020,144 @@
       "id": "s13",
       "role": "Woman",
       "text": "The sun rises late and sets early.",
-      "translation": "",
+      "translation": "太阳升得晚，落得早。",
       "startTime": 80.76,
-      "endTime": 86.54
+      "endTime": 86.54,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The sun",
+            "label": "主语"
+          },
+          {
+            "text": "rises late",
+            "label": "谓语项1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "sets early",
+            "label": "谓语项2"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "sun",
+            "pos": "n.",
+            "meaning": "太阳"
+          },
+          {
+            "word": "rises",
+            "pos": "v.",
+            "meaning": "升起"
+          },
+          {
+            "word": "late",
+            "pos": "adv.",
+            "meaning": "晚"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "sets",
+            "pos": "v.",
+            "meaning": "落下"
+          },
+          {
+            "word": "early",
+            "pos": "adv.",
+            "meaning": "早"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Man",
       "text": "Our climate is not very good, but it's certainly interesting.",
-      "translation": "",
+      "translation": "我们的气候不是很好，但确实很有趣。",
       "startTime": 86.55,
       "endTime": 93.78,
       "analysis": {
         "grammar": [
           {
-            "text": "Our",
-            "label": "形容词性物主代词"
+            "text": "Our climate is not very good",
+            "label": "分句1"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "but",
+            "label": "连词"
           },
           {
-            "text": "very",
-            "label": "程度副词"
-          },
-          {
-            "text": "its",
-            "label": "形容词性物主代词"
+            "text": "it's certainly interesting",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "climate",
+            "pos": "n.",
+            "meaning": "气候"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "certainly",
+            "pos": "adv.",
+            "meaning": "肯定/确实"
+          },
+          {
+            "word": "interesting",
+            "pos": "adj.",
+            "meaning": "有趣的"
           }
         ]
       }
@@ -349,21 +1166,61 @@
       "id": "s15",
       "role": "Woman",
       "text": "It's our favourite subject of conversation.",
-      "translation": "",
+      "translation": "它是我们最喜欢的谈话主题。",
       "startTime": 93.79,
       "endTime": 98.79,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
           },
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "our favourite subject of conversation",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "favourite",
+            "pos": "adj.",
+            "meaning": "最喜欢的"
+          },
+          {
+            "word": "subject",
+            "pos": "n.",
+            "meaning": "题目/主旨"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "conversation",
+            "pos": "n.",
+            "meaning": "谈话"
+          }
+        ]
       }
     }
   ]

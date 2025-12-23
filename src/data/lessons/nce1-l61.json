@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 61",
-      "translation": "",
+      "translation": "第61课",
       "startTime": 0.6,
       "endTime": 3.05,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 61",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "61",
+            "pos": "num.",
+            "meaning": "六十一"
           }
         ]
       }
@@ -26,16 +36,31 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A bad cold",
-      "translation": "",
+      "translation": "重感冒",
       "startTime": 3.06,
       "endTime": 5.91,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "A bad cold",
+            "label": "名词短语"
+          }
+        ],
         "words": [
           {
-            "word": "Cold",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bad",
             "pos": "adj.",
-            "meaning": "冷的"
+            "meaning": "严重的/坏的"
+          },
+          {
+            "word": "cold",
+            "pos": "n.",
+            "meaning": "感冒"
           }
         ]
       }
@@ -44,21 +69,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.92,
       "endTime": 11.14,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,18 +135,26 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What is good news for Jimmy?",
-      "translation": "",
+      "translation": "对吉米来说，什么是好消息？",
       "startTime": 11.15,
       "endTime": 16.54,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "good news",
+            "label": "表语"
+          },
+          {
+            "text": "for Jimmy",
+            "label": "对象状语"
           }
         ],
         "words": [
@@ -88,9 +164,29 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "news",
+            "pos": "n.",
+            "meaning": "消息"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
           }
         ]
       }
@@ -99,73 +195,315 @@
       "id": "s1",
       "role": "Man",
       "text": "Where's Jimmy?",
-      "translation": "",
+      "translation": "吉米在哪儿？",
       "startTime": 16.55,
-      "endTime": 18.35
+      "endTime": 18.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Where",
+            "label": "疑问副词"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "Jimmy",
+            "label": "主语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "He's in bed.",
-      "translation": "",
+      "translation": "他在床上呆着（卧床）。",
       "startTime": 18.36,
-      "endTime": 20.68
+      "endTime": 20.68,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "in bed",
+            "label": "地点状语/表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Narrator",
       "text": "What's the matter with him?",
-      "translation": "",
+      "translation": "他怎么了？",
       "startTime": 20.69,
-      "endTime": 23.13
+      "endTime": 23.13,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the matter",
+            "label": "表语"
+          },
+          {
+            "text": "with him",
+            "label": "对象状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "matter",
+            "pos": "n.",
+            "meaning": "事情/麻烦"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Man",
       "text": "He feels ill.",
-      "translation": "",
+      "translation": "他感觉不舒服。",
       "startTime": 23.14,
-      "endTime": 25.83
+      "endTime": 25.83,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "feels",
+            "label": "系动词 (感官)"
+          },
+          {
+            "text": "ill",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "feels",
+            "pos": "v.",
+            "meaning": "感觉"
+          },
+          {
+            "word": "ill",
+            "pos": "adj.",
+            "meaning": "生病的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Woman",
       "text": "He looks ill.",
-      "translation": "",
+      "translation": "他看上去病了。",
       "startTime": 25.84,
-      "endTime": 27.85
+      "endTime": 27.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "looks",
+            "label": "系动词 (感官)"
+          },
+          {
+            "text": "ill",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "looks",
+            "pos": "v.",
+            "meaning": "看起来"
+          },
+          {
+            "word": "ill",
+            "pos": "adj.",
+            "meaning": "生病的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "We must call the doctor.",
-      "translation": "",
+      "translation": "我们必须请医生。",
       "startTime": 27.86,
       "endTime": 31.04,
       "analysis": {
         "grammar": [
           {
-            "text": "must",
-            "label": "情态动词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "must call",
+            "label": "谓语"
+          },
+          {
+            "text": "the doctor",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "call",
+            "pos": "v.",
+            "meaning": "叫/呼叫"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          }
+        ]
       }
     },
     {
       "id": "s7",
       "role": "Woman",
       "text": "Yes, we must.",
-      "translation": "",
+      "translation": "是的，必须请。",
       "startTime": 31.05,
       "endTime": 34.11,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "感叹词"
+          },
+          {
+            "text": "we must",
+            "label": "简短回答"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
           }
         ]
       }
@@ -174,21 +512,63 @@
       "id": "s8",
       "role": "Man",
       "text": "Can you remember the doctor's telephone number?",
-      "translation": "",
+      "translation": "你能记住医生的电话号码吗？",
       "startTime": 34.12,
       "endTime": 38.74,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "Can",
+            "label": "助动词"
           },
           {
-            "word": "Number",
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "remember",
+            "label": "谓语"
+          },
+          {
+            "text": "the doctor's telephone number",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "remember",
+            "pos": "v.",
+            "meaning": "记得"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "doctor's",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "医生的"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
+          },
+          {
+            "word": "number",
+            "pos": "n.",
+            "meaning": "号码"
           }
         ]
       }
@@ -197,14 +577,26 @@
       "id": "s9",
       "role": "Woman",
       "text": "Yes. It's 09754.",
-      "translation": "",
+      "translation": "是的，是09754。",
       "startTime": 38.75,
       "endTime": 45.77,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "Yes",
+            "label": "感叹词"
+          },
+          {
+            "text": "It",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "09754",
+            "label": "表语"
           }
         ],
         "words": [
@@ -212,6 +604,21 @@
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "09754",
+            "pos": "num.",
+            "meaning": "（电话号码）"
           }
         ]
       }
@@ -220,21 +627,40 @@
       "id": "s10",
       "role": "Man",
       "text": "Open your mouth, Jimmy.",
-      "translation": "",
+      "translation": "张开嘴，吉米。",
       "startTime": 45.78,
       "endTime": 48.36,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "Open",
+            "label": "谓语 (祈使)"
+          },
+          {
+            "text": "your mouth",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "Open",
+            "pos": "v.",
+            "meaning": "张开"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "mouth",
+            "pos": "n.",
+            "meaning": "嘴"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
           }
         ]
       }
@@ -243,30 +669,62 @@
       "id": "s11",
       "role": "Woman",
       "text": "Show me your tongue. Say, 'Ah'.",
-      "translation": "",
+      "translation": "让我看看你的舌头。说‘阿——’。",
       "startTime": 48.37,
       "endTime": 53.62,
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Show",
+            "label": "谓语1"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "me",
+            "label": "间接宾语"
+          },
+          {
+            "text": "your tongue",
+            "label": "直接宾语"
+          },
+          {
+            "text": "Say",
+            "label": "谓语2"
+          },
+          {
+            "text": "Ah",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "Show",
+            "pos": "v.",
+            "meaning": "展示/给...看"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "tongue",
+            "pos": "n.",
+            "meaning": "舌头"
+          },
+          {
+            "word": "Say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "Ah",
+            "pos": "int.",
+            "meaning": "啊"
           }
         ]
       }
@@ -275,29 +733,173 @@
       "id": "s12",
       "role": "Narrator",
       "text": "What's the matter with him, doctor?",
-      "translation": "",
+      "translation": "医生，他怎么了？",
       "startTime": 53.63,
-      "endTime": 57.21
+      "endTime": 57.21,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the matter",
+            "label": "表语"
+          },
+          {
+            "text": "with him",
+            "label": "状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "matter",
+            "pos": "n.",
+            "meaning": "事情/麻烦"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "He has a bad cold, Mr. Williams, so he must stay in bed for a week.",
-      "translation": "",
+      "translation": "威廉姆斯先生，他得了重感冒，所以他必须卧床休息一周。",
       "startTime": 57.22,
       "endTime": 65.8,
       "analysis": {
         "grammar": [
           {
-            "text": "must",
-            "label": "情态动词"
+            "text": "He has a bad cold",
+            "label": "分句1"
+          },
+          {
+            "text": "so",
+            "label": "连词 (因果)"
+          },
+          {
+            "text": "he must stay in bed",
+            "label": "分句2"
+          },
+          {
+            "text": "for a week",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Cold",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "有/得了"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bad",
             "pos": "adj.",
-            "meaning": "冷的"
+            "meaning": "严重的"
+          },
+          {
+            "word": "cold",
+            "pos": "n.",
+            "meaning": "感冒"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Williams",
+            "pos": "n.",
+            "meaning": "威廉姆斯"
+          },
+          {
+            "word": "so",
+            "pos": "conj.",
+            "meaning": "所以"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "呆在"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "计（时长）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期"
           }
         ]
       }
@@ -306,32 +908,150 @@
       "id": "s14",
       "role": "Woman",
       "text": "That's good news for Jimmy.",
-      "translation": "",
+      "translation": "对吉米来说那是好消息。",
       "startTime": 65.81,
-      "endTime": 69.34
+      "endTime": 69.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "good news",
+            "label": "表语"
+          },
+          {
+            "text": "for Jimmy",
+            "label": "状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "news",
+            "pos": "n.",
+            "meaning": "消息"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "Good news? Why?",
-      "translation": "",
+      "translation": "好消息？为什么？",
       "startTime": 69.35,
-      "endTime": 72.35
+      "endTime": 72.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Good news",
+            "label": "省略句"
+          },
+          {
+            "text": "Why",
+            "label": "疑问词"
+          }
+        ],
+        "words": [
+          {
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "news",
+            "pos": "n.",
+            "meaning": "消息"
+          },
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Woman",
       "text": "Because he doesn't like school!",
-      "translation": "",
+      "translation": "因为他不喜欢上学！",
       "startTime": 72.36,
       "endTime": 77.36,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Because",
+            "label": "连词 (原因)"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "doesn't like",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "school",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "School",
+            "word": "Because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "doesn't",
+            "pos": "v.aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "school",
             "pos": "n.",
-            "meaning": "学校"
+            "meaning": "学校/上学"
           }
         ]
       }

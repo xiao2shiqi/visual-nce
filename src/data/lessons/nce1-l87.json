@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 87",
-      "translation": "",
+      "translation": "第87课",
       "startTime": 0.67,
       "endTime": 3.06,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 87",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "87",
+            "pos": "num.",
+            "meaning": "八十七"
           }
         ]
       }
@@ -26,16 +36,31 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A car crash",
-      "translation": "",
+      "translation": "车祸",
       "startTime": 3.07,
       "endTime": 5.53,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "A car crash",
+            "label": "名词短语"
+          }
+        ],
         "words": [
           {
-            "word": "Car",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一次"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
+          },
+          {
+            "word": "crash",
+            "pos": "n.",
+            "meaning": "碰撞/车祸"
           }
         ]
       }
@@ -44,21 +69,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.54,
       "endTime": 11.38,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,16 +135,63 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Can the mechanics repair Mr. Wood's car?",
-      "translation": "",
+      "translation": "修理工能修理伍德先生的车吗？",
       "startTime": 11.39,
       "endTime": 17.38,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Can",
+            "label": "情态动词"
+          },
+          {
+            "text": "the mechanics",
+            "label": "主语"
+          },
+          {
+            "text": "repair",
+            "label": "谓语"
+          },
+          {
+            "text": "Mr. Wood's car",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Car",
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "mechanics",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "修理工"
+          },
+          {
+            "word": "repair",
+            "pos": "v.",
+            "meaning": "修理"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Wood's",
+            "pos": "n.",
+            "meaning": "伍德的"
+          },
+          {
+            "word": "car",
+            "pos": "n.",
+            "meaning": "汽车"
           }
         ]
       }
@@ -85,18 +200,26 @@
       "id": "s1",
       "role": "Man",
       "text": "Is my car ready yet?",
-      "translation": "",
+      "translation": "我的车修好了吗？",
       "startTime": 17.39,
       "endTime": 20.11,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "my car",
+            "label": "主语"
+          },
+          {
+            "text": "ready",
+            "label": "表语"
+          },
+          {
+            "text": "yet",
+            "label": "状语 (用于疑问句)"
           }
         ],
         "words": [
@@ -106,14 +229,24 @@
             "meaning": "是"
           },
           {
-            "word": "My",
-            "pos": "pron.",
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "Car",
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
+          },
+          {
+            "word": "ready",
+            "pos": "adj.",
+            "meaning": "准备好的/修好的"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还/已经"
           }
         ]
       }
@@ -122,14 +255,42 @@
       "id": "s2",
       "role": "Woman",
       "text": "I don't know, sir.",
-      "translation": "",
+      "translation": "我不知道，先生。",
       "startTime": 20.12,
       "endTime": 22.26,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "don't know",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "sir",
+            "label": "呼语"
+          }
+        ],
         "words": [
           {
-            "word": "Sir",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不 (do not)"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -138,33 +299,61 @@
     },
     {
       "id": "s3",
-      "role": "Narrator",
+      "role": "Woman",
       "text": "What's the number of your car?",
-      "translation": "",
+      "translation": "您的车号是多少？",
       "startTime": 22.27,
       "endTime": 25.56,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "What",
+            "label": "疑问词/表语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "the number of your car",
+            "label": "主语"
           }
         ],
         "words": [
           {
-            "word": "Number",
-            "pos": "n.",
-            "meaning": "号码，数字"
-          },
-          {
-            "word": "Your",
+            "word": "What",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "什么"
           },
           {
-            "word": "Car",
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "number",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "号码"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之于"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "car",
+            "pos": "n.",
+            "meaning": "汽车"
           }
         ]
       }
@@ -173,43 +362,122 @@
       "id": "s4",
       "role": "Man",
       "text": "It's LFZ 312 G.",
-      "translation": "",
+      "translation": "是LFZ 312 G。",
       "startTime": 25.57,
       "endTime": 32.17,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "LFZ 312 G",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "LFZ",
+            "pos": "n.",
+            "meaning": "（字母）"
+          },
+          {
+            "word": "312",
+            "pos": "num.",
+            "meaning": "三一二"
+          },
+          {
+            "word": "G",
+            "pos": "n.",
+            "meaning": "（字母）"
+          }
+        ]
       }
     },
     {
       "id": "s5",
       "role": "Woman",
       "text": "When did you bring it to us?",
-      "translation": "",
+      "translation": "您什么时候送来的？",
       "startTime": 32.18,
       "endTime": 35.39,
       "analysis": {
         "grammar": [
           {
+            "text": "When",
+            "label": "疑问词"
+          },
+          {
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "bring",
+            "label": "谓语"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
+          },
+          {
+            "text": "to us",
+            "label": "对象状语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
           },
           {
-            "word": "It",
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "bring",
+            "pos": "v.",
+            "meaning": "带来/送来"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们（宾格）"
           }
         ]
       }
@@ -218,26 +486,67 @@
       "id": "s6",
       "role": "Man",
       "text": "I brought it here three days ago.",
-      "translation": "",
+      "translation": "我是3天前送到这儿来的。",
       "startTime": 35.4,
       "endTime": 39.1,
       "analysis": {
         "grammar": [
           {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "brought",
+            "label": "谓语 (过去时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
+          },
+          {
+            "text": "here",
+            "label": "地点状语"
+          },
+          {
+            "text": "three days ago",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "brought",
+            "pos": "v.",
+            "meaning": "带来（bring过去式）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Here",
+            "word": "here",
             "pos": "adv.",
             "meaning": "这里"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "天"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }
@@ -246,16 +555,53 @@
       "id": "s7",
       "role": "Woman",
       "text": "Ah yes, I remember now.",
-      "translation": "",
+      "translation": "噢，是的，我现在记起来了。",
       "startTime": 39.11,
       "endTime": 42.94,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Ah yes",
+            "label": "语气应答"
+          },
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "remember",
+            "label": "谓语"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "Yes",
+            "word": "Ah",
+            "pos": "int.",
+            "meaning": "啊/噢"
+          },
+          {
+            "word": "yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "remember",
+            "pos": "v.",
+            "meaning": "记得"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -264,21 +610,53 @@
       "id": "s8",
       "role": "Man",
       "text": "Have your mechanics finished yet?",
-      "translation": "",
+      "translation": "修理工修好了吗？",
       "startTime": 42.95,
       "endTime": 46.26,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "Have",
+            "label": "助动词"
+          },
+          {
+            "text": "your mechanics",
+            "label": "主语"
+          },
+          {
+            "text": "finished",
+            "label": "谓语 (完成时)"
+          },
+          {
+            "text": "yet",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "Have",
+            "pos": "v.aux.",
+            "meaning": "已经（完成时助动词）"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "mechanics",
+            "pos": "n.",
+            "meaning": "修理工"
+          },
+          {
+            "word": "finished",
+            "pos": "v.",
+            "meaning": "完成"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还/已经"
           }
         ]
       }
@@ -287,19 +665,61 @@
       "id": "s9",
       "role": "Woman",
       "text": "No, they're still working on it.",
-      "translation": "",
+      "translation": "没有，他们还在修呢。",
       "startTime": 46.27,
       "endTime": 49.55,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "No",
+            "label": "否定应答"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "'re still working",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "on it",
+            "label": "对象状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作/修（理）"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -310,29 +730,81 @@
       "id": "s10",
       "role": "Man",
       "text": "Let's go into the garage and have a look at it.",
-      "translation": "",
+      "translation": "咱们去车库看看吧。",
       "startTime": 49.56,
       "endTime": 55.75,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "Let's go",
+            "label": "祈使/建议"
+          },
+          {
+            "text": "into the garage",
+            "label": "地点状语"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "have a look at it",
+            "label": "祈使/建议2"
           }
         ],
         "words": [
           {
-            "word": "Look",
+            "word": "Let's",
             "pos": "v.",
+            "meaning": "让我们"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进到...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "garage",
+            "pos": "n.",
+            "meaning": "车库"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "进行"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "look",
+            "pos": "n.",
             "meaning": "看"
           },
           {
-            "word": "At",
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "向"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -343,35 +815,44 @@
       "id": "s11",
       "role": "Woman",
       "text": "Isn't that your car?",
-      "translation": "",
+      "translation": "那不是您的车吗？",
       "startTime": 55.76,
       "endTime": 58.74,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "Is not",
+            "label": "系词 (反问)"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "that",
+            "label": "主语"
+          },
+          {
+            "text": "your car",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "Isn't",
+            "pos": "v.",
+            "meaning": "不是 (is not)"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
           },
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
           },
           {
-            "word": "Car",
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
           }
         ]
       }
@@ -380,40 +861,53 @@
       "id": "s12",
       "role": "Man",
       "text": "Well, it was my car.",
-      "translation": "",
+      "translation": "唉，那是我的车。",
       "startTime": 58.75,
       "endTime": 62.53,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "Well",
+            "label": "语气词"
           },
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "it",
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "系词 (过去时)"
+          },
+          {
+            "text": "my car",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "唉/好吧"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "My",
-            "pos": "pron.",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（过去时）"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "Car",
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
           }
         ]
       }
@@ -422,16 +916,49 @@
       "id": "s13",
       "role": "Woman",
       "text": "Didn't you have a crash?",
-      "translation": "",
+      "translation": "您不是撞车了吗？",
       "startTime": 62.54,
       "endTime": 65.22,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Did not",
+            "label": "助动词 (否定疑问)"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "have a crash",
+            "label": "谓语/宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Didn't",
+            "pos": "v.aux.",
+            "meaning": "没有（did not）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "发生"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "crash",
+            "pos": "n.",
+            "meaning": "撞车/碰撞"
           }
         ]
       }
@@ -440,29 +967,99 @@
       "id": "s14",
       "role": "Man",
       "text": "That's right.",
-      "translation": "",
+      "translation": "是啊。",
       "startTime": 65.23,
-      "endTime": 66.94
+      "endTime": 66.94,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "right",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "对的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
-      "role": "Woman",
+      "role": "Man",
       "text": "I drove it into a lamp-post.",
-      "translation": "",
+      "translation": "我开车撞在电线杆上了。",
       "startTime": 66.95,
       "endTime": 70.39,
       "analysis": {
         "grammar": [
           {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "drove",
+            "label": "谓语 (过去时)"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
+          },
+          {
+            "text": "into a lamp-post",
+            "label": "方向状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "drove",
+            "pos": "v.",
+            "meaning": "驾驶/撞（drive过去式）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进到...中"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "lamp-post",
+            "pos": "n.",
+            "meaning": "电线杆"
           }
         ]
       }
@@ -471,28 +1068,51 @@
       "id": "s16",
       "role": "Man",
       "text": "Can your mechanics repair it?",
-      "translation": "",
+      "translation": "您的修理工能修好它吗？",
       "startTime": 70.4,
       "endTime": 73.53,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "Can",
+            "label": "情态动词"
+          },
+          {
+            "text": "your mechanics",
+            "label": "主语"
+          },
+          {
+            "text": "repair",
+            "label": "谓语"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "It",
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "mechanics",
+            "pos": "n.",
+            "meaning": "修理工"
+          },
+          {
+            "word": "repair",
+            "pos": "v.",
+            "meaning": "修理"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -503,29 +1123,70 @@
       "id": "s17",
       "role": "Woman",
       "text": "Well, they're trying to repair it, sir.",
-      "translation": "",
+      "translation": "啊，先生，他们正设法修理呢。",
       "startTime": 73.54,
       "endTime": 77.01,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "Well",
+            "label": "语气词"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "'re trying",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "to repair it",
+            "label": "宾语 (不定式)"
+          },
+          {
+            "text": "sir",
+            "label": "呼语"
           }
         ],
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "噢/好吧"
           },
           {
-            "word": "It",
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "trying",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "repair",
+            "pos": "v.",
+            "meaning": "修理"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -534,23 +1195,89 @@
     },
     {
       "id": "s18",
-      "role": "Man",
+      "role": "Woman",
       "text": "But to tell you the truth, you need a new car!",
-      "translation": "",
+      "translation": "但说实话，您需要一辆新车了！",
       "startTime": 77.02,
       "endTime": 82.02,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "But",
+            "label": "连词"
           },
           {
-            "word": "Car",
+            "text": "to tell you the truth",
+            "label": "插入语"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "need",
+            "label": "谓语"
+          },
+          {
+            "text": "a new car",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "truth",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "事实/真相"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "car",
+            "pos": "n.",
+            "meaning": "汽车"
           }
         ]
       }

@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 75",
-      "translation": "",
+      "translation": "第75课",
       "startTime": 0.93,
       "endTime": 3.72,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 75",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "75",
+            "pos": "num.",
+            "meaning": "七十五"
           }
         ]
       }
@@ -26,29 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Uncomfortable shoes",
-      "translation": "",
+      "translation": "不舒适的鞋子",
       "startTime": 3.73,
-      "endTime": 6.97
+      "endTime": 6.97,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Uncomfortable shoes",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Uncomfortable",
+            "pos": "adj.",
+            "meaning": "不舒适的"
+          },
+          {
+            "word": "shoes",
+            "pos": "n.",
+            "meaning": "鞋子（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.98,
       "endTime": 12.37,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,24 +130,124 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What's wrong with the fashionable shoes?",
-      "translation": "",
+      "translation": "那些时髦的鞋子怎么了？",
       "startTime": 12.38,
-      "endTime": 18
+      "endTime": 18,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词/主语"
+          },
+          {
+            "text": "'s wrong",
+            "label": "系表结构"
+          },
+          {
+            "text": "with the fashionable shoes",
+            "label": "介词短语 (关于)"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "wrong",
+            "pos": "adj.",
+            "meaning": "错误的/不对头的"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "关于/随着"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "fashionable",
+            "pos": "adj.",
+            "meaning": "时髦的"
+          },
+          {
+            "word": "shoes",
+            "pos": "n.",
+            "meaning": "鞋子"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Do you have any shoes like these?",
-      "translation": "",
+      "translation": "你们有像这样的鞋吗？",
       "startTime": 18.01,
       "endTime": 22.07,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "any shoes like these",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你/你们"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何（用于疑问/否定）"
+          },
+          {
+            "word": "shoes",
+            "pos": "n.",
+            "meaning": "鞋子"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像"
+          },
+          {
+            "word": "these",
+            "pos": "pron.",
+            "meaning": "这些"
           }
         ]
       }
@@ -83,21 +256,26 @@
       "id": "s2",
       "role": "Narrator",
       "text": "What size?",
-      "translation": "",
+      "translation": "多大号的？",
       "startTime": 22.08,
       "endTime": 23.79,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What size",
+            "label": "疑问短语 (省略)"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
+          },
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "尺寸/号码"
           }
         ]
       }
@@ -106,14 +284,24 @@
       "id": "s3",
       "role": "Man",
       "text": "Size five.",
-      "translation": "",
+      "translation": "5号的。",
       "startTime": 23.8,
       "endTime": 25.85,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Size five",
+            "label": "名词短语 (省略)"
+          }
+        ],
         "words": [
           {
-            "word": "Five",
+            "word": "Size",
+            "pos": "n.",
+            "meaning": "尺寸"
+          },
+          {
+            "word": "five",
             "pos": "num.",
             "meaning": "五"
           }
@@ -124,21 +312,26 @@
       "id": "s4",
       "role": "Narrator",
       "text": "What colour?",
-      "translation": "",
+      "translation": "什么颜色的？",
       "startTime": 25.86,
       "endTime": 27.29,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What colour",
+            "label": "疑问短语"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
+          },
+          {
+            "word": "colour",
+            "pos": "n.",
+            "meaning": "颜色"
           }
         ]
       }
@@ -147,11 +340,16 @@
       "id": "s5",
       "role": "Man",
       "text": "Black.",
-      "translation": "",
+      "translation": "黑色的。",
       "startTime": 27.3,
       "endTime": 28.9,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Black",
+            "label": "形容词 (省略)"
+          }
+        ],
         "words": [
           {
             "word": "Black",
@@ -165,14 +363,37 @@
       "id": "s6",
       "role": "Woman",
       "text": "I'm sorry.",
-      "translation": "",
+      "translation": "对不起。",
       "startTime": 28.91,
       "endTime": 30.28,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "am",
+            "label": "系词"
+          },
+          {
+            "text": "sorry",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Sorry",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
           }
@@ -183,38 +404,118 @@
       "id": "s7",
       "role": "Man",
       "text": "We don't have any.",
-      "translation": "",
+      "translation": "我们没有。",
       "startTime": 30.29,
-      "endTime": 32.84
+      "endTime": 32.84,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "don't have",
+            "label": "谓语 (否定)"
+          },
+          {
+            "text": "any",
+            "label": "宾语 (指代鞋)"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不/没有 (do not)"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "pron.",
+            "meaning": "任何（替代shoes）"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "But my sister bought this pair last month.",
-      "translation": "",
+      "translation": "但是我姐姐上个月买过一双。",
       "startTime": 32.85,
       "endTime": 37.51,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "But",
+            "label": "连词"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "my sister",
+            "label": "主语"
+          },
+          {
+            "text": "bought",
+            "label": "谓语"
+          },
+          {
+            "text": "this pair",
+            "label": "宾语"
+          },
+          {
+            "text": "last month",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "sister",
+            "pos": "n.",
+            "meaning": "姐姐/妹妹"
+          },
+          {
+            "word": "bought",
+            "pos": "v.",
+            "meaning": "买（buy的过去式）"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "pair",
+            "pos": "n.",
+            "meaning": "双/对"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "month",
+            "pos": "n.",
+            "meaning": "月"
           }
         ]
       }
@@ -223,16 +524,57 @@
       "id": "s9",
       "role": "Man",
       "text": "Did she buy them here?",
-      "translation": "",
+      "translation": "她是在这儿买的吗？",
       "startTime": 37.52,
       "endTime": 39.93,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Did",
+            "label": "助动词"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "buy",
+            "label": "谓语"
+          },
+          {
+            "text": "them",
+            "label": "宾语"
+          },
+          {
+            "text": "here",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "Here",
+            "word": "Did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们（指鞋）"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
-            "meaning": "这里"
+            "meaning": "在这里"
           }
         ]
       }
@@ -241,45 +583,241 @@
       "id": "s10",
       "role": "Woman",
       "text": "No, she bought them in the U. S.",
-      "translation": "",
+      "translation": "不，她是在美国买的。",
       "startTime": 39.94,
-      "endTime": 44.35
+      "endTime": 44.35,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "bought",
+            "label": "谓语"
+          },
+          {
+            "text": "them",
+            "label": "宾语"
+          },
+          {
+            "text": "in the U.S.",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "bought",
+            "pos": "v.",
+            "meaning": "买（过去式）"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "U.",
+            "pos": "n.",
+            "meaning": "美"
+          },
+          {
+            "word": "S.",
+            "pos": "n.",
+            "meaning": "国"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "We had some shoes like those a month ago, but we don't have any now.",
-      "translation": "",
+      "translation": "一个月前我们有一些像那样的鞋，但现在没有了。",
       "startTime": 44.36,
-      "endTime": 51.81
+      "endTime": 51.81,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "We had some shoes like those a month ago",
+            "label": "分句1 (过去)"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "we don't have any now",
+            "label": "分句2 (现在)"
+          }
+        ],
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "有（have的过去式）"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "shoes",
+            "pos": "n.",
+            "meaning": "鞋子"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像"
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "month",
+            "pos": "n.",
+            "meaning": "月"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "之前"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不/没有"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "pron.",
+            "meaning": "任何"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "Can you get a pair for me, please?",
-      "translation": "",
+      "translation": "请问你能为我弄到一双吗？",
       "startTime": 51.82,
       "endTime": 55.51,
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Can you get",
+            "label": "疑问/谓语"
+          },
+          {
+            "text": "a pair",
+            "label": "宾语"
+          },
+          {
+            "text": "for me",
+            "label": "状语"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "Me",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "你"
           },
           {
-            "word": "Please",
+            "word": "get",
+            "pos": "v.",
+            "meaning": "弄到/买到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "pair",
+            "pos": "n.",
+            "meaning": "双"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -290,21 +828,54 @@
       "id": "s13",
       "role": "Man",
       "text": "I'm afraid that I can't.",
-      "translation": "",
+      "translation": "恐怕我办不到。",
       "startTime": 55.52,
       "endTime": 58.53,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "am afraid",
+            "label": "谓语 (系表)"
+          },
+          {
+            "text": "that I can't",
+            "label": "宾语从句"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕/担心的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（连接词）"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
           }
         ]
       }
@@ -313,34 +884,157 @@
       "id": "s14",
       "role": "Woman",
       "text": "They were in fashion last year and the year before last.",
-      "translation": "",
+      "translation": "它们在去年和前年很流行。",
       "startTime": 58.54,
-      "endTime": 64.19
+      "endTime": 64.19,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "were",
+            "label": "系词"
+          },
+          {
+            "text": "in fashion",
+            "label": "表语"
+          },
+          {
+            "text": "last year and the year before last",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是/在"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "fashion",
+            "pos": "n.",
+            "meaning": "时尚/流行"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "去年的"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "before",
+            "pos": "prep.",
+            "meaning": "之前"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "But they're not in fashion this year.",
-      "translation": "",
+      "translation": "但它们在今年不流行了。",
       "startTime": 64.2,
       "endTime": 69.09,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "But",
+            "label": "连词"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "are not",
+            "label": "系词 (否定)"
+          },
+          {
+            "text": "in fashion",
+            "label": "表语"
+          },
+          {
+            "text": "this year",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "This",
+            "word": "they",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "它们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "fashion",
+            "pos": "n.",
+            "meaning": "流行"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这/今年"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -349,43 +1043,104 @@
       "id": "s16",
       "role": "Woman",
       "text": "These shoes are in fashion now.",
-      "translation": "",
+      "translation": "现在这种鞋很流行。",
       "startTime": 69.1,
       "endTime": 73.08,
       "analysis": {
         "grammar": [
           {
+            "text": "These shoes",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "in fashion",
+            "label": "表语"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "These",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "shoes",
+            "pos": "n.",
+            "meaning": "鞋子"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "fashion",
+            "pos": "n.",
+            "meaning": "时尚"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          }
+        ]
       }
     },
     {
       "id": "s17",
       "role": "Man",
       "text": "They look very uncomfortable.",
-      "translation": "",
+      "translation": "它们看起来很不舒适。",
       "startTime": 73.09,
       "endTime": 76.45,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "They",
+            "label": "主语"
+          },
+          {
+            "text": "look",
+            "label": "系词 (感官)"
+          },
+          {
+            "text": "very uncomfortable",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "它们"
           },
           {
-            "word": "Very",
+            "word": "look",
+            "pos": "v.",
+            "meaning": "看起来/显得"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
+          },
+          {
+            "word": "uncomfortable",
+            "pos": "adj.",
+            "meaning": "不舒适的"
           }
         ]
       }
@@ -394,25 +1149,44 @@
       "id": "s18",
       "role": "Woman",
       "text": "They are very uncomfortable.",
-      "translation": "",
+      "translation": "它们确实很不舒适。",
       "startTime": 76.46,
       "endTime": 79.47,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "They",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "are",
+            "label": "系词"
+          },
+          {
+            "text": "very uncomfortable",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
+          },
+          {
+            "word": "uncomfortable",
+            "pos": "adj.",
+            "meaning": "不舒适的"
           }
         ]
       }
@@ -421,9 +1195,61 @@
       "id": "s19",
       "role": "Man",
       "text": "But women always wear uncomfortable shoes!",
-      "translation": "",
+      "translation": "但是，女人们总是穿着很不舒适的鞋！",
       "startTime": 79.48,
-      "endTime": 84.48
+      "endTime": 84.48,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "But",
+            "label": "连词"
+          },
+          {
+            "text": "women",
+            "label": "主语"
+          },
+          {
+            "text": "always wear",
+            "label": "谓语"
+          },
+          {
+            "text": "uncomfortable shoes",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "women",
+            "pos": "n.",
+            "meaning": "女人们"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "wear",
+            "pos": "v.",
+            "meaning": "穿着"
+          },
+          {
+            "word": "uncomfortable",
+            "pos": "adj.",
+            "meaning": "不舒适的"
+          },
+          {
+            "word": "shoes",
+            "pos": "n.",
+            "meaning": "鞋子"
+          }
+        ]
+      }
     }
   ]
 }

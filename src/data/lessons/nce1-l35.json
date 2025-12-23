@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 35",
-      "translation": "",
+      "translation": "第35课",
       "startTime": 0.68,
       "endTime": 3.2,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 35",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "35",
+            "pos": "num.",
+            "meaning": "三十五"
           }
         ]
       }
@@ -26,38 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Our village",
-      "translation": "",
+      "translation": "我们的村庄",
       "startTime": 3.21,
       "endTime": 6.05,
       "analysis": {
         "grammar": [
           {
-            "text": "Our",
-            "label": "形容词性物主代词"
+            "text": "Our village",
+            "label": "名词短语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
+          }
+        ]
       }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.06,
       "endTime": 11.73,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -66,23 +130,85 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Are the children coming out of the park or going into it?",
-      "translation": "",
+      "translation": "孩子们是正从公园里出来，还是正走进公园去？",
       "startTime": 11.74,
       "endTime": 18.96,
       "analysis": {
         "grammar": [
           {
             "text": "Are",
-            "label": "谓语/系动词"
+            "label": "助动词"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "the children",
+            "label": "主语"
+          },
+          {
+            "text": "coming out of the park",
+            "label": "现在分词短语1"
+          },
+          {
+            "text": "or",
+            "label": "连词 (选择)"
+          },
+          {
+            "text": "going into it",
+            "label": "现在分词短语2"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "Are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子们"
+          },
+          {
+            "word": "coming",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "out of",
+            "pos": "prep.",
+            "meaning": "从...出来"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "park",
+            "pos": "n.",
+            "meaning": "公园"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -93,34 +219,59 @@
       "id": "s1",
       "role": "Man",
       "text": "This is a photograph of our village.",
-      "translation": "",
+      "translation": "这是一张我们村庄的照片。",
       "startTime": 18.97,
       "endTime": 23.49,
       "analysis": {
         "grammar": [
           {
             "text": "This",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "a photograph of our village",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "photograph",
+            "pos": "n.",
+            "meaning": "照片"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
           }
         ]
       }
@@ -129,25 +280,54 @@
       "id": "s2",
       "role": "Woman",
       "text": "Our village is in a valley.",
-      "translation": "",
+      "translation": "我们的村庄位于一个山谷中。",
       "startTime": 23.5,
       "endTime": 26.88,
       "analysis": {
         "grammar": [
           {
-            "text": "Our",
-            "label": "形容词性物主代词"
+            "text": "Our village",
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "in a valley",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "Our",
+            "pos": "det.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "valley",
+            "pos": "n.",
+            "meaning": "山谷"
           }
         ]
       }
@@ -156,18 +336,22 @@
       "id": "s3",
       "role": "Man",
       "text": "It is between two hills.",
-      "translation": "",
+      "translation": "它处在两座小山之间。",
       "startTime": 26.89,
       "endTime": 30.23,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "between two hills",
+            "label": "地点状语"
           }
         ],
         "words": [
@@ -177,9 +361,24 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "between",
+            "pos": "prep.",
+            "meaning": "在...之间"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "hills",
+            "pos": "n.",
+            "meaning": "小山"
           }
         ]
       }
@@ -188,21 +387,54 @@
       "id": "s4",
       "role": "Woman",
       "text": "The village is on a river.",
-      "translation": "",
+      "translation": "村庄坐落在一条河边。",
       "startTime": 30.24,
       "endTime": 34.68,
       "analysis": {
         "grammar": [
           {
+            "text": "The village",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "on a river",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...之上/旁边"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一条"
+          },
+          {
+            "word": "river",
+            "pos": "n.",
+            "meaning": "河"
           }
         ]
       }
@@ -211,14 +443,22 @@
       "id": "s5",
       "role": "Man",
       "text": "Here is another photograph of the village.",
-      "translation": "",
+      "translation": "这是村庄的另一张照片。",
       "startTime": 34.69,
       "endTime": 39.61,
       "analysis": {
         "grammar": [
           {
+            "text": "Here",
+            "label": "引导词"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "another photograph of the village",
+            "label": "主语 (倒装)"
           }
         ],
         "words": [
@@ -228,9 +468,34 @@
             "meaning": "这里"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "photograph",
+            "pos": "n.",
+            "meaning": "照片"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
           }
         ]
       }
@@ -239,25 +504,84 @@
       "id": "s6",
       "role": "Woman",
       "text": "My wife and I are walking along the banks of the river.",
-      "translation": "",
+      "translation": "我和我妻子正沿着河岸散步。",
       "startTime": 39.62,
       "endTime": 46.38,
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My wife and I",
+            "label": "并列主语"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "are walking",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "along the banks of the river",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
             "word": "My",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "walking",
+            "pos": "v.",
+            "meaning": "走/散步"
+          },
+          {
+            "word": "along",
+            "pos": "prep.",
+            "meaning": "沿着"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "banks",
+            "pos": "n.",
+            "meaning": "河岸"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "river",
+            "pos": "n.",
+            "meaning": "河"
           }
         ]
       }
@@ -266,38 +590,110 @@
       "id": "s7",
       "role": "Man",
       "text": "We are on the left.",
-      "translation": "",
+      "translation": "我们在左边。",
       "startTime": 46.39,
       "endTime": 49.58,
       "analysis": {
         "grammar": [
           {
+            "text": "We",
+            "label": "主语"
+          },
+          {
             "text": "are",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "on the left",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "left",
+            "pos": "n.",
+            "meaning": "左边"
+          }
+        ]
       }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "There is a boy in the water.",
-      "translation": "",
+      "translation": "水里有一个男孩。",
       "startTime": 49.59,
       "endTime": 52.92,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "There is",
+            "label": "引导词+系词"
+          },
+          {
+            "text": "a boy",
+            "label": "主语"
+          },
+          {
+            "text": "in the water",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "There",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "boy",
+            "pos": "n.",
+            "meaning": "男孩"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
           }
         ]
       }
@@ -306,21 +702,54 @@
       "id": "s9",
       "role": "Man",
       "text": "He is swimming across the river.",
-      "translation": "",
+      "translation": "他正游过河去。",
       "startTime": 52.93,
       "endTime": 58.25,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "is swimming",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "across the river",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
             "meaning": "是"
+          },
+          {
+            "word": "swimming",
+            "pos": "v.",
+            "meaning": "游泳"
+          },
+          {
+            "word": "across",
+            "pos": "prep.",
+            "meaning": "横过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "river",
+            "pos": "n.",
+            "meaning": "河"
           }
         ]
       }
@@ -329,14 +758,22 @@
       "id": "s10",
       "role": "Woman",
       "text": "Here is another photograph.",
-      "translation": "",
+      "translation": "这是另一张照片。",
       "startTime": 58.26,
       "endTime": 61.75,
       "analysis": {
         "grammar": [
           {
+            "text": "Here",
+            "label": "引导词"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "another photograph",
+            "label": "主语 (倒装)"
           }
         ],
         "words": [
@@ -346,9 +783,19 @@
             "meaning": "这里"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "photograph",
+            "pos": "n.",
+            "meaning": "照片"
           }
         ]
       }
@@ -357,35 +804,49 @@
       "id": "s11",
       "role": "Man",
       "text": "This is the school building.",
-      "translation": "",
+      "translation": "这是学校大楼。",
       "startTime": 61.76,
       "endTime": 64.75,
       "analysis": {
         "grammar": [
           {
             "text": "This",
-            "label": "指示代词"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "the school building",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "School",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
+          },
+          {
+            "word": "building",
+            "pos": "n.",
+            "meaning": "大楼"
           }
         ]
       }
@@ -394,18 +855,22 @@
       "id": "s12",
       "role": "Woman",
       "text": "It is beside a park.",
-      "translation": "",
+      "translation": "它在公园旁边。",
       "startTime": 64.76,
       "endTime": 68.08,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "beside a park",
+            "label": "地点状语"
           }
         ],
         "words": [
@@ -415,9 +880,24 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "beside",
+            "pos": "prep.",
+            "meaning": "在...旁边"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "park",
+            "pos": "n.",
+            "meaning": "公园"
           }
         ]
       }
@@ -426,21 +906,54 @@
       "id": "s13",
       "role": "Man",
       "text": "The park is on the right.",
-      "translation": "",
+      "translation": "公园在右边。",
       "startTime": 68.09,
       "endTime": 71.51,
       "analysis": {
         "grammar": [
           {
+            "text": "The park",
+            "label": "主语"
+          },
+          {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "on the right",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "park",
+            "pos": "n.",
+            "meaning": "公园"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "right",
+            "pos": "n.",
+            "meaning": "右边"
           }
         ]
       }
@@ -449,34 +962,127 @@
       "id": "s14",
       "role": "Woman",
       "text": "Some children are coming out of the building.",
-      "translation": "",
+      "translation": "一些孩子正从大楼里出来。",
       "startTime": 71.52,
       "endTime": 75.98,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Some children",
+            "label": "主语"
+          },
+          {
+            "text": "are coming",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "out of the building",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子们"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "coming",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "out of",
+            "pos": "prep.",
+            "meaning": "从...出来"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "building",
+            "pos": "n.",
+            "meaning": "大楼"
+          }
+        ]
       }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "Some of them are going into the park.",
-      "translation": "",
+      "translation": "他们中的一些人正走进公园。",
       "startTime": 75.99,
       "endTime": 80.99,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Some of them",
+            "label": "主语"
+          },
+          {
+            "text": "are going",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "into the park",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Some",
+            "pos": "pron.",
+            "meaning": "一些"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于/之中的"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "park",
+            "pos": "n.",
+            "meaning": "公园"
+          }
+        ]
       }
     }
   ]

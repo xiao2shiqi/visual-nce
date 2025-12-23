@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 51",
-      "translation": "",
+      "translation": "第51课",
       "startTime": 0.5,
       "endTime": 3.12,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 51",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "51",
+            "pos": "num.",
+            "meaning": "五十一"
           }
         ]
       }
@@ -26,29 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A pleasant climate",
-      "translation": "",
+      "translation": "宜人的气候",
       "startTime": 3.13,
-      "endTime": 6.17
+      "endTime": 6.17,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "A pleasant climate",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "pleasant",
+            "pos": "adj.",
+            "meaning": "宜人的"
+          },
+          {
+            "word": "climate",
+            "pos": "n.",
+            "meaning": "气候"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.18,
       "endTime": 11.84,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,21 +135,62 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Does it ever snow in Greece?",
-      "translation": "",
+      "translation": "希腊下过雪吗？",
       "startTime": 11.85,
       "endTime": 17,
       "analysis": {
         "grammar": [
           {
+            "text": "Does",
+            "label": "助动词"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "形式主语 (天气)"
+          },
+          {
+            "text": "ever",
+            "label": "状语 (曾经/有时)"
+          },
+          {
+            "text": "snow",
+            "label": "谓语动词"
+          },
+          {
+            "text": "in Greece",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "Does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指天气）"
+          },
+          {
+            "word": "ever",
+            "pos": "adv.",
+            "meaning": "曾经/在任何时候"
+          },
+          {
+            "word": "snow",
+            "pos": "v.",
+            "meaning": "下雪"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "Greece",
+            "pos": "n.",
+            "meaning": "希腊"
           }
         ]
       }
@@ -80,16 +199,53 @@
       "id": "s1",
       "role": "Man",
       "text": "Where do you come from?",
-      "translation": "",
+      "translation": "你是哪国人？",
       "startTime": 17.01,
       "endTime": 19.89,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Where",
+            "label": "疑问副词"
+          },
+          {
+            "text": "do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "come from",
+            "label": "谓语短语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...来"
           }
         ]
       }
@@ -98,29 +254,110 @@
       "id": "s2",
       "role": "Woman",
       "text": "I come from Greece.",
-      "translation": "",
+      "translation": "我从希腊来。",
       "startTime": 19.9,
-      "endTime": 22.93
+      "endTime": 22.93,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "come from",
+            "label": "谓语短语"
+          },
+          {
+            "text": "Greece",
+            "label": "地点/宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...来"
+          },
+          {
+            "word": "Greece",
+            "pos": "n.",
+            "meaning": "希腊"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Narrator",
       "text": "What's the climate like in your country?",
-      "translation": "",
+      "translation": "你们国家的气候怎么样？",
       "startTime": 22.94,
       "endTime": 27.31,
       "analysis": {
         "grammar": [
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "What's...like",
+            "label": "询问特征/状况"
+          },
+          {
+            "text": "the climate",
+            "label": "主语"
+          },
+          {
+            "text": "in your country",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "Your",
+            "word": "What",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "climate",
+            "pos": "n.",
+            "meaning": "气候"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像...一样"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "your",
+            "pos": "det.",
+            "meaning": "你的"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
           }
         ]
       }
@@ -129,25 +366,44 @@
       "id": "s4",
       "role": "Man",
       "text": "It's very pleasant.",
-      "translation": "",
+      "translation": "非常宜人。",
       "startTime": 27.32,
       "endTime": 30.36,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语 (指气候)"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "very pleasant",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "很"
+          },
+          {
+            "word": "pleasant",
+            "pos": "adj.",
+            "meaning": "宜人的"
           }
         ]
       }
@@ -156,50 +412,209 @@
       "id": "s5",
       "role": "Narrator",
       "text": "What's the weather like in spring?",
-      "translation": "",
+      "translation": "春天的天气怎么样？",
       "startTime": 30.37,
-      "endTime": 34.28
+      "endTime": 34.28,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What's...like",
+            "label": "询问状况"
+          },
+          {
+            "text": "the weather",
+            "label": "主语"
+          },
+          {
+            "text": "in spring",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "weather",
+            "pos": "n.",
+            "meaning": "天气"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像...一样"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "spring",
+            "pos": "n.",
+            "meaning": "春天"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "It's often windy in March.",
-      "translation": "",
+      "translation": "三月里常常刮风。",
       "startTime": 34.29,
       "endTime": 37.78,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
-          }
-        ],
-        "words": []
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Woman",
-      "text": "It's always warm in April and May, but it rains sometimes.",
-      "translation": "",
-      "startTime": 37.79,
-      "endTime": 45.52,
-      "analysis": {
-        "grammar": [
-          {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "形式主语 (天气)"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "often",
+            "label": "频率状语"
+          },
+          {
+            "text": "windy",
+            "label": "表语"
+          },
+          {
+            "text": "in March",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
+            "meaning": "它（指天气）"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "windy",
+            "pos": "adj.",
+            "meaning": "有风的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "March",
+            "pos": "n.",
+            "meaning": "三月"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "role": "Woman",
+      "text": "It's always warm in April and May, but it rains sometimes.",
+      "translation": "四月和五月总是很暖和，但有时下雨。",
+      "startTime": 37.79,
+      "endTime": 45.52,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "It's always warm",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "it rains sometimes",
+            "label": "分句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它（指天气）"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "温暖的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "April",
+            "pos": "n.",
+            "meaning": "四月"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "May",
+            "pos": "n.",
+            "meaning": "五月"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "rains",
+            "pos": "v.",
+            "meaning": "下雨"
+          },
+          {
+            "word": "sometimes",
+            "pos": "adv.",
+            "meaning": "有时"
           }
         ]
       }
@@ -208,21 +623,54 @@
       "id": "s8",
       "role": "Narrator",
       "text": "What's it like in summer?",
-      "translation": "",
+      "translation": "夏天怎么样？",
       "startTime": 45.53,
       "endTime": 49.03,
       "analysis": {
         "grammar": [
           {
+            "text": "What's...like",
+            "label": "疑问短语"
+          },
+          {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "主语 (天气)"
+          },
+          {
+            "text": "in summer",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "It",
+            "word": "What",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它（指天气）"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像...一样"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "summer",
+            "pos": "n.",
+            "meaning": "夏天"
           }
         ]
       }
@@ -231,21 +679,73 @@
       "id": "s9",
       "role": "Man",
       "text": "It's always hot in June, July and August.",
-      "translation": "",
+      "translation": "六月、七月和八月总是很热。",
       "startTime": 49.04,
       "endTime": 54.69,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "形式主语 (天气)"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "always",
+            "label": "频率状语"
+          },
+          {
+            "text": "hot",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Hot",
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "hot",
             "pos": "adj.",
             "meaning": "热的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "June",
+            "pos": "n.",
+            "meaning": "六月"
+          },
+          {
+            "word": "July",
+            "pos": "n.",
+            "meaning": "七月"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "August",
+            "pos": "n.",
+            "meaning": "八月"
           }
         ]
       }
@@ -254,26 +754,73 @@
       "id": "s10",
       "role": "Woman",
       "text": "The sun shines every day.",
-      "translation": "",
+      "translation": "阳光每天都灿烂。",
       "startTime": 54.7,
-      "endTime": 58.15
+      "endTime": 58.15,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The sun",
+            "label": "主语"
+          },
+          {
+            "text": "shines",
+            "label": "谓语"
+          },
+          {
+            "text": "every day",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "sun",
+            "pos": "n.",
+            "meaning": "太阳"
+          },
+          {
+            "word": "shines",
+            "pos": "v.",
+            "meaning": "照耀"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每个"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Is it cold or warm in autumn?",
-      "translation": "",
+      "translation": "秋天天气冷还是暖和？",
       "startTime": 58.16,
       "endTime": 62.16,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词 (前置)"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "主语"
+          },
+          {
+            "text": "cold or warm",
+            "label": "表语 (选择)"
           }
         ],
         "words": [
@@ -283,14 +830,34 @@
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指天气）"
           },
           {
-            "word": "Cold",
+            "word": "cold",
             "pos": "adj.",
             "meaning": "冷的"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "暖和的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "autumn",
+            "pos": "n.",
+            "meaning": "秋天"
           }
         ]
       }
@@ -299,47 +866,144 @@
       "id": "s12",
       "role": "Woman",
       "text": "It's always warm in September and October.",
-      "translation": "",
+      "translation": "九月和十月总是很暖和。",
       "startTime": 62.17,
       "endTime": 67.1,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "形式主语 (天气)"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "always",
+            "label": "频率状语"
+          },
+          {
+            "text": "warm",
+            "label": "表语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "暖和的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "September",
+            "pos": "n.",
+            "meaning": "九月"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "October",
+            "pos": "n.",
+            "meaning": "十月"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "It's often cold in November and it rains sometimes.",
-      "translation": "",
+      "translation": "十一月常常很冷，而且有时下雨。",
       "startTime": 67.11,
       "endTime": 73.5,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It's often cold",
+            "label": "分句1"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "it rains sometimes",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Cold",
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "cold",
             "pos": "adj.",
             "meaning": "冷的"
           },
           {
-            "word": "It",
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "November",
+            "pos": "n.",
+            "meaning": "十一月"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "rains",
+            "pos": "v.",
+            "meaning": "下雨"
+          },
+          {
+            "word": "sometimes",
+            "pos": "adv.",
+            "meaning": "有时"
           }
         ]
       }
@@ -348,22 +1012,22 @@
       "id": "s14",
       "role": "Woman",
       "text": "Is it very cold in winter?",
-      "translation": "",
+      "translation": "冬天非常冷吗？",
       "startTime": 73.51,
       "endTime": 77.22,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "very cold",
+            "label": "表语"
           }
         ],
         "words": [
@@ -373,19 +1037,29 @@
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
           },
           {
-            "word": "Cold",
+            "word": "cold",
             "pos": "adj.",
             "meaning": "冷的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "winter",
+            "pos": "n.",
+            "meaning": "冬天"
           }
         ]
       }
@@ -394,21 +1068,73 @@
       "id": "s15",
       "role": "Man",
       "text": "It's often cold in December, January and February.",
-      "translation": "",
+      "translation": "十二月、一月和二月常常很冷。",
       "startTime": 77.23,
       "endTime": 83.33,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "形式主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "often",
+            "label": "频率状语"
+          },
+          {
+            "text": "cold",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Cold",
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "cold",
             "pos": "adj.",
             "meaning": "冷的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "December",
+            "pos": "n.",
+            "meaning": "十二月"
+          },
+          {
+            "word": "January",
+            "pos": "n.",
+            "meaning": "一月"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "February",
+            "pos": "n.",
+            "meaning": "二月"
           }
         ]
       }
@@ -417,21 +1143,39 @@
       "id": "s16",
       "role": "Woman",
       "text": "It snows sometimes.",
-      "translation": "",
+      "translation": "有时下雪。",
       "startTime": 83.34,
       "endTime": 88.34,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
+          },
+          {
+            "text": "snows",
+            "label": "谓语"
+          },
+          {
+            "text": "sometimes",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指天气）"
+          },
+          {
+            "word": "snows",
+            "pos": "v.",
+            "meaning": "下雪"
+          },
+          {
+            "word": "sometimes",
+            "pos": "adv.",
+            "meaning": "有时"
           }
         ]
       }

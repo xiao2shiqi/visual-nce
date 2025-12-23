@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 73",
-      "translation": "",
+      "translation": "第73课",
       "startTime": 0.72,
       "endTime": 3.27,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 73",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "73",
+            "pos": "num.",
+            "meaning": "七十三"
           }
         ]
       }
@@ -26,29 +36,111 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The way to King Street",
-      "translation": "",
+      "translation": "去国王大道的路",
       "startTime": 3.28,
-      "endTime": 6.86
+      "endTime": 6.86,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "The way",
+            "label": "中心词"
+          },
+          {
+            "text": "to King Street",
+            "label": "后置修饰 (方向)"
+          }
+        ],
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "路/路程"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去/往"
+          },
+          {
+            "word": "King",
+            "pos": "n.",
+            "meaning": "国王"
+          },
+          {
+            "word": "Street",
+            "pos": "n.",
+            "meaning": "街道"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.87,
       "endTime": 12.46,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,16 +149,67 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why did the man need a phrasebook?",
-      "translation": "",
+      "translation": "为什么那个男人需要一本常用语手册？",
       "startTime": 12.47,
       "endTime": 18.72,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Why",
+            "label": "疑问状语"
+          },
+          {
+            "text": "did",
+            "label": "助动词"
+          },
+          {
+            "text": "the man",
+            "label": "主语"
+          },
+          {
+            "text": "need",
+            "label": "谓语"
+          },
+          {
+            "text": "a phrasebook",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Man",
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "phrasebook",
+            "pos": "n.",
+            "meaning": "常用语手册"
           }
         ]
       }
@@ -75,43 +218,140 @@
       "id": "s1",
       "role": "Man",
       "text": "Last week Mrs. Mills went to London.",
-      "translation": "",
+      "translation": "上周米尔斯夫人去了伦敦。",
       "startTime": 18.73,
-      "endTime": 23.58
+      "endTime": 23.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Last week",
+            "label": "时间状语"
+          },
+          {
+            "text": "Mrs. Mills",
+            "label": "主语"
+          },
+          {
+            "text": "went to London",
+            "label": "谓语和地点"
+          }
+        ],
+        "words": [
+          {
+            "word": "Last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "周"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Mills",
+            "pos": "n.",
+            "meaning": "米尔斯（姓）"
+          },
+          {
+            "word": "went",
+            "pos": "v.",
+            "meaning": "去（go的过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "往"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "She does not know London very well, and she lost her way.",
-      "translation": "",
+      "translation": "她对伦敦不熟悉，迷路了。",
       "startTime": 23.59,
       "endTime": 30.46,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "She does not know London very well",
+            "label": "分句1"
           },
           {
-            "text": "her",
-            "label": "形容词性物主代词"
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "she lost her way",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
           },
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "does",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
           },
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道/了解"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "well",
+            "pos": "adv.",
+            "meaning": "好"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "lost",
+            "pos": "v.",
+            "meaning": "丢失/迷失（lose的过去式）"
+          },
+          {
+            "word": "her",
+            "pos": "det.",
+            "meaning": "她的"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "路"
           }
         ]
       }
@@ -120,16 +360,77 @@
       "id": "s3",
       "role": "Man",
       "text": "Suddenly, she saw a man near a bus stop.",
-      "translation": "",
+      "translation": "突然，她在公交车站附近看到一个男人。",
       "startTime": 30.47,
       "endTime": 36.33,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Suddenly",
+            "label": "状语"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "saw",
+            "label": "谓语"
+          },
+          {
+            "text": "a man",
+            "label": "宾语"
+          },
+          {
+            "text": "near a bus stop",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "Man",
+            "word": "Suddenly",
+            "pos": "adv.",
+            "meaning": "突然地"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "saw",
+            "pos": "v.",
+            "meaning": "看见（see的过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bus",
+            "pos": "n.",
+            "meaning": "公交车"
+          },
+          {
+            "word": "stop",
+            "pos": "n.",
+            "meaning": "站"
           }
         ]
       }
@@ -138,47 +439,120 @@
       "id": "s4",
       "role": "Woman",
       "text": "'I can ask him the way,' she said to herself.",
-      "translation": "",
+      "translation": "“我可以向他问路，”她自言自语道。",
       "startTime": 36.34,
       "endTime": 41.81,
       "analysis": {
         "grammar": [
           {
-            "text": "can",
-            "label": "情态动词"
+            "text": "I can ask him the way",
+            "label": "引语 (主谓双宾)"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "said to herself",
+            "label": "谓语和对象"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能/可以"
+          },
+          {
+            "word": "ask",
+            "pos": "v.",
+            "meaning": "询问"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "路"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说（say的过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "对"
+          },
+          {
+            "word": "herself",
+            "pos": "pron.",
+            "meaning": "她自己"
+          }
+        ]
       }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "'Excuse me,' she said.",
-      "translation": "",
+      "translation": "“请问，”她说。",
       "startTime": 41.82,
       "endTime": 45.23,
       "analysis": {
         "grammar": [
           {
-            "text": "Excuse",
-            "label": "谓语/动词"
+            "text": "Excuse me",
+            "label": "常用语/祈使"
           },
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "said",
+            "label": "谓语"
           }
         ],
         "words": [
           {
             "word": "Excuse",
             "pos": "v.",
-            "meaning": "原谅，宽恕"
+            "meaning": "原谅"
           },
           {
-            "word": "Me",
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -187,29 +561,72 @@
       "id": "s6",
       "role": "Woman",
       "text": "'Can you tell me the way to King Street, please?'",
-      "translation": "",
+      "translation": "“请问去国王大道的路怎么走？”",
       "startTime": 45.24,
       "endTime": 51.11,
       "analysis": {
         "grammar": [
           {
-            "text": "me",
-            "label": "宾语/代词"
+            "text": "Can you tell me",
+            "label": "疑问/谓语宾语"
+          },
+          {
+            "text": "the way to King Street",
+            "label": "直接宾语"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "Me",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "你"
           },
           {
-            "word": "Please",
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "路"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去/往"
+          },
+          {
+            "word": "King",
+            "pos": "n.",
+            "meaning": "国王"
+          },
+          {
+            "word": "Street",
+            "pos": "n.",
+            "meaning": "街道"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -220,16 +637,44 @@
       "id": "s7",
       "role": "Man",
       "text": "The man smiled pleasantly.",
-      "translation": "",
+      "translation": "那个男人友好地笑了笑。",
       "startTime": 51.12,
       "endTime": 54.67,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The man",
+            "label": "主语"
+          },
+          {
+            "text": "smiled",
+            "label": "谓语"
+          },
+          {
+            "text": "pleasantly",
+            "label": "状语"
+          }
+        ],
         "words": [
           {
-            "word": "Man",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "smiled",
+            "pos": "v.",
+            "meaning": "微笑（smile的过去式）"
+          },
+          {
+            "word": "pleasantly",
+            "pos": "adv.",
+            "meaning": "愉快地/友好地"
           }
         ]
       }
@@ -238,16 +683,49 @@
       "id": "s8",
       "role": "Woman",
       "text": "He did not understand English!",
-      "translation": "",
+      "translation": "他不通英语！",
       "startTime": 54.68,
       "endTime": 58.52,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "did not understand",
+            "label": "谓语 (过去否定)"
+          },
+          {
+            "text": "English",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "understand",
+            "pos": "v.",
+            "meaning": "懂/理解"
+          },
+          {
+            "word": "English",
+            "pos": "n.",
+            "meaning": "英语"
           }
         ]
       }
@@ -256,16 +734,39 @@
       "id": "s9",
       "role": "Man",
       "text": "He spoke German.",
-      "translation": "",
+      "translation": "他说德语。",
       "startTime": 58.53,
       "endTime": 61.15,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "spoke",
+            "label": "谓语"
+          },
+          {
+            "text": "German",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "spoke",
+            "pos": "v.",
+            "meaning": "说（speak的过去式）"
+          },
+          {
             "word": "German",
-            "pos": "adj.",
-            "meaning": "德国的，德语"
+            "pos": "n.",
+            "meaning": "德语"
           }
         ]
       }
@@ -274,45 +775,205 @@
       "id": "s10",
       "role": "Woman",
       "text": "He was a tourist.",
-      "translation": "",
+      "translation": "他是个游客。",
       "startTime": 61.16,
-      "endTime": 64.16
+      "endTime": 64.16,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "was",
+            "label": "系词"
+          },
+          {
+            "text": "a tourist",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "tourist",
+            "pos": "n.",
+            "meaning": "游客"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Then he put his hand into his pocket, and took out a phrasebook.",
-      "translation": "",
+      "translation": "然后他把手伸进口袋，拿出一本常用语手册。",
       "startTime": 64.17,
       "endTime": 71.86,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Then",
+            "label": "连接词"
           },
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "put his hand into his pocket",
+            "label": "分句1"
+          },
+          {
+            "text": "took out a phrasebook",
+            "label": "分句2"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "put",
+            "pos": "v.",
+            "meaning": "放（过去式）"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "hand",
+            "pos": "n.",
+            "meaning": "手"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "到...里"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "pocket",
+            "pos": "n.",
+            "meaning": "口袋"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "took",
+            "pos": "v.",
+            "meaning": "拿（take的过去式）"
+          },
+          {
+            "word": "out",
+            "pos": "adv.",
+            "meaning": "出来"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "phrasebook",
+            "pos": "n.",
+            "meaning": "常用语手册"
+          }
+        ]
       }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "He opened the book and found a phrase.",
-      "translation": "",
+      "translation": "他打开书，找到一个短句。",
       "startTime": 71.87,
       "endTime": 76.79,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "opened the book",
+            "label": "分句1"
+          },
+          {
+            "text": "found a phrase",
+            "label": "分句2"
+          }
+        ],
         "words": [
           {
-            "word": "Book",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "opened",
+            "pos": "v.",
+            "meaning": "打开（过去式）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "找到（find的过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "phrase",
+            "pos": "n.",
+            "meaning": "短语/句子"
           }
         ]
       }
@@ -321,29 +982,104 @@
       "id": "s13",
       "role": "Man",
       "text": "He read the phrase slowly.",
-      "translation": "",
+      "translation": "他缓慢地读着那个句子。",
       "startTime": 76.8,
-      "endTime": 81.53
+      "endTime": 81.53,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "He",
+            "label": "主语"
+          },
+          {
+            "text": "read",
+            "label": "谓语 (过去式)"
+          },
+          {
+            "text": "the phrase",
+            "label": "宾语"
+          },
+          {
+            "text": "slowly",
+            "label": "状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "read",
+            "pos": "v.",
+            "meaning": "读（read的过去式，读音不同）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "phrase",
+            "pos": "n.",
+            "meaning": "短语"
+          },
+          {
+            "word": "slowly",
+            "pos": "adv.",
+            "meaning": "缓慢地"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "'I am sorry,' he said.",
-      "translation": "",
+      "translation": "“我很抱歉，”他说。",
       "startTime": 81.54,
       "endTime": 85.07,
       "analysis": {
         "grammar": [
           {
-            "text": "am",
-            "label": "谓语/系动词"
+            "text": "I am sorry",
+            "label": "引语"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "said",
+            "label": "谓语"
           }
         ],
         "words": [
           {
-            "word": "Sorry",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -352,16 +1088,49 @@
       "id": "s15",
       "role": "Man",
       "text": "'I do not speak English.'",
-      "translation": "",
+      "translation": "“我不通英语。”",
       "startTime": 85.08,
       "endTime": 90.08,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "do not speak",
+            "label": "谓语"
+          },
+          {
+            "text": "English",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "speak",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "English",
+            "pos": "n.",
+            "meaning": "英语"
           }
         ]
       }

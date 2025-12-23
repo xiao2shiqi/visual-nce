@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 57",
-      "translation": "",
+      "translation": "第57课",
       "startTime": 0.44,
       "endTime": 3.11,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 57",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "57",
+            "pos": "num.",
+            "meaning": "五十七"
           }
         ]
       }
@@ -26,29 +36,97 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "An unusual day",
-      "translation": "",
+      "translation": "不寻常的一天",
       "startTime": 3.12,
-      "endTime": 6.58
+      "endTime": 6.58,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "An unusual day",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "An",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "unusual",
+            "pos": "adj.",
+            "meaning": "不寻常的"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "日子/一天"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.59,
       "endTime": 12.24,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,18 +135,26 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What is Mr. Sawyer doing tonight?",
-      "translation": "",
+      "translation": "今晚索耶先生在做什么？",
       "startTime": 12.25,
       "endTime": 17.61,
       "analysis": {
         "grammar": [
           {
             "text": "What",
-            "label": "疑问词"
+            "label": "疑问代词/宾语"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "is...doing",
+            "label": "谓语 (现在进行时)"
+          },
+          {
+            "text": "Mr. Sawyer",
+            "label": "主语"
+          },
+          {
+            "text": "tonight",
+            "label": "时间状语"
           }
         ],
         "words": [
@@ -78,9 +164,29 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "doing",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "做"
+          },
+          {
+            "word": "tonight",
+            "pos": "adv.",
+            "meaning": "今晚"
           }
         ]
       }
@@ -89,30 +195,44 @@
       "id": "s1",
       "role": "Man",
       "text": "It is eight o'clock.",
-      "translation": "",
+      "translation": "现在是8点钟。",
       "startTime": 17.62,
       "endTime": 20.43,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语 (时间)"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "eight o'clock",
+            "label": "表语"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指时间）"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "eight",
+            "pos": "num.",
+            "meaning": "八"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -121,21 +241,73 @@
       "id": "s2",
       "role": "Woman",
       "text": "The children go to school by car every day,",
-      "translation": "",
+      "translation": "孩子们每天乘车上学，",
       "startTime": 20.44,
       "endTime": 25.19,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "The children",
+            "label": "主语"
+          },
+          {
+            "text": "go to school",
+            "label": "谓语短语"
+          },
+          {
+            "text": "by car",
+            "label": "方式状语"
+          },
+          {
+            "text": "every day",
+            "label": "频率状语"
+          }
+        ],
         "words": [
           {
-            "word": "School",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子（复数）"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
           },
           {
-            "word": "Car",
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "car",
             "pos": "n.",
             "meaning": "轿车"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每个"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
           }
         ]
       }
@@ -144,26 +316,77 @@
       "id": "s3",
       "role": "Man",
       "text": "but today, they are going to school on foot.",
-      "translation": "",
+      "translation": "但今天，他们正步行上学。",
       "startTime": 25.2,
       "endTime": 31.16,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "but",
+            "label": "连词 (转折)"
+          },
+          {
+            "text": "today",
+            "label": "时间状语"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "are going",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "on foot",
+            "label": "方式状语"
           }
         ],
         "words": [
           {
-            "word": "Today",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "today",
             "pos": "adv.",
             "meaning": "今天"
           },
           {
-            "word": "School",
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "靠"
+          },
+          {
+            "word": "foot",
+            "pos": "n.",
+            "meaning": "脚"
           }
         ]
       }
@@ -172,18 +395,22 @@
       "id": "s4",
       "role": "Woman",
       "text": "It is ten o'clock.",
-      "translation": "",
+      "translation": "现在是10点钟。",
       "startTime": 31.17,
       "endTime": 33.56,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "ten o'clock",
+            "label": "表语"
           }
         ],
         "words": [
@@ -193,9 +420,19 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "ten",
+            "pos": "num.",
+            "meaning": "十"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -204,16 +441,73 @@
       "id": "s5",
       "role": "Man",
       "text": "Mrs. Sawyer usually stays at home in the morning,",
-      "translation": "",
+      "translation": "索耶夫人上午通常呆在家里，",
       "startTime": 33.57,
       "endTime": 38.59,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Mrs. Sawyer",
+            "label": "主语"
+          },
+          {
+            "text": "usually",
+            "label": "频率状语"
+          },
+          {
+            "text": "stays at home",
+            "label": "谓语短语"
+          },
+          {
+            "text": "in the morning",
+            "label": "时间状语"
+          }
+        ],
         "words": [
           {
-            "word": "At",
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "stays",
+            "pos": "v.",
+            "meaning": "呆在"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（处所）"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
           }
         ]
       }
@@ -222,30 +516,77 @@
       "id": "s6",
       "role": "Woman",
       "text": "but this morning, she is going to the shops.",
-      "translation": "",
+      "translation": "但今天上午，她正去商店。",
       "startTime": 38.6,
       "endTime": 44.49,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "but",
+            "label": "连词"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "this morning",
+            "label": "时间状语"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "is going",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "to the shops",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Is",
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "going",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向/到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "shops",
+            "pos": "n.",
+            "meaning": "商店（复数）"
           }
         ]
       }
@@ -254,18 +595,22 @@
       "id": "s7",
       "role": "Man",
       "text": "It is four o'clock.",
-      "translation": "",
+      "translation": "现在是4点钟。",
       "startTime": 44.5,
       "endTime": 47.15,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "four o'clock",
+            "label": "表语"
           }
         ],
         "words": [
@@ -275,9 +620,19 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "four",
+            "pos": "num.",
+            "meaning": "四"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -286,38 +641,176 @@
       "id": "s8",
       "role": "Woman",
       "text": "In the afternoon, Mrs. Sawyer usually drinks tea in the living room.",
-      "translation": "",
+      "translation": "下午，索耶夫人通常在客厅喝茶。",
       "startTime": 47.16,
-      "endTime": 54.05
+      "endTime": 54.05,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "In the afternoon",
+            "label": "时间状语"
+          },
+          {
+            "text": "Mrs. Sawyer",
+            "label": "主语"
+          },
+          {
+            "text": "usually",
+            "label": "频率状语"
+          },
+          {
+            "text": "drinks tea",
+            "label": "谓语和宾语"
+          },
+          {
+            "text": "in the living room",
+            "label": "地点状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "afternoon",
+            "pos": "n.",
+            "meaning": "下午"
+          },
+          {
+            "word": "Mrs.",
+            "pos": "n.",
+            "meaning": "夫人"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "drinks",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "living",
+            "pos": "adj.",
+            "meaning": "起居的"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "But this afternoon, she is drinking tea in the garden.",
-      "translation": "",
+      "translation": "但今天下午，她正在花园里喝茶。",
       "startTime": 54.06,
       "endTime": 61.15,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "But",
+            "label": "连词"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "this afternoon",
+            "label": "时间状语"
+          },
+          {
+            "text": "she",
+            "label": "主语"
+          },
+          {
+            "text": "is drinking",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "in the garden",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Is",
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "afternoon",
+            "pos": "n.",
+            "meaning": "下午"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "is",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "drinking",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "喝"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
           }
         ]
       }
@@ -326,18 +819,22 @@
       "id": "s10",
       "role": "Woman",
       "text": "It is six o'clock.",
-      "translation": "",
+      "translation": "现在是6点钟。",
       "startTime": 61.16,
       "endTime": 63.82,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "six o'clock",
+            "label": "表语"
           }
         ],
         "words": [
@@ -347,9 +844,19 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "six",
+            "pos": "num.",
+            "meaning": "六"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -358,51 +865,152 @@
       "id": "s11",
       "role": "Man",
       "text": "In the evening, the children usually do their homework,",
-      "translation": "",
+      "translation": "傍晚，孩子们通常做作业，",
       "startTime": 63.83,
       "endTime": 68.91,
       "analysis": {
         "grammar": [
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "In the evening",
+            "label": "时间状语"
+          },
+          {
+            "text": "the children",
+            "label": "主语"
+          },
+          {
+            "text": "usually",
+            "label": "频率状语"
+          },
+          {
+            "text": "do their homework",
+            "label": "谓语和宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "傍晚"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子（复数）"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "their",
+            "pos": "det.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "homework",
+            "pos": "n.",
+            "meaning": "家庭作业"
+          }
+        ]
       }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "but this evening, they are not doing their homework.",
-      "translation": "",
+      "translation": "但今晚，他们不在做作业。",
       "startTime": 68.92,
       "endTime": 74.2,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "but",
+            "label": "连词"
           },
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "this evening",
+            "label": "时间状语"
           },
           {
-            "text": "their",
-            "label": "形容词性物主代词"
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "are not doing",
+            "label": "谓语 (进行否定)"
+          },
+          {
+            "text": "their homework",
+            "label": "宾语"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Not",
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "evening",
+            "pos": "n.",
+            "meaning": "傍晚"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "their",
+            "pos": "det.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "homework",
+            "pos": "n.",
+            "meaning": "家庭作业"
           }
         ]
       }
@@ -411,21 +1019,73 @@
       "id": "s13",
       "role": "Man",
       "text": "At the moment, they are playing in the garden.",
-      "translation": "",
+      "translation": "此刻，他们正在花园里玩。",
       "startTime": 74.21,
       "endTime": 79.98,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "At the moment",
+            "label": "时间状语"
+          },
+          {
+            "text": "they",
+            "label": "主语"
+          },
+          {
+            "text": "are playing",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "in the garden",
+            "label": "地点状语"
           }
         ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（时间/处所）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "moment",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "are",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "playing",
+            "pos": "v.",
+            "meaning": "玩"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
           }
         ]
       }
@@ -434,18 +1094,22 @@
       "id": "s14",
       "role": "Woman",
       "text": "It is nine o'clock.",
-      "translation": "",
+      "translation": "现在是9点钟。",
       "startTime": 79.99,
       "endTime": 82.71,
       "analysis": {
         "grammar": [
           {
             "text": "It",
-            "label": "人称代词/主语"
+            "label": "主语"
           },
           {
             "text": "is",
-            "label": "谓语/系动词"
+            "label": "系词"
+          },
+          {
+            "text": "nine o'clock",
+            "label": "表语"
           }
         ],
         "words": [
@@ -455,9 +1119,19 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "nine",
+            "pos": "num.",
+            "meaning": "九"
+          },
+          {
+            "word": "o'clock",
+            "pos": "adv.",
+            "meaning": "点钟"
           }
         ]
       }
@@ -466,21 +1140,68 @@
       "id": "s15",
       "role": "Man",
       "text": "Mr. Sawyer usually reads his newspaper at night.",
-      "translation": "",
+      "translation": "索耶先生通常在晚上看报纸。",
       "startTime": 82.72,
       "endTime": 88.02,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "Mr. Sawyer",
+            "label": "主语"
+          },
+          {
+            "text": "usually",
+            "label": "频率状语"
+          },
+          {
+            "text": "reads his newspaper",
+            "label": "谓语和宾语"
+          },
+          {
+            "text": "at night",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "At",
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Sawyer",
+            "pos": "n.",
+            "meaning": "索耶"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "reads",
+            "pos": "v.",
+            "meaning": "看/阅读"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "newspaper",
+            "pos": "n.",
+            "meaning": "报纸"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（时间）"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "夜晚"
           }
         ]
       }
@@ -489,21 +1210,72 @@
       "id": "s16",
       "role": "Woman",
       "text": "But he's not reading his newspaper tonight.",
-      "translation": "",
+      "translation": "但今晚他不在看报纸。",
       "startTime": 88.03,
       "endTime": 92.52,
       "analysis": {
         "grammar": [
           {
-            "text": "his",
-            "label": "形容词性物主代词"
+            "text": "But",
+            "label": "连词"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "'s not reading",
+            "label": "谓语 (进行否定)"
+          },
+          {
+            "text": "his newspaper",
+            "label": "宾语"
+          },
+          {
+            "text": "tonight",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Not",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "reading",
+            "pos": "v.",
+            "meaning": "正在看/阅读"
+          },
+          {
+            "word": "his",
+            "pos": "det.",
+            "meaning": "他的"
+          },
+          {
+            "word": "newspaper",
+            "pos": "n.",
+            "meaning": "报纸"
+          },
+          {
+            "word": "tonight",
+            "pos": "adv.",
+            "meaning": "今晚"
           }
         ]
       }
@@ -512,19 +1284,71 @@
       "id": "s17",
       "role": "Man",
       "text": "At the moment, he's reading an interesting book.",
-      "translation": "",
+      "translation": "此刻，他正在看一本有趣的书。",
       "startTime": 92.53,
       "endTime": 97.53,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "At the moment",
+            "label": "时间状语"
+          },
+          {
+            "text": "he",
+            "label": "主语"
+          },
+          {
+            "text": "'s reading",
+            "label": "谓语 (进行时)"
+          },
+          {
+            "text": "an interesting book",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（时间）"
           },
           {
-            "word": "Book",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "moment",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "reading",
+            "pos": "v.",
+            "meaning": "看/阅读"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "interesting",
+            "pos": "adj.",
+            "meaning": "有趣的"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
           }

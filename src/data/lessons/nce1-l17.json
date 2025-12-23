@@ -14,12 +14,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "17",
-            "label": "数词/编号"
+            "text": "Lesson 17",
+            "label": "标题"
           }
         ],
         "words": [
@@ -27,6 +23,11 @@
             "word": "Lesson",
             "pos": "n.",
             "meaning": "课"
+          },
+          {
+            "word": "17",
+            "pos": "num.",
+            "meaning": "十七"
           }
         ]
       }
@@ -42,7 +43,7 @@
         "grammar": [
           {
             "text": "How do you do",
-            "label": "固定问候语（初次见面）"
+            "label": "初次见面问候语"
           }
         ],
         "words": [
@@ -54,7 +55,17 @@
           {
             "word": "do",
             "pos": "v.",
-            "meaning": "做（助动词）"
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -69,27 +80,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen to",
-            "label": "谓语1"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
-            "text": "the tape",
-            "label": "宾语1"
+            "text": "then",
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "谓语2"
-          },
-          {
-            "text": "this question",
-            "label": "宾语2"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -110,11 +147,11 @@
         "grammar": [
           {
             "text": "What",
-            "label": "表语/疑问词"
+            "label": "疑问词/表语"
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Michael Baker and Jeremy Short's jobs",
@@ -123,9 +160,49 @@
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Michael",
+            "pos": "n.",
+            "meaning": "迈克尔"
+          },
+          {
+            "word": "Baker",
+            "pos": "n.",
+            "meaning": "贝克"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Jeremy",
+            "pos": "n.",
+            "meaning": "杰里米"
+          },
+          {
+            "word": "Short",
+            "pos": "n.",
+            "meaning": "肖特"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
+          },
+          {
             "word": "jobs",
-            "pos": "n. pl.",
-            "meaning": "工作（复数）"
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -140,8 +217,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Meet",
-            "label": "谓语"
+            "text": "Come and meet",
+            "label": "谓语 (祈使句)"
           },
           {
             "text": "our employees",
@@ -149,19 +226,44 @@
           },
           {
             "text": "Mr.Richards",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
           {
-            "word": "employees",
-            "pos": "n. pl.",
-            "meaning": "雇员（复数）"
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
           },
           {
             "word": "meet",
             "pos": "v.",
-            "meaning": "遇见，认识"
+            "meaning": "遇见"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "employees",
+            "pos": "n.",
+            "meaning": "雇员"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Richards",
+            "pos": "n.",
+            "meaning": "理查兹"
           }
         ]
       }
@@ -181,7 +283,7 @@
           },
           {
             "text": "Mr. Jackson",
-            "label": "呼语"
+            "label": "称呼语"
           }
         ],
         "words": [
@@ -189,6 +291,21 @@
             "word": "Thank",
             "pos": "v.",
             "meaning": "感谢"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Jackson",
+            "pos": "n.",
+            "meaning": "杰克逊"
           }
         ]
       }
@@ -208,18 +325,33 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Nicola Grey",
-            "label": "表语/人名"
+            "label": "表语"
           }
         ],
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Nicola",
             "pos": "n.",
-            "meaning": "妮科拉（女子名）"
+            "meaning": "妮科拉"
+          },
+          {
+            "word": "Grey",
+            "pos": "n.",
+            "meaning": "格雷"
           }
         ]
       }
@@ -234,23 +366,47 @@
       "analysis": {
         "grammar": [
           {
+            "text": "and",
+            "label": "连接词"
+          },
+          {
             "text": "this",
             "label": "主语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Claire Taylor",
-            "label": "表语/人名"
+            "label": "表语"
           }
         ],
         "words": [
           {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Claire",
             "pos": "n.",
-            "meaning": "克莱尔（女子名）"
+            "meaning": "克莱尔"
+          },
+          {
+            "word": "Taylor",
+            "pos": "n.",
+            "meaning": "泰勒"
           }
         ]
       }
@@ -270,6 +426,21 @@
           }
         ],
         "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
           {
             "word": "do",
             "pos": "v.",
@@ -293,23 +464,38 @@
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "very hard-working",
-            "label": "表语/形容词短语"
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "hard-working",
-            "pos": "adj.",
-            "meaning": "勤奋的"
+            "word": "Those",
+            "pos": "det.",
+            "meaning": "那些"
           },
           {
             "word": "women",
-            "pos": "n. pl.",
-            "meaning": "女人，妇女（复数）"
+            "pos": "n.",
+            "meaning": "妇女"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "hard-working",
+            "pos": "adj.",
+            "meaning": "勤奋的"
           }
         ]
       }
@@ -325,11 +511,11 @@
         "grammar": [
           {
             "text": "What",
-            "label": "表语"
+            "label": "疑问词/表语"
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "their jobs",
@@ -338,9 +524,24 @@
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "their",
             "pos": "pron.",
             "meaning": "她们的"
+          },
+          {
+            "word": "jobs",
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -360,14 +561,24 @@
           },
           {
             "text": "'re",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "keyboard operators",
-            "label": "表语/名词短语"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "她们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "keyboard",
             "pos": "n.",
@@ -375,8 +586,8 @@
           },
           {
             "word": "operators",
-            "pos": "n. pl.",
-            "meaning": "操作人员"
+            "pos": "n.",
+            "meaning": "操作员"
           }
         ]
       }
@@ -396,7 +607,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Michael Baker",
@@ -405,9 +616,24 @@
         ],
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Michael",
             "pos": "n.",
-            "meaning": "迈克尔（男子名）"
+            "meaning": "迈克尔"
+          },
+          {
+            "word": "Baker",
+            "pos": "n.",
+            "meaning": "贝克"
           }
         ]
       }
@@ -422,12 +648,16 @@
       "analysis": {
         "grammar": [
           {
+            "text": "and",
+            "label": "连接词"
+          },
+          {
             "text": "this",
             "label": "主语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Jeremy Short",
@@ -436,9 +666,29 @@
         ],
         "words": [
           {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Jeremy",
             "pos": "n.",
-            "meaning": "杰里米（男子名）"
+            "meaning": "杰里米"
+          },
+          {
+            "word": "Short",
+            "pos": "n.",
+            "meaning": "肖特"
           }
         ]
       }
@@ -457,7 +707,28 @@
             "label": "问候语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          }
+        ]
       }
     },
     {
@@ -475,7 +746,7 @@
           },
           {
             "text": "aren't",
-            "label": "系动词否定"
+            "label": "系词否定"
           },
           {
             "text": "very busy",
@@ -483,6 +754,21 @@
           }
         ],
         "words": [
+          {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "aren't",
+            "pos": "v.",
+            "meaning": "不"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
           {
             "word": "busy",
             "pos": "adj.",
@@ -502,11 +788,11 @@
         "grammar": [
           {
             "text": "What",
-            "label": "表语"
+            "label": "疑问词/表语"
           },
           {
             "text": "are",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "their jobs",
@@ -515,9 +801,24 @@
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "their",
             "pos": "pron.",
             "meaning": "他们的"
+          },
+          {
+            "word": "jobs",
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -537,7 +838,7 @@
           },
           {
             "text": "'re",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "sales reps",
@@ -546,14 +847,24 @@
         ],
         "words": [
           {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "sales",
             "pos": "n.",
             "meaning": "销售"
           },
           {
             "word": "reps",
-            "pos": "n. pl.",
-            "meaning": "代表（representatives的缩写）"
+            "pos": "n.",
+            "meaning": "代表"
           }
         ]
       }
@@ -573,7 +884,7 @@
           },
           {
             "text": "'re",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "very lazy",
@@ -581,6 +892,21 @@
           }
         ],
         "words": [
+          {
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "'re",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
           {
             "word": "lazy",
             "pos": "adj.",
@@ -600,11 +926,11 @@
         "grammar": [
           {
             "text": "Who",
-            "label": "表语/疑问词"
+            "label": "疑问词/表语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "this young man",
@@ -613,9 +939,29 @@
         ],
         "words": [
           {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
             "word": "young",
             "pos": "adj.",
             "meaning": "年轻的"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "男人"
           }
         ]
       }
@@ -635,7 +981,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Jim",
@@ -644,9 +990,19 @@
         ],
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "Jim",
             "pos": "n.",
-            "meaning": "吉姆（男子名）"
+            "meaning": "吉姆"
           }
         ]
       }
@@ -666,7 +1022,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "our office assistant",
@@ -675,14 +1031,29 @@
         ],
         "words": [
           {
-            "word": "assistant",
-            "pos": "n.",
-            "meaning": "助理"
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的"
           },
           {
             "word": "office",
             "pos": "n.",
             "meaning": "办公室"
+          },
+          {
+            "word": "assistant",
+            "pos": "n.",
+            "meaning": "助理"
           }
         ]
       }

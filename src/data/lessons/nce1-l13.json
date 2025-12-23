@@ -14,12 +14,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Lesson",
-            "label": "名词/标题"
-          },
-          {
-            "text": "13",
-            "label": "数词/编号"
+            "text": "Lesson 13",
+            "label": "标题"
           }
         ],
         "words": [
@@ -27,6 +23,11 @@
             "word": "Lesson",
             "pos": "n.",
             "meaning": "课"
+          },
+          {
+            "word": "13",
+            "pos": "num.",
+            "meaning": "十三"
           }
         ]
       }
@@ -41,28 +42,25 @@
       "analysis": {
         "grammar": [
           {
-            "text": "A",
-            "label": "冠词/定语"
-          },
-          {
-            "text": "new",
-            "label": "形容词/定语"
-          },
-          {
-            "text": "dress",
-            "label": "中心词/名词"
+            "text": "A new dress",
+            "label": "名词短语"
           }
         ],
         "words": [
           {
-            "word": "dress",
-            "pos": "n.",
-            "meaning": "连衣裙"
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一件"
           },
           {
             "word": "new",
             "pos": "adj.",
             "meaning": "新的"
+          },
+          {
+            "word": "dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
           }
         ]
       }
@@ -77,27 +75,53 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Listen to",
-            "label": "谓语1"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
           },
           {
-            "text": "the tape",
-            "label": "宾语1"
+            "text": "then",
+            "label": "连接词"
           },
           {
-            "text": "answer",
-            "label": "谓语2"
-          },
-          {
-            "text": "this question",
-            "label": "宾语2"
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "tape",
             "pos": "n.",
             "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -118,11 +142,11 @@
         "grammar": [
           {
             "text": "What colour",
-            "label": "表语/疑问短语"
+            "label": "疑问短语/表语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "Anna's hat",
@@ -131,14 +155,34 @@
         ],
         "words": [
           {
-            "word": "hat",
-            "pos": "n.",
-            "meaning": "帽子"
+            "word": "What",
+            "pos": "det.",
+            "meaning": "什么"
           },
           {
             "word": "colour",
             "pos": "n.",
             "meaning": "颜色"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Anna",
+            "pos": "n.",
+            "meaning": "安娜"
+          },
+          {
+            "word": "'s",
+            "pos": "case.",
+            "meaning": "的"
+          },
+          {
+            "word": "hat",
+            "pos": "n.",
+            "meaning": "帽子"
           }
         ]
       }
@@ -158,7 +202,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词（is的缩写）"
+            "label": "系词"
           },
           {
             "text": "your new dress",
@@ -166,6 +210,31 @@
           }
         ],
         "words": [
+          {
+            "word": "What",
+            "pos": "det.",
+            "meaning": "什么"
+          },
+          {
+            "word": "colour",
+            "pos": "n.",
+            "meaning": "颜色"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
           {
             "word": "dress",
             "pos": "n.",
@@ -189,14 +258,24 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "green",
-            "label": "表语/颜色"
+            "label": "表语"
           }
         ],
         "words": [
+          {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "green",
             "pos": "adj.",
@@ -216,18 +295,42 @@
         "grammar": [
           {
             "text": "Come upstairs",
-            "label": "谓语1+状语"
+            "label": "祈使句1"
+          },
+          {
+            "text": "and",
+            "label": "连接词"
           },
           {
             "text": "see it",
-            "label": "谓语2+宾语"
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
             "word": "upstairs",
             "pos": "adv.",
             "meaning": "楼上"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
           }
         ]
       }
@@ -243,7 +346,7 @@
         "grammar": [
           {
             "text": "Thank you",
-            "label": "礼貌用语"
+            "label": "礼貌语"
           }
         ],
         "words": [
@@ -251,6 +354,11 @@
             "word": "Thank",
             "pos": "v.",
             "meaning": "感谢"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -266,7 +374,7 @@
         "grammar": [
           {
             "text": "Look",
-            "label": "谓语/祈使句"
+            "label": "祈使句"
           }
         ],
         "words": [
@@ -288,16 +396,8 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Here",
-            "label": "状语/地点"
-          },
-          {
-            "text": "it",
-            "label": "主语/代词"
-          },
-          {
-            "text": "is",
-            "label": "系动词"
+            "text": "Here it is",
+            "label": "常用倒装句"
           }
         ],
         "words": [
@@ -305,6 +405,16 @@
             "word": "Here",
             "pos": "adv.",
             "meaning": "这里"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -324,7 +434,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "a nice dress",
@@ -333,9 +443,29 @@
         ],
         "words": [
           {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一件"
+          },
+          {
             "word": "nice",
             "pos": "adj.",
-            "meaning": "漂亮的，好的"
+            "meaning": "漂亮的"
+          },
+          {
+            "word": "dress",
+            "pos": "n.",
+            "meaning": "连衣裙"
           }
         ]
       }
@@ -355,23 +485,33 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "very smart",
-            "label": "表语/形容词短语"
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "smart",
-            "pos": "adj.",
-            "meaning": "时髦的，精明的"
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
           },
           {
             "word": "very",
             "pos": "adv.",
             "meaning": "非常"
+          },
+          {
+            "word": "smart",
+            "pos": "adj.",
+            "meaning": "时髦的"
           }
         ]
       }
@@ -391,7 +531,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "new",
@@ -399,14 +539,34 @@
           },
           {
             "text": "too",
-            "label": "状语"
+            "label": "副词"
           }
         ],
         "words": [
           {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
             "word": "hat",
             "pos": "n.",
             "meaning": "帽子"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "也"
           }
         ]
       }
@@ -422,11 +582,11 @@
         "grammar": [
           {
             "text": "What colour",
-            "label": "表语/疑问短语"
+            "label": "疑问短语"
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "it",
@@ -435,9 +595,24 @@
         ],
         "words": [
           {
+            "word": "What",
+            "pos": "det.",
+            "meaning": "什么"
+          },
+          {
             "word": "colour",
             "pos": "n.",
             "meaning": "颜色"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
           }
         ]
       }
@@ -457,7 +632,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "the same colour",
@@ -466,9 +641,29 @@
         ],
         "words": [
           {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "same",
             "pos": "adj.",
-            "meaning": "相同的"
+            "meaning": "同样的"
+          },
+          {
+            "word": "colour",
+            "pos": "n.",
+            "meaning": "颜色"
           }
         ]
       }
@@ -488,7 +683,7 @@
           },
           {
             "text": "'s",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "green",
@@ -496,14 +691,29 @@
           },
           {
             "text": "too",
-            "label": "状语"
+            "label": "副词"
           }
         ],
         "words": [
           {
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "green",
             "pos": "adj.",
             "meaning": "绿色的"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "也"
           }
         ]
       }
@@ -523,7 +733,7 @@
           },
           {
             "text": "is",
-            "label": "系动词"
+            "label": "系词"
           },
           {
             "text": "a lovely hat",
@@ -532,9 +742,29 @@
         ],
         "words": [
           {
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
             "word": "lovely",
             "pos": "adj.",
-            "meaning": "可爱的，令人愉快的"
+            "meaning": "可爱的"
+          },
+          {
+            "word": "hat",
+            "pos": "n.",
+            "meaning": "帽子"
           }
         ]
       }

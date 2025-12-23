@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 21",
-      "translation": "",
+      "translation": "第21课",
       "startTime": 0.35,
       "endTime": 2.86,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 21",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "21",
+            "pos": "num.",
+            "meaning": "二十一"
           }
         ]
       }
@@ -26,14 +36,24 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Which book?",
-      "translation": "",
+      "translation": "哪一本书？",
       "startTime": 2.87,
       "endTime": 5.42,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Which book",
+            "label": "疑问短语"
+          }
+        ],
         "words": [
           {
-            "word": "Book",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一个"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
           }
@@ -44,21 +64,64 @@
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 5.43,
       "endTime": 11.52,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -67,26 +130,58 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Which book does the man want?",
-      "translation": "",
+      "translation": "那个男人想要哪一本书？",
       "startTime": 11.53,
       "endTime": 16.69,
       "analysis": {
         "grammar": [
           {
+            "text": "Which book",
+            "label": "疑问短语/宾语"
+          },
+          {
             "text": "does",
             "label": "助动词"
+          },
+          {
+            "text": "the man",
+            "label": "主语"
+          },
+          {
+            "text": "want",
+            "label": "谓语"
           }
         ],
         "words": [
           {
-            "word": "Book",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一个"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
           },
           {
-            "word": "Man",
+            "word": "does",
+            "pos": "v.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
           }
         ]
       }
@@ -95,31 +190,58 @@
       "id": "s1",
       "role": "Man",
       "text": "Give me a book please, Jane.",
-      "translation": "",
+      "translation": "简，请给我一本书。",
       "startTime": 16.7,
       "endTime": 20.21,
       "analysis": {
         "grammar": [
           {
+            "text": "Give",
+            "label": "谓语 (祈使句)"
+          },
+          {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "间接宾语"
+          },
+          {
+            "text": "a book",
+            "label": "直接宾语"
+          },
+          {
+            "text": "Jane",
+            "label": "称呼语"
           }
         ],
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "Give",
+            "pos": "v.",
+            "meaning": "给"
           },
           {
-            "word": "Book",
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Jane",
+            "pos": "n.",
+            "meaning": "简"
           }
         ]
       }
@@ -128,14 +250,24 @@
       "id": "s2",
       "role": "Narrator",
       "text": "Which book?",
-      "translation": "",
+      "translation": "哪一本书？",
       "startTime": 20.22,
       "endTime": 21.82,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Which book",
+            "label": "疑问短语"
+          }
+        ],
         "words": [
           {
-            "word": "Book",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪一个"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
           }
@@ -146,21 +278,26 @@
       "id": "s3",
       "role": "Man",
       "text": "This one?",
-      "translation": "",
+      "translation": "是这一本吗？",
       "startTime": 21.83,
       "endTime": 24.32,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This one",
+            "label": "代词短语"
           }
         ],
         "words": [
           {
             "word": "This",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "一个（指代书）"
           }
         ]
       }
@@ -169,31 +306,59 @@
       "id": "s4",
       "role": "Woman",
       "text": "No, not that one. The red one.",
-      "translation": "",
+      "translation": "不，不是那一本。是红色的那一本。",
       "startTime": 24.33,
       "endTime": 29.43,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "not that one",
+            "label": "否定短语"
+          },
+          {
+            "text": "The red one",
+            "label": "限定词短语"
           }
         ],
         "words": [
           {
-            "word": "Not",
+            "word": "No",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "That",
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
+            "meaning": "那"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "一个"
           },
           {
-            "word": "Red",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "red",
             "pos": "adj.",
             "meaning": "红色的"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个"
           }
         ]
       }
@@ -202,21 +367,26 @@
       "id": "s5",
       "role": "Man",
       "text": "This one?",
-      "translation": "",
+      "translation": "是这一本吗？",
       "startTime": 29.44,
       "endTime": 30.96,
       "analysis": {
         "grammar": [
           {
-            "text": "This",
-            "label": "指示代词"
+            "text": "This one",
+            "label": "代词短语"
           }
         ],
         "words": [
           {
             "word": "This",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "一个"
           }
         ]
       }
@@ -225,19 +395,28 @@
       "id": "s6",
       "role": "Woman",
       "text": "Yes, please.",
-      "translation": "",
+      "translation": "是的，请拿给我。",
       "startTime": 30.97,
       "endTime": 32.77,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Yes",
+            "label": "肯定词"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
             "word": "Yes",
             "pos": "adv.",
-            "meaning": "是的"
+            "meaning": "是"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -248,14 +427,14 @@
       "id": "s7",
       "role": "Man",
       "text": "Here you are.",
-      "translation": "",
+      "translation": "给你。",
       "startTime": 32.78,
       "endTime": 34.8,
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Here you are",
+            "label": "常用语"
           }
         ],
         "words": [
@@ -265,9 +444,14 @@
             "meaning": "这里"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -276,21 +460,26 @@
       "id": "s8",
       "role": "Woman",
       "text": "Thank you.",
-      "translation": "",
+      "translation": "谢谢你。",
       "startTime": 34.81,
       "endTime": 39.81,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Thank you",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
-            "word": "Thank",
+            "word": "thank",
             "pos": "v.",
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }

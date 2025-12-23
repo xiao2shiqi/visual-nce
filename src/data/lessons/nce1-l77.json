@@ -8,16 +8,26 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 77",
-      "translation": "",
+      "translation": "第77课",
       "startTime": 0.56,
       "endTime": 3.01,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 77",
+            "label": "标题"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "77",
+            "pos": "num.",
+            "meaning": "七十七"
           }
         ]
       }
@@ -26,29 +36,92 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Terrible toothache",
-      "translation": "",
+      "translation": "可怕的牙痛",
       "startTime": 3.02,
-      "endTime": 6.46
+      "endTime": 6.46,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Terrible toothache",
+            "label": "名词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Terrible",
+            "pos": "adj.",
+            "meaning": "可怕的/严重的"
+          },
+          {
+            "word": "toothache",
+            "pos": "n.",
+            "meaning": "牙痛"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
-      "translation": "",
+      "translation": "听录音，然后回答问题。",
       "startTime": 6.47,
       "endTime": 12.13,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -57,49 +130,84 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What time of day is it, do you think? How do you know?",
-      "translation": "",
+      "translation": "你认为现在是一天中的什么时候？你是怎么知道的？",
       "startTime": 12.14,
       "endTime": 21.16,
       "analysis": {
         "grammar": [
           {
-            "text": "What",
-            "label": "疑问词"
+            "text": "What time of day",
+            "label": "疑问短语/表语"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "is it",
+            "label": "系词和主语"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "do you think",
+            "label": "插入语"
           }
         ],
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "之于"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "一天"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它/天气或时间主语"
           },
           {
-            "word": "You",
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
           },
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
+          },
+          {
+            "word": "do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
           }
         ]
       }
@@ -108,22 +216,75 @@
       "id": "s1",
       "role": "Man",
       "text": "Good morning, Mr. Croft.",
-      "translation": "",
+      "translation": "早上好，克罗夫特先生。",
       "startTime": 21.17,
-      "endTime": 24.96
+      "endTime": 24.96,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Good morning",
+            "label": "问候语"
+          },
+          {
+            "text": "Mr. Croft",
+            "label": "称呼"
+          }
+        ],
+        "words": [
+          {
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Croft",
+            "pos": "n.",
+            "meaning": "克罗夫特（姓）"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "Good morning, nurse.",
-      "translation": "",
+      "translation": "早上好，护士。",
       "startTime": 24.97,
       "endTime": 27.47,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Good morning",
+            "label": "问候语"
+          },
+          {
+            "text": "nurse",
+            "label": "称呼"
+          }
+        ],
         "words": [
           {
-            "word": "Nurse",
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
+          },
+          {
+            "word": "nurse",
             "pos": "n.",
             "meaning": "护士"
           }
@@ -134,14 +295,61 @@
       "id": "s3",
       "role": "Man",
       "text": "I want to see the dentist, please.",
-      "translation": "",
+      "translation": "我想看牙医。",
       "startTime": 27.48,
       "endTime": 31.22,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "want to see",
+            "label": "谓语"
+          },
+          {
+            "text": "the dentist",
+            "label": "宾语"
+          },
+          {
+            "text": "please",
+            "label": "礼貌语"
+          }
+        ],
         "words": [
           {
-            "word": "Please",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "part.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看/会见"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dentist",
+            "pos": "n.",
+            "meaning": "牙医"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -152,16 +360,53 @@
       "id": "s4",
       "role": "Woman",
       "text": "Do you have an appointment?",
-      "translation": "",
+      "translation": "你有预约吗？",
       "startTime": 31.23,
       "endTime": 34.59,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Do",
+            "label": "助动词"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "an appointment",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "appointment",
+            "pos": "n.",
+            "meaning": "预约"
           }
         ]
       }
@@ -170,26 +415,59 @@
       "id": "s5",
       "role": "Man",
       "text": "No, I don't.",
-      "translation": "",
+      "translation": "不，我没有。",
       "startTime": 34.6,
-      "endTime": 36.6
+      "endTime": 36.6,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "No",
+            "label": "否定词"
+          },
+          {
+            "text": "I don't",
+            "label": "简短回答"
+          }
+        ],
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "没有 (do not)"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "Is it urgent?",
-      "translation": "",
+      "translation": "急吗？",
       "startTime": 36.61,
       "endTime": 38.69,
       "analysis": {
         "grammar": [
           {
             "text": "Is",
-            "label": "谓语/系动词"
+            "label": "系词"
           },
           {
             "text": "it",
-            "label": "人称代词/主语"
+            "label": "主语"
+          },
+          {
+            "text": "urgent",
+            "label": "表语"
           }
         ],
         "words": [
@@ -199,9 +477,14 @@
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它/这种情况"
+          },
+          {
+            "word": "urgent",
+            "pos": "adj.",
+            "meaning": "紧急的"
           }
         ]
       }
@@ -210,18 +493,18 @@
       "id": "s7",
       "role": "Man",
       "text": "Yes, it is.",
-      "translation": "",
+      "translation": "是的，很急。",
       "startTime": 38.7,
       "endTime": 41.28,
       "analysis": {
         "grammar": [
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "Yes",
+            "label": "肯定词"
           },
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "it is",
+            "label": "简短回答"
           }
         ],
         "words": [
@@ -231,12 +514,12 @@
             "meaning": "是的"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -247,25 +530,44 @@
       "id": "s8",
       "role": "Woman",
       "text": "It's very urgent.",
-      "translation": "",
+      "translation": "非常急。",
       "startTime": 41.29,
       "endTime": 44.44,
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "very urgent",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "It",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "urgent",
+            "pos": "adj.",
+            "meaning": "紧急的"
           }
         ]
       }
@@ -274,42 +576,170 @@
       "id": "s9",
       "role": "Man",
       "text": "I feel awful.",
-      "translation": "",
+      "translation": "我感觉很难受。",
       "startTime": 44.45,
-      "endTime": 46.85
+      "endTime": 46.85,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "feel",
+            "label": "系词 (感官)"
+          },
+          {
+            "text": "awful",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "feel",
+            "pos": "v.",
+            "meaning": "感觉"
+          },
+          {
+            "word": "awful",
+            "pos": "adj.",
+            "meaning": "极坏的/很难受的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "I have a terrible toothache.",
-      "translation": "",
+      "translation": "我牙痛得厉害。",
       "startTime": 46.86,
-      "endTime": 50.89
+      "endTime": 50.89,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "a terrible toothache",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "terrible",
+            "pos": "adj.",
+            "meaning": "可怕的/严重的"
+          },
+          {
+            "word": "toothache",
+            "pos": "n.",
+            "meaning": "牙痛"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Can you come at 10 a.m. on Monday, April 24th?",
-      "translation": "",
+      "translation": "你能在4月24日星期一上午10点来吗？",
       "startTime": 50.9,
       "endTime": 57.49,
       "analysis": {
         "grammar": [
           {
-            "text": "am",
-            "label": "谓语/系动词"
+            "text": "Can you come",
+            "label": "疑问/谓语"
+          },
+          {
+            "text": "at 10 a.m.",
+            "label": "时间状语1"
+          },
+          {
+            "text": "on Monday",
+            "label": "时间状语2"
+          },
+          {
+            "text": "April 24th",
+            "label": "时间状语3"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
           },
           {
-            "word": "At",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（点）"
+          },
+          {
+            "word": "10",
+            "pos": "num.",
+            "meaning": "十"
+          },
+          {
+            "word": "a.m.",
+            "pos": "adv.",
+            "meaning": "上午"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在（天）"
+          },
+          {
+            "word": "Monday",
+            "pos": "n.",
+            "meaning": "星期一"
+          },
+          {
+            "word": "April",
+            "pos": "n.",
+            "meaning": "四月"
+          },
+          {
+            "word": "24th",
+            "pos": "num.",
+            "meaning": "二十四号"
           }
         ]
       }
@@ -318,19 +748,61 @@
       "id": "s12",
       "role": "Woman",
       "text": "I must see the dentist now, nurse.",
-      "translation": "",
+      "translation": "护士，我必须现在就看牙医。",
       "startTime": 57.5,
       "endTime": 62.81,
       "analysis": {
         "grammar": [
           {
-            "text": "must",
-            "label": "情态动词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "must see",
+            "label": "谓语"
+          },
+          {
+            "text": "the dentist",
+            "label": "宾语"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Nurse",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "must",
+            "pos": "v.aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看/就诊"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dentist",
+            "pos": "n.",
+            "meaning": "牙医"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "nurse",
             "pos": "n.",
             "meaning": "护士"
           }
@@ -341,40 +813,68 @@
       "id": "s13",
       "role": "Man",
       "text": "The dentist is very busy at the moment.",
-      "translation": "",
+      "translation": "这时候牙医很忙。",
       "startTime": 62.82,
       "endTime": 67.33,
       "analysis": {
         "grammar": [
           {
-            "text": "is",
-            "label": "谓语/系动词"
+            "text": "The dentist",
+            "label": "主语"
           },
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "is",
+            "label": "系词"
+          },
+          {
+            "text": "very busy",
+            "label": "表语"
+          },
+          {
+            "text": "at the moment",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dentist",
+            "pos": "n.",
+            "meaning": "牙医"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
           },
           {
-            "word": "Busy",
+            "word": "busy",
             "pos": "adj.",
             "meaning": "忙碌的"
           },
           {
-            "word": "At",
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "moment",
+            "pos": "n.",
+            "meaning": "时刻"
           }
         ]
       }
@@ -383,21 +883,50 @@
       "id": "s14",
       "role": "Woman",
       "text": "Can you come at 2 p.m. ?",
-      "translation": "",
+      "translation": "你下午2点钟来行吗？",
       "startTime": 67.34,
       "endTime": 71.23,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "text": "Can you come",
+            "label": "疑问/谓语"
           },
           {
-            "word": "At",
+            "text": "at 2 p.m.",
+            "label": "时间状语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "2",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "p.m.",
+            "pos": "adv.",
+            "meaning": "下午"
           }
         ]
       }
@@ -406,21 +935,44 @@
       "id": "s15",
       "role": "Man",
       "text": "That's very late.",
-      "translation": "",
+      "translation": "太晚了。",
       "startTime": 71.24,
       "endTime": 74.32,
       "analysis": {
         "grammar": [
           {
-            "text": "very",
-            "label": "程度副词"
+            "text": "That",
+            "label": "主语"
+          },
+          {
+            "text": "'s",
+            "label": "系词"
+          },
+          {
+            "text": "very late",
+            "label": "表语"
           }
         ],
         "words": [
           {
-            "word": "Very",
+            "word": "That",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "late",
+            "pos": "adj.",
+            "meaning": "迟的/晚的"
           }
         ]
       }
@@ -429,21 +981,62 @@
       "id": "s16",
       "role": "Woman",
       "text": "Can the dentist see me now?",
-      "translation": "",
+      "translation": "牙医现在能给我看吗？",
       "startTime": 74.33,
       "endTime": 77.65,
       "analysis": {
         "grammar": [
           {
+            "text": "Can",
+            "label": "助动词"
+          },
+          {
+            "text": "the dentist",
+            "label": "主语"
+          },
+          {
+            "text": "see",
+            "label": "谓语"
+          },
+          {
             "text": "me",
-            "label": "宾语/代词"
+            "label": "宾语"
+          },
+          {
+            "text": "now",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "Me",
+            "word": "Can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dentist",
+            "pos": "n.",
+            "meaning": "牙医"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看/诊治"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -452,21 +1045,68 @@
       "id": "s17",
       "role": "Man",
       "text": "I'm afraid that he can't, Mr. Croft.",
-      "translation": "",
+      "translation": "恐怕不行，克罗夫特先生。",
       "startTime": 77.66,
       "endTime": 82.13,
       "analysis": {
         "grammar": [
           {
-            "text": "that",
-            "label": "指示代词"
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "am afraid",
+            "label": "谓语 (系表)"
+          },
+          {
+            "text": "that he can't",
+            "label": "宾语从句"
+          },
+          {
+            "text": "Mr. Croft",
+            "label": "称呼"
           }
         ],
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（连接词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Croft",
+            "pos": "n.",
+            "meaning": "克罗夫特"
           }
         ]
       }
@@ -475,26 +1115,58 @@
       "id": "s18",
       "role": "Woman",
       "text": "Can't you wait till this afternoon?",
-      "translation": "",
+      "translation": "难道你就不能等到今天下午吗？",
       "startTime": 82.14,
       "endTime": 86.23,
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Can't",
+            "label": "助动词 (否定疑问)"
+          },
+          {
+            "text": "you",
+            "label": "主语"
+          },
+          {
+            "text": "wait",
+            "label": "谓语"
+          },
+          {
+            "text": "till this afternoon",
+            "label": "状语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
           },
           {
-            "word": "This",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
+          },
+          {
+            "word": "wait",
+            "pos": "v.",
+            "meaning": "等待"
+          },
+          {
+            "word": "till",
+            "pos": "prep.",
+            "meaning": "直到"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "afternoon",
+            "pos": "n.",
+            "meaning": "下午"
           }
         ]
       }
@@ -503,21 +1175,59 @@
       "id": "s19",
       "role": "Man",
       "text": "I can wait, but my toothache can't!",
-      "translation": "",
+      "translation": "我能等，但我的牙痛等不了！",
       "startTime": 86.24,
       "endTime": 91.24,
       "analysis": {
         "grammar": [
           {
-            "text": "my",
-            "label": "形容词性物主代词"
+            "text": "I can wait",
+            "label": "分句1"
+          },
+          {
+            "text": "but",
+            "label": "连词"
+          },
+          {
+            "text": "my toothache can't",
+            "label": "分句2"
           }
         ],
         "words": [
           {
-            "word": "My",
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "v.aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "wait",
+            "pos": "v.",
+            "meaning": "等待"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
             "meaning": "我的"
+          },
+          {
+            "word": "toothache",
+            "pos": "n.",
+            "meaning": "牙痛"
+          },
+          {
+            "word": "can't",
+            "pos": "v.aux.",
+            "meaning": "不能"
           }
         ]
       }
