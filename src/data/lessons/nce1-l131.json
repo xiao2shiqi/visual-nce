@@ -12,12 +12,22 @@
       "startTime": 0.66,
       "endTime": 3.35,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Lesson 131",
+            "label": "标题/课程编号"
+          }
+        ],
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "131",
+            "pos": "num.",
+            "meaning": "一百三十一"
           }
         ]
       }
@@ -28,7 +38,41 @@
       "text": "Don't be so sure!",
       "translation": "别那么确定！",
       "startTime": 3.36,
-      "endTime": 7.27
+      "endTime": 7.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Don't be",
+            "label": "祈使句否定"
+          },
+          {
+            "text": "so sure",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Don't",
+            "pos": "v.",
+            "meaning": "不要（do not的缩写）"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是（系动词原形）"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此，这么"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确定的，肯定的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -40,15 +84,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "Listen to the tape",
+            "label": "祈使句1"
+          },
+          {
+            "text": "then",
+            "label": "连接词"
+          },
+          {
+            "text": "answer this question",
+            "label": "祈使句2"
           }
         ],
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那（定冠词）"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -59,7 +146,74 @@
       "text": "What's the problem about deciding on a holiday?",
       "translation": "在决定度假这件事上有什么问题吗？",
       "startTime": 13.03,
-      "endTime": 19.69
+      "endTime": 19.69,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "What",
+            "label": "疑问词/表语"
+          },
+          {
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "the problem",
+            "label": "主语"
+          },
+          {
+            "text": "about deciding on a holiday",
+            "label": "后置定语/介词短语"
+          }
+        ],
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个（定冠词）"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题，难题"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "deciding",
+            "pos": "v.",
+            "meaning": "决定（decide的现在分词）"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "关于，对于"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个（不定冠词）"
+          },
+          {
+            "word": "holiday",
+            "pos": "n.",
+            "meaning": "假期，假日"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -71,33 +225,81 @@
       "analysis": {
         "grammar": [
           {
-            "text": "are",
-            "label": "谓语/系动词"
+            "text": "Where",
+            "label": "疑问副词/地点状语"
           },
           {
-            "text": "your",
-            "label": "形容词性物主代词"
+            "text": "are you going to spend",
+            "label": "谓语/将来时"
           },
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "your holidays",
+            "label": "宾语"
+          },
+          {
+            "text": "this year",
+            "label": "时间状语"
+          },
+          {
+            "text": "Gary",
+            "label": "呼语"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "在哪里"
           },
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是（be动词）"
           },
           {
-            "word": "This",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要（be going to结构）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "spend",
+            "pos": "v.",
+            "meaning": "度过（时间）"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "holidays",
+            "pos": "n.",
+            "meaning": "假期（复数）"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "Gary",
+            "pos": "n.",
+            "meaning": "加里（人名）"
           }
         ]
       }
@@ -112,11 +314,40 @@
       "analysis": {
         "grammar": [
           {
-            "text": "may",
-            "label": "情态动词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "may go",
+            "label": "谓语/情态动词+动词原形"
+          },
+          {
+            "text": "abroad",
+            "label": "地点状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "may",
+            "pos": "modal v.",
+            "meaning": "可能（表示可能性）"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "abroad",
+            "pos": "adv.",
+            "meaning": "到国外，在国外"
+          }
+        ]
       }
     },
     {
@@ -127,12 +358,40 @@
       "startTime": 28.6,
       "endTime": 30.96,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'m not",
+            "label": "系动词否定"
+          },
+          {
+            "text": "sure",
+            "label": "表语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确定的"
           }
         ]
       }
@@ -147,8 +406,16 @@
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My wife",
+            "label": "主语"
+          },
+          {
+            "text": "wants",
+            "label": "谓语"
+          },
+          {
+            "text": "to go to Egypt",
+            "label": "宾语/不定式短语"
           }
         ],
         "words": [
@@ -156,6 +423,36 @@
             "word": "My",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "wants",
+            "pos": "v.",
+            "meaning": "想要（want的第三人称单数）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到，往"
+          },
+          {
+            "word": "Egypt",
+            "pos": "n.",
+            "meaning": "埃及（国名）"
           }
         ]
       }
@@ -168,10 +465,57 @@
       "startTime": 34.66,
       "endTime": 37.92,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "I",
+            "label": "主语"
+          },
+          {
+            "text": "'d like to go",
+            "label": "谓语/would like to"
+          },
+          {
+            "text": "there",
+            "label": "地点状语"
+          },
+          {
+            "text": "too",
+            "label": "副词状语"
+          }
+        ],
         "words": [
           {
-            "word": "Too",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'d",
+            "pos": "v.",
+            "meaning": "想要（would的缩写）"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "想要（would like to意为想要）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -188,11 +532,50 @@
       "analysis": {
         "grammar": [
           {
-            "text": "our",
-            "label": "形容词性物主代词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "can't make up",
+            "label": "谓语/情态动词否定+动词短语"
+          },
+          {
+            "text": "our minds",
+            "label": "宾语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "can't",
+            "pos": "modal v.",
+            "meaning": "不能（cannot的缩写）"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "做，使（make up one's mind意为下定决心）"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来（与make组成短语）"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "minds",
+            "pos": "n.",
+            "meaning": "主意，想法（复数）"
+          }
+        ]
       }
     },
     {
@@ -205,20 +588,58 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Will",
-            "label": "助动词"
+            "text": "Will you travel",
+            "label": "谓语/一般将来时疑问"
+          },
+          {
+            "text": "by sea",
+            "label": "方式状语1"
+          },
+          {
+            "text": "or by air",
+            "label": "方式状语2"
           }
         ],
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Will",
+            "pos": "modal v.",
+            "meaning": "将（表示将来）"
           },
           {
-            "word": "Air",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你们"
+          },
+          {
+            "word": "travel",
+            "pos": "v.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "乘坐，通过"
+          },
+          {
+            "word": "sea",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "海（by sea意为乘船）"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者，还是"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "乘坐"
+          },
+          {
+            "word": "air",
+            "pos": "n.",
+            "meaning": "空中（by air意为乘飞机）"
           }
         ]
       }
@@ -233,11 +654,45 @@
       "analysis": {
         "grammar": [
           {
-            "text": "may",
-            "label": "情态动词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "may travel",
+            "label": "谓语/情态动词+动词原形"
+          },
+          {
+            "text": "by sea",
+            "label": "方式状语"
           }
         ],
-        "words": []
+        "words": [
+          {
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "may",
+            "pos": "modal v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "travel",
+            "pos": "v.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "乘坐"
+          },
+          {
+            "word": "sea",
+            "pos": "n.",
+            "meaning": "海（by sea意为乘船）"
+          }
+        ]
       }
     },
     {
@@ -250,17 +705,45 @@
       "analysis": {
         "grammar": [
           {
-            "text": "Its",
-            "label": "形容词性物主代词"
+            "text": "It",
+            "label": "主语"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "'s",
+            "label": "系动词"
+          },
+          {
+            "text": "cheaper",
+            "label": "表语/形容词比较级"
+          },
+          {
+            "text": "isn't it",
+            "label": "反意疑问/附加问句"
           }
         ],
         "words": [
           {
             "word": "It",
+            "pos": "pron.",
+            "meaning": "它（指乘船旅行）"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "cheaper",
+            "pos": "adj.",
+            "meaning": "更便宜的（cheap的比较级）"
+          },
+          {
+            "word": "isn't",
+            "pos": "v.",
+            "meaning": "不是（is not的缩写）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -277,19 +760,68 @@
       "analysis": {
         "grammar": [
           {
-            "text": "It",
-            "label": "人称代词/主语"
+            "text": "It may be cheaper",
+            "label": "让步从句"
           },
           {
-            "text": "it",
-            "label": "人称代词/主语"
+            "text": "but",
+            "label": "转折连词"
+          },
+          {
+            "text": "it takes a long time",
+            "label": "主句"
           }
         ],
         "words": [
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（指乘船）"
+          },
+          {
+            "word": "may",
+            "pos": "modal v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "cheaper",
+            "pos": "adj.",
+            "meaning": "更便宜的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它（形式主语）"
+          },
+          {
+            "word": "takes",
+            "pos": "v.",
+            "meaning": "花费（时间）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一段（不定冠词）"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
           }
         ]
       }
@@ -300,7 +832,56 @@
       "text": "I'm sure you'll enjoy yourselves.",
       "translation": "我相信你们会玩得很开心的。",
       "startTime": 57.18,
-      "endTime": 60.27
+      "endTime": 60.27,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "I'm sure",
+            "label": "主句"
+          },
+          {
+            "text": "you'll enjoy yourselves",
+            "label": "宾语从句"
+          }
+        ],
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是（am的缩写）"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确信的，肯定的"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你们"
+          },
+          {
+            "word": "'ll",
+            "pos": "modal v.",
+            "meaning": "将会（will的缩写）"
+          },
+          {
+            "word": "enjoy",
+            "pos": "v.",
+            "meaning": "享受，玩得开心"
+          },
+          {
+            "word": "yourselves",
+            "pos": "pron.",
+            "meaning": "你们自己（反身代词）"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -308,7 +889,41 @@
       "text": "Don't be so sure.",
       "translation": "别这么确定。",
       "startTime": 60.28,
-      "endTime": 62.34
+      "endTime": 62.34,
+      "analysis": {
+        "grammar": [
+          {
+            "text": "Don't be",
+            "label": "祈使句否定"
+          },
+          {
+            "text": "so sure",
+            "label": "表语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Don't",
+            "pos": "v.",
+            "meaning": "不要"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "这么，如此"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确定的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -318,12 +933,45 @@
       "startTime": 62.35,
       "endTime": 65.1,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "might not go",
+            "label": "谓语/情态动词否定"
+          },
+          {
+            "text": "anywhere",
+            "label": "地点状语"
+          }
+        ],
         "words": [
           {
-            "word": "Not",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "might",
+            "pos": "modal v.",
+            "meaning": "可能（表示较小的可能性）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "anywhere",
+            "pos": "adv.",
+            "meaning": "任何地方（否定句中意为哪儿也不）"
           }
         ]
       }
@@ -338,8 +986,16 @@
       "analysis": {
         "grammar": [
           {
-            "text": "My",
-            "label": "形容词性物主代词"
+            "text": "My wife",
+            "label": "主语"
+          },
+          {
+            "text": "always worries",
+            "label": "谓语/一般现在时+频率副词"
+          },
+          {
+            "text": "too much",
+            "label": "程度状语"
           }
         ],
         "words": [
@@ -349,14 +1005,29 @@
             "meaning": "我的"
           },
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
           },
           {
-            "word": "Much",
+            "word": "always",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "总是"
+          },
+          {
+            "word": "worries",
+            "pos": "v.",
+            "meaning": "担心（worry的第三人称单数）"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "太，过于"
+          },
+          {
+            "word": "much",
+            "pos": "adv.",
+            "meaning": "太多"
           }
         ]
       }
@@ -369,12 +1040,60 @@
       "startTime": 69.05,
       "endTime": 72.52,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Who",
+            "label": "疑问词/主语"
+          },
+          {
+            "text": "'s going to look after",
+            "label": "谓语/将来时"
+          },
+          {
+            "text": "the dog",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Look",
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "'s",
             "pos": "v.",
-            "meaning": "看"
+            "meaning": "是（is的缩写）"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "look",
+            "pos": "v.",
+            "meaning": "看（look after意为照顾）"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后（与look组成短语：照顾）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "dog",
+            "pos": "n.",
+            "meaning": "狗"
           }
         ]
       }
@@ -387,15 +1106,58 @@
       "startTime": 72.53,
       "endTime": 76.07,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
+            "text": "Who",
+            "label": "疑问词/主语"
           },
           {
-            "word": "House",
+            "text": "'s going to look after",
+            "label": "谓语/将来时"
+          },
+          {
+            "text": "the house",
+            "label": "宾语"
+          }
+        ],
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "look",
+            "pos": "v.",
+            "meaning": "看（look after意为照看）"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后（与look组成短语：照看）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           }
@@ -410,12 +1172,60 @@
       "startTime": 76.08,
       "endTime": 79.65,
       "analysis": {
-        "grammar": [],
+        "grammar": [
+          {
+            "text": "Who",
+            "label": "疑问词/主语"
+          },
+          {
+            "text": "'s going to look after",
+            "label": "谓语/将来时"
+          },
+          {
+            "text": "the garden",
+            "label": "宾语"
+          }
+        ],
         "words": [
           {
-            "word": "Look",
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "'s",
             "pos": "v.",
-            "meaning": "看"
+            "meaning": "是"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "look",
+            "pos": "v.",
+            "meaning": "看（look after意为照料）"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后（与look组成短语：照料）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
           }
         ]
       }
@@ -430,15 +1240,52 @@
       "analysis": {
         "grammar": [
           {
-            "text": "this",
-            "label": "指示代词"
+            "text": "We",
+            "label": "主语"
+          },
+          {
+            "text": "have",
+            "label": "谓语"
+          },
+          {
+            "text": "this problem",
+            "label": "宾语"
+          },
+          {
+            "text": "every year",
+            "label": "时间状语"
           }
         ],
         "words": [
           {
-            "word": "This",
+            "word": "We",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我们"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有，遇到"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题，难题"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每一个"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -451,17 +1298,79 @@
       "startTime": 83.11,
       "endTime": 88.11,
       "analysis": {
-        "grammar": [],
-        "words": [
+        "grammar": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "text": "In the end",
+            "label": "时间状语"
           },
           {
-            "word": "Look",
+            "text": "we stay at home",
+            "label": "并列句1"
+          },
+          {
+            "text": "and",
+            "label": "连词"
+          },
+          {
+            "text": "look after everything",
+            "label": "并列句2"
+          }
+        ],
+        "words": [
+          {
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...（in the end意为最终）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这（定冠词）"
+          },
+          {
+            "word": "end",
+            "pos": "n.",
+            "meaning": "结尾，末尾（in the end意为最终）"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "stay",
             "pos": "v.",
-            "meaning": "看"
+            "meaning": "待，停留"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在（小地点）"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，并且"
+          },
+          {
+            "word": "look",
+            "pos": "v.",
+            "meaning": "看（look after意为照顾）"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后（与look组成短语：照顾）"
+          },
+          {
+            "word": "everything",
+            "pos": "pron.",
+            "meaning": "所有事情"
           }
         ]
       }
