@@ -41,7 +41,7 @@ defineEmits(['select-course']);
     <!-- Course Selection Section -->
     <section class="max-w-6xl mx-auto px-6 pb-32">
       <!-- Book Tabs -->
-      <div class="flex flex-wrap justify-center gap-3 mb-16 px-4 py-2 rounded-3xl bg-slate-100/50 backdrop-blur-sm w-fit mx-auto border border-white/50">
+      <div class="flex flex-wrap justify-center gap-3 mb-8 px-4 py-2 rounded-3xl bg-slate-100/50 backdrop-blur-sm w-fit mx-auto border border-white/50">
         <button 
           v-for="book in curriculum.books" 
           :key="book.id"
@@ -53,6 +53,12 @@ defineEmits(['select-course']);
         >
           {{ book.subtitle }}
         </button>
+      </div>
+
+      <!-- Active Book Highlight -->
+      <div class="text-center animate-fade-in mb-12" :key="activeBookId">
+        <h2 class="text-3xl font-black text-slate-900 mb-3">{{ activeBook.title }}</h2>
+        <p class="text-slate-500 font-medium">{{ activeBook.description }}</p>
       </div>
 
       <!-- Lessons Grid -->
@@ -100,11 +106,6 @@ defineEmits(['select-course']);
         </div>
       </div>
 
-      <!-- Active Book Highlight (Moved to bottom) -->
-      <div class="mt-16 text-center animate-fade-in" :key="activeBookId">
-        <h2 class="text-3xl font-black text-slate-900 mb-3">{{ activeBook.title }}</h2>
-        <p class="text-slate-500 font-medium">{{ activeBook.description }}</p>
-      </div>
     </section>
 
     <!-- Footer / Project Info Section -->
