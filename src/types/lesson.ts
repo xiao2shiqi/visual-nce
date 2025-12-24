@@ -5,12 +5,6 @@
  * 所有课程 JSON 文件都应遵循此数据结构
  */
 
-// 语法分析部分
-export interface GrammarPart {
-    text: string;       // 语法成分的文本
-    label: string;      // 语法标签（如：主语、谓语、宾语等）
-}
-
 // 词汇详情
 export interface Word {
     word: string;       // 单词
@@ -18,9 +12,9 @@ export interface Word {
     meaning: string;    // 中文释义
 }
 
+
 // 句子分析
 export interface Analysis {
-    grammar: GrammarPart[];  // 语法结构分析
     words: Word[];           // 词汇详解
 }
 

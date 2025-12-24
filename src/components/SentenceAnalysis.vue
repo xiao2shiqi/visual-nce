@@ -103,24 +103,6 @@ const speakWord = (word: string) => {
 
           <!-- Analysis Content -->
           <div v-if="segment.analysis" class="space-y-6 animate-fade-in">
-            <!-- Grammar Structure -->
-            <div class="space-y-3" v-if="segment.analysis.grammar && segment.analysis.grammar.length">
-              <h5 class="text-xs font-black text-blue-600 uppercase tracking-widest flex items-center gap-2">
-                <div class="w-1 h-4 bg-blue-500 rounded-full"></div>
-                语法结构
-              </h5>
-              <div class="flex flex-wrap gap-2">
-                <div 
-                  v-for="(part, i) in segment.analysis.grammar" 
-                  :key="i"
-                  class="px-3 py-2 rounded-lg bg-gradient-to-br from-blue-50 to-blue-100/50 border border-blue-200/50 flex flex-col shadow-sm"
-                >
-                  <span class="text-sm font-bold text-slate-800">{{ part.text }}</span>
-                  <span class="text-[9px] font-black text-blue-500 uppercase tracking-wider mt-0.5">{{ part.label }}</span>
-                </div>
-              </div>
-            </div>
-
             <!-- Word Details -->
             <div class="space-y-3" v-if="segment.analysis.words && segment.analysis.words.length">
               <h5 class="text-xs font-black text-indigo-600 uppercase tracking-widest flex items-center gap-2">
