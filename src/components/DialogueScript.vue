@@ -131,40 +131,24 @@ defineExpose({
         @click="emit('segmentClick', s)"
       >
         <div 
-          class="relative p-3.5 rounded-xl transition-all duration-300 border"
+          class="relative p-3.5 rounded-xl transition-all duration-300 border flex items-start gap-3"
           :class="[
             activeSegmentId === s.id 
               ? 'bg-white shadow-xl shadow-blue-500/5 border-blue-100 scale-[1.01]' 
               : 'bg-white/50 border-transparent hover:bg-white hover:shadow-lg hover:border-gray-100'
           ]"
         >
-          <div class="flex items-start gap-3">
-            <!-- Avatar -->
-            <div 
-              class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center text-[10px] font-bold shadow-sm transition-transform duration-300 group-hover:scale-110"
-              :class="[
-                s.role === 'Man' ? 'bg-gradient-to-br from-blue-500 to-blue-600 text-white' : 
-                s.role === 'Woman' ? 'bg-gradient-to-br from-indigo-500 to-violet-600 text-white' :
-                'bg-gradient-to-br from-slate-500 to-slate-600 text-white'
-              ]"
-            >
-              {{ s.role[0] }}
-            </div>
-            
             <!-- Content -->
             <div class="flex-1 min-w-0">
-              <div class="flex items-baseline gap-2">
-                <span class="flex-shrink-0 text-[10px] font-black text-gray-400 uppercase tracking-wide">{{ s.role }}:</span>
-                <p 
-                  class="text-sm leading-relaxed transition-colors duration-300"
-                  :class="activeSegmentId === s.id ? 'text-gray-900 font-semibold' : 'text-gray-600'"
-                >
-                  {{ s.text }}
-                </p>
-              </div>
+              <p 
+                class="text-sm leading-relaxed transition-colors duration-300"
+                :class="activeSegmentId === s.id ? 'text-gray-900 font-semibold' : 'text-gray-600'"
+              >
+                {{ s.text }}
+              </p>
               <p 
                 v-if="showTranslation" 
-                class="text-[11px] mt-1 ml-0 text-gray-400 font-medium leading-relaxed animate-fade-in"
+                class="text-[11px] mt-1 text-gray-400 font-medium leading-relaxed animate-fade-in"
               >
                 {{ s.translation }}
               </p>
@@ -203,13 +187,11 @@ defineExpose({
       </div>
     </div>
 
-    <!-- Analysis Modal Component -->
     <SentenceAnalysis 
         :visible="!!activeAnalysisSegment"
         :segment="activeAnalysisSegment"
         @close="closeAnalysis"
     />
-  </div>
 </template>
 
 <style scoped>

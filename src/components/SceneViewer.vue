@@ -60,17 +60,6 @@ defineExpose({
       <div class="absolute -inset-4 bg-gradient-to-r from-blue-500/20 via-indigo-500/20 to-violet-500/20 rounded-[2rem] blur-2xl opacity-0 group-hover:opacity-60 transition-opacity duration-700 -z-10"></div>
     </div>
     
-    <!-- Scene Info -->
-    <div class="mt-6 flex items-center justify-between px-1">
-      <div class="flex items-center gap-3">
-        <div class="flex -space-x-1">
-          <div class="w-6 h-6 rounded-full bg-blue-500 ring-2 ring-white flex items-center justify-center text-[8px] font-bold text-white">M</div>
-          <div class="w-6 h-6 rounded-full bg-indigo-500 ring-2 ring-white flex items-center justify-center text-[8px] font-bold text-white">W</div>
-        </div>
-        <span class="text-xs text-gray-500 font-medium">2 speakers</span>
-      </div>
-    </div>
-
     <!-- Audio Player -->
     <div class="mt-8">
       <AudioPlayer 
