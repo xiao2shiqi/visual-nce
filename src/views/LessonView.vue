@@ -3,6 +3,7 @@ import { ref, computed, watch, nextTick, onMounted, onUnmounted, shallowRef } fr
 import LessonHeader from '../components/LessonHeader.vue';
 import SceneViewer from '../components/SceneViewer.vue';
 import DialogueScript from '../components/DialogueScript.vue';
+import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 
 /**
@@ -12,7 +13,7 @@ const props = defineProps<{
   lesson: any;
 }>();
 
-const emit = defineEmits(['back']);
+const emit = defineEmits(['back', 'select-course']);
 const sceneViewerRef = ref<any>(null);
 const scriptRef = ref<any>(null);
 
@@ -184,6 +185,23 @@ watch(activeSegmentId, async (newId) => {
   }
 });
 
+// 计算上一课和下一课
+const navigation = computed(() => {
+  if (!props.lesson?.id) return { prev: null, next: null };
+  
+  // 查找当前课程所在的课本
+  const book = curriculum.books.find(b => b.lessons.some(l => l.id === props.lesson.id));
+  if (!book) return { prev: null, next: null };
+  
+  const allLessons = book.lessons;
+  const currentIdx = allLessons.findIndex(l => l.id === props.lesson.id);
+  
+  return {
+    prev: currentIdx > 0 ? allLessons[currentIdx - 1] : null,
+    next: currentIdx < allLessons.length - 1 ? allLessons[currentIdx + 1] : null
+  };
+});
+
 // 快捷键处理
 const handleKeyDown = (e: KeyboardEvent) => {
   if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) return;
@@ -291,6 +309,46 @@ onUnmounted(() => {
           :playback-rates="playbackRates"
           @segment-click="handleSegmentClick"
         />
+      </div>
+
+      <!-- Quick Navigation -->
+      <div class="mt-20 pt-10 border-t border-slate-200/60 grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in">
+        <button 
+          v-if="navigation.prev"
+          @click="emit('select-course', navigation.prev)"
+          class="flex items-center gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-blue-400 hover:bg-white hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-500 group text-left"
+        >
+          <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-blue-50 group-hover:text-blue-500 transition-all duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+          </div>
+          <div class="overflow-hidden">
+            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1 group-hover:text-blue-400 transition-colors">Previous Lesson</div>
+            <div class="text-base font-bold text-slate-700 group-hover:text-slate-900 transition-colors truncate">
+              {{ navigation.prev.title }}: {{ navigation.prev.subtitle }}
+            </div>
+          </div>
+        </button>
+        <div v-else class="hidden sm:block"></div>
+
+        <button 
+          v-if="navigation.next"
+          @click="emit('select-course', navigation.next)"
+          class="flex items-center justify-end gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-indigo-400 hover:bg-white hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-500 group text-right"
+        >
+          <div class="overflow-hidden">
+            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1 group-hover:text-indigo-400 transition-colors">Next Lesson</div>
+            <div class="text-base font-bold text-slate-700 group-hover:text-slate-900 transition-colors truncate">
+              {{ navigation.next.title }}: {{ navigation.next.subtitle }}
+            </div>
+          </div>
+          <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-indigo-50 group-hover:text-indigo-500 transition-all duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </div>
+        </button>
       </div>
     </main>
 
