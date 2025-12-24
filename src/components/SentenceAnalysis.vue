@@ -63,12 +63,12 @@ const speakWord = (word: string) => {
         class="fixed inset-0 z-50 flex items-center justify-center p-4"
         @click="emit('close')"
       >
-        <!-- Backdrop with blur -->
-        <div class="absolute inset-0 bg-slate-900/30 backdrop-blur-md"></div>
+        <!-- Backdrop with magical blur -->
+        <div class="absolute inset-0 bg-slate-900/40 backdrop-blur-md"></div>
         
         <!-- Modal Content -->
         <div 
-          class="relative max-w-2xl w-full max-h-[80vh] overflow-y-auto bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/20 p-6"
+          class="relative max-w-2xl w-full max-h-[80vh] overflow-y-auto bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/20 p-6 ring-1 ring-white/50"
           @click.stop
         >
           <!-- Close Button -->
@@ -83,19 +83,20 @@ const speakWord = (word: string) => {
 
           <!-- Modal Header -->
           <div class="mb-6 pr-8">
-            <div class="flex items-center gap-2 mb-3">
-              <div class="w-8 h-8 rounded-lg bg-blue-50 flex items-center justify-center text-blue-500">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-500 via-purple-500 to-indigo-500 flex items-center justify-center text-white shadow-lg shadow-purple-500/30 ring-2 ring-purple-200/50">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z" />
                   </svg>
               </div>
-              <h3 class="text-lg font-black text-slate-900">句子分析</h3>
+              <h3 class="text-xl font-black bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-indigo-600">句子魔法分析</h3>
             </div>
-            <div class="p-4 rounded-xl bg-gradient-to-r from-slate-50 to-slate-100/50 border border-slate-200/30">
-              <p class="text-base text-slate-800 font-semibold leading-relaxed">
+            <div class="p-5 rounded-2xl bg-gradient-to-br from-violet-50/50 via-purple-50/50 to-indigo-50/50 border border-violet-100/50 shadow-sm relative overflow-hidden group">
+              <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-200/20 to-indigo-200/20 rounded-full blur-2xl -mr-16 -mt-16 pointer-events-none"></div>
+              <p class="text-lg text-slate-800 font-semibold leading-relaxed relative z-10">
                 {{ segment.text }}
               </p>
-              <p class="text-sm text-slate-500 mt-2 font-medium">
+              <p class="text-sm text-slate-500 mt-2 font-medium relative z-10">
                 {{ segment.translation }}
               </p>
             </div>
@@ -105,8 +106,9 @@ const speakWord = (word: string) => {
           <div v-if="segment.analysis" class="space-y-6 animate-fade-in">
             <!-- Word Details -->
             <div class="space-y-3" v-if="segment.analysis.words && segment.analysis.words.length">
-              <h5 class="text-xs font-black text-indigo-600 uppercase tracking-widest flex items-center gap-2">
-                <div class="w-1 h-4 bg-indigo-500 rounded-full"></div>
+              <h5 class="text-xs font-black text-violet-600 uppercase tracking-widest flex items-center gap-2 mb-4">
+                <div class="w-1.5 h-1.5 rounded-full bg-violet-500 shadow-[0_0_8px_rgba(139,92,246,0.6)]"></div>
+                <div class="w-1 h-4 bg-gradient-to-b from-violet-500 to-indigo-500 rounded-full"></div>
                 词汇详解
                 <span class="text-[9px] font-medium text-slate-400 normal-case tracking-normal ml-1">点击发音</span>
               </h5>
@@ -115,17 +117,20 @@ const speakWord = (word: string) => {
                   v-for="(word, i) in segment.analysis.words" 
                   :key="i"
                   @click="speakWord(word.word)"
-                  class="p-3 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 border border-slate-200/50 group/word transition-all hover:shadow-lg hover:border-indigo-200 hover:from-indigo-50 hover:to-indigo-100/30 text-left cursor-pointer"
+                  class="p-4 rounded-xl bg-white border border-slate-200/60 shadow-sm group/word transition-all hover:shadow-lg hover:shadow-purple-500/10 hover:border-violet-200 hover:-translate-y-0.5 text-left cursor-pointer relative overflow-hidden"
                 >
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class="text-sm font-black text-slate-900 group-hover/word:text-indigo-700">{{ word.word }}</span>
-                    <span class="text-[9px] font-bold text-slate-400 italic">{{ word.pos }}</span>
-                    <!-- Speaker Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5 text-indigo-400 opacity-0 group-hover/word:opacity-100 transition-opacity">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-                    </svg>
+                  <div class="absolute inset-0 bg-gradient-to-br from-violet-50/50 via-transparent to-transparent opacity-0 group-hover/word:opacity-100 transition-opacity"></div>
+                  <div class="relative z-10">
+                    <div class="flex items-center gap-2 mb-1.5">
+                      <span class="text-base font-black text-slate-800 group-hover/word:text-violet-600 transition-colors">{{ word.word }}</span>
+                      <span class="px-1.5 py-0.5 rounded-md bg-slate-100 text-[10px] font-bold text-slate-500 italic group-hover/word:bg-violet-100 group-hover/word:text-violet-600 transition-colors">{{ word.pos }}</span>
+                      <!-- Speaker Icon -->
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5 text-violet-400 opacity-0 group-hover/word:opacity-100 transition-opacity ml-auto">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+                      </svg>
+                    </div>
+                    <p class="text-sm text-slate-600 font-medium leading-relaxed">{{ word.meaning }}</p>
                   </div>
-                  <p class="text-xs text-slate-600 font-medium">{{ word.meaning }}</p>
                 </button>
               </div>
             </div>
