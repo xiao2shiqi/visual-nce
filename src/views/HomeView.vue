@@ -38,6 +38,50 @@ defineEmits(['select-course']);
       </div>
     </section>
 
+    <!-- Features Section -->
+    <section class="max-w-6xl mx-auto px-6 mb-16 animate-fade-in">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Feature 1: Ghibli Style -->
+        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-2xl bg-blue-50 group-hover:bg-blue-500 transition-colors duration-300 flex items-center justify-center text-blue-500 group-hover:text-white mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">吉卜力视觉重制</h3>
+          <p class="text-sm text-slate-500 font-medium leading-relaxed">
+            告别枯燥的原版插图。每一课场景都以<span class="text-blue-500 font-bold">温暖治愈的吉卜力风格</span>重新绘制，让英语学习变成一场赏心悦目的视觉之旅。
+          </p>
+        </div>
+        
+        <!-- Feature 2: Sentence Analysis -->
+        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-50 group-hover:bg-indigo-500 transition-colors duration-300 flex items-center justify-center text-indigo-500 group-hover:text-white mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">逐句深度解析</h3>
+          <p class="text-sm text-slate-500 font-medium leading-relaxed">
+            不留任何知识盲区。内置<span class="text-indigo-500 font-bold">详细的句子分析</span>功能，智能拆解每一句话的语法结构、核心词汇与发音重点，助你真正吃透课文。
+          </p>
+        </div>
+
+        <!-- Feature 3: Professional Tools -->
+        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-50 group-hover:bg-cyan-500 transition-colors duration-300 flex items-center justify-center text-cyan-500 group-hover:text-white mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">专业级听读工具</h3>
+          <p class="text-sm text-slate-500 font-medium leading-relaxed">
+            为精听与跟读量身打造。支持<span class="text-cyan-500 font-bold">无级变速、单句循环</span>与键盘快捷键控制，配合滚动高亮与双语切换，让语言训练更高效。
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- Course Selection Section -->
     <section class="max-w-6xl mx-auto px-6 pb-32">
       <!-- Book Tabs -->
