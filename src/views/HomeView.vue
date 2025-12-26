@@ -3,9 +3,11 @@ import { ref, computed } from 'vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 import AboutModal from '../components/AboutModal.vue';
+import DonationModal from '../components/DonationModal.vue';
 
 const activeBookId = ref('nce1');
 const aboutModalRef = ref<any>(null);
+const donationModalRef = ref<any>(null);
 
 const activeBook = computed(() => {
   const book = curriculum.books.find(b => b.id === activeBookId.value);
@@ -25,13 +27,13 @@ defineEmits(['select-course']);
       <!-- Top Right Actions -->
       <div class="absolute top-6 right-6 z-10">
         <button 
-          @click="aboutModalRef?.openAbout()"
+          @click="donationModalRef?.openDonation()"
           class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-slate-200 shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300 group"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-slate-400 group-hover:text-red-500 transition-colors">
-            <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-slate-400 group-hover:text-amber-500 transition-colors">
+             <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
           </svg>
-          <span class="text-xs font-bold text-slate-500 group-hover:text-slate-700">About / Support</span>
+          <span class="text-xs font-bold text-slate-500 group-hover:text-slate-700">Support</span>
         </button>
       </div>
 
@@ -197,6 +199,7 @@ defineEmits(['select-course']);
     </footer>
 
     <AboutModal ref="aboutModalRef" />
+    <DonationModal ref="donationModalRef" />
   </div>
 </template>
 
