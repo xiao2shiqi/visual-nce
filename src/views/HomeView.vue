@@ -2,8 +2,10 @@
 import { ref, computed } from 'vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
+import AboutModal from '../components/AboutModal.vue';
 
 const activeBookId = ref('nce1');
+const aboutModalRef = ref<any>(null);
 
 const activeBook = computed(() => {
   const book = curriculum.books.find(b => b.id === activeBookId.value);
@@ -173,13 +175,15 @@ defineEmits(['select-course']);
         <div class="mt-16 pt-8 border-t border-slate-200/60 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400">
           <p class="text-xs font-bold uppercase tracking-tighter">© 2025 Visual NCE Project</p>
           <div class="flex items-center gap-6 text-xs font-bold uppercase tracking-tighter">
-            <span class="hover:text-blue-500 cursor-pointer transition-colors">Documentation</span>
-            <span class="hover:text-blue-500 cursor-pointer transition-colors">GitHub</span>
-            <span class="hover:text-blue-500 cursor-pointer transition-colors">Author: xiaobin</span>
+            <span class="hover:text-blue-500 cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">About & Disclaimer</span>
+            <a href="https://github.com/xiao2shiqi/visual-nce" target="_blank" class="hover:text-blue-500 cursor-pointer transition-colors">GitHub</a>
+            <span class="hover:text-blue-500 cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">Author: xiaobin</span>
           </div>
         </div>
       </div>
     </footer>
+
+    <AboutModal ref="aboutModalRef" />
   </div>
 </template>
 
