@@ -76,11 +76,27 @@ defineExpose({ openAbout });
             </div>
 
             <!-- Contact Section -->
-            <div class="text-center space-y-2">
+            <div class="text-center space-y-4">
               <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">联系开发者 / Contact</p>
-              <a href="mailto:xiaobin.phoenix@gmail.com" class="text-blue-600 font-bold hover:underline transition-all">
-                xiaobin.phoenix@gmail.com
-              </a>
+              
+              <div class="space-y-2">
+                <div>
+                  <a href="https://xiao2shiqi.github.io/about/" target="_blank" class="text-blue-600 font-bold hover:underline transition-all">
+                    https://xiao2shiqi.github.io/about/
+                  </a>
+                </div>
+                
+                <div class="text-sm font-medium text-slate-600">
+                  <span class="font-bold text-slate-800">WeChat:</span> 18198971094
+                  <span class="text-xs text-slate-400 ml-1">(加好友进入学习交流群)</span>
+                </div>
+
+                <div>
+                  <a href="mailto:xiaobin.phoenix@gmail.com" class="text-sm text-slate-500 hover:text-blue-600 transition-colors">
+                    xiaobin.phoenix@gmail.com
+                  </a>
+                </div>
+              </div>
             </div>
 
           </div>
