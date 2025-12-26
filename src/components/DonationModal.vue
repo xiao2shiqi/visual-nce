@@ -39,7 +39,7 @@ defineExpose({ openDonation });
             <!-- Support Section -->
             <div class="text-center space-y-4 pt-4">              
               <div class="bg-amber-50/50 rounded-2xl p-6 inline-block shadow-sm border border-amber-100/50">
-                <img src="/images/sponsor.jpg" alt="WeChat Pay Sponsor Code" class="w-48 h-48 rounded-xl mx-auto mb-3 shadow-md mix-blend-multiply" />
+                <img src="/images/sponsor.jpg" alt="WeChat Pay Sponsor Code" class="w-64 h-64 rounded-xl mx-auto mb-3 shadow-md mix-blend-multiply" />
                 
                 <div class="bg-white/60 rounded-lg px-4 py-2 border border-amber-200/50 text-center max-w-[240px] mx-auto">
                   <p class="text-[10px] text-amber-900 font-medium leading-tight">
