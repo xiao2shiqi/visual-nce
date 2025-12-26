@@ -59,6 +59,22 @@ defineExpose({ openAbout });
               </div>
             </div>
 
+            <!-- Support Section -->
+            <div class="text-center space-y-4 pt-4 border-t border-slate-100">
+              <h3 class="text-xs font-black text-amber-500 uppercase tracking-widest flex items-center justify-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                  <path d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" />
+                  <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
+                </svg>
+                支持项目 / Support
+              </h3>
+              
+              <div class="bg-amber-50/50 rounded-2xl p-6 inline-block shadow-sm border border-amber-100/50">
+                <img src="/images/sponsor.jpg" alt="WeChat Pay Sponsor Code" class="w-48 h-48 rounded-xl mx-auto mb-3 shadow-md mix-blend-multiply" />
+                <p class="text-[10px] text-amber-800/60 font-medium">长按识别或扫码</p>
+              </div>
+            </div>
+
             <!-- Contact Section -->
             <div class="text-center space-y-2">
               <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">联系开发者 / Contact</p>
