@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "119",
+            "pos": "num.",
+            "meaning": "一百一十九"
           }
         ]
       }
@@ -27,7 +32,26 @@
       "text": "A true story",
       "translation": "",
       "startTime": 3.54,
-      "endTime": 6.38
+      "endTime": 6.38,
+      "analysis": {
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "true",
+            "pos": "adj.",
+            "meaning": "真实的"
+          },
+          {
+            "word": "story",
+            "pos": "n.",
+            "meaning": "故事"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -52,7 +76,56 @@
       "text": "Who called out to the thieves in the dark?",
       "translation": "",
       "startTime": 12.05,
-      "endTime": 18.33
+      "endTime": 18.33,
+      "analysis": {
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "called",
+            "pos": "v.",
+            "meaning": "喊"
+          },
+          {
+            "word": "out",
+            "pos": "adv.",
+            "meaning": "出来"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那些"
+          },
+          {
+            "word": "thieves",
+            "pos": "n.",
+            "meaning": "小偷"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "dark",
+            "pos": "n.",
+            "meaning": "黑暗"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -64,9 +137,24 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "stories",
+            "pos": "n.",
+            "meaning": "故事"
           }
         ]
       }
@@ -81,9 +169,44 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "讲"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "true",
+            "pos": "adj.",
+            "meaning": "真实的"
+          },
+          {
+            "word": "story",
+            "pos": "n.",
+            "meaning": "故事"
           }
         ]
       }
@@ -101,6 +224,51 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "happened",
+            "pos": "v.",
+            "meaning": "发生"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "发生在...身上"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "friend",
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "mine",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }
@@ -115,9 +283,44 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "While",
+            "pos": "conj.",
+            "meaning": "当...时候"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "friend",
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "reading",
+            "pos": "v.",
+            "meaning": "阅读"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
           }
         ]
       }
@@ -130,7 +333,38 @@
       "startTime": 36.28,
       "endTime": 41.05,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "thieves",
+            "pos": "n.",
+            "meaning": "小偷"
+          },
+          {
+            "word": "climbed",
+            "pos": "v.",
+            "meaning": "爬"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "kitchen",
+            "pos": "n.",
+            "meaning": "厨房"
+          }
+        ]
       }
     },
     {
@@ -143,7 +377,32 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
+            "word": "After",
+            "pos": "conj.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "entered",
+            "pos": "v.",
+            "meaning": "进入"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           }
@@ -156,7 +415,41 @@
       "text": "they went into the dining room.",
       "translation": "",
       "startTime": 44.24,
-      "endTime": 47.67
+      "endTime": 47.67,
+      "analysis": {
+        "words": [
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "went",
+            "pos": "v.",
+            "meaning": "走"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "dining",
+            "pos": "n.",
+            "meaning": "用餐"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -173,9 +466,49 @@
             "meaning": "它"
           },
           {
-            "word": "Very",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "dark",
+            "pos": "adj.",
+            "meaning": "黑暗的"
+          },
+          {
+            "word": "so",
+            "pos": "conj.",
+            "meaning": "所以"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "turned",
+            "pos": "v.",
+            "meaning": "打开"
+          },
+          {
+            "word": "on",
+            "pos": "adv.",
+            "meaning": "开启"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "torch",
+            "pos": "n.",
+            "meaning": "手电筒"
           }
         ]
       }
@@ -186,7 +519,46 @@
       "text": "Suddenly, they heard a voice behind them.",
       "translation": "",
       "startTime": 54.53,
-      "endTime": 60.19
+      "endTime": 60.19,
+      "analysis": {
+        "words": [
+          {
+            "word": "Suddenly",
+            "pos": "adv.",
+            "meaning": "突然"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "heard",
+            "pos": "v.",
+            "meaning": "听见"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "voice",
+            "pos": "n.",
+            "meaning": "声音"
+          },
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在...后面"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "他们"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -194,7 +566,31 @@
       "text": "'What's up? What's up?' someone called.",
       "translation": "",
       "startTime": 60.2,
-      "endTime": 65.79
+      "endTime": 65.79,
+      "analysis": {
+        "words": [
+          {
+            "word": "What's",
+            "pos": "pron.+v.",
+            "meaning": "是什么"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "发生"
+          },
+          {
+            "word": "someone",
+            "pos": "pron.",
+            "meaning": "有人"
+          },
+          {
+            "word": "called",
+            "pos": "v.",
+            "meaning": "喊"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -202,7 +598,76 @@
       "text": "The thieves dropped the torch and ran away as quickly as they could.",
       "translation": "",
       "startTime": 65.8,
-      "endTime": 74.21
+      "endTime": 74.21,
+      "analysis": {
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "thieves",
+            "pos": "n.",
+            "meaning": "小偷"
+          },
+          {
+            "word": "dropped",
+            "pos": "v.",
+            "meaning": "掉"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "torch",
+            "pos": "n.",
+            "meaning": "手电筒"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "ran",
+            "pos": "v.",
+            "meaning": "跑"
+          },
+          {
+            "word": "away",
+            "pos": "adv.",
+            "meaning": "离开"
+          },
+          {
+            "word": "as",
+            "pos": "adv.",
+            "meaning": "同样"
+          },
+          {
+            "word": "quickly",
+            "pos": "adv.",
+            "meaning": "快"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "像"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -210,7 +675,51 @@
       "text": "George heard the noise and came downstairs quickly.",
       "translation": "",
       "startTime": 74.22,
-      "endTime": 80.21
+      "endTime": 80.21,
+      "analysis": {
+        "words": [
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
+          },
+          {
+            "word": "heard",
+            "pos": "v.",
+            "meaning": "听见"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "noise",
+            "pos": "n.",
+            "meaning": "噪音"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "came",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "downstairs",
+            "pos": "adv.",
+            "meaning": "下楼"
+          },
+          {
+            "word": "quickly",
+            "pos": "adv.",
+            "meaning": "快"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -218,7 +727,61 @@
       "text": "He turned on the light, but he couldn't see anyone.",
       "translation": "",
       "startTime": 80.22,
-      "endTime": 86.28
+      "endTime": 86.28,
+      "analysis": {
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "turned",
+            "pos": "v.",
+            "meaning": "打开"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "接通"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "light",
+            "pos": "n.",
+            "meaning": "灯"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "couldn't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -226,7 +789,36 @@
       "text": "The thieves had already gone.",
       "translation": "",
       "startTime": 86.29,
-      "endTime": 90.03
+      "endTime": 90.03,
+      "analysis": {
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "那些"
+          },
+          {
+            "word": "thieves",
+            "pos": "n.",
+            "meaning": "小偷"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "gone",
+            "pos": "v.",
+            "meaning": "离开"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -234,7 +826,46 @@
       "text": "But George's parrot, Henry, was still there.",
       "translation": "",
       "startTime": 90.04,
-      "endTime": 95.74
+      "endTime": 95.74,
+      "analysis": {
+        "words": [
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "George's",
+            "pos": "n.",
+            "meaning": "乔治的"
+          },
+          {
+            "word": "parrot",
+            "pos": "n.",
+            "meaning": "鹦鹉"
+          },
+          {
+            "word": "Henry",
+            "pos": "n.",
+            "meaning": "亨利"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -242,7 +873,36 @@
       "text": "What's up, George? he called.",
       "translation": "",
       "startTime": 95.75,
-      "endTime": 99.51
+      "endTime": 99.51,
+      "analysis": {
+        "words": [
+          {
+            "word": "What's",
+            "pos": "pron.+v.",
+            "meaning": "是什么"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "发生"
+          },
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "called",
+            "pos": "v.",
+            "meaning": "喊"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -250,7 +910,41 @@
       "text": "'Nothing, Henry,' George said and smiled.",
       "translation": "",
       "startTime": 99.52,
-      "endTime": 104.39
+      "endTime": 104.39,
+      "analysis": {
+        "words": [
+          {
+            "word": "Nothing",
+            "pos": "pron.",
+            "meaning": "没事"
+          },
+          {
+            "word": "Henry",
+            "pos": "n.",
+            "meaning": "亨利"
+          },
+          {
+            "word": "George",
+            "pos": "n.",
+            "meaning": "乔治"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "smiled",
+            "pos": "v.",
+            "meaning": "微笑"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -258,7 +952,31 @@
       "text": "'Go back to sleep.'",
       "translation": "",
       "startTime": 104.4,
-      "endTime": 109.4
+      "endTime": 109.4,
+      "analysis": {
+        "words": [
+          {
+            "word": "Go",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "回"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "sleep",
+            "pos": "v.",
+            "meaning": "睡觉"
+          }
+        ]
+      }
     }
   ]
 }

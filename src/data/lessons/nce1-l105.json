@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "105",
+            "pos": "num.",
+            "meaning": "一百零五"
           }
         ]
       }
@@ -27,7 +32,26 @@
       "text": "Full of mistakes",
       "translation": "",
       "startTime": 3.45,
-      "endTime": 7.07
+      "endTime": 7.07,
+      "analysis": {
+        "words": [
+          {
+            "word": "Full",
+            "pos": "adj.",
+            "meaning": "充满"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "mistakes",
+            "pos": "n.",
+            "meaning": "错误"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -59,6 +83,21 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Sandra's",
+            "pos": "n.",
+            "meaning": "桑德拉的"
+          },
+          {
+            "word": "present",
+            "pos": "n.",
+            "meaning": "礼物"
           }
         ]
       }
@@ -69,7 +108,26 @@
       "text": "Where's Sandra, Bob?",
       "translation": "",
       "startTime": 18.33,
-      "endTime": 20.62
+      "endTime": 20.62,
+      "analysis": {
+        "words": [
+          {
+            "word": "Where's",
+            "pos": "adv.+v.",
+            "meaning": "在哪"
+          },
+          {
+            "word": "Sandra",
+            "pos": "n.",
+            "meaning": "桑德拉"
+          },
+          {
+            "word": "Bob",
+            "pos": "n.",
+            "meaning": "鲍勃"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -79,7 +137,23 @@
       "startTime": 20.63,
       "endTime": 23.4,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
+          }
+        ]
       }
     },
     {
@@ -92,9 +166,39 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "speak",
+            "pos": "v.",
+            "meaning": "说话"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "对"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
           }
         ]
       }
@@ -112,6 +216,16 @@
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "do",
+            "pos": "aux.",
+            "meaning": "是的"
           }
         ]
       }
@@ -126,9 +240,44 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
           }
         ]
       }
@@ -143,9 +292,34 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "Tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "去"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "立刻"
+          },
+          {
+            "word": "once",
+            "pos": "adv.",
+            "meaning": "立刻"
           }
         ]
       }
@@ -160,14 +334,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Did",
+            "pos": "aux.",
+            "meaning": "助动词"
           },
           {
-            "word": "Me",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "见"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
           }
         ]
       }
@@ -182,9 +376,19 @@
       "analysis": {
         "words": [
           {
-            "word": "Yes",
+            "word": "Ah",
+            "pos": "int.",
+            "meaning": "啊"
+          },
+          {
+            "word": "yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "Sandra",
+            "pos": "n.",
+            "meaning": "桑德拉"
           }
         ]
       }
@@ -201,12 +405,27 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "怎样"
           },
           {
-            "word": "You",
+            "word": "do",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "spell",
+            "pos": "v.",
+            "meaning": "拼写"
+          },
+          {
+            "word": "intelligent",
+            "pos": "adj.",
+            "meaning": "聪明的"
           }
         ]
       }
@@ -221,14 +440,24 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "aux.",
+            "meaning": "能"
           },
           {
-            "word": "Me",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "你"
+          },
+          {
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
           }
         ]
       }
@@ -239,7 +468,16 @@
       "text": "I-N-T-E-L-L-I-G-E-N-T.",
       "translation": "",
       "startTime": 49.61,
-      "endTime": 60.82
+      "endTime": 60.82,
+      "analysis": {
+        "words": [
+          {
+            "word": "I-N-T-E-L-L-I-G-E-N-T",
+            "pos": "n.",
+            "meaning": "拼写：聪明的"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -247,7 +485,21 @@
       "text": "That's right.",
       "translation": "",
       "startTime": 60.83,
-      "endTime": 62.78
+      "endTime": 62.78,
+      "analysis": {
+        "words": [
+          {
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "对的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -259,9 +511,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "You've",
+            "pos": "pron.+aux.",
+            "meaning": "你已经"
+          },
+          {
+            "word": "typed",
+            "pos": "v.",
+            "meaning": "打字"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "用"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只有"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "L",
+            "pos": "n.",
+            "meaning": "字母L"
           }
         ]
       }
@@ -277,8 +559,28 @@
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "letter's",
+            "pos": "n.+v.",
+            "meaning": "信是"
+          },
+          {
+            "word": "full",
+            "pos": "adj.",
+            "meaning": "充满"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "mistakes",
+            "pos": "n.",
+            "meaning": "错误"
           }
         ]
       }
@@ -293,14 +595,39 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
           },
           {
-            "word": "It",
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "type",
+            "pos": "v.",
+            "meaning": "打字"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再一次"
           }
         ]
       }
@@ -320,9 +647,19 @@
             "meaning": "是的"
           },
           {
-            "word": "That",
+            "word": "I'll",
+            "pos": "pron.+aux.",
+            "meaning": "我会"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
           }
         ]
       }
@@ -337,14 +674,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Sorry",
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
           },
           {
-            "word": "That",
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
           }
         ]
       }
@@ -359,9 +706,39 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "here's",
+            "pos": "adv.+v.",
+            "meaning": "这里有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "little",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "present",
+            "pos": "n.",
+            "meaning": "礼物"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "给"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -381,12 +758,12 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -401,7 +778,23 @@
       "startTime": 85.48,
       "endTime": 87.6,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一本"
+          },
+          {
+            "word": "dictionary",
+            "pos": "n.",
+            "meaning": "字典"
+          }
+        ]
       }
     },
     {
@@ -414,9 +807,29 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
+          },
+          {
+            "word": "hope",
+            "pos": "v.",
+            "meaning": "希望"
+          },
+          {
+            "word": "it'll",
+            "pos": "pron.+aux.",
+            "meaning": "它会"
+          },
+          {
+            "word": "help",
+            "pos": "v.",
+            "meaning": "帮助"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }

@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "103",
+            "pos": "num.",
+            "meaning": "一百零三"
           }
         ]
       }
@@ -31,9 +36,19 @@
       "analysis": {
         "words": [
           {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
             "word": "French",
             "pos": "adj.",
-            "meaning": "法国的，法语"
+            "meaning": "法语"
+          },
+          {
+            "word": "test",
+            "pos": "n.",
+            "meaning": "考试"
           }
         ]
       }
@@ -67,7 +82,32 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "多久"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "exam",
+            "pos": "n.",
+            "meaning": "考试"
+          },
+          {
+            "word": "last",
+            "pos": "v.",
+            "meaning": "持续"
           }
         ]
       }
@@ -84,7 +124,27 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "怎么样"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "exam",
+            "pos": "n.",
+            "meaning": "考试"
+          },
+          {
+            "word": "Richard",
+            "pos": "n.",
+            "meaning": "理查德"
           }
         ]
       }
@@ -101,12 +161,17 @@
           {
             "word": "Not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "Too",
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "太"
+          },
+          {
+            "word": "bad",
+            "pos": "adj.",
+            "meaning": "坏"
           }
         ]
       }
@@ -117,7 +182,51 @@
       "text": "I think I passed in English and Mathematics.",
       "translation": "",
       "startTime": 22.56,
-      "endTime": 27.27
+      "endTime": 27.27,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "passed",
+            "pos": "v.",
+            "meaning": "通过"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...方面"
+          },
+          {
+            "word": "English",
+            "pos": "n.",
+            "meaning": "英语"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Mathematics",
+            "pos": "n.",
+            "meaning": "数学"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -129,9 +238,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "questions",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "easy",
+            "pos": "adj.",
+            "meaning": "容易"
           }
         ]
       }
@@ -148,12 +277,22 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "怎么样"
           },
           {
-            "word": "You",
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "Gary",
+            "pos": "n.",
+            "meaning": "加里"
           }
         ]
       }
@@ -168,9 +307,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "English",
+            "pos": "n.",
+            "meaning": "英语"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Maths",
+            "pos": "n.",
+            "meaning": "数学"
+          },
+          {
+            "word": "papers",
+            "pos": "n.",
+            "meaning": "试卷"
+          },
+          {
+            "word": "weren't",
+            "pos": "v.",
+            "meaning": "不是"
+          },
+          {
+            "word": "easy",
+            "pos": "adj.",
+            "meaning": "容易"
+          },
+          {
+            "word": "enough",
+            "pos": "adv.",
+            "meaning": "足够"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对...来说"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
           }
         ]
       }
@@ -181,7 +365,36 @@
       "text": "I hope I haven't failed.",
       "translation": "",
       "startTime": 39.98,
-      "endTime": 42.78
+      "endTime": 42.78,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "hope",
+            "pos": "v.",
+            "meaning": "希望"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "haven't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "failed",
+            "pos": "v.",
+            "meaning": "不及格"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -193,9 +406,39 @@
       "analysis": {
         "words": [
           {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "failed",
+            "pos": "v.",
+            "meaning": "不及格"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
             "word": "French",
             "pos": "adj.",
-            "meaning": "法国的，法语"
+            "meaning": "法语"
+          },
+          {
+            "word": "paper",
+            "pos": "n.",
+            "meaning": "试卷"
           }
         ]
       }
@@ -206,7 +449,46 @@
       "text": "I could answer sixteen of the questions.",
       "translation": "",
       "startTime": 46.6,
-      "endTime": 50.55
+      "endTime": 50.55,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "sixteen",
+            "pos": "num.",
+            "meaning": "十六"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "其中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "questions",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -218,9 +500,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "easy",
+            "pos": "adj.",
+            "meaning": "容易"
           }
         ]
       }
@@ -231,7 +528,41 @@
       "text": "But I couldn't answer the rest.",
       "translation": "",
       "startTime": 53.03,
-      "endTime": 56.2
+      "endTime": 56.2,
+      "analysis": {
+        "words": [
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "couldn't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "其余"
+          },
+          {
+            "word": "rest",
+            "pos": "n.",
+            "meaning": "剩余部分"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -243,14 +574,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "它们"
           },
           {
-            "word": "Me",
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "太"
+          },
+          {
+            "word": "difficult",
+            "pos": "adj.",
+            "meaning": "难"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对...来说"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
           }
         ]
       }
@@ -267,7 +618,32 @@
           {
             "word": "French",
             "pos": "adj.",
-            "meaning": "法国的，法语"
+            "meaning": "法语"
+          },
+          {
+            "word": "tests",
+            "pos": "n.",
+            "meaning": "考试"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "awful",
+            "pos": "adj.",
+            "meaning": "糟糕的"
+          },
+          {
+            "word": "aren't",
+            "pos": "v.",
+            "meaning": "不是"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "它们"
           }
         ]
       }
@@ -278,7 +654,26 @@
       "text": "I hate them.",
       "translation": "",
       "startTime": 63.85,
-      "endTime": 65.71
+      "endTime": 65.71,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "hate",
+            "pos": "v.",
+            "meaning": "讨厌"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -286,7 +681,46 @@
       "text": "I'm sure I've got a low mark.",
       "translation": "",
       "startTime": 65.72,
-      "endTime": 70.12
+      "endTime": 70.12,
+      "analysis": {
+        "words": [
+          {
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我确信"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确信的"
+          },
+          {
+            "word": "I've",
+            "pos": "pron.+aux.",
+            "meaning": "我已经"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "low",
+            "pos": "adj.",
+            "meaning": "低"
+          },
+          {
+            "word": "mark",
+            "pos": "n.",
+            "meaning": "分数"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -294,7 +728,26 @@
       "text": "Oh, cheer up!",
       "translation": "",
       "startTime": 70.13,
-      "endTime": 72.72
+      "endTime": 72.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "Oh",
+            "pos": "int.",
+            "meaning": "噢"
+          },
+          {
+            "word": "cheer",
+            "pos": "v.",
+            "meaning": "振作"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "起来"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -306,9 +759,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Too",
+            "word": "Perhaps",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "可能"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "didn't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "考"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "太"
+          },
+          {
+            "word": "badly",
+            "pos": "adv.",
+            "meaning": "差"
           }
         ]
       }
@@ -323,19 +801,74 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这个"
           },
           {
-            "word": "Name",
+            "word": "guy",
+            "pos": "n.",
+            "meaning": "家伙"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "旁边"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "挨着"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "wrote",
+            "pos": "v.",
+            "meaning": "写"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "name",
             "pos": "n.",
             "meaning": "名字"
           },
           {
-            "word": "At",
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "top",
+            "pos": "n.",
+            "meaning": "顶部"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "paper",
+            "pos": "n.",
+            "meaning": "试卷"
           }
         ]
       }
@@ -367,14 +900,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
           },
           {
-            "word": "It",
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "sat",
+            "pos": "v.",
+            "meaning": "坐"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "looked",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "持续"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "hours",
+            "pos": "n.",
+            "meaning": "小时"
           }
         ]
       }
@@ -385,7 +963,36 @@
       "text": "He didn't write a word!",
       "translation": "",
       "startTime": 89.36,
-      "endTime": 94.36
+      "endTime": 94.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "didn't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "写"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "word",
+            "pos": "n.",
+            "meaning": "字"
+          }
+        ]
+      }
     }
   ]
 }

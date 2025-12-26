@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "101",
+            "pos": "num.",
+            "meaning": "一百零一"
           }
         ]
       }
@@ -27,7 +32,31 @@
       "text": "A card from Jimmy",
       "translation": "",
       "startTime": 4.29,
-      "endTime": 7.42
+      "endTime": 7.42,
+      "analysis": {
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "card",
+            "pos": "n.",
+            "meaning": "明信片"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,9 +68,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -56,9 +120,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "Does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "grandmother",
+            "pos": "n.",
+            "meaning": "祖母"
+          },
+          {
+            "word": "seem",
+            "pos": "v.",
+            "meaning": "似乎"
+          },
+          {
+            "word": "pleased",
+            "pos": "adj.",
+            "meaning": "高兴的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "收到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "card",
+            "pos": "n.",
+            "meaning": "明信片"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
           }
         ]
       }
@@ -73,14 +182,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "Read",
+            "pos": "v.",
+            "meaning": "读"
           },
           {
-            "word": "Please",
+            "word": "Jimmy's",
+            "pos": "n.",
+            "meaning": "吉米的"
+          },
+          {
+            "word": "card",
+            "pos": "n.",
+            "meaning": "明信片"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "给"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "Penny",
+            "pos": "n.",
+            "meaning": "彭妮"
           }
         ]
       }
@@ -95,9 +229,69 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "arrived",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "in",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "Scotland",
+            "pos": "n.",
+            "meaning": "苏格兰"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "staying",
+            "pos": "v.",
+            "meaning": "停留"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Youth",
+            "pos": "n.",
+            "meaning": "青年"
+          },
+          {
+            "word": "Hostel",
+            "pos": "n.",
+            "meaning": "招待所"
           }
         ]
       }
@@ -108,7 +302,16 @@
       "text": "Eh?",
       "translation": "",
       "startTime": 37.16,
-      "endTime": 38.96
+      "endTime": 38.96,
+      "analysis": {
+        "words": [
+          {
+            "word": "Eh",
+            "pos": "int.",
+            "meaning": "嗯？"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -116,7 +319,46 @@
       "text": "He says he's just arrived in Scotland.",
       "translation": "",
       "startTime": 38.97,
-      "endTime": 44.03
+      "endTime": 44.03,
+      "analysis": {
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "says",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "he's",
+            "pos": "pron.+v.",
+            "meaning": "他是/已经"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "arrived",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "Scotland",
+            "pos": "n.",
+            "meaning": "苏格兰"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -128,9 +370,44 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "says",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "he's",
+            "pos": "pron.+v.",
+            "meaning": "他正在"
+          },
+          {
+            "word": "staying",
+            "pos": "v.",
+            "meaning": "停留"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Youth",
+            "pos": "n.",
+            "meaning": "青年"
+          },
+          {
+            "word": "Hostel",
+            "pos": "n.",
+            "meaning": "招待所"
           }
         ]
       }
@@ -147,7 +424,42 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "he's",
+            "pos": "pron.+v.",
+            "meaning": "他是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "member",
+            "pos": "n.",
+            "meaning": "成员"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Y.H.A.",
+            "pos": "n.",
+            "meaning": "青旅协会"
           }
         ]
       }
@@ -162,7 +474,12 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "什么"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
           }
@@ -175,7 +492,26 @@
       "text": "The Y.H.A., Mum.",
       "translation": "",
       "startTime": 58.18,
-      "endTime": 61.3
+      "endTime": 61.3,
+      "analysis": {
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Y.H.A.",
+            "pos": "n.",
+            "meaning": "青旅协会"
+          },
+          {
+            "word": "Mum",
+            "pos": "n.",
+            "meaning": "妈妈"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -183,7 +519,31 @@
       "text": "The Youth Hostels Association.",
       "translation": "",
       "startTime": 61.31,
-      "endTime": 65.81
+      "endTime": 65.81,
+      "analysis": {
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Youth",
+            "pos": "n.",
+            "meaning": "青年"
+          },
+          {
+            "word": "Hostels",
+            "pos": "n.",
+            "meaning": "招待所"
+          },
+          {
+            "word": "Association",
+            "pos": "n.",
+            "meaning": "协会"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -198,6 +558,26 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "else",
+            "pos": "adv.",
+            "meaning": "其他"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -208,7 +588,36 @@
       "text": "'I'll write a letter soon.",
       "translation": "",
       "startTime": 69.36,
-      "endTime": 72.44
+      "endTime": 72.44,
+      "analysis": {
+        "words": [
+          {
+            "word": "I'll",
+            "pos": "pron.+aux.",
+            "meaning": "我将"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "写"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一封"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -220,14 +629,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
           },
           {
-            "word": "Well",
+            "word": "hope",
+            "pos": "v.",
+            "meaning": "希望"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "都"
+          },
+          {
+            "word": "well",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "好的"
           }
         ]
       }
@@ -245,6 +674,21 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "Speak",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "up",
+            "pos": "adv.",
+            "meaning": "大声"
+          },
+          {
+            "word": "Penny",
+            "pos": "n.",
+            "meaning": "彭妮"
           }
         ]
       }
@@ -259,9 +703,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "hear",
+            "pos": "v.",
+            "meaning": "听见"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -272,7 +741,46 @@
       "text": "He says he'll write a letter soon.",
       "translation": "",
       "startTime": 84.2,
-      "endTime": 88.44
+      "endTime": 88.44,
+      "analysis": {
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "says",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "he'll",
+            "pos": "pron.+aux.",
+            "meaning": "他将"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "写"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一封"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -284,9 +792,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Well",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "hopes",
+            "pos": "v.",
+            "meaning": "希望"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "都"
+          },
+          {
+            "word": "well",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "好的"
           }
         ]
       }
@@ -297,7 +830,21 @@
       "text": "'Love, Jimmy.'",
       "translation": "",
       "startTime": 92.6,
-      "endTime": 95.7
+      "endTime": 95.7,
+      "analysis": {
+        "words": [
+          {
+            "word": "Love",
+            "pos": "n.",
+            "meaning": "爱"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -314,9 +861,14 @@
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
+          },
+          {
+            "word": "all",
+            "pos": "pron.",
+            "meaning": "全部"
           }
         ]
       }
@@ -331,14 +883,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
           },
           {
-            "word": "Much",
+            "word": "doesn't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
             "meaning": "非常"
+          },
+          {
+            "word": "much",
+            "pos": "adv.",
+            "meaning": "多"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "是吗"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
           }
         ]
       }
@@ -353,14 +930,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
           },
           {
-            "word": "Much",
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "写"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
             "meaning": "非常"
+          },
+          {
+            "word": "much",
+            "pos": "adv.",
+            "meaning": "多"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "card",
+            "pos": "n.",
+            "meaning": "明信片"
+          },
+          {
+            "word": "Mum",
+            "pos": "n.",
+            "meaning": "妈妈"
           }
         ]
       }

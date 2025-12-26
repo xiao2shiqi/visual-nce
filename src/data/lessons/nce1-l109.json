@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "109",
+            "pos": "num.",
+            "meaning": "一百零九"
           }
         ]
       }
@@ -27,7 +32,26 @@
       "text": "A good idea",
       "translation": "",
       "startTime": 3.27,
-      "endTime": 6.15
+      "endTime": 6.15,
+      "analysis": {
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "主意"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,9 +63,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -59,6 +118,36 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "Jane",
+            "pos": "n.",
+            "meaning": "简"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "伴随"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
           }
         ]
       }
@@ -69,7 +158,41 @@
       "text": "Shall I make some coffee, Jane?",
       "translation": "",
       "startTime": 16.97,
-      "endTime": 21.75
+      "endTime": 21.75,
+      "analysis": {
+        "words": [
+          {
+            "word": "Shall",
+            "pos": "aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "泡"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "coffee",
+            "pos": "n.",
+            "meaning": "咖啡"
+          },
+          {
+            "word": "Jane",
+            "pos": "n.",
+            "meaning": "简"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -77,7 +200,36 @@
       "text": "That's a good idea, Charlotte.",
       "translation": "",
       "startTime": 21.76,
-      "endTime": 26.06
+      "endTime": 26.06,
+      "analysis": {
+        "words": [
+          {
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "主意"
+          },
+          {
+            "word": "Charlotte",
+            "pos": "n.",
+            "meaning": "夏洛特"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -87,7 +239,18 @@
       "startTime": 26.07,
       "endTime": 27.96,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
+          },
+          {
+            "word": "ready",
+            "pos": "adj.",
+            "meaning": "准备好的"
+          }
+        ]
       }
     },
     {
@@ -100,9 +263,29 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "milk",
+            "pos": "n.",
+            "meaning": "牛奶"
           }
         ]
       }
@@ -117,7 +300,22 @@
       "analysis": {
         "words": [
           {
-            "word": "Please",
+            "word": "Just",
+            "pos": "adv.",
+            "meaning": "只要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一点"
+          },
+          {
+            "word": "little",
+            "pos": "adj.",
+            "meaning": "少许"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -136,7 +334,22 @@
           {
             "word": "What",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "怎么样"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "sugar",
+            "pos": "n.",
+            "meaning": "糖"
           }
         ]
       }
@@ -147,7 +360,21 @@
       "text": "Two teaspoonfuls?",
       "translation": "",
       "startTime": 37.46,
-      "endTime": 40.67
+      "endTime": 40.67,
+      "analysis": {
+        "words": [
+          {
+            "word": "Two",
+            "pos": "num.",
+            "meaning": "两"
+          },
+          {
+            "word": "teaspoonfuls",
+            "pos": "n.",
+            "meaning": "茶匙"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -159,7 +386,22 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "less",
+            "pos": "adj.",
+            "meaning": "更少"
+          },
+          {
+            "word": "than",
+            "pos": "prep.",
+            "meaning": "比"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
           }
@@ -176,7 +418,32 @@
       "analysis": {
         "words": [
           {
-            "word": "Please",
+            "word": "One",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "half",
+            "pos": "n.",
+            "meaning": "半"
+          },
+          {
+            "word": "teaspoonfuls",
+            "pos": "n.",
+            "meaning": "茶匙"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -193,9 +460,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "enough",
+            "pos": "adj.",
+            "meaning": "足够"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对...来说"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
           }
         ]
       }
@@ -212,17 +494,22 @@
           {
             "word": "That",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
           },
           {
-            "word": "Very",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
           },
           {
-            "word": "Nice",
+            "word": "nice",
             "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "meaning": "美味的"
           }
         ]
       }
@@ -237,9 +524,29 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Would",
+            "pos": "aux.",
+            "meaning": "愿意"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "more",
+            "pos": "adj.",
+            "meaning": "更多"
           }
         ]
       }
@@ -259,7 +566,7 @@
             "meaning": "是的"
           },
           {
-            "word": "Please",
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -276,7 +583,27 @@
       "analysis": {
         "words": [
           {
-            "word": "Too",
+            "word": "I'd",
+            "pos": "pron.+aux.",
+            "meaning": "我想要"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一支"
+          },
+          {
+            "word": "cigarette",
+            "pos": "n.",
+            "meaning": "香烟"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -291,7 +618,28 @@
       "startTime": 64.85,
       "endTime": 67.49,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "May",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "拿"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一支"
+          }
+        ]
       }
     },
     {
@@ -300,7 +648,21 @@
       "text": "Of course.",
       "translation": "",
       "startTime": 67.5,
-      "endTime": 69.45
+      "endTime": 69.45,
+      "analysis": {
+        "words": [
+          {
+            "word": "Of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "course",
+            "pos": "n.",
+            "meaning": "过程"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -312,9 +674,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一些"
+          },
+          {
+            "word": "few",
+            "pos": "adj.",
+            "meaning": "少数"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
             "meaning": "那个"
+          },
+          {
+            "word": "box",
+            "pos": "n.",
+            "meaning": "盒子"
           }
         ]
       }
@@ -327,7 +729,28 @@
       "startTime": 74.67,
       "endTime": 78.17,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕"
+          },
+          {
+            "word": "it's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
+          },
+          {
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
+          }
+        ]
       }
     },
     {
@@ -342,7 +765,17 @@
           {
             "word": "What",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "多么"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "pity",
+            "pos": "n.",
+            "meaning": "遗憾"
           }
         ]
       }
@@ -360,6 +793,16 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "doesn't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "matter",
+            "pos": "v.",
+            "meaning": "要紧"
           }
         ]
       }
@@ -370,7 +813,31 @@
       "text": "Have a biscuit instead.",
       "translation": "",
       "startTime": 83.23,
-      "endTime": 86.21
+      "endTime": 86.21,
+      "analysis": {
+        "words": [
+          {
+            "word": "Have",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一块"
+          },
+          {
+            "word": "biscuit",
+            "pos": "n.",
+            "meaning": "饼干"
+          },
+          {
+            "word": "instead",
+            "pos": "adv.",
+            "meaning": "代替"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -378,7 +845,36 @@
       "text": "Eat more and smoke less!",
       "translation": "",
       "startTime": 86.22,
-      "endTime": 90.31
+      "endTime": 90.31,
+      "analysis": {
+        "words": [
+          {
+            "word": "Eat",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更多"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "smoke",
+            "pos": "v.",
+            "meaning": "吸烟"
+          },
+          {
+            "word": "less",
+            "pos": "adv.",
+            "meaning": "更少"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -390,9 +886,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "advice",
+            "pos": "n.",
+            "meaning": "建议"
           }
         ]
       }

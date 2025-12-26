@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "125",
+            "pos": "num.",
+            "meaning": "一百二十五"
           }
         ]
       }
@@ -27,7 +32,26 @@
       "text": "Tea for two",
       "translation": "",
       "startTime": 3.46,
-      "endTime": 6.25
+      "endTime": 6.25,
+      "analysis": {
+        "words": [
+          {
+            "word": "Tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -54,7 +78,38 @@
       "startTime": 11.22,
       "endTime": 16.46,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "Susan",
+            "pos": "n.",
+            "meaning": "苏珊"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "被/由"
+          },
+          {
+            "word": "herself",
+            "pos": "pron.",
+            "meaning": "她自己"
+          }
+        ]
       }
     },
     {
@@ -67,9 +122,49 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "进来"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "Peter",
+            "pos": "n.",
+            "meaning": "彼得"
           }
         ]
       }
@@ -86,7 +181,12 @@
           {
             "word": "Not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还"
           }
         ]
       }
@@ -99,7 +199,38 @@
       "startTime": 22.38,
       "endTime": 25.77,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "water",
+            "pos": "v.",
+            "meaning": "浇水"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
+          },
+          {
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "首先"
+          }
+        ]
       }
     },
     {
@@ -112,14 +243,39 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Do",
+            "pos": "aux.",
+            "meaning": "助动词"
           },
           {
-            "word": "It",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "water",
+            "pos": "v.",
+            "meaning": "浇水"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -132,7 +288,28 @@
       "startTime": 29.52,
       "endTime": 31.53,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "必须"
+          }
+        ]
       }
     },
     {
@@ -150,12 +327,12 @@
             "meaning": "看"
           },
           {
-            "word": "At",
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "看着"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -170,7 +347,23 @@
       "startTime": 33.02,
       "endTime": 35.4,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
+          },
+          {
+            "word": "terribly",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "dry",
+            "pos": "adj.",
+            "meaning": "干的"
+          }
+        ]
       }
     },
     {
@@ -185,7 +378,17 @@
           {
             "word": "What",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "多么"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "nuisance",
+            "pos": "n.",
+            "meaning": "讨厌的东西/人"
           }
         ]
       }
@@ -200,17 +403,37 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "Last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "summer",
+            "pos": "n.",
+            "meaning": "夏天"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
           },
           {
-            "word": "Too",
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "dry",
+            "pos": "adj.",
+            "meaning": "干的"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -227,9 +450,19 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "remember",
+            "pos": "v.",
+            "meaning": "记得"
           }
         ]
       }
@@ -244,9 +477,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "water",
+            "pos": "v.",
+            "meaning": "浇水"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每一"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
           }
         ]
       }
@@ -262,8 +525,33 @@
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "嗯"
+          },
+          {
+            "word": "I'll",
+            "pos": "pron.+aux.",
+            "meaning": "我会"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "由"
+          },
+          {
+            "word": "myself",
+            "pos": "pron.",
+            "meaning": "我自己"
           }
         ]
       }
@@ -280,7 +568,17 @@
           {
             "word": "That",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "quick",
+            "pos": "adj.",
+            "meaning": "快的"
           }
         ]
       }
@@ -295,9 +593,24 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "finished",
+            "pos": "v.",
+            "meaning": "完成"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
           }
         ]
       }
@@ -332,6 +645,26 @@
             "word": "Look",
             "pos": "v.",
             "meaning": "看"
+          },
+          {
+            "word": "out",
+            "pos": "prep.",
+            "meaning": "外面"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "window",
+            "pos": "n.",
+            "meaning": "窗户"
           }
         ]
       }
@@ -344,7 +677,18 @@
       "startTime": 61.35,
       "endTime": 63.45,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "raining",
+            "pos": "v.",
+            "meaning": "下雨"
+          }
+        ]
       }
     },
     {
@@ -359,12 +703,47 @@
           {
             "word": "That",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
           },
           {
-            "word": "You",
+            "word": "means",
+            "pos": "v.",
+            "meaning": "意味着"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "water",
+            "pos": "v.",
+            "meaning": "浇水"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
           }
         ]
       }
@@ -381,7 +760,27 @@
           {
             "word": "That",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "pleasant",
+            "pos": "adj.",
+            "meaning": "令人愉快的"
+          },
+          {
+            "word": "surprise",
+            "pos": "n.",
+            "meaning": "惊喜"
           }
         ]
       }
@@ -399,6 +798,36 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "means",
+            "pos": "v.",
+            "meaning": "意味着"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "tea",
+            "pos": "n.",
+            "meaning": "茶"
+          },
+          {
+            "word": "instead",
+            "pos": "adv.",
+            "meaning": "反而/却"
           }
         ]
       }

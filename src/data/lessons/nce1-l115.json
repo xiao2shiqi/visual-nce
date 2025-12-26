@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "115",
+            "pos": "num.",
+            "meaning": "一百一十五"
           }
         ]
       }
@@ -27,7 +32,16 @@
       "text": "Knock, knock!",
       "translation": "",
       "startTime": 4.23,
-      "endTime": 6.95
+      "endTime": 6.95,
+      "analysis": {
+        "words": [
+          {
+            "word": "Knock",
+            "pos": "v.",
+            "meaning": "敲"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,9 +53,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -59,6 +108,31 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "Jim",
+            "pos": "n.",
+            "meaning": "吉姆"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "drink",
+            "pos": "v.",
+            "meaning": "喝"
           }
         ]
       }
@@ -73,9 +147,29 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "Isn't",
+            "pos": "v.",
+            "meaning": "不在"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
           }
         ]
       }
@@ -86,7 +180,31 @@
       "text": "I'll knock again, Helen.",
       "translation": "",
       "startTime": 21.56,
-      "endTime": 24.6
+      "endTime": 24.6,
+      "analysis": {
+        "words": [
+          {
+            "word": "I'll",
+            "pos": "pron.+aux.",
+            "meaning": "我会"
+          },
+          {
+            "word": "knock",
+            "pos": "v.",
+            "meaning": "敲"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再一次"
+          },
+          {
+            "word": "Helen",
+            "pos": "n.",
+            "meaning": "海伦"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -98,9 +216,19 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "Everything's",
+            "pos": "pron.+v.",
+            "meaning": "一切都"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "quiet",
+            "pos": "adj.",
+            "meaning": "安静的"
           }
         ]
       }
@@ -115,9 +243,39 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确信的"
+          },
+          {
+            "word": "there's",
+            "pos": "pron.+v.",
+            "meaning": "有"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "人"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
           }
         ]
       }
@@ -128,7 +286,26 @@
       "text": "But that's impossible.",
       "translation": "",
       "startTime": 30.9,
-      "endTime": 33.6
+      "endTime": 33.6,
+      "analysis": {
+        "words": [
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "that's",
+            "pos": "pron.+v.",
+            "meaning": "那"
+          },
+          {
+            "word": "impossible",
+            "pos": "adj.",
+            "meaning": "不可能的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -136,7 +313,46 @@
       "text": "Carol and Tom invited us to lunch.",
       "translation": "",
       "startTime": 33.61,
-      "endTime": 37.79
+      "endTime": 37.79,
+      "analysis": {
+        "words": [
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Tom",
+            "pos": "n.",
+            "meaning": "汤姆"
+          },
+          {
+            "word": "invited",
+            "pos": "v.",
+            "meaning": "邀请"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "吃"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午餐"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -151,6 +367,21 @@
             "word": "Look",
             "pos": "v.",
             "meaning": "看"
+          },
+          {
+            "word": "through",
+            "pos": "prep.",
+            "meaning": "透过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "window",
+            "pos": "n.",
+            "meaning": "窗户"
           }
         ]
       }
@@ -165,9 +396,24 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "anything",
+            "pos": "pron.",
+            "meaning": "任何东西"
           }
         ]
       }
@@ -182,9 +428,19 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "Nothing",
+            "pos": "pron.",
+            "meaning": "没有什么"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "根本"
           }
         ]
       }
@@ -195,7 +451,36 @@
       "text": "Let's try the back door.",
       "translation": "",
       "startTime": 45.78,
-      "endTime": 49.21
+      "endTime": 49.21,
+      "analysis": {
+        "words": [
+          {
+            "word": "Let's",
+            "pos": "let+pron.",
+            "meaning": "让我们"
+          },
+          {
+            "word": "try",
+            "pos": "v.",
+            "meaning": "试试"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "back",
+            "pos": "adj.",
+            "meaning": "后面的"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -210,6 +495,26 @@
             "word": "Look",
             "pos": "v.",
             "meaning": "看"
+          },
+          {
+            "word": "Everyone's",
+            "pos": "pron.+v.",
+            "meaning": "大家在"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
           }
         ]
       }
@@ -220,7 +525,26 @@
       "text": "Hello, Helen. Hello, Jim.",
       "translation": "",
       "startTime": 53.22,
-      "endTime": 57.3
+      "endTime": 57.3,
+      "analysis": {
+        "words": [
+          {
+            "word": "Hello",
+            "pos": "int.",
+            "meaning": "你好"
+          },
+          {
+            "word": "Helen",
+            "pos": "n.",
+            "meaning": "海伦"
+          },
+          {
+            "word": "Jim",
+            "pos": "n.",
+            "meaning": "吉姆"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -228,7 +552,51 @@
       "text": "Everybody wants to have lunch in the garden.",
       "translation": "",
       "startTime": 57.31,
-      "endTime": 61.35
+      "endTime": 61.35,
+      "analysis": {
+        "words": [
+          {
+            "word": "Everybody",
+            "pos": "pron.",
+            "meaning": "每个人"
+          },
+          {
+            "word": "wants",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "lunch",
+            "pos": "n.",
+            "meaning": "午餐"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -240,12 +608,32 @@
       "analysis": {
         "words": [
           {
-            "word": "Nice",
-            "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
           },
           {
-            "word": "Here",
+            "word": "nice",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "温暖的"
+          },
+          {
+            "word": "out",
+            "pos": "adv.",
+            "meaning": "外面"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
             "meaning": "这里"
           }
@@ -258,7 +646,41 @@
       "text": "Come and have something to drink.",
       "translation": "",
       "startTime": 64.91,
-      "endTime": 68.72
+      "endTime": 68.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "Come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "一些东西"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "drink",
+            "pos": "v.",
+            "meaning": "喝"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -271,8 +693,13 @@
         "words": [
           {
             "word": "Thanks",
-            "pos": "n.",
+            "pos": "int.",
             "meaning": "谢谢"
+          },
+          {
+            "word": "Carol",
+            "pos": "n.",
+            "meaning": "卡罗尔"
           }
         ]
       }
@@ -287,7 +714,42 @@
       "analysis": {
         "words": [
           {
-            "word": "Please",
+            "word": "May",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一杯"
+          },
+          {
+            "word": "glass",
+            "pos": "n.",
+            "meaning": "玻璃杯"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "beer",
+            "pos": "n.",
+            "meaning": "啤酒"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -300,7 +762,16 @@
       "text": "Beer?",
       "translation": "",
       "startTime": 74.58,
-      "endTime": 75.71
+      "endTime": 75.71,
+      "analysis": {
+        "words": [
+          {
+            "word": "Beer",
+            "pos": "n.",
+            "meaning": "啤酒"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -308,7 +779,26 @@
       "text": "There's none left.",
       "translation": "",
       "startTime": 75.72,
-      "endTime": 77.86
+      "endTime": 77.86,
+      "analysis": {
+        "words": [
+          {
+            "word": "There's",
+            "pos": "pron.+v.",
+            "meaning": "这里有"
+          },
+          {
+            "word": "none",
+            "pos": "pron.",
+            "meaning": "没有"
+          },
+          {
+            "word": "left",
+            "pos": "adj.",
+            "meaning": "剩下的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -322,7 +812,27 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "lemonade",
+            "pos": "n.",
+            "meaning": "柠檬水"
           }
         ]
       }
@@ -333,7 +843,16 @@
       "text": "Lemonade!",
       "translation": "",
       "startTime": 81.04,
-      "endTime": 82.66
+      "endTime": 82.66,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lemonade",
+            "pos": "n.",
+            "meaning": "柠檬水"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -343,7 +862,28 @@
       "startTime": 82.67,
       "endTime": 84.7,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "believe",
+            "pos": "v.",
+            "meaning": "相信"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "Jim",
+            "pos": "n.",
+            "meaning": "吉姆"
+          }
+        ]
       }
     },
     {
@@ -352,7 +892,26 @@
       "text": "She's only joking.",
       "translation": "",
       "startTime": 84.71,
-      "endTime": 86.58
+      "endTime": 86.58,
+      "analysis": {
+        "words": [
+          {
+            "word": "She's",
+            "pos": "pron.+v.",
+            "meaning": "她正在"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只是"
+          },
+          {
+            "word": "joking",
+            "pos": "v.",
+            "meaning": "开玩笑"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -360,7 +919,26 @@
       "text": "Have some beer!",
       "translation": "",
       "startTime": 86.59,
-      "endTime": 91.59
+      "endTime": 91.59,
+      "analysis": {
+        "words": [
+          {
+            "word": "Have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "beer",
+            "pos": "n.",
+            "meaning": "啤酒"
+          }
+        ]
+      }
     }
   ]
 }

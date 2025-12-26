@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "113",
+            "pos": "num.",
+            "meaning": "一百一十三"
           }
         ]
       }
@@ -27,7 +32,21 @@
       "text": "Small change",
       "translation": "",
       "startTime": 3.88,
-      "endTime": 6.47
+      "endTime": 6.47,
+      "analysis": {
+        "words": [
+          {
+            "word": "Small",
+            "pos": "adj.",
+            "meaning": "小"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "零钱"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -52,7 +71,41 @@
       "text": "Who has got some small change?",
       "translation": "",
       "startTime": 11.98,
-      "endTime": 17.38
+      "endTime": 17.38,
+      "analysis": {
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "零钱"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -64,7 +117,12 @@
       "analysis": {
         "words": [
           {
-            "word": "Please",
+            "word": "Fares",
+            "pos": "n.",
+            "meaning": "票款"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -81,7 +139,17 @@
       "analysis": {
         "words": [
           {
-            "word": "Please",
+            "word": "Trafalgar",
+            "pos": "n.",
+            "meaning": "特拉法加"
+          },
+          {
+            "word": "Square",
+            "pos": "n.",
+            "meaning": "广场"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -98,12 +166,17 @@
       "analysis": {
         "words": [
           {
-            "word": "Sorry",
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
           },
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -116,7 +189,41 @@
       "text": "I can't change a ten-pound note.",
       "translation": "",
       "startTime": 24.17,
-      "endTime": 28.13
+      "endTime": 28.13,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "change",
+            "pos": "v.",
+            "meaning": "兑换"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "ten-pound",
+            "pos": "adj.",
+            "meaning": "十英镑的"
+          },
+          {
+            "word": "note",
+            "pos": "n.",
+            "meaning": "纸币"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -128,9 +235,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Haven't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "零钱"
           }
         ]
       }
@@ -141,7 +273,36 @@
       "text": "I've got no small change,",
       "translation": "",
       "startTime": 31.97,
-      "endTime": 34.52
+      "endTime": 34.52,
+      "analysis": {
+        "words": [
+          {
+            "word": "I've",
+            "pos": "pron.+aux.",
+            "meaning": "我有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "零钱"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -151,7 +312,23 @@
       "startTime": 34.53,
       "endTime": 36.5,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕"
+          }
+        ]
       }
     },
     {
@@ -160,7 +337,41 @@
       "text": "I'll ask some of the passengers.",
       "translation": "",
       "startTime": 36.51,
-      "endTime": 40.18
+      "endTime": 40.18,
+      "analysis": {
+        "words": [
+          {
+            "word": "I'll",
+            "pos": "pron.+aux.",
+            "meaning": "我会"
+          },
+          {
+            "word": "ask",
+            "pos": "v.",
+            "meaning": "问"
+          },
+          {
+            "word": "some",
+            "pos": "pron.",
+            "meaning": "一些"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那些"
+          },
+          {
+            "word": "passengers",
+            "pos": "n.",
+            "meaning": "乘客"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -172,12 +383,32 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Have",
+            "pos": "aux.",
+            "meaning": "有"
           },
           {
-            "word": "Sir",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "零钱"
+          },
+          {
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -194,7 +425,12 @@
       "analysis": {
         "words": [
           {
-            "word": "Sorry",
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
           }
@@ -207,7 +443,26 @@
       "text": "I've got none.",
       "translation": "",
       "startTime": 44.96,
-      "endTime": 48
+      "endTime": 48,
+      "analysis": {
+        "words": [
+          {
+            "word": "I've",
+            "pos": "pron.+aux.",
+            "meaning": "我有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "none",
+            "pos": "pron.",
+            "meaning": "没有"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -215,7 +470,36 @@
       "text": "I haven't got any either.",
       "translation": "",
       "startTime": 48.01,
-      "endTime": 51.79
+      "endTime": 51.79,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "haven't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "any",
+            "pos": "pron.",
+            "meaning": "任何"
+          },
+          {
+            "word": "either",
+            "pos": "adv.",
+            "meaning": "也"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -227,14 +511,39 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "aux.",
+            "meaning": "能"
           },
           {
-            "word": "This",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
+          },
+          {
+            "word": "change",
+            "pos": "v.",
+            "meaning": "兑换"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这张"
+          },
+          {
+            "word": "ten-pound",
+            "pos": "adj.",
+            "meaning": "十英镑的"
+          },
+          {
+            "word": "note",
+            "pos": "n.",
+            "meaning": "纸币"
+          },
+          {
+            "word": "madam",
+            "pos": "n.",
+            "meaning": "女士"
           }
         ]
       }
@@ -245,7 +554,31 @@
       "text": "I'm afraid I can't.",
       "translation": "",
       "startTime": 56.84,
-      "endTime": 60.12
+      "endTime": 60.12,
+      "analysis": {
+        "words": [
+          {
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -255,7 +588,23 @@
       "startTime": 60.13,
       "endTime": 62.93,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Neither",
+            "pos": "adv.",
+            "meaning": "也不"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          }
+        ]
       }
     },
     {
@@ -268,17 +617,22 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
           },
           {
-            "word": "Sorry",
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
             "meaning": "抱歉的"
           },
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -297,7 +651,32 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "下"
+          },
+          {
+            "word": "off",
+            "pos": "prep.",
+            "meaning": "离开"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这辆"
+          },
+          {
+            "word": "bus",
+            "pos": "n.",
+            "meaning": "公共汽车"
           }
         ]
       }
@@ -312,9 +691,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "None",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "没有一个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "passengers",
+            "pos": "n.",
+            "meaning": "乘客"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "change",
+            "pos": "v.",
+            "meaning": "兑换"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这张"
+          },
+          {
+            "word": "note",
+            "pos": "n.",
+            "meaning": "纸币"
           }
         ]
       }
@@ -325,7 +739,26 @@
       "text": "They're all millionaires!",
       "translation": "",
       "startTime": 73.63,
-      "endTime": 76.35
+      "endTime": 76.35,
+      "analysis": {
+        "words": [
+          {
+            "word": "They're",
+            "pos": "pron.+v.",
+            "meaning": "他们是"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "都"
+          },
+          {
+            "word": "millionaires",
+            "pos": "n.",
+            "meaning": "百万富翁"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -333,7 +766,21 @@
       "text": "Except us.",
       "translation": "",
       "startTime": 76.36,
-      "endTime": 79.35
+      "endTime": 79.35,
+      "analysis": {
+        "words": [
+          {
+            "word": "Except",
+            "pos": "prep.",
+            "meaning": "除了"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -341,7 +788,36 @@
       "text": "I've got some small change.",
       "translation": "",
       "startTime": 79.36,
-      "endTime": 82.95
+      "endTime": 82.95,
+      "analysis": {
+        "words": [
+          {
+            "word": "I've",
+            "pos": "pron.+aux.",
+            "meaning": "我有"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "零钱"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -349,7 +825,26 @@
       "text": "So have I.",
       "translation": "",
       "startTime": 82.96,
-      "endTime": 87.96
+      "endTime": 87.96,
+      "analysis": {
+        "words": [
+          {
+            "word": "So",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "有"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          }
+        ]
+      }
     }
   ]
 }

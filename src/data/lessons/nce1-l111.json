@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "111",
+            "pos": "num.",
+            "meaning": "一百一十一"
           }
         ]
       }
@@ -27,7 +32,31 @@
       "text": "The most expensive model",
       "translation": "",
       "startTime": 4.25,
-      "endTime": 8.01
+      "endTime": 8.01,
+      "analysis": {
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵的"
+          },
+          {
+            "word": "model",
+            "pos": "n.",
+            "meaning": "型号"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,9 +68,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -56,14 +120,64 @@
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "Can",
+            "pos": "aux.",
+            "meaning": "能"
           },
           {
-            "word": "It",
+            "word": "Mr.",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "Frith",
+            "pos": "n.",
+            "meaning": "弗里斯"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这台"
+          },
+          {
+            "word": "television",
+            "pos": "n.",
+            "meaning": "电视"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "instalments",
+            "pos": "n.",
+            "meaning": "分期付款"
+          },
+          {
+            "word": "How",
+            "pos": "adv.",
+            "meaning": "怎样"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "work",
+            "pos": "v.",
+            "meaning": "运作"
           }
         ]
       }
@@ -78,17 +192,32 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
           },
           {
-            "word": "Very",
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这台"
+          },
+          {
+            "word": "television",
+            "pos": "n.",
+            "meaning": "电视"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
           },
           {
-            "word": "Much",
+            "word": "much",
             "pos": "adv.",
             "meaning": "非常"
           }
@@ -107,17 +236,27 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "多少"
           },
           {
-            "word": "Much",
+            "word": "much",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "多"
           },
           {
-            "word": "It",
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "cost",
+            "pos": "v.",
+            "meaning": "花费"
           }
         ]
       }
@@ -130,7 +269,48 @@
       "startTime": 30.53,
       "endTime": 34.6,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵的"
+          },
+          {
+            "word": "model",
+            "pos": "n.",
+            "meaning": "型号"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "shop",
+            "pos": "n.",
+            "meaning": "商店"
+          }
+        ]
       }
     },
     {
@@ -148,9 +328,24 @@
             "meaning": "它"
           },
           {
-            "word": "Five",
+            "word": "costs",
+            "pos": "v.",
+            "meaning": "花费"
+          },
+          {
+            "word": "five",
             "pos": "num.",
             "meaning": "五"
+          },
+          {
+            "word": "hundred",
+            "pos": "num.",
+            "meaning": "百"
+          },
+          {
+            "word": "pounds",
+            "pos": "n.",
+            "meaning": "英镑"
           }
         ]
       }
@@ -165,9 +360,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Too",
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "太"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对...来说"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们"
           }
         ]
       }
@@ -182,9 +397,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "We",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我们"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "afford",
+            "pos": "v.",
+            "meaning": "负担得起"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
+            "meaning": "那笔"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
           }
         ]
       }
@@ -200,13 +440,38 @@
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "model's",
+            "pos": "n.+v.",
+            "meaning": "型号是"
+          },
+          {
+            "word": "less",
+            "pos": "adv.",
+            "meaning": "更少"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵"
+          },
+          {
+            "word": "than",
+            "pos": "prep.",
+            "meaning": "比"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
             "meaning": "那个"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个"
           }
         ]
       }
@@ -219,7 +484,33 @@
       "startTime": 50.08,
       "endTime": 53.05,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只有"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "hundred",
+            "pos": "num.",
+            "meaning": "百"
+          },
+          {
+            "word": "pounds",
+            "pos": "n.",
+            "meaning": "英镑"
+          }
+        ]
       }
     },
     {
@@ -232,9 +523,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "course",
+            "pos": "n.",
+            "meaning": "过程"
+          },
+          {
+            "word": "it's",
+            "pos": "pron.+v.",
+            "meaning": "它"
+          },
+          {
+            "word": "not",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "as",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "像...一样"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "像"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵的"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个"
           }
         ]
       }
@@ -249,9 +590,29 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "model",
+            "pos": "n.",
+            "meaning": "型号"
           }
         ]
       }
@@ -264,7 +625,58 @@
       "startTime": 62.78,
       "endTime": 69.35,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "另外"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "model's",
+            "pos": "n.+v.",
+            "meaning": "型号是"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it's",
+            "pos": "pron.+v.",
+            "meaning": "它"
+          },
+          {
+            "word": "worth",
+            "pos": "adj.",
+            "meaning": "值得"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这笔"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          }
+        ]
       }
     },
     {
@@ -277,9 +689,34 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "Can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "instalments",
+            "pos": "n.",
+            "meaning": "分期付款"
           }
         ]
       }
@@ -290,7 +727,21 @@
       "text": "Of course.",
       "translation": "",
       "startTime": 73.12,
-      "endTime": 74.58
+      "endTime": 74.58,
+      "analysis": {
+        "words": [
+          {
+            "word": "Of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "course",
+            "pos": "n.",
+            "meaning": "过程"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -304,7 +755,42 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "pay",
+            "pos": "v.",
+            "meaning": "支付"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一笔"
+          },
+          {
+            "word": "deposit",
+            "pos": "n.",
+            "meaning": "定金"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "为"
+          },
+          {
+            "word": "thirty",
+            "pos": "num.",
+            "meaning": "三十"
+          },
+          {
+            "word": "pounds",
+            "pos": "n.",
+            "meaning": "英镑"
           }
         ]
       }
@@ -315,7 +801,56 @@
       "text": "and then fourteen pounds a month for three years.",
       "translation": "",
       "startTime": 78.63,
-      "endTime": 84.53
+      "endTime": 84.53,
+      "analysis": {
+        "words": [
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "fourteen",
+            "pos": "num.",
+            "meaning": "十四"
+          },
+          {
+            "word": "pounds",
+            "pos": "n.",
+            "meaning": "英镑"
+          },
+          {
+            "word": "a",
+            "pos": "prep.",
+            "meaning": "每一"
+          },
+          {
+            "word": "month",
+            "pos": "n.",
+            "meaning": "月"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "持续"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -327,14 +862,29 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Do",
+            "pos": "aux.",
+            "meaning": "助动词"
           },
           {
-            "word": "It",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "dear",
+            "pos": "n.",
+            "meaning": "亲爱的"
           }
         ]
       }
@@ -347,7 +897,53 @@
       "startTime": 87.69,
       "endTime": 93,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "certainly",
+            "pos": "adv.",
+            "meaning": "当然"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "price",
+            "pos": "n.",
+            "meaning": "价格"
+          }
+        ]
       }
     },
     {
@@ -362,10 +958,50 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "It",
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "最"
+          },
+          {
+            "word": "best",
+            "pos": "adj.",
+            "meaning": "最好的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "afford",
+            "pos": "v.",
+            "meaning": "负担"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -382,9 +1018,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Sometimes",
+            "pos": "adv.",
+            "meaning": "有时"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "以为"
+          },
+          {
+            "word": "you're",
+            "pos": "pron.+v.",
+            "meaning": "你是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "millionaire",
+            "pos": "n.",
+            "meaning": "百万富翁"
           }
         ]
       }
@@ -395,7 +1056,41 @@
       "text": "Millionaires don't buy things on instalments!",
       "translation": "",
       "startTime": 105.28,
-      "endTime": 110.28
+      "endTime": 110.28,
+      "analysis": {
+        "words": [
+          {
+            "word": "Millionaires",
+            "pos": "n.",
+            "meaning": "百万富翁"
+          },
+          {
+            "word": "don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "东西"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "instalments",
+            "pos": "n.",
+            "meaning": "分期付款"
+          }
+        ]
+      }
     }
   ]
 }

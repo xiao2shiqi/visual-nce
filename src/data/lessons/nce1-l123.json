@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "123",
+            "pos": "num.",
+            "meaning": "一百二十三"
           }
         ]
       }
@@ -27,7 +32,31 @@
       "text": "A trip to Australia",
       "translation": "",
       "startTime": 4,
-      "endTime": 7.34
+      "endTime": 7.34,
+      "analysis": {
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一次"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -56,14 +85,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Man",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "留着"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "beard",
+            "pos": "n.",
+            "meaning": "胡子"
           }
         ]
       }
@@ -81,6 +135,11 @@
             "word": "Look",
             "pos": "v.",
             "meaning": "看"
+          },
+          {
+            "word": "Scott",
+            "pos": "n.",
+            "meaning": "斯科特"
           }
         ]
       }
@@ -97,17 +156,57 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "My",
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "photograph",
+            "pos": "n.",
+            "meaning": "照片"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "took",
+            "pos": "v.",
+            "meaning": "拍"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在...期间"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
           }
         ]
       }
@@ -122,14 +221,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "Let",
+            "pos": "v.",
+            "meaning": "让"
           },
           {
-            "word": "It",
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "Mike",
+            "pos": "n.",
+            "meaning": "迈克"
           }
         ]
       }
@@ -146,12 +260,27 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "photograph",
+            "pos": "n.",
+            "meaning": "照片"
           }
         ]
       }
@@ -164,7 +293,28 @@
       "startTime": 31.95,
       "endTime": 35.03,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "these",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人"
+          }
+        ]
       }
     },
     {
@@ -173,7 +323,46 @@
       "text": "They're people I met during the trip.",
       "translation": "",
       "startTime": 35.04,
-      "endTime": 39.48
+      "endTime": 39.48,
+      "analysis": {
+        "words": [
+          {
+            "word": "They're",
+            "pos": "pron.+v.",
+            "meaning": "他们是"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "met",
+            "pos": "v.",
+            "meaning": "遇到"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在...期间"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -181,7 +370,41 @@
       "text": "That's the ship we travelled on.",
       "translation": "",
       "startTime": 39.49,
-      "endTime": 42.38
+      "endTime": 42.38,
+      "analysis": {
+        "words": [
+          {
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这艘"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "travelled",
+            "pos": "v.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -195,7 +418,22 @@
           {
             "word": "What",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "多么"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一艘"
+          },
+          {
+            "word": "beautiful",
+            "pos": "adj.",
+            "meaning": "美丽的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
           }
         ]
       }
@@ -210,9 +448,14 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "Who's",
+            "pos": "pron.+v.",
+            "meaning": "是谁"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           }
         ]
       }
@@ -227,14 +470,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
           },
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
           }
         ]
       }
@@ -245,7 +513,16 @@
       "text": "Remember?",
       "translation": "",
       "startTime": 50.19,
-      "endTime": 51.57
+      "endTime": 51.57,
+      "analysis": {
+        "words": [
+          {
+            "word": "Remember",
+            "pos": "v.",
+            "meaning": "记得吗"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -257,7 +534,12 @@
       "analysis": {
         "words": [
           {
-            "word": "Yes",
+            "word": "Ah",
+            "pos": "int.",
+            "meaning": "啊"
+          },
+          {
+            "word": "yes",
             "pos": "adv.",
             "meaning": "是的"
           }
@@ -274,9 +556,49 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "那个"
+          },
+          {
+            "word": "one",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "人"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "offered",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一份"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
           }
         ]
       }
@@ -287,7 +609,21 @@
       "text": "That's right.",
       "translation": "",
       "startTime": 57.44,
-      "endTime": 58.89
+      "endTime": 58.89,
+      "analysis": {
+        "words": [
+          {
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "对的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -299,9 +635,14 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "Who's",
+            "pos": "pron.+v.",
+            "meaning": "是谁"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           }
         ]
       }
@@ -312,7 +653,16 @@
       "text": "Guess!",
       "translation": "",
       "startTime": 60.64,
-      "endTime": 61.73
+      "endTime": 61.73,
+      "analysis": {
+        "words": [
+          {
+            "word": "Guess",
+            "pos": "v.",
+            "meaning": "猜"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -324,22 +674,27 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "It's",
+            "pos": "pron.+v.",
+            "meaning": "它是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不是"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -352,7 +707,21 @@
       "text": "That's right.",
       "translation": "",
       "startTime": 64.17,
-      "endTime": 66.72
+      "endTime": 66.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "对的"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -364,9 +733,84 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "grew",
+            "pos": "v.",
+            "meaning": "留"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "beard",
+            "pos": "n.",
+            "meaning": "胡子"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在...期间"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "shaved",
+            "pos": "v.",
+            "meaning": "剃"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "off",
+            "pos": "adv.",
+            "meaning": "掉"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "came",
+            "pos": "v.",
+            "meaning": "回"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
           }
         ]
       }
@@ -381,14 +825,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
           },
           {
-            "word": "It",
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "要做"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "shave",
+            "pos": "v.",
+            "meaning": "剃"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "off",
+            "pos": "adv.",
+            "meaning": "掉"
           }
         ]
       }
@@ -408,7 +872,22 @@
             "meaning": "我的"
           },
           {
-            "word": "It",
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "didn't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }

@@ -14,19 +14,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Can",
+            "pos": "aux.",
+            "meaning": "能"
           },
           {
-            "word": "That",
+            "word": "you",
             "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "recognize",
+            "pos": "v.",
+            "meaning": "认出"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
             "meaning": "那个"
           },
           {
-            "word": "Woman",
+            "word": "woman",
             "pos": "n.",
             "meaning": "女人"
+          },
+          {
+            "word": "Liz",
+            "pos": "n.",
+            "meaning": "莉兹"
           }
         ]
       }
@@ -40,7 +55,33 @@
       "endTime": 28.26,
       "image": "/images/nce1/l127/scene1.png",
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "Kate",
+            "pos": "n.",
+            "meaning": "凯特"
+          }
+        ]
       }
     },
     {
@@ -57,6 +98,36 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "actress",
+            "pos": "n.",
+            "meaning": "女演员"
           }
         ]
       }
@@ -68,7 +139,26 @@
       "translation": "我也这么认为。",
       "startTime": 33.29,
       "endTime": 35.35,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "thought",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "这样"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -81,9 +171,24 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "Who's",
+            "pos": "pron.+v.",
+            "meaning": "是谁"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
+          },
+          {
+            "word": "beside",
+            "pos": "prep.",
+            "meaning": "在...旁边"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
           }
         ]
       }
@@ -101,7 +206,27 @@
           {
             "word": "That",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Conrad",
+            "pos": "n.",
+            "meaning": "康拉德"
+          },
+          {
+            "word": "Reeves",
+            "pos": "n.",
+            "meaning": "里夫斯"
           }
         ]
       }
@@ -113,7 +238,31 @@
       "translation": "康拉德·里夫斯，那位演员？",
       "startTime": 42.79,
       "endTime": 45.9,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "Conrad",
+            "pos": "n.",
+            "meaning": "康拉德"
+          },
+          {
+            "word": "Reeves",
+            "pos": "n.",
+            "meaning": "里夫斯"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "actor",
+            "pos": "n.",
+            "meaning": "男演员"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -129,6 +278,16 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不可能"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
           }
         ]
       }
@@ -144,14 +303,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "Let",
+            "pos": "v.",
+            "meaning": "让"
           },
           {
-            "word": "Look",
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
             "pos": "v.",
-            "meaning": "看"
+            "meaning": "有"
+          },
+          {
+            "word": "another",
+            "pos": "det.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "look",
+            "pos": "n.",
+            "meaning": "看/眼神"
           }
         ]
       }
@@ -163,7 +337,31 @@
       "translation": "我觉得你是对的！",
       "startTime": 51.49,
       "endTime": 53.61,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "you're",
+            "pos": "pron.+v.",
+            "meaning": "你是"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "对的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -174,7 +372,33 @@
       "endTime": 57.45,
       "image": "/images/nce1/l127/scene1.png",
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Isn't",
+            "pos": "v.",
+            "meaning": "不是"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "third",
+            "pos": "num.",
+            "meaning": "第三个"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          }
+        ]
       }
     },
     {
@@ -184,7 +408,16 @@
       "translation": "不是。",
       "startTime": 57.46,
       "endTime": 58.9,
-      "image": "/images/nce1/l127/scene1.png"
+      "image": "/images/nce1/l127/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -195,7 +428,43 @@
       "endTime": 63.88,
       "image": "/images/nce1/l127/scene1.png",
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "fourth",
+            "pos": "num.",
+            "meaning": "第四个"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "fifth",
+            "pos": "num.",
+            "meaning": "第五个"
+          }
+        ]
       }
     },
     {
@@ -209,14 +478,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
+            "word": "Doesn't",
+            "pos": "aux.",
+            "meaning": "不"
           },
           {
-            "word": "Old",
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "凯伦"
+          },
+          {
+            "word": "Marsh",
+            "pos": "n.",
+            "meaning": "马什"
+          },
+          {
+            "word": "look",
+            "pos": "v.",
+            "meaning": "看起来"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "老的"
           }
         ]
       }
@@ -230,7 +514,28 @@
       "endTime": 71.02,
       "image": "/images/nce1/l127/scene1.png",
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "does",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "doesn't",
+            "pos": "v.",
+            "meaning": "不是"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          }
+        ]
       }
     },
     {
@@ -244,9 +549,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "read",
+            "pos": "v.",
+            "meaning": "读到"
+          },
+          {
+            "word": "she's",
+            "pos": "pron.+v.",
+            "meaning": "她是"
+          },
+          {
+            "word": "twenty-nine",
+            "pos": "num.",
+            "meaning": "二十九"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "least",
+            "pos": "adj.",
+            "meaning": "最少"
+          },
+          {
+            "word": "forty",
+            "pos": "num.",
+            "meaning": "四十"
           }
         ]
       }
@@ -262,7 +617,22 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确信的"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -280,12 +650,57 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
           },
           {
-            "word": "School",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一位"
+          },
+          {
+            "word": "famous",
+            "pos": "adj.",
+            "meaning": "著名的"
+          },
+          {
+            "word": "actress",
+            "pos": "n.",
+            "meaning": "女演员"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
           }
@@ -305,10 +720,40 @@
           {
             "word": "That",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那"
           },
           {
-            "word": "It",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "wasn't",
+            "pos": "v.",
+            "meaning": "不是"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -328,12 +773,22 @@
           {
             "word": "Not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "that",
+            "pos": "adv.",
+            "meaning": "那么"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }
@@ -349,9 +804,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "than",
+            "pos": "prep.",
+            "meaning": "比"
+          },
+          {
+            "word": "twenty-nine",
+            "pos": "num.",
+            "meaning": "二十九"
+          },
+          {
+            "word": "myself",
+            "pos": "pron.",
+            "meaning": "我自己"
           }
         ]
       }

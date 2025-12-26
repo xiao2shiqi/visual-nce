@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "117",
+            "pos": "num.",
+            "meaning": "一百一十七"
           }
         ]
       }
@@ -27,7 +32,21 @@
       "text": "Tommy's breakfast",
       "translation": "",
       "startTime": 4.5,
-      "endTime": 7.34
+      "endTime": 7.34,
+      "analysis": {
+        "words": [
+          {
+            "word": "Tommy's",
+            "pos": "n.",
+            "meaning": "汤米的"
+          },
+          {
+            "word": "breakfast",
+            "pos": "n.",
+            "meaning": "早餐"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,9 +58,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -59,6 +113,51 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "mean",
+            "pos": "v.",
+            "meaning": "意思"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "改变/零钱"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "最后的"
+          },
+          {
+            "word": "sentence",
+            "pos": "n.",
+            "meaning": "句子"
           }
         ]
       }
@@ -73,14 +172,59 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "走"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "dining",
+            "pos": "n.",
+            "meaning": "餐厅"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "今天"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早上"
           }
         ]
       }
@@ -91,7 +235,46 @@
       "text": "he dropped some coins on the floor.",
       "translation": "",
       "startTime": 27.2,
-      "endTime": 31.53
+      "endTime": 31.53,
+      "analysis": {
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "dropped",
+            "pos": "v.",
+            "meaning": "掉"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "coins",
+            "pos": "n.",
+            "meaning": "硬币"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "floor",
+            "pos": "n.",
+            "meaning": "地板"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -99,7 +282,31 @@
       "text": "There were coins everywhere.",
       "translation": "",
       "startTime": 31.54,
-      "endTime": 34.95
+      "endTime": 34.95,
+      "analysis": {
+        "words": [
+          {
+            "word": "There",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "coins",
+            "pos": "n.",
+            "meaning": "硬币"
+          },
+          {
+            "word": "everywhere",
+            "pos": "adv.",
+            "meaning": "到处"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -111,9 +318,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "looked",
+            "pos": "v.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "全部"
           }
         ]
       }
@@ -124,7 +381,36 @@
       "text": "While we were having breakfast,",
       "translation": "",
       "startTime": 41.1,
-      "endTime": 44.41
+      "endTime": 44.41,
+      "analysis": {
+        "words": [
+          {
+            "word": "While",
+            "pos": "conj.",
+            "meaning": "当...时候"
+          },
+          {
+            "word": "we",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "having",
+            "pos": "v.",
+            "meaning": "吃"
+          },
+          {
+            "word": "breakfast",
+            "pos": "n.",
+            "meaning": "早餐"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -134,7 +420,63 @@
       "startTime": 44.42,
       "endTime": 52.55,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "little",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "boy",
+            "pos": "n.",
+            "meaning": "男孩"
+          },
+          {
+            "word": "Tommy",
+            "pos": "n.",
+            "meaning": "汤米"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "coins",
+            "pos": "n.",
+            "meaning": "硬币"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "floor",
+            "pos": "n.",
+            "meaning": "地板"
+          }
+        ]
       }
     },
     {
@@ -145,7 +487,43 @@
       "startTime": 52.56,
       "endTime": 57.15,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "put",
+            "pos": "v.",
+            "meaning": "放"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "both",
+            "pos": "adv.",
+            "meaning": "都"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "mouth",
+            "pos": "n.",
+            "meaning": "嘴"
+          }
+        ]
       }
     },
     {
@@ -158,14 +536,64 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "both",
+            "pos": "pron.",
+            "meaning": "俩"
+          },
+          {
+            "word": "tried",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "拿"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "coins",
+            "pos": "n.",
+            "meaning": "硬币"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Too",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "太"
+          },
+          {
+            "word": "late",
+            "pos": "adj.",
+            "meaning": "晚"
           }
         ]
       }
@@ -176,7 +604,36 @@
       "text": "Tommy had already swallowed them!",
       "translation": "",
       "startTime": 63.56,
-      "endTime": 69.89
+      "endTime": 69.89,
+      "analysis": {
+        "words": [
+          {
+            "word": "Tommy",
+            "pos": "n.",
+            "meaning": "汤米"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "swallowed",
+            "pos": "v.",
+            "meaning": "吞下"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -188,9 +645,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "Late",
+            "pos": "adj.",
+            "meaning": "晚"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
+            "meaning": "那天"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早上"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "housework",
+            "pos": "n.",
+            "meaning": "家务"
           }
         ]
       }
@@ -210,9 +707,34 @@
             "meaning": "我的"
           },
           {
-            "word": "Me",
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          },
+          {
+            "word": "phoned",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
           }
         ]
       }
@@ -223,7 +745,31 @@
       "text": "'How's Tommy?' he asked.",
       "translation": "",
       "startTime": 80.36,
-      "endTime": 83.99
+      "endTime": 83.99,
+      "analysis": {
+        "words": [
+          {
+            "word": "How's",
+            "pos": "adv.+v.",
+            "meaning": "怎么样"
+          },
+          {
+            "word": "Tommy",
+            "pos": "n.",
+            "meaning": "汤米"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "问"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -231,7 +777,36 @@
       "text": "'I don't know,' I answered,",
       "translation": "",
       "startTime": 84,
-      "endTime": 87.55
+      "endTime": 87.55,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "answered",
+            "pos": "v.",
+            "meaning": "回答"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -243,9 +818,84 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "Tommy's",
+            "pos": "n.+v.",
+            "meaning": "汤米已经"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "toilet",
+            "pos": "n.",
+            "meaning": "厕所"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "times",
+            "pos": "n.",
+            "meaning": "次"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "今天"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早上"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
+          },
+          {
+            "word": "haven't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "零钱/改变"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还"
           }
         ]
       }

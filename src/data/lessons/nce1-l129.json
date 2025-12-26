@@ -17,6 +17,11 @@
             "word": "Look",
             "pos": "v.",
             "meaning": "看"
+          },
+          {
+            "word": "Gary",
+            "pos": "n.",
+            "meaning": "加里"
           }
         ]
       }
@@ -33,13 +38,28 @@
         "words": [
           {
             "word": "That",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "那个"
           },
           {
-            "word": "You",
+            "word": "policeman's",
+            "pos": "n.+v.",
+            "meaning": "警察正在"
+          },
+          {
+            "word": "waving",
+            "pos": "v.",
+            "meaning": "挥手"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -55,9 +75,29 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "他"
+          },
+          {
+            "word": "wants",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "stop",
+            "pos": "v.",
+            "meaning": "停止"
           }
         ]
       }
@@ -73,9 +113,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "do",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "在"
           }
         ]
       }
@@ -87,7 +152,31 @@
       "translation": "在赛道上？",
       "startTime": 31.32,
       "endTime": 33.55,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "On",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一条"
+          },
+          {
+            "word": "race",
+            "pos": "n.",
+            "meaning": "赛跑"
+          },
+          {
+            "word": "track",
+            "pos": "n.",
+            "meaning": "跑道"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -102,12 +191,52 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "At",
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "driving",
+            "pos": "v.",
+            "meaning": "开车"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "以"
+          },
+          {
+            "word": "seventy",
+            "pos": "num.",
+            "meaning": "七十"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "an",
+            "pos": "prep.",
+            "meaning": "每"
+          },
+          {
+            "word": "hour",
+            "pos": "n.",
+            "meaning": "小时"
           }
         ]
       }
@@ -119,7 +248,31 @@
       "translation": "我不可能开那么快。",
       "startTime": 38.88,
       "endTime": 41.84,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不可能"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "是"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -132,9 +285,44 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "eighty",
+            "pos": "num.",
+            "meaning": "八十"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "overtook",
+            "pos": "v.",
+            "meaning": "超过"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -150,9 +338,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Didn't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "speed",
+            "pos": "n.",
+            "meaning": "速度"
+          },
+          {
+            "word": "limit",
+            "pos": "n.",
+            "meaning": "限制"
           }
         ]
       }
@@ -164,7 +377,36 @@
       "translation": "恐怕我没有，警官。",
       "startTime": 49.77,
       "endTime": 52.82,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "恐怕"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "didn't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "officer",
+            "pos": "n.",
+            "meaning": "警官"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -175,7 +417,33 @@
       "endTime": 56,
       "image": "/images/nce1/l129/scene1.png",
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "dreaming",
+            "pos": "v.",
+            "meaning": "做梦"
+          }
+        ]
       }
     },
     {
@@ -185,7 +453,31 @@
       "translation": "他并没有在做梦，警官。",
       "startTime": 56.01,
       "endTime": 58.89,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "wasn't",
+            "pos": "v.",
+            "meaning": "没有"
+          },
+          {
+            "word": "dreaming",
+            "pos": "v.",
+            "meaning": "做梦"
+          },
+          {
+            "word": "officer",
+            "pos": "n.",
+            "meaning": "警官"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -194,7 +486,46 @@
       "translation": "我当时在告诉他要开慢一点。",
       "startTime": 58.9,
       "endTime": 103.45,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "telling",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "drive",
+            "pos": "v.",
+            "meaning": "开车"
+          },
+          {
+            "word": "slowly",
+            "pos": "adv.",
+            "meaning": "慢地"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -203,7 +534,46 @@
       "translation": "这就是为什么我没有看到那个标志的原因。",
       "startTime": 103.46,
       "endTime": 107.79,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "That's",
+            "pos": "pron.+v.",
+            "meaning": "那是"
+          },
+          {
+            "word": "why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "didn't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "sign",
+            "pos": "n.",
+            "meaning": "标志"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -216,14 +586,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "Let",
+            "pos": "v.",
+            "meaning": "让"
           },
           {
-            "word": "Your",
+            "word": "me",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "我"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "driving",
+            "pos": "n.",
+            "meaning": "驾驶"
+          },
+          {
+            "word": "licence",
+            "pos": "n.",
+            "meaning": "执照"
           }
         ]
       }
@@ -239,14 +629,34 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
           },
           {
-            "word": "This",
+            "word": "won't",
+            "pos": "aux.",
+            "meaning": "不会"
+          },
+          {
+            "word": "charge",
+            "pos": "v.",
+            "meaning": "罚款/控告"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "次"
           }
         ]
       }
@@ -262,14 +672,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "It",
+            "word": "you'd",
+            "pos": "pron.+aux.",
+            "meaning": "你最好"
+          },
+          {
+            "word": "better",
+            "pos": "adv.",
+            "meaning": "最好"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
           }
         ]
       }
@@ -290,9 +725,9 @@
             "meaning": "感谢"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           }
         ]
       }
@@ -304,7 +739,36 @@
       "translation": "我一定会更加小心的。",
       "startTime": 119.74,
       "endTime": 123.38,
-      "image": "/images/nce1/l129/scene1.png"
+      "image": "/images/nce1/l129/scene1.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "I'll",
+            "pos": "pron.+aux.",
+            "meaning": "我会"
+          },
+          {
+            "word": "certainly",
+            "pos": "adv.",
+            "meaning": "一定"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "careful",
+            "pos": "adj.",
+            "meaning": "小心的"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -317,9 +781,39 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "drive",
+            "pos": "v.",
+            "meaning": "开车"
+          },
+          {
+            "word": "slowly",
+            "pos": "adv.",
+            "meaning": "慢地"
+          },
+          {
+            "word": "Gary",
+            "pos": "n.",
+            "meaning": "加里"
           }
         ]
       }
@@ -337,12 +831,42 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Me",
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "drive",
+            "pos": "v.",
+            "meaning": "开车"
+          },
+          {
+            "word": "slowly",
+            "pos": "adv.",
+            "meaning": "慢地"
+          },
+          {
+            "word": "darling",
+            "pos": "n.",
+            "meaning": "亲爱的"
           }
         ]
       }
@@ -359,13 +883,43 @@
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "嗯"
           },
           {
-            "word": "My",
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下一次"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "次"
+          },
+          {
+            "word": "you'd",
+            "pos": "pron.+aux.",
+            "meaning": "你最好"
+          },
+          {
+            "word": "better",
+            "pos": "adv.",
+            "meaning": "最好"
+          },
+          {
+            "word": "take",
+            "pos": "v.",
+            "meaning": "听取"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "advice",
+            "pos": "n.",
+            "meaning": "建议"
           }
         ]
       }

@@ -16,7 +16,12 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "课"
+          },
+          {
+            "word": "121",
+            "pos": "num.",
+            "meaning": "一百二十一"
           }
         ]
       }
@@ -31,9 +36,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "戴着"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一顶"
+          },
+          {
+            "word": "hat",
+            "pos": "n.",
+            "meaning": "帽子"
           }
         ]
       }
@@ -61,7 +86,51 @@
       "text": "Why didn't Caroline recognize the customer straight away?",
       "translation": "",
       "startTime": 12.92,
-      "endTime": 20.47
+      "endTime": 20.47,
+      "analysis": {
+        "words": [
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "didn't",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "Caroline",
+            "pos": "n.",
+            "meaning": "卡罗琳"
+          },
+          {
+            "word": "recognize",
+            "pos": "v.",
+            "meaning": "认出"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那个"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "straight",
+            "pos": "adv.",
+            "meaning": "直接"
+          },
+          {
+            "word": "away",
+            "pos": "adv.",
+            "meaning": "离开"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -73,14 +142,94 @@
       "analysis": {
         "words": [
           {
-            "word": "Here",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "bought",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两本"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵的"
+          },
+          {
+            "word": "dictionaries",
+            "pos": "n.",
+            "meaning": "字典"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
             "meaning": "这里"
           },
           {
-            "word": "Me",
+            "word": "half",
+            "pos": "n.",
+            "meaning": "半"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "hour",
+            "pos": "n.",
+            "meaning": "小时"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "我"
+          },
+          {
+            "word": "forgot",
+            "pos": "v.",
+            "meaning": "忘记"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "take",
+            "pos": "v.",
+            "meaning": "带"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "随"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
           }
         ]
       }
@@ -95,12 +244,22 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Who",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "谁"
           },
           {
-            "word": "Sir",
+            "word": "served",
+            "pos": "v.",
+            "meaning": "接待"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -117,9 +276,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "lady",
+            "pos": "n.",
+            "meaning": "女士"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "standing",
+            "pos": "v.",
+            "meaning": "站"
+          },
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在...后面"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "counter",
+            "pos": "n.",
+            "meaning": "柜台"
           }
         ]
       }
@@ -134,9 +328,29 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Which",
+            "pos": "det.",
+            "meaning": "哪"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "buy",
+            "pos": "v.",
+            "meaning": "买"
           }
         ]
       }
@@ -149,7 +363,43 @@
       "startTime": 41.15,
       "endTime": 44.95,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "counter",
+            "pos": "n.",
+            "meaning": "柜台"
+          }
+        ]
       }
     },
     {
@@ -162,14 +412,54 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Did",
+            "pos": "aux.",
+            "meaning": "助动词"
           },
           {
-            "word": "This",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
+          },
+          {
+            "word": "serve",
+            "pos": "v.",
+            "meaning": "接待"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这位"
+          },
+          {
+            "word": "gentleman",
+            "pos": "n.",
+            "meaning": "先生"
+          },
+          {
+            "word": "half",
+            "pos": "n.",
+            "meaning": "半"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "hour",
+            "pos": "n.",
+            "meaning": "小时"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "Caroline",
+            "pos": "n.",
+            "meaning": "卡罗琳"
           }
         ]
       }
@@ -184,9 +474,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "says",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "he's",
+            "pos": "pron.+v.",
+            "meaning": "他是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "bought",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "these",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书"
           }
         ]
       }
@@ -197,7 +527,26 @@
       "text": "I can't remember.",
       "translation": "",
       "startTime": 54.75,
-      "endTime": 57.49
+      "endTime": 57.49,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "can't",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "remember",
+            "pos": "v.",
+            "meaning": "记得"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -209,9 +558,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "served",
+            "pos": "v.",
+            "meaning": "接待"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "wearing",
+            "pos": "v.",
+            "meaning": "穿着"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一顶"
+          },
+          {
+            "word": "hat",
+            "pos": "n.",
+            "meaning": "帽子"
           }
         ]
       }
@@ -226,12 +615,32 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Have",
+            "pos": "aux.",
+            "meaning": "有"
           },
           {
-            "word": "Sir",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一顶"
+          },
+          {
+            "word": "hat",
+            "pos": "n.",
+            "meaning": "帽子"
+          },
+          {
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           }
@@ -251,6 +660,16 @@
             "word": "Yes",
             "pos": "adv.",
             "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "有"
           }
         ]
       }
@@ -265,17 +684,32 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Would",
+            "pos": "aux.",
+            "meaning": "愿意"
           },
           {
-            "word": "It",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "put",
+            "pos": "v.",
+            "meaning": "戴"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Please",
+            "word": "on",
+            "pos": "adv.",
+            "meaning": "上"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
           }
@@ -288,7 +722,21 @@
       "text": "All right.",
       "translation": "",
       "startTime": 70.91,
-      "endTime": 72.7
+      "endTime": 72.7,
+      "analysis": {
+        "words": [
+          {
+            "word": "All",
+            "pos": "adj.",
+            "meaning": "全"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "行"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -305,24 +753,39 @@
             "meaning": "是"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
           },
           {
-            "word": "Man",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "那"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
           },
           {
-            "word": "You",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "served",
+            "pos": "v.",
+            "meaning": "接待"
+          },
+          {
+            "word": "Caroline",
+            "pos": "n.",
+            "meaning": "卡罗琳"
           }
         ]
       }
@@ -350,7 +813,31 @@
       "text": "I recognize him now.",
       "translation": "",
       "startTime": 78.31,
-      "endTime": 83.31
+      "endTime": 83.31,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "recognize",
+            "pos": "v.",
+            "meaning": "认出"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          }
+        ]
+      }
     }
   ]
 }
