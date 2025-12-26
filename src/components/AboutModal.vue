@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref } from 'vue';
 import donationsData from '../data/donations.json';
 
 const showAboutModal = ref(false);
