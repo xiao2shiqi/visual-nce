@@ -1,40 +1,65 @@
-# Visual NCE - 沉浸式新概念英语学习平台
+# 🎨 Visual NCE: 当《新概念英语》遇上吉卜力
 
-![Visual NCE Header](https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=2000&auto=format&fit=crop)
+<p align="center">
+  <img src="public/images/nce1/l121/scene1.jpg" width="600" alt="Visual NCE Splash" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+</p>
 
-## 在线体验
-
-在线体验：[Visual NCE](https://xiao2shiqi.github.io/visual-nce/)
-
-## 🌟 项目愿景 (Vision)
-
-**Visual NCE** 的诞生源于一个核心理念：学习英语的重点在于**听力**与**视觉**的深度融合。我认为，学习语言最高效的方式是实现“音画同步”——即在听到声音的瞬间，大脑能立刻产生对应的视觉画面，而非在脑中进行枯燥的文字和语法的翻译。
-
-基于这一理念，本项目旨在重新定义经典教材《新概念英语》（New Concept English）的学习体验。通过将“视觉情境”与“音频同步”深度结合，我们希望帮助学习者摆脱单纯的死记硬背，在真实、生动的视觉场景中自然地习得语言，实现从“背单词”到“入意境”的跨越。
+<p align="center">
+  <strong>融合 AI 视觉与现代 Web 技术，重构跨越 30 年的英语经典。</strong>
+</p>
 
 ---
 
-## ✨ 功能特色 (Features)
+## 🚀 在线体验
 
-- 🎨 **沉浸式视觉场景**：每一段课文内容都对应精心设计的视觉画面，实现“音、义、图”实时关联。
-- 🎵 **音频精确定位**：点击任意课文脚本，音频将自动跳转至对应时间点，方便反复磨耳朵。
-- 📱 **响应式精品 UI**：采用现代化的设计语言（Glassmorphism），适配桌面与移动端，提供丝滑的交互体验。
-- 🚀 **动态脚本高亮**：课文朗读过程中，当前播放的句子会实时高亮并自动滚动至视野中心。
-- 📚 **全系列覆盖**：支持从《新概念英语》1册到4册的课程选择与学习进度管理。
+**[点击开启治愈学习之旅](https://xiao2shiqi.github.io/visual-nce/)**
 
 ---
 
-## 🚀 启动方式 (Getting Started)
+## 💭 为什么做这个项目？
 
-### 前置要求
-- [Node.js](https://nodejs.org/) (建议 v18.0 或更高版本)
-- [npm](https://www.npmjs.com/) 或 [yarn](https://yarnpkg.com/)
+很多人的童年记忆里，都有一段被《新概念英语》支配的恐惧：“背诵全文”、“磁带复读”、“枯燥的黑白插图”……
 
-### 本地运行
+**Visual NCE** 的想法很简单：
+如果 30 年前的经典教材，能穿上“宫崎骏”的温暖外衣，配上毫秒级的现代交互，学习会不会变成一种享受？
+
+我们不再是**“翻译”**语言，而是在**“浸入”**场景。
+
+---
+
+## ✨ 核心卖点 (Magic Factors)
+
+### 🎨 治愈系重制计划
+我们利用 AI 技术，将全书 144 门课程的插图全部重绘为 **Studio Ghibli（吉卜力）** 风格。每一张封面图都是一个故事，让你的学习列表像精选电影集一样赏心悦目。
+
+### 🎧 丝滑的音画同步
+- **滚动高亮**：课文朗读到哪，文字高亮就跟到哪，视听完全一致。
+- **点击跳转**：想听哪句点哪句，彻底告别手动拉进度条。
+- **无级变速**：支持 0.5x - 2.0x 语速调节，磨耳朵神器。
+
+### 🧠 深度语义解析
+不留任何知识盲区！内置**逐句语法拆解**和**核心词汇分析**。点击句子即可弹出详细卡片，助你真正吃透每一句地道英文。
+
+### 📱 极致终端适配
+采用玻璃拟态（Glassmorphism）设计语言，无论在 5K 显示器还是在手机屏幕上，都能提供丝滑且沉浸的交互体验。
+
+---
+
+## 🛠️ 背后的一砖一瓦 (Tech Stack)
+
+- **框架**: [Vue 3](https://vuejs.org/) (Composition API) - 响应式交互的核心。
+- **构建**: [Vite](https://vitejs.dev/) - 极速的开发与生产构建。
+- **逻辑**: [TypeScript](https://www.typescriptlang.org/) - 确保项目稳如泰山。
+- **视觉**: [TailwindCSS](https://tailwindcss.com/) - 原子化样式，像素级还原设计。
+- **AI 赋能**: Stable Diffusion / Gemini - 为老教材绘制新皮肤。
+
+---
+
+## 🛠️ 本地开发 (Getting Started)
+
 1. **克隆项目**
    ```bash
-   git clone https://github.com/your-username/visual-nce.git
-   cd visual-nce
+   git clone https://github.com/xiao2shiqi/visual-nce.git
    ```
 
 2. **安装依赖**
@@ -42,31 +67,31 @@
    npm install
    ```
 
-3. **启动开发服务器**
+3. **开启传送门**
    ```bash
    npm run dev
    ```
-   启动后访问 `http://localhost:5173`。
-
-4. **项目构建**
-   ```bash
-   npm run build
-   ```
 
 ---
 
-## 🛠️ 技术栈 (Tech Stack)
+## 🤝 参与项目
 
-- **核心框架**: [Vue 3](https://vuejs.org/) (Composition API + SFC)
-- **开发工具**: [Vite](https://vitejs.dev/) - 极速的工程化构建工具
-- **编程语言**: [TypeScript](https://www.typescriptlang.org/) - 强类型逻辑保证
-- **样式处理**: [TailwindCSS](https://tailwindcss.com/) - 响应式及原子化样式库
-- **图标与插画**: [HeroIcons](https://heroicons.com/) + [Unsplash](https://unsplash.com/)
+由于数据量巨大（144 课！），如果你在学习过程中发现了：
+- 翻译错误
+- 断句不准
+- 拼写 Bug
+
+欢迎直接开 **Issue** 或 **Pull Request**。让我们一起完成这份给所有英语学习者的“情怀大礼”。
+
+---
+
+## 📄 许可证 & 声明
+
+本项目采用 **MIT License**。
+
+**🚨 声明**：本项目内容素材取材于《新概念英语》，仅供个人学习、研究与交流使用，**严禁用于任何商业用途**。如果本项目侵犯了您的权益，请联系作者删除。
 
 ---
 
-## 📄 开源协议
-MIT License.
-
----
-@author: xiaobin
+> **“学习，也可以是治愈人心的。”**  
+> —— Author: **xiaobin** | GitHub: [@xiao2shiqi](https://github.com/xiao2shiqi)
