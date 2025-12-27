@@ -283,7 +283,6 @@ onUnmounted(() => {
     <LessonHeader 
       v-if="lessonData"
       :title="lessonData.title"
-      badge="Visual NCE"
       @back="emit('back')"
       @support-click="donationModalRef?.openDonation()"
     />

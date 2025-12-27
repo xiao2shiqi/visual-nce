@@ -1,0 +1,11 @@
+# Visual NCE - Robots.txt
+# Allow all crawlers to index the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://nce.xiao27.com/sitemap.xml
+
+# Disallow admin or private paths (none currently)
+# Disallow: /admin/
