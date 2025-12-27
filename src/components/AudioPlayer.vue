@@ -4,10 +4,12 @@ import { ref, watch } from 'vue';
 const props = defineProps<{
   src: string;
   playbackRate?: number;
+  loop?: boolean;
 }>();
 
 const emit = defineEmits<{
   (e: 'timeupdate', time: number): void;
+  (e: 'ended'): void;
 }>();
 
 const audioRef = ref<HTMLAudioElement | null>(null);
@@ -156,10 +158,12 @@ defineExpose({
     <audio
       ref="audioRef"
       :src="src"
+      :loop="loop"
       @timeupdate="onTimeUpdate"
       @loadedmetadata="onLoadedMetadata"
       @play="onPlay"
       @pause="onPause"
+      @ended="emit('ended')"
     ></audio>
   </div>
 </template>

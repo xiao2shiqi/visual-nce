@@ -13,9 +13,10 @@ defineProps<{
   progress: number;
   segmentsCount: number;
   lessonTitle: string;
+  loop?: boolean;
 }>();
 
-const emit = defineEmits(['timeupdate']);
+const emit = defineEmits(['timeupdate', 'ended']);
 const audioPlayerRef = ref<any>(null);
 
 defineExpose({
@@ -66,7 +67,9 @@ defineExpose({
         ref="audioPlayerRef"
         :src="audioSrc" 
         :playback-rate="playbackRate"
+        :loop="loop"
         @timeupdate="(t) => emit('timeupdate', t)"
+        @ended="emit('ended')"
       />
     </div>
 

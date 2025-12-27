@@ -3,6 +3,7 @@ import { ref, computed, watch, nextTick, onMounted, onUnmounted, shallowRef } fr
 import LessonHeader from '../components/LessonHeader.vue';
 import SceneViewer from '../components/SceneViewer.vue';
 import DialogueScript from '../components/DialogueScript.vue';
+import DonationModal from '../components/DonationModal.vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 
@@ -16,6 +17,7 @@ const props = defineProps<{
 const emit = defineEmits(['back', 'select-course']);
 const sceneViewerRef = ref<any>(null);
 const scriptRef = ref<any>(null);
+const donationModalRef = ref<any>(null);
 
 const currentTime = ref(0);
 const playbackRate = ref(1.0);
@@ -283,6 +285,7 @@ onUnmounted(() => {
       :title="lessonData.title"
       badge="Visual NCE"
       @back="emit('back')"
+      @support-click="donationModalRef?.openDonation()"
     />
 
     <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
@@ -296,6 +299,7 @@ onUnmounted(() => {
           :progress="(lessonData.segments.findIndex((s: any) => s.id === activeSegmentId) + 1) / lessonData.segments.length * 100"
           :segments-count="lessonData.segments.length"
           :lesson-title="lessonData.title"
+          :loop="playMode === 'continuous'"
           @timeupdate="handleTimeUpdate"
         />
 
@@ -359,6 +363,7 @@ onUnmounted(() => {
         <p class="text-sm font-bold text-slate-400 uppercase tracking-widest">Loading Lesson...</p>
       </div>
     </div>
+    <DonationModal ref="donationModalRef" />
   </div>
 </template>
 
