@@ -65,8 +65,8 @@ defineExpose({ openAbout });
               
               <div class="space-y-2">
                 <div>
-                  <a href="https://xiao2shiqi.github.io/about/" target="_blank" class="text-blue-600 font-bold hover:underline transition-all">
-                    https://xiao2shiqi.github.io/about/
+                  <a href="https://blog.xiao27.com" target="_blank" class="text-blue-600 font-bold hover:underline transition-all">
+                    https://blog.xiao27.com
                   </a>
                 </div>
                 
