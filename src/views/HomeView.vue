@@ -64,7 +64,7 @@ defineEmits(['select-course']);
         
         <div class="max-w-3xl mx-auto">
           <p class="text-lg text-slate-600 font-medium leading-relaxed">
-            融合 AI 与现代 Web 技术重构经典。通过沉浸式的场景与音频交互，让《新概念英语》的学习不再枯燥。也让老教材焕发出新的活力。
+            融合 AI 与现代 Web 技术重构经典。通过沉浸式的场景与音频交互，让《新概念英语》的学习不再枯燥，也让老教材焕发出新的活力。也通过这种有趣沉浸式的方式，陪你走过英语学习这段艰难的旅程。
           </p>
         </div>
       </div>
@@ -82,7 +82,7 @@ defineEmits(['select-course']);
           </div>
           <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">吉卜力视觉重制</h3>
           <p class="text-sm text-slate-500 font-medium leading-relaxed">
-            告别枯燥的原版插图。每一课场景都以<span class="text-blue-500 font-bold">温暖治愈的吉卜力风格</span>重新绘制，让英语学习变成一场赏心悦目的视觉之旅。
+            告别枯燥的原版插图。每一课场景都以<span class="text-blue-500 font-bold">温暖治愈的吉卜力风格</span>重新绘制，让英语学习变成一场像看漫画一样的视觉之旅。
           </p>
         </div>
         
@@ -185,24 +185,9 @@ defineEmits(['select-course']);
     </section>
 
     <!-- Footer / Project Info Section -->
-    <footer class="border-t border-slate-100 bg-slate-50/50 py-20 px-6">
+    <footer class="border-t border-slate-100 bg-slate-50/50 py-8 px-6">
       <div class="max-w-6xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div>
-            <h3 class="text-xs font-black text-blue-600 uppercase tracking-widest mb-4">项目背景 / Background</h3>
-            <p class="text-sm text-slate-500 leading-relaxed font-medium">
-              《新概念英语》作为全球最经典的英语教材之一，陪伴了几代人的成长。然而，传统的“录音+课本”模式在移动互联网时代显得有些力不从心。Visual NCE 旨在利用现代 Web 技术，赋予这套经典教材全新的视觉生命力。
-            </p>
-          </div>
-          <div>
-            <h3 class="text-xs font-black text-indigo-600 uppercase tracking-widest mb-4">核心技术 / Technology</h3>
-            <p class="text-sm text-slate-500 leading-relaxed font-medium">
-              基于 Vue 3 和滚动驱动的精准交互，我们实现了毫秒级的音画同步。通过原子化样式与沉浸式 UI 设计，为学习者打造一个无干扰、高效率的数字化语言学习空间。
-            </p>
-          </div>
-        </div>
-        
-        <div class="mt-16 pt-8 border-t border-slate-200/60 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400">
           <p class="text-xs font-bold uppercase tracking-tighter">© 2025 Visual NCE Project</p>
           <div class="flex items-center gap-6 text-xs font-bold uppercase tracking-tighter">
             <span class="hover:text-blue-500 cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">About & Disclaimer</span>
