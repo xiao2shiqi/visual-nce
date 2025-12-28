@@ -10,14 +10,33 @@ const activeBookId = ref('nce1');
 const aboutModalRef = ref<any>(null);
 const donationModalRef = ref<any>(null);
 const feedbackModalRef = ref<any>(null);
+const showComingSoonToast = ref(false);
 
 const activeBook = computed(() => {
   const book = curriculum.books.find(b => b.id === activeBookId.value);
   return (book || curriculum.books[0]) as typeof curriculum.books[0];
 });
 
+// 判断当前册是否为敬请期待状态
+const isComingSoon = computed(() => {
+  return activeBookId.value === 'nce3' || activeBookId.value === 'nce4';
+});
+
+// 处理课程点击
+const handleLessonClick = (lesson: any, emit: any) => {
+  if (isComingSoon.value) {
+    showComingSoonToast.value = true;
+    setTimeout(() => {
+      showComingSoonToast.value = false;
+    }, 2000);
+  } else {
+    emit('select-course', lesson);
+  }
+};
+
 defineEmits(['select-course']);
 </script>
+
 
 <template>
   <div class="home-container min-h-screen">
@@ -143,7 +162,7 @@ defineEmits(['select-course']);
           v-for="lesson in activeBook.lessons" 
           :key="lesson.id"
           class="lesson-item group cursor-pointer"
-          @click="$emit('select-course', lesson)"
+          @click="isComingSoon ? (showComingSoonToast = true, setTimeout(() => showComingSoonToast = false, 2000)) : $emit('select-course', lesson)"
         >
           <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-white shadow-lg ring-1 ring-slate-200/50 transition-all duration-500 group-hover:shadow-blue-200 group-hover:-translate-y-2 group-hover:ring-blue-500/30">
             <!-- Lesson Image -->
@@ -181,6 +200,24 @@ defineEmits(['select-course']);
           <p class="text-slate-400 font-bold uppercase tracking-widest text-xs">Waiting for Content Update</p>
         </div>
       </div>
+
+      <!-- Coming Soon Toast -->
+      <Transition name="toast">
+        <div 
+          v-if="showComingSoonToast" 
+          class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 px-8 py-5 bg-slate-800/95 backdrop-blur-sm text-white rounded-2xl shadow-2xl flex items-center gap-4"
+        >
+          <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 text-amber-400">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+          </div>
+          <div>
+            <p class="font-black text-lg">敬请期待</p>
+            <p class="text-slate-400 text-sm">该课程正在制作中...</p>
+          </div>
+        </div>
+      </Transition>
 
     </section>
 
@@ -233,5 +270,26 @@ defineEmits(['select-course']);
 /* Ensure smooth card transitions */
 .lesson-item {
   perspective: 1000px;
+}
+
+/* Toast animation */
+.toast-enter-active,
+.toast-leave-active {
+  transition: all 0.3s ease;
+}
+
+.toast-enter-from,
+.toast-leave-to {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 </style>

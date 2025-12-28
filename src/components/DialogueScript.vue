@@ -84,7 +84,7 @@ defineExpose({
 <template>
   <div class="lg:col-span-7">
     <!-- Section Title & Controls -->
-    <div class="flex items-center justify-between mb-4">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-4 gap-3 sm:gap-0">
       <div class="flex items-center gap-3">
         <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-gray-100 to-gray-50 flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 text-gray-600">
@@ -94,26 +94,26 @@ defineExpose({
         <h2 class="text-sm font-bold text-gray-900 uppercase tracking-wide whitespace-nowrap">Dialogue Script</h2>      
       </div>
       
-      <div class="flex items-center gap-3">
+      <div class="flex flex-wrap items-center gap-2 sm:gap-3">
         <!-- Play Mode Toggle -->
         <div class="flex items-center bg-gray-100/80 p-0.5 rounded-lg border border-gray-200/50">
           <button 
             @click="emit('update:playMode', 'continuous')"
-            class="px-2.5 py-1 text-[10px] font-bold rounded-md transition-all duration-200"
+            class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
             :class="playMode === 'continuous' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             连读
           </button>
           <button 
             @click="emit('update:playMode', 'single')"
-            class="px-2.5 py-1 text-[10px] font-bold rounded-md transition-all duration-200"
+            class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
             :class="playMode === 'single' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             点读
           </button>
           <button 
             @click="emit('update:playMode', 'repeat')"
-            class="px-2.5 py-1 text-[10px] font-bold rounded-md transition-all duration-200"
+            class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
             :class="playMode === 'repeat' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             循环
@@ -125,7 +125,7 @@ defineExpose({
           <select 
             :value="playbackRate"
             @change="(e) => emit('update:playbackRate', parseFloat((e.target as HTMLSelectElement).value))"
-            class="appearance-none bg-transparent px-2.5 py-1 text-[10px] font-bold text-gray-500 hover:text-blue-600 transition-all cursor-pointer outline-none"
+            class="appearance-none bg-transparent px-3 py-1.5 text-xs font-bold text-gray-500 hover:text-blue-600 transition-all cursor-pointer outline-none"
           >
             <option v-for="rate in playbackRates" :key="rate" :value="rate">
               {{ rate === 1.0 ? '1.0x' : rate + 'x' }}
@@ -137,14 +137,14 @@ defineExpose({
         <div class="flex items-center bg-gray-100/80 p-0.5 rounded-lg border border-gray-200/50">
           <button 
             @click="emit('update:showTranslation', false)"
-            class="px-2.5 py-1 text-[10px] font-bold rounded-md transition-all duration-200"
+            class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
             :class="!showTranslation ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             EN
           </button>
           <button 
             @click="emit('update:showTranslation', true)"
-            class="px-2.5 py-1 text-[10px] font-bold rounded-md transition-all duration-200"
+            class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
             :class="showTranslation ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             EN+CN
