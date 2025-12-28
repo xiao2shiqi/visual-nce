@@ -22,6 +22,7 @@ export interface Analysis {
 export interface Segment {
     id: string;              // 唯一标识符
     role: string;            // 说话人角色（如：Man, Woman, Narrator）
+    speaker?: string;        // 具体的说话人名字（如：Amy, John）
     text: string;            // 英文文本
     translation: string;     // 中文翻译
     startTime: number;       // 开始时间（秒）

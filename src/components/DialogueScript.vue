@@ -43,7 +43,7 @@ const speakerColorMap = computed(() => {
   for (const segment of props.segments) {
     const speaker = segment.speaker;
     if (speaker && !map.has(speaker)) {
-      map.set(speaker, speakerColorPalette[colorIndex % speakerColorPalette.length]);
+      map.set(speaker, speakerColorPalette[colorIndex % speakerColorPalette.length]!);
       colorIndex++;
     }
   }

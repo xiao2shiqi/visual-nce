@@ -23,7 +23,9 @@ const isComingSoon = computed(() => {
 });
 
 // 处理课程点击
-const handleLessonClick = (lesson: any, emit: any) => {
+const emit = defineEmits(['select-course']);
+
+const handleLessonClick = (lesson: any) => {
   if (isComingSoon.value) {
     showComingSoonToast.value = true;
     setTimeout(() => {
@@ -33,8 +35,6 @@ const handleLessonClick = (lesson: any, emit: any) => {
     emit('select-course', lesson);
   }
 };
-
-defineEmits(['select-course']);
 </script>
 
 
@@ -162,7 +162,7 @@ defineEmits(['select-course']);
           v-for="lesson in activeBook.lessons" 
           :key="lesson.id"
           class="lesson-item group cursor-pointer"
-          @click="isComingSoon ? (showComingSoonToast = true, setTimeout(() => showComingSoonToast = false, 2000)) : $emit('select-course', lesson)"
+          @click="handleLessonClick(lesson)"
         >
           <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-white shadow-lg ring-1 ring-slate-200/50 transition-all duration-500 group-hover:shadow-blue-200 group-hover:-translate-y-2 group-hover:ring-blue-500/30">
             <!-- Lesson Image -->
