@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import type { Segment } from '../types/lesson';
 import SentenceAnalysis from './SentenceAnalysis.vue';
 
@@ -24,6 +24,38 @@ const emit = defineEmits([
   'update:showTranslation', 
   'segmentClick'
 ]);
+
+// 预定义的说话人颜色调色板（每个人一个独特颜色）
+const speakerColorPalette = [
+  { bg: 'bg-blue-100', text: 'text-blue-600' },      // 第1个说话人
+  { bg: 'bg-rose-100', text: 'text-rose-600' },      // 第2个说话人
+  { bg: 'bg-emerald-100', text: 'text-emerald-600' },// 第3个说话人
+  { bg: 'bg-violet-100', text: 'text-violet-600' },  // 第4个说话人
+  { bg: 'bg-amber-100', text: 'text-amber-600' },    // 第5个说话人
+  { bg: 'bg-cyan-100', text: 'text-cyan-600' },      // 第6个说话人
+];
+
+// 计算说话人与颜色的映射关系（按出场顺序分配）
+const speakerColorMap = computed(() => {
+  const map = new Map<string, { bg: string; text: string }>();
+  let colorIndex = 0;
+  
+  for (const segment of props.segments) {
+    const speaker = segment.speaker;
+    if (speaker && !map.has(speaker)) {
+      map.set(speaker, speakerColorPalette[colorIndex % speakerColorPalette.length]);
+      colorIndex++;
+    }
+  }
+  
+  return map;
+});
+
+// 获取说话人的颜色类
+const getSpeakerColorClass = (speaker: string): string => {
+  const color = speakerColorMap.value.get(speaker);
+  return color ? `${color.bg} ${color.text}` : 'bg-slate-100 text-slate-500';
+};
 
 
 const activeAnalysisSegment = ref<Segment | null>(null);
@@ -144,6 +176,13 @@ defineExpose({
                 class="text-sm leading-relaxed transition-colors duration-300"
                 :class="activeSegmentId === s.id ? 'text-gray-900 font-semibold' : 'text-gray-600'"
               >
+                <span 
+                  v-if="s.speaker" 
+                  class="inline-block mr-1.5 px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase shadow-sm select-none"
+                  :class="getSpeakerColorClass(s.speaker)"
+                >
+                  {{ s.speaker }}
+                </span>
                 {{ s.text }}
               </p>
               <p 
