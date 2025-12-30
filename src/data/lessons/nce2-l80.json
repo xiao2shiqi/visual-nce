@@ -10,7 +10,10 @@
       "text": "How many people visited the Great Exhibition of 1851?",
       "translation": "有多少人参观了1851年的世博会？",
       "startTime": 10.28,
-      "endTime": 18.19
+      "endTime": 18.19,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +21,21 @@
       "text": "Perhaps the most extraordinary building of the 19th century was the Crystal Palace",
       "translation": "也许19世纪最不寻常的建筑就是水晶宫，",
       "startTime": 18.2,
-      "endTime": 26.03
+      "endTime": 26.03,
+      "analysis": {
+        "words": [
+          {
+            "word": "Crystal",
+            "pos": "n.",
+            "meaning": "水晶"
+          },
+          {
+            "word": "Palace",
+            "pos": "n.",
+            "meaning": "宫殿"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +43,16 @@
       "text": "which was built in Hyde Park for the Great Exhibition of 1851.",
       "translation": "它建在海德公园，是为1851年的世博会而建造的。",
       "startTime": 26.04,
-      "endTime": 33.42
+      "endTime": 33.42,
+      "analysis": {
+        "words": [
+          {
+            "word": "Different",
+            "pos": "adj.",
+            "meaning": "不同的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +60,10 @@
       "text": "The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.",
       "translation": "水晶宫与世界上所有其他建筑都不同，因为它是用钢铁和玻璃造的。",
       "startTime": 33.43,
-      "endTime": 43
+      "endTime": 43,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +71,16 @@
       "text": "It was one of the biggest buildings of all time and a lot of people from many countries came to see it.",
       "translation": "它是有史以来最大的建筑之一，许多国家的人都来参观它。",
       "startTime": 43.01,
-      "endTime": 52.22
+      "endTime": 52.22,
+      "analysis": {
+        "words": [
+          {
+            "word": "Building",
+            "pos": "n.",
+            "meaning": "建筑物"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +88,16 @@
       "text": "A great many goods were sent to the exhibition from various parts of the world.",
       "translation": "大量的商品从世界各地运来参展。",
       "startTime": 52.23,
-      "endTime": 58.37
+      "endTime": 58.37,
+      "analysis": {
+        "words": [
+          {
+            "word": "Exhibition",
+            "pos": "n.",
+            "meaning": "展览"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +105,10 @@
       "text": "There was also a great deal of machinery on display.",
       "translation": "还展出了许多机器设备。",
       "startTime": 58.38,
-      "endTime": 63.66
+      "endTime": 63.66,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +116,16 @@
       "text": "The most wonderful piece of machinery on show was Nasmyth's steam hammer.",
       "translation": "展出的最了不起的机器设备是内史密斯的蒸汽锤。",
       "startTime": 63.67,
-      "endTime": 71.49
+      "endTime": 71.49,
+      "analysis": {
+        "words": [
+          {
+            "word": "Machinery",
+            "pos": "n.",
+            "meaning": "机器"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +133,10 @@
       "text": "Though in those days travelling was not as easy as it is today,",
       "translation": "虽然在那个年代旅行不像今天这样方便，",
       "startTime": 71.5,
-      "endTime": 77.78
+      "endTime": 77.78,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +144,16 @@
       "text": "steam boats carried thousands of visitors across the Channel from Europe.",
       "translation": "轮船还是把成千上万的游客从欧洲运过英吉利海峡。",
       "startTime": 77.79,
-      "endTime": 83.93
+      "endTime": 83.93,
+      "analysis": {
+        "words": [
+          {
+            "word": "Furniture",
+            "pos": "n.",
+            "meaning": "家具"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +161,10 @@
       "text": "On arriving in England, they were, taken to the Crystal Palace by train.",
       "translation": "他们一到英国就乘火车前往水晶宫。",
       "startTime": 83.94,
-      "endTime": 90.33
+      "endTime": 90.33,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s8",
@@ -98,7 +172,16 @@
       "text": "There were six million visitors in all,",
       "translation": "参观者总共有600万人，",
       "startTime": 90.34,
-      "endTime": 93.9
+      "endTime": 93.9,
+      "analysis": {
+        "words": [
+          {
+            "word": "Destroy",
+            "pos": "v.",
+            "meaning": "毁坏"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -106,7 +189,10 @@
       "text": "and the profits from the exhibition were used to build museums and colleges.",
       "translation": "博览会的收入被用来建造博物馆和大学。",
       "startTime": 93.91,
-      "endTime": 99.93
+      "endTime": 99.93,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +200,10 @@
       "text": "Later, the Crystal Palace was moved to South London.",
       "translation": "后来，水晶宫被迁往伦敦南部。",
       "startTime": 99.94,
-      "endTime": 104.66
+      "endTime": 104.66,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +211,10 @@
       "text": "It remained one of the most famous buildings in the world until it was burnt down in 1936.",
       "translation": "它一直是世界上最著名的建筑之一，直到1936年被烧毁。",
       "startTime": 104.67,
-      "endTime": 109.67
+      "endTime": 109.67,
+      "analysis": {
+        "words": []
+      }
     }
   ]
 }

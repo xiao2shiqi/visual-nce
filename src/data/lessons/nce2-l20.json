@@ -49,7 +49,21 @@
       "text": "I often fish for hours without catching anything.",
       "translation": "我经常一钓数小时却一无所获。",
       "startTime": 18.88,
-      "endTime": 24.1
+      "endTime": 24.1,
+      "analysis": {
+        "words": [
+          {
+            "word": "Hour",
+            "pos": "n.",
+            "meaning": "小时"
+          },
+          {
+            "word": "Catch",
+            "pos": "v.",
+            "meaning": "抓，钓（鱼）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -86,7 +100,18 @@
       "startTime": 27.65,
       "endTime": 30.68,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Fisherman",
+            "pos": "n.",
+            "meaning": "渔民"
+          },
+          {
+            "word": "Unlucky",
+            "pos": "adj.",
+            "meaning": "倒霉的"
+          }
+        ]
       }
     },
     {
@@ -95,7 +120,10 @@
       "text": "Instead of catching fish,",
       "translation": "他们不是钓到鱼，",
       "startTime": 30.69,
-      "endTime": 33.26
+      "endTime": 33.26,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -122,7 +150,23 @@
       "startTime": 37.33,
       "endTime": 40.23,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "Less",
+            "pos": "adv.",
+            "meaning": "更少"
+          },
+          {
+            "word": "Lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
+          }
+        ]
       }
     },
     {
@@ -153,7 +197,21 @@
       "text": "After having spent whole mornings on the river,",
       "translation": "在河边坐了整整一上午后，",
       "startTime": 46.48,
-      "endTime": 50.51
+      "endTime": 50.51,
+      "analysis": {
+        "words": [
+          {
+            "word": "Spend",
+            "pos": "v.",
+            "meaning": "花费，度过"
+          },
+          {
+            "word": "Morning",
+            "pos": "n.",
+            "meaning": "早晨，上午"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -161,7 +219,21 @@
       "text": "I always go home with an empty bag.",
       "translation": "我总是空着包回家。",
       "startTime": 50.52,
-      "endTime": 54.85
+      "endTime": 54.85,
+      "analysis": {
+        "words": [
+          {
+            "word": "Always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "Empty",
+            "pos": "adj.",
+            "meaning": "空的"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -191,7 +263,16 @@
       "text": "But they don't realize one important thing.",
       "translation": "但他们没有意识到一件重要的事情。",
       "startTime": 62.5,
-      "endTime": 67.04
+      "endTime": 67.04,
+      "analysis": {
+        "words": [
+          {
+            "word": "Realize",
+            "pos": "v.",
+            "meaning": "意识到"
+          }
+        ]
+      }
     },
     {
       "id": "s10",

@@ -115,7 +115,10 @@
       "text": "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.",
       "translation": "福赛特机长的第一位乘客是一位医生，他从伯明翰飞往威尔士山区的一个偏僻村庄。",
       "startTime": 47.11,
-      "endTime": 56.88
+      "endTime": 56.88,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s3",
@@ -123,7 +126,26 @@
       "text": "Since then, Captain Fawcett has flown passengers to many unusual places.",
       "translation": "从那时起，福赛特机长已经把乘客送往许多不寻常的地方。",
       "startTime": 56.89,
-      "endTime": 64.47
+      "endTime": 64.47,
+      "analysis": {
+        "words": [
+          {
+            "word": "Since",
+            "pos": "prep.",
+            "meaning": "自从"
+          },
+          {
+            "word": "Flown",
+            "pos": "v.",
+            "meaning": "飞 (fly的过去分词)"
+          },
+          {
+            "word": "Unusual",
+            "pos": "adj.",
+            "meaning": "不寻常的"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -148,7 +170,26 @@
       "text": "Captain Fawcett has just refused a strange request from a businessman.",
       "translation": "福赛特机长刚刚拒绝了一位商人的奇怪请求。",
       "startTime": 74.86,
-      "endTime": 81.16
+      "endTime": 81.16,
+      "analysis": {
+        "words": [
+          {
+            "word": "Refuse",
+            "pos": "v.",
+            "meaning": "拒绝"
+          },
+          {
+            "word": "Request",
+            "pos": "n.",
+            "meaning": "要求，请求"
+          },
+          {
+            "word": "Businessman",
+            "pos": "n.",
+            "meaning": "商人"
+          }
+        ]
+      }
     },
     {
       "id": "s6",

@@ -71,7 +71,16 @@
       "text": "She threw the bottle into the sea.",
       "translation": "她把瓶子扔进了大海。",
       "startTime": 37.71,
-      "endTime": 41.18
+      "endTime": 41.18,
+      "analysis": {
+        "words": [
+          {
+            "word": "Throw",
+            "pos": "v.",
+            "meaning": "扔，抛"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -96,7 +105,21 @@
       "text": "Both girls write to each other regularly now.",
       "translation": "现在这两位姑娘定期通信。",
       "startTime": 49.93,
-      "endTime": 54.18
+      "endTime": 54.18,
+      "analysis": {
+        "words": [
+          {
+            "word": "Both",
+            "pos": "det.",
+            "meaning": "两者都"
+          },
+          {
+            "word": "Regularly",
+            "pos": "adv.",
+            "meaning": "定期地"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -104,7 +127,21 @@
       "text": "However, they have decided to use the post office.",
       "translation": "然而她们决定利用邮局。",
       "startTime": 54.19,
-      "endTime": 59.71
+      "endTime": 59.71,
+      "analysis": {
+        "words": [
+          {
+            "word": "However",
+            "pos": "adv.",
+            "meaning": "然而"
+          },
+          {
+            "word": "Decide",
+            "pos": "v.",
+            "meaning": "决定"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -114,7 +151,13 @@
       "startTime": 59.72,
       "endTime": 64.72,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Cost",
+            "pos": "v.",
+            "meaning": "花费"
+          }
+        ]
       }
     }
   ]

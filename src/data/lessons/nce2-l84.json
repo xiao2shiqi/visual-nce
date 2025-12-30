@@ -10,7 +10,10 @@
       "text": "Who will be driving the buses next week?",
       "translation": "下周谁将驾驶公交车？",
       "startTime": 10.29,
-      "endTime": 15.17
+      "endTime": 15.17,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +21,16 @@
       "text": "Busmen have decided to go on strike next week.",
       "translation": "公交司机决定下周举行罢工。",
       "startTime": 15.18,
-      "endTime": 19.76
+      "endTime": 19.76,
+      "analysis": {
+        "words": [
+          {
+            "word": "Strike",
+            "pos": "n.",
+            "meaning": "罢工"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +38,16 @@
       "text": "The strike is due to begin on Tuesday.",
       "translation": "罢工定于星期二开始。",
       "startTime": 19.77,
-      "endTime": 23.82
+      "endTime": 23.82,
+      "analysis": {
+        "words": [
+          {
+            "word": "Busman",
+            "pos": "n.",
+            "meaning": "公交车司机"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +55,10 @@
       "text": "No one knows how long it will last.",
       "translation": "没有人知道会持续多久。",
       "startTime": 23.83,
-      "endTime": 27.5
+      "endTime": 27.5,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s1",
@@ -42,7 +66,16 @@
       "text": "The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.",
       "translation": "公交司机们声称，罢工将持续到就工资和工作条件达成全面协议为止。",
       "startTime": 27.51,
-      "endTime": 38.36
+      "endTime": 38.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "State",
+            "pos": "v.",
+            "meaning": "说明"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -50,7 +83,16 @@
       "text": "Most people believe that the strike will last for at least a week.",
       "translation": "大多数人认为罢工至少会持续一周。",
       "startTime": 38.37,
-      "endTime": 44.14
+      "endTime": 44.14,
+      "analysis": {
+        "words": [
+          {
+            "word": "Agreement",
+            "pos": "n.",
+            "meaning": "协议"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -58,7 +100,10 @@
       "text": "Many owners of private cars are going to offer 'free rides' to people on their way to work.",
       "translation": "许多私家车车主将为上班途中的人提供'免费搭乘'。",
       "startTime": 44.15,
-      "endTime": 52.06
+      "endTime": 52.06,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s4",
@@ -66,7 +111,16 @@
       "text": "This will relieve pressure on the trains to some extent.",
       "translation": "这将在一定程度上减轻火车的压力。",
       "startTime": 52.07,
-      "endTime": 56.8
+      "endTime": 56.8,
+      "analysis": {
+        "words": [
+          {
+            "word": "Pressure",
+            "pos": "n.",
+            "meaning": "压力"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -74,7 +128,10 @@
       "text": "Meanwhile, a number of university students have volunteered to drive buses while the strike lasts.",
       "translation": "与此同时，一些大学生自愿在罢工期间驾驶公交车。",
       "startTime": 56.81,
-      "endTime": 65.55
+      "endTime": 65.55,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s6",
@@ -82,7 +139,16 @@
       "text": "All the students are expert drivers,",
       "translation": "所有学生都是熟练的司机，",
       "startTime": 65.56,
-      "endTime": 68.87
+      "endTime": 68.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "Refuse",
+            "pos": "v.",
+            "meaning": "拒绝"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -90,7 +156,16 @@
       "text": "but before they drive any of the buses, they will have to pass a special test.",
       "translation": "但在驾驶任何公交车之前，他们必须通过一项特殊的测试。",
       "startTime": 68.88,
-      "endTime": 76.71
+      "endTime": 76.71,
+      "analysis": {
+        "words": [
+          {
+            "word": "Passenger",
+            "pos": "n.",
+            "meaning": "乘客"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -98,7 +173,10 @@
       "text": "The students are going to take the test in two days' time.",
       "translation": "学生们将在两天后参加考试。",
       "startTime": 76.72,
-      "endTime": 81.71
+      "endTime": 81.71,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s9",
@@ -106,7 +184,10 @@
       "text": "Even so, people are going to find it difficult to get to work.",
       "translation": "尽管如此，人们还是会发现上班很困难。",
       "startTime": 81.72,
-      "endTime": 87.42
+      "endTime": 87.42,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s10",
@@ -114,7 +195,10 @@
       "text": "But so far, the public has expressed its gratitude to the students in lettters to the Press.",
       "translation": "但到目前为止，公众已通过给报社写信表达了对学生们的感谢。",
       "startTime": 87.43,
-      "endTime": 95.3
+      "endTime": 95.3,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s11",
@@ -122,7 +206,10 @@
       "text": "Only one or two people have objected that the students will drive too fast!",
       "translation": "只有一两个人反对说学生们会开得太快！",
       "startTime": 95.31,
-      "endTime": 100.31
+      "endTime": 100.31,
+      "analysis": {
+        "words": []
+      }
     }
   ]
 }

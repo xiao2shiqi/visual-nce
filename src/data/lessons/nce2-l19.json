@@ -12,7 +12,18 @@
       "startTime": 10.2,
       "endTime": 15.13,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Writer",
+            "pos": "n.",
+            "meaning": "作者"
+          },
+          {
+            "word": "Play",
+            "pos": "n.",
+            "meaning": "剧本，戏剧"
+          }
+        ]
       }
     },
     {
@@ -147,7 +158,13 @@
       "startTime": 46.59,
       "endTime": 51.14,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Return",
+            "pos": "v.",
+            "meaning": "退回，归还"
+          }
+        ]
       }
     },
     {
@@ -156,7 +173,16 @@
       "text": "'Certainly,' the girl said.",
       "translation": "'当然可以，'那姑娘说。",
       "startTime": 51.15,
-      "endTime": 55.04
+      "endTime": 55.04,
+      "analysis": {
+        "words": [
+          {
+            "word": "Certainly",
+            "pos": "adv.",
+            "meaning": "当然"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -203,7 +229,16 @@
       "text": "'Certainly,' the girl said,",
       "translation": "'当然可以，'那姑娘说，",
       "startTime": 65.21,
-      "endTime": 68.68
+      "endTime": 68.68,
+      "analysis": {
+        "words": [
+          {
+            "word": "Certainly",
+            "pos": "adv.",
+            "meaning": "当然"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -211,7 +246,21 @@
       "text": "'but they're for next Wednesday's performance.",
       "translation": "'不过它们是下周三演出的票。",
       "startTime": 68.69,
-      "endTime": 72.39
+      "endTime": 72.39,
+      "analysis": {
+        "words": [
+          {
+            "word": "Performance",
+            "pos": "n.",
+            "meaning": "演出"
+          },
+          {
+            "word": "Wednesday",
+            "pos": "n.",
+            "meaning": "星期三"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
