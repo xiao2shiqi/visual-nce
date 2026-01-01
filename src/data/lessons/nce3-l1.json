@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 1",
-      "translation": "",
+      "translation": "第1课",
       "startTime": 0.68,
       "endTime": 2.35,
       "analysis": {
@@ -25,15 +25,20 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A puma at large",
-      "translation": "",
+      "translation": "逃遁的美洲狮",
       "startTime": 2.36,
       "endTime": 9.8,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "puma",
+            "pos": "n.",
+            "meaning": "美洲狮"
+          },
+          {
+            "word": "at large",
+            "pos": "adj. phr.",
+            "meaning": "未被捕获的，逍遥法外的"
           }
         ]
       }
@@ -53,34 +58,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
-            "pos": "v.",
+            "pos": "v./n.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
           },
           {
             "word": "question",
@@ -94,37 +79,74 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Where must the puma have come from?",
-      "translation": "",
+      "translation": "这只美洲狮一定是从哪儿来的？",
       "startTime": 9.81,
       "endTime": 14.47,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "一定，必须"
+          },
+          {
+            "word": "come from",
+            "pos": "v. phr.",
+            "meaning": "来自"
+          }
+        ]
       }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "Pumas are large, cat-like animals which are found in America.",
-      "translation": "",
+      "translation": "美洲狮是一种生活在美洲的大型猫科动物。",
       "startTime": 14.48,
       "endTime": 19.16,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "cat-like",
+            "pos": "adj.",
+            "meaning": "猫科动物一样的"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "被发现，存在"
+          },
+          {
+            "word": "America",
+            "pos": "n.",
+            "meaning": "美洲"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "When reports came into London Zoo that a wild puma had been spotted forty-five miles south of London,",
-      "translation": "",
+      "translation": "当伦敦动物园接到报告说，在伦敦以南45英里处发现一只野生的美洲狮时，",
       "startTime": 19.17,
       "endTime": 26.26,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "report",
+            "pos": "n./v.",
+            "meaning": "报告"
+          },
+          {
+            "word": "spot",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "forty-five",
+            "pos": "num.",
+            "meaning": "四十五"
           }
         ]
       }
@@ -133,15 +155,15 @@
       "id": "s2",
       "role": "Woman",
       "text": "they were not taken seriously.",
-      "translation": "",
+      "translation": "这些报告并没有引起人们的重视。",
       "startTime": 26.27,
       "endTime": 29.14,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "take seriously",
+            "pos": "v. phr.",
+            "meaning": "认真对待"
           }
         ]
       }
@@ -150,44 +172,106 @@
       "id": "s3",
       "role": "Narrator",
       "text": "However, as the evidence began to accumulate,",
-      "translation": "",
+      "translation": "然而，随着证据的增多，",
       "startTime": 29.15,
-      "endTime": 33.2
+      "endTime": 33.2,
+      "analysis": {
+        "words": [
+          {
+            "word": "evidence",
+            "pos": "n.",
+            "meaning": "证据"
+          },
+          {
+            "word": "accumulate",
+            "pos": "v.",
+            "meaning": "积累，积聚"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Man",
       "text": "experts from the Zoo felt obliged to investigate,",
-      "translation": "",
+      "translation": "动物园的专家们感到有必要进行调查，",
       "startTime": 33.21,
-      "endTime": 37.14
+      "endTime": 37.14,
+      "analysis": {
+        "words": [
+          {
+            "word": "expert",
+            "pos": "n.",
+            "meaning": "专家"
+          },
+          {
+            "word": "obliged",
+            "pos": "adj.",
+            "meaning": "感到有责任"
+          },
+          {
+            "word": "investigate",
+            "pos": "v.",
+            "meaning": "调查"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Woman",
       "text": "for the descriptions given by people who claimed to have seen the puma were extraordinarily similar.",
-      "translation": "",
+      "translation": "因为自称见过美洲狮的人们所作的描述极为相似。",
       "startTime": 37.15,
-      "endTime": 43.85
+      "endTime": 43.85,
+      "analysis": {
+        "words": [
+          {
+            "word": "description",
+            "pos": "n.",
+            "meaning": "描述"
+          },
+          {
+            "word": "claim",
+            "pos": "v./n.",
+            "meaning": "声称"
+          },
+          {
+            "word": "extraordinarily",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "similar",
+            "pos": "adj.",
+            "meaning": "相似"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Man",
       "text": "The hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat'only five yards away from her.",
-      "translation": "",
+      "translation": "搜寻美洲狮的工作是从一个小村庄开始的，那儿的一位妇女在采摘黑莓时，看见离她仅5码远的地方站着一只“大猫”。",
       "startTime": 43.86,
       "endTime": 53.6,
       "analysis": {
         "words": [
           {
-            "word": "Woman",
-            "pos": "n.",
-            "meaning": "女人"
+            "word": "hunt",
+            "pos": "n./v.",
+            "meaning": "搜寻，狩猎"
           },
           {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "blackberry",
+            "pos": "n.",
+            "meaning": "黑莓"
+          },
+          {
+            "word": "yard",
+            "pos": "n.",
+            "meaning": "码"
           }
         ]
       }
@@ -196,15 +280,15 @@
       "id": "s7",
       "role": "Woman",
       "text": "It immediately ran away when she saw it,",
-      "translation": "",
+      "translation": "她一看见它，它立刻就跑开了。",
       "startTime": 53.61,
       "endTime": 56.48,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "immediately",
+            "pos": "adv.",
+            "meaning": "立即"
           }
         ]
       }
@@ -213,30 +297,30 @@
       "id": "s8",
       "role": "Man",
       "text": "and experts confirmed that a puma will not attack a human being unless it is cornered.",
-      "translation": "",
+      "translation": "专家证实，除非被逼得走投无路，美洲狮是不会袭击人的。",
       "startTime": 56.49,
       "endTime": 62.93,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "confirm",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "确认，证实"
+          },
+          {
+            "word": "attack",
+            "pos": "v./n.",
+            "meaning": "攻击"
+          },
+          {
+            "word": "unless",
+            "pos": "conj.",
+            "meaning": "除非"
+          },
+          {
+            "word": "cornered",
+            "pos": "v.",
+            "meaning": "被逼到角落"
           }
         ]
       }
@@ -245,23 +329,42 @@
       "id": "s9",
       "role": "Woman",
       "text": "The search proved difficult,",
-      "translation": "",
+      "translation": "寻找工作证明是很困难的，",
       "startTime": 62.94,
-      "endTime": 65.19
+      "endTime": 65.19,
+      "analysis": {
+        "words": [
+          {
+            "word": "search",
+            "pos": "n./v.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "prove",
+            "pos": "v.",
+            "meaning": "证明"
+          },
+          {
+            "word": "difficult",
+            "pos": "adj.",
+            "meaning": "困难的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Man",
       "text": "for the puma was often observed at one place in the morning and at another place twenty miles away in the evening.",
-      "translation": "",
+      "translation": "因为美洲狮常在早晨出现在一个地方，而到晚上又在20英里外的另一个地方被发现。",
       "startTime": 65.2,
       "endTime": 72.57,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "observe",
+            "pos": "v.",
+            "meaning": "观察，观测"
           }
         ]
       }
@@ -270,15 +373,15 @@
       "id": "s11",
       "role": "Woman",
       "text": "Wherever it went, it left behind it a trail of dead deer and small animals like rabbits.",
-      "translation": "",
+      "translation": "它无论走到哪儿，都在身后留下成串的死鹿和类似兔子的各种小动物。",
       "startTime": 72.58,
       "endTime": 79.37,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "trail",
+            "pos": "n.",
+            "meaning": "踪迹"
           }
         ]
       }
@@ -287,15 +390,25 @@
       "id": "s12",
       "role": "Man",
       "text": "Paw prints were seen in a number of places and puma fur was found clinging to bushes.",
-      "translation": "",
+      "translation": "在许多地方都看到了它的爪印，还发现灌木丛中粘着美洲狮的毛。",
       "startTime": 79.38,
       "endTime": 85.38,
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "paw",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "爪"
+          },
+          {
+            "word": "print",
+            "pos": "n./v.",
+            "meaning": "印记"
+          },
+          {
+            "word": "cling",
+            "pos": "v.",
+            "meaning": "粘附"
           }
         ]
       }
@@ -304,15 +417,15 @@
       "id": "s13",
       "role": "Woman",
       "text": "Several people complained of 'cat-like noises' at night and a businessman on a fishing trip saw the puma up a tree.",
-      "translation": "",
+      "translation": "有几个人抱怨说晚上听到了“像猫一样的叫声”，一位在外面钓鱼的商人在树上看到了那只美洲狮。",
       "startTime": 85.39,
       "endTime": 94.25,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "complain",
+            "pos": "v.",
+            "meaning": "抱怨"
           }
         ]
       }
@@ -321,15 +434,15 @@
       "id": "s14",
       "role": "Man",
       "text": "The experts were now fully convinced that the animal was a puma,",
-      "translation": "",
+      "translation": "专家们现在完全相信那只动物就是美洲狮，",
       "startTime": 94.26,
       "endTime": 98.71,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "convinced",
+            "pos": "adj.",
+            "meaning": "确信的"
           }
         ]
       }
@@ -338,40 +451,47 @@
       "id": "s15",
       "role": "Woman",
       "text": "but where had it come from?",
-      "translation": "",
+      "translation": "但是它又是从哪儿来的呢？",
       "startTime": 98.72,
       "endTime": 101.26,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
       "role": "Man",
       "text": "As no pumas had been reported missing from any zoo in the country,",
-      "translation": "",
+      "translation": "由于国内动物园都没有丢失美洲狮的报告，",
       "startTime": 101.27,
-      "endTime": 105.54
+      "endTime": 105.54,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s17",
       "role": "Woman",
       "text": "this one must have been in the possession of a private collector and somehow managed to escape.",
-      "translation": "",
+      "translation": "这只美洲狮一定是某位私人收藏家的，不知怎么逃了出来。",
       "startTime": 105.55,
       "endTime": 112.15,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "possession",
+            "pos": "n.",
+            "meaning": "所有，拥有"
+          },
+          {
+            "word": "private",
+            "pos": "adj.",
+            "meaning": "私人的"
+          },
+          {
+            "word": "escape",
+            "pos": "v./n.",
+            "meaning": "逃跑"
           }
         ]
       }
@@ -380,55 +500,47 @@
       "id": "s18",
       "role": "Man",
       "text": "The hunt went on for several weeks,",
-      "translation": "",
+      "translation": "搜寻工作继续了几个星期，",
       "startTime": 112.16,
-      "endTime": 114.17
+      "endTime": 114.17,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s19",
       "role": "Woman",
       "text": "but the puma was not caught.",
-      "translation": "",
+      "translation": "但美洲狮最终没有被捉住。",
       "startTime": 114.18,
       "endTime": 117.41,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
       "role": "Man",
       "text": "It is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.",
-      "translation": "",
+      "translation": "一想到在平静的乡村里依然潜伏着一只危险的野生动物，就令人心里感到惶惶不安。",
       "startTime": 117.42,
       "endTime": 122.42,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "disturbing",
+            "pos": "adj.",
+            "meaning": "令人担忧的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "quiet",
+            "pos": "adj.",
+            "meaning": "平静的，安静的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "countryside",
+            "pos": "n.",
+            "meaning": "乡村"
           }
         ]
       }

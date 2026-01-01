@@ -57,11 +57,20 @@ watch(() => props.lesson?.id, (newId) => {
 
 // 计算当前活跃的片段 ID
 const activeSegmentId = computed(() => {
-  if (!lessonData.value || !lessonData.value.segments) return null;
-  const segment = lessonData.value.segments.find(
+  if (!lessonData.value || !lessonData.value.segments || lessonData.value.segments.length === 0) return null;
+  const segments = lessonData.value.segments;
+  const segment = segments.find(
     (s: any) => s.startTime !== undefined && currentTime.value >= s.startTime && currentTime.value <= s.endTime
   );
-  return segment ? segment.id : null;
+  if (segment) return segment.id;
+
+  // 如果当前时间超过了最后一个片段的结束时间，依然保持最后一个片段的高亮（为了体验连贯性）
+  const lastSegment = segments[segments.length - 1];
+  if (lastSegment && lastSegment.endTime !== undefined && currentTime.value > lastSegment.endTime) {
+    return lastSegment.id;
+  }
+
+  return null;
 });
 
 // 计算当前应显示的图片
@@ -114,7 +123,9 @@ const startMonitoring = () => {
     
     const audioEl = audioPlayer.innerAudio;
     if (audioEl) {
-      if (audioEl.currentTime >= singlePlayEndTime.value - 0.1) {
+      // 增加 1.0 秒的缓冲时间，确保句子读完并留有一点余韵后再停止/循环
+      const bufferTime = 1.0;
+      if (audioEl.currentTime >= singlePlayEndTime.value + bufferTime) {
         if (playMode.value === 'single') {
           audioPlayer.pause();
           singlePlayEndTime.value = null;

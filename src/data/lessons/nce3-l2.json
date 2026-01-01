@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 2",
-      "translation": "",
+      "translation": "第2课",
       "startTime": 0.29,
       "endTime": 2.17,
       "analysis": {
@@ -25,9 +25,23 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Thirteen equals one",
-      "translation": "",
+      "translation": "十三等于一",
       "startTime": 2.18,
-      "endTime": 10.09
+      "endTime": 10.09,
+      "analysis": {
+        "words": [
+          {
+            "word": "thirteen",
+            "pos": "num.",
+            "meaning": "十三"
+          },
+          {
+            "word": "equal",
+            "pos": "v.",
+            "meaning": "等于"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -44,34 +58,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
-            "pos": "v.",
+            "pos": "v./n.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
           },
           {
             "word": "question",
@@ -85,15 +79,25 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Was the vicar pleased that the clock was striking? Why?",
-      "translation": "",
+      "translation": "牧师对时钟敲响感到高兴吗？为什么？",
       "startTime": 10.1,
       "endTime": 16.62,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "vicar",
+            "pos": "n.",
+            "meaning": "牧师"
+          },
+          {
+            "word": "pleased",
+            "pos": "adj.",
+            "meaning": "高兴的"
+          },
+          {
+            "word": "striking",
+            "pos": "v.",
+            "meaning": "敲，打"
           }
         ]
       }
@@ -102,15 +106,20 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Our vicar is always raising money for one cause or another,",
-      "translation": "",
+      "translation": "我们的牧师总是为各种事业筹集资金，",
       "startTime": 16.63,
       "endTime": 20.86,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "raise money",
+            "pos": "v. phr.",
+            "meaning": "筹款"
+          },
+          {
+            "word": "cause",
+            "pos": "n.",
+            "meaning": "事业"
           }
         ]
       }
@@ -119,57 +128,86 @@
       "id": "s1",
       "role": "Man",
       "text": "but he has never managed to get enough money to have the church clock repaired.",
-      "translation": "",
+      "translation": "但他从未筹够钱把教堂的大钟修理一下。",
       "startTime": 20.87,
-      "endTime": 26.48
+      "endTime": 26.48,
+      "analysis": {
+        "words": [
+          {
+            "word": "managed",
+            "pos": "v.",
+            "meaning": "设法做到"
+          },
+          {
+            "word": "repaired",
+            "pos": "v.",
+            "meaning": "修理"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "The big clock which used to strike the hours day and night was damaged many years ago and has been silent ever since.",
-      "translation": "",
+      "translation": "那座过去昼夜报时的大钟多年前损坏了，之后便一直没响过。",
       "startTime": 26.49,
-      "endTime": 36.37
+      "endTime": 36.37,
+      "analysis": {
+        "words": [
+          {
+            "word": "strike the hours",
+            "pos": "v. phr.",
+            "meaning": "报时"
+          },
+          {
+            "word": "damaged",
+            "pos": "v.",
+            "meaning": "损坏"
+          },
+          {
+            "word": "silent",
+            "pos": "adj.",
+            "meaning": "沉默的，不响的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "One night, however, our vicar woke up with a start:the clock was striking the hours!",
-      "translation": "",
+      "translation": "然而有一天夜里，牧师突然被惊醒了：大钟正在报时！",
       "startTime": 36.38,
       "endTime": 43.47,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "woke up",
+            "pos": "v. phr.",
+            "meaning": "醒来"
+          },
+          {
+            "word": "start",
+            "pos": "n.",
+            "meaning": "惊起，惊动"
+          }
+        ]
       }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "Looking at his watch, he saw that it was one o'clock,",
-      "translation": "",
+      "translation": "他看了看表，见是1点钟，",
       "startTime": 43.48,
       "endTime": 47.37,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "Watch",
+            "word": "watch",
             "pos": "n.",
             "meaning": "手表"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
           }
         ]
       }
@@ -178,15 +216,20 @@
       "id": "s5",
       "role": "Man",
       "text": "but the bell struck thirteen times before it stopped.",
-      "translation": "",
+      "translation": "但钟敲了13下才停。 ",
       "startTime": 47.38,
       "endTime": 51.9,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "struck",
+            "pos": "v.",
+            "meaning": "敲，打"
+          },
+          {
+            "word": "thirteen",
+            "pos": "num.",
+            "meaning": "十三"
           }
         ]
       }
@@ -195,15 +238,25 @@
       "id": "s6",
       "role": "Woman",
       "text": "Armed with a torch, the vicar went up into the clock tower to see what was going on.",
-      "translation": "",
+      "translation": "牧师拿着手电筒走上钟楼想去看个究竟。",
       "startTime": 51.91,
       "endTime": 58.02,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "Armed with",
+            "pos": "v. phr.",
+            "meaning": "带着"
+          },
+          {
+            "word": "torch",
+            "pos": "n.",
+            "meaning": "手电筒"
+          },
+          {
+            "word": "tower",
+            "pos": "n.",
+            "meaning": "塔"
           }
         ]
       }
@@ -212,31 +265,57 @@
       "id": "s7",
       "role": "Man",
       "text": "In the torchlight, he caught sight of a figure whom he immediately recognized as Bill Wilkins, our local grocer.",
-      "translation": "",
+      "translation": "在手电光下，他看见一个人影，一眼便认出是当地的杂货店主比尔·威金斯。",
       "startTime": 58.03,
       "endTime": 66.23,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "torchlight",
+            "pos": "n.",
+            "meaning": "手电光"
+          },
+          {
+            "word": "caught sight of",
+            "pos": "v. phr.",
+            "meaning": "看见"
+          },
+          {
+            "word": "figure",
+            "pos": "n.",
+            "meaning": "人影"
+          },
+          {
+            "word": "recognize",
+            "pos": "v.",
+            "meaning": "认出"
+          },
+          {
+            "word": "grocer",
+            "pos": "n.",
+            "meaning": "杂货商"
+          }
+        ]
       }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "'Whatever are you doing up here Bill?' asked the vicar in surprise.",
-      "translation": "",
+      "translation": "“比尔，你在上头干什么呢？”牧师吃惊地问。",
       "startTime": 66.24,
       "endTime": 71.56,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Whatever",
+            "pos": "adv.",
+            "meaning": "究竟，到底"
           },
           {
-            "word": "Here",
-            "pos": "adv.",
-            "meaning": "这里"
+            "word": "surprise",
+            "pos": "n./v.",
+            "meaning": "惊讶"
           }
         ]
       }
@@ -245,23 +324,32 @@
       "id": "s9",
       "role": "Man",
       "text": "'I'm trying to repair the bell, ' answered Bill.",
-      "translation": "",
+      "translation": "“我想把这口钟修好，”比尔回答。 ",
       "startTime": 71.57,
-      "endTime": 75.22
+      "endTime": 75.22,
+      "analysis": {
+        "words": [
+          {
+            "word": "repair",
+            "pos": "v.",
+            "meaning": "修理"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "'I've been coming up here night after night for weeks now.",
-      "translation": "",
+      "translation": "“好几个星期以来，我天天夜里来到这儿。”",
       "startTime": 75.23,
       "endTime": 78.63,
       "analysis": {
         "words": [
           {
-            "word": "Here",
-            "pos": "adv.",
-            "meaning": "这里"
+            "word": "night after night",
+            "pos": "adv. phr.",
+            "meaning": "一夜连着一夜"
           }
         ]
       }
@@ -270,15 +358,15 @@
       "id": "s11",
       "role": "Man",
       "text": "You see, I was hoping to give you a surprise.'",
-      "translation": "",
+      "translation": "你看，我本来是想给你一个惊喜的。",
       "startTime": 78.64,
       "endTime": 82.39,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "hoping",
+            "pos": "v.",
+            "meaning": "希望"
           }
         ]
       }
@@ -287,20 +375,15 @@
       "id": "s12",
       "role": "Woman",
       "text": "'You certainly did give me a surprise!' said the vicar.",
-      "translation": "",
+      "translation": "“你的确给了我一个大惊喜！”牧师说。",
       "startTime": 82.4,
       "endTime": 85.81,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "certainly",
+            "pos": "adv.",
+            "meaning": "肯定地，的确"
           }
         ]
       }
@@ -309,15 +392,20 @@
       "id": "s13",
       "role": "Man",
       "text": "'You've probably woken up everyone in the village as well.",
-      "translation": "",
+      "translation": "“恐怕你把全村的人也都被你惊醒了。”",
       "startTime": 85.82,
       "endTime": 89.5,
       "analysis": {
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "probably",
+            "pos": "adv.",
+            "meaning": "大概，或许"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
           }
         ]
       }
@@ -326,15 +414,20 @@
       "id": "s14",
       "role": "Woman",
       "text": "Still, I'm glad the bell is working again.'",
-      "translation": "",
+      "translation": "“不过，钟能再响我还是很高兴的。”",
       "startTime": 89.51,
       "endTime": 93,
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "glad",
+            "pos": "adj.",
+            "meaning": "高兴的"
+          },
+          {
+            "word": "working",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "（钟、机器等）运转"
           }
         ]
       }
@@ -343,36 +436,37 @@
       "id": "s15",
       "role": "Man",
       "text": "'That's the trouble, vicar, 'answered Bill. 'It's working all right,",
-      "translation": "",
+      "translation": "“这就是麻烦所在，牧师，”比尔回答，“它运转得很正常，”",
       "startTime": 93.01,
       "endTime": 98.06,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "trouble",
+            "pos": "n.",
+            "meaning": "麻烦"
+          }
+        ]
       }
     },
     {
       "id": "s16",
       "role": "Woman",
       "text": "but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.'",
-      "translation": "",
+      "translation": "“可是我担心，到1点钟的时候，它又要敲13下，而对此我却无能为力。”",
       "startTime": 98.07,
       "endTime": 105,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "afraid",
+            "pos": "adj.",
+            "meaning": "担心的，害怕的"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "It",
+            "word": "nothing",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "没有什么东西"
           }
         ]
       }
@@ -381,20 +475,15 @@
       "id": "s17",
       "role": "Man",
       "text": "'We'll get used to that, Bill, 'said the vicar.",
-      "translation": "",
+      "translation": "“我们会习惯的，比尔，”牧师说。",
       "startTime": 105.01,
       "endTime": 108.04,
       "analysis": {
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "get used to",
+            "pos": "v. phr.",
+            "meaning": "习惯于"
           }
         ]
       }
@@ -403,20 +492,15 @@
       "id": "s18",
       "role": "Woman",
       "text": "'Thirteen is not as good as one, but it's better than nothing.",
-      "translation": "",
+      "translation": "“13下虽然不如1下好，但总比一下也不响强得多。”",
       "startTime": 108.05,
       "endTime": 112.94,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "better",
+            "pos": "adj.",
+            "meaning": "更好的"
           }
         ]
       }
@@ -425,9 +509,18 @@
       "id": "s19",
       "role": "Man",
       "text": "Now let's go downstairs and have a cup of tea.'",
-      "translation": "",
+      "translation": "“现在我们就下楼去喝杯茶吧。”",
       "startTime": 112.95,
-      "endTime": 117.95
+      "endTime": 117.95,
+      "analysis": {
+        "words": [
+          {
+            "word": "downstairs",
+            "pos": "adv.",
+            "meaning": "下楼"
+          }
+        ]
+      }
     }
   ]
 }

@@ -2,13 +2,13 @@
   "id": "nce3-l6",
   "title": "Lesson 6: Smash-and-Grab",
   "audio": "/audio/nce3/06－Smash-and-Grab.mp3",
-  "image": "/images/coming-soon.jpg",
+  "image": "/images/nce3/l6/scene1.png",
   "segments": [
     {
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 6",
-      "translation": "",
+      "translation": "第6课",
       "startTime": 0.42,
       "endTime": 2.21,
       "analysis": {
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Smash-and-grab",
-      "translation": "",
+      "translation": "砸窗抢劫",
       "startTime": 2.22,
-      "endTime": 8.69
+      "endTime": 8.69,
+      "analysis": {
+        "words": [
+          {
+            "word": "smash-and-grab",
+            "pos": "n.",
+            "meaning": "砸窗抢劫"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -44,34 +53,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
-            "pos": "v.",
+            "pos": "v./n.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
           },
           {
             "word": "question",
@@ -85,15 +74,15 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "How did Mr. Taylor try to stop the thieves?",
-      "translation": "",
+      "translation": "泰勒先生是如何试图阻止小偷的？",
       "startTime": 8.7,
       "endTime": 13.9,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "thief",
+            "pos": "n.",
+            "meaning": "贼，小偷"
           }
         ]
       }
@@ -102,28 +91,47 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "The expensive shops in a famous arcade near Piccadilly were just opening.",
-      "translation": "",
+      "translation": "皮卡迪利大街附近一个著名的拱廊街里的几家昂贵的商店刚开门。",
       "startTime": 13.91,
-      "endTime": 19.85
+      "endTime": 19.85,
+      "analysis": {
+        "words": [
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵的"
+          },
+          {
+            "word": "arcade",
+            "pos": "n.",
+            "meaning": "有拱廊的街道"
+          },
+          {
+            "word": "Piccadilly",
+            "pos": "n.",
+            "meaning": "皮卡迪利（伦敦地名）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "At this time of the morning, the arcade was almost empty.",
-      "translation": "",
+      "translation": "在清晨的这个时间，拱廊街几乎是空的。",
       "startTime": 19.86,
       "endTime": 24.52,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "almost",
+            "pos": "adv.",
+            "meaning": "几乎"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
           }
         ]
       }
@@ -132,34 +140,79 @@
       "id": "s2",
       "role": "Woman",
       "text": "Mr. Taylor, the owner of a jewellery shop was admiring a new window display.",
-      "translation": "",
+      "translation": "珠宝店店主泰勒先生正在欣赏一个新布置的橱窗。",
       "startTime": 24.53,
-      "endTime": 30.91
+      "endTime": 30.91,
+      "analysis": {
+        "words": [
+          {
+            "word": "jewellery",
+            "pos": "n.",
+            "meaning": "珠宝"
+          },
+          {
+            "word": "admiring",
+            "pos": "v.",
+            "meaning": "欣赏，赞美"
+          },
+          {
+            "word": "display",
+            "pos": "n.",
+            "meaning": "展示，陈列"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "Two of his assistants had been working busily since 8 o'clock and had only just finished.",
-      "translation": "",
+      "translation": "他的两个助手从8点钟就开始忙碌地工作，才刚刚完成。",
       "startTime": 30.92,
       "endTime": 38.09,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "assistant",
+            "pos": "n.",
+            "meaning": "助手"
+          },
+          {
+            "word": "busily",
+            "pos": "adv.",
+            "meaning": "忙碌地"
+          }
+        ]
       }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "Diamond necklaces and rings had been beautifully arranged on a background of black velvet.",
-      "translation": "",
+      "translation": "钻石项链和戒指被精美地摆放在黑色天鹅绒的背景上。",
       "startTime": 38.1,
       "endTime": 45.35,
       "analysis": {
         "words": [
           {
-            "word": "Black",
-            "pos": "adj.",
-            "meaning": "黑色的"
+            "word": "diamond",
+            "pos": "n.",
+            "meaning": "钻石"
+          },
+          {
+            "word": "necklace",
+            "pos": "n.",
+            "meaning": "项链"
+          },
+          {
+            "word": "arranged",
+            "pos": "v.",
+            "meaning": "安排，布置"
+          },
+          {
+            "word": "velvet",
+            "pos": "n.",
+            "meaning": "天鹅绒"
           }
         ]
       }
@@ -168,15 +221,15 @@
       "id": "s5",
       "role": "Man",
       "text": "After gazing at the display for several minutes, Mr. Taylor went back into his shop.",
-      "translation": "",
+      "translation": "泰勒先生凝视了橱窗几分钟后，回到了他的店里。",
       "startTime": 45.36,
       "endTime": 52.12,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "gazing",
+            "pos": "v.",
+            "meaning": "凝视"
           }
         ]
       }
@@ -185,15 +238,30 @@
       "id": "s6",
       "role": "Woman",
       "text": "The silence was suddenly broken when a large car, with its headlights on and its horn blaring, roared down the arcade.",
-      "translation": "",
+      "translation": "寂静突然被打破了，一辆亮着大灯、响着喇叭的大轿车吼叫着冲进拱廊街。",
       "startTime": 52.13,
       "endTime": 61.85,
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "silence",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "宁静"
+          },
+          {
+            "word": "headlight",
+            "pos": "n.",
+            "meaning": "前灯"
+          },
+          {
+            "word": "blaring",
+            "pos": "v.",
+            "meaning": "（喇叭等）发出响亮刺耳的声音"
+          },
+          {
+            "word": "roared",
+            "pos": "v.",
+            "meaning": "吼叫"
           }
         ]
       }
@@ -202,15 +270,20 @@
       "id": "s7",
       "role": "Man",
       "text": "It came to a stop outside the jeweller's.",
-      "translation": "",
+      "translation": "车停在了珠宝店门口。",
       "startTime": 61.86,
       "endTime": 65.67,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "outside",
+            "pos": "prep./adv.",
+            "meaning": "在...外面"
+          },
+          {
+            "word": "jeweller",
+            "pos": "n.",
+            "meaning": "珠宝商"
           }
         ]
       }
@@ -219,25 +292,25 @@
       "id": "s8",
       "role": "Woman",
       "text": "One man stayed at the wheel while two others with black stockings over their faces jumped out and smashed the window of the shop with iron bars.",
-      "translation": "",
+      "translation": "一个人留在驾驶座上，另外两个脸上蒙着黑色长筒袜的人跳出来，用铁棍砸碎了商铺的窗户。",
       "startTime": 65.68,
       "endTime": 76.81,
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "stocking",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "长筒袜"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "smashed",
+            "pos": "v.",
+            "meaning": "粉碎，砸碎"
           },
           {
-            "word": "Black",
-            "pos": "adj.",
-            "meaning": "黑色的"
+            "word": "iron bar",
+            "pos": "n. phr.",
+            "meaning": "铁棍"
           }
         ]
       }
@@ -246,15 +319,15 @@
       "id": "s9",
       "role": "Man",
       "text": "While this was going on, Mr. Taylor was upstairs.",
-      "translation": "",
+      "translation": "这一切发生时，泰勒先生正在楼上。",
       "startTime": 76.82,
       "endTime": 81.35,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "upstairs",
+            "pos": "adv.",
+            "meaning": "在楼上"
           }
         ]
       }
@@ -263,47 +336,80 @@
       "id": "s10",
       "role": "Woman",
       "text": "He and his staff began throwing furniture out of the window.",
-      "translation": "",
+      "translation": "他和店员们开始从窗户里往外扔家具。",
       "startTime": 81.36,
       "endTime": 86.24,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "staff",
+            "pos": "n.",
+            "meaning": "员工"
+          },
+          {
+            "word": "furniture",
+            "pos": "n.",
+            "meaning": "家具"
+          }
+        ]
       }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Chairs and tables went flying into the arcade.",
-      "translation": "",
+      "translation": "椅子和桌子飞进了拱廊街。",
       "startTime": 86.25,
-      "endTime": 90.58
+      "endTime": 90.58,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "One of the thieves was struck by a heavy statue,",
-      "translation": "",
+      "translation": "其中一个盗贼被一尊沉重的塑像砸中，",
       "startTime": 90.59,
-      "endTime": 94.2
+      "endTime": 94.2,
+      "analysis": {
+        "words": [
+          {
+            "word": "struck",
+            "pos": "v.",
+            "meaning": "击打"
+          },
+          {
+            "word": "heavy",
+            "pos": "adj.",
+            "meaning": "重的"
+          },
+          {
+            "word": "statue",
+            "pos": "n.",
+            "meaning": "塑像"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "but he was too busy helping himself to diamonds to notice any pain.",
-      "translation": "",
+      "translation": "但他正忙着往怀里揣钻石，根本顾不上疼痛。",
       "startTime": 94.21,
       "endTime": 100.35,
       "analysis": {
         "words": [
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "helping himself to",
+            "pos": "v. phr.",
+            "meaning": "擅自取用"
           },
           {
-            "word": "Busy",
-            "pos": "adj.",
-            "meaning": "忙碌的"
+            "word": "notice",
+            "pos": "v.",
+            "meaning": "注意到"
           }
         ]
       }
@@ -312,25 +418,30 @@
       "id": "s14",
       "role": "Woman",
       "text": "The raid was all over in three minutes, for the men scrambled back into the car and it moved off at a fantastic speed.",
-      "translation": "",
+      "translation": "抢劫在三分钟内就结束了，那些人爬回车里，车以惊人的速度开走了。",
       "startTime": 100.36,
       "endTime": 110.18,
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "raid",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "袭击，抢劫"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "scrambled",
+            "pos": "v.",
+            "meaning": "爬，急匆匆地走"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "fantastic",
+            "pos": "adj.",
+            "meaning": "极好的，惊人的"
+          },
+          {
+            "word": "speed",
+            "pos": "n.",
+            "meaning": "速度"
           }
         ]
       }
@@ -339,15 +450,15 @@
       "id": "s15",
       "role": "Man",
       "text": "Just as it was leaving,",
-      "translation": "",
+      "translation": "就在那车离开时，",
       "startTime": 110.19,
       "endTime": 112.37,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "leaving",
+            "pos": "v.",
+            "meaning": "离开"
           }
         ]
       }
@@ -356,15 +467,25 @@
       "id": "s16",
       "role": "Woman",
       "text": "Mr.Taylor rushed out and ran after it throwing ashtrays and vases,",
-      "translation": "",
+      "translation": "泰勒先生冲了出来，追着那辆车，边追边扔烟灰缸和花瓶，",
       "startTime": 112.38,
       "endTime": 117.85,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "rushed",
+            "pos": "v.",
+            "meaning": "冲出"
+          },
+          {
+            "word": "ashtray",
+            "pos": "n.",
+            "meaning": "烟灰缸"
+          },
+          {
+            "word": "vase",
+            "pos": "n.",
+            "meaning": "花瓶"
           }
         ]
       }
@@ -373,15 +494,15 @@
       "id": "s17",
       "role": "Man",
       "text": "but it was impossible to stop the thieves.",
-      "translation": "",
+      "translation": "但想要拦截住这帮贼已经是不可能的了。",
       "startTime": 117.86,
       "endTime": 120.98,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "impossible",
+            "pos": "adj.",
+            "meaning": "不可能的"
           }
         ]
       }
@@ -390,9 +511,18 @@
       "id": "s18",
       "role": "Woman",
       "text": "They had got away with thousands of pounds worth of diamonds.",
-      "translation": "",
+      "translation": "他们带着价值数千英镑的钻石逃跑了。",
       "startTime": 120.99,
-      "endTime": 125.99
+      "endTime": 125.99,
+      "analysis": {
+        "words": [
+          {
+            "word": "worth",
+            "pos": "adj./n.",
+            "meaning": "价值"
+          }
+        ]
+      }
     }
   ]
 }

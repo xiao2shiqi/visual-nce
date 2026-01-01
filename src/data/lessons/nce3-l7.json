@@ -2,13 +2,13 @@
   "id": "nce3-l7",
   "title": "Lesson 7: Mutilated Ladies",
   "audio": "/audio/nce3/07－Mutilated Ladies.mp3",
-  "image": "/images/coming-soon.jpg",
+  "image": "/images/nce3/l7/scene1.png",
   "segments": [
     {
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 7",
-      "translation": "",
+      "translation": "第7课",
       "startTime": 0.24,
       "endTime": 1.88,
       "analysis": {
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Mutilated Ladies",
-      "translation": "",
+      "translation": "残缺的纸币",
       "startTime": 1.89,
-      "endTime": 8.68
+      "endTime": 8.68,
+      "analysis": {
+        "words": [
+          {
+            "word": "mutilated",
+            "pos": "adj.",
+            "meaning": "残缺不全的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -44,34 +53,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
-            "pos": "v.",
+            "pos": "v./n.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
           },
           {
             "word": "question",
@@ -85,31 +74,37 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why did Jane cook John's wallet?",
-      "translation": "",
+      "translation": "为什么简把约翰的钱包煮了？",
       "startTime": 8.69,
       "endTime": 12.77,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "cook",
+            "pos": "v.",
+            "meaning": "烹调，煮（文中幽默用法）"
+          },
+          {
+            "word": "wallet",
+            "pos": "n.",
+            "meaning": "钱包"
+          }
+        ]
       }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "Has it ever happened to you?",
-      "translation": "",
+      "translation": "这种事在你身上发生过吗？",
       "startTime": 12.78,
       "endTime": 15.16,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "happened",
+            "pos": "v.",
+            "meaning": "发生"
           }
         ]
       }
@@ -118,20 +113,30 @@
       "id": "s1",
       "role": "Man",
       "text": "Have you ever put your trousers in the washing machine and then remembered there was a large bank note in your back pocket?",
-      "translation": "",
+      "translation": "你有没有过把裤子塞进洗衣机，然后才想起后兜里还有一张大面额钞票？",
       "startTime": 15.17,
       "endTime": 23.28,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "trousers",
+            "pos": "n.",
+            "meaning": "裤子"
           },
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "washing machine",
+            "pos": "n. phr.",
+            "meaning": "洗衣机"
+          },
+          {
+            "word": "bank note",
+            "pos": "n. phr.",
+            "meaning": "钞票"
+          },
+          {
+            "word": "pocket",
+            "pos": "n.",
+            "meaning": "口袋"
           }
         ]
       }
@@ -140,25 +145,15 @@
       "id": "s2",
       "role": "Woman",
       "text": "When you rescued your trousers, did you find the note was whiter than white?",
-      "translation": "",
+      "translation": "当你把裤子捞出来时，你发现那张钞票是不是洗得比白纸还要白？",
       "startTime": 23.29,
       "endTime": 29.09,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          },
-          {
-            "word": "White",
-            "pos": "adj.",
-            "meaning": "白色的"
+            "word": "rescued",
+            "pos": "v.",
+            "meaning": "援救，营救"
           }
         ]
       }
@@ -167,15 +162,20 @@
       "id": "s3",
       "role": "Man",
       "text": "People who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!",
-      "translation": "",
+      "translation": "住在英国的人们在犯这种错误时不必绝望（很多人都犯这种错误）！",
       "startTime": 29.1,
       "endTime": 36.61,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "despair",
+            "pos": "v./n.",
+            "meaning": "绝望"
+          },
+          {
+            "word": "mistakes",
+            "pos": "n.",
+            "meaning": "错误"
           }
         ]
       }
@@ -184,34 +184,59 @@
       "id": "s4",
       "role": "Woman",
       "text": "Fortunately for them, the Bank of England has a team called Mutilated Ladies",
-      "translation": "",
+      "translation": "对他们来说幸运的是，英格兰银行有一个名为“残缺纸币”的专家团队，",
       "startTime": 36.62,
-      "endTime": 42.31
+      "endTime": 42.31,
+      "analysis": {
+        "words": [
+          {
+            "word": "fortunately",
+            "pos": "adv.",
+            "meaning": "幸运地"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "which deals with claims from people who fed their money to a machine or to their dog.",
-      "translation": "",
+      "translation": "专门负责处理那些把钱塞进机器或喂了狗的人提出的索赔请求。",
       "startTime": 42.32,
       "endTime": 48.61,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "deals with",
+            "pos": "v. phr.",
+            "meaning": "处理"
+          },
+          {
+            "word": "claims",
+            "pos": "n.",
+            "meaning": "要求，索赔"
+          }
+        ]
       }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "Dogs, it seems, love to chew up money!",
-      "translation": "",
+      "translation": "看来，狗确实喜欢咀嚼钱币！",
       "startTime": 48.62,
       "endTime": 52.93,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "seems",
+            "pos": "v.",
+            "meaning": "看来，似乎"
+          },
+          {
+            "word": "chew up",
+            "pos": "v. phr.",
+            "meaning": "嚼碎"
           }
         ]
       }
@@ -220,23 +245,52 @@
       "id": "s7",
       "role": "Man",
       "text": "A recent case concerns Jane Butlin whose fiance, John, runs a successful furniture business.",
-      "translation": "",
+      "translation": "最近的一个案例涉及简·巴特林，她的未婚夫约翰经营着一家成功的家具店。",
       "startTime": 52.94,
-      "endTime": 61.05
+      "endTime": 61.05,
+      "analysis": {
+        "words": [
+          {
+            "word": "concerns",
+            "pos": "v.",
+            "meaning": "涉及"
+          },
+          {
+            "word": "fiance",
+            "pos": "n.",
+            "meaning": "未婚夫"
+          },
+          {
+            "word": "furniture",
+            "pos": "n.",
+            "meaning": "家具"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "John had a very good day and put his wallet containing ￡3, 000 into the microwave oven for safekeeping.",
-      "translation": "",
+      "translation": "约翰一天的生意很好，为了安全起见，他把装有3,000英镑的钱包放进微波炉里。",
       "startTime": 61.06,
       "endTime": 69.98,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "containing",
+            "pos": "v.",
+            "meaning": "包含"
+          },
+          {
+            "word": "microwave oven",
+            "pos": "n. phr.",
+            "meaning": "微波炉"
+          },
+          {
+            "word": "safekeeping",
+            "pos": "n.",
+            "meaning": "妥善保管"
           }
         ]
       }
@@ -245,28 +299,32 @@
       "id": "s9",
       "role": "Man",
       "text": "Then he and Jane went horse-riding.",
-      "translation": "",
+      "translation": "然后他陪简去骑马了。",
       "startTime": 69.99,
-      "endTime": 72.62
+      "endTime": 72.62,
+      "analysis": {
+        "words": [
+          {
+            "word": "horse-riding",
+            "pos": "n.",
+            "meaning": "骑马"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "When they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiance's wallet as well.",
-      "translation": "",
+      "translation": "回到家后，简用微波炉做晚饭，在毫不知情的情况下，把她未婚夫的钱包也给“煮”了。",
       "startTime": 72.63,
       "endTime": 82.98,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "realizing",
+            "pos": "v.",
+            "meaning": "意识到"
           }
         ]
       }
@@ -275,61 +333,112 @@
       "id": "s11",
       "role": "Man",
       "text": "Imagine their dismay when they found a beautifully-cooked wallet and notes turned to ash!",
-      "translation": "",
+      "translation": "可以想象，当他们发现一个熟透了的钱包和一堆化为灰烬的钞票时，该是多么沮丧！",
       "startTime": 82.99,
       "endTime": 91.08,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "imagine",
+            "pos": "v.",
+            "meaning": "想象"
+          },
+          {
+            "word": "dismay",
+            "pos": "n.",
+            "meaning": "沮丧"
+          },
+          {
+            "word": "ash",
+            "pos": "n.",
+            "meaning": "灰烬"
+          }
+        ]
       }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "John went to see his bank manager who sent the remains of wallet and the money",
-      "translation": "",
+      "translation": "约翰去找他的银行经理，经理把钱包的残余部分连同那些钱一起送到了，",
       "startTime": 91.09,
       "endTime": 96.67,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "remains",
+            "pos": "n.",
+            "meaning": "残余部分"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "to the special department of the Bank of England in Newcastle: the Mutilated Ladies!",
-      "translation": "",
+      "translation": "位于纽卡斯尔的英格兰银行特设机构：“残缺纸币”专家评审组。",
       "startTime": 96.68,
-      "endTime": 102.81
+      "endTime": 102.81,
+      "analysis": {
+        "words": [
+          {
+            "word": "department",
+            "pos": "n.",
+            "meaning": "部门"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "They examined the remains and John got all his money back.",
-      "translation": "",
+      "translation": "他们通过鉴定残存的纸币，使约翰拿回了全部的钱。",
       "startTime": 102.82,
       "endTime": 108.32,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "examined",
+            "pos": "v.",
+            "meaning": "鉴定，检查"
+          }
+        ]
       }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "'So long as there's something to identify, we will give people their money back,' said a spokeswoman for the Bank.",
-      "translation": "",
+      "translation": "“只要还有东西可以鉴定，我们就会把钱退还给人们，”该银行的一位女发言人说。",
       "startTime": 108.33,
       "endTime": 116.55,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "identify",
+            "pos": "v.",
+            "meaning": "鉴定，识别"
+          },
+          {
+            "word": "spokeswoman",
+            "pos": "n.",
+            "meaning": "女发言人"
+          }
+        ]
       }
     },
     {
       "id": "s16",
       "role": "Woman",
       "text": "'Last year, we paid ￡1.5 million on 21,000 claims.'",
-      "translation": "",
+      "translation": "“去年，我们共受理了21,000件索赔请求，支付了150万英镑。”",
       "startTime": 116.56,
-      "endTime": 121.56
+      "endTime": 121.56,
+      "analysis": {
+        "words": []
+      }
     }
   ]
 }

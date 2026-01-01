@@ -2,13 +2,13 @@
   "id": "nce3-l4",
   "title": "Lesson 4: The Double Life of Alfred Bloggs",
   "audio": "/audio/nce3/04－The Double Life of Alfred Bloggs.mp3",
-  "image": "/images/coming-soon.jpg",
+  "image": "/images/nce3/l4/scene1.png",
   "segments": [
     {
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 4",
-      "translation": "",
+      "translation": "第4课",
       "startTime": 0.78,
       "endTime": 2.43,
       "analysis": {
@@ -25,9 +25,23 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The double life of Alfred Bloggs",
-      "translation": "",
+      "translation": "阿尔弗雷德·布洛格斯的双重生活",
       "startTime": 2.44,
-      "endTime": 11.33
+      "endTime": 11.33,
+      "analysis": {
+        "words": [
+          {
+            "word": "double",
+            "pos": "adj.",
+            "meaning": "双重的"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生活"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -44,34 +58,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
-            "pos": "v.",
+            "pos": "v./n.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
           },
           {
             "word": "question",
@@ -85,37 +79,74 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why did Alf want a white-collar job?",
-      "translation": "",
+      "translation": "为什么艾尔夫想要一份白领工作？",
       "startTime": 11.34,
       "endTime": 16.82,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "white-collar",
+            "pos": "adj.",
+            "meaning": "白领的"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
+          }
+        ]
       }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "These days, people who do manual work often receive far more money than people who work in offices.",
-      "translation": "",
+      "translation": "如今，做体力工作的人往往比在办公室工作的人挣钱多得多。",
       "startTime": 16.83,
       "endTime": 24.75,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "manual",
+            "pos": "adj.",
+            "meaning": "体力的"
+          },
+          {
+            "word": "receive",
+            "pos": "v.",
+            "meaning": "收到，得到"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "People who work in offices are frequently referred to as 'white-collar workers' for the simple reason that they usually wear a collar and tie to go to work.",
-      "translation": "",
+      "translation": "在办公室工作的人通常被称为“白领工人”，原因很简单，他们通常穿领子衣服并系领带上班。",
       "startTime": 24.76,
       "endTime": 36.73,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "frequently",
+            "pos": "adv.",
+            "meaning": "经常地"
+          },
+          {
+            "word": "referred to as",
+            "pos": "v. phr.",
+            "meaning": "被称为"
+          },
+          {
+            "word": "collar",
+            "pos": "n.",
+            "meaning": "衣领"
+          },
+          {
+            "word": "tie",
+            "pos": "n.",
+            "meaning": "领带"
           }
         ]
       }
@@ -124,20 +155,30 @@
       "id": "s2",
       "role": "Woman",
       "text": "Such is human nature, that a great many people are often willing to sacrifice higher pay for the privilege of becoming white-collar workers.",
-      "translation": "",
+      "translation": "这就是人性的弱点，许多人往往宁愿牺牲高薪以换取白领工人的名声。",
       "startTime": 36.74,
       "endTime": 48.18,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "human nature",
+            "pos": "n. phr.",
+            "meaning": "人性"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "willing",
+            "pos": "adj.",
+            "meaning": "乐意的"
+          },
+          {
+            "word": "sacrifice",
+            "pos": "v./n.",
+            "meaning": "牺牲"
+          },
+          {
+            "word": "privilege",
+            "pos": "n.",
+            "meaning": "特权，荣幸"
           }
         ]
       }
@@ -146,20 +187,30 @@
       "id": "s3",
       "role": "Man",
       "text": "This can give rise to curious situations, as it did in the case of Alfred Bloggs who worked as a dustman for the Ellesmere Corporation.",
-      "translation": "",
+      "translation": "这种情况会产生一些奇怪的局面，阿尔弗雷德·布洛格斯的情况就是这样。他在艾尔斯米尔公司当清洁工。",
       "startTime": 48.19,
       "endTime": 60.77,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "give rise to",
+            "pos": "v. phr.",
+            "meaning": "引起，导致"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "curious",
+            "pos": "adj.",
+            "meaning": "好奇的，古怪的"
+          },
+          {
+            "word": "dustman",
+            "pos": "n.",
+            "meaning": "清洁工"
+          },
+          {
+            "word": "corporation",
+            "pos": "n.",
+            "meaning": "公司"
           }
         ]
       }
@@ -168,15 +219,20 @@
       "id": "s4",
       "role": "Woman",
       "text": "When he got married, Alf was too embarrassed to say anything to his wife about his job.",
-      "translation": "",
+      "translation": "艾尔夫结婚时，由于感到太难为情，没对妻子讲自己是干什么的。",
       "startTime": 60.78,
       "endTime": 67.62,
       "analysis": {
         "words": [
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "married",
+            "pos": "adj.",
+            "meaning": "结婚的"
+          },
+          {
+            "word": "embarrassed",
+            "pos": "adj.",
+            "meaning": "尴尬的，难为情的"
           }
         ]
       }
@@ -185,32 +241,36 @@
       "id": "s5",
       "role": "Man",
       "text": "He simply told her that he worked for the Corporation.",
-      "translation": "",
+      "translation": "他只是告诉她自己在公司工作。",
       "startTime": 67.63,
       "endTime": 71.56,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "Every morning, he left home dressed in a smart black suit.",
-      "translation": "",
+      "translation": "每天早晨，他穿着一身整洁的黑色西装离开家。",
       "startTime": 71.57,
       "endTime": 76.44,
       "analysis": {
         "words": [
           {
-            "word": "Black",
+            "word": "dressed in",
+            "pos": "v. phr.",
+            "meaning": "穿着"
+          },
+          {
+            "word": "smart",
             "pos": "adj.",
-            "meaning": "黑色的"
+            "meaning": "精明的，整洁的"
+          },
+          {
+            "word": "suit",
+            "pos": "n.",
+            "meaning": "西装"
           }
         ]
       }
@@ -219,23 +279,37 @@
       "id": "s7",
       "role": "Man",
       "text": "He then changed into overalls and spent the next eight hours as a dustman.",
-      "translation": "",
+      "translation": "然后他换上工作服，作为清洁工度过接下来的8个小时。",
       "startTime": 76.45,
-      "endTime": 82.89
+      "endTime": 82.89,
+      "analysis": {
+        "words": [
+          {
+            "word": "changed into",
+            "pos": "v. phr.",
+            "meaning": "换上"
+          },
+          {
+            "word": "overalls",
+            "pos": "n.",
+            "meaning": "工作服"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "Before returning home at night, he took a shower and changed back into his suit.",
-      "translation": "",
+      "translation": "每天晚上回家前，他先洗个澡，然后再换上那身西装。",
       "startTime": 82.9,
       "endTime": 89.01,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "shower",
+            "pos": "n./v.",
+            "meaning": "淋浴"
           }
         ]
       }
@@ -244,15 +318,20 @@
       "id": "s9",
       "role": "Man",
       "text": "Alf did this for over two years and his fellow dustmen kept his secret.",
-      "translation": "",
+      "translation": "艾尔夫这样做了两年多，他的同事清洁工们都为他保守秘密。",
       "startTime": 89.02,
       "endTime": 95.65,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "fellow",
+            "pos": "adj./n.",
+            "meaning": "同伴，同事"
+          },
+          {
+            "word": "secret",
+            "pos": "n.",
+            "meaning": "秘密"
           }
         ]
       }
@@ -261,15 +340,15 @@
       "id": "s10",
       "role": "Woman",
       "text": "Alf's wife has never discovered that she married a dustman and she never will, for Alf has just found another job.",
-      "translation": "",
+      "translation": "艾尔夫的妻子从未发现她嫁给了一个清洁工，而且她永远也不会发现，因为艾尔夫刚找到另一份工作。",
       "startTime": 95.66,
       "endTime": 104.46,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "discovered",
+            "pos": "v.",
+            "meaning": "发现"
           }
         ]
       }
@@ -278,41 +357,47 @@
       "id": "s11",
       "role": "Man",
       "text": "He will soon be working in an office.",
-      "translation": "",
+      "translation": "他不久就要去办公室工作了。",
       "startTime": 104.47,
       "endTime": 107.6,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          }
+        ]
       }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "He will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.",
-      "translation": "",
+      "translation": "他挣的钱将只有以前的一半，但他觉得地位的提高很值得在金钱上蒙受损失。",
       "startTime": 107.61,
       "endTime": 117.04,
       "analysis": {
         "words": [
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Is",
+            "word": "earning",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "挣钱"
           },
           {
-            "word": "Well",
+            "word": "status",
+            "pos": "n.",
+            "meaning": "地位，身份"
+          },
+          {
+            "word": "worth",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "值得"
+          },
+          {
+            "word": "loss",
+            "pos": "n.",
+            "meaning": "损失"
           }
         ]
       }
@@ -321,15 +406,15 @@
       "id": "s13",
       "role": "Man",
       "text": "From now on, he will wear a suit all day and others will call him 'Mr.Bloggs', not 'Alf'.",
-      "translation": "",
+      "translation": "今后，他可以整天穿着西装，人们将叫他“布洛格斯先生”，而不是“艾尔夫”。",
       "startTime": 117.05,
       "endTime": 122.05,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "From now on",
+            "pos": "adv. phr.",
+            "meaning": "从今以后"
           }
         ]
       }

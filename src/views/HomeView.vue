@@ -17,16 +17,11 @@ const activeBook = computed(() => {
   return (book || curriculum.books[0]) as typeof curriculum.books[0];
 });
 
-// 判断当前册是否为敬请期待状态
-const isComingSoon = computed(() => {
-  return activeBookId.value === 'nce3' || activeBookId.value === 'nce4';
-});
-
 // 处理课程点击
 const emit = defineEmits(['select-course']);
 
 const handleLessonClick = (lesson: any) => {
-  if (isComingSoon.value) {
+  if (lesson.image && lesson.image.includes('coming-soon')) {
     showComingSoonToast.value = true;
     setTimeout(() => {
       showComingSoonToast.value = false;

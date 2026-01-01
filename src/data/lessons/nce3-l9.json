@@ -2,13 +2,13 @@
   "id": "nce3-l9",
   "title": "Lesson 9: Flying Cats",
   "audio": "/audio/nce3/09－Flying Cats.mp3",
-  "image": "/images/coming-soon.jpg",
+  "image": "/images/nce3/l9/scene1.png",
   "segments": [
     {
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 9",
-      "translation": "",
+      "translation": "第9课",
       "startTime": 0.7,
       "endTime": 2.61,
       "analysis": {
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Flying cats",
-      "translation": "",
+      "translation": "会飞的猫",
       "startTime": 2.62,
-      "endTime": 10.01
+      "endTime": 10.01,
+      "analysis": {
+        "words": [
+          {
+            "word": "flying",
+            "pos": "adj.",
+            "meaning": "飞行的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -44,34 +53,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
-            "pos": "v.",
+            "pos": "v./n.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
           },
           {
             "word": "question",
@@ -85,15 +74,20 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "How do cats try to protect themselves when falling from great heights?",
-      "translation": "",
+      "translation": "猫从高处跌落时如何尝试保护自己？",
       "startTime": 10.02,
       "endTime": 17.33,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "protect",
+            "pos": "v.",
+            "meaning": "保护"
+          },
+          {
+            "word": "heights",
+            "pos": "n.",
+            "meaning": "高处，高度"
           }
         ]
       }
@@ -102,23 +96,42 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Cats never fail to fascinate human beings.",
-      "translation": "",
+      "translation": "猫总是让人们着迷。",
       "startTime": 17.34,
-      "endTime": 21.76
+      "endTime": 21.76,
+      "analysis": {
+        "words": [
+          {
+            "word": "fail",
+            "pos": "v.",
+            "meaning": "失败，没能"
+          },
+          {
+            "word": "fascinate",
+            "pos": "v.",
+            "meaning": "使着迷"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "They can be friendly and affectionate towards humans, but they lead mysterious lives of their own as well.",
-      "translation": "",
+      "translation": "它们可以对人友好且充满感情，但它们也过着自己神秘的生活。",
       "startTime": 21.77,
       "endTime": 29.46,
       "analysis": {
         "words": [
           {
-            "word": "Well",
+            "word": "affectionate",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "充满深情的，温柔的"
+          },
+          {
+            "word": "mysterious",
+            "pos": "adj.",
+            "meaning": "神秘的"
           }
         ]
       }
@@ -127,47 +140,71 @@
       "id": "s2",
       "role": "Woman",
       "text": "They never become submissive like dogs and horses.",
-      "translation": "",
+      "translation": "它们从不像狗和马那样顺从。",
       "startTime": 29.47,
-      "endTime": 33.62
+      "endTime": 33.62,
+      "analysis": {
+        "words": [
+          {
+            "word": "submissive",
+            "pos": "adj.",
+            "meaning": "服从的，顺从的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "As a result, humans have learned to respect feline independence.",
-      "translation": "",
+      "translation": "因此，人类已经学会尊重猫的独立性。",
       "startTime": 33.63,
-      "endTime": 39.35
+      "endTime": 39.35,
+      "analysis": {
+        "words": [
+          {
+            "word": "feline",
+            "pos": "adj.",
+            "meaning": "猫的，猫科的"
+          },
+          {
+            "word": "independence",
+            "pos": "n.",
+            "meaning": "独立"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "Most cats remain suspicious of humans all their lives.",
-      "translation": "",
+      "translation": "大多数猫一生都对人存有戒心。",
       "startTime": 39.36,
       "endTime": 43.9,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "suspicious",
+            "pos": "adj.",
+            "meaning": "怀疑的，多疑的"
+          }
+        ]
       }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "One of the things that fascinates us most about cats is the popular belief that they have nine lives.",
-      "translation": "",
+      "translation": "猫最令我们着迷的一点是，人们普遍相信猫有九条命。",
       "startTime": 43.91,
       "endTime": 51.85,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "belief",
+            "pos": "n.",
+            "meaning": "信念，相信"
           }
         ]
       }
@@ -176,20 +213,20 @@
       "id": "s6",
       "role": "Woman",
       "text": "Apparently, there is a good deal of truth in this idea.",
-      "translation": "",
+      "translation": "显然，这种说法很有道理。",
       "startTime": 51.86,
       "endTime": 57.68,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "apparently",
+            "pos": "adv.",
+            "meaning": "显然地"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "a good deal of",
+            "pos": "adj. phr.",
+            "meaning": "大量的，很多的"
           }
         ]
       }
@@ -198,15 +235,20 @@
       "id": "s7",
       "role": "Man",
       "text": "A cat's ability to survive falls is based on fact.",
-      "translation": "",
+      "translation": "猫在跌落中幸存的能力是基于事实的。",
       "startTime": 57.69,
       "endTime": 63.17,
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "ability",
+            "pos": "n.",
+            "meaning": "能力"
+          },
+          {
+            "word": "survive",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "幸存"
           }
         ]
       }
@@ -215,15 +257,15 @@
       "id": "s8",
       "role": "Woman",
       "text": "Recently the New York Animal Medical Centre made a study of 132 cats over a period of five months.",
-      "translation": "",
+      "translation": "最近，纽约动物医疗中心对132只猫进行了为期五个月的研究。",
       "startTime": 63.18,
       "endTime": 72.99,
       "analysis": {
         "words": [
           {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "recently",
+            "pos": "adv.",
+            "meaning": "最近地"
           }
         ]
       }
@@ -232,36 +274,64 @@
       "id": "s9",
       "role": "Man",
       "text": "All these cats had one experience in common: they had fallen off high buildings,",
-      "translation": "",
+      "translation": "所有这些猫都有一个共同的经历：它们都曾从高楼上掉下来，",
       "startTime": 73,
-      "endTime": 77.87
+      "endTime": 77.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "experience",
+            "pos": "n.",
+            "meaning": "经历"
+          },
+          {
+            "word": "in common",
+            "pos": "adv. phr.",
+            "meaning": "共同的"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "yet only eight of them died from shock or injuries.",
-      "translation": "",
+      "translation": "但其中只有八只死于休克或受伤。",
       "startTime": 77.88,
-      "endTime": 84.06
+      "endTime": 84.06,
+      "analysis": {
+        "words": [
+          {
+            "word": "shock",
+            "pos": "n.",
+            "meaning": "休克，震惊"
+          },
+          {
+            "word": "injury",
+            "pos": "n.",
+            "meaning": "伤害，受伤"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Of course, New York is the ideal place for such an interesting study, because there is no shortage of tall buildings.",
-      "translation": "",
+      "translation": "当然，纽约是进行这类有趣研究的理想场所，因为那里不缺高楼大厦。",
       "startTime": 84.07,
       "endTime": 93.78,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "ideal",
+            "pos": "adj.",
+            "meaning": "理想的"
           },
           {
-            "word": "Tall",
-            "pos": "adj.",
-            "meaning": "高的"
+            "word": "shortage",
+            "pos": "n.",
+            "meaning": "短缺"
           }
         ]
       }
@@ -270,47 +340,96 @@
       "id": "s12",
       "role": "Woman",
       "text": "There are plenty of high-rise windowsills to fall from!",
-      "translation": "",
+      "translation": "那里有许多高层的窗台可以跌落！",
       "startTime": 93.79,
       "endTime": 98.47,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "plenty of",
+            "pos": "adj. phr.",
+            "meaning": "大量的，充足的"
+          },
+          {
+            "word": "high-rise",
+            "pos": "adj.",
+            "meaning": "高层的"
+          },
+          {
+            "word": "windowsill",
+            "pos": "n.",
+            "meaning": "窗台"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "One cat, Sabrina, fell 32 storeys, yet only suffered from a broken tooth.",
-      "translation": "",
+      "translation": "有一只叫萨布丽娜的猫，从32层楼掉下来，却只摔断了一颗牙。",
       "startTime": 98.48,
-      "endTime": 106.88
+      "endTime": 106.88,
+      "analysis": {
+        "words": [
+          {
+            "word": "storey",
+            "pos": "n.",
+            "meaning": "楼层"
+          },
+          {
+            "word": "suffered",
+            "pos": "v.",
+            "meaning": "遭受，受苦"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
       "role": "Woman",
       "text": "'Cats behave like well-trained paratroopers,' a doctor said.",
-      "translation": "",
+      "translation": "一位医生说：“猫的表现就像训练有素的伞兵。”",
       "startTime": 106.89,
-      "endTime": 112.14
+      "endTime": 112.14,
+      "analysis": {
+        "words": [
+          {
+            "word": "behave",
+            "pos": "v.",
+            "meaning": "表现"
+          },
+          {
+            "word": "well-trained",
+            "pos": "adj.",
+            "meaning": "训练有素的"
+          },
+          {
+            "word": "paratrooper",
+            "pos": "n.",
+            "meaning": "伞兵"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "It seems that the further cats fall, the less they are likely to injure themselves.",
-      "translation": "",
+      "translation": "看来，猫掉得越久，受伤的可能性反而越小。",
       "startTime": 112.15,
       "endTime": 119.15,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "further",
+            "pos": "adv.",
+            "meaning": "进一步地，更远地"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "injure",
+            "pos": "v.",
+            "meaning": "受伤，伤害"
           }
         ]
       }
@@ -319,23 +438,37 @@
       "id": "s16",
       "role": "Woman",
       "text": "In a long drop, they reach speeds of 60 miles an hour and more.",
-      "translation": "",
+      "translation": "在漫长的跌落中，它们的速度可达每小时60英里甚至更快。",
       "startTime": 119.16,
-      "endTime": 125
+      "endTime": 125,
+      "analysis": {
+        "words": [
+          {
+            "word": "reach",
+            "pos": "v.",
+            "meaning": "达到"
+          },
+          {
+            "word": "speed",
+            "pos": "n.",
+            "meaning": "速度"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
       "role": "Man",
       "text": "At high speeds, falling cats have time to relax.",
-      "translation": "",
+      "translation": "在高速下落时，下落中的猫有时间放松。",
       "startTime": 125.01,
       "endTime": 129.22,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "relax",
+            "pos": "v.",
+            "meaning": "放松"
           }
         ]
       }
@@ -344,26 +477,52 @@
       "id": "s18",
       "role": "Woman",
       "text": "They stretch out their legs like flying squirrels.",
-      "translation": "",
+      "translation": "它们像飞鼠一样伸展四肢。",
       "startTime": 129.23,
       "endTime": 133.68,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "stretch out",
+            "pos": "v. phr.",
+            "meaning": "伸展，舒展"
+          },
+          {
+            "word": "flying squirrel",
+            "pos": "n. phr.",
+            "meaning": "飞鼠，鼯鼠"
+          }
+        ]
       }
     },
     {
       "id": "s19",
       "role": "Man",
       "text": "This increases their air-resistance and reduces the shock of impact when they hit the ground.",
-      "translation": "",
+      "translation": "这增加了它们的空气阻力，并减少了撞击地面时的冲击力。",
       "startTime": 133.69,
       "endTime": 138.69,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "increases",
+            "pos": "v.",
+            "meaning": "增加"
+          },
+          {
+            "word": "air-resistance",
+            "pos": "n.",
+            "meaning": "空气阻力"
+          },
+          {
+            "word": "reduces",
+            "pos": "v.",
+            "meaning": "减少"
+          },
+          {
+            "word": "shock of impact",
+            "pos": "n. phr.",
+            "meaning": "冲击力"
           }
         ]
       }

@@ -2,13 +2,13 @@
   "id": "nce3-l5",
   "title": "Lesson 5: The Facts",
   "audio": "/audio/nce3/05－The Facts.mp3",
-  "image": "/images/coming-soon.jpg",
+  "image": "/images/nce3/l5/scene1.png",
   "segments": [
     {
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 5",
-      "translation": "",
+      "translation": "第5课",
       "startTime": 0.67,
       "endTime": 2.11,
       "analysis": {
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The facts",
-      "translation": "",
+      "translation": "确切数字",
       "startTime": 2.12,
-      "endTime": 8.67
+      "endTime": 8.67,
+      "analysis": {
+        "words": [
+          {
+            "word": "fact",
+            "pos": "n.",
+            "meaning": "事实，实际情况"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -44,34 +53,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
-            "pos": "v.",
+            "pos": "v./n.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
           },
           {
             "word": "question",
@@ -85,15 +74,30 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What was the consequence of the editor's insistence on facts and statistics?",
-      "translation": "",
+      "translation": "主编纠缠于事实和统计数字的结果是什么？",
       "startTime": 8.68,
       "endTime": 16.64,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "consequence",
+            "pos": "n.",
+            "meaning": "后果"
+          },
+          {
+            "word": "editor",
+            "pos": "n.",
+            "meaning": "编辑，主编"
+          },
+          {
+            "word": "insistence",
+            "pos": "n.",
+            "meaning": "坚持"
+          },
+          {
+            "word": "statistics",
+            "pos": "n.",
+            "meaning": "统计数字"
           }
         ]
       }
@@ -102,34 +106,79 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Editors of newspapers and magazines often go to extremes to provide their readers with unimportant facts and statistics.",
-      "translation": "",
+      "translation": "报刊杂志的编辑常常为了向读者提供一些无关紧要的事实和统计数字而走极端。",
       "startTime": 16.65,
       "endTime": 25,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "magazine",
+            "pos": "n.",
+            "meaning": "杂志"
+          },
+          {
+            "word": "extreme",
+            "pos": "n./adj.",
+            "meaning": "极端"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Last year a journalist had been instructed by a well-known magazine to write an article on the president's palace in a new African republic.",
-      "translation": "",
+      "translation": "去年，一位记者受一家著名杂志的委托，要写一篇关于非洲某新共和国总统府的文章。",
       "startTime": 25.01,
-      "endTime": 35.08
+      "endTime": 35.08,
+      "analysis": {
+        "words": [
+          {
+            "word": "journalist",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
+            "word": "instruct",
+            "pos": "v.",
+            "meaning": "指示，指导"
+          },
+          {
+            "word": "palace",
+            "pos": "n.",
+            "meaning": "宫殿，府邸"
+          },
+          {
+            "word": "republic",
+            "pos": "n.",
+            "meaning": "共和国"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "When the article arrived, the editor read the first sentence and then refused to publish it.",
-      "translation": "",
+      "translation": "稿子送到后，主编看第一句话就拒不发表。",
       "startTime": 35.09,
       "endTime": 42.42,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "sentence",
+            "pos": "n.",
+            "meaning": "句子"
+          },
+          {
+            "word": "refused",
+            "pos": "v.",
+            "meaning": "拒绝"
+          },
+          {
+            "word": "publish",
+            "pos": "v.",
+            "meaning": "出版，发表"
           }
         ]
       }
@@ -138,28 +187,42 @@
       "id": "s3",
       "role": "Man",
       "text": "The article began:'Hundreds of steps lead to the high wall which surrounds the president's palace.'",
-      "translation": "",
+      "translation": "文章的开头说：“几百级台阶通向总统府高大的围墙。”",
       "startTime": 42.43,
-      "endTime": 50.23
+      "endTime": 50.23,
+      "analysis": {
+        "words": [
+          {
+            "word": "surrounds",
+            "pos": "v.",
+            "meaning": "围绕"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "The editor at once sent the journalist a fax instructing him to find out the exact number of steps and the height of the wall.",
-      "translation": "",
+      "translation": "编辑立即给那位记者发去传真，要求他查清台阶的确切级数和围墙的高度。",
       "startTime": 50.24,
       "endTime": 61.27,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "fax",
+            "pos": "n./v.",
+            "meaning": "传真"
           },
           {
-            "word": "Number",
+            "word": "exact",
+            "pos": "adj.",
+            "meaning": "确切的"
+          },
+          {
+            "word": "height",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "高度"
           }
         ]
       }
@@ -168,44 +231,86 @@
       "id": "s5",
       "role": "Man",
       "text": "The journalist immediately set out to obtain these important facts, but he took a long time to send them.",
-      "translation": "",
+      "translation": "记者立即出发去搜集这些重要的事实，但他花了很长时间才把电报发来。",
       "startTime": 61.28,
-      "endTime": 68.65
+      "endTime": 68.65,
+      "analysis": {
+        "words": [
+          {
+            "word": "immediately",
+            "pos": "adv.",
+            "meaning": "立即"
+          },
+          {
+            "word": "obtain",
+            "pos": "v.",
+            "meaning": "获得"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
       "role": "Woman",
       "text": "Meanwhile, the editor was getting impatient, for the magazine would soon go to press.",
-      "translation": "",
+      "translation": "与此同时，主编等得不耐烦了，因为杂志很快就要付印。",
       "startTime": 68.66,
-      "endTime": 74.23
+      "endTime": 74.23,
+      "analysis": {
+        "words": [
+          {
+            "word": "meanwhile",
+            "pos": "adv.",
+            "meaning": "与此同时"
+          },
+          {
+            "word": "impatient",
+            "pos": "adj.",
+            "meaning": "不耐烦的"
+          },
+          {
+            "word": "press",
+            "pos": "n./v.",
+            "meaning": "出版，压力"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "He sent the journalist two more faxes, but received no reply.",
-      "translation": "",
+      "translation": "他又给记者发了两次传真，但没得到回音。",
       "startTime": 74.24,
-      "endTime": 79.43
+      "endTime": 79.43,
+      "analysis": {
+        "words": [
+          {
+            "word": "reply",
+            "pos": "n./v.",
+            "meaning": "回答，回信"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "He sent yet another fax informing the journalist that if he did not reply soon he would be fired.",
-      "translation": "",
+      "translation": "他又发了一份传真给记者，通知他说如果再不回电，他将被开除。",
       "startTime": 79.44,
       "endTime": 86.8,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "inform",
+            "pos": "v.",
+            "meaning": "通知"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "fired",
+            "pos": "v.",
+            "meaning": "被开除，解雇"
           }
         ]
       }
@@ -214,15 +319,25 @@
       "id": "s9",
       "role": "Man",
       "text": "When the journalist again failed to reply,  the editor reluctantly published the article as it had originally been written.",
-      "translation": "",
+      "translation": "当记者再次没有回电时，主编很不情愿地按原样发表了稿子。",
       "startTime": 86.81,
       "endTime": 95.6,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "failed",
+            "pos": "v.",
+            "meaning": "失败，没能"
+          },
+          {
+            "word": "reluctantly",
+            "pos": "adv.",
+            "meaning": "勉强地，不情愿地"
+          },
+          {
+            "word": "originally",
+            "pos": "adv.",
+            "meaning": "起初，原先"
           }
         ]
       }
@@ -231,15 +346,15 @@
       "id": "s10",
       "role": "Woman",
       "text": "A week later, the editor at last received a fax from the journalist.",
-      "translation": "",
+      "translation": "一周之后，主编终于收到了那位记者的传真。",
       "startTime": 95.61,
       "endTime": 100.97,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "received",
+            "pos": "v.",
+            "meaning": "收到"
           }
         ]
       }
@@ -248,25 +363,20 @@
       "id": "s11",
       "role": "Man",
       "text": "Not only had the poor man been arrested, but he had been sent to prison as well.",
-      "translation": "",
+      "translation": "那个可怜的人不仅被捕了，而且还被关进了监狱。",
       "startTime": 100.98,
       "endTime": 107.18,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "arrested",
+            "pos": "v.",
+            "meaning": "逮捕"
           },
           {
-            "word": "Man",
+            "word": "prison",
             "pos": "n.",
-            "meaning": "男人"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "监狱"
           }
         ]
       }
@@ -275,20 +385,15 @@
       "id": "s12",
       "role": "Narrator",
       "text": "However, he had at last been allowed to send a fax in which he informed the editor that he had been arrested",
-      "translation": "",
+      "translation": "但他终于获准发回一份传真，通知主编说他被捕了，",
       "startTime": 107.19,
       "endTime": 115.98,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "allowed",
+            "pos": "v.",
+            "meaning": "允许"
           }
         ]
       }
@@ -297,9 +402,18 @@
       "id": "s13",
       "role": "Man",
       "text": "while counting the 1, 084 steps leading to the 15th foot wall which surrounded the president's palace.",
-      "translation": "",
+      "translation": "当时他正在数通向总统府高墙的1,084级台阶，那墙有15英尺高。",
       "startTime": 115.99,
-      "endTime": 120.99
+      "endTime": 120.99,
+      "analysis": {
+        "words": [
+          {
+            "word": "counting",
+            "pos": "v.",
+            "meaning": "数数"
+          }
+        ]
+      }
     }
   ]
 }
