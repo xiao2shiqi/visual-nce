@@ -7,6 +7,91 @@
     {
       "id": "intro_1",
       "role": "Narrator",
+      "text": "Lesson 61",
+      "translation": "第61课",
+      "startTime": 0.5,
+      "endTime": 2.5,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "61",
+            "pos": "num.",
+            "meaning": "第61"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_2",
+      "role": "Narrator",
+      "text": "Trouble with the Hubble",
+      "translation": "(标题)",
+      "startTime": 2.51,
+      "endTime": 5.5,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "intro_3",
+      "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 5.51,
+      "endTime": 10.39,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
       "text": "What is the special importance of a telescope in space?",
       "translation": "太空中的望远镜有什么特殊的重要性？",
       "startTime": 10.59,
@@ -67,7 +152,7 @@
       }
     },
     {
-      "id": "intro_2",
+      "id": "intro_5",
       "role": "Narrator",
       "text": "The Hubble telescope was launched into",
       "translation": "哈勃望远镜于1990年4月20日",
@@ -109,7 +194,7 @@
       }
     },
     {
-      "id": "intro_3",
+      "id": "intro_6",
       "role": "Narrator",
       "text": "space by NASA on April 20, 1990 at a cost of over a billion dollars.",
       "translation": "由美国航空航天局发射升空，造价超过10亿美元。",
@@ -196,7 +281,7 @@
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_7",
       "role": "Narrator",
       "text": "Right from the start there was trouble with the Hubble.",
       "translation": "从一开始哈勃就有问题。",

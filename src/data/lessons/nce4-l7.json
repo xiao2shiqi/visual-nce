@@ -32,6 +32,58 @@
     {
       "id": "intro_3",
       "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 9.7,
+      "endTime": 35.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
       "text": "In what way does echo-location in bats play an utilitarian role?",
       "translation": "",
       "startTime": 9.7,
@@ -47,7 +99,7 @@
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_5",
       "role": "Narrator",
       "text": "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.",
       "translation": "",

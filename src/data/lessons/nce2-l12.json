@@ -7,6 +7,91 @@
     {
       "id": "intro_1",
       "role": "Narrator",
+      "text": "Lesson 12",
+      "translation": "第12课",
+      "startTime": 0.5,
+      "endTime": 2.5,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "12",
+            "pos": "num.",
+            "meaning": "第12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_2",
+      "role": "Narrator",
+      "text": "Goodbye and Good Luck",
+      "translation": "(标题)",
+      "startTime": 2.51,
+      "endTime": 5.5,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "intro_3",
+      "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 5.51,
+      "endTime": 10.440000000000001,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
       "text": "Where is Captain Alison going and how?",
       "translation": "艾利森船长要去哪里？怎么去？",
       "startTime": 10.64,
@@ -27,7 +112,7 @@
       }
     },
     {
-      "id": "intro_2",
+      "id": "intro_5",
       "role": "Narrator",
       "text": "Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.",
       "translation": "我们的邻居查尔斯·艾利森船长明天将从朴次茅斯启航。",
@@ -84,7 +169,7 @@
       }
     },
     {
-      "id": "intro_3",
+      "id": "intro_6",
       "role": "Narrator",
       "text": "We'll meet him at the harbour early in the morning.",
       "translation": "我们将于清晨到码头去给他送行。",
@@ -146,7 +231,7 @@
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_7",
       "role": "Narrator",
       "text": "He will be in his small boat, Topsail.",
       "translation": "他将乘坐他那艘名为\"涛波赛尔\"的小船。",

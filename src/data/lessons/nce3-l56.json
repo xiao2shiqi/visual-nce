@@ -35,6 +35,58 @@
     {
       "id": "intro_3",
       "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 9.41,
+      "endTime": 21.16,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
       "text": "Why had the neighbours left their farm?",
       "translation": "",
       "startTime": 9.41,
@@ -44,7 +96,7 @@
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_5",
       "role": "Narrator",
       "text": "The river which forms the eastern boundary of our farm has always played an important part in our lives.",
       "translation": "",

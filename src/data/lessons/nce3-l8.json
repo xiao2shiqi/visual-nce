@@ -32,6 +32,58 @@
     {
       "id": "intro_3",
       "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 9.49,
+      "endTime": 20.389999999999997,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
       "text": "What are the St.Bernard dogs used for?",
       "translation": "",
       "startTime": 9.49,
@@ -47,7 +99,7 @@
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_5",
       "role": "Narrator",
       "text": "The Great St.Bernard Pass connects Switzerland to Italy.",
       "translation": "",

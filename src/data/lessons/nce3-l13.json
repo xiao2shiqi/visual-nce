@@ -41,6 +41,58 @@
     {
       "id": "intro_3",
       "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 10.87,
+      "endTime": 24.86,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
       "text": "What did the man expect to find under the stairs?",
       "translation": "",
       "startTime": 10.87,
@@ -61,7 +113,7 @@
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_5",
       "role": "Narrator",
       "text": "After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her bedroom.",
       "translation": "",

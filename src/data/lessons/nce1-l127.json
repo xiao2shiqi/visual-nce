@@ -5,6 +5,91 @@
   "image": "/images/nce1/l127/scene1.jpg",
   "segments": [
     {
+      "id": "intro_1",
+      "role": "Narrator",
+      "text": "Lesson 127",
+      "translation": "第127课",
+      "startTime": 0.5,
+      "endTime": 2.5,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "127",
+            "pos": "num.",
+            "meaning": "第127"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_2",
+      "role": "Narrator",
+      "text": "A famous actress",
+      "translation": "(标题)",
+      "startTime": 2.51,
+      "endTime": 5.5,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "intro_3",
+      "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 5.51,
+      "endTime": 20.400000000000002,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
       "id": "s1",
       "role": "Man",
       "text": "Can you recognize that woman, Liz?",

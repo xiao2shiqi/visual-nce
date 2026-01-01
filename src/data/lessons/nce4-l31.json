@@ -32,6 +32,58 @@
     {
       "id": "intro_3",
       "role": "Narrator",
+      "text": "Listen to the tape then answer this question.",
+      "translation": "听录音，然后回答问题。",
+      "startTime": 10.95,
+      "endTime": 25.59,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_4",
+      "role": "Narrator",
       "text": "What do you have to be able to do to appreciate sculpture?",
       "translation": "",
       "startTime": 10.95,
@@ -52,7 +104,7 @@
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_5",
       "role": "Narrator",
       "text": "Appreciation of sculpture depends upon the ability to respond to form in 3 dimensions.",
       "translation": "",
