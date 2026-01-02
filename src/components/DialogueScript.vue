@@ -59,10 +59,25 @@ const getSpeakerColorClass = (speaker: string): string => {
 
 
 const activeAnalysisSegment = ref<Segment | null>(null);
+const copiedId = ref<string | null>(null);
 
 const toggleAnalysis = (segment: Segment, event: Event) => {
   event.stopPropagation();
   activeAnalysisSegment.value = segment;
+};
+
+const handleCopy = (segment: Segment, event: Event) => {
+  event.stopPropagation();
+  if (!segment.text) return;
+  
+  navigator.clipboard.writeText(segment.text).then(() => {
+    copiedId.value = segment.id;
+    setTimeout(() => {
+      if (copiedId.value === segment.id) {
+        copiedId.value = null;
+      }
+    }, 2000);
+  });
 };
 
 const closeAnalysis = () => {
@@ -193,6 +208,21 @@ defineExpose({
               </p>
             </div>
             
+            <!-- Copy Button -->
+            <button 
+              @click="handleCopy(s, $event)"
+              class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 hover:bg-blue-50 group/copy"
+              :class="[copiedId === s.id ? 'text-green-500' : 'text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-blue-400']"
+              title="复制句子"
+            >
+              <svg v-if="copiedId !== s.id" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
+              </svg>
+              <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
+            </button>
+
             <!-- Analysis Trigger (Magic Wand) -->
             <!-- Now always visible on hover, even if analysis is missing (will show coming soon) -->
             <button 
