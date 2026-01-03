@@ -150,10 +150,10 @@
     {
       "id": "intro_5",
       "role": "Narrator",
-      "text": "When you visit London, one of the first things you will see is Big Ben,",
-      "translation": "当你游览伦敦时，首先看到的景物之一就是大本钟，",
+      "text": "When you visit London, one of the first things you will see is Big Ben, the famous clock which can be heard all over the world on the B.B.C.",
+      "translation": "当你游览伦敦时，首先看到的景物之一就是大本钟，那是一座著名的钟，你可以在英国广播公司的节目中听到全世界都能听到的钟声。",
       "startTime": 15.41,
-      "endTime": 21.49,
+      "endTime": 28.58,
       "analysis": {
         "words": [
           {
@@ -225,19 +225,7 @@
             "word": "Big Ben",
             "pos": "n.",
             "meaning": "大本钟"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_6",
-      "role": "Narrator",
-      "text": "the famous clock which can be heard all over the world on the B.B.C.",
-      "translation": "那是一座著名的钟，你可以在英国广播公司的节目中听到全世界都能听到的钟声。",
-      "startTime": 21.99,
-      "endTime": 28.58,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -314,10 +302,10 @@
     {
       "id": "intro_7",
       "role": "Narrator",
-      "text": "If the Houses of Parliament had not been burned down in 1834,",
-      "translation": "如果不是国会大厦在1834年被焚毁的话，",
+      "text": "If the Houses of Parliament had not been burned down in 1834, the great clock would never have been erected.",
+      "translation": "如果不是国会大厦在1834年被焚毁的话，大钟就不会建造了。",
       "startTime": 29.08,
-      "endTime": 34.86,
+      "endTime": 39.37,
       "analysis": {
         "words": [
           {
@@ -359,19 +347,7 @@
             "word": "1834",
             "pos": "num.",
             "meaning": "1834"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "the great clock would never have been erected.",
-      "translation": "大钟就不会建造了。",
-      "startTime": 35.36,
-      "endTime": 39.37,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -416,7 +392,7 @@
       }
     },
     {
-      "id": "s2",
+      "id": "s1",
       "role": "Woman",
       "text": "Big Ben takes its name from Sir Benjamin Hall who was responsible for the making of the clock when the new Houses of Parliament were being built.",
       "translation": "大本钟得名于本杰明·霍尔爵士，当时他负责在新国会大厦建造时制造这口钟。",
@@ -518,7 +494,7 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s2",
       "role": "Man",
       "text": "It is not only of immense size, but is extremely accurate as well.",
       "translation": "它不仅巨大，而且非常精确。",
@@ -585,7 +561,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "Officials from Greenwich Observatory have the clock checked twice a day.",
       "translation": "格林威治天文台的官员每天两次检查这口钟的准确性。",
@@ -652,7 +628,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
       "text": "On the B.B.C. you can hear the clock when it is actually striking because microphones are connected to the clock tower.",
       "translation": "你可以在英国广播公司的节目中听到这口钟的声音，因为麦克风连接着钟楼。",
@@ -764,7 +740,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Woman",
       "text": "Big Ben has rarely gone wrong.",
       "translation": "大本钟很少出差错。",
@@ -806,7 +782,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
       "text": "Once, however, it failed to give the correct time.",
       "translation": "然而有一次它没有给出正确的时间。",
@@ -858,7 +834,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Woman",
       "text": "A painter who had been working on the tower hung a pot of paint on one of the hands and slowed it down!",
       "translation": "一位正在钟楼上干活的油漆工把一只油漆桶挂在了一根指针上，把钟弄慢了！",

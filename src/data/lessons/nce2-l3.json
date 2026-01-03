@@ -499,10 +499,10 @@
     {
       "id": "s5",
       "role": "Man",
-      "text": "My holidays passed quickly,",
-      "translation": "假期过得真快，",
+      "text": "My holidays passed quickly, but I did not send cards to my friends.",
+      "translation": "假期过得真快，但我还没有给我的朋友们寄过一张明信片。",
       "startTime": 46.08,
-      "endTime": 48.34,
+      "endTime": 52.48,
       "analysis": {
         "words": [
           {
@@ -524,19 +524,7 @@
             "word": "quickly",
             "pos": "adv.",
             "meaning": "快"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "but I did not send cards to my friends.",
-      "translation": "但我还没有给我的朋友们寄过一张明信片。",
-      "startTime": 48.84,
-      "endTime": 52.48,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -586,7 +574,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
       "text": "On the last day I made a big decision.",
       "translation": "在假期的最后一天，我做出了一项重大决定。",
@@ -643,7 +631,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Woman",
       "text": "I got up early and bought thirty-seven cards.",
       "translation": "我早早起了床，买了37张明信片。",
@@ -690,12 +678,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s8",
       "role": "Man",
-      "text": "I spent the whole day in my room,",
-      "translation": "我在房间里关了整整一天。",
+      "text": "I spent the whole day in my room, but I did not write a single card!",
+      "translation": "我在房间里关了整整一天。但是一张明信片也没写！",
       "startTime": 63.08,
-      "endTime": 66.05,
+      "endTime": 71.55,
       "analysis": {
         "words": [
           {
@@ -737,19 +725,7 @@
             "word": "room",
             "pos": "n.",
             "meaning": "房间"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "but I did not write a single card!",
-      "translation": "但是一张明信片也没写！",
-      "startTime": 66.55,
-      "endTime": 71.55,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",

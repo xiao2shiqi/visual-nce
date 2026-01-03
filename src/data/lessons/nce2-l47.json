@@ -274,10 +274,10 @@
     {
       "id": "intro_7",
       "role": "Narrator",
-      "text": "He told me that he could not go to sleep one night",
-      "translation": "他告诉我有一天晚上他没法入睡，",
+      "text": "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.",
+      "translation": "他告诉我有一天晚上他没法入睡，因为他听到酒吧里传来一种奇怪的声音。",
       "startTime": 29.63,
-      "endTime": 33.09,
+      "endTime": 38.4,
       "analysis": {
         "words": [
           {
@@ -329,19 +329,7 @@
             "word": "night",
             "pos": "n.",
             "meaning": "晚上"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "because he heard a strange noise coming from the bar.",
-      "translation": "因为他听到酒吧里传来一种奇怪的声音。",
-      "startTime": 33.59,
-      "endTime": 38.4,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "because",
             "pos": "conj.",
@@ -396,12 +384,12 @@
       }
     },
     {
-      "id": "s2",
+      "id": "s1",
       "role": "Woman",
-      "text": "The next morning,",
-      "translation": "第二天早上，",
+      "text": "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.",
+      "translation": "第二天早上，他发现门被椅子堵住了，家具也被搬动了。",
       "startTime": 38.9,
-      "endTime": 39.93,
+      "endTime": 47.11,
       "analysis": {
         "words": [
           {
@@ -418,19 +406,7 @@
             "word": "morning",
             "pos": "n.",
             "meaning": "早晨"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "he found that the doors had been blocked by chairs and the furniture had been moved.",
-      "translation": "他发现门被椅子堵住了，家具也被搬动了。",
-      "startTime": 40.43,
-      "endTime": 47.11,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "he",
             "pos": "pron.",
@@ -505,12 +481,12 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s2",
       "role": "Woman",
-      "text": "Though Mr.Thompson had turned the lights off before he went to bed,",
-      "translation": "虽然汤普森先生睡觉前把灯关了，",
+      "text": "Though Mr.Thompson had turned the lights off before he went to bed, they were on in the morning.",
+      "translation": "虽然汤普森先生睡觉前把灯关了，但早晨灯却亮着。",
       "startTime": 47.61,
-      "endTime": 52.79,
+      "endTime": 55.92,
       "analysis": {
         "words": [
           {
@@ -577,19 +553,7 @@
             "word": "bed",
             "pos": "n.",
             "meaning": "床"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "they were on in the morning.",
-      "translation": "但早晨灯却亮着。",
-      "startTime": 53.29,
-      "endTime": 55.92,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "they",
             "pos": "pron.",
@@ -624,12 +588,12 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s3",
       "role": "Woman",
-      "text": "He also said that he had found five empty whisky bottles",
-      "translation": "他还说他发现了5只空威士忌瓶子，",
+      "text": "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.",
+      "translation": "他还说他发现了5只空威士忌瓶子，那一定是鬼魂前天晚上喝的。",
       "startTime": 56.42,
-      "endTime": 61.41,
+      "endTime": 66.18,
       "analysis": {
         "words": [
           {
@@ -686,19 +650,7 @@
             "word": "bottles",
             "pos": "n.",
             "meaning": "瓶子（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "which the ghost must have drunk the night before.",
-      "translation": "那一定是鬼魂前天晚上喝的。",
-      "startTime": 61.91,
-      "endTime": 66.18,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "which",
             "pos": "pron.",
@@ -748,12 +700,12 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s4",
       "role": "Woman",
-      "text": "When I suggested that some villagers must have come",
-      "translation": "当我暗示一定是有些村民来",
+      "text": "When I suggested that some villagers must have come in for a free drink, Mr.Thompson shook his head.",
+      "translation": "当我暗示一定是有些村民来白喝酒时，汤普森先生摇了摇头。",
       "startTime": 66.68,
-      "endTime": 70.07,
+      "endTime": 76.02,
       "analysis": {
         "words": [
           {
@@ -800,19 +752,7 @@
             "word": "come",
             "pos": "v.",
             "meaning": "来过"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "in for a free drink, Mr.Thompson shook his head.",
-      "translation": "白喝酒时，汤普森先生摇了摇头。",
-      "startTime": 70.57,
-      "endTime": 76.02,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "in",
             "pos": "adv.",
@@ -867,12 +807,12 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s5",
       "role": "Woman",
-      "text": "The villagers have told him that",
-      "translation": "村民们告诉他，",
+      "text": "The villagers have told him that they will not accept the pub even if he gives it away.",
+      "translation": "村民们告诉他，即使他把酒店白送给他们，他们也不要。",
       "startTime": 76.52,
-      "endTime": 78.29,
+      "endTime": 83.79,
       "analysis": {
         "words": [
           {
@@ -904,19 +844,7 @@
             "word": "that",
             "pos": "conj.",
             "meaning": "（引导词）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "they will not accept the pub even if he gives it away.",
-      "translation": "即使他把酒店白送给他们，他们也不要。",
-      "startTime": 78.79,
-      "endTime": 83.79,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "they",
             "pos": "pron.",

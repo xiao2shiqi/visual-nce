@@ -175,10 +175,10 @@
     {
       "id": "intro_5",
       "role": "Narrator",
-      "text": "I love travelling in the country,",
-      "translation": "我喜欢在乡间旅行，",
+      "text": "I love travelling in the country, but I don't like losing my way.",
+      "translation": "我喜欢在乡间旅行，但我不喜欢迷路。",
       "startTime": 16.09,
-      "endTime": 18.42,
+      "endTime": 22.13,
       "analysis": {
         "words": [
           {
@@ -210,19 +210,7 @@
             "word": "country",
             "pos": "n.",
             "meaning": "乡村，国家"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_6",
-      "role": "Narrator",
-      "text": "but I don't like losing my way.",
-      "translation": "但我不喜欢迷路。",
-      "startTime": 18.92,
-      "endTime": 22.13,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -264,10 +252,10 @@
     {
       "id": "intro_7",
       "role": "Narrator",
-      "text": "I went on an excursion recently,",
-      "translation": "最近我作了一次短途旅行，",
+      "text": "I went on an excursion recently, but my trip took me longer than I expected.",
+      "translation": "最近我作了一次短途旅行，但这次旅行花费的时间比我预计的要长。",
       "startTime": 22.63,
-      "endTime": 24.91,
+      "endTime": 29.7,
       "analysis": {
         "words": [
           {
@@ -299,19 +287,7 @@
             "word": "recently",
             "pos": "adv.",
             "meaning": "最近"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "but my trip took me longer than I expected.",
-      "translation": "但这次旅行花费的时间比我预计的要长。",
-      "startTime": 25.41,
-      "endTime": 29.7,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -361,12 +337,12 @@
       }
     },
     {
-      "id": "s2",
+      "id": "s1",
       "role": "Woman",
-      "text": "'I'm going to Woodford Green,'",
-      "translation": "'我要去伍德福德草地，'",
+      "text": "'I'm going to Woodford Green,' I said to the conductor as I got on the bus, 'but I don't know where it is.' 'I'll tell you where to get off.' answered the conductor.",
+      "translation": "'我要去伍德福德草地，'我上公共汽车时对售票员说，'但我不知道它在哪里。''我会告诉你在哪儿下车的。'售票员回答。",
       "startTime": 30.2,
-      "endTime": 32.13,
+      "endTime": 45.5,
       "analysis": {
         "words": [
           {
@@ -383,19 +359,7 @@
             "word": "Woodford Green",
             "pos": "n.",
             "meaning": "伍德福德格林"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "I said to the conductor as I got on the bus,",
-      "translation": "我上公共汽车时对售票员说，",
-      "startTime": 32.63,
-      "endTime": 36.34,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",
@@ -450,19 +414,7 @@
             "word": "bus",
             "pos": "n.",
             "meaning": "公共汽车"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "'but I don't know where it is.'",
-      "translation": "'但我不知道它在哪里。'",
-      "startTime": 36.84,
-      "endTime": 40,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -497,19 +449,7 @@
             "word": "is",
             "pos": "v.",
             "meaning": "是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "'I'll tell you where to get off.' answered the conductor.",
-      "translation": "'我会告诉你在哪儿下车的。'售票员回答。",
-      "startTime": 40.5,
-      "endTime": 45.5,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I'll",
             "pos": "aux.",
@@ -559,7 +499,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s2",
       "role": "Woman",
       "text": "I sat in the front of the bus to get a good view of the countryside.",
       "translation": "我坐在汽车的前部以便饱览沿途的乡村风景。",
@@ -651,7 +591,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s3",
       "role": "Man",
       "text": "After some time, the bus stopped.",
       "translation": "过了一会儿，汽车停了。",
@@ -693,7 +633,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s4",
       "role": "Woman",
       "text": "Looking round, I realized with a shock that I was the only passenger left on the bus.",
       "translation": "我环顾四周，惊奇地发现车上只剩下我一个乘客了。",
@@ -785,12 +725,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s5",
       "role": "Man",
-      "text": "'You'll have to get off here,'",
-      "translation": "'你得在这儿下车，'",
+      "text": "'You'll have to get off here,' the conductor said. 'This is as far as we go.' 'Is this Woodford Green?' I asked.",
+      "translation": "'你得在这儿下车，'售票员说。'我们只能走到这儿了。''这是伍德福德草地吗？'我问。",
       "startTime": 64.21,
-      "endTime": 66.53,
+      "endTime": 75.54,
       "analysis": {
         "words": [
           {
@@ -812,19 +752,7 @@
             "word": "here",
             "pos": "adv.",
             "meaning": "这里"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "the conductor said. 'This is as far as we go.'",
-      "translation": "售票员说。'我们只能走到这儿了。'",
-      "startTime": 67.03,
-      "endTime": 71.92,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -864,19 +792,7 @@
             "word": "go",
             "pos": "v.",
             "meaning": "走"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "'Is this Woodford Green?' I asked.",
-      "translation": "'这是伍德福德草地吗？'我问。",
-      "startTime": 72.42,
-      "endTime": 75.54,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "Is",
             "pos": "v.",
@@ -896,7 +812,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s6",
       "role": "Woman",
       "text": "'Oh dear,' said the conductor suddenly.",
       "translation": "'天哪，'售票员突然说。",
@@ -938,12 +854,12 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s7",
       "role": "Man",
-      "text": "'I forgot to put you off.'",
-      "translation": "'我忘了让你下车了。'",
+      "text": "'I forgot to put you off.' 'It doesn't matter,' I said. 'I'll get off here.' 'We're going back now,' said the conductor.",
+      "translation": "'我忘了让你下车了。''不要紧，'我说。'我在这儿下车吧。''我们现在要返回了，'售票员说。",
       "startTime": 80.23,
-      "endTime": 82.82,
+      "endTime": 92.18,
       "analysis": {
         "words": [
           {
@@ -965,19 +881,7 @@
             "word": "put you off",
             "pos": "v.",
             "meaning": "让你下车"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "'It doesn't matter,' I said. 'I'll get off here.'",
-      "translation": "'不要紧，'我说。'我在这儿下车吧。'",
-      "startTime": 83.32,
-      "endTime": 87.95,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "It",
             "pos": "pron.",
@@ -1017,19 +921,7 @@
             "word": "here",
             "pos": "adv.",
             "meaning": "这里"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "'We're going back now,' said the conductor.",
-      "translation": "'我们现在要返回了，'售票员说。",
-      "startTime": 88.45,
-      "endTime": 92.18,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "We",
             "pos": "pron.",
@@ -1074,12 +966,12 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s8",
       "role": "Woman",
-      "text": "'Well, in that case,",
-      "translation": "'那好，既然如此，",
+      "text": "'Well, in that case, I prefer to stay on the bus,' I answered.",
+      "translation": "'那好，既然如此，我还是留在车上吧，'我回答。",
       "startTime": 92.68,
-      "endTime": 94.4,
+      "endTime": 99.9,
       "analysis": {
         "words": [
           {
@@ -1091,19 +983,7 @@
             "word": "That",
             "pos": "pron.",
             "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "I prefer to stay on the bus,' I answered.",
-      "translation": "我还是留在车上吧，'我回答。",
-      "startTime": 94.9,
-      "endTime": 99.9,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",

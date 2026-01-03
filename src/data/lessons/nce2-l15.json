@@ -326,10 +326,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "After I had sat down,",
-      "translation": "我坐下后，",
+      "text": "After I had sat down, he said that business was very bad.",
+      "translation": "我坐下后，他说生意很不好。",
       "startTime": 28.84,
-      "endTime": 30.73,
+      "endTime": 34.6,
       "analysis": {
         "words": [
           {
@@ -356,19 +356,7 @@
             "word": "down",
             "pos": "adv.",
             "meaning": "向下"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "he said that business was very bad.",
-      "translation": "他说生意很不好。",
-      "startTime": 31.23,
-      "endTime": 34.6,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "he",
             "pos": "pron.",
@@ -408,7 +396,7 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s2",
       "role": "Man",
       "text": "He told me that the firm could not afford to pay such large salaries.",
       "translation": "他告诉我公司付不起这么高的薪水了。",
@@ -490,7 +478,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "Twenty people had already left.",
       "translation": "已有20人离开了。",
@@ -527,7 +515,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
       "text": "I knew that my turn had come.",
       "translation": "我知道该轮到我了。",
@@ -574,7 +562,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Woman",
       "text": "'Mr. Harmsworth,' I said in a weak voice.",
       "translation": "'哈姆斯沃斯先生，'我用微弱的声音说道。",
@@ -626,7 +614,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
       "text": "'Don't interrupt,' he said.",
       "translation": "'别打断我，'他说。",
@@ -663,7 +651,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Woman",
       "text": "Then he smiled and told me I would receive an extra thousand pounds a year!",
       "translation": "然后他笑了一下，告诉我每年将要多得1000英镑！",

@@ -150,10 +150,10 @@
     {
       "id": "intro_5",
       "role": "Narrator",
-      "text": "My friend, Hugh, has always been fat,",
-      "translation": "我的朋友休一直很胖，",
+      "text": "My friend, Hugh, has always been fat, but things got so bad recently that he decided to go on a diet.",
+      "translation": "我的朋友休一直很胖，但最近情况变得很糟糕，以至于他决定节食。",
       "startTime": 15.33,
-      "endTime": 19.27,
+      "endTime": 25.82,
       "analysis": {
         "words": [
           {
@@ -190,19 +190,7 @@
             "word": "fat",
             "pos": "adj.",
             "meaning": "胖的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_6",
-      "role": "Narrator",
-      "text": "but things got so bad recently that he decided to go on a diet.",
-      "translation": "但最近情况变得很糟糕，以至于他决定节食。",
-      "startTime": 19.77,
-      "endTime": 25.82,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -383,10 +371,10 @@
     {
       "id": "s2",
       "role": "Woman",
-      "text": "The list included most of the things Hugh loves:",
-      "translation": "这张单子上的大多数是休喜欢吃的食物：",
+      "text": "The list included most of the things Hugh loves: butter, potatoes, rice, beer, milk, chocolate, and sweets.",
+      "translation": "这张单子上的大多数是休喜欢吃的食物：黄油、土豆、米饭、啤酒、牛奶、巧克力和糖果。",
       "startTime": 36.88,
-      "endTime": 40.8,
+      "endTime": 48.14,
       "analysis": {
         "words": [
           {
@@ -433,19 +421,7 @@
             "word": "loves",
             "pos": "v.",
             "meaning": "爱，喜欢（love的第三人称单数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "butter, potatoes, rice, beer, milk, chocolate, and sweets.",
-      "translation": "黄油、土豆、米饭、啤酒、牛奶、巧克力和糖果。",
-      "startTime": 41.3,
-      "endTime": 48.14,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "butter",
             "pos": "n.",
@@ -490,7 +466,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "Yesterday I paid him a visit.",
       "translation": "昨天我去看望了他。",
@@ -532,7 +508,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
       "text": "I rang the bell and was not surprised to see that Hugh was still as fat as ever.",
       "translation": "我按响了门铃，当看到休仍和以前一样胖时我并不感到惊讶。",
@@ -609,7 +585,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Woman",
       "text": "He led me into his room and hurriedly hid a large parcel under his desk.",
       "translation": "他把我领进房间，慌忙把一个大包藏在书桌下面。",
@@ -691,7 +667,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
       "text": "It was obvious that he was very embarrassed.",
       "translation": "显然他感到很尴尬。",
@@ -743,12 +719,12 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Woman",
-      "text": "When I asked him what he was doing,",
-      "translation": "当我问他在干什么时，",
+      "text": "When I asked him what he was doing, he smiled guiltily and then put the parcel on the desk.",
+      "translation": "当我问他在干什么时，他内疚地笑了笑，然后把那个大包放到了桌子上。",
       "startTime": 70.03,
-      "endTime": 72.2,
+      "endTime": 77.28,
       "analysis": {
         "words": [
           {
@@ -790,19 +766,7 @@
             "word": "doing",
             "pos": "v.",
             "meaning": "做"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "he smiled guiltily and then put the parcel on the desk.",
-      "translation": "他内疚地笑了笑，然后把那个大包放到了桌子上。",
-      "startTime": 72.7,
-      "endTime": 77.28,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "he",
             "pos": "pron.",
@@ -862,7 +826,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s8",
       "role": "Woman",
       "text": "He explained that his diet was so strict that he had to reward himself occasionally.",
       "translation": "他解释说，他的饮食控制得太严格了，以至于不得不偶尔奖励自己一下。",
@@ -944,7 +908,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s9",
       "role": "Man",
       "text": "Then he showed me the contents of the parcel.",
       "translation": "接着他给我看了包里的东西。",
@@ -1001,7 +965,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s10",
       "role": "Woman",
       "text": "It contained five large bars of chocolate and three bags of sweets!",
       "translation": "里面有5大块巧克力和3袋糖果！",

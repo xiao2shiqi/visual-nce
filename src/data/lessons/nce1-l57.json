@@ -182,10 +182,10 @@
     {
       "id": "s2",
       "role": "Woman",
-      "text": "The children go to school by car every day,",
-      "translation": "孩子们每天乘车上学，",
+      "text": "The children go to school by car every day, but today, they are going to school on foot.",
+      "translation": "孩子们每天乘车上学，但今天，他们正步行上学。",
       "startTime": 20.44,
-      "endTime": 24.7,
+      "endTime": 30.67,
       "analysis": {
         "words": [
           {
@@ -232,19 +232,7 @@
             "word": "day",
             "pos": "n.",
             "meaning": "天"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "but today, they are going to school on foot.",
-      "translation": "但今天，他们正步行上学。",
-      "startTime": 25.2,
-      "endTime": 30.67,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -294,7 +282,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "It is ten o'clock.",
       "translation": "现在是10点钟。",
@@ -326,12 +314,12 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
-      "text": "Mrs. Sawyer usually stays at home in the morning,",
-      "translation": "索耶夫人上午通常呆在家里，",
+      "text": "Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.",
+      "translation": "索耶夫人上午通常呆在家里，但今天上午，她正去商店。",
       "startTime": 33.57,
-      "endTime": 38.1,
+      "endTime": 44,
       "analysis": {
         "words": [
           {
@@ -378,19 +366,7 @@
             "word": "morning",
             "pos": "n.",
             "meaning": "早晨"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "but this morning, she is going to the shops.",
-      "translation": "但今天上午，她正去商店。",
-      "startTime": 38.6,
-      "endTime": 44,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -440,7 +416,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s5",
       "role": "Man",
       "text": "It is four o'clock.",
       "translation": "现在是4点钟。",
@@ -472,7 +448,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s6",
       "role": "Woman",
       "text": "In the afternoon, Mrs. Sawyer usually drinks tea in the living room.",
       "translation": "下午，索耶夫人通常在客厅喝茶。",
@@ -544,7 +520,7 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s7",
       "role": "Man",
       "text": "But this afternoon, she is drinking tea in the garden.",
       "translation": "但今天下午，她正在花园里喝茶。",
@@ -606,7 +582,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s8",
       "role": "Woman",
       "text": "It is six o'clock.",
       "translation": "现在是6点钟。",
@@ -638,12 +614,12 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s9",
       "role": "Man",
-      "text": "In the evening, the children usually do their homework,",
-      "translation": "傍晚，孩子们通常做作业，",
+      "text": "In the evening, the children usually do their homework, but this evening, they are not doing their homework.",
+      "translation": "傍晚，孩子们通常做作业，但今晚，他们不在做作业。",
       "startTime": 63.83,
-      "endTime": 68.42,
+      "endTime": 73.71,
       "analysis": {
         "words": [
           {
@@ -690,19 +666,7 @@
             "word": "homework",
             "pos": "n.",
             "meaning": "家庭作业"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "but this evening, they are not doing their homework.",
-      "translation": "但今晚，他们不在做作业。",
-      "startTime": 68.92,
-      "endTime": 73.71,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -752,7 +716,7 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s10",
       "role": "Man",
       "text": "At the moment, they are playing in the garden.",
       "translation": "此刻，他们正在花园里玩。",
@@ -809,7 +773,7 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s11",
       "role": "Woman",
       "text": "It is nine o'clock.",
       "translation": "现在是9点钟。",
@@ -841,7 +805,7 @@
       }
     },
     {
-      "id": "s15",
+      "id": "s12",
       "role": "Man",
       "text": "Mr. Sawyer usually reads his newspaper at night.",
       "translation": "索耶先生通常在晚上看报纸。",
@@ -893,7 +857,7 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s13",
       "role": "Woman",
       "text": "But he's not reading his newspaper tonight.",
       "translation": "但今晚他不在看报纸。",
@@ -945,7 +909,7 @@
       }
     },
     {
-      "id": "s17",
+      "id": "s14",
       "role": "Man",
       "text": "At the moment, he's reading an interesting book.",
       "translation": "此刻，他正在看一本有趣的书。",

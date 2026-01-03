@@ -414,10 +414,10 @@
     {
       "id": "s5",
       "role": "Man",
-      "text": "'It's raining again.'",
-      "translation": "'又下雨了。'",
+      "text": "'It's raining again.' Just then, the telephone rang.",
+      "translation": "'又下雨了。'就在这时，电话铃响了。",
       "startTime": 39.6,
-      "endTime": 42.11,
+      "endTime": 45.54,
       "analysis": {
         "words": [
           {
@@ -434,19 +434,7 @@
             "word": "again",
             "pos": "adv.",
             "meaning": "再一次，又"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "Just then, the telephone rang.",
-      "translation": "就在这时，电话铃响了。",
-      "startTime": 42.61,
-      "endTime": 45.54,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "Just",
             "pos": "adv.",
@@ -476,7 +464,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
       "text": "It was my aunt Lucy.",
       "translation": "是我姑妈露西打来的。",
@@ -513,7 +501,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Woman",
       "text": "'I've just arrived by train,' she said.",
       "translation": "'我刚下火车，'她说。",
@@ -560,12 +548,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s8",
       "role": "Man",
-      "text": "'I'm coming to see you.'",
-      "translation": "'我这就来看你。'",
+      "text": "'I'm coming to see you.' 'But I'm still having breakfast,' I said.",
+      "translation": "'我这就来看你。''但我还在吃早饭，'我说。",
       "startTime": 53.09,
-      "endTime": 55.51,
+      "endTime": 60.04,
       "analysis": {
         "words": [
           {
@@ -592,19 +580,7 @@
             "word": "you",
             "pos": "pron.",
             "meaning": "你"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "'But I'm still having breakfast,' I said.",
-      "translation": "'但我还在吃早饭，'我说。",
-      "startTime": 56.01,
-      "endTime": 60.04,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "But",
             "pos": "conj.",
@@ -644,7 +620,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s9",
       "role": "Man",
       "text": "'What are you doing?' she asked.",
       "translation": "'你在做什么？'她问。",
@@ -686,7 +662,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s10",
       "role": "Woman",
       "text": "'I'm having breakfast,' I repeated.",
       "translation": "'我在吃早饭，'我又说了一遍。",
@@ -723,7 +699,7 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s11",
       "role": "Man",
       "text": "'Dear me,' she said.",
       "translation": "'天哪，'她说。",
@@ -755,7 +731,7 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s12",
       "role": "Woman",
       "text": "'Do you always get up so late?",
       "translation": "'你总是起得这么晚吗？",
@@ -797,7 +773,7 @@
       }
     },
     {
-      "id": "s15",
+      "id": "s13",
       "role": "Man",
       "text": "It's one o'clock!'",
       "translation": "现在已经一点钟了！'",

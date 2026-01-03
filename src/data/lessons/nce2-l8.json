@@ -118,10 +118,10 @@
     {
       "id": "intro_4",
       "role": "Narrator",
-      "text": "Why is Joe's garden",
-      "translation": "为什么乔的花园",
+      "text": "Why is Joe's garden the most beautiful one in the town?",
+      "translation": "为什么乔的花园是镇上最漂亮的？",
       "startTime": 9.96,
-      "endTime": 11.55,
+      "endTime": 16.42,
       "analysis": {
         "words": [
           {
@@ -143,19 +143,7 @@
             "word": "garden",
             "pos": "n.",
             "meaning": "花园"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "the most beautiful one in the town?",
-      "translation": "是镇上最漂亮的？",
-      "startTime": 12.05,
-      "endTime": 16.42,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -197,10 +185,10 @@
     {
       "id": "intro_6",
       "role": "Narrator",
-      "text": "Joe Sanders has the most beautiful garden",
-      "translation": "乔·桑德斯拥有最漂亮的花园",
+      "text": "Joe Sanders has the most beautiful garden in our town.",
+      "translation": "乔·桑德斯拥有最漂亮的花园在我们镇上。",
       "startTime": 16.92,
-      "endTime": 20.17,
+      "endTime": 21.77,
       "analysis": {
         "words": [
           {
@@ -232,19 +220,7 @@
             "word": "garden",
             "pos": "n.",
             "meaning": "花园"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_7",
-      "role": "Narrator",
-      "text": "in our town.",
-      "translation": "在我们镇上。",
-      "startTime": 20.67,
-      "endTime": 21.77,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "in",
             "pos": "prep.",
@@ -266,10 +242,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "Nearly everybody enters for",
-      "translation": "几乎每个人都参加",
+      "text": "Nearly everybody enters for 'The Nicest Garden Competition' each year, but Joe wins every time.",
+      "translation": "几乎每个人都参加每年举办的'最佳花园竞赛'，但每次都是乔赢。",
       "startTime": 22.27,
-      "endTime": 24.67,
+      "endTime": 32.1,
       "analysis": {
         "words": [
           {
@@ -286,19 +262,7 @@
             "word": "enters for",
             "pos": "phrase",
             "meaning": "报名参加"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "'The Nicest Garden Competition' each year,",
-      "translation": "每年举办的'最佳花园竞赛'，",
-      "startTime": 25.17,
-      "endTime": 28.62,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "The",
             "pos": "art.",
@@ -328,19 +292,7 @@
             "word": "year",
             "pos": "n.",
             "meaning": "年"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "but Joe wins every time.",
-      "translation": "但每次都是乔赢。",
-      "startTime": 29.12,
-      "endTime": 32.1,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -370,7 +322,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s2",
       "role": "Woman",
       "text": "Bill Frith's garden is larger than Joe's.",
       "translation": "比尔·弗里斯的花园比乔的大。",
@@ -412,12 +364,12 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s3",
       "role": "Man",
-      "text": "Bill works harder than Joe",
-      "translation": "比尔比乔更辛勤劳作，",
+      "text": "Bill works harder than Joe and grows more flowers and vegetables, but Joe's garden is more interesting.",
+      "translation": "比尔比乔更辛勤劳作，种植的花草和蔬菜也更多，但乔的花园更有趣。",
       "startTime": 36.52,
-      "endTime": 38.38,
+      "endTime": 45.25,
       "analysis": {
         "words": [
           {
@@ -444,19 +396,7 @@
             "word": "Joe",
             "pos": "n.",
             "meaning": "乔（人名）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "and grows more flowers and vegetables,",
-      "translation": "种植的花草和蔬菜也更多，",
-      "startTime": 38.88,
-      "endTime": 41.62,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -486,19 +426,7 @@
             "word": "vegetables",
             "pos": "n.",
             "meaning": "蔬菜（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "but Joe's garden is more interesting.",
-      "translation": "但乔的花园更有趣。",
-      "startTime": 42.12,
-      "endTime": 45.25,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -533,12 +461,12 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s4",
       "role": "Woman",
-      "text": "He has made neat paths",
-      "translation": "他修了整洁的小路，",
+      "text": "He has made neat paths and has built a wooden bridge over a pool.",
+      "translation": "他修了整洁的小路，并在一个池塘上架了一座木桥。",
       "startTime": 45.75,
-      "endTime": 47.46,
+      "endTime": 51.75,
       "analysis": {
         "words": [
           {
@@ -565,19 +493,7 @@
             "word": "paths",
             "pos": "n.",
             "meaning": "小路（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "and has built a wooden bridge over a pool.",
-      "translation": "并在一个池塘上架了一座木桥。",
-      "startTime": 47.96,
-      "endTime": 51.75,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -627,12 +543,12 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s5",
       "role": "Woman",
-      "text": "I like gardens too,",
-      "translation": "我也喜欢花园，",
+      "text": "I like gardens too, but I do not like hard work.",
+      "translation": "我也喜欢花园，但我不喜欢艰苦的劳动。",
       "startTime": 52.25,
-      "endTime": 53.88,
+      "endTime": 57.3,
       "analysis": {
         "words": [
           {
@@ -654,19 +570,7 @@
             "word": "too",
             "pos": "adv.",
             "meaning": "也"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "but I do not like hard work.",
-      "translation": "但我不喜欢艰苦的劳动。",
-      "startTime": 54.38,
-      "endTime": 57.3,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -706,12 +610,12 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s6",
       "role": "Woman",
-      "text": "Every year",
-      "translation": "每年，",
+      "text": "Every year I enter for the garden competition too, and I always win a little prize for the worst garden in the town!",
+      "translation": "每年，我也参加花园竞赛，我总是赢得一个小奖，因为镇上最差的花园！",
       "startTime": 57.8,
-      "endTime": 58.55,
+      "endTime": 70.97,
       "analysis": {
         "words": [
           {
@@ -723,19 +627,7 @@
             "word": "year",
             "pos": "n.",
             "meaning": "年"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "I enter for the garden competition too,",
-      "translation": "我也参加花园竞赛，",
-      "startTime": 59.05,
-      "endTime": 62.26,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",
@@ -765,19 +657,7 @@
             "word": "too",
             "pos": "adv.",
             "meaning": "也"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "and I always win a little prize",
-      "translation": "我总是赢得一个小奖，",
-      "startTime": 62.76,
-      "endTime": 65.47,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -812,19 +692,7 @@
             "word": "prize",
             "pos": "n.",
             "meaning": "奖品"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "for the worst garden in the town!",
-      "translation": "因为镇上最差的花园！",
-      "startTime": 65.97,
-      "endTime": 70.97,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "for",
             "pos": "prep.",

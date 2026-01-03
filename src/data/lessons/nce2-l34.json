@@ -212,10 +212,10 @@
     {
       "id": "intro_6",
       "role": "Narrator",
-      "text": "Last Tuesday he received a letter",
-      "translation": "上星期二他收到了当地警察局的",
+      "text": "Last Tuesday he received a letter from the local police.",
+      "translation": "上星期二他收到了当地警察局的一封信。",
       "startTime": 20.97,
-      "endTime": 23.32,
+      "endTime": 25.69,
       "analysis": {
         "words": [
           {
@@ -247,19 +247,7 @@
             "word": "letter",
             "pos": "n.",
             "meaning": "信"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_7",
-      "role": "Narrator",
-      "text": "from the local police.",
-      "translation": "一封信。",
-      "startTime": 23.82,
-      "endTime": 25.69,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "from",
             "pos": "prep.",
@@ -348,10 +336,10 @@
     {
       "id": "s2",
       "role": "Woman",
-      "text": "Dan wondered why",
-      "translation": "丹不明白",
+      "text": "Dan wondered why he was wanted by the police, but he went to the station yesterday and now he is not worried anymore.",
+      "translation": "丹不明白为什么警察要找他，但他昨天还是去了警察局，现在他不再担心了。",
       "startTime": 30.94,
-      "endTime": 32.04,
+      "endTime": 41.68,
       "analysis": {
         "words": [
           {
@@ -368,19 +356,7 @@
             "word": "why",
             "pos": "adv.",
             "meaning": "为什么"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "he was wanted by the police,",
-      "translation": "为什么警察要找他，",
-      "startTime": 32.54,
-      "endTime": 35.21,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "he",
             "pos": "pron.",
@@ -410,19 +386,7 @@
             "word": "police",
             "pos": "n.",
             "meaning": "警察"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "but he went to the station yesterday",
-      "translation": "但他昨天还是去了警察局，",
-      "startTime": 35.71,
-      "endTime": 38.03,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -457,19 +421,7 @@
             "word": "yesterday",
             "pos": "adv.",
             "meaning": "昨天"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "and now he is not worried anymore.",
-      "translation": "现在他不再担心了。",
-      "startTime": 38.53,
-      "endTime": 41.68,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -509,12 +461,12 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s3",
       "role": "Woman",
-      "text": "At the station,",
-      "translation": "在警察局，",
+      "text": "At the station, he was told by a smiling policeman that his bicycle had been found.",
+      "translation": "在警察局，一位满脸笑容的警察告诉他他的自行车找到了。",
       "startTime": 42.18,
-      "endTime": 43.22,
+      "endTime": 50.19,
       "analysis": {
         "words": [
           {
@@ -531,19 +483,7 @@
             "word": "station",
             "pos": "n.",
             "meaning": "车站"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "he was told by a smiling policeman",
-      "translation": "一位满脸笑容的警察告诉他",
-      "startTime": 43.72,
-      "endTime": 46.31,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "he",
             "pos": "pron.",
@@ -578,19 +518,7 @@
             "word": "policeman",
             "pos": "n.",
             "meaning": "警察"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "that his bicycle had been found.",
-      "translation": "他的自行车找到了。",
-      "startTime": 46.81,
-      "endTime": 50.19,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "that",
             "pos": "conj.",
@@ -625,12 +553,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s4",
       "role": "Man",
-      "text": "Five days ago, the policeman told him,",
-      "translation": "那位警察告诉他，5天前，",
+      "text": "Five days ago, the policeman told him, the bicycle was picked up in a small village four hundred miles away.",
+      "translation": "那位警察告诉他，5天前，那辆自行车在400英里外的一个小村庄被发现了。",
       "startTime": 50.69,
-      "endTime": 54.19,
+      "endTime": 60.77,
       "analysis": {
         "words": [
           {
@@ -667,19 +595,7 @@
             "word": "him",
             "pos": "pron.",
             "meaning": "他"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "the bicycle was picked up in a small village",
-      "translation": "那辆自行车在400英里外的一个小村庄",
-      "startTime": 54.69,
-      "endTime": 57.85,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -724,19 +640,7 @@
             "word": "village",
             "pos": "n.",
             "meaning": "村庄"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "four hundred miles away.",
-      "translation": "被发现了。",
-      "startTime": 58.35,
-      "endTime": 60.77,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "four",
             "pos": "num.",
@@ -761,7 +665,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s5",
       "role": "Woman",
       "text": "It is now being sent to his home by train.",
       "translation": "现在正用火车送往他家。",
@@ -823,12 +727,12 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s6",
       "role": "Man",
-      "text": "Dan was most surprised",
-      "translation": "丹听到这个消息后，",
+      "text": "Dan was most surprised when he heard the news.",
+      "translation": "丹听到这个消息后，非常惊讶。",
       "startTime": 65.61,
-      "endTime": 67.53,
+      "endTime": 69.91,
       "analysis": {
         "words": [
           {
@@ -850,19 +754,7 @@
             "word": "surprised",
             "pos": "adj.",
             "meaning": "感到惊讶的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "when he heard the news.",
-      "translation": "非常惊讶。",
-      "startTime": 68.03,
-      "endTime": 69.91,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "when",
             "pos": "conj.",
@@ -892,12 +784,12 @@
       }
     },
     {
-      "id": "s15",
+      "id": "s7",
       "role": "Man",
-      "text": "He was amused too,",
-      "translation": "他也感到很好笑，",
+      "text": "He was amused too, because he never expected the bicycle to be found.",
+      "translation": "他也感到很好笑，因为他从来没有指望那辆自行车能找到。",
       "startTime": 70.41,
-      "endTime": 72.66,
+      "endTime": 77.86,
       "analysis": {
         "words": [
           {
@@ -919,19 +811,7 @@
             "word": "too",
             "pos": "adv.",
             "meaning": "也"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s16",
-      "role": "Woman",
-      "text": "because he never expected",
-      "translation": "因为他从来没有指望那辆自行车",
-      "startTime": 73.16,
-      "endTime": 74.94,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "because",
             "pos": "conj.",
@@ -951,19 +831,7 @@
             "word": "expected",
             "pos": "v.",
             "meaning": "期待，预料（expect的过去式）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "the bicycle to be found.",
-      "translation": "能找到。",
-      "startTime": 75.44,
-      "endTime": 77.86,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -993,12 +861,12 @@
       }
     },
     {
-      "id": "s18",
+      "id": "s8",
       "role": "Woman",
-      "text": "It was stolen twenty years ago",
-      "translation": "那辆自行车是在20年前，",
+      "text": "It was stolen twenty years ago when Dan was a boy of fifteen!",
+      "translation": "那辆自行车是在20年前，丹还是一个15岁的孩子时被偷走的！",
       "startTime": 78.36,
-      "endTime": 80.94,
+      "endTime": 86.44,
       "analysis": {
         "words": [
           {
@@ -1030,19 +898,7 @@
             "word": "ago",
             "pos": "adv.",
             "meaning": "以前"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "when Dan was a boy of fifteen!",
-      "translation": "丹还是一个15岁的孩子时被偷走的！",
-      "startTime": 81.44,
-      "endTime": 86.44,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "when",
             "pos": "conj.",

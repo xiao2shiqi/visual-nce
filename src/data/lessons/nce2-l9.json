@@ -197,10 +197,10 @@
     {
       "id": "intro_6",
       "role": "Narrator",
-      "text": "It was the last day of the year",
-      "translation": "那是一年的最后一天，",
+      "text": "It was the last day of the year and a large crowd of people had gathered under the Town Hall clock.",
+      "translation": "那是一年的最后一天，一大群人聚集在市政厅的大钟下面。",
       "startTime": 19.29,
-      "endTime": 21.36,
+      "endTime": 26.82,
       "analysis": {
         "words": [
           {
@@ -242,19 +242,7 @@
             "word": "year",
             "pos": "n.",
             "meaning": "年"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_7",
-      "role": "Narrator",
-      "text": "and a large crowd of people had gathered under the Town Hall clock.",
-      "translation": "一大群人聚集在市政厅的大钟下面。",
-      "startTime": 21.86,
-      "endTime": 26.82,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -373,10 +361,10 @@
     {
       "id": "s2",
       "role": "Woman",
-      "text": "Fifteen minutes passed and then,",
-      "translation": "15分钟过去了，然后，",
+      "text": "Fifteen minutes passed and then, at five to twelve, the clock stopped.",
+      "translation": "15分钟过去了，然后，在差5分12点的时候，大钟停了。",
       "startTime": 31.52,
-      "endTime": 33.72,
+      "endTime": 37.35,
       "analysis": {
         "words": [
           {
@@ -403,19 +391,7 @@
             "word": "then",
             "pos": "adv.",
             "meaning": "然后"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "at five to twelve, the clock stopped.",
-      "translation": "在差5分12点的时候，大钟停了。",
-      "startTime": 34.22,
-      "endTime": 37.35,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "at",
             "pos": "prep.",
@@ -455,7 +431,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "The big minute hand did not move.",
       "translation": "那根巨大的分针不动了。",
@@ -502,12 +478,12 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
-      "text": "We waited and waited,",
-      "translation": "我们等啊等啊，",
+      "text": "We waited and waited, but nothing happened.",
+      "translation": "我们等啊等啊，但什么也没有发生。",
       "startTime": 40.74,
-      "endTime": 42.85,
+      "endTime": 44.64,
       "analysis": {
         "words": [
           {
@@ -529,19 +505,7 @@
             "word": "waited",
             "pos": "v.",
             "meaning": "等待（wait的过去式）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "but nothing happened.",
-      "translation": "但什么也没有发生。",
-      "startTime": 43.35,
-      "endTime": 44.64,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -561,7 +525,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s5",
       "role": "Man",
       "text": "Suddenly someone shouted.",
       "translation": "突然有人喊道：",
@@ -588,7 +552,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s6",
       "role": "Woman",
       "text": "'It's two minutes past twelve!",
       "translation": "'已经12点02分了！",
@@ -630,12 +594,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s7",
       "role": "Man",
-      "text": "The clock has stopped!'",
-      "translation": "大钟停了！'",
+      "text": "The clock has stopped!' I looked at my watch.",
+      "translation": "大钟停了！'我看了看我的手表。",
       "startTime": 50.72,
-      "endTime": 52.53,
+      "endTime": 54.2,
       "analysis": {
         "words": [
           {
@@ -657,19 +621,7 @@
             "word": "stopped",
             "pos": "v.",
             "meaning": "停止（stop的过去分词）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "I looked at my watch.",
-      "translation": "我看了看我的手表。",
-      "startTime": 53.03,
-      "endTime": 54.2,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "At",
             "pos": "prep.",
@@ -689,7 +641,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s8",
       "role": "Man",
       "text": "It was true.",
       "translation": "果真如此。",
@@ -716,7 +668,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s9",
       "role": "Woman",
       "text": "The big clock refused to welcome the New Year.",
       "translation": "那架大钟拒绝迎接新年。",
@@ -768,7 +720,7 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s10",
       "role": "Man",
       "text": "At that moment, everybody began to laugh and sing.",
       "translation": "就在那时，大家开始笑了起来，同时唱起了歌。",

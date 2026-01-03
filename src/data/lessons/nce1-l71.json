@@ -494,10 +494,10 @@
     {
       "id": "s8",
       "role": "Woman",
-      "text": "She can't speak to you now!'",
-      "translation": "“她现在不能和你通话。”",
+      "text": "She can't speak to you now!' Then I arrived home at six o'clock yesterday evening.",
+      "translation": "“她现在不能和你通话。”后来我昨天傍晚6点钟到家。",
       "startTime": 58.5,
-      "endTime": 61.86,
+      "endTime": 68.32,
       "analysis": {
         "words": [
           {
@@ -529,19 +529,7 @@
             "word": "now",
             "pos": "adv.",
             "meaning": "现在"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "Then I arrived home at six o'clock yesterday evening.",
-      "translation": "后来我昨天傍晚6点钟到家。",
-      "startTime": 62.36,
-      "endTime": 68.32,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "Then",
             "pos": "adv.",
@@ -591,7 +579,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s9",
       "role": "Woman",
       "text": "He telephoned again.",
       "translation": "他又来电话了。",
@@ -618,7 +606,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s10",
       "role": "Man",
       "text": "But I didn't answer the phone!",
       "translation": "但我没接电话！",
@@ -660,7 +648,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s11",
       "role": "Woman",
       "text": "Did he telephone again last night?",
       "translation": "昨晚他又打电话了吗？",
@@ -702,7 +690,7 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s12",
       "role": "Man",
       "text": "Yes, he did.",
       "translation": "是的，他打了。",
@@ -729,7 +717,7 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s13",
       "role": "Woman",
       "text": "He telephoned at nine o'clock.",
       "translation": "他在9点钟打来电话。",
@@ -766,7 +754,7 @@
       }
     },
     {
-      "id": "s15",
+      "id": "s14",
       "role": "Narrator",
       "text": "What did you say to him?",
       "translation": "你对他怎么说的？",
@@ -808,7 +796,7 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s15",
       "role": "Man",
       "text": "I said, 'This is Pauline's mother.",
       "translation": "我说：“我是波琳的母亲。”",
@@ -850,12 +838,12 @@
       }
     },
     {
-      "id": "s17",
+      "id": "s16",
       "role": "Woman",
-      "text": "Please don't telephone my daughter again!'",
-      "translation": "“请不要再给我女儿打电话了！”",
+      "text": "Please don't telephone my daughter again!' Did he telephone again?",
+      "translation": "“请不要再给我女儿打电话了！”他又打来电话了吗？",
       "startTime": 93.82,
-      "endTime": 98.94,
+      "endTime": 101.6,
       "analysis": {
         "words": [
           {
@@ -887,19 +875,7 @@
             "word": "again",
             "pos": "adv.",
             "meaning": "再"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s18",
-      "role": "Man",
-      "text": "Did he telephone again?",
-      "translation": "他又打来电话了吗？",
-      "startTime": 99.44,
-      "endTime": 101.6,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "Did",
             "pos": "v.aux.",
@@ -924,7 +900,7 @@
       }
     },
     {
-      "id": "s19",
+      "id": "s17",
       "role": "Woman",
       "text": "No, he didn't!",
       "translation": "没，他没再打过！",

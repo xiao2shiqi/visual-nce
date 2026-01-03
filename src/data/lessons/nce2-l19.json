@@ -657,10 +657,10 @@
     {
       "id": "s9",
       "role": "Man",
-      "text": "'Certainly,' the girl said,",
-      "translation": "'当然可以，'那姑娘说，",
+      "text": "'Certainly,' the girl said, 'but they're for next Wednesday's performance.",
+      "translation": "'当然可以，'那姑娘说，'不过它们是下周三演出的票。",
       "startTime": 65.21,
-      "endTime": 68.19,
+      "endTime": 71.9,
       "analysis": {
         "words": [
           {
@@ -682,19 +682,7 @@
             "word": "said",
             "pos": "v.",
             "meaning": "说"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "'but they're for next Wednesday's performance.",
-      "translation": "'不过它们是下周三演出的票。",
-      "startTime": 68.69,
-      "endTime": 71.9,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -729,12 +717,12 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s10",
       "role": "Man",
-      "text": "Do you still want them?'",
-      "translation": "您还要吗？'",
+      "text": "Do you still want them?' 'I might as well have them,' I said sadly.",
+      "translation": "您还要吗？''我不如买下算了，'我难过地说。",
       "startTime": 72.4,
-      "endTime": 74.85,
+      "endTime": 80.35,
       "analysis": {
         "words": [
           {
@@ -761,19 +749,7 @@
             "word": "them",
             "pos": "pron.",
             "meaning": "它们"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "'I might as well have them,' I said sadly.",
-      "translation": "'我不如买下算了，'我难过地说。",
-      "startTime": 75.35,
-      "endTime": 80.35,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",

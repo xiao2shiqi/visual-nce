@@ -303,10 +303,10 @@
     {
       "id": "s2",
       "role": "Woman",
-      "text": "Instead of catching fish,",
-      "translation": "他们不是钓到鱼，",
+      "text": "Instead of catching fish, they catch old boots and rubbish.",
+      "translation": "他们不是钓到鱼，而是钓到旧靴子和垃圾。",
       "startTime": 30.69,
-      "endTime": 32.77,
+      "endTime": 36.83,
       "analysis": {
         "words": [
           {
@@ -323,19 +323,7 @@
             "word": "fish",
             "pos": "n.",
             "meaning": "鱼"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "they catch old boots and rubbish.",
-      "translation": "而是钓到旧靴子和垃圾。",
-      "startTime": 33.27,
-      "endTime": 36.83,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "they",
             "pos": "pron.",
@@ -370,7 +358,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "I am even less lucky.",
       "translation": "我甚至更加倒霉。",
@@ -397,7 +385,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
       "text": "I never catch anything  --  not even old boots.",
       "translation": "我什么也没钓到过——连旧靴子也没有。",
@@ -444,12 +432,12 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Woman",
-      "text": "After having spent whole mornings on the river,",
-      "translation": "在河边坐了整整一上午后，",
+      "text": "After having spent whole mornings on the river, I always go home with an empty bag.",
+      "translation": "在河边坐了整整一上午后，我总是空着包回家。",
       "startTime": 46.48,
-      "endTime": 50.02,
+      "endTime": 54.36,
       "analysis": {
         "words": [
           {
@@ -491,19 +479,7 @@
             "word": "river",
             "pos": "n.",
             "meaning": "河"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "I always go home with an empty bag.",
-      "translation": "我总是空着包回家。",
-      "startTime": 50.52,
-      "endTime": 54.36,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",
@@ -548,12 +524,12 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s6",
       "role": "Woman",
-      "text": "'You must give up fishing!' my friends say. 'It's a waste of time.'",
-      "translation": "'你必须放弃钓鱼！'我的朋友们说。'这是浪费时间。'",
+      "text": "'You must give up fishing!' my friends say. 'It's a waste of time.' But they don't realize one important thing.",
+      "translation": "'你必须放弃钓鱼！'我的朋友们说。'这是浪费时间。'但他们没有意识到一件重要的事情。",
       "startTime": 54.86,
-      "endTime": 62,
+      "endTime": 66.55,
       "analysis": {
         "words": [
           {
@@ -615,19 +591,7 @@
             "word": "time",
             "pos": "n.",
             "meaning": "时间"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "But they don't realize one important thing.",
-      "translation": "但他们没有意识到一件重要的事情。",
-      "startTime": 62.5,
-      "endTime": 66.55,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "But",
             "pos": "conj.",
@@ -667,7 +631,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s7",
       "role": "Woman",
       "text": "I'm not really interested in fishing.",
       "translation": "我并不是真的对钓鱼有兴趣。",
@@ -704,7 +668,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s8",
       "role": "Man",
       "text": "I am only interested in sitting in a boat and doing nothing at all!",
       "translation": "我只是喜欢坐在船上什么也不做！",

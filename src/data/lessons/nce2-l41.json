@@ -257,10 +257,10 @@
     {
       "id": "intro_6",
       "role": "Narrator",
-      "text": "'You needn't be so rude about it,'",
-      "translation": "'你没必要这么说吧，'",
+      "text": "'You needn't be so rude about it,' my wife answered as she looked at herself in the mirror.",
+      "translation": "'你没必要这么说吧，'我妻子边照镜子边回答。",
       "startTime": 22.99,
-      "endTime": 25.78,
+      "endTime": 31.18,
       "analysis": {
         "words": [
           {
@@ -297,19 +297,7 @@
             "word": "it",
             "pos": "pron.",
             "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_7",
-      "role": "Narrator",
-      "text": "my wife answered as she looked at herself in the mirror.",
-      "translation": "我妻子边照镜子边回答。",
-      "startTime": 26.28,
-      "endTime": 31.18,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "my",
             "pos": "pron.",
@@ -691,10 +679,10 @@
     {
       "id": "s6",
       "role": "Woman",
-      "text": "'I needn't remind you of that terrible tie you bought yesterday.'",
-      "translation": "'我不必提醒你昨天买的那条糟糕透了的领带。'",
+      "text": "'I needn't remind you of that terrible tie you bought yesterday.' 'I find it beautiful,' I said. 'A man can never have too many ties.' 'And a woman can't have too many hats,' she answered.",
+      "translation": "'我不必提醒你昨天买的那条糟糕透了的领带。''我觉得它漂亮，'我说。'男人有多少领带也不嫌多。''女人有多少帽子也不嫌多，'她回答。",
       "startTime": 59.98,
-      "endTime": 65.35,
+      "endTime": 78.57,
       "analysis": {
         "words": [
           {
@@ -751,19 +739,7 @@
             "word": "yesterday",
             "pos": "adv.",
             "meaning": "昨天"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "'I find it beautiful,' I said. 'A man can never have too many ties.'",
-      "translation": "'我觉得它漂亮，'我说。'男人有多少领带也不嫌多。'",
-      "startTime": 65.85,
-      "endTime": 72.9,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",
@@ -828,19 +804,7 @@
             "word": "ties",
             "pos": "n.",
             "meaning": "领带（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "'And a woman can't have too many hats,' she answered.",
-      "translation": "'女人有多少帽子也不嫌多，'她回答。",
-      "startTime": 73.4,
-      "endTime": 78.57,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "And",
             "pos": "conj.",
@@ -890,7 +854,7 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s7",
       "role": "Man",
       "text": "Ten minutes later we walked out of the shop together.",
       "translation": "10分钟后，我们一起走出了商店。",
@@ -952,7 +916,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s8",
       "role": "Woman",
       "text": "My wife was wearing a hat that looked like a lighthouse!",
       "translation": "我妻子戴着一顶像灯塔一样的帽子！",

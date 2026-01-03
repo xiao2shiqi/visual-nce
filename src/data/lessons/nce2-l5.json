@@ -140,10 +140,10 @@
     {
       "id": "intro_5",
       "role": "Narrator",
-      "text": "Mr.James Scott has a garage in Silbury",
-      "translation": "詹姆斯·斯科特先生在锡尔伯里有一个汽车修理站，",
+      "text": "Mr.James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.",
+      "translation": "詹姆斯·斯科特先生在锡尔伯里有一个汽车修理站，现在他刚在平赫斯特买了另一个修理站。",
       "startTime": 15.79,
-      "endTime": 19.41,
+      "endTime": 25.1,
       "analysis": {
         "words": [
           {
@@ -185,19 +185,7 @@
             "word": "Silbury",
             "pos": "n.",
             "meaning": "锡尔伯里（地名）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_6",
-      "role": "Narrator",
-      "text": "and now he has just bought another garage in Pinhurst.",
-      "translation": "现在他刚在平赫斯特买了另一个修理站。",
-      "startTime": 19.91,
-      "endTime": 25.1,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -254,10 +242,10 @@
     {
       "id": "intro_7",
       "role": "Narrator",
-      "text": "Pinhurst is only five miles from Silbury,",
-      "translation": "平赫斯特离锡尔伯里只有5英里，",
+      "text": "Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.",
+      "translation": "平赫斯特离锡尔伯里只有5英里，但斯科特先生无法为他的新修理站安装电话，所以他刚刚买了12只鸽子。",
       "startTime": 25.6,
-      "endTime": 29.22,
+      "endTime": 38.46,
       "analysis": {
         "words": [
           {
@@ -294,19 +282,7 @@
             "word": "Silbury",
             "pos": "n.",
             "meaning": "锡尔伯里（地名）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "but Mr. Scott cannot get a telephone for his new garage,",
-      "translation": "但斯科特先生无法为他的新修理站安装电话，",
-      "startTime": 29.72,
-      "endTime": 34.07,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -361,19 +337,7 @@
             "word": "garage",
             "pos": "n.",
             "meaning": "汽车修理站，车库"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "so he has just bought twelve pigeons.",
-      "translation": "所以他刚刚买了12只鸽子。",
-      "startTime": 34.57,
-      "endTime": 38.46,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "so",
             "pos": "conj.",
@@ -413,7 +377,7 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s1",
       "role": "Man",
       "text": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.",
       "translation": "昨天，一只鸽子把第一封信从平赫斯特带到了锡尔伯里。",
@@ -480,7 +444,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s2",
       "role": "Woman",
       "text": "The bird covered the distance in three minutes.",
       "translation": "这只鸟只用了3分钟就飞完了全程。",
@@ -532,12 +496,12 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s3",
       "role": "Man",
-      "text": "Up to now,",
-      "translation": "到目前为止，",
+      "text": "Up to now, Mr.Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.",
+      "translation": "到目前为止，斯科特先生已经发送了大量索取备件的信件和其他紧急信件从一个修理站发到另一个修理站。",
       "startTime": 49.3,
-      "endTime": 50.36,
+      "endTime": 60.45,
       "analysis": {
         "words": [
           {
@@ -549,19 +513,7 @@
             "word": "now",
             "pos": "adv.",
             "meaning": "现在"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "Mr.Scott has sent a great many requests for spare parts",
-      "translation": "斯科特先生已经发送了大量索取备件的信件",
-      "startTime": 50.86,
-      "endTime": 55.55,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "Mr.",
             "pos": "n.",
@@ -606,19 +558,7 @@
             "word": "parts",
             "pos": "n.",
             "meaning": "零件"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "and other urgent messages from one garage to the other.",
-      "translation": "和其他紧急信件从一个修理站发到另一个修理站。",
-      "startTime": 56.05,
-      "endTime": 60.45,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -673,7 +613,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s4",
       "role": "Woman",
       "text": "In this way, he has begun his own private 'telephone' service.",
       "translation": "就这样，他开始了自己的私人'电话'业务。",

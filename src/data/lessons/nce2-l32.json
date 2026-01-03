@@ -140,10 +140,10 @@
     {
       "id": "intro_5",
       "role": "Narrator",
-      "text": "People are not so honest as",
-      "translation": "人们不像",
+      "text": "People are not so honest as they once were.",
+      "translation": "人们不像从前那样诚实了。",
       "startTime": 14.65,
-      "endTime": 16.31,
+      "endTime": 18.25,
       "analysis": {
         "words": [
           {
@@ -175,19 +175,7 @@
             "word": "as",
             "pos": "conj.",
             "meaning": "像...一样"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_6",
-      "role": "Narrator",
-      "text": "they once were.",
-      "translation": "从前那样诚实了。",
-      "startTime": 16.81,
-      "endTime": 18.25,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "they",
             "pos": "pron.",
@@ -209,10 +197,10 @@
     {
       "id": "intro_7",
       "role": "Narrator",
-      "text": "The temptation to steal is greater than",
-      "translation": "偷窃的诱惑比以往任何时候都更强大——",
+      "text": "The temptation to steal is greater than ever before--especially in large shops.",
+      "translation": "偷窃的诱惑比以往任何时候都更强大——特别是在大商店里。",
       "startTime": 18.75,
-      "endTime": 21.62,
+      "endTime": 26.53,
       "analysis": {
         "words": [
           {
@@ -249,19 +237,7 @@
             "word": "than",
             "pos": "conj.",
             "meaning": "比"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "ever before--especially in large shops.",
-      "translation": "特别是在大商店里。",
-      "startTime": 22.12,
-      "endTime": 26.53,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "ever",
             "pos": "adv.",
@@ -296,12 +272,12 @@
       }
     },
     {
-      "id": "s2",
+      "id": "s1",
       "role": "Woman",
-      "text": "A detective recently watched a well-dressed",
-      "translation": "一名侦探最近注意到一个穿着讲究的",
+      "text": "A detective recently watched a well-dressed woman who always went into a large store on Monday mornings.",
+      "translation": "一名侦探最近注意到一个穿着讲究的妇女，她总是在星期一上午进入一家大商场。",
       "startTime": 27.03,
-      "endTime": 29.86,
+      "endTime": 35.4,
       "analysis": {
         "words": [
           {
@@ -333,19 +309,7 @@
             "word": "well-dressed",
             "pos": "adj.",
             "meaning": "穿着考究的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "woman who always went into a large store",
-      "translation": "妇女，她总是在星期一上午",
-      "startTime": 30.36,
-      "endTime": 33.3,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "woman",
             "pos": "n.",
@@ -385,19 +349,7 @@
             "word": "store",
             "pos": "n.",
             "meaning": "商店"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "on Monday mornings.",
-      "translation": "进入一家大商场。",
-      "startTime": 33.8,
-      "endTime": 35.4,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "on",
             "pos": "prep.",
@@ -417,12 +369,12 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s2",
       "role": "Man",
-      "text": "One Monday,",
-      "translation": "有一个星期一，",
+      "text": "One Monday, there were fewer people in the shop than usual when the woman came in, so it was easier for the detective to watch her.",
+      "translation": "有一个星期一，当那妇女进入商场时，店里的人比往常少，因此侦探比较容易监视她。",
       "startTime": 35.9,
-      "endTime": 36.96,
+      "endTime": 48.1,
       "analysis": {
         "words": [
           {
@@ -434,19 +386,7 @@
             "word": "Monday",
             "pos": "n.",
             "meaning": "星期一"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "there were fewer people in the shop",
-      "translation": "当那妇女进入商场时，",
-      "startTime": 37.46,
-      "endTime": 39.21,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "there",
             "pos": "adv.",
@@ -481,19 +421,7 @@
             "word": "shop",
             "pos": "n.",
             "meaning": "商店"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "than usual when the woman came in,",
-      "translation": "店里的人比往常少，",
-      "startTime": 39.71,
-      "endTime": 43.02,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "than",
             "pos": "conj.",
@@ -528,19 +456,7 @@
             "word": "in",
             "pos": "adv.",
             "meaning": "进来"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "so it was easier for the detective to watch her.",
-      "translation": "因此侦探比较容易监视她。",
-      "startTime": 43.52,
-      "endTime": 48.1,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "so",
             "pos": "conj.",
@@ -595,7 +511,7 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s3",
       "role": "Man",
       "text": "The woman first bought a few small articles.",
       "translation": "那妇女先是买了几样小商品。",
@@ -642,12 +558,12 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s4",
       "role": "Woman",
-      "text": "After a little time,",
-      "translation": "过了一会儿，",
+      "text": "After a little time, she chose one of the most expensive dresses in the shop and handed it to an assistant who wrapped it up for her as quickly as possible.",
+      "translation": "过了一会儿，她挑了商场里最昂贵的一件衣服，把它递给了售货员，那售货员以最快的速度为她包好了那件衣服。",
       "startTime": 52.98,
-      "endTime": 54.45,
+      "endTime": 66.66,
       "analysis": {
         "words": [
           {
@@ -669,19 +585,7 @@
             "word": "time",
             "pos": "n.",
             "meaning": "时间"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "she chose one of the most expensive dresses",
-      "translation": "她挑了商场里最昂贵的一件衣服，",
-      "startTime": 54.95,
-      "endTime": 58.21,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "she",
             "pos": "pron.",
@@ -721,19 +625,7 @@
             "word": "dresses",
             "pos": "n.",
             "meaning": "连衣裙（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "in the shop and handed it to an assistant",
-      "translation": "把它递给了售货员，",
-      "startTime": 58.71,
-      "endTime": 61.91,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "in",
             "pos": "prep.",
@@ -778,19 +670,7 @@
             "word": "assistant",
             "pos": "n.",
             "meaning": "店员"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "who wrapped it up for her as quickly as possible.",
-      "translation": "那售货员以最快的速度为她包好了那件衣服。",
-      "startTime": 62.41,
-      "endTime": 66.66,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "who",
             "pos": "pron.",
@@ -835,12 +715,12 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s5",
       "role": "Woman",
-      "text": "Then the woman simply took the parcel",
-      "translation": "然后那妇女拿起包装好的衣服",
+      "text": "Then the woman simply took the parcel and walked out of the shop without paying.",
+      "translation": "然后那妇女拿起包装好的衣服没有付款就走出了商场。",
       "startTime": 67.16,
-      "endTime": 70.44,
+      "endTime": 74.88,
       "analysis": {
         "words": [
           {
@@ -877,19 +757,7 @@
             "word": "parcel",
             "pos": "n.",
             "meaning": "包裹"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "and walked out of the shop without paying.",
-      "translation": "没有付款就走出了商场。",
-      "startTime": 70.94,
-      "endTime": 74.88,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -934,12 +802,12 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s6",
       "role": "Woman",
-      "text": "When she was arrested,",
-      "translation": "她被逮捕后，",
+      "text": "When she was arrested, the detective found out that the shop assistant was her daughter.",
+      "translation": "她被逮捕后，侦探发现原来那售货员是她的女儿。",
       "startTime": 75.38,
-      "endTime": 76.99,
+      "endTime": 82.52,
       "analysis": {
         "words": [
           {
@@ -961,19 +829,7 @@
             "word": "arrested",
             "pos": "v.",
             "meaning": "逮捕（arrest的过去分词）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "the detective found out that",
-      "translation": "侦探发现原来",
-      "startTime": 77.49,
-      "endTime": 78.99,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -993,19 +849,7 @@
             "word": "that",
             "pos": "conj.",
             "meaning": "（引导词）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "the shop assistant was her daughter.",
-      "translation": "那售货员是她的女儿。",
-      "startTime": 79.49,
-      "endTime": 82.52,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -1035,12 +879,12 @@
       }
     },
     {
-      "id": "s19",
+      "id": "s7",
       "role": "Man",
-      "text": "The girl 'gave' her mother",
-      "translation": "那姑娘每周'送给'她母亲",
+      "text": "The girl 'gave' her mother a free dress once a week!",
+      "translation": "那姑娘每周'送给'她母亲一件免费的衣服！",
       "startTime": 83.02,
-      "endTime": 84.83,
+      "endTime": 90.33,
       "analysis": {
         "words": [
           {
@@ -1067,19 +911,7 @@
             "word": "mother",
             "pos": "n.",
             "meaning": "母亲"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "a free dress once a week!",
-      "translation": "一件免费的衣服！",
-      "startTime": 85.33,
-      "endTime": 90.33,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "a",
             "pos": "art.",

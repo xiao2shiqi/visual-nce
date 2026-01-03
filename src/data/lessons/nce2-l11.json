@@ -222,10 +222,10 @@
     {
       "id": "intro_6",
       "role": "Narrator",
-      "text": "Tony worked in a lawyer's office years ago,",
-      "translation": "托尼几年前在一家律师事务所工作，",
+      "text": "Tony worked in a lawyer's office years ago, but he is now working at a bank.",
+      "translation": "托尼几年前在一家律师事务所工作，但他现在在一家银行工作。",
       "startTime": 19.9,
-      "endTime": 22.92,
+      "endTime": 26.54,
       "analysis": {
         "words": [
           {
@@ -267,19 +267,7 @@
             "word": "ago",
             "pos": "adv.",
             "meaning": "以前"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_7",
-      "role": "Narrator",
-      "text": "but he is now working at a bank.",
-      "translation": "但他现在在一家银行工作。",
-      "startTime": 23.42,
-      "endTime": 26.54,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -326,10 +314,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "He gets a good salary,",
-      "translation": "他的薪水很高，",
+      "text": "He gets a good salary, but he always borrows money from his friends and never pays it back.",
+      "translation": "他的薪水很高，但他总是向朋友借钱，而且从不还。",
       "startTime": 27.04,
-      "endTime": 28.93,
+      "endTime": 35.11,
       "analysis": {
         "words": [
           {
@@ -356,19 +344,7 @@
             "word": "salary",
             "pos": "n.",
             "meaning": "薪水"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "but he always borrows money from his friends and never pays it back.",
-      "translation": "但他总是向朋友借钱，而且从不还。",
-      "startTime": 29.43,
-      "endTime": 35.11,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -438,7 +414,7 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s2",
       "role": "Man",
       "text": "Tony saw me and came and sat at the same table.",
       "translation": "托尼看见了我，走了过来，坐在了我的桌旁。",
@@ -505,7 +481,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "He has never borrowed money from me.",
       "translation": "他从来没有向我借过钱。",
@@ -552,7 +528,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
       "text": "While he was eating, I asked him to lend me twenty pounds.",
       "translation": "当他吃饭时，我向他借20英镑。",
@@ -624,7 +600,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Woman",
       "text": "To my surprise, he gave me the money immediately.",
       "translation": "令我惊奇的是，他立刻把钱给了我。",
@@ -681,12 +657,12 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
-      "text": "'I have never borrowed any money from you,'",
-      "translation": "'我从来没有向你借过钱，'",
+      "text": "'I have never borrowed any money from you,' Tony said, 'so now you can pay for my dinner!'",
+      "translation": "'我从来没有向你借过钱，'托尼说，'所以现在你可以付我的晚餐钱了！'",
       "startTime": 53.78,
-      "endTime": 56.27,
+      "endTime": 61.77,
       "analysis": {
         "words": [
           {
@@ -728,19 +704,7 @@
             "word": "you",
             "pos": "pron.",
             "meaning": "你"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "Tony said, 'so now you can pay for my dinner!'",
-      "translation": "托尼说，'所以现在你可以付我的晚餐钱了！'",
-      "startTime": 56.77,
-      "endTime": 61.77,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "Tony",
             "pos": "n.",

@@ -160,10 +160,10 @@
     {
       "id": "intro_5",
       "role": "Narrator",
-      "text": "Last week at a dinner party,",
-      "translation": "上星期在一次宴会上，",
+      "text": "Last week at a dinner party, the hostess asked me to sit next to Mrs. Rumbold.",
+      "translation": "上星期在一次宴会上，女主人让我坐在朗博尔德夫人旁边。",
       "startTime": 15.06,
-      "endTime": 17.05,
+      "endTime": 22.24,
       "analysis": {
         "words": [
           {
@@ -185,19 +185,7 @@
             "word": "dinner party",
             "pos": "n.",
             "meaning": "晚宴"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_6",
-      "role": "Narrator",
-      "text": "the hostess asked me to sit next to Mrs. Rumbold.",
-      "translation": "女主人让我坐在朗博尔德夫人旁边。",
-      "startTime": 17.55,
-      "endTime": 22.24,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -249,10 +237,10 @@
     {
       "id": "intro_7",
       "role": "Narrator",
-      "text": "Mrs. Rumbold was a large,",
-      "translation": "朗博尔德夫人是一位身材高大，",
+      "text": "Mrs. Rumbold was a large, unsmiling lady in a tight black dress.",
+      "translation": "朗博尔德夫人是一位身材高大，面容严肃的女人，穿着一条紧身黑裙。",
       "startTime": 22.74,
-      "endTime": 24.49,
+      "endTime": 28.84,
       "analysis": {
         "words": [
           {
@@ -279,19 +267,7 @@
             "word": "large",
             "pos": "adj.",
             "meaning": "大的，巨大的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "unsmiling lady in a tight black dress.",
-      "translation": "面容严肃的女人，穿着一条紧身黑裙。",
-      "startTime": 24.99,
-      "endTime": 28.84,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "unsmiling",
             "pos": "adj.",
@@ -331,7 +307,7 @@
       }
     },
     {
-      "id": "s2",
+      "id": "s1",
       "role": "Woman",
       "text": "She did not even look up when I took my seat beside her.",
       "translation": "当我在她旁边坐下时，她甚至连头都没抬一下。",
@@ -403,12 +379,12 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s2",
       "role": "Man",
-      "text": "Her eyes were fixed on her plate and in a short time,",
-      "translation": "她眼睛盯着自己的盘子，没过多久，",
+      "text": "Her eyes were fixed on her plate and in a short time, she was busy eating.",
+      "translation": "她眼睛盯着自己的盘子，没过多久，她就忙着吃起来了。",
       "startTime": 34.73,
-      "endTime": 38.72,
+      "endTime": 41.59,
       "analysis": {
         "words": [
           {
@@ -450,19 +426,7 @@
             "word": "in a short time",
             "pos": "adv.",
             "meaning": "很快"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "she was busy eating.",
-      "translation": "她就忙着吃起来了。",
-      "startTime": 39.22,
-      "endTime": 41.59,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "she",
             "pos": "pron.",
@@ -487,7 +451,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s3",
       "role": "Man",
       "text": "I tried to make conversation.",
       "translation": "我试图找一些话题与她聊聊。",
@@ -524,12 +488,12 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s4",
       "role": "Woman",
-      "text": "'A new play is coming to \"The Globe\" soon,'",
-      "translation": "'一出新剧要来\"环球剧场\"上演了，'",
+      "text": "'A new play is coming to \"The Globe\" soon,' I said. 'Will you be seeing it?' 'No,' she answered.",
+      "translation": "'一出新剧要来\"环球剧场\"上演了，'我说。'您去看吗？''不，'她回答。",
       "startTime": 44.95,
-      "endTime": 47.77,
+      "endTime": 55.45,
       "analysis": {
         "words": [
           {
@@ -571,19 +535,7 @@
             "word": "soon",
             "pos": "adv.",
             "meaning": "很快"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "I said. 'Will you be seeing it?'",
-      "translation": "我说。'您去看吗？'",
-      "startTime": 48.27,
-      "endTime": 52.62,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",
@@ -618,19 +570,7 @@
             "word": "it",
             "pos": "pron.",
             "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "'No,' she answered.",
-      "translation": "'不，'她回答。",
-      "startTime": 53.12,
-      "endTime": 55.45,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "No",
             "pos": "adv.",
@@ -650,7 +590,7 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s5",
       "role": "Man",
       "text": "'Will you be spending your holidays abroad this year?' I asked.",
       "translation": "'今年您会去国外度假吗？'我问。",
@@ -717,7 +657,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s6",
       "role": "Woman",
       "text": "'No,' she answered.",
       "translation": "'不，'她回答。",
@@ -744,7 +684,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s7",
       "role": "Man",
       "text": "'Will you be staying in England?' I asked.",
       "translation": "'您会留在英国吗？'我问。",
@@ -796,7 +736,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s8",
       "role": "Woman",
       "text": "'No,' she answered.",
       "translation": "'不，'她回答。",
@@ -823,7 +763,7 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s9",
       "role": "Man",
       "text": "In despair, I asked her whether she was enjoying her dinner.",
       "translation": "绝望中我问她是否享受这顿晚餐。",
@@ -890,12 +830,12 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s10",
       "role": "Woman",
-      "text": "'Young man,' she answered,",
-      "translation": "'年轻人，'她回答说，",
+      "text": "'Young man,' she answered, 'if you ate more and talked less, we would both enjoy our dinner!'",
+      "translation": "'年轻人，'她回答说，'如果你少说话多吃饭，我们两个都会享受这顿晚餐的！'",
       "startTime": 78.5,
-      "endTime": 81.2,
+      "endTime": 86.7,
       "analysis": {
         "words": [
           {
@@ -907,19 +847,7 @@
             "word": "Man",
             "pos": "n.",
             "meaning": "男人"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "'if you ate more and talked less, we would both enjoy our dinner!'",
-      "translation": "'如果你少说话多吃饭，我们两个都会享受这顿晚餐的！'",
-      "startTime": 81.7,
-      "endTime": 86.7,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "if",
             "pos": "conj.",

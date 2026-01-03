@@ -336,10 +336,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "'How did your clothes get into such a mess?'",
-      "translation": "'你的衣服怎么弄成这样？'",
+      "text": "'How did your clothes get into such a mess?' 'A fire extinguisher, my dear,' answered the Ambassador drily.",
+      "translation": "'你的衣服怎么弄成这样？''灭火器，亲爱的，'大使冷冷地回答。",
       "startTime": 32.77,
-      "endTime": 37.31,
+      "endTime": 43.16,
       "analysis": {
         "words": [
           {
@@ -386,19 +386,7 @@
             "word": "mess?'",
             "pos": "n.",
             "meaning": "糟糕的状态"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "'A fire extinguisher, my dear,' answered the Ambassador drily.",
-      "translation": "'灭火器，亲爱的，'大使冷冷地回答。",
-      "startTime": 37.81,
-      "endTime": 43.16,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "'A",
             "pos": "art.",
@@ -453,12 +441,12 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s2",
       "role": "Man",
-      "text": "'University students set the Embassy on fire this morning.'",
-      "translation": "'今天早上大学生们把大使馆点着了。'",
+      "text": "'University students set the Embassy on fire this morning.' 'Good heavens!' exclaimed his wife.",
+      "translation": "'今天早上大学生们把大使馆点着了。''天哪！'他妻子惊呼道。",
       "startTime": 43.66,
-      "endTime": 48.13,
+      "endTime": 52.37,
       "analysis": {
         "words": [
           {
@@ -510,19 +498,7 @@
             "word": "Embassy",
             "pos": "n.",
             "meaning": "大使馆"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "'Good heavens!' exclaimed his wife.",
-      "translation": "'天哪！'他妻子惊呼道。",
-      "startTime": 48.63,
-      "endTime": 52.37,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "'Good",
             "pos": "adj.",
@@ -552,51 +528,39 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s3",
       "role": "Man",
-      "text": "'And where were you at the time?'",
-      "translation": "'那时候你在哪儿？'",
+      "text": "'And where were you at the time?' 'I was in my office as usual,' answered the Ambassador.",
+      "translation": "'那时候你在哪儿？''我像往常一样在办公室里，'大使回答说。",
       "startTime": 52.87,
-      "endTime": 56.11,
-      "analysis": {
-        "words": [
-          {
-            "word": "'Good",
-            "pos": "adj.",
-            "meaning": "好的"
-          },
-          {
-            "word": "heavens!'",
-            "pos": "n.",
-            "meaning": "天哪"
-          },
-          {
-            "word": "exclaimed",
-            "pos": "v.",
-            "meaning": "惊叫"
-          },
-          {
-            "word": "his",
-            "pos": "pron.",
-            "meaning": "他的"
-          },
-          {
-            "word": "wife.",
-            "pos": "n.",
-            "meaning": "妻子"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "'I was in my office as usual,' answered the Ambassador.",
-      "translation": "'我像往常一样在办公室里，'大使回答说。",
-      "startTime": 56.61,
       "endTime": 60.95,
       "analysis": {
         "words": [
+          {
+            "word": "'Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "heavens!'",
+            "pos": "n.",
+            "meaning": "天哪"
+          },
+          {
+            "word": "exclaimed",
+            "pos": "v.",
+            "meaning": "惊叫"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "wife.",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
           {
             "word": "'And",
             "pos": "conj.",
@@ -636,7 +600,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s4",
       "role": "Man",
       "text": "'The fire broke out in the basement.",
       "translation": "'火是从地下室起的。",
@@ -688,12 +652,12 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s5",
       "role": "Woman",
-      "text": "I went down immediately, of course, and that fool, Horst,",
-      "translation": "当然，我立刻冲下去，那个傻瓜霍斯特，",
+      "text": "I went down immediately, of course, and that fool, Horst, aimed a fire extinguisher at me.",
+      "translation": "当然，我立刻冲下去，那个傻瓜霍斯特，用灭火器对着我喷。",
       "startTime": 64.41,
-      "endTime": 69.37,
+      "endTime": 72.3,
       "analysis": {
         "words": [
           {
@@ -745,19 +709,7 @@
             "word": "Horst,",
             "pos": "n.",
             "meaning": "霍斯特"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "aimed a fire extinguisher at me.",
-      "translation": "用灭火器对着我喷。",
-      "startTime": 69.87,
-      "endTime": 72.3,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "aimed",
             "pos": "v.",
@@ -792,7 +744,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s6",
       "role": "Woman",
       "text": "He thought I was on fire.",
       "translation": "他以为我着火了。",
@@ -834,12 +786,12 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s7",
       "role": "Man",
-      "text": "I must definitely get that fellow posted.'",
-      "translation": "我一定要把那家伙调走。'",
+      "text": "I must definitely get that fellow posted.' The Ambassador's wife went on asking questions, when she suddenly noticed a big hole in her husband's hat.",
+      "translation": "我一定要把那家伙调走。'大使夫人继续问问题，这时她突然注意到丈夫帽子上有个大洞。",
       "startTime": 75.67,
-      "endTime": 79.83,
+      "endTime": 89.77,
       "analysis": {
         "words": [
           {
@@ -876,19 +828,7 @@
             "word": "posted.'",
             "pos": "v.",
             "meaning": "派驻（即调走）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "The Ambassador's wife went on asking questions,",
-      "translation": "大使夫人继续问问题，",
-      "startTime": 80.33,
-      "endTime": 83.9,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "The",
             "pos": "art.",
@@ -923,19 +863,7 @@
             "word": "questions,",
             "pos": "n.",
             "meaning": "问题"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "when she suddenly noticed a big hole in her husband's hat.",
-      "translation": "这时她突然注意到丈夫帽子上有个大洞。",
-      "startTime": 84.4,
-      "endTime": 89.77,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "when",
             "pos": "conj.",
@@ -995,7 +923,7 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s8",
       "role": "Woman",
       "text": "'And how can you explain that?' she asked.",
       "translation": "'那你怎么解释？'她问。",
@@ -1047,7 +975,7 @@
       }
     },
     {
-      "id": "s15",
+      "id": "s9",
       "role": "Man",
       "text": "'Oh, that,' said the Ambassador.",
       "translation": "'哦，那个，'大使说。",
@@ -1084,7 +1012,7 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s10",
       "role": "Woman",
       "text": "'Someone fired a shot through my office window.",
       "translation": "'有人从我办公室窗户开了一枪。",
@@ -1141,7 +1069,7 @@
       }
     },
     {
-      "id": "s17",
+      "id": "s11",
       "role": "Man",
       "text": "Accurate, don't you think?",
       "translation": "很准，你不觉得吗？",
@@ -1173,7 +1101,7 @@
       }
     },
     {
-      "id": "s18",
+      "id": "s12",
       "role": "Woman",
       "text": "Fortunately, I wasn't wearing it at the time.",
       "translation": "幸运的是，当时我没戴它。",
@@ -1225,7 +1153,7 @@
       }
     },
     {
-      "id": "s19",
+      "id": "s13",
       "role": "Man",
       "text": "If I had been, I would not have been able to get home for lunch.'",
       "translation": "如果我戴着的话，我就不能回家吃午饭了。'",

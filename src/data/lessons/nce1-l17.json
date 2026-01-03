@@ -249,10 +249,10 @@
     {
       "id": "s3",
       "role": "Man",
-      "text": "This is Nicola Grey",
-      "translation": "这位是妮科拉·格雷，",
+      "text": "This is Nicola Grey and this is Claire Taylor.",
+      "translation": "这位是妮科拉·格雷，这位是克莱尔·泰勒。",
       "startTime": 28.45,
-      "endTime": 31.07,
+      "endTime": 34.8,
       "analysis": {
         "words": [
           {
@@ -274,19 +274,7 @@
             "word": "Grey",
             "pos": "n.",
             "meaning": "格雷"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "and this is Claire Taylor.",
-      "translation": "这位是克莱尔·泰勒。",
-      "startTime": 31.57,
-      "endTime": 34.8,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -316,7 +304,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Narrator",
       "text": "How do you do?",
       "translation": "您好！",
@@ -348,7 +336,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Man",
       "text": "Those women are very hard-working.",
       "translation": "那些妇女非常勤奋。",
@@ -385,7 +373,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Narrator",
       "text": "What are their jobs?",
       "translation": "她们的工作是什么？",
@@ -417,7 +405,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Man",
       "text": "They're keyboard operators.",
       "translation": "她们是电脑录入员。",
@@ -449,12 +437,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s8",
       "role": "Woman",
-      "text": "This is Michael Baker",
-      "translation": "这位是迈克尔·贝克，",
+      "text": "This is Michael Baker and this is Jeremy Short.",
+      "translation": "这位是迈克尔·贝克，这位是杰里米·肖特。",
       "startTime": 50.9,
-      "endTime": 53.35,
+      "endTime": 56.92,
       "analysis": {
         "words": [
           {
@@ -476,19 +464,7 @@
             "word": "Baker",
             "pos": "n.",
             "meaning": "贝克"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Man",
-      "text": "and this is Jeremy Short.",
-      "translation": "这位是杰里米·肖特。",
-      "startTime": 53.85,
-      "endTime": 56.92,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -518,7 +494,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s9",
       "role": "Narrator",
       "text": "How do you do?",
       "translation": "您好！",
@@ -550,7 +526,7 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s10",
       "role": "Man",
       "text": "They aren't very busy!",
       "translation": "他们不怎么忙！",
@@ -582,7 +558,7 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s11",
       "role": "Narrator",
       "text": "What are their jobs?",
       "translation": "他们的工作是什么？",
@@ -614,7 +590,7 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s12",
       "role": "Man",
       "text": "They're sales reps.",
       "translation": "他们是推销员。",
@@ -646,7 +622,7 @@
       }
     },
     {
-      "id": "s15",
+      "id": "s13",
       "role": "Woman",
       "text": "They're very lazy.",
       "translation": "他们非常懒。",
@@ -678,7 +654,7 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s14",
       "role": "Narrator",
       "text": "Who is this young man?",
       "translation": "这位年轻男子是谁？",
@@ -715,7 +691,7 @@
       }
     },
     {
-      "id": "s17",
+      "id": "s15",
       "role": "Man",
       "text": "This is Jim.",
       "translation": "这位是吉姆。",
@@ -742,7 +718,7 @@
       }
     },
     {
-      "id": "s18",
+      "id": "s16",
       "role": "Woman",
       "text": "He's our office assistant.",
       "translation": "他是我们的办公室助理。",

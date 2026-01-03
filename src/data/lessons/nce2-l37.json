@@ -108,10 +108,10 @@
     {
       "id": "intro_4",
       "role": "Narrator",
-      "text": "When was the last time this country",
-      "translation": "这个国家上一次承办",
+      "text": "When was the last time this country hosted the Olympic Games?",
+      "translation": "这个国家上一次承办奥运会是什么时候？",
       "startTime": 10.34,
-      "endTime": 12.47,
+      "endTime": 16.5,
       "analysis": {
         "words": [
           {
@@ -148,19 +148,7 @@
             "word": "country",
             "pos": "n.",
             "meaning": "国家"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "hosted the Olympic Games?",
-      "translation": "奥运会是什么时候？",
-      "startTime": 12.97,
-      "endTime": 16.5,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "hosted",
             "pos": "v.",
@@ -187,10 +175,10 @@
     {
       "id": "intro_6",
       "role": "Narrator",
-      "text": "The Olympic Games will be held",
-      "translation": "4年后，奥林匹克运动会将",
+      "text": "The Olympic Games will be held in our country in four years' time.",
+      "translation": "4年后，奥林匹克运动会将在我们国家举行。",
       "startTime": 17,
-      "endTime": 18.48,
+      "endTime": 22.1,
       "analysis": {
         "words": [
           {
@@ -222,19 +210,7 @@
             "word": "held",
             "pos": "v.",
             "meaning": "举行（hold的过去分词）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_7",
-      "role": "Narrator",
-      "text": "in our country in four years' time.",
-      "translation": "在我们国家举行。",
-      "startTime": 18.98,
-      "endTime": 22.1,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "in",
             "pos": "prep.",
@@ -276,10 +252,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "As a great many people will be",
-      "translation": "由于届时将有大批人到我国来，",
+      "text": "As a great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a new Olympic-standard swimming pool.",
+      "translation": "由于届时将有大批人到我国来，所以政府将修建一些新旅馆，一座大型体育场，以及一个新的奥运会标准游泳池。他们还将修筑一些新公路和",
       "startTime": 22.6,
-      "endTime": 24.64,
+      "endTime": 35.82,
       "analysis": {
         "words": [
           {
@@ -316,19 +292,7 @@
             "word": "be",
             "pos": "v.",
             "meaning": "是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "visiting the country,",
-      "translation": "所以政府将修建一些新旅馆，",
-      "startTime": 25.14,
-      "endTime": 26.47,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "visiting",
             "pos": "v.",
@@ -343,19 +307,7 @@
             "word": "country",
             "pos": "n.",
             "meaning": "国家"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "the government will be building new hotels,",
-      "translation": "一座大型体育场，",
-      "startTime": 26.97,
-      "endTime": 29.95,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -390,19 +342,7 @@
             "word": "hotels",
             "pos": "n.",
             "meaning": "旅馆（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "an immense stadium,",
-      "translation": "以及一个新的奥运会标准游泳池。",
-      "startTime": 30.45,
-      "endTime": 31.91,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "an",
             "pos": "art.",
@@ -417,19 +357,7 @@
             "word": "stadium",
             "pos": "n.",
             "meaning": "体育场"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "and a new Olympic-standard swimming pool.",
-      "translation": "他们还将修筑一些新公路和",
-      "startTime": 32.41,
-      "endTime": 35.82,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -464,12 +392,12 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s2",
       "role": "Woman",
-      "text": "They will also be building new roads",
-      "translation": "一条铁路专线。",
+      "text": "They will also be building new roads and a special railway line.",
+      "translation": "一条铁路专线。奥运会就在首都市郊举办，",
       "startTime": 36.32,
-      "endTime": 38.79,
+      "endTime": 41.59,
       "analysis": {
         "words": [
           {
@@ -506,19 +434,7 @@
             "word": "roads",
             "pos": "n.",
             "meaning": "公路（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "and a special railway line.",
-      "translation": "奥运会就在首都市郊举办，",
-      "startTime": 39.29,
-      "endTime": 41.59,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -548,12 +464,12 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s3",
       "role": "Woman",
-      "text": "The Games will be held just outside the capital",
-      "translation": "届时整个地区将被称作",
+      "text": "The Games will be held just outside the capital and the whole area will be called 'Olympic City'.",
+      "translation": "届时整个地区将被称作'奥林匹克城'。",
       "startTime": 42.09,
-      "endTime": 45.4,
+      "endTime": 49.99,
       "analysis": {
         "words": [
           {
@@ -600,19 +516,7 @@
             "word": "capital",
             "pos": "n.",
             "meaning": "首都"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "and the whole area will be called 'Olympic City'.",
-      "translation": "'奥林匹克城'。",
-      "startTime": 45.9,
-      "endTime": 49.99,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -662,12 +566,12 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s4",
       "role": "Woman",
-      "text": "Workers will have completed the new roads",
-      "translation": "工人们将在今年年底前把新公路",
+      "text": "Workers will have completed the new roads by the end of this year.",
+      "translation": "工人们将在今年年底前把新公路修好。",
       "startTime": 50.49,
-      "endTime": 52.75,
+      "endTime": 55.32,
       "analysis": {
         "words": [
           {
@@ -704,19 +608,7 @@
             "word": "roads",
             "pos": "n.",
             "meaning": "公路（复数）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "by the end of this year.",
-      "translation": "修好。",
-      "startTime": 53.25,
-      "endTime": 55.32,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "by",
             "pos": "prep.",
@@ -751,12 +643,12 @@
       }
     },
     {
-      "id": "s12",
+      "id": "s5",
       "role": "Woman",
-      "text": "By the end of next year,",
-      "translation": "到明年年底，",
+      "text": "By the end of next year, they will have finished work on the new stadium.",
+      "translation": "到明年年底，他们将把新体育场建成。",
       "startTime": 55.82,
-      "endTime": 57.66,
+      "endTime": 61.54,
       "analysis": {
         "words": [
           {
@@ -788,19 +680,7 @@
             "word": "year",
             "pos": "n.",
             "meaning": "年"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "they will have finished work on the new stadium.",
-      "translation": "他们将把新体育场建成。",
-      "startTime": 58.16,
-      "endTime": 61.54,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "they",
             "pos": "pron.",
@@ -850,12 +730,12 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s6",
       "role": "Woman",
-      "text": "The fantastic modern buildings have been designed",
-      "translation": "这些巨大的现代化建筑",
+      "text": "The fantastic modern buildings have been designed by Kurt Gunter.",
+      "translation": "这些巨大的现代化建筑是由库尔特·冈特设计的。",
       "startTime": 62.04,
-      "endTime": 65.08,
+      "endTime": 67.97,
       "analysis": {
         "words": [
           {
@@ -892,19 +772,7 @@
             "word": "designed",
             "pos": "v.",
             "meaning": "设计（design的过去分词）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "by Kurt Gunter.",
-      "translation": "是由库尔特·冈特设计的。",
-      "startTime": 65.58,
-      "endTime": 67.97,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "by",
             "pos": "prep.",
@@ -924,12 +792,12 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s7",
       "role": "Woman",
-      "text": "Everybody will be watching anxiously",
-      "translation": "大家将会焦急地注视着",
+      "text": "Everybody will be watching anxiously as the new buildings go up.",
+      "translation": "大家将会焦急地注视着各项新建筑的建设进度。",
       "startTime": 68.47,
-      "endTime": 70.82,
+      "endTime": 74.13,
       "analysis": {
         "words": [
           {
@@ -956,19 +824,7 @@
             "word": "anxiously",
             "pos": "adv.",
             "meaning": "焦虑地"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "as the new buildings go up.",
-      "translation": "各项新建筑的建设进度。",
-      "startTime": 71.32,
-      "endTime": 74.13,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "as",
             "pos": "conj.",
@@ -1003,12 +859,12 @@
       }
     },
     {
-      "id": "s18",
+      "id": "s8",
       "role": "Woman",
-      "text": "We are all very excited and are looking forward to",
-      "translation": "我们都非常激动，盼望着奥运会的到来，",
+      "text": "We are all very excited and are looking forward to the Olympic Games because they have never been held before in this country.",
+      "translation": "我们都非常激动，盼望着奥运会的到来，因为在这个国家里还从未举办过奥运会。",
       "startTime": 74.63,
-      "endTime": 78.25,
+      "endTime": 85.74,
       "analysis": {
         "words": [
           {
@@ -1050,19 +906,7 @@
             "word": "looking forward to",
             "pos": "v.",
             "meaning": "期待"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "the Olympic Games because",
-      "translation": "因为在这个国家里",
-      "startTime": 78.75,
-      "endTime": 80.24,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -1082,19 +926,7 @@
             "word": "because",
             "pos": "conj.",
             "meaning": "因为"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "they have never been held before in this country.",
-      "translation": "还从未举办过奥运会。",
-      "startTime": 80.74,
-      "endTime": 85.74,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "they",
             "pos": "pron.",

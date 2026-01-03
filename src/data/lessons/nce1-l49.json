@@ -616,10 +616,10 @@
     {
       "id": "s14",
       "role": "Man",
-      "text": "My husband likes steak,",
-      "translation": "我丈夫喜欢牛排，",
+      "text": "My husband likes steak, but he doesn't like chicken.",
+      "translation": "我丈夫喜欢牛排，但他不喜欢鸡肉。",
       "startTime": 62.23,
-      "endTime": 64.55,
+      "endTime": 68.14,
       "analysis": {
         "words": [
           {
@@ -641,19 +641,7 @@
             "word": "steak",
             "pos": "n.",
             "meaning": "牛排"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Woman",
-      "text": "but he doesn't like chicken.",
-      "translation": "但他不喜欢鸡肉。",
-      "startTime": 65.05,
-      "endTime": 68.14,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -683,12 +671,12 @@
       }
     },
     {
-      "id": "s16",
+      "id": "s15",
       "role": "Man",
-      "text": "To tell you the truth, Mrs. Bird,",
-      "translation": "伯德夫人，老实告诉你，",
+      "text": "To tell you the truth, Mrs. Bird, I don't like chicken either!",
+      "translation": "伯德夫人，老实告诉你，我也不喜欢鸡肉！",
       "startTime": 68.64,
-      "endTime": 72.47,
+      "endTime": 77.97,
       "analysis": {
         "words": [
           {
@@ -725,19 +713,7 @@
             "word": "Bird",
             "pos": "n.",
             "meaning": "伯德"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Woman",
-      "text": "I don't like chicken either!",
-      "translation": "我也不喜欢鸡肉！",
-      "startTime": 72.97,
-      "endTime": 77.97,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",

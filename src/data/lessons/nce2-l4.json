@@ -318,10 +318,10 @@
     {
       "id": "s2",
       "role": "Woman",
-      "text": "He is working for a big firm and he has already visited",
-      "translation": "他正在一家大公司工作，并且已经去过",
+      "text": "He is working for a big firm and he has already visited a great number of different places in Australia.",
+      "translation": "他正在一家大公司工作，并且已经去过澳大利亚的很多地方了。",
       "startTime": 28.72,
-      "endTime": 32.95,
+      "endTime": 37.11,
       "analysis": {
         "words": [
           {
@@ -383,19 +383,7 @@
             "word": "visited",
             "pos": "v.",
             "meaning": "参观（visit的过去分词）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "a great number of different places in Australia.",
-      "translation": "澳大利亚的很多地方了。",
-      "startTime": 33.45,
-      "endTime": 37.11,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "a",
             "pos": "art.",
@@ -440,12 +428,12 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
-      "text": "He has just bought an Australian car and has gone to Alice Springs,",
-      "translation": "他刚买了一辆澳大利亚小汽车，现在去了艾利斯斯普林斯，",
+      "text": "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.",
+      "translation": "他刚买了一辆澳大利亚小汽车，现在去了艾利斯斯普林斯，那是澳大利亚中部的一个小镇。",
       "startTime": 37.61,
-      "endTime": 43.02,
+      "endTime": 47,
       "analysis": {
         "words": [
           {
@@ -507,19 +495,7 @@
             "word": "Alice Springs",
             "pos": "n.",
             "meaning": "艾利斯斯普林斯（地名）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "a small town in the centre of Australia.",
-      "translation": "那是澳大利亚中部的一个小镇。",
-      "startTime": 43.52,
-      "endTime": 47,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "a",
             "pos": "art.",
@@ -564,7 +540,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s4",
       "role": "Woman",
       "text": "He will soon visit Darwin.",
       "translation": "不久他还将到达尔文去。",
@@ -601,7 +577,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s5",
       "role": "Man",
       "text": "From there, he will fly to Perth.",
       "translation": "从那里，他将飞往珀斯。",
@@ -648,12 +624,12 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s6",
       "role": "Woman",
-      "text": "My brother has never been abroad before,",
-      "translation": "我弟弟以前从未出过国，",
+      "text": "My brother has never been abroad before, so he is finding this trip very exciting.",
+      "translation": "我弟弟以前从未出过国，因此，他觉得这次旅行非常激动人心。",
       "startTime": 53.81,
-      "endTime": 56.63,
+      "endTime": 62.13,
       "analysis": {
         "words": [
           {
@@ -690,19 +666,7 @@
             "word": "before",
             "pos": "adv.",
             "meaning": "以前"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "so he is finding this trip very exciting.",
-      "translation": "因此，他觉得这次旅行非常激动人心。",
-      "startTime": 57.13,
-      "endTime": 62.13,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "so",
             "pos": "conj.",

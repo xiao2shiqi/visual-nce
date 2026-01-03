@@ -187,10 +187,10 @@
     {
       "id": "s2",
       "role": "Woman",
-      "text": "There are some clouds in the sky,",
-      "translation": "天空中有些云，",
+      "text": "There are some clouds in the sky, but the sun is shining.",
+      "translation": "天空中有些云，但是灿烂的阳光正照耀着。",
       "startTime": 19.97,
-      "endTime": 23.68,
+      "endTime": 27.24,
       "analysis": {
         "words": [
           {
@@ -227,19 +227,7 @@
             "word": "sky",
             "pos": "n.",
             "meaning": "天空"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "but the sun is shining.",
-      "translation": "但是灿烂的阳光正照耀着。",
-      "startTime": 24.18,
-      "endTime": 27.24,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -269,7 +257,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "Mr. Jones is with his family.",
       "translation": "琼斯先生正和他的家人在一起。",
@@ -311,7 +299,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
       "text": "They are walking over the bridge.",
       "translation": "他们正从桥上走过。",
@@ -353,7 +341,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Woman",
       "text": "There are some boats on the river.",
       "translation": "河上有几条小船。",
@@ -400,7 +388,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
       "text": "Mr. Jones and his wife are looking at them.",
       "translation": "琼斯先生和他的妻子正在看着它们。",
@@ -457,7 +445,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Woman",
       "text": "Sally is looking at a big ship.",
       "translation": "萨莉正在看着一艘大船。",
@@ -504,7 +492,7 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s8",
       "role": "Man",
       "text": "The ship is going under the bridge.",
       "translation": "那艘大船正从桥下驶过。",
@@ -551,7 +539,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s9",
       "role": "Woman",
       "text": "Tim is looking at an aeroplane.",
       "translation": "提姆正望着一架飞机。",
@@ -593,7 +581,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s10",
       "role": "Man",
       "text": "The aeroplane is flying over the river.",
       "translation": "飞机正从河上飞过。",

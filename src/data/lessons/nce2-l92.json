@@ -267,10 +267,10 @@
     {
       "id": "intro_6",
       "role": "Narrator",
-      "text": "I tried to wake up my wife by ringing the doorbell,",
-      "translation": "我试图通过按门铃叫醒我妻子，",
+      "text": "I tried to wake up my wife by ringing the doorbell, but she was fast asleep, so I got a ladder from the shed in the garden, put it against the wall, and began climbing towards the bedroom window.",
+      "translation": "我试图通过按门铃叫醒我妻子，但她睡得很熟，于是我从花园的棚子里拿了一把梯子，把它靠在墙上，开始向卧室窗户爬去。",
       "startTime": 22.77,
-      "endTime": 26.33,
+      "endTime": 38.1,
       "analysis": {
         "words": [
           {
@@ -327,19 +327,7 @@
             "word": "doorbell,",
             "pos": "n.",
             "meaning": "门铃"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_7",
-      "role": "Narrator",
-      "text": "but she was fast asleep,",
-      "translation": "但她睡得很熟，",
-      "startTime": 26.83,
-      "endTime": 28.75,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -364,19 +352,7 @@
             "word": "asleep,",
             "pos": "adj.",
             "meaning": "熟睡的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "so I got a ladder from the shed in the garden, put it against the wall,",
-      "translation": "于是我从花园的棚子里拿了一把梯子，把它靠在墙上，",
-      "startTime": 29.25,
-      "endTime": 34.21,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "so",
             "pos": "conj.",
@@ -456,19 +432,7 @@
             "word": "wall,",
             "pos": "n.",
             "meaning": "墙"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "and began climbing towards the bedroom window.",
-      "translation": "开始向卧室窗户爬去。",
-      "startTime": 34.71,
-      "endTime": 38.1,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -513,7 +477,7 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s1",
       "role": "Man",
       "text": "I was almost there when a sarcastic voice below said.",
       "translation": "我快到的时候，下面传来一个讽刺的声音说。",
@@ -580,12 +544,12 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s2",
       "role": "Woman",
-      "text": "'I don't think the windows need cleaning at this time of the night.'",
-      "translation": "'我觉得晚上这个时候不需要擦窗户吧。'",
+      "text": "'I don't think the windows need cleaning at this time of the night.' I looked down and nearly fell off the ladder when I saw a policeman.",
+      "translation": "'我觉得晚上这个时候不需要擦窗户吧。'我往下看，看到一个警察时差点从梯子上掉下来。",
       "startTime": 44.36,
-      "endTime": 49.57,
+      "endTime": 55.95,
       "analysis": {
         "words": [
           {
@@ -652,19 +616,7 @@
             "word": "'night.'",
             "pos": "n.",
             "meaning": "晚上"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "I looked down and nearly fell off the ladder when I saw a policeman.",
-      "translation": "我往下看，看到一个警察时差点从梯子上掉下来。",
-      "startTime": 50.07,
-      "endTime": 55.95,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "I",
             "pos": "pron.",
@@ -744,12 +696,12 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s3",
       "role": "Woman",
-      "text": "I immediately regretted answering in the way I did, but I said, 'I enjoy cleaning windows at night.'",
-      "translation": "我立刻后悔那样回答，但我还是说，'我喜欢晚上擦窗户。'",
+      "text": "I immediately regretted answering in the way I did, but I said, 'I enjoy cleaning windows at night.' 'So do I,' answered the policeman in the same tone.",
+      "translation": "我立刻后悔那样回答，但我还是说，'我喜欢晚上擦窗户。''我也是，'警察用同样的语气回答。",
       "startTime": 56.45,
-      "endTime": 67.36,
+      "endTime": 72.86,
       "analysis": {
         "words": [
           {
@@ -841,19 +793,7 @@
             "word": "night.'",
             "pos": "n.",
             "meaning": "晚上"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "'So do I,' answered the policeman in the same tone.",
-      "translation": "'我也是，'警察用同样的语气回答。",
-      "startTime": 67.86,
-      "endTime": 72.86,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "'So",
             "pos": "adv.",
@@ -913,7 +853,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s4",
       "role": "Woman",
       "text": "Excuse my interrupting you.",
       "translation": "请原谅我打断你。",
@@ -945,12 +885,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s5",
       "role": "Man",
-      "text": "I hate to interrupt a man when he's busy working, but would you mind coming with me to the station?'",
-      "translation": "我讨厌在别人忙着工作的时候打扰他，但你介意和我去一趟警察局吗？'",
+      "text": "I hate to interrupt a man when he's busy working, but would you mind coming with me to the station?' 'Well, I'd prefer to stay here,' I said.",
+      "translation": "我讨厌在别人忙着工作的时候打扰他，但你介意和我去一趟警察局吗？''嗯，我宁愿待在这儿，'我说。",
       "startTime": 76.2,
-      "endTime": 85.32,
+      "endTime": 90.14,
       "analysis": {
         "words": [
           {
@@ -1057,19 +997,7 @@
             "word": "Neighbor",
             "pos": "n.",
             "meaning": "邻居"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "'Well, I'd prefer to stay here,' I said.",
-      "translation": "'嗯，我宁愿待在这儿，'我说。",
-      "startTime": 85.82,
-      "endTime": 90.14,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "'Well,",
             "pos": "int.",
@@ -1114,12 +1042,12 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s6",
       "role": "Man",
-      "text": "'You see, I've forgotten my key.'",
-      "translation": "'你看，我忘带钥匙了。'",
+      "text": "'You see, I've forgotten my key.' 'Your what?' he called.",
+      "translation": "'你看，我忘带钥匙了。''你的什么？'他喊道。",
       "startTime": 90.64,
-      "endTime": 93.62,
+      "endTime": 96.61,
       "analysis": {
         "words": [
           {
@@ -1151,19 +1079,7 @@
             "word": "key.'",
             "pos": "n.",
             "meaning": "钥匙"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "'Your what?' he called.",
-      "translation": "'你的什么？'他喊道。",
-      "startTime": 94.12,
-      "endTime": 96.61,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "'Your",
             "pos": "pron.",
@@ -1188,7 +1104,7 @@
       }
     },
     {
-      "id": "s13",
+      "id": "s7",
       "role": "Man",
       "text": "'My key,' I shouted.",
       "translation": "'我的钥匙，'我喊道。",
@@ -1220,7 +1136,7 @@
       }
     },
     {
-      "id": "s14",
+      "id": "s8",
       "role": "Woman",
       "text": "Fortunately, the shouting woke up my wife who opened the window just as the policeman had started to climb towards me.",
       "translation": "幸运的是，喊叫声吵醒了我妻子，就在警察开始向我爬来时，她打开了窗户。",

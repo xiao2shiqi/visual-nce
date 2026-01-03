@@ -376,10 +376,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "To make matters worse,",
-      "translation": "更糟糕的是，",
+      "text": "To make matters worse, the room is rather small, so I have temporarily put my books on the floor.",
+      "translation": "更糟糕的是，这个房间相当小，所以我暂时把书放在了地板上。",
       "startTime": 34.01,
-      "endTime": 35.52,
+      "endTime": 43.8,
       "analysis": {
         "words": [
           {
@@ -401,19 +401,7 @@
             "word": "worse",
             "pos": "adj.",
             "meaning": "更坏的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "the room is rather small,",
-      "translation": "这个房间相当小，",
-      "startTime": 36.02,
-      "endTime": 38.21,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "the",
             "pos": "art.",
@@ -438,19 +426,7 @@
             "word": "small",
             "pos": "adj.",
             "meaning": "小的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "so I have temporarily put my books on the floor.",
-      "translation": "所以我暂时把书放在了地板上。",
-      "startTime": 38.71,
-      "endTime": 43.8,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "so",
             "pos": "conj.",
@@ -505,12 +481,12 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s2",
       "role": "Woman",
-      "text": "At the moment, they cover every inch of floor space",
-      "translation": "此时此刻，书已经占据了地板的每一寸面积，",
+      "text": "At the moment, they cover every inch of floor space and I actually have to walk on them to get in or out of the room.",
+      "translation": "此时此刻，书已经占据了地板的每一寸面积，我实际上得踩着书才能进出房间。",
       "startTime": 44.3,
-      "endTime": 48.33,
+      "endTime": 55.3,
       "analysis": {
         "words": [
           {
@@ -547,19 +523,7 @@
             "word": "floor space",
             "pos": "n.",
             "meaning": "地板空间"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "and I actually have to walk on them to get in or out of the room.",
-      "translation": "我实际上得踩着书才能进出房间。",
-      "startTime": 48.83,
-      "endTime": 55.3,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "and",
             "pos": "conj.",
@@ -639,7 +603,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s3",
       "role": "Woman",
       "text": "A short while ago, my sister helped me to carry one of my old bookcases up the stairs.",
       "translation": "不久前，我姐姐帮我把一个旧书柜搬到了楼上。",
@@ -726,7 +690,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s4",
       "role": "Man",
       "text": "She went into my room and got a big surprise when she saw all those books on the floor.",
       "translation": "她走进我的房间，当她看到地板上那么多书时，大吃一惊。",
@@ -833,7 +797,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s5",
       "role": "Woman",
       "text": "'This is the prettiest carpet I have ever seen,' she said.",
       "translation": "'这是我见过的最漂亮的地毯，'她说。",
@@ -900,12 +864,12 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s6",
       "role": "Man",
-      "text": "She gazed at it for some time then added,",
-      "translation": "她盯着它看了一会儿，然后又补充说，",
+      "text": "She gazed at it for some time then added, 'You don't need bookcases at all.",
+      "translation": "她盯着它看了一会儿，然后又补充说，'你根本不需要书柜。",
       "startTime": 79.77,
-      "endTime": 83.53,
+      "endTime": 86.75,
       "analysis": {
         "words": [
           {
@@ -947,19 +911,7 @@
             "word": "added",
             "pos": "v.",
             "meaning": "补充说"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "'You don't need bookcases at all.",
-      "translation": "'你根本不需要书柜。",
-      "startTime": 84.03,
-      "endTime": 86.75,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "You",
             "pos": "pron.",
@@ -989,7 +941,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "s7",
       "role": "Man",
       "text": "You can sit here in your spare time and read the carpet!'",
       "translation": "你可以在闲暇时坐在这里读地毯！'",

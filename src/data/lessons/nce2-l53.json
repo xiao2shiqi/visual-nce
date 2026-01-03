@@ -341,10 +341,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "Yesterday the firemen examined the ground carefully,",
-      "translation": "昨天消防队员们仔细检查了地面，",
+      "text": "Yesterday the firemen examined the ground carefully, but were not able to find any broken glass.",
+      "translation": "昨天消防队员们仔细检查了地面，但没有发现任何碎玻璃。",
       "startTime": 37.96,
-      "endTime": 41.82,
+      "endTime": 46.3,
       "analysis": {
         "words": [
           {
@@ -381,19 +381,7 @@
             "word": "carefully",
             "pos": "adv.",
             "meaning": "仔细地"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "but were not able to find any broken glass.",
-      "translation": "但没有发现任何碎玻璃。",
-      "startTime": 42.32,
-      "endTime": 46.3,
-      "analysis": {
-        "words": [
+          },
           {
             "word": "but",
             "pos": "conj.",
@@ -443,7 +431,7 @@
       }
     },
     {
-      "id": "s3",
+      "id": "s2",
       "role": "Man",
       "text": "They were also quite sure that a cigarette end did not start the fire.",
       "translation": "他们还十分确信不是由香烟头引起的。",
@@ -520,7 +508,7 @@
       }
     },
     {
-      "id": "s4",
+      "id": "s3",
       "role": "Woman",
       "text": "This morning, however, a firemen accidentally discovered the cause.",
       "translation": "然而今天上午，一个消防队员偶然发现了这场火灾的起因。",
@@ -572,7 +560,7 @@
       }
     },
     {
-      "id": "s5",
+      "id": "s4",
       "role": "Man",
       "text": "He noticed the remains of a snake which was wound round the electric wires of a 16, 000-volt power line.",
       "translation": "他发现了一条缠绕在16,000伏高压线电缆上的蛇的残骸。",
@@ -679,7 +667,7 @@
       }
     },
     {
-      "id": "s6",
+      "id": "s5",
       "role": "Woman",
       "text": "In this way, he was able to solve the mystery.",
       "translation": "就这样他解开了这个谜。",
@@ -741,7 +729,7 @@
       }
     },
     {
-      "id": "s7",
+      "id": "s6",
       "role": "Man",
       "text": "The explanation was simple but very unusual.",
       "translation": "解释很简单，但很不寻常。",
@@ -788,7 +776,7 @@
       }
     },
     {
-      "id": "s8",
+      "id": "s7",
       "role": "Woman",
       "text": "A bird had snatched up the snake from the ground and then dropped it on to the wires.",
       "translation": "一只鸟从地上叼起那条蛇，然后把它扔到了电线上。",
@@ -880,7 +868,7 @@
       }
     },
     {
-      "id": "s9",
+      "id": "s8",
       "role": "Man",
       "text": "The snake then wound itself round the wires.",
       "translation": "那条蛇随即缠绕在电线上。",
@@ -932,7 +920,7 @@
       }
     },
     {
-      "id": "s10",
+      "id": "s9",
       "role": "Woman",
       "text": "When it did so, it sent sparks down to the ground and these immediately started a fire.",
       "translation": "当蛇这样做时，就把火花送到了地面上，立即引起了一场大火。",
