@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Expensive",
+            "pos": "n.",
+            "meaning": "Expensive（待补充）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Uncomfortable",
+            "pos": "n.",
+            "meaning": "Uncomfortable（待补充）"
+          }
+        ]
       }
     },
     {
@@ -104,14 +120,39 @@
             "meaning": "什么"
           },
           {
-            "word": "Man",
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "story",
+            "pos": "n.",
+            "meaning": "故事"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -126,9 +167,29 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Birds",
+            "pos": "n.",
+            "meaning": "鸟"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "fly",
+            "pos": "v.",
+            "meaning": "飞"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "distances",
+            "pos": "n.",
+            "meaning": "距离（复数）"
           }
         ]
       }
@@ -143,9 +204,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "workers",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "工人们"
+          },
+          {
+            "word": "began to",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "unload",
+            "pos": "v.",
+            "meaning": "卸货"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "number",
+            "pos": "n.",
+            "meaning": "数量"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "wooden",
+            "pos": "adj.",
+            "meaning": "木制的"
+          },
+          {
+            "word": "boxes",
+            "pos": "n.",
+            "meaning": "盒子（复数）"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "引导词"
+          },
+          {
+            "word": "contained",
+            "pos": "v.",
+            "meaning": "装有"
+          },
+          {
+            "word": "clothing",
+            "pos": "n.",
+            "meaning": "衣服"
           }
         ]
       }
@@ -160,9 +271,69 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "No one",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "没有人"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "account for",
+            "pos": "v.",
+            "meaning": "解释"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "fact",
+            "pos": "n.",
+            "meaning": "事实"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导词"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "其中一个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...之中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "boxes",
+            "pos": "n.",
+            "meaning": "盒子"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "极其"
+          },
+          {
+            "word": "extremely",
+            "pos": "adv.",
+            "meaning": "非常地"
+          },
+          {
+            "word": "heavy",
+            "pos": "adj.",
+            "meaning": "重"
           }
         ]
       }
@@ -179,7 +350,57 @@
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "形式主语"
+          },
+          {
+            "word": "suddenly",
+            "pos": "adv.",
+            "meaning": "突然地"
+          },
+          {
+            "word": "occurred to",
+            "pos": "v.",
+            "meaning": "想起"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一位"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...之中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "workers",
+            "pos": "n.",
+            "meaning": "工人"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "open up",
+            "pos": "v.",
+            "meaning": "打开"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这只"
+          },
+          {
+            "word": "box",
+            "pos": "n.",
+            "meaning": "箱子"
           }
         ]
       }
@@ -194,14 +415,39 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
           },
           {
-            "word": "What",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "感到"
+          },
+          {
+            "word": "astonished",
+            "pos": "adj.",
+            "meaning": "吃惊的"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "对..."
+          },
+          {
+            "word": "what",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "他所发现的"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现"
           }
         ]
       }
@@ -216,9 +462,74 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正"
+          },
+          {
+            "word": "lying",
+            "pos": "v.",
+            "meaning": "躺"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这只"
+          },
+          {
+            "word": "box",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上面"
+          },
+          {
+            "word": "top of",
+            "pos": "prep.",
+            "meaning": "在...顶部"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "pile",
+            "pos": "n.",
+            "meaning": "堆"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "woollen",
+            "pos": "adj.",
+            "meaning": "羊毛的"
+          },
+          {
+            "word": "goods",
+            "pos": "n.",
+            "meaning": "货物"
           }
         ]
       }
@@ -233,19 +544,69 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "That",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
           },
           {
-            "word": "Not",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "so",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "如此"
+          },
+          {
+            "word": "surprised",
+            "pos": "adj.",
+            "meaning": "吃惊的"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "being",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "discovered",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "did not",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "try to",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "run away",
+            "pos": "v.",
+            "meaning": "逃跑"
           }
         ]
       }
@@ -292,9 +653,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "admitted",
+            "pos": "v.",
+            "meaning": "承认"
+          },
+          {
+            "word": "hiding",
+            "pos": "v.",
+            "meaning": "躲藏"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这只"
+          },
+          {
+            "word": "box",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "before",
+            "pos": "prep.",
+            "meaning": "在...之前"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这架"
+          },
+          {
+            "word": "plane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "left",
+            "pos": "v.",
+            "meaning": "离开"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
           }
         ]
       }
@@ -438,9 +854,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "ordered to",
+            "pos": "v.",
+            "meaning": "被要求/命令"
+          },
+          {
+            "word": "pay",
+            "pos": "v.",
+            "meaning": "付"
+          },
+          {
+            "word": "￡3, 500",
+            "pos": "num.",
+            "meaning": "3500英镑"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "cost",
+            "pos": "n.",
+            "meaning": "费用"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
           }
         ]
       }
@@ -455,14 +926,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Ticket",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "normal",
+            "pos": "adj.",
+            "meaning": "平常的"
+          },
+          {
+            "word": "price",
+            "pos": "n.",
+            "meaning": "价格"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "一个"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "ticket",
             "pos": "n.",
             "meaning": "票"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "￡2, 000",
+            "pos": "num.",
+            "meaning": "2000英镑"
           }
         ]
       }

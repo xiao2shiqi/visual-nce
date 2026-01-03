@@ -34,7 +34,33 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "One",
+            "pos": "n.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "Turn",
+            "pos": "n.",
+            "meaning": "帮助，行为"
+          },
+          {
+            "word": "Deserves",
+            "pos": "v.",
+            "meaning": "应得到"
+          },
+          {
+            "word": "Another",
+            "pos": "pron.",
+            "meaning": "另一个"
+          }
+        ]
       }
     },
     {
@@ -344,9 +370,69 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "borrows",
+            "pos": "v.",
+            "meaning": "借"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "friends",
+            "pos": "n.",
+            "meaning": "朋友（复数）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
+            "word": "pays",
+            "pos": "v.",
+            "meaning": "还（pay的第三人称单数）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "回去"
           }
         ]
       }
@@ -361,14 +447,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "Tony",
+            "pos": "n.",
+            "meaning": "托尼（人名）"
+          },
+          {
+            "word": "saw",
+            "pos": "v.",
+            "meaning": "看见（see的过去式）"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           },
           {
-            "word": "At",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "came",
+            "pos": "v.",
+            "meaning": "来（come的过去式）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "sat",
+            "pos": "v.",
+            "meaning": "坐（sit的过去式）"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "same",
+            "pos": "adj.",
+            "meaning": "同一个"
+          },
+          {
+            "word": "table",
+            "pos": "n.",
+            "meaning": "桌子"
           }
         ]
       }
@@ -383,7 +514,37 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
+            "word": "borrowed",
+            "pos": "v.",
+            "meaning": "借（borrow的过去分词）"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
           }
@@ -400,9 +561,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "While",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（be的过去式）"
+          },
+          {
+            "word": "eating",
+            "pos": "v.",
+            "meaning": "吃（eat的现在分词）"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "请求（ask的过去式）"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "lend",
+            "pos": "v.",
+            "meaning": "借给"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "twenty",
+            "pos": "num.",
+            "meaning": "二十"
+          },
+          {
+            "word": "pounds",
+            "pos": "n.",
+            "meaning": "英镑（复数）"
           }
         ]
       }
@@ -417,14 +633,49 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "To",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "Me",
+            "word": "surprise",
+            "pos": "n.",
+            "meaning": "惊讶"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "gave",
+            "pos": "v.",
+            "meaning": "给（give的过去式）"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "immediately",
+            "pos": "adv.",
+            "meaning": "立即"
           }
         ]
       }
@@ -439,9 +690,44 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
+            "word": "borrowed",
+            "pos": "v.",
+            "meaning": "借（borrow的过去分词）"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }
@@ -456,14 +742,54 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Tony",
+            "pos": "n.",
+            "meaning": "托尼（人名）"
           },
           {
-            "word": "My",
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说（say的过去式）"
+          },
+          {
+            "word": "so",
+            "pos": "conj.",
+            "meaning": "所以"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "pay",
+            "pos": "v.",
+            "meaning": "付款"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "dinner",
+            "pos": "n.",
+            "meaning": "晚餐"
           }
         ]
       }

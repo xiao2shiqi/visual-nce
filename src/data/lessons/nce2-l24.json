@@ -34,7 +34,28 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "It",
+            "pos": "n.",
+            "meaning": "It（待补充）"
+          },
+          {
+            "word": "Could",
+            "pos": "n.",
+            "meaning": "Could（待补充）"
+          },
+          {
+            "word": "be",
+            "pos": "n.",
+            "meaning": "be（待补充）"
+          },
+          {
+            "word": "Worse",
+            "pos": "n.",
+            "meaning": "Worse（待补充）"
+          }
+        ]
       }
     },
     {
@@ -198,9 +219,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "just",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "刚刚"
+          },
+          {
+            "word": "lost",
+            "pos": "v.",
+            "meaning": "丢失"
+          },
+          {
+            "word": "50",
+            "pos": "num.",
+            "meaning": "五十英镑"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "felt",
+            "pos": "v.",
+            "meaning": "感觉"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "upset",
+            "pos": "adj.",
+            "meaning": "沮丧的"
           }
         ]
       }
@@ -215,14 +281,74 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "left",
+            "pos": "v.",
+            "meaning": "遗留"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "Not",
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "it's",
+            "pos": "phr.",
+            "meaning": "它"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -341,14 +467,89 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "他"
           },
           {
-            "word": "At",
+            "word": "started",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "complain",
+            "pos": "v.",
+            "meaning": "抱怨"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "wicked",
+            "pos": "adj.",
+            "meaning": "邪恶的"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "被"
+          },
+          {
+            "word": "interrupted",
+            "pos": "v.",
+            "meaning": "打断"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "被"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "knock",
+            "pos": "n.",
+            "meaning": "敲门声"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
           }
         ]
       }
@@ -433,6 +634,16 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "contained",
+            "pos": "v.",
+            "meaning": "包含"
+          },
+          {
+            "word": "50",
+            "pos": "num.",
+            "meaning": "五十英镑"
           }
         ]
       }
@@ -447,9 +658,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "outside",
+            "pos": "prep.",
+            "meaning": "在...外面"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这位"
+          },
+          {
+            "word": "gentleman's",
+            "pos": "n.",
+            "meaning": "绅士的"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -465,18 +716,73 @@
         "words": [
           {
             "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "pos": "int.",
+            "meaning": "好了"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "This",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "给"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "manager",
+            "pos": "n.",
+            "meaning": "经理"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "honesty",
+            "pos": "n.",
+            "meaning": "诚实"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
           }
         ]
       }

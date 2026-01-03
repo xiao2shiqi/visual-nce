@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "Channel",
+            "pos": "n.",
+            "meaning": "Channel（待补充）"
+          },
+          {
+            "word": "Tunnel",
+            "pos": "n.",
+            "meaning": "Tunnel（待补充）"
+          }
+        ]
       }
     },
     {
@@ -99,9 +115,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "Why",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "为什么"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "第一个"
+          },
+          {
+            "word": "first",
+            "pos": "num.",
+            "meaning": "首先"
+          },
+          {
+            "word": "tunnel",
+            "pos": "n.",
+            "meaning": "隧道"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "completed",
+            "pos": "v.",
+            "meaning": "完成（complete的过去分词）"
           }
         ]
       }
@@ -116,14 +162,39 @@
       "analysis": {
         "words": [
           {
-            "word": "French",
-            "pos": "adj.",
-            "meaning": "法国的，法语"
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在"
           },
           {
-            "word": "Engineer",
+            "word": "1858",
+            "pos": "num.",
+            "meaning": "1858年"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的"
+          },
+          {
+            "word": "engineer",
             "pos": "n.",
             "meaning": "工程师"
+          },
+          {
+            "word": "Aime",
+            "pos": "n.",
+            "meaning": "艾米"
+          },
+          {
+            "word": "Thome de Gamond",
+            "pos": "n.",
+            "meaning": "汤姆·德·加蒙"
           }
         ]
       }
@@ -220,14 +291,89 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
           },
           {
-            "word": "It",
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "possible",
+            "pos": "adj.",
+            "meaning": "可能的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "build",
+            "pos": "v.",
+            "meaning": "建造"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "platform",
+            "pos": "n.",
+            "meaning": "平台"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "centre",
+            "pos": "n.",
+            "meaning": "中央"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Channel",
+            "pos": "n.",
+            "meaning": "海峡"
           }
         ]
       }
@@ -243,8 +389,48 @@
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "platform",
+            "pos": "n.",
+            "meaning": "平台"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "serve as",
+            "pos": "v.",
+            "meaning": "充当"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "port",
+            "pos": "n.",
+            "meaning": "港口"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "railway station",
+            "pos": "n.",
+            "meaning": "火车站"
           }
         ]
       }
@@ -259,9 +445,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Tall",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这条"
+          },
+          {
+            "word": "tunnel",
+            "pos": "n.",
+            "meaning": "隧道"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "well-ventilated",
+            "pos": "adj.",
+            "meaning": "通风良好的"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "tall",
             "pos": "adj.",
             "meaning": "高的"
+          },
+          {
+            "word": "chimneys",
+            "pos": "n.",
+            "meaning": "烟囱（复数）"
+          },
+          {
+            "word": "were",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "built",
+            "pos": "v.",
+            "meaning": "建造（build的过去分词）"
+          },
+          {
+            "word": "above",
+            "pos": "prep.",
+            "meaning": "在...之上"
+          },
+          {
+            "word": "sea level",
+            "pos": "n.",
+            "meaning": "海平面"
           }
         ]
       }
@@ -348,9 +589,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "suggested",
+            "pos": "v.",
+            "meaning": "建议"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "double",
+            "pos": "adj.",
+            "meaning": "双重的"
+          },
+          {
+            "word": "railway-tunnel",
+            "pos": "n.",
+            "meaning": "铁路隧道"
+          },
+          {
+            "word": "should",
+            "pos": "aux.",
+            "meaning": "应该"
+          },
+          {
+            "word": "be",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "built",
+            "pos": "v.",
+            "meaning": "建造"
           }
         ]
       }
@@ -367,17 +648,107 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "It",
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将会"
+          },
+          {
+            "word": "solve",
+            "pos": "v.",
+            "meaning": "解决"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "ventilation",
+            "pos": "n.",
+            "meaning": "通风"
+          },
+          {
+            "word": "for",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一列"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
+          },
+          {
+            "word": "entered",
+            "pos": "v.",
+            "meaning": "进入"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这条"
+          },
+          {
+            "word": "tunnel",
+            "pos": "n.",
+            "meaning": "隧道"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Air",
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "draw in",
+            "pos": "v.",
+            "meaning": "吸入"
+          },
+          {
+            "word": "fresh",
+            "pos": "adj.",
+            "meaning": "新鲜的"
+          },
+          {
+            "word": "air",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "空气"
+          },
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在...后面"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
           }
         ]
       }
@@ -444,19 +815,69 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
           },
           {
-            "word": "It",
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "British",
+            "pos": "n.",
+            "meaning": "英国人"
+          },
+          {
+            "word": "had not",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "feared",
+            "pos": "v.",
+            "meaning": "害怕"
+          },
+          {
+            "word": "invasion",
+            "pos": "n.",
+            "meaning": "入侵"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "就会"
+          },
+          {
+            "word": "have been",
+            "pos": "aux.",
+            "meaning": "已经被"
+          },
+          {
+            "word": "completed",
+            "pos": "v.",
+            "meaning": "完成"
           }
         ]
       }
@@ -551,6 +972,71 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "officially",
+            "pos": "adv.",
+            "meaning": "正式地"
+          },
+          {
+            "word": "opened",
+            "pos": "v.",
+            "meaning": "开启"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...（日期）"
+          },
+          {
+            "word": "March",
+            "pos": "n.",
+            "meaning": "三月"
+          },
+          {
+            "word": "7",
+            "pos": "num.",
+            "meaning": "七日"
+          },
+          {
+            "word": "1994",
+            "pos": "num.",
+            "meaning": "1994年"
+          },
+          {
+            "word": "finally",
+            "pos": "adv.",
+            "meaning": "终于"
+          },
+          {
+            "word": "connecting",
+            "pos": "v.",
+            "meaning": "连接"
+          },
+          {
+            "word": "Britain",
+            "pos": "n.",
+            "meaning": "英国"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "European continent",
+            "pos": "n.",
+            "meaning": "欧洲大陆"
           }
         ]
       }

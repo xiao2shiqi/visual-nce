@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "没有"
+          },
+          {
+            "word": "Wrong",
+            "pos": "adj.",
+            "meaning": "错误的"
+          },
+          {
+            "word": "Numbers",
+            "pos": "n.",
+            "meaning": "号码（复数）"
+          }
+        ]
       }
     },
     {
@@ -102,6 +118,21 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "No wrong numbers",
+            "pos": "phr.",
+            "meaning": "无错号之虑"
+          },
+          {
+            "word": "mean",
+            "pos": "v.",
+            "meaning": "意味着"
           }
         ]
       }
@@ -230,14 +261,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Pinhurst",
+            "pos": "n.",
+            "meaning": "平赫斯特（地名）"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Five",
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "five",
             "pos": "num.",
             "meaning": "五"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里（复数）"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "离"
+          },
+          {
+            "word": "Silbury",
+            "pos": "n.",
+            "meaning": "锡尔伯里（地名）"
           }
         ]
       }
@@ -626,9 +682,59 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "以"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这种"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "方式"
+          },
+          {
+            "word": "he",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "begun",
+            "pos": "v.",
+            "meaning": "开始（begin的过去分词）"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "own",
+            "pos": "adj.",
+            "meaning": "自己的"
+          },
+          {
+            "word": "private",
+            "pos": "adj.",
+            "meaning": "私人的"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
+          },
+          {
+            "word": "service",
+            "pos": "n.",
+            "meaning": "服务，业务"
           }
         ]
       }

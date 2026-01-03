@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Successful",
+            "pos": "adj.",
+            "meaning": "成功的"
+          },
+          {
+            "word": "Operation",
+            "pos": "n.",
+            "meaning": "手术"
+          }
+        ]
       }
     },
     {
@@ -99,14 +115,44 @@
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "Did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
           },
           {
-            "word": "Woman",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "doctors",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "医生"
+          },
+          {
+            "word": "find out",
+            "pos": "v.",
+            "meaning": "查明"
+          },
+          {
+            "word": "how",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "woman",
+            "pos": "n.",
+            "meaning": "妇女"
+          },
+          {
+            "word": "died",
+            "pos": "v.",
+            "meaning": "死"
           }
         ]
       }
@@ -121,9 +167,79 @@
       "analysis": {
         "words": [
           {
-            "word": "Woman",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这具"
+          },
+          {
+            "word": "mummy",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "木乃伊"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "属于"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Egyptian",
+            "pos": "adj.",
+            "meaning": "埃及的"
+          },
+          {
+            "word": "woman",
+            "pos": "n.",
+            "meaning": "妇女"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "died",
+            "pos": "v.",
+            "meaning": "死"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "800 B.C.",
+            "pos": "num.",
+            "meaning": "公元前800年"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "进行了"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "operation",
+            "pos": "n.",
+            "meaning": "手术"
           }
         ]
       }
@@ -138,14 +254,79 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这具"
+          },
+          {
+            "word": "mummy",
+            "pos": "n.",
+            "meaning": "木乃伊"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that of",
+            "pos": "phr.",
+            "meaning": "那是...（指Shepenmut的）"
+          },
+          {
+            "word": "Shepenmut",
+            "pos": "n.",
+            "meaning": "舍彭姆特"
+          },
+          {
+            "word": "who",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "她"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "曾经是"
+          },
+          {
+            "word": "once",
+            "pos": "adv.",
+            "meaning": "曾经"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一位"
+          },
+          {
+            "word": "singer",
+            "pos": "n.",
+            "meaning": "歌手"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这座"
+          },
+          {
+            "word": "Temple",
+            "pos": "n.",
+            "meaning": "神庙"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "Thebes",
+            "pos": "n.",
+            "meaning": "底比斯"
           }
         ]
       }
@@ -237,9 +418,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Woman",
+            "word": "doctors",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "医生（复数）"
+          },
+          {
+            "word": "have been",
+            "pos": "aux.",
+            "meaning": "一直在"
+          },
+          {
+            "word": "trying to",
+            "pos": "v.",
+            "meaning": "尝试/试图"
+          },
+          {
+            "word": "find out",
+            "pos": "v.",
+            "meaning": "找出/查明"
+          },
+          {
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "woman",
+            "pos": "n.",
+            "meaning": "妇女"
+          },
+          {
+            "word": "died of",
+            "pos": "v.",
+            "meaning": "死于"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一种"
+          },
+          {
+            "word": "rare",
+            "pos": "adj.",
+            "meaning": "罕见的"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
           }
         ]
       }
@@ -254,9 +485,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "only",
+            "pos": "adj.",
+            "meaning": "唯一的"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "方法"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这点"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "operate",
+            "pos": "v.",
+            "meaning": "做手术/动手术"
           }
         ]
       }
@@ -323,9 +594,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "proved",
+            "pos": "v.",
+            "meaning": "被证明"
+          },
+          {
+            "word": "to be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "difficult",
+            "pos": "adj.",
+            "meaning": "困难的"
+          },
+          {
+            "word": "because of",
+            "pos": "prep.",
+            "meaning": "因为"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "hard",
+            "pos": "adj.",
+            "meaning": "坚硬的"
+          },
+          {
+            "word": "resin",
+            "pos": "n.",
+            "meaning": "树脂"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "covered",
+            "pos": "v.",
+            "meaning": "覆盖"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "skin",
+            "pos": "n.",
+            "meaning": "皮肤"
           }
         ]
       }
@@ -340,9 +666,74 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "doctors",
+            "pos": "n.",
+            "meaning": "医生"
+          },
+          {
+            "word": "removed",
+            "pos": "v.",
+            "meaning": "切下/切除"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "section",
+            "pos": "n.",
+            "meaning": "部分/切片"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "从...（木乃伊）中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这具"
+          },
+          {
+            "word": "mummy",
+            "pos": "n.",
+            "meaning": "木乃伊"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "sent",
+            "pos": "v.",
+            "meaning": "送"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "laboratory",
+            "pos": "n.",
+            "meaning": "实验室"
           }
         ]
       }
@@ -357,9 +748,89 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "They",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "also",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "也"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某物"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "X-ray plates",
+            "pos": "n.",
+            "meaning": "X光片"
+          },
+          {
+            "word": "did not",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "show",
+            "pos": "v.",
+            "meaning": "显示"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "wax",
+            "pos": "n.",
+            "meaning": "蜡"
+          },
+          {
+            "word": "figure",
+            "pos": "n.",
+            "meaning": "塑像"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这尊"
+          },
+          {
+            "word": "god",
+            "pos": "n.",
+            "meaning": "神"
+          },
+          {
+            "word": "Duamutef",
+            "pos": "n.",
+            "meaning": "杜瓦姆特夫"
           }
         ]
       }
@@ -375,8 +846,78 @@
         "words": [
           {
             "word": "This",
+            "pos": "det.",
+            "meaning": "这尊"
+          },
+          {
+            "word": "god",
+            "pos": "n.",
+            "meaning": "神"
+          },
+          {
+            "word": "which",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "head",
+            "pos": "n.",
+            "meaning": "头"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "属于/的"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一头"
+          },
+          {
+            "word": "cow",
+            "pos": "n.",
+            "meaning": "母牛"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "原本被"
+          },
+          {
+            "word": "normally",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "placed",
+            "pos": "v.",
+            "meaning": "放置"
+          },
+          {
+            "word": "inside",
+            "pos": "prep.",
+            "meaning": "在...内部"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一具"
+          },
+          {
+            "word": "mummy",
+            "pos": "n.",
+            "meaning": "木乃伊"
           }
         ]
       }
@@ -391,19 +932,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
           },
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Woman",
+            "word": "doctors",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "医生"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "目前"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "还没有"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还"
+          },
+          {
+            "word": "decided",
+            "pos": "v.",
+            "meaning": "决定/断定"
+          },
+          {
+            "word": "how",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "woman",
+            "pos": "n.",
+            "meaning": "妇女"
+          },
+          {
+            "word": "died",
+            "pos": "v.",
+            "meaning": "死亡"
           }
         ]
       }
@@ -418,14 +994,64 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "They",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他们"
           },
           {
-            "word": "It",
+            "word": "feared",
+            "pos": "v.",
+            "meaning": "担心/害怕"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这具"
+          },
+          {
+            "word": "mummy",
+            "pos": "n.",
+            "meaning": "木乃伊"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "会"
+          },
+          {
+            "word": "fall to pieces",
+            "pos": "v.",
+            "meaning": "解体/散架"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "cut",
+            "pos": "v.",
+            "meaning": "切"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "open",
+            "pos": "adj.",
+            "meaning": "开"
           }
         ]
       }
@@ -440,14 +1066,34 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Not",
+            "word": "fortunately",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "幸运的是"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这点（解体）"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "并没有"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不/没"
+          },
+          {
+            "word": "happened",
+            "pos": "v.",
+            "meaning": "发生"
           }
         ]
       }

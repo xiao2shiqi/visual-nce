@@ -34,7 +34,18 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Sticky",
+            "pos": "n.",
+            "meaning": "Sticky（待补充）"
+          },
+          {
+            "word": "Fingers",
+            "pos": "n.",
+            "meaning": "Fingers（待补充）"
+          }
+        ]
       }
     },
     {
@@ -100,8 +111,38 @@
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "pos": "det.",
+            "meaning": "哪"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "interruptions",
+            "pos": "n.",
+            "meaning": "中断/打断"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作者"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "遇到"
           }
         ]
       }
@@ -116,9 +157,69 @@
       "analysis": {
         "words": [
           {
-            "word": "School",
+            "word": "After breakfast",
+            "pos": "adv.",
+            "meaning": "早饭后"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "sent",
+            "pos": "v.",
+            "meaning": "送"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子们"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去"
+          },
+          {
+            "word": "school",
             "pos": "n.",
             "meaning": "学校"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "went to",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "shops",
+            "pos": "n.",
+            "meaning": "商店"
           }
         ]
       }
@@ -135,7 +236,42 @@
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "时间"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "early",
+            "pos": "adj.",
+            "meaning": "早的"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "returned",
+            "pos": "v.",
+            "meaning": "回到"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
           }
         ]
       }
@@ -150,24 +286,69 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
           },
           {
-            "word": "School",
+            "word": "children",
             "pos": "n.",
+            "meaning": "孩子们"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "在"
+          },
+          {
+            "word": "at school",
+            "pos": "adv.",
             "meaning": "学校"
           },
           {
-            "word": "My",
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "House",
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "在"
+          },
+          {
+            "word": "at work",
+            "pos": "adv.",
+            "meaning": "工作"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "quiet",
+            "pos": "adj.",
+            "meaning": "安静的"
           }
         ]
       }
@@ -234,14 +415,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Short",
-            "pos": "adj.",
-            "meaning": "矮的"
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...之内"
           },
           {
-            "word": "Busy",
+            "word": "a short time",
+            "pos": "adv.",
+            "meaning": "不久"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "busy",
             "pos": "adj.",
-            "meaning": "忙碌的"
+            "meaning": "忙于"
+          },
+          {
+            "word": "mixing",
+            "pos": "v.",
+            "meaning": "混合"
+          },
+          {
+            "word": "butter",
+            "pos": "n.",
+            "meaning": "黄油"
           }
         ]
       }
@@ -256,9 +462,54 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "flour",
+            "pos": "n.",
+            "meaning": "面粉"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "hands",
+            "pos": "n.",
+            "meaning": "手"
+          },
+          {
+            "word": "were",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          },
+          {
+            "word": "covered with",
+            "pos": "v.",
+            "meaning": "覆盖着"
+          },
+          {
+            "word": "sticky",
+            "pos": "adj.",
+            "meaning": "粘的"
+          },
+          {
+            "word": "pastry",
+            "pos": "n.",
+            "meaning": "面团"
           }
         ]
       }
@@ -273,14 +524,24 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "At exactly that moment",
+            "pos": "adv.",
+            "meaning": "就在那时"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
+          },
+          {
+            "word": "rang",
+            "pos": "v.",
+            "meaning": "响（ring的过去式）"
           }
         ]
       }
@@ -449,14 +710,79 @@
             "meaning": "它"
           },
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "took",
+            "pos": "v.",
+            "meaning": "花了"
           },
           {
-            "word": "At",
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "ten",
+            "pos": "num.",
+            "meaning": "十"
+          },
+          {
+            "word": "minutes",
+            "pos": "n.",
+            "meaning": "分钟"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "persuade",
+            "pos": "v.",
+            "meaning": "说服"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "ring back",
+            "pos": "v.",
+            "meaning": "重拨/稍后打来"
+          },
+          {
+            "word": "later",
+            "pos": "adv.",
+            "meaning": "晚些"
+          },
+          {
+            "word": "At last",
+            "pos": "adv.",
+            "meaning": "终于"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "hung up",
+            "pos": "v.",
+            "meaning": "挂断"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "receiver",
+            "pos": "n.",
+            "meaning": "听筒"
           }
         ]
       }
@@ -471,14 +797,74 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "What a mess",
+            "pos": "phr.",
+            "meaning": "真是一团糟"
           },
           {
-            "word": "My",
+            "word": "There",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "pastry",
+            "pos": "n.",
+            "meaning": "面团"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "fingers",
+            "pos": "n.",
+            "meaning": "手指"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "telephone",
+            "pos": "n.",
+            "meaning": "电话"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "doorknobs",
+            "pos": "n.",
+            "meaning": "门把手（复数）"
           }
         ]
       }
@@ -595,24 +981,74 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "This time",
+            "pos": "adv.",
+            "meaning": "这次"
           },
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Postman",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "postman",
             "pos": "n.",
             "meaning": "邮递员"
           },
           {
-            "word": "Me",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "he",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "他"
+          },
+          {
+            "word": "wanted",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "sign for",
+            "pos": "v.",
+            "meaning": "签收"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "registered",
+            "pos": "adj.",
+            "meaning": "挂号的"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
           }
         ]
       }

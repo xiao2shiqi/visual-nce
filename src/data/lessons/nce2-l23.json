@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "New",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "House",
+            "pos": "n.",
+            "meaning": "房子"
+          }
+        ]
       }
     },
     {
@@ -99,14 +115,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "House",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "special",
+            "pos": "adj.",
+            "meaning": "特别的"
           }
         ]
       }
@@ -121,9 +157,44 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "had",
+            "pos": "v.",
+            "meaning": "有（had的过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一封"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "sister",
+            "pos": "n.",
+            "meaning": "姐姐/妹妹"
+          },
+          {
+            "word": "yesterday",
+            "pos": "adv.",
+            "meaning": "昨天"
           }
         ]
       }
@@ -170,9 +241,69 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "her",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "她的"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "England",
+            "pos": "n.",
+            "meaning": "英国"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下个"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -239,9 +370,64 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "living",
+            "pos": "v.",
+            "meaning": "居住"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "beautiful",
+            "pos": "adj.",
+            "meaning": "美丽的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "乡下"
           }
         ]
       }
@@ -256,14 +442,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "Work",
+            "pos": "n.",
+            "meaning": "工作/工程"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "My",
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "begun",
+            "pos": "v.",
+            "meaning": "开始（begin的过去分词）"
+          },
+          {
+            "word": "before",
+            "pos": "conj.",
+            "meaning": "在...之前"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "sister",
+            "pos": "n.",
+            "meaning": "姐姐/妹妹"
+          },
+          {
+            "word": "left",
+            "pos": "v.",
+            "meaning": "离开"
           }
         ]
       }
@@ -278,14 +499,39 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           },
           {
-            "word": "Five",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "被"
+          },
+          {
+            "word": "completed",
+            "pos": "v.",
+            "meaning": "完成"
+          },
+          {
+            "word": "five",
             "pos": "num.",
             "meaning": "五"
+          },
+          {
+            "word": "months",
+            "pos": "n.",
+            "meaning": "月"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }
@@ -300,14 +546,64 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "That",
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能够"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "停留/待"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "和...一起"
+          },
+          {
+            "word": "us",
+            "pos": "pron.",
+            "meaning": "我们（宾格）"
           }
         ]
       }
@@ -322,14 +618,64 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
           },
           {
-            "word": "Is",
+            "word": "has",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "rooms",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "lovely",
+            "pos": "adj.",
+            "meaning": "可爱的/漂亮的"
+          },
+          {
+            "word": "garden",
+            "pos": "n.",
+            "meaning": "花园"
           }
         ]
       }
@@ -349,19 +695,64 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
           },
           {
-            "word": "House",
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "modern",
+            "pos": "adj.",
+            "meaning": "现代的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "so",
+            "pos": "conj.",
+            "meaning": "所以"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "looks",
+            "pos": "v.",
+            "meaning": "看起来"
+          },
+          {
+            "word": "strange",
+            "pos": "adj.",
+            "meaning": "奇怪的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "对"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人"
           }
         ]
       }
@@ -381,9 +772,49 @@
             "meaning": "它"
           },
           {
-            "word": "House",
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "必须/一定是"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "only",
+            "pos": "adj.",
+            "meaning": "唯一的"
+          },
+          {
+            "word": "modern",
+            "pos": "adj.",
+            "meaning": "现代的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "district",
+            "pos": "n.",
+            "meaning": "地区"
           }
         ]
       }

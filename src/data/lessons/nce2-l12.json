@@ -34,7 +34,28 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Goodbye",
+            "pos": "int.",
+            "meaning": "再见"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "Good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "Luck",
+            "pos": "n.",
+            "meaning": "运气"
+          }
+        ]
       }
     },
     {
@@ -99,14 +120,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Where",
+            "pos": "adv.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "How",
+            "word": "Captain",
+            "pos": "n.",
+            "meaning": "船长"
+          },
+          {
+            "word": "Alison",
+            "pos": "n.",
+            "meaning": "艾利森（人名）"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "去（go的现在分词）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "how",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "怎样"
           }
         ]
       }

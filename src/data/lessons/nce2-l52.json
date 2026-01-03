@@ -34,7 +34,23 @@
       "startTime": 2.4825,
       "endTime": 4.95,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Pretty",
+            "pos": "n.",
+            "meaning": "Pretty（待补充）"
+          },
+          {
+            "word": "Carpet",
+            "pos": "n.",
+            "meaning": "Carpet（待补充）"
+          }
+        ]
       }
     },
     {
@@ -100,13 +116,33 @@
         "words": [
           {
             "word": "What",
-            "pos": "pron.",
+            "pos": "det.",
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "writer's",
+            "pos": "n.",
+            "meaning": "作者的"
+          },
+          {
+            "word": "carpet",
+            "pos": "n.",
+            "meaning": "地毯"
+          },
+          {
+            "word": "made of",
+            "pos": "v.",
+            "meaning": "由...做成"
           }
         ]
       }
@@ -121,9 +157,84 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "moved",
+            "pos": "v.",
+            "meaning": "搬进"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个新的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "一直"
+          },
+          {
+            "word": "been",
+            "pos": "aux.",
+            "meaning": "在"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "hard",
+            "pos": "adv.",
+            "meaning": "努力地"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "整个"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早晨"
           }
         ]
       }
@@ -138,9 +249,54 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "一直在"
+          },
+          {
+            "word": "been",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "trying",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "使..."
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "in order",
+            "pos": "phr.",
+            "meaning": "整齐"
           }
         ]
       }
@@ -157,12 +313,62 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Not",
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "并不"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "easy",
+            "pos": "adj.",
+            "meaning": "容易的"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "own",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "超过"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "thousand",
+            "pos": "num.",
+            "meaning": "千"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书（复数）"
           }
         ]
       }
@@ -209,9 +415,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "rather",
+            "pos": "adv.",
+            "meaning": "相当"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
           }
         ]
       }
@@ -226,9 +452,54 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "so",
+            "pos": "conj.",
+            "meaning": "所以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "temporarily",
+            "pos": "adv.",
+            "meaning": "暂时地"
+          },
+          {
+            "word": "put",
+            "pos": "v.",
+            "meaning": "放"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上面"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "floor",
+            "pos": "n.",
+            "meaning": "地板"
           }
         ]
       }
@@ -243,9 +514,39 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "At the moment",
+            "pos": "adv.",
+            "meaning": "目前"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "cover",
+            "pos": "v.",
+            "meaning": "覆盖"
+          },
+          {
+            "word": "every",
+            "pos": "det.",
+            "meaning": "每一"
+          },
+          {
+            "word": "inch",
+            "pos": "n.",
+            "meaning": "英寸"
+          },
+          {
+            "word": "of",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "的"
+          },
+          {
+            "word": "floor space",
+            "pos": "n.",
+            "meaning": "地板空间"
           }
         ]
       }
@@ -347,24 +648,79 @@
       "analysis": {
         "words": [
           {
-            "word": "Short",
-            "pos": "adj.",
-            "meaning": "矮的"
+            "word": "A short while ago",
+            "pos": "adv.",
+            "meaning": "不久前"
           },
           {
-            "word": "My",
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "sister",
+            "pos": "n.",
+            "meaning": "姐姐/妹妹"
           },
           {
-            "word": "Old",
+            "word": "helped",
+            "pos": "v.",
+            "meaning": "帮助"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "carry",
+            "pos": "v.",
+            "meaning": "搬运"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "my",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "旧的"
+          },
+          {
+            "word": "bookcases",
+            "pos": "n.",
+            "meaning": "书柜"
+          },
+          {
+            "word": "up",
+            "pos": "prep.",
+            "meaning": "上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "stairs",
+            "pos": "n.",
+            "meaning": "楼梯"
           }
         ]
       }
@@ -379,9 +735,99 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "went",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "surprise",
+            "pos": "n.",
+            "meaning": "吃惊"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "saw",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有"
+          },
+          {
+            "word": "those",
+            "pos": "det.",
+            "meaning": "那些"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "floor",
+            "pos": "n.",
+            "meaning": "地板"
           }
         ]
       }
@@ -398,12 +844,57 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "prettiest",
+            "pos": "adj.",
+            "meaning": "最漂亮的"
+          },
+          {
+            "word": "carpet",
+            "pos": "n.",
+            "meaning": "地毯"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "一直"
+          },
+          {
+            "word": "ever",
+            "pos": "adv.",
+            "meaning": "曾经"
+          },
+          {
+            "word": "seen",
+            "pos": "v.",
+            "meaning": "见过"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -418,14 +909,44 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
           },
           {
-            "word": "It",
+            "word": "gazed",
+            "pos": "v.",
+            "meaning": "凝视"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "着"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "持续"
+          },
+          {
+            "word": "some time",
+            "pos": "adv.",
+            "meaning": "一段时间"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "added",
+            "pos": "v.",
+            "meaning": "补充说"
           }
         ]
       }
@@ -442,12 +963,27 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "don't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "bookcases",
+            "pos": "n.",
+            "meaning": "书柜"
+          },
+          {
+            "word": "at all",
+            "pos": "adv.",
+            "meaning": "根本"
           }
         ]
       }
@@ -464,17 +1000,57 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Here",
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "sit",
+            "pos": "v.",
+            "meaning": "坐"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
             "meaning": "这里"
           },
           {
-            "word": "Your",
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "your",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "你的"
+          },
+          {
+            "word": "spare time",
+            "pos": "n.",
+            "meaning": "闲暇时间"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并"
+          },
+          {
+            "word": "read",
+            "pos": "v.",
+            "meaning": "读"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "carpet",
+            "pos": "n.",
+            "meaning": "地毯"
           }
         ]
       }

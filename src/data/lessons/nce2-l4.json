@@ -34,7 +34,23 @@
       "startTime": 2.4724999999999997,
       "endTime": 4.93,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "An",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Exciting",
+            "pos": "adj.",
+            "meaning": "令人兴奋的"
+          },
+          {
+            "word": "Trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          }
+        ]
       }
     },
     {
@@ -99,14 +115,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "蒂姆（人名）"
+          },
+          {
+            "word": "finding",
+            "pos": "v.",
+            "meaning": "发现，觉得"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "exciting",
+            "pos": "adj.",
+            "meaning": "令人兴奋的"
           }
         ]
       }
@@ -121,9 +162,54 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "received",
+            "pos": "v.",
+            "meaning": "收到（receive的过去分词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一封"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "brother",
+            "pos": "n.",
+            "meaning": "兄弟"
+          },
+          {
+            "word": "Tim",
+            "pos": "n.",
+            "meaning": "蒂姆（人名）"
           }
         ]
       }
@@ -138,9 +224,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
           }
         ]
       }
@@ -224,9 +325,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作（work的现在分词）"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一家"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "firm",
+            "pos": "n.",
+            "meaning": "公司"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "visited",
+            "pos": "v.",
+            "meaning": "参观（visit的过去分词）"
           }
         ]
       }
@@ -241,9 +397,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "大量的"
+          },
+          {
+            "word": "number",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "数量"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "...的"
+          },
+          {
+            "word": "different",
+            "pos": "adj.",
+            "meaning": "不同的"
+          },
+          {
+            "word": "places",
+            "pos": "n.",
+            "meaning": "地方（复数）"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
           }
         ]
       }
@@ -258,9 +449,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "bought",
+            "pos": "v.",
+            "meaning": "买（buy的过去分词）"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一辆"
+          },
+          {
+            "word": "Australian",
+            "pos": "adj.",
+            "meaning": "澳大利亚的"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "gone",
+            "pos": "v.",
+            "meaning": "去（go的过去分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "Alice Springs",
+            "pos": "n.",
+            "meaning": "艾利斯斯普林斯（地名）"
           }
         ]
       }
@@ -414,6 +660,36 @@
             "word": "My",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "brother",
+            "pos": "n.",
+            "meaning": "兄弟"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "去过（be的过去分词）"
+          },
+          {
+            "word": "abroad",
+            "pos": "adv.",
+            "meaning": "国外"
+          },
+          {
+            "word": "before",
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }
@@ -428,19 +704,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "so",
+            "pos": "conj.",
+            "meaning": "因此"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "finding",
+            "pos": "v.",
+            "meaning": "发现，觉得"
           },
           {
-            "word": "Very",
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "exciting",
+            "pos": "adj.",
+            "meaning": "令人兴奋的"
           }
         ]
       }

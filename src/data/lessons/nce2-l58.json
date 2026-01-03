@@ -34,7 +34,28 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Blessing",
+            "pos": "n.",
+            "meaning": "Blessing（待补充）"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "Disguise",
+            "pos": "n.",
+            "meaning": "Disguise（待补充）"
+          }
+        ]
       }
     },
     {
@@ -156,9 +177,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "那个"
+          },
+          {
+            "word": "tiny",
+            "pos": "adj.",
+            "meaning": "极小的"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "Frinley",
+            "pos": "n.",
+            "meaning": "弗林利"
+          },
+          {
+            "word": "is said",
+            "pos": "phr.",
+            "meaning": "据说"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "possess",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "拥有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一棵"
+          },
+          {
+            "word": "cursed tree",
+            "pos": "n.",
+            "meaning": "被诅咒的树"
           }
         ]
       }
@@ -225,9 +291,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "number",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "数量"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "visitors",
+            "pos": "n.",
+            "meaning": "游客（复数）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "Frinley",
+            "pos": "n.",
+            "meaning": "弗林利"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "increased",
+            "pos": "v.",
+            "meaning": "增加"
           }
         ]
       }
@@ -242,19 +348,124 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这棵"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "planted",
+            "pos": "v.",
+            "meaning": "种植"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "church",
+            "pos": "n.",
+            "meaning": "教堂"
+          },
+          {
+            "word": "fifty",
+            "pos": "num.",
+            "meaning": "五十"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "recent",
+            "pos": "adj.",
+            "meaning": "最近"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（强调句引导词）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "它"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "gained",
+            "pos": "v.",
+            "meaning": "赢得/获得"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "evil",
+            "pos": "adj.",
+            "meaning": "邪恶的"
+          },
+          {
+            "word": "reputation",
+            "pos": "n.",
+            "meaning": "名声"
           }
         ]
       }
@@ -274,14 +485,104 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "is",
+            "pos": "aux.",
+            "meaning": "被"
           },
           {
-            "word": "That",
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "anyone",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "任何人"
+          },
+          {
+            "word": "touches",
+            "pos": "v.",
+            "meaning": "碰"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这棵"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "bad luck",
+            "pos": "n.",
+            "meaning": "厄运"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "picks",
+            "pos": "v.",
+            "meaning": "摘"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一片"
+          },
+          {
+            "word": "leaf",
+            "pos": "n.",
+            "meaning": "叶子"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "die",
+            "pos": "v.",
+            "meaning": "死"
           }
         ]
       }
@@ -296,14 +597,69 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Many",
+            "pos": "adj.",
+            "meaning": "许多"
           },
           {
-            "word": "Number",
+            "word": "villagers",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "村民（复数）"
+          },
+          {
+            "word": "believe",
+            "pos": "v.",
+            "meaning": "相信"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这棵"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "claimed",
+            "pos": "v.",
+            "meaning": "夺走（生命）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一些"
+          },
+          {
+            "word": "number",
+            "pos": "n.",
+            "meaning": "数量"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "victims",
+            "pos": "n.",
+            "meaning": "受害者（复数）"
           }
         ]
       }
@@ -405,14 +761,64 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
           },
           {
-            "word": "Is",
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "pointed out",
+            "pos": "v.",
+            "meaning": "指出"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这棵"
+          },
+          {
+            "word": "tree",
+            "pos": "n.",
+            "meaning": "树"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "useful",
+            "pos": "adj.",
+            "meaning": "有用的"
+          },
+          {
+            "word": "source",
+            "pos": "n.",
+            "meaning": "来源"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "income",
+            "pos": "n.",
+            "meaning": "收入"
           }
         ]
       }
@@ -427,7 +833,72 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "tourists",
+            "pos": "n.",
+            "meaning": "游客（复数）"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "一直在"
+          },
+          {
+            "word": "been",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "coming",
+            "pos": "v.",
+            "meaning": "来"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有"
+          },
+          {
+            "word": "parts",
+            "pos": "n.",
+            "meaning": "地区/部分"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -444,9 +915,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "In spite of",
+            "pos": "phr.",
+            "meaning": "尽管"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "has been",
+            "pos": "aux.",
+            "meaning": "已经被"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -538,9 +1029,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "So far",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "到目前为止"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "没有"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...之中"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "been",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "struck down",
+            "pos": "v.",
+            "meaning": "击倒/突然死去"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "由"
+          },
+          {
+            "word": "sudden",
+            "pos": "adj.",
+            "meaning": "突然的"
+          },
+          {
+            "word": "death",
+            "pos": "n.",
+            "meaning": "死亡"
           }
         ]
       }

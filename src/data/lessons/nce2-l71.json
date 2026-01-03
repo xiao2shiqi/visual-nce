@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Famous",
+            "pos": "n.",
+            "meaning": "Famous（待补充）"
+          },
+          {
+            "word": "Clock",
+            "pos": "n.",
+            "meaning": "Clock（待补充）"
+          }
+        ]
       }
     },
     {
@@ -141,14 +157,74 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
           },
           {
-            "word": "Is",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "visit",
+            "pos": "v.",
+            "meaning": "参观"
+          },
+          {
+            "word": "London",
+            "pos": "n.",
+            "meaning": "伦敦"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "其中之一"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "first",
+            "pos": "num.",
+            "meaning": "最初的"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "事"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看到"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "Big Ben",
+            "pos": "n.",
+            "meaning": "大本钟"
           }
         ]
       }
@@ -245,9 +321,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Houses of Parliament",
+            "pos": "n.",
+            "meaning": "国会大厦"
+          },
+          {
+            "word": "had not",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "been",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "burned down",
+            "pos": "v.",
+            "meaning": "烧毁"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...年"
+          },
+          {
+            "word": "1834",
+            "pos": "num.",
+            "meaning": "1834"
           }
         ]
       }
@@ -314,14 +425,94 @@
       "analysis": {
         "words": [
           {
-            "word": "Name",
+            "word": "Big Ben",
             "pos": "n.",
-            "meaning": "名字"
+            "meaning": "大本钟"
           },
           {
-            "word": "Sir",
+            "word": "takes its name from",
+            "pos": "v.",
+            "meaning": "得名于"
+          },
+          {
+            "word": "Sir Benjamin Hall",
             "pos": "n.",
-            "meaning": "先生"
+            "meaning": "本杰明·豪尔爵士"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "的"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "负责"
+          },
+          {
+            "word": "responsible for",
+            "pos": "adj.",
+            "meaning": "对...负责"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这钟的"
+          },
+          {
+            "word": "making",
+            "pos": "n.",
+            "meaning": "建造"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这钟"
+          },
+          {
+            "word": "clock",
+            "pos": "n.",
+            "meaning": "大钟"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "Houses of Parliament",
+            "pos": "n.",
+            "meaning": "议会大厦"
+          },
+          {
+            "word": "were",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "being",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "built",
+            "pos": "v.",
+            "meaning": "建造（build的过去分词）"
           }
         ]
       }
@@ -341,19 +532,54 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Not",
+            "word": "not only",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不仅"
           },
           {
-            "word": "Well",
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "有"
+          },
+          {
+            "word": "immense",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "巨大的"
+          },
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "尺寸"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "extremely",
+            "pos": "adv.",
+            "meaning": "极其"
+          },
+          {
+            "word": "accurate",
+            "pos": "adj.",
+            "meaning": "准确的"
+          },
+          {
+            "word": "as well",
+            "pos": "adv.",
+            "meaning": "也"
           }
         ]
       }
@@ -435,19 +661,104 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "On",
+            "pos": "prep.",
+            "meaning": "在..."
           },
           {
-            "word": "It",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "B.B.C.",
+            "pos": "n.",
+            "meaning": "英国广播公司"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "hear",
+            "pos": "v.",
+            "meaning": "听到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "clock",
+            "pos": "n.",
+            "meaning": "大钟"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "actually",
+            "pos": "adv.",
+            "meaning": "实际上"
+          },
+          {
+            "word": "striking",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "敲响"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "microphones",
+            "pos": "n.",
+            "meaning": "麦克风"
+          },
+          {
+            "word": "are",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "connected",
+            "pos": "v.",
+            "meaning": "连接"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "clock tower",
+            "pos": "n.",
+            "meaning": "钟楼"
           }
         ]
       }
@@ -504,9 +815,44 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "Once",
+            "pos": "adv.",
+            "meaning": "曾经/一次"
+          },
+          {
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "failed to",
+            "pos": "v.",
+            "meaning": "未能"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "报"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "correct",
+            "pos": "adj.",
+            "meaning": "正确的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
           }
         ]
       }
@@ -521,9 +867,114 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "painter",
+            "pos": "n.",
+            "meaning": "油漆匠"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "的"
+          },
+          {
+            "word": "had been",
+            "pos": "aux.",
+            "meaning": "一直在"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tower",
+            "pos": "n.",
+            "meaning": "塔"
+          },
+          {
+            "word": "hung",
+            "pos": "v.",
+            "meaning": "悬挂（hang的过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "pot",
+            "pos": "n.",
+            "meaning": "罐"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "paint",
+            "pos": "n.",
+            "meaning": "油漆"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "hands",
+            "pos": "n.",
+            "meaning": "指针（复数）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "slowed",
+            "pos": "v.",
+            "meaning": "使减速"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "down",
+            "pos": "adv.",
+            "meaning": "慢下来"
           }
         ]
       }

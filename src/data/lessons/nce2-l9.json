@@ -34,7 +34,23 @@
       "startTime": 2.3625,
       "endTime": 4.69,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Cold",
+            "pos": "adj.",
+            "meaning": "冷淡的"
+          },
+          {
+            "word": "Welcome",
+            "pos": "n.",
+            "meaning": "欢迎，招待"
+          }
+        ]
       }
     },
     {
@@ -104,9 +120,24 @@
             "meaning": "什么"
           },
           {
-            "word": "Cold",
-            "pos": "adj.",
-            "meaning": "冷的"
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "a cold welcome",
+            "pos": "phr.",
+            "meaning": "冷诞"
+          },
+          {
+            "word": "refer",
+            "pos": "v.",
+            "meaning": "指的是"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
           }
         ]
       }
@@ -176,6 +207,41 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（be的过去式）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "最后的"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "...的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -265,6 +331,41 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "strike",
+            "pos": "v.",
+            "meaning": "敲响"
+          },
+          {
+            "word": "twelve",
+            "pos": "num.",
+            "meaning": "十二"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "twenty",
+            "pos": "num.",
+            "meaning": "二十"
+          },
+          {
+            "word": "minutes'",
+            "pos": "n.",
+            "meaning": "分钟的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
           }
         ]
       }
@@ -316,14 +417,39 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
           },
           {
-            "word": "Five",
+            "word": "five",
             "pos": "num.",
             "meaning": "五"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "差"
+          },
+          {
+            "word": "twelve",
+            "pos": "num.",
+            "meaning": "十二"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "clock",
+            "pos": "n.",
+            "meaning": "时钟"
+          },
+          {
+            "word": "stopped",
+            "pos": "v.",
+            "meaning": "停止（stop的过去式）"
           }
         ]
       }
@@ -338,9 +464,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "minute",
+            "pos": "n.",
+            "meaning": "分钟"
+          },
+          {
+            "word": "hand",
+            "pos": "n.",
+            "meaning": "指针"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "move",
+            "pos": "v.",
+            "meaning": "移动"
           }
         ]
       }
@@ -545,6 +701,16 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是（be的过去式）"
+          },
+          {
+            "word": "true",
+            "pos": "adj.",
+            "meaning": "真的"
           }
         ]
       }
@@ -613,12 +779,47 @@
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
           },
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "that",
+            "pos": "det.",
             "meaning": "那个"
+          },
+          {
+            "word": "moment",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "everybody",
+            "pos": "pron.",
+            "meaning": "每个人"
+          },
+          {
+            "word": "began",
+            "pos": "v.",
+            "meaning": "开始（begin的过去式）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "laugh",
+            "pos": "v.",
+            "meaning": "笑"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "sing",
+            "pos": "v.",
+            "meaning": "唱歌"
           }
         ]
       }

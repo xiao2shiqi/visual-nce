@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Reward",
+            "pos": "n.",
+            "meaning": "Reward（待补充）"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "Virtue",
+            "pos": "n.",
+            "meaning": "Virtue（待补充）"
+          }
+        ]
       }
     },
     {
@@ -99,9 +115,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "Why",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "为什么"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Hugh's",
+            "pos": "n.",
+            "meaning": "休的"
+          },
+          {
+            "word": "diet",
+            "pos": "n.",
+            "meaning": "节食"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "没有"
+          },
+          {
+            "word": "work",
+            "pos": "v.",
+            "meaning": "起作用"
           }
         ]
       }
@@ -121,7 +162,32 @@
             "meaning": "我的"
           },
           {
-            "word": "Fat",
+            "word": "friend",
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
+            "word": "Hugh",
+            "pos": "n.",
+            "meaning": "休"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "一直"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "been",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "fat",
             "pos": "adj.",
             "meaning": "胖的"
           }
@@ -138,9 +204,44 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "事情"
+          },
+          {
+            "word": "got so bad",
+            "pos": "phr.",
+            "meaning": "变得糟透了"
+          },
+          {
+            "word": "recently",
+            "pos": "adv.",
+            "meaning": "最近"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "he",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "decided to",
+            "pos": "v.",
+            "meaning": "决定"
+          },
+          {
+            "word": "go on a diet",
+            "pos": "phr.",
+            "meaning": "节食"
           }
         ]
       }
@@ -440,19 +541,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "That",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
           },
           {
-            "word": "Fat",
+            "word": "rang the bell",
+            "pos": "v.",
+            "meaning": "按门铃"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "surprised to",
+            "pos": "v.",
+            "meaning": "吃惊地"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看到"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "Hugh",
+            "pos": "n.",
+            "meaning": "休"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "as fat as",
             "pos": "adj.",
-            "meaning": "胖的"
+            "meaning": "一样胖"
+          },
+          {
+            "word": "ever",
+            "pos": "adv.",
+            "meaning": "以往"
           }
         ]
       }
@@ -467,9 +618,74 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "他"
+          },
+          {
+            "word": "led",
+            "pos": "v.",
+            "meaning": "带路（lead的过去式）"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "hurriedly",
+            "pos": "adv.",
+            "meaning": "匆忙地"
+          },
+          {
+            "word": "hid",
+            "pos": "v.",
+            "meaning": "藏起（hide的过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "parcel",
+            "pos": "n.",
+            "meaning": "包裹"
+          },
+          {
+            "word": "under",
+            "pos": "prep.",
+            "meaning": "在...下面"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "desk",
+            "pos": "n.",
+            "meaning": "桌子"
           }
         ]
       }
@@ -489,14 +705,39 @@
             "meaning": "它"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
           },
           {
-            "word": "Very",
+            "word": "obvious",
+            "pos": "adj.",
+            "meaning": "显而易见的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "embarrassed",
+            "pos": "adj.",
+            "meaning": "尴尬的"
           }
         ]
       }
@@ -511,9 +752,44 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "问"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -595,9 +871,74 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "explained",
+            "pos": "v.",
+            "meaning": "解释"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "diet",
+            "pos": "n.",
+            "meaning": "节食"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此"
+          },
+          {
+            "word": "strict",
+            "pos": "adj.",
+            "meaning": "严格的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "had to",
+            "pos": "v.",
+            "meaning": "不得不"
+          },
+          {
+            "word": "reward",
+            "pos": "v.",
+            "meaning": "奖励"
+          },
+          {
+            "word": "himself",
+            "pos": "pron.",
+            "meaning": "他自己"
+          },
+          {
+            "word": "occasionally",
+            "pos": "adv.",
+            "meaning": "偶尔"
           }
         ]
       }
@@ -612,9 +953,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "he",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "他"
+          },
+          {
+            "word": "showed",
+            "pos": "v.",
+            "meaning": "给...看"
+          },
+          {
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "contents",
+            "pos": "n.",
+            "meaning": "内容"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "parcel",
+            "pos": "n.",
+            "meaning": "包裹"
           }
         ]
       }
@@ -634,9 +1015,59 @@
             "meaning": "它"
           },
           {
-            "word": "Five",
+            "word": "contained",
+            "pos": "v.",
+            "meaning": "装有"
+          },
+          {
+            "word": "five",
             "pos": "num.",
-            "meaning": "五"
+            "meaning": "五个"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "bars",
+            "pos": "n.",
+            "meaning": "块"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "chocolate",
+            "pos": "n.",
+            "meaning": "巧克力"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三个"
+          },
+          {
+            "word": "bags",
+            "pos": "n.",
+            "meaning": "袋子"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "sweets",
+            "pos": "n.",
+            "meaning": "糖果"
           }
         ]
       }

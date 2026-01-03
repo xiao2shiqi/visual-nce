@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Polite",
+            "pos": "n.",
+            "meaning": "Polite（待补充）"
+          },
+          {
+            "word": "Request",
+            "pos": "n.",
+            "meaning": "Request（待补充）"
+          }
+        ]
       }
     },
     {
@@ -102,6 +118,26 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "polite",
+            "pos": "adj.",
+            "meaning": "有礼貌的"
+          },
+          {
+            "word": "request",
+            "pos": "n.",
+            "meaning": "要求"
           }
         ]
       }
@@ -116,19 +152,49 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "Your",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "你"
           },
           {
-            "word": "Car",
+            "word": "park",
+            "pos": "v.",
+            "meaning": "停车"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "车"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "wrong",
+            "pos": "adj.",
+            "meaning": "错误的"
+          },
+          {
+            "word": "place",
+            "pos": "n.",
+            "meaning": "地方"
           }
         ]
       }
@@ -143,12 +209,37 @@
       "analysis": {
         "words": [
           {
-            "word": "Policeman",
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "traffic",
+            "pos": "n.",
+            "meaning": "交通"
+          },
+          {
+            "word": "policeman",
             "pos": "n.",
             "meaning": "警察"
           },
           {
-            "word": "It",
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -167,17 +258,67 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Very",
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将要"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
           },
           {
-            "word": "Ticket",
+            "word": "lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "lets",
+            "pos": "v.",
+            "meaning": "让"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "go",
+            "pos": "v.",
+            "meaning": "走"
+          },
+          {
+            "word": "without",
+            "pos": "prep.",
+            "meaning": "没有"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "ticket",
             "pos": "n.",
-            "meaning": "票"
+            "meaning": "罚单"
           }
         ]
       }
@@ -192,14 +333,34 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "However",
+            "pos": "adv.",
+            "meaning": "然而"
           },
           {
-            "word": "Not",
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "does",
+            "pos": "aux.",
+            "meaning": "做"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "happen",
+            "pos": "v.",
+            "meaning": "发生"
           }
         ]
       }
@@ -214,9 +375,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "Traffic",
+            "pos": "n.",
+            "meaning": "交通"
+          },
+          {
+            "word": "police",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sometimes",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "有时"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "polite",
+            "pos": "adj.",
+            "meaning": "有礼貌的"
           }
         ]
       }
@@ -268,19 +454,39 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "I",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "我"
           },
           {
-            "word": "My",
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "note",
+            "pos": "n.",
+            "meaning": "便条"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
           },
           {
-            "word": "Car",
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "车"
           }
         ]
       }
@@ -295,24 +501,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Sir",
+            "word": "sir",
             "pos": "n.",
             "meaning": "先生"
           },
           {
-            "word": "You",
+            "word": "we",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "我们"
+          },
+          {
+            "word": "welcome",
+            "pos": "v.",
+            "meaning": "欢迎"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "city",
+            "pos": "n.",
+            "meaning": "城市"
           },
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "No",
+            "pos": "adj.",
+            "meaning": "不"
+          },
+          {
+            "word": "Parking",
+            "pos": "n.",
+            "meaning": "停车"
+          },
+          {
+            "word": "area",
+            "pos": "n.",
+            "meaning": "区域"
           }
         ]
       }
@@ -329,27 +580,102 @@
           {
             "word": "You",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
           },
           {
-            "word": "Your",
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "enjoy",
+            "pos": "v.",
+            "meaning": "享受"
+          },
+          {
+            "word": "your",
             "pos": "pron.",
-            "meaning": "你的，你们的"
+            "meaning": "你的"
           },
           {
-            "word": "Here",
+            "word": "stay",
+            "pos": "n.",
+            "meaning": "停留"
+          },
+          {
+            "word": "here",
             "pos": "adv.",
             "meaning": "这里"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "Is",
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "pay",
+            "pos": "v.",
+            "meaning": "付"
+          },
+          {
+            "word": "attention",
+            "pos": "n.",
+            "meaning": "注意"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "our",
+            "pos": "pron.",
+            "meaning": "我们的"
+          },
+          {
+            "word": "street",
+            "pos": "n.",
+            "meaning": "街道"
+          },
+          {
+            "word": "signs",
+            "pos": "n.",
+            "meaning": "标志（复数）"
+          },
+          {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "note",
+            "pos": "n.",
+            "meaning": "便条"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "reminder",
+            "pos": "n.",
+            "meaning": "提醒"
           }
         ]
       }
@@ -364,17 +690,67 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "This",
+            "word": "you",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "你"
           },
           {
-            "word": "It",
+            "word": "receive",
+            "pos": "v.",
+            "meaning": "收到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "request",
+            "pos": "n.",
+            "meaning": "要求"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这个"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "cannot",
+            "pos": "aux.",
+            "meaning": "不能"
+          },
+          {
+            "word": "fail",
+            "pos": "v.",
+            "meaning": "失败"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "obey",
+            "pos": "v.",
+            "meaning": "服从"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }

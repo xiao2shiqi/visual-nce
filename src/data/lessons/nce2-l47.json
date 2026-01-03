@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Thirsty",
+            "pos": "n.",
+            "meaning": "Thirsty（待补充）"
+          },
+          {
+            "word": "Ghost",
+            "pos": "n.",
+            "meaning": "Ghost（待补充）"
+          }
+        ]
       }
     },
     {
@@ -104,9 +120,34 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "evidence",
+            "pos": "n.",
+            "meaning": "证据"
+          },
+          {
+            "word": "is",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "有"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "ghost",
+            "pos": "n.",
+            "meaning": "鬼魂"
           }
         ]
       }
@@ -121,14 +162,54 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一家"
           },
           {
-            "word": "Is",
+            "word": "public house",
+            "pos": "n.",
+            "meaning": "酒店/酒馆"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "recently",
+            "pos": "adv.",
+            "meaning": "最近"
+          },
+          {
+            "word": "bought",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "被"
+          },
+          {
+            "word": "Mr. Ian Thompson",
+            "pos": "n.",
+            "meaning": "伊恩·汤普森先生"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "up for sale",
+            "pos": "phr.",
+            "meaning": "待售"
           }
         ]
       }
@@ -143,14 +224,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Mr. Thompson",
+            "pos": "n.",
+            "meaning": "汤普森先生"
+          },
+          {
+            "word": "is",
+            "pos": "aux.",
+            "meaning": "正在/准备"
+          },
+          {
+            "word": "going to",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "sell",
+            "pos": "v.",
+            "meaning": "卖"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "haunted",
+            "pos": "adj.",
+            "meaning": "闹鬼的"
           }
         ]
       }
@@ -165,19 +281,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "他"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉"
           },
           {
-            "word": "Not",
+            "word": "me",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "go to sleep",
+            "pos": "v.",
+            "meaning": "入睡"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "晚上"
           }
         ]
       }
@@ -281,9 +432,74 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "he",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "doors",
+            "pos": "n.",
+            "meaning": "门（复数）"
+          },
+          {
+            "word": "had been",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "blocked",
+            "pos": "v.",
+            "meaning": "堵住"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "用/被"
+          },
+          {
+            "word": "chairs",
+            "pos": "n.",
+            "meaning": "椅子（复数）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "furniture",
+            "pos": "n.",
+            "meaning": "家具"
+          },
+          {
+            "word": "had been",
+            "pos": "aux.",
+            "meaning": "已经被"
+          },
+          {
+            "word": "moved",
+            "pos": "v.",
+            "meaning": "搬动"
           }
         ]
       }
@@ -417,14 +633,59 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "He",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
           },
           {
-            "word": "Five",
+            "word": "also",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "five",
             "pos": "num.",
-            "meaning": "五"
+            "meaning": "五个"
+          },
+          {
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
+          },
+          {
+            "word": "whisky",
+            "pos": "n.",
+            "meaning": "威士忌"
+          },
+          {
+            "word": "bottles",
+            "pos": "n.",
+            "meaning": "瓶子（复数）"
           }
         ]
       }
@@ -496,9 +757,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "I",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "我"
+          },
+          {
+            "word": "suggested",
+            "pos": "v.",
+            "meaning": "建议/暗示"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "villagers",
+            "pos": "n.",
+            "meaning": "村民"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "来过"
           }
         ]
       }
@@ -575,9 +876,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "villagers",
+            "pos": "n.",
+            "meaning": "村民（复数）"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "him",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
           }
         ]
       }
@@ -592,14 +918,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
           },
           {
-            "word": "It",
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "accept",
+            "pos": "v.",
+            "meaning": "接受"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "pub",
+            "pos": "n.",
+            "meaning": "酒店"
+          },
+          {
+            "word": "even if",
+            "pos": "conj.",
+            "meaning": "即使"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "gives",
+            "pos": "v.",
+            "meaning": "给"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "away",
+            "pos": "adv.",
+            "meaning": "掉/分发"
           }
         ]
       }

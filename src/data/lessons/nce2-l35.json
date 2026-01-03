@@ -34,7 +34,18 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Stop",
+            "pos": "n.",
+            "meaning": "Stop（待补充）"
+          },
+          {
+            "word": "Thief",
+            "pos": "n.",
+            "meaning": "Thief（待补充）"
+          }
+        ]
       }
     },
     {
@@ -101,7 +112,32 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Roy",
+            "pos": "n.",
+            "meaning": "罗伊"
+          },
+          {
+            "word": "stop",
+            "pos": "v.",
+            "meaning": "阻止"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "thieves",
+            "pos": "n.",
+            "meaning": "小偷（复数）"
           }
         ]
       }
@@ -116,7 +152,27 @@
       "analysis": {
         "words": [
           {
-            "word": "Taxi",
+            "word": "Roy Trenton",
+            "pos": "n.",
+            "meaning": "罗伊·特伦顿"
+          },
+          {
+            "word": "used to",
+            "pos": "v.",
+            "meaning": "过去常常"
+          },
+          {
+            "word": "drive",
+            "pos": "v.",
+            "meaning": "驾驶"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一辆"
+          },
+          {
+            "word": "taxi",
             "pos": "n.",
             "meaning": "出租车"
           }
@@ -133,9 +189,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Short",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一段"
+          },
+          {
+            "word": "short",
             "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "短的"
+          },
+          {
+            "word": "while",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而"
           }
         ]
       }
@@ -150,9 +226,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Driver",
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "became",
+            "pos": "v.",
+            "meaning": "成为"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "bus",
             "pos": "n.",
-            "meaning": "驾驶员"
+            "meaning": "公共汽车"
+          },
+          {
+            "word": "driver",
+            "pos": "n.",
+            "meaning": "司机"
           }
         ]
       }
@@ -167,12 +263,32 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
           },
           {
-            "word": "It",
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "并没有"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "没"
+          },
+          {
+            "word": "regretted",
+            "pos": "v.",
+            "meaning": "后悔"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -189,9 +305,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "finding",
+            "pos": "v.",
+            "meaning": "觉得/发现"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "far",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "exciting",
+            "pos": "adj.",
+            "meaning": "刺激的"
           }
         ]
       }
@@ -327,9 +483,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "run",
+            "pos": "v.",
+            "meaning": "跑"
+          },
+          {
+            "word": "towards",
+            "pos": "prep.",
+            "meaning": "向着"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一辆"
+          },
+          {
+            "word": "waiting",
+            "pos": "v.",
+            "meaning": "等候着的"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "汽车"
           }
         ]
       }
@@ -453,9 +634,24 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "straight",
+            "pos": "adv.",
+            "meaning": "径直地"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "冲着"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "thieves",
+            "pos": "n.",
+            "meaning": "小偷（复数）"
           }
         ]
       }
@@ -527,9 +723,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "he",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "dropped",
+            "pos": "v.",
+            "meaning": "扔掉/掉下"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这个"
+          },
+          {
+            "word": "bag",
+            "pos": "n.",
+            "meaning": "包"
           }
         ]
       }
@@ -544,9 +760,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "As",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "thieves",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "小偷（复数）"
+          },
+          {
+            "word": "were",
+            "pos": "aux.",
+            "meaning": "正在/试图"
+          },
+          {
+            "word": "trying to",
+            "pos": "v.",
+            "meaning": "努力"
+          },
+          {
+            "word": "get away",
+            "pos": "v.",
+            "meaning": "逃跑/离开"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "their",
+            "pos": "pron.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "car",
+            "pos": "n.",
+            "meaning": "汽车"
           }
         ]
       }
@@ -561,9 +817,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "Roy",
+            "pos": "n.",
+            "meaning": "罗伊"
+          },
+          {
+            "word": "drove",
+            "pos": "v.",
+            "meaning": "驾驶（drive的过去式）"
+          },
+          {
+            "word": "his",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "他的"
+          },
+          {
+            "word": "bus",
+            "pos": "n.",
+            "meaning": "公车"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "撞进"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "back",
+            "pos": "n.",
+            "meaning": "后部"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它（指小车）"
           }
         ]
       }
@@ -578,9 +874,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "While",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这辆"
+          },
+          {
+            "word": "battered",
+            "pos": "adj.",
+            "meaning": "撞坏的/破旧的"
+          },
+          {
+            "word": "car",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "车"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "moving away",
+            "pos": "v.",
+            "meaning": "开走"
           }
         ]
       }
@@ -647,9 +968,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "thieves'",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "贼的"
+          },
+          {
+            "word": "car",
+            "pos": "n.",
+            "meaning": "车"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "badly",
+            "pos": "adv.",
+            "meaning": "严重地"
+          },
+          {
+            "word": "damaged",
+            "pos": "v.",
+            "meaning": "损坏了"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "easy",
+            "pos": "adj.",
+            "meaning": "容易的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "recognize",
+            "pos": "v.",
+            "meaning": "辨认"
           }
         ]
       }
@@ -686,9 +1052,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "police",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "警察"
+          },
+          {
+            "word": "stopped",
+            "pos": "v.",
+            "meaning": "拦截"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "car",
+            "pos": "n.",
+            "meaning": "车"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "both",
+            "pos": "det.",
+            "meaning": "两个"
+          },
+          {
+            "word": "men",
+            "pos": "n.",
+            "meaning": "男人（复数）"
+          },
+          {
+            "word": "were",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "arrested",
+            "pos": "v.",
+            "meaning": "逮捕"
           }
         ]
       }

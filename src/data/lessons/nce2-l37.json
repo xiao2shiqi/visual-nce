@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "Olympic",
+            "pos": "n.",
+            "meaning": "Olympic（待补充）"
+          },
+          {
+            "word": "Games",
+            "pos": "n.",
+            "meaning": "Games（待补充）"
+          }
+        ]
       }
     },
     {
@@ -99,9 +115,39 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上次"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
           }
         ]
       }
@@ -672,9 +718,34 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "在...之前"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "end",
+            "pos": "n.",
+            "meaning": "结束/末尾"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
           }
         ]
       }
@@ -941,9 +1012,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "We",
+            "pos": "pron.",
+            "meaning": "我们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "all",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "都"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "excited",
+            "pos": "adj.",
+            "meaning": "兴奋的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "正在"
+          },
+          {
+            "word": "looking forward to",
+            "pos": "v.",
+            "meaning": "期待"
           }
         ]
       }
@@ -990,9 +1096,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "they",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "它们"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
+            "word": "been",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "held",
+            "pos": "v.",
+            "meaning": "举办（hold的过去分词）"
+          },
+          {
+            "word": "before",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
           }
         ]
       }

@@ -34,7 +34,33 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          },
+          {
+            "word": "Send",
+            "pos": "v.",
+            "meaning": "寄，发送"
+          },
+          {
+            "word": "Me",
+            "pos": "pron.",
+            "meaning": "我（宾格）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "Card",
+            "pos": "n.",
+            "meaning": "卡片，明信片"
+          }
+        ]
       }
     },
     {
@@ -102,6 +128,36 @@
             "word": "How",
             "pos": "adv.",
             "meaning": "怎样，如何"
+          },
+          {
+            "word": "many",
+            "pos": "det.",
+            "meaning": "多少"
+          },
+          {
+            "word": "cards",
+            "pos": "n.",
+            "meaning": "卡片，明信片（复数）"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "做（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作者"
+          },
+          {
+            "word": "send",
+            "pos": "v.",
+            "meaning": "寄，发送"
           }
         ]
       }
@@ -116,9 +172,29 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "Postcards",
+            "pos": "n.",
+            "meaning": "明信片（复数）"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "spoil",
+            "pos": "v.",
+            "meaning": "搞糟，破坏"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "holidays",
+            "pos": "n.",
+            "meaning": "假期（复数）"
           }
         ]
       }
@@ -623,9 +699,44 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "spent",
+            "pos": "v.",
+            "meaning": "花费（spend的过去式）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "whole",
+            "pos": "adj.",
+            "meaning": "整个的"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "天"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "room",
+            "pos": "n.",
+            "meaning": "房间"
           }
         ]
       }
@@ -640,9 +751,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "做（助动词）"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
             "meaning": "不，不是"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "写"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "single",
+            "pos": "adj.",
+            "meaning": "单一的，一个"
+          },
+          {
+            "word": "card",
+            "pos": "n.",
+            "meaning": "卡片，明信片"
           }
         ]
       }

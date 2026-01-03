@@ -34,7 +34,28 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Not",
+            "pos": "n.",
+            "meaning": "Not（待补充）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Gold",
+            "pos": "n.",
+            "meaning": "Gold（待补充）"
+          },
+          {
+            "word": "Mine",
+            "pos": "n.",
+            "meaning": "矿井"
+          }
+        ]
       }
     },
     {
@@ -102,6 +123,26 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "team",
+            "pos": "n.",
+            "meaning": "队/组"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到"
           }
         ]
       }
@@ -230,9 +271,64 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "has been",
+            "pos": "aux.",
+            "meaning": "一直被"
+          },
+          {
+            "word": "used to",
+            "pos": "v.",
+            "meaning": "用来"
+          },
+          {
+            "word": "detect",
+            "pos": "v.",
+            "meaning": "探测"
+          },
+          {
+            "word": "gold",
+            "pos": "n.",
+            "meaning": "金子"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "has been",
+            "pos": "aux.",
+            "meaning": "已经被"
+          },
+          {
+            "word": "buried",
+            "pos": "v.",
+            "meaning": "埋"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地里"
           }
         ]
       }
@@ -247,9 +343,84 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这台"
+          },
+          {
+            "word": "machine",
+            "pos": "n.",
+            "meaning": "机器"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "used",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "使用"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "cave",
+            "pos": "n.",
+            "meaning": "山洞"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "seashore",
+            "pos": "n.",
+            "meaning": "海边"
+          },
+          {
+            "word": "where",
+            "pos": "adv.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "it is said",
+            "pos": "phr.",
+            "meaning": "据说"
+          },
+          {
+            "word": "pirates",
+            "pos": "n.",
+            "meaning": "海盗"
+          },
+          {
+            "word": "used to",
+            "pos": "v.",
+            "meaning": "过去常常"
+          },
+          {
+            "word": "hide",
+            "pos": "v.",
+            "meaning": "藏"
+          },
+          {
+            "word": "gold",
+            "pos": "n.",
+            "meaning": "金子"
           }
         ]
       }
@@ -264,7 +435,72 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "pirates",
+            "pos": "n.",
+            "meaning": "海盗"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "常会"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "bury",
+            "pos": "v.",
+            "meaning": "埋藏"
+          },
+          {
+            "word": "gold",
+            "pos": "n.",
+            "meaning": "金子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cave",
+            "pos": "n.",
+            "meaning": "山洞"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "fail to",
+            "pos": "v.",
+            "meaning": "未能"
+          },
+          {
+            "word": "collect",
+            "pos": "v.",
+            "meaning": "收回/取走"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -378,9 +614,134 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "leader",
+            "pos": "n.",
+            "meaning": "领导者/队长"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "party",
+            "pos": "n.",
+            "meaning": "小组/一行人"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "examining",
+            "pos": "v.",
+            "meaning": "检查/观察"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "soil",
+            "pos": "n.",
+            "meaning": "土壤"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在...附近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "entrance",
+            "pos": "n.",
+            "meaning": "入口"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "cave",
+            "pos": "n.",
+            "meaning": "洞"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这台"
+          },
+          {
+            "word": "machine",
+            "pos": "n.",
+            "meaning": "机器"
+          },
+          {
+            "word": "showed",
+            "pos": "v.",
+            "meaning": "显示"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "gold",
+            "pos": "n.",
+            "meaning": "金子"
+          },
+          {
+            "word": "under",
+            "pos": "prep.",
+            "meaning": "在...下面"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地上"
           }
         ]
       }
@@ -397,7 +758,52 @@
           {
             "word": "Very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "excited",
+            "pos": "adj.",
+            "meaning": "兴奋地"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "party",
+            "pos": "n.",
+            "meaning": "小组"
+          },
+          {
+            "word": "dug",
+            "pos": "v.",
+            "meaning": "挖（dig的过去式）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "hole",
+            "pos": "n.",
+            "meaning": "洞"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两"
+          },
+          {
+            "word": "feet",
+            "pos": "n.",
+            "meaning": "英尺"
+          },
+          {
+            "word": "deep",
+            "pos": "adj.",
+            "meaning": "深的"
           }
         ]
       }
@@ -479,9 +885,94 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "party",
+            "pos": "n.",
+            "meaning": "小组"
+          },
+          {
+            "word": "then",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "然后"
+          },
+          {
+            "word": "searched",
+            "pos": "v.",
+            "meaning": "搜寻"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这整个"
+          },
+          {
+            "word": "whole",
+            "pos": "adj.",
+            "meaning": "整个的"
+          },
+          {
+            "word": "cave",
+            "pos": "n.",
+            "meaning": "山洞"
+          },
+          {
+            "word": "thoroughly",
+            "pos": "adv.",
+            "meaning": "彻底地"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "anything",
+            "pos": "pron.",
+            "meaning": "任何东西"
+          },
+          {
+            "word": "except",
+            "pos": "prep.",
+            "meaning": "除了"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
+          },
+          {
+            "word": "tin",
+            "pos": "n.",
+            "meaning": "铁皮的"
+          },
+          {
+            "word": "trunk",
+            "pos": "n.",
+            "meaning": "箱子"
           }
         ]
       }
@@ -496,14 +987,79 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "In spite of",
+            "pos": "phr.",
+            "meaning": "尽管"
           },
           {
-            "word": "That",
+            "word": "this",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "这"
+          },
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "confident",
+            "pos": "adj.",
+            "meaning": "有信心的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "The Revealer",
+            "pos": "n.",
+            "meaning": "探测器（名称）"
+          },
+          {
+            "word": "may",
+            "pos": "aux.",
+            "meaning": "也许"
+          },
+          {
+            "word": "reveal",
+            "pos": "v.",
+            "meaning": "揭示"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某物"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "有..."
+          },
+          {
+            "word": "value",
+            "pos": "n.",
+            "meaning": "价值"
+          },
+          {
+            "word": "fairly",
+            "pos": "adv.",
+            "meaning": "相当"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "快"
           }
         ]
       }

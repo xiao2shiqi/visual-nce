@@ -34,7 +34,23 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Clear",
+            "pos": "n.",
+            "meaning": "Clear（待补充）"
+          },
+          {
+            "word": "Conscience",
+            "pos": "n.",
+            "meaning": "Conscience（待补充）"
+          }
+        ]
       }
     },
     {
@@ -101,7 +117,37 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
+          },
+          {
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "拿回"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "回来"
           }
         ]
       }
@@ -116,9 +162,69 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这整个"
+          },
+          {
+            "word": "whole",
+            "pos": "adj.",
+            "meaning": "整个的"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          },
+          {
+            "word": "learnt",
+            "pos": "v.",
+            "meaning": "得知"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一笔"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "sum",
+            "pos": "n.",
+            "meaning": "金额"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "had been",
+            "pos": "aux.",
+            "meaning": "已经被"
+          },
+          {
+            "word": "lost",
+            "pos": "v.",
+            "meaning": "丢失"
           }
         ]
       }
@@ -242,9 +348,74 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Sam",
+            "pos": "n.",
+            "meaning": "萨姆"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "sure",
+            "pos": "adj.",
+            "meaning": "确信的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "wallet",
+            "pos": "n.",
+            "meaning": "钱包"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "一定"
+          },
+          {
+            "word": "have been",
+            "pos": "aux.",
+            "meaning": "已经（表示过去完成）"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "被找到"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "被"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "villagers",
+            "pos": "n.",
+            "meaning": "村民（复数）"
           }
         ]
       }
@@ -259,14 +430,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Not",
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "没有被"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "returned",
+            "pos": "v.",
+            "meaning": "归还"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他（宾格）"
           }
         ]
       }
@@ -371,6 +567,71 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "had been",
+            "pos": "aux.",
+            "meaning": "已经被"
+          },
+          {
+            "word": "wrapped up",
+            "pos": "v.",
+            "meaning": "包裹"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "newspaper",
+            "pos": "n.",
+            "meaning": "报纸"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "contained",
+            "pos": "v.",
+            "meaning": "包含"
+          },
+          {
+            "word": "half",
+            "pos": "num.",
+            "meaning": "一半"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "lost",
+            "pos": "v.",
+            "meaning": "丢失"
           }
         ]
       }
@@ -427,9 +688,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Yes",
-            "pos": "adv.",
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "thief",
+            "pos": "n.",
+            "meaning": "小偷"
+          },
+          {
+            "word": "yes",
+            "pos": "int.",
             "meaning": "是的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只有"
+          },
+          {
+            "word": "50",
+            "pos": "num.",
+            "meaning": "百分之五十"
+          },
+          {
+            "word": "per cent",
+            "pos": "n.",
+            "meaning": "百分之"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "thief",
+            "pos": "n.",
+            "meaning": "小偷"
           }
         ]
       }
@@ -580,9 +881,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "In time",
+            "pos": "adv.",
+            "meaning": "及时/随着时间推移"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "全部"
+          },
+          {
+            "word": "Sam's",
+            "pos": "n.",
+            "meaning": "萨姆的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "paid back",
+            "pos": "v.",
+            "meaning": "还回"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "以"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "方式"
           }
         ]
       }

@@ -34,7 +34,18 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Percy",
+            "pos": "n.",
+            "meaning": "珀西（人名）"
+          },
+          {
+            "word": "Buttons",
+            "pos": "n.",
+            "meaning": "巴顿斯（姓氏）"
+          }
+        ]
       }
     },
     {
@@ -99,9 +110,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "Percy",
+            "pos": "n.",
+            "meaning": "珀西（人名）"
+          },
+          {
+            "word": "Buttons",
+            "pos": "n.",
+            "meaning": "巴顿斯（姓氏）"
           }
         ]
       }
@@ -116,9 +142,49 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "有（助动词）"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "moved",
+            "pos": "v.",
+            "meaning": "搬家（move的过去分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一所"
+          },
+          {
+            "word": "house",
             "pos": "n.",
             "meaning": "房子"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "Bridge Street",
+            "pos": "n.",
+            "meaning": "大桥街（地名）"
           }
         ]
       }
@@ -133,14 +199,39 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Yesterday",
+            "pos": "adv.",
+            "meaning": "昨天"
           },
           {
-            "word": "My",
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "beggar",
+            "pos": "n.",
+            "meaning": "乞丐"
+          },
+          {
+            "word": "knocked",
+            "pos": "v.",
+            "meaning": "敲（knock的过去式）"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
           }
         ]
       }
@@ -155,9 +246,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Me",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "要求（ask的过去式）"
+          },
+          {
+            "word": "me",
             "pos": "pron.",
             "meaning": "我（宾格）"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "要"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一顿"
+          },
+          {
+            "word": "meal",
+            "pos": "n.",
+            "meaning": "饭"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一杯"
+          },
+          {
+            "word": "glass",
+            "pos": "n.",
+            "meaning": "杯"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "...的"
+          },
+          {
+            "word": "beer",
+            "pos": "n.",
+            "meaning": "啤酒"
           }
         ]
       }
@@ -172,9 +313,14 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "In return for",
+            "pos": "phr.",
+            "meaning": "作为...的回报"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这个"
           }
         ]
       }

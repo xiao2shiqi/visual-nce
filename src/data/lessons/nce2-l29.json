@@ -34,7 +34,13 @@
       "startTime": 2.3299999999999996,
       "endTime": 4.61,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Taxi",
+            "pos": "n.",
+            "meaning": "出租车"
+          }
+        ]
       }
     },
     {
@@ -99,14 +105,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Does",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "Captain",
+            "pos": "n.",
+            "meaning": "机长"
+          },
+          {
+            "word": "Fawcett",
+            "pos": "n.",
+            "meaning": "福赛特"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "飞行/旅行"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Too",
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "太"
+          },
+          {
+            "word": "dangerous",
+            "pos": "adj.",
+            "meaning": "危险的"
           }
         ]
       }
@@ -121,9 +162,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Taxi",
+            "word": "Captain",
+            "pos": "n.",
+            "meaning": "机长"
+          },
+          {
+            "word": "Ben Fawcett",
+            "pos": "n.",
+            "meaning": "本·福赛特"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "bought",
+            "pos": "v.",
+            "meaning": "买"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一辆"
+          },
+          {
+            "word": "unusual",
+            "pos": "adj.",
+            "meaning": "不寻常的"
+          },
+          {
+            "word": "taxi",
             "pos": "n.",
             "meaning": "出租车"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "begun",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "service",
+            "pos": "n.",
+            "meaning": "业务/服务"
           }
         ]
       }
@@ -138,14 +239,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Taxi",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这辆"
+          },
+          {
+            "word": "taxi",
             "pos": "n.",
             "meaning": "出租车"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一架"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "Swiss",
+            "pos": "adj.",
+            "meaning": "瑞士的"
+          },
+          {
+            "word": "aeroplane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "called",
+            "pos": "v.",
+            "meaning": "名叫"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "（指某种名称）"
+          },
+          {
+            "word": "Pilatus Porter",
+            "pos": "n.",
+            "meaning": "皮勒特斯·波特"
           }
         ]
       }
@@ -161,8 +302,38 @@
         "words": [
           {
             "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "pos": "det.",
+            "meaning": "这架"
+          },
+          {
+            "word": "wonderful",
+            "pos": "adj.",
+            "meaning": "奇妙的"
+          },
+          {
+            "word": "plane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "carry",
+            "pos": "v.",
+            "meaning": "携带/载"
+          },
+          {
+            "word": "seven",
+            "pos": "num.",
+            "meaning": "七个"
+          },
+          {
+            "word": "passengers",
+            "pos": "n.",
+            "meaning": "乘客"
           }
         ]
       }
@@ -177,19 +348,114 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "最"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "surprising",
+            "pos": "adj.",
+            "meaning": "令人吃惊的"
+          },
+          {
+            "word": "thing",
+            "pos": "n.",
+            "meaning": "事"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "它"
+          },
+          {
+            "word": "can",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "land",
+            "pos": "v.",
+            "meaning": "着陆"
+          },
+          {
+            "word": "anywhere",
+            "pos": "adv.",
+            "meaning": "任何地方"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "snow",
+            "pos": "n.",
+            "meaning": "雪地"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水面"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一块"
+          },
+          {
+            "word": "ploughed",
+            "pos": "adj.",
+            "meaning": "耕过的"
+          },
+          {
+            "word": "field",
+            "pos": "n.",
+            "meaning": "田地"
           }
         ]
       }
@@ -311,19 +577,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Since",
-            "pos": "prep.",
-            "meaning": "自从"
+            "word": "Since then",
+            "pos": "adv.",
+            "meaning": "从那时起"
           },
           {
-            "word": "Flown",
+            "word": "Captain Fawcett",
+            "pos": "n.",
+            "meaning": "福塞特机长"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "flown",
             "pos": "v.",
-            "meaning": "飞 (fly的过去分词)"
+            "meaning": "载（客）飞行"
           },
           {
-            "word": "Unusual",
+            "word": "passengers",
+            "pos": "n.",
+            "meaning": "乘客"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "many",
             "pos": "adj.",
-            "meaning": "不寻常的"
+            "meaning": "许多"
+          },
+          {
+            "word": "unusual",
+            "pos": "adj.",
+            "meaning": "不同寻常的"
+          },
+          {
+            "word": "places",
+            "pos": "n.",
+            "meaning": "地方"
           }
         ]
       }
@@ -338,9 +634,99 @@
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "Once",
+            "pos": "adv.",
+            "meaning": "一次"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "landed",
+            "pos": "v.",
+            "meaning": "降落"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "roof",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "屋顶"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "一个"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "block of flats",
+            "pos": "n.",
+            "meaning": "公寓大楼"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "另外"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "另一次"
+          },
+          {
+            "word": "occasion",
+            "pos": "n.",
+            "meaning": "场合/时候"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "landed",
+            "pos": "v.",
+            "meaning": "降落"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "deserted",
+            "pos": "adj.",
+            "meaning": "废弃的"
+          },
+          {
+            "word": "car park",
+            "pos": "n.",
+            "meaning": "停车场"
           }
         ]
       }
@@ -355,17 +741,52 @@
       "analysis": {
         "words": [
           {
-            "word": "Refuse",
+            "word": "Captain Fawcett",
+            "pos": "n.",
+            "meaning": "福塞特机长"
+          },
+          {
+            "word": "has",
+            "pos": "aux.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "refused",
             "pos": "v.",
             "meaning": "拒绝"
           },
           {
-            "word": "Request",
-            "pos": "n.",
-            "meaning": "要求，请求"
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
           },
           {
-            "word": "Businessman",
+            "word": "strange",
+            "pos": "adj.",
+            "meaning": "奇怪的"
+          },
+          {
+            "word": "request",
+            "pos": "n.",
+            "meaning": "请求"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "businessman",
             "pos": "n.",
             "meaning": "商人"
           }
@@ -382,9 +803,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "wanted to",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "fly",
+            "pos": "v.",
+            "meaning": "飞往"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "Rockall",
+            "pos": "n.",
+            "meaning": "罗考尔"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "lonely",
+            "pos": "adj.",
+            "meaning": "孤零零的"
+          },
+          {
+            "word": "island",
+            "pos": "n.",
+            "meaning": "小岛"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Atlantic Ocean",
+            "pos": "n.",
+            "meaning": "大西洋"
           }
         ]
       }
@@ -399,14 +875,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Too",
+            "word": "Captain Fawcett",
+            "pos": "n.",
+            "meaning": "福塞特机长"
+          },
+          {
+            "word": "did not",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "take",
+            "pos": "v.",
+            "meaning": "带"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这次"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "太"
+          },
+          {
+            "word": "dangerous",
+            "pos": "adj.",
+            "meaning": "危险的"
           }
         ]
       }

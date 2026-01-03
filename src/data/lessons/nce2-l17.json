@@ -34,7 +34,18 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Always",
+            "pos": "n.",
+            "meaning": "Always（待补充）"
+          },
+          {
+            "word": "Young",
+            "pos": "n.",
+            "meaning": "Young（待补充）"
+          }
+        ]
       }
     },
     {
@@ -99,17 +110,52 @@
       "analysis": {
         "words": [
           {
-            "word": "How",
+            "word": "Why",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "为什么"
           },
           {
-            "word": "Old",
+            "word": "doesn't",
+            "pos": "aux.",
+            "meaning": "不"
+          },
+          {
+            "word": "Aunt",
+            "pos": "n.",
+            "meaning": "姑妈"
+          },
+          {
+            "word": "Jennifer",
+            "pos": "n.",
+            "meaning": "詹妮弗（人名）"
+          },
+          {
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
+          },
+          {
+            "word": "how",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "老的"
           },
           {
-            "word": "Is",
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -131,9 +177,29 @@
             "meaning": "我的"
           },
           {
-            "word": "Is",
+            "word": "aunt",
+            "pos": "n.",
+            "meaning": "姑妈"
+          },
+          {
+            "word": "Jennifer",
+            "pos": "n.",
+            "meaning": "詹妮弗"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一位"
+          },
+          {
+            "word": "actress",
+            "pos": "n.",
+            "meaning": "女演员"
           }
         ]
       }
@@ -148,14 +214,39 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "She",
+            "pos": "pron.",
+            "meaning": "她"
           },
           {
-            "word": "Old",
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "at least",
+            "pos": "phr.",
+            "meaning": "至少"
+          },
+          {
+            "word": "thirty-five",
+            "pos": "num.",
+            "meaning": "三十五"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "岁，年"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "老的"
           }
         ]
       }
@@ -170,14 +261,64 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "In spite of",
+            "pos": "phr.",
+            "meaning": "尽管"
           },
           {
-            "word": "Young",
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "appears",
+            "pos": "v.",
+            "meaning": "出现"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在..."
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "stage",
+            "pos": "n.",
+            "meaning": "舞台"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "young",
             "pos": "adj.",
             "meaning": "年轻的"
+          },
+          {
+            "word": "girl",
+            "pos": "n.",
+            "meaning": "女孩"
           }
         ]
       }
@@ -425,12 +566,52 @@
       "analysis": {
         "words": [
           {
-            "word": "Short",
-            "pos": "adj.",
-            "meaning": "矮的"
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
           },
           {
-            "word": "Dress",
+            "word": "had to",
+            "pos": "phr.",
+            "meaning": "不得不"
+          },
+          {
+            "word": "wear",
+            "pos": "v.",
+            "meaning": "穿"
+          },
+          {
+            "word": "short",
+            "pos": "adj.",
+            "meaning": "短的"
+          },
+          {
+            "word": "socks",
+            "pos": "n.",
+            "meaning": "袜子"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一件"
+          },
+          {
+            "word": "bright",
+            "pos": "adj.",
+            "meaning": "鲜艳的"
+          },
+          {
+            "word": "orange-coloured",
+            "pos": "adj.",
+            "meaning": "橘黄色的"
+          },
+          {
+            "word": "dress",
             "pos": "n.",
             "meaning": "连衣裙"
           }
@@ -447,17 +628,47 @@
       "analysis": {
         "words": [
           {
-            "word": "How",
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
+          },
+          {
+            "word": "ever",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "曾经"
           },
           {
-            "word": "Old",
+            "word": "asks",
+            "pos": "v.",
+            "meaning": "询问"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她（宾格）"
+          },
+          {
+            "word": "how",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "老的"
           },
           {
-            "word": "Is",
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           }
@@ -474,9 +685,59 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "answers",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "Darling",
+            "pos": "n.",
+            "meaning": "亲爱的"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "must",
+            "pos": "aux.",
+            "meaning": "必须"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "terrible",
+            "pos": "adj.",
+            "meaning": "可怕的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "grown up",
+            "pos": "adj.",
+            "meaning": "成年人"
           }
         ]
       }

@@ -34,7 +34,13 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "SOS",
+            "pos": "n.",
+            "meaning": "SOS（待补充）"
+          }
+        ]
       }
     },
     {
@@ -101,12 +107,32 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
           },
           {
-            "word": "Woman",
+            "word": "did",
+            "pos": "aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "woman",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "妇女"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "help",
+            "pos": "n.",
+            "meaning": "帮助"
           }
         ]
       }
@@ -188,9 +214,54 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "it",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（飞机）"
+          },
+          {
+            "word": "crashed",
+            "pos": "v.",
+            "meaning": "坠毁/撞击"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "mountains",
+            "pos": "n.",
+            "meaning": "山（复数）"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "its",
+            "pos": "pron.",
+            "meaning": "它的"
+          },
+          {
+            "word": "pilot",
+            "pos": "n.",
+            "meaning": "飞行员"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "killed",
+            "pos": "v.",
+            "meaning": "杀死/遇难"
           }
         ]
       }
@@ -205,14 +276,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Young",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "only",
+            "pos": "adj.",
+            "meaning": "唯一的"
+          },
+          {
+            "word": "passengers",
+            "pos": "n.",
+            "meaning": "乘客"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "young",
             "pos": "adj.",
             "meaning": "年轻的"
           },
           {
-            "word": "Woman",
+            "word": "woman",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "妇女"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "her",
+            "pos": "pron.",
+            "meaning": "她的"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "baby",
+            "pos": "adj.",
+            "meaning": "幼小的/婴儿"
+          },
+          {
+            "word": "daughters",
+            "pos": "n.",
+            "meaning": "女儿（复数）"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "unhurt",
+            "pos": "adj.",
+            "meaning": "没受伤的"
           }
         ]
       }
@@ -229,7 +355,32 @@
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "天"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "middle",
+            "pos": "n.",
+            "meaning": "中间"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "winter",
+            "pos": "n.",
+            "meaning": "冬天"
           }
         ]
       }
@@ -286,14 +437,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Woman",
-            "pos": "n.",
-            "meaning": "女人"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这位"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "woman",
+            "pos": "n.",
+            "meaning": "妇女"
+          },
+          {
+            "word": "knew",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "最近的"
+          },
+          {
+            "word": "nearest",
+            "pos": "adj.",
+            "meaning": "最近的"
+          },
+          {
+            "word": "village",
+            "pos": "n.",
+            "meaning": "村庄"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "在"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "away",
+            "pos": "adv.",
+            "meaning": "之遥/在那儿"
           }
         ]
       }
@@ -308,7 +499,87 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "天"
+          },
+          {
+            "word": "grew",
+            "pos": "v.",
+            "meaning": "变得"
+          },
+          {
+            "word": "dark",
+            "pos": "adj.",
+            "meaning": "黑/暗"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "turned",
+            "pos": "v.",
+            "meaning": "把...变成"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "suitcase",
+            "pos": "n.",
+            "meaning": "手提箱"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "到/为"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一张"
+          },
+          {
+            "word": "bed",
+            "pos": "n.",
+            "meaning": "床"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "put",
+            "pos": "v.",
+            "meaning": "放"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子（复数）"
+          },
+          {
+            "word": "inside",
+            "pos": "prep.",
+            "meaning": "到...里面"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           }
@@ -382,12 +653,37 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "During",
+            "pos": "prep.",
+            "meaning": "在...期间"
           },
           {
-            "word": "Cold",
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "晚上"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "天气"
+          },
+          {
+            "word": "got",
+            "pos": "v.",
+            "meaning": "变得"
+          },
+          {
+            "word": "terribly",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "cold",
             "pos": "adj.",
             "meaning": "冷的"
           }
@@ -404,19 +700,94 @@
       "analysis": {
         "words": [
           {
-            "word": "Woman",
-            "pos": "n.",
-            "meaning": "女人"
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这位"
           },
           {
-            "word": "It",
+            "word": "woman",
+            "pos": "n.",
+            "meaning": "妇女"
+          },
+          {
+            "word": "kept",
+            "pos": "v.",
+            "meaning": "保持"
+          },
+          {
+            "word": "as near as she could to",
+            "pos": "phr.",
+            "meaning": "尽可能靠近"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "tried to",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "get into",
+            "pos": "v.",
+            "meaning": "钻进"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "case",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "herself",
+            "pos": "pron.",
+            "meaning": "她自己"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "Too",
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "太"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小"
           }
         ]
       }
@@ -458,9 +829,69 @@
       "analysis": {
         "words": [
           {
-            "word": "How",
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "heard",
+            "pos": "v.",
+            "meaning": "听见（hear的过去式）"
+          },
+          {
+            "word": "planes",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "passing",
+            "pos": "v.",
+            "meaning": "经过"
+          },
+          {
+            "word": "overhead",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "在头顶上"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "wondered",
+            "pos": "v.",
+            "meaning": "在想"
+          },
+          {
+            "word": "how",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "she",
+            "pos": "pron.",
+            "meaning": "她"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "send",
+            "pos": "v.",
+            "meaning": "发送"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "signal",
+            "pos": "n.",
+            "meaning": "信号"
           }
         ]
       }
@@ -651,12 +1082,82 @@
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "时间"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "was",
+            "pos": "v.",
+            "meaning": "过"
+          },
+          {
+            "word": "not long",
+            "pos": "adj.",
+            "meaning": "不久"
+          },
+          {
+            "word": "before",
+            "pos": "conj.",
+            "meaning": "就"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一架"
+          },
+          {
+            "word": "helicopter",
+            "pos": "n.",
+            "meaning": "直升机"
+          },
+          {
+            "word": "arrived on",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "scene",
+            "pos": "n.",
+            "meaning": "现场"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "rescue",
+            "pos": "v.",
+            "meaning": "營救"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "survivors",
+            "pos": "n.",
+            "meaning": "幸存者（复数）"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这场"
+          },
+          {
+            "word": "plane crash",
+            "pos": "n.",
+            "meaning": "飞机失事/空难"
           }
         ]
       }

@@ -34,7 +34,28 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Over",
+            "pos": "n.",
+            "meaning": "Over（待补充）"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这，那"
+          },
+          {
+            "word": "South",
+            "pos": "n.",
+            "meaning": "South（待补充）"
+          },
+          {
+            "word": "Pole",
+            "pos": "n.",
+            "meaning": "Pole（待补充）"
+          }
+        ]
       }
     },
     {
@@ -101,7 +122,47 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这架"
+          },
+          {
+            "word": "plane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "able",
+            "pos": "adj.",
+            "meaning": "能够"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "clear",
+            "pos": "v.",
+            "meaning": "飞越/穿过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "mountains",
+            "pos": "n.",
+            "meaning": "山脉"
           }
         ]
       }
@@ -183,9 +244,24 @@
       "analysis": {
         "words": [
           {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
             "word": "American",
             "pos": "adj.",
             "meaning": "美国的"
+          },
+          {
+            "word": "explorer",
+            "pos": "n.",
+            "meaning": "探险家"
+          },
+          {
+            "word": "R.E. Byrd",
+            "pos": "n.",
+            "meaning": "理查德·伯德"
           }
         ]
       }
@@ -262,9 +338,54 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "Though",
+            "pos": "conj.",
+            "meaning": "虽然"
+          },
+          {
+            "word": "at first",
+            "pos": "adv.",
+            "meaning": "起初"
+          },
+          {
+            "word": "Byrd",
+            "pos": "n.",
+            "meaning": "伯德"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "men",
+            "pos": "n.",
+            "meaning": "手下/人们"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "able",
+            "pos": "adj.",
+            "meaning": "能够"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "take",
+            "pos": "v.",
+            "meaning": "拍摄"
           }
         ]
       }
@@ -279,9 +400,44 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "great many",
+            "pos": "adj.",
+            "meaning": "许多"
+          },
+          {
+            "word": "photographs",
+            "pos": "n.",
+            "meaning": "照片（复数）"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "mountains",
+            "pos": "n.",
+            "meaning": "山脉"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "lay",
+            "pos": "v.",
+            "meaning": "位于（lie的过去式）"
+          },
+          {
+            "word": "below",
+            "pos": "adv.",
+            "meaning": "在下面"
           }
         ]
       }
@@ -335,17 +491,57 @@
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
           },
           {
-            "word": "It",
+            "word": "one",
+            "pos": "num.",
+            "meaning": "某个"
+          },
+          {
+            "word": "point",
+            "pos": "n.",
+            "meaning": "时刻/地点"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
           },
           {
-            "word": "That",
+            "word": "seemed",
+            "pos": "v.",
+            "meaning": "似乎"
+          },
+          {
+            "word": "certain",
+            "pos": "adj.",
+            "meaning": "肯定的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "their",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他们的"
+          },
+          {
+            "word": "plane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "会"
+          },
+          {
+            "word": "crash",
+            "pos": "v.",
+            "meaning": "坠毁"
           }
         ]
       }
@@ -362,7 +558,62 @@
           {
             "word": "It",
             "pos": "pron.",
+            "meaning": "它（指飞机）"
+          },
+          {
+            "word": "could",
+            "pos": "aux.",
+            "meaning": "能"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只有"
+          },
+          {
+            "word": "get over",
+            "pos": "v.",
+            "meaning": "越过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "mountains",
+            "pos": "n.",
+            "meaning": "山脉"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "rose",
+            "pos": "v.",
+            "meaning": "升到"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "达到"
+          },
+          {
+            "word": "10,000",
+            "pos": "num.",
+            "meaning": "一万"
+          },
+          {
+            "word": "feet",
+            "pos": "n.",
+            "meaning": "英尺"
           }
         ]
       }
@@ -377,9 +628,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "Byrd",
+            "pos": "n.",
+            "meaning": "伯德"
+          },
+          {
+            "word": "at once",
+            "pos": "adv.",
+            "meaning": "立刻"
+          },
+          {
+            "word": "ordered",
+            "pos": "v.",
+            "meaning": "命令"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "men",
+            "pos": "n.",
+            "meaning": "手下"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "throw out",
+            "pos": "v.",
+            "meaning": "扔掉"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两"
+          },
+          {
+            "word": "heavy",
+            "pos": "adj.",
+            "meaning": "重的"
+          },
+          {
+            "word": "food",
+            "pos": "n.",
+            "meaning": "食物"
+          },
+          {
+            "word": "sacks",
+            "pos": "n.",
+            "meaning": "袋子"
           }
         ]
       }
@@ -394,9 +695,79 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这架"
+          },
+          {
+            "word": "plane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "于是"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那时"
+          },
+          {
+            "word": "able",
+            "pos": "adj.",
+            "meaning": "能够"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "rise",
+            "pos": "v.",
+            "meaning": "升起"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "cleared",
+            "pos": "v.",
+            "meaning": "飞越"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "mountains",
+            "pos": "n.",
+            "meaning": "山脉"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "以"
+          },
+          {
+            "word": "400",
+            "pos": "num.",
+            "meaning": "四百"
+          },
+          {
+            "word": "feet",
+            "pos": "n.",
+            "meaning": "英尺"
           }
         ]
       }
@@ -411,9 +782,79 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "Byrd",
+            "pos": "n.",
+            "meaning": "伯德"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "knew",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "he",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "would",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "be able to",
+            "pos": "phr.",
+            "meaning": "能够"
+          },
+          {
+            "word": "reach",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "South Pole",
+            "pos": "n.",
+            "meaning": "南极"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "（引导关系代词）"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "300",
+            "pos": "num.",
+            "meaning": "三百"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "away",
+            "pos": "adv.",
+            "meaning": "远"
           }
         ]
       }
@@ -480,9 +921,69 @@
       "analysis": {
         "words": [
           {
-            "word": "White",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这架"
+          },
+          {
+            "word": "aircraft",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "able",
+            "pos": "adj.",
+            "meaning": "能够"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "fly",
+            "pos": "v.",
+            "meaning": "飞"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "越过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "endless",
+            "pos": "adj.",
+            "meaning": "无尽的"
+          },
+          {
+            "word": "white",
             "pos": "adj.",
             "meaning": "白色的"
+          },
+          {
+            "word": "plains",
+            "pos": "n.",
+            "meaning": "平原"
+          },
+          {
+            "word": "without",
+            "pos": "prep.",
+            "meaning": "没有"
+          },
+          {
+            "word": "difficulty",
+            "pos": "n.",
+            "meaning": "困难"
           }
         ]
       }

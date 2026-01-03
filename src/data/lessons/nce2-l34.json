@@ -34,7 +34,18 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Quick",
+            "pos": "n.",
+            "meaning": "Quick（待补充）"
+          },
+          {
+            "word": "Work",
+            "pos": "n.",
+            "meaning": "Work（待补充）"
+          }
+        ]
       }
     },
     {
@@ -101,7 +112,52 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "多"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "police",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "taken",
+            "pos": "v.",
+            "meaning": "花费"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "bicycle",
+            "pos": "n.",
+            "meaning": "自行车"
           }
         ]
       }
@@ -237,9 +293,54 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "In",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这封"
+          },
+          {
+            "word": "letter",
+            "pos": "n.",
+            "meaning": "信"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "要求"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式符号）"
+          },
+          {
+            "word": "call at",
+            "pos": "v.",
+            "meaning": "光顾/停靠/去"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "station",
+            "pos": "n.",
+            "meaning": "警察局"
           }
         ]
       }
@@ -370,14 +471,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "worried",
+            "pos": "adj.",
+            "meaning": "担心的"
+          },
+          {
+            "word": "anymore",
+            "pos": "adv.",
+            "meaning": "再也不"
           }
         ]
       }
@@ -394,7 +520,17 @@
           {
             "word": "At",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "station",
+            "pos": "n.",
+            "meaning": "车站"
           }
         ]
       }
@@ -409,7 +545,37 @@
       "analysis": {
         "words": [
           {
-            "word": "Policeman",
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "被"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "smiling",
+            "pos": "adj.",
+            "meaning": "微笑的"
+          },
+          {
+            "word": "policeman",
             "pos": "n.",
             "meaning": "警察"
           }
@@ -426,9 +592,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "his",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他的"
+          },
+          {
+            "word": "bicycle",
+            "pos": "n.",
+            "meaning": "自行车"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "been",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "找到（find的过去分词）"
           }
         ]
       }
@@ -448,9 +639,34 @@
             "meaning": "五"
           },
           {
-            "word": "Policeman",
+            "word": "days",
+            "pos": "n.",
+            "meaning": "天"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "policeman",
             "pos": "n.",
             "meaning": "警察"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "him",
+            "pos": "pron.",
+            "meaning": "他"
           }
         ]
       }
@@ -559,9 +775,49 @@
             "meaning": "它"
           },
           {
-            "word": "Is",
+            "word": "is",
+            "pos": "aux.",
+            "meaning": "正在"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "being",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "sent",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "送（send的过去分词）"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "his",
+            "pos": "pron.",
+            "meaning": "他的"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "train",
+            "pos": "n.",
+            "meaning": "火车"
           }
         ]
       }
@@ -645,7 +901,22 @@
       "analysis": {
         "words": [
           {
-            "word": "Too",
+            "word": "He",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "amused",
+            "pos": "adj.",
+            "meaning": "开心的"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
             "meaning": "也"
           }
@@ -734,6 +1005,31 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "was",
+            "pos": "aux.",
+            "meaning": "被"
+          },
+          {
+            "word": "stolen",
+            "pos": "v.",
+            "meaning": "偷走（steal的过去分词）"
+          },
+          {
+            "word": "twenty",
+            "pos": "num.",
+            "meaning": "二十"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }

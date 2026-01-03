@@ -34,7 +34,18 @@
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Sold",
+            "pos": "n.",
+            "meaning": "Sold（待补充）"
+          },
+          {
+            "word": "Out",
+            "pos": "adv.",
+            "meaning": "出，外面"
+          }
+        ]
       }
     },
     {
@@ -99,14 +110,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Writer",
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "什么时候"
+          },
+          {
+            "word": "will",
+            "pos": "aux.",
+            "meaning": "将"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "writer",
             "pos": "n.",
             "meaning": "作者"
           },
           {
-            "word": "Play",
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "play",
             "pos": "n.",
-            "meaning": "剧本，戏剧"
+            "meaning": "剧"
           }
         ]
       }
@@ -121,9 +157,49 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "play",
+            "pos": "n.",
+            "meaning": "剧"
+          },
+          {
+            "word": "may",
+            "pos": "aux.",
+            "meaning": "可能"
+          },
+          {
+            "word": "begin",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在..."
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何"
+          },
+          {
+            "word": "moment",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -141,6 +217,36 @@
             "word": "It",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "may",
+            "pos": "aux.",
+            "meaning": "可能"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "begun",
+            "pos": "v.",
+            "meaning": "开始（begin的过去分词）"
+          },
+          {
+            "word": "already",
+            "pos": "adv.",
+            "meaning": "已经"
+          },
+          {
+            "word": "Susan",
+            "pos": "n.",
+            "meaning": "苏珊"
+          },
+          {
+            "word": "answered",
+            "pos": "v.",
+            "meaning": "回答"
           }
         ]
       }
@@ -155,9 +261,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Ticket",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "hurried",
+            "pos": "v.",
+            "meaning": "赶紧"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "ticket office",
             "pos": "n.",
-            "meaning": "票"
+            "meaning": "售票处"
           }
         ]
       }
@@ -172,9 +298,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Please",
+            "word": "May",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两"
+          },
+          {
+            "word": "tickets",
+            "pos": "n.",
+            "meaning": "票"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "询问"
           }
         ]
       }
@@ -189,9 +350,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Sorry",
+            "word": "I'm",
+            "pos": "phr.",
+            "meaning": "我是"
+          },
+          {
+            "word": "sorry",
             "pos": "adj.",
-            "meaning": "抱歉的"
+            "meaning": "抱歉"
+          },
+          {
+            "word": "we've",
+            "pos": "phr.",
+            "meaning": "我们已经"
+          },
+          {
+            "word": "sold out",
+            "pos": "v.",
+            "meaning": "售罄"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "girl",
+            "pos": "n.",
+            "meaning": "女孩"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -206,9 +397,19 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "What a pity",
+            "pos": "phr.",
+            "meaning": "真可惜"
+          },
+          {
+            "word": "Susan",
+            "pos": "n.",
+            "meaning": "苏珊"
+          },
+          {
+            "word": "exclaimed",
+            "pos": "v.",
+            "meaning": "感叹"
           }
         ]
       }
@@ -223,14 +424,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "Just",
+            "pos": "adv.",
+            "meaning": "就在"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那时"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
           },
           {
-            "word": "Ticket",
+            "word": "hurried",
+            "pos": "v.",
+            "meaning": "赶紧"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "ticket office",
             "pos": "n.",
-            "meaning": "票"
+            "meaning": "售票处"
           }
         ]
       }
@@ -245,9 +476,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Return",
+            "word": "Can",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "return",
             "pos": "v.",
-            "meaning": "退回，归还"
+            "meaning": "退回"
+          },
+          {
+            "word": "these",
+            "pos": "det.",
+            "meaning": "这些"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两"
+          },
+          {
+            "word": "tickets",
+            "pos": "n.",
+            "meaning": "票"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "询问"
           }
         ]
       }
@@ -264,7 +530,22 @@
           {
             "word": "Certainly",
             "pos": "adv.",
-            "meaning": "当然"
+            "meaning": "当然可以"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "girl",
+            "pos": "n.",
+            "meaning": "姑娘"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -279,14 +560,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Ticket",
-            "pos": "n.",
-            "meaning": "票"
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
           },
           {
-            "word": "At",
+            "word": "went",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "回"
+          },
+          {
+            "word": "to",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "ticket office",
+            "pos": "n.",
+            "meaning": "售票处"
+          },
+          {
+            "word": "at once",
+            "pos": "adv.",
+            "meaning": "立刻"
           }
         ]
       }
@@ -301,9 +607,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Please",
+            "word": "Could",
+            "pos": "aux.",
+            "meaning": "可以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "those",
+            "pos": "det.",
+            "meaning": "那些"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两"
+          },
+          {
+            "word": "tickets",
+            "pos": "n.",
+            "meaning": "票"
+          },
+          {
+            "word": "please",
             "pos": "int.",
             "meaning": "请"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "询问"
           }
         ]
       }
@@ -320,7 +666,22 @@
           {
             "word": "Certainly",
             "pos": "adv.",
-            "meaning": "当然"
+            "meaning": "当然可以"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "girl",
+            "pos": "n.",
+            "meaning": "姑娘"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
           }
         ]
       }
@@ -335,14 +696,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Performance",
-            "pos": "n.",
-            "meaning": "演出"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Wednesday",
+            "word": "they're",
+            "pos": "v.",
+            "meaning": "它们是"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "下个"
+          },
+          {
+            "word": "Wednesday's",
             "pos": "n.",
-            "meaning": "星期三"
+            "meaning": "周三的"
+          },
+          {
+            "word": "performance",
+            "pos": "n.",
+            "meaning": "演出"
           }
         ]
       }
@@ -357,9 +738,29 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
+            "word": "Do",
+            "pos": "aux.",
+            "meaning": "助动词"
+          },
+          {
+            "word": "you",
             "pos": "pron.",
-            "meaning": "你，你们"
+            "meaning": "你"
+          },
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
           }
         ]
       }
@@ -374,9 +775,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "might as well",
+            "pos": "adv.",
+            "meaning": "还是...好"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "买下"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "它们"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "sadly",
+            "pos": "adv.",
+            "meaning": "悲哀地"
           }
         ]
       }

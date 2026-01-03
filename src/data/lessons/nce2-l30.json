@@ -34,7 +34,23 @@
       "startTime": 2.5075,
       "endTime": 5,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Football",
+            "pos": "n.",
+            "meaning": "Football（待补充）"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "Polo",
+            "pos": "n.",
+            "meaning": "Polo（待补充）"
+          }
+        ]
       }
     },
     {
@@ -104,9 +120,39 @@
             "meaning": "什么"
           },
           {
-            "word": "Man",
+            "word": "happened",
+            "pos": "v.",
+            "meaning": "发生"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "boat",
+            "pos": "n.",
+            "meaning": "船"
           }
         ]
       }
@@ -121,19 +167,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Wayle",
+            "pos": "n.",
+            "meaning": "威利河"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一条"
           },
           {
-            "word": "My",
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "river",
+            "pos": "n.",
+            "meaning": "河流"
+          },
+          {
+            "word": "that",
+            "pos": "pron.",
+            "meaning": "（引导词）"
+          },
+          {
+            "word": "cuts across",
+            "pos": "v.",
+            "meaning": "穿过"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "park",
+            "pos": "n.",
+            "meaning": "公园"
+          },
+          {
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "靠近"
+          },
+          {
+            "word": "my",
             "pos": "pron.",
             "meaning": "我的"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
           }
         ]
       }
@@ -148,9 +244,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Fine",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "sitting",
+            "pos": "v.",
+            "meaning": "坐"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "在...旁边"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "Wayle",
+            "pos": "n.",
+            "meaning": "威利河"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "fine",
             "pos": "adj.",
-            "meaning": "健康的"
+            "meaning": "晴朗的"
+          },
+          {
+            "word": "afternoons",
+            "pos": "n.",
+            "meaning": "下午（复数）"
           }
         ]
       }
@@ -167,7 +303,72 @@
           {
             "word": "It",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "它（天气）"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "温暖的"
+          },
+          {
+            "word": "last",
+            "pos": "adj.",
+            "meaning": "上一个"
+          },
+          {
+            "word": "Sunday",
+            "pos": "n.",
+            "meaning": "星期日"
+          },
+          {
+            "word": "so",
+            "pos": "conj.",
+            "meaning": "所以"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "went",
+            "pos": "v.",
+            "meaning": "去"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并"
+          },
+          {
+            "word": "sat",
+            "pos": "v.",
+            "meaning": "坐"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "river bank",
+            "pos": "n.",
+            "meaning": "河岸"
+          },
+          {
+            "word": "as usual",
+            "pos": "adv.",
+            "meaning": "照常"
           }
         ]
       }
@@ -279,14 +480,89 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "Suddenly",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "突然间"
           },
           {
-            "word": "It",
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子"
+          },
+          {
+            "word": "kicked",
+            "pos": "v.",
+            "meaning": "踢"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "ball",
+            "pos": "n.",
+            "meaning": "球"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "hard",
+            "pos": "adv.",
+            "meaning": "用力地"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "it",
             "pos": "pron.",
             "meaning": "它"
+          },
+          {
+            "word": "went",
+            "pos": "v.",
+            "meaning": "飞向"
+          },
+          {
+            "word": "towards",
+            "pos": "prep.",
+            "meaning": "向着"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一艘"
+          },
+          {
+            "word": "passing",
+            "pos": "v.",
+            "meaning": "经过的"
+          },
+          {
+            "word": "boat",
+            "pos": "n.",
+            "meaning": "船"
           }
         ]
       }
@@ -301,14 +577,89 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "Some",
+            "pos": "det.",
+            "meaning": "一些"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "岸边"
+          },
+          {
+            "word": "called out",
+            "pos": "v.",
+            "meaning": "大声叫出/提醒"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "boat",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "did not",
+            "pos": "aux.",
+            "meaning": "没有"
+          },
+          {
+            "word": "hear",
+            "pos": "v.",
+            "meaning": "听见"
+          },
+          {
+            "word": "them",
+            "pos": "pron.",
+            "meaning": "他们"
           }
         ]
       }
@@ -323,9 +674,69 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "ball",
+            "pos": "n.",
+            "meaning": "球"
+          },
+          {
+            "word": "struck",
+            "pos": "v.",
+            "meaning": "击中（strike的过去式）"
+          },
+          {
+            "word": "him",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此"
+          },
+          {
+            "word": "hard",
+            "pos": "adv.",
+            "meaning": "重"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎"
+          },
+          {
+            "word": "fell",
+            "pos": "v.",
+            "meaning": "掉进"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "到...里"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
           }
         ]
       }
@@ -340,14 +751,74 @@
       "analysis": {
         "words": [
           {
-            "word": "Look",
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "turned to",
+            "pos": "v.",
+            "meaning": "转过身来"
+          },
+          {
+            "word": "look at",
             "pos": "v.",
             "meaning": "看"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这些"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "那里"
+          },
+          {
+            "word": "weren't",
+            "pos": "v.",
+            "meaning": "没有"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何一个"
+          },
+          {
+            "word": "in sight",
+            "pos": "adv.",
+            "meaning": "在视线范围内/能看到"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "all",
+            "pos": "det.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "run away",
+            "pos": "v.",
+            "meaning": "跑开了"
           }
         ]
       }
@@ -362,14 +833,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "The",
+            "pos": "art.",
+            "meaning": "这位"
+          },
+          {
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
           },
           {
-            "word": "What",
+            "word": "laughed",
+            "pos": "v.",
+            "meaning": "笑了"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "he",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "他"
+          },
+          {
+            "word": "realized",
+            "pos": "v.",
+            "meaning": "意识到"
+          },
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所发生的事"
+          },
+          {
+            "word": "had",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "happened",
+            "pos": "v.",
+            "meaning": "发生"
           }
         ]
       }
