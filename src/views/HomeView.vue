@@ -86,7 +86,7 @@ const handleLessonClick = (lesson: any) => {
 
     <!-- Features Section -->
     <section class="max-w-6xl mx-auto px-6 mb-16 animate-fade-in">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Feature 1: Ghibli Style -->
         <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
           <div class="w-12 h-12 rounded-2xl bg-blue-50 group-hover:bg-blue-500 transition-colors duration-300 flex items-center justify-center text-blue-500 group-hover:text-white mb-4">
@@ -123,6 +123,19 @@ const handleLessonClick = (lesson: any) => {
           <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">专业级听读工具</h3>
           <p class="text-sm text-slate-500 font-medium leading-relaxed">
             为精听与跟读量身打造。支持<span class="text-cyan-500 font-bold">无级变速、单句循环</span>与键盘快捷键控制，配合滚动高亮与双语切换，让语言训练更高效。
+          </p>
+        </div>
+
+        <!-- Feature 4: Dictionary Integration -->
+        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 group-hover:bg-amber-500 transition-colors duration-300 flex items-center justify-center text-amber-500 group-hover:text-white mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-amber-600 transition-colors">词典一键直达</h3>
+          <p class="text-sm text-slate-500 font-medium leading-relaxed">
+            无缝衔接你的学习工具链。点击任意单词即可<span class="text-amber-500 font-bold">一键唤起欧路词典</span>进行深度查询，省去复制粘贴的繁琐步骤，学习更流畅。
           </p>
         </div>
       </div>
