@@ -54,6 +54,8 @@ watch(() => props.lesson?.id, (newId) => {
   if (newId) loadLessonData(newId);
 });
 
+// Track the last clicked segment for single/repeat mode highlight persistence
+const lastClickedSegmentId = ref<string | null>(null);
 
 // 计算当前活跃的片段 ID
 const activeSegmentId = computed(() => {
@@ -68,6 +70,11 @@ const activeSegmentId = computed(() => {
   const lastSegment = segments[segments.length - 1];
   if (lastSegment && lastSegment.endTime !== undefined && currentTime.value > lastSegment.endTime) {
     return lastSegment.id;
+  }
+
+  // In single/repeat mode, keep the last clicked segment highlighted even after playback stops
+  if ((playMode.value === 'single' || playMode.value === 'repeat') && lastClickedSegmentId.value) {
+    return lastClickedSegmentId.value;
   }
 
   return null;
@@ -123,8 +130,8 @@ const startMonitoring = () => {
     
     const audioEl = audioPlayer.innerAudio;
     if (audioEl) {
-      // 增加 1.0 秒的缓冲时间，确保句子读完并留有一点余韵后再停止/循环
-      const bufferTime = 1.0;
+      // Buffer time before stopping/looping - set to minimal value for precise control
+      const bufferTime = 0.05;
       if (audioEl.currentTime >= singlePlayEndTime.value + bufferTime) {
         if (playMode.value === 'single') {
           audioPlayer.pause();
@@ -155,11 +162,13 @@ const handleSegmentClick = (segment: any) => {
   if (segment.startTime !== undefined) {
     stopMonitoring(); 
     if (playMode.value === 'single' || playMode.value === 'repeat') {
+      lastClickedSegmentId.value = segment.id; // Track last clicked segment
       singlePlayStartTime.value = segment.startTime;
       singlePlayEndTime.value = segment.endTime;
       audioPlayer.playAt(segment.startTime);
       nextTick(() => startMonitoring());
     } else {
+      lastClickedSegmentId.value = null; // Clear in continuous mode
       singlePlayStartTime.value = null;
       singlePlayEndTime.value = null;
       audioPlayer.playAt(segment.startTime);
@@ -177,6 +186,7 @@ const handleSegmentClick = (segment: any) => {
 // 模式切换时清理
 watch(playMode, (newMode) => {
   if (newMode === 'continuous') {
+    lastClickedSegmentId.value = null; // Clear highlight when switching to continuous
     singlePlayStartTime.value = null;
     singlePlayEndTime.value = null;
     stopMonitoring();
