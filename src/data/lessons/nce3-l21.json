@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 21",
-      "translation": "",
+      "translation": "第21课",
       "startTime": 0.34,
       "endTime": 2.2,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,12 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Daniel Mendoza",
-      "translation": "",
+      "translation": "丹尼尔·门多萨",
       "startTime": 2.21,
-      "endTime": 9.92
+      "endTime": 9.92,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -35,107 +38,57 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 9.93,
-      "endTime": 23.419999999999998,
+      "endTime": 23.42,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "How many unsuccessful attempts did Mendoza make before becoming Champion of all England?",
-      "translation": "",
+      "translation": "门多萨在成为全英冠军之前曾有过几次失败的尝试？",
       "startTime": 9.93,
       "endTime": 18.58,
       "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
       "text": "Boxing matches were very popular in England two hundred years ago.",
-      "translation": "",
+      "translation": "200年前，拳击比赛在英国非常流行。",
       "startTime": 18.59,
       "endTime": 23.51,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "boxing",
+            "pos": "n.",
+            "meaning": "拳击"
           }
         ]
       }
     },
     {
-      "id": "s1",
-      "role": "Man",
-      "text": "In those days, boxers fought with bare fists for prize money.",
-      "translation": "",
-      "startTime": 23.52,
-      "endTime": 28.92
-    },
-    {
       "id": "s2",
-      "role": "Woman",
-      "text": "Because of this, they were known as 'prizefighters'.",
-      "translation": "",
-      "startTime": 28.93,
-      "endTime": 33.26,
+      "role": "Narrator",
+      "text": "In those days, boxers fought with bare fists for prize money.",
+      "translation": "在那时，拳击手们为了争夺奖金而赤手空拳地搏斗。",
+      "startTime": 23.52,
+      "endTime": 28.92,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "bare",
+            "pos": "adj.",
+            "meaning": "赤裸的"
+          },
+          {
+            "word": "fist",
+            "pos": "n.",
+            "meaning": "拳头"
           }
         ]
       }
@@ -143,314 +96,320 @@
     {
       "id": "s3",
       "role": "Narrator",
-      "text": "However, boxing was very crude,",
-      "translation": "",
-      "startTime": 33.27,
-      "endTime": 36.62,
+      "text": "Because of this, they were known as 'prizefighters'.",
+      "translation": "因此，他们被称为“职业拳击手”。",
+      "startTime": 28.93,
+      "endTime": 33.26,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "prizefighter",
+            "pos": "n.",
+            "meaning": "职业拳击手"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Man",
-      "text": "for there were no rules and a prizefighter could be seriously injured or even killed during a match.",
-      "translation": "",
-      "startTime": 36.63,
-      "endTime": 44.93
+      "role": "Narrator",
+      "text": "However, boxing was very crude, for there were no rules and a prizefighter could be seriously injured or even killed during a match.",
+      "translation": "然而，当时的拳击非常粗野，因为没有任何规则，职业拳击手在比赛中可能受重伤甚至丧命。",
+      "startTime": 33.27,
+      "endTime": 44.93,
+      "analysis": {
+        "words": [
+          {
+            "word": "crude",
+            "pos": "adj.",
+            "meaning": "粗野的，未加工的"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "One of the most colourful figures in boxing history was Daniel Mendoza, who was born in 1764.",
-      "translation": "",
+      "translation": "拳击史上最引人注目的的人物之一是丹尼尔·门多萨，他出生于1764年。",
       "startTime": 44.94,
-      "endTime": 53.55
+      "endTime": 53.55,
+      "analysis": {
+        "words": [
+          {
+            "word": "colourful",
+            "pos": "adj.",
+            "meaning": "丰富多彩的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The use of gloves was not introduced until 1860, when the Marquis of Queensberry drew up the first set of rules.",
-      "translation": "",
+      "translation": "直到1860年昆斯伯里侯爵制定了第一套规则，才开始使用手套。",
       "startTime": 53.56,
       "endTime": 62.62,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "glove",
+            "pos": "n.",
+            "meaning": "手套"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Woman",
-      "text": "Though he was technically a prizefighter,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Though he was technically a prizefighter, Mendoza did much to change crude prizefighting into a sport, for he brought science to the game.",
+      "translation": "虽然从技术上讲，他是一个职业拳击手，但门多萨为将粗野的职业拳击变为一项运动做了大量工作，因为他将科学带入了这项比赛。",
       "startTime": 62.63,
-      "endTime": 65.74
-    },
-    {
-      "id": "s8",
-      "role": "Man",
-      "text": "Mendoza did much to change crude prizefighting into a sport, for he brought science to the game.",
-      "translation": "",
-      "startTime": 65.75,
-      "endTime": 73.7,
+      "endTime": 73.70,
       "analysis": {
         "words": [
           {
-            "word": "Much",
+            "word": "technically",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "技术上"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "role": "Narrator",
+      "text": "In his day, Mendoza enjoyed tremendous popularity.",
+      "translation": "在他那个时代，门多萨享有极高的声誉。",
+      "startTime": 73.71,
+      "endTime": 78.40,
+      "analysis": {
+        "words": [
+          {
+            "word": "tremendous",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "popularity",
+            "pos": "n.",
+            "meaning": "名声，流行"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Woman",
-      "text": "In his day, Mendoza enjoyed tremendous popularity.",
-      "translation": "",
-      "startTime": 73.71,
-      "endTime": 78.4,
+      "role": "Narrator",
+      "text": "He was adored by rich and poor alike.",
+      "translation": "富人和穷人都同样崇拜他。",
+      "startTime": 78.41,
+      "endTime": 81.93,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "adore",
+            "pos": "v.",
+            "meaning": "崇拜，爱慕"
+          }
+        ]
       }
     },
     {
       "id": "s10",
-      "role": "Man",
-      "text": "He was adored by rich and poor alike.",
-      "translation": "",
-      "startTime": 78.41,
-      "endTime": 81.93
-    },
-    {
-      "id": "s11",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Mendoza rose to fame swiftly after a boxing match when he was only fourteen years old.",
-      "translation": "",
+      "translation": "门多萨在14岁时的一次拳击比赛后迅速成名。",
       "startTime": 81.94,
       "endTime": 88.41,
       "analysis": {
         "words": [
           {
-            "word": "Old",
+            "word": "swiftly",
+            "pos": "adv.",
+            "meaning": "迅速地"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
+      "text": "This attracted the attention of Richard Humphries who was then the most eminent boxer in England.",
+      "translation": "这引起了当时英国最著名的拳击手里查德·汉弗莱斯的注意。",
+      "startTime": 88.42,
+      "endTime": 95.86,
+      "analysis": {
+        "words": [
+          {
+            "word": "eminent",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "杰出的"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Man",
-      "text": "This attracted the attention of Richard Humphries who was then the most eminent boxer in England.",
-      "translation": "",
-      "startTime": 88.42,
-      "endTime": 95.86,
+      "role": "Narrator",
+      "text": "He offered to train Mendoza and his young pupil was quick to learn.",
+      "translation": "他主动提出培训门多萨，他的年轻弟子学得很快。",
+      "startTime": 95.87,
+      "endTime": 100.97,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s13",
-      "role": "Woman",
-      "text": "He offered to train Mendoza and his young pupil was quick to learn.",
-      "translation": "",
-      "startTime": 95.87,
-      "endTime": 100.97,
+      "role": "Narrator",
+      "text": "In fact, Mendoza soon became so successful that Humphries turned against him.",
+      "translation": "事实上，门多萨很快就变得非常成功，以至于汉弗莱斯反过来反对他。",
+      "startTime": 100.98,
+      "endTime": 108.00,
       "analysis": {
-        "words": [
-          {
-            "word": "Young",
-            "pos": "adj.",
-            "meaning": "年轻的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s14",
-      "role": "Man",
-      "text": "In fact, Mendoza soon became so successful that Humphries turned against him.",
-      "translation": "",
-      "startTime": 100.98,
-      "endTime": 108,
+      "role": "Narrator",
+      "text": "The two men quarrelled bitterly and it was clear that the argument could only be settled by a fight.",
+      "translation": "两人争吵得很厉害，显然只有通过决斗才能解决争端。",
+      "startTime": 108.01,
+      "endTime": 116.49,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "bitterly",
+            "pos": "adv.",
+            "meaning": "剧烈地"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Woman",
-      "text": "The two men quarrelled bitterly and it was clear that the argument could only be settled by a fight.",
-      "translation": "",
-      "startTime": 108.01,
-      "endTime": 116.49,
+      "role": "Narrator",
+      "text": "A match was held at Stilton, where both men fought for an hour.",
+      "translation": "比赛在斯蒂尔顿举行，两人搏斗了一个小时。",
+      "startTime": 116.50,
+      "endTime": 121.59,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Man",
-      "text": "A match was held at Stilton, where both men fought for an hour.",
-      "translation": "",
-      "startTime": 116.5,
-      "endTime": 121.59,
+      "role": "Narrator",
+      "text": "The public bet a great deal of money on Mendoza, but he was defeated.",
+      "translation": "公众在门多萨身上押了大量的赌注，但他被打败了。",
+      "startTime": 121.60,
+      "endTime": 127.21,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "bet",
+            "pos": "v.",
+            "meaning": "打赌"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Woman",
-      "text": "The public bet a great deal of money on Mendoza, but he was defeated.",
-      "translation": "",
-      "startTime": 121.6,
-      "endTime": 127.21
-    },
-    {
-      "id": "s18",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Mendoza met Humphries in the ring on a later occasion and he lost for a second time.",
-      "translation": "",
+      "translation": "后来，门多萨在拳击场上再次与汉弗莱斯相遇，他又一次输了。",
       "startTime": 127.22,
-      "endTime": 133.96
-    },
-    {
-      "id": "s19",
-      "role": "Woman",
-      "text": "It was not until his third match in 1790 that he finally beat Humphries and became Champion of England.",
-      "translation": "",
-      "startTime": 133.97,
-      "endTime": 143.49,
+      "endTime": 133.96,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "s20",
-      "role": "Man",
+      "id": "s18",
+      "role": "Narrator",
+      "text": "It was not until his third match in 1790 that he finally beat Humphries and became Champion of England.",
+      "translation": "直到1790年的第三次比赛，他才终于击败了汉弗莱斯，成为了全英冠军。",
+      "startTime": 133.97,
+      "endTime": 143.49,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s19",
+      "role": "Narrator",
       "text": "Meanwhile, he founded a highly successful Academy and even Lord Byron became one of his pupils.",
-      "translation": "",
-      "startTime": 143.5,
+      "translation": "同时，他创办了一家非常成功的拳击学院，甚至拜伦勋爵也成了他的弟子。",
+      "startTime": 143.50,
       "endTime": 151.58,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s21",
-      "role": "Woman",
+      "id": "s20",
+      "role": "Narrator",
       "text": "He earned enormous sums of money and was paid as much as ￡100 for a single appearance.",
-      "translation": "",
+      "translation": "他赚了大笔的钱，出场一次的报酬高达100英镑。",
       "startTime": 151.59,
       "endTime": 159.84,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s21",
+      "role": "Narrator",
+      "text": "Despite this, he was so extravagant that he was always in debt.",
+      "translation": "尽管如此，他生活极其奢侈，以致总是负债累累。",
+      "startTime": 159.85,
+      "endTime": 165.90,
+      "analysis": {
         "words": [
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "extravagant",
+            "pos": "adj.",
+            "meaning": "奢侈的"
+          },
+          {
+            "word": "debt",
+            "pos": "n.",
+            "meaning": "债务"
           }
         ]
       }
     },
     {
       "id": "s22",
-      "role": "Man",
-      "text": "Despite this, he was so extravagant that he was always in debt.",
-      "translation": "",
-      "startTime": 159.85,
-      "endTime": 165.9,
+      "role": "Narrator",
+      "text": "After he was defeated by a boxer called Gentleman Jackson, he was quickly forgotten.",
+      "translation": "在他被一个名叫“绅士杰克逊”的拳击手击败后，他很快就被遗忘了。",
+      "startTime": 165.91,
+      "endTime": 172.52,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s23",
-      "role": "Woman",
-      "text": "After he was defeated by a boxer called Gentleman Jackson, he was quickly forgotten.",
-      "translation": "",
-      "startTime": 165.91,
-      "endTime": 172.52
-    },
-    {
-      "id": "s24",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He was sent to prison for failing to pay his debts and died in poverty in 1836.",
-      "translation": "",
+      "translation": "由于无力偿还债务，他被关进了监狱，并于1836年在贫困中死去。",
       "startTime": 172.53,
-      "endTime": 177.53,
+      "endTime": 182.53,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "poverty",
+            "pos": "n.",
+            "meaning": "贫穷"
+          }
+        ]
       }
     }
   ]

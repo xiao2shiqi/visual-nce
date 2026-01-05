@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 35",
-      "translation": "",
+      "translation": "第35课",
       "startTime": 0.43,
       "endTime": 2.63,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Justice was done",
-      "translation": "",
+      "translation": "伸张正义",
       "startTime": 2.64,
-      "endTime": 10.55
+      "endTime": 10.55,
+      "analysis": {
+        "words": [
+          {
+            "word": "justice",
+            "pos": "n.",
+            "meaning": "正义，司法"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,491 +46,358 @@
       "startTime": 10.56,
       "endTime": 19.75,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "The word 'justice' is given two different meanings in the text.",
-      "translation": "",
+      "translation": "“正义”一词在课文中给出了两种不同的含义。",
       "startTime": 10.56,
       "endTime": 15.27,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "What is the distinction between them?",
-      "translation": "",
+      "translation": "它们之间的区别是什么？",
       "startTime": 15.28,
       "endTime": 19.84,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "distinction",
+            "pos": "n.",
+            "meaning": "区别"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The word justice is usually associated with courts of law.",
-      "translation": "",
+      "translation": "正义这个词通常是与法院联系在一起的。",
       "startTime": 19.85,
       "endTime": 25.48,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "court",
+            "pos": "n.",
+            "meaning": "法院"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We might say that justice has been done when a man's innocence or guilt has been proved beyond doubt.",
-      "translation": "",
+      "translation": "当一个人的清白或罪行被证明属实、毫无疑问时，我们可能会说，正义得到了伸张。",
       "startTime": 25.49,
       "endTime": 33.14,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "innocence",
+            "pos": "n.",
+            "meaning": "无罪"
+          },
+          {
+            "word": "guilt",
+            "pos": "n.",
+            "meaning": "犯罪，内疚"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Justice is part of the complex machinery of the law.",
-      "translation": "",
+      "translation": "正义是复杂的法律机器的一部分。",
       "startTime": 33.15,
       "endTime": 37.74,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "machinery",
+            "pos": "n.",
+            "meaning": "机器，机构"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Those who seek it, undertake an arduous journey and can never be sure that they will find it.",
-      "translation": "",
+      "translation": "寻觅正义的人，要经历一段艰难的历程，且永远不能肯定他们是否能找到它。",
       "startTime": 37.75,
       "endTime": 44.87,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "arduous",
+            "pos": "adj.",
+            "meaning": "艰苦的"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Judges, however wise or eminent, are human and can make mistakes.",
-      "translation": "",
+      "translation": "法官们不论多么聪明、多么杰出，都是人，也会犯错误。",
       "startTime": 44.88,
       "endTime": 51.17,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "There are rare instances when justice almost ceases to be an abstract concept.",
-      "translation": "",
-      "startTime": 51.18,
-      "endTime": 58.15,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "Reward or punishment are meted out quite independent of human interference.",
-      "translation": "",
-      "startTime": 58.16,
-      "endTime": 64.29,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "At such times, justice acts like a living force.",
-      "translation": "",
-      "startTime": 64.3,
-      "endTime": 69.43,
-      "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "eminent",
+            "pos": "adj.",
+            "meaning": "杰出的"
           }
         ]
       }
     },
     {
-      "id": "s9",
-      "role": "Man",
-      "text": "When we use a phrase like 'it serves him right',",
-      "translation": "",
-      "startTime": 69.44,
-      "endTime": 73.5,
+      "id": "s6",
+      "role": "Narrator",
+      "text": "There are rare instances when justice almost ceases to be an abstract concept.",
+      "translation": "在极少数情况下，正义几乎不再是一个抽象的概念。",
+      "startTime": 51.18,
+      "endTime": 58.15,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "abstract",
+            "pos": "adj.",
+            "meaning": "抽象的"
+          },
+          {
+            "word": "concept",
+            "pos": "n.",
+            "meaning": "概念"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "role": "Narrator",
+      "text": "Reward or punishment are meted out quite independent of human interference.",
+      "translation": "奖赏或惩罚是在完全不受到人为干扰的情况下被执行的。",
+      "startTime": 58.16,
+      "endTime": 64.29,
+      "analysis": {
+        "words": [
+          {
+            "word": "meted",
+            "pos": "v.",
+            "meaning": "给予（赏罚）"
+          },
+          {
+            "word": "interference",
+            "pos": "n.",
+            "meaning": "干涉"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "role": "Narrator",
+      "text": "At such times, justice acts like a living force.",
+      "translation": "在这些时刻，正义就像是一种活生生的力量。",
+      "startTime": 64.3,
+      "endTime": 69.43,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s9",
+      "role": "Narrator",
+      "text": "When we use a phrase like 'it serves him right', we are, in part, admitting that a certain set of circumstances has enabled justice to act of its own accord.",
+      "translation": "当我们使用“他罪有应得”这样的话语时，我们在某种程度上承认，是一组特定的环境使正义得以自发地起作用。",
+      "startTime": 69.44,
+      "endTime": 83.83,
+      "analysis": {
+        "words": [
+          {
+            "word": "accord",
+            "pos": "n.",
+            "meaning": "一致，自愿"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "we are, in part, admitting that a certain set of circumstances has enabled justice to act of its own accord.",
-      "translation": "",
-      "startTime": 73.51,
-      "endTime": 83.83,
+      "role": "Narrator",
+      "text": "When a thief was caught on the premises of a large jewellery store one morning, the shop assistants must have found it impossible to resist the temptation to say 'it serves him right'.",
+      "translation": "一天早晨，当一个小偷在一家大型珠宝店的范围内被抓住时，店里的营业员们一定觉得无法忍不住说出那句“他罪有应得”。",
+      "startTime": 83.84,
+      "endTime": 97.66,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "premise",
+            "pos": "n.",
+            "meaning": "房屋，经营场馆"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "When a thief was caught on the premises of a large jewellery store one morning,",
-      "translation": "",
-      "startTime": 83.84,
-      "endTime": 89.47
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "the shop assistants must have found it impossible to resist the temptation to say 'it serves him right'.",
-      "translation": "",
-      "startTime": 89.48,
-      "endTime": 97.66,
+      "role": "Narrator",
+      "text": "The shop was an old converted house with many large, disused fireplaces and tall, narrow chimneys.",
+      "translation": "这家商店是一座由旧房子改建而成的，里面有许多巨大的、废弃不用的壁炉和高大狭窄的烟囱。",
+      "startTime": 97.67,
+      "endTime": 106.06,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "converted",
+            "pos": "v.",
+            "meaning": "转换"
+          },
+          {
+            "word": "fireplace",
+            "pos": "n.",
+            "meaning": "壁炉"
+          },
+          {
+            "word": "chimney",
+            "pos": "n.",
+            "meaning": "烟囱"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "Towards midday, a girl heard a muffled cry coming from behind one of the walls.",
+      "translation": "接近中午时，一位姑娘听见从一堵墙的后面传出闷声闷气的叫声。",
+      "startTime": 106.07,
+      "endTime": 112.85,
+      "analysis": {
+        "words": [
+          {
+            "word": "muffled",
+            "pos": "v.",
+            "meaning": "低沉的（声）"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
-      "text": "The shop was an old converted house with many large, disused fireplaces and tall, narrow chimneys.",
-      "translation": "",
-      "startTime": 97.67,
-      "endTime": 106.06,
+      "role": "Narrator",
+      "text": "As the cry was repeated several times, she ran to tell the manager who promptly rang up the fire brigade.",
+      "translation": "由于叫声重复了好几次，她跑去告诉了经理，经理随即给消防队打了电话。",
+      "startTime": 112.86,
+      "endTime": 121.36,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "The cry had certainly come from one of the chimneys, but as there were so many of them, the firemen could not be certain which one it was.",
+      "translation": "叫声确实是从其中一个烟囱里传出的，但由于烟囱太多，消防队员无法确定是哪一个。",
+      "startTime": 121.37,
+      "endTime": 132.24,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s15",
+      "role": "Narrator",
+      "text": "They located the right chimney by tapping at the walls and listening for the man's cries.",
+      "translation": "他们通过敲击墙壁听那人的叫声，从而确定了位置。",
+      "startTime": 132.25,
+      "endTime": 139.66,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s16",
+      "role": "Narrator",
+      "text": "After chipping through a wall which was eighteen inches thick, they found that a man had been trapped in the chimney.",
+      "translation": "在凿开一堵18英寸厚的墙后，他们发现一个人被困在烟囱里了。",
+      "startTime": 139.67,
+      "endTime": 148.39,
       "analysis": {
         "words": [
           {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
-          },
-          {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
-          },
-          {
-            "word": "Tall",
-            "pos": "adj.",
-            "meaning": "高的"
+            "word": "chip",
+            "pos": "v.",
+            "meaning": "切，打破"
           }
         ]
       }
     },
     {
-      "id": "s14",
-      "role": "Woman",
-      "text": "Towards midday, a girl heard a muffled cry coming from behind one of the walls.",
-      "translation": "",
-      "startTime": 106.07,
-      "endTime": 112.85
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "As the cry was repeated several times,",
-      "translation": "",
-      "startTime": 112.86,
-      "endTime": 115.78
-    },
-    {
-      "id": "s16",
-      "role": "Woman",
-      "text": "she ran to tell the manager who promptly rang up the fire brigade.",
-      "translation": "",
-      "startTime": 115.79,
-      "endTime": 121.36
-    },
-    {
       "id": "s17",
-      "role": "Man",
-      "text": "The cry had certainly come from one of the chimneys,",
-      "translation": "",
-      "startTime": 121.37,
-      "endTime": 124.64
+      "role": "Narrator",
+      "text": "As it was extremely narrow, the man was unable to move, but the fire fighters were eventually able to free him by cutting a huge hole in the wall.",
+      "translation": "由于烟囱极其狭窄，那人无法动弹，但消防员们最终在墙上挖了一个大洞而救出了他。",
+      "startTime": 148.4,
+      "endTime": 160.9,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "but as there were so many of them, the firemen could not be certain which one it was.",
-      "translation": "",
-      "startTime": 124.65,
-      "endTime": 132.24,
+      "role": "Narrator",
+      "text": "The sorry-looking, blackened figure that emerged, admitted at once that he had tried to break into the shop during the night but had got stuck in the chimney.",
+      "translation": "那个露出来的浑身漆黑、面容可怜的人随即承认，他曾试图在夜里闯进这家商店计，但卡在了烟囱里。",
+      "startTime": 160.91,
+      "endTime": 173.21,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "emerged",
+            "pos": "v.",
+            "meaning": "出现"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "They located the right chimney by tapping at the walls and listening for the man's cries.",
-      "translation": "",
-      "startTime": 132.25,
-      "endTime": 139.66,
+      "role": "Narrator",
+      "text": "He had been there for nearly ten hours.",
+      "translation": "他在那里已经被困了将近10个小时。",
+      "startTime": 173.22,
+      "endTime": 177.24,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "After chipping through a wall which was eighteen inches thick,",
-      "translation": "",
-      "startTime": 139.67,
-      "endTime": 144.22
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "they found that a man had been trapped in the chimney.",
-      "translation": "",
-      "startTime": 144.23,
-      "endTime": 148.39,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "As it was extremely narrow, the man was unable to move,",
-      "translation": "",
-      "startTime": 148.4,
-      "endTime": 153.2,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "but the fire fighters were eventually able to free him by cutting a huge hole in the wall.",
-      "translation": "",
-      "startTime": 153.21,
-      "endTime": 160.9
-    },
-    {
-      "id": "s24",
-      "role": "Woman",
-      "text": "The sorry-looking, blackened figure that emerged,",
-      "translation": "",
-      "startTime": 160.91,
-      "endTime": 164.97,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "admitted at once that he had tried to break into the shop during the night but had got stuck in the chimney.",
-      "translation": "",
-      "startTime": 164.98,
-      "endTime": 173.21,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
-      "text": "He had been there for nearly ten hours.",
-      "translation": "",
-      "startTime": 173.22,
-      "endTime": 177.24
-    },
-    {
-      "id": "s27",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Justice had been done even before the man was handed over to the police.",
-      "translation": "",
+      "translation": "甚至在这人被交给警察之前，正义就已经得到了伸张。",
       "startTime": 177.25,
-      "endTime": 182.25,
+      "endTime": 187.25,
       "analysis": {
-        "words": [
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          }
-        ]
+        "words": []
       }
     }
   ]

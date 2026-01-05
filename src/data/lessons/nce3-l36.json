@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 36",
-      "translation": "",
+      "translation": "第36课",
       "startTime": 0.13,
       "endTime": 2.11,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,12 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A chance in a million",
-      "translation": "",
+      "translation": "万分之一的机遇",
       "startTime": 2.12,
-      "endTime": 9.58
+      "endTime": 9.58,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -35,209 +38,165 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 9.59,
-      "endTime": 17.029999999999998,
+      "endTime": 17.03,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What was the chance in a million?",
-      "translation": "",
+      "translation": "什么是“万分之一的机遇”？",
       "startTime": 9.59,
       "endTime": 13.44,
-      "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "We are less credulous than we used to be.",
-      "translation": "",
-      "startTime": 13.45,
-      "endTime": 17.12,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s1",
-      "role": "Man",
-      "text": "In the nineteenth century, a novelist would bring his story to a conclusion",
-      "translation": "",
-      "startTime": 17.13,
-      "endTime": 22.59,
+      "role": "Narrator",
+      "text": "We are less credulous than we used to be.",
+      "translation": "我们现在不像以前那样容易轻信了。",
+      "startTime": 13.45,
+      "endTime": 17.12,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "credulous",
+            "pos": "adj.",
+            "meaning": "轻信的"
+          }
+        ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "by presenting his readers with a series of coincidences--most of them wildly improbable.",
-      "translation": "",
-      "startTime": 22.6,
+      "role": "Narrator",
+      "text": "In the nineteenth century, a novelist would bring his story to a conclusion by presenting his readers with a series of coincidences--most of them wildly improbable.",
+      "translation": "在19世纪，小说家往往通过向读者提供一系列巧合来结束他的故事——其中大多数都是极不可能发生的。",
+      "startTime": 17.13,
       "endTime": 30.28,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "improbable",
+            "pos": "adj.",
+            "meaning": "不大可能的"
+          },
+          {
+            "word": "coincidence",
+            "pos": "n.",
+            "meaning": "巧合"
+          }
+        ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Readers happily accepted the fact that an obscure maidservant was really the hero's mother.",
-      "translation": "",
+      "translation": "读者竟然愉快地接受了这样一个事实：一个卑微的女佣人竟然是男主人公的生母。",
       "startTime": 30.29,
       "endTime": 37.77,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "obscure",
+            "pos": "adj.",
+            "meaning": "不起眼的，卑微的"
+          },
+          {
+            "word": "maidservant",
+            "pos": "n.",
+            "meaning": "女佣"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
-      "text": "A long-lost brother, who was presumed dead, was really alive all the time",
-      "translation": "",
+      "role": "Narrator",
+      "text": "A long-lost brother, who was presumed dead, was really alive all the time and wickedly plotting to bring about the hero's downfall. And so on.",
+      "translation": "一个失散多年、被认为已经死去的兄弟实际上一直活着，并正阴险地策划着让男主人公败落。如此等等。",
       "startTime": 37.78,
-      "endTime": 44.06
+      "endTime": 50.01,
+      "analysis": {
+        "words": [
+          {
+            "word": "long-lost",
+            "pos": "adj.",
+            "meaning": "失散多年的"
+          },
+          {
+            "word": "presumed",
+            "pos": "v.",
+            "meaning": "推测，假设"
+          },
+          {
+            "word": "downfall",
+            "pos": "n.",
+            "meaning": "衰落，垮台"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "and wickedly plotting to bring about the hero's downfall. And so on.",
-      "translation": "",
-      "startTime": 44.07,
-      "endTime": 50.01
+      "role": "Narrator",
+      "text": "Modern readers would find such naive solutions totally unacceptable.",
+      "translation": "现代读者会发现这类天真的解决办法完全无法接受。",
+      "startTime": 50.02,
+      "endTime": 56.12,
+      "analysis": {
+        "words": [
+          {
+            "word": "naive",
+            "pos": "adj.",
+            "meaning": "天真的"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "Modern readers would find such naive solutions totally unacceptable.",
-      "translation": "",
-      "startTime": 50.02,
-      "endTime": 56.12
+      "role": "Narrator",
+      "text": "Yet, in real life, circumstances do sometimes conspire to bring about coincidences which anyone but a nineteenth century novelist would find incredible.",
+      "translation": "然而在现实生活中，情况有时确实会凑巧，以致产生出除了19世纪小说家外，谁都会觉得难以置信的巧合。",
+      "startTime": 56.13,
+      "endTime": 69.38,
+      "analysis": {
+        "words": [
+          {
+            "word": "conspire",
+            "pos": "v.",
+            "meaning": "阴谋，协力促成"
+          },
+          {
+            "word": "incredible",
+            "pos": "adj.",
+            "meaning": "不可思议的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "Yet, in real life, circumstances do sometimes conspire to bring about coincidences which anyone but a nineteenth century novelist would find incredible.",
-      "translation": "",
-      "startTime": 56.13,
-      "endTime": 69.38,
+      "role": "Narrator",
+      "text": "When I was a boy, my grandfather told me how a German taxi driver, Franz Bussman, found a brother who was thought to have been killed twenty years before.",
+      "translation": "当我还是个男孩时，我祖父给我讲了一个德国出租车司机 Franz Bussman 是如何找到了他那被认为在20年前就已经阵亡了的兄弟的故事。",
+      "startTime": 69.39,
+      "endTime": 81.38,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "When I was a boy, my grandfather told me how a German taxi driver, Franz Bussman,",
-      "translation": "",
-      "startTime": 69.39,
-      "endTime": 76.36,
-      "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "German",
-            "pos": "adj.",
-            "meaning": "德国的，德语"
-          },
-          {
-            "word": "Taxi",
-            "pos": "n.",
-            "meaning": "出租车"
-          },
-          {
-            "word": "Driver",
-            "pos": "n.",
-            "meaning": "驾驶员"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "found a brother who was thought to have been killed twenty years before.",
-      "translation": "",
-      "startTime": 76.37,
-      "endTime": 81.38
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "While on a walking tour with his wife, he stopped to talk to a workman.",
-      "translation": "",
+      "translation": "当他正和妻子徒步旅行时，他停下来同一个工人交谈。",
       "startTime": 81.39,
       "endTime": 87.09,
       "analysis": {
@@ -245,185 +204,111 @@
       }
     },
     {
-      "id": "s11",
-      "role": "Man",
-      "text": "After they had gone on, Mrs. Bussman commented on the workman's close resemblance to her husband",
-      "translation": "",
+      "id": "s9",
+      "role": "Narrator",
+      "text": "After they had gone on, Mrs. Bussman commented on the workman's close resemblance to her husband and even suggested that he might be his brother.",
+      "translation": "在他们继续往前走之后，Bussman 夫人评论说那个工人长得和她丈夫非常相像，甚至暗示说他可能就是他兄弟。",
       "startTime": 87.1,
-      "endTime": 94.33,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "and even suggested that he might be his brother.",
-      "translation": "",
-      "startTime": 94.34,
       "endTime": 98.7,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "resemblance",
+            "pos": "n.",
+            "meaning": "相似"
           }
         ]
       }
     },
     {
-      "id": "s13",
-      "role": "Man",
-      "text": "Franz poured scorn on the idea,",
-      "translation": "",
+      "id": "s10",
+      "role": "Narrator",
+      "text": "Franz poured scorn on the idea, pointing out that his brother had been killed in action during the war.",
+      "translation": "Franz 对这种想法嗤之以鼻，指出他的兄弟在战争期间已经阵亡了。",
       "startTime": 98.71,
-      "endTime": 102.08
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "pointing out that his brother had been killed in action during the war.",
-      "translation": "",
-      "startTime": 102.09,
       "endTime": 107.34,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "scorn",
+            "pos": "v./n.",
+            "meaning": "轻蔑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
+      "text": "Though Mrs. Bussman was fully acquainted with this story, she thought that there was a chance in a million that she might be right.",
+      "translation": "虽然 Bussman 夫人非常熟悉这个故事，但她认为有百万分之一的可能性，她或许是对的。",
+      "startTime": 107.35,
+      "endTime": 117.08,
+      "analysis": {
+        "words": [
+          {
+            "word": "acquainted",
+            "pos": "v.",
+            "meaning": "熟悉"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "A few days later, she sent a boy to the workman to ask him if his name was Hans Bussman.",
+      "translation": "几天后，她派了一个男孩去问那个工人他的名字是不是 Hans Bussman。",
+      "startTime": 117.09,
+      "endTime": 125,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "Needless to say, the man's name was Hans Bussman and he really was Franz's long-lost brother.",
+      "translation": "不用说，这人的名字正是 Hans Bussman，他确实是 Franz 失散多年的兄弟。",
+      "startTime": 125.01,
+      "endTime": 133.93,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "When the brothers were reunited, Hans explained how it was that he was still alive.",
+      "translation": "当兄弟俩团聚时，Hans 解释了他为何还活着。",
+      "startTime": 133.94,
+      "endTime": 140.35,
+      "analysis": {
+        "words": [
+          {
+            "word": "reunited",
+            "pos": "v.",
+            "meaning": "团聚"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "Though Mrs. Bussman was fully acquainted with this story,",
-      "translation": "",
-      "startTime": 107.35,
-      "endTime": 111.69,
-      "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s16",
-      "role": "Woman",
-      "text": "she thought that there was a chance in a million that she might be right.",
-      "translation": "",
-      "startTime": 111.7,
-      "endTime": 117.08,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "A few days later, she sent a boy to the workman to ask him if his name was Hans Bussman.",
-      "translation": "",
-      "startTime": 117.09,
-      "endTime": 125,
-      "analysis": {
-        "words": [
-          {
-            "word": "Name",
-            "pos": "n.",
-            "meaning": "名字"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "Needless to say, the man's name was Hans Bussman and he really was Franz's long-lost brother.",
-      "translation": "",
-      "startTime": 125.01,
-      "endTime": 133.93,
-      "analysis": {
-        "words": [
-          {
-            "word": "Name",
-            "pos": "n.",
-            "meaning": "名字"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "When the brothers were reunited,",
-      "translation": "",
-      "startTime": 133.94,
-      "endTime": 136.19
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "Hans explained how it was that he was still alive.",
-      "translation": "",
-      "startTime": 136.2,
-      "endTime": 140.35,
-      "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "After having been wounded towards the end of the war,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "After having been wounded towards the end of the war, he had been sent to hospital and was separated from his unit.",
+      "translation": "他在战争快结束时受了伤，被送进医院并与部队失去了联系。",
       "startTime": 140.36,
-      "endTime": 144.72
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "he had been sent to hospital and was separated from his unit.",
-      "translation": "",
-      "startTime": 144.73,
       "endTime": 149.83,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s23",
-      "role": "Man",
+      "id": "s16",
+      "role": "Narrator",
       "text": "The hospital had been bombed and Hans had made his way back into Western Germany on foot.",
-      "translation": "",
+      "translation": "医院遭到了轰炸，Hans 徒步回到了西德。",
       "startTime": 149.84,
       "endTime": 157.63,
       "analysis": {
@@ -431,10 +316,10 @@
       }
     },
     {
-      "id": "s24",
-      "role": "Woman",
+      "id": "s17",
+      "role": "Narrator",
       "text": "Meanwhile, his unit was lost and all records of him had been destroyed.",
-      "translation": "",
+      "translation": "与此同时，他的部队被打散了，他所有的记录都被销毁了。",
       "startTime": 157.64,
       "endTime": 163.73,
       "analysis": {
@@ -442,68 +327,26 @@
       }
     },
     {
-      "id": "s25",
-      "role": "Man",
-      "text": "Hans returned to his family home, but the house had been bombed",
-      "translation": "",
+      "id": "s18",
+      "role": "Narrator",
+      "text": "Hans returned to his family home, but the house had been bombed and no one in the neighbourhood knew what had become of the inhabitants.",
+      "translation": "Hans 回到了他的家，但房子已经被炸毁了，而附近没有人知道居民们的下落。",
       "startTime": 163.74,
-      "endTime": 168.36,
-      "analysis": {
-        "words": [
-          {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
-      "text": "and no one in the neighbourhood knew what had become of the inhabitants.",
-      "translation": "",
-      "startTime": 168.37,
       "endTime": 173.02,
       "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "s27",
-      "role": "Man",
-      "text": "Assuming that his family had been killed during an air raid,",
-      "translation": "",
+      "id": "s19",
+      "role": "Narrator",
+      "text": "Assuming that his family had been killed during an air raid, Hans settled down in a village fifty miles away where he had remained ever since.",
+      "translation": "Hans 以为他的家人都在空袭中丧生了，于是在50英里外的一个村庄定居下来，并一直呆在那里至今。",
       "startTime": 173.03,
-      "endTime": 176.99,
+      "endTime": 183,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Air",
-            "pos": "n.",
-            "meaning": "空格"
-          }
-        ]
+        "words": []
       }
-    },
-    {
-      "id": "s28",
-      "role": "Woman",
-      "text": "Hans settled down in a village fifty miles away where he had remained ever since.",
-      "translation": "",
-      "startTime": 177,
-      "endTime": 182
     }
   ]
 }

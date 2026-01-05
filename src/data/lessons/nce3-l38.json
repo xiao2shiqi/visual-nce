@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 38",
-      "translation": "",
+      "translation": "第38课",
       "startTime": 0.31,
       "endTime": 2.22,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The first calendar",
-      "translation": "",
+      "translation": "最早的历法",
       "startTime": 2.23,
-      "endTime": 9.57
+      "endTime": 9.57,
+      "analysis": {
+        "words": [
+          {
+            "word": "calendar",
+            "pos": "n.",
+            "meaning": "历法，日历"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -35,70 +44,29 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 9.58,
-      "endTime": 28.479999999999997,
+      "endTime": 28.48,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What is the importance of the dots, lines, and symbols engraved on stone, bones and ivory?",
-      "translation": "",
+      "translation": "刻在石头、骨头和象牙上的点、线和符号有什么重要性？",
       "startTime": 9.58,
       "endTime": 20.51,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "importance",
+            "pos": "n.",
+            "meaning": "重要性"
           },
           {
-            "word": "Is",
+            "word": "engraved",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "雕刻"
           }
         ]
       }
@@ -107,26 +75,37 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Future historians will be in a unique position when they come to record the history of our own times.",
-      "translation": "",
+      "translation": "未来的历史学家在记载我们这个时代的历法时，将处于一个独特的地位。",
       "startTime": 20.52,
       "endTime": 28.57,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "historian",
+            "pos": "n.",
+            "meaning": "历史学家"
+          },
+          {
+            "word": "unique",
+            "pos": "adj.",
+            "meaning": "独特的"
+          }
+        ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "They will hardly know which facts to select from the great mass of evidence that steadily accumulates.",
-      "translation": "",
+      "translation": "他们几乎不知道该从不断积累的大量证据中选择哪些事实。",
       "startTime": 28.58,
       "endTime": 37.06,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "accumulate",
+            "pos": "v.",
+            "meaning": "积累"
           }
         ]
       }
@@ -135,355 +114,283 @@
       "id": "s2",
       "role": "Narrator",
       "text": "What is more, they will not have to rely solely on the written word.",
-      "translation": "",
+      "translation": "而且，他们不必仅仅依靠文字。",
       "startTime": 37.07,
       "endTime": 42.24,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
+            "word": "solely",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "仅仅"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Films, videos, CDs and CD-ROMs are just some of the bewildering amount of information they will have.",
-      "translation": "",
+      "translation": "电影、录像、光盘和只读光盘只是他们将拥有的令人眼花缭乱的信息的一部分。",
       "startTime": 42.25,
       "endTime": 52.4,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "They will be able, as it were, to see and hear us in action.",
-      "translation": "",
-      "startTime": 52.41,
-      "endTime": 58.89,
-      "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "bewildering",
+            "pos": "adj.",
+            "meaning": "令人眼花缭乱的"
           }
         ]
       }
     },
     {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "They will be able, as it were, to see and hear us in action.",
+      "translation": "可以说，他们将能够看到和听到我们的行动。",
+      "startTime": 52.41,
+      "endTime": 58.89,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "But the historian attempting to reconstruct the distant past is always faced with a difficult task.",
-      "translation": "",
+      "translation": "但企图重建遥远过去的历史学家总是面临着一项艰巨的任务。",
       "startTime": 58.9,
       "endTime": 66.99,
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "reconstruct",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "重建"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "He has to deduce what he can from the few scanty clues available.",
-      "translation": "",
+      "translation": "他必须从现有的极少数、贫乏的线索中推断出他所能推断的一切。",
       "startTime": 67,
       "endTime": 72.6,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "deduce",
+            "pos": "v.",
+            "meaning": "推断"
+          },
+          {
+            "word": "scanty",
+            "pos": "adj.",
+            "meaning": "贫乏的"
+          },
+          {
+            "word": "clue",
+            "pos": "n.",
+            "meaning": "线索"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Even seemingly insignificant remains can shed interesting light on the history of early man.",
-      "translation": "",
+      "translation": "即使是看似微不足道的遗迹，也能为早期人类的历史提供有趣的启示。",
       "startTime": 72.61,
       "endTime": 80.68,
       "analysis": {
         "words": [
           {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
+            "word": "insignificant",
+            "pos": "adj.",
+            "meaning": "无关紧要的"
+          },
+          {
+            "word": "shed",
+            "pos": "v.",
+            "meaning": "流出，散发"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "Up to now, historians have assumed that calendars came into being with the advent of agriculture,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Up to now, historians have assumed that calendars came into being with the advent of agriculture, for then man was faced with a real need to understand something about the seasons.",
+      "translation": "到目前为止，历史学家一直认为历法是随着农业的出现而产生的，因为那时人类面临着了解季节的真实需求。",
       "startTime": 80.69,
-      "endTime": 88.66,
+      "endTime": 95.54,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "advent",
+            "pos": "n.",
+            "meaning": "到来"
+          },
+          {
+            "word": "agriculture",
+            "pos": "n.",
+            "meaning": "农业"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "for then man was faced with a real need to understand something about the seasons.",
-      "translation": "",
-      "startTime": 88.67,
-      "endTime": 95.54,
+      "role": "Narrator",
+      "text": "Recent scientific evidence seems to indicate that this assumption is incorrect.",
+      "translation": "最近的科学证据似乎表明这种假设是不正确的。",
+      "startTime": 95.55,
+      "endTime": 103,
       "analysis": {
-        "words": [
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "Recent scientific evidence seems to indicate that this assumption is incorrect.",
-      "translation": "",
-      "startTime": 95.55,
-      "endTime": 103,
+      "role": "Narrator",
+      "text": "Historians have long been puzzled by dots, lines and symbols which have been engraved on walls, bones, and the ivory tusks of mammoths.",
+      "translation": "历史学家长期以来一直被刻在墙上、骨头上和猛犸象牙上的点、线和符号所困扰。",
+      "startTime": 103.01,
+      "endTime": 114.97,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
+            "word": "puzzled",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "迷惑"
+          },
+          {
+            "word": "tusk",
+            "pos": "n.",
+            "meaning": "长牙"
+          },
+          {
+            "word": "mammoth",
+            "pos": "n.",
+            "meaning": "猛犸"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "Historians have long been puzzled by dots, lines and symbols which have been engraved on walls, bones, and the ivory tusks of mammoths.",
-      "translation": "",
-      "startTime": 103.01,
-      "endTime": 114.97
+      "role": "Narrator",
+      "text": "The nomads who made these markings lived by hunting and fishing during the last Ice Age which began about 35, 000 B.C. and ended about 10, 000 B.C.",
+      "translation": "制作这些标记的游牧民族在最后一次冰河时代靠打猎和捕鱼生活，冰河时代始于公元前35,000年左右，止于公元前10,000年左右。",
+      "startTime": 114.98,
+      "endTime": 129.26,
+      "analysis": {
+        "words": [
+          {
+            "word": "nomad",
+            "pos": "n.",
+            "meaning": "游牧人"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
-      "role": "Woman",
-      "text": "The nomads who made these markings lived by hunting and fishing during the last Ice Age which began about 35, 000 B.C. and ended about 10, 000 B.C.",
-      "translation": "",
-      "startTime": 114.98,
-      "endTime": 129.26
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "By correlating markings made in various parts of the world,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "By correlating markings made in various parts of the world, historians have been able to read this difficult code.",
+      "translation": "通过联系在世界各地制作的标记，历史学家们已经能够读懂这种困难的代码。",
       "startTime": 129.27,
-      "endTime": 133.8
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "historians have been able to read this difficult code.",
-      "translation": "",
-      "startTime": 133.81,
       "endTime": 138.1,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "correlating",
+            "pos": "v.",
+            "meaning": "相互关联"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "They have found that it is connected with the passage of days and the phases of the moon.",
+      "translation": "他们发现它与日子的流逝和月相有关。",
+      "startTime": 138.11,
+      "endTime": 144.48,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "It is, in fact, a primitive type of calendar.",
+      "translation": "事实上，这是一种原始类型的历法。",
+      "startTime": 144.49,
+      "endTime": 149.24,
+      "analysis": {
+        "words": [
+          {
+            "word": "primitive",
+            "pos": "adj.",
+            "meaning": "原始的"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "They have found that it is connected with the passage of days and the phases of the moon.",
-      "translation": "",
-      "startTime": 138.11,
-      "endTime": 144.48,
+      "role": "Narrator",
+      "text": "It has long been known that the hunting scenes depicted on walls were not simply a form of artistic expression.",
+      "translation": "长期以来，人们就知道墙上描绘的狩猎场景不仅仅是一种艺术表达形式。",
+      "startTime": 149.25,
+      "endTime": 157.39,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "depict",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "描绘"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "It is, in fact, a primitive type of calendar.",
-      "translation": "",
-      "startTime": 144.49,
-      "endTime": 149.24,
+      "role": "Narrator",
+      "text": "They had a definite meaning, for they were as near as early man could get to writing.",
+      "translation": "它们具有明确的含义，因为它们是早期人类所能达到的最接近文字的东西。",
+      "startTime": 157.4,
+      "endTime": 163.93,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "It has long been known that the hunting scenes depicted on walls were not simply a form of artistic expression.",
-      "translation": "",
-      "startTime": 149.25,
-      "endTime": 157.39,
+      "role": "Narrator",
+      "text": "It is possible that there is a definite relation between these paintings and the markings that sometimes accompany them.",
+      "translation": "这些绘画与有时伴随它们的标记之间可能存在某种明确的关系。",
+      "startTime": 163.94,
+      "endTime": 173.57,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "They had a definite meaning, for they were as near as early man could get to writing.",
-      "translation": "",
-      "startTime": 157.4,
-      "endTime": 163.93,
-      "analysis": {
-        "words": [
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "It is possible that there is a definite relation between these paintings and the markings that sometimes accompany them.",
-      "translation": "",
-      "startTime": 163.94,
-      "endTime": 173.57,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It seems that man was making a real effort to understand the seasons 20, 000 years earlier than has been supposed.",
-      "translation": "",
+      "translation": "看来，人类早在2万年前就开始为理解季节做出了真实的努力，这比人们原先设想的要早。",
       "startTime": 173.58,
-      "endTime": 178.58,
+      "endTime": 183.58,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          }
-        ]
+        "words": []
       }
     }
   ]

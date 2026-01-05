@@ -8,15 +8,15 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 15",
-      "translation": "",
+      "translation": "第15课",
       "startTime": 0.44,
-      "endTime": 2.64,
+      "endTime": 2.65,
       "analysis": {
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,340 +25,271 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Fifty pence worth of trouble",
-      "translation": "",
-      "startTime": 2.65,
-      "endTime": 10.15
+      "translation": "50便士的麻烦",
+      "startTime": 2.66,
+      "endTime": 10.15,
+      "analysis": {
+        "words": [
+          {
+            "word": "pence",
+            "pos": "n.",
+            "meaning": "便士（penny的复数）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
-      "text": "Listen to the tape then answer this question.",
-      "translation": "听录音，然后回答问题。",
-      "startTime": 10.16,
-      "endTime": 20.5,
-      "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_4",
-      "role": "Narrator",
       "text": "Did George get anything for his fifty pence? What?",
-      "translation": "",
+      "translation": "乔治用他的50便士换到了什么吗？是什么？",
       "startTime": 10.16,
       "endTime": 16.64,
-      "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "Children always appreciate small gifts of money.",
-      "translation": "",
-      "startTime": 16.65,
-      "endTime": 20.59
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "Mum or dad, of course, provides a regular supply of pocket money, but uncles and aunts are always a source of extra income.",
-      "translation": "",
-      "startTime": 20.6,
-      "endTime": 30.98,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s2",
-      "role": "Woman",
-      "text": "With some children, small sums go a long way.",
-      "translation": "",
-      "startTime": 30.99,
-      "endTime": 35.16
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "If fifty pence pieces are not exchanged for sweets, they rattle for months inside money boxes.",
-      "translation": "",
-      "startTime": 35.17,
-      "endTime": 43.15,
+      "id": "s1",
+      "role": "Narrator",
+      "text": "Children always appreciate small gifts of money.",
+      "translation": "孩子总喜欢得到一点零用钱。",
+      "startTime": 16.65,
+      "endTime": 20.59,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "appreciate",
+            "pos": "v.",
+            "meaning": "欣赏，感激"
           }
         ]
       }
     },
     {
-      "id": "s4",
-      "role": "Woman",
-      "text": "Only very thrifty children manage to fill up a money box.",
-      "translation": "",
-      "startTime": 43.16,
-      "endTime": 48.58,
+      "id": "s2",
+      "role": "Narrator",
+      "text": "Mum or dad, of course, provides a regular supply of pocket money, but uncles and aunts are always a source of extra income.",
+      "translation": "当然，爸爸妈妈会定期给孩子一些零用钱，但叔叔阿姨们总是额外收入的来源。",
+      "startTime": 20.60,
+      "endTime": 30.98,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "pocket money",
+            "pos": "n.",
+            "meaning": "零用钱"
+          },
+          {
+            "word": "source",
+            "pos": "n.",
+            "meaning": "来源"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "role": "Narrator",
+      "text": "With some children, small sums go a long way.",
+      "translation": "对有些孩子来说，小钱也能花很久。",
+      "startTime": 30.99,
+      "endTime": 35.16,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "If fifty pence pieces are not exchanged for sweets, they rattle for months inside money boxes.",
+      "translation": "如果50便士的硬币不换成糖果，它们就会在储蓄罐里叮当响上好几个月。",
+      "startTime": 35.17,
+      "endTime": 43.15,
+      "analysis": {
+        "words": [
+          {
+            "word": "rattle",
+            "pos": "v.",
+            "meaning": "格格作响"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "For most of them, fifty pence is a small price to pay for a nice big bar of chocolate.",
-      "translation": "",
-      "startTime": 48.59,
-      "endTime": 56.94,
+      "role": "Narrator",
+      "text": "Only very thrifty children manage to fill up a money box.",
+      "translation": "只有非常节俭的孩子才能把储蓄罐填满。",
+      "startTime": 43.16,
+      "endTime": 48.58,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Nice",
+            "word": "thrifty",
             "pos": "adj.",
-            "meaning": "好的，漂亮的"
+            "meaning": "节俭的"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "My nephew, George, has a money box but it is always empty.",
-      "translation": "",
-      "startTime": 56.95,
-      "endTime": 62.33,
+      "role": "Narrator",
+      "text": "For most of them, fifty pence is a small price to pay for a nice big bar of chocolate.",
+      "translation": "对大多数孩子来说，50便士只是买一大块巧克力所付出的很小代价。",
+      "startTime": 48.59,
+      "endTime": 56.94,
       "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "Very few of the fifty pence pieces and pound coins I have given him have found their way there.",
-      "translation": "",
-      "startTime": 62.34,
-      "endTime": 70.04,
+      "role": "Narrator",
+      "text": "My nephew, George, has a money box but it is always empty.",
+      "translation": "我的外甥乔治有一个储蓄罐，但它总是空的。",
+      "startTime": 56.95,
+      "endTime": 102.33,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "nephew",
+            "pos": "n.",
+            "meaning": "侄子，外甥"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "I gave him fifty pence yesterday and advised him to save it.",
-      "translation": "",
-      "startTime": 70.05,
-      "endTime": 74.62,
+      "role": "Narrator",
+      "text": "Very few of the fifty pence pieces and pound coins I have given him have found their way there.",
+      "translation": "我给他那些50便士的硬币和1英镑的硬币，很少有进入那个储蓄罐的。",
+      "startTime": 102.34,
+      "endTime": 110.04,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "Instead, he bought himself fifty pence worth of trouble.",
-      "translation": "",
-      "startTime": 74.63,
-      "endTime": 79.55
+      "role": "Narrator",
+      "text": "I gave him fifty pence yesterday and advised him to save it.",
+      "translation": "昨天我给了他50便士，并建议他把它存起来。",
+      "startTime": 110.05,
+      "endTime": 114.62,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "On his way to the sweet shop, he dropped his fifty pence and it bounced along the pavement and then disappeared down a drain.",
-      "translation": "",
-      "startTime": 79.56,
-      "endTime": 89.8,
+      "role": "Narrator",
+      "text": "Instead, he bought himself fifty pence worth of trouble.",
+      "translation": "结果，他给自己买回了50便士的麻烦。",
+      "startTime": 114.63,
+      "endTime": 119.55,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "George took off his jacket,",
-      "translation": "",
-      "startTime": 89.81,
-      "endTime": 92.2,
+      "role": "Narrator",
+      "text": "On his way to the sweet shop, he dropped his fifty pence and it bounced along the pavement and then disappeared down a drain.",
+      "translation": "在去糖果店的路上，他把50便士掉在了地上，硬币在人行道上弹跳了几下，掉进下水道里不见了。",
+      "startTime": 119.56,
+      "endTime": 129.80,
       "analysis": {
         "words": [
           {
-            "word": "Jacket",
+            "word": "bounce",
+            "pos": "v.",
+            "meaning": "弹起"
+          },
+          {
+            "word": "pavement",
             "pos": "n.",
-            "meaning": "夹克衫"
+            "meaning": "人行道"
+          },
+          {
+            "word": "drain",
+            "pos": "n.",
+            "meaning": "下水道"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
-      "text": "rolled up his sleeves and pushed his right arm through the drain cover.",
-      "translation": "",
-      "startTime": 92.21,
-      "endTime": 97.53,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "He could not find his 50 pence piece anywhere, and what is more, he could not get his arm out.",
-      "translation": "",
-      "startTime": 97.54,
-      "endTime": 105.85,
+      "role": "Narrator",
+      "text": "George took off his jacket, rolled up his sleeves and pushed his right arm through the drain cover.",
+      "translation": "乔治脱掉外套，卷起袖子，把右胳膊伸进了下水道井盖的孔里。",
+      "startTime": 129.81,
+      "endTime": 137.53,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "sleeve",
+            "pos": "n.",
+            "meaning": "袖子"
           }
         ]
       }
     },
     {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "He could not find his 50 pence piece anywhere, and what is more, he could not get his arm out.",
+      "translation": "他到处也找不到那枚50便士的硬币，更糟糕的是，他的胳膊拔不出来了。",
+      "startTime": 137.54,
+      "endTime": 145.85,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "A crowd of people gathered round him and a lady rubbed his arm with soap and butter, but George was firmly stuck.",
-      "translation": "",
-      "startTime": 105.86,
-      "endTime": 115.34,
+      "translation": "一群人聚集在他周围，一位女士用肥皂和黄油涂抹他的胳膊，但乔治还是死死地卡在那儿。",
+      "startTime": 145.86,
+      "endTime": 155.34,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The fire brigade was called and two fire fighters freed George using a special type of grease.",
-      "translation": "",
-      "startTime": 115.35,
-      "endTime": 122.72
-    },
-    {
-      "id": "s16",
-      "role": "Woman",
-      "text": "George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.",
-      "translation": "",
-      "startTime": 122.73,
-      "endTime": 127.73,
+      "translation": "消防队被叫来了，两名消防员用一种特殊的润滑脂救出了乔治。",
+      "startTime": 155.35,
+      "endTime": 162.72,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
+            "word": "grease",
+            "pos": "n.",
+            "meaning": "润滑脂"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s16",
+      "role": "Narrator",
+      "text": "George was not too upset by his experience because the lady who owns the sweet shop heard about his troubles and rewarded him with a large box of chocolates.",
+      "translation": "乔治对这次经历并不太难过，因为糖果店的老板娘听说了他的遭遇，奖励了他一大盒巧克力。",
+      "startTime": 162.73,
+      "endTime": 175.73,
+      "analysis": {
+        "words": [
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "reward",
+            "pos": "v.",
+            "meaning": "奖励"
           }
         ]
       }

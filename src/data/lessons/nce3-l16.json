@@ -8,15 +8,15 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 16",
-      "translation": "",
+      "translation": "第16课",
       "startTime": 0.27,
-      "endTime": 2.54,
+      "endTime": 2.55,
       "analysis": {
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,84 +25,35 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Mary had a little lamb",
-      "translation": "",
-      "startTime": 2.55,
-      "endTime": 10.18
+      "translation": "玛丽有一只小羊羔",
+      "startTime": 2.56,
+      "endTime": 10.18,
+      "analysis": {
+        "words": [
+          {
+            "word": "lamb",
+            "pos": "n.",
+            "meaning": "小羊羔"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
-      "text": "Listen to the tape then answer this question.",
-      "translation": "听录音，然后回答问题。",
-      "startTime": 10.19,
-      "endTime": 24.97,
-      "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_4",
-      "role": "Narrator",
       "text": "Was Dimitri right to apologize to his neighbour? Why not?",
-      "translation": "",
+      "translation": "迪米特里向他的邻居道歉对吗？为什么不对？",
       "startTime": 10.19,
       "endTime": 15.02,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
       "text": "Mary and her husband Dimitri lived in the tiny village of Perachora in southern Greece.",
-      "translation": "",
+      "translation": "玛丽和丈夫迪米特里住在希腊南部一个叫佩拉霍拉的小村庄里。",
       "startTime": 15.03,
       "endTime": 25.06,
       "analysis": {
@@ -110,301 +61,240 @@
       }
     },
     {
-      "id": "s1",
-      "role": "Man",
+      "id": "s2",
+      "role": "Narrator",
       "text": "One of Mary's prize possessions was a little white lamb which her husband had given her.",
-      "translation": "",
+      "translation": "玛丽最珍贵的财产之一就是丈夫送给她的一只白色小羊羔。",
       "startTime": 25.07,
       "endTime": 31.81,
       "analysis": {
         "words": [
           {
-            "word": "White",
-            "pos": "adj.",
-            "meaning": "白色的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "She kept it tied to a tree in a field during the day and went to fetch it every evening.",
-      "translation": "",
-      "startTime": 31.82,
-      "endTime": 39.39,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "possession",
+            "pos": "n.",
+            "meaning": "财产"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "One evening, however the lamb was missing.",
-      "translation": "",
-      "startTime": 39.4,
-      "endTime": 43.26
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "The rope had been cut, so it was obvious that the lamb had been stolen.",
-      "translation": "",
-      "startTime": 43.27,
-      "endTime": 49.51,
+      "role": "Narrator",
+      "text": "She kept it tied to a tree in a field during the day and went to fetch it every evening.",
+      "translation": "白天，她把羊羔拴在田地里的一棵树上，每天傍晚去把它牵回家。",
+      "startTime": 31.82,
+      "endTime": 39.39,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "fetch",
+            "pos": "v.",
+            "meaning": "去拿来，去请来"
           }
         ]
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "One evening, however the lamb was missing.",
+      "translation": "可是，有一天傍晚，小羊羔不见了。",
+      "startTime": 39.40,
+      "endTime": 43.26,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "When Dimitri came in from the fields, his wife told him what had happened.",
-      "translation": "",
-      "startTime": 49.52,
-      "endTime": 54.16,
+      "role": "Narrator",
+      "text": "The rope had been cut, so it was obvious that the lamb had been stolen.",
+      "translation": "绳子被割断了，很明显，羊羔是被偷走了。",
+      "startTime": 43.27,
+      "endTime": 49.51,
       "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "Dimitri at once set out to find the thief.",
-      "translation": "",
-      "startTime": 54.17,
-      "endTime": 58.9,
+      "role": "Narrator",
+      "text": "When Dimitri came in from the fields, his wife told him what had happened.",
+      "translation": "当迪米特里从田里回来时，妻子把发生的事情告诉了他。",
+      "startTime": 49.52,
+      "endTime": 54.16,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "He knew it would not prove difficult in such a small village.",
-      "translation": "",
-      "startTime": 58.91,
-      "endTime": 64.2,
+      "role": "Narrator",
+      "text": "Dimitri at once set out to find the thief.",
+      "translation": "迪米特里立即出发去寻找小偷。",
+      "startTime": 54.17,
+      "endTime": 58.90,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "After telling several of his friends about the theft,",
-      "translation": "",
-      "startTime": 64.21,
-      "endTime": 67.77,
+      "role": "Narrator",
+      "text": "He knew it would not prove difficult in such a small village.",
+      "translation": "他知道在这样一个村子，找小偷并不困难。",
+      "startTime": 58.91,
+      "endTime": 104.20,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "Dimitri found out that his neighbour, Aleko, had suddenly acquired a new lamb.",
-      "translation": "",
-      "startTime": 67.78,
-      "endTime": 75.18,
+      "role": "Narrator",
+      "text": "After telling several of his friends about the theft, Dimitri found out that his neighbour, Aleko, had suddenly acquired a new lamb.",
+      "translation": "在把失窃的事告诉了几个朋友后，迪米特里得知他的邻居阿莱科突然得到了一只新羊羔。",
+      "startTime": 104.21,
+      "endTime": 115.18,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "theft",
+            "pos": "n.",
+            "meaning": "偷窃行为"
+          },
+          {
+            "word": "acquire",
+            "pos": "v.",
+            "meaning": "获得"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Dimitri immediately went to Aleko's house and angrily accused him of stealing the lamb.",
-      "translation": "",
-      "startTime": 75.19,
-      "endTime": 82.67,
+      "translation": "迪米特里立即来到阿莱科家，愤怒地指责他偷了羊羔。",
+      "startTime": 115.19,
+      "endTime": 122.67,
       "analysis": {
         "words": [
           {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
+            "word": "accused",
+            "pos": "v.",
+            "meaning": "指责，控告"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He told him he had better return it or he would call the police.",
-      "translation": "",
-      "startTime": 82.68,
-      "endTime": 87.6,
+      "translation": "他告诉他最好把羊羔还回来，否则他就报警。",
+      "startTime": 122.68,
+      "endTime": 127.60,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Aleko denied taking it and led Dimitri into his backyard.",
-      "translation": "",
-      "startTime": 87.61,
-      "endTime": 93.02,
+      "translation": "阿莱科否认偷了羊，并领迪米特里来到他的后院。",
+      "startTime": 127.61,
+      "endTime": 133.02,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "denied",
+            "pos": "v.",
+            "meaning": "否认"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It was true that he had just bought a lamb he explained, but his lamb was black.",
-      "translation": "",
-      "startTime": 93.03,
-      "endTime": 100.34,
+      "translation": "他解释说，他确实刚买了一只羊羔，但他的羊羔是黑色的。",
+      "startTime": 133.03,
+      "endTime": 140.34,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Black",
-            "pos": "adj.",
-            "meaning": "黑色的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Ashamed of having acted so rashly, Dimitri apologized to Aleko for having accused him.",
-      "translation": "",
-      "startTime": 100.35,
-      "endTime": 108.25
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "While they were talking it began to rain and Dimitri stayed in Aleko's house until the rain stopped.",
-      "translation": "",
-      "startTime": 108.26,
-      "endTime": 116.1,
+      "translation": "迪米特里为自己行为鲁莽感到羞愧，于是就指责阿莱科一事向他道歉。",
+      "startTime": 140.35,
+      "endTime": 148.25,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "ashamed",
+            "pos": "adj.",
+            "meaning": "感到羞愧的"
           },
           {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
+            "word": "rashly",
+            "pos": "adv.",
+            "meaning": "轻率地，鲁莽地"
           }
         ]
       }
     },
     {
+      "id": "s15",
+      "role": "Narrator",
+      "text": "While they were talking it began to rain and Dimitri stayed in Aleko's house until the rain stopped.",
+      "translation": "就在他们说话时，下起雨来，迪米特里在阿莱科家呆到雨停。",
+      "startTime": 148.26,
+      "endTime": 156.10,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "When he went outside half an hour later, he was astonished to find that the little black lamb was almost white.",
-      "translation": "",
-      "startTime": 116.11,
-      "endTime": 125.47,
+      "translation": "半小时后，当他走到外面时，他吃惊地发现，那只黑色的小羊羔几乎变白了。",
+      "startTime": 156.11,
+      "endTime": 165.47,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Black",
-            "pos": "adj.",
-            "meaning": "黑色的"
-          },
-          {
-            "word": "White",
-            "pos": "adj.",
-            "meaning": "白色的"
+            "word": "astonished",
+            "pos": "v.",
+            "meaning": "使吃惊"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Its wool, which had been dyed black, had been washed clean by the rain!",
-      "translation": "",
-      "startTime": 125.48,
-      "endTime": 130.48,
+      "translation": "它的羊毛被染成了黑色，却被雨水冲洗干净了！",
+      "startTime": 165.48,
+      "endTime": 175.48,
       "analysis": {
         "words": [
           {
-            "word": "Black",
-            "pos": "adj.",
-            "meaning": "黑色的"
+            "word": "wool",
+            "pos": "n.",
+            "meaning": "羊毛"
+          },
+          {
+            "word": "dyed",
+            "pos": "v.",
+            "meaning": "染色"
           }
         ]
       }

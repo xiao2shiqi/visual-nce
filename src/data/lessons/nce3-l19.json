@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 19",
-      "translation": "",
+      "translation": "第19课",
       "startTime": 0.44,
       "endTime": 2.4,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,15 +25,15 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A very dear cat",
-      "translation": "",
+      "translation": "一只贵重的宝贝猫",
       "startTime": 2.41,
       "endTime": 10.27,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "dear",
+            "pos": "adj.",
+            "meaning": "亲爱的，贵的"
           }
         ]
       }
@@ -44,373 +44,283 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 10.28,
-      "endTime": 26.259999999999998,
+      "endTime": 26.25,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why was Rastus 'very dear' in more ways than one?",
-      "translation": "",
+      "translation": "为什么拉斯特斯在不止一个方面都是“贵重的”？",
       "startTime": 10.28,
       "endTime": 16.87,
-      "analysis": {
-        "words": [
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "Kidnappers are rarely interested in animals, but they recently took considerable interest in Mrs. Eleanor Ramsay's cat.",
-      "translation": "",
-      "startTime": 16.88,
-      "endTime": 26.35,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s1",
-      "role": "Man",
-      "text": "Mrs. Eleanor Ramsay, a very wealthy old lady, has shared a flat with her cat, Rastus, for a great many years.",
-      "translation": "",
-      "startTime": 26.36,
-      "endTime": 36.35,
+      "role": "Narrator",
+      "text": "Kidnappers are rarely interested in animals, but they recently took considerable interest in Mrs. Eleanor Ramsay's cat.",
+      "translation": "绑架者很少对动物感兴趣。但最近，绑架者却对埃莉诺·拉姆齐夫人的猫产生了兴趣。",
+      "startTime": 16.88,
+      "endTime": 26.35,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "kidnapper",
+            "pos": "n.",
+            "meaning": "绑架者"
           },
           {
-            "word": "Old",
+            "word": "considerable",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "相当大的，值得考虑的"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "Rastus leads an orderly life.",
-      "translation": "",
-      "startTime": 36.36,
-      "endTime": 38.81
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "He usually takes a short walk in the evenings and is always home by seven o'clock.",
-      "translation": "",
-      "startTime": 38.82,
-      "endTime": 45.57,
+      "role": "Narrator",
+      "text": "Mrs. Eleanor Ramsay, a very wealthy old lady, has shared a flat with her cat, Rastus, for a great many years.",
+      "translation": "埃莉诺·拉姆齐夫人是一个非常富有的老妇人，多年来，她一直和她的猫拉斯特斯住在一起。",
+      "startTime": 26.36,
+      "endTime": 36.35,
       "analysis": {
         "words": [
           {
-            "word": "Short",
+            "word": "wealthy",
             "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "富有的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "flat",
+            "pos": "n.",
+            "meaning": "公寓"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "role": "Narrator",
+      "text": "Rastus leads an orderly life.",
+      "translation": "拉斯特斯生活很有规律。",
+      "startTime": 36.36,
+      "endTime": 38.81,
+      "analysis": {
+        "words": [
+          {
+            "word": "orderly",
+            "pos": "adj.",
+            "meaning": "有规律的"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
-      "text": "One evening, however he failed to arrive.",
-      "translation": "",
-      "startTime": 45.58,
-      "endTime": 49.79
+      "role": "Narrator",
+      "text": "He usually takes a short walk in the evenings and is always home by seven o'clock.",
+      "translation": "它通常在傍晚散步，并总是在7点钟以前回家。",
+      "startTime": 38.82,
+      "endTime": 45.57,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "Mrs. Ramsay got very worried.",
-      "translation": "",
-      "startTime": 49.8,
-      "endTime": 52.4,
+      "role": "Narrator",
+      "text": "One evening, however he failed to arrive.",
+      "translation": "可是有一天傍晚，它没有回来。",
+      "startTime": 45.58,
+      "endTime": 49.79,
       "analysis": {
-        "words": [
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "She looked everywhere for him but could not find him.",
-      "translation": "",
-      "startTime": 52.41,
-      "endTime": 57.19,
+      "role": "Narrator",
+      "text": "Mrs. Ramsay got very worried.",
+      "translation": "拉姆齐夫人非常着急。",
+      "startTime": 49.80,
+      "endTime": 52.40,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "Three days after Rastus' disappearance, Mrs. Ramsay received an anonymous letter.",
-      "translation": "",
-      "startTime": 57.2,
-      "endTime": 64.33
+      "role": "Narrator",
+      "text": "She looked everywhere for him but could not find him.",
+      "translation": "她到处寻找，但没有找到。",
+      "startTime": 52.41,
+      "endTime": 57.19,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "The writer stated that Rastus was in safe hands and would be returned immediately if Mrs. Ramsay paid a ransom of ￡1, 000.",
-      "translation": "",
-      "startTime": 64.34,
-      "endTime": 75.72,
+      "role": "Narrator",
+      "text": "Three days after Rastus' disappearance, Mrs. Ramsay received an anonymous letter.",
+      "translation": "拉斯特斯失踪3天后，拉姆齐夫人收到一封匿名信。",
+      "startTime": 57.2,
+      "endTime": 64.33,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "anonymous",
+            "pos": "adj.",
+            "meaning": "匿名的"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "Mrs.Ramsay was instructed to place the money in a cardboard box and to leave it outside her door.",
-      "translation": "",
-      "startTime": 75.73,
-      "endTime": 82.61,
+      "role": "Narrator",
+      "text": "The writer stated that Rastus was in safe hands and would be returned immediately if Mrs. Ramsay paid a ransom of ￡1, 000.",
+      "translation": "写信人声称拉斯特斯在安全的地方，如果拉姆齐夫人支付1,000英镑赎金，它便立即被送还。",
+      "startTime": 64.34,
+      "endTime": 75.72,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "ransom",
+            "pos": "n.",
+            "meaning": "赎金"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "At first, she decided to go to the police,",
-      "translation": "",
-      "startTime": 82.62,
-      "endTime": 86.65,
+      "role": "Narrator",
+      "text": "Mrs.Ramsay was instructed to place the money in a cardboard box and to leave it outside her door.",
+      "translation": "信中指示拉姆齐夫人把钱放在一个纸盒里，留在门外。",
+      "startTime": 75.73,
+      "endTime": 82.61,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "cardboard",
+            "pos": "n.",
+            "meaning": "硬纸板"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "but fearing that she would never see Rastus again--the letter had made that quite clear--she changed her mind.",
-      "translation": "",
-      "startTime": 86.66,
-      "endTime": 96.3,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "She withdrew ￡1000 from her bank and followed the kidnapper's instructions.",
-      "translation": "",
-      "startTime": 96.31,
-      "endTime": 101.96,
+      "role": "Narrator",
+      "text": "At first, she decided to go to the police, but fearing that she would never see Rastus again--the letter had made that quite clear--she changed her mind.",
+      "translation": "起初，她决定报案，但由于担心再也见不到拉斯特斯——信中把这一点说得很清楚——她改变了主意。",
+      "startTime": 82.62,
+      "endTime": 96.30,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s13",
-      "role": "Man",
-      "text": "The next morning, the box had disappeared but Mrs.Ramsay was sure that the kidnapper would keep his word.",
-      "translation": "",
-      "startTime": 101.97,
-      "endTime": 110.26,
+      "id": "s12",
+      "role": "Narrator",
+      "text": "She withdrew ￡1000 from her bank and followed the kidnapper's instructions.",
+      "translation": "她从银行取了1,000英镑，并按照绑架者的指示办了。",
+      "startTime": 96.31,
+      "endTime": 101.96,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "withdraw",
+            "pos": "v.",
+            "meaning": "提取（金钱）"
           }
         ]
       }
     },
     {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "The next morning, the box had disappeared but Mrs.Ramsay was sure that the kidnapper would keep his word.",
+      "translation": "第二天早晨，盒子不见了。但拉姆齐夫人确信绑架者会履行诺言。",
+      "startTime": 101.97,
+      "endTime": 110.26,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Sure enough, Rastus arrived punctually at seven o'clock that evening.",
-      "translation": "",
+      "translation": "果然，那天傍晚7点钟，拉斯特斯准时回来了。",
       "startTime": 110.27,
       "endTime": 116.57,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "punctually",
+            "pos": "adv.",
+            "meaning": "准时地"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He looked very well, though he was rather thirsty, for he drank half a bottle of milk.",
-      "translation": "",
+      "translation": "它看上去身体很好，只是渴得很，因为它喝了半瓶牛奶。",
       "startTime": 116.58,
       "endTime": 124.03,
       "analysis": {
-        "words": [
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          },
-          {
-            "word": "Thirsty",
-            "pos": "adj.",
-            "meaning": "口渴的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The police were astounded when Mrs. Ramsay told them what she had done.",
-      "translation": "",
+      "translation": "当拉姆齐夫人把她所做的事告诉警察时，他们感到大为吃惊。",
       "startTime": 124.04,
       "endTime": 129.63,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "astounded",
+            "pos": "v.",
+            "meaning": "使震惊"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "She explained that Rastus was very dear to her.",
-      "translation": "",
+      "translation": "她解释说拉斯特斯对她是非常宝贵的。",
       "startTime": 129.64,
       "endTime": 133.37,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Considering the amount she paid, he was dear in more ways than one!",
-      "translation": "",
+      "translation": "考虑到她所支付的那笔钱，这只猫确实是贵重的，而且不止在一个方面！",
       "startTime": 133.38,
-      "endTime": 138.38
+      "endTime": 143.38,
+      "analysis": {
+        "words": []
+      }
     }
   ]
 }

@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 48",
-      "translation": "",
+      "translation": "第48课",
       "startTime": 0.43,
       "endTime": 2.44,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The silent village",
-      "translation": "",
+      "translation": "沉寂的村庄",
       "startTime": 2.45,
-      "endTime": 10
+      "endTime": 10.0,
+      "analysis": {
+        "words": [
+          {
+            "word": "silent",
+            "pos": "adj.",
+            "meaning": "沉默的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,624 +46,568 @@
       "startTime": 10.01,
       "endTime": 22.97,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why was the village silent?",
-      "translation": "",
+      "translation": "为什么村庄是沉寂的？",
       "startTime": 10.01,
-      "endTime": 14.6
+      "endTime": 14.6,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "In this much-travelled world, there are still thousands of places which are inaccessible to tourists.",
-      "translation": "",
+      "translation": "在这个旅游业发达的世界里，仍有成千上万个游客无法到达的地方。",
       "startTime": 14.61,
       "endTime": 23.06,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "inaccessible",
+            "pos": "adj.",
+            "meaning": "达不到的"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We always assume that villagers in remote places are friendly and hospitable.",
-      "translation": "",
+      "translation": "我们总是认为偏远地区的人们是友好且好客的。",
       "startTime": 23.07,
       "endTime": 29.73,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "remote",
+            "pos": "adj.",
+            "meaning": "偏远的"
+          },
+          {
+            "word": "hospitable",
+            "pos": "adj.",
+            "meaning": "好客的"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "But people who are cut off not only from foreign tourists, but even from their own countrymen can be hostile to travellers.",
-      "translation": "",
+      "translation": "但那些不仅与外国游客隔绝，甚至与本国同胞也隔绝的人们，可能对旅行者怀有敌意。",
       "startTime": 29.74,
       "endTime": 40.01,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "hostile",
+            "pos": "adj.",
+            "meaning": "敌对的"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Visits to really remote villages are seldom enjoyable--as my wife and I discovered during a tour through the Balkans.",
-      "translation": "",
+      "translation": "去真正偏远的村庄旅行很少是愉快的——正如我妻子和我，在一次穿越巴尔干半岛的旅行中发现的那样。",
       "startTime": 40.02,
       "endTime": 48.8,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "seldom",
+            "pos": "adv.",
+            "meaning": "很少"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We had spent several days in a small town and visited a number of old churches in the vicinity.",
-      "translation": "",
+      "translation": "我们在一个小镇住了几天，参观了附近的许多古老教堂。",
       "startTime": 48.81,
       "endTime": 56.12,
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "vicinity",
             "pos": "n.",
-            "meaning": "号码，数字"
-          },
-          {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "邻近地区"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "These attracted many visitors, for they were not only of great architectural interest, but contained a large number of beautifully preserved frescoes as well.",
-      "translation": "",
+      "translation": "这些教堂吸引了许多游客，因为它们不仅具有极大的建筑研究价值，而且还包含大量保存完好的壁画。",
       "startTime": 56.13,
       "endTime": 67.94,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "Number",
-            "pos": "n.",
-            "meaning": "号码，数字"
-          },
-          {
-            "word": "Well",
+            "word": "architectural",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "建筑学的"
+          },
+          {
+            "word": "frescoes",
+            "pos": "n.",
+            "meaning": "壁画"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "On the day before our departure, several bus loads of tourists descended on the town.",
-      "translation": "",
+      "translation": "在我们出发的前一天，好几辆公车的游客突然降临到这个小镇。",
       "startTime": 67.95,
       "endTime": 74.49,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "This was more than we could bear, so we decided to spend our last day exploring the countryside.",
-      "translation": "",
-      "startTime": 74.5,
-      "endTime": 82.85,
-      "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "departure",
+            "pos": "n.",
+            "meaning": "离开"
+          },
+          {
+            "word": "descend",
+            "pos": "v.",
+            "meaning": "下沉，突然降临"
           }
         ]
       }
     },
     {
+      "id": "s7",
+      "role": "Narrator",
+      "text": "This was more than we could bear, so we decided to spend our last day exploring the countryside.",
+      "translation": "这超出了我们的承受能力，所以我们决定利用最后一天去勘探农村地区。",
+      "startTime": 74.5,
+      "endTime": 82.85,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Taking a path which led out of the town, we crossed a few fields until we came to a dense wood.",
-      "translation": "",
+      "translation": "沿着一条通往镇外的小路，我们穿过几块田地，直到来到一片茂密的树林。",
       "startTime": 82.86,
-      "endTime": 90.37
+      "endTime": 90.37,
+      "analysis": {
+        "words": [
+          {
+            "word": "dense",
+            "pos": "adj.",
+            "meaning": "密集的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We expected the path to end abruptly, but we found that it traced its way through the trees.",
-      "translation": "",
+      "translation": "我们原以为小路会突然中断，但我们发现它在树丛中穿行。",
       "startTime": 90.38,
       "endTime": 98.21,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "abruptly",
+            "pos": "adv.",
+            "meaning": "突然地"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We tramped through the wood for over two hours until we arrived at a deep stream.",
-      "translation": "",
+      "translation": "我们在林中跋涉了两个多小时，直到来到一条深溪边。",
       "startTime": 98.22,
       "endTime": 104.53,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "tramp",
+            "pos": "v.",
+            "meaning": "徒步走"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We could see that the path continued on the other side, but we had no idea how we could get across the stream.",
-      "translation": "",
+      "translation": "我们可以看到小路在对岸继续延伸，但我们不知道该如何过溪。",
       "startTime": 104.54,
       "endTime": 113.49,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Suddenly my wife spotted a boat moored to the bank.",
-      "translation": "",
+      "translation": "突然间，我妻子发现在岸边停泊着一只船。",
       "startTime": 113.5,
       "endTime": 117.75,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "moor",
+            "pos": "v.",
+            "meaning": "停泊"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "In it there was a boatman fast asleep.",
-      "translation": "",
+      "translation": "船里有一个船夫正在熟睡。",
       "startTime": 117.76,
       "endTime": 121.37,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "We gently woke him up and asked him to ferry us to the other side.",
+      "translation": "我们轻轻地摇醒了他，请他把我们渡到对岸。",
+      "startTime": 121.38,
+      "endTime": 126.66,
+      "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "ferry",
+            "pos": "v.",
+            "meaning": "渡运"
           }
         ]
       }
     },
     {
-      "id": "s14",
-      "role": "Woman",
-      "text": "We gently woke him up and asked him to ferry us to the other side.",
-      "translation": "",
-      "startTime": 121.38,
-      "endTime": 126.66
-    },
-    {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Though he was reluctant to do so at first, we eventually persuaded him to take us.",
-      "translation": "",
+      "translation": "虽然起初他不情愿这样做，但我们最终说服了他带我们过去。",
       "startTime": 126.67,
       "endTime": 133.22,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "reluctant",
+            "pos": "adj.",
+            "meaning": "勉强的，不情愿的"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The path led to a tiny village perched on the steep sides of a mountain.",
-      "translation": "",
+      "translation": "小路通向一个坐落在陡峭山坡上的小村庄。",
       "startTime": 133.23,
-      "endTime": 139.38
+      "endTime": 139.38,
+      "analysis": {
+        "words": [
+          {
+            "word": "perch",
+            "pos": "v.",
+            "meaning": "停留，歇息"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The place consisted of a straggling unmade road which was lined on either side by small houses.",
-      "translation": "",
+      "translation": "那个地方由一条坎坷不平、没有修筑过的路组成，路的兩旁排列着一间间小房子。",
       "startTime": 139.39,
-      "endTime": 146.92
+      "endTime": 146.92,
+      "analysis": {
+        "words": [
+          {
+            "word": "straggling",
+            "pos": "adj.",
+            "meaning": "散乱的"
+          },
+          {
+            "word": "unmade",
+            "pos": "adj.",
+            "meaning": "未铺成的"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Even under a clear blue sky, the village looked forbidding, as all the houses were built of grey mud bricks.",
-      "translation": "",
+      "translation": "即使在晴朗的蓝天下，村庄看起来也令人心惊胆战，因为所有的房子都是用灰色的泥砖盖成的。",
       "startTime": 146.93,
       "endTime": 156.08,
       "analysis": {
         "words": [
           {
-            "word": "Blue",
+            "word": "forbidding",
             "pos": "adj.",
-            "meaning": "蓝色的"
-          },
-          {
-            "word": "Grey",
-            "pos": "adj.",
-            "meaning": "灰色的"
+            "meaning": "令人畏惧的"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The village seemed deserted,",
-      "translation": "",
+      "translation": "村子似乎已经荒废了，",
       "startTime": 156.09,
-      "endTime": 158.48
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "the only sign of life being an ugly-looking black goat on a short length of rope tied to a tree in a field nearby.",
-      "translation": "",
-      "startTime": 158.49,
-      "endTime": 169.11,
+      "endTime": 158.48,
       "analysis": {
         "words": [
           {
-            "word": "Black",
+            "word": "deserted",
             "pos": "adj.",
-            "meaning": "黑色的"
-          },
-          {
-            "word": "Short",
-            "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "荒废的"
           }
         ]
+      }
+    },
+    {
+      "id": "s20",
+      "role": "Narrator",
+      "text": "the only sign of life being an ugly-looking black goat on a short length of rope tied to a tree in a field nearby.",
+      "translation": "唯一的生命迹象是附近田里一棵树上系着一只样子难看的黑山羊。",
+      "startTime": 158.49,
+      "endTime": 169.11,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s21",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Sitting down on a dilapidated wooden fence near the field, we opened a couple of tins of sardines and had a picnic lunch.",
-      "translation": "",
+      "translation": "我们坐在田边破旧的木篱笆上，打开两罐沙丁鱼，吃了一顿野餐式的午餐。",
       "startTime": 169.12,
-      "endTime": 178.84
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "All at once, I noticed that my wife seemed to be filled with alarm.",
-      "translation": "",
-      "startTime": 178.85,
-      "endTime": 184.71,
+      "endTime": 178.84,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "dilapidated",
+            "pos": "adj.",
+            "meaning": "陈旧的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "sardine",
+            "pos": "n.",
+            "meaning": "沙丁鱼"
           }
         ]
       }
     },
     {
+      "id": "s22",
+      "role": "Narrator",
+      "text": "All at once, I noticed that my wife seemed to be filled with alarm.",
+      "translation": "突然间，我注意到我妻子似乎充满了恐慌。",
+      "startTime": 178.85,
+      "endTime": 184.71,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s23",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Looking up I saw that we were surrounded by children in rags who were looking at us silently as we ate.",
-      "translation": "",
+      "translation": "抬头一看，我发现我们被一群衣衫褴褛的孩子包围了，他们正在我们吃饭时静静地注视着我们。",
       "startTime": 184.72,
       "endTime": 193.29,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "rag",
+            "pos": "n.",
+            "meaning": "破烂衣服"
           }
         ]
       }
     },
     {
       "id": "s24",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We offered them food and spoke to them kindly, but they remained motionless.",
-      "translation": "",
+      "translation": "我们给他们食物，亲切地跟他们说话，但他们一动也不动。",
       "startTime": 193.3,
-      "endTime": 199.92
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "I concluded that they were simply shy of strangers.",
-      "translation": "",
-      "startTime": 199.93,
-      "endTime": 204.11,
+      "endTime": 199.92,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "motionless",
+            "pos": "adj.",
+            "meaning": "不动地"
           }
         ]
+      }
+    },
+    {
+      "id": "s25",
+      "role": "Narrator",
+      "text": "I concluded that they were simply shy of strangers.",
+      "translation": "我断定他们只是怕生。",
+      "startTime": 199.93,
+      "endTime": 204.11,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s26",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "When we later walked down the main street of the village, we were followed by a silent procession of children.",
-      "translation": "",
+      "translation": "当我们后来走上村里的主干道时，一群沉默的孩子跟在了我们后面。",
       "startTime": 204.12,
-      "endTime": 212.45
-    },
-    {
-      "id": "s27",
-      "role": "Man",
-      "text": "The village which had seemed deserted, immediately came to life.",
-      "translation": "",
-      "startTime": 212.46,
-      "endTime": 218.23
-    },
-    {
-      "id": "s28",
-      "role": "Woman",
-      "text": "Faces appeared at windows.",
-      "translation": "",
-      "startTime": 218.24,
-      "endTime": 220.39,
+      "endTime": 212.45,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "procession",
+            "pos": "n.",
+            "meaning": "队列"
           }
         ]
       }
     },
     {
+      "id": "s27",
+      "role": "Narrator",
+      "text": "The village which had seemed deserted, immediately came to life.",
+      "translation": "原本似乎荒凉的村庄，立刻变得生机勃勃。",
+      "startTime": 212.46,
+      "endTime": 218.23,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s28",
+      "role": "Narrator",
+      "text": "Faces appeared at windows.",
+      "translation": "窗户后面出现了一张张脸。",
+      "startTime": 218.24,
+      "endTime": 220.39,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s29",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Men in shirt sleeves stood outside their houses and glared at us.",
-      "translation": "",
+      "translation": "穿着衬衫的男人们站在屋子外面，怒气冲冲地盯着我们。",
       "startTime": 220.4,
       "endTime": 225.77,
       "analysis": {
         "words": [
           {
-            "word": "Shirt",
-            "pos": "n.",
-            "meaning": "衬衫"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "glare",
+            "pos": "v.",
+            "meaning": "怒目而视"
           }
         ]
       }
     },
     {
       "id": "s30",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Old women in black shawls peered at us from doorways.",
-      "translation": "",
+      "translation": "围着黑色披肩的老妇人们从门口窥视着我们。",
       "startTime": 225.78,
       "endTime": 230.72,
       "analysis": {
         "words": [
           {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
+            "word": "shawl",
+            "pos": "n.",
+            "meaning": "披肩"
           },
           {
-            "word": "Black",
-            "pos": "adj.",
-            "meaning": "黑色的"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "peer",
+            "pos": "v.",
+            "meaning": "窥视"
           }
         ]
       }
     },
     {
       "id": "s31",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The most frightening thing of all was that not a sound could be heard.",
-      "translation": "",
+      "translation": "最可怕的是，连一点声音都听不到。",
       "startTime": 230.73,
       "endTime": 236.63,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s32",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "There was no doubt that we were unwelcome visitors.",
-      "translation": "",
+      "translation": "毫无疑问，我们是不受欢迎的游客。",
       "startTime": 236.64,
       "endTime": 241.53,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s33",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We needed no further warning.",
-      "translation": "",
+      "translation": "我们不需要进一步的警告。",
       "startTime": 241.54,
-      "endTime": 244.24
+      "endTime": 244.24,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s34",
-      "role": "Woman",
-      "text": "Turning back down the main street,",
-      "translation": "",
-      "startTime": 244.25,
-      "endTime": 246.59
-    },
-    {
-      "id": "s35",
-      "role": "Man",
-      "text": "we quickened our pace and made our way rapidly towards the stream where we hoped the boatman was waiting.",
-      "translation": "",
-      "startTime": 246.6,
+      "role": "Narrator",
+      "text": "Turning back down the main street, we quickened our pace and made our way rapidly towards the stream where we hoped the boatman was waiting.",
+      "translation": "转过主街向回走，我们加快了脚步，迅速朝小溪走去，希望那名船夫正在那里等候。",
+      "startTime": 10.01,
       "endTime": 251.6,
       "analysis": {
         "words": []

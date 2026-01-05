@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 42",
-      "translation": "",
+      "translation": "第42课",
       "startTime": 0.2,
       "endTime": 2.19,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,75 +25,43 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Modern cavemen",
-      "translation": "",
+      "translation": "现代穴居人",
       "startTime": 2.2,
-      "endTime": 9.45
+      "endTime": 9.45,
+      "analysis": {
+        "words": [
+          {
+            "word": "caveman",
+            "pos": "n.",
+            "meaning": "穴居人"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
-      "startTime": 9.459999999999999,
+      "startTime": 9.46,
       "endTime": 23.24,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "With what does the writer compare the Gouffre Berger?",
-      "translation": "",
+      "translation": "作者把 Gouffre Berger 洞穴和什么作比较？",
       "startTime": 9.46,
       "endTime": 15.3,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "compare",
+            "pos": "v.",
+            "meaning": "比较"
           }
         ]
       }
@@ -102,517 +70,554 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Cave exploration, or pot-holing, as it has come to be known, is a relatively new sport.",
-      "translation": "",
+      "translation": "洞穴探险，或者像现在人们所熟知的“洞穴运动”，是一项相对较新的运动。",
       "startTime": 15.31,
       "endTime": 23.33,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "exploration",
+            "pos": "n.",
+            "meaning": "勘探，探险"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "pot-holing",
+            "pos": "n.",
+            "meaning": "洞穴运动"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Perhaps it is the desire for solitude or the chance of making an unexpected discovery that lures people down to the depths of the earth.",
-      "translation": "",
+      "translation": "也许是引人离群索居的愿望，或者是由于有可能获得意外的发现，才吸引着人们深入到地层深处。",
       "startTime": 23.34,
       "endTime": 34.41,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "solitude",
+            "pos": "n.",
+            "meaning": "孤独，寂寞"
           },
           {
-            "word": "Is",
+            "word": "lured",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "引诱"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It is impossible to give a satisfactory explanation for a pot-holer's motives.",
-      "translation": "",
+      "translation": "要给洞穴运动者的动机一个满意的解释是不可能的。",
       "startTime": 34.42,
       "endTime": 40.91,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "satisfactory",
+            "pos": "adj.",
+            "meaning": "满意的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "motive",
+            "pos": "n.",
+            "meaning": "动机"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "For him, caves have the same peculiar fascination which high mountains have for the climber.",
-      "translation": "",
+      "translation": "对他来说，洞穴有着与高山对登山者一样的特殊魅力。",
       "startTime": 40.92,
-      "endTime": 48.98
+      "endTime": 48.98,
+      "analysis": {
+        "words": [
+          {
+            "word": "peculiar",
+            "pos": "adj.",
+            "meaning": "特殊的"
+          },
+          {
+            "word": "fascination",
+            "pos": "n.",
+            "meaning": "魅力"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "They arouse instincts which can only be dimly understood.",
-      "translation": "",
+      "translation": "它们激发起一种只能被模糊理解的天性。",
       "startTime": 48.99,
       "endTime": 54.41,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "arouse",
+            "pos": "v.",
+            "meaning": "唤醒，激发"
+          },
+          {
+            "word": "instinct",
+            "pos": "n.",
+            "meaning": "本能"
+          }
+        ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Exploring really deep caves is not a task for the Sunday afternoon rambler.",
-      "translation": "",
+      "translation": "勘探那些真正深邃的洞穴不是星期天下午漫步者所能胜任的任务。",
       "startTime": 54.42,
       "endTime": 60.18,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "rambler",
+            "pos": "n.",
+            "meaning": "漫步者"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Such undertakings require the precise planning and foresight of military operations.",
-      "translation": "",
+      "translation": "这种探险活动需要有军事行动那样的周密计划和先见之明。",
       "startTime": 60.19,
-      "endTime": 68.03
+      "endTime": 68.03,
+      "analysis": {
+        "words": [
+          {
+            "word": "undertaking",
+            "pos": "n.",
+            "meaning": "任务，事业"
+          },
+          {
+            "word": "foresight",
+            "pos": "n.",
+            "meaning": "先见之明"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It can take as long as eight days to rig up rope ladders and to establish supply bases before a descent can be made into a very deep cave.",
-      "translation": "",
+      "translation": "在进入一个很深的洞穴之前，架设绳梯及建立供应基地可能需要长达8天的时间。",
       "startTime": 68.04,
       "endTime": 80.6,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "rig",
+            "pos": "v.",
+            "meaning": "架设"
           },
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "descent",
+            "pos": "n.",
+            "meaning": "下降"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Precautions of this sort are necessary, for it is impossible to foretell the exact nature of the difficulties which will confront the pot-holer.",
-      "translation": "",
+      "translation": "这类预防措施是必要的，因为无法预见洞穴运动者将面临的困难的性质。",
       "startTime": 80.61,
       "endTime": 92.05,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "precaution",
+            "pos": "n.",
+            "meaning": "预防措施"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "foretell",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "预测"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The deepest known cave in the world is the Gouffre Berger near Grenoble.",
-      "translation": "",
+      "translation": "世界上已知最深的洞穴是靠近格勒诺布尔的 Gouffre Berger。",
       "startTime": 92.06,
       "endTime": 98.65,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It extends to a depth of 3, 723 feet.",
-      "translation": "",
+      "translation": "它深达3,723英尺。",
       "startTime": 98.66,
       "endTime": 104.32,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "This immense chasm has been formed by an underground stream which has tunnelled a course through a flaw in the rocks.",
-      "translation": "",
+      "translation": "这个巨大的深渊是由一条地下河流在岩石的缝隙中冲刷出一条通道而形成的。",
       "startTime": 104.33,
       "endTime": 113.64,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "immense",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "chasm",
+            "pos": "n.",
+            "meaning": "深渊"
+          },
+          {
+            "word": "flaw",
+            "pos": "n.",
+            "meaning": "瑕疵，裂缝"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The entrance to the cave is on a plateau in the Dauphine Alps.",
-      "translation": "",
+      "translation": "洞穴的入口在多芬阿尔卑斯山脉的一个高原上。",
       "startTime": 113.65,
       "endTime": 120.12,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "plateau",
+            "pos": "n.",
+            "meaning": "高原"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "As it is only six feet across, it is barely noticeable.",
-      "translation": "",
+      "translation": "由于它的直径只有6英尺，几乎很难被察觉。",
       "startTime": 120.13,
       "endTime": 125.38,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The cave might never have been discovered had not the entrance been spotted by the distinguished French pot-holer, Berger.",
-      "translation": "",
+      "translation": "如果入口没有被著名的法国洞穴运动者 Berger 发现，这个洞穴可能永远不会被发现。",
       "startTime": 125.39,
       "endTime": 134.99,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "French",
+            "word": "distinguished",
             "pos": "adj.",
-            "meaning": "法国的，法语"
+            "meaning": "著名的，杰出的"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Since its discovery, it has become a sort of pot-holers' Everest.",
-      "translation": "",
-      "startTime": 135,
+      "translation": "自从它被发现以后，它就成了洞穴运动者的珠穆朗玛峰。",
+      "startTime": 135.00,
       "endTime": 140.65,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Though a number of descents have been made, much of it still remains to be explored.",
-      "translation": "",
+      "translation": "虽然已经进行过多次下潜，但其中很大一部分仍有待勘探。",
       "startTime": 140.66,
       "endTime": 147.84,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s17",
+      "role": "Narrator",
+      "text": "A team of pot-holers recently went down the Gouffre Berger.",
+      "translation": "一支洞穴探险队最近进入了 Gouffre Berger 洞。",
+      "startTime": 147.85,
+      "endTime": 153.26,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s18",
+      "role": "Narrator",
+      "text": "After entering the narrow gap on the plateau, they climbed down the steep sides of the cave until they came to a narrow corridor.",
+      "translation": "在进入高原上的狭长裂缝后，他们沿着陡峭的洞壁往下爬，直到来到一条狭长的走廊。",
+      "startTime": 153.27,
+      "endTime": 163.61,
+      "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "steep",
+            "pos": "adj.",
+            "meaning": "陡峭的"
+          },
+          {
+            "word": "corridor",
             "pos": "n.",
-            "meaning": "号码，数字"
-          },
-          {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "meaning": "走廊"
           }
         ]
       }
     },
     {
-      "id": "s17",
-      "role": "Man",
-      "text": "A team of pot-holers recently went down the Gouffre Berger.",
-      "translation": "",
-      "startTime": 147.85,
-      "endTime": 153.26
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "After entering the narrow gap on the plateau,",
-      "translation": "",
-      "startTime": 153.27,
-      "endTime": 156.95
-    },
-    {
       "id": "s19",
-      "role": "Man",
-      "text": "they climbed down the steep sides of the cave until they came to a narrow corridor.",
-      "translation": "",
-      "startTime": 156.96,
-      "endTime": 163.61
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "They had to edge their way along this,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "They had to edge their way along this, sometimes wading across shallow streams, or swimming across deep pools.",
+      "translation": "他们不得不沿着走廊侧身蛇行，有时趟过浅溪，有时游过深水池。",
       "startTime": 163.62,
-      "endTime": 166.28,
+      "endTime": 172.61,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "edge",
+            "pos": "v.",
+            "meaning": "侧着身子移动"
+          },
+          {
+            "word": "wading",
+            "pos": "v.",
+            "meaning": "趟水"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "role": "Narrator",
+      "text": "Suddenly they came to a waterfall which dropped into an underground lake at the bottom of the cave.",
+      "translation": "他们突然来到一个瀑布前，瀑布落入洞底的一个地下湖中。",
+      "startTime": 172.62,
+      "endTime": 180.68,
+      "analysis": {
+        "words": [
+          {
+            "word": "waterfall",
+            "pos": "n.",
+            "meaning": "瀑布"
           }
         ]
       }
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "sometimes wading across shallow streams, or swimming across deep pools.",
-      "translation": "",
-      "startTime": 166.29,
-      "endTime": 172.61
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "Suddenly they came to a waterfall which dropped into an underground lake at the bottom of the cave.",
-      "translation": "",
-      "startTime": 172.62,
-      "endTime": 180.68,
+      "role": "Narrator",
+      "text": "They plunged into the lake, and after loading their gear on an inflatable rubber dinghy, let the current carry them to the other side.",
+      "translation": "他们跳入湖中，把装备装上一只充气橡皮艇后，让水流把他们带到对岸。",
+      "startTime": 180.69,
+      "endTime": 191.66,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "plunge",
+            "pos": "v.",
+            "meaning": "投入，陷入"
+          },
+          {
+            "word": "inflatable",
+            "pos": "adj.",
+            "meaning": "可充气的"
+          },
+          {
+            "word": "dinghy",
+            "pos": "n.",
+            "meaning": "小船"
           }
         ]
       }
     },
     {
-      "id": "s23",
-      "role": "Man",
-      "text": "They plunged into the lake, and after loading their gear on an inflatable rubber dinghy, let the current carry them to the other side.",
-      "translation": "",
-      "startTime": 180.69,
-      "endTime": 191.66,
+      "id": "s22",
+      "role": "Narrator",
+      "text": "To protect themselves from the icy water, they had to wear special rubber suits.",
+      "translation": "为了保护自己免受冰冷湖水的侵害，他们必须穿着特制的橡胶服。",
+      "startTime": 191.67,
+      "endTime": 198.57,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s24",
-      "role": "Woman",
-      "text": "To protect themselves from the icy water, they had to wear special rubber suits.",
-      "translation": "",
-      "startTime": 191.67,
-      "endTime": 198.57
-    },
-    {
-      "id": "s25",
-      "role": "Man",
+      "id": "s23",
+      "role": "Narrator",
       "text": "At the far end of the lake, they came to huge piles of rubble which had been washed up by the water.",
-      "translation": "",
+      "translation": "在湖的尽头，他们来到了被水冲上岸的一堆堆巨大的碎石堆前。",
       "startTime": 198.58,
       "endTime": 206.86,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "rubble",
+            "pos": "n.",
+            "meaning": "碎石"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "role": "Narrator",
+      "text": "In this part of the cave, they could hear an insistent booming sound which they found was caused by a small waterspout shooting down into a pool from the roof of the cave.",
+      "translation": "在洞穴的这一部分，他们可以听到一阵阵持续的轰鸣声，后来发现那是由从洞顶射向水池的小喷泉引起的。",
+      "startTime": 206.87,
+      "endTime": 220.41,
+      "analysis": {
+        "words": [
+          {
+            "word": "insistent",
+            "pos": "adj.",
+            "meaning": "持续的"
+          },
+          {
+            "word": "booming",
+            "pos": "adj.",
+            "meaning": "轰鸣的"
+          },
+          {
+            "word": "waterspout",
+            "pos": "n.",
+            "meaning": "喷口"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s25",
+      "role": "Narrator",
+      "text": "Squeezing through a cleft in the rocks, the pot-holers arrived at an enormous cavern, the size of a huge concert hall.",
+      "translation": "洞穴运动者从岩石裂缝中挤过去，来到一个巨大的洞穴，它有大型音乐厅那么大。",
+      "startTime": 220.42,
+      "endTime": 229.71,
+      "analysis": {
+        "words": [
+          {
+            "word": "cleft",
+            "pos": "n.",
+            "meaning": "裂缝"
+          },
+          {
+            "word": "cavern",
+            "pos": "n.",
+            "meaning": "大洞穴"
           }
         ]
       }
     },
     {
       "id": "s26",
-      "role": "Woman",
-      "text": "In this part of the cave, they could hear an insistent booming sound",
-      "translation": "",
-      "startTime": 206.87,
-      "endTime": 212.16,
+      "role": "Narrator",
+      "text": "After switching on powerful arc lights, they saw great stalagmites--some of them over forty feet high--rising up like tree-trunks to meet the stalactites suspended from the roof.",
+      "translation": "在打开功率强大的弧光灯后，他们看到了巨大的石笋——有的高40多英尺——像树干一样挺立着，去接从洞顶悬挂下来的钟乳石。",
+      "startTime": 229.72,
+      "endTime": 245.42,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "arc",
+            "pos": "n.",
+            "meaning": "弧，电弧"
+          },
+          {
+            "word": "stalagmite",
+            "pos": "n.",
+            "meaning": "石笋"
+          },
+          {
+            "word": "stalactite",
+            "pos": "n.",
+            "meaning": "钟乳石"
           }
         ]
       }
     },
     {
       "id": "s27",
-      "role": "Man",
-      "text": "which they found was caused by a small waterspout shooting down into a pool from the roof of the cave.",
-      "translation": "",
-      "startTime": 212.17,
-      "endTime": 220.41
+      "role": "Narrator",
+      "text": "Round about, piles of limestone glistened in all the colours of the rainbow.",
+      "translation": "在周围，一堆堆石灰石闪烁着彩虹般的各种颜色。",
+      "startTime": 245.43,
+      "endTime": 252.13,
+      "analysis": {
+        "words": [
+          {
+            "word": "limestone",
+            "pos": "n.",
+            "meaning": "石灰石"
+          },
+          {
+            "word": "glisten",
+            "pos": "v.",
+            "meaning": "闪烁"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
-      "role": "Woman",
-      "text": "Squeezing through a cleft in the rocks, the pot-holers arrived at an enormous cavern, the size of a huge concert hall.",
-      "translation": "",
-      "startTime": 220.42,
-      "endTime": 229.71,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s29",
-      "role": "Man",
-      "text": "After switching on powerful arc lights,",
-      "translation": "",
-      "startTime": 229.72,
-      "endTime": 232.99
-    },
-    {
-      "id": "s30",
-      "role": "Woman",
-      "text": "they saw great stalagmites--some of them over forty feet high--rising up like tree-trunks to meet the stalactites suspended from the roof.",
-      "translation": "",
-      "startTime": 233,
-      "endTime": 245.42,
-      "analysis": {
-        "words": [
-          {
-            "word": "Meet",
-            "pos": "v.",
-            "meaning": "遇见，结识"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s31",
-      "role": "Man",
-      "text": "Round about, piles of limestone glistened in all the colours of the rainbow.",
-      "translation": "",
-      "startTime": 245.43,
-      "endTime": 252.13
-    },
-    {
-      "id": "s32",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "In the eerie silence of the cavern, the only sound that could be heard was made by water which dripped continuously from the high dome above them.",
-      "translation": "",
+      "translation": "在洞穴那种阴森森的寂静中，唯一能听到的声音是从他们头上方高高的圆顶上不断滴下的水声。",
       "startTime": 252.14,
-      "endTime": 257.14,
+      "endTime": 262.14,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "eerie",
+            "pos": "adj.",
+            "meaning": "阴森的"
+          },
+          {
+            "word": "dome",
+            "pos": "n.",
+            "meaning": "圆顶"
           }
         ]
       }

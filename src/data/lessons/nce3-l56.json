@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 56",
-      "translation": "",
+      "translation": "第56课",
       "startTime": 0.32,
       "endTime": 2.54,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,7 +25,7 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Our neighbour, the river",
-      "translation": "",
+      "translation": "我们的邻居——这条河",
       "startTime": 2.55,
       "endTime": 9.4,
       "analysis": {
@@ -40,55 +40,14 @@
       "startTime": 9.41,
       "endTime": 21.16,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why had the neighbours left their farm?",
-      "translation": "",
+      "translation": "为什么邻居们离开了他们的农场？",
       "startTime": 9.41,
       "endTime": 13.9,
       "analysis": {
@@ -99,302 +58,178 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "The river which forms the eastern boundary of our farm has always played an important part in our lives.",
-      "translation": "",
+      "translation": "形成我们农场东部边界的那条河，一直在我们的生活中扮演着重要的角色。",
       "startTime": 13.91,
       "endTime": 21.25,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "Without it we could not make a living.",
-      "translation": "",
-      "startTime": 21.26,
-      "endTime": 24.32,
-      "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "boundary",
+            "pos": "n.",
+            "meaning": "边界"
           }
         ]
       }
     },
     {
-      "id": "s2",
-      "role": "Woman",
-      "text": "There is only enough spring water to supply the needs of the house so we have to pump from the river for farm use.",
-      "translation": "",
-      "startTime": 24.33,
+      "id": "s1",
+      "role": "Narrator",
+      "text": "Without it we could not make a living. There is only enough spring water to supply the needs of the house so we have to pump from the river for farm use.",
+      "translation": "没有它我们就无法谋生。泉水仅够供应屋内的需要，所以我们必须从河里抽水供农场使用。",
+      "startTime": 21.26,
       "endTime": 32.58,
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "pump",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
+            "meaning": "抽水"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "We tell the river all our secrets.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "We tell the river all our secrets. We know instinctively, just as beekeepers with their bees, that misfortune might overtake us if the important events of our lives were not related to it.",
+      "translation": "我们把所有的秘密都告诉这条河。我们本能地知道，就像养蜂人对着他们的蜜蜂一样，如果我们生活中的大事不告诉它，不幸可能会降临到我们身上。",
       "startTime": 32.59,
-      "endTime": 35.35,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "We know instinctively, just as beekeepers with their bees,",
-      "translation": "",
-      "startTime": 35.36,
-      "endTime": 39.97,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "that misfortune might overtake us if the important events of our lives were not related to it.",
-      "translation": "",
-      "startTime": 39.98,
       "endTime": 48.61,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
+            "word": "instinctively",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "本能地"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "misfortune",
+            "pos": "n.",
+            "meaning": "不幸"
+          },
+          {
+            "word": "overtake",
+            "pos": "v.",
+            "meaning": "（灾难等）降临，赶上"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "We have special river birthday parties in the summer.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "We have special river birthday parties in the summer. Sometimes we go upstream to a favourite backwater, sometimes we have our party at the boathouse, which a predecessor of ours at the farm built in the meadow hard by the deepest pool for swimming and diving.",
+      "translation": "夏天我们有特别的河边生日会。有时我们逆流而上到一处喜欢的停滞水域，有时我们在船屋里聚会。那座船屋是我们农场的一个前任房主盖在草场上的，紧挨着最深的深潭，可以用来游泳和跳水。",
       "startTime": 48.62,
-      "endTime": 52.62
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "Sometimes we go upstream to a favourite backwater,",
-      "translation": "",
-      "startTime": 52.63,
-      "endTime": 56.48
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "sometimes we have our party at the boathouse,",
-      "translation": "",
-      "startTime": 56.49,
-      "endTime": 59.6,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "which a predecessor of ours at the farm built in the meadow hard by the deepest pool for swimming and diving.",
-      "translation": "",
-      "startTime": 59.61,
       "endTime": 67.73,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "upstream",
+            "pos": "adv.",
+            "meaning": "向上游"
+          },
+          {
+            "word": "backwater",
+            "pos": "n.",
+            "meaning": "回水，停滞水域"
+          },
+          {
+            "word": "predecessor",
+            "pos": "n.",
+            "meaning": "前任"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "In a heat wave we choose a midnight birthday party and that is the most exciting of all.",
-      "translation": "",
+      "translation": "在热浪袭人的日子里，我们会选择举行午夜生日晚会，那是所有聚会中最令人兴奋的。",
       "startTime": 67.74,
       "endTime": 74.49,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "We welcome the seasons by the riverside, crowning the youngest girl with flowers in the spring,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "We welcome the seasons by the riverside, crowning the youngest girl with flowers in the spring, holding a summer festival on Midsummer Eve, giving thanks for the harvest in the autumn, and throwing a holly wreath into the current in the winter.",
+      "translation": "我们在河边迎接四季，春天给最年轻的女孩戴上花冠，仲夏夜举行夏季祭典，秋天感谢收获，冬天把冬青花环抛入河流中。",
       "startTime": 74.5,
-      "endTime": 81.07
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "holding a summer festival on Midsummer Eve, giving thanks for the harvest in the autumn, and throwing a holly wreath into the current in the winter.",
-      "translation": "",
-      "startTime": 81.08,
       "endTime": 92.65,
       "analysis": {
         "words": [
           {
-            "word": "Thanks",
+            "word": "midsummer",
             "pos": "n.",
-            "meaning": "谢谢"
+            "meaning": "仲夏"
+          },
+          {
+            "word": "holly",
+            "pos": "n.",
+            "meaning": "冬青"
+          },
+          {
+            "word": "wreath",
+            "pos": "n.",
+            "meaning": "花环"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
-      "text": "After a long period of rain the river may overflow its banks.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "After a long period of rain the river may overflow its banks. This is a rare occurrence as our climate seldom goes to extremes.",
+      "translation": "经过长时间的下雨，河水可能会漫过河岸。这种情况很少发生，因为我们的气候很少走极端。",
       "startTime": 92.66,
-      "endTime": 97.92,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "This is a rare occurrence as our climate seldom goes to extremes.",
-      "translation": "",
-      "startTime": 97.93,
       "endTime": 103.1,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
+            "word": "overflow",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "溢出"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "We are lucky in that only the lower fields,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "We are lucky in that only the lower fields, which make up a very small proportion of our farm, are affected by flooding, but other farms are less favourably sited, and flooding can sometimes spell disaster for their owners.",
+      "translation": "我们很幸运，只有占农场比例很小的一小块低地会受到洪水的影响，但其他农场的选址就没有那么有利了，洪水有时会给农场主带来灾难。",
       "startTime": 103.11,
-      "endTime": 106.39,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s16",
-      "role": "Woman",
-      "text": "which make up a very small proportion of our farm, are affected by flooding,",
-      "translation": "",
-      "startTime": 106.4,
-      "endTime": 111.72,
-      "analysis": {
-        "words": [
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "but other farms are less favourably sited, and flooding can sometimes spell disaster for their owners.",
-      "translation": "",
-      "startTime": 111.73,
       "endTime": 120.32,
+      "analysis": {
+        "words": [
+          {
+            "word": "proportion",
+            "pos": "n.",
+            "meaning": "比例"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "role": "Narrator",
+      "text": "One bad winter we watched the river creep up the lower meadows. All the cattle had been moved into stalls and we stood to lose little.",
+      "translation": "一个严冬，我们看着河水慢慢漫上低洼的草地。所有的牲畜都已被赶进圈里，所以我们几乎没有什么损失。",
+      "startTime": 120.33,
+      "endTime": 131,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s18",
-      "role": "Woman",
-      "text": "One bad winter we watched the river creep up the lower meadows.",
-      "translation": "",
-      "startTime": 120.33,
-      "endTime": 126.03
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "All the cattle had been moved into stalls and we stood to lose little.",
-      "translation": "",
-      "startTime": 126.04,
-      "endTime": 131
-    },
-    {
       "id": "s20",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We were, however, worried about our nearest neighbours, whose farm was low lying and who were newcomers to the district.",
-      "translation": "",
+      "translation": "然而，我们很担心我们最近的邻居，他们的农场地势低洼，且他们是这一带的新迁户。",
       "startTime": 131.01,
       "endTime": 140.07,
       "analysis": {
@@ -403,190 +238,94 @@
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "As the floods had put the telephone out of order, we could not find out how they were managing.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "As the floods had put the telephone out of order, we could not find out how they were managing. From an attic window we could get a sweeping view of the river where their land joined ours, and at the most critical juncture we took turns in watching that point.",
+      "translation": "由于洪水使电话失灵，我们无法了解他们的情况。从阁楼窗户可以看到他们的土地与我们接壤处的河流全景。在最关键的时刻，我们轮流看守那一带。",
       "startTime": 140.08,
-      "endTime": 146.29,
-      "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "From an attic window we could get a sweeping view of the river where their land joined ours,",
-      "translation": "",
-      "startTime": 146.3,
-      "endTime": 152.64,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "and at the most critical juncture we took turns in watching that point.",
-      "translation": "",
-      "startTime": 152.65,
       "endTime": 157.79,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "sweeping",
+            "pos": "adj.",
+            "meaning": "宽广的，全面的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "juncture",
+            "pos": "n.",
+            "meaning": "关键时刻"
           }
         ]
       }
     },
     {
       "id": "s24",
-      "role": "Woman",
-      "text": "The first sign of disaster was a dead sheep floating down.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The first sign of disaster was a dead sheep floating down. Next came a horse, swimming bravely, but we were afraid that the strength of the current would prevent its landing anywhere before it became exhausted.",
+      "translation": "灾难的第一个迹象是一只死羊漂流而下。接着是一匹马，英勇地游泳，但我们担心水流太急，马还没靠岸就会筋疲力尽。",
       "startTime": 157.8,
-      "endTime": 162.98
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "Next came a horse, swimming bravely,",
-      "translation": "",
-      "startTime": 162.99,
-      "endTime": 166.06
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
-      "text": "but we were afraid that the strength of the current would prevent its landing anywhere before it became exhausted.",
-      "translation": "",
-      "startTime": 166.07,
       "endTime": 173.84,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s27",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Suddenly a raft appeared, looking rather like Noah's ark, carrying the whole family, a few hens, the dogs, a cat, and a bird in a cage.",
-      "translation": "",
+      "translation": "突然，一艘木筏出现了，看起来很像诺亚方舟，上面载着全家人、几只母鸡、几条狗、一只猫和一只笼中的鸟。",
       "startTime": 173.85,
-      "endTime": 185.89
-    },
-    {
-      "id": "s28",
-      "role": "Woman",
-      "text": "We realized that they must have become unduly frightened by the rising flood,",
-      "translation": "",
-      "startTime": 185.9,
-      "endTime": 191.62,
+      "endTime": 185.89,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "raft",
+            "pos": "n.",
+            "meaning": "木筏"
           }
         ]
       }
     },
     {
-      "id": "s29",
-      "role": "Man",
-      "text": "for their house, which had sound foundations, would have stood stoutly even if it had been almost submerged.",
-      "translation": "",
-      "startTime": 191.63,
+      "id": "s28",
+      "role": "Narrator",
+      "text": "We realized that they must have become unduly frightened by the rising flood, for their house, which had sound foundations, would have stood stoutly even if it had been almost submerged.",
+      "translation": "我们意识到，他们一定是被不断上涨的洪水吓得不轻。因为他们的房子地基稳固，即便几乎被淹没，也能屹立不倒。",
+      "startTime": 185.9,
       "endTime": 200.41,
       "analysis": {
         "words": [
           {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
+            "word": "unduly",
+            "pos": "adv.",
+            "meaning": "过度地"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "submerge",
+            "pos": "v.",
+            "meaning": "淹没"
           }
         ]
       }
     },
     {
       "id": "s30",
-      "role": "Woman",
-      "text": "The men of our family waded down through our flooded meadows with boat hooks,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The men of our family waded down through our flooded meadows with boat hooks, in the hope of being able to grapple a corner of the raft and pull it out of the current towrds our bank. We still think it a miracle that they were able to do so.",
+      "translation": "我们家的男人们拿着船钩涉水走过被水淹没的草地，希望能勾住木筏的一个角，把它从急流中拉向我们的岸边。我们现在仍然认为他们能够做到这一点简直是个奇迹。",
       "startTime": 200.42,
-      "endTime": 205.33,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s31",
-      "role": "Man",
-      "text": "in the hope of being able to grapple a corner of the raft and pull it out of the current towrds our bank.",
-      "translation": "",
-      "startTime": 205.34,
-      "endTime": 213.52,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s32",
-      "role": "Woman",
-      "text": "We still think it a miracle that they were able to do so.",
-      "translation": "",
-      "startTime": 213.53,
       "endTime": 218.53,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "wade",
+            "pos": "v.",
+            "meaning": "涉水"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "grapple",
+            "pos": "v.",
+            "meaning": "抓住，勾住"
           }
         ]
       }

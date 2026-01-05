@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 10",
-      "translation": "",
+      "translation": "第10课",
       "startTime": 1.14,
       "endTime": 2.91,
       "analysis": {
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The loss of the Titanic",
-      "translation": "",
+      "translation": "泰坦尼克号的沉没",
       "startTime": 2.92,
-      "endTime": 10.51
+      "endTime": 10.51,
+      "analysis": {
+        "words": [
+          {
+            "word": "loss",
+            "pos": "n.",
+            "meaning": "丧失，损失"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -44,39 +53,14 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "录音磁带"
           },
           {
             "word": "answer",
             "pos": "v.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
           }
         ]
       }
@@ -85,57 +69,108 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What'd have happened if only two of the 16 water-tight compartments had been flooded?",
-      "translation": "",
+      "translation": "如果16个密封舱中只有两个被淹，会发生什么？",
       "startTime": 10.52,
-      "endTime": 19.24
+      "endTime": 19.24,
+      "analysis": {
+        "words": [
+          {
+            "word": "watertight",
+            "pos": "adj.",
+            "meaning": "不透水的"
+          },
+          {
+            "word": "compartment",
+            "pos": "n.",
+            "meaning": "隔舱"
+          },
+          {
+            "word": "flood",
+            "pos": "v.",
+            "meaning": "淹没"
+          }
+        ]
+      }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "The great ship, Titanic sailed for New York from Southampton on April 10th, 1912.",
-      "translation": "",
+      "translation": "1912年4月10日，巨轮“泰坦尼克”号从南安普敦出发驶往纽约。",
       "startTime": 19.25,
-      "endTime": 27.21
+      "endTime": 27.21,
+      "analysis": {
+        "words": [
+          {
+            "word": "Southampton",
+            "pos": "n.",
+            "meaning": "南安普敦（英国港口城市）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "She was carrying 1, 316 passengers and a crew of 891.",
-      "translation": "",
+      "translation": "船上载有1,316名乘客和891名船员。",
       "startTime": 27.22,
-      "endTime": 35.32
+      "endTime": 35.32,
+      "analysis": {
+        "words": [
+          {
+            "word": "passenger",
+            "pos": "n.",
+            "meaning": "乘客"
+          },
+          {
+            "word": "crew",
+            "pos": "n.",
+            "meaning": "船员，全体工作人员"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "Even by modern standards, the 46, 000 ton Titanic was a colossal ship.",
-      "translation": "",
+      "translation": "即使按现代标准来看，4.6万吨的“泰坦尼克”号也是一艘巨轮。",
       "startTime": 35.33,
-      "endTime": 42.71
+      "endTime": 42.71,
+      "analysis": {
+        "words": [
+          {
+            "word": "standard",
+            "pos": "n.",
+            "meaning": "标准"
+          },
+          {
+            "word": "colossal",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "At that time, however, she was not only the largest ship that had ever been built, but was regarded as unsinkable, for she had sixteen water-tight compartments.",
-      "translation": "",
+      "translation": "然而在当时，她不仅是有史以来建造的最大船舶，而且被公认为是不会沉没的，因为她有16个密封舱。",
       "startTime": 42.72,
       "endTime": 55.7,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "regard",
+            "pos": "v.",
+            "meaning": "认为，注视"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "unsinkable",
+            "pos": "adj.",
+            "meaning": "不会沉没的"
           }
         ]
       }
@@ -144,23 +179,42 @@
       "id": "s4",
       "role": "Woman",
       "text": "Even if two of these were flooded, she would still be able to float.",
-      "translation": "",
+      "translation": "即使其中两个被淹，她仍能漂浮。",
       "startTime": 55.71,
-      "endTime": 60.82
+      "endTime": 60.82,
+      "analysis": {
+        "words": [
+          {
+            "word": "float",
+            "pos": "v.",
+            "meaning": "漂浮"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "The tragic sinking of this great liner will always be remembered, for she went down on her first voyage with heavy loss of life.",
-      "translation": "",
+      "translation": "这艘巨轮不幸沉没的惨剧将永远被铭记，因为她在处女航中就沉没了，并造成了惨重的人员伤亡。",
       "startTime": 60.83,
       "endTime": 71.81,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "tragic",
+            "pos": "adj.",
+            "meaning": "悲剧性的"
+          },
+          {
+            "word": "liner",
+            "pos": "n.",
+            "meaning": "邮轮"
+          },
+          {
+            "word": "voyage",
+            "pos": "n.",
+            "meaning": "航行"
           }
         ]
       }
@@ -169,58 +223,125 @@
       "id": "s6",
       "role": "Woman",
       "text": "Four days after setting out, while the Titanic was sailing across the icy waters of the North Atlantic,",
-      "translation": "",
+      "translation": "出发4天后，当“泰坦尼克”号正在穿过北大西洋冰冷的海域时，",
       "startTime": 71.82,
-      "endTime": 79.21
+      "endTime": 79.21,
+      "analysis": {
+        "words": [
+          {
+            "word": "Atlantic",
+            "pos": "n.",
+            "meaning": "大西洋"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "a huge iceberg was suddenly spotted by a lookout.",
-      "translation": "",
+      "translation": "一座巨大的冰山突然被一名嘹望员发现了。",
       "startTime": 79.22,
-      "endTime": 83.87
+      "endTime": 83.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "iceberg",
+            "pos": "n.",
+            "meaning": "冰山"
+          },
+          {
+            "word": "spot",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "lookout",
+            "pos": "n.",
+            "meaning": "嘹望员"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "After the alarm had been given, the great ship turned sharply to avoid a direct collision.",
-      "translation": "",
+      "translation": "警报发出后，巨轮急转弯以避开正面碰撞。",
       "startTime": 83.88,
-      "endTime": 91.17
+      "endTime": 91.17,
+      "analysis": {
+        "words": [
+          {
+            "word": "alarm",
+            "pos": "n.",
+            "meaning": "警报"
+          },
+          {
+            "word": "collision",
+            "pos": "n.",
+            "meaning": "碰撞"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "The Titanic turned just in time, narrowly missing the immense wall of ice which rose over 100 feet out of the water beside her.",
-      "translation": "",
+      "translation": "“泰坦尼克”号转弯还算及时，擦过了那堵矗立在水面100多英尺高的巨大的冰墙。",
       "startTime": 91.18,
       "endTime": 102.59,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "narrowly",
+            "pos": "adv.",
+            "meaning": "勉强地，险些"
+          },
+          {
+            "word": "immense",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          }
+        ]
       }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "Suddenly, there was a slight trembling sound from below,",
-      "translation": "",
+      "translation": "突然，下面传来一阵轻微的震颤声，",
       "startTime": 102.6,
-      "endTime": 107.56
+      "endTime": 107.56,
+      "analysis": {
+        "words": [
+          {
+            "word": "slight",
+            "pos": "adj.",
+            "meaning": "轻微的"
+          },
+          {
+            "word": "trembling",
+            "pos": "adj.",
+            "meaning": "震颤的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "and the captain went down to see what had happened.",
-      "translation": "",
+      "translation": "船长走下去查看发生了什么事。",
       "startTime": 107.57,
       "endTime": 111.72,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "captain",
+            "pos": "n.",
+            "meaning": "船长"
           }
         ]
       }
@@ -229,15 +350,20 @@
       "id": "s12",
       "role": "Woman",
       "text": "The noise had been so faint that no one thought that the ship had been damaged.",
-      "translation": "",
+      "translation": "声音是如此之小，以至于没有人认为船已经损坏了。",
       "startTime": 111.73,
       "endTime": 117.35,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "faint",
+            "pos": "adj.",
+            "meaning": "微弱的"
+          },
+          {
+            "word": "damage",
+            "pos": "v.",
+            "meaning": "损坏"
           }
         ]
       }
@@ -246,15 +372,20 @@
       "id": "s13",
       "role": "Man",
       "text": "Below, the captain realized to his horror that the Titanic was sinking rapidly,",
-      "translation": "",
+      "translation": "在下面，船长惊恐地发现，“泰坦尼克”号正在迅速下沉，",
       "startTime": 117.36,
       "endTime": 123.97,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "horror",
+            "pos": "n.",
+            "meaning": "惊恐"
+          },
+          {
+            "word": "rapidly",
+            "pos": "adv.",
+            "meaning": "迅速地"
           }
         ]
       }
@@ -263,7 +394,7 @@
       "id": "s14",
       "role": "Woman",
       "text": "for five of her sixteen watertight compartments had already been flooded!",
-      "translation": "",
+      "translation": "因为16个密封舱中已经有5个被淹了！",
       "startTime": 123.98,
       "endTime": 129.99,
       "analysis": {
@@ -280,23 +411,37 @@
       "id": "s15",
       "role": "Man",
       "text": "The order to abandon ship was given and hundreds of people plunged into the icy water.",
-      "translation": "",
+      "translation": "于是传下了弃船的命令，数百人跳进了冰冷的海水。",
       "startTime": 130,
-      "endTime": 137.22
+      "endTime": 137.22,
+      "analysis": {
+        "words": [
+          {
+            "word": "abandon",
+            "pos": "v.",
+            "meaning": "离弃，抛弃"
+          },
+          {
+            "word": "plunge",
+            "pos": "v.",
+            "meaning": "投入，跳入"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Woman",
       "text": "As there were not enough life-boats for everybody, 1, 500 lives were lost.",
-      "translation": "",
+      "translation": "由于没有足够所有人的救生艇，1,500人丧生。",
       "startTime": 137.23,
       "endTime": 142.23,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "lifeboat",
+            "pos": "n.",
+            "meaning": "救生艇"
           }
         ]
       }

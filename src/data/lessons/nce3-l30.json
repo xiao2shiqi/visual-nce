@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 30",
-      "translation": "",
+      "translation": "第30课",
       "startTime": 0.35,
       "endTime": 2.08,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,67 +25,35 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The death of a ghost",
-      "translation": "",
+      "translation": "幽灵的去世",
       "startTime": 2.09,
-      "endTime": 9.45
+      "endTime": 9.45,
+      "analysis": {
+        "words": [
+          {
+            "word": "ghost",
+            "pos": "n.",
+            "meaning": "幽灵，鬼"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
-      "startTime": 9.459999999999999,
+      "startTime": 9.46,
       "endTime": 18.77,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why did the two brothers keep the secret?",
-      "translation": "",
+      "translation": "为什么那兄弟俩守着这个秘密？",
       "startTime": 9.46,
       "endTime": 13.74,
       "analysis": {
@@ -93,43 +61,55 @@
       }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
       "text": "For years, villagers believed that Endley farm was haunted.",
-      "translation": "",
+      "translation": "多年来，村民们一直认为恩德利农场闹鬼。",
       "startTime": 13.75,
       "endTime": 18.86,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "haunted",
+            "pos": "v.",
+            "meaning": "闹鬼"
           }
         ]
       }
     },
     {
-      "id": "s1",
-      "role": "Man",
-      "text": "The farm was owned by two brothers, Joe and Bob Cox.",
-      "translation": "",
-      "startTime": 18.87,
-      "endTime": 23.73
-    },
-    {
       "id": "s2",
-      "role": "Woman",
-      "text": "They employed a few farmhands, but no one was willing to work there long.",
-      "translation": "",
-      "startTime": 23.74,
-      "endTime": 29.25
+      "role": "Narrator",
+      "text": "The farm was owned by two brothers, Joe and Bob Cox.",
+      "translation": "这个农场是 Cox 兄弟两个人的，即 Joe 和 Bob。",
+      "startTime": 18.87,
+      "endTime": 23.73,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
+      "text": "They employed a few farmhands, but no one was willing to work there long.",
+      "translation": "他们雇用了一些农场工人，但没有人愿意在那里干很久。",
+      "startTime": 23.74,
+      "endTime": 29.25,
+      "analysis": {
+        "words": [
+          {
+            "word": "farmhand",
+            "pos": "n.",
+            "meaning": "农场工人"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
       "text": "Every time a worker gave up his job, he told the same story.",
-      "translation": "",
+      "translation": "每当一个工人辞职时，他都说的是同样的故事。",
       "startTime": 29.26,
       "endTime": 34.94,
       "analysis": {
@@ -137,361 +117,310 @@
       }
     },
     {
-      "id": "s4",
-      "role": "Woman",
+      "id": "s5",
+      "role": "Narrator",
       "text": "Farm labourers said that they always woke up to find that work had been done overnight.",
-      "translation": "",
+      "translation": "农场劳工们说，他们总是在醒来后发现活已在夜里干完了。",
       "startTime": 34.95,
       "endTime": 41.58,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "labourer",
+            "pos": "n.",
+            "meaning": "劳工"
           }
         ]
       }
     },
     {
-      "id": "s5",
-      "role": "Man",
-      "text": "Hay had been cut and cowsheds had been cleaned.",
-      "translation": "",
-      "startTime": 41.59,
-      "endTime": 46.02
-    },
-    {
       "id": "s6",
-      "role": "Woman",
-      "text": "A farm worker, who stayed up all night, claimed to have seen a figure cutting corn in the moonlight.",
-      "translation": "",
-      "startTime": 46.03,
-      "endTime": 53.63
+      "role": "Narrator",
+      "text": "Hay had been cut and cowsheds had been cleaned.",
+      "translation": "干草切好了，牛棚也清理干净了。",
+      "startTime": 41.59,
+      "endTime": 46.02,
+      "analysis": {
+        "words": [
+          {
+            "word": "hay",
+            "pos": "n.",
+            "meaning": "干草"
+          },
+          {
+            "word": "cowshed",
+            "pos": "n.",
+            "meaning": "牛棚"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
+      "text": "A farm worker, who stayed up all night, claimed to have seen a figure cutting corn in the moonlight.",
+      "translation": "一个彻夜未眠的农场工人声称，他看到一个身影在月光下割庄稼。",
+      "startTime": 46.03,
+      "endTime": 53.63,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s8",
+      "role": "Narrator",
       "text": "In time, it became an accepted fact that the Cox brothers employed a conscientious ghost that did most of their work for them.",
-      "translation": "",
+      "translation": "随着时间的流逝，Cox 兄弟雇用了一个勤勉的幽灵为他们干大部分活儿这件事成了公认的事实。",
       "startTime": 53.64,
       "endTime": 64.01,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "No one suspected that there might be someone else on the farm who had never been seen.",
-      "translation": "",
-      "startTime": 64.02,
-      "endTime": 70.06,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "conscientious",
+            "pos": "adj.",
+            "meaning": "尽责的"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "This was indeed the case.",
-      "translation": "",
-      "startTime": 70.07,
-      "endTime": 72.8,
+      "role": "Narrator",
+      "text": "No one suspected that there might be someone else on the farm who had never been seen.",
+      "translation": "没有人怀疑农场里还有另一个从未露过面的人。",
+      "startTime": 64.02,
+      "endTime": 70.06,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "suspect",
+            "pos": "v.",
+            "meaning": "怀疑"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
+      "text": "This was indeed the case.",
+      "translation": "事实也确实如此。",
+      "startTime": 70.07,
+      "endTime": 72.80,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
       "text": "A short time ago, villagers were astonished to learn that the ghost of Endley had died.",
-      "translation": "",
+      "translation": "不久前，村民们惊讶地得知恩德利的幽灵去世了。",
       "startTime": 72.81,
       "endTime": 79.99,
       "analysis": {
         "words": [
           {
-            "word": "Short",
-            "pos": "adj.",
-            "meaning": "矮的"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "astonished",
+            "pos": "v.",
+            "meaning": "惊讶，吃惊"
           }
         ]
       }
     },
     {
-      "id": "s11",
-      "role": "Man",
-      "text": "Everyone went to the funeral, for the 'ghost' was none other than Eric Cox,",
-      "translation": "",
-      "startTime": 80,
-      "endTime": 86.84
-    },
-    {
       "id": "s12",
-      "role": "Woman",
-      "text": "a third brother who was supposed to have died as a young man.",
-      "translation": "",
-      "startTime": 86.85,
+      "role": "Narrator",
+      "text": "Everyone went to the funeral, for the 'ghost' was none other than Eric Cox, a third brother who was supposed to have died as a young man.",
+      "translation": "大家都去参加了葬礼，因为那个“幽灵”不是别人，正是 Eric Cox，他的第三个兄弟，人们原以为 he 少年时就已经死了。",
+      "startTime": 80.00,
       "endTime": 91.42,
       "analysis": {
         "words": [
           {
-            "word": "Young",
-            "pos": "adj.",
-            "meaning": "年轻的"
-          },
-          {
-            "word": "Man",
+            "word": "funeral",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "葬礼"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "After the funeral, Joe and Bob revealed a secret which they had kept for over fifty years.",
-      "translation": "",
+      "translation": "葬礼结束后，Joe 和 Bob 揭开了他们保守了50多年的秘密。",
       "startTime": 91.43,
-      "endTime": 99.47
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "Eric had been the eldest son of the family, very much older than his two brothers.",
-      "translation": "",
-      "startTime": 99.48,
-      "endTime": 105.48,
+      "endTime": 99.47,
       "analysis": {
         "words": [
           {
-            "word": "Son",
-            "pos": "n.",
-            "meaning": "儿子"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "revealed",
+            "pos": "v.",
+            "meaning": "揭露，展现"
           }
         ]
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "Eric had been the eldest son of the family, very much older than his two brothers.",
+      "translation": "Eric 是家里的长子，比他的两个弟弟大得多。",
+      "startTime": 99.48,
+      "endTime": 105.48,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He had been obliged to join the army during the Second World War.",
-      "translation": "",
+      "translation": "二战期间，他被迫应征入伍。",
       "startTime": 105.49,
-      "endTime": 110.24
-    },
-    {
-      "id": "s16",
-      "role": "Woman",
-      "text": "As he hated army life, he decided to desert his regiment.",
-      "translation": "",
-      "startTime": 110.25,
-      "endTime": 116.12,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "When he learnt that he would be sent abroad,",
-      "translation": "",
-      "startTime": 116.13,
-      "endTime": 118.98,
+      "endTime": 110.24,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "obliged",
+            "pos": "v.",
+            "meaning": "被迫，被迫做某事"
           }
         ]
       }
     },
     {
-      "id": "s18",
-      "role": "Woman",
-      "text": "he returned to the farm and his father hid him until the end of the war.",
-      "translation": "",
-      "startTime": 118.99,
-      "endTime": 124.4,
+      "id": "s16",
+      "role": "Narrator",
+      "text": "As he hated army life, he decided to desert his regiment.",
+      "translation": "由于厌恶军旅生活，他决定脱离他所在的团。",
+      "startTime": 110.25,
+      "endTime": 116.12,
+      "analysis": {
+        "words": [
+          {
+            "word": "desert",
+            "pos": "v.",
+            "meaning": "擅离职守"
+          },
+          {
+            "word": "regiment",
+            "pos": "n.",
+            "meaning": "团"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "role": "Narrator",
+      "text": "When he learnt that he would be sent abroad, he returned to the farm and his father hid him until the end of the war.",
+      "translation": "当他得知他将被派往国外时，他回到了农场，他的父亲把他藏了起来，直到战争结束。",
+      "startTime": 116.13,
+      "endTime": 124.40,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s19",
-      "role": "Man",
+      "id": "s18",
+      "role": "Narrator",
       "text": "Fearing the authorities, Eric remained in hiding after the war as well.",
-      "translation": "",
+      "translation": "由于害怕当局，Eric 在战后也一直东躲西藏。",
       "startTime": 124.41,
       "endTime": 130.35,
       "analysis": {
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "authority",
+            "pos": "n.",
+            "meaning": "当局"
           }
         ]
+      }
+    },
+    {
+      "id": "s19",
+      "role": "Narrator",
+      "text": "His father told everybody that Eric had been killed in action.",
+      "translation": "他的父亲告诉每个人，Eric 已在战斗中牺牲。",
+      "startTime": 130.36,
+      "endTime": 135.02,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "His father told everybody that Eric had been killed in action.",
-      "translation": "",
-      "startTime": 130.36,
-      "endTime": 135.02,
+      "role": "Narrator",
+      "text": "The only other people who knew the secret were Joe and Bob.",
+      "translation": "知道这个秘密的其他仅有人就是 Joe 和 Bob。",
+      "startTime": 135.03,
+      "endTime": 139.48,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "The only other people who knew the secret were Joe and Bob.",
-      "translation": "",
-      "startTime": 135.03,
-      "endTime": 139.48
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "They did not even tell their wives.",
-      "translation": "",
+      "translation": "他们甚至连自己的妻子都没告诉。",
       "startTime": 139.49,
       "endTime": 142.68,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
+      }
+    },
+    {
+      "id": "s22",
+      "role": "Narrator",
+      "text": "When their father died they thought it their duty to keep Eric in hiding.",
+      "translation": "当他们的父亲去世后，他们认为让 Eric 继续躲藏是他们的职责。",
+      "startTime": 142.69,
+      "endTime": 147.69,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s23",
-      "role": "Man",
-      "text": "When their father died they thought it their duty to keep Eric in hiding.",
-      "translation": "",
-      "startTime": 142.69,
-      "endTime": 147.69,
+      "role": "Narrator",
+      "text": "All these years, Eric had lived as a recluse.",
+      "translation": "这些年来，Eric 过着隐居生活。",
+      "startTime": 147.70,
+      "endTime": 152.65,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "recluse",
+            "pos": "n.",
+            "meaning": "隐士"
           }
         ]
       }
     },
     {
       "id": "s24",
-      "role": "Woman",
-      "text": "All these years, Eric had lived as a recluse.",
-      "translation": "",
-      "startTime": 147.7,
-      "endTime": 152.65
+      "role": "Narrator",
+      "text": "He used to sleep during the day and work at night, quite unaware of the fact that he had become the ghost of Endley.",
+      "translation": "他以前白天睡觉，夜间干活，一点儿也没意识到他已经成了恩德利的幽灵。",
+      "startTime": 152.66,
+      "endTime": 160.59,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s25",
-      "role": "Man",
-      "text": "He used to sleep during the day and work at night,",
-      "translation": "",
-      "startTime": 152.66,
-      "endTime": 155.65,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
-      "text": "quite unaware of the fact that he had become the ghost of Endley.",
-      "translation": "",
-      "startTime": 155.66,
-      "endTime": 160.59,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s27",
-      "role": "Man",
+      "role": "Narrator",
       "text": "When he died, however, his brothers found it impossible to keep the secret any longer.",
-      "translation": "",
-      "startTime": 160.6,
-      "endTime": 165.6,
+      "translation": "然而，当 he 去世时，他的兄弟俩发现这个秘密再也守不住了。",
+      "startTime": 160.60,
+      "endTime": 170.60,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     }
   ]

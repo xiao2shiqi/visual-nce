@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 27",
-      "translation": "",
+      "translation": "第27课",
       "startTime": 0.3,
       "endTime": 2.42,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,12 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Nothing to sell and nothing to buy",
-      "translation": "",
+      "translation": "不卖也不买",
       "startTime": 2.43,
-      "endTime": 11.23
+      "endTime": 11.23,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -37,378 +40,295 @@
       "startTime": 11.24,
       "endTime": 21.2,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What is the most important thing for a tramp?",
-      "translation": "",
+      "translation": "对一个流浪汉来说，最重要的是什么？",
       "startTime": 11.24,
       "endTime": 16.98,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "It has been said that everyone lives by selling something.",
-      "translation": "",
-      "startTime": 16.99,
-      "endTime": 21.29,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "tramp",
+            "pos": "n.",
+            "meaning": "流浪汉"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
-      "text": "In the light of this statement, teachers live by selling knowledge,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "It has been said that everyone lives by selling something.",
+      "translation": "据说每个人都依靠出售某种东西来维持生活。",
+      "startTime": 16.99,
+      "endTime": 21.29,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s2",
+      "role": "Narrator",
+      "text": "In the light of this statement, teachers live by selling knowledge, philosophers by selling wisdom and priests by selling spiritual comfort.",
+      "translation": "根据这种说法，教师靠卖知识为生，哲学家靠卖智慧为生，教士靠卖精神慰藉为生。",
       "startTime": 21.3,
-      "endTime": 25.92,
+      "endTime": 31.96,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "philosopher",
+            "pos": "n.",
+            "meaning": "哲学家"
+          },
+          {
+            "word": "priest",
+            "pos": "n.",
+            "meaning": "教士"
+          },
+          {
+            "word": "spiritual",
+            "pos": "adj.",
+            "meaning": "精神的"
           }
         ]
       }
     },
     {
-      "id": "s2",
-      "role": "Woman",
-      "text": "philosophers by selling wisdom and priests by selling spiritual comfort.",
-      "translation": "",
-      "startTime": 25.93,
-      "endTime": 31.96
-    },
-    {
       "id": "s3",
-      "role": "Man",
-      "text": "Though it may be possible to measure the value of material goods in terms of money,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Though it may be possible to measure the value of material goods in terms of money, it is extremely difficult to estimate the true value of the services which people perform for us.",
+      "translation": "虽然物质产品的价值可以用金钱来衡量，但要估计他人为我们所提供服务的真价值却是极其困难的。",
       "startTime": 31.97,
-      "endTime": 38.42,
+      "endTime": 46.56,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "measure",
+            "pos": "v.",
+            "meaning": "衡量"
+          },
+          {
+            "word": "estimate",
+            "pos": "v.",
+            "meaning": "估计"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
-      "text": "it is extremely difficult to estimate the true value of the services which people perform for us.",
-      "translation": "",
-      "startTime": 38.43,
-      "endTime": 46.56,
+      "role": "Narrator",
+      "text": "There are times when we would willingly give everything we possess to save our lives, yet we might grudge paying a surgeon a high fee for offering us precisely this service.",
+      "translation": "有时，为了挽救生命，我们愿意付出我们拥有的一切；然而，要我们付给外科医生一笔高额手术费，我们却可能感到不情愿，尽管他所提供的正是这种服务。",
+      "startTime": 46.57,
+      "endTime": 60.35,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "willingly",
+            "pos": "adv.",
+            "meaning": "欣然地"
           },
           {
-            "word": "Is",
+            "word": "grudge",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "吝惜，不愿给"
+          },
+          {
+            "word": "surgeon",
+            "pos": "n.",
+            "meaning": "外科医生"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "There are times when we would willingly give everything we possess to save our lives,",
-      "translation": "",
-      "startTime": 46.57,
-      "endTime": 52.84,
+      "role": "Narrator",
+      "text": "The conditions of society are such that skills have to be paid for in the same way that goods are paid for at a shop.",
+      "translation": "社会条件就是这样：必须为某种技能付费，就像在商店里为商品付费一样。",
+      "startTime": 60.36,
+      "endTime": 68.78,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "yet we might grudge paying a surgeon a high fee for offering us precisely this service.",
-      "translation": "",
-      "startTime": 52.85,
-      "endTime": 60.35,
+      "role": "Narrator",
+      "text": "Everyone has something to sell.",
+      "translation": "每个人都有东西要卖。",
+      "startTime": 68.79,
+      "endTime": 72.00,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "The conditions of society are such that skills have to be paid for in the same way that goods are paid for at a shop.",
-      "translation": "",
-      "startTime": 60.36,
-      "endTime": 68.78,
+      "role": "Narrator",
+      "text": "Tramps seem to be the only exception to this general rule.",
+      "translation": "流浪汉似乎是这条普遍规则的唯一例外。",
+      "startTime": 72.01,
+      "endTime": 76.70,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "exception",
+            "pos": "n.",
+            "meaning": "例外"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "Everyone has something to sell.",
-      "translation": "",
-      "startTime": 68.79,
-      "endTime": 72
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "Tramps seem to be the only exception to this general rule.",
-      "translation": "",
-      "startTime": 72.01,
-      "endTime": 76.7,
+      "role": "Narrator",
+      "text": "Beggars almost sell themselves as human beings to arouse the pity of passers-by.",
+      "translation": "乞丐几乎把他们自己作为人来出卖，以博得路人的同情。",
+      "startTime": 76.71,
+      "endTime": 83.12,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "arouse",
+            "pos": "v.",
+            "meaning": "唤起"
+          },
+          {
+            "word": "pity",
+            "pos": "n.",
+            "meaning": "怜悯"
           }
         ]
       }
     },
     {
-      "id": "s10",
-      "role": "Woman",
-      "text": "Beggars almost sell themselves as human beings to arouse the pity of passers-by.",
-      "translation": "",
-      "startTime": 76.71,
-      "endTime": 83.12
-    },
-    {
-      "id": "s11",
-      "role": "Man",
+      "id": "s9",
+      "role": "Narrator",
       "text": "But real tramps are not beggars.",
-      "translation": "",
+      "translation": "但真正的流浪汉并不是乞丐。",
       "startTime": 83.13,
       "endTime": 85.61,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s10",
+      "role": "Narrator",
+      "text": "They have nothing to sell and require nothing from others.",
+      "translation": "他们没有什么可卖的，也不向他人追求什么。",
+      "startTime": 85.62,
+      "endTime": 90.14,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
+      "text": "In seeking independence, they do not sacrifice their human dignity.",
+      "translation": "在追求独立的过程中，他们并不牺牲人的尊严。",
+      "startTime": 90.15,
+      "endTime": 95.54,
+      "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "sacrifice",
+            "pos": "v.",
+            "meaning": "牺牲"
+          },
+          {
+            "word": "dignity",
+            "pos": "n.",
+            "meaning": "尊严"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
-      "text": "They have nothing to sell and require nothing from others.",
-      "translation": "",
-      "startTime": 85.62,
-      "endTime": 90.14
+      "role": "Narrator",
+      "text": "A tramp may ask you for money, but he will never ask you to feel sorry for him.",
+      "translation": "流浪汉可能会向你要钱，但他绝不会要求你同情他。",
+      "startTime": 95.55,
+      "endTime": 101.53,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s13",
-      "role": "Man",
-      "text": "In seeking independence, they do not sacrifice their human dignity.",
-      "translation": "",
-      "startTime": 90.15,
-      "endTime": 95.54,
+      "role": "Narrator",
+      "text": "He has deliberately chosen to lead the life he leads and is fully aware of the consequences.",
+      "translation": "他是有意识地选择了现在这种生活，并完全清楚随之而来的后果。",
+      "startTime": 101.54,
+      "endTime": 109.14,
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "deliberately",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "故意地"
+          },
+          {
+            "word": "consequence",
+            "pos": "n.",
+            "meaning": "后果"
           }
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
-      "text": "A tramp may ask you for money, but he will never ask you to feel sorry for him.",
-      "translation": "",
-      "startTime": 95.55,
-      "endTime": 101.53,
+      "role": "Narrator",
+      "text": "He may never be sure where the next meal is coming from, but he is free from the thousands of anxieties which afflict other people.",
+      "translation": "他可能永远不知道下一顿饭从哪里来，但他却摆脱了那些折磨他人的成千上万种忧虑。",
+      "startTime": 109.15,
+      "endTime": 119.98,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "anxiety",
+            "pos": "n.",
+            "meaning": "焦虑"
           },
           {
-            "word": "Sorry",
-            "pos": "adj.",
-            "meaning": "抱歉的"
+            "word": "afflict",
+            "pos": "v.",
+            "meaning": "折磨"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "He has deliberately chosen to lead the life he leads and is fully aware of the consequences.",
-      "translation": "",
-      "startTime": 101.54,
-      "endTime": 109.14,
+      "role": "Narrator",
+      "text": "His few material possessions make it possible for him to move from place to place with ease.",
+      "translation": "他那少得一点点物质财富使他能轻松地到处流浪。",
+      "startTime": 119.99,
+      "endTime": 127.88,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "possession",
+            "pos": "n.",
+            "meaning": "财产"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "He may never be sure where the next meal is coming from,",
-      "translation": "",
-      "startTime": 109.15,
-      "endTime": 113.68,
-      "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "but he is free from the thousands of anxieties which afflict other people.",
-      "translation": "",
-      "startTime": 113.69,
-      "endTime": 119.98,
-      "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "His few material possessions make it possible for him to move from place to place with ease.",
-      "translation": "",
-      "startTime": 119.99,
-      "endTime": 127.88,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s19",
-      "role": "Man",
+      "role": "Narrator",
       "text": "By having to sleep in the open, he gets far closer to the world of nature than most of us ever do.",
-      "translation": "",
+      "translation": "由于不得不露宿野外，他比我们大多数人都更接近自然界。",
       "startTime": 127.89,
       "endTime": 136.17,
       "analysis": {
@@ -416,21 +336,27 @@
       }
     },
     {
-      "id": "s20",
-      "role": "Woman",
+      "id": "s17",
+      "role": "Narrator",
       "text": "He may hunt, beg, or steal occasionally to keep himself alive;",
-      "translation": "",
+      "translation": "他偶尔可能捕猎、乞讨或偷窃来活命；",
       "startTime": 136.18,
       "endTime": 141.88,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "occasionally",
+            "pos": "adv.",
+            "meaning": "偶尔地"
+          }
+        ]
       }
     },
     {
-      "id": "s21",
-      "role": "Man",
+      "id": "s18",
+      "role": "Narrator",
       "text": "he may even, in times of real need, do a little work; but he will never sacrifice his freedom.",
-      "translation": "",
+      "translation": "在真正需要的时候，他甚至可能干一点活；但他绝不会牺牲他的自由。",
       "startTime": 141.89,
       "endTime": 150.06,
       "analysis": {
@@ -438,36 +364,35 @@
       }
     },
     {
-      "id": "s22",
-      "role": "Woman",
+      "id": "s19",
+      "role": "Narrator",
       "text": "We often speak of tramps with contempt and put them in the same class as beggars,",
-      "translation": "",
+      "translation": "我们谈到流浪汉时常带着蔑视，把他们和乞丐归为一类。",
       "startTime": 150.07,
-      "endTime": 156.14
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "but how many of us can honestly say that we have not felt a little envious of their simple way of life and their freedom from care?",
-      "translation": "",
-      "startTime": 156.15,
-      "endTime": 161.15,
+      "endTime": 156.14,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
+            "word": "contempt",
+            "pos": "n.",
+            "meaning": "蔑视"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "role": "Narrator",
+      "text": "but how many of us can honestly say that we have not felt a little envious of their simple way of life and their freedom from care?",
+      "translation": "但我们中有多少人能诚实地说，我们不对他们那种简朴的生活方式和无忧无虑的自由感到有一点羡慕呢？",
+      "startTime": 156.15,
+      "endTime": 166.15,
+      "analysis": {
+        "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "envious",
+            "pos": "adj.",
+            "meaning": "羡慕的"
           }
         ]
       }

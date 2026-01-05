@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 51",
-      "translation": "",
+      "translation": "第51课",
       "startTime": 0.34,
       "endTime": 3.52,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Predicting the future",
-      "translation": "",
+      "translation": "预测未来",
       "startTime": 3.53,
-      "endTime": 10.25
+      "endTime": 10.25,
+      "analysis": {
+        "words": [
+          {
+            "word": "predict",
+            "pos": "v.",
+            "meaning": "预测"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,68 +46,27 @@
       "startTime": 10.26,
       "endTime": 23.11,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What was the 'future' electronic development that Leon Bagrit wasn't able to foresee?",
-      "translation": "",
+      "translation": "莱昂·巴格里特没能预见到什么样的“未来”电子学发展？",
       "startTime": 10.26,
       "endTime": 19.39,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "electronic",
+            "pos": "adj.",
+            "meaning": "电子的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "foresee",
+            "pos": "v.",
+            "meaning": "预见"
           }
         ]
       }
@@ -107,15 +75,15 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Predicting the future is notoriously difficult.",
-      "translation": "",
+      "translation": "预测未来是出了名的难。",
       "startTime": 19.4,
       "endTime": 23.2,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "notoriously",
+            "pos": "adv.",
+            "meaning": "出名地，众所周知"
           }
         ]
       }
@@ -124,89 +92,118 @@
       "id": "s1",
       "role": "Narrator",
       "text": "Who could have imagined, in the mid 1970s, for example,",
-      "translation": "",
+      "translation": "例如，在20世纪70年代中期，谁能想到，",
       "startTime": 23.21,
-      "endTime": 28.32
+      "endTime": 28.32,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s2",
-      "role": "Man",
+      "role": "Narrator",
       "text": "that by the end of the 20th century, computers would be as common in people's homes as TV sets?",
-      "translation": "",
+      "translation": "到20世纪末，电脑会像电视机一样在人们家里普及？",
       "startTime": 28.33,
       "endTime": 36.22,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s3",
+      "role": "Narrator",
+      "text": "In the 1970s, computers were common enough,",
+      "translation": "在20世纪70年代，电脑已经很普遍了，",
+      "startTime": 36.23,
+      "endTime": 40.82,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "but only in big business, government departments and large organizations.",
+      "translation": "但仅限于大企业、政府部门和大型机构。",
+      "startTime": 40.83,
+      "endTime": 47.19,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s5",
+      "role": "Narrator",
+      "text": "These were the so-called mainframe machines.",
+      "translation": "这些就是所谓的“大型机”。",
+      "startTime": 47.2,
+      "endTime": 52.05,
+      "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "mainframe",
+            "pos": "n.",
+            "meaning": "大型机"
           }
         ]
       }
     },
     {
-      "id": "s3",
-      "role": "Woman",
-      "text": "In the 1970s, computers were common enough,",
-      "translation": "",
-      "startTime": 36.23,
-      "endTime": 40.82
-    },
-    {
-      "id": "s4",
-      "role": "Man",
-      "text": "but only in big business, government departments and large organizations.",
-      "translation": "",
-      "startTime": 40.83,
-      "endTime": 47.19
-    },
-    {
-      "id": "s5",
-      "role": "Woman",
-      "text": "These were the so-called mainframe machines.",
-      "translation": "",
-      "startTime": 47.2,
-      "endTime": 52.05
-    },
-    {
       "id": "s6",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Mainframe computers were very large indeed often occupying whole air-conditioned rooms,",
-      "translation": "",
+      "translation": "大型机确实非常庞大，常常占据整个空调房间，",
       "startTime": 52.06,
       "endTime": 59.07,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "occupy",
+            "pos": "v.",
+            "meaning": "占据"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "employing full-time technicians and run on specially-written software.",
-      "translation": "",
+      "translation": "雇佣全职技术人员，并在专门编写的软件上运行。",
       "startTime": 59.08,
-      "endTime": 65.1
+      "endTime": 65.1,
+      "analysis": {
+        "words": [
+          {
+            "word": "technician",
+            "pos": "n.",
+            "meaning": "技术人员"
+          },
+          {
+            "word": "software",
+            "pos": "n.",
+            "meaning": "软件"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Though these large machines still exist,",
-      "translation": "",
+      "translation": "尽管这些大型机器依然存在，",
       "startTime": 65.11,
-      "endTime": 68.13
+      "endTime": 68.13,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "many of their functions have been taken over by small powerful personal computers, commonly known as PCs.",
-      "translation": "",
+      "translation": "但它们的许多功能已被功率强大的小型个人电脑（通称PC）所取代。",
       "startTime": 68.14,
       "endTime": 78.11,
       "analysis": {
@@ -215,342 +212,238 @@
     },
     {
       "id": "s10",
-      "role": "Man",
+      "role": "Narrator",
       "text": "In 1975, a primitive machine called the Altair, was launched in the USA.",
-      "translation": "",
+      "translation": "1975年，一种名叫“阿尔泰”的原始机器在美国投放市场。",
       "startTime": 78.12,
-      "endTime": 86.53
-    },
-    {
-      "id": "s11",
-      "role": "Woman",
-      "text": "It can properly be described as the first 'home computer' and it pointed the way to the future.",
-      "translation": "",
-      "startTime": 86.54,
-      "endTime": 93.57,
+      "endTime": 86.53,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "primitive",
+            "pos": "adj.",
+            "meaning": "原始的"
           }
         ]
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
+      "text": "It can properly be described as the first 'home computer' and it pointed the way to the future.",
+      "translation": "它完全可以被描述为第一台“家用电脑”，并指出了未来的方向。",
+      "startTime": 86.54,
+      "endTime": 93.57,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s12",
-      "role": "Man",
+      "role": "Narrator",
       "text": "This was followed, at the end of the 1970s, by a machine called an Apple.",
-      "translation": "",
+      "translation": "紧接着，在20世纪70年代末，出现了一种名叫“苹果”的机器。",
       "startTime": 93.58,
       "endTime": 101.08,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "In the early 1980s, the computer giant, IBM produced the world's first Personal Computer.",
-      "translation": "",
+      "translation": "20世纪80年代初，电脑巨头IBM公司生产出了世界上第一台“个人电脑”。",
       "startTime": 101.09,
-      "endTime": 109.75
+      "endTime": 109.75,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s14",
-      "role": "Man",
-      "text": "This ran on an 'operating system' called DOS,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "This ran on an 'operating system' called DOS, produced by a then small company named Microsoft.",
+      "translation": "它在一种叫DOS的“操作系统”上运行，由当时一家名不见经传的小公司——微软公司生产。",
       "startTime": 109.76,
-      "endTime": 114.14,
+      "endTime": 119.18,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s16",
+      "role": "Narrator",
+      "text": "The IBM Personal Computer was widely copied.",
+      "translation": "IBM个人电脑被广泛效仿。",
+      "startTime": 119.19,
+      "endTime": 123.74,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s17",
+      "role": "Narrator",
+      "text": "From those humble beginnings,",
+      "translation": "从那些不起眼的开始，",
+      "startTime": 123.75,
+      "endTime": 126.1,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "humble",
+            "pos": "adj.",
+            "meaning": "卑微的，不起眼的"
           }
         ]
       }
     },
     {
-      "id": "s15",
-      "role": "Woman",
-      "text": "produced by a then small company named Microsoft.",
-      "translation": "",
-      "startTime": 114.15,
-      "endTime": 119.18
-    },
-    {
-      "id": "s16",
-      "role": "Man",
-      "text": "The IBM Personal Computer was widely copied.",
-      "translation": "",
-      "startTime": 119.19,
-      "endTime": 123.74
-    },
-    {
-      "id": "s17",
-      "role": "Woman",
-      "text": "From those humble beginnings,",
-      "translation": "",
-      "startTime": 123.75,
-      "endTime": 126.1
-    },
-    {
       "id": "s18",
-      "role": "Man",
+      "role": "Narrator",
       "text": "we have seen the development of the user-friendly home computers and multimedia machines which are in common use today.",
-      "translation": "",
+      "translation": "我们看到了今天被广泛使用的、操作简单的家用电脑和多媒体机器的发展。",
       "startTime": 126.11,
       "endTime": 136.31,
       "analysis": {
         "words": [
           {
-            "word": "Today",
-            "pos": "adv.",
-            "meaning": "今天"
+            "word": "multimedia",
+            "pos": "adj.",
+            "meaning": "多媒体的"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Woman",
-      "text": "Considering how recent these developments are, it is even more remarkable that as long ago as the 1960s, an Englishman,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Considering how recent these developments are, it is even more remarkable that as long ago as the 1960s, an Englishman, Leon Bagrit, was able to predict some of the uses of computers which we know today.",
+      "translation": "考虑到这些发展都是在不久前发生的，更令人惊奇的是，早在20世纪60年代，一位名叫莱昂·巴格里特的英国人，就能预见到我们今天所熟知的电脑的一些用途。",
       "startTime": 136.32,
-      "endTime": 147.51,
-      "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s20",
-      "role": "Man",
-      "text": "Leon Bagrit, was able to predict some of the uses of computers which we know today.",
-      "translation": "",
-      "startTime": 147.52,
       "endTime": 154.97,
       "analysis": {
-        "words": [
-          {
-            "word": "Today",
-            "pos": "adv.",
-            "meaning": "今天"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s21",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Bagrit dismissed the idea that computers would learn to 'think' for themselves and would 'rule the world', which people liked to believe in those days.",
-      "translation": "",
+      "translation": "巴格里特不屑于电脑会学会独立“思考”并“统治世界”的观点，而这正是当时人们喜欢信奉的。",
       "startTime": 154.98,
       "endTime": 165.75,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "dismiss",
+            "pos": "v.",
+            "meaning": "不屑一顾，解雇"
           }
         ]
       }
     },
     {
       "id": "s22",
-      "role": "Man",
-      "text": "Bagrit foresaw a time when computers would be small enough to hold in the hand,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Bagrit foresaw a time when computers would be small enough to hold in the hand, when they would be capable of providing information about traffic jams and suggesting alterative routes,",
+      "translation": "巴格里特预见到电脑会小到可以握在手中，可以提供有关交通堵塞的信息，并建议其他路线，",
       "startTime": 165.76,
-      "endTime": 171.77
-    },
-    {
-      "id": "s23",
-      "role": "Woman",
-      "text": "when they would be capable of providing information about traffic jams and suggesting alterative routes,",
-      "translation": "",
-      "startTime": 171.78,
-      "endTime": 179.87
+      "endTime": 179.87,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s24",
-      "role": "Man",
-      "text": "when they would be used in hospitals to help doctors to diagnose illnesses,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "when they would be used in hospitals to help doctors to diagnose illnesses, when they would relieve office workers and accountants of dull, repetitive clerical work.",
+      "translation": "可以在医院里帮助医生诊断疾病，可以把办公室工作人员和会计师从枯燥、重复的文书工作中解脱出来。",
       "startTime": 179.88,
-      "endTime": 185.77
-    },
-    {
-      "id": "s25",
-      "role": "Woman",
-      "text": "when they would relieve office workers and accountants of dull, repetitive clerical work.",
-      "translation": "",
-      "startTime": 185.78,
-      "endTime": 193.63
+      "endTime": 193.63,
+      "analysis": {
+        "word": "clerical",
+        "pos": "adj.",
+        "meaning": "文书的"
+      }
     },
     {
       "id": "s26",
-      "role": "Man",
+      "role": "Narrator",
       "text": "All these computer uses have become commonplace.",
-      "translation": "",
+      "translation": "所有这些电脑用途都已变得平淡无奇。",
       "startTime": 193.64,
-      "endTime": 197.95
-    },
-    {
-      "id": "s27",
-      "role": "Woman",
-      "text": "Of course, Leon Bagrit couldn't possibly have foreseen the development of the Internet,",
-      "translation": "",
-      "startTime": 197.96,
-      "endTime": 204.29
-    },
-    {
-      "id": "s28",
-      "role": "Man",
-      "text": "the worldwide system that enables us to communicate instantly with anyone in any part of the world by using computers linked to telephone networks.",
-      "translation": "",
-      "startTime": 204.3,
-      "endTime": 217.48,
+      "endTime": 197.95,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "commonplace",
+            "pos": "adj.",
+            "meaning": "平凡的"
           }
         ]
+      }
+    },
+    {
+      "id": "s27",
+      "role": "Narrator",
+      "text": "Of course, Leon Bagrit couldn't possibly have foreseen the development of the Internet, the worldwide system that enables us to communicate instantly with anyone in any part of the world by using computers linked to telephone networks.",
+      "translation": "当然，莱昂·巴格里特不可能预见到互联网的发展。互联网是一个全球性系统，它使我们能够通过连接到电话网络的电脑，与世界各地的任何人进行即时交流。",
+      "startTime": 197.96,
+      "endTime": 217.48,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s29",
-      "role": "Woman",
-      "text": "Nor could he have foreseen how we could use the Internet to obtain information on every known subject,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Nor could he have foreseen how we could use the Internet to obtain information on every known subject, so we can read it on a screen in our homes and even print it as well if we want to.",
+      "translation": "他也无法预见到我们如何利用互联网获取关于任何已知学科的信息，这样我们就可以在自家的屏幕上阅读，如果愿意，还可以打印出来。",
       "startTime": 217.49,
-      "endTime": 224.78,
-      "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s30",
-      "role": "Man",
-      "text": "so we can read it on a screen in our homes and even print it as well if we want to.",
-      "translation": "",
-      "startTime": 224.79,
       "endTime": 231.86,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s31",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Computers have become smaller and smaller, more and more powerful and cheaper and cheaper.",
-      "translation": "",
+      "translation": "电脑已经变得越来越小，功能越来越强，价格越来越便宜。",
       "startTime": 231.87,
-      "endTime": 239.54
+      "endTime": 239.54,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s32",
-      "role": "Man",
+      "role": "Narrator",
       "text": "This is what makes Leon Bagrit's predictions particularly remarkable.",
-      "translation": "",
+      "translation": "正是由于这些，才使得莱昂·巴格里特的预言显得格外非凡。",
       "startTime": 239.55,
       "endTime": 244.9,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "remarkable",
+            "pos": "adj.",
+            "meaning": "非凡的"
           }
         ]
       }
     },
     {
       "id": "s33",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "If he, or someone like him, were alive today, he might be able to tell us what to expect in the next fifty years.",
-      "translation": "",
+      "translation": "如果他或像他这样的人今天还活着，他或许能告诉我们在接下来的50年里会有什么期待。",
       "startTime": 244.91,
-      "endTime": 249.91,
+      "endTime": 259.91,
       "analysis": {
-        "words": [
-          {
-            "word": "Today",
-            "pos": "adv.",
-            "meaning": "今天"
-          },
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
+        "words": []
       }
     }
   ]

@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 39",
-      "translation": "",
+      "translation": "第39课",
       "startTime": 0.32,
       "endTime": 2.18,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Nothing to worry about",
-      "translation": "",
+      "translation": "不必担心",
       "startTime": 2.19,
-      "endTime": 10.92
+      "endTime": 10.92,
+      "analysis": {
+        "words": [
+          {
+            "word": "worry",
+            "pos": "v./n.",
+            "meaning": "担心"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -35,70 +44,24 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 10.93,
-      "endTime": 28.389999999999997,
+      "endTime": 28.39,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What was the differnce between Bruce's behaviour and that of other people?",
-      "translation": "",
+      "translation": "Bruce 的行为与其他人有什么不同？",
       "startTime": 10.93,
       "endTime": 18.54,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "behaviour",
+            "pos": "n.",
+            "meaning": "行为"
           }
         ]
       }
@@ -107,189 +70,196 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "The rough road across the plain soon became so bad that we tried to get Bruce to drive back to the village we had come from.",
-      "translation": "",
+      "translation": "横穿平原的崎岖道路很快变得非常糟糕，以致我们试图让 Bruce 开回到我们刚才经过的那个村子去。",
       "startTime": 18.55,
       "endTime": 28.48,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "rough",
+            "pos": "adj.",
+            "meaning": "崎岖的，粗糙的"
+          },
+          {
+            "word": "plain",
+            "pos": "n.",
+            "meaning": "平原"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Even though the road was littered with boulders and pitted with holes, Bruce was not in the least perturbed.",
-      "translation": "",
+      "translation": "尽管路上布满了大石块且坑坑洼洼，Bruce 却一点儿也不惊慌。",
       "startTime": 28.49,
       "endTime": 37.63,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "littered",
+            "pos": "v.",
+            "meaning": "乱扔，布满"
+          },
+          {
+            "word": "boulder",
+            "pos": "n.",
+            "meaning": "大石块"
+          },
+          {
+            "word": "perturbed",
+            "pos": "adj.",
+            "meaning": "不安的"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Glancing at his map, he informed us that the next village was a mere twenty miles away.",
-      "translation": "",
+      "translation": "他扫了一眼地图，告诉我们下一个村子只有20英里远。",
       "startTime": 37.64,
       "endTime": 45.61,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "informed",
+            "pos": "v.",
+            "meaning": "通知"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "mere",
+            "pos": "adj.",
+            "meaning": "仅仅"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It was not that Bruce always underestimated difficulties.",
-      "translation": "",
+      "translation": "这并不是说 Bruce 总是低估困难。",
       "startTime": 45.62,
       "endTime": 49.75,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "underestimated",
+            "pos": "v.",
+            "meaning": "低估"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "He simply had no sense of danger at all.",
-      "translation": "",
+      "translation": "他只是根本没有危险感。",
       "startTime": 49.76,
       "endTime": 53.86,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "No matter what the conditions were, he believed that a car should be driven as fast as it could possibly go.",
-      "translation": "",
+      "translation": "不论路况如何，他都认为车应该尽可能快地开。",
       "startTime": 53.87,
       "endTime": 62.57,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s6",
+      "role": "Narrator",
+      "text": "As we bumped over the dusty track, we swerved to avoid large boulders.",
+      "translation": "由于我们在布满灰尘的路上颠簸，我们不断急转弯以避开大石块。",
+      "startTime": 62.58,
+      "endTime": 68.46,
+      "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "bumped",
+            "pos": "v.",
+            "meaning": "颠簸"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Car",
-            "pos": "n.",
-            "meaning": "轿车"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "swerved",
+            "pos": "v.",
+            "meaning": "急转变"
           }
         ]
       }
     },
     {
-      "id": "s6",
-      "role": "Woman",
-      "text": "As we bumped over the dusty track, we swerved to avoid large boulders.",
-      "translation": "",
-      "startTime": 62.58,
-      "endTime": 68.46
-    },
-    {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The wheels scooped up stones which hammered ominously under the car.",
-      "translation": "",
+      "translation": "轮子卷起的石块在车身下发出了不祥的敲击声。",
       "startTime": 68.47,
       "endTime": 74.89,
       "analysis": {
         "words": [
           {
-            "word": "Car",
-            "pos": "n.",
-            "meaning": "轿车"
+            "word": "scooped",
+            "pos": "v.",
+            "meaning": "掘出，卷起"
+          },
+          {
+            "word": "hammered",
+            "pos": "v.",
+            "meaning": "敲击"
+          },
+          {
+            "word": "ominously",
+            "pos": "adv.",
+            "meaning": "不祥地"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We felt sure that sooner or later a stone would rip a hole in our petrol tank or damage the engine.",
-      "translation": "",
-      "startTime": 74.9,
+      "translation": "我们确信，石块迟早会把油箱砸个洞或损坏发动机。",
+      "startTime": 74.90,
       "endTime": 83.59,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "rip",
+            "pos": "v.",
+            "meaning": "撕开，划破"
+          },
+          {
+            "word": "petrol",
+            "pos": "n.",
+            "meaning": "汽油"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Because of this, we kept looking back, wondering if we were leaving a trail of oil and petrol behind us.",
-      "translation": "",
-      "startTime": 83.6,
+      "translation": "正因为如此，我们不断回头看，想知道我们是否在身后留下了一串油迹和汽油。",
+      "startTime": 83.60,
       "endTime": 93.21,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "trail",
+            "pos": "n.",
+            "meaning": "痕迹"
           }
         ]
       }
@@ -297,218 +267,209 @@
     {
       "id": "s10",
       "role": "Narrator",
-      "text": "What a relief it was when the boulders suddenly disappeared,",
-      "translation": "",
+      "text": "What a relief it was when the boulders suddenly disappeared, giving way to a stretch of plain where the only obstacles were clumps bushes.",
+      "translation": "当大石块突然消失、取而代之的是一片只有灌木丛的平原时，那是多么令人宽慰啊！",
       "startTime": 93.22,
-      "endTime": 97.44,
+      "endTime": 104.63,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "relief",
+            "pos": "n.",
+            "meaning": "慰藉，缓解"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "obstacle",
+            "pos": "n.",
+            "meaning": "障碍"
+          },
+          {
+            "word": "clump",
+            "pos": "n.",
+            "meaning": "丛"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "giving way to a stretch of plain where the only obstacles were clumps bushes.",
-      "translation": "",
-      "startTime": 97.45,
-      "endTime": 104.63
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "But there was worse to come. Just ahead of us there was a huge fissure.",
-      "translation": "",
+      "translation": "但更糟糕的还在后面。就在我们前面，有一个巨大的裂缝。",
       "startTime": 104.64,
-      "endTime": 111.79
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "In response to renewed pleadings, Bruce stopped.",
-      "translation": "",
-      "startTime": 111.8,
-      "endTime": 116.76
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "Though we all got out to examine the fissure, he remained in the car.",
-      "translation": "",
-      "startTime": 116.77,
-      "endTime": 122.08,
+      "endTime": 111.79,
       "analysis": {
         "words": [
           {
-            "word": "Car",
+            "word": "fissure",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "裂缝"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "In response to renewed pleadings, Bruce stopped.",
+      "translation": "在重申的恳求下，Bruce 停下了。",
+      "startTime": 111.80,
+      "endTime": 116.76,
+      "analysis": {
+        "words": [
+          {
+            "word": "renewed",
+            "pos": "adj.",
+            "meaning": "更新的，再次的"
+          },
+          {
+            "word": "pleading",
+            "pos": "n.",
+            "meaning": "恳求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "Though we all got out to examine the fissure, he remained in the car.",
+      "translation": "虽然我们都下车去检查那道裂缝，但他仍然呆在车里。",
+      "startTime": 116.77,
+      "endTime": 122.08,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "We informed him that the fissure extended for fifty yards and was two feet wide and four feet deep.",
+      "translation": "我们告诉他裂缝延伸了50码，有2英尺宽、4英尺深。",
+      "startTime": 122.09,
+      "endTime": 131.30,
+      "analysis": {
+        "words": [
+          {
+            "word": "extended",
+            "pos": "v.",
+            "meaning": "延伸"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "We informed him that the fissure extended for fifty yards and was two feet wide and four feet deep.",
-      "translation": "",
-      "startTime": 122.09,
-      "endTime": 131.3,
+      "role": "Narrator",
+      "text": "Even this had no effect.",
+      "translation": "即使这样也没起作用。",
+      "startTime": 131.31,
+      "endTime": 134.87,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "Even this had no effect.",
-      "translation": "",
-      "startTime": 131.31,
-      "endTime": 134.87,
+      "role": "Narrator",
+      "text": "Bruce went into a low gear and drove at a terrifying speed, keeping the front wheels astride the crack as he followed its zigzag course.",
+      "translation": "Bruce 换入低速档，并以惊人的速度行驶，在沿着裂缝曲折行进的同时，使前轮跨在裂缝两边。",
+      "startTime": 134.88,
+      "endTime": 147.13,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "terrifying",
+            "pos": "adj.",
+            "meaning": "可怕的"
+          },
+          {
+            "word": "astride",
+            "pos": "prep.",
+            "meaning": "跨在...上"
+          },
+          {
+            "word": "zigzag",
+            "pos": "adj./n.",
+            "meaning": "锯齿形的"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "Bruce went into a low gear and drove at a terrifying speed,",
-      "translation": "",
-      "startTime": 134.88,
-      "endTime": 140.66,
+      "role": "Narrator",
+      "text": "Before we had time to worry about what might happen, we were back on the plain again.",
+      "translation": "还没等我们来得及担心可能发生的事情，我们就又回到了平原上。",
+      "startTime": 147.14,
+      "endTime": 154.66,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "keeping the front wheels astride the crack as he followed its zigzag course.",
-      "translation": "",
-      "startTime": 140.67,
-      "endTime": 147.13,
+      "role": "Narrator",
+      "text": "Bruce consulted the map once more and told us that the village was now only fifteen miles away.",
+      "translation": "Bruce 再次查阅了地图，告诉我们村子现在离我们只有15英里远了。",
+      "startTime": 154.67,
+      "endTime": 163.23,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "Before we had time to worry about what might happen, we were back on the plain again.",
-      "translation": "",
-      "startTime": 147.14,
-      "endTime": 154.66,
+      "role": "Narrator",
+      "text": "Our next obstacle was a shallow pool of water about half a mile across.",
+      "translation": "我们的下一个障碍是一个大约半英里宽的浅水池。",
+      "startTime": 163.24,
+      "endTime": 169.11,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "shallow",
+            "pos": "adj.",
+            "meaning": "浅的"
           }
         ]
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "Bruce consulted the map once more and told us that the village was now only fifteen miles away.",
-      "translation": "",
-      "startTime": 154.67,
-      "endTime": 163.23,
+      "role": "Narrator",
+      "text": "Bruce charged at it, but in the middle, the car came to a grinding halt.",
+      "translation": "Bruce 向它冲了过去，但在中间，车子伴随着刺耳的摩擦声停了下来。",
+      "startTime": 169.12,
+      "endTime": 175.95,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "grinding",
+            "pos": "adj.",
+            "meaning": "磨碎的，刺耳的(磨擦声)"
+          },
+          {
+            "word": "halt",
+            "pos": "n.",
+            "meaning": "停止"
           }
         ]
       }
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "Our next obstacle was a shallow pool of water about half a mile across.",
-      "translation": "",
-      "startTime": 163.24,
-      "endTime": 169.11,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "Bruce charged at it, but in the middle, the car came to a grinding halt.",
-      "translation": "",
-      "startTime": 169.12,
-      "endTime": 175.95,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Car",
-            "pos": "n.",
-            "meaning": "轿车"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s23",
-      "role": "Man",
+      "role": "Narrator",
       "text": "A yellow light on the dashboard flashed angrily and Bruce cheerfully announced that there was no oil in the engine!",
-      "translation": "",
+      "translation": "仪表盘上的一个黄灯怒视般闪烁着，Bruce 兴高采烈地宣布：发动机里没油了！",
       "startTime": 175.96,
-      "endTime": 180.96,
+      "endTime": 185.96,
       "analysis": {
         "words": [
           {
-            "word": "Yellow",
-            "pos": "adj.",
-            "meaning": "黄色的"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "dashboard",
+            "pos": "n.",
+            "meaning": "仪表板"
           }
         ]
       }

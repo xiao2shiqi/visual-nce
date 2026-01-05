@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 23",
-      "translation": "",
+      "translation": "第23课",
       "startTime": 0.35,
       "endTime": 2.27,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,15 +25,15 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "One man's meat is another man's poison",
-      "translation": "",
+      "translation": "萝卜青菜，各有所爱",
       "startTime": 2.28,
       "endTime": 11.54,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "poison",
+            "pos": "n.",
+            "meaning": "毒药"
           }
         ]
       }
@@ -43,454 +43,336 @@
       "role": "Narrator",
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
-      "startTime": 11.549999999999999,
+      "startTime": 11.55,
       "endTime": 28.41,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What was it about snails that made the writer collect them for his friend on that day in particular?",
-      "translation": "",
+      "translation": "那天蜗牛的什么情况使作者特别想为他的朋友捕捉它们？",
       "startTime": 11.55,
       "endTime": 20.28,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "snail",
+            "pos": "n.",
+            "meaning": "蜗牛"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "People become quite illogical when they try to decide what can be eaten and what cannot be eaten.",
-      "translation": "",
-      "startTime": 20.29,
-      "endTime": 28.5,
-      "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "particular",
+            "pos": "adj.",
+            "meaning": "特别的"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
-      "text": "If you lived in the Mediterranean, for instance, you would consider octopus a great delicacy.",
-      "translation": "",
-      "startTime": 28.51,
-      "endTime": 35.91,
+      "role": "Narrator",
+      "text": "People become quite illogical when they try to decide what can be eaten and what cannot be eaten.",
+      "translation": "在决定什么能吃、什么不能吃的时候，人们变得很不讲逻辑。",
+      "startTime": 20.29,
+      "endTime": 28.50,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "illogical",
+            "pos": "adj.",
+            "meaning": "不合逻辑的"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "You would not be able to understand why some people find it repulsive.",
-      "translation": "",
-      "startTime": 35.92,
-      "endTime": 41.77,
+      "role": "Narrator",
+      "text": "If you lived in the Mediterranean, for instance, you would consider octopus a great delicacy.",
+      "translation": "例如，如果你住在地中海地区，你会把章鱼视作美味佳肴。",
+      "startTime": 28.51,
+      "endTime": 35.91,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Mediterranean",
+            "pos": "n.",
+            "meaning": "地中海"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "octopus",
+            "pos": "n.",
+            "meaning": "章鱼"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "delicacy",
+            "pos": "n.",
+            "meaning": "美味佳肴"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "On the other hand, your stomach would turn at the idea of frying potatoes in animal fat-the normally accepted practice in many northern countries.",
-      "translation": "",
-      "startTime": 41.78,
-      "endTime": 53.9,
+      "role": "Narrator",
+      "text": "You would not be able to understand why some people find it repulsive.",
+      "translation": "你无法理解为什么有些人觉得章鱼恶心。",
+      "startTime": 35.92,
+      "endTime": 41.77,
       "analysis": {
-        "words": [
-          {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "word": "repulsive",
+        "pos": "adj.",
+        "meaning": "令人反感的"
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
+      "text": "On the other hand, your stomach would turn at the idea of frying potatoes in animal fat-the normally accepted practice in many northern countries.",
+      "translation": "另一方面，如果你想到用动物油炸土豆——这是北欧许多国家通常接受的习惯——你就会反胃。",
+      "startTime": 41.78,
+      "endTime": 53.90,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s5",
+      "role": "Narrator",
       "text": "The sad truth is that most of us have been brought up to eat certain foods and we stick to them all our lives.",
-      "translation": "",
+      "translation": "可悲的事实是，我们中的大多数人从小就习惯吃某些食物，且一辈子都坚持吃这些食物。",
       "startTime": 53.91,
       "endTime": 63.18,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s6",
+      "role": "Narrator",
+      "text": "No creature has received more praise and abuse than the common garden snail.",
+      "translation": "没有一种生物受到的赞美和辱骂比普通的菜园蜗牛更多。",
+      "startTime": 63.19,
+      "endTime": 69.55,
+      "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "creature",
+            "pos": "n.",
+            "meaning": "生物"
           }
         ]
       }
     },
     {
-      "id": "s5",
-      "role": "Man",
-      "text": "No creature has received more praise and abuse than the common garden snail.",
-      "translation": "",
-      "startTime": 63.19,
-      "endTime": 69.55
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
+      "id": "s7",
+      "role": "Narrator",
       "text": "Cooked in wine, snails are a great luxury in various parts of the world.",
-      "translation": "",
+      "translation": "在世界许多地方，用酒烹制的蜗牛是一道极大的奢侈菜。",
       "startTime": 69.56,
       "endTime": 75.42,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "There are countless people who, ever since their early years, have learned to associate snails with food.",
-      "translation": "",
-      "startTime": 75.43,
-      "endTime": 84.19,
-      "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "luxury",
+            "pos": "n.",
+            "meaning": "奢侈品"
+          }
+        ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "My friend, Robert, lives in a country where snails are despised.",
-      "translation": "",
-      "startTime": 84.2,
-      "endTime": 90.3,
+      "role": "Narrator",
+      "text": "There are countless people who, ever since their early years, have learned to associate snails with food.",
+      "translation": "有无数的人从小就学会了把蜗牛和食物联系在一起。",
+      "startTime": 75.43,
+      "endTime": 84.19,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "associate",
+            "pos": "v.",
+            "meaning": "联系"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "As his flat is in a large town, he has no garden of his own.",
-      "translation": "",
-      "startTime": 90.31,
-      "endTime": 95.3,
+      "role": "Narrator",
+      "text": "My friend, Robert, lives in a country where snails are despised.",
+      "translation": "我的朋友罗伯特住在一个轻视蜗牛的国家。",
+      "startTime": 84.2,
+      "endTime": 90.30,
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "despised",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "蔑视，轻视"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "For years he has been asking me to collect snails from my garden and take them to him.",
-      "translation": "",
-      "startTime": 95.31,
-      "endTime": 102.45,
+      "role": "Narrator",
+      "text": "As his flat is in a large town, he has no garden of his own.",
+      "translation": "由于他的公寓在大城市里，他没有自己的花园。",
+      "startTime": 90.31,
+      "endTime": 95.30,
       "analysis": {
-        "words": [
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "The idea never appealed to me very much, but one day, after a heavy shower,",
-      "translation": "",
-      "startTime": 102.46,
-      "endTime": 109.16,
+      "role": "Narrator",
+      "text": "For years he has been asking me to collect snails from my garden and take them to him.",
+      "translation": "多年来他一直要求我从我的花园里收集蜗牛送给他。",
+      "startTime": 95.31,
+      "endTime": 102.45,
       "analysis": {
-        "words": [
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
-      "text": "I happened to be walking in my garden when I noticed a huge number of snails taking a stroll on some of my prize plants.",
-      "translation": "",
-      "startTime": 109.17,
+      "role": "Narrator",
+      "text": "The idea never appealed to me very much, but one day, after a heavy shower, I happened to be walking in my garden when I noticed a huge number of snails taking a stroll on some of my prize plants.",
+      "translation": "这个主意从未引起我多大兴趣，但有一天，在一场大雨过后，我正碰巧在花园里散步，我注意到大量的蜗牛正在我的一些名贵植物上散步。",
+      "startTime": 102.46,
       "endTime": 118.54,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "appeal",
+            "pos": "v.",
+            "meaning": "吸引"
           },
           {
-            "word": "Number",
+            "word": "shower",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "阵雨"
+          },
+          {
+            "word": "stroll",
+            "pos": "n.",
+            "meaning": "漫步"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Acting on a sudden impulse, I collected several dozen, put them in a paper bag, and took them to Robert.",
-      "translation": "",
+      "translation": "由于一时的冲动， I 收集了几打，把它们装进一个纸袋，带给了罗伯特。",
       "startTime": 118.55,
-      "endTime": 127
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "Robert was delighted to see me and equally pleased with my little gift.",
-      "translation": "",
-      "startTime": 127.01,
-      "endTime": 133.02,
+      "endTime": 127.00,
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "impulse",
+            "pos": "n.",
+            "meaning": "冲动"
           },
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "dozen",
+            "pos": "n.",
+            "meaning": "一打"
           }
         ]
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "Robert was delighted to see me and equally pleased with my little gift.",
+      "translation": "罗伯特见到我很惊喜，对我的小礼物也同样感到满意。",
+      "startTime": 127.01,
+      "endTime": 133.02,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "I left the bag in the hall and Robert and I went into the living room where we talked for a couple of hours.",
-      "translation": "",
+      "translation": "我把袋子留在门厅，罗伯特和我走进客厅谈了几个小时。",
       "startTime": 133.03,
-      "endTime": 140.55
+      "endTime": 140.55,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "I had forgotten all about the snails when Robert suddenly said that I must stay to dinner.",
-      "translation": "",
+      "translation": "当罗伯特突然说我必须留下来吃晚饭时，我早已把蜗牛的事忘得一干二净。",
       "startTime": 140.56,
       "endTime": 147.72,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Snails would, of course, be the main dish.",
-      "translation": "",
+      "translation": "蜗牛当然是主菜。",
       "startTime": 147.73,
-      "endTime": 151.78
+      "endTime": 151.78,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "I did not fancy the idea and I reluctantly followed Robert out of the room.",
-      "translation": "",
+      "translation": "我不喜欢这个主意，勉强跟着罗伯特走出房间。",
       "startTime": 151.79,
       "endTime": 157.89,
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "fancy",
+            "pos": "v.",
+            "meaning": "喜欢，想象"
+          },
+          {
+            "word": "reluctantly",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不情愿地"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "To our dismay,",
-      "translation": "",
-      "startTime": 157.9,
-      "endTime": 159.69,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "we saw that there were snails everywhere:",
-      "translation": "",
-      "startTime": 159.7,
-      "endTime": 162.96,
+      "role": "Narrator",
+      "text": "To our dismay, we saw that there were snails everywhere: they had escaped from the paper bag and had taken complete possession of the hall! I have never be able to look at a snail since then.",
+      "translation": "使我们惊愕的是，我们看到到处都是蜗牛：它们已经从纸袋里逃了出来，占领了整个门厅！从那以后，我再也无法正视蜗牛了。",
+      "startTime": 157.90,
+      "endTime": 170.40,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "they had escaped from the paper bag",
-      "translation": "",
-      "startTime": 162.97,
-      "endTime": 165.39
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "and had taken complete possession of the hall! I have never be able to look at a snail since then.",
-      "translation": "",
-      "startTime": 165.4,
-      "endTime": 170.4,
-      "analysis": {
-        "words": [
-          {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
+            "word": "dismay",
+            "pos": "n.",
+            "meaning": "惊愕，失望"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "possession",
+            "pos": "n.",
+            "meaning": "占有"
           }
         ]
       }

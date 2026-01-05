@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 52",
-      "translation": "",
+      "translation": "第52课",
       "startTime": 0.27,
       "endTime": 2.2,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,15 +25,15 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Mud is mud",
-      "translation": "",
+      "translation": "实事求是（泥土就是泥土）",
       "startTime": 2.21,
       "endTime": 10.03,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "mud",
+            "pos": "n.",
+            "meaning": "泥"
           }
         ]
       }
@@ -44,57 +44,16 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 10.04,
-      "endTime": 23.369999999999997,
+      "endTime": 23.37,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why did Harry decide to give up his little game?",
-      "translation": "",
+      "translation": "为什么哈利决定放弃他的小游戏？",
       "startTime": 10.04,
       "endTime": 15.34,
       "analysis": {
@@ -105,150 +64,85 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "My cousin, Harry, keeps a large curiously-shaped bottle on permanent display in his study.",
-      "translation": "",
+      "translation": "我的表弟哈利在他的书房里长期陈列着一个形状奇特的大瓶子。",
       "startTime": 15.35,
       "endTime": 23.46,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "permanent",
+            "pos": "adj.",
+            "meaning": "永久的"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
-      "text": "Despite the fact that the bottle is tinted a delicate shade of green,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Despite the fact that the bottle is tinted a delicate shade of green, an observant visitor would soon notice that it is filled with what looks like a thick, greyish substance.",
+      "translation": "尽管瓶子带有淡绿色，但细心的访客很快就会注意到里面装满了一种看起来像是厚厚的、灰色物质的东西。",
       "startTime": 23.47,
-      "endTime": 27.73,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Green",
-            "pos": "adj.",
-            "meaning": "绿色的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "an observant visitor would soon notice that it is filled with what looks like a thick, greyish substance.",
-      "translation": "",
-      "startTime": 27.74,
       "endTime": 35.59,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "tint",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "染色"
           },
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "observant",
+            "pos": "adj.",
+            "meaning": "观察力敏锐的"
+          },
+          {
+            "word": "greyish",
+            "pos": "adj.",
+            "meaning": "呈灰色的"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "If you were to ask Harry what was in the bottle, he would tell you that it contained perfumed mud.",
-      "translation": "",
+      "translation": "如果你问哈利瓶子里装的是什么，他会告诉你里面装的是香泥。",
       "startTime": 35.6,
       "endTime": 42.43,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "perfumed",
+            "pos": "adj.",
+            "meaning": "芳香的"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
-      "text": "If you expressed doubt or surprise, he would immediately invite you to smell it and then to rub some into your skin.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "If you expressed doubt or surprise, he would immediately invite you to smell it and then to rub some into your skin. The brief experiment would dispel any further doubts she might have.",
+      "translation": "如果你表示怀疑或惊讶，他会立即请你闻一闻，然后在皮肤上擦一些。这个简短的实验会消除你可能有的任何进一步怀疑。",
       "startTime": 42.44,
-      "endTime": 52,
+      "endTime": 56.83,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "dispel",
+            "pos": "v.",
+            "meaning": "驱散，消除"
           }
         ]
       }
     },
     {
-      "id": "s5",
-      "role": "Man",
-      "text": "The brief experiment would dispel any further doubts she might have.",
-      "translation": "",
-      "startTime": 52.01,
-      "endTime": 56.83
-    },
-    {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The bottle really does contain perfumed mud.",
-      "translation": "",
+      "translation": "瓶子里确实装的是香泥。",
       "startTime": 56.84,
       "endTime": 60.79,
       "analysis": {
@@ -259,418 +153,273 @@
       "id": "s7",
       "role": "Narrator",
       "text": "How Harry came into the possession of this outlandish stuff makes an interesting story which he is fond of relating.",
-      "translation": "",
+      "translation": "哈利是如何得到这种古怪东西的，这构成了一个他喜欢讲述的有趣故事。",
       "startTime": 60.8,
       "endTime": 69.35,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "possession",
+            "pos": "n.",
+            "meaning": "占有"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "outlandish",
+            "pos": "adj.",
+            "meaning": "古怪的，奇异的"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Furthermore, the acquisition of this bottle cured him of a bad habit he had been developing for years.",
-      "translation": "",
+      "translation": "此外，得到这个瓶子治好了他多年来养成的一个坏习惯。",
       "startTime": 69.36,
       "endTime": 77.65,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "acquisition",
+            "pos": "n.",
+            "meaning": "获得"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Woman",
-      "text": "Harry used to consider it a great joke to go into expensive cosmetic shops and make outrageous requests for goods that do not exist.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Harry used to consider it a great joke to go into expensive cosmetic shops and make outrageous requests for goods that do not exist. He would invent fanciful names on the spot.",
+      "translation": "哈利以前认为进出昂贵的化妆品店，并对不存在的商品提出离谱的要求是一个巨大的笑话。他会当场发明各种奇特的名字。",
       "startTime": 77.66,
-      "endTime": 88.91,
+      "endTime": 92.36,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "cosmetic",
+            "pos": "n.",
+            "meaning": "化妆品"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "outrageous",
+            "pos": "adj.",
+            "meaning": "离谱的"
           }
         ]
       }
     },
     {
-      "id": "s10",
-      "role": "Man",
-      "text": "He would invent fanciful names on the spot.",
-      "translation": "",
-      "startTime": 88.92,
-      "endTime": 92.36
-    },
-    {
       "id": "s11",
-      "role": "Woman",
-      "text": "On entering a shop,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "On entering a shop, he would ask for a new perfume called 'Scented Shadow' or for 'insoluble bath cubes'.",
+      "translation": "一进商店，他就会要一种名为“芳香之影”的新款香水，或者要“不溶性浴块”。",
       "startTime": 92.37,
-      "endTime": 94.05
-    },
-    {
-      "id": "s12",
-      "role": "Man",
-      "text": "he would ask for a new perfume called 'Scented Shadow' or for 'insoluble bath cubes'.",
-      "translation": "",
-      "startTime": 94.06,
-      "endTime": 102.31
-    },
-    {
-      "id": "s13",
-      "role": "Woman",
-      "text": "If a shop assistant told him she had not heard of it, he would pretend to be considerably put out.",
-      "translation": "",
-      "startTime": 102.32,
-      "endTime": 109.62,
+      "endTime": 102.31,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "perfume",
+            "pos": "n.",
+            "meaning": "香水"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "insoluble",
+            "pos": "adj.",
+            "meaning": "不溶解的"
           }
         ]
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "If a shop assistant told him she had not heard of it, he would pretend to be considerably put out.",
+      "translation": "如果店员告诉他她没听说过，他就会装出非常不高兴的样子。",
+      "startTime": 102.32,
+      "endTime": 109.62,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s14",
-      "role": "Man",
-      "text": "He loved to be told that one of his imaginary products was temporarily out of stock",
-      "translation": "",
+      "role": "Narrator",
+      "text": "He loved to be told that one of his imaginary products was temporarily out of stock and he would faithfully promise to call again at some future date, but of course he never did.",
+      "translation": "他喜欢听人说他虚构的某种产品暂时缺货，他会诚恳地答应改天再来，但当然他从来没去过。",
       "startTime": 109.63,
-      "endTime": 116.34,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Woman",
-      "text": "and he would faithfully promise to call again at some future date, but of course he never did.",
-      "translation": "",
-      "startTime": 116.35,
       "endTime": 123.26,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
       "role": "Narrator",
       "text": "How Harry managed to keep a straight face during these performances is quite beyond me.",
-      "translation": "",
+      "translation": "哈利在这些表演期间是如何做到不露声色的，我完全不理解。",
       "startTime": 123.27,
       "endTime": 130.3,
       "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Harry does not need to be prompted to explain how he bought his precious bottle of mud.",
-      "translation": "",
+      "translation": "哈利不需要提醒就会解释他是如何买到他那宝贝泥瓶子的。",
       "startTime": 130.31,
       "endTime": 136.09,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "prompt",
+            "pos": "v.",
+            "meaning": "提醒"
           }
         ]
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "One day, he went to an exclusive shop in London and asked for 'Myrolite'.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "One day, he went to an exclusive shop in London and asked for 'Myrolite'. The shop assistant looked puzzled and Harry repeated the word, slowly stressing each syllable.",
+      "translation": "有一天，他去了伦敦的一家高档商店，要买“迈罗莱特”。店员一脸困惑，哈利重复了这个词，慢慢地强调每一个音节。",
       "startTime": 136.1,
-      "endTime": 143.13
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "The shop assistant looked puzzled and Harry repeated the word, slowly stressing each syllable.",
-      "translation": "",
-      "startTime": 143.14,
-      "endTime": 150.99
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "When the woman shook her head in bewilderment,",
-      "translation": "",
-      "startTime": 151,
-      "endTime": 154.18,
+      "endTime": 150.99,
       "analysis": {
         "words": [
           {
-            "word": "Woman",
+            "word": "exclusive",
+            "pos": "adj.",
+            "meaning": "高档的，排他的"
+          },
+          {
+            "word": "syllable",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "音节"
           }
         ]
       }
     },
     {
-      "id": "s21",
-      "role": "Man",
-      "text": "Harry went on to explain that 'myrolite' was a hard, amber-like substance which could be used to remove freckles.",
-      "translation": "",
-      "startTime": 154.19,
+      "id": "s20",
+      "role": "Narrator",
+      "text": "When the woman shook her head in bewilderment, Harry went on to explain that 'myrolite' was a hard, amber-like substance which could be used to remove freckles.",
+      "translation": "当那个女人迷惑地摇头时，哈利继续解释说“迈罗莱特”是一种像琥珀一样的硬物质，可以用来去除雀斑。",
+      "startTime": 151.0,
       "endTime": 164.07,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "bewilderment",
+            "pos": "n.",
+            "meaning": "迷惑"
+          },
+          {
+            "word": "freckle",
+            "pos": "n.",
+            "meaning": "雀斑"
           }
         ]
       }
     },
     {
       "id": "s22",
-      "role": "Woman",
-      "text": "This explanation evidently conveyed something to the woman who searched shelf after shelf.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "This explanation evidently conveyed something to the woman who searched shelf after shelf. She produced all sorts of weird concoctions, but none of them met with Harry's requirements.",
+      "translation": "这一解释显然向那个女人传达了某种信息，她找了一个又一个架子。她拿出了各种各样离奇的配制剂，但没有一样符合哈里的要求。",
       "startTime": 164.08,
-      "endTime": 170.68,
+      "endTime": 178.08,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Woman",
+            "word": "concoction",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "调配制品"
           }
         ]
       }
     },
     {
-      "id": "s23",
-      "role": "Man",
-      "text": "She produced all sorts of weird concoctions, but none of them met with Harry's requirements.",
-      "translation": "",
-      "startTime": 170.69,
-      "endTime": 178.08
-    },
-    {
       "id": "s24",
-      "role": "Woman",
-      "text": "When Harry put on his act of being mildly annoyed, the assistant promised to order some for him.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "When Harry put on his act of being mildly annoyed, the assistant promised to order some for him. Intoxicated by his success, Harry then asked for perfumed mud.",
+      "translation": "当哈利装出略微恼火的样子时，店员答应为他订购一些。由于成功后的飘飘然，哈利接着要买香泥。",
       "startTime": 178.09,
-      "endTime": 185.08,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "Intoxicated by his success, Harry then asked for perfumed mud.",
-      "translation": "",
-      "startTime": 185.09,
       "endTime": 191.63,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "intoxicated",
+            "pos": "adj.",
+            "meaning": "陶醉的"
+          }
+        ]
       }
     },
     {
       "id": "s26",
-      "role": "Woman",
-      "text": "He expected the assistant to look at him in blank astonishment.",
-      "translation": "",
-      "startTime": 191.64,
-      "endTime": 195.8,
-      "analysis": {
-        "words": [
-          {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s27",
       "role": "Narrator",
-      "text": "However, it was his turn to be surprised, for the woman's eyes immediately lit up",
-      "translation": "",
-      "startTime": 195.81,
-      "endTime": 203,
+      "text": "He expected the assistant to look at him in blank astonishment. However, it was his turn to be surprised, for the woman's eyes immediately lit up and she fetched several bottles which she placed on the counter for Harry to inspect.",
+      "translation": "他原以为店员会一脸惊讶地看着他。然而，这回轮到他惊讶了，因为那个女人的眼睛立刻亮了起来，她拿来了好几瓶，放在柜台上让哈利检查。",
+      "startTime": 191.64,
+      "endTime": 209.02,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
-    },
-    {
-      "id": "s28",
-      "role": "Man",
-      "text": "and she fetched several bottles which she placed on the counter for Harry to inspect.",
-      "translation": "",
-      "startTime": 203.01,
-      "endTime": 209.02
     },
     {
       "id": "s29",
-      "role": "Woman",
-      "text": "For once, Harry had to admit defeat.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "For once, Harry had to admit defeat. He picked up what seemed to be the smallest bottle and discreetly asked the price.",
+      "translation": "哈利平生头一遭只好认输。他拿起了似乎是最小的一瓶，谨慎地询问价格。",
       "startTime": 209.03,
-      "endTime": 212.64
-    },
-    {
-      "id": "s30",
-      "role": "Man",
-      "text": "He picked up what seemed to be the smallest bottle and discreetly asked the price.",
-      "translation": "",
-      "startTime": 212.65,
       "endTime": 219.29,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "discreetly",
+            "pos": "adv.",
+            "meaning": "谨慎地"
           }
         ]
       }
     },
     {
       "id": "s31",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "He was glad to get away with a mere twenty pounds and he beat a hasty retreat, clutching the precious bottle under his arm.",
-      "translation": "",
+      "translation": "他很高兴只花了20英镑就躲开了，他匆忙撤离，胳膊底下夹着那宝贝瓶子。",
       "startTime": 219.3,
       "endTime": 228.56,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s32",
-      "role": "Man",
-      "text": "From then on, Harry decided that this little game he had invented might prove to be expensive.",
-      "translation": "",
-      "startTime": 228.57,
-      "endTime": 235.67,
-      "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "clutch",
+            "pos": "v.",
+            "meaning": "紧握"
           }
         ]
       }
     },
     {
-      "id": "s33",
-      "role": "Woman",
-      "text": "The curious bottle which now adorns the bookcase in his study was his first and last purchase of rare cosmetics.",
-      "translation": "",
-      "startTime": 235.68,
+      "id": "s32",
+      "role": "Narrator",
+      "text": "From then on, Harry decided that this little game he had invented might prove to be expensive. The curious bottle which now adorns the bookcase in his study was his first and last purchase of rare cosmetics.",
+      "translation": "从那时起，哈利决定他发明的这个小游戏可能会证明是很昂贵的。现在摆在他书房书架上装饰的那只奇特的瓶子，是他第一次也是最后一次购买稀有化妆品。",
+      "startTime": 228.57,
       "endTime": 240.68,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "adorn",
+            "pos": "v.",
+            "meaning": "装饰"
+          }
+        ]
       }
     }
   ]

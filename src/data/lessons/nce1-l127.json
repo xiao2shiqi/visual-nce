@@ -30,11 +30,27 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A famous actress",
-      "translation": "(标题)",
+      "translation": "著名的女演员",
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "A",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Famous",
+            "pos": "adj.",
+            "meaning": "著名的"
+          },
+          {
+            "word": "Actress",
+            "pos": "n.",
+            "meaning": "女演员"
+          }
+        ]
       }
     },
     {

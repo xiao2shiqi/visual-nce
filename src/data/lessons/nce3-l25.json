@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 25",
-      "translation": "",
+      "translation": "第25课",
       "startTime": 0.32,
       "endTime": 2.34,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,12 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The Cutty Sark",
-      "translation": "",
+      "translation": "“卡蒂萨克”号",
       "startTime": 2.35,
-      "endTime": 9.47
+      "endTime": 9.47,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -37,147 +40,103 @@
       "startTime": 9.48,
       "endTime": 24.29,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What piece of bad luck prevented the Cutty Sark from winning the race?",
-      "translation": "",
+      "translation": "什么样的倒霉事情阻止了“卡蒂萨克”号赢得比赛？",
       "startTime": 9.48,
       "endTime": 16.13,
       "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
       "text": "One of the most famous sailing ships of the nineteenth century, the Cutty Sark, can still be seen at Greenwich.",
-      "translation": "",
+      "translation": "19世纪最著名的帆船之一“卡蒂萨克”号现在仍可在格林尼治看到。",
       "startTime": 16.14,
       "endTime": 24.38,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "She stands on dry land and is visited by thousands of people each year.",
-      "translation": "",
-      "startTime": 24.39,
-      "endTime": 30.27,
-      "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "sailing ship",
+            "pos": "n.",
+            "meaning": "帆船"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "She serves as an impressive reminder of the great ships of the past.",
-      "translation": "",
-      "startTime": 30.28,
-      "endTime": 36.08
+      "role": "Narrator",
+      "text": "She stands on dry land and is visited by thousands of people each year.",
+      "translation": "它停在陆地上，每年吸引成千上万的人参观。",
+      "startTime": 24.39,
+      "endTime": 30.27,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "Before they were replaced by steamships,",
-      "translation": "",
-      "startTime": 36.09,
-      "endTime": 39.06
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "sailing vessels like the Cutty Sark were used to carry tea from China and wool from Australia.",
-      "translation": "",
-      "startTime": 39.07,
-      "endTime": 47.24
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "The Cutty Sark was one of the fastest sailing ships that has ever been built.",
-      "translation": "",
-      "startTime": 47.25,
-      "endTime": 53.21,
+      "role": "Narrator",
+      "text": "She serves as an impressive reminder of the great ships of the past.",
+      "translation": "它作为过去那些伟大船只的令人印象深刻的纪念。",
+      "startTime": 30.28,
+      "endTime": 36.08,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "impressive",
+            "pos": "adj.",
+            "meaning": "感人的，令人深思的"
+          },
+          {
+            "word": "reminder",
+            "pos": "n.",
+            "meaning": "提醒人（物），纪念品"
           }
         ]
       }
     },
     {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "Before they were replaced by steamships, sailing vessels like the Cutty Sark were used to carry tea from China and wool from Australia.",
+      "translation": "在被蒸汽轮船取代之前，像“卡蒂萨克”号这样的帆船被用来从中国运茶，从澳大利亚运羊毛。",
+      "startTime": 36.09,
+      "endTime": 47.24,
+      "analysis": {
+        "words": [
+          {
+            "word": "vessel",
+            "pos": "n.",
+            "meaning": "船"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "role": "Narrator",
+      "text": "The Cutty Sark was one of the fastest sailing ships that has ever been built.",
+      "translation": "“卡蒂萨克”号是有史以来建造的最快的帆船之一。",
+      "startTime": 47.25,
+      "endTime": 53.21,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The only other ship to match her was the Thermopylae.",
-      "translation": "",
+      "translation": "唯一能与它抗衡的船只有“萨莫皮莱”号。",
       "startTime": 53.22,
       "endTime": 58.14,
       "analysis": {
@@ -186,320 +145,207 @@
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Both these ships set out from Shanghai on June 18th, 1872 on an exciting race to England.",
-      "translation": "",
+      "translation": "1872年6月18日，这两艘船同时从上海出发，开始了一场前往英国的激动人心的比赛。",
       "startTime": 58.15,
-      "endTime": 67.81
+      "endTime": 67.81,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "This race, which went on for exactly four months, was the last of its kind.",
-      "translation": "",
+      "translation": "这场整整持续了4个月的比赛是同类比赛中的最后一场。",
       "startTime": 67.82,
-      "endTime": 74.6,
+      "endTime": 74.60,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It marked the end of the great tradition of ships with sails and the beginning of a new era.",
-      "translation": "",
+      "translation": "它标志着大帆船传统的终结和一个新时代的开始。",
       "startTime": 74.61,
-      "endTime": 82.5,
+      "endTime": 82.50,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "era",
+            "pos": "n.",
+            "meaning": "时代"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "The first of the two ships to reach Java after the race had begun was the Thermopylae,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The first of the two ships to reach Java after the race had begun was the Thermopylae, but on the Indian Ocean, the Cutty Sark took the lead.",
+      "translation": "比赛开始后，两船中先到达爪哇的是“萨莫皮莱”号，但在印度洋上，“卡蒂萨克”号取得了领先地位。",
       "startTime": 82.51,
-      "endTime": 89.59
+      "endTime": 93.87,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "but on the Indian Ocean, the Cutty Sark took the lead.",
-      "translation": "",
-      "startTime": 89.6,
-      "endTime": 93.87
+      "role": "Narrator",
+      "text": "It seemed certain that she would be the first ship home, but during the race she had a lot of bad luck.",
+      "translation": "看来它肯定能第一个回到家，但在比赛期间它遇到了很多倒霉事。",
+      "startTime": 93.88,
+      "endTime": 101.85,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s12",
-      "role": "Woman",
-      "text": "It seemed certain that she would be the first ship home,",
-      "translation": "",
-      "startTime": 93.88,
-      "endTime": 97.66,
+      "role": "Narrator",
+      "text": "In August, she was struck by a very heavy storm during which her rudder was torn away.",
+      "translation": "8月，它遭到了一场特大风暴的袭击，船舵被刮走了。",
+      "startTime": 101.86,
+      "endTime": 109.42,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "rudder",
+            "pos": "n.",
+            "meaning": "舵"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
-      "text": "but during the race she had a lot of bad luck.",
-      "translation": "",
-      "startTime": 97.67,
-      "endTime": 101.85
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "In August, she was struck by a very heavy storm during which her rudder was torn away.",
-      "translation": "",
-      "startTime": 101.86,
-      "endTime": 109.42,
+      "role": "Narrator",
+      "text": "The Cutty Sark rolled from side to side and it became impossible to steer her.",
+      "translation": "“卡蒂萨克”号左右摇晃，无法操纵。",
+      "startTime": 109.43,
+      "endTime": 115.92,
       "analysis": {
         "words": [
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "roll",
+            "pos": "v.",
+            "meaning": "摇晃，滚"
+          },
+          {
+            "word": "steer",
+            "pos": "v.",
+            "meaning": "驾驶"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "A temporary rudder was made on board from spare planks and it was fitted with great difficulty.",
+      "translation": "船员们用备用的木板在船上做了一个临时舵，并费了九牛二虎之力安装了上去。",
+      "startTime": 115.93,
+      "endTime": 123.63,
+      "analysis": {
+        "words": [
+          {
+            "word": "temporary",
+            "pos": "adj.",
+            "meaning": "临时的"
+          },
+          {
+            "word": "plank",
+            "pos": "n.",
+            "meaning": "厚木板"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "The Cutty Sark rolled from side to side and it became impossible to steer her.",
-      "translation": "",
-      "startTime": 109.43,
-      "endTime": 115.92,
+      "role": "Narrator",
+      "text": "This greatly reduced the speed of the ship, for there was a danger that if she travelled too quickly, this rudder would be torn away as well.",
+      "translation": "这大大降低了船速，因为如果航行太快，临时舵也有被刮走的危险。",
+      "startTime": 123.64,
+      "endTime": 134.59,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "A temporary rudder was made on board from spare planks and it was fitted with great difficulty.",
-      "translation": "",
-      "startTime": 115.93,
-      "endTime": 123.63,
+      "role": "Narrator",
+      "text": "Because of this, the Cutty Sark lost her lead.",
+      "translation": "因此，“卡蒂萨克”号失去了领先地位。",
+      "startTime": 134.60,
+      "endTime": 138.73,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "This greatly reduced the speed of the ship, for there was a danger that if she travelled too quickly,",
-      "translation": "",
-      "startTime": 123.64,
-      "endTime": 130.85,
+      "role": "Narrator",
+      "text": "After crossing the Equator, the captain called in at a port to have a new rudder fitted, but by now the Thermopylae was over five hundred miles ahead.",
+      "translation": "在横渡赤道后，船长在一家港口停靠以安装新舵，但此时“萨莫皮莱”号已经领先了500多英里。",
+      "startTime": 138.74,
+      "endTime": 150.97,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "Equator",
+            "pos": "n.",
+            "meaning": "赤道"
           }
         ]
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "this rudder would be torn away as well.",
-      "translation": "",
-      "startTime": 130.86,
-      "endTime": 134.59,
+      "role": "Narrator",
+      "text": "Though the new rudder was fitted at tremendous speed, it was impossible for the Cutty Sark to win.",
+      "translation": "虽然安装新舵的速度极快，但“卡蒂萨克”号已无法获胜。",
+      "startTime": 150.98,
+      "endTime": 159.17,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "Because of this, the Cutty Sark lost her lead.",
-      "translation": "",
-      "startTime": 134.6,
-      "endTime": 138.73,
+      "role": "Narrator",
+      "text": "She arrived in England a week after the Thermopylae.",
+      "translation": "它在“萨莫皮莱”号到达一周后才抵达英国。",
+      "startTime": 159.18,
+      "endTime": 163.38,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "After crossing the Equator, the captain called in at a port to have a new rudder fitted,",
-      "translation": "",
-      "startTime": 138.74,
-      "endTime": 145.64,
+      "role": "Narrator",
+      "text": "Even this was remarkable, considering that she had had so many delays.",
+      "translation": "考虑到它经历了这么多延误，即使这样也已经很了不起了。",
+      "startTime": 163.39,
+      "endTime": 169.28,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "but by now the Thermopylae was over five hundred miles ahead.",
-      "translation": "",
-      "startTime": 145.65,
-      "endTime": 150.97,
-      "analysis": {
-        "words": [
-          {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "Though the new rudder was fitted at tremendous speed, it was impossible for the Cutty Sark to win.",
-      "translation": "",
-      "startTime": 150.98,
-      "endTime": 159.17,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "She arrived in England a week after the Thermopylae.",
-      "translation": "",
-      "startTime": 159.18,
-      "endTime": 163.38
-    },
-    {
-      "id": "s24",
-      "role": "Woman",
-      "text": "Even this was remarkable, considering that she had had so many delays.",
-      "translation": "",
-      "startTime": 163.39,
-      "endTime": 169.28,
-      "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s25",
-      "role": "Man",
+      "role": "Narrator",
       "text": "There is no doubt that if she had not lost her rudder she would have won the race easily.",
-      "translation": "",
+      "translation": "毫无疑问，如果它没有丢掉船舵，它肯定能轻而易举地赢得这场比赛。",
       "startTime": 169.29,
-      "endTime": 174.29,
+      "endTime": 179.29,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     }
   ]

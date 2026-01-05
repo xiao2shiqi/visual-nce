@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 24",
-      "translation": "",
+      "translation": "第24课",
       "startTime": 0.34,
       "endTime": 2.43,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,23 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A skeleton in the cupboard",
-      "translation": "",
+      "translation": "家丑",
       "startTime": 2.44,
-      "endTime": 9.67
+      "endTime": 9.67,
+      "analysis": {
+        "words": [
+          {
+            "word": "skeleton",
+            "pos": "n.",
+            "meaning": "骷髅"
+          },
+          {
+            "word": "cupboard",
+            "pos": "n.",
+            "meaning": "壁橱"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -35,264 +49,170 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 9.68,
-      "endTime": 16.959999999999997,
+      "endTime": 16.96,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Who was Sebastian?",
-      "translation": "",
+      "translation": "塞巴斯蒂安是谁？",
       "startTime": 9.68,
-      "endTime": 11.86
+      "endTime": 11.86,
+      "analysis": {
+        "words": []
+      }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
-      "text": "We often read in novels how a seemingly respectable person",
-      "translation": "",
+      "text": "We often read in novels how a seemingly respectable person or family has some terrible secret which has been concealed from strangers for years.",
+      "translation": "我们经常在小说中读到，一个表面上受人尊敬的人或家庭，有着某种对外隐瞒了多年的可怕秘密。",
       "startTime": 11.87,
-      "endTime": 17.05,
+      "endTime": 24.72,
       "analysis": {
         "words": [
           {
-            "word": "How",
+            "word": "seemingly",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "表面上"
+          },
+          {
+            "word": "respectable",
+            "pos": "adj.",
+            "meaning": "受人尊敬的"
+          },
+          {
+            "word": "conceal",
+            "pos": "v.",
+            "meaning": "隐瞒"
           }
         ]
       }
     },
     {
-      "id": "s1",
-      "role": "Man",
-      "text": "or family has some terrible secret which has been concealed from strangers for years.",
-      "translation": "",
-      "startTime": 17.06,
-      "endTime": 24.72
-    },
-    {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The English language possesses a vivid saying to describe this sort of situation.",
-      "translation": "",
+      "translation": "英语中有一个生动的成语来描述这种情况。",
       "startTime": 24.73,
-      "endTime": 30.6,
+      "endTime": 30.60,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "possesses",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "vivid",
+            "pos": "adj.",
+            "meaning": "生动的"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The terrible secret is called 'a skeleton in the cupboard'.",
-      "translation": "",
+      "translation": "这个可怕的秘密被称为“壁橱里的骷髅”。",
       "startTime": 30.61,
       "endTime": 35.68,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "At some dramatic moment in the story, the terrible secret becomes known and a reputation is ruined.",
-      "translation": "",
+      "translation": "在故事的某个戏剧性时刻，可怕的秘密被揭穿，名誉也随之扫地。",
       "startTime": 35.69,
       "endTime": 43.07,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "dramatic",
+            "pos": "adj.",
+            "meaning": "戏剧性的"
           },
           {
-            "word": "Is",
+            "word": "ruined",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "毁掉"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "The reader's hair stands on end when he reads in the final pages of the novel that the heroine,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The reader's hair stands on end when he reads in the final pages of the novel that the heroine, a dear old lady who had always been so kind to everybody, had, in her youth, poisoned every one of her five husbands.",
+      "translation": "当读者在小说的最后几页读到女主人公——一位总是对每个人都很和蔼的可亲老妇人——在年轻时毒死了她的5个丈夫中的每一个时，他会感到毛骨悚然。",
       "startTime": 43.08,
-      "endTime": 49.33,
+      "endTime": 59.78,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "heroine",
+            "pos": "n.",
+            "meaning": "女主人公"
+          },
+          {
+            "word": "poisoned",
+            "pos": "v.",
+            "meaning": "毒死"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "a dear old lady who had always been so kind to everybody, had, in her youth, poisoned every one of her five husbands.",
-      "translation": "",
-      "startTime": 49.34,
-      "endTime": 59.78,
+      "role": "Narrator",
+      "text": "It is all very well for such things to occur in fiction.",
+      "translation": "这种事发生在虚构作品中倒也罢了。",
+      "startTime": 59.79,
+      "endTime": 64.46,
       "analysis": {
         "words": [
           {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
-          },
-          {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "fiction",
+            "pos": "n.",
+            "meaning": "小说"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "It is all very well for such things to occur in fiction.",
-      "translation": "",
-      "startTime": 59.79,
-      "endTime": 64.46,
+      "role": "Narrator",
+      "text": "To varying degrees, we all have secrets which we do not want even our closest friends to learn, but few of us have skeletons in the cupboard.",
+      "translation": "在不同程度上，我们都有不希望连最亲密的朋友知道的秘密，但我们中很少有人有“壁橱里的骷髅”。",
+      "startTime": 64.47,
+      "endTime": 75.49,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "To varying degrees, we all have secrets which we do not want even our closest friends to learn,",
-      "translation": "",
-      "startTime": 64.47,
-      "endTime": 71.75,
+      "role": "Narrator",
+      "text": "The only person I know who has a skeleton in the cupboard is George Carlton, and he is very proud of the fact.",
+      "translation": "我认识的人中只有乔治·卡尔顿一个人名副其实地在壁橱里有一具骷髅，而且他为此感到自豪。",
+      "startTime": 75.50,
+      "endTime": 83.86,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "but few of us have skeletons in the cupboard.",
-      "translation": "",
-      "startTime": 71.76,
-      "endTime": 75.49
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "The only person I know who has a skeleton in the cupboard is George Carlton, and he is very proud of the fact.",
-      "translation": "",
-      "startTime": 75.5,
-      "endTime": 83.86,
-      "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "George studied medicine in his youth.",
-      "translation": "",
+      "translation": "乔治年轻时学过医。",
       "startTime": 83.87,
       "endTime": 86.66,
       "analysis": {
@@ -300,251 +220,193 @@
       }
     },
     {
-      "id": "s12",
-      "role": "Woman",
+      "id": "s10",
+      "role": "Narrator",
       "text": "Instead of becoming a doctor, however, he became a successful writer of detective stories.",
-      "translation": "",
+      "translation": "然而，他没有成为医生，而是成了一位成功的侦探小说家。",
       "startTime": 86.67,
-      "endTime": 93.76
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "I once spent an uncomfortable weekend which I shall never forget at his house.",
-      "translation": "",
-      "startTime": 93.77,
-      "endTime": 99.37,
+      "endTime": 93.76,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "House",
+            "word": "detective",
             "pos": "n.",
-            "meaning": "房子"
+            "meaning": "侦探"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
+      "text": "I once spent an uncomfortable weekend which I shall never forget at his house.",
+      "translation": "我曾在他家度过一个终生难忘的不舒服的周末。",
+      "startTime": 93.77,
+      "endTime": 99.37,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "George showed me to the guestroom which, he said, was rarely used.",
+      "translation": "乔治把我领到客房，他说这间房很少用。",
+      "startTime": 99.38,
+      "endTime": 104.01,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "He told me to unpack my things and then come down to dinner.",
+      "translation": "他让我打开行李，然后下楼吃饭。",
+      "startTime": 104.02,
+      "endTime": 108.32,
+      "analysis": {
+        "words": [
+          {
+            "word": "unpack",
+            "pos": "v.",
+            "meaning": "取出包裹"
           }
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
-      "text": "George showed me to the guestroom which, he said, was rarely used.",
-      "translation": "",
-      "startTime": 99.38,
-      "endTime": 104.01,
+      "role": "Narrator",
+      "text": "After I had stacked my shirts and underclothes in two empty drawers, I decided to hang one of the two suits I had brought with me in the cupboard.",
+      "translation": "我把衬衫和衬裤叠好放在两个空抽屉里后，决定把带来的两套西服中的一套挂进壁橱里。",
+      "startTime": 108.33,
+      "endTime": 118.37,
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "stack",
+            "pos": "v.",
+            "meaning": "堆放"
+          },
+          {
+            "word": "drawer",
+            "pos": "n.",
+            "meaning": "抽屉"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "He told me to unpack my things and then come down to dinner.",
-      "translation": "",
-      "startTime": 104.02,
-      "endTime": 108.32,
+      "role": "Narrator",
+      "text": "I opened the cupboard door and then stood in front of it petrified.",
+      "translation": "我打开壁橱门，然后呆若木鸡地站在门前。",
+      "startTime": 118.38,
+      "endTime": 123.31,
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "petrified",
+            "pos": "v.",
+            "meaning": "石化，发呆"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "After I had stacked my shirts and underclothes in two empty drawers, I decided to hang one of the two suits I had brought with me in the cupboard.",
-      "translation": "",
-      "startTime": 108.33,
-      "endTime": 118.37,
+      "role": "Narrator",
+      "text": "A skeleton was dangling before my eyes.",
+      "translation": "一具骷髅正悬挂在我眼前。",
+      "startTime": 123.32,
+      "endTime": 127.05,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "dangle",
+            "pos": "v.",
+            "meaning": "悬挂"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "I opened the cupboard door and then stood in front of it petrified.",
-      "translation": "",
-      "startTime": 118.38,
-      "endTime": 123.31,
+      "role": "Narrator",
+      "text": "The sudden movement of the door made it sway slightly and it gave me the impression that it was about to leap out at me.",
+      "translation": "门的突然移动使它轻轻摇晃起来，给我一种它正要向我扑过来的印象。",
+      "startTime": 127.06,
+      "endTime": 135.31,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "sway",
+            "pos": "v.",
+            "meaning": "摇摆"
           }
         ]
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "A skeleton was dangling before my eyes.",
-      "translation": "",
-      "startTime": 123.32,
-      "endTime": 127.05,
+      "role": "Narrator",
+      "text": "Dropping my suit, I dashed downstairs to tell George.",
+      "translation": "我扔下西服，冲下楼去告诉乔治。",
+      "startTime": 135.32,
+      "endTime": 140.39,
       "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "The sudden movement of the door made it sway slightly and it gave me the impression that it was about to leap out at me.",
-      "translation": "",
-      "startTime": 127.06,
-      "endTime": 135.31,
+      "role": "Narrator",
+      "text": "This was worse than 'a terrible secret'; this was a real skeleton!",
+      "translation": "这比“可怕的秘密”还要糟糕；这是一具真实的骷髅！",
+      "startTime": 140.40,
+      "endTime": 145.84,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "Dropping my suit, I dashed downstairs to tell George.",
-      "translation": "",
-      "startTime": 135.32,
-      "endTime": 140.39,
+      "role": "Narrator",
+      "text": "But George was unsympathetic.",
+      "translation": "但乔治毫不表示同情。",
+      "startTime": 145.85,
+      "endTime": 148.41,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "unsympathetic",
+            "pos": "adj.",
+            "meaning": "无同情心的"
           }
         ]
       }
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "This was worse than 'a terrible secret'; this was a real skeleton!",
-      "translation": "",
-      "startTime": 140.4,
-      "endTime": 145.84,
+      "role": "Narrator",
+      "text": "'Oh, that,' he said with a smile as if he were talking about an old friend.",
+      "translation": "“噢，那是它呀，”他笑着说，仿佛在谈论一位老朋友。",
+      "startTime": 148.42,
+      "endTime": 154.55,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s22",
-      "role": "Woman",
-      "text": "But George was unsympathetic.",
-      "translation": "",
-      "startTime": 145.85,
-      "endTime": 148.41
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "'Oh, that,' he said with a smile as if he were talking about an old friend.",
-      "translation": "",
-      "startTime": 148.42,
-      "endTime": 154.55,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s24",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "'That's Sebastian. You forget that I was a medical student once upon a time.'",
-      "translation": "",
+      "translation": "“那是塞巴斯蒂安。你忘了我曾是个医科学生。”",
       "startTime": 154.56,
-      "endTime": 159.56,
+      "endTime": 164.56,
       "analysis": {
-        "words": [
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Student",
-            "pos": "n.",
-            "meaning": "学生"
-          }
-        ]
+        "words": []
       }
     }
   ]

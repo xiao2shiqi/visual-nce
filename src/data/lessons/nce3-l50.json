@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 50",
-      "translation": "",
+      "translation": "第50课",
       "startTime": 0.52,
       "endTime": 2.78,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "New Year resolutions",
-      "translation": "",
+      "translation": "新年的决心",
       "startTime": 2.79,
-      "endTime": 10.98
+      "endTime": 10.98,
+      "analysis": {
+        "words": [
+          {
+            "word": "resolution",
+            "pos": "n.",
+            "meaning": "决心"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,63 +46,22 @@
       "startTime": 10.99,
       "endTime": 19.81,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What marked the end of the writer's New Year resolutions?",
-      "translation": "",
+      "translation": "什么标志着作者新年决心的终结？",
       "startTime": 10.99,
       "endTime": 16.8,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "mark",
+            "pos": "v.",
+            "meaning": "标志"
           }
         ]
       }
@@ -102,272 +70,245 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "The New Year is a time for resolutions.",
-      "translation": "",
+      "translation": "新年是下决心的时候。",
       "startTime": 16.81,
       "endTime": 19.9,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Mentally, at least, most of us could compile formidable lists of 'dos' and 'don'ts'.",
-      "translation": "",
+      "translation": "至少从心理上来说，我们大多数人都能编出长长的一串“要做”和“不要做”的清单。",
       "startTime": 19.91,
       "endTime": 27.53,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "mentally",
+            "pos": "adv.",
+            "meaning": "心理上"
+          },
+          {
+            "word": "compile",
+            "pos": "v.",
+            "meaning": "编写"
+          },
+          {
+            "word": "formidable",
+            "pos": "adj.",
+            "meaning": "令人畏惧的"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The same old favourites recur year in year out with monotonous regularity.",
-      "translation": "",
+      "translation": "同样的老话题年复一年地以单调的规律性重复出现。",
       "startTime": 27.54,
       "endTime": 34.26,
       "analysis": {
         "words": [
           {
-            "word": "Old",
+            "word": "recur",
+            "pos": "v.",
+            "meaning": "再发生，重现"
+          },
+          {
+            "word": "monotonous",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "单调的"
+          },
+          {
+            "word": "regularity",
+            "pos": "n.",
+            "meaning": "定期，规律"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We resolve to get up earlier each morning, eat less,",
-      "translation": "",
+      "translation": "我们决心每天早上起得早一点，少吃一点，",
       "startTime": 34.27,
-      "endTime": 38.34
+      "endTime": 38.34,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "find more time to play with the children, do a thousand and one jobs about the house,",
-      "translation": "",
+      "translation": "找更多的时间陪孩子玩，做数不清的家务，",
       "startTime": 38.35,
       "endTime": 44.11,
       "analysis": {
-        "words": [
-          {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "be nice to people we don't like, drive carefully, and take the dog for a walk every day.",
-      "translation": "",
+      "translation": "对我们不喜欢的人友好一点，谨慎驾驶，并且每天带狗散步。",
       "startTime": 44.12,
       "endTime": 51.72,
       "analysis": {
-        "words": [
-          {
-            "word": "Nice",
-            "pos": "adj.",
-            "meaning": "好的，漂亮的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Past experience has taught us that certain accomplishments are beyond attainment.",
-      "translation": "",
+      "translation": "过去的经验告诉我们，某些成就是无法达到的。",
       "startTime": 51.73,
       "endTime": 57.85,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "attainment",
+            "pos": "n.",
+            "meaning": "达到"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "If we remain inveterate smokers, it is only because we have so often experienced the frustration that results from failure.",
-      "translation": "",
+      "translation": "如果我们依然是老烟民，那仅仅是因为我们经常经历失败带来的挫折感。",
       "startTime": 57.86,
       "endTime": 67.82,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "inveterate",
+            "pos": "adj.",
+            "meaning": "根深蒂固的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "frustration",
+            "pos": "n.",
+            "meaning": "挫折"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Most of us fail in our efforts at sel-improvement because our schemes are too ambitious and we never have time to carry them out.",
-      "translation": "",
+      "translation": "我们大多数人倾向于在自我改进的努力中失败，因为我们的计划太雄心勃勃了，且我们永远没有时间去执行它们。",
       "startTime": 67.83,
       "endTime": 77.36,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "ambitious",
+            "pos": "adj.",
+            "meaning": "有雄心的"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We also make the fundamental error of announcing our resolutions to everybody",
-      "translation": "",
+      "translation": "我们还犯了一个根本性的错误，那就是向每个人宣布我们的决心，",
       "startTime": 77.37,
-      "endTime": 83,
+      "endTime": 83.00,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "so that we look even more foolish when we slip back into our bad old ways.",
-      "translation": "",
+      "translation": "以至于当我们又回到老样子时，我们会显得更加愚蠢。",
       "startTime": 83.01,
       "endTime": 89.19,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
-          },
-          {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Aware of these pitfalls, this year I attempted to keep my resolutions to myself.",
-      "translation": "",
+      "translation": "意识到这些陷阱后，今年我尝试把我的决心藏在心里。",
       "startTime": 89.2,
       "endTime": 96.2,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "pitfall",
+            "pos": "n.",
+            "meaning": "陷阱"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "I limited myself to two modest ambitions: to do physical exercises every morning and to read more of an evening.",
-      "translation": "",
+      "translation": "我把自己限制在两个适度的目标上：每天早上做体育锻炼，以及晚上多读点书。",
       "startTime": 96.21,
       "endTime": 106.6,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "An all-night party on New Year's Eve provided me with a good excuse for not carrying out either of these new resolutions on the first day of the year,",
-      "translation": "",
-      "startTime": 106.61,
-      "endTime": 117.89,
-      "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "Excuse",
-            "pos": "v.",
-            "meaning": "原谅，宽恕"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "modest",
+            "pos": "adj.",
+            "meaning": "适度的"
           }
         ]
       }
     },
     {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "An all-night party on New Year's Eve provided me with a good excuse for not carrying out either of these new resolutions on the first day of the year,",
+      "translation": "除夕之夜的通宵派对为我提供了一个很好的借口，让我未能在元旦那天执行任何一个新决心，",
+      "startTime": 106.61,
+      "endTime": 117.89,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "but on the second, I applied myself assiduously to the task.",
-      "translation": "",
+      "translation": "但在第2天，我开始刻苦地钻研这项任务。",
       "startTime": 117.9,
-      "endTime": 123.66
+      "endTime": 123.66,
+      "analysis": {
+        "words": [
+          {
+            "word": "assiduously",
+            "pos": "adv.",
+            "meaning": "刻苦地"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The daily exercises lasted only eleven minutes and I proposed to do them early in the morning before anyone had got up.",
-      "translation": "",
+      "translation": "每天的锻炼只持续11分钟，我打算在任何人起床前的清晨做。",
       "startTime": 123.67,
       "endTime": 133.39,
       "analysis": {
@@ -376,116 +317,116 @@
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The self-discipline required to drag myself out of bed 11 minutes earlier than usual was considerable.",
-      "translation": "",
+      "translation": "要把自己比平时早11分钟从床上拖起来，所需要的自律精神是相当可观的。",
       "startTime": 133.4,
-      "endTime": 141.73
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "Nevertheless, I managed to creep down into the living room for two days before anyone found me out.",
-      "translation": "",
-      "startTime": 141.74,
-      "endTime": 151.02,
+      "endTime": 141.73,
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "self-discipline",
+            "pos": "n.",
+            "meaning": "自律"
           }
         ]
+      }
+    },
+    {
+      "id": "s17",
+      "role": "Narrator",
+      "text": "Nevertheless, I managed to creep down into the living room for two days before anyone found me out.",
+      "translation": "尽管如此，在被人发现之前，我成功地溜进客厅锻炼了两天。",
+      "startTime": 141.74,
+      "endTime": 151.02,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "After jumping about on the carpet and twisting the human frame into uncomfortable positions,",
-      "translation": "",
+      "translation": "在客厅地毯上跳来跳去，并将身体扭曲成各种不舒服的姿势后，",
       "startTime": 151.03,
-      "endTime": 157.81
+      "endTime": 157.81,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s19",
-      "role": "Man",
+      "role": "Narrator",
       "text": "I sat down at the breakfast table in an exhausted condition.",
-      "translation": "",
+      "translation": "我精疲力竭地坐在早餐桌旁。",
       "startTime": 157.82,
       "endTime": 162.88,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It was this that betrayed me.",
-      "translation": "",
+      "translation": "正是这一点出卖了我。",
       "startTime": 162.89,
       "endTime": 165.77,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "betray",
+            "pos": "v.",
+            "meaning": "泄露，出卖"
           }
         ]
       }
     },
     {
       "id": "s21",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The next morning the whole family trooped in to watch the performance.",
-      "translation": "",
+      "translation": "第二天早上，全家人成群结队地进来观看表演。",
       "startTime": 165.78,
-      "endTime": 170.5,
+      "endTime": 170.50,
       "analysis": {
         "words": [
           {
-            "word": "Watch",
-            "pos": "n.",
-            "meaning": "手表"
+            "word": "troop",
+            "pos": "v.",
+            "meaning": "成群结队"
           }
         ]
       }
     },
     {
       "id": "s22",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "That was really unsettling but I fended off the taunts and jibes of the family good-humouredly and soon everybody got used to the idea.",
-      "translation": "",
+      "translation": "这实在令人心烦意乱，但我幽默地挡住了家人们的嘲笑和戏弄，很快大家就习惯了这个想法。",
       "startTime": 170.51,
       "endTime": 180.39,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "unsettling",
+            "pos": "adj.",
+            "meaning": "令人不安的"
+          },
+          {
+            "word": "fend",
+            "pos": "v.",
+            "meaning": "抵挡"
+          },
+          {
+            "word": "taunt",
+            "pos": "n.",
+            "meaning": "嘲笑"
+          },
+          {
+            "word": "jibe",
+            "pos": "n.",
+            "meaning": "嘲讽"
           }
         ]
       }
@@ -494,224 +435,167 @@
       "id": "s23",
       "role": "Narrator",
       "text": "However, my enthusiasm waned.",
-      "translation": "",
+      "translation": "然而，我的热情减退了。",
       "startTime": 180.4,
       "endTime": 183.84,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "waned",
+            "pos": "v.",
+            "meaning": "衰退"
           }
         ]
       }
     },
     {
       "id": "s24",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The time I spent at exercises gradually diminished.",
-      "translation": "",
+      "translation": "我花在锻炼上的时间逐渐减少了。",
       "startTime": 183.85,
       "endTime": 187.66,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "diminish",
+            "pos": "v.",
+            "meaning": "减少"
           }
         ]
       }
     },
     {
       "id": "s25",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Little by little the eleven minutes fell to zero.",
-      "translation": "",
+      "translation": "渐渐地，那11分钟降到了零。",
       "startTime": 187.67,
-      "endTime": 192.28
+      "endTime": 192.28,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s26",
-      "role": "Man",
+      "role": "Narrator",
       "text": "By January 10th, I was back to where I had started from.",
-      "translation": "",
+      "translation": "到1月10日，我又回到了起跑线上。",
       "startTime": 192.29,
-      "endTime": 197.32
+      "endTime": 197.32,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s27",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "I argued that if I spent less time exhausting myself at exercises in the morning,",
-      "translation": "",
+      "translation": "我辩解说，如果我早上少花点时间在锻炼上把自己弄得精疲力竭，",
       "startTime": 197.33,
       "endTime": 203.53,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s28",
-      "role": "Man",
+      "role": "Narrator",
       "text": "I would keep my mind fresh for reading when I got home from work.",
-      "translation": "",
+      "translation": "那么当我下班回家时，我会有清醒的头脑去读书。",
       "startTime": 203.54,
       "endTime": 208.31,
       "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s29",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Resisting the hypnotizing effect of television,",
-      "translation": "",
+      "translation": "抵制住电视的催眠作用，",
       "startTime": 208.32,
-      "endTime": 212.15
-    },
-    {
-      "id": "s30",
-      "role": "Man",
-      "text": "I sat in my room for a few evenings with my eyes glued to a book.",
-      "translation": "",
-      "startTime": 212.16,
-      "endTime": 217.17,
+      "endTime": 212.15,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "Book",
-            "pos": "n.",
-            "meaning": "书"
+            "word": "hypnotizing",
+            "pos": "adj.",
+            "meaning": "催眠的"
           }
         ]
+      }
+    },
+    {
+      "id": "s30",
+      "role": "Narrator",
+      "text": "I sat in my room for a few evenings with my eyes glued to a book.",
+      "translation": "我有几个晚上坐在房间里，眼睛死死盯着书。",
+      "startTime": 212.16,
+      "endTime": 217.17,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s31",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "One night, however, feeling cold and lonely, I went downstairs and sat in front of the television pretending to read.",
-      "translation": "",
+      "translation": "然而，一天晚上，感到又冷又寂寞，我下楼坐在电视机前假装看书。",
       "startTime": 217.18,
       "endTime": 227.04,
       "analysis": {
-        "words": [
-          {
-            "word": "Cold",
-            "pos": "adj.",
-            "meaning": "冷的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s32",
-      "role": "Man",
+      "role": "Narrator",
       "text": "That proved to be my undoing, for I soon got back to my old bad habit of dozing off in front of the screen.",
-      "translation": "",
+      "translation": "这成了导致我失败的原因，因为我很快又回到了在屏幕前打瞌睡的老毛病。",
       "startTime": 227.05,
       "endTime": 237.31,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
+            "word": "undoing",
+            "pos": "n.",
+            "meaning": "失败的原因"
           }
         ]
       }
     },
     {
       "id": "s33",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "I still haven't given up my resolution to do more reading.",
-      "translation": "",
+      "translation": "我仍然没有放弃多读书的决心。",
       "startTime": 237.32,
       "endTime": 241.21,
       "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s34",
-      "role": "Man",
+      "role": "Narrator",
       "text": "In fact, I have just bought a book entitled How to Read a Thousand Words a Minute.",
-      "translation": "",
+      "translation": "事实上，我刚刚买了一本名为《如何每分钟读一千个字》的书。",
       "startTime": 241.22,
       "endTime": 248.69,
       "analysis": {
-        "words": [
-          {
-            "word": "Book",
-            "pos": "n.",
-            "meaning": "书"
-          },
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s35",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Perhaps it will solve my problem, but I just haven't had time to read it!",
-      "translation": "",
+      "translation": "也许它能解决我的问题，但我只是还没有时间看它！",
       "startTime": 248.7,
-      "endTime": 253.7,
+      "endTime": 258.7,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
+        "words": []
       }
     }
   ]

@@ -8,15 +8,15 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 17",
-      "translation": "",
+      "translation": "第17课",
       "startTime": 0.29,
-      "endTime": 2.82,
+      "endTime": 2.83,
       "analysis": {
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,287 +25,222 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The longest suspension bridge in the world",
-      "translation": "",
-      "startTime": 2.83,
-      "endTime": 12.29
+      "translation": "世界上最大的悬索桥",
+      "startTime": 2.84,
+      "endTime": 12.30,
+      "analysis": {
+        "words": [
+          {
+            "word": "suspension",
+            "pos": "n.",
+            "meaning": "悬挂，悬浮"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
-      "text": "Listen to the tape then answer this question.",
-      "translation": "听录音，然后回答问题。",
-      "startTime": 12.299999999999999,
-      "endTime": 28.33,
-      "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_4",
-      "role": "Narrator",
       "text": "How is the bridge supported?",
-      "translation": "",
-      "startTime": 12.3,
+      "translation": "这座桥是如何支撑的？",
+      "startTime": 12.31,
       "endTime": 16.66,
       "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "Verrazano, an Italian about whom little is known, sailed into New York Harbour in 1524 and named it Angouleme.",
-      "translation": "",
-      "startTime": 16.67,
-      "endTime": 28.42,
-      "analysis": {
-        "words": [
-          {
-            "word": "Italian",
-            "pos": "adj.",
-            "meaning": "意大利的"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
+      "text": "Verrazano, an Italian about whom little is known, sailed into New York Harbour in 1524 and named it Angouleme.",
+      "translation": "维拉扎诺是一个几乎不为人知的意大利人，他于1524年驶入纽约港，并将其命名为昂古莱姆。",
+      "startTime": 16.67,
+      "endTime": 28.42,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s2",
+      "role": "Narrator",
       "text": "He described it as 'a very agreeable situation located within two small hills in the midst of which flowed a great river.'",
-      "translation": "",
+      "translation": "他将其描述为“一个非常宜人的地方，位于两座小山丘之间，中间流淌着一条大河”。",
       "startTime": 28.43,
       "endTime": 39.42,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "Though Verrazano is by no means considered to be a great explorer, his name will probably remain immortal,",
-      "translation": "",
-      "startTime": 39.43,
-      "endTime": 48.06,
-      "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Name",
-            "pos": "n.",
-            "meaning": "名字"
+            "word": "agreeable",
+            "pos": "adj.",
+            "meaning": "宜人的"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "for on November 21st, 1964, the longest suspension bridge in the world was named after him.",
-      "translation": "",
-      "startTime": 48.07,
-      "endTime": 59.31
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "The Verrazano Bridge, which was designed by Othmar Ammann, joins Brooklyn to Staten Island.",
-      "translation": "",
-      "startTime": 59.32,
-      "endTime": 67.71
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "It has a span of 4, 260 feet.",
-      "translation": "",
-      "startTime": 67.72,
-      "endTime": 72.51,
+      "role": "Narrator",
+      "text": "Though Verrazano is by no means considered to be a great explorer, his name will probably remain immortal, for on November 21st, 1964, the longest suspension bridge in the world was named after him.",
+      "translation": "虽然维拉扎诺绝不被认为是一个伟大的探险家，但他的名字可能会名垂青史，因为在1964年11月21日，世界上最大的悬索桥以他的名字命名。",
+      "startTime": 39.43,
+      "endTime": 59.31,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "immortal",
+            "pos": "adj.",
+            "meaning": "不朽的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "The Verrazano Bridge, which was designed by Othmar Ammann, joins Brooklyn to Staten Island.",
+      "translation": "维拉扎诺大桥由奥思马·阿曼设计，连接布鲁克林和斯塔滕岛。",
+      "startTime": 59.32,
+      "endTime": 107.71,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s5",
+      "role": "Narrator",
+      "text": "It has a span of 4, 260 feet.",
+      "translation": "它的跨度为4,260英尺。",
+      "startTime": 107.72,
+      "endTime": 112.51,
+      "analysis": {
+        "words": [
+          {
+            "word": "span",
+            "pos": "n.",
+            "meaning": "跨度"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The bridge is so long that the shape of the earth had to be taken into account by its designer.",
-      "translation": "",
-      "startTime": 72.52,
-      "endTime": 79.91,
-      "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "Two great towers support four huge cables.",
-      "translation": "",
-      "startTime": 79.92,
-      "endTime": 85.52
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "The towers are built on immense underwater platforms made of steel and concrete.",
-      "translation": "",
-      "startTime": 85.53,
-      "endTime": 92.27,
+      "translation": "大桥如此之长，设计师不得不考虑到地球的形状。",
+      "startTime": 112.52,
+      "endTime": 119.91,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s9",
-      "role": "Man",
-      "text": "The platforms extend to a depth of over 100 feet under the sea.",
-      "translation": "",
-      "startTime": 92.28,
-      "endTime": 97.64
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "These alone took sixteen months to build.",
-      "translation": "",
-      "startTime": 97.65,
-      "endTime": 101.47
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "Above the surface of the water, the towers rise to a height of nearly 700 feet.",
-      "translation": "",
-      "startTime": 101.48,
-      "endTime": 108.24
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "They support the cables from which the bridge has been suspended.",
-      "translation": "",
-      "startTime": 108.25,
-      "endTime": 112.61
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "Each of the four cables contains 26, 108 lengths of wire.",
-      "translation": "",
-      "startTime": 112.62,
-      "endTime": 119.61
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "It has been estimated that if the bridge were packed with cars, it would still only be carrying a third of its total capacity.",
-      "translation": "",
-      "startTime": 119.62,
-      "endTime": 129.72,
+      "id": "s7",
+      "role": "Narrator",
+      "text": "Two great towers support four huge cables.",
+      "translation": "两座巨大的塔楼支撑着四根巨大的缆索。",
+      "startTime": 119.92,
+      "endTime": 125.52,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
+            "word": "cable",
+            "pos": "n.",
+            "meaning": "缆索"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "role": "Narrator",
+      "text": "The towers are built on immense underwater platforms made of steel and concrete.",
+      "translation": "塔楼建在钢材和混凝土制成的巨大水下平台上。",
+      "startTime": 125.53,
+      "endTime": 132.27,
+      "analysis": {
+        "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "concrete",
+            "pos": "n.",
+            "meaning": "混凝土"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "role": "Narrator",
+      "text": "The platforms extend to a depth of over 100 feet under the sea.",
+      "translation": "平台延伸到海底100多英尺深。",
+      "startTime": 132.28,
+      "endTime": 137.64,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s10",
+      "role": "Narrator",
+      "text": "These alone took sixteen months to build.",
+      "translation": "仅这些平台就花了16个月才建成。",
+      "startTime": 137.65,
+      "endTime": 141.47,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
+      "text": "Above the surface of the water, the towers rise to a height of nearly 700 feet.",
+      "translation": "在水面上，塔楼升至将近700英尺的高度。",
+      "startTime": 141.48,
+      "endTime": 148.24,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "They support the cables from which the bridge has been suspended.",
+      "translation": "它们支撑着悬挂大桥的缆索。",
+      "startTime": 148.25,
+      "endTime": 152.61,
+      "analysis": {
+        "words": [
+          {
+            "word": "suspend",
+            "pos": "v.",
+            "meaning": "悬挂"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "Each of the four cables contains 26, 108 lengths of wire.",
+      "translation": "四根缆索中的每一根都包含26,108段钢丝。",
+      "startTime": 152.62,
+      "endTime": 159.61,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "It has been estimated that if the bridge were packed with cars, it would still only be carrying a third of its total capacity.",
+      "translation": "据估计，如果大桥上挤满了客车，它仍然只承载其总能力的1/3。",
+      "startTime": 159.62,
+      "endTime": 169.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "capacity",
+            "pos": "n.",
+            "meaning": "容量"
           }
         ]
       }
@@ -314,55 +249,33 @@
       "id": "s15",
       "role": "Narrator",
       "text": "However, size and strength are not the only important things about this bridge.",
-      "translation": "",
-      "startTime": 129.73,
-      "endTime": 135.92,
+      "translation": "然而，规模和强度并不是这座大桥唯一的重点。",
+      "startTime": 169.73,
+      "endTime": 175.92,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Man",
-      "text": "Despite its immensity, it is both simple and elegant,",
-      "translation": "",
-      "startTime": 135.93,
-      "endTime": 141.48,
+      "role": "Narrator",
+      "text": "Despite its immensity, it is both simple and elegant, fulfilling its designer's dream to creat 'an enormous object drawn as faintly as possible'.",
+      "translation": "尽管其庞大，但它既简洁又优美，实现了设计师的梦想：创造“一个画得尽可能淡的巨大物体”。",
+      "startTime": 175.93,
+      "endTime": 185.93,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "immensity",
+            "pos": "n.",
+            "meaning": "巨大"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "elegant",
+            "pos": "adj.",
+            "meaning": "优美的，高雅的"
           }
         ]
-      }
-    },
-    {
-      "id": "s17",
-      "role": "Woman",
-      "text": "fulfilling its designer's dream to creat 'an enormous object drawn as faintly as possible'.",
-      "translation": "",
-      "startTime": 141.49,
-      "endTime": 146.49,
-      "analysis": {
-        "words": []
       }
     }
   ]

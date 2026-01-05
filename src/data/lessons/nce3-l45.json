@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 45",
-      "translation": "",
+      "translation": "第45课",
       "startTime": 0.17,
       "endTime": 2.25,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "The power of the press",
-      "translation": "",
+      "translation": "新闻界的力量",
       "startTime": 2.26,
-      "endTime": 9.98
+      "endTime": 9.98,
+      "analysis": {
+        "words": [
+          {
+            "word": "press",
+            "pos": "n.",
+            "meaning": "报刊，新闻界"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,63 +46,22 @@
       "startTime": 9.99,
       "endTime": 28.49,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Does the writer think the parents were lucky or unlucky to gain prosperity in this way? Why?",
-      "translation": "",
+      "translation": "作者认为父母以这种方式获得富强是幸运还是不幸？为什么？",
       "startTime": 9.99,
       "endTime": 20.21,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "prosperity",
+            "pos": "n.",
+            "meaning": "繁荣，昌盛"
           }
         ]
       }
@@ -102,373 +70,414 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "In democratic countries any efforts to restrict the freedom of the press are rightly condemned.",
-      "translation": "",
+      "translation": "在民主国家，任何限制新闻自由的努力都会受到理所当然的谴责。",
       "startTime": 20.22,
       "endTime": 28.58,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "democratic",
+            "pos": "adj.",
+            "meaning": "民主的"
+          },
+          {
+            "word": "restrict",
+            "pos": "v.",
+            "meaning": "限制"
+          },
+          {
+            "word": "condemned",
+            "pos": "v.",
+            "meaning": "谴责"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Narrator",
       "text": "However, this freedom can easily be abused.",
-      "translation": "",
+      "translation": "然而，这种自由很容易被滥用。",
       "startTime": 28.59,
       "endTime": 33.73,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "abused",
+            "pos": "v.",
+            "meaning": "滥用"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Stories about people often attract far more public attention than political events.",
-      "translation": "",
+      "translation": "有关个人的故事往往比政治事件更能引起公众的关注。",
       "startTime": 33.74,
-      "endTime": 40.72
-    },
-    {
-      "id": "s3",
-      "role": "Woman",
-      "text": "Though we may enjoy reading about the lives of others,",
-      "translation": "",
-      "startTime": 40.73,
-      "endTime": 44.93,
+      "endTime": 40.72,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "political",
+            "pos": "adj.",
+            "meaning": "政治的"
+          }
+        ]
       }
     },
     {
-      "id": "s4",
-      "role": "Man",
-      "text": "it is extremely doubtful whether we would equally enjoy reading about ourselves.",
-      "translation": "",
-      "startTime": 44.94,
+      "id": "s3",
+      "role": "Narrator",
+      "text": "Though we may enjoy reading about the lives of others, it is extremely doubtful whether we would equally enjoy reading about ourselves.",
+      "translation": "虽然我们可能喜欢阅读他人的生活，但非常令人怀疑我们是否同样喜欢阅读关于我们自己的报道。",
+      "startTime": 40.73,
       "endTime": 51.75,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "doubtful",
+            "pos": "adj.",
+            "meaning": "怀疑的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "Acting on the contention that facts are sacred, reporters can cause untold suffering to individuals by publishing details about their private lives.",
+      "translation": "基于事实圣神不可侵犯的论点，记者可以通过发表个人私生活的细节给个人造成无法言喻的痛苦。",
+      "startTime": 51.76,
+      "endTime": 65.82,
+      "analysis": {
+        "words": [
+          {
+            "word": "contention",
+            "pos": "n.",
+            "meaning": "论点"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "sacred",
+            "pos": "adj.",
+            "meaning": "神圣的"
+          },
+          {
+            "word": "untold",
+            "pos": "adj.",
+            "meaning": "数不尽的，言语无法形容的"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Woman",
-      "text": "Acting on the contention that facts are sacred,",
-      "translation": "",
-      "startTime": 51.76,
-      "endTime": 56.15,
+      "role": "Narrator",
+      "text": "Newspapers exert such tremendous influence that they can not only bring about major changes to the lives of ordinary people but can even overthrow a government.",
+      "translation": "报纸发挥着如此巨大的影响力，以至于它们不仅能给普通人的生活带来重大变化，甚至可以推翻一个政府。",
+      "startTime": 65.83,
+      "endTime": 79.21,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "exert",
+            "pos": "v.",
+            "meaning": "施加"
+          },
+          {
+            "word": "tremendous",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "overthrow",
+            "pos": "v.",
+            "meaning": "推翻"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Man",
-      "text": "reporters can cause untold suffering to individuals by publishing details about their private lives.",
-      "translation": "",
-      "startTime": 56.16,
-      "endTime": 65.82,
+      "role": "Narrator",
+      "text": "The story of a poor family that acquired fame and fortune overnight, dramatically illustrates the power of the press.",
+      "translation": "一个贫穷家庭一夜之间获得名利的经历，生动地说明了新闻界的力量。",
+      "startTime": 79.22,
+      "endTime": 88.29,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "fame",
+            "pos": "n.",
+            "meaning": "名声"
+          },
+          {
+            "word": "fortune",
+            "pos": "n.",
+            "meaning": "财产，命运"
+          },
+          {
+            "word": "dramatically",
+            "pos": "adv.",
+            "meaning": "戏剧性地"
+          }
+        ]
       }
     },
     {
       "id": "s7",
-      "role": "Woman",
-      "text": "Newspapers exert such tremendous influence that they can not only bring about major changes to the lives of ordinary people but can even overthrow a government.",
-      "translation": "",
-      "startTime": 65.83,
-      "endTime": 79.21,
+      "role": "Narrator",
+      "text": "The family lived in Aberdeen, a small town of 23, 000 inhabitants in South Dakota.",
+      "translation": "这家人住在阿伯丁，南达科他州一个拥有23,000名居民的小镇。",
+      "startTime": 88.30,
+      "endTime": 96.01,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "inhabitant",
+            "pos": "n.",
+            "meaning": "居民"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Man",
-      "text": "The story of a poor family that acquired fame and fortune overnight, dramatically illustrates the power of the press.",
-      "translation": "",
-      "startTime": 79.22,
-      "endTime": 88.29,
+      "role": "Narrator",
+      "text": "As the parents had five children, life was a perpetual struggle against poverty.",
+      "translation": "由于父母有5个孩子，生活就是一场与贫困的无休止的斗争。",
+      "startTime": 96.02,
+      "endTime": 102.11,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "perpetual",
+            "pos": "adj.",
+            "meaning": "永久的，不间断的"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Woman",
-      "text": "The family lived in Aberdeen, a small town of 23, 000 inhabitants in South Dakota.",
-      "translation": "",
-      "startTime": 88.3,
-      "endTime": 96.01
-    },
-    {
-      "id": "s10",
-      "role": "Man",
-      "text": "As the parents had five children, life was a perpetual struggle against poverty.",
-      "translation": "",
-      "startTime": 96.02,
-      "endTime": 102.11,
+      "role": "Narrator",
+      "text": "They were expecting their sixth child and were faced with even more pressing economic problems.",
+      "translation": "他们正期待着第6个孩子，面临着更加紧迫的经济问题。",
+      "startTime": 102.12,
+      "endTime": 109.50,
       "analysis": {
         "words": [
           {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "pressing",
+            "pos": "adj.",
+            "meaning": "紧迫的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "role": "Narrator",
+      "text": "If they had only had one more child, the fact would have passed unnoticed.",
+      "translation": "如果他们只多了一个孩子，这个事实就会在不经意间过去。",
+      "startTime": 109.51,
+      "endTime": 115.52,
+      "analysis": {
+        "words": [
+          {
+            "word": "unnoticed",
+            "pos": "adj.",
+            "meaning": "被忽视的"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Woman",
-      "text": "They were expecting their sixth child and were faced with even more pressing economic problems.",
-      "translation": "",
-      "startTime": 102.12,
-      "endTime": 109.5,
+      "role": "Narrator",
+      "text": "They would have continued to struggle against economic odds and would have lived in obscurity.",
+      "translation": "他们本会继续在经济困境中挣扎，并在默默无闻中生活。",
+      "startTime": 115.53,
+      "endTime": 122.50,
+      "analysis": {
+        "words": [
+          {
+            "word": "odds",
+            "pos": "n.",
+            "meaning": "不平等，机会"
+          },
+          {
+            "word": "obscurity",
+            "pos": "n.",
+            "meaning": "默默无闻"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "But they suddenly became the parents of quintuplets, four girls and a boy, an event which radically changed their lives.",
+      "translation": "但他们突然成了五胞胎的父母——4个女孩和1个男孩，这一事件彻底改变了他们的生活。",
+      "startTime": 122.51,
+      "endTime": 132.98,
+      "analysis": {
+        "words": [
+          {
+            "word": "quintuplets",
+            "pos": "n.",
+            "meaning": "五胞胎"
+          },
+          {
+            "word": "radically",
+            "pos": "adv.",
+            "meaning": "彻底地"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "The day after the birth of the five children, an aeroplane arrived in Aberdeen bringing sixty reporters and photographers.",
+      "translation": "在5个孩子出生后的第二天，一架飞机抵达阿伯丁，带来了60名记者和摄影师。",
+      "startTime": 132.99,
+      "endTime": 142.40,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s12",
-      "role": "Man",
-      "text": "If they had only had one more child, the fact would have passed unnoticed.",
-      "translation": "",
-      "startTime": 109.51,
-      "endTime": 115.52
-    },
-    {
-      "id": "s13",
-      "role": "Woman",
-      "text": "They would have continued to struggle against economic odds and would have lived in obscurity.",
-      "translation": "",
-      "startTime": 115.53,
-      "endTime": 122.5
-    },
-    {
       "id": "s14",
-      "role": "Man",
-      "text": "But they suddenly became the parents of quintuplets, four girls and a boy, an event which radically changed their lives.",
-      "translation": "",
-      "startTime": 122.51,
-      "endTime": 132.98,
+      "role": "Narrator",
+      "text": "The rise to fame was swift.",
+      "translation": "成名非常迅速。",
+      "startTime": 142.41,
+      "endTime": 144.74,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Woman",
-      "text": "The day after the birth of the five children, an aeroplane arrived in Aberdeen bringing sixty reporters and photographers.",
-      "translation": "",
-      "startTime": 132.99,
-      "endTime": 142.4,
+      "role": "Narrator",
+      "text": "Television cameras and newspapers carried the news to everyone in the country.",
+      "translation": "摄像机和报刊把这个消息传达给了全国每一个人。",
+      "startTime": 144.75,
+      "endTime": 150.02,
       "analysis": {
-        "words": [
-          {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Man",
-      "text": "The rise to fame was swift.",
-      "translation": "",
-      "startTime": 142.41,
-      "endTime": 144.74
-    },
-    {
-      "id": "s17",
-      "role": "Woman",
-      "text": "Television cameras and newspapers carried the news to everyone in the country.",
-      "translation": "",
-      "startTime": 144.75,
-      "endTime": 150.02
-    },
-    {
-      "id": "s18",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Newspapers and magazines offered the family huge sums for the exclusive rights to publish stories and photographs.",
-      "translation": "",
+      "translation": "报纸和杂志向这家人支付巨款，以获得发表故事和照片的独家代理权。",
       "startTime": 150.03,
-      "endTime": 158.51
-    },
-    {
-      "id": "s19",
-      "role": "Woman",
-      "text": "Gifts poured in not only from unknown people,",
-      "translation": "",
-      "startTime": 158.52,
-      "endTime": 162.21,
+      "endTime": 158.51,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "exclusive",
+            "pos": "adj.",
+            "meaning": "独占的，排他的"
           }
         ]
       }
     },
     {
-      "id": "s20",
-      "role": "Man",
-      "text": "but from baby food and soap manufacturers who wished to advertise their products.",
-      "translation": "",
-      "startTime": 162.22,
+      "id": "s17",
+      "role": "Narrator",
+      "text": "Gifts poured in not only from unknown people, but from baby food and soap manufacturers who wished to advertise their products.",
+      "translation": "礼物不仅来自素不相识的人，还来自希望推销其产品的婴儿食品和肥皂制造商。",
+      "startTime": 158.52,
       "endTime": 168.82,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s21",
-      "role": "Woman",
+      "id": "s18",
+      "role": "Narrator",
       "text": "The old farmhouse the family lived in was to be replaced by a new $500, 000 home.",
-      "translation": "",
+      "translation": "这家人原来居住的旧农舍将被一座价值50万美元的新住宅所取代。",
       "startTime": 168.83,
       "endTime": 176.82,
       "analysis": {
-        "words": [
-          {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "s22",
-      "role": "Man",
+      "id": "s19",
+      "role": "Narrator",
       "text": "Reporters kept pressing for interviews so lawyers had to be employed to act as spokesmen for the family at press conferences.",
-      "translation": "",
+      "translation": "记者们不断要求采访，因此不得不雇佣律师作为这家人在新闻发布会上的发言人。",
       "startTime": 176.83,
       "endTime": 186.83,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "spokesman",
+            "pos": "n.",
+            "meaning": "发言人"
           }
         ]
       }
     },
     {
-      "id": "s23",
-      "role": "Woman",
-      "text": "While the five babies were still quietly sleeping in oxygen tents in a hospital nursery,",
-      "translation": "",
+      "id": "s20",
+      "role": "Narrator",
+      "text": "While the five babies were still quietly sleeping in oxygen tents in a hospital nursery, their parents were paying the price for fame.",
+      "translation": "当5个婴儿仍然安静地在医院苗圃的氧气帐篷里睡觉时，他们的父母正在为出名付出代价。",
       "startTime": 186.84,
-      "endTime": 193.57,
-      "analysis": {
-        "words": [
-          {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s24",
-      "role": "Man",
-      "text": "their parents were paying the price for fame.",
-      "translation": "",
-      "startTime": 193.58,
       "endTime": 197.26,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s25",
-      "role": "Woman",
+      "id": "s21",
+      "role": "Narrator",
       "text": "It would never again be possible for them to lead normal lives.",
-      "translation": "",
+      "translation": "他们再也不可能过上正常的生活了。",
       "startTime": 197.27,
       "endTime": 202.19,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s26",
-      "role": "Man",
-      "text": "They had become the victims of commercialization, for their names had acquired a market value.",
-      "translation": "",
-      "startTime": 202.2,
-      "endTime": 210.24,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s27",
-      "role": "Woman",
-      "text": "Instead of being five new family members, these children had immediately become a commodity.",
-      "translation": "",
-      "startTime": 210.25,
-      "endTime": 215.25,
+      "id": "s22",
+      "role": "Narrator",
+      "text": "They had become the victims of commercialization, for their names had acquired a market value.",
+      "translation": "他们已经成了商业化的受害者，因为他们的名字已经具有了市场价值。",
+      "startTime": 202.20,
+      "endTime": 210.24,
       "analysis": {
         "words": [
           {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "commercialization",
+            "pos": "n.",
+            "meaning": "商业化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s23",
+      "role": "Narrator",
+      "text": "Instead of being five new family members, these children had immediately become a commodity.",
+      "translation": "这些孩子不再是5个新的家庭成员，而是一下子变成了一种商品。",
+      "startTime": 210.25,
+      "endTime": 220.25,
+      "analysis": {
+        "words": [
+          {
+            "word": "commodity",
+            "pos": "n.",
+            "meaning": "商品"
           }
         ]
       }

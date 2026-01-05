@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 18",
-      "translation": "",
+      "translation": "第18课",
       "startTime": 0.11,
       "endTime": 2.09,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,328 +25,320 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Electric currents in modern art",
-      "translation": "",
+      "translation": "现代艺术中的电流",
       "startTime": 2.1,
-      "endTime": 11.08
-    },
-    {
-      "id": "intro_3",
-      "role": "Narrator",
-      "text": "Listen to the tape then answer this question.",
-      "translation": "听录音，然后回答问题。",
-      "startTime": 11.09,
-      "endTime": 19.479999999999997,
+      "endTime": 11.08,
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
+            "word": "current",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
+            "meaning": "电流"
           }
         ]
       }
     },
     {
-      "id": "intro_4",
+      "id": "intro_3",
       "role": "Narrator",
       "text": "How might some of the exhibits have been dangerous?",
-      "translation": "",
+      "translation": "有些展品怎么会有危险呢？",
       "startTime": 11.09,
       "endTime": 15.61,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "exhibit",
+            "pos": "n.",
+            "meaning": "展品"
           }
         ]
       }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
       "text": "Modern sculpture rarely surprises us any more.",
-      "translation": "",
+      "translation": "现代雕塑已很少能再使我们感到惊讶了。",
       "startTime": 15.62,
-      "endTime": 19.57
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "The idea that modern art can only be seen in museums is mistaken.",
-      "translation": "",
-      "startTime": 19.58,
-      "endTime": 25.59,
+      "endTime": 19.57,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "sculpture",
+            "pos": "n.",
+            "meaning": "雕塑"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "rarely",
+            "pos": "adv.",
+            "meaning": "很少"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "Even people who take no interest in art cannot have failed to notice examples of modern sculpture on display in public places.",
-      "translation": "",
-      "startTime": 25.6,
-      "endTime": 35.41
-    },
-    {
-      "id": "s3",
-      "role": "Man",
-      "text": "Strange forms stand in gardens, and outside buildings and shops.",
-      "translation": "",
-      "startTime": 35.42,
-      "endTime": 40.65
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "We have got quite used to them.",
-      "translation": "",
-      "startTime": 40.66,
-      "endTime": 43.54
-    },
-    {
-      "id": "s5",
-      "role": "Man",
-      "text": "Some so-called 'modern' pieces have been on display for nearly eighty years.",
-      "translation": "",
-      "startTime": 43.55,
-      "endTime": 49.89
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "In spite of this, some people--including myself--were surprised by a recent exhibition of modern sculpture.",
-      "translation": "",
-      "startTime": 49.9,
-      "endTime": 58.68,
+      "role": "Narrator",
+      "text": "The idea that modern art can only be seen in museums is mistaken.",
+      "translation": "这种认为现代艺术只能在博物馆里看到的观点是错误的。",
+      "startTime": 19.58,
+      "endTime": 25.59,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "mistaken",
+            "pos": "adj.",
+            "meaning": "错误的"
           }
         ]
       }
     },
     {
+      "id": "s3",
+      "role": "Narrator",
+      "text": "Even people who take no interest in art cannot have failed to notice examples of modern sculpture on display in public places.",
+      "translation": "即使是对艺术不感兴趣的人也不可能不注意到在公共场所展示的现代雕塑作品。",
+      "startTime": 25.6,
+      "endTime": 35.41,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "Strange forms stand in gardens, and outside buildings and shops.",
+      "translation": "奇形怪状的雕塑立在花园里，立在楼房外和商店外。",
+      "startTime": 35.42,
+      "endTime": 40.65,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s5",
+      "role": "Narrator",
+      "text": "We have got quite used to them.",
+      "translation": "我们对这些雕塑已经习惯了。",
+      "startTime": 40.66,
+      "endTime": 43.54,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s6",
+      "role": "Narrator",
+      "text": "Some so-called 'modern' pieces have been on display for nearly eighty years.",
+      "translation": "有些所谓的“现代”作品已经陈列了近80年了。",
+      "startTime": 43.55,
+      "endTime": 49.89,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s7",
-      "role": "Man",
-      "text": "The first thing I saw when I entered the art gallery was a notice which said: 'Do not touch the exhibits, some of them are dangerous!'",
-      "translation": "",
-      "startTime": 58.69,
-      "endTime": 69.43,
+      "role": "Narrator",
+      "text": "In spite of this, some people--including myself--were surprised by a recent exhibition of modern sculpture.",
+      "translation": "尽管如此，最近举办的一次现代雕塑展览还是使一些人（包括我在内）感到惊奇。",
+      "startTime": 49.9,
+      "endTime": 58.68,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "exhibition",
+            "pos": "n.",
+            "meaning": "展览"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "The objects on display were pieces of moving sculpture.",
-      "translation": "",
-      "startTime": 69.44,
-      "endTime": 74.15
+      "role": "Narrator",
+      "text": "The first thing I saw when I entered the art gallery was a notice which said: 'Do not touch the exhibits, some of them are dangerous!'",
+      "translation": "我一进艺术馆首先看到的是一张通知，上面写着：“切勿触摸展品，有些展品是有危险的！”",
+      "startTime": 58.69,
+      "endTime": 69.43,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
+      "text": "The objects on display were pieces of moving sculpture.",
+      "translation": "展出的展品都是些活动的雕塑。",
+      "startTime": 69.44,
+      "endTime": 74.15,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s10",
+      "role": "Narrator",
       "text": "Oddly shaped forms that are suspended from the ceiling and move in response to a gust of wind are quite familiar to everybody.",
-      "translation": "",
+      "translation": "大家都很熟悉那种吊在天花板上、随风摆动的奇形怪状的雕塑。",
       "startTime": 74.16,
       "endTime": 83.99,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "suspended",
+            "pos": "v.",
+            "meaning": "悬挂"
+          },
+          {
+            "word": "gust",
+            "pos": "n.",
+            "meaning": "一阵风"
+          },
+          {
+            "word": "familiar",
+            "pos": "adj.",
+            "meaning": "熟悉的"
           }
         ]
       }
     },
     {
-      "id": "s10",
-      "role": "Woman",
+      "id": "s11",
+      "role": "Narrator",
       "text": "These objects, however, were different.",
-      "translation": "",
+      "translation": "然而，这些展品却不同。",
       "startTime": 84,
-      "endTime": 87.9
+      "endTime": 87.9,
+      "analysis": {
+        "words": []
+      }
     },
     {
-      "id": "s11",
-      "role": "Man",
+      "id": "s12",
+      "role": "Narrator",
       "text": "Lined up against the wall, there were long thin wires attached to metal spheres.",
-      "translation": "",
+      "translation": "靠墙站着一排排细长钢丝，钢丝连接着金属球。",
       "startTime": 87.91,
       "endTime": 94.16,
       "analysis": {
         "words": [
           {
-            "word": "Thin",
-            "pos": "adj.",
-            "meaning": "瘦的"
+            "word": "sphere",
+            "pos": "n.",
+            "meaning": "球体"
           }
         ]
       }
     },
     {
-      "id": "s12",
-      "role": "Woman",
-      "text": "The spheres had been magnetized and attracted or repelled each other all the time.",
-      "translation": "",
-      "startTime": 94.17,
-      "endTime": 101
-    },
-    {
       "id": "s13",
-      "role": "Man",
-      "text": "In the centre of the hall,",
-      "translation": "",
-      "startTime": 101.01,
-      "endTime": 102.88
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "there were a number of tall structures which contained coloured lights.",
-      "translation": "",
-      "startTime": 102.89,
-      "endTime": 107.67,
+      "role": "Narrator",
+      "text": "The spheres had been magnetized and attracted or repelled each other all the time.",
+      "translation": "金属球被磁化了，不停地相互吸引或相互排斥。",
+      "startTime": 94.17,
+      "endTime": 101,
       "analysis": {
         "words": [
           {
-            "word": "Number",
-            "pos": "n.",
-            "meaning": "号码，数字"
+            "word": "magnetized",
+            "pos": "v.",
+            "meaning": "磁化"
           },
           {
-            "word": "Tall",
-            "pos": "adj.",
-            "meaning": "高的"
+            "word": "repelled",
+            "pos": "v.",
+            "meaning": "排斥"
           }
         ]
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "In the centre of the hall, there were a number of tall structures which contained coloured lights.",
+      "translation": "在大厅中央，有许多装有彩色灯泡的高大构件。",
+      "startTime": 101.01,
+      "endTime": 107.67,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "These lights flickered continuously like traffic lights which have gone mad.",
-      "translation": "",
+      "translation": "这些灯不停地闪烁，就像发了疯的红绿灯。",
       "startTime": 107.68,
-      "endTime": 113.93
+      "endTime": 113.93,
+      "analysis": {
+        "words": [
+          {
+            "word": "flickered",
+            "pos": "v.",
+            "meaning": "闪烁"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Sparks were emitted from small black boxes and red lamps flashed on and off angrily.",
-      "translation": "",
+      "translation": "小黑盒子里进发出火花，红灯愤怒地忽明忽暗。",
       "startTime": 113.94,
       "endTime": 121.19,
       "analysis": {
         "words": [
           {
-            "word": "Black",
-            "pos": "adj.",
-            "meaning": "黑色的"
+            "word": "emitted",
+            "pos": "v.",
+            "meaning": "发出，放射"
           },
           {
-            "word": "Red",
-            "pos": "adj.",
-            "meaning": "红色的"
+            "word": "flash",
+            "pos": "v.",
+            "meaning": "闪光"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It was rather like an exhibition of prehistoric electronic equipment.",
-      "translation": "",
+      "translation": "这儿倒真像是一次史前电子设备的展览。",
       "startTime": 121.2,
       "endTime": 126.93,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "prehistoric",
+            "pos": "adj.",
+            "meaning": "史前的"
           }
         ]
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "These peculiar forms not only seemed designed to shock people emotionally, but to give them electric shocks as well!",
-      "translation": "",
+      "translation": "这些奇特的构件不仅旨在给人感情上的冲动，而且还给人以电击！",
       "startTime": 126.94,
-      "endTime": 131.94,
+      "endTime": 136.94,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "peculiar",
+            "pos": "adj.",
+            "meaning": "奇特的"
           },
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "shock",
+            "pos": "v./n.",
+            "meaning": "震惊，电击"
           }
         ]
       }

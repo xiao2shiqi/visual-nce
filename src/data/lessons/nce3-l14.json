@@ -8,15 +8,15 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 14",
-      "translation": "",
+      "translation": "第14课",
       "startTime": 0.48,
-      "endTime": 2.44,
+      "endTime": 2.45,
       "analysis": {
         "words": [
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,267 +25,209 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A noble gangster",
-      "translation": "",
-      "startTime": 2.45,
-      "endTime": 9.8
+      "translation": "贵族强盗",
+      "startTime": 2.46,
+      "endTime": 9.80,
+      "analysis": {
+        "words": [
+          {
+            "word": "noble",
+            "pos": "adj.",
+            "meaning": "高尚的，贵族的"
+          },
+          {
+            "word": "gangster",
+            "pos": "n.",
+            "meaning": "强盗，歹徒"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
       "role": "Narrator",
-      "text": "Listen to the tape then answer this question.",
-      "translation": "听录音，然后回答问题。",
-      "startTime": 9.81,
-      "endTime": 26.229999999999997,
-      "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_4",
-      "role": "Narrator",
       "text": "How did Hawkwood make money in times of peace?",
-      "translation": "",
+      "translation": "霍克伍德在和平时期是如何赚钱的？",
       "startTime": 9.81,
       "endTime": 15.19,
       "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
       "text": "There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters in return for 'protection'.",
-      "translation": "",
-      "startTime": 15.2,
-      "endTime": 26.32
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.",
-      "translation": "",
-      "startTime": 26.33,
-      "endTime": 35.45,
+      "translation": "曾经有一个时期，芝加哥的商店和企业主不得不向歹徒支付大笔金钱以换取“保护”。",
+      "startTime": 15.20,
+      "endTime": 26.32,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "Man",
+            "word": "protection",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "保护"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "Obtaining 'protection money' is not a modern crime.",
-      "translation": "",
-      "startTime": 35.46,
-      "endTime": 39.66,
+      "role": "Narrator",
+      "text": "If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop.",
+      "translation": "如果不及时交钱，歹徒就会通过捣毁商店很快使那人破产。",
+      "startTime": 26.33,
+      "endTime": 35.45,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "promptly",
+            "pos": "adv.",
+            "meaning": "准时地，迅速地"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "destroying",
+            "pos": "v.",
+            "meaning": "破坏，捣毁"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "As long ago as the fourteenth century, an Englishman, Sir John Hawkwood, made the remarkable discovery that people would rather pay large sums of money than have their life work destroyed by gangsters.",
-      "translation": "",
-      "startTime": 39.67,
-      "endTime": 56.5,
+      "role": "Narrator",
+      "text": "Obtaining 'protection money' is not a modern crime.",
+      "translation": "索取“保护费”并非现代的犯罪。",
+      "startTime": 35.46,
+      "endTime": 39.66,
       "analysis": {
         "words": [
           {
-            "word": "Sir",
+            "word": "crime",
             "pos": "n.",
-            "meaning": "先生"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "犯罪"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
-      "text": "Six hundred years ago, Sir John Hawkwood arrived in Italy with a band of soldiers and settled near Florence.",
-      "translation": "",
-      "startTime": 56.51,
-      "endTime": 65.35,
+      "role": "Narrator",
+      "text": "As long ago as the fourteenth century, an Englishman, Sir John Hawkwood, made the remarkable discovery that people would rather pay large sums of money than have their life work destroyed by gangsters.",
+      "translation": "早在14世纪，一个名叫约翰·霍克伍德爵士的英国人就有一个非凡的发现：人们宁愿支付大笔金钱，也不愿让他们毕生的心血毁于歹徒之手。",
+      "startTime": 39.67,
+      "endTime": 56.50,
       "analysis": {
         "words": [
           {
-            "word": "Sir",
-            "pos": "n.",
-            "meaning": "先生"
+            "word": "remarkable",
+            "pos": "adj.",
+            "meaning": "非凡的"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "He soon made a name for himself and came to be known to the Italians as Giovanni Acuto.",
-      "translation": "",
-      "startTime": 65.36,
-      "endTime": 73.44,
+      "role": "Narrator",
+      "text": "Six hundred years ago, Sir John Hawkwood arrived in Italy with a band of soldiers and settled near Florence.",
+      "translation": "600年前，约翰·霍克伍德爵士率领一队士兵来到意大利，并在佛罗伦萨附近定居下来。",
+      "startTime": 56.51,
+      "endTime": 105.35,
       "analysis": {
         "words": [
           {
-            "word": "Name",
+            "word": "Florence",
             "pos": "n.",
-            "meaning": "名字"
+            "meaning": "佛罗伦萨（意大利城市）"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "Whenever the Italian city-states were at war with each other, Hawkwood used to hire his soldiers to princes who were willing to pay the high price he demanded.",
-      "translation": "",
-      "startTime": 73.45,
-      "endTime": 85.39,
-      "analysis": {
-        "words": [
-          {
-            "word": "Italian",
-            "pos": "adj.",
-            "meaning": "意大利的"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "In times of peace, when business was bad, Hawkwood and his men would march into a city-state, and after burning down a few farms, would offer to go away if protection money was paid to them.",
-      "translation": "",
-      "startTime": 85.4,
-      "endTime": 100.28,
+      "role": "Narrator",
+      "text": "He soon made a name for himself and came to be known to the Italians as Giovanni Acuto.",
+      "translation": "他很快就出了名，意大利人称他为乔凡尼·阿库托。",
+      "startTime": 105.36,
+      "endTime": 113.44,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s8",
-      "role": "Woman",
-      "text": "Hawkwood made large sums of money in this way.",
-      "translation": "",
-      "startTime": 100.29,
-      "endTime": 104.34,
+      "id": "s7",
+      "role": "Narrator",
+      "text": "Whenever the Italian city-states were at war with each other, Hawkwood used to hire his soldiers to princes who were willing to pay the high price he demanded.",
+      "translation": "每当意大利各城邦之间发生战争时，霍克伍德就把他的士兵雇给那些愿意支付他所要求的昂贵代价的王公们。",
+      "startTime": 113.45,
+      "endTime": 125.39,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "hire",
+            "pos": "v.",
+            "meaning": "雇用"
+          },
+          {
+            "word": "demanded",
+            "pos": "v.",
+            "meaning": "要求"
           }
         ]
+      }
+    },
+    {
+      "id": "s8",
+      "role": "Narrator",
+      "text": "In times of peace, when business was bad, Hawkwood and his men would march into a city-state, and after burning down a few farms, would offer to go away if protection money was paid to them.",
+      "translation": "在和平时期，当生意萧条时，霍克伍德和他的手下就开进一个城邦，在烧毁几个农场之后，如果对方支付保护费，他们就答应撤走。",
+      "startTime": 125.40,
+      "endTime": 140.28,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "In spite of this, the Italians regarded him as a sort of hero.",
-      "translation": "",
-      "startTime": 104.35,
-      "endTime": 109.85,
+      "role": "Narrator",
+      "text": "Hawkwood made large sums of money in this way.",
+      "translation": "霍克伍德通过这种方式赚了大笔钱。",
+      "startTime": 140.29,
+      "endTime": 144.34,
       "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
+      "text": "In spite of this, the Italians regarded him as a sort of hero.",
+      "translation": "尽管如此，意大利人仍把他看作某种英雄。",
+      "startTime": 144.35,
+      "endTime": 149.85,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
       "text": "When he died at the age of eighty, the Florentines gave him a state funeral and had a picture painted which was dedicated to the memory of 'the most valiant soldier and most notable leader, Signor Giovanni Haukodue'.",
-      "translation": "",
-      "startTime": 109.86,
-      "endTime": 114.86,
+      "translation": "当他80岁去世时，佛罗伦萨人为他举行了国葬，并为他画了一幅画，以纪念“最勇敢的士兵和最显赫的领袖，乔凡尼·霍克伍德先生”。",
+      "startTime": 149.86,
+      "endTime": 159.86,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "valiant",
+            "pos": "adj.",
+            "meaning": "勇敢的"
+          },
+          {
+            "word": "funeral",
+            "pos": "n.",
+            "meaning": "葬礼"
           }
         ]
       }

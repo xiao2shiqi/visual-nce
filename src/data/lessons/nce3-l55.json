@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 55",
-      "translation": "",
+      "translation": "第55课",
       "startTime": 0.37,
       "endTime": 2.46,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "From the earth: Greetings",
-      "translation": "",
+      "translation": "来自地球的问候",
       "startTime": 2.47,
-      "endTime": 10.34
+      "endTime": 10.34,
+      "analysis": {
+        "words": [
+          {
+            "word": "greetings",
+            "pos": "n.",
+            "meaning": "问候"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,55 +46,14 @@
       "startTime": 10.35,
       "endTime": 26.45,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Which life forms are most likely to develop on a distant planet?",
-      "translation": "",
+      "translation": "哪些生命形式最有可能在遥远的行星上发展？",
       "startTime": 10.35,
       "endTime": 17.4,
       "analysis": {
@@ -96,477 +64,276 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Recent developments in astronomy have made it possible to detect planets in our own Milky Way and in other galaxies.",
-      "translation": "",
+      "translation": "天文学的最新发展使探测我们银河系及其他星系中的行星成为可能。",
       "startTime": 17.41,
       "endTime": 26.54,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "astronomy",
+            "pos": "n.",
+            "meaning": "天文学"
+          },
+          {
+            "word": "galaxy",
+            "pos": "n.",
+            "meaning": "星系"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "This is a major achievement because, in relative terms, planets are very small and do not emit light.",
-      "translation": "",
+      "translation": "这是一项重大成就，因为相对而言，行星非常小且不发光。",
       "startTime": 26.55,
       "endTime": 34.98,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
+            "word": "emit",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "放射，散发"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Finding planets is proving hard enough, but finding life on them will prove infinitely more difficult.",
-      "translation": "",
+      "translation": "寻找行星已经被证明足够难了，但在行星上寻找生命将被证明要难上无限倍。",
       "startTime": 34.99,
       "endTime": 42.51,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "infinitely",
+            "pos": "adv.",
+            "meaning": "无限地"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The first question to answer is whether a planet can actually support life.",
-      "translation": "",
+      "translation": "首先要回答的问题是，一颗行星是否真的能维持生命。",
       "startTime": 42.52,
       "endTime": 48.54,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "In our own solar system, for example, Venus is far to hot and Mars is far too cold to support life.",
-      "translation": "",
+      "translation": "例如，在我们的太阳系中，金星太热，而火星太冷，都无法维持生命。",
       "startTime": 48.55,
       "endTime": 57.02,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Hot",
+            "word": "solar",
             "pos": "adj.",
-            "meaning": "热的"
+            "meaning": "太阳的"
           },
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "Venus",
+            "pos": "n.",
+            "meaning": "金星"
           },
           {
-            "word": "Cold",
-            "pos": "adj.",
-            "meaning": "冷的"
+            "word": "Mars",
+            "pos": "n.",
+            "meaning": "火星"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Only the Earth provides ideal conditions, and even here it has taken more than four billion years for plant and animal life to evolve.",
-      "translation": "",
+      "translation": "只有地球提供了理想的条件，即便如此，植物和动物生命也花费了40多亿年才进化出来。",
       "startTime": 57.03,
       "endTime": 68.34,
       "analysis": {
         "words": [
           {
-            "word": "Here",
-            "pos": "adv.",
-            "meaning": "这里"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "evolve",
+            "pos": "v.",
+            "meaning": "进化"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Whether a planet can support life depends on the size and brightness of its star, that is its 'sun'.",
-      "translation": "",
+      "translation": "一颗行星是否能维持生命取决于其恒星（即它的“太阳”）的大小和亮度。",
       "startTime": 68.35,
       "endTime": 75.67,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "Imagine a star up to twenty times larger, brighter and hotter than our own sun.",
-      "translation": "",
-      "startTime": 75.68,
-      "endTime": 82.24,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s8",
-      "role": "Woman",
-      "text": "A planet would have to be a very long way from it to be capable of supporting life.",
-      "translation": "",
-      "startTime": 82.25,
+      "id": "s7",
+      "role": "Narrator",
+      "text": "Imagine a star up to twenty times larger, brighter and hotter than our own sun. A planet would have to be a very long way from it to be capable of supporting life.",
+      "translation": "想象一颗比我们的太阳大20倍、更亮、更热的恒星。行星必须离它非常远才有可能维持生命。",
+      "startTime": 75.68,
       "endTime": 87.91,
       "analysis": {
-        "words": [
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "Alternatively, if the star were small,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Alternatively, if the star were small, the life-supporting planet would have to have a close orbit round it and also provide the perfect conditions for life forms to develop.",
+      "translation": "或者，如果恒星很小，维持生命的行星必须有一个紧挨着它的运行轨道，并且还必须为生命形式的发展提供完美的条件。",
       "startTime": 87.92,
-      "endTime": 91.08
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "the life-supporting planet would have to have a close orbit round it and also provide the perfect conditions for life forms to develop.",
-      "translation": "",
-      "startTime": 91.09,
       "endTime": 101.36,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "alternatively",
+            "pos": "adv.",
+            "meaning": "或者，作为替代"
+          },
+          {
+            "word": "orbit",
+            "pos": "n.",
+            "meaning": "轨道"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "But how would we find such a planet?",
-      "translation": "",
+      "role": "Narrator",
+      "text": "But how would we find such a planet? At present, there is no telescope in existence that is capable of detecting the presence of life.",
+      "translation": "但是我们如何找到这样的行星呢？目前，还没有一种现存的望远镜能够探测到生命的存在。",
       "startTime": 101.37,
-      "endTime": 104.72,
-      "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "At present, there is no telescope in existence that is capable of detecting the presence of life.",
-      "translation": "",
-      "startTime": 104.73,
       "endTime": 112.37,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "telescope",
+            "pos": "n.",
+            "meaning": "望远镜"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The development of such a telescope will be one of the great astronomical projects of the 21st century.",
-      "translation": "",
+      "translation": "研制这种望远镜将是21世纪重大的天文项目之一。",
       "startTime": 112.38,
       "endTime": 121.14,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "astronomical",
+            "pos": "adj.",
+            "meaning": "天文学的"
+          }
+        ]
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
-      "text": "It is impossible to look for life on another planet using earth-based telescopes.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "It is impossible to look for life on another planet using earth-based telescopes. Our own warm atmosphere and the heat generated by the telescope would make it impossible to detect objects as small as planets.",
+      "translation": "使用地球上的望远镜是不可能在另一个行星上寻找生命的。我们自己温暖的大气层和望远镜产生的热量会使探测行星那么小的物体变得不可能。",
       "startTime": 121.15,
-      "endTime": 127.33,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s15",
-      "role": "Man",
-      "text": "Our own warm atmosphere and the heat generated by the telescope",
-      "translation": "",
-      "startTime": 127.34,
-      "endTime": 131.97,
+      "endTime": 137.09,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s16",
-      "role": "Woman",
-      "text": "would make it impossible to detect objects as small as planets.",
-      "translation": "",
-      "startTime": 131.98,
-      "endTime": 137.09,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
       "id": "s17",
-      "role": "Man",
-      "text": "Even a telescope in orbit round the earth, like the very successful Hubble telescope,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Even a telescope in orbit round the earth, like the very successful Hubble telescope, would not be suitable because of the dust particles in our solar system.",
+      "translation": "即使是像非常成功的哈勃望远镜那样绕地球轨道运行的望远镜也不适用，因为我们的太阳系中存在尘埃颗粒。",
       "startTime": 137.1,
-      "endTime": 143.31,
-      "analysis": {
-        "words": [
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "would not be suitable because of the dust particles in our solar system.",
-      "translation": "",
-      "startTime": 143.32,
       "endTime": 149.02,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "particle",
+            "pos": "n.",
+            "meaning": "微粒"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "A telescope would have to be as far away as the planet Jupiter to look for life in outer space,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "A telescope would have to be as far away as the planet Jupiter to look for life in outer space, because the dust becomes thinner the further we travel towards the outer edges of our own solar system.",
+      "translation": "望远镜必须远在木星那么远的地方才能到外层空间寻找生命，因为我们向太阳系外缘走得越远，尘埃就越稀薄。",
       "startTime": 149.03,
-      "endTime": 156.54,
+      "endTime": 163.96,
       "analysis": {
         "words": [
           {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
+            "word": "Jupiter",
+            "pos": "n.",
+            "meaning": "木星"
           }
         ]
       }
     },
     {
-      "id": "s20",
-      "role": "Woman",
-      "text": "because the dust becomes thinner the further we travel towards the outer edges of our own solar system.",
-      "translation": "",
-      "startTime": 156.55,
-      "endTime": 163.96,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
       "id": "s21",
-      "role": "Man",
-      "text": "Once we detected a planet, we would have to find a way of blotting out the light from its star,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Once we detected a planet, we would have to find a way of blotting out the light from its star, so that we would be able to 'see' the planet properly and analyse its atmosphere.",
+      "translation": "一旦我们探测到一颗行星，我们就必须想办法遮住来自其恒星的光线，这样我们才能清楚地“看到”这颗行星并分析其大气层。",
       "startTime": 163.97,
-      "endTime": 170.46,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "so that we would be able to 'see' the planet properly and analyse its atmosphere.",
-      "translation": "",
-      "startTime": 170.47,
       "endTime": 176.37,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "blot",
+            "pos": "v.",
+            "meaning": "遮盖"
           }
         ]
       }
     },
     {
       "id": "s23",
-      "role": "Man",
-      "text": "In the first instance, we would be looking for plant life, rather than 'little green men'.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "In the first instance, we would be looking for plant life, rather than 'little green men'. The life forms most likely to develop on a planet would be bacteria.",
+      "translation": "首先，我们将寻找植物生命，而不是“小绿人”。行星上最有可能发展的生命形式将是细菌。",
       "startTime": 176.38,
-      "endTime": 182.98,
+      "endTime": 188.84,
       "analysis": {
         "words": [
           {
-            "word": "Green",
-            "pos": "adj.",
-            "meaning": "绿色的"
+            "word": "bacteria",
+            "pos": "n.",
+            "meaning": "细菌"
           }
         ]
       }
-    },
-    {
-      "id": "s24",
-      "role": "Woman",
-      "text": "The life forms most likely to develop on a planet would be bacteria.",
-      "translation": "",
-      "startTime": 182.99,
-      "endTime": 188.84
     },
     {
       "id": "s25",
-      "role": "Man",
-      "text": "It is bacteria that have generated the oxygen we breathe on earth.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "It is bacteria that have generated the oxygen we breathe on earth. For most of the earth's history they have been the only form of life on our planet.",
+      "translation": "正是细菌产生了我们地球上呼吸的氧气。在地球历史的大部分时间里，它们一直是地球上唯一的生命形式。",
       "startTime": 188.85,
-      "endTime": 194.07,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
-      "text": "For most of the earth's history they have been the only form of life on our planet.",
-      "translation": "",
-      "startTime": 194.08,
       "endTime": 199.94,
       "analysis": {
         "words": []
@@ -574,86 +341,50 @@
     },
     {
       "id": "s27",
-      "role": "Man",
-      "text": "As Earth-dwellers, we always cherish the hope that we will be visited by little green men and that we will be able to communicate with them.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "As Earth-dwellers, we always cherish the hope that we will be visited by little green men and that we will be able to communicate with them. But this hope is always in the realms of science fiction.",
+      "translation": "作为地球居民，我们总怀着被“小绿人”访问并能与他们交流的希望。但这种希望始终处于科幻小说的领域。",
       "startTime": 199.95,
-      "endTime": 210.23,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Green",
-            "pos": "adj.",
-            "meaning": "绿色的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s28",
-      "role": "Woman",
-      "text": "But this hope is always in the realms of science fiction.",
-      "translation": "",
-      "startTime": 210.24,
       "endTime": 215.37,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "dweller",
+            "pos": "n.",
+            "meaning": "居民"
           },
           {
-            "word": "Is",
+            "word": "cherish",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "怀抱，珍爱"
           }
         ]
       }
     },
     {
       "id": "s29",
-      "role": "Man",
+      "role": "Narrator",
       "text": "If we were able to discover lowly forms of life like bacteria on another planet, it would completely change our view of ourselves.",
-      "translation": "",
+      "translation": "如果我们能在另一个行星上发现像细菌这样的低级生命形式，那将彻底改变我们的自身观。",
       "startTime": 215.38,
       "endTime": 225.4,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s30",
-      "role": "Woman",
-      "text": "As Daniel Goldin of NASA observed, 'Finding life elsewhere would change everything.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "As Daniel Goldin of NASA observed, 'Finding life elsewhere would change everything. No human endeavour or thought would be unchanged by it.'",
+      "translation": "正如美国国家航空航天局的丹尼尔·戈尔丁所观察到的，“在别处发现生命将改变一切。人类的任何努力或思想都不会因此而保持不变。”",
       "startTime": 225.41,
-      "endTime": 232.32
-    },
-    {
-      "id": "s31",
-      "role": "Man",
-      "text": "No human endeavour or thought would be unchanged by it.'",
-      "translation": "",
-      "startTime": 232.33,
       "endTime": 237.33,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "endeavour",
+            "pos": "n.",
+            "meaning": "努力"
           }
         ]
       }

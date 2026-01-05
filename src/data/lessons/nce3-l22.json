@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 22",
-      "translation": "",
+      "translation": "第22课",
       "startTime": 0.51,
       "endTime": 2.54,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "By heart",
-      "translation": "",
+      "translation": "熟记",
       "startTime": 2.55,
-      "endTime": 9.43
+      "endTime": 9.43,
+      "analysis": {
+        "words": [
+          {
+            "word": "heart",
+            "pos": "n.",
+            "meaning": "心，内心"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,213 +46,175 @@
       "startTime": 9.44,
       "endTime": 22.31,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Which actor read the letter in the end, the aristocrat or the gaoler?",
-      "translation": "",
+      "translation": "最后是哪位演员读的信，是那位贵族还是那位狱卒？",
       "startTime": 9.44,
-      "endTime": 17.31
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "Some plays are so successful that they run for years on end.",
-      "translation": "",
-      "startTime": 17.32,
-      "endTime": 22.4,
+      "endTime": 17.31,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s1",
-      "role": "Man",
-      "text": "In many ways, this is unfortunate for the poor actors who are required to go on repeating the same lines night after night.",
-      "translation": "",
-      "startTime": 22.41,
-      "endTime": 32.96,
+      "role": "Narrator",
+      "text": "Some plays are so successful that they run for years on end.",
+      "translation": "有些剧目非常成功，以致连续演出好几年。",
+      "startTime": 17.32,
+      "endTime": 22.40,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
+            "word": "run",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "连续演出，运转"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "One would expect them to know their parts by heart and never have cause to falter.",
-      "translation": "",
-      "startTime": 32.97,
-      "endTime": 39.11,
+      "role": "Narrator",
+      "text": "In many ways, this is unfortunate for the poor actors who are required to go on repeating the same lines night after night.",
+      "translation": "在很多方面，这对可怜的演员们来说是不幸的，因为他们被要求夜复一夜地重复同样的台词。",
+      "startTime": 22.41,
+      "endTime": 32.96,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "unfortunate",
+            "pos": "adj.",
+            "meaning": "不幸的"
+          },
+          {
+            "word": "lines",
+            "pos": "n.",
+            "meaning": "台词"
+          }
+        ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "Yet this is not always the case.",
-      "translation": "",
-      "startTime": 39.12,
-      "endTime": 42.8,
+      "role": "Narrator",
+      "text": "One would expect them to know their parts by heart and never have cause to falter.",
+      "translation": "人们本以为他们能熟记自己的台词，绝不会有结巴的时候。",
+      "startTime": 32.97,
+      "endTime": 39.11,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
+            "word": "falter",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "结巴，踌躇"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
-      "text": "A famous actor in a highly successful play was once cast in the role of an aristocrat who had been imprisoned in the Bastille for twenty years.",
-      "translation": "",
-      "startTime": 42.81,
-      "endTime": 54.24
+      "role": "Narrator",
+      "text": "Yet this is not always the case.",
+      "translation": "然而，情况并不总是这样。",
+      "startTime": 39.12,
+      "endTime": 42.80,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "In the last act, a gaoler would always come on to the stage with a letter which he would hand to the prisoner.",
-      "translation": "",
-      "startTime": 54.25,
-      "endTime": 63.37
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "Even though the noble was expected to read the letter at each performance, he always insisted that it should be written out in full.",
-      "translation": "",
-      "startTime": 63.38,
-      "endTime": 72.8,
+      "role": "Narrator",
+      "text": "A famous actor in a highly successful play was once cast in the role of an aristocrat who had been imprisoned in the Bastille for twenty years.",
+      "translation": "一位著名演员在一部非常成功的戏剧中扮演一位被囚禁在巴士底狱20年的贵族。",
+      "startTime": 42.81,
+      "endTime": 54.24,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "aristocrat",
+            "pos": "n.",
+            "meaning": "贵族"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "imprisoned",
+            "pos": "v.",
+            "meaning": "监禁"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Bastille",
+            "pos": "n.",
+            "meaning": "巴士底狱"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "role": "Narrator",
+      "text": "In the last act, a gaoler would always come on to the stage with a letter which he would hand to the prisoner.",
+      "translation": "在最后一幕中，一个狱卒总是拿着一封信走上舞台，把信交给囚犯。",
+      "startTime": 54.25,
+      "endTime": 63.37,
+      "analysis": {
+        "words": [
+          {
+            "word": "gaoler",
+            "pos": "n.",
+            "meaning": "狱卒，看守"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "One night, the gaoler decided to play a joke on his colleague to find out if,",
-      "translation": "",
-      "startTime": 72.81,
-      "endTime": 78.4,
+      "role": "Narrator",
+      "text": "Even though the noble was expected to read the letter at each performance, he always insisted that it should be written out in full.",
+      "translation": "虽然那位贵族理应在每次演出时读这封信，但他总是坚持信要完整地写出来。",
+      "startTime": 63.38,
+      "endTime": 72.80,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "after so many performances, he had managed to learn the contents of the letter by heart.",
-      "translation": "",
-      "startTime": 78.41,
-      "endTime": 85.44
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "The curtain went up on the final act of the play and revealed the aristocrat sitting alone behind bars in his dark cell.",
-      "translation": "",
-      "startTime": 85.45,
-      "endTime": 95.15,
+      "role": "Narrator",
+      "text": "One night, the gaoler decided to play a joke on his colleague to find out if, after so many performances, he had managed to learn the contents of the letter by heart.",
+      "translation": "一天晚上，狱卒决定对他的同事开个玩笑，看看经过这么多场演出，他是否已经能背出信的内容了。",
+      "startTime": 72.81,
+      "endTime": 85.44,
       "analysis": {
         "words": []
       }
     },
     {
+      "id": "s9",
+      "role": "Narrator",
+      "text": "The curtain went up on the final act of the play and revealed the aristocrat sitting alone behind bars in his dark cell.",
+      "translation": "幕拉开了，是戏的最后一幕，露出了那位贵族独自坐在阴暗牢房的铁窗后面。",
+      "startTime": 85.45,
+      "endTime": 95.15,
+      "analysis": {
+        "words": [
+          {
+            "word": "cell",
+            "pos": "n.",
+            "meaning": "单人牢房"
+          }
+        ]
+      }
+    },
+    {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Just then, the gaoler appeared with the precious letter in his hands.",
-      "translation": "",
+      "translation": "就在这时，狱卒手里拿着那封珍贵的信出现了。",
       "startTime": 95.16,
       "endTime": 100.54,
       "analysis": {
@@ -252,195 +223,124 @@
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He entered the cell and presented the letter to the aristocrat.",
-      "translation": "",
+      "translation": "他走进牢房，把信交给那位贵族。",
       "startTime": 100.55,
-      "endTime": 105.35
+      "endTime": 105.35,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "But the copy he gave him had not been written out in full as usual.",
-      "translation": "",
+      "translation": "但他给他的那张信纸并没有像往常那样写满字。",
       "startTime": 105.36,
       "endTime": 110.49,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It was simply a blank sheet of paper.",
-      "translation": "",
-      "startTime": 110.5,
+      "translation": "那只是一张白纸。",
+      "startTime": 110.50,
       "endTime": 114.13,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The gaoler looked on eagerly, anxious to see if his fellow actor had at last learnt his lines.",
-      "translation": "",
+      "translation": "狱卒急切地看着，渴望看到他的演员同事是否终于学会了他的台词。",
       "startTime": 114.14,
       "endTime": 122.22,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The noble stared at the blank sheet of paper for a few seconds.",
-      "translation": "",
+      "translation": "那位贵族盯着那张白纸看了几秒钟。",
       "startTime": 122.23,
       "endTime": 127.44,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Then, squinting his eyes, he said: 'The light is dim. Read the letter to me.'",
-      "translation": "",
+      "translation": "然后，他眯起眼睛说：“光线太暗。请读信给我听。”",
       "startTime": 127.45,
       "endTime": 136.03,
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "squint",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "眯着眼看"
           },
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "dim",
+            "pos": "adj.",
+            "meaning": "昏暗的"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "And he promptly handed the sheet of paper to the gaoler.",
-      "translation": "",
+      "translation": "他随即把那张纸递给了狱卒。",
       "startTime": 136.04,
-      "endTime": 140.48
+      "endTime": 140.48,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "Finding that he could not remember a word of the letter either,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Finding that he could not remember a word of the letter either, the gaoler replied: 'The light is indeed dim, sire.  I must get my glasses.  '",
+      "translation": "狱卒发现自己也记不得信上的一个字，于是回答说：“陛下，光线确实太暗了。我得去拿眼镜。”",
       "startTime": 140.49,
-      "endTime": 144.82,
+      "endTime": 152.55,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "the gaoler replied: 'The light is indeed dim, sire.  I must get my glasses.  '",
-      "translation": "",
-      "startTime": 144.83,
-      "endTime": 152.55,
+      "role": "Narrator",
+      "text": "With this, he hurried off the stage.",
+      "translation": "说完，他急忙跑下了舞台。",
+      "startTime": 152.56,
+      "endTime": 156.37,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "With this, he hurried off the stage.",
-      "translation": "",
-      "startTime": 152.56,
-      "endTime": 156.37,
-      "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "Much to the aristocrat's amusement,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Much to the aristocrat's amusement, the gaoler returned a few moments later with a pair of glasses and the usual copy of the letter which he proceeded to read to the prisoner.",
+      "translation": "使那位贵族感到非常好笑的是，狱卒过了一会儿带着一副眼镜和往常那封写满字的信回来了，并开始读给囚犯听。",
       "startTime": 156.38,
-      "endTime": 158.82,
+      "endTime": 166.38,
       "analysis": {
-        "words": [
-          {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
-          }
-        ]
+        "words": []
       }
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "the gaoler returned a few moments later with a pair of glasses and the usual copy of the letter which he proceeded to read to the prisoner.",
-      "translation": "",
-      "startTime": 158.83,
-      "endTime": 163.83
     }
   ]
 }

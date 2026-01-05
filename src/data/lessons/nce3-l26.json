@@ -1,6 +1,6 @@
 {
   "id": "nce3-l26",
-  "title": "Lesson 26: Wanted a Large Biscuit Tin",
+  "title": "Lesson 26: Wanted: a Large Biscuit Tin",
   "audio": "/audio/nce3/26－Wanted a Large Biscuit Tin.mp3",
   "image": "/images/nce3/l26/scene1.jpg",
   "segments": [
@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 26",
-      "translation": "",
+      "translation": "第26课",
       "startTime": 0.46,
       "endTime": 2.44,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,23 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Wanted: a large biscuit tin",
-      "translation": "",
+      "translation": "征购大饼干箱",
       "startTime": 2.45,
-      "endTime": 11.14
+      "endTime": 11.14,
+      "analysis": {
+        "words": [
+          {
+            "word": "biscuit",
+            "pos": "n.",
+            "meaning": "饼干"
+          },
+          {
+            "word": "tin",
+            "pos": "n.",
+            "meaning": "锡，罐头箱"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,160 +51,157 @@
       "startTime": 11.15,
       "endTime": 19.52,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Who won the prize for the biggest biscuit?",
-      "translation": "",
+      "translation": "谁赢得了最大饼干奖？",
       "startTime": 11.15,
-      "endTime": 15.28
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "No one can avoid being influenced by advertisements.",
-      "translation": "",
-      "startTime": 15.29,
-      "endTime": 19.61,
+      "endTime": 15.28,
       "analysis": {
         "words": []
       }
     },
     {
+      "id": "intro_5",
+      "role": "Narrator",
+      "text": "No one can avoid being influenced by advertisements.",
+      "translation": "没有人能够避开广告的影响。",
+      "startTime": 15.29,
+      "endTime": 19.61,
+      "analysis": {
+        "words": [
+          {
+            "word": "avoid",
+            "pos": "v.",
+            "meaning": "避免"
+          },
+          {
+            "word": "influenced",
+            "pos": "v.",
+            "meaning": "影响"
+          },
+          {
+            "word": "advertisement",
+            "pos": "n.",
+            "meaning": "广告"
+          }
+        ]
+      }
+    },
+    {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Much as we may pride ourselves on our good taste,",
-      "translation": "",
+      "translation": "尽管我们可能为自己的高雅品味而感到自豪，",
       "startTime": 19.62,
       "endTime": 23.31,
       "analysis": {
         "words": [
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "pride",
+            "pos": "v./n.",
+            "meaning": "自豪"
+          },
+          {
+            "word": "taste",
+            "pos": "n.",
+            "meaning": "味道，品味"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "we are no longer free to choose the things we want,",
-      "translation": "",
+      "translation": "但我们已经不能自由地选择我们想要的东西了，",
       "startTime": 23.32,
-      "endTime": 26.6,
+      "endTime": 26.60,
       "analysis": {
         "words": []
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "for advertising exerts a subtle influence on us.",
-      "translation": "",
+      "translation": "因为广告潜移默化地影响着我们。",
       "startTime": 26.61,
-      "endTime": 30.95
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "In their efforts to persuade us to buy this or that product,",
-      "translation": "",
-      "startTime": 30.96,
-      "endTime": 35.1,
+      "endTime": 30.95,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "exert",
+            "pos": "v.",
+            "meaning": "施加"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "subtle",
+            "pos": "adj.",
+            "meaning": "微小的，微妙的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "In their efforts to persuade us to buy this or that product,",
+      "translation": "为了说服我们购买这种或那种产品，",
+      "startTime": 30.96,
+      "endTime": 35.10,
+      "analysis": {
+        "words": [
+          {
+            "word": "persuade",
+            "pos": "v.",
+            "meaning": "劝说，说服"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "advertisers have made a close study of human nature and have classified all our little weaknesses.",
-      "translation": "",
+      "translation": "广告商们仔细地研究了人类的天性，并把我们的各种小弱点进行了分类。",
       "startTime": 35.11,
       "endTime": 43.14,
       "analysis": {
-        "words": []
-      }
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "Advertisers discovered years ago that all of us love to get something for nothing.",
-      "translation": "",
-      "startTime": 43.15,
-      "endTime": 48.95,
-      "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "classified",
+            "pos": "v.",
+            "meaning": "分类"
+          },
+          {
+            "word": "weakness",
+            "pos": "n.",
+            "meaning": "弱点"
           }
         ]
       }
     },
     {
+      "id": "s6",
+      "role": "Narrator",
+      "text": "Advertisers discovered years ago that all of us love to get something for nothing.",
+      "translation": "广告商们几年前就发现，我们大家都喜欢不花钱得到某种东西。",
+      "startTime": 43.15,
+      "endTime": 48.95,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "An advertisement which begins with the magic word FREE can rarely go wrong.",
-      "translation": "",
+      "translation": "一个以“免费”这个具有魔力的词开头的广告，通常是不会失败的。",
       "startTime": 48.96,
       "endTime": 55.86,
       "analysis": {
@@ -199,306 +210,291 @@
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "These days, advertisers not only offer free samples,",
-      "translation": "",
+      "translation": "现在，广告商们不仅提供免费样品，",
       "startTime": 55.87,
       "endTime": 59.81,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "sample",
+            "pos": "n.",
+            "meaning": "样品"
           }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "but free cars, free houses, and free trips round the world as well.",
-      "translation": "",
+      "translation": "而且还提供免费汽车、免费住房，甚至免费环球旅行。",
       "startTime": 59.82,
       "endTime": 66.79,
-      "analysis": {
-        "words": [
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "They devise hundreds of competitions which will enable us to win huge sums of money.",
-      "translation": "",
-      "startTime": 66.8,
-      "endTime": 72.72,
       "analysis": {
         "words": []
       }
     },
     {
+      "id": "s10",
+      "role": "Narrator",
+      "text": "They devise hundreds of competitions which will enable us to win huge sums of money.",
+      "translation": "他们设计出成百上千种竞赛，使我们能够赢得巨款。",
+      "startTime": 66.80,
+      "endTime": 72.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "devise",
+            "pos": "v.",
+            "meaning": "设计"
+          },
+          {
+            "word": "competition",
+            "pos": "n.",
+            "meaning": "竞赛"
+          }
+        ]
+      }
+    },
+    {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Radio and television have made it possible for advertisers to capture the attention of millions of people in this way.",
-      "translation": "",
+      "translation": "无线电广播和电视使广告商能够利用这些方式吸引数百万人的注意力。",
       "startTime": 72.73,
       "endTime": 81.11,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "capture",
+            "pos": "v.",
+            "meaning": "俘获，捕获"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "During a radio programme, a company of biscuit manufacturers once asked listeners to bake biscuits and send them to their factory.",
-      "translation": "",
+      "translation": "在一次广播节目中，一家饼干制造公司曾要求听众烤制饼干寄给工厂。",
       "startTime": 81.12,
       "endTime": 91.28,
+      "analysis": {
+        "words": [
+          {
+            "word": "manufacturer",
+            "pos": "n.",
+            "meaning": "制造商"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "They offered to pay $10 a pound for the biggest biscuit baked by a listener.",
+      "translation": "他们提出，如果听众烤出最大的饼干，每磅支付10美元。",
+      "startTime": 91.29,
+      "endTime": 97.08,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s13",
-      "role": "Man",
-      "text": "They offered to pay $10 a pound for the biggest biscuit baked by a listener.",
-      "translation": "",
-      "startTime": 91.29,
-      "endTime": 97.08
-    },
-    {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The response to this competition was tremendous.",
-      "translation": "",
+      "translation": "对这次竞赛的反应极其热烈。",
       "startTime": 97.09,
       "endTime": 100.85,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "response",
+            "pos": "n.",
+            "meaning": "反应"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Before long, biscuits of all shapes and sizes began arriving at the factory.",
-      "translation": "",
+      "translation": "不久，各种形状、各种规格的饼干开始送到工厂。",
       "startTime": 100.86,
       "endTime": 107.04,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "One lady brought biscuit on a wheelbarrow. It weighed nearly 500 pounds.",
-      "translation": "",
+      "translation": "一位女士用独轮小车推来一块饼干，重近500磅。",
       "startTime": 107.05,
-      "endTime": 113.4,
+      "endTime": 113.40,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "wheelbarrow",
+            "pos": "n.",
+            "meaning": "独轮手推车"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "A little later, a man came along with a biscuit which occupied the whole boot of his car.",
-      "translation": "",
+      "translation": "又过了一会儿，一位男子带着一块饼干来了，这块饼干正好塞满了他轿车的整个行李箱。",
       "startTime": 113.41,
-      "endTime": 120.7,
+      "endTime": 120.70,
       "analysis": {
         "words": [
           {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
+            "word": "occupy",
+            "pos": "v.",
+            "meaning": "占据"
           },
           {
-            "word": "Car",
+            "word": "boot",
             "pos": "n.",
-            "meaning": "轿车"
+            "meaning": "行李箱，靴子"
           }
         ]
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "All the biscuits that were sent were carefully weighed.",
-      "translation": "",
+      "translation": "所有寄来的饼干都经过仔细称量。",
       "startTime": 120.71,
       "endTime": 124.29,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "weighed",
+            "pos": "v.",
+            "meaning": "称量"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The largest was 713 pounds. It seemed certain that this would win the prize.",
-      "translation": "",
-      "startTime": 124.3,
+      "translation": "最大的重713磅。看来这块饼干无疑会赢得奖金。",
+      "startTime": 124.30,
       "endTime": 132.32,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "But just before the competition closed,",
-      "translation": "",
+      "translation": "但就在竞赛结束前不久，",
       "startTime": 132.33,
-      "endTime": 135.62
+      "endTime": 135.62,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s21",
-      "role": "Man",
+      "role": "Narrator",
       "text": "a lorry arrived at the factory with a truly colossal biscuit which weighed 2, 400 pounds.",
-      "translation": "",
+      "translation": "一辆大货车来到工厂，卸下了一块真正巨大的饼干，重2,400磅。",
       "startTime": 135.63,
       "endTime": 144.43,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "lorry",
+            "pos": "n.",
+            "meaning": "卡车"
+          },
+          {
+            "word": "colossal",
+            "pos": "adj.",
+            "meaning": "巨大的"
           }
         ]
       }
     },
     {
       "id": "s22",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It had been baked by a college student who had used over 1, 000 pounds of flour, 800 pounds of sugar,",
-      "translation": "",
+      "translation": "它是由于一名大学生烤制的，用了1,000多磅面粉、800英磅食糖、",
       "startTime": 144.44,
       "endTime": 152.58,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Student",
+            "word": "flour",
             "pos": "n.",
-            "meaning": "学生"
+            "meaning": "面粉"
           }
         ]
       }
     },
     {
       "id": "s23",
-      "role": "Man",
+      "role": "Narrator",
       "text": "200 pounds of fat, and 400 pounds of various other ingredients.",
-      "translation": "",
+      "translation": "200磅油脂、以及400磅各种其他配料。",
       "startTime": 152.59,
       "endTime": 158.25,
       "analysis": {
         "words": [
           {
-            "word": "Fat",
-            "pos": "adj.",
-            "meaning": "胖的"
+            "word": "ingredient",
+            "pos": "n.",
+            "meaning": "配料，成分"
           }
         ]
       }
     },
     {
       "id": "s24",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It was so heavy that a crane had to be used to remove it from the lorry.",
-      "translation": "",
+      "translation": "这块饼干是那样沉，以至于不得不动用一台起重机把它从货车上卸下来。",
       "startTime": 158.26,
       "endTime": 163.96,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "crane",
+            "pos": "n.",
+            "meaning": "起重机"
           }
         ]
       }
     },
     {
       "id": "s25",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The manufacturers had to pay more money than they had anticipated, for they bought the biscuit from the student for $24, 000.",
-      "translation": "",
+      "translation": "制造商们支付的回报超出了他们的预料，因为他们最后花了24,000美元从那个学生手里买下了这块饼干。",
       "startTime": 163.97,
-      "endTime": 168.97,
+      "endTime": 173.97,
       "analysis": {
         "words": [
           {
-            "word": "Student",
-            "pos": "n.",
-            "meaning": "学生"
+            "word": "anticipate",
+            "pos": "v.",
+            "meaning": "预料"
           }
         ]
       }

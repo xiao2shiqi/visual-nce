@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 28",
-      "translation": "",
+      "translation": "第28课",
       "startTime": 0.36,
       "endTime": 2.67,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,20 +25,20 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Five pounds too dear",
-      "translation": "",
+      "translation": "5镑也太贵",
       "startTime": 2.68,
       "endTime": 10.71,
       "analysis": {
         "words": [
           {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "pound",
+            "pos": "n.",
+            "meaning": "英镑"
           },
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "dear",
+            "pos": "adj.",
+            "meaning": "昂贵的"
           }
         ]
       }
@@ -49,529 +49,332 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 10.72,
-      "endTime": 23.529999999999998,
+      "endTime": 23.53,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why was even five pounds 'too dear' ?",
-      "translation": "",
+      "translation": "为什么连5镑也“太贵”了？",
       "startTime": 10.72,
       "endTime": 16.87,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s1",
+      "role": "Narrator",
+      "text": "Small boats loaded with wares sped to the great liner as she was entering the harbour.",
+      "translation": "当大型班轮进港时，装满货物的小船向它飞驰而去。",
+      "startTime": 16.88,
+      "endTime": 23.62,
+      "analysis": {
         "words": [
           {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "ware",
+            "pos": "n.",
+            "meaning": "货物"
           },
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "liner",
+            "pos": "n.",
+            "meaning": "班号，班机"
           }
         ]
       }
     },
     {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "Small boats loaded with wares sped to the great liner as she was entering the harbour.",
-      "translation": "",
-      "startTime": 16.88,
-      "endTime": 23.62
-    },
-    {
-      "id": "s1",
-      "role": "Man",
-      "text": "Before she had anchored, the men from the boats had climbed on board",
-      "translation": "",
-      "startTime": 23.63,
-      "endTime": 28.48
-    },
-    {
       "id": "s2",
-      "role": "Woman",
-      "text": "and the decks were soon covered with colourful rugs from Persia,",
-      "translation": "",
-      "startTime": 28.49,
-      "endTime": 33.29
+      "role": "Narrator",
+      "text": "Before she had anchored, the men from the boats had climbed on board and the decks were soon covered with colourful rugs from Persia, silks from India, copper coffee pots, and beautiful handmade silverware.",
+      "translation": "在大船下锚之前，小船上的人已经爬上了船，甲板上很快就铺满了各种鲜艳的波斯地毯、印度丝绸、铜咖啡壶以及美丽的纯手工银器。",
+      "startTime": 23.63,
+      "endTime": 40.07,
+      "analysis": {
+        "words": [
+          {
+            "word": "anchor",
+            "pos": "v.",
+            "meaning": "下锚"
+          },
+          {
+            "word": "rug",
+            "pos": "n.",
+            "meaning": "小地毯"
+          },
+          {
+            "word": "silverware",
+            "pos": "n.",
+            "meaning": "银器"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "silks from India, copper coffee pots, and beautiful handmade silverware.",
-      "translation": "",
-      "startTime": 33.3,
-      "endTime": 40.07
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It was difficult not to be tempted.",
-      "translation": "",
+      "translation": "很难不动心。",
       "startTime": 40.08,
       "endTime": 43.29,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "tempted",
+            "pos": "v.",
+            "meaning": "引诱，吸引"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "Many of the tourists on board had begun bargaining with the tradesmen, but I decided not to buy anything until I had disembarked.",
+      "translation": "船上的许多游客已经开始和商贩们讨价还价，但我决定在下船之前什么也不买。",
+      "startTime": 43.30,
+      "endTime": 53.55,
+      "analysis": {
+        "words": [
+          {
+            "word": "bargain",
+            "pos": "v.",
+            "meaning": "讨价还价"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "disembark",
+            "pos": "v.",
+            "meaning": "下船"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "Many of the tourists on board had begun bargaining with the tradesmen,",
-      "translation": "",
-      "startTime": 43.3,
-      "endTime": 47.46
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "but I decided not to buy anything until I had disembarked.",
-      "translation": "",
-      "startTime": 47.47,
-      "endTime": 53.55,
+      "role": "Narrator",
+      "text": "I had no sooner got off the ship than I was assailed by a man who wanted to sell me a diamond ring.",
+      "translation": "我刚下船，就被一个想卖给我钻戒的人缠住了。",
+      "startTime": 53.56,
+      "endTime": 62.15,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "assail",
+            "pos": "v.",
+            "meaning": "纠缠"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "role": "Narrator",
+      "text": "I had no intention of buying one, but I could not conceal the fact that I was impressed by the size of the diamonds.",
+      "translation": "我并无意购买，但我无法掩饰一个事实，那就是钻戒的大小给我留下了深刻印象。",
+      "startTime": 62.16,
+      "endTime": 71.43,
+      "analysis": {
+        "words": [
+          {
+            "word": "conceal",
+            "pos": "v.",
+            "meaning": "掩饰，隐瞒"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "I had no sooner got off the ship than I was assailed by a man who wanted to sell me a diamond ring.",
-      "translation": "",
-      "startTime": 53.56,
-      "endTime": 62.15,
+      "role": "Narrator",
+      "text": "Some of them were as big as marbles.",
+      "translation": "有些钻石居然像玻璃弹子一样大。",
+      "startTime": 71.44,
+      "endTime": 74.62,
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "marble",
             "pos": "n.",
-            "meaning": "男人"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "meaning": "大理石，弹子"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "I had no intention of buying one,",
-      "translation": "",
-      "startTime": 62.16,
-      "endTime": 64.86
+      "role": "Narrator",
+      "text": "The man went to great lengths to prove that the diamonds were real.",
+      "translation": "那人费尽心机来证明钻石是真的。",
+      "startTime": 74.63,
+      "endTime": 79.89,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "but I could not conceal the fact that I was impressed by the size of the diamonds.",
-      "translation": "",
-      "startTime": 64.87,
-      "endTime": 71.43,
+      "role": "Narrator",
+      "text": "As we were walking past a shop, he held a diamond firmly against the window and made a deep impression in the glass.",
+      "translation": "当我们走过一家商店时，他把一颗钻石紧紧按在商店的橱窗玻璃上，在玻璃上划出了一道深深的痕迹。",
+      "startTime": 79.90,
+      "endTime": 88.89,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "Some of them were as big as marbles.",
-      "translation": "",
-      "startTime": 71.44,
-      "endTime": 74.62
+      "role": "Narrator",
+      "text": "It took me over half an hour to get rid of him.",
+      "translation": "我费了半个多小时才摆脱他。",
+      "startTime": 88.90,
+      "endTime": 92.92,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "The man went to great lengths to prove that the diamonds were real.",
-      "translation": "",
-      "startTime": 74.63,
-      "endTime": 79.89,
+      "role": "Narrator",
+      "text": "The next man to approach me was selling expensive pens and watches.",
+      "translation": "第二个凑上前来的人是在卖昂贵的金笔和手表。",
+      "startTime": 92.93,
+      "endTime": 98.09,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "I examined one of the pens closely. It certainly looked genuine.",
+      "translation": "我仔细观察了其中一支金笔。它看起来确实是真的。",
+      "startTime": 98.10,
+      "endTime": 103.78,
       "analysis": {
         "words": [
           {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "genuine",
+            "pos": "adj.",
+            "meaning": "真的"
           }
         ]
       }
     },
     {
-      "id": "s12",
-      "role": "Woman",
-      "text": "As we were walking past a shop, he held a diamond firmly against the window and made a deep impression in the glass.",
-      "translation": "",
-      "startTime": 79.9,
-      "endTime": 88.89
-    },
-    {
       "id": "s13",
-      "role": "Man",
-      "text": "It took me over half an hour to get rid of him.",
-      "translation": "",
-      "startTime": 88.9,
-      "endTime": 92.92,
+      "role": "Narrator",
+      "text": "At the base of the gold cap, the words 'made in the U.S.A.' had been neatly inscribed.",
+      "translation": "在金笔帽的底部，整齐地刻着“美国制造”的字样。",
+      "startTime": 103.79,
+      "endTime": 112.30,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "inscribe",
+            "pos": "v.",
+            "meaning": "刻写"
           }
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
-      "text": "The next man to approach me was selling expensive pens and watches.",
-      "translation": "",
-      "startTime": 92.93,
-      "endTime": 98.09,
+      "role": "Narrator",
+      "text": "The man said that the pen was worth ￡50, but as a special favour, he would let me have it for ￡30.",
+      "translation": "那人说，这支笔价值50英镑，但作为特殊照顾，他可以30英镑卖给我。",
+      "startTime": 112.31,
+      "endTime": 122.20,
       "analysis": {
-        "words": [
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "I examined one of the pens closely. It certainly looked genuine.",
-      "translation": "",
-      "startTime": 98.1,
-      "endTime": 103.78,
+      "role": "Narrator",
+      "text": "I shook my head and held up five fingers indicating that I was willing to pay ￡5.",
+      "translation": "我摇摇手，伸出5个指头，表示我只愿付5英镑。",
+      "startTime": 122.21,
+      "endTime": 130.50,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "At the base of the gold cap, the words 'made in the U.S.A.' had been neatly inscribed.",
-      "translation": "",
-      "startTime": 103.79,
-      "endTime": 112.3,
+      "role": "Narrator",
+      "text": "Gesticulating wildly, the man acted as if he found my offer outrageous, but he eventually reduced the price to 10 pounds.",
+      "translation": "那人狂乱地打着手势，装出他觉得我的出价太离谱的样子，但最后他还是把价格降到了10英镑。",
+      "startTime": 130.51,
+      "endTime": 142.61,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "outrageous",
+            "pos": "adj.",
+            "meaning": "令人不容忍的，离谱的"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "The man said that the pen was worth ￡50, but as a special favour, he would let me have it for ￡30.",
-      "translation": "",
-      "startTime": 112.31,
-      "endTime": 122.2,
+      "role": "Narrator",
+      "text": "Shrugging my shoulders I began to walk away when, a moment later, he ran after me and thrust the pen into my hands.",
+      "translation": "我耸耸肩膀开始走开。过了一会儿，他追上我，把笔塞进我手里。",
+      "startTime": 142.62,
+      "endTime": 153.34,
       "analysis": {
         "words": [
           {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Pen",
-            "pos": "n.",
-            "meaning": "钢笔"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "thrust",
+            "pos": "v.",
+            "meaning": "硬推"
           }
         ]
       }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "I shook my head and held up five fingers indicating that I was willing to pay ￡5.",
-      "translation": "",
-      "startTime": 122.21,
-      "endTime": 130.5,
+      "role": "Narrator",
+      "text": "Though he kept throwing up his arms in despair, he readily accepted the ￡5 I gave him.",
+      "translation": "虽然他不停地绝望地挥动手臂，但他还是爽快地接受了我给他的5英镑。",
+      "startTime": 153.35,
+      "endTime": 160.56,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "readily",
+            "pos": "adv.",
+            "meaning": "爽快地"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Man",
-      "text": "Gesticulating wildly, the man acted as if he found my offer outrageous,",
-      "translation": "",
-      "startTime": 130.51,
-      "endTime": 137.41,
-      "analysis": {
-        "words": [
-          {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "but he eventually reduced the price to 10 pounds.",
-      "translation": "",
-      "startTime": 137.42,
-      "endTime": 142.61
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "Shrugging my shoulders I began to walk away when,",
-      "translation": "",
-      "startTime": 142.62,
-      "endTime": 146.61,
-      "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "a moment later, he ran after me and thrust the pen into my hands.",
-      "translation": "",
-      "startTime": 146.62,
-      "endTime": 153.34,
-      "analysis": {
-        "words": [
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          },
-          {
-            "word": "Pen",
-            "pos": "n.",
-            "meaning": "钢笔"
-          },
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "Though he kept throwing up his arms in despair, he readily accepted the ￡5 I gave him.",
-      "translation": "",
-      "startTime": 153.35,
-      "endTime": 160.56,
+      "role": "Narrator",
+      "text": "I felt especially pleased with my wonderful bargain--until I got back to the ship.",
+      "translation": "我为自己这笔极好的交易感到特别高兴——直到我回到船上。",
+      "startTime": 160.57,
+      "endTime": 167.76,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s24",
-      "role": "Woman",
-      "text": "I felt especially pleased with my wonderful bargain--until I got back to the ship.",
-      "translation": "",
-      "startTime": 160.57,
-      "endTime": 167.76,
-      "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "No matter how hard I tried,",
-      "translation": "",
+      "id": "s20",
+      "role": "Narrator",
+      "text": "No matter how hard I tried, it was impossible to fill this beautiful pen with ink and to this day it has never written a single word!",
+      "translation": "无论我怎么努力，这支漂亮的笔也无法装进墨水，直到今天也一个字也写不出！",
       "startTime": 167.77,
-      "endTime": 170.57,
+      "endTime": 178.77,
       "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
-      "text": "it was impossible to fill this beautiful pen with ink and to this day it has never written a single word!",
-      "translation": "",
-      "startTime": 170.58,
-      "endTime": 175.58,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Pen",
-            "pos": "n.",
-            "meaning": "钢笔"
-          }
-        ]
+        "words": []
       }
     }
   ]

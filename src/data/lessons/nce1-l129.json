@@ -29,11 +29,32 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Seventy miles an hour",
-      "translation": "(标题)",
+      "translation": "时速70英里",
       "startTime": 2.51,
       "endTime": 5.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Seventy",
+            "pos": "num.",
+            "meaning": "七十"
+          },
+          {
+            "word": "Miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一（个）"
+          },
+          {
+            "word": "Hour",
+            "pos": "n.",
+            "meaning": "小时"
+          }
+        ]
       }
     },
     {

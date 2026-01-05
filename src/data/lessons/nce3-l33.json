@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 33",
-      "translation": "",
+      "translation": "第33课",
       "startTime": 0.19,
       "endTime": 2.44,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,12 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A day to remember",
-      "translation": "",
+      "translation": "难忘的一天",
       "startTime": 2.45,
-      "endTime": 8.97
+      "endTime": 8.97,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -35,65 +38,24 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 8.98,
-      "endTime": 19.729999999999997,
+      "endTime": 19.73,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What incident began the series of traffic accidents?",
-      "translation": "",
+      "translation": "什么事件引起了这一连串的交通事故？",
       "startTime": 8.98,
       "endTime": 15.46,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "incident",
+            "pos": "n.",
+            "meaning": "事件"
           }
         ]
       }
@@ -102,464 +64,322 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "We have all experienced days when everything goes wrong.",
-      "translation": "",
+      "translation": "我们都经历过万事不顺的日子。",
       "startTime": 15.47,
-      "endTime": 19.82
+      "endTime": 19.82,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "A day may begin well enough, but suddenly everything seems to get out of control.",
-      "translation": "",
+      "translation": "一天开始时可能过得还算不错，但突然间，一切似乎都失去了控制。",
       "startTime": 19.83,
       "endTime": 25.97,
       "analysis": {
-        "words": [
-          {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s2",
       "role": "Narrator",
       "text": "What invariably happens is that a great number of things choose to go wrong at precisely the same moment.",
-      "translation": "",
+      "translation": "总是发生的情况是，大量的事情倾向于在同一时刻出差错。",
       "startTime": 25.98,
       "endTime": 33.96,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Number",
-            "pos": "n.",
-            "meaning": "号码，数字"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "invariably",
+            "pos": "adv.",
+            "meaning": "总是"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It is as if a single unimportant event set up a chain of reactions.",
-      "translation": "",
+      "translation": "这好像是一个微不足道的小事引起了一连串的反应。",
       "startTime": 33.97,
       "endTime": 39.92,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Let us suppose that you are preparing a meal and keeping an eye on the baby at the same time.",
-      "translation": "",
+      "translation": "让我们假定你正在做饭，同时又在照看孩子。",
       "startTime": 39.93,
       "endTime": 47.22,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The telephone rings and this marks the prelude to an unforeseen series of catastrophes.",
-      "translation": "",
+      "translation": "电话铃响了，这标志着一连串无法预料的灾难的序幕。",
       "startTime": 47.23,
       "endTime": 55.43,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "unforeseen",
+            "pos": "adj.",
+            "meaning": "预料之外的"
+          },
+          {
+            "word": "catastrophes",
+            "pos": "n.",
+            "meaning": "灾难"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "While you are on the phone, the baby pulls the tablecloth off the table,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "While you are on the phone, the baby pulls the tablecloth off the table, smashing half your best crockery and cutting himself in the process.",
+      "translation": "当你接电话时，孩子把桌布从桌子上拉了下来，摔碎了你一半以上最好的陶器，并且在此过程中划破了自己。",
       "startTime": 55.44,
-      "endTime": 61.11,
+      "endTime": 66.48,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "crockery",
+            "pos": "n.",
+            "meaning": "陶器"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
-      "text": "smashing half your best crockery and cutting himself in the process.",
-      "translation": "",
-      "startTime": 61.12,
-      "endTime": 66.48,
+      "role": "Narrator",
+      "text": "You hang up hurriedly and attend to baby, crockery, etc.",
+      "translation": "你匆忙挂断电话，去照看孩子、收拾陶器等等。",
+      "startTime": 66.49,
+      "endTime": 71.89,
       "analysis": {
-        "words": [
-          {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "You hang up hurriedly and attend to baby, crockery, etc.",
-      "translation": "",
-      "startTime": 66.49,
-      "endTime": 71.89,
+      "role": "Narrator",
+      "text": "Meanwhile, the meal gets burnt.",
+      "translation": "与此同时，饭烧焦了。",
+      "startTime": 71.90,
+      "endTime": 74.61,
       "analysis": {
-        "words": [
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s9",
-      "role": "Man",
-      "text": "Meanwhile, the meal gets burnt.",
-      "translation": "",
-      "startTime": 71.9,
-      "endTime": 74.61
+      "role": "Narrator",
+      "text": "As if this were not enough to reduce you to tears, your husband arrives, unexpectedly bringing three guests to dinner.",
+      "translation": "似乎这还不足以让你掉眼泪，你的丈夫回来了，出人意料地带了三个客人来吃饭。",
+      "startTime": 74.62,
+      "endTime": 84.50,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s10",
-      "role": "Woman",
-      "text": "As if this were not enough to reduce you to tears, your husband arrives, unexpectedly bringing three guests to dinner.",
-      "translation": "",
-      "startTime": 74.62,
-      "endTime": 84.5,
+      "role": "Narrator",
+      "text": "Things can go wrong on a big scale as a number of people recently discovered in Parramatta, a suburb of Sydney.",
+      "translation": "正如最近在悉尼郊区帕拉马塔的一些人所发现的那样，事情可能会在大范围内出差错。",
+      "startTime": 84.51,
+      "endTime": 93.51,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "suburb",
+            "pos": "n.",
+            "meaning": "郊区"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
-      "text": "Things can go wrong on a big scale as a number of people recently discovered in Parramatta, a suburb of Sydney.",
-      "translation": "",
-      "startTime": 84.51,
-      "endTime": 93.51,
+      "role": "Narrator",
+      "text": "During the rush hour one evening two cars collided and both drivers began to argue.",
+      "translation": "一天晚上的高峰时间，两辆汽车相撞了，两位司机开始争吵起来。",
+      "startTime": 93.52,
+      "endTime": 101.08,
       "analysis": {
         "words": [
           {
-            "word": "Number",
-            "pos": "n.",
-            "meaning": "号码，数字"
+            "word": "collided",
+            "pos": "v.",
+            "meaning": "相撞"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
-      "text": "During the rush hour one evening two cars collided and both drivers began to argue.",
-      "translation": "",
-      "startTime": 93.52,
-      "endTime": 101.08
-    },
-    {
-      "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The woman immediately behind the two cars happened to be a learner.",
-      "translation": "",
+      "translation": "紧跟在两辆车后面的一位妇女恰巧是个初学者。",
       "startTime": 101.09,
       "endTime": 106.29,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "She suddenly got into a panic and stopped her car.",
+      "translation": "她突然惊慌失措，停住了车。",
+      "startTime": 106.30,
+      "endTime": 110.96,
+      "analysis": {
         "words": [
           {
-            "word": "Woman",
+            "word": "panic",
             "pos": "n.",
-            "meaning": "女人"
+            "meaning": "惊慌"
           }
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
-      "text": "She suddenly got into a panic and stopped her car.",
-      "translation": "",
-      "startTime": 106.3,
-      "endTime": 110.96,
+      "role": "Narrator",
+      "text": "This made the driver following her brake hard.",
+      "translation": "这使得跟在她后面的司机不得不紧急刹车。",
+      "startTime": 110.97,
+      "endTime": 114.79,
       "analysis": {
-        "words": [
-          {
-            "word": "Car",
-            "pos": "n.",
-            "meaning": "轿车"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s15",
-      "role": "Man",
-      "text": "This made the driver following her brake hard.",
-      "translation": "",
-      "startTime": 110.97,
-      "endTime": 114.79,
-      "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Driver",
-            "pos": "n.",
-            "meaning": "驾驶员"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "His wife was sitting beside him holding a large cake.",
-      "translation": "",
-      "startTime": 114.8,
+      "translation": "他的妻子坐在他旁边，手里拿着一个大蛋糕。",
+      "startTime": 114.80,
       "endTime": 119.07,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s17",
-      "role": "Man",
-      "text": "As she was thrown forward,",
-      "translation": "",
+      "id": "s16",
+      "role": "Narrator",
+      "text": "As she was thrown forward, the cake went right through the windscreen and landed on the road.",
+      "translation": "当她被向前抛出时，蛋糕穿过挡风玻璃，落在了路上。",
       "startTime": 119.08,
-      "endTime": 121.19
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "the cake went right through the windscreen and landed on the road.",
-      "translation": "",
-      "startTime": 121.2,
-      "endTime": 126.52
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "Seeing a cake flying through the air,",
-      "translation": "",
-      "startTime": 126.53,
-      "endTime": 129.41,
+      "endTime": 126.52,
       "analysis": {
         "words": [
           {
-            "word": "Air",
+            "word": "windscreen",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "挡风玻璃"
           }
         ]
+      }
+    },
+    {
+      "id": "s17",
+      "role": "Narrator",
+      "text": "Seeing a cake flying through the air, a lorry driver who was drawing up alongside the car, pulled up all of a sudden.",
+      "translation": "看到一个蛋糕从空中飞过，一个正向这辆车靠拢的货车司机突然停住了车。",
+      "startTime": 126.53,
+      "endTime": 136.16,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s18",
+      "role": "Narrator",
+      "text": "The lorry was loaded with empty beer bottles and hundreds of them slid off the back of the vehicle and on to the road.",
+      "translation": "货车上装满了空啤酒瓶，几百个瓶子从货车后部滑落到了路上。",
+      "startTime": 136.17,
+      "endTime": 145.46,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s19",
+      "role": "Narrator",
+      "text": "This led to yet another angry argument. Meanwhile, the traffic piled up behind.",
+      "translation": "这引起了又一场愤怒的争吵。与此同时，后面的交通堵塞了。",
+      "startTime": 145.47,
+      "endTime": 153.45,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "a lorry driver who was drawing up alongside the car, pulled up all of a sudden.",
-      "translation": "",
-      "startTime": 129.42,
-      "endTime": 136.16,
+      "role": "Narrator",
+      "text": "It took the police nearly an hour to get the traffic on the move again.",
+      "translation": "警察花了将近一个小时才使交通重新畅通。",
+      "startTime": 153.46,
+      "endTime": 158.95,
       "analysis": {
-        "words": [
-          {
-            "word": "Driver",
-            "pos": "n.",
-            "meaning": "驾驶员"
-          },
-          {
-            "word": "Car",
-            "pos": "n.",
-            "meaning": "轿车"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "The lorry was loaded with empty beer bottles and hundreds of them slid off the back of the vehicle and on to the road.",
-      "translation": "",
-      "startTime": 136.17,
-      "endTime": 145.46
+      "role": "Narrator",
+      "text": "In the meantime, the lorry driver had to sweep up hundreds of broken bottles.",
+      "translation": "在这段时间里，货车司机不得不清扫几百个破碎的瓶子。",
+      "startTime": 158.96,
+      "endTime": 165.56,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s22",
-      "role": "Woman",
-      "text": "This led to yet another angry argument. Meanwhile, the traffic piled up behind.",
-      "translation": "",
-      "startTime": 145.47,
-      "endTime": 153.45,
+      "role": "Narrator",
+      "text": "Only two stray dogs benefited from all this confusion, for they greedily devoured what was left of the cake.",
+      "translation": "只有两只走失的小狗从这一切混乱中受益了，因为它们贪婪地吃掉了蛋糕剩下的部分。",
+      "startTime": 165.57,
+      "endTime": 174.21,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "stray",
+            "pos": "adj.",
+            "meaning": "迷路的，离群的"
+          },
+          {
+            "word": "devoured",
+            "pos": "v.",
+            "meaning": "狼吞虎咽地吃"
           }
         ]
       }
     },
     {
       "id": "s23",
-      "role": "Man",
-      "text": "It took the police nearly an hour to get the traffic on the move again.",
-      "translation": "",
-      "startTime": 153.46,
-      "endTime": 158.95,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s24",
-      "role": "Woman",
-      "text": "In the meantime, the lorry driver had to sweep up hundreds of broken bottles.",
-      "translation": "",
-      "startTime": 158.96,
-      "endTime": 165.56,
-      "analysis": {
-        "words": [
-          {
-            "word": "Driver",
-            "pos": "n.",
-            "meaning": "驾驶员"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "Only two stray dogs benefited from all this confusion, for they greedily devoured what was left of the cake.",
-      "translation": "",
-      "startTime": 165.57,
-      "endTime": 174.21,
-      "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It was just one of those days!",
-      "translation": "",
+      "translation": "这就是那种日子！",
       "startTime": 174.22,
-      "endTime": 179.22,
+      "endTime": 184.22,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     }
   ]

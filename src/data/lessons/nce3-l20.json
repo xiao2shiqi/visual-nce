@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 20",
-      "translation": "",
+      "translation": "第20课",
       "startTime": 0.25,
       "endTime": 2.09,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,23 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Pioneer pilots",
-      "translation": "",
+      "translation": "飞行先驱",
       "startTime": 2.1,
-      "endTime": 9.14
+      "endTime": 9.14,
+      "analysis": {
+        "words": [
+          {
+            "word": "pioneer",
+            "pos": "n.",
+            "meaning": "先驱"
+          },
+          {
+            "word": "pilot",
+            "pos": "n.",
+            "meaning": "飞行员"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,261 +51,216 @@
       "startTime": 9.15,
       "endTime": 26.68,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What was the name of the first plane to fly across the English Channel?",
-      "translation": "",
+      "translation": "第一架飞越英吉利海峡的飞机的名字叫什么？",
       "startTime": 9.15,
-      "endTime": 15.8,
+      "endTime": 15.80,
       "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "Name",
-            "pos": "n.",
-            "meaning": "名字"
-          }
-        ]
+        "words": []
       }
     },
     {
-      "id": "intro_5",
+      "id": "s1",
       "role": "Narrator",
       "text": "In 1908 Lord Northcliffe offered a prize of ￡1, 000 to the first man who would fly across the English Channel.",
-      "translation": "",
+      "translation": "1908年，诺思克利夫勋爵提出，谁要是第一个飞越英吉利海峡，就送给谁1,000英镑奖金。",
       "startTime": 15.81,
       "endTime": 26.77,
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "prize",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "奖金，奖品"
+          },
+          {
+            "word": "channel",
+            "pos": "n.",
+            "meaning": "海峡"
           }
         ]
       }
     },
     {
-      "id": "s1",
-      "role": "Man",
-      "text": "Over a year passed before the first attempt was made.",
-      "translation": "",
-      "startTime": 26.78,
-      "endTime": 31.27
-    },
-    {
       "id": "s2",
-      "role": "Woman",
-      "text": "On July 19th, 1909, in the early morning,",
-      "translation": "",
-      "startTime": 31.28,
-      "endTime": 36.35
+      "role": "Narrator",
+      "text": "Over a year passed before the first attempt was made.",
+      "translation": "一年多过去了，才有人出来尝试。",
+      "startTime": 26.78,
+      "endTime": 31.27,
+      "analysis": {
+        "words": [
+          {
+            "word": "attempt",
+            "pos": "n.",
+            "meaning": "尝试"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "Hubert Latham took off from the French coast in his plane the 'Antoinette IV.'",
-      "translation": "",
-      "startTime": 36.36,
+      "role": "Narrator",
+      "text": "On July 19th, 1909, in the early morning, Hubert Latham took off from the French coast in his plane the 'Antoinette IV.'",
+      "translation": "1909年7月19日凌晨，休伯特·莱瑟姆驾驶他的“安托瓦内特4号”飞机从法国海岸起飞。",
+      "startTime": 31.28,
       "endTime": 43.13,
       "analysis": {
         "words": [
           {
-            "word": "French",
-            "pos": "adj.",
-            "meaning": "法国的，法语"
+            "word": "take off",
+            "pos": "v.",
+            "meaning": "起飞"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "He had travelled only seven miles across the Channel when his engine failed and he was forced to land on the sea.",
-      "translation": "",
+      "translation": "他只在海峡上空飞行了7英里，引擎就出了故障，他被迫降落在海面上。",
       "startTime": 43.14,
       "endTime": 52.25,
+      "analysis": {
+        "words": [
+          {
+            "word": "engine",
+            "pos": "n.",
+            "meaning": "引擎"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "role": "Narrator",
+      "text": "The 'Antoinette' floated on the water until Latham was picked up by a ship.",
+      "translation": "“安托瓦内特”号在水面上漂浮着，直到莱瑟姆被一艘船救起。",
+      "startTime": 52.26,
+      "endTime": 59.21,
+      "analysis": {
+        "words": [
+          {
+            "word": "float",
+            "pos": "v.",
+            "meaning": "漂浮"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "role": "Narrator",
+      "text": "Two days later, Louis Bleriot arrived near Calais with a plane called 'No.XI'.",
+      "translation": "两天后，路易·布莱里奥驾驶一架名为“11号”的飞机来到加来附近。",
+      "startTime": 59.22,
+      "endTime": 67.15,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s5",
-      "role": "Man",
-      "text": "The 'Antoinette' floated on the water until Latham was picked up by a ship.",
-      "translation": "",
-      "startTime": 52.26,
-      "endTime": 59.21
-    },
-    {
-      "id": "s6",
-      "role": "Woman",
-      "text": "Two days later, Louis Bleriot arrived near Calais with a plane called 'No.XI'.",
-      "translation": "",
-      "startTime": 59.22,
-      "endTime": 67.15
-    },
-    {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Bleriot had been making planes since 1905 and this was his latest model.",
-      "translation": "",
+      "translation": "布莱里奥从1905年起就开始研制飞机，“11号”是他最新设计的型号。",
       "startTime": 67.16,
       "endTime": 74.32,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "model",
+            "pos": "n.",
+            "meaning": "型号，模特"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "A week before, he had completed a successful overland flight during which he covered twenty-six miles.",
-      "translation": "",
+      "translation": "一周前，他刚完成一次成功的陆上飞行，飞行距离为26英里。",
       "startTime": 74.33,
-      "endTime": 82.53
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "Latham, however, did not give up easily.",
-      "translation": "",
-      "startTime": 82.54,
-      "endTime": 85.75,
+      "endTime": 82.53,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "overland",
+            "pos": "adj./adv.",
+            "meaning": "陆上的"
           }
         ]
+      }
+    },
+    {
+      "id": "s9",
+      "role": "Narrator",
+      "text": "Latham, however, did not give up easily.",
+      "translation": "可是莱瑟姆并不轻易罢休。",
+      "startTime": 82.54,
+      "endTime": 85.75,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "He, too, arrived near Calais on the same day with a new 'Antoinette'.",
-      "translation": "",
+      "translation": "同一天，他也带着一架新的“安托瓦内特”飞机来到加来附近。",
       "startTime": 85.76,
       "endTime": 92.19,
       "analysis": {
-        "words": [
-          {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It looked as if there would be an exciting race across the Channel.",
-      "translation": "",
-      "startTime": 92.2,
+      "translation": "看来会有一场飞越海峡的激动人心的比赛。",
+      "startTime": 92.20,
       "endTime": 97.18,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Both planes were going to take off on July 25th, but Latham failed to get up early enough.",
-      "translation": "",
+      "translation": "两架飞机都准备在7月25日起飞，但莱瑟姆起晚了。",
       "startTime": 97.19,
-      "endTime": 105.04
+      "endTime": 105.04,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "After making a short test flight at 4.15 a.m., Bleriot set off half an hour later.",
-      "translation": "",
+      "translation": "凌晨4点15分，布莱里奥作了一次短距离试飞，半小时后便正式起飞了。",
       "startTime": 105.05,
       "endTime": 113.09,
       "analysis": {
-        "words": [
-          {
-            "word": "Short",
-            "pos": "adj.",
-            "meaning": "矮的"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "His great flight lasted thirty-seven minutes.",
-      "translation": "",
-      "startTime": 113.1,
+      "translation": "这次伟大的飞行持续了37分钟。",
+      "startTime": 113.10,
       "endTime": 116.89,
       "analysis": {
         "words": []
@@ -299,44 +268,33 @@
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "When he landed near Dover, the first person to greet him was a local policeman.",
-      "translation": "",
-      "startTime": 116.9,
+      "translation": "当他在多佛附近降落时，第一个迎接他的是当地的一名警察。",
+      "startTime": 116.90,
       "endTime": 123.66,
       "analysis": {
-        "words": [
-          {
-            "word": "Policeman",
-            "pos": "n.",
-            "meaning": "警察"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "Latham made another attempt a week later and got within half a mile of Dover,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Latham made another attempt a week later and got within half a mile of Dover, but he was unlucky again.",
+      "translation": "一周后，莱瑟姆又作了一次尝试，已经飞到了距多佛不到半英里的地方，但他再次运气不佳。",
       "startTime": 123.67,
-      "endTime": 129.33
+      "endTime": 129.33,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "but he was unlucky again.",
-      "translation": "",
-      "startTime": 129.34,
-      "endTime": 131.84
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "His engine failed and he landed on the sea for the second time.",
-      "translation": "",
-      "startTime": 131.85,
-      "endTime": 136.85,
+      "translation": "他的引擎再次故障，使他第二次降落在海面上。",
+      "startTime": 129.34,
+      "endTime": 139.34,
       "analysis": {
         "words": []
       }

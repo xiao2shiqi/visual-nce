@@ -8,9 +8,9 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 11",
-      "translation": "",
+      "translation": "第11课",
       "startTime": 0.44,
-      "endTime": 2.1,
+      "endTime": 2.11,
       "analysis": {
         "words": [
           {
@@ -25,15 +25,15 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Not guilty",
-      "translation": "",
-      "startTime": 2.11,
+      "translation": "无罪",
+      "startTime": 2.12,
       "endTime": 8.85,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "guilty",
+            "pos": "adj.",
+            "meaning": "有罪的，内疚的"
           }
         ]
       }
@@ -41,226 +41,166 @@
     {
       "id": "intro_3",
       "role": "Narrator",
-      "text": "Listen to the tape then answer this question.",
-      "translation": "听录音，然后回答问题。",
-      "startTime": 8.86,
-      "endTime": 22.9,
-      "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_4",
-      "role": "Narrator",
       "text": "What was the Customs Officer looking for?",
-      "translation": "",
+      "translation": "海关官员在寻找什么？",
       "startTime": 8.86,
       "endTime": 13.21,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          }
-        ]
-      }
-    },
-    {
-      "id": "intro_5",
-      "role": "Narrator",
-      "text": "Customs Officers are quite tolerant these days, but they can still stop you when you are going through the Green Channel and have nothing to declare.",
-      "translation": "",
-      "startTime": 13.22,
-      "endTime": 22.99,
-      "analysis": {
-        "words": [
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "customs",
+            "pos": "n.",
+            "meaning": "海关"
           },
           {
-            "word": "Green",
-            "pos": "adj.",
-            "meaning": "绿色的"
+            "word": "officer",
+            "pos": "n.",
+            "meaning": "官员"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
-      "text": "Even really honest people are often made to feel guilty.",
-      "translation": "",
-      "startTime": 23,
-      "endTime": 27.46,
+      "role": "Narrator",
+      "text": "Customs Officers are quite tolerant these days, but they can still stop you when you are going through the Green Channel and have nothing to declare.",
+      "translation": "现在的海关官员相当宽容，但当你走绿色通道且无须申报时，他们仍然可以拦住你。",
+      "startTime": 13.22,
+      "endTime": 22.99,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "tolerant",
+            "pos": "adj.",
+            "meaning": "宽容的"
+          },
+          {
+            "word": "declare",
+            "pos": "v.",
+            "meaning": "申报"
+          }
+        ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "text": "The hardened professional smuggler, on the other hand, is never troubled by such feelings,",
-      "translation": "",
-      "startTime": 27.47,
-      "endTime": 33.66,
+      "role": "Narrator",
+      "text": "Even really honest people are often made to feel guilty.",
+      "translation": "甚至真正诚实的人也经常感到心里不安。",
+      "startTime": 23,
+      "endTime": 27.46,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "honest",
+            "pos": "adj.",
+            "meaning": "诚实的"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "even if he has five hundred gold watches hidden in his suitcase.",
-      "translation": "",
-      "startTime": 33.67,
-      "endTime": 38.96,
+      "role": "Narrator",
+      "text": "The hardened professional smuggler, on the other hand, is never troubled by such feelings,",
+      "translation": "另一方面，老练的专业走私犯却绝不会受到这种感觉的困扰，",
+      "startTime": 27.47,
+      "endTime": 33.66,
       "analysis": {
         "words": [
           {
-            "word": "Five",
-            "pos": "num.",
-            "meaning": "五"
+            "word": "hardened",
+            "pos": "adj.",
+            "meaning": "老练的"
+          },
+          {
+            "word": "smuggler",
+            "pos": "n.",
+            "meaning": "走私者"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
-      "text": "When I returned from abroad recently, a particularly officious young Customs Officer",
-      "translation": "",
-      "startTime": 38.97,
-      "endTime": 44.91,
+      "role": "Narrator",
+      "text": "even if he has five hundred gold watches hidden in his suitcase.",
+      "translation": "即使他的提箱里藏有500只金表。",
+      "startTime": 33.67,
+      "endTime": 38.96,
       "analysis": {
         "words": [
           {
-            "word": "Young",
-            "pos": "adj.",
-            "meaning": "年轻的"
+            "word": "suitcase",
+            "pos": "n.",
+            "meaning": "手提箱"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
-      "text": "clearly regarded me as a smuggler.",
-      "translation": "",
-      "startTime": 44.92,
+      "role": "Narrator",
+      "text": "When I returned from abroad recently, a particularly officious young Customs Officer clearly regarded me as a smuggler.",
+      "translation": "最近我从国外回来，一个特别好管闲事的年轻海关官员显然把我当成了走私犯。",
+      "startTime": 38.97,
       "endTime": 48.38,
       "analysis": {
         "words": [
           {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "officious",
+            "pos": "adj.",
+            "meaning": "好管闲事的"
+          },
+          {
+            "word": "regarded",
+            "pos": "v.",
+            "meaning": "看待，当做"
           }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Officer",
       "text": "'Have you anything to declare?' he asked, looking me in the eye.",
-      "translation": "",
+      "translation": "“你有要申报的东西吗？”他直视着我的眼睛问道。",
       "startTime": 48.39,
       "endTime": 54.06,
       "analysis": {
-        "words": [
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "'No,' I answered confidently.",
-      "translation": "",
+      "translation": "“没有，”我自信地回答。",
       "startTime": 54.07,
-      "endTime": 57.6
+      "endTime": 57.6,
+      "analysis": {
+        "words": [
+          {
+            "word": "confidently",
+            "pos": "adv.",
+            "meaning": "自信地"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Officer",
       "text": "'Would you mind unlocking this suitcase please? '",
-      "translation": "",
+      "translation": "“请把这个提箱打开好吗？”",
       "startTime": 57.61,
       "endTime": 61.54,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Please",
-            "pos": "int.",
-            "meaning": "请"
+            "word": "unlocking",
+            "pos": "v.",
+            "meaning": "解锁，打开"
           }
         ]
       }
@@ -269,143 +209,147 @@
       "id": "s9",
       "role": "Man",
       "text": "'Not at all,' I answered.",
-      "translation": "",
+      "translation": "“没问题，”我回答。",
       "startTime": 61.55,
       "endTime": 63.96,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The Officer went through the case with great care.",
-      "translation": "",
+      "translation": "官员非常仔细地检查了提箱。",
       "startTime": 63.97,
-      "endTime": 67.7
+      "endTime": 67.7,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "All the things I had packed so carefully were soon in a dreadful mess.",
-      "translation": "",
+      "translation": "我精心包装的所有东西很快就变得乱七八糟。",
       "startTime": 67.71,
-      "endTime": 73.56
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "I felt sure I would never be able to close the case again.",
-      "translation": "",
-      "startTime": 73.57,
-      "endTime": 78.26
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "Suddenly, I saw the Officer's face light up.",
-      "translation": "",
-      "startTime": 78.27,
-      "endTime": 82.33
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "He had spotted a tiny bottle at the bottom of my case",
-      "translation": "",
-      "startTime": 82.34,
-      "endTime": 86.24,
+      "endTime": 73.56,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "dreadful",
+            "pos": "adj.",
+            "meaning": "糟糕的，可怕的"
           },
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "mess",
+            "pos": "n.",
+            "meaning": "混乱"
           }
         ]
       }
     },
     {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "I felt sure I would never be able to close the case again.",
+      "translation": "我敢肯定我再也关不上这提箱了。",
+      "startTime": 73.57,
+      "endTime": 78.26,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "Suddenly, I saw the Officer's face light up.",
+      "translation": "突然，我看到官员的脸亮了起来。",
+      "startTime": 78.27,
+      "endTime": 82.33,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
+      "text": "He had spotted a tiny bottle at the bottom of my case",
+      "translation": "他发现提箱底部有一个小瓶子，",
+      "startTime": 82.34,
+      "endTime": 86.24,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "and he pounced on it with delight.",
-      "translation": "",
+      "translation": "便高兴地扑了过去。",
       "startTime": 86.25,
       "endTime": 89.34,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "pounced",
+            "pos": "v.",
+            "meaning": "猛扑"
+          },
+          {
+            "word": "delight",
+            "pos": "n.",
+            "meaning": "欣喜"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Officer",
       "text": "'Perfume, eh?' he asked sarcastically.",
-      "translation": "",
+      "translation": "“香水，嗯？”他讽刺地问。",
       "startTime": 89.35,
-      "endTime": 94.67
-    },
-    {
-      "id": "s17",
-      "role": "Man",
-      "text": "'You should have declared that.",
-      "translation": "",
-      "startTime": 94.68,
-      "endTime": 96.65,
+      "endTime": 94.67,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "sarcastically",
+            "pos": "adv.",
+            "meaning": "讽刺地"
           }
         ]
       }
     },
     {
+      "id": "s17",
+      "role": "Officer",
+      "text": "'You should have declared that.",
+      "translation": "“你应该申报的。",
+      "startTime": 94.68,
+      "endTime": 96.65,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s18",
-      "role": "Woman",
-      "text": "Perfume is not exempt from import duty.  '",
-      "translation": "",
+      "role": "Officer",
+      "text": "Perfume is not exempt from import duty. '",
+      "translation": "香水是不能免进口税的。”",
       "startTime": 96.66,
       "endTime": 101.37,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "exempt",
+            "pos": "adj.",
+            "meaning": "被豁免的"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "duty",
+            "pos": "n.",
+            "meaning": "税"
           }
         ]
       }
@@ -413,119 +357,128 @@
     {
       "id": "s19",
       "role": "Man",
-      "text": "'But it isn't perfume, I said. 'It's hair gel.  '",
-      "translation": "",
+      "text": "'But it isn't perfume,' I said. 'It's hair gel. '",
+      "translation": "“但这不是香水，”我说，“这是发胶。”",
       "startTime": 101.38,
       "endTime": 106.95,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "gel",
+            "pos": "n.",
+            "meaning": "凝胶"
           }
         ]
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Then I added with a smile,",
-      "translation": "",
+      "translation": "然后我微笑着补充道，",
       "startTime": 106.96,
-      "endTime": 109.54
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "'It's a strange mixture I make myself.",
-      "translation": "",
-      "startTime": 109.55,
-      "endTime": 113.35,
+      "endTime": 109.54,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s22",
-      "role": "Woman",
-      "text": "As I expected, he did not believe me.",
-      "translation": "",
-      "startTime": 113.36,
-      "endTime": 117.24,
+      "id": "s21",
+      "role": "Man",
+      "text": "'It's a strange mixture I make myself.'",
+      "translation": "“这是我自己配制的一种奇怪的混合物。”",
+      "startTime": 109.55,
+      "endTime": 113.35,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "mixture",
+            "pos": "n.",
+            "meaning": "混合物"
           }
         ]
+      }
+    },
+    {
+      "id": "s22",
+      "role": "Narrator",
+      "text": "As I expected, he did not believe me.",
+      "translation": "正如我所预料的，他不相信我。",
+      "startTime": 113.36,
+      "endTime": 117.24,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s23",
       "role": "Man",
       "text": "'Try it!' I said encouragingly.",
-      "translation": "",
+      "translation": "“试试看吧！”我鼓励地说道。",
       "startTime": 117.25,
       "endTime": 120.95,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "encouragingly",
+            "pos": "adv.",
+            "meaning": "鼓励地"
           }
         ]
       }
     },
     {
       "id": "s24",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The Officer unscrewed the cap and put the bottle to his nostrils.",
-      "translation": "",
+      "translation": "官员旋开瓶盖，把瓶子凑到鼻孔前。",
       "startTime": 120.96,
       "endTime": 125.45,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "unscrewed",
+            "pos": "v.",
+            "meaning": "旋开"
+          },
+          {
+            "word": "nostrils",
+            "pos": "n.",
+            "meaning": "鼻孔"
+          }
+        ]
       }
     },
     {
       "id": "s25",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He was greeted by an unpleasant smell which convinced him that I was telling the truth.",
-      "translation": "",
+      "translation": "一股难闻的气味扑鼻而来，这使他确信我说的是真话。",
       "startTime": 125.46,
       "endTime": 131.95,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "convinced",
+            "pos": "v.",
+            "meaning": "使确信"
           }
         ]
       }
     },
     {
       "id": "s26",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "A few minutes later, I was able to hurry away with precious chalk marks on my baggage.",
-      "translation": "",
+      "translation": "几分钟后，我带着行李上珍贵的粉笔标记赶忙离开了。",
       "startTime": 131.96,
-      "endTime": 136.96,
+      "endTime": 141.96,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "baggage",
+            "pos": "n.",
+            "meaning": "行李"
           }
         ]
       }

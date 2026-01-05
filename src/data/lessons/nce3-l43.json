@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 43",
-      "translation": "",
+      "translation": "第43课",
       "startTime": 0.29,
       "endTime": 3,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Fully insured",
-      "translation": "",
+      "translation": "全额保险",
       "startTime": 3.01,
-      "endTime": 10.93
+      "endTime": 10.93,
+      "analysis": {
+        "words": [
+          {
+            "word": "insured",
+            "pos": "v.",
+            "meaning": "保险，投保"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -37,63 +46,25 @@
       "startTime": 10.94,
       "endTime": 20.75,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Who owned the pie dish and why?",
-      "translation": "",
+      "translation": "谁拥有这个派盘，为什么？",
       "startTime": 10.94,
-      "endTime": 15.54
+      "endTime": 15.54,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "Insurance companies are normally willing to insure anything.",
-      "translation": "",
+      "translation": "保险公司通常愿意承保任何东西。",
       "startTime": 15.55,
       "endTime": 20.84,
       "analysis": {
@@ -102,102 +73,77 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Insuring public or private property is a standard practice in most countries in the world.",
-      "translation": "",
+      "translation": "在世界上大多数国家，为公共财产或私人财产投保是标准做法。",
       "startTime": 20.85,
       "endTime": 28.13,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "property",
+            "pos": "n.",
+            "meaning": "财产"
           }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "If, however, you were holding an open air garden party or a fete it would be equally possible to insure yourself in the event of bad weather.",
-      "translation": "",
+      "translation": "然而，如果你要举办一场露天园游会或义卖会，同样可以投保以防天气恶劣。",
       "startTime": 28.14,
       "endTime": 40.26,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Air",
+            "word": "fete",
             "pos": "n.",
-            "meaning": "空格"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "meaning": "义卖会"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Needless to say, the bigger the risk an insurance company takes, the higher the premium you will have to pay.",
-      "translation": "",
+      "translation": "不用说，保险公司承担的风险越大，你必须支付的保费就越高。",
       "startTime": 40.27,
       "endTime": 49.89,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "premium",
+            "pos": "n.",
+            "meaning": "保险费"
           }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It is not uncommon to hear that a shipping company has made a claim for the cost of salvaging a sunken ship.",
-      "translation": "",
+      "translation": "听到一家航运公司为打捞沉船的费用提出索赔，这并不罕见。",
       "startTime": 49.9,
       "endTime": 58.01,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "salvage",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "救助，打捞"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "But the claim made by a local authority to recover the cost of salvaging a sunken pie dish must surely be unique.",
-      "translation": "",
+      "translation": "但一家地方当局为回收打捞一个沉没的派盘的费用而提出的索赔，肯定足独一无二的。",
       "startTime": 58.02,
       "endTime": 68.33,
       "analysis": {
@@ -206,336 +152,319 @@
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Admittedly it was an unusual pie dish, for it was eighteen feet long and six feet wide.",
-      "translation": "",
+      "translation": "诚然，那是一个不寻常的派盘，因为它有18英尺长、6英尺宽。",
       "startTime": 68.34,
       "endTime": 77.39,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "admittedly",
+            "pos": "adv.",
+            "meaning": "公认地"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It had been purchased by a local authority so that an enormous pie could be baked for an annual fair.",
-      "translation": "",
+      "translation": "它是由一家地方当局购买的，以便为一年一度的集会烘烤一个巨大的派。",
       "startTime": 77.4,
       "endTime": 86.39,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "The pie committee decided that the best way to transport the dish would be by canal so they insured it for the trip.",
-      "translation": "",
-      "startTime": 86.4,
-      "endTime": 96.6,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "Shortly after it was launched, the pie committee went to a local inn to celebrate.",
-      "translation": "",
-      "startTime": 96.61,
-      "endTime": 103.27,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s10",
-      "role": "Woman",
-      "text": "At the same time, a number of teenagers climbed on to the dish and held a little party of their own.",
-      "translation": "",
-      "startTime": 103.28,
-      "endTime": 111.26,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "Number",
-            "pos": "n.",
-            "meaning": "号码，数字"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s11",
-      "role": "Man",
-      "text": "Dancing proved to be more than the dish could bear,",
-      "translation": "",
-      "startTime": 111.27,
-      "endTime": 115.24
-    },
-    {
-      "id": "s12",
-      "role": "Woman",
-      "text": "for during the party it capsized and sank in seven feet of water.",
-      "translation": "",
-      "startTime": 115.25,
-      "endTime": 121.75,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s13",
-      "role": "Man",
-      "text": "The pie committee telephoned a local garage owner who arrived in a recovery truck to salvage the pie dish.",
-      "translation": "",
-      "startTime": 121.76,
-      "endTime": 130.66
-    },
-    {
-      "id": "s14",
-      "role": "Woman",
-      "text": "Shivering in their wet clothes, the teenagers looked on while three men dived repeatedly into the water to locate the dish.",
-      "translation": "",
-      "startTime": 130.67,
-      "endTime": 141.4,
       "analysis": {
         "words": []
       }
     },
     {
-      "id": "s15",
-      "role": "Man",
+      "id": "s8",
+      "role": "Narrator",
+      "text": "The pie committee decided that the best way to transport the dish would be by canal so they insured it for the trip.",
+      "translation": "派委员会决定，运输这个盘子的最好办法是通过运河，所以他们为这次旅程投了保。",
+      "startTime": 86.4,
+      "endTime": 96.6,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s9",
+      "role": "Narrator",
+      "text": "Shortly after it was launched, the pie committee went to a local inn to celebrate.",
+      "translation": "在它下水后不久，派委员会去当地一家客栈庆祝。",
+      "startTime": 96.61,
+      "endTime": 103.27,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s10",
+      "role": "Narrator",
+      "text": "At the same time, a number of teenagers climbed on to the dish and held a little party of their own.",
+      "translation": "与此同时，一些青少年爬上盘子，举行了他们自己的一个小聚会。",
+      "startTime": 103.28,
+      "endTime": 111.26,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s11",
+      "role": "Narrator",
+      "text": "Dancing proved to be more than the dish could bear, for during the party it capsized and sank in seven feet of water.",
+      "translation": "跳舞被证明超出了盘子所能承受的范围，因为在聚会期间它翻了，并沉入了7英尺深的水中。",
+      "startTime": 111.27,
+      "endTime": 121.75,
+      "analysis": {
+        "words": [
+          {
+            "word": "capsize",
+            "pos": "v.",
+            "meaning": "翻，倾覆"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Narrator",
+      "text": "The pie committee telephoned a local garage owner who arrived in a recovery truck to salvage the pie dish.",
+      "translation": "派委员会给当地一个汽车修理厂老板打了电话，他开着一辆抢修车赶来打捞派盘。",
+      "startTime": 121.76,
+      "endTime": 130.66,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "Shivering in their wet clothes, the teenagers looked on while three men dived repeatedly into the water to locate the dish.",
+      "translation": "青少年们穿着湿衣服在打颤中注视着，而3名男子反复潜入水中以确定盘子的位置。",
+      "startTime": 130.67,
+      "endTime": 141.4,
+      "analysis": {
+        "words": [
+          {
+            "word": "shiver",
+            "pos": "v.",
+            "meaning": "战栗，发抖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "role": "Narrator",
       "text": "They had little difficulty in finding it, but hauling it out of the water proved to be a serious problem.",
-      "translation": "",
+      "translation": "他们没怎么费劲就找到了它，但将其从水中拉出来被证明是一个严重的问题。",
       "startTime": 141.41,
       "endTime": 150.26,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "haul",
+            "pos": "v.",
+            "meaning": "拖拽"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "role": "Narrator",
+      "text": "The sides of the dish were so smooth that it was almost impossible to attach hawsers and chains to the rim without damaging it.",
+      "translation": "盘子的边缘非常光滑，几乎不可能在不损坏它的情况下将缆索和链条系在边缘上。",
+      "startTime": 150.27,
+      "endTime": 162.11,
+      "analysis": {
+        "words": [
+          {
+            "word": "hawser",
+            "pos": "n.",
+            "meaning": "粗缆"
+          },
+          {
+            "word": "rim",
+            "pos": "n.",
+            "meaning": "边缘"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
-      "text": "The sides of the dish were so smooth that it was almost impossible to attach hawsers and chains to the rim without damaging it.",
-      "translation": "",
-      "startTime": 150.27,
-      "endTime": 162.11,
+      "role": "Narrator",
+      "text": "Eventually chains were fixed to one end of the dish and a powerful winch was put into operation.",
+      "translation": "最终，链条被固定在盘子的一端，一台强力绞车开始工作。",
+      "startTime": 162.12,
+      "endTime": 170.83,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "winch",
+            "pos": "n.",
+            "meaning": "绞车"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "Eventually chains were fixed to one end of the dish and a powerful winch was put into operation.",
-      "translation": "",
-      "startTime": 162.12,
-      "endTime": 170.83
+      "role": "Narrator",
+      "text": "The dish rose to the surface and was gently drawn towards the canal bank.",
+      "translation": "盘子浮出了水面，并被轻轻地拉向运河岸边。",
+      "startTime": 170.84,
+      "endTime": 178.09,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s18",
-      "role": "Woman",
-      "text": "The dish rose to the surface and was gently drawn towards the canal bank.",
-      "translation": "",
-      "startTime": 170.84,
-      "endTime": 178.09
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "For one agonizing moment, the dish was perched precariously on the bank of the canal,",
-      "translation": "",
-      "startTime": 178.1,
-      "endTime": 185.66
-    },
-    {
-      "id": "s20",
-      "role": "Woman",
-      "text": "but it suddenly overbalanced and slid back into the water.",
-      "translation": "",
-      "startTime": 185.67,
+      "role": "Narrator",
+      "text": "For one agonizing moment, the dish was perched precariously on the bank of the canal, but it suddenly overbalanced and slid back into the water.",
+      "translation": "在令人焦急的一瞬间，盘子危楼般地停在运河岸上，但它突然失去了平衡，滑回了水中。",
+      "startTime": 178.10,
       "endTime": 191.33,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "agonizing",
+            "pos": "adj.",
+            "meaning": "使人苦闷的"
+          },
+          {
+            "word": "perch",
+            "pos": "v.",
+            "meaning": "停留，歇息"
+          },
+          {
+            "word": "precariously",
+            "pos": "adv.",
+            "meaning": "不稳定地"
+          },
+          {
+            "word": "overbalance",
+            "pos": "v.",
+            "meaning": "失去平衡"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s19",
+      "role": "Narrator",
+      "text": "The men were now obliged to try once more.",
+      "translation": "这几个人现在被迫再次尝试。",
+      "startTime": 191.34,
+      "endTime": 195.81,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s20",
+      "role": "Narrator",
+      "text": "This time they fixed heavy metal clamps to both sides of the dish so that they could fasten the chains.",
+      "translation": "这一次，他们在盘子的两边固定了沉重的金属夹，以便系紧链条。",
+      "startTime": 195.82,
+      "endTime": 204.76,
+      "analysis": {
+        "words": [
+          {
+            "word": "clamp",
+            "pos": "n.",
+            "meaning": "夹具"
           }
         ]
       }
     },
     {
       "id": "s21",
-      "role": "Man",
-      "text": "The men were now obliged to try once more.",
-      "translation": "",
-      "startTime": 191.34,
-      "endTime": 195.81
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "This time they fixed heavy metal clamps to both sides of the dish so that they could fasten the chains.",
-      "translation": "",
-      "startTime": 195.82,
-      "endTime": 204.76,
+      "role": "Narrator",
+      "text": "The dish now had to be lifted vertically because one edge was resting against the side of the canal.",
+      "translation": "现在必须垂直吊起盘子，因为一边正靠着运河的侧壁。",
+      "startTime": 204.77,
+      "endTime": 212.22,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "vertically",
+            "pos": "adv.",
+            "meaning": "垂直地"
           }
         ]
+      }
+    },
+    {
+      "id": "s22",
+      "role": "Narrator",
+      "text": "The winch was again put into operation and one of the men started up the truck.",
+      "translation": "绞车再次开始工作，其中一个男子发动了卡车。",
+      "startTime": 212.23,
+      "endTime": 218.88,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s23",
-      "role": "Man",
-      "text": "The dish now had to be lifted vertically because one edge was resting against the side of the canal.",
-      "translation": "",
-      "startTime": 204.77,
-      "endTime": 212.22
+      "role": "Narrator",
+      "text": "Several minutes later, the dish was successfully hauled above the surface of the water.",
+      "translation": "几分钟后，盘子成功地被拉出了水面。",
+      "startTime": 218.89,
+      "endTime": 225.29,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s24",
-      "role": "Woman",
-      "text": "The winch was again put into operation and one of the men started up the truck.",
-      "translation": "",
-      "startTime": 212.23,
-      "endTime": 218.88
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "Several minutes later, the dish was successfully hauled above the surface of the water.",
-      "translation": "",
-      "startTime": 218.89,
-      "endTime": 225.29
-    },
-    {
-      "id": "s26",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Water streamed in torrents over its sides with such force that it set up a huge wave in the canal.",
-      "translation": "",
-      "startTime": 225.3,
+      "translation": "水从盘子的两边汹涌而下，力量之大，以致在运河中激起了一股巨浪。",
+      "startTime": 225.30,
       "endTime": 233.95,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "torrent",
+            "pos": "n.",
+            "meaning": "激流"
           }
         ]
       }
     },
     {
-      "id": "s27",
-      "role": "Man",
+      "id": "s25",
+      "role": "Narrator",
       "text": "There was a danger that the wave would rebound off the other side of the bank and send the dish plunging into the water again.",
-      "translation": "",
+      "translation": "存在这样的危险：巨浪会从对岸反弹回来，使盘子再次掉入水中。",
       "startTime": 233.96,
       "endTime": 244.43,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "rebound",
+            "pos": "v.",
+            "meaning": "反弹"
           }
         ]
       }
     },
     {
-      "id": "s28",
-      "role": "Woman",
+      "id": "s26",
+      "role": "Narrator",
       "text": "By working at tremendous speed, the men managed to get the dish on to dry land before the wave returned.",
-      "translation": "",
+      "translation": "由于以极快的速度工作，那些人在巨浪返回之前成功地把盘子弄到了干地上。",
       "startTime": 244.44,
-      "endTime": 249.44,
+      "endTime": 254.44,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     }
   ]

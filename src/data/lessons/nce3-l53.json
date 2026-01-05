@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 53",
-      "translation": "",
+      "translation": "第53课",
       "startTime": 0.4,
       "endTime": 2.64,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,12 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "In the public interest",
-      "translation": "",
+      "translation": "为了公众利益",
       "startTime": 2.65,
-      "endTime": 9.64
+      "endTime": 9.64,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "intro_3",
@@ -35,251 +38,161 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 9.65,
-      "endTime": 23.279999999999998,
+      "endTime": 23.28,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What could not be reported in the official files?",
-      "translation": "",
+      "translation": "官方文件中无法记录什么？",
       "startTime": 9.65,
       "endTime": 15.79,
       "analysis": {
-        "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "The Scandinavian countries are much admired all over the world for their enlightened social policies.",
-      "translation": "",
+      "translation": "北欧国家因其开明的社会政策而受到全世界的钦佩。",
       "startTime": 15.8,
       "endTime": 23.37,
       "analysis": {
         "words": [
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "enlightened",
+            "pos": "adj.",
+            "meaning": "开明的"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Sweden has evolved an excellent system for protecting the individual citizen from high-handed or incompetent public officers.",
-      "translation": "",
+      "translation": "瑞典已经发展出一套卓越的制度，以保护普通公民免受专横或无能的官员之害。",
       "startTime": 23.38,
-      "endTime": 33.21
-    },
-    {
-      "id": "s2",
-      "role": "Woman",
-      "text": "The system has worked so well, that it has been adopted in other countries too.",
-      "translation": "",
-      "startTime": 33.22,
-      "endTime": 40.2,
+      "endTime": 33.21,
       "analysis": {
         "words": [
           {
-            "word": "Well",
+            "word": "evolve",
+            "pos": "v.",
+            "meaning": "进化，演变"
+          },
+          {
+            "word": "high-handed",
             "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "meaning": "专横的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "incompetent",
+            "pos": "adj.",
+            "meaning": "不称职的"
           }
         ]
+      }
+    },
+    {
+      "id": "s2",
+      "role": "Narrator",
+      "text": "The system has worked so well, that it has been adopted in other countries too.",
+      "translation": "这套制度运行得如此成功，以至于也被其他国家所采纳。",
+      "startTime": 33.22,
+      "endTime": 40.2,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s3",
-      "role": "Man",
-      "text": "The Swedes were the first to recognize that public officials like civil servants,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The Swedes were the first to recognize that public officials like civil servants, police officers, health inspectors or tax-collectors can make mistakes or act over-zealously in the belief that they are serving the public.",
+      "translation": "瑞典人首先认识到，像公务员、警官、卫生监督员或税务人员这样的公职人员，在认为自己是在为公众服务的信念下，也可能会犯错或表现过火。",
       "startTime": 40.21,
-      "endTime": 46.22,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "police officers, health inspectors or tax-collectors can make mistakes or act over-zealously in the belief that they are serving the public.",
-      "translation": "",
-      "startTime": 46.23,
       "endTime": 56.75,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "over-zealously",
+            "pos": "adv.",
+            "meaning": "过分热情地"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "As long ago as 1809, the Swedish Parliament introduced a scheme to safeguard the interest of the individual.",
-      "translation": "",
+      "translation": "早在1809年，瑞典议会就引入了一项计划来保护个人的利益。",
       "startTime": 56.76,
-      "endTime": 66.74
+      "endTime": 66.74,
+      "analysis": {
+        "words": [
+          {
+            "word": "safeguard",
+            "pos": "v.",
+            "meaning": "保护"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "A parliamentary committee representing all political parties appoints a person who is suitably qualified to investigate private grievances against the State.",
-      "translation": "",
+      "translation": "一个代表所有政党的议会委员会委任一名具备适当资格的人选，来调查针对国家的个人投诉。",
       "startTime": 66.75,
       "endTime": 78.62,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "grievance",
+            "pos": "n.",
+            "meaning": "不满，委屈"
           }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The official title of the person is 'Justiteombudsman', but the Swedes commonly refer to him as the 'J.O.' or 'Ombudsman'.",
-      "translation": "",
+      "translation": "该负责人的正式头衔是“司法监察官”，但瑞典人通常称之为“J.O.”或“民意调查员”。",
       "startTime": 78.63,
       "endTime": 89.5,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "ombudsman",
+            "pos": "n.",
+            "meaning": "民意调查员"
           }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "The Ombudsman is not subject to political pressure.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The Ombudsman is not subject to political pressure. He investigates complaints large and small that come to him from all levels of society.",
+      "translation": "民意调查员不受政治压力影响。他调查来自社会各阶层的各种大小投诉。",
       "startTime": 89.51,
-      "endTime": 93.71,
-      "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "He investigates complaints large and small that come to him from all levels of society.",
-      "translation": "",
-      "startTime": 93.72,
       "endTime": 100.3,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "As complaints must be made in writing, the Ombudsman receives an average of 1, 200 letters a year.",
-      "translation": "",
+      "translation": "由于投诉必须以书面形式提出，民意调查员平均每年收到1200封信。",
       "startTime": 100.31,
       "endTime": 108.77,
       "analysis": {
@@ -288,177 +201,138 @@
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He has eight lawyer assistants to help him and he examines every single letter in detail.",
-      "translation": "",
+      "translation": "他有8名律师助手协助他，并详细查阅每一封信。",
       "startTime": 108.78,
-      "endTime": 116.25
+      "endTime": 116.25,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "There is nothing secretive about the Ombudsman's work, for his correspondence is open to public inspection.",
-      "translation": "",
+      "translation": "民意调查员的工作完全公开，因为他的信件可供公众查阅。",
       "startTime": 116.26,
       "endTime": 124.49,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "secretive",
+            "pos": "adj.",
+            "meaning": "秘密的"
+          },
+          {
+            "word": "correspondence",
+            "pos": "n.",
+            "meaning": "通信"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "If a citizen's complaint is justified the Ombudsman will act on his behalf.",
-      "translation": "",
+      "translation": "如果公民的投诉理由充足，民意调查员将代表他采取行动。",
       "startTime": 124.5,
       "endTime": 131.25,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "justified",
+            "pos": "adj.",
+            "meaning": "有理由的"
           }
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The action he takes varies according to the nature of the complaint.",
-      "translation": "",
+      "translation": "他采取的处理行动根据投诉的性质而异。",
       "startTime": 131.26,
-      "endTime": 135.99
+      "endTime": 135.99,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "He may gently reprimand an official or even suggest to parliament that a law be altered.",
-      "translation": "",
+      "translation": "他可能会温和地斥责一名官员，甚至向议会建议修改法律。",
       "startTime": 136,
       "endTime": 143.22,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "reprimand",
+            "pos": "v.",
+            "meaning": "训斥"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The following case is a typical example of the Ombudsman's work.",
-      "translation": "",
+      "translation": "接下来的案例是民意调查员工作的典型例子。",
       "startTime": 143.23,
       "endTime": 149.27,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "A foreigner living in a Swedish village wrote to the Ombudsman complaining that he had been ill-treated by the police,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "A foreigner living in a Swedish village wrote to the Ombudsman complaining that he had been ill-treated by the police, simply because he was a foreigner.",
+      "translation": "住在瑞典一个小村庄里的一个外国人写信给民意调查员，投诉他仅仅因为是外国人而受到警察的虐待。",
       "startTime": 149.28,
-      "endTime": 157.36,
+      "endTime": 160.41,
       "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "simply because he was a foreigner.",
-      "translation": "",
-      "startTime": 157.37,
-      "endTime": 160.41
     },
     {
       "id": "s19",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The Ombudsman immediately wrote to the Chief of Police in the district asking him to send a record of the case.",
-      "translation": "",
+      "translation": "民意调查员立即写信给该地区的警察局长，要求他送上一份案件记录。",
       "startTime": 160.42,
-      "endTime": 169.37
+      "endTime": 169.37,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "There was nothing in the record to show that the foreigner's complaint was justified",
-      "translation": "",
+      "role": "Narrator",
+      "text": "There was nothing in the record to show that the foreigner's complaint was justified and the Chief of Police strongly denied the accusation.",
+      "translation": "记录中没有任何迹象表明那个外国人的投诉理由充足，且警察局长坚决否认了这一指控。",
       "startTime": 169.38,
-      "endTime": 175.31,
+      "endTime": 180.55,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "accusation",
+            "pos": "n.",
+            "meaning": "控告"
           }
         ]
       }
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "and the Chief of Police strongly denied the accusation.",
-      "translation": "",
-      "startTime": 175.32,
-      "endTime": 180.55
     },
     {
       "id": "s22",
-      "role": "Woman",
-      "text": "It was impossible for the Ombudsman to take action,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "It was impossible for the Ombudsman to take action, but when he received a similar complaint from another foreigner in the same village, he immediately sent one of his lawyers to investigate the matter.",
+      "translation": "民意调查员本来无法采取行动，但当他收到来自同一村庄的另一个外国人的类似投诉时，他立即派出一名律师去调查此事。",
       "startTime": 180.56,
-      "endTime": 184.51,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "but when he received a similar complaint from another foreigner in the same village,",
-      "translation": "",
-      "startTime": 184.52,
-      "endTime": 190.19
-    },
-    {
-      "id": "s24",
-      "role": "Woman",
-      "text": "he immediately sent one of his lawyers to investigate the matter.",
-      "translation": "",
-      "startTime": 190.2,
       "endTime": 195.02,
       "analysis": {
         "words": []
@@ -466,124 +340,75 @@
     },
     {
       "id": "s25",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The lawyer ascertained that a policeman had indeed dealt roughly with foreigners on several occasions.",
-      "translation": "",
+      "translation": "律师查明有一名警察确实在好几次场合粗暴地对待外国人。",
       "startTime": 195.03,
       "endTime": 203.17,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Policeman",
-            "pos": "n.",
-            "meaning": "警察"
+            "word": "ascertain",
+            "pos": "v.",
+            "meaning": "查明"
           }
         ]
       }
     },
     {
       "id": "s26",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The fact that the policeman was prejudiced against foreigners could not be recorded in the official files.",
-      "translation": "",
+      "translation": "这名警察对外国人有偏见的事实，无法在官方文件中记录下来。",
       "startTime": 203.18,
       "endTime": 210.54,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Policeman",
-            "pos": "n.",
-            "meaning": "警察"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "prejudiced",
+            "pos": "adj.",
+            "meaning": "有偏见的"
           }
         ]
       }
     },
     {
       "id": "s27",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It was only possible for the Ombudsman to find this out by sending one of his representatives to check the facts.",
-      "translation": "",
+      "translation": "民意调查员之所以能查出这点，是因为他派了一名代表去核实事实。",
       "startTime": 210.55,
       "endTime": 220.23,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s28",
-      "role": "Woman",
-      "text": "The policeman in question was severely reprimanded",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The policeman in question was severely reprimanded and was informed that if any further complaints were lodged against him, he would be prosecuted.",
+      "translation": "涉案警察受到了严厉斥责，并被告知如果再接到针对他的投诉，他将被起诉。",
       "startTime": 220.24,
-      "endTime": 224.19,
-      "analysis": {
-        "words": [
-          {
-            "word": "Policeman",
-            "pos": "n.",
-            "meaning": "警察"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s29",
-      "role": "Man",
-      "text": "and was informed that if any further complaints were lodged against him, he would be prosecuted.",
-      "translation": "",
-      "startTime": 224.2,
       "endTime": 231.77,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "prosecute",
+            "pos": "v.",
+            "meaning": "起诉"
           }
         ]
       }
     },
     {
       "id": "s30",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "The Ombudsman's prompt action at once put an end to an unpleasant practice which might have gone unnoticed.",
-      "translation": "",
+      "translation": "民意调查员的迅速行动立即制止了一种本可能被忽视的令人不快的情况。",
       "startTime": 231.78,
-      "endTime": 236.78,
+      "endTime": 241.78,
       "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
+        "words": []
       }
     }
   ]

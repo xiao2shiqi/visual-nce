@@ -1,6 +1,6 @@
 {
   "id": "nce3-l47",
-  "title": "Lesson 47: Too High a Price",
+  "title": "Lesson 47: Too High a Price?",
   "audio": "/audio/nce3/47－Too High a Price.mp3",
   "image": "/images/nce3/l47/scene1.jpg",
   "segments": [
@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 47",
-      "translation": "",
+      "translation": "第47课",
       "startTime": 0.24,
       "endTime": 2.44,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,17 +25,11 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Too high a price?",
-      "translation": "",
+      "translation": "代价太高了吗？",
       "startTime": 2.45,
       "endTime": 9.97,
       "analysis": {
-        "words": [
-          {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
-          }
-        ]
+        "words": []
       }
     },
     {
@@ -44,65 +38,29 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 9.98,
-      "endTime": 25.389999999999997,
+      "endTime": 25.39,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "What does the writer describe as an 'amusing old-fashioned source of noise' ?",
-      "translation": "",
+      "translation": "作者把什么描述为一种“有趣的老式噪音源”？",
       "startTime": 9.98,
       "endTime": 18.64,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "amusing",
+            "pos": "adj.",
+            "meaning": "有趣的"
+          },
+          {
+            "word": "old-fashioned",
+            "pos": "adj.",
+            "meaning": "老式的"
           }
         ]
       }
@@ -111,356 +69,396 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Pollution is the price we pay for an overpopulated, overindustrialized planet.",
-      "translation": "",
+      "translation": "污染是我们为一个人口过剩、过度工业化的星球所付出的代价。",
       "startTime": 18.65,
       "endTime": 25.48,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "pollution",
+            "pos": "n.",
+            "meaning": "污染"
+          },
+          {
+            "word": "overpopulated",
+            "pos": "adj.",
+            "meaning": "人口过剩的"
+          },
+          {
+            "word": "overindustrialized",
+            "pos": "adj.",
+            "meaning": "过度工业化的"
           }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "When you come to think about it, there are only four ways you can deal with rubbish:",
-      "translation": "",
+      "translation": "当你仔细想想时，处理垃圾的方法只有4种：",
       "startTime": 25.49,
       "endTime": 30.75,
       "analysis": {
-        "words": [
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "dump it, burn it, turn it into something you can use again, attempt to produce less of it.",
-      "translation": "",
+      "translation": "倾倒、焚烧、将其转化为可以再次使用的东西、或者尝试减少垃圾的产生。",
       "startTime": 30.76,
       "endTime": 37.72,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "dump",
+            "pos": "v.",
+            "meaning": "倾倒"
           }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We keep trying all four methods, but sheer volume of rubbish we produce worldwide threatens to overwhelm us.",
-      "translation": "",
+      "translation": "我们不断尝试这4种方法，但我们在全球范围内产生的大量垃圾威胁着要淹没我们。",
       "startTime": 37.73,
-      "endTime": 48.09
-    },
-    {
-      "id": "s4",
-      "role": "Woman",
-      "text": "Rubbish, however, is only part of the problem of polluting our planet.",
-      "translation": "",
-      "startTime": 48.1,
-      "endTime": 53.49,
+      "endTime": 48.09,
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "volume",
+            "pos": "n.",
+            "meaning": "体积，容量"
+          },
+          {
+            "word": "worldwide",
+            "pos": "adj.",
+            "meaning": "全世界的"
+          },
+          {
+            "word": "overwhelm",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "淹没"
           }
         ]
+      }
+    },
+    {
+      "id": "s4",
+      "role": "Narrator",
+      "text": "Rubbish, however, is only part of the problem of polluting our planet.",
+      "translation": "然而，垃圾只是污染我们星球的一部分问题。",
+      "startTime": 48.1,
+      "endTime": 53.49,
+      "analysis": {
+        "words": []
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The need to produce ever increasing quantities of cheap food leads to a different kind of pollution.",
-      "translation": "",
+      "translation": "生产不断增加的廉价食品的需求导致了另一种污染。",
       "startTime": 53.5,
-      "endTime": 60.98
+      "endTime": 60.98,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Industriallized farming metheods produce cheap meat products: beef, pork and chicken.",
-      "translation": "",
+      "translation": "工业化的耕作方法生产出廉价的肉制品：牛肉、猪肉和鸡肉。",
       "startTime": 60.99,
-      "endTime": 68.2
+      "endTime": 68.20,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The use of pesticides and fertilizers produces cheap grain and vegetables.",
-      "translation": "",
+      "translation": "杀虫剂和化肥的使用生产出廉价的谷物和蔬菜。",
       "startTime": 68.21,
-      "endTime": 74.43
-    },
-    {
-      "id": "s8",
-      "role": "Woman",
-      "text": "The price we pay for cheap food may be already too high:",
-      "translation": "",
-      "startTime": 74.44,
-      "endTime": 79.62,
+      "endTime": 74.43,
       "analysis": {
         "words": [
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "pesticide",
+            "pos": "n.",
+            "meaning": "杀虫剂"
+          },
+          {
+            "word": "fertilizer",
+            "pos": "n.",
+            "meaning": "化肥"
           }
         ]
       }
     },
     {
+      "id": "s8",
+      "role": "Narrator",
+      "text": "The price we pay for cheap food may be already too high:",
+      "translation": "我们为廉价食品付出的代价可能已经太高了：",
+      "startTime": 74.44,
+      "endTime": 79.62,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Mad Cow Disease (BSE) in cattle, salmonella in chicken and eggs, and listeria in dairy products.",
-      "translation": "",
+      "translation": "牛群中的疯牛病、鸡肉和鸡蛋中的沙门氏菌，以及奶制品中的李斯特菌。",
       "startTime": 79.63,
-      "endTime": 89.64
+      "endTime": 89.64,
+      "analysis": {
+        "words": [
+          {
+            "word": "salmonella",
+            "pos": "n.",
+            "meaning": "沙门氏菌"
+          },
+          {
+            "word": "listeria",
+            "pos": "n.",
+            "meaning": "李斯特菌"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "And if you think you'll abandon meat and become a vegetarian,",
-      "translation": "",
+      "translation": "如果你打算放弃吃肉而成为一名素食者，",
       "startTime": 89.65,
       "endTime": 93.85,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "vegetarian",
+            "pos": "n.",
+            "meaning": "素食者"
           }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "you have the choice of very expensive organically-grown vegetables",
-      "translation": "",
+      "translation": "你面临的选择是：要么选择非常昂贵的有机种植蔬菜，",
       "startTime": 93.86,
       "endTime": 98.88,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
-          },
-          {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "organically-grown",
+            "pos": "adj.",
+            "meaning": "有机种植的"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "or a steady diet of pesticides every time you think you're eating fresh salads and vegetables,",
-      "translation": "",
+      "translation": "要么每次当你以为自己在吃新鲜沙律和蔬菜，",
       "startTime": 98.89,
       "endTime": 105.58,
       "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s13",
+      "role": "Narrator",
+      "text": "or just having an innocent glass of water!",
+      "translation": "或者只是喝一杯纯净的水时，实际上是在摄入杀虫剂。",
+      "startTime": 105.59,
+      "endTime": 109.59,
+      "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "innocent",
+            "pos": "adj.",
+            "meaning": "无罪的，无害的"
           }
         ]
       }
     },
     {
-      "id": "s13",
-      "role": "Man",
-      "text": "or just having an innocent glass of water!",
-      "translation": "",
-      "startTime": 105.59,
-      "endTime": 109.59
-    },
-    {
       "id": "s14",
       "role": "Narrator",
       "text": "However, there is an even more insidious kind of pollution that particularly affects urban area and invades our daily lives, and that is noise.",
-      "translation": "",
-      "startTime": 109.6,
+      "translation": "然而，有一种甚至更隐蔽的污染特别影响城市地区并侵入我们的日常生活，那就是噪音。",
+      "startTime": 109.60,
       "endTime": 122.47,
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "insidious",
+            "pos": "adj.",
+            "meaning": "阴险的，隐袭的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "urban",
+            "pos": "adj.",
+            "meaning": "城市的"
           }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Burglar alarms going off at any time of the day or night serve only to annoy passers-by and actually assist burglars to burgle.",
-      "translation": "",
+      "translation": "在白天或晚上的任何时间响起的防盗警报器，只会令路人感到厌烦，而实际上却在协助窃贼行窃。",
       "startTime": 122.48,
       "endTime": 133.09,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "burglar",
+            "pos": "n.",
+            "meaning": "窃贼"
           }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Car alarms constantly scream at us in the street and are a source of profound irritation.",
-      "translation": "",
-      "startTime": 133.1,
+      "translation": "汽车警报器在街道上不停地对着我们尖叫，是极度恼火的根源。",
+      "startTime": 133.10,
       "endTime": 140.08,
       "analysis": {
         "words": [
           {
-            "word": "Car",
-            "pos": "n.",
-            "meaning": "轿车"
+            "word": "profound",
+            "pos": "adj.",
+            "meaning": "深刻的，极度的"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "irritation",
+            "pos": "n.",
+            "meaning": "烦恼"
           }
         ]
       }
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Narrator",
       "text": "A recent survey of the effects of noise revealed (surprisingly?)",
-      "translation": "",
+      "translation": "最近一项关于噪音影响的调查显示（令人惊讶吗？），",
       "startTime": 140.09,
-      "endTime": 145.36
+      "endTime": 145.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "reveal",
+            "pos": "v.",
+            "meaning": "揭露，显示"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "that dogs barking incessantly in the night rated the highest form of noise pollution on a scale ranging from 1 to 7.",
-      "translation": "",
+      "translation": "在1到7级的范围内，夜间犬吠被评为最高等级的噪音污染。",
       "startTime": 145.37,
       "endTime": 155.36,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "incessantly",
+            "pos": "adv.",
+            "meaning": "不停地"
           }
         ]
       }
     },
     {
       "id": "s19",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The survey revealed a large number of sources of noise that we really dislike.",
-      "translation": "",
+      "translation": "调查显示了大量我们真正厌恶的噪音源。",
       "startTime": 155.37,
       "endTime": 161.78,
       "analysis": {
-        "words": [
-          {
-            "word": "Number",
-            "pos": "n.",
-            "meaning": "号码，数字"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Lawn mowers whining on a summer's day, late-night parties in apartment blocks,",
-      "translation": "",
+      "translation": "夏日里的割草机轰鸣声、公寓楼里的深夜聚会、",
       "startTime": 161.79,
-      "endTime": 167.96
-    },
-    {
-      "id": "s21",
-      "role": "Man",
-      "text": "noisy neighbours, vehicles of all kinds,",
-      "translation": "",
-      "startTime": 167.97,
-      "endTime": 171.5
-    },
-    {
-      "id": "s22",
-      "role": "Woman",
-      "text": "especially large container trucks thundering through quiet villages,",
-      "translation": "",
-      "startTime": 171.51,
-      "endTime": 176.22
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "planes and helicopters flying overhead, large radios carried round in public places and played at maximum volume.",
-      "translation": "",
-      "startTime": 176.23,
-      "endTime": 186.29,
+      "endTime": 167.96,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "whining",
+            "pos": "v.",
+            "meaning": "发呜呜声"
           }
         ]
       }
     },
     {
+      "id": "s21",
+      "role": "Narrator",
+      "text": "noisy neighbours, vehicles of all kinds,",
+      "translation": "嘈杂的邻居、各种车辆、",
+      "startTime": 167.97,
+      "endTime": 171.5,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s22",
+      "role": "Narrator",
+      "text": "especially large container trucks thundering through quiet villages,",
+      "translation": "特别是轰隆隆穿过宁静村庄的大型集装箱卡车、",
+      "startTime": 171.51,
+      "endTime": 176.22,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
+      "id": "s23",
+      "role": "Narrator",
+      "text": "planes and helicopters flying overhead, large radios carried round in public places and played at maximum volume.",
+      "translation": "飞过头顶的飞机和直升机，以及在公共场所携带并以最大音量播放的大型收音机。",
+      "startTime": 176.23,
+      "endTime": 186.29,
+      "analysis": {
+        "words": []
+      }
+    },
+    {
       "id": "s24",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "New technology has also made its own contribution to noise.",
-      "translation": "",
-      "startTime": 186.3,
+      "translation": "新技术也对噪音做出了自己的“贡献”。",
+      "startTime": 186.30,
       "endTime": 191.43,
       "analysis": {
         "words": []
@@ -468,20 +466,26 @@
     },
     {
       "id": "s25",
-      "role": "Man",
+      "role": "Narrator",
       "text": "A lot of people object to mobile phones, especially when they are used in public places like restaurant or on public transport.",
-      "translation": "",
+      "translation": "许多人反对使用手机，特别是当它们在餐厅或公共交通工具等公共场所使用时。",
       "startTime": 191.44,
       "endTime": 201.68,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "object",
+            "pos": "v.",
+            "meaning": "反对"
+          }
+        ]
       }
     },
     {
       "id": "s26",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Loud conversations on mobile phones invade our thoughts or interrupt the pleasure of meeting friends for a quiet chat.",
-      "translation": "",
+      "translation": "用手机大声交谈会侵入我们的思绪，或中断与朋友静静聊天的乐趣。",
       "startTime": 201.69,
       "endTime": 211.16,
       "analysis": {
@@ -490,121 +494,102 @@
     },
     {
       "id": "s27",
-      "role": "Man",
+      "role": "Narrator",
       "text": "The noise pollution survey revealed a rather surprising and possibly amusing old-fashioned source of noise.",
-      "translation": "",
+      "translation": "噪音污染调查显示了一个相当令人惊讶，可能还很有趣的老式噪音源。",
       "startTime": 211.17,
-      "endTime": 219.89
+      "endTime": 219.89,
+      "analysis": {
+        "words": []
+      }
     },
     {
       "id": "s28",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "It turned out to be snoring! Men were found to be the worst offenders.",
-      "translation": "",
-      "startTime": 219.9,
+      "translation": "那竟然是打呼噜！结果发现男人是最大的肇事者。",
+      "startTime": 219.90,
       "endTime": 226.21,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "snoring",
+            "pos": "n.",
+            "meaning": "打鼾"
+          },
+          {
+            "word": "offender",
+            "pos": "n.",
+            "meaning": "冒犯者"
           }
         ]
       }
     },
     {
       "id": "s29",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It was revealed that 20% of men in their mid-thirties snore.",
-      "translation": "",
+      "translation": "据透露，在30多岁的男人中，有20%的人打呼噜。",
       "startTime": 226.22,
       "endTime": 232.05,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s30",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "This figure rises to a staggering 60% of men in their sixties.",
-      "translation": "",
+      "translation": "这一数字在60多岁的男人中上升到了惊人的60%。",
       "startTime": 232.06,
       "endTime": 238.25,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "staggering",
+            "pos": "adj.",
+            "meaning": "令人惊愕的"
           }
         ]
       }
     },
     {
       "id": "s31",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Against these figures, it was found that only 5% of women snore regularly,",
-      "translation": "",
+      "translation": "相比之下，只有5%的女性经常打呼噜，",
       "startTime": 238.26,
       "endTime": 244.51,
       "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s32",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "while the rest are constantly woken or kept awake by their trumpeting partners.",
-      "translation": "",
+      "translation": "而其余的人则经常被她们那像吹喇叭一样的伴侣吵醒或吵得睡不着。",
       "startTime": 244.52,
       "endTime": 251.33,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "trumpeting",
+            "pos": "v.",
+            "meaning": "大声地宣扬(此处指大声打鼾)"
+          }
+        ]
       }
     },
     {
       "id": "s33",
       "role": "Narrator",
       "text": "Whatever the source of noise, one thing is certain: silence, it seems, has become a golden memory.",
-      "translation": "",
+      "translation": "不论噪音源于何处，有一点是肯定的：沉默似乎已成为一段美好的回忆。",
       "startTime": 251.34,
-      "endTime": 256.34,
+      "endTime": 261.34,
       "analysis": {
-        "words": [
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
+        "words": []
       }
     }
   ]

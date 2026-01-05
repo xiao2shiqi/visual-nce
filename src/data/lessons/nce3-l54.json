@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 54",
-      "translation": "",
+      "translation": "第54课",
       "startTime": 0.31,
       "endTime": 2.25,
       "analysis": {
@@ -16,7 +16,7 @@
           {
             "word": "Lesson",
             "pos": "n.",
-            "meaning": "课程，第...课"
+            "meaning": "第...课"
           }
         ]
       }
@@ -25,9 +25,18 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Instinct or cleverness?",
-      "translation": "",
+      "translation": "是本能还是聪明？",
       "startTime": 2.26,
-      "endTime": 10.15
+      "endTime": 10.15,
+      "analysis": {
+        "words": [
+          {
+            "word": "instinct",
+            "pos": "n.",
+            "meaning": "本能"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -35,138 +44,99 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 10.16,
-      "endTime": 20.549999999999997,
+      "endTime": 20.55,
       "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_4",
       "role": "Narrator",
       "text": "Was the writer successful in protecting his peach tree? Why not?",
-      "translation": "",
+      "translation": "作者成功保护了他的桃树吗？为什么没有？",
       "startTime": 10.16,
       "endTime": 17.66,
       "analysis": {
-        "words": [
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
-      "text": "We have been brought up to fear insects.",
-      "translation": "",
+      "text": "We have been brought up to fear insects. We regard them as unnecessary creatures that do more harm than good.",
+      "translation": "我们从小就被教导要害怕昆虫。我们把它们看作是不必要的生物，害处多于益处。",
       "startTime": 17.67,
-      "endTime": 20.64
+      "endTime": 26.53,
+      "analysis": {
+        "words": []
+      }
     },
     {
-      "id": "s1",
-      "role": "Man",
-      "text": "We regard them as unnecessary creatures that do more harm than good.",
-      "translation": "",
-      "startTime": 20.65,
-      "endTime": 26.53,
+      "id": "s2",
+      "role": "Narrator",
+      "text": "We continually wage war on them, for they contaminate our food, carry diseases, or devour our crops.",
+      "translation": "我们不断地向它们开战，因为它们污染我们的食物，传播疾病，或者吞噬我们的庄稼。",
+      "startTime": 26.54,
+      "endTime": 35.75,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "contaminate",
+            "pos": "v.",
+            "meaning": "污染"
+          },
+          {
+            "word": "devour",
+            "pos": "v.",
+            "meaning": "吞噬"
           }
         ]
       }
     },
     {
-      "id": "s2",
-      "role": "Woman",
-      "text": "We continually wage war on them, for they contaminate our food, carry diseases, or devour our crops.",
-      "translation": "",
-      "startTime": 26.54,
-      "endTime": 35.75,
-      "analysis": {
-        "words": []
-      }
-    },
-    {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "They sting or bite without provocation; they fly uninvited into our rooms on summer nights, or beat against our lighted windows.",
-      "translation": "",
+      "translation": "它们在没有任何挑衅的情况下叮咬；它们在夏夜不请自来地飞进我们的房间，或者撞击我们亮着灯的窗户。",
       "startTime": 35.76,
       "endTime": 46.14,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "provocation",
+            "pos": "n.",
+            "meaning": "挑衅"
+          }
+        ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We live in dread not only of unpleasant insects like spiders or wasps, but of quite harmless ones like moths.",
-      "translation": "",
+      "translation": "我们生活在恐惧中，不仅害怕像蜘蛛或黄蜂这样令人不快的昆虫，还害怕像飞蛾这样完全无害的昆虫。",
       "startTime": 46.15,
       "endTime": 55.32,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "wasp",
+            "pos": "n.",
+            "meaning": "黄蜂"
+          },
+          {
+            "word": "moth",
+            "pos": "n.",
+            "meaning": "飞蛾"
           }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Reading about them increases our understanding without dispelling our fears.",
-      "translation": "",
+      "translation": "阅读有关它们的信息增加了我们的了解，但并没有消除我们的恐惧。",
       "startTime": 55.33,
       "endTime": 61.66,
       "analysis": {
@@ -175,134 +145,107 @@
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "text": "Knowing that the industrious ant lives in a highly organized society",
-      "translation": "",
+      "role": "Narrator",
+      "text": "Knowing that the industrious ant lives in a highly organized society does nothing to prevent us from being filled with revulsion when we find hordes of them crawling over a carefully prepared picnic lunch.",
+      "translation": "虽然知道勤劳的蚂蚁生活在高度组织的社会中，但这并不能防止当我们发现成群结队的蚂蚁爬过精心准备的郊游午餐时，心中充满厌恶感。",
       "startTime": 61.67,
-      "endTime": 67.56,
+      "endTime": 78.07,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "revulsion",
+            "pos": "n.",
+            "meaning": "厌恶"
+          },
+          {
+            "word": "horde",
+            "pos": "n.",
+            "meaning": "大群"
           }
         ]
-      }
-    },
-    {
-      "id": "s7",
-      "role": "Man",
-      "text": "does nothing to prevent us from being filled with revulsion when we find hordes of them crawling over a carefully prepared picnic lunch.",
-      "translation": "",
-      "startTime": 67.57,
-      "endTime": 78.07,
-      "analysis": {
-        "words": []
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
-      "text": "No matter how much we like honey,",
-      "translation": "",
+      "role": "Narrator",
+      "text": "No matter how much we like honey, or how much we have read about the uncanny sense of direction which bees possess, we have a horror of being stung.",
+      "translation": "不管我们多么喜欢蜂蜜，或者读过多少关于蜜蜂拥有的不可思议的方向感，我们都极其害怕被蜇。",
       "startTime": 78.08,
-      "endTime": 80.88,
-      "analysis": {
-        "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s9",
-      "role": "Man",
-      "text": "or how much we have read about the uncanny sense of direction which bees possess, we have a horror of being stung.",
-      "translation": "",
-      "startTime": 80.89,
       "endTime": 90.31,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "uncanny",
+            "pos": "adj.",
+            "meaning": "神秘的，不可思议的"
           }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Most of our fears are unreasonable, but they are impossible to erase.",
-      "translation": "",
+      "translation": "我们的大多数恐惧都是不合理的，但却无法抹去。",
       "startTime": 90.32,
       "endTime": 96.14,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "erase",
+            "pos": "v.",
+            "meaning": "抹去"
+          }
+        ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Narrator",
       "text": "At the same time, however, insects are strangely fascinating.",
-      "translation": "",
+      "translation": "然而，与此同时，昆虫又具有奇特的魅力。",
       "startTime": 96.15,
       "endTime": 101.47,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "fascinating",
+            "pos": "adj.",
+            "meaning": "迷人的"
           }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "We enjoy reading about them, especially when we find that, like the praying mantis, they lead perfectly horrible lives.",
-      "translation": "",
+      "translation": "我们喜欢阅读有关它们的信息，特别是当我们发现它们像螳螂一样过着完全可怕的生活时。",
       "startTime": 101.48,
       "endTime": 111.09,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "mantis",
+            "pos": "n.",
+            "meaning": "螳螂"
           }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Narrator",
       "text": "We enjoy staring at them, entranced as they go about their business, unaware (we hope) of our presence.",
-      "translation": "",
+      "translation": "我们喜欢凝视它们，在它们各忙各的时候出神地看着，且（我们希望）它们并没有察觉到我们的存在。",
       "startTime": 111.1,
       "endTime": 119.9,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "entranced",
+            "pos": "adj.",
+            "meaning": "欣喜若狂的，入迷的"
           }
         ]
       }
@@ -310,333 +253,165 @@
     {
       "id": "s14",
       "role": "Narrator",
-      "text": "Who has not stood in awe at the sight of a spider pouncing on a fly,",
-      "translation": "",
+      "text": "Who has not stood in awe at the sight of a spider pouncing on a fly, or a column of ants triumphantly bearing home an enormous dead beetle?",
+      "translation": "谁在看到蜘蛛猛扑向苍蝇，或者一队蚂蚁得意洋洋地搬回一只巨大的死甲虫时，没有感到惊叹呢？",
       "startTime": 119.91,
-      "endTime": 124.95,
+      "endTime": 131.42,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "awe",
+            "pos": "n.",
+            "meaning": "敬畏，惊叹"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "pouncing",
+            "pos": "v.",
+            "meaning": "猛扑"
+          },
+          {
+            "word": "beetle",
+            "pos": "n.",
+            "meaning": "甲虫"
           }
         ]
       }
     },
     {
-      "id": "s15",
-      "role": "Man",
-      "text": "or a column of ants triumphantly bearing home an enormous dead beetle?",
-      "translation": "",
-      "startTime": 124.96,
-      "endTime": 131.42
-    },
-    {
       "id": "s16",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "Last summer I spent days in the garden watching thousands of ants crawling up the trunk of my prize peach tree.",
-      "translation": "",
+      "translation": "去年夏天，我在花园里呆了好几天，看着数以千计的蚂蚁爬上我那棵心爱的桃树的树干。",
       "startTime": 131.43,
       "endTime": 140.63,
       "analysis": {
-        "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s17",
-      "role": "Man",
-      "text": "The tree has grown against a warm wall on a sheltered side of the house.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "The tree has grown against a warm wall on a sheltered side of the house. I am especially proud of it, not only because it has survived several severe winters, but because it occasionally produces luscious peaches.",
+      "translation": "那棵树长在房子避风处的一堵暖墙前。我特别以此为豪，不仅因为它熬过了几个严冬，还因为它偶尔会产出甜美的桃子。",
       "startTime": 140.64,
-      "endTime": 146.07,
-      "analysis": {
-        "words": [
-          {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s18",
-      "role": "Woman",
-      "text": "I am especially proud of it,",
-      "translation": "",
-      "startTime": 146.08,
-      "endTime": 148.6,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s19",
-      "role": "Man",
-      "text": "not only because it has survived several severe winters, but because it occasionally produces luscious peaches.",
-      "translation": "",
-      "startTime": 148.61,
       "endTime": 159.07,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "sheltered",
+            "pos": "adj.",
+            "meaning": "避风的"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "luscious",
+            "pos": "adj.",
+            "meaning": "甘美多汁的"
           }
         ]
       }
     },
     {
       "id": "s20",
-      "role": "Woman",
-      "text": "During the summer, I noticed that the leaves of the tree were beginning to wither.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "During the summer, I noticed that the leaves of the tree were beginning to wither. Clusters of tiny insects called aphides were to be found on the underside of the leaves.",
+      "translation": "夏天期间，我注意到那棵树的叶子开始枯萎。叶子背面发现了成簇的微小昆虫，叫做蚜虫。",
       "startTime": 159.08,
-      "endTime": 165,
+      "endTime": 172.47,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "wither",
+            "pos": "v.",
+            "meaning": "枯萎"
+          },
+          {
+            "word": "aphides",
+            "pos": "n.",
+            "meaning": "蚜虫(aphis的复数)"
           }
         ]
       }
     },
     {
-      "id": "s21",
-      "role": "Man",
-      "text": "Clusters of tiny insects called aphides were to be found on the underside of the leaves.",
-      "translation": "",
-      "startTime": 165.01,
-      "endTime": 172.47
-    },
-    {
       "id": "s22",
-      "role": "Woman",
-      "text": "They were visited by a large colony of ants which obtained a sort of honey from them.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "They were visited by a large colony of ants which obtained a sort of honey from them. I immediately embarked on an experiment which even though it failed to get rid of the ants kept me fascinated for twenty-four hours.",
+      "translation": "大群的蚂蚁常来拜访它们，并从它们身上获取一种蜜。我立即着手进行一项实验，尽管它没能清除蚂蚁，但却让我痴迷了24小时。",
       "startTime": 172.48,
-      "endTime": 179.11
-    },
-    {
-      "id": "s23",
-      "role": "Man",
-      "text": "I immediately embarked on an experiment which even though it failed to get rid of the ants kept me fascinated for twenty-four hours.",
-      "translation": "",
-      "startTime": 179.12,
       "endTime": 189.99,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Me",
-            "pos": "pron.",
-            "meaning": "我（宾格）"
+            "word": "colony",
+            "pos": "n.",
+            "meaning": "群体"
           }
         ]
       }
     },
     {
       "id": "s24",
-      "role": "Woman",
-      "text": "I bound the base of the tree with sticky tape, making it impossible for the ants to reach the aphides.",
-      "translation": "",
-      "startTime": 190,
-      "endTime": 197.7,
-      "analysis": {
-        "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s25",
-      "role": "Man",
-      "text": "The tape was so sticky that they did not dare to cross it.",
-      "translation": "",
-      "startTime": 197.71,
+      "role": "Narrator",
+      "text": "I bound the base of the tree with sticky tape, making it impossible for the ants to reach the aphides. The tape was so sticky that they did not dare to cross it.",
+      "translation": "我用胶带缠住树的底部，使蚂蚁无法接触到蚜虫。胶带太粘了，它们不敢越过它。",
+      "startTime": 190.0,
       "endTime": 202.58,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "sticky",
+            "pos": "adj.",
+            "meaning": "粘的"
           }
         ]
       }
     },
     {
       "id": "s26",
-      "role": "Woman",
-      "text": "For a long time, I watched them scurrying around the base of the tree in bewilderment.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "For a long time, I watched them scurrying around the base of the tree in bewilderment. I even went out at midnight with a torch and noted with satisfaction (and surprise) that the ants were still swarming around the sticky tape without being able to do anything about it.",
+      "translation": "很长一段时间，我看着它们在树基周围困惑地乱转。我甚至在半夜拿着手电筒出去，满意地（且惊讶地）发现蚂蚁们依然围着胶带转，却无计可施。",
       "startTime": 202.59,
-      "endTime": 209.58
-    },
-    {
-      "id": "s27",
-      "role": "Man",
-      "text": "I even went out at midnight with a torch and noted with satisfaction (and surprise)",
-      "translation": "",
-      "startTime": 209.59,
-      "endTime": 216.87,
-      "analysis": {
-        "words": [
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s28",
-      "role": "Woman",
-      "text": "that the ants were still swarming around the sticky tape without being able to do anything about it.",
-      "translation": "",
-      "startTime": 216.88,
       "endTime": 223.93,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "scurry",
+            "pos": "v.",
+            "meaning": "疾走"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "swarm",
+            "pos": "v.",
+            "meaning": "聚集，群集"
           }
         ]
       }
     },
     {
       "id": "s29",
-      "role": "Man",
-      "text": "I got up early next morning hoping to find that the ants had given up in despair.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "I got up early next morning hoping to find that the ants had given up in despair. Instead, I saw that they had discovered a new route. They were climbing up the wall of the house and then on to the leaves of the tree.",
+      "translation": "第二天一早我起床，希望发现蚂蚁已经绝望地放弃了。相反地，我看到它们发现了一条新路线。它们正顺着房墙往上爬，然后爬到树叶上。",
       "startTime": 223.94,
-      "endTime": 229.83,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s30",
-      "role": "Woman",
-      "text": "Instead, I saw that they had discovered a new route.",
-      "translation": "",
-      "startTime": 229.84,
-      "endTime": 234.3,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s31",
-      "role": "Man",
-      "text": "They were climbing up the wall of the house and then on to the leaves of the tree.",
-      "translation": "",
-      "startTime": 234.31,
       "endTime": 239.57,
       "analysis": {
-        "words": [
-          {
-            "word": "House",
-            "pos": "n.",
-            "meaning": "房子"
-          }
-        ]
+        "words": []
       }
     },
     {
       "id": "s32",
-      "role": "Woman",
-      "text": "I realized sadly that I had been completely defeated by their ingenuity.",
-      "translation": "",
+      "role": "Narrator",
+      "text": "I realized sadly that I had been completely defeated by their ingenuity. The ants had been quick to find an answer to my thoroughly unscientific methods!",
+      "translation": "我伤心地意识到，我完全被它们的小聪明打败了。蚂蚁们很快就找到了对付我那完全不科学的方法的对策！",
       "startTime": 239.58,
-      "endTime": 245.78,
-      "analysis": {
-        "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s33",
-      "role": "Man",
-      "text": "The ants had been quick to find an answer to my thoroughly unscientific methods!",
-      "translation": "",
-      "startTime": 245.79,
       "endTime": 250.79,
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "ingenuity",
+            "pos": "n.",
+            "meaning": "心灵手巧，足智多谋"
           }
         ]
       }
