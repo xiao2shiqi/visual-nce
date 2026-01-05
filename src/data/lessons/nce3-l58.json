@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 58",
-      "translation": "",
+      "translation": "第58课",
       "startTime": 0.48,
       "endTime": 2.47,
       "analysis": {
@@ -25,9 +25,23 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "A spot of bother",
-      "translation": "",
+      "translation": "一点儿小麻烦",
       "startTime": 2.48,
-      "endTime": 9.51
+      "endTime": 9.51,
+      "analysis": {
+        "words": [
+          {
+            "word": "Spot",
+            "pos": "n.",
+            "meaning": "点/少量"
+          },
+          {
+            "word": "Bother",
+            "pos": "n.",
+            "meaning": "麻烦"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -85,7 +99,7 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What did the old lady find when she got home?",
-      "translation": "",
+      "translation": "那个老妇人到底发现了什么？",
       "startTime": 9.52,
       "endTime": 14.72,
       "analysis": {
@@ -107,7 +121,7 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "The old lady was glad to be back at the block of flats where she lived.",
-      "translation": "",
+      "translation": "这老妇人一直住在我们隔壁。",
       "startTime": 14.73,
       "endTime": 20.85,
       "analysis": {
@@ -129,7 +143,7 @@
       "id": "s1",
       "role": "Man",
       "text": "Her shopping had tired her and her basket had grown heavier with every step of the way home.",
-      "translation": "",
+      "translation": "她已年过八十，但依然非常活跃。",
       "startTime": 20.86,
       "endTime": 28.26,
       "analysis": {
@@ -146,18 +160,24 @@
       "id": "s2",
       "role": "Woman",
       "text": "In the lift her thoughts were on lunch and a good rest;",
-      "translation": "",
+      "translation": "尽管她已年迈，但她总是把她的房子和花园收拾得井井有条。",
       "startTime": 28.27,
       "endTime": 32.64,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "spick and span",
+            "pos": "phrase",
+            "meaning": "井井有条"
+          }
+        ]
       }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "but when she got out at her own floor, both were forgotten in her sudden discovery that her front door was open.",
-      "translation": "",
+      "translation": "有一天，她去阁楼取点东西。",
       "startTime": 32.65,
       "endTime": 42.06,
       "analysis": {
@@ -179,7 +199,7 @@
       "id": "s4",
       "role": "Woman",
       "text": "She was thinking that she must reprimand her home help the next morning for such a monstrous piece of negligence,",
-      "translation": "",
+      "translation": "当她在那儿时，她发现天窗开着。",
       "startTime": 42.07,
       "endTime": 50.43,
       "analysis": {
@@ -196,7 +216,7 @@
       "id": "s5",
       "role": "Man",
       "text": "when she remembered that she had gone shopping after the home help had left and she knew that she had turned both keys in their locks.",
-      "translation": "",
+      "translation": "她砰的一声把它关上了。",
       "startTime": 50.44,
       "endTime": 60.62,
       "analysis": {
@@ -213,7 +233,7 @@
       "id": "s6",
       "role": "Woman",
       "text": "She walked slowly into the hall and at once noticed that all the room doors were open,",
-      "translation": "",
+      "translation": "直到她下楼时，她才意识到她犯了一个严重的错误。",
       "startTime": 60.63,
       "endTime": 67.57,
       "analysis": {
@@ -235,29 +255,51 @@
       "id": "s7",
       "role": "Man",
       "text": "yet following her regular practice she had shut them before going out.",
-      "translation": "",
+      "translation": "那扇天窗不是用来照明的，而是通向屋顶的。",
       "startTime": 67.58,
       "endTime": 72.68,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "light",
+            "pos": "v.",
+            "meaning": "照明"
+          },
+          {
+            "word": "roof",
+            "pos": "n.",
+            "meaning": "屋顶"
+          }
+        ]
       }
     },
     {
       "id": "s8",
       "role": "Woman",
       "text": "Looking into the drawing room, she saw a scene of confusion over by her writing desk.",
-      "translation": "",
+      "translation": "树木遮住了窗户，阁楼里几乎一片漆黑。",
       "startTime": 72.69,
       "endTime": 79.27,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "blocked",
+            "pos": "v.",
+            "meaning": "遮挡"
+          },
+          {
+            "word": "pitch-dark",
+            "pos": "adj.",
+            "meaning": "漆黑的"
+          }
+        ]
       }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "It was as clear as daylight then that burglars had forced an entry during her absence.",
-      "translation": "",
+      "translation": "更糟糕的是，那扇门还是自动锁上的。",
       "startTime": 79.28,
       "endTime": 85.88,
       "analysis": {
@@ -279,18 +321,24 @@
       "id": "s10",
       "role": "Woman",
       "text": "Her first impulse was to go round all the rooms looking for the thieves,",
-      "translation": "",
+      "translation": "她被困住了。",
       "startTime": 85.89,
       "endTime": 91.22,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "trapped",
+            "pos": "v.",
+            "meaning": "被困"
+          }
+        ]
       }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "but then she decided that at her age it might be more prudent to have someone with her,",
-      "translation": "",
+      "translation": "她大声呼救，但没有人听到。",
       "startTime": 91.23,
       "endTime": 97.61,
       "analysis": {
@@ -317,18 +365,29 @@
       "id": "s12",
       "role": "Woman",
       "text": "so she went to fetch the porter from his basement.",
-      "translation": "",
+      "translation": "她在阁楼里度过了两天两夜，没吃没喝。",
       "startTime": 97.62,
       "endTime": 101.7,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "spent",
+            "pos": "v.",
+            "meaning": "度过"
+          },
+          {
+            "word": "food",
+            "pos": "n.",
+            "meaning": "食物"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "By this time her legs were beginning to tremble, so she sat down and accepted a cup of very strong tea, while he telephoned the police.",
-      "translation": "",
+      "translation": "最后，她爬上了屋顶。",
       "startTime": 101.71,
       "endTime": 112.26,
       "analysis": {
@@ -350,26 +409,41 @@
       "id": "s14",
       "role": "Woman",
       "text": "Then, her composure regained, she was ready to set off with the porter's assistance to search for any intruders who might still be lurking in her flat.",
-      "translation": "",
+      "translation": "她在那儿坐了几个小时，希望有人能看到她。",
       "startTime": 112.27,
       "endTime": 124.53,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "hoping",
+            "pos": "v.",
+            "meaning": "希望"
+          }
+        ]
       }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "They went through the rooms, being careful to touch nothing,",
-      "translation": "",
+      "translation": "那天下午晚些时候，邮递员看到了她。",
       "startTime": 124.54,
-      "endTime": 128.72
+      "endTime": 128.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "postman",
+            "pos": "n.",
+            "meaning": "邮递员"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
       "role": "Woman",
       "text": "as they did not want to hinder the police in their search for fingerprints.",
-      "translation": "",
+      "translation": "他以为那是只猫，但当那只'猫'对他叫喊时，他吃了一惊。",
       "startTime": 128.73,
       "endTime": 133.87,
       "analysis": {
@@ -386,15 +460,29 @@
       "id": "s17",
       "role": "Man",
       "text": "The chaos was inconceivable.",
-      "translation": "",
+      "translation": "他立刻去叫了警察和消防队。",
       "startTime": 133.88,
-      "endTime": 137.26
+      "endTime": 137.26,
+      "analysis": {
+        "words": [
+          {
+            "word": "police",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "fire brigade",
+            "pos": "n.",
+            "meaning": "消防队"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
       "role": "Woman",
       "text": "She had lived in the flat for thirty years and was a veritable magpie at hoarding:",
-      "translation": "",
+      "translation": "他们架起梯子把她救了下来。",
       "startTime": 137.27,
       "endTime": 143.58,
       "analysis": {
@@ -411,7 +499,7 @@
       "id": "s19",
       "role": "Man",
       "text": "and it seemed as though everything she possessed had been tossed out and turned over and over.",
-      "translation": "",
+      "translation": "后来，有人问她是否害怕。",
       "startTime": 143.59,
       "endTime": 151.07,
       "analysis": {
@@ -428,7 +516,7 @@
       "id": "s20",
       "role": "Woman",
       "text": "At least sorting out the things she should have discarded years ago was now being made easier for her.",
-      "translation": "",
+      "translation": "'一点也不，'她说。",
       "startTime": 151.08,
       "endTime": 158.72,
       "analysis": {
@@ -445,18 +533,24 @@
       "id": "s21",
       "role": "Man",
       "text": "Then a police inspector arrived with a constable and she told them of her discovery of the ransacked flat.",
-      "translation": "",
+      "translation": "'只是那只猫太烦人了。'",
       "startTime": 158.73,
       "endTime": 167.14,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "nuisance",
+            "pos": "n.",
+            "meaning": "麻烦事/讨厌的人或物"
+          }
+        ]
       }
     },
     {
       "id": "s22",
       "role": "Woman",
       "text": "The inspector began to look for fingerprints, while the constable checked that the front door locks had not been forced,",
-      "translation": "",
+      "translation": "探长开始寻找指纹，而警员则检查前门锁是否被强行撬开，",
       "startTime": 167.15,
       "endTime": 174.39,
       "analysis": {
@@ -483,7 +577,7 @@
       "id": "s23",
       "role": "Man",
       "text": "thereby proving that the burglars had either used skeleton keys or entered over the balcony.",
-      "translation": "",
+      "translation": "从而证明窃贼要么使用了万能钥匙，要么是从阳台爬进来的。",
       "startTime": 174.4,
       "endTime": 182.02,
       "analysis": {
@@ -500,7 +594,7 @@
       "id": "s24",
       "role": "Woman",
       "text": "There was no trace of fingerprints, but the inspector found a dirty red bundle that contained jewellery which the old lady said was not hers.",
-      "translation": "",
+      "translation": "没有发现指纹的痕迹，但探长发现了一个脏兮兮的红色包裹，里面装着老太太说不是她的首饰。",
       "startTime": 182.03,
       "endTime": 193.06,
       "analysis": {
@@ -532,7 +626,7 @@
       "id": "s25",
       "role": "Man",
       "text": "So their entry into this flat was apparently not the burglars' first job that day and they must have been disturbed.",
-      "translation": "",
+      "translation": "显然，他们进入这间公寓并不是窃贼当天的第一桩买卖，而且他们一定受到了惊扰。",
       "startTime": 193.07,
       "endTime": 201.83,
       "analysis": {
@@ -559,7 +653,7 @@
       "id": "s26",
       "role": "Woman",
       "text": "The inspector then asked the old lady to try to check what was missing by the next day,",
-      "translation": "",
+      "translation": "探长随后让老太太试着在第二天之前检查一下丢失了什么，",
       "startTime": 201.84,
       "endTime": 208.19,
       "analysis": {
@@ -581,7 +675,7 @@
       "id": "s27",
       "role": "Man",
       "text": "and advised her not to stay alone in the flat for a few nights.",
-      "translation": "",
+      "translation": "并建议她这几天晚上不要独自留在公寓里。",
       "startTime": 208.2,
       "endTime": 212.1,
       "analysis": {
@@ -598,7 +692,7 @@
       "id": "s28",
       "role": "Woman",
       "text": "The old lady thought he was a fussy creature,",
-      "translation": "",
+      "translation": "老太太觉得他是个大惊小怪的人，",
       "startTime": 212.11,
       "endTime": 216.46,
       "analysis": {
@@ -615,7 +709,7 @@
       "id": "s29",
       "role": "Man",
       "text": "but since the porter agreed with him, she rang up her daughter and asked for her help in what she described as a little spot of bother.",
-      "translation": "",
+      "translation": "但由于搬运工也同意他的看法，她便给女儿打了电话，请求她帮忙处理这件她称之为'一点儿小麻烦'的事。",
       "startTime": 216.47,
       "endTime": 221.47,
       "analysis": {
