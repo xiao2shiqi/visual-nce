@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 1",
-      "translation": "",
+      "translation": "第一课",
       "startTime": 0.46,
       "endTime": 2.58,
       "analysis": {
@@ -25,15 +25,20 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Finding fossil man",
-      "translation": "",
+      "translation": "寻找化石人",
       "startTime": 2.59,
       "endTime": 10.89,
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "Finding",
+            "pos": "v-ing.",
+            "meaning": "寻找，发现"
+          },
+          {
+            "word": "Fossil",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "化石"
           }
         ]
       }
@@ -44,7 +49,7 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 10.9,
-      "endTime": 23.18,
+      "endTime": 17.42,
       "analysis": {
         "words": [
           {
@@ -53,39 +58,9 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
+            "word": "Tape",
             "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
+            "meaning": "磁带，录音"
           }
         ]
       }
@@ -94,26 +69,47 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why are legends handed down by storytellers useful?",
-      "translation": "",
+      "translation": "为什么讲故事的人传下来的传说有用？",
       "startTime": 10.9,
       "endTime": 17.42,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Legends",
+            "pos": "n.",
+            "meaning": "传说"
+          },
+          {
+            "word": "Handed down",
+            "pos": "phr.",
+            "meaning": "流传，传给后代"
+          },
+          {
+            "word": "Storytellers",
+            "pos": "n.",
+            "meaning": "讲故事的人"
+          }
+        ]
       }
     },
     {
       "id": "intro_5",
       "role": "Narrator",
       "text": "We can read of things that happened 5, 000 years ago in the Near East,",
-      "translation": "",
+      "translation": "我们可以读到5000年前发生在近东的事情，",
       "startTime": 17.43,
       "endTime": 23.27,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Happened",
+            "pos": "v.",
+            "meaning": "发生"
+          },
+          {
+            "word": "Near East",
+            "pos": "n.",
+            "meaning": "近东"
           }
         ]
       }
@@ -122,44 +118,64 @@
       "id": "s1",
       "role": "Man",
       "text": "where people first learned to write.",
-      "translation": "",
+      "translation": "那里的人们最早学会了书写。",
       "startTime": 23.28,
-      "endTime": 26.91
+      "endTime": 26.91,
+      "analysis": {
+        "words": [
+          {
+            "word": "Learned",
+            "pos": "v.",
+            "meaning": "学会"
+          },
+          {
+            "word": "Write",
+            "pos": "v.",
+            "meaning": "写，书写"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
       "role": "Woman",
       "text": "But there are some parts of the world where even now people cannot write.",
-      "translation": "",
+      "translation": "但在世界上的一些地方，直到现在人们还不会写字。",
       "startTime": 26.92,
       "endTime": 33.39,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Even now",
+            "pos": "adv.",
+            "meaning": "甚至现在，直到现在"
+          }
+        ]
       }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "The only way that they can preserve their history is to recount it as sagas legends handed down from one generation of storytellers to another.",
-      "translation": "",
+      "translation": "他们保存历史的唯一途径是将其作为由一代代讲故事人流传下来的英雄传说。",
       "startTime": 33.4,
       "endTime": 46.14,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Is",
+            "word": "Preserve",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "保存"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Recount",
+            "pos": "v.",
+            "meaning": "叙述，讲述"
+          },
+          {
+            "word": "Sagas",
+            "pos": "n.",
+            "meaning": "长篇小说，英雄传说"
           }
         ]
       }
@@ -168,26 +184,32 @@
       "id": "s4",
       "role": "Woman",
       "text": "These legends are useful because they can tell us something about migrations of people who lived long ago,",
-      "translation": "",
+      "translation": "这些传说很有用，因为它们可以告诉我们一些关于很久以前生活的民族迁徙的情况，",
       "startTime": 46.15,
       "endTime": 54.21,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Migrations",
+            "pos": "n.",
+            "meaning": "迁徙"
+          }
+        ]
       }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "but none could write down what they did.",
-      "translation": "",
+      "translation": "但当时没有人能记下他们的所作所为。",
       "startTime": 54.22,
       "endTime": 57.66,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "Write down",
+            "pos": "phr.",
+            "meaning": "写下，记录"
           }
         ]
       }
@@ -196,23 +218,47 @@
       "id": "s6",
       "role": "Woman",
       "text": "Anthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islandscame from.",
-      "translation": "",
+      "translation": "人类学家想知道现在居住在太平洋群岛的波利尼西亚人的远祖是从哪里来的。",
       "startTime": 57.67,
-      "endTime": 66.9
+      "endTime": 66.9,
+      "analysis": {
+        "words": [
+          {
+            "word": "Anthropologists",
+            "pos": "n.",
+            "meaning": "人类学家"
+          },
+          {
+            "word": "Ancestors",
+            "pos": "n.",
+            "meaning": "祖先"
+          },
+          {
+            "word": "Remote",
+            "pos": "adj.",
+            "meaning": "遥远的"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "The sagas of these people explain that some of them came from Indonesia about 2, 000 years ago.",
-      "translation": "",
+      "translation": "这些民族的传说解释说，他们中的一些人是在大约2000年前从印度尼西亚迁徙来的。",
       "startTime": 66.91,
       "endTime": 75.25,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Explain",
+            "pos": "v.",
+            "meaning": "解释"
+          },
+          {
+            "word": "Indonesia",
+            "pos": "n.",
+            "meaning": "印度尼西亚"
           }
         ]
       }
@@ -221,15 +267,15 @@
       "id": "s8",
       "role": "Woman",
       "text": "But the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten.",
-      "translation": "",
+      "translation": "但是，最早像我们这样的人类生活在很久以前，以至于即使他们有什么传说，也早已被遗忘了。",
       "startTime": 75.26,
       "endTime": 85.7,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Forgotten",
+            "pos": "adj.",
+            "meaning": "被遗忘的"
           }
         ]
       }
@@ -238,36 +284,59 @@
       "id": "s9",
       "role": "Man",
       "text": "So archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.",
-      "translation": "",
+      "translation": "因此，考古学家既没有历史也没有传说来帮助他们弄清最早的“现代人”是从哪里来的。",
       "startTime": 85.71,
-      "endTime": 94.83
+      "endTime": 94.83,
+      "analysis": {
+        "words": [
+          {
+            "word": "Archaeologists",
+            "pos": "n.",
+            "meaning": "考古学家"
+          },
+          {
+            "word": "Neither...nor...",
+            "pos": "conj.",
+            "meaning": "既不...也不..."
+          }
+        ]
+      }
     },
     {
       "id": "s10",
       "role": "Woman",
       "text": "Fortunately, however, ancient men made tools of stone, especially flint,",
-      "translation": "",
+      "translation": "然而，幸运的是，古代人制造了石器，特别是燧石，",
       "startTime": 94.84,
-      "endTime": 101.44
+      "endTime": 101.44,
+      "analysis": {
+        "words": [
+          {
+            "word": "Fortunately",
+            "pos": "adv.",
+            "meaning": "幸运地"
+          },
+          {
+            "word": "Flint",
+            "pos": "n.",
+            "meaning": "燧石"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "because this is easier to shape than other kinds.",
-      "translation": "",
+      "translation": "因为这种石头比其他种类的石头更容易成形。",
       "startTime": 101.45,
       "endTime": 105.73,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
+            "word": "Shape",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "外形，形成"
           }
         ]
       }
@@ -276,26 +345,42 @@
       "id": "s12",
       "role": "Woman",
       "text": "They may also have used wood and skins, but these have rotted away.",
-      "translation": "",
+      "translation": "他们可能也使用过木头和兽皮，但这些都已经腐烂了。",
       "startTime": 105.74,
       "endTime": 112.15,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Rotted away",
+            "pos": "phr.",
+            "meaning": "腐烂掉"
+          }
+        ]
       }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.",
-      "translation": "",
+      "translation": "石头不会腐烂，因此，当制造石器的那些人的骨头已经消失得无影无踪时，很久以前的工具却保存了下来。",
       "startTime": 112.16,
       "endTime": 117.16,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "Decay",
+            "pos": "v.",
+            "meaning": "腐烂，衰减"
+          },
+          {
+            "word": "Disappeared",
+            "pos": "v.",
+            "meaning": "消失"
+          },
+          {
+            "word": "Without trace",
+            "pos": "phr.",
+            "meaning": "无影无踪"
           }
         ]
       }

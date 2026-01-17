@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 2",
-      "translation": "",
+      "translation": "第二课",
       "startTime": 0.39,
       "endTime": 8.71,
       "analysis": {
@@ -25,20 +25,20 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "How much of each year do spiders spend killing insects?",
-      "translation": "",
+      "translation": "蜘蛛每年花多少时间消灭昆虫？",
       "startTime": 8.72,
       "endTime": 14.82,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "Spend",
+            "pos": "v.",
+            "meaning": "花费（时间/金钱）"
           },
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "Insects",
+            "pos": "n.",
+            "meaning": "昆虫"
           }
         ]
       }
@@ -58,39 +58,9 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
+            "word": "Answer",
             "pos": "v.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
           }
         ]
       }
@@ -99,15 +69,15 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "Why, you may wonder, should spiders be our friends?",
-      "translation": "",
+      "translation": "你可能会问，为什么蜘蛛应该是我们的朋友？",
       "startTime": 14.83,
       "endTime": 19.14,
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "Wonder",
+            "pos": "v.",
+            "meaning": "纳闷，想知道"
           }
         ]
       }
@@ -116,23 +86,37 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Because they destroy so many insects, and insects include some of the greatest enemies of the human race.",
-      "translation": "",
+      "translation": "因为它们消灭了那么多昆虫，而昆虫包括人类的一些最大敌人。",
       "startTime": 19.15,
-      "endTime": 26.73
+      "endTime": 26.73,
+      "analysis": {
+        "words": [
+          {
+            "word": "Destroy",
+            "pos": "v.",
+            "meaning": "消灭，毁坏"
+          },
+          {
+            "word": "Human race",
+            "pos": "n.",
+            "meaning": "人类"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "Insects would make it impossible for us to live in the world;",
-      "translation": "",
+      "translation": "昆虫会使我们无法在世界上生存；",
       "startTime": 26.74,
       "endTime": 30.37,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Impossible",
+            "pos": "adj.",
+            "meaning": "不可能的"
           }
         ]
       }
@@ -141,31 +125,42 @@
       "id": "s2",
       "role": "Woman",
       "text": "they would devour all our crops and kill our flocks and herds,",
-      "translation": "",
+      "translation": "它们会吞噬我们所有的作物，杀死我们的羊群和牛群，",
       "startTime": 30.38,
       "endTime": 34.61,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Devour",
+            "pos": "v.",
+            "meaning": "吞噬"
+          },
+          {
+            "word": "Crops",
+            "pos": "n.",
+            "meaning": "庄稼，作物"
+          },
+          {
+            "word": "Flocks and herds",
+            "pos": "n.",
+            "meaning": "牛群和羊群"
+          }
+        ]
       }
     },
     {
       "id": "s3",
       "role": "Man",
       "text": "if it were not for the protection we get from insect eating animals.",
-      "translation": "",
+      "translation": "如果不是因为我们从食虫动物那里得到的保护。",
       "startTime": 34.62,
       "endTime": 39.76,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "Protection",
+            "pos": "n.",
+            "meaning": "保护"
           }
         ]
       }
@@ -174,23 +169,37 @@
       "id": "s4",
       "role": "Woman",
       "text": "We owe a lot to the birds and beasts who eat insects",
-      "translation": "",
+      "translation": "我们欠那些吃昆虫的鸟兽很多，",
       "startTime": 39.77,
-      "endTime": 43.72
+      "endTime": 43.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "Owe",
+            "pos": "v.",
+            "meaning": "欠（情），感激"
+          },
+          {
+            "word": "Beasts",
+            "pos": "n.",
+            "meaning": "野兽"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
       "role": "Man",
       "text": "but all of them put together kill only a fraction of the number destroyed by spiders.",
-      "translation": "",
+      "translation": "但它们加在一起消灭的昆虫数量也只是蜘蛛消灭的一小部分。",
       "startTime": 43.73,
       "endTime": 49.78,
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "Fraction",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "分数，一小部分"
           }
         ]
       }
@@ -199,26 +208,37 @@
       "id": "s6",
       "role": "Woman",
       "text": "Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.",
-      "translation": "",
+      "translation": "此外，不像其他一些食虫动物，蜘蛛从不给我们的生活或财物带来任何伤害。",
       "startTime": 49.79,
       "endTime": 58.71,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Moreover",
+            "pos": "adv.",
+            "meaning": "此外，而且"
+          },
+          {
+            "word": "Belongings",
+            "pos": "n.",
+            "meaning": "财产，所有物"
+          }
+        ]
       }
     },
     {
       "id": "s7",
       "role": "Man",
       "text": "Spiders are not insects, as many people think, nor even nearly related to them.",
-      "translation": "",
+      "translation": "蜘蛛不是昆虫，尽管许多人这么认为，甚至它们与昆虫几乎没有亲缘关系。",
       "startTime": 58.72,
       "endTime": 65.21,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "Nearly related",
+            "pos": "phr.",
+            "meaning": "亲缘关系近"
           }
         ]
       }
@@ -227,15 +247,15 @@
       "id": "s8",
       "role": "Woman",
       "text": "One can tell the difference almost at a glance, for a spider always has eight legs and an insect never more than six.",
-      "translation": "",
+      "translation": "一眼就能看出区别，因为蜘蛛总是有八条腿，而昆虫绝不会超过六条。",
       "startTime": 65.22,
       "endTime": 74.92,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "At a glance",
+            "pos": "phr.",
+            "meaning": "看一眼，一眼就..."
           }
         ]
       }
@@ -244,20 +264,20 @@
       "id": "s9",
       "role": "Narrator",
       "text": "How many spiders are engaged in this work on our behalf?",
-      "translation": "",
+      "translation": "有多少蜘蛛在代表我们进行这项工作呢？",
       "startTime": 74.93,
       "endTime": 79.24,
       "analysis": {
         "words": [
           {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
+            "word": "Engaged in",
+            "pos": "phr.",
+            "meaning": "从事，忙于"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "On our behalf",
+            "pos": "phr.",
+            "meaning": "代表我们，为了我们"
           }
         ]
       }
@@ -266,23 +286,42 @@
       "id": "s10",
       "role": "Man",
       "text": "One authority on spiders made a census of the spiders in a grass field in the south of England,",
-      "translation": "",
+      "translation": "一位研究蜘蛛的权威对英格兰南部一片草地上的蜘蛛进行了调查，",
       "startTime": 79.25,
-      "endTime": 85.78
+      "endTime": 85.78,
+      "analysis": {
+        "words": [
+          {
+            "word": "Authority",
+            "pos": "n.",
+            "meaning": "权威"
+          },
+          {
+            "word": "Census",
+            "pos": "n.",
+            "meaning": "人口普查，在此指“数量调查”"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Woman",
       "text": "and he estimated that there were more than 2, 250, 000 in one acre;",
-      "translation": "",
+      "translation": "他估计一英亩土地里有225万多只蜘蛛；",
       "startTime": 85.79,
       "endTime": 93.17,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Estimated",
+            "pos": "v.",
+            "meaning": "估计"
+          },
+          {
+            "word": "Acre",
+            "pos": "n.",
+            "meaning": "英亩"
           }
         ]
       }
@@ -291,20 +330,15 @@
       "id": "s12",
       "role": "Man",
       "text": "that is something like 6, 000, 000 spiders of different kinds on a football pitch.",
-      "translation": "",
+      "translation": "也就是说，在一个足球场大小的土地上，大约有600万只各种各样的蜘蛛。",
       "startTime": 93.18,
       "endTime": 99.85,
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Football pitch",
+            "pos": "n.",
+            "meaning": "足球场"
           }
         ]
       }
@@ -313,20 +347,15 @@
       "id": "s13",
       "role": "Woman",
       "text": "Spiders are busy for at least half the year in killing insects.",
-      "translation": "",
+      "translation": "蜘蛛每年至少有半年时间在忙于消灭昆虫。",
       "startTime": 99.86,
       "endTime": 104.97,
       "analysis": {
         "words": [
           {
-            "word": "Busy",
+            "word": "Least",
             "pos": "adj.",
-            "meaning": "忙碌的"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "最少的"
           }
         ]
       }
@@ -335,40 +364,20 @@
       "id": "s14",
       "role": "Man",
       "text": "It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day.",
-      "translation": "",
+      "translation": "要猜测它们消灭了多少昆虫几乎是不可能的，但它们是饥饿的生物，并不满足于一天只吃三顿饭。",
       "startTime": 104.98,
       "endTime": 115.87,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Wildest guess",
+            "pos": "phr.",
+            "meaning": "胡乱猜测"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "怎样，如何"
-          },
-          {
-            "word": "Hungry",
-            "pos": "adj.",
-            "meaning": "饥饿的"
-          },
-          {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "Content with",
+            "pos": "phr.",
+            "meaning": "对...满足"
           }
         ]
       }
@@ -377,20 +386,20 @@
       "id": "s15",
       "role": "Woman",
       "text": "It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.",
-      "translation": "",
+      "translation": "据估计，英国一年内被蜘蛛消灭的昆虫重量，将超过该国所有人口的总重量。",
       "startTime": 115.88,
       "endTime": 120.88,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Weight",
+            "pos": "n.",
+            "meaning": "重量"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Total",
+            "pos": "adj.",
+            "meaning": "总的"
           }
         ]
       }

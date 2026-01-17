@@ -8,7 +8,7 @@
       "id": "intro_1",
       "role": "Narrator",
       "text": "Lesson 3",
-      "translation": "",
+      "translation": "第三课",
       "startTime": 0.41,
       "endTime": 2.09,
       "analysis": {
@@ -25,15 +25,15 @@
       "id": "intro_2",
       "role": "Narrator",
       "text": "Matterhorn man",
-      "translation": "",
+      "translation": "马特霍恩登山者",
       "startTime": 2.1,
       "endTime": 9.81,
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "Matterhorn",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "马特霍恩峰（阿尔卑斯山名峰）"
           }
         ]
       }
@@ -53,39 +53,9 @@
             "meaning": "听"
           },
           {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
+            "word": "Answer",
             "pos": "v.",
             "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
           }
         ]
       }
@@ -94,15 +64,15 @@
       "id": "intro_4",
       "role": "Narrator",
       "text": "What was the main objective of early mountain climbers?",
-      "translation": "",
+      "translation": "早期登山者的主要目标是什么？",
       "startTime": 9.82,
       "endTime": 15.29,
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "Objective",
+            "pos": "n.",
+            "meaning": "目标"
           }
         ]
       }
@@ -111,31 +81,37 @@
       "id": "intro_5",
       "role": "Narrator",
       "text": "Modern alpinists try to climb mountains by a route which will give them good sport,",
-      "translation": "",
+      "translation": "现代登山运动员尝试通过能给他们带来运动乐趣的路线登山，",
       "startTime": 15.3,
       "endTime": 21.92,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Alpinists",
+            "pos": "n.",
+            "meaning": "登山运动员"
+          },
+          {
+            "word": "Route",
+            "pos": "n.",
+            "meaning": "路线"
+          }
+        ]
       }
     },
     {
       "id": "s1",
       "role": "Man",
       "text": "and the more difficult it is, the more highly it is regarded.",
-      "translation": "",
+      "translation": "而且路线越难，其评价就越高。",
       "startTime": 21.93,
       "endTime": 27.37,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "Regarded",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "看待，评价"
           }
         ]
       }
@@ -144,25 +120,20 @@
       "id": "s2",
       "role": "Woman",
       "text": "In the pioneering days however, this was not the case at all.",
-      "translation": "",
+      "translation": "然而，在开创时期，情况完全不是这样。",
       "startTime": 27.38,
       "endTime": 33.64,
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Pioneering",
+            "pos": "adj.",
+            "meaning": "开创性的，先驱的"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Case",
+            "pos": "n.",
+            "meaning": "情况，事实"
           }
         ]
       }
@@ -171,23 +142,47 @@
       "id": "s3",
       "role": "Man",
       "text": "The early climbers were looking for the easiest way to the top because the summit was the prize they sought,",
-      "translation": "",
+      "translation": "早期的登山者寻找到达顶峰最容易的路径，因为顶峰才是他们追求的目标，",
       "startTime": 33.65,
-      "endTime": 41.87
+      "endTime": 41.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "Summit",
+            "pos": "n.",
+            "meaning": "顶峰"
+          },
+          {
+            "word": "Prize",
+            "pos": "n.",
+            "meaning": "奖赏，寻求的目标"
+          },
+          {
+            "word": "Sought",
+            "pos": "v.",
+            "meaning": "寻找（seek的过去式）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "role": "Woman",
       "text": "especially if it had never been attained before.",
-      "translation": "",
+      "translation": "特别是如果这个顶峰以前从未有人登顶过。",
       "startTime": 41.88,
       "endTime": 46.24,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Especially",
+            "pos": "adv.",
+            "meaning": "尤其地"
+          },
+          {
+            "word": "Attained",
+            "pos": "v.",
+            "meaning": "达到"
           }
         ]
       }
@@ -196,25 +191,20 @@
       "id": "s5",
       "role": "Man",
       "text": "It is true that during their explorations they often faced difficulties and dangers of the most perilous nature,",
-      "translation": "",
+      "translation": "诚然，在他们的探险过程中，他们经常面临极其危险的困难和危机，",
       "startTime": 46.25,
       "endTime": 55.53,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Explorations",
+            "pos": "n.",
+            "meaning": "探险"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Perilous",
+            "pos": "adj.",
+            "meaning": "危险的"
           }
         ]
       }
@@ -223,15 +213,20 @@
       "id": "s6",
       "role": "Woman",
       "text": "equipped in a manner which would make a modern climber shudder at the thought,",
-      "translation": "",
+      "translation": "而他们的装备方式，会让现代登山者一想到就心惊胆寒，",
       "startTime": 55.54,
       "endTime": 61.18,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Equipped",
+            "pos": "v.",
+            "meaning": "装备"
+          },
+          {
+            "word": "Shudder",
+            "pos": "v.",
+            "meaning": "战栗，发抖"
           }
         ]
       }
@@ -240,15 +235,20 @@
       "id": "s7",
       "role": "Man",
       "text": "but they did not go out of their way to court such excitement.",
-      "translation": "",
+      "translation": "但他们并不会特意去追求那种刺激。",
       "startTime": 61.19,
       "endTime": 65.86,
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "Go out of one's way",
+            "pos": "phr.",
+            "meaning": "特意，专门"
+          },
+          {
+            "word": "Court",
+            "pos": "v.",
+            "meaning": "招致，追求"
           }
         ]
       }
@@ -257,33 +257,37 @@
       "id": "s8",
       "role": "Woman",
       "text": "They had a single aim, a solitary goal -- the top!",
-      "translation": "",
+      "translation": "他们只有一个目标，唯一的追求——顶峰！",
       "startTime": 65.87,
-      "endTime": 72.54
+      "endTime": 72.54,
+      "analysis": {
+        "words": [
+          {
+            "word": "Solitary",
+            "pos": "adj.",
+            "meaning": "唯一的，孤独的"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "role": "Man",
       "text": "It is hard for us to realize nowadays how difficult it was for the pioneers.",
-      "translation": "",
+      "translation": "现在我们很难意识到当初那些先驱者的处境有多么艰难。",
       "startTime": 72.55,
       "endTime": 79.2,
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "How",
+            "word": "Nowadays",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "现今"
+          },
+          {
+            "word": "Pioneers",
+            "pos": "n.",
+            "meaning": "先驱者"
           }
         ]
       }
@@ -292,39 +296,81 @@
       "id": "s10",
       "role": "Woman",
       "text": "Except for one or two places such as Zermatt and Chamonix, which had rapidly become popular.",
-      "translation": "",
+      "translation": "除了像采尔马特和夏蒙尼这样的几个因迅速出名而变得受欢迎的地方外。",
       "startTime": 79.21,
-      "endTime": 87.73
+      "endTime": 87.73,
+      "analysis": {
+        "words": [
+          {
+            "word": "Except for",
+            "pos": "prep.",
+            "meaning": "除了...之外"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
       "role": "Man",
       "text": "Alpine villages tended to be impoverished settlements cut off from civilization by the high mountains.",
-      "translation": "",
+      "translation": "阿尔卑斯山的村庄往往是贫困的定居点，由于高山阻隔而与文明世界隔绝。",
       "startTime": 87.74,
-      "endTime": 96.39
+      "endTime": 96.39,
+      "analysis": {
+        "words": [
+          {
+            "word": "Impoverished",
+            "pos": "adj.",
+            "meaning": "贫困的"
+          },
+          {
+            "word": "Settlements",
+            "pos": "n.",
+            "meaning": "定居点"
+          },
+          {
+            "word": "Cut off",
+            "pos": "phr.",
+            "meaning": "切断，隔绝"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
       "role": "Woman",
       "text": "Such inns as there were were generally dirty and flea-ridden;",
-      "translation": "",
+      "translation": "那里的旅店通常既脏又到处是跳蚤；",
       "startTime": 96.4,
-      "endTime": 101.97
+      "endTime": 101.97,
+      "analysis": {
+        "words": [
+          {
+            "word": "Inns",
+            "pos": "n.",
+            "meaning": "客栈，旅店"
+          },
+          {
+            "word": "Flea-ridden",
+            "pos": "adj.",
+            "meaning": "布满跳蚤的"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
       "role": "Man",
       "text": "the food simply local cheese accompanied by bread often twelve months old,",
-      "translation": "",
+      "translation": "食物只是当地奶酪配上通常已放了一年的面包，",
       "startTime": 101.98,
       "endTime": 107.85,
       "analysis": {
         "words": [
           {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
+            "word": "Accompanied by",
+            "pos": "phr.",
+            "meaning": "陪同，伴随"
           }
         ]
       }
@@ -333,23 +379,42 @@
       "id": "s14",
       "role": "Woman",
       "text": "all washed down with coarse wine.",
-      "translation": "",
+      "translation": "统统用粗劣的葡萄酒送服。",
       "startTime": 107.86,
-      "endTime": 111.84
+      "endTime": 111.84,
+      "analysis": {
+        "words": [
+          {
+            "word": "Washed down",
+            "pos": "phr.",
+            "meaning": "（吃东西时）冲下，送服"
+          },
+          {
+            "word": "Coarse",
+            "pos": "adj.",
+            "meaning": "粗糙的，劣质的"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
       "role": "Man",
       "text": "Often a valley boasted no inn at all, and climbers found shelter wherever they could --",
-      "translation": "",
+      "translation": "山谷里通常根本没有旅店，登山者只能随处寻找避难所——",
       "startTime": 111.85,
       "endTime": 118.37,
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Boasted",
+            "pos": "v.",
+            "meaning": "以有...而自豪"
+          },
+          {
+            "word": "Shelter",
+            "pos": "n.",
+            "meaning": "避难所，遮蔽"
           }
         ]
       }
@@ -358,34 +423,54 @@
       "id": "s16",
       "role": "Woman",
       "text": "sometimes with the local priest (who was usually as poor as his parishioners),",
-      "translation": "",
+      "translation": "有时住在当地牧师家（他通常和他的教民一样穷），",
       "startTime": 118.38,
       "endTime": 124.88,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Priest",
+            "pos": "n.",
+            "meaning": "牧师"
+          },
+          {
+            "word": "Parishioners",
+            "pos": "n.",
+            "meaning": "教区居民"
+          }
+        ]
       }
     },
     {
       "id": "s17",
       "role": "Man",
       "text": "sometimes with shepherds or cheese-makers.",
-      "translation": "",
+      "translation": "有时住在牧羊人或制作奶酪的人家里。",
       "startTime": 124.89,
-      "endTime": 128.71
+      "endTime": 128.71,
+      "analysis": {
+        "words": [
+          {
+            "word": "Shepherds",
+            "pos": "n.",
+            "meaning": "牧羊人"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
       "role": "Woman",
       "text": "Invariably the background was the same:dirt and poverty, and very uncomfortable.",
-      "translation": "",
+      "translation": "背景总是一样的：肮脏、贫穷，而且极不舒服。",
       "startTime": 128.72,
       "endTime": 137.07,
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "Invariably",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "总是地，不变地"
           }
         ]
       }
@@ -394,20 +479,20 @@
       "id": "s19",
       "role": "Man",
       "text": "For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home,",
-      "translation": "",
+      "translation": "对于那些在家里习惯吃七道菜的晚宴、睡在精细亚麻床单之间的人来说，",
       "startTime": 137.08,
       "endTime": 144.65,
       "analysis": {
         "words": [
           {
-            "word": "Fine",
-            "pos": "adj.",
-            "meaning": "健康的"
+            "word": "Accustomed to",
+            "pos": "phr.",
+            "meaning": "习惯于"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Linen sheets",
+            "pos": "n.",
+            "meaning": "亚麻床单"
           }
         ]
       }
@@ -416,15 +501,15 @@
       "id": "s20",
       "role": "Woman",
       "text": "the change to the Alps must have been very hard indeed.",
-      "translation": "",
+      "translation": "来到阿尔卑斯山的生活变迁确实一定非常艰难。",
       "startTime": 144.66,
       "endTime": 149.66,
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "Indeed",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "确实地"
           }
         ]
       }
