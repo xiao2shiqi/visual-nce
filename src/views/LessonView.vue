@@ -83,29 +83,33 @@ const activeSegmentId = computed(() => {
 // 计算当前应显示的图片
 const currentImage = computed(() => {
   if (!lessonData.value) return '';
-  
-  // 优先使用根节点的图片
-  if (lessonData.value.image) {
-    return resolvePath(lessonData.value.image);
-  }
-  
+
   const segment = lessonData.value.segments.find(
     (s: any) => s.startTime !== undefined && currentTime.value >= s.startTime && currentTime.value <= s.endTime
   );
-  
+
+  // 优先使用当前句子的图片，实现按台词切图
+  if (segment?.image) {
+    return resolvePath(segment.image);
+  }
+
   let rawImg = '';
-  if (segment && segment.image) {
-    rawImg = segment.image;
+  if (segment) {
+    // 句子存在但没配置句子图时，回退课程主图
+    rawImg = lessonData.value.image || '';
   } else {
-    // 保持显示最后一张匹配的图片，避免空白
+    // 不在任何句子时间段时，回溯最近一个有图的句子；再回退课程主图
     const pastSegments = lessonData.value.segments.filter((s: any) => s.startTime !== undefined && s.startTime <= currentTime.value);
-    if (pastSegments.length > 0) {
-      rawImg = pastSegments[pastSegments.length - 1].image;
+    const latestWithImage = [...pastSegments].reverse().find((s: any) => !!s.image);
+    if (latestWithImage?.image) {
+      rawImg = latestWithImage.image;
+    } else if (lessonData.value.segments[0]?.image) {
+      rawImg = lessonData.value.segments[0].image;
     } else {
-      rawImg = lessonData.value.segments[0]?.image || '';
+      rawImg = lessonData.value.image || '';
     }
   }
-  
+
   return resolvePath(rawImg);
 });
 

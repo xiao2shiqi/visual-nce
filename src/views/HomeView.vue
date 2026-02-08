@@ -1,12 +1,30 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 import AboutModal from '../components/AboutModal.vue';
 import DonationModal from '../components/DonationModal.vue';
 import FeedbackModal from '../components/FeedbackModal.vue';
 
-const activeBookId = ref('nce1');
+const props = withDefaults(defineProps<{
+  activeBookId?: string;
+}>(), {
+  activeBookId: 'nce1'
+});
+
+const emit = defineEmits(['select-course', 'update:active-book-id']);
+const activeBookId = ref(props.activeBookId);
+
+watch(() => props.activeBookId, (newId) => {
+  if (newId && newId !== activeBookId.value) {
+    activeBookId.value = newId;
+  }
+});
+
+watch(activeBookId, (newId) => {
+  emit('update:active-book-id', newId);
+});
+
 const aboutModalRef = ref<any>(null);
 const donationModalRef = ref<any>(null);
 const feedbackModalRef = ref<any>(null);
@@ -17,9 +35,6 @@ const activeBook = computed(() => {
   return (book || curriculum.books[0]) as typeof curriculum.books[0];
 });
 
-// 处理课程点击
-const emit = defineEmits(['select-course']);
-
 const handleLessonClick = (lesson: any) => {
   if (lesson.image && lesson.image.includes('coming-soon')) {
     showComingSoonToast.value = true;
@@ -27,7 +42,10 @@ const handleLessonClick = (lesson: any) => {
       showComingSoonToast.value = false;
     }, 2000);
   } else {
-    emit('select-course', lesson);
+    emit('select-course', {
+      lesson,
+      bookId: activeBookId.value
+    });
   }
 };
 </script>

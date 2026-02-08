@@ -5,9 +5,17 @@ import LessonView from './views/LessonView.vue';
 
 const currentView = ref('home');
 const selectedCourse = ref(null);
+const activeBookId = ref('nce1');
 
-const handleSelectCourse = (course: any) => {
-  selectedCourse.value = course;
+const handleSelectCourse = (payload: any) => {
+  if (payload?.lesson) {
+    selectedCourse.value = payload.lesson;
+    if (payload.bookId) {
+      activeBookId.value = payload.bookId;
+    }
+  } else {
+    selectedCourse.value = payload;
+  }
   currentView.value = 'lesson';
 };
 
@@ -22,6 +30,8 @@ const handleBackToHome = () => {
     <Transition name="page" mode="out-in">
       <HomeView 
         v-if="currentView === 'home'" 
+        :active-book-id="activeBookId"
+        @update:active-book-id="activeBookId = $event"
         @select-course="handleSelectCourse" 
       />
       <LessonView 
@@ -76,4 +86,3 @@ body {
   transform: translateX(-20px);
 }
 </style>
-
