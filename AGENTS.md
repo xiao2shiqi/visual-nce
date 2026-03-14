@@ -19,3 +19,8 @@
 - **Visual Style**: Strictly Studio Ghibli illustration style with watercolor textures.
 - **Output Naming**: Use descriptive names like `man_waves.png`, `woman_turns.png` for storyboard frames.
 - **Instant Switch**: Images must switch immediately without transition effects (Fade/Slide) to maintain a snappy, storyboard feel.
+
+## Git Branching Rule
+
+- Always work directly on the `main` branch or merge feature/sandbox branches into `main` immediately.
+- Do not maintain long-running sandbox or secondary branches.
