@@ -2,7 +2,7 @@
   "id": "nce2-l6",
   "title": "Lesson 6: Percy Buttons",
   "audio": "/audio/nce2/06－Percy Buttons.mp3",
-  "image": "/images/nce2/l6/scene1.jpg",
+  "image": "/images/nce2/l6/thumbnail.jpg",
   "segments": [
     {
       "id": "intro_1",
@@ -306,6 +306,7 @@
     {
       "id": "s1",
       "role": "Man",
+      "image": "/images/nce2/l6/percy_upside_down.png",
       "text": "In return for this, the beggar stood on his head and sang songs.",
       "translation": "作为回报，那乞丐用头顶地倒立起来，还唱起歌来。",
       "startTime": 26.54,
@@ -335,7 +336,7 @@
           {
             "word": "stood",
             "pos": "v.",
-            "meaning": "站立（stand的过去式）"
+            "meaning": "站立（stand of过去式）"
           },
           {
             "word": "on",
@@ -373,6 +374,7 @@
     {
       "id": "s2",
       "role": "Man",
+      "image": "/images/nce2/l6/percy_eating.png",
       "text": "I gave him a meal.",
       "translation": "我给了他一顿饭。",
       "startTime": 32.87,
@@ -462,6 +464,7 @@
     {
       "id": "s4",
       "role": "Man",
+      "image": "/images/nce2/l6/percy_leaving.png",
       "text": "Then he put a piece of cheese in his pocket and went away.",
       "translation": "然后把一块奶酪装进口袋走了。",
       "startTime": 38.41,
@@ -756,4 +759,5 @@
     }
   ],
   "thumbnail": "/images/nce2/l6/thumbnail.jpg"
+
 }

@@ -1,26 +1,27 @@
-# Project Rules
+# 项目规则
 
-## Image Style Rule (Mandatory)
+## 图像风格规则（强制性）
 
-- All course images in this project must use a Studio Ghibli-inspired illustration style.
-- This rule applies to every lesson image and thumbnail across all books (NCE1, NCE2, NCE3, NCE4).
-- Do not use photorealistic, 3D-rendered, or non-Ghibli visual styles for course images.
+- 本项目中所有的课程图像必须使用吉卜力工作室（Studio Ghibli）风格的插图。
+- 此规则适用于所有册数（NCE1, NCE2, NCE3, NCE4）的所有课程图像和缩略图。
+- 严禁使用写实风格、3D 渲染或非吉卜力的视觉风格。
 
-## Image Generation Protocol (Visual Storyboard Standard)
+## 图像生成协议（视觉分镜标准）
 
-- **Official Tool**: All images must be generated using `scripts/generate_images.py`.
-- **Primary Model**: `gemini-3.1-flash-image-preview` (Nano Banana 2).
-- **Storyboard Rule**: 
-    1. **Master Specs**: Every lesson MUST define a set of consistency anchors (Character descriptions and Scene location) that are included in every prompt within that lesson.
-    2. **Default Background**: Each lesson MUST provide a primary image (e.g., `scene1.png`) representing the main interaction. This path MUST be used in both `src/data/curriculum.json` and the root `image` field of the lesson's JSON data to ensure seamless transition from Home to Lesson view.
-    3. **Stable Intro**: Segments corresponding to titles, instructions, or narrator questions (non-dialogue) SHOULD NOT have their own `image` field, ensuring the default background is displayed consistently during the introduction.
-    4. **Dialogue Switching**: Only dialogue segments or key action changes SHOULD have a private `image` field to trigger a storyboard change.
-- **Visual Consistency**: High emphasis on maintaining same clothing (e.g., "white long-sleeved blouse") and objects (e.g., "specific floral handbag") across frames.
-- **Visual Style**: Strictly Studio Ghibli illustration style with watercolor textures.
-- **Output Naming**: Use descriptive names like `man_waves.png`, `woman_turns.png` for storyboard frames.
-- **Instant Switch**: Images must switch immediately without transition effects (Fade/Slide) to maintain a snappy, storyboard feel.
+- **官方工具**：所有图像必须使用 `scripts/generate_images.py` 生成。
+- **核心模型**：`gemini-3.1-flash-image-preview` (内部代号：Nano Banana 2)。
+- **分镜规则**：
+    1. **核心规格 (Master Specs)**：每一课**必须**定义一组一致性锚点（角色描述和场景位置），并包含在该课生成的每一个提示词（Prompt）中。
+    2. **默认背景**：每一课**必须**提供一张代表主要交互的场景主图（例如 `scene1.png`）。该图片**必须**是分镜序列中的第一张图片（Carousel's first image）。
+    3. **封面图对齐**：上述场景主图的路径**必须**同时用于 `src/data/curriculum.json` 和课程 JSON 数据的根目录 `image` 字段，以确保从首页课程卡片到课程详情视图的无缝衔接。
+    4. **稳定开场**：对应标题、指令或旁白提问（非对话内容）的片段**不应**设置独立的 `image` 字段，以确保在开场阶段持续显示默认背景。
+    5. **对话切换**：仅在对话片段或关键动作切换时，才允许使用私有的 `image` 字段来触发分镜变化。
+- **视觉一致性**：高度强调在不同帧之间维持相同的服装（如“白色长袖衬衫”）和物件（如“特定的碎花手提包”）。
+- **视觉风格**：严格执行带有水彩质感的吉卜力插画风格。
+- **输出命名**：分镜帧使用描述性名称，如 `man_waves.png`（男士挥手）、`woman_turns.png`（女士转身）。
+- **即时切换**：图像切换必须立即执行，不使用任何过渡效果（如淡入淡出或滑动），以保持利落的分镜感。
 
-## Git Branching Rule
+## Git 分支规则
 
-- Always work directly on the `main` branch or merge feature/sandbox branches into `main` immediately.
-- Do not maintain long-running sandbox or secondary branches.
+- 始终直接在 `main` 分支上工作，或将功能/沙盒分支立即合并入 `main`。
+- 不要维护长期存在的沙盒分支或次要分支。

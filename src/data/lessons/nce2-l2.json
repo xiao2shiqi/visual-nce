@@ -2,7 +2,7 @@
   "id": "nce2-l2",
   "title": "Lesson 2: Breakfast or Lunch",
   "audio": "/audio/nce2/02－Breakfast or Lunch.mp3",
-  "image": "/images/nce2/l2/scene1.jpg",
+  "image": "/images/nce2/l2/thumbnail.jpg",
   "segments": [
     {
       "id": "intro_1",
@@ -38,7 +38,7 @@
           {
             "word": "Breakfast",
             "pos": "n.",
-            "meaning": "Breakfast（待补充）"
+            "meaning": "早餐"
           },
           {
             "word": "or",
@@ -48,7 +48,7 @@
           {
             "word": "Lunch",
             "pos": "n.",
-            "meaning": "Lunch（待补充）"
+            "meaning": "午餐"
           }
         ]
       }
@@ -308,6 +308,7 @@
     {
       "id": "s2",
       "role": "Woman",
+      "image": "/images/nce2/l2/scene2.png",
       "text": "I looked out of the window.",
       "translation": "我往窗外一看。",
       "startTime": 31.06,
@@ -414,6 +415,7 @@
     {
       "id": "s5",
       "role": "Man",
+      "image": "/images/nce2/l2/scene3.png",
       "text": "'It's raining again.' Just then, the telephone rang.",
       "translation": "'又下雨了。'就在这时，电话铃响了。",
       "startTime": 39.6,
@@ -466,6 +468,7 @@
     {
       "id": "s6",
       "role": "Man",
+      "image": "/images/nce2/l2/scene4.png",
       "text": "It was my aunt Lucy.",
       "translation": "是我姑妈露西打来的。",
       "startTime": 46.04,
@@ -550,6 +553,7 @@
     {
       "id": "s8",
       "role": "Man",
+      "image": "/images/nce2/l2/scene5.png",
       "text": "'I'm coming to see you.' 'But I'm still having breakfast,' I said.",
       "translation": "'我这就来看你。''但我还在吃早饭，'我说。",
       "startTime": 53.09,
@@ -800,5 +804,6 @@
       }
     }
   ],
-  "thumbnail": "/images/nce2/l2/thumbnail.jpg"
+  "thumbnail": "/images/nce2/l2/scene1.png"
+
 }

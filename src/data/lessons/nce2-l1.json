@@ -2,7 +2,7 @@
   "id": "nce2-l1",
   "title": "Lesson 1: A Private Conversation",
   "audio": "/audio/nce2/01－A Private Conversation.mp3",
-  "image": "/images/nce2/l1/scene1.jpg",
+  "image": "/images/nce2/l1/scene1.png",
   "segments": [
     {
       "id": "intro_1",
@@ -328,6 +328,7 @@
     {
       "id": "s2",
       "role": "Woman",
+      "image": "/images/nce2/l1/scene2.png",
       "text": "A young man and a young woman were sitting behind me.",
       "translation": "一对青年男女坐在我的身后。",
       "startTime": 27.43,
@@ -450,7 +451,7 @@
       "id": "s5",
       "role": "Man",
       "text": "I could not hear the actors.",
-      "translation": "我听不见演员们在说什么。",
+      "translation": "我听看见演员们在说什么。",
       "startTime": 37.41,
       "endTime": 40.14,
       "analysis": {
@@ -491,6 +492,7 @@
     {
       "id": "s6",
       "role": "Woman",
+      "image": "/images/nce2/l1/scene3.png",
       "text": "I turned round.",
       "translation": "我转过身去。",
       "startTime": 40.64,
@@ -696,6 +698,7 @@
     {
       "id": "s11",
       "role": "Man",
+      "image": "/images/nce2/l1/scene4.png",
       "text": "'I can't hear a word!' I said angrily.",
       "translation": "'我一个字也听不见！'我生气地说。",
       "startTime": 57.75,
@@ -845,5 +848,6 @@
       }
     }
   ],
-  "thumbnail": "/images/nce2/l1/thumbnail.jpg"
+  "thumbnail": "/images/nce2/l1/scene1.png"
+
 }
