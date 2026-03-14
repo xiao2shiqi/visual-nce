@@ -27,16 +27,15 @@ defineExpose({
 <template>
   <div class="lg:col-span-5 lg:sticky lg:top-24 lg:self-start">
     <div class="relative group">
-      <!-- Image Container -->
+        <!-- Image Container -->
       <div class="aspect-[4/3] bg-gradient-to-br from-slate-100 to-slate-50 rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 ring-1 ring-black/5">
-        <Transition name="fade" mode="out-in">
-          <img 
-            :key="currentImage"
-            :src="currentImage" 
-            :alt="lessonTitle"
-            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-          />
-        </Transition>
+        <img 
+          :key="currentImage"
+          :src="currentImage" 
+          :alt="lessonTitle"
+          class="w-full h-full object-cover group-hover:scale-[1.02]"
+        />
+
         
         <!-- Scene Badge -->
         <div class="absolute top-4 left-4">
@@ -118,12 +117,4 @@ defineExpose({
 </template>
 
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
 </style>
