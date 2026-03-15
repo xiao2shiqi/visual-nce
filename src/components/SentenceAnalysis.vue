@@ -1,6 +1,5 @@
 <script setup lang="ts">
 
-import { ref } from 'vue';
 import type { Segment } from '../types/lesson';
 
 const props = defineProps<{
@@ -9,22 +8,6 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits(['close']);
-
-// Track which word was just copied
-const copiedWordIndex = ref<number | null>(null);
-
-// Copy word to clipboard
-const copyWord = (word: string, index: number, event: Event) => {
-  event.stopPropagation(); // Prevent triggering speakWord
-  navigator.clipboard.writeText(word).then(() => {
-    copiedWordIndex.value = index;
-    setTimeout(() => {
-      if (copiedWordIndex.value === index) {
-        copiedWordIndex.value = null;
-      }
-    }, 2000);
-  });
-};
 
 // 使用 Web Speech API 朗读单词
 const speakWord = (word: string) => {
@@ -131,7 +114,7 @@ const speakWord = (word: string) => {
               </h5>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div 
-                  v-for="(word, i) in segment.analysis.words" 
+                  v-for="(word, i) in segment.analysis.words.filter(w => !['pron.', 'art.'].includes(w.pos))"
                   :key="i"
                   class="p-4 rounded-xl bg-white border border-slate-200/60 shadow-sm group/word transition-all hover:shadow-lg hover:shadow-purple-500/10 hover:border-violet-200 hover:-translate-y-0.5 text-left relative overflow-hidden"
                 >
@@ -169,20 +152,6 @@ const speakWord = (word: string) => {
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                           </svg>
                         </a>
-                        <!-- Copy Button -->
-                        <button
-                          @click="copyWord(word.word, i, $event)"
-                          class="w-7 h-7 rounded-lg flex items-center justify-center transition-all"
-                          :class="copiedWordIndex === i ? 'bg-green-50 text-green-500' : 'text-slate-400 hover:bg-slate-100 hover:text-slate-600 opacity-0 group-hover/word:opacity-100'"
-                          title="复制单词"
-                        >
-                          <svg v-if="copiedWordIndex !== i" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
-                          </svg>
-                          <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                          </svg>
-                        </button>
                       </div>
                     </div>
                     <p class="text-sm text-slate-600 font-medium leading-relaxed">{{ word.meaning }}</p>

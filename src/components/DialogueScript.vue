@@ -228,7 +228,7 @@ defineExpose({
             <button 
               @click="toggleAnalysis(s, $event)"
               class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 hover:bg-purple-50 group/ai"
-              :class="[activeAnalysisSegment?.id === s.id ? 'bg-purple-100 text-purple-600 shadow-sm ring-1 ring-purple-200' : 'text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-purple-400']"
+              :class="[activeAnalysisSegment?.id === s.id ? 'bg-purple-100 text-purple-600 shadow-sm ring-1 ring-purple-200' : activeSegmentId === s.id ? 'text-purple-400 opacity-70 group-hover:opacity-100' : 'text-slate-300 opacity-20 group-hover:opacity-100 group-hover:text-purple-400']"
               title="魔法分析"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 transition-transform group-hover/ai:rotate-12">

@@ -31,19 +31,9 @@
       "analysis": {
         "words": [
           {
-            "word": "It's",
-            "pos": "adj.",
-            "meaning": "它的"
-          },
-          {
             "word": "only",
-            "pos": "n.",
-            "meaning": "只有"
-          },
-          {
-            "word": "me",
-            "pos": "pron.",
-            "meaning": "我"
+            "pos": "adv.",
+            "meaning": "仅仅"
           }
         ]
       }
@@ -58,19 +48,9 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "did",
-            "pos": "v.",
-            "meaning": "做"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "什么"
           },
           {
             "word": "man",
@@ -79,33 +59,23 @@
           },
           {
             "word": "expect",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
             "pos": "v.",
-            "meaning": "去/向"
+            "meaning": "期望"
           },
           {
             "word": "find",
-            "pos": "n.",
-            "meaning": "发现"
+            "pos": "v.",
+            "meaning": "找到"
           },
           {
             "word": "under",
-            "pos": "n.",
-            "meaning": "在下面"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "prep.",
+            "meaning": "在…下面"
           },
           {
             "word": "stairs",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "楼梯"
           }
         ]
       }
@@ -120,104 +90,49 @@
       "analysis": {
         "words": [
           {
-            "word": "After",
-            "pos": "n.",
-            "meaning": "在...后"
-          },
-          {
-            "word": "her",
-            "pos": "n.",
-            "meaning": "她"
+            "word": "after",
+            "pos": "conj.",
+            "meaning": "在…之后"
           },
           {
             "word": "husband",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "丈夫"
           },
           {
-            "word": "had",
-            "pos": "n.",
-            "meaning": "有"
+            "word": "go to work",
+            "pos": "v. phr.",
+            "meaning": "上班"
           },
           {
-            "word": "gone",
+            "word": "Mrs. Richards",
+            "pos": "n. phr.",
+            "meaning": "理查兹夫人"
+          },
+          {
+            "word": "send",
             "pos": "v.",
-            "meaning": "去"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "work",
-            "pos": "n.",
-            "meaning": "工作"
-          },
-          {
-            "word": "Mrs",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "Richards",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "sent",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "her",
-            "pos": "n.",
-            "meaning": "她"
+            "meaning": "送走"
           },
           {
             "word": "children",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "孩子"
           },
           {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "word": "to school",
+            "pos": "adv. phr.",
+            "meaning": "上学"
           },
           {
-            "word": "school",
-            "pos": "n.",
-            "meaning": "学校"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
-          },
-          {
-            "word": "went",
-            "pos": "v.",
-            "meaning": "去"
-          },
-          {
-            "word": "upstairs",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "her",
-            "pos": "n.",
-            "meaning": "她"
+            "word": "go upstairs",
+            "pos": "v. phr.",
+            "meaning": "上楼"
           },
           {
             "word": "bedroom",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "卧室"
           }
         ]
       }
@@ -232,9 +147,69 @@
       "analysis": {
         "words": [
           {
-            "word": "fancy-dress",
+            "word": "excited",
             "pos": "adj.",
-            "meaning": "(化装舞会)所穿的服装"
+            "meaning": "兴奋的"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "太，过于"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "housework",
+            "pos": "n.",
+            "meaning": "家务"
+          },
+          {
+            "word": "that",
+            "pos": "adj.",
+            "meaning": "那个"
+          },
+          {
+            "word": "morning",
+            "pos": "n.",
+            "meaning": "早上"
+          },
+          {
+            "word": "for",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "in the evening",
+            "pos": "adv. phr.",
+            "meaning": "在晚上"
+          },
+          {
+            "word": "go to",
+            "pos": "v. phr.",
+            "meaning": "去，参加"
+          },
+          {
+            "word": "fancy-dress party",
+            "pos": "n. phr.",
+            "meaning": "化装舞会"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "和...一起"
+          },
+          {
+            "word": "husband",
+            "pos": "n.",
+            "meaning": "丈夫"
           }
         ]
       }
@@ -249,14 +224,54 @@
       "analysis": {
         "words": [
           {
+            "word": "intended",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "dress up as",
+            "pos": "v. phr.",
+            "meaning": "打扮成"
+          },
+          {
             "word": "ghost",
             "pos": "n.",
-            "meaning": "鬼，幽灵"
+            "meaning": "鬼"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "made",
+            "pos": "v.",
+            "meaning": "制作"
           },
           {
             "word": "costume",
             "pos": "n.",
-            "meaning": "服装，戏装"
+            "meaning": "戏服"
+          },
+          {
+            "word": "the night before",
+            "pos": "n. phr.",
+            "meaning": "前一晚"
+          },
+          {
+            "word": "impatient",
+            "pos": "adj.",
+            "meaning": "不耐烦的"
+          },
+          {
+            "word": "try on",
+            "pos": "v. phr.",
+            "meaning": "试穿"
           }
         ]
       }
@@ -270,6 +285,41 @@
       "endTime": 49.61,
       "analysis": {
         "words": [
+          {
+            "word": "though",
+            "pos": "conj.",
+            "meaning": "尽管"
+          },
+          {
+            "word": "costume",
+            "pos": "n.",
+            "meaning": "戏服"
+          },
+          {
+            "word": "consist of",
+            "pos": "v. phr.",
+            "meaning": "由...组成"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "sheet",
+            "pos": "n.",
+            "meaning": "床单"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
           {
             "word": "effective",
             "pos": "adj.",
@@ -289,43 +339,28 @@
         "words": [
           {
             "word": "After",
-            "pos": "n.",
-            "meaning": "在...后"
+            "pos": "prep.",
+            "meaning": "在…之后"
           },
           {
-            "word": "putting",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "put on",
+            "pos": "v. phr.",
+            "meaning": "穿上"
           },
           {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
-          },
-          {
-            "word": "Mrs",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "Richards",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "Mrs. Richards",
+            "pos": "n. phr.",
+            "meaning": "理查兹夫人"
           },
           {
             "word": "went",
             "pos": "v.",
-            "meaning": "去"
+            "meaning": "去了"
           },
           {
             "word": "downstairs",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "在楼下"
           }
         ]
       }
@@ -340,9 +375,39 @@
       "analysis": {
         "words": [
           {
+            "word": "wanted",
+            "pos": "v.",
+            "meaning": "想，希望"
+          },
+          {
+            "word": "find out",
+            "pos": "v. phr.",
+            "meaning": "查明，发现"
+          },
+          {
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
+            "word": "would",
+            "pos": "aux. v.",
+            "meaning": "会，将"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "comfortable",
             "pos": "adj.",
-            "meaning": "舒服的"
+            "meaning": "舒适的"
+          },
+          {
+            "word": "wear",
+            "pos": "v.",
+            "meaning": "穿戴"
           }
         ]
       }
@@ -357,84 +422,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Just",
-            "pos": "n.",
-            "meaning": "仅仅"
+            "word": "Just as",
+            "pos": "conj. phr.",
+            "meaning": "正当…时候"
           },
           {
-            "word": "as",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "Mrs",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "Richards",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Mrs. Richards",
+            "pos": "n. phr.",
+            "meaning": "理查兹夫人"
           },
           {
             "word": "entering",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "v.",
+            "meaning": "进入"
           },
           {
             "word": "dining-room",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "饭厅"
           },
           {
-            "word": "there",
-            "pos": "n.",
-            "meaning": "那里"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "word": "there was",
+            "pos": "v. phr.",
+            "meaning": "有，存在"
           },
           {
             "word": "knock",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "敲门声"
           },
           {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "front",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "door",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "front door",
+            "pos": "n. phr.",
+            "meaning": "前门"
           }
         ]
       }
@@ -448,6 +468,26 @@
       "endTime": 107.47,
       "analysis": {
         "words": [
+          {
+            "word": "knew",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必定"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
           {
             "word": "baker",
             "pos": "n.",
@@ -466,129 +506,49 @@
       "analysis": {
         "words": [
           {
-            "word": "She",
-            "pos": "n.",
-            "meaning": "她"
-          },
-          {
-            "word": "had",
-            "pos": "n.",
-            "meaning": "有"
-          },
-          {
             "word": "told",
-            "pos": "n.",
+            "pos": "v.",
             "meaning": "告诉"
           },
           {
-            "word": "him",
-            "pos": "n.",
-            "meaning": "他"
+            "word": "come straight in",
+            "pos": "v. phr.",
+            "meaning": "直接进来"
           },
           {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "come",
-            "pos": "n.",
-            "meaning": "来"
-          },
-          {
-            "word": "straight",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "in",
-            "pos": "n.",
-            "meaning": "在...里"
-          },
-          {
-            "word": "if",
-            "pos": "n.",
-            "meaning": "如果"
-          },
-          {
-            "word": "ever",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "she",
-            "pos": "n.",
-            "meaning": "她"
+            "word": "if ever",
+            "pos": "conj. phr.",
+            "meaning": "如果任何时候"
           },
           {
             "word": "failed",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
             "pos": "v.",
-            "meaning": "去/向"
+            "meaning": "未能"
           },
           {
             "word": "open",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "v.",
+            "meaning": "打开"
           },
           {
             "word": "door",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "meaning": "门"
           },
           {
             "word": "leave",
-            "pos": "n.",
-            "meaning": "离开"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "v.",
+            "meaning": "留下"
           },
           {
             "word": "bread",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "面包"
           },
           {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "kitchen",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "table",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "kitchen table",
+            "pos": "n. phr.",
+            "meaning": "餐桌"
           }
         ]
       }
@@ -603,14 +563,54 @@
       "analysis": {
         "words": [
           {
+            "word": "not wanting",
+            "pos": "v. phr.",
+            "meaning": "不愿"
+          },
+          {
             "word": "frighten",
             "pos": "v.",
-            "meaning": "吓唬"
+            "meaning": "惊吓"
+          },
+          {
+            "word": "poor",
+            "pos": "adj.",
+            "meaning": "可怜的"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "Mrs. Richards",
+            "pos": "n. phr.",
+            "meaning": "瑞查兹夫人"
+          },
+          {
+            "word": "quickly",
+            "pos": "adv.",
+            "meaning": "迅速地"
+          },
+          {
+            "word": "hid",
+            "pos": "v.",
+            "meaning": "躲藏"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
           },
           {
             "word": "storeroom",
             "pos": "n.",
             "meaning": "储藏室"
+          },
+          {
+            "word": "stairs",
+            "pos": "n.",
+            "meaning": "楼梯"
           }
         ]
       }
@@ -625,9 +625,34 @@
       "analysis": {
         "words": [
           {
+            "word": "heard",
+            "pos": "v.",
+            "meaning": "听见"
+          },
+          {
+            "word": "front door",
+            "pos": "n. phr.",
+            "meaning": "前门"
+          },
+          {
+            "word": "open",
+            "pos": "v.",
+            "meaning": "打开"
+          },
+          {
+            "word": "heavy",
+            "pos": "adj.",
+            "meaning": "沉重的"
+          },
+          {
             "word": "footsteps",
             "pos": "n.",
             "meaning": "脚步声"
+          },
+          {
+            "word": "hall",
+            "pos": "n.",
+            "meaning": "门厅"
           }
         ]
       }
@@ -642,54 +667,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Suddenly",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "word": "suddenly",
+            "pos": "adv.",
+            "meaning": "突然地"
           },
           {
             "word": "door",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "meaning": "门"
           },
           {
             "word": "storeroom",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
+            "meaning": "储藏室"
           },
           {
             "word": "opened",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "pos": "v.",
+            "meaning": "被打开"
           },
           {
             "word": "man",
@@ -698,8 +693,8 @@
           },
           {
             "word": "entered",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "进入"
           }
         ]
       }
@@ -714,14 +709,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Electricity Board",
+            "word": "Mrs. Richards",
+            "pos": "n. phr.",
+            "meaning": "理查兹夫人"
+          },
+          {
+            "word": "realized",
+            "pos": "v.",
+            "meaning": "意识到"
+          },
+          {
+            "word": "must be",
+            "pos": "aux. v.",
+            "meaning": "必定是"
+          },
+          {
+            "word": "man",
             "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "Electricity Board",
+            "pos": "n. phr.",
             "meaning": "电力局"
           },
           {
-            "word": "meter",
+            "word": "come to read",
+            "pos": "v. phr.",
+            "meaning": "来阅读"
+          },
+          {
+            "word": "metre",
             "pos": "n.",
-            "meaning": "仪表，电表"
+            "meaning": "电表"
           }
         ]
       }
@@ -736,79 +761,39 @@
       "analysis": {
         "words": [
           {
-            "word": "She",
-            "pos": "n.",
-            "meaning": "她"
-          },
-          {
             "word": "tried",
-            "pos": "n.",
+            "pos": "v.",
             "meaning": "尝试"
           },
           {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
             "word": "explain",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "v.",
+            "meaning": "解释"
           },
           {
             "word": "situation",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "情况"
           },
           {
             "word": "saying",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "It's",
-            "pos": "adj.",
-            "meaning": "它的"
+            "pos": "v.",
+            "meaning": "说着"
           },
           {
             "word": "only",
-            "pos": "n.",
-            "meaning": "只有"
-          },
-          {
-            "word": "me",
-            "pos": "pron.",
-            "meaning": "我"
+            "pos": "adv.",
+            "meaning": "仅仅, 只有"
           },
           {
             "word": "but",
-            "pos": "v.",
+            "pos": "conj.",
             "meaning": "但是"
           },
           {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "too",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "late",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "too late",
+            "pos": "adj. phr.",
+            "meaning": "太晚了"
           }
         ]
       }
@@ -823,59 +808,34 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "man",
             "pos": "n.",
             "meaning": "男人"
           },
           {
-            "word": "let",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "out",
-            "pos": "v.",
-            "meaning": "出去"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "word": "let out",
+            "pos": "v. phr.",
+            "meaning": "发出"
           },
           {
             "word": "cry",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "叫喊"
           },
           {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
-          },
-          {
-            "word": "jumped",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "back",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "jumped back",
+            "pos": "v. phr.",
+            "meaning": "向后跳"
           },
           {
             "word": "several",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "几个"
           },
           {
             "word": "paces",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "步"
           }
         ]
       }
@@ -890,14 +850,39 @@
       "analysis": {
         "words": [
           {
-            "word": "flee",
-            "pos": "v.",
-            "meaning": "逃跑"
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
           },
           {
-            "word": "slam",
+            "word": "Mrs. Richards",
+            "pos": "n.",
+            "meaning": "瑞查兹夫人"
+          },
+          {
+            "word": "walked towards",
+            "pos": "v. phr.",
+            "meaning": "走向"
+          },
+          {
+            "word": "fled",
             "pos": "v.",
-            "meaning": "砰地关上"
+            "meaning": "逃走"
+          },
+          {
+            "word": "slamming",
+            "pos": "v.",
+            "meaning": "猛地关上"
+          },
+          {
+            "word": "door",
+            "pos": "n.",
+            "meaning": "门"
+          },
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在...后面"
           }
         ]
       }

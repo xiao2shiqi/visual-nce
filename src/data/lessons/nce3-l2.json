@@ -36,9 +36,14 @@
             "meaning": "十三"
           },
           {
-            "word": "equal",
+            "word": "equals",
             "pos": "v.",
             "meaning": "等于"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
           }
         ]
       }
@@ -53,19 +58,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音磁带"
+            "meaning": "磁带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
           },
           {
             "word": "answer",
-            "pos": "v./n.",
+            "pos": "v.",
             "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -92,12 +107,27 @@
           {
             "word": "pleased",
             "pos": "adj.",
-            "meaning": "高兴的"
+            "meaning": "高兴的；满意的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "clock",
+            "pos": "n.",
+            "meaning": "钟"
           },
           {
             "word": "striking",
             "pos": "v.",
-            "meaning": "敲，打"
+            "meaning": "敲响；报时"
+          },
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
           }
         ]
       }
@@ -112,14 +142,29 @@
       "analysis": {
         "words": [
           {
-            "word": "raise money",
+            "word": "vicar",
+            "pos": "n.",
+            "meaning": "牧师"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "raising money",
             "pos": "v. phr.",
             "meaning": "筹款"
           },
           {
-            "word": "cause",
-            "pos": "n.",
-            "meaning": "事业"
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "one cause or another",
+            "pos": "n. phr.",
+            "meaning": "各种原因"
           }
         ]
       }
@@ -134,14 +179,49 @@
       "analysis": {
         "words": [
           {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
             "word": "managed",
             "pos": "v.",
             "meaning": "设法做到"
           },
           {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "获得"
+          },
+          {
+            "word": "enough",
+            "pos": "adj.",
+            "meaning": "足够的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "使役动词"
+          },
+          {
+            "word": "church clock",
+            "pos": "n. phr.",
+            "meaning": "教堂钟"
+          },
+          {
             "word": "repaired",
             "pos": "v.",
-            "meaning": "修理"
+            "meaning": "被修理"
           }
         ]
       }
@@ -156,9 +236,34 @@
       "analysis": {
         "words": [
           {
-            "word": "strike the hours",
-            "pos": "v. phr.",
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "clock",
+            "pos": "n.",
+            "meaning": "钟"
+          },
+          {
+            "word": "used to",
+            "pos": "aux. v.",
+            "meaning": "过去常常"
+          },
+          {
+            "word": "strike",
+            "pos": "v.",
             "meaning": "报时"
+          },
+          {
+            "word": "hours",
+            "pos": "n.",
+            "meaning": "钟点"
+          },
+          {
+            "word": "day and night",
+            "pos": "adv. phr.",
+            "meaning": "日夜"
           },
           {
             "word": "damaged",
@@ -166,9 +271,29 @@
             "meaning": "损坏"
           },
           {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
             "word": "silent",
             "pos": "adj.",
-            "meaning": "沉默的，不响的"
+            "meaning": "寂静的"
+          },
+          {
+            "word": "ever since",
+            "pos": "adv. phr.",
+            "meaning": "从那以后"
           }
         ]
       }
@@ -183,14 +308,44 @@
       "analysis": {
         "words": [
           {
+            "word": "One",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "夜晚"
+          },
+          {
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而"
+          },
+          {
+            "word": "vicar",
+            "pos": "n.",
+            "meaning": "教区牧师"
+          },
+          {
             "word": "woke up",
             "pos": "v. phr.",
             "meaning": "醒来"
           },
           {
-            "word": "start",
+            "word": "with a start",
+            "pos": "adv. phr.",
+            "meaning": "猛地一惊"
+          },
+          {
+            "word": "clock",
             "pos": "n.",
-            "meaning": "惊起，惊动"
+            "meaning": "钟"
+          },
+          {
+            "word": "striking the hours",
+            "pos": "v. phr.",
+            "meaning": "报时"
           }
         ]
       }
@@ -205,9 +360,34 @@
       "analysis": {
         "words": [
           {
+            "word": "looking at",
+            "pos": "v. phr.",
+            "meaning": "看着，瞧着"
+          },
+          {
             "word": "watch",
             "pos": "n.",
             "meaning": "手表"
+          },
+          {
+            "word": "saw",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "one o'clock",
+            "pos": "n. phr.",
+            "meaning": "一点钟"
           }
         ]
       }
@@ -222,14 +402,39 @@
       "analysis": {
         "words": [
           {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "bell",
+            "pos": "n.",
+            "meaning": "钟，铃"
+          },
+          {
             "word": "struck",
             "pos": "v.",
-            "meaning": "敲，打"
+            "meaning": "敲响，鸣响"
           },
           {
             "word": "thirteen",
             "pos": "num.",
             "meaning": "十三"
+          },
+          {
+            "word": "times",
+            "pos": "n.",
+            "meaning": "次，回"
+          },
+          {
+            "word": "before",
+            "pos": "conj.",
+            "meaning": "在…之前"
+          },
+          {
+            "word": "stopped",
+            "pos": "v.",
+            "meaning": "停止"
           }
         ]
       }
@@ -244,9 +449,9 @@
       "analysis": {
         "words": [
           {
-            "word": "Armed with",
-            "pos": "v. phr.",
-            "meaning": "带着"
+            "word": "armed",
+            "pos": "adj.",
+            "meaning": "武装的"
           },
           {
             "word": "torch",
@@ -254,9 +459,39 @@
             "meaning": "手电筒"
           },
           {
-            "word": "tower",
+            "word": "vicar",
             "pos": "n.",
-            "meaning": "塔"
+            "meaning": "教区牧师"
+          },
+          {
+            "word": "go up",
+            "pos": "v. phr.",
+            "meaning": "上去，登上"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "clock tower",
+            "pos": "n. phr.",
+            "meaning": "钟楼"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "查看，弄清"
+          },
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "go on",
+            "pos": "v. phr.",
+            "meaning": "发生，进行"
           }
         ]
       }
@@ -273,12 +508,12 @@
           {
             "word": "torchlight",
             "pos": "n.",
-            "meaning": "手电光"
+            "meaning": "火炬光"
           },
           {
-            "word": "caught sight of",
+            "word": "catch sight of",
             "pos": "v. phr.",
-            "meaning": "看见"
+            "meaning": "瞥见"
           },
           {
             "word": "figure",
@@ -286,9 +521,29 @@
             "meaning": "人影"
           },
           {
-            "word": "recognize",
-            "pos": "v.",
-            "meaning": "认出"
+            "word": "whom",
+            "pos": "pron.",
+            "meaning": "谁(宾格)"
+          },
+          {
+            "word": "immediately",
+            "pos": "adv.",
+            "meaning": "立即"
+          },
+          {
+            "word": "recognize as",
+            "pos": "v. phr.",
+            "meaning": "认作是"
+          },
+          {
+            "word": "Bill Wilkins",
+            "pos": "n.",
+            "meaning": "比尔·威尔金斯"
+          },
+          {
+            "word": "local",
+            "pos": "adj.",
+            "meaning": "当地的"
           },
           {
             "word": "grocer",
@@ -308,14 +563,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Whatever",
-            "pos": "adv.",
-            "meaning": "究竟，到底"
+            "word": "whatever",
+            "pos": "pron.",
+            "meaning": "究竟什么"
           },
           {
-            "word": "surprise",
-            "pos": "n./v.",
-            "meaning": "惊讶"
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "up here",
+            "pos": "adv. phr.",
+            "meaning": "在这里"
+          },
+          {
+            "word": "Bill",
+            "pos": "n.",
+            "meaning": "比尔"
+          },
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "询问"
+          },
+          {
+            "word": "vicar",
+            "pos": "n.",
+            "meaning": "教区牧师"
+          },
+          {
+            "word": "in surprise",
+            "pos": "adv. phr.",
+            "meaning": "惊讶地"
           }
         ]
       }
@@ -330,9 +610,29 @@
       "analysis": {
         "words": [
           {
+            "word": "trying",
+            "pos": "v.",
+            "meaning": "尝试，努力"
+          },
+          {
             "word": "repair",
             "pos": "v.",
             "meaning": "修理"
+          },
+          {
+            "word": "bell",
+            "pos": "n.",
+            "meaning": "铃，钟"
+          },
+          {
+            "word": "answered",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "Bill",
+            "pos": "n.",
+            "meaning": "比尔 (人名)"
           }
         ]
       }
@@ -347,9 +647,34 @@
       "analysis": {
         "words": [
           {
+            "word": "coming up",
+            "pos": "v. phr.",
+            "meaning": "上来"
+          },
+          {
+            "word": "here",
+            "pos": "adv.",
+            "meaning": "在这里"
+          },
+          {
             "word": "night after night",
             "pos": "adv. phr.",
-            "meaning": "一夜连着一夜"
+            "meaning": "夜复一夜"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "达(某段时间)"
+          },
+          {
+            "word": "weeks",
+            "pos": "n.",
+            "meaning": "几周"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
@@ -364,9 +689,24 @@
       "analysis": {
         "words": [
           {
-            "word": "hoping",
+            "word": "see",
+            "pos": "v.",
+            "meaning": "你知道吗"
+          },
+          {
+            "word": "hope",
             "pos": "v.",
             "meaning": "希望"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给予"
+          },
+          {
+            "word": "surprise",
+            "pos": "n.",
+            "meaning": "惊喜"
           }
         ]
       }
@@ -383,7 +723,32 @@
           {
             "word": "certainly",
             "pos": "adv.",
-            "meaning": "肯定地，的确"
+            "meaning": "确实地"
+          },
+          {
+            "word": "did",
+            "pos": "aux. v.",
+            "meaning": "确实（表强调）"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给予"
+          },
+          {
+            "word": "surprise",
+            "pos": "n.",
+            "meaning": "惊喜"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "vicar",
+            "pos": "n.",
+            "meaning": "教区牧师"
           }
         ]
       }
@@ -400,12 +765,27 @@
           {
             "word": "probably",
             "pos": "adv.",
-            "meaning": "大概，或许"
+            "meaning": "可能，大概"
+          },
+          {
+            "word": "woken up",
+            "pos": "v. phr.",
+            "meaning": "叫醒，弄醒"
+          },
+          {
+            "word": "everyone",
+            "pos": "pron.",
+            "meaning": "每个人"
           },
           {
             "word": "village",
             "pos": "n.",
             "meaning": "村庄"
+          },
+          {
+            "word": "as well",
+            "pos": "adv. phr.",
+            "meaning": "也，另外"
           }
         ]
       }
@@ -420,14 +800,29 @@
       "analysis": {
         "words": [
           {
+            "word": "Still",
+            "pos": "adv.",
+            "meaning": "不过"
+          },
+          {
             "word": "glad",
             "pos": "adj.",
-            "meaning": "高兴的"
+            "meaning": "欣慰的"
+          },
+          {
+            "word": "bell",
+            "pos": "n.",
+            "meaning": "铃铛"
           },
           {
             "word": "working",
             "pos": "v.",
-            "meaning": "（钟、机器等）运转"
+            "meaning": "运行"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
           }
         ]
       }
@@ -442,9 +837,49 @@
       "analysis": {
         "words": [
           {
+            "word": "that",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "trouble",
             "pos": "n.",
             "meaning": "麻烦"
+          },
+          {
+            "word": "vicar",
+            "pos": "n.",
+            "meaning": "牧师"
+          },
+          {
+            "word": "answered",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "Bill",
+            "pos": "n.",
+            "meaning": "比尔"
+          },
+          {
+            "word": "is",
+            "pos": "aux. v.",
+            "meaning": "是"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "运转"
+          },
+          {
+            "word": "all right",
+            "pos": "adv. phr.",
+            "meaning": "顺利"
           }
         ]
       }
@@ -459,14 +894,49 @@
       "analysis": {
         "words": [
           {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
             "word": "afraid",
             "pos": "adj.",
-            "meaning": "担心的，害怕的"
+            "meaning": "恐怕的"
+          },
+          {
+            "word": "at one o'clock",
+            "pos": "adv. phr.",
+            "meaning": "一点钟时"
+          },
+          {
+            "word": "strike",
+            "pos": "v.",
+            "meaning": "敲响"
+          },
+          {
+            "word": "thirteen",
+            "pos": "num.",
+            "meaning": "十三"
+          },
+          {
+            "word": "times",
+            "pos": "n.",
+            "meaning": "次数"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
           },
           {
             "word": "nothing",
             "pos": "pron.",
-            "meaning": "没有什么东西"
+            "meaning": "没什么"
+          },
+          {
+            "word": "do about",
+            "pos": "v. phr.",
+            "meaning": "处理"
           }
         ]
       }
@@ -484,6 +954,26 @@
             "word": "get used to",
             "pos": "v. phr.",
             "meaning": "习惯于"
+          },
+          {
+            "word": "that",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "Bill",
+            "pos": "n.",
+            "meaning": "比尔 (人名)"
+          },
+          {
+            "word": "said",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "vicar",
+            "pos": "n.",
+            "meaning": "教区牧师"
           }
         ]
       }
@@ -498,9 +988,34 @@
       "analysis": {
         "words": [
           {
-            "word": "better",
-            "pos": "adj.",
-            "meaning": "更好的"
+            "word": "Thirteen",
+            "pos": "num.",
+            "meaning": "十三"
+          },
+          {
+            "word": "not as good as",
+            "pos": "adj. phr.",
+            "meaning": "不如…好"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "better than",
+            "pos": "adj. phr.",
+            "meaning": "比…更好"
+          },
+          {
+            "word": "nothing",
+            "pos": "pron.",
+            "meaning": "什么也没有"
           }
         ]
       }
@@ -515,9 +1030,29 @@
       "analysis": {
         "words": [
           {
-            "word": "downstairs",
+            "word": "Now",
             "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "let",
+            "pos": "v.",
+            "meaning": "让"
+          },
+          {
+            "word": "go downstairs",
+            "pos": "v. phr.",
             "meaning": "下楼"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
+            "word": "cup of tea",
+            "pos": "n. phr.",
+            "meaning": "一杯茶"
           }
         ]
       }
