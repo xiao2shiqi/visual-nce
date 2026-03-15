@@ -27,7 +27,16 @@
       "text": "Beauty",
       "translation": "",
       "startTime": 2.18,
-      "endTime": 7.99
+      "endTime": 7.99,
+      "analysis": {
+        "words": [
+          {
+            "word": "Beauty",
+            "pos": "n.",
+            "meaning": "美丽"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +48,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "录音带"
           },
           {
             "word": "then",
@@ -70,7 +69,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -91,9 +90,54 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "glimpses",
+            "pos": "n.",
+            "meaning": "一瞥，瞥见"
+          },
+          {
+            "word": "beauty",
+            "pos": "n.",
+            "meaning": "美"
+          },
+          {
+            "word": "either... or...",
+            "pos": "conj.",
+            "meaning": "要么…要么…"
+          },
+          {
+            "word": "nature",
+            "pos": "n.",
+            "meaning": "自然"
+          },
+          {
+            "word": "art",
+            "pos": "n.",
+            "meaning": "艺术"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "suggest",
+            "pos": "v.",
+            "meaning": "暗示，表明"
+          },
+          {
+            "word": "human",
+            "pos": "adj.",
+            "meaning": "人类的"
+          },
+          {
+            "word": "mind",
+            "pos": "n.",
+            "meaning": "思想，心智"
           }
         ]
       }
@@ -108,14 +152,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Young",
+            "word": "young",
             "pos": "adj.",
             "meaning": "年轻的"
           },
           {
-            "word": "Man",
+            "word": "man",
             "pos": "n.",
             "meaning": "男人"
+          },
+          {
+            "word": "sees",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "sunset",
+            "pos": "n.",
+            "meaning": "日落"
           }
         ]
       }
@@ -130,14 +184,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "unable",
+            "pos": "adj.",
+            "meaning": "无法的"
           },
           {
-            "word": "It",
+            "word": "understand",
+            "pos": "v.",
+            "meaning": "理解"
+          },
+          {
+            "word": "express",
+            "pos": "v.",
+            "meaning": "表达"
+          },
+          {
+            "word": "emotion",
+            "pos": "n.",
+            "meaning": "情感"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "（引导定语从句）"
+          },
+          {
+            "word": "rouses",
+            "pos": "v.",
+            "meaning": "唤起，激起"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在…之中"
           }
         ]
       }
@@ -152,14 +231,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "concludes",
+            "pos": "v.",
+            "meaning": "得出结论"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "一定，必然"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "gateway",
+            "pos": "n.",
+            "meaning": "入口，途径"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "通向"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "lie beyond",
+            "pos": "v. phr.",
+            "meaning": "存在于…之外"
           }
         ]
       }
@@ -174,14 +278,34 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "difficult",
+            "pos": "adj.",
+            "meaning": "困难的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "any",
+            "pos": "pron.",
+            "meaning": "任何"
+          },
+          {
+            "word": "moments",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "intense",
+            "pos": "adj.",
+            "meaning": "强烈的"
+          },
+          {
+            "word": "aesthetic",
+            "pos": "adj.",
+            "meaning": "审美的"
+          },
+          {
+            "word": "experience",
+            "pos": "n.",
+            "meaning": "体验"
           }
         ]
       }
@@ -196,9 +320,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "resist",
+            "pos": "v.",
+            "meaning": "抵抗，抵制"
+          },
+          {
+            "word": "suggestion",
+            "pos": "n.",
+            "meaning": "建议，暗示"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "catch a glimpse of",
+            "pos": "v. phr.",
+            "meaning": "瞥见"
+          },
+          {
+            "word": "light",
+            "pos": "n.",
+            "meaning": "光，灯光"
           }
         ]
       }
@@ -213,9 +357,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "shines down",
+            "pos": "v. phr.",
+            "meaning": "照射下来"
+          },
+          {
+            "word": "different",
+            "pos": "adj.",
+            "meaning": "不同的"
+          },
+          {
+            "word": "realm",
+            "pos": "n.",
+            "meaning": "领域，界"
+          },
+          {
+            "word": "existence",
+            "pos": "n.",
+            "meaning": "存在，生存"
+          },
+          {
+            "word": "different",
+            "pos": "adj.",
+            "meaning": "不同的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，以及"
           }
         ]
       }
@@ -230,9 +399,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "experience",
+            "pos": "n.",
+            "meaning": "经历，体验"
+          },
+          {
+            "word": "intensely",
+            "pos": "adv.",
+            "meaning": "强烈地"
+          },
+          {
+            "word": "moving",
+            "pos": "adj.",
+            "meaning": "感人的"
+          },
+          {
+            "word": "in some way",
+            "pos": "adv. phr.",
+            "meaning": "某种程度上"
+          },
+          {
+            "word": "higher",
+            "pos": "adj.",
+            "meaning": "更高的"
           }
         ]
       }
@@ -245,7 +439,53 @@
       "startTime": 50.94,
       "endTime": 57.43,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "though",
+            "pos": "conj.",
+            "meaning": "尽管，虽然"
+          },
+          {
+            "word": "gleam",
+            "pos": "n.",
+            "meaning": "微光，闪光"
+          },
+          {
+            "word": "blind",
+            "pos": "v.",
+            "meaning": "使失明，使眩目"
+          },
+          {
+            "word": "dazzle",
+            "pos": "v.",
+            "meaning": "使眩晕，使眼花缭乱"
+          },
+          {
+            "word": "yet",
+            "pos": "conj.",
+            "meaning": "然而，但是"
+          },
+          {
+            "word": "convey",
+            "pos": "v.",
+            "meaning": "传达，表达"
+          },
+          {
+            "word": "hint",
+            "pos": "n.",
+            "meaning": "暗示，迹象"
+          },
+          {
+            "word": "beauty",
+            "pos": "n.",
+            "meaning": "美丽，美"
+          },
+          {
+            "word": "serenity",
+            "pos": "n.",
+            "meaning": "宁静，平静"
+          }
+        ]
       }
     },
     {
@@ -258,9 +498,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Too",
+            "word": "greater",
+            "pos": "adj.",
+            "meaning": "更大的"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比…"
+          },
+          {
+            "word": "have known",
+            "pos": "v. phr.",
+            "meaning": "已知晓"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "imagined",
+            "pos": "v.",
+            "meaning": "想象"
+          },
+          {
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "也，还"
+          },
+          {
+            "word": "can describe",
+            "pos": "v. phr.",
+            "meaning": "能描述"
           }
         ]
       }
@@ -275,9 +545,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "language",
+            "pos": "n.",
+            "meaning": "语言"
+          },
+          {
+            "word": "invented",
+            "pos": "v.",
+            "meaning": "发明"
+          },
+          {
+            "word": "convey",
+            "pos": "v.",
+            "meaning": "传达"
+          },
+          {
+            "word": "meanings",
+            "pos": "n.",
+            "meaning": "意义"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这个"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
           }
         ]
       }
@@ -288,7 +593,36 @@
       "text": "cannot readily be fitted to the uses of another.",
       "translation": "",
       "startTime": 68,
-      "endTime": 72.81
+      "endTime": 72.81,
+      "analysis": {
+        "words": [
+          {
+            "word": "cannot",
+            "pos": "aux. v.",
+            "meaning": "不能"
+          },
+          {
+            "word": "readily",
+            "pos": "adv.",
+            "meaning": "轻易地"
+          },
+          {
+            "word": "be fitted to",
+            "pos": "v. phr.",
+            "meaning": "适应于"
+          },
+          {
+            "word": "uses",
+            "pos": "n.",
+            "meaning": "用途"
+          },
+          {
+            "word": "another",
+            "pos": "pron.",
+            "meaning": "另一个"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -300,19 +634,54 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "all",
+            "pos": "adj.",
+            "meaning": "所有的"
           },
           {
-            "word": "This",
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "伟大的"
+          },
+          {
+            "word": "art",
+            "pos": "n.",
+            "meaning": "艺术"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "Is",
+            "word": "power",
+            "pos": "n.",
+            "meaning": "力量，能力"
+          },
+          {
+            "word": "suggest",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "暗示，表明"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "beyond",
+            "pos": "prep.",
+            "meaning": "超越，在…之外"
+          },
+          {
+            "word": "undeniable",
+            "pos": "adj.",
+            "meaning": "不可否认的"
           }
         ]
       }
@@ -327,9 +696,24 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "某些，一些"
+          },
+          {
+            "word": "mood",
+            "pos": "n.",
+            "meaning": "心情，情绪"
+          },
+          {
+            "word": "nature",
+            "pos": "n.",
+            "meaning": "大自然"
+          },
+          {
+            "word": "share",
+            "pos": "v.",
+            "meaning": "分享，分担"
           }
         ]
       }
@@ -344,29 +728,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
           },
           {
-            "word": "Blue",
+            "word": "sky",
+            "pos": "n.",
+            "meaning": "天空"
+          },
+          {
+            "word": "June",
+            "pos": "n.",
+            "meaning": "六月"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此"
+          },
+          {
+            "word": "blue",
             "pos": "adj.",
             "meaning": "蓝色的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "point forward to",
+            "pos": "v. phr.",
+            "meaning": "指向未来"
+          },
+          {
+            "word": "bluer",
+            "pos": "adj.",
+            "meaning": "更蓝的"
           }
         ]
       }
@@ -381,19 +785,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "sunset",
+            "pos": "n.",
+            "meaning": "日落"
           },
           {
-            "word": "Not",
+            "word": "so",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "如此，这么"
+          },
+          {
+            "word": "beautiful",
+            "pos": "adj.",
+            "meaning": "美丽的"
+          },
+          {
+            "word": "waken",
+            "pos": "v.",
+            "meaning": "唤醒"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不，没有"
+          },
+          {
+            "word": "vision",
+            "pos": "n.",
+            "meaning": "景象，幻象"
+          },
+          {
+            "word": "greater",
+            "pos": "adj.",
+            "meaning": "更美的"
+          },
+          {
+            "word": "beauty",
+            "pos": "n.",
+            "meaning": "美丽"
           }
         ]
       }
@@ -408,14 +842,29 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "vision",
+            "pos": "n.",
+            "meaning": "景象"
           },
           {
-            "word": "Is",
+            "word": "passes",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "流逝"
+          },
+          {
+            "word": "before",
+            "pos": "conj.",
+            "meaning": "在…之前"
+          },
+          {
+            "word": "fully",
+            "pos": "adv.",
+            "meaning": "完全地"
+          },
+          {
+            "word": "glimpsed",
+            "pos": "v.",
+            "meaning": "瞥见"
           }
         ]
       }
@@ -426,7 +875,36 @@
       "text": "and in passing leaves an indefinable longing and regret.",
       "translation": "",
       "startTime": 98.23,
-      "endTime": 102.47
+      "endTime": 102.47,
+      "analysis": {
+        "words": [
+          {
+            "word": "in passing",
+            "pos": "adv. phr.",
+            "meaning": "顺便地"
+          },
+          {
+            "word": "leave",
+            "pos": "v.",
+            "meaning": "留下, 带来"
+          },
+          {
+            "word": "indefinable",
+            "pos": "adj.",
+            "meaning": "无法形容的"
+          },
+          {
+            "word": "longing",
+            "pos": "n.",
+            "meaning": "渴望"
+          },
+          {
+            "word": "regret",
+            "pos": "n.",
+            "meaning": "遗憾, 悔恨"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -438,19 +916,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Is",
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "merely",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "bad",
+            "pos": "adj.",
+            "meaning": "糟糕的"
+          },
+          {
+            "word": "joke",
+            "pos": "n.",
+            "meaning": "笑话"
           }
         ]
       }
@@ -461,7 +969,46 @@
       "text": "life a vulgar flare amid the cool radiance of the stars,",
       "translation": "",
       "startTime": 105.95,
-      "endTime": 110.04
+      "endTime": 110.04,
+      "analysis": {
+        "words": [
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生命"
+          },
+          {
+            "word": "vulgar",
+            "pos": "adj.",
+            "meaning": "庸俗的"
+          },
+          {
+            "word": "flare",
+            "pos": "n.",
+            "meaning": "闪光"
+          },
+          {
+            "word": "amid",
+            "pos": "prep.",
+            "meaning": "在…之中"
+          },
+          {
+            "word": "cool",
+            "pos": "adj.",
+            "meaning": "清冷的"
+          },
+          {
+            "word": "radiance",
+            "pos": "n.",
+            "meaning": "光辉"
+          },
+          {
+            "word": "stars",
+            "pos": "n.",
+            "meaning": "星星"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -469,7 +1016,41 @@
       "text": "and existence an empty laugh braying across the mysteries;",
       "translation": "",
       "startTime": 110.05,
-      "endTime": 114.9
+      "endTime": 114.9,
+      "analysis": {
+        "words": [
+          {
+            "word": "existence",
+            "pos": "n.",
+            "meaning": "存在"
+          },
+          {
+            "word": "empty",
+            "pos": "adj.",
+            "meaning": "空的"
+          },
+          {
+            "word": "laugh",
+            "pos": "n.",
+            "meaning": "笑声"
+          },
+          {
+            "word": "braying",
+            "pos": "v.",
+            "meaning": "发出刺耳的叫声"
+          },
+          {
+            "word": "across",
+            "pos": "prep.",
+            "meaning": "穿过，越过"
+          },
+          {
+            "word": "mysteries",
+            "pos": "n.",
+            "meaning": "奥秘，谜团"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -477,7 +1058,46 @@
       "text": "if these intimations of a something behind and beyond",
       "translation": "",
       "startTime": 114.91,
-      "endTime": 119.13
+      "endTime": 119.13,
+      "analysis": {
+        "words": [
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "these",
+            "pos": "pron.",
+            "meaning": "这些"
+          },
+          {
+            "word": "intimation",
+            "pos": "n.",
+            "meaning": "暗示，迹象"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某种事物"
+          },
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在…后面"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "beyond",
+            "pos": "prep.",
+            "meaning": "在…之外"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -489,9 +1109,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "evil",
+            "pos": "adj.",
+            "meaning": "邪恶的"
+          },
+          {
+            "word": "humour",
+            "pos": "n.",
+            "meaning": "情绪"
+          },
+          {
+            "word": "born of",
+            "pos": "adj. phr.",
+            "meaning": "源于"
+          },
+          {
+            "word": "indigestion",
+            "pos": "n.",
+            "meaning": "消化不良"
           }
         ]
       }
@@ -502,7 +1147,66 @@
       "text": "or whimsies sent by the devil to mock and madden us, if, in a word",
       "translation": "",
       "startTime": 123,
-      "endTime": 128.79
+      "endTime": 128.79,
+      "analysis": {
+        "words": [
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "whimsies",
+            "pos": "n.",
+            "meaning": "怪念头"
+          },
+          {
+            "word": "sent",
+            "pos": "v.",
+            "meaning": "送来"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "由...所"
+          },
+          {
+            "word": "devil",
+            "pos": "n.",
+            "meaning": "魔鬼"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "mock",
+            "pos": "v.",
+            "meaning": "嘲弄"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，并"
+          },
+          {
+            "word": "madden",
+            "pos": "v.",
+            "meaning": "使发狂"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "in a word",
+            "pos": "adv. phr.",
+            "meaning": "简而言之"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -514,9 +1218,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "beauty",
+            "pos": "n.",
+            "meaning": "美丽"
+          },
+          {
+            "word": "means",
+            "pos": "v.",
+            "meaning": "意味着"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某物"
+          },
+          {
+            "word": "yet",
+            "pos": "conj.",
+            "meaning": "然而"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "seek to",
+            "pos": "v. phr.",
+            "meaning": "设法"
+          },
+          {
+            "word": "interpret",
+            "pos": "v.",
+            "meaning": "解释"
+          },
+          {
+            "word": "meaning",
+            "pos": "n.",
+            "meaning": "意义"
           }
         ]
       }
@@ -531,14 +1275,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "Is",
+            "word": "glimpse",
+            "pos": "v.",
+            "meaning": "瞥见"
+          },
+          {
+            "word": "unutterable",
+            "pos": "adj.",
+            "meaning": "不可言喻的"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "unwise",
+            "pos": "adj.",
+            "meaning": "不明智的"
+          },
+          {
+            "word": "try",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "utter",
+            "pos": "v.",
+            "meaning": "说出"
           }
         ]
       }
@@ -553,9 +1322,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "nor",
+            "pos": "conj.",
+            "meaning": "也不"
+          },
+          {
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该"
+          },
+          {
+            "word": "seek",
+            "pos": "v.",
+            "meaning": "寻求"
+          },
+          {
+            "word": "invest with significance",
+            "pos": "v. phr.",
+            "meaning": "赋予意义"
+          },
+          {
+            "word": "that which",
+            "pos": "pron. phr.",
+            "meaning": "所…之事/物"
+          },
+          {
+            "word": "cannot",
+            "pos": "aux. v.",
+            "meaning": "不能"
+          },
+          {
+            "word": "grasp",
+            "pos": "v.",
+            "meaning": "理解"
           }
         ]
       }
@@ -570,9 +1369,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Beauty",
+            "pos": "n.",
+            "meaning": "美丽"
+          },
+          {
+            "word": "in terms of",
+            "pos": "prep. phr.",
+            "meaning": "就…而言"
+          },
+          {
+            "word": "human",
+            "pos": "adj.",
+            "meaning": "人类的"
+          },
+          {
+            "word": "meanings",
+            "pos": "n.",
+            "meaning": "意义"
+          },
+          {
+            "word": "meaningless",
+            "pos": "adj.",
+            "meaning": "无意义的"
           }
         ]
       }

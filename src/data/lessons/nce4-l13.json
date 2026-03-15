@@ -27,7 +27,21 @@
       "text": "The search for oil",
       "translation": "搜索\"",
       "startTime": 2.42,
-      "endTime": 10.78
+      "endTime": 10.78,
+      "analysis": {
+        "words": [
+          {
+            "word": "search",
+            "pos": "n.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "oil",
+            "pos": "n.",
+            "meaning": "石油"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -94,6 +98,31 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "oilmen",
+            "pos": "n.",
+            "meaning": "石油工人"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "achieve",
+            "pos": "v.",
+            "meaning": "实现"
+          },
+          {
+            "word": "as soon as",
+            "pos": "conj. phr.",
+            "meaning": "一…就…"
+          },
+          {
+            "word": "strike oil",
+            "pos": "v. phr.",
+            "meaning": "发现石油"
           }
         ]
       }
@@ -108,9 +137,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "deepest",
+            "pos": "adj.",
+            "meaning": "最深的"
+          },
+          {
+            "word": "hole",
+            "pos": "n.",
+            "meaning": "洞"
+          },
+          {
+            "word": "of all",
+            "pos": "adv. phr.",
+            "meaning": "在所有之中"
+          },
+          {
+            "word": "make for",
+            "pos": "v. phr.",
+            "meaning": "用于"
+          },
+          {
+            "word": "oil",
+            "pos": "n.",
+            "meaning": "石油"
+          },
+          {
+            "word": "go down",
+            "pos": "v. phr.",
+            "meaning": "下降"
+          },
+          {
+            "word": "as much as",
+            "pos": "adv. phr.",
+            "meaning": "多达"
+          },
+          {
+            "word": "25,000",
+            "pos": "num.",
+            "meaning": "两万五千"
+          },
+          {
+            "word": "foot",
+            "pos": "n.",
+            "meaning": "英尺"
           }
         ]
       }
@@ -125,14 +194,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是，然而"
           },
           {
-            "word": "Man",
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "send down",
+            "pos": "v. phr.",
+            "meaning": "派下去，送下去"
+          },
+          {
+            "word": "man",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "人，工人"
+          },
+          {
+            "word": "get out",
+            "pos": "v. phr.",
+            "meaning": "取出，开采"
+          },
+          {
+            "word": "oil",
+            "pos": "n.",
+            "meaning": "石油"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "正如，像...一样"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须，必然"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "mineral deposits",
+            "pos": "n. phr.",
+            "meaning": "矿藏，矿床"
           }
         ]
       }
@@ -145,7 +254,38 @@
       "startTime": 34.31,
       "endTime": 40.17,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "holes",
+            "pos": "n.",
+            "meaning": "洞"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "borings",
+            "pos": "n.",
+            "meaning": "钻孔"
+          },
+          {
+            "word": "less than",
+            "pos": "adv. phr.",
+            "meaning": "少于"
+          },
+          {
+            "word": "foot",
+            "pos": "n.",
+            "meaning": "英尺"
+          },
+          {
+            "word": "in diameter",
+            "pos": "prep. phr.",
+            "meaning": "直径"
+          }
+        ]
       }
     },
     {
@@ -158,14 +298,94 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "particular",
+            "pos": "adj.",
+            "meaning": "特别的"
           },
           {
-            "word": "Is",
+            "word": "experience",
+            "pos": "n.",
+            "meaning": "经验"
+          },
+          {
+            "word": "largely",
+            "pos": "adv.",
+            "meaning": "主要地"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...方面"
+          },
+          {
+            "word": "oil",
+            "pos": "n.",
+            "meaning": "石油"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "search",
+            "pos": "n.",
+            "meaning": "搜寻"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "do",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "做出"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更多"
+          },
+          {
+            "word": "improve",
+            "pos": "v.",
+            "meaning": "提高"
+          },
+          {
+            "word": "deep",
+            "pos": "adj.",
+            "meaning": "深的"
+          },
+          {
+            "word": "drilling",
+            "pos": "n.",
+            "meaning": "钻探"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比...更"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "mining",
+            "pos": "adj.",
+            "meaning": "采矿的"
+          },
+          {
+            "word": "activity",
+            "pos": "n.",
+            "meaning": "活动"
           }
         ]
       }
@@ -180,9 +400,29 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当…时"
+          },
+          {
+            "word": "decided",
+            "pos": "v.",
+            "meaning": "被决定"
+          },
+          {
+            "word": "where",
+            "pos": "conj.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "are going to",
+            "pos": "aux. v. phr.",
+            "meaning": "将要"
+          },
+          {
+            "word": "drill",
+            "pos": "v.",
+            "meaning": "钻探"
           }
         ]
       }
@@ -197,9 +437,19 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "put up",
+            "pos": "v. phr.",
+            "meaning": "搭建"
+          },
+          {
+            "word": "at the surface",
+            "pos": "adv. phr.",
+            "meaning": "在表面"
+          },
+          {
+            "word": "oil derrick",
+            "pos": "n. phr.",
+            "meaning": "石油钻塔"
           }
         ]
       }
@@ -214,19 +464,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "has to",
+            "pos": "v. phr.",
+            "meaning": "必须"
           },
           {
-            "word": "Tall",
+            "word": "tall",
             "pos": "adj.",
             "meaning": "高的"
           },
           {
-            "word": "Is",
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "is like",
+            "pos": "v. phr.",
+            "meaning": "就像"
+          },
+          {
+            "word": "giant",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "block and tackle",
+            "pos": "n. phr.",
+            "meaning": "滑轮组"
+          },
+          {
+            "word": "have to",
+            "pos": "v. phr.",
+            "meaning": "必须"
+          },
+          {
+            "word": "lower",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "降低，放下"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地面"
           }
         ]
       }
@@ -241,9 +521,54 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "haul out",
+            "pos": "v. phr.",
+            "meaning": "拖出，拉出"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地面"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "巨大的，大量的"
+          },
+          {
+            "word": "lengths",
+            "pos": "n.",
+            "meaning": "长度，段"
+          },
+          {
+            "word": "drill pipe",
+            "pos": "n. phr.",
+            "meaning": "钻杆"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "那些"
+          },
+          {
+            "word": "rotate",
+            "pos": "v.",
+            "meaning": "旋转"
+          },
+          {
+            "word": "by",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "被，由"
+          },
+          {
+            "word": "engine",
+            "pos": "n.",
+            "meaning": "发动机"
+          },
+          {
+            "word": "at the top",
+            "pos": "adv. phr.",
+            "meaning": "在顶部"
           }
         ]
       }
@@ -258,9 +583,19 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "fit with",
+            "pos": "v. phr.",
+            "meaning": "安装，装备"
+          },
+          {
+            "word": "cutting bit",
+            "pos": "n. phr.",
+            "meaning": "刀头，钻头"
+          },
+          {
+            "word": "at the bottom",
+            "pos": "adv. phr.",
+            "meaning": "在底部"
           }
         ]
       }
@@ -275,9 +610,39 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "geologist",
+            "pos": "n.",
+            "meaning": "地质学家"
+          },
+          {
+            "word": "needs",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "rocks",
+            "pos": "n.",
+            "meaning": "岩石"
+          },
+          {
+            "word": "drill",
+            "pos": "n.",
+            "meaning": "钻机"
+          },
+          {
+            "word": "reached",
+            "pos": "v.",
+            "meaning": "达到"
           }
         ]
       }
@@ -292,9 +657,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "因此；于是"
+          },
+          {
+            "word": "every so often",
+            "pos": "adv. phr.",
+            "meaning": "偶尔；有时"
+          },
+          {
+            "word": "sample",
+            "pos": "n.",
+            "meaning": "样本；样品"
+          },
+          {
+            "word": "obtain",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "获得；得到"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "用；借助"
+          },
+          {
+            "word": "coring bit",
+            "pos": "n. phr.",
+            "meaning": "取芯钻头"
           }
         ]
       }
@@ -309,9 +699,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "cut",
+            "pos": "v.",
+            "meaning": "切割，切开"
+          },
+          {
+            "word": "clean",
+            "pos": "adj.",
+            "meaning": "整齐的，干净的"
+          },
+          {
+            "word": "cylinder",
+            "pos": "n.",
+            "meaning": "圆柱体"
+          },
+          {
+            "word": "rock",
+            "pos": "n.",
+            "meaning": "岩石"
+          },
+          {
+            "word": "from which",
+            "pos": "adv. phr.",
+            "meaning": "从中"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看见"
+          },
+          {
+            "word": "strata",
+            "pos": "n.",
+            "meaning": "地层"
+          },
+          {
+            "word": "drill",
+            "pos": "n.",
+            "meaning": "钻头，钻机"
+          },
+          {
+            "word": "cut through",
+            "pos": "v. phr.",
+            "meaning": "切开，穿透"
           }
         ]
       }
@@ -326,14 +756,79 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Once",
+            "pos": "conj.",
+            "meaning": "一旦"
           },
           {
-            "word": "Is",
+            "word": "get down to",
+            "pos": "v. phr.",
+            "meaning": "达到"
+          },
+          {
+            "word": "oil",
+            "pos": "n.",
+            "meaning": "石油"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "flows",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "流动"
+          },
+          {
+            "word": "surface",
+            "pos": "n.",
+            "meaning": "表面"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "pressure",
+            "pos": "n.",
+            "meaning": "压力"
+          },
+          {
+            "word": "either",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "gas",
+            "pos": "n.",
+            "meaning": "天然气"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "pushing",
+            "pos": "v.",
+            "meaning": "推动"
           }
         ]
       }
@@ -348,14 +843,59 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
           },
           {
-            "word": "It",
+            "word": "pressure",
+            "pos": "n.",
+            "meaning": "压力"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "be under control",
+            "pos": "v. phr.",
+            "meaning": "得到控制"
+          },
+          {
+            "word": "control",
+            "pos": "v.",
+            "meaning": "控制"
+          },
+          {
+            "word": "by means of",
+            "pos": "prep. phr.",
+            "meaning": "借助于"
+          },
+          {
+            "word": "mud",
+            "pos": "n.",
+            "meaning": "泥浆"
+          },
+          {
+            "word": "which",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "指代"
+          },
+          {
+            "word": "circulate",
+            "pos": "v.",
+            "meaning": "循环"
+          },
+          {
+            "word": "down",
+            "pos": "prep.",
+            "meaning": "向下"
+          },
+          {
+            "word": "drill pipe",
+            "pos": "n. phr.",
+            "meaning": "钻杆"
           }
         ]
       }
@@ -370,9 +910,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Old",
+            "word": "endeavour",
+            "pos": "v.",
+            "meaning": "努力，尽力"
+          },
+          {
+            "word": "avoid",
+            "pos": "v.",
+            "meaning": "避免"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "旧的"
+          },
+          {
+            "word": "romantic",
+            "pos": "adj.",
+            "meaning": "浪漫的"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "想法，观念"
+          },
+          {
+            "word": "gusher",
+            "pos": "n.",
+            "meaning": "喷油井"
+          },
+          {
+            "word": "wastes",
+            "pos": "v.",
+            "meaning": "浪费"
+          },
+          {
+            "word": "oil",
+            "pos": "n.",
+            "meaning": "石油"
+          },
+          {
+            "word": "gas",
+            "pos": "n.",
+            "meaning": "天然气"
           }
         ]
       }
@@ -387,9 +967,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "stay down",
+            "pos": "v. phr.",
+            "meaning": "待在下面"
+          },
+          {
+            "word": "hole",
+            "pos": "n.",
+            "meaning": "洞"
+          },
+          {
+            "word": "until",
+            "pos": "conj.",
+            "meaning": "直到"
+          },
+          {
+            "word": "can",
+            "pos": "aux. v.",
+            "meaning": "能，可以"
+          },
+          {
+            "word": "lead off",
+            "pos": "v. phr.",
+            "meaning": "引开"
+          },
+          {
+            "word": "in a controlled manner",
+            "pos": "adv. phr.",
+            "meaning": "有控制地"
           }
         ]
       }

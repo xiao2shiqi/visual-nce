@@ -27,7 +27,21 @@
       "text": "The sculptor speaks",
       "translation": "雕塑家说话",
       "startTime": 2.76,
-      "endTime": 10.94
+      "endTime": 10.94,
+      "analysis": {
+        "words": [
+          {
+            "word": "sculptor",
+            "pos": "n.",
+            "meaning": "雕塑家"
+          },
+          {
+            "word": "speak",
+            "pos": "v.",
+            "meaning": "讲话"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "录音带"
           },
           {
             "word": "then",
@@ -70,8 +74,8 @@
           },
           {
             "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
+            "pos": "pron.",
+            "meaning": "这，这个"
           },
           {
             "word": "question",
@@ -96,9 +100,29 @@
             "meaning": "什么"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "have to",
+            "pos": "v. phr.",
+            "meaning": "必须"
+          },
+          {
+            "word": "be able to",
+            "pos": "v. phr.",
+            "meaning": "能够"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "appreciate",
+            "pos": "v.",
+            "meaning": "欣赏"
+          },
+          {
+            "word": "sculpture",
+            "pos": "n.",
+            "meaning": "雕塑"
           }
         ]
       }
@@ -109,7 +133,46 @@
       "text": "Appreciation of sculpture depends upon the ability to respond to form in 3 dimensions.",
       "translation": "对雕塑的欣赏取决于对三维形式做出反应的能力。",
       "startTime": 17.35,
-      "endTime": 25.68
+      "endTime": 25.68,
+      "analysis": {
+        "words": [
+          {
+            "word": "Appreciation",
+            "pos": "n.",
+            "meaning": "欣赏，鉴赏"
+          },
+          {
+            "word": "sculpture",
+            "pos": "n.",
+            "meaning": "雕塑"
+          },
+          {
+            "word": "depends upon",
+            "pos": "v. phr.",
+            "meaning": "取决于，依赖于"
+          },
+          {
+            "word": "ability",
+            "pos": "n.",
+            "meaning": "能力"
+          },
+          {
+            "word": "respond to",
+            "pos": "v. phr.",
+            "meaning": "对…作出反应"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形式，形状"
+          },
+          {
+            "word": "in 3 dimensions",
+            "pos": "adv. phr.",
+            "meaning": "在三维空间中"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -121,14 +184,54 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那，那个"
           },
           {
-            "word": "Is",
+            "word": "perhaps",
+            "pos": "adv.",
+            "meaning": "也许，可能"
+          },
+          {
+            "word": "why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "sculpture",
+            "pos": "n.",
+            "meaning": "雕塑"
+          },
+          {
+            "word": "described",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "被描述"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "most difficult",
+            "pos": "adj. phr.",
+            "meaning": "最困难的"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "在…之中"
+          },
+          {
+            "word": "all",
+            "pos": "adj.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "arts",
+            "pos": "n.",
+            "meaning": "艺术"
           }
         ]
       }
@@ -143,14 +246,54 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "certainly",
+            "pos": "adv.",
+            "meaning": "确实"
           },
           {
-            "word": "Is",
+            "word": "difficult",
+            "pos": "adj.",
+            "meaning": "困难的"
+          },
+          {
+            "word": "arts",
+            "pos": "n.",
+            "meaning": "艺术"
+          },
+          {
+            "word": "involve",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "涉及"
+          },
+          {
+            "word": "appreciation",
+            "pos": "n.",
+            "meaning": "鉴赏"
+          },
+          {
+            "word": "flat",
+            "pos": "adj.",
+            "meaning": "平面的"
+          },
+          {
+            "word": "forms",
+            "pos": "n.",
+            "meaning": "形式"
+          },
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "two dimensions",
+            "pos": "n. phr.",
+            "meaning": "二维"
           }
         ]
       }
@@ -163,7 +306,43 @@
       "startTime": 41.91,
       "endTime": 48.45,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多的"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "form-blind",
+            "pos": "adj.",
+            "meaning": "形状盲的"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比"
+          },
+          {
+            "word": "colour-blind",
+            "pos": "adj.",
+            "meaning": "色盲的"
+          }
+        ]
       }
     },
     {
@@ -176,9 +355,64 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "child",
+            "pos": "n.",
+            "meaning": "孩子"
+          },
+          {
+            "word": "learning",
+            "pos": "v.",
+            "meaning": "学习"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看"
+          },
+          {
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "首先"
+          },
+          {
+            "word": "distinguishes",
+            "pos": "v.",
+            "meaning": "区分"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只"
+          },
+          {
+            "word": "two-dimensional",
+            "pos": "adj.",
+            "meaning": "二维的"
+          },
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "cannot",
+            "pos": "aux. v.",
+            "meaning": "不能"
+          },
+          {
+            "word": "judge",
+            "pos": "v.",
+            "meaning": "判断"
+          },
+          {
+            "word": "distances",
+            "pos": "n.",
+            "meaning": "距离"
+          },
+          {
+            "word": "depths",
+            "pos": "n.",
+            "meaning": "深度"
           }
         ]
       }
@@ -193,9 +427,79 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Later",
+            "pos": "adv.",
+            "meaning": "后来"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "personal",
+            "pos": "adj.",
+            "meaning": "个人的"
+          },
+          {
+            "word": "safety",
+            "pos": "n.",
+            "meaning": "安全"
+          },
+          {
+            "word": "practical",
+            "pos": "adj.",
+            "meaning": "实际的"
+          },
+          {
+            "word": "needs",
+            "pos": "n.",
+            "meaning": "需求"
+          },
+          {
+            "word": "has to develop",
+            "pos": "v. phr.",
+            "meaning": "必须发展"
+          },
+          {
+            "word": "partly",
+            "pos": "adv.",
+            "meaning": "部分地"
+          },
+          {
+            "word": "by means of",
+            "pos": "prep. phr.",
+            "meaning": "通过...方法"
+          },
+          {
+            "word": "touch",
+            "pos": "n.",
+            "meaning": "触觉"
+          },
+          {
+            "word": "ability",
+            "pos": "n.",
+            "meaning": "能力"
+          },
+          {
+            "word": "judge",
+            "pos": "v.",
+            "meaning": "判断"
+          },
+          {
+            "word": "roughly",
+            "pos": "adv.",
+            "meaning": "大致地"
+          },
+          {
+            "word": "3-dimensional",
+            "pos": "adj.",
+            "meaning": "三维的"
+          },
+          {
+            "word": "distances",
+            "pos": "n.",
+            "meaning": "距离"
           }
         ]
       }
@@ -206,7 +510,46 @@
       "text": "But having satisfied the requirements of practical necessity, most people go no further.",
       "translation": "但在满足了现实需要后，大多数人就不再继续了。",
       "startTime": 71.81,
-      "endTime": 78.93
+      "endTime": 78.93,
+      "analysis": {
+        "words": [
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "satisfied",
+            "pos": "v.",
+            "meaning": "满足"
+          },
+          {
+            "word": "requirements",
+            "pos": "n.",
+            "meaning": "要求"
+          },
+          {
+            "word": "practical necessity",
+            "pos": "n. phr.",
+            "meaning": "实际需要"
+          },
+          {
+            "word": "most",
+            "pos": "adj.",
+            "meaning": "大多数的"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "go no further",
+            "pos": "v. phr.",
+            "meaning": "不再深入"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -216,7 +559,58 @@
       "startTime": 78.94,
       "endTime": 84.98,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "though",
+            "pos": "conj.",
+            "meaning": "尽管，虽然"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "attain",
+            "pos": "v.",
+            "meaning": "达到，获得"
+          },
+          {
+            "word": "considerable",
+            "pos": "adj.",
+            "meaning": "相当大的"
+          },
+          {
+            "word": "accuracy",
+            "pos": "n.",
+            "meaning": "准确性，精确"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...方面"
+          },
+          {
+            "word": "perception",
+            "pos": "n.",
+            "meaning": "感知，认识"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "...的"
+          },
+          {
+            "word": "flat",
+            "pos": "adj.",
+            "meaning": "平的"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形状，形式"
+          }
+        ]
       }
     },
     {
@@ -229,9 +623,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "make effort",
+            "pos": "v. phr.",
+            "meaning": "付出努力"
+          },
+          {
+            "word": "further",
+            "pos": "adj.",
+            "meaning": "更深层的"
+          },
+          {
+            "word": "intellectual",
+            "pos": "adj.",
+            "meaning": "智力的"
+          },
+          {
+            "word": "emotional",
+            "pos": "adj.",
+            "meaning": "情感的"
+          },
+          {
+            "word": "needed",
+            "pos": "adj.",
+            "meaning": "所需的"
+          },
+          {
+            "word": "comprehend",
+            "pos": "v.",
+            "meaning": "理解"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形式"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "full",
+            "pos": "adj.",
+            "meaning": "充分的"
+          },
+          {
+            "word": "spatial",
+            "pos": "adj.",
+            "meaning": "空间的"
+          },
+          {
+            "word": "existence",
+            "pos": "n.",
+            "meaning": "存在"
           }
         ]
       }
@@ -246,19 +690,34 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "What",
+            "word": "what",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "所指之事"
+          },
+          {
+            "word": "sculptor",
+            "pos": "n.",
+            "meaning": "雕塑家"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -271,7 +730,53 @@
       "startTime": 98.04,
       "endTime": 106.87,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "strive",
+            "pos": "v.",
+            "meaning": "努力，奋斗"
+          },
+          {
+            "word": "continually",
+            "pos": "adv.",
+            "meaning": "持续地"
+          },
+          {
+            "word": "think of",
+            "pos": "v. phr.",
+            "meaning": "想到，考虑到"
+          },
+          {
+            "word": "use",
+            "pos": "v.",
+            "meaning": "使用"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形状，形式"
+          },
+          {
+            "word": "full",
+            "pos": "adj.",
+            "meaning": "完整的"
+          },
+          {
+            "word": "spatial",
+            "pos": "adj.",
+            "meaning": "空间的"
+          },
+          {
+            "word": "completeness",
+            "pos": "n.",
+            "meaning": "完整性"
+          }
+        ]
       }
     },
     {
@@ -284,9 +789,74 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "gets",
+            "pos": "v.",
+            "meaning": "获得"
+          },
+          {
+            "word": "solid",
+            "pos": "adj.",
+            "meaning": "固体的"
+          },
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "as it were",
+            "pos": "adv. phr.",
+            "meaning": "可以说"
+          },
+          {
+            "word": "inside",
+            "pos": "prep.",
+            "meaning": "在…里面"
+          },
+          {
+            "word": "head",
+            "pos": "n.",
+            "meaning": "头脑"
+          },
+          {
+            "word": "thinks of",
+            "pos": "v. phr.",
+            "meaning": "考虑"
+          },
+          {
+            "word": "whatever",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "无论什么"
+          },
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "大小"
+          },
+          {
+            "word": "as if",
+            "pos": "conj. phr.",
+            "meaning": "仿佛"
+          },
+          {
+            "word": "holding",
+            "pos": "v.",
+            "meaning": "握着"
+          },
+          {
+            "word": "completely",
+            "pos": "adv.",
+            "meaning": "完全地"
+          },
+          {
+            "word": "enclosed",
+            "pos": "adj.",
+            "meaning": "封闭的"
+          },
+          {
+            "word": "in the hollow of his hand",
+            "pos": "prep. phr.",
+            "meaning": "在手中"
           }
         ]
       }
@@ -297,7 +867,46 @@
       "text": "He mentally visualizes a complex form from all round itself;",
       "translation": "他在脑海中想象出一个来自四周的复杂形状；",
       "startTime": 120.7,
-      "endTime": 127.29
+      "endTime": 127.29,
+      "analysis": {
+        "words": [
+          {
+            "word": "mentally",
+            "pos": "adv.",
+            "meaning": "精神上地"
+          },
+          {
+            "word": "visualizes",
+            "pos": "v.",
+            "meaning": "设想"
+          },
+          {
+            "word": "complex",
+            "pos": "adj.",
+            "meaning": "复杂的"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "all round",
+            "pos": "adv. phr.",
+            "meaning": "四面八方"
+          },
+          {
+            "word": "itself",
+            "pos": "pron.",
+            "meaning": "自身"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -309,19 +918,64 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "knows",
+            "pos": "v.",
+            "meaning": "知道"
           },
           {
-            "word": "What",
+            "word": "while",
+            "pos": "conj.",
+            "meaning": "当…时"
+          },
+          {
+            "word": "looks at",
+            "pos": "v. phr.",
+            "meaning": "看, 注视"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "side",
+            "pos": "n.",
+            "meaning": "方面, 侧面"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "另一的"
+          },
+          {
+            "word": "is like",
+            "pos": "v. phr.",
+            "meaning": "像什么, 怎么样"
+          },
+          {
+            "word": "identifies himself with",
+            "pos": "v. phr.",
+            "meaning": "认同, 与…共鸣"
+          },
+          {
+            "word": "centre of gravity",
+            "pos": "n. phr.",
+            "meaning": "重心"
+          },
+          {
+            "word": "mass",
+            "pos": "n.",
+            "meaning": "质量"
+          },
+          {
+            "word": "weight",
+            "pos": "n.",
+            "meaning": "重量"
           }
         ]
       }
@@ -336,14 +990,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "realizes",
+            "pos": "v.",
+            "meaning": "意识到"
           },
           {
-            "word": "Air",
+            "word": "volume",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "体积"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "space",
+            "pos": "n.",
+            "meaning": "空间"
+          },
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "displaces",
+            "pos": "v.",
+            "meaning": "排开"
+          },
+          {
+            "word": "air",
+            "pos": "n.",
+            "meaning": "空气"
           }
         ]
       }
@@ -358,9 +1037,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "sensitive",
+            "pos": "adj.",
+            "meaning": "敏感的"
+          },
+          {
+            "word": "observer",
+            "pos": "n.",
+            "meaning": "观察者"
+          },
+          {
+            "word": "sculpture",
+            "pos": "n.",
+            "meaning": "雕塑"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "also",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "也"
+          },
+          {
+            "word": "learn",
+            "pos": "v.",
+            "meaning": "学习"
+          },
+          {
+            "word": "feel",
+            "pos": "v.",
+            "meaning": "感受"
+          },
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "simply",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不，并非"
+          },
+          {
+            "word": "description",
+            "pos": "n.",
+            "meaning": "描述"
+          },
+          {
+            "word": "reminiscence",
+            "pos": "n.",
+            "meaning": "回忆，联想"
           }
         ]
       }
@@ -373,7 +1112,73 @@
       "startTime": 154.47,
       "endTime": 164.42,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "for example",
+            "pos": "adv. phr.",
+            "meaning": "例如"
+          },
+          {
+            "word": "perceive",
+            "pos": "v.",
+            "meaning": "感知"
+          },
+          {
+            "word": "egg",
+            "pos": "n.",
+            "meaning": "蛋"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "simple",
+            "pos": "adj.",
+            "meaning": "简单的"
+          },
+          {
+            "word": "single",
+            "pos": "adj.",
+            "meaning": "单一的"
+          },
+          {
+            "word": "solid",
+            "pos": "adj.",
+            "meaning": "固体的"
+          },
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "quite apart from",
+            "pos": "prep. phr.",
+            "meaning": "完全独立于"
+          },
+          {
+            "word": "significance",
+            "pos": "n.",
+            "meaning": "重要性"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "food",
+            "pos": "n.",
+            "meaning": "食物"
+          }
+        ]
       }
     },
     {
@@ -386,14 +1191,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从，来自"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "literary",
+            "pos": "adj.",
+            "meaning": "文学的"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "想法，观念"
+          },
+          {
+            "word": "become",
+            "pos": "v.",
+            "meaning": "变成，成为"
+          },
+          {
+            "word": "bird",
+            "pos": "n.",
+            "meaning": "鸟"
           }
         ]
       }
@@ -404,7 +1224,61 @@
       "text": "And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom,",
       "translation": "对于诸如贝壳、坚果、李子、梨、蝌蚪、蘑菇等固体，",
       "startTime": 169.08,
-      "endTime": 178.08
+      "endTime": 178.08,
+      "analysis": {
+        "words": [
+          {
+            "word": "And so",
+            "pos": "conj. phr.",
+            "meaning": "因此"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "solids",
+            "pos": "n.",
+            "meaning": "固体"
+          },
+          {
+            "word": "such as",
+            "pos": "prep. phr.",
+            "meaning": "例如"
+          },
+          {
+            "word": "shell",
+            "pos": "n.",
+            "meaning": "壳"
+          },
+          {
+            "word": "nut",
+            "pos": "n.",
+            "meaning": "坚果"
+          },
+          {
+            "word": "plum",
+            "pos": "n.",
+            "meaning": "李子"
+          },
+          {
+            "word": "pear",
+            "pos": "n.",
+            "meaning": "梨"
+          },
+          {
+            "word": "tadpole",
+            "pos": "n.",
+            "meaning": "蝌蚪"
+          },
+          {
+            "word": "mushroom",
+            "pos": "n.",
+            "meaning": "蘑菇"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -412,7 +1286,61 @@
       "text": "a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone.",
       "translation": "一座山峰、一颗肾脏、一根胡萝卜、一根树干、一只鸟、一个花蕾、一只云雀、一只瓢虫、一根芦苇、一根骨头。",
       "startTime": 178.09,
-      "endTime": 191.27
+      "endTime": 191.27,
+      "analysis": {
+        "words": [
+          {
+            "word": "mountain peak",
+            "pos": "n. phr.",
+            "meaning": "山峰"
+          },
+          {
+            "word": "kidney",
+            "pos": "n.",
+            "meaning": "肾脏"
+          },
+          {
+            "word": "carrot",
+            "pos": "n.",
+            "meaning": "胡萝卜"
+          },
+          {
+            "word": "tree-trunk",
+            "pos": "n. phr.",
+            "meaning": "树干"
+          },
+          {
+            "word": "bird",
+            "pos": "n.",
+            "meaning": "鸟"
+          },
+          {
+            "word": "bud",
+            "pos": "n.",
+            "meaning": "花蕾"
+          },
+          {
+            "word": "lark",
+            "pos": "n.",
+            "meaning": "云雀"
+          },
+          {
+            "word": "ladybird",
+            "pos": "n.",
+            "meaning": "瓢虫"
+          },
+          {
+            "word": "bulrush",
+            "pos": "n.",
+            "meaning": "香蒲"
+          },
+          {
+            "word": "bone",
+            "pos": "n.",
+            "meaning": "骨头"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -422,7 +1350,53 @@
       "startTime": 191.28,
       "endTime": 196.28,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "From",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "these",
+            "pos": "pron.",
+            "meaning": "这些"
+          },
+          {
+            "word": "go on",
+            "pos": "v. phr.",
+            "meaning": "继续"
+          },
+          {
+            "word": "appreciate",
+            "pos": "v.",
+            "meaning": "欣赏领会"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "complex",
+            "pos": "adj.",
+            "meaning": "复杂的"
+          },
+          {
+            "word": "forms",
+            "pos": "n.",
+            "meaning": "形式"
+          },
+          {
+            "word": "combinations",
+            "pos": "n.",
+            "meaning": "组合"
+          },
+          {
+            "word": "several",
+            "pos": "adj.",
+            "meaning": "几个"
+          }
+        ]
       }
     }
   ]

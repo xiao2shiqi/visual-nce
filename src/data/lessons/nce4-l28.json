@@ -27,7 +27,21 @@
       "text": "Patients and doctors",
       "translation": "患者和医生",
       "startTime": 2.34,
-      "endTime": 9.45
+      "endTime": 9.45,
+      "analysis": {
+        "words": [
+          {
+            "word": "patients",
+            "pos": "n.",
+            "meaning": "病人"
+          },
+          {
+            "word": "doctors",
+            "pos": "n.",
+            "meaning": "医生"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -94,6 +98,31 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "patients",
+            "pos": "n.",
+            "meaning": "病人"
+          },
+          {
+            "word": "looking for",
+            "pos": "v. phr.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "visit",
+            "pos": "v.",
+            "meaning": "拜访"
+          },
+          {
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
           }
         ]
       }
@@ -108,14 +137,19 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "sceptical",
+            "pos": "adj.",
+            "meaning": "怀疑的"
+          },
+          {
+            "word": "age",
+            "pos": "n.",
+            "meaning": "时代"
           }
         ]
       }
@@ -128,7 +162,68 @@
       "startTime": 16.94,
       "endTime": 23.69,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "although",
+            "pos": "conj.",
+            "meaning": "虽然"
+          },
+          {
+            "word": "faith",
+            "pos": "n.",
+            "meaning": "信念"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多的"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "...中的"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "事物"
+          },
+          {
+            "word": "in which",
+            "pos": "pron. phr.",
+            "meaning": "在其中"
+          },
+          {
+            "word": "forefathers",
+            "pos": "n.",
+            "meaning": "祖先"
+          },
+          {
+            "word": "fervently",
+            "pos": "adv.",
+            "meaning": "热切地"
+          },
+          {
+            "word": "believed",
+            "pos": "v.",
+            "meaning": "相信"
+          },
+          {
+            "word": "weakened",
+            "pos": "v.",
+            "meaning": "减弱"
+          }
+        ]
       }
     },
     {
@@ -139,7 +234,48 @@
       "startTime": 23.7,
       "endTime": 30.51,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "confidence",
+            "pos": "n.",
+            "meaning": "信心"
+          },
+          {
+            "word": "curative",
+            "pos": "adj.",
+            "meaning": "治疗的"
+          },
+          {
+            "word": "properties",
+            "pos": "n.",
+            "meaning": "特性"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "medicine",
+            "pos": "n.",
+            "meaning": "药"
+          },
+          {
+            "word": "remains",
+            "pos": "v.",
+            "meaning": "保持"
+          },
+          {
+            "word": "the same as",
+            "pos": "adj. phr.",
+            "meaning": "和...一样"
+          },
+          {
+            "word": "theirs",
+            "pos": "pron.",
+            "meaning": "他们的"
+          }
+        ]
       }
     },
     {
@@ -152,14 +288,29 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "modern",
+            "pos": "adj.",
+            "meaning": "现代的"
           },
           {
-            "word": "Is",
+            "word": "faith",
+            "pos": "n.",
+            "meaning": "信仰，信心"
+          },
+          {
+            "word": "medicines",
+            "pos": "n.",
+            "meaning": "药物"
+          },
+          {
+            "word": "proved",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "被证实"
+          },
+          {
+            "word": "fact",
+            "pos": "n.",
+            "meaning": "事实"
           }
         ]
       }
@@ -174,14 +325,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "annual",
+            "pos": "adj.",
+            "meaning": "每年的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "drug bill",
+            "pos": "n. phr.",
+            "meaning": "医药费"
+          },
+          {
+            "word": "Health Services",
+            "pos": "n. phr.",
+            "meaning": "卫生服务机构"
+          },
+          {
+            "word": "mount to",
+            "pos": "v. phr.",
+            "meaning": "上升到，达到"
+          },
+          {
+            "word": "astronomical",
+            "pos": "adj.",
+            "meaning": "天文数字的"
+          },
+          {
+            "word": "figures",
+            "pos": "n.",
+            "meaning": "数字，金额"
           }
         ]
       }
@@ -196,9 +367,34 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "shows",
+            "pos": "v.",
+            "meaning": "显示"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
+          },
+          {
+            "word": "signs",
+            "pos": "n.",
+            "meaning": "迹象"
+          },
+          {
+            "word": "at present",
+            "pos": "adv. phr.",
+            "meaning": "目前"
+          },
+          {
+            "word": "ceasing",
+            "pos": "v.",
+            "meaning": "停止"
+          },
+          {
+            "word": "rise",
+            "pos": "v.",
+            "meaning": "上升"
           }
         ]
       }
@@ -213,9 +409,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "majority",
+            "pos": "n.",
+            "meaning": "大多数"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "patients",
+            "pos": "n.",
+            "meaning": "病人"
+          },
+          {
+            "word": "attending",
+            "pos": "v.",
+            "meaning": "就诊"
+          },
+          {
+            "word": "medical",
+            "pos": "adj.",
+            "meaning": "医疗的"
+          },
+          {
+            "word": "out-patients department",
+            "pos": "n. phr.",
+            "meaning": "门诊部"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "hospitals",
+            "pos": "n.",
+            "meaning": "医院"
+          },
+          {
+            "word": "feel",
+            "pos": "v.",
+            "meaning": "觉得"
           }
         ]
       }
@@ -230,9 +466,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不，没有"
+          },
+          {
+            "word": "received",
+            "pos": "v.",
+            "meaning": "收到，得到"
+          },
+          {
+            "word": "adequate",
+            "pos": "adj.",
+            "meaning": "足够的"
+          },
+          {
+            "word": "treatment",
+            "pos": "n.",
+            "meaning": "治疗"
+          },
+          {
+            "word": "unless",
+            "pos": "conj.",
+            "meaning": "除非"
+          },
+          {
+            "word": "able to",
+            "pos": "adj. phr.",
+            "meaning": "能够"
+          },
+          {
+            "word": "carry home",
+            "pos": "v. phr.",
+            "meaning": "带回家"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "带着，和...一起"
           }
         ]
       }
@@ -243,7 +514,41 @@
       "text": "some tangible remedy in the shape of a bottle of medicine,",
       "translation": "一些有形的补救措施，如一瓶药物，",
       "startTime": 56.22,
-      "endTime": 60.28
+      "endTime": 60.28,
+      "analysis": {
+        "words": [
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些的，某"
+          },
+          {
+            "word": "tangible",
+            "pos": "adj.",
+            "meaning": "有形的，可触的"
+          },
+          {
+            "word": "remedy",
+            "pos": "n.",
+            "meaning": "补救，疗法"
+          },
+          {
+            "word": "in the shape of",
+            "pos": "prep. phr.",
+            "meaning": "以…的形式"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "medicine",
+            "pos": "n.",
+            "meaning": "药物，药"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -251,7 +556,41 @@
       "text": "a box of pills, or a small jar of ointment,",
       "translation": "一盒药片，或一小罐药膏，",
       "startTime": 60.29,
-      "endTime": 64.2
+      "endTime": 64.2,
+      "analysis": {
+        "words": [
+          {
+            "word": "box",
+            "pos": "n.",
+            "meaning": "盒子"
+          },
+          {
+            "word": "pill",
+            "pos": "n.",
+            "meaning": "药丸"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "jar",
+            "pos": "n.",
+            "meaning": "罐子"
+          },
+          {
+            "word": "ointment",
+            "pos": "n.",
+            "meaning": "药膏"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -263,14 +602,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "doctor",
+            "pos": "n.",
+            "meaning": "医生"
           },
           {
-            "word": "Too",
-            "pos": "adv.",
-            "meaning": "也"
+            "word": "in charge of",
+            "pos": "prep. phr.",
+            "meaning": "负责"
+          },
+          {
+            "word": "department",
+            "pos": "n.",
+            "meaning": "部门"
+          },
+          {
+            "word": "only too",
+            "pos": "adv. phr.",
+            "meaning": "非常，太"
+          },
+          {
+            "word": "ready",
+            "pos": "adj.",
+            "meaning": "乐意的，准备好的"
+          },
+          {
+            "word": "provide",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "these",
+            "pos": "adj.",
+            "meaning": "这些"
+          },
+          {
+            "word": "requirements",
+            "pos": "n.",
+            "meaning": "要求"
           }
         ]
       }
@@ -285,14 +654,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "no",
+            "pos": "det.",
+            "meaning": "没有"
           },
           {
-            "word": "What",
+            "word": "quicker",
+            "pos": "adj.",
+            "meaning": "更快的"
+          },
+          {
+            "word": "method",
+            "pos": "n.",
+            "meaning": "方法"
+          },
+          {
+            "word": "dispose of",
+            "pos": "v. phr.",
+            "meaning": "处理掉"
+          },
+          {
+            "word": "patients",
+            "pos": "n.",
+            "meaning": "病人"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过，以"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给予"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "所…的"
+          },
+          {
+            "word": "ask for",
+            "pos": "v. phr.",
+            "meaning": "要求，索取"
           }
         ]
       }
@@ -305,7 +714,38 @@
       "startTime": 77.3,
       "endTime": 81.57,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "since",
+            "pos": "conj.",
+            "meaning": "既然"
+          },
+          {
+            "word": "most",
+            "pos": "adj.",
+            "meaning": "大部分的"
+          },
+          {
+            "word": "medical men",
+            "pos": "n. phr.",
+            "meaning": "医务人员"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "Health Services",
+            "pos": "n. phr.",
+            "meaning": "医疗机构"
+          },
+          {
+            "word": "overworked",
+            "pos": "adj.",
+            "meaning": "劳累过度"
+          }
+        ]
       }
     },
     {
@@ -314,7 +754,66 @@
       "text": "and have little time for offering time-consuming and little-appreciated advice on such subjects as diet,",
       "translation": "几乎没有时间就饮食等主题提供耗时且不被重视的建议，",
       "startTime": 81.58,
-      "endTime": 89.09
+      "endTime": 89.09,
+      "analysis": {
+        "words": [
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有，拥有"
+          },
+          {
+            "word": "little",
+            "pos": "adj.",
+            "meaning": "很少的"
+          },
+          {
+            "word": "time",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了，用于"
+          },
+          {
+            "word": "offering",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "time-consuming",
+            "pos": "adj.",
+            "meaning": "耗时的"
+          },
+          {
+            "word": "little-appreciated",
+            "pos": "adj.",
+            "meaning": "不受赏识的"
+          },
+          {
+            "word": "advice",
+            "pos": "n.",
+            "meaning": "建议"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "such subjects as",
+            "pos": "prep. phr.",
+            "meaning": "诸如…之类的话题"
+          },
+          {
+            "word": "diet",
+            "pos": "n.",
+            "meaning": "饮食，食谱"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -322,7 +821,36 @@
       "text": "right living, and the need for abandoning bad habits etc.,",
       "translation": "正确的生活，以及放弃不良习惯的需要等，",
       "startTime": 89.1,
-      "endTime": 93.8
+      "endTime": 93.8,
+      "analysis": {
+        "words": [
+          {
+            "word": "right living",
+            "pos": "n. phr.",
+            "meaning": "正确的生活"
+          },
+          {
+            "word": "need",
+            "pos": "n.",
+            "meaning": "需要"
+          },
+          {
+            "word": "abandoning",
+            "pos": "v.",
+            "meaning": "放弃"
+          },
+          {
+            "word": "bad habits",
+            "pos": "n. phr.",
+            "meaning": "坏习惯"
+          },
+          {
+            "word": "etc.",
+            "pos": "adv.",
+            "meaning": "等等"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -332,7 +860,38 @@
       "startTime": 93.81,
       "endTime": 99.02,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "box",
+            "pos": "n.",
+            "meaning": "盒子"
+          },
+          {
+            "word": "jar",
+            "pos": "n.",
+            "meaning": "罐子"
+          },
+          {
+            "word": "almost",
+            "pos": "adv.",
+            "meaning": "几乎"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "granted",
+            "pos": "v.",
+            "meaning": "被授予"
+          }
+        ]
       }
     },
     {
@@ -345,14 +904,74 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Nor",
+            "pos": "adv.",
+            "meaning": "也不"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "ignorant",
+            "pos": "adj.",
+            "meaning": "无知的"
+          },
+          {
+            "word": "ill-educated",
+            "pos": "adj.",
+            "meaning": "没受过教育的"
+          },
+          {
+            "word": "person",
+            "pos": "n.",
+            "meaning": "人"
+          },
+          {
+            "word": "who",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "指代人"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "如此的"
+          },
+          {
+            "word": "faith",
+            "pos": "n.",
+            "meaning": "信念"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "对"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "medicine",
+            "pos": "n.",
+            "meaning": "药物"
           }
         ]
       }
@@ -367,19 +986,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "recounted",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "被讲述"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Thomas Carlyle",
+            "pos": "n. phr.",
+            "meaning": "托马斯·卡莱尔"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...的时候"
+          },
+          {
+            "word": "heard of",
+            "pos": "v. phr.",
+            "meaning": "听说"
+          },
+          {
+            "word": "illness",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "friend",
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
+            "word": "Henry Taylor",
+            "pos": "n. phr.",
+            "meaning": "亨利·泰勒"
           }
         ]
       }
@@ -390,7 +1029,26 @@
       "text": "he went off immediately to visit him,",
       "translation": "他立即前去探望他，",
       "startTime": 112.98,
-      "endTime": 115.98
+      "endTime": 115.98,
+      "analysis": {
+        "words": [
+          {
+            "word": "went off",
+            "pos": "v. phr.",
+            "meaning": "离开；出发"
+          },
+          {
+            "word": "immediately",
+            "pos": "adv.",
+            "meaning": "立刻；马上"
+          },
+          {
+            "word": "visit",
+            "pos": "v.",
+            "meaning": "拜访；看望"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -402,9 +1060,54 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "carrying with",
+            "pos": "v. phr.",
+            "meaning": "随身携带"
+          },
+          {
+            "word": "pocket",
+            "pos": "n.",
+            "meaning": "口袋"
+          },
+          {
+            "word": "what remained",
+            "pos": "n. phr.",
+            "meaning": "剩下的"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "medicine",
+            "pos": "n.",
+            "meaning": "药"
+          },
+          {
+            "word": "formerly",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "prescribed",
+            "pos": "v.",
+            "meaning": "开药方"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "indisposition",
+            "pos": "n.",
+            "meaning": "不适"
+          },
+          {
+            "word": "Mrs. Carlyle",
+            "pos": "n. phr.",
+            "meaning": "卡莱尔夫人"
           }
         ]
       }
@@ -419,9 +1122,39 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "Carlyle",
+            "pos": "n.",
+            "meaning": "卡莱尔"
+          },
+          {
+            "word": "entirely",
+            "pos": "adv.",
+            "meaning": "完全地"
+          },
+          {
+            "word": "ignorant of",
+            "pos": "adj. phr.",
+            "meaning": "对...一无所知"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "所...的"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "pocket",
+            "pos": "n.",
+            "meaning": "口袋"
+          },
+          {
+            "word": "contained",
+            "pos": "v.",
+            "meaning": "装着"
           }
         ]
       }
@@ -434,7 +1167,28 @@
       "startTime": 131.22,
       "endTime": 135.01,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "of the nature of",
+            "pos": "prep. phr.",
+            "meaning": "关于...性质的"
+          },
+          {
+            "word": "illness",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "friend",
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
+            "word": "suffer from",
+            "pos": "v. phr.",
+            "meaning": "患有，遭受"
+          }
+        ]
       }
     },
     {
@@ -447,9 +1201,29 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "previously",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "wrong with",
+            "pos": "adj. phr.",
+            "meaning": "有问题"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
           }
         ]
       }
@@ -464,14 +1238,69 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是，然而"
+          },
+          {
+            "word": "medicine",
+            "pos": "n.",
+            "meaning": "药，药物"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
           },
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "work well",
+            "pos": "v. phr.",
+            "meaning": "奏效，效果好"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此，这么"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形式，类型"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "...的"
+          },
+          {
+            "word": "illness",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "surely",
+            "pos": "adv.",
+            "meaning": "肯定地，无疑"
+          },
+          {
+            "word": "of equal benefit",
+            "pos": "adj. phr.",
+            "meaning": "有同等益处"
+          },
+          {
+            "word": "another",
+            "pos": "pron.",
+            "meaning": "另一个"
           }
         ]
       }
@@ -484,7 +1313,33 @@
       "startTime": 145.88,
       "endTime": 150.15,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "comforted",
+            "pos": "v.",
+            "meaning": "得到安慰"
+          },
+          {
+            "word": "thought",
+            "pos": "n.",
+            "meaning": "想法"
+          },
+          {
+            "word": "help",
+            "pos": "n.",
+            "meaning": "帮助"
+          },
+          {
+            "word": "bringing",
+            "pos": "v.",
+            "meaning": "带来"
+          },
+          {
+            "word": "friend",
+            "pos": "n.",
+            "meaning": "朋友"
+          }
+        ]
       }
     },
     {
@@ -497,9 +1352,19 @@
       "analysis": {
         "words": [
           {
-            "word": "House",
+            "word": "hasten",
+            "pos": "v.",
+            "meaning": "赶快，急忙"
+          },
+          {
+            "word": "Henry Taylor",
             "pos": "n.",
-            "meaning": "房子"
+            "meaning": "亨利·泰勒"
+          },
+          {
+            "word": "house",
+            "pos": "n.",
+            "meaning": "房子，家"
           }
         ]
       }
@@ -514,9 +1379,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "History",
+            "pos": "n.",
+            "meaning": "历史"
+          },
+          {
+            "word": "relate",
+            "pos": "v.",
+            "meaning": "讲述，记载"
+          },
+          {
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
+            "word": "friend",
+            "pos": "n.",
+            "meaning": "朋友"
+          },
+          {
+            "word": "accepted",
+            "pos": "v.",
+            "meaning": "接受"
+          },
+          {
+            "word": "medical",
+            "pos": "adj.",
+            "meaning": "医疗的"
+          },
+          {
+            "word": "help",
+            "pos": "n.",
+            "meaning": "帮助"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "in all probability",
+            "pos": "adv. phr.",
+            "meaning": "极有可能"
+          },
+          {
+            "word": "did",
+            "pos": "aux. v.",
+            "meaning": "确实（替代动词）"
           }
         ]
       }
@@ -531,19 +1441,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "巨大的，重要的"
+          },
+          {
+            "word": "advantage",
+            "pos": "n.",
+            "meaning": "优点，好处"
+          },
+          {
+            "word": "taking",
+            "pos": "v.",
+            "meaning": "服用"
+          },
+          {
+            "word": "medicine",
+            "pos": "n.",
+            "meaning": "药，药物"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "make demands on",
+            "pos": "v. phr.",
+            "meaning": "提出要求"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
+          },
+          {
+            "word": "taker",
+            "pos": "n.",
+            "meaning": "服用者"
           }
         ]
       }
@@ -558,9 +1498,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "beyond",
+            "pos": "prep.",
+            "meaning": "超出"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那个程度"
+          },
+          {
+            "word": "put up with",
+            "pos": "v. phr.",
+            "meaning": "忍受"
+          },
+          {
+            "word": "for a moment",
+            "pos": "adv. phr.",
+            "meaning": "一会儿"
+          },
+          {
+            "word": "disgusting",
+            "pos": "adj.",
+            "meaning": "令人作呕的"
+          },
+          {
+            "word": "taste",
+            "pos": "n.",
+            "meaning": "味道"
           }
         ]
       }
@@ -575,24 +1540,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那一点"
           },
           {
-            "word": "Is",
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所…的"
+          },
+          {
+            "word": "all",
+            "pos": "adj.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "patients",
+            "pos": "n.",
+            "meaning": "病人"
+          },
+          {
+            "word": "demand",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "要求"
           },
           {
-            "word": "What",
+            "word": "doctors",
+            "pos": "n.",
+            "meaning": "医生"
+          },
+          {
+            "word": "cure",
+            "pos": "v.",
+            "meaning": "治愈"
+          },
+          {
+            "word": "at no inconvenience",
+            "pos": "adv. phr.",
+            "meaning": "不添麻烦地"
+          },
+          {
+            "word": "themselves",
             "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "他们自己"
           }
         ]
       }

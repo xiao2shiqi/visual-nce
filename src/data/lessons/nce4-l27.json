@@ -27,7 +27,16 @@
       "text": "The 'Vasa'",
       "translation": "",
       "startTime": 3.95,
-      "endTime": 12.33
+      "endTime": 12.33,
+      "analysis": {
+        "words": [
+          {
+            "word": "'Vasa'",
+            "pos": "n.",
+            "meaning": "瓦萨号（船名）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +48,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +69,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -91,9 +90,39 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "happen to",
+            "pos": "v. phr.",
+            "meaning": "发生于"
+          },
+          {
+            "word": "Vasa",
+            "pos": "n.",
+            "meaning": "‘瓦萨号’(船名)"
+          },
+          {
+            "word": "almost",
+            "pos": "adv.",
+            "meaning": "几乎"
+          },
+          {
+            "word": "immediately",
+            "pos": "adv.",
+            "meaning": "立刻"
+          },
+          {
+            "word": "after",
+            "pos": "conj.",
+            "meaning": "在…之后"
+          },
+          {
+            "word": "launch",
+            "pos": "v.",
+            "meaning": "下水"
           }
         ]
       }
@@ -104,7 +133,36 @@
       "text": "From the seventeenth-century empire of Sweden,",
       "translation": "",
       "startTime": 20.57,
-      "endTime": 24.31
+      "endTime": 24.31,
+      "analysis": {
+        "words": [
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "seventeenth-century",
+            "pos": "adj.",
+            "meaning": "十七世纪的"
+          },
+          {
+            "word": "empire",
+            "pos": "n.",
+            "meaning": "帝国"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "属于"
+          },
+          {
+            "word": "Sweden",
+            "pos": "n.",
+            "meaning": "瑞典"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -116,14 +174,59 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "story",
+            "pos": "n.",
+            "meaning": "故事"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "galleon",
+            "pos": "n.",
+            "meaning": "大帆船"
+          },
+          {
+            "word": "sank",
+            "pos": "v.",
+            "meaning": "沉没"
+          },
+          {
+            "word": "at the start of",
+            "pos": "adv. phr.",
+            "meaning": "在…开始时"
+          },
+          {
+            "word": "maiden voyage",
+            "pos": "n. phr.",
+            "meaning": "处女航"
+          },
+          {
+            "word": "1628",
+            "pos": "num.",
+            "meaning": "1628年"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "其中之一"
+          },
+          {
+            "word": "strangest",
+            "pos": "adj.",
+            "meaning": "最奇怪的"
+          },
+          {
+            "word": "tales",
+            "pos": "n.",
+            "meaning": "故事"
+          },
+          {
+            "word": "sea",
+            "pos": "n.",
+            "meaning": "海洋"
           }
         ]
       }
@@ -138,9 +241,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "for",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "长达，持续"
+          },
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎，将近"
+          },
+          {
+            "word": "three and a half",
+            "pos": "num.",
+            "meaning": "三又二分之一"
+          },
+          {
+            "word": "centuries",
+            "pos": "n.",
+            "meaning": "世纪"
+          },
+          {
+            "word": "lay",
+            "pos": "v.",
+            "meaning": "位于，平躺"
+          },
+          {
+            "word": "at the bottom of",
+            "pos": "prep. phr.",
+            "meaning": "在...底部"
+          },
+          {
+            "word": "Stockholm",
+            "pos": "n.",
+            "meaning": "斯德哥尔摩"
+          },
+          {
+            "word": "harbour",
+            "pos": "n.",
+            "meaning": "港口"
+          },
+          {
+            "word": "until",
+            "pos": "prep./conj.",
+            "meaning": "直到"
+          },
+          {
+            "word": "discovery",
+            "pos": "n.",
+            "meaning": "发现"
+          },
+          {
+            "word": "1956",
+            "pos": "num.",
+            "meaning": "1956年"
           }
         ]
       }
@@ -155,9 +308,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Vasa",
+            "pos": "n.",
+            "meaning": "瓦萨号"
+          },
+          {
+            "word": "royal",
+            "pos": "adj.",
+            "meaning": "皇家的"
+          },
+          {
+            "word": "flagship",
+            "pos": "n.",
+            "meaning": "旗舰"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "…的"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "强大的"
+          },
+          {
+            "word": "imperial",
+            "pos": "adj.",
+            "meaning": "帝国的"
+          },
+          {
+            "word": "fleet",
+            "pos": "n.",
+            "meaning": "舰队"
           }
         ]
       }
@@ -168,7 +361,26 @@
       "text": "King Gustavus Adolphus 'The Northern Hurricane',",
       "translation": "",
       "startTime": 51.53,
-      "endTime": 56.22
+      "endTime": 56.22,
+      "analysis": {
+        "words": [
+          {
+            "word": "King",
+            "pos": "n.",
+            "meaning": "国王"
+          },
+          {
+            "word": "Gustavus Adolphus",
+            "pos": "n.",
+            "meaning": "古斯塔夫二世·阿道夫"
+          },
+          {
+            "word": "The Northern Hurricane",
+            "pos": "n. phr.",
+            "meaning": "北方飓风"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -180,9 +392,29 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那时"
+          },
+          {
+            "word": "at the height of",
+            "pos": "adv. phr.",
+            "meaning": "在…鼎盛时期"
+          },
+          {
+            "word": "military",
+            "pos": "adj.",
+            "meaning": "军事的"
+          },
+          {
+            "word": "success",
+            "pos": "n.",
+            "meaning": "成功"
+          },
+          {
+            "word": "Thirty Years' War",
+            "pos": "n. phr.",
+            "meaning": "三十年战争"
           }
         ]
       }
@@ -195,7 +427,23 @@
       "startTime": 61.33,
       "endTime": 65.41,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "dictated",
+            "pos": "v.",
+            "meaning": "规定"
+          },
+          {
+            "word": "measurements",
+            "pos": "n.",
+            "meaning": "尺寸"
+          },
+          {
+            "word": "armament",
+            "pos": "n.",
+            "meaning": "军备"
+          }
+        ]
       }
     },
     {
@@ -204,7 +452,41 @@
       "text": "Triple gun-decks mounted sixty-four bronze cannon.",
       "translation": "",
       "startTime": 65.42,
-      "endTime": 70.72
+      "endTime": 70.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "triple",
+            "pos": "adj.",
+            "meaning": "三层的"
+          },
+          {
+            "word": "gun-decks",
+            "pos": "n.",
+            "meaning": "炮甲板"
+          },
+          {
+            "word": "mounted",
+            "pos": "v.",
+            "meaning": "配备"
+          },
+          {
+            "word": "sixty-four",
+            "pos": "num.",
+            "meaning": "六十四"
+          },
+          {
+            "word": "bronze",
+            "pos": "adj.",
+            "meaning": "青铜制"
+          },
+          {
+            "word": "cannon",
+            "pos": "n.",
+            "meaning": "大炮"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -212,7 +494,46 @@
       "text": "She was intended to play a leading role in the growing might of Sweden.",
       "translation": "",
       "startTime": 70.73,
-      "endTime": 76.83
+      "endTime": 76.83,
+      "analysis": {
+        "words": [
+          {
+            "word": "intended",
+            "pos": "v.",
+            "meaning": "打算，旨在"
+          },
+          {
+            "word": "play",
+            "pos": "v.",
+            "meaning": "扮演，担任"
+          },
+          {
+            "word": "leading",
+            "pos": "adj.",
+            "meaning": "主要的，重要的"
+          },
+          {
+            "word": "role",
+            "pos": "n.",
+            "meaning": "角色，作用"
+          },
+          {
+            "word": "growing",
+            "pos": "adj.",
+            "meaning": "增长的，日益的"
+          },
+          {
+            "word": "might",
+            "pos": "n.",
+            "meaning": "力量，国力"
+          },
+          {
+            "word": "Sweden",
+            "pos": "n.",
+            "meaning": "瑞典"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -222,7 +543,48 @@
       "startTime": 76.84,
       "endTime": 87.57,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "当…时候"
+          },
+          {
+            "word": "prepare for",
+            "pos": "v. phr.",
+            "meaning": "准备，为…作准备"
+          },
+          {
+            "word": "maiden voyage",
+            "pos": "n. phr.",
+            "meaning": "处女航"
+          },
+          {
+            "word": "August",
+            "pos": "n.",
+            "meaning": "八月"
+          },
+          {
+            "word": "10",
+            "pos": "num.",
+            "meaning": "十"
+          },
+          {
+            "word": "1628",
+            "pos": "num.",
+            "meaning": "一六二八"
+          },
+          {
+            "word": "Stockholm",
+            "pos": "n.",
+            "meaning": "斯德哥尔摩"
+          },
+          {
+            "word": "in a ferment",
+            "pos": "adv. phr.",
+            "meaning": "骚动不安"
+          }
+        ]
       }
     },
     {
@@ -231,7 +593,31 @@
       "text": "From the Skeppsbron and surrounding islands",
       "translation": "",
       "startTime": 87.58,
-      "endTime": 90.63
+      "endTime": 90.63,
+      "analysis": {
+        "words": [
+          {
+            "word": "From",
+            "pos": "prep.",
+            "meaning": "来自，从"
+          },
+          {
+            "word": "Skeppsbron",
+            "pos": "n.",
+            "meaning": "斯凯普斯布隆"
+          },
+          {
+            "word": "surrounding",
+            "pos": "adj.",
+            "meaning": "周围的"
+          },
+          {
+            "word": "islands",
+            "pos": "n.",
+            "meaning": "岛屿"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -243,9 +629,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "watched",
+            "pos": "v.",
+            "meaning": "观看"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
+          },
+          {
+            "word": "thing",
+            "pos": "n.",
+            "meaning": "事物"
+          },
+          {
+            "word": "of beauty",
+            "pos": "adj. phr.",
+            "meaning": "美丽的"
+          },
+          {
+            "word": "begin",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "spread",
+            "pos": "v.",
+            "meaning": "展开"
+          },
+          {
+            "word": "sails",
+            "pos": "n.",
+            "meaning": "船帆"
+          },
+          {
+            "word": "catch the wind",
+            "pos": "v. phr.",
+            "meaning": "乘风航行"
           }
         ]
       }
@@ -260,9 +686,39 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "laboured",
+            "pos": "v.",
+            "meaning": "辛勤工作"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "produce",
+            "pos": "v.",
+            "meaning": "生产, 制造"
+          },
+          {
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
+          },
+          {
+            "word": "floating",
+            "pos": "adj.",
+            "meaning": "漂浮的"
+          },
+          {
+            "word": "work of art",
+            "pos": "n. phr.",
+            "meaning": "艺术品"
           }
         ]
       }
@@ -273,7 +729,36 @@
       "text": "she was more richly carved and ornamented than any previous ship.",
       "translation": "",
       "startTime": 104.16,
-      "endTime": 110.08
+      "endTime": 110.08,
+      "analysis": {
+        "words": [
+          {
+            "word": "richly",
+            "pos": "adv.",
+            "meaning": "华丽地"
+          },
+          {
+            "word": "carved",
+            "pos": "v.",
+            "meaning": "雕刻"
+          },
+          {
+            "word": "ornamented",
+            "pos": "v.",
+            "meaning": "装饰"
+          },
+          {
+            "word": "previous",
+            "pos": "adj.",
+            "meaning": "先前的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -281,7 +766,56 @@
       "text": "The high stern castle was a riot of carved gods, demons, knights, kings, warriors,",
       "translation": "",
       "startTime": 110.09,
-      "endTime": 118.89
+      "endTime": 118.89,
+      "analysis": {
+        "words": [
+          {
+            "word": "high",
+            "pos": "adj.",
+            "meaning": "高的"
+          },
+          {
+            "word": "stern castle",
+            "pos": "n. phr.",
+            "meaning": "船尾楼"
+          },
+          {
+            "word": "a riot of",
+            "pos": "n. phr.",
+            "meaning": "大量，繁多"
+          },
+          {
+            "word": "carved",
+            "pos": "adj.",
+            "meaning": "雕刻的"
+          },
+          {
+            "word": "gods",
+            "pos": "n.",
+            "meaning": "神"
+          },
+          {
+            "word": "demons",
+            "pos": "n.",
+            "meaning": "恶魔"
+          },
+          {
+            "word": "knights",
+            "pos": "n.",
+            "meaning": "骑士"
+          },
+          {
+            "word": "kings",
+            "pos": "n.",
+            "meaning": "国王"
+          },
+          {
+            "word": "warriors",
+            "pos": "n.",
+            "meaning": "战士"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -293,14 +827,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Red",
-            "pos": "adj.",
-            "meaning": "红色的"
+            "word": "mermaids",
+            "pos": "n.",
+            "meaning": "美人鱼"
           },
           {
-            "word": "Blue",
+            "word": "cherubs",
+            "pos": "n.",
+            "meaning": "小天使"
+          },
+          {
+            "word": "zoomorphic",
             "pos": "adj.",
-            "meaning": "蓝色的"
+            "meaning": "兽形的"
+          },
+          {
+            "word": "animal shapes",
+            "pos": "n. phr.",
+            "meaning": "动物形状"
+          },
+          {
+            "word": "ablaze",
+            "pos": "adj.",
+            "meaning": "闪耀着"
+          },
+          {
+            "word": "red",
+            "pos": "n.",
+            "meaning": "红色"
+          },
+          {
+            "word": "gold",
+            "pos": "n.",
+            "meaning": "金色"
+          },
+          {
+            "word": "blue",
+            "pos": "n.",
+            "meaning": "蓝色"
           }
         ]
       }
@@ -311,7 +875,31 @@
       "text": "symbols of courage, power, and cruelty,",
       "translation": "",
       "startTime": 126.37,
-      "endTime": 130.56
+      "endTime": 130.56,
+      "analysis": {
+        "words": [
+          {
+            "word": "symbols",
+            "pos": "n.",
+            "meaning": "象征"
+          },
+          {
+            "word": "courage",
+            "pos": "n.",
+            "meaning": "勇气"
+          },
+          {
+            "word": "power",
+            "pos": "n.",
+            "meaning": "力量"
+          },
+          {
+            "word": "cruelty",
+            "pos": "n.",
+            "meaning": "残忍"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -319,7 +907,41 @@
       "text": "were portrayed to stir the imaginations of the superstitious sailors of the day.",
       "translation": "",
       "startTime": 130.57,
-      "endTime": 137.22
+      "endTime": 137.22,
+      "analysis": {
+        "words": [
+          {
+            "word": "portray",
+            "pos": "v.",
+            "meaning": "描绘，描画"
+          },
+          {
+            "word": "stir",
+            "pos": "v.",
+            "meaning": "激起，搅动"
+          },
+          {
+            "word": "imagination",
+            "pos": "n.",
+            "meaning": "想象力"
+          },
+          {
+            "word": "superstitious",
+            "pos": "adj.",
+            "meaning": "迷信的"
+          },
+          {
+            "word": "sailor",
+            "pos": "n.",
+            "meaning": "水手，海员"
+          },
+          {
+            "word": "of the day",
+            "pos": "adv. phr.",
+            "meaning": "当时的，现行的"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -327,7 +949,61 @@
       "text": "Then the cannons of the anchored warships thundered a salute to which the Vasa fired in reply.",
       "translation": "",
       "startTime": 137.23,
-      "endTime": 145.63
+      "endTime": 145.63,
+      "analysis": {
+        "words": [
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "cannons",
+            "pos": "n.",
+            "meaning": "大炮"
+          },
+          {
+            "word": "anchored",
+            "pos": "adj.",
+            "meaning": "停泊的"
+          },
+          {
+            "word": "warships",
+            "pos": "n.",
+            "meaning": "军舰"
+          },
+          {
+            "word": "thundered",
+            "pos": "v.",
+            "meaning": "轰鸣"
+          },
+          {
+            "word": "salute",
+            "pos": "n.",
+            "meaning": "鸣礼炮"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，对"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "它 (指敬礼)"
+          },
+          {
+            "word": "Vasa",
+            "pos": "n.",
+            "meaning": "瓦萨号"
+          },
+          {
+            "word": "fire in reply",
+            "pos": "v. phr.",
+            "meaning": "回敬"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -337,7 +1013,63 @@
       "startTime": 145.64,
       "endTime": 152.91,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "As",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "emerged",
+            "pos": "v.",
+            "meaning": "出现，浮现"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...中"
+          },
+          {
+            "word": "drifting",
+            "pos": "adj.",
+            "meaning": "漂浮的"
+          },
+          {
+            "word": "cloud",
+            "pos": "n.",
+            "meaning": "云团"
+          },
+          {
+            "word": "gun smoke",
+            "pos": "n. phr.",
+            "meaning": "硝烟"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "伴随，随着"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "churned to foam",
+            "pos": "v. phr.",
+            "meaning": "搅成泡沫"
+          },
+          {
+            "word": "beneath",
+            "pos": "prep.",
+            "meaning": "在...下方"
+          },
+          {
+            "word": "bow",
+            "pos": "n.",
+            "meaning": "船头"
+          }
+        ]
       }
     },
     {
@@ -348,7 +1080,43 @@
       "startTime": 152.92,
       "endTime": 159.52,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "flags",
+            "pos": "n.",
+            "meaning": "旗帜"
+          },
+          {
+            "word": "flying",
+            "pos": "v.",
+            "meaning": "飘扬"
+          },
+          {
+            "word": "pennants",
+            "pos": "n.",
+            "meaning": "细长旗"
+          },
+          {
+            "word": "waving",
+            "pos": "v.",
+            "meaning": "飘动"
+          },
+          {
+            "word": "sails",
+            "pos": "n.",
+            "meaning": "船帆"
+          },
+          {
+            "word": "filling",
+            "pos": "v.",
+            "meaning": "鼓起"
+          },
+          {
+            "word": "breeze",
+            "pos": "n.",
+            "meaning": "微风"
+          }
+        ]
       }
     },
     {
@@ -361,9 +1129,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Red",
+            "word": "red",
             "pos": "adj.",
             "meaning": "红色的"
+          },
+          {
+            "word": "gold",
+            "pos": "adj.",
+            "meaning": "金色的"
+          },
+          {
+            "word": "superstructure",
+            "pos": "n.",
+            "meaning": "上层建筑"
+          },
+          {
+            "word": "ablaze with colour",
+            "pos": "adj. phr.",
+            "meaning": "闪耀着色彩"
           }
         ]
       }
@@ -374,7 +1157,51 @@
       "text": "she presented a more majestic spectacle than Stockholmers had ever seen before.",
       "translation": "",
       "startTime": 164.92,
-      "endTime": 171.49
+      "endTime": 171.49,
+      "analysis": {
+        "words": [
+          {
+            "word": "presented",
+            "pos": "v.",
+            "meaning": "呈现，展示"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更，额外"
+          },
+          {
+            "word": "majestic",
+            "pos": "adj.",
+            "meaning": "雄伟的，壮丽的"
+          },
+          {
+            "word": "spectacle",
+            "pos": "n.",
+            "meaning": "景象，奇观"
+          },
+          {
+            "word": "Stockholmers",
+            "pos": "n.",
+            "meaning": "斯德哥尔摩人"
+          },
+          {
+            "word": "ever",
+            "pos": "adv.",
+            "meaning": "曾经"
+          },
+          {
+            "word": "seen",
+            "pos": "v.",
+            "meaning": "看到"
+          },
+          {
+            "word": "before",
+            "pos": "adv.",
+            "meaning": "以前，之前"
+          }
+        ]
+      }
     },
     {
       "id": "s23",
@@ -382,7 +1209,46 @@
       "text": "All gun-ports were open and the muzzles peeped wickedly from them.",
       "translation": "",
       "startTime": 171.5,
-      "endTime": 178.1
+      "endTime": 178.1,
+      "analysis": {
+        "words": [
+          {
+            "word": "all",
+            "pos": "adj.",
+            "meaning": "全部的"
+          },
+          {
+            "word": "gun-port",
+            "pos": "n.",
+            "meaning": "炮门"
+          },
+          {
+            "word": "open",
+            "pos": "adj.",
+            "meaning": "开着的"
+          },
+          {
+            "word": "muzzle",
+            "pos": "n.",
+            "meaning": "炮口"
+          },
+          {
+            "word": "peep",
+            "pos": "v.",
+            "meaning": "露出"
+          },
+          {
+            "word": "wickedly",
+            "pos": "adv.",
+            "meaning": "邪恶地"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...中"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -390,7 +1256,61 @@
       "text": "As the wind freshened there came a sudden squall and the ship made a strange movement, listing to port.",
       "translation": "",
       "startTime": 178.11,
-      "endTime": 186.15
+      "endTime": 186.15,
+      "analysis": {
+        "words": [
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "wind",
+            "pos": "n.",
+            "meaning": "风"
+          },
+          {
+            "word": "freshen",
+            "pos": "v.",
+            "meaning": "（风）加强"
+          },
+          {
+            "word": "come",
+            "pos": "v.",
+            "meaning": "出现"
+          },
+          {
+            "word": "sudden",
+            "pos": "adj.",
+            "meaning": "突然的"
+          },
+          {
+            "word": "squall",
+            "pos": "n.",
+            "meaning": "飑"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "make a movement",
+            "pos": "v. phr.",
+            "meaning": "移动"
+          },
+          {
+            "word": "strange",
+            "pos": "adj.",
+            "meaning": "奇怪的"
+          },
+          {
+            "word": "list to port",
+            "pos": "v. phr.",
+            "meaning": "向左舷倾斜"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -398,7 +1318,51 @@
       "text": "The Ordnance officer ordered all the port cannon to be heaved to starboard",
       "translation": "",
       "startTime": 186.16,
-      "endTime": 191.67
+      "endTime": 191.67,
+      "analysis": {
+        "words": [
+          {
+            "word": "Ordnance",
+            "pos": "n.",
+            "meaning": "军械部"
+          },
+          {
+            "word": "officer",
+            "pos": "n.",
+            "meaning": "军官"
+          },
+          {
+            "word": "ordered",
+            "pos": "v.",
+            "meaning": "命令"
+          },
+          {
+            "word": "all",
+            "pos": "pron.",
+            "meaning": "全部"
+          },
+          {
+            "word": "port",
+            "pos": "adj.",
+            "meaning": "左舷的"
+          },
+          {
+            "word": "cannon",
+            "pos": "n.",
+            "meaning": "大炮"
+          },
+          {
+            "word": "heaved",
+            "pos": "v.",
+            "meaning": "搬动"
+          },
+          {
+            "word": "starboard",
+            "pos": "n.",
+            "meaning": "右舷"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -406,7 +1370,46 @@
       "text": "to counteract the list but the steepening angle of the decks increased.",
       "translation": "",
       "startTime": 191.68,
-      "endTime": 198.27
+      "endTime": 198.27,
+      "analysis": {
+        "words": [
+          {
+            "word": "counteract",
+            "pos": "v.",
+            "meaning": "抵消；对抗"
+          },
+          {
+            "word": "list",
+            "pos": "n.",
+            "meaning": "倾斜；船身倾侧"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是；然而"
+          },
+          {
+            "word": "steepening",
+            "pos": "adj.",
+            "meaning": "变陡峭的"
+          },
+          {
+            "word": "angle",
+            "pos": "n.",
+            "meaning": "角度；角"
+          },
+          {
+            "word": "decks",
+            "pos": "n.",
+            "meaning": "甲板"
+          },
+          {
+            "word": "increased",
+            "pos": "v.",
+            "meaning": "增加了；增大"
+          }
+        ]
+      }
     },
     {
       "id": "s27",
@@ -414,7 +1417,46 @@
       "text": "Then the sound of rumbling thunder reached the watchers on the shore,",
       "translation": "",
       "startTime": 198.28,
-      "endTime": 202.9
+      "endTime": 202.9,
+      "analysis": {
+        "words": [
+          {
+            "word": "Then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "sound",
+            "pos": "n.",
+            "meaning": "声音"
+          },
+          {
+            "word": "rumbling",
+            "pos": "adj.",
+            "meaning": "轰鸣的"
+          },
+          {
+            "word": "thunder",
+            "pos": "n.",
+            "meaning": "雷声"
+          },
+          {
+            "word": "reached",
+            "pos": "v.",
+            "meaning": "传到"
+          },
+          {
+            "word": "watchers",
+            "pos": "n.",
+            "meaning": "观看者"
+          },
+          {
+            "word": "shore",
+            "pos": "n.",
+            "meaning": "岸边"
+          }
+        ]
+      }
     },
     {
       "id": "s28",
@@ -422,7 +1464,71 @@
       "text": "as cargo, ballast, ammunition and 400 people went sliding and crashing down to the port side of the steeply listing ship.",
       "translation": "",
       "startTime": 202.91,
-      "endTime": 213.98
+      "endTime": 213.98,
+      "analysis": {
+        "words": [
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "cargo",
+            "pos": "n.",
+            "meaning": "货物"
+          },
+          {
+            "word": "ballast",
+            "pos": "n.",
+            "meaning": "压舱物"
+          },
+          {
+            "word": "ammunition",
+            "pos": "n.",
+            "meaning": "弹药"
+          },
+          {
+            "word": "400",
+            "pos": "num.",
+            "meaning": "四百"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人"
+          },
+          {
+            "word": "went sliding and crashing down",
+            "pos": "v. phr.",
+            "meaning": "滑落并猛撞向下"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到，向"
+          },
+          {
+            "word": "port side",
+            "pos": "n. phr.",
+            "meaning": "左舷"
+          },
+          {
+            "word": "steeply",
+            "pos": "adv.",
+            "meaning": "急剧地"
+          },
+          {
+            "word": "listing",
+            "pos": "adj.",
+            "meaning": "倾斜的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          }
+        ]
+      }
     },
     {
       "id": "s29",
@@ -430,7 +1536,56 @@
       "text": "The lower gun-ports were now below water and the inrush sealed the ship's fate.",
       "translation": "",
       "startTime": 213.99,
-      "endTime": 221.02
+      "endTime": 221.02,
+      "analysis": {
+        "words": [
+          {
+            "word": "lower",
+            "pos": "adj.",
+            "meaning": "较低的"
+          },
+          {
+            "word": "gun-ports",
+            "pos": "n.",
+            "meaning": "炮口"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
+          },
+          {
+            "word": "below",
+            "pos": "prep.",
+            "meaning": "在…下面"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "inrush",
+            "pos": "n.",
+            "meaning": "涌入"
+          },
+          {
+            "word": "sealed fate",
+            "pos": "v. phr.",
+            "meaning": "决定命运"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -442,9 +1597,54 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "that",
+            "pos": "adj.",
             "meaning": "那个"
+          },
+          {
+            "word": "first",
+            "pos": "num.",
+            "meaning": "第一"
+          },
+          {
+            "word": "glorious",
+            "pos": "adj.",
+            "meaning": "辉煌的"
+          },
+          {
+            "word": "hour",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "mighty",
+            "pos": "adj.",
+            "meaning": "强大的"
+          },
+          {
+            "word": "Vasa",
+            "pos": "n.",
+            "meaning": "瓦萨号"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "那艘"
+          },
+          {
+            "word": "intended",
+            "pos": "v.",
+            "meaning": "被打算"
+          },
+          {
+            "word": "rule",
+            "pos": "v.",
+            "meaning": "统治"
+          },
+          {
+            "word": "Baltic",
+            "pos": "n.",
+            "meaning": "波罗的海"
           }
         ]
       }
@@ -457,7 +1657,28 @@
       "startTime": 228.67,
       "endTime": 233.67,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "sank",
+            "pos": "v.",
+            "meaning": "沉没"
+          },
+          {
+            "word": "with all flags flying",
+            "pos": "adv. phr.",
+            "meaning": "骄傲地；旗帜飘扬地"
+          },
+          {
+            "word": "harbour",
+            "pos": "n.",
+            "meaning": "港口"
+          },
+          {
+            "word": "birth",
+            "pos": "n.",
+            "meaning": "出生地，诞生"
+          }
+        ]
       }
     }
   ]

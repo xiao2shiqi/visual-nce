@@ -27,7 +27,21 @@
       "text": "The cost of government",
       "translation": "",
       "startTime": 3.66,
-      "endTime": 11.15
+      "endTime": 11.15,
+      "analysis": {
+        "words": [
+          {
+            "word": "cost",
+            "pos": "n.",
+            "meaning": "费用，成本"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
+            "word": "Listen to",
+            "pos": "v. phr.",
+            "meaning": "听，倾听"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -87,7 +91,66 @@
       "text": "What's the most important factor, both in government or business, for keeping running costs low?",
       "translation": "",
       "startTime": 11.16,
-      "endTime": 21.56
+      "endTime": 21.56,
+      "analysis": {
+        "words": [
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "most important",
+            "pos": "adj. phr.",
+            "meaning": "最重要的"
+          },
+          {
+            "word": "factor",
+            "pos": "n.",
+            "meaning": "因素"
+          },
+          {
+            "word": "both",
+            "pos": "adv.",
+            "meaning": "两者都"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "商业"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "keeping",
+            "pos": "v.",
+            "meaning": "保持"
+          },
+          {
+            "word": "running costs",
+            "pos": "n. phr.",
+            "meaning": "运营成本"
+          },
+          {
+            "word": "low",
+            "pos": "adj.",
+            "meaning": "低的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_5",
@@ -99,14 +162,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "nation",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "essentially",
+            "pos": "adv.",
+            "meaning": "本质上"
+          },
+          {
+            "word": "disunited",
+            "pos": "adj.",
+            "meaning": "分裂的"
+          },
+          {
+            "word": "left to",
+            "pos": "v. phr.",
+            "meaning": "留给,由…负责"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "hold together",
+            "pos": "v. phr.",
+            "meaning": "维系,使团结"
           }
         ]
       }
@@ -123,12 +211,72 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "increases",
+            "pos": "v.",
+            "meaning": "增加"
+          },
+          {
+            "word": "expense",
+            "pos": "n.",
+            "meaning": "开支"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "reduces",
+            "pos": "v.",
+            "meaning": "减少"
+          },
+          {
+            "word": "correspondingly",
+            "pos": "adv.",
+            "meaning": "相应地"
+          },
+          {
+            "word": "amount",
+            "pos": "n.",
+            "meaning": "数量"
+          },
+          {
+            "word": "economic",
+            "pos": "adj.",
+            "meaning": "经济的"
+          },
+          {
+            "word": "resources",
+            "pos": "n.",
+            "meaning": "资源"
+          },
+          {
+            "word": "could",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "be used for",
+            "pos": "v. phr.",
+            "meaning": "用于"
+          },
+          {
+            "word": "developing",
+            "pos": "v.",
+            "meaning": "发展"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
           }
         ]
       }
@@ -143,19 +291,59 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该"
           },
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不，没有"
           },
           {
-            "word": "How",
+            "word": "forget",
+            "pos": "v.",
+            "meaning": "忘记"
+          },
+          {
+            "word": "how",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "多么"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "those",
+            "pos": "adj.",
+            "meaning": "那些"
+          },
+          {
+            "word": "resource",
+            "pos": "n.",
+            "meaning": "资源"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "poor",
+            "pos": "adj.",
+            "meaning": "贫穷的"
+          },
+          {
+            "word": "backward",
+            "pos": "adj.",
+            "meaning": "落后的"
+          },
+          {
+            "word": "country",
+            "pos": "n.",
+            "meaning": "国家"
           }
         ]
       }
@@ -170,9 +358,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "where",
+            "pos": "conj.",
+            "meaning": "在...情况下"
+          },
+          {
+            "word": "cost",
+            "pos": "n.",
+            "meaning": "开支"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "high",
+            "pos": "adj.",
+            "meaning": "高的"
+          },
+          {
+            "word": "resources",
+            "pos": "n.",
+            "meaning": "资源"
+          },
+          {
+            "word": "development",
+            "pos": "n.",
+            "meaning": "发展"
+          },
+          {
+            "word": "correspondingly",
+            "pos": "adv.",
+            "meaning": "相应地"
+          },
+          {
+            "word": "low",
+            "pos": "adj.",
+            "meaning": "低的"
           }
         ]
       }
@@ -187,14 +410,54 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "That",
+            "word": "illustrate",
+            "pos": "v.",
+            "meaning": "阐明，说明"
+          },
+          {
+            "word": "compare",
+            "pos": "v.",
+            "meaning": "比较"
+          },
+          {
+            "word": "position",
+            "pos": "n.",
+            "meaning": "地位，立场"
+          },
+          {
+            "word": "nation",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "与，和"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
+          },
+          {
+            "word": "private",
+            "pos": "adj.",
+            "meaning": "私人的"
+          },
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "商业"
+          },
+          {
+            "word": "enterprise",
+            "pos": "n.",
+            "meaning": "企业"
           }
         ]
       }
@@ -205,7 +468,51 @@
       "text": "An enterprise has to incur certain costs and expenses in order to stay in business.",
       "translation": "",
       "startTime": 59.84,
-      "endTime": 66.87
+      "endTime": 66.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "enterprise",
+            "pos": "n.",
+            "meaning": "企业"
+          },
+          {
+            "word": "has to",
+            "pos": "aux. v. phr.",
+            "meaning": "必须"
+          },
+          {
+            "word": "incur",
+            "pos": "v.",
+            "meaning": "招致"
+          },
+          {
+            "word": "certain",
+            "pos": "adj.",
+            "meaning": "某些"
+          },
+          {
+            "word": "costs",
+            "pos": "n.",
+            "meaning": "成本"
+          },
+          {
+            "word": "expenses",
+            "pos": "n.",
+            "meaning": "开支"
+          },
+          {
+            "word": "in order to",
+            "pos": "conj. phr.",
+            "meaning": "为了"
+          },
+          {
+            "word": "stay in business",
+            "pos": "v. phr.",
+            "meaning": "维持经营"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -215,7 +522,53 @@
       "startTime": 66.88,
       "endTime": 75.35,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "for our purposes",
+            "pos": "adv. phr.",
+            "meaning": "就我们而言"
+          },
+          {
+            "word": "be concerned with",
+            "pos": "adj. phr.",
+            "meaning": "涉及；与…有关"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "kind of",
+            "pos": "n. phr.",
+            "meaning": "种类"
+          },
+          {
+            "word": "cost",
+            "pos": "n.",
+            "meaning": "成本，费用"
+          },
+          {
+            "word": "managing",
+            "pos": "v.",
+            "meaning": "管理"
+          },
+          {
+            "word": "administering",
+            "pos": "v.",
+            "meaning": "管理，经营"
+          },
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "业务，企业"
+          }
+        ]
       }
     },
     {
@@ -226,7 +579,48 @@
       "startTime": 75.36,
       "endTime": 82.52,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          },
+          {
+            "word": "administrative",
+            "pos": "adj.",
+            "meaning": "行政的"
+          },
+          {
+            "word": "overheads",
+            "pos": "n.",
+            "meaning": "管理费用"
+          },
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "企业"
+          },
+          {
+            "word": "analogous to",
+            "pos": "adj. phr.",
+            "meaning": "类似于"
+          },
+          {
+            "word": "cost",
+            "pos": "n.",
+            "meaning": "成本"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "nation",
+            "pos": "n.",
+            "meaning": "国家"
+          }
+        ]
       }
     },
     {
@@ -239,9 +633,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "administrative",
+            "pos": "adj.",
+            "meaning": "行政的"
+          },
+          {
+            "word": "overheads",
+            "pos": "n.",
+            "meaning": "管理费用"
+          },
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "企业"
+          },
+          {
+            "word": "low",
+            "pos": "adj.",
+            "meaning": "低的"
+          },
+          {
+            "word": "to the extent that",
+            "pos": "adv. phr.",
+            "meaning": "达到…程度"
+          },
+          {
+            "word": "everyone",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "每个人"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作的"
           }
         ]
       }
@@ -256,9 +680,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "trusted",
+            "pos": "v.",
+            "meaning": "被信任"
+          },
+          {
+            "word": "behave",
+            "pos": "v.",
+            "meaning": "表现，行为"
+          },
+          {
+            "word": "in a way",
+            "pos": "adv. phr.",
+            "meaning": "以某种方式"
+          },
+          {
+            "word": "best",
+            "pos": "adv.",
+            "meaning": "最好地"
+          },
+          {
+            "word": "promotes",
+            "pos": "v.",
+            "meaning": "促进，增进"
+          },
+          {
+            "word": "interests",
+            "pos": "n.",
+            "meaning": "利益"
+          },
+          {
+            "word": "firm",
+            "pos": "n.",
+            "meaning": "公司，商行"
           }
         ]
       }
@@ -271,7 +725,38 @@
       "startTime": 94.06,
       "endTime": 97.78,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "can",
+            "pos": "aux. v.",
+            "meaning": "能，可以"
+          },
+          {
+            "word": "each",
+            "pos": "pron.",
+            "meaning": "各自"
+          },
+          {
+            "word": "trust",
+            "pos": "v.",
+            "meaning": "信任"
+          },
+          {
+            "word": "take responsibilities",
+            "pos": "v. phr.",
+            "meaning": "承担责任"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          }
+        ]
       }
     },
     {
@@ -282,7 +767,58 @@
       "startTime": 97.79,
       "endTime": 106.4,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "exercise",
+            "pos": "v.",
+            "meaning": "行使，运用"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的，此类的"
+          },
+          {
+            "word": "initiative",
+            "pos": "n.",
+            "meaning": "主动性，首创精神"
+          },
+          {
+            "word": "as",
+            "pos": "pron.",
+            "meaning": "凡是…的"
+          },
+          {
+            "word": "fall within",
+            "pos": "v. phr.",
+            "meaning": "属于…范围"
+          },
+          {
+            "word": "sphere",
+            "pos": "n.",
+            "meaning": "范围，领域"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那么，就"
+          },
+          {
+            "word": "administrative",
+            "pos": "adj.",
+            "meaning": "行政的，管理的"
+          },
+          {
+            "word": "overheads",
+            "pos": "n.",
+            "meaning": "管理费用，经常开支"
+          },
+          {
+            "word": "low",
+            "pos": "adj.",
+            "meaning": "低的，少的"
+          }
+        ]
       }
     },
     {
@@ -295,24 +831,89 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "low",
+            "pos": "adj.",
+            "meaning": "低的"
           },
           {
-            "word": "Man",
-            "pos": "n.",
-            "meaning": "男人"
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
           },
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "necessary",
+            "pos": "adj.",
+            "meaning": "必要的"
           },
           {
-            "word": "Is",
+            "word": "have",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "雇佣，需要有"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "人，男人"
+          },
+          {
+            "word": "looking after",
+            "pos": "v. phr.",
+            "meaning": "照看，照料"
+          },
+          {
+            "word": "each",
+            "pos": "adj.",
+            "meaning": "每个"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作，任务"
+          },
+          {
+            "word": "without",
+            "pos": "prep.",
+            "meaning": "没有"
+          },
+          {
+            "word": "having",
+            "pos": "v.",
+            "meaning": "雇佣，有"
+          },
+          {
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "人，男人"
+          },
+          {
+            "word": "check upon",
+            "pos": "v. phr.",
+            "meaning": "检查，核对"
+          },
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所…的"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -323,7 +924,26 @@
       "text": "keep him in line, and report on him to someone else.",
       "translation": "",
       "startTime": 116.06,
-      "endTime": 120.58
+      "endTime": 120.58,
+      "analysis": {
+        "words": [
+          {
+            "word": "keep in line",
+            "pos": "v. phr.",
+            "meaning": "使…守规矩"
+          },
+          {
+            "word": "report on",
+            "pos": "v. phr.",
+            "meaning": "汇报，报告"
+          },
+          {
+            "word": "someone else",
+            "pos": "pron. phr.",
+            "meaning": "别人，其他人"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -333,7 +953,63 @@
       "startTime": 120.59,
       "endTime": 126.87,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "no one",
+            "pos": "pron.",
+            "meaning": "没有人"
+          },
+          {
+            "word": "can be trusted",
+            "pos": "v. phr.",
+            "meaning": "能被信任"
+          },
+          {
+            "word": "act",
+            "pos": "v.",
+            "meaning": "行动，表现"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "以，在...方面"
+          },
+          {
+            "word": "loyal",
+            "pos": "adj.",
+            "meaning": "忠诚的"
+          },
+          {
+            "word": "responsible",
+            "pos": "adj.",
+            "meaning": "负责任的"
+          },
+          {
+            "word": "manner",
+            "pos": "n.",
+            "meaning": "方式，举止"
+          },
+          {
+            "word": "towards",
+            "pos": "prep.",
+            "meaning": "对于，向"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
+          }
+        ]
       }
     },
     {
@@ -344,7 +1020,63 @@
       "startTime": 126.88,
       "endTime": 136.65,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那么"
+          },
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "业务"
+          },
+          {
+            "word": "require",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "armies",
+            "pos": "n.",
+            "meaning": "大量"
+          },
+          {
+            "word": "administrators",
+            "pos": "n.",
+            "meaning": "管理员"
+          },
+          {
+            "word": "checkers",
+            "pos": "n.",
+            "meaning": "检查员"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "foremen",
+            "pos": "n.",
+            "meaning": "工头"
+          },
+          {
+            "word": "administrative overheads",
+            "pos": "n. phr.",
+            "meaning": "管理费用"
+          },
+          {
+            "word": "rise",
+            "pos": "v.",
+            "meaning": "增加"
+          },
+          {
+            "word": "correspondingly",
+            "pos": "adv.",
+            "meaning": "相应地"
+          }
+        ]
       }
     },
     {
@@ -355,7 +1087,58 @@
       "startTime": 136.66,
       "endTime": 144.75,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "As",
+            "pos": "conj.",
+            "meaning": "随着"
+          },
+          {
+            "word": "administrative overheads",
+            "pos": "n. phr.",
+            "meaning": "行政管理费用"
+          },
+          {
+            "word": "rise",
+            "pos": "v.",
+            "meaning": "上升"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "因此"
+          },
+          {
+            "word": "earnings",
+            "pos": "n.",
+            "meaning": "收益"
+          },
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "业务"
+          },
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "meeting the expense",
+            "pos": "v. phr.",
+            "meaning": "承担费用"
+          },
+          {
+            "word": "administration",
+            "pos": "n.",
+            "meaning": "管理"
+          },
+          {
+            "word": "fall",
+            "pos": "v.",
+            "meaning": "下降"
+          }
+        ]
       }
     },
     {
@@ -366,7 +1149,73 @@
       "startTime": 144.76,
       "endTime": 152.85,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "business",
+            "pos": "n.",
+            "meaning": "企业"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "less",
+            "pos": "adj.",
+            "meaning": "更少的"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "资金"
+          },
+          {
+            "word": "distribute",
+            "pos": "v.",
+            "meaning": "分配"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "dividends",
+            "pos": "n.",
+            "meaning": "股息"
+          },
+          {
+            "word": "invest",
+            "pos": "v.",
+            "meaning": "投资"
+          },
+          {
+            "word": "directly",
+            "pos": "adv.",
+            "meaning": "直接地"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "future",
+            "pos": "adj.",
+            "meaning": "未来的"
+          },
+          {
+            "word": "progress",
+            "pos": "n.",
+            "meaning": "进步"
+          },
+          {
+            "word": "development",
+            "pos": "n.",
+            "meaning": "发展"
+          }
+        ]
       }
     },
     {
@@ -379,14 +1228,24 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "precisely",
+            "pos": "adv.",
+            "meaning": "恰好，正是"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "same",
+            "pos": "adj.",
+            "meaning": "相同的"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "对于，就...而言"
+          },
+          {
+            "word": "nation",
+            "pos": "n.",
+            "meaning": "民族，国家"
           }
         ]
       }
@@ -401,9 +1260,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "to the extent that",
+            "pos": "conj. phr.",
+            "meaning": "在…程度上"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "rely on",
+            "pos": "v. phr.",
+            "meaning": "依赖，依靠"
+          },
+          {
+            "word": "behave",
+            "pos": "v.",
+            "meaning": "表现，行为"
+          },
+          {
+            "word": "loyal",
+            "pos": "adj.",
+            "meaning": "忠诚的"
+          },
+          {
+            "word": "responsible",
+            "pos": "adj.",
+            "meaning": "负责任的"
+          },
+          {
+            "word": "manner",
+            "pos": "n.",
+            "meaning": "方式，举止"
           }
         ]
       }
@@ -418,9 +1307,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "require",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "armies",
+            "pos": "n.",
+            "meaning": "大批"
+          },
+          {
+            "word": "police",
+            "pos": "n.",
+            "meaning": "警察"
+          },
+          {
+            "word": "civil servants",
+            "pos": "n. phr.",
+            "meaning": "公务员"
+          },
+          {
+            "word": "keep in order",
+            "pos": "v. phr.",
+            "meaning": "维持秩序"
           }
         ]
       }
@@ -435,14 +1349,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "nation",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "disunited",
+            "pos": "adj.",
+            "meaning": "不团结的"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "cannot",
+            "pos": "aux. v.",
+            "meaning": "不能"
+          },
+          {
+            "word": "be sure",
+            "pos": "v. phr.",
+            "meaning": "确信"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "actions",
+            "pos": "n.",
+            "meaning": "行动"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人民"
+          },
+          {
+            "word": "in the interests of",
+            "pos": "prep. phr.",
+            "meaning": "为了…的利益"
+          },
+          {
+            "word": "nation",
+            "pos": "n.",
+            "meaning": "国家"
           }
         ]
       }
@@ -457,14 +1426,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
           },
           {
-            "word": "Watch",
+            "word": "will have to",
+            "pos": "aux. v. phr.",
+            "meaning": "将不得不"
+          },
+          {
+            "word": "watch",
+            "pos": "v.",
+            "meaning": "监视"
+          },
+          {
+            "word": "check",
+            "pos": "v.",
+            "meaning": "检查"
+          },
+          {
+            "word": "control",
+            "pos": "v.",
+            "meaning": "控制"
+          },
+          {
+            "word": "people",
             "pos": "n.",
-            "meaning": "手表"
+            "meaning": "人们"
+          },
+          {
+            "word": "accordingly",
+            "pos": "adv.",
+            "meaning": "相应地"
           }
         ]
       }
@@ -475,7 +1469,51 @@
       "text": "A disunited nation therefore has to incur unduly high costs of government.",
       "translation": "",
       "startTime": 182.36,
-      "endTime": 187.36
+      "endTime": 187.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "disunited",
+            "pos": "adj.",
+            "meaning": "分裂的"
+          },
+          {
+            "word": "nation",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "therefore",
+            "pos": "adv.",
+            "meaning": "因此"
+          },
+          {
+            "word": "incur",
+            "pos": "v.",
+            "meaning": "招致，蒙受"
+          },
+          {
+            "word": "unduly",
+            "pos": "adv.",
+            "meaning": "过分地"
+          },
+          {
+            "word": "high",
+            "pos": "adj.",
+            "meaning": "高的"
+          },
+          {
+            "word": "costs",
+            "pos": "n.",
+            "meaning": "成本，费用"
+          },
+          {
+            "word": "government",
+            "pos": "n.",
+            "meaning": "政府"
+          }
+        ]
+      }
     }
   ]
 }

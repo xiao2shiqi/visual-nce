@@ -27,7 +27,26 @@
       "text": "Secrecy in industry",
       "translation": "行业保密",
       "startTime": 2.58,
-      "endTime": 10.67
+      "endTime": 10.67,
+      "analysis": {
+        "words": [
+          {
+            "word": "secrecy",
+            "pos": "n.",
+            "meaning": "秘密，保密"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "industry",
+            "pos": "n.",
+            "meaning": "工业，行业"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +58,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "Listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +79,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "pron.",
             "meaning": "这个"
           },
           {
@@ -91,9 +100,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "secrecy",
+            "pos": "n.",
+            "meaning": "保密；秘密"
+          },
+          {
+            "word": "particularly",
+            "pos": "adv.",
+            "meaning": "尤其；特别"
+          },
+          {
+            "word": "important",
+            "pos": "adj.",
+            "meaning": "重要的"
+          },
+          {
+            "word": "chemical",
+            "pos": "adj.",
+            "meaning": "化学的"
+          },
+          {
+            "word": "industries",
+            "pos": "n.",
+            "meaning": "工业；产业"
           }
         ]
       }
@@ -104,7 +138,46 @@
       "text": "Two factors weigh heavily against the effectiveness of scientific research in industry.",
       "translation": "有两个因素严重影响了工业科研的有效性。",
       "startTime": 17.82,
-      "endTime": 25.26
+      "endTime": 25.26,
+      "analysis": {
+        "words": [
+          {
+            "word": "Two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "factors",
+            "pos": "n.",
+            "meaning": "因素"
+          },
+          {
+            "word": "weigh heavily against",
+            "pos": "v. phr.",
+            "meaning": "严重不利于"
+          },
+          {
+            "word": "effectiveness",
+            "pos": "n.",
+            "meaning": "有效性"
+          },
+          {
+            "word": "scientific",
+            "pos": "adj.",
+            "meaning": "科学的"
+          },
+          {
+            "word": "research",
+            "pos": "n.",
+            "meaning": "研究"
+          },
+          {
+            "word": "industry",
+            "pos": "n.",
+            "meaning": "工业, 产业"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -116,14 +189,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "One",
+            "pos": "pron.",
+            "meaning": "其一"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
+            "word": "general",
+            "pos": "adj.",
+            "meaning": "普遍的"
+          },
+          {
+            "word": "atmosphere",
+            "pos": "n.",
+            "meaning": "气氛"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "secrecy",
+            "pos": "n.",
+            "meaning": "保密"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "which",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "其"
+          },
+          {
+            "word": "carried out",
+            "pos": "v. phr.",
+            "meaning": "进行，实施"
           }
         ]
       }
@@ -134,7 +242,36 @@
       "text": "the other the lack of freedom of the individual research worker.",
       "translation": "另一方面是个别研究工作者缺乏自由。",
       "startTime": 31.01,
-      "endTime": 36.04
+      "endTime": 36.04,
+      "analysis": {
+        "words": [
+          {
+            "word": "other",
+            "pos": "pron.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "lack of",
+            "pos": "n. phr.",
+            "meaning": "缺乏"
+          },
+          {
+            "word": "freedom",
+            "pos": "n.",
+            "meaning": "自由"
+          },
+          {
+            "word": "individual",
+            "pos": "adj.",
+            "meaning": "个人的"
+          },
+          {
+            "word": "research worker",
+            "pos": "n. phr.",
+            "meaning": "研究人员"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -146,9 +283,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "in so far as",
+            "pos": "conj.",
+            "meaning": "就…而言"
+          },
+          {
+            "word": "any",
+            "pos": "det.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "inquiry",
+            "pos": "n.",
+            "meaning": "调查"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "secret",
+            "pos": "adj.",
+            "meaning": "秘密的"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个(指代)"
           }
         ]
       }
@@ -163,9 +325,74 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "naturally",
+            "pos": "adv.",
+            "meaning": "自然地"
+          },
+          {
+            "word": "limits",
+            "pos": "v.",
+            "meaning": "限制"
+          },
+          {
+            "word": "all",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "所有的"
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些人"
+          },
+          {
+            "word": "engaged in",
+            "pos": "v. phr.",
+            "meaning": "从事于"
+          },
+          {
+            "word": "carry out",
+            "pos": "v. phr.",
+            "meaning": "执行, 实施"
+          },
+          {
+            "word": "effective",
+            "pos": "adj.",
+            "meaning": "有效的"
+          },
+          {
+            "word": "contact",
+            "pos": "n.",
+            "meaning": "联系"
+          },
+          {
+            "word": "fellow",
+            "pos": "adj.",
+            "meaning": "同行的"
+          },
+          {
+            "word": "scientists",
+            "pos": "n.",
+            "meaning": "科学家"
+          },
+          {
+            "word": "either... or",
+            "pos": "conj. phr.",
+            "meaning": "或者...或者..."
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "countries",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "universities",
+            "pos": "n.",
+            "meaning": "大学"
           }
         ]
       }
@@ -176,7 +403,51 @@
       "text": "or even, often enough, in other departments of the same firm.",
       "translation": "甚至经常在同一家公司的其他部门工作。",
       "startTime": 51.21,
-      "endTime": 57.32
+      "endTime": 57.32,
+      "analysis": {
+        "words": [
+          {
+            "word": "or even",
+            "pos": "conj. phr.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "often enough",
+            "pos": "adv. phr.",
+            "meaning": "足够频繁地"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "departments",
+            "pos": "n.",
+            "meaning": "部门"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "the same",
+            "pos": "adj. phr.",
+            "meaning": "同一的"
+          },
+          {
+            "word": "firm",
+            "pos": "n.",
+            "meaning": "公司"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -184,7 +455,36 @@
       "text": "The degree of secrecy naturally varies considerably.",
       "translation": "保密程度自然会有很大差异。",
       "startTime": 57.33,
-      "endTime": 61.75
+      "endTime": 61.75,
+      "analysis": {
+        "words": [
+          {
+            "word": "degree",
+            "pos": "n.",
+            "meaning": "程度"
+          },
+          {
+            "word": "secrecy",
+            "pos": "n.",
+            "meaning": "保密"
+          },
+          {
+            "word": "naturally",
+            "pos": "adv.",
+            "meaning": "自然地"
+          },
+          {
+            "word": "varies",
+            "pos": "v.",
+            "meaning": "变化"
+          },
+          {
+            "word": "considerably",
+            "pos": "adv.",
+            "meaning": "相当地"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -194,7 +494,63 @@
       "startTime": 61.76,
       "endTime": 69.14,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "some",
+            "pos": "pron.",
+            "meaning": "一些"
+          },
+          {
+            "word": "bigger",
+            "pos": "adj.",
+            "meaning": "更大的"
+          },
+          {
+            "word": "firms",
+            "pos": "n.",
+            "meaning": "公司"
+          },
+          {
+            "word": "are engaged in",
+            "pos": "v. phr.",
+            "meaning": "从事于，忙于"
+          },
+          {
+            "word": "researches",
+            "pos": "n.",
+            "meaning": "研究"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "那些"
+          },
+          {
+            "word": "are of",
+            "pos": "v. phr.",
+            "meaning": "具有"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "如此的，这样的"
+          },
+          {
+            "word": "general",
+            "pos": "adj.",
+            "meaning": "普遍的"
+          },
+          {
+            "word": "fundamental",
+            "pos": "adj.",
+            "meaning": "根本的"
+          },
+          {
+            "word": "nature",
+            "pos": "n.",
+            "meaning": "性质"
+          }
+        ]
       }
     },
     {
@@ -207,24 +563,24 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "positive",
+            "pos": "adj.",
+            "meaning": "正面的"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "advantage",
+            "pos": "n.",
+            "meaning": "优势"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "keep secret",
+            "pos": "v. phr.",
+            "meaning": "保守秘密"
           }
         ]
       }
@@ -239,9 +595,69 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "Yet",
+            "pos": "conj.",
+            "meaning": "然而"
+          },
+          {
+            "word": "great many",
+            "pos": "adj. phr.",
+            "meaning": "大量的"
+          },
+          {
+            "word": "processes",
+            "pos": "n.",
+            "meaning": "过程"
+          },
+          {
+            "word": "depending on",
+            "pos": "v. phr.",
+            "meaning": "取决于"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          },
+          {
+            "word": "research",
+            "pos": "n.",
+            "meaning": "研究"
+          },
+          {
+            "word": "sought for",
+            "pos": "v. phr.",
+            "meaning": "被寻求"
+          },
+          {
+            "word": "complete secrecy",
+            "pos": "n. phr.",
+            "meaning": "完全保密"
+          },
+          {
+            "word": "until",
+            "pos": "conj.",
+            "meaning": "直到"
+          },
+          {
+            "word": "stage",
+            "pos": "n.",
+            "meaning": "阶段"
+          },
+          {
+            "word": "at which",
+            "pos": "adv. phr.",
+            "meaning": "在此阶段"
+          },
+          {
+            "word": "patents",
+            "pos": "n.",
+            "meaning": "专利"
+          },
+          {
+            "word": "taken out",
+            "pos": "v. phr.",
+            "meaning": "取得"
           }
         ]
       }
@@ -256,9 +672,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "more",
+            "pos": "adj.",
+            "meaning": "更多"
+          },
+          {
+            "word": "processes",
+            "pos": "n.",
+            "meaning": "过程，程序"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不，决不"
+          },
+          {
+            "word": "patented",
+            "pos": "v.",
+            "meaning": "获得专利"
+          },
+          {
+            "word": "at all",
+            "pos": "adv. phr.",
+            "meaning": "根本，一点也"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "kept",
+            "pos": "v.",
+            "meaning": "保持，保有"
+          },
+          {
+            "word": "as",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "作为"
+          },
+          {
+            "word": "secret",
+            "pos": "adj.",
+            "meaning": "秘密的"
+          },
+          {
+            "word": "processes",
+            "pos": "n.",
+            "meaning": "过程，程序"
           }
         ]
       }
@@ -273,9 +739,24 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "applies to",
+            "pos": "v. phr.",
+            "meaning": "适用于"
+          },
+          {
+            "word": "particularly",
+            "pos": "adv.",
+            "meaning": "尤其地"
+          },
+          {
+            "word": "chemical",
+            "pos": "adj.",
+            "meaning": "化学的"
+          },
+          {
+            "word": "industries",
+            "pos": "n.",
+            "meaning": "工业"
           }
         ]
       }
@@ -290,9 +771,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Much",
+            "word": "where",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "在其中"
+          },
+          {
+            "word": "chance",
+            "pos": "adj.",
+            "meaning": "偶然的"
+          },
+          {
+            "word": "discoveries",
+            "pos": "n.",
+            "meaning": "发现"
+          },
+          {
+            "word": "play a part",
+            "pos": "v. phr.",
+            "meaning": "起作用"
+          },
+          {
+            "word": "much",
+            "pos": "adv.",
+            "meaning": "大大地"
+          },
+          {
+            "word": "larger",
+            "pos": "adj.",
+            "meaning": "更大的"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "如此, 这样"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "physical",
+            "pos": "adj.",
+            "meaning": "物理的"
+          },
+          {
+            "word": "mechanical",
+            "pos": "adj.",
+            "meaning": "机械的"
+          },
+          {
+            "word": "industries",
+            "pos": "n.",
+            "meaning": "工业"
           }
         ]
       }
@@ -307,9 +843,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "sometimes",
+            "pos": "adv.",
+            "meaning": "有时"
+          },
+          {
+            "word": "secrecy",
+            "pos": "n.",
+            "meaning": "秘密"
+          },
+          {
+            "word": "go to such an extent",
+            "pos": "v. phr.",
+            "meaning": "达到如此程度"
+          },
+          {
+            "word": "whole",
+            "pos": "adj.",
+            "meaning": "整个的"
+          },
+          {
+            "word": "nature",
+            "pos": "n.",
+            "meaning": "性质"
+          },
+          {
+            "word": "research",
+            "pos": "n.",
+            "meaning": "研究"
+          },
+          {
+            "word": "cannot be mentioned",
+            "pos": "v. phr.",
+            "meaning": "不能提及"
           }
         ]
       }
@@ -320,7 +886,71 @@
       "text": "Many firms, for instance have great difficulty in obtaining technical or scientific books from libraries",
       "translation": "例如，许多公司很难从图书馆获得技术或科学书籍",
       "startTime": 113.17,
-      "endTime": 120.94
+      "endTime": 120.94,
+      "analysis": {
+        "words": [
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多的"
+          },
+          {
+            "word": "firms",
+            "pos": "n.",
+            "meaning": "公司"
+          },
+          {
+            "word": "for instance",
+            "pos": "adv. phr.",
+            "meaning": "例如"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有，遇到"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "巨大的，极大的"
+          },
+          {
+            "word": "difficulty",
+            "pos": "n.",
+            "meaning": "困难"
+          },
+          {
+            "word": "obtaining",
+            "pos": "v.",
+            "meaning": "获取，得到"
+          },
+          {
+            "word": "technical",
+            "pos": "adj.",
+            "meaning": "技术的"
+          },
+          {
+            "word": "scientific",
+            "pos": "adj.",
+            "meaning": "科学的"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书籍"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "libraries",
+            "pos": "n.",
+            "meaning": "图书馆"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -332,7 +962,47 @@
       "analysis": {
         "words": [
           {
-            "word": "Book",
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "unwilling",
+            "pos": "adj.",
+            "meaning": "不愿意的"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "让，使"
+          },
+          {
+            "word": "names",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "entered",
+            "pos": "v.",
+            "meaning": "登记，录入"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "take out",
+            "pos": "v. phr.",
+            "meaning": "借出"
+          },
+          {
+            "word": "such and such",
+            "pos": "adj. phr.",
+            "meaning": "某某的"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
           }
@@ -347,7 +1017,63 @@
       "startTime": 127.65,
       "endTime": 132.65,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "for fear",
+            "pos": "conj. phr.",
+            "meaning": "生怕，唯恐"
+          },
+          {
+            "word": "agent",
+            "pos": "n.",
+            "meaning": "代理人"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "firm",
+            "pos": "n.",
+            "meaning": "公司"
+          },
+          {
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该，可能"
+          },
+          {
+            "word": "be able to",
+            "pos": "v. phr.",
+            "meaning": "能够"
+          },
+          {
+            "word": "trace",
+            "pos": "v.",
+            "meaning": "追踪"
+          },
+          {
+            "word": "kind of",
+            "pos": "n. phr.",
+            "meaning": "种类，类型"
+          },
+          {
+            "word": "research",
+            "pos": "n.",
+            "meaning": "研究"
+          },
+          {
+            "word": "be likely to",
+            "pos": "adj. phr.",
+            "meaning": "很可能"
+          },
+          {
+            "word": "undertake",
+            "pos": "v.",
+            "meaning": "从事，着手"
+          }
+        ]
       }
     }
   ]

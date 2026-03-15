@@ -27,7 +27,21 @@
       "text": "Water and the traveller",
       "translation": "",
       "startTime": 2.41,
-      "endTime": 9.58
+      "endTime": 9.58,
+      "analysis": {
+        "words": [
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "traveller",
+            "pos": "n.",
+            "meaning": "旅行者"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,8 +74,8 @@
           },
           {
             "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
+            "pos": "adj.",
+            "meaning": "这，这个"
           },
           {
             "word": "question",
@@ -91,14 +95,24 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
           },
           {
-            "word": "This",
-            "pos": "pron.",
+            "word": "this",
+            "pos": "adj.",
             "meaning": "这，这个"
+          },
+          {
+            "word": "text",
+            "pos": "n.",
+            "meaning": "文本，文章"
+          },
+          {
+            "word": "describe",
+            "pos": "v.",
+            "meaning": "描述"
           }
         ]
       }
@@ -113,9 +127,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "contamination",
+            "pos": "n.",
+            "meaning": "污染"
+          },
+          {
+            "word": "water supplies",
+            "pos": "n. phr.",
+            "meaning": "供水"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "due to",
+            "pos": "prep. phr.",
+            "meaning": "由于"
+          },
+          {
+            "word": "poor",
+            "pos": "adj.",
+            "meaning": "差的"
+          },
+          {
+            "word": "sanitation",
+            "pos": "n.",
+            "meaning": "卫生"
+          },
+          {
+            "word": "close to",
+            "pos": "prep. phr.",
+            "meaning": "靠近"
+          },
+          {
+            "word": "water sources",
+            "pos": "n. phr.",
+            "meaning": "水源"
           }
         ]
       }
@@ -126,7 +175,81 @@
       "text": "sewage disposal into the sources themselves, leakage of sewage into distribution systems or contamination with industrial or farm waste.",
       "translation": "",
       "startTime": 21.3,
-      "endTime": 32.16
+      "endTime": 32.16,
+      "analysis": {
+        "words": [
+          {
+            "word": "sewage",
+            "pos": "n.",
+            "meaning": "污水"
+          },
+          {
+            "word": "disposal",
+            "pos": "n.",
+            "meaning": "处理"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "sources",
+            "pos": "n.",
+            "meaning": "源头"
+          },
+          {
+            "word": "themselves",
+            "pos": "pron.",
+            "meaning": "它们自己"
+          },
+          {
+            "word": "leakage",
+            "pos": "n.",
+            "meaning": "渗漏"
+          },
+          {
+            "word": "distribution",
+            "pos": "n.",
+            "meaning": "分配"
+          },
+          {
+            "word": "systems",
+            "pos": "n.",
+            "meaning": "系统"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "contamination",
+            "pos": "n.",
+            "meaning": "污染"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "和...一起"
+          },
+          {
+            "word": "industrial",
+            "pos": "adj.",
+            "meaning": "工业的"
+          },
+          {
+            "word": "farm",
+            "pos": "adj.",
+            "meaning": "农场的"
+          },
+          {
+            "word": "waste",
+            "pos": "n.",
+            "meaning": "废物"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -138,24 +261,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "even if",
+            "pos": "conj. phr.",
+            "meaning": "即使"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "piped",
+            "pos": "adj.",
+            "meaning": "管道输送的"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "water supply",
+            "pos": "n. phr.",
+            "meaning": "供水"
           },
           {
-            "word": "Not",
+            "word": "safe",
+            "pos": "adj.",
+            "meaning": "安全的"
+          },
+          {
+            "word": "source",
+            "pos": "n.",
+            "meaning": "源头"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "by the time",
+            "pos": "conj. phr.",
+            "meaning": "到…的时候"
+          },
+          {
+            "word": "reaches",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "tap",
+            "pos": "n.",
+            "meaning": "水龙头"
           }
         ]
       }
@@ -168,7 +321,38 @@
       "startTime": 39.72,
       "endTime": 45.75,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "intermittent",
+            "pos": "adj.",
+            "meaning": "间歇的"
+          },
+          {
+            "word": "tap-water",
+            "pos": "n.",
+            "meaning": "自来水"
+          },
+          {
+            "word": "supplies",
+            "pos": "n.",
+            "meaning": "供应"
+          },
+          {
+            "word": "regard as",
+            "pos": "v. phr.",
+            "meaning": "视为，看作"
+          },
+          {
+            "word": "particularly",
+            "pos": "adv.",
+            "meaning": "尤其"
+          },
+          {
+            "word": "suspect",
+            "pos": "adj.",
+            "meaning": "可疑的"
+          }
+        ]
       }
     },
     {
@@ -181,9 +365,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Short",
+            "word": "travellers",
+            "pos": "n.",
+            "meaning": "旅行者"
+          },
+          {
+            "word": "short trips",
+            "pos": "n. phr.",
+            "meaning": "短途旅行"
+          },
+          {
+            "word": "areas",
+            "pos": "n.",
+            "meaning": "区域"
+          },
+          {
+            "word": "water supplies",
+            "pos": "n. phr.",
+            "meaning": "供水"
+          },
+          {
+            "word": "uncertain",
             "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "不确定的"
+          },
+          {
+            "word": "quality",
+            "pos": "n.",
+            "meaning": "质量"
           }
         ]
       }
@@ -196,7 +405,63 @@
       "startTime": 51.08,
       "endTime": 56.94,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该"
+          },
+          {
+            "word": "avoid",
+            "pos": "v.",
+            "meaning": "避免"
+          },
+          {
+            "word": "drinking",
+            "pos": "v.",
+            "meaning": "饮用"
+          },
+          {
+            "word": "tap-water",
+            "pos": "n.",
+            "meaning": "自来水"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "untreated",
+            "pos": "adj.",
+            "meaning": "未处理的"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "source",
+            "pos": "n.",
+            "meaning": "来源"
+          }
+        ]
       }
     },
     {
@@ -209,24 +474,79 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "best",
+            "pos": "adj.",
+            "meaning": "最好的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "keep to",
+            "pos": "v. phr.",
+            "meaning": "坚持；遵守"
           },
           {
-            "word": "Hot",
+            "word": "hot",
             "pos": "adj.",
             "meaning": "热的"
           },
           {
-            "word": "At",
+            "word": "drinks",
+            "pos": "n.",
+            "meaning": "饮料"
+          },
+          {
+            "word": "bottled",
+            "pos": "adj.",
+            "meaning": "瓶装的"
+          },
+          {
+            "word": "canned",
+            "pos": "adj.",
+            "meaning": "罐装的"
+          },
+          {
+            "word": "well-known",
+            "pos": "adj.",
+            "meaning": "著名的"
+          },
+          {
+            "word": "brand names",
+            "pos": "n. phr.",
+            "meaning": "品牌名称"
+          },
+          {
+            "word": "international",
+            "pos": "adj.",
+            "meaning": "国际的"
+          },
+          {
+            "word": "standard",
+            "pos": "n.",
+            "meaning": "标准"
+          },
+          {
+            "word": "water treatment",
+            "pos": "n. phr.",
+            "meaning": "水处理"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常地"
+          },
+          {
+            "word": "followed",
+            "pos": "v.",
+            "meaning": "遵循；遵守"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在...处"
+          },
+          {
+            "word": "bottling plants",
+            "pos": "n. phr.",
+            "meaning": "灌装厂"
           }
         ]
       }
@@ -239,7 +559,33 @@
       "startTime": 68.27,
       "endTime": 72.23,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "carbonated",
+            "pos": "adj.",
+            "meaning": "碳酸的"
+          },
+          {
+            "word": "drinks",
+            "pos": "n.",
+            "meaning": "饮料"
+          },
+          {
+            "word": "acidic",
+            "pos": "adj.",
+            "meaning": "酸性的"
+          },
+          {
+            "word": "slightly",
+            "pos": "adv.",
+            "meaning": "稍微地"
+          },
+          {
+            "word": "safer",
+            "pos": "adj.",
+            "meaning": "更安全的"
+          }
+        ]
       }
     },
     {
@@ -252,14 +598,44 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "make sure",
+            "pos": "v. phr.",
+            "meaning": "确保"
           },
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "all",
+            "pos": "adj.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "bottle",
+            "pos": "n.",
+            "meaning": "瓶子"
+          },
+          {
+            "word": "open",
+            "pos": "v.",
+            "meaning": "打开"
+          },
+          {
+            "word": "in your presence",
+            "pos": "adv. phr.",
+            "meaning": "当着你的面"
+          },
+          {
+            "word": "rim",
+            "pos": "n.",
+            "meaning": "边缘，瓶口"
+          },
+          {
+            "word": "clean",
+            "pos": "adj.",
+            "meaning": "干净的"
+          },
+          {
+            "word": "dry",
+            "pos": "adj.",
+            "meaning": "干燥的"
           }
         ]
       }
@@ -274,9 +650,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Boiling",
+            "pos": "n.",
+            "meaning": "煮沸"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "方法"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "treating",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "处理"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
           }
         ]
       }
@@ -291,9 +697,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "hotels",
+            "pos": "n.",
+            "meaning": "酒店"
+          },
+          {
+            "word": "supply",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "boiled",
+            "pos": "adj.",
+            "meaning": "煮沸的"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "on request",
+            "pos": "adv. phr.",
+            "meaning": "应要求"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "此"
+          },
+          {
+            "word": "be used for",
+            "pos": "v. phr.",
+            "meaning": "用于"
+          },
+          {
+            "word": "drinking",
+            "pos": "n.",
+            "meaning": "饮用"
+          },
+          {
+            "word": "brushing teeth",
+            "pos": "n. phr.",
+            "meaning": "刷牙"
           }
         ]
       }
@@ -308,14 +754,64 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "portable",
+            "pos": "adj.",
+            "meaning": "便携的"
           },
           {
-            "word": "Is",
+            "word": "boiling elements",
+            "pos": "n. phr.",
+            "meaning": "加热元件"
+          },
+          {
+            "word": "boil",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "煮沸"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "少量的"
+          },
+          {
+            "word": "quantities",
+            "pos": "n.",
+            "meaning": "数量"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "useful",
+            "pos": "adj.",
+            "meaning": "有用的"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "适当的"
+          },
+          {
+            "word": "voltage",
+            "pos": "n.",
+            "meaning": "电压"
+          },
+          {
+            "word": "electricity",
+            "pos": "n.",
+            "meaning": "电"
+          },
+          {
+            "word": "available",
+            "pos": "adj.",
+            "meaning": "可用的"
           }
         ]
       }
@@ -330,9 +826,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Cold",
+            "word": "refuse",
+            "pos": "v.",
+            "meaning": "拒绝"
+          },
+          {
+            "word": "politely",
+            "pos": "adv.",
+            "meaning": "礼貌地"
+          },
+          {
+            "word": "any",
+            "pos": "pron.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "cold",
             "pos": "adj.",
             "meaning": "冷的"
+          },
+          {
+            "word": "drink",
+            "pos": "n.",
+            "meaning": "饮料"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "unknown",
+            "pos": "adj.",
+            "meaning": "未知的"
+          },
+          {
+            "word": "source",
+            "pos": "n.",
+            "meaning": "来源"
           }
         ]
       }
@@ -347,14 +878,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Ice",
+            "pos": "n.",
+            "meaning": "冰"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "as safe as",
+            "pos": "adj. phr.",
+            "meaning": "和…一样安全"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "from which",
+            "pos": "prep. phr.",
+            "meaning": "从中"
+          },
+          {
+            "word": "is made",
+            "pos": "v. phr.",
+            "meaning": "被制成"
           }
         ]
       }
@@ -369,19 +920,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "put in",
+            "pos": "v. phr.",
+            "meaning": "放入, 置入"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "drinks",
+            "pos": "n.",
+            "meaning": "饮品"
+          },
+          {
+            "word": "unless",
+            "pos": "conj.",
+            "meaning": "除非"
+          },
+          {
+            "word": "known to be safe",
+            "pos": "adj. phr.",
+            "meaning": "已知安全"
           }
         ]
       }
@@ -394,7 +960,48 @@
       "startTime": 111.8,
       "endTime": 118.16,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "drinks",
+            "pos": "n.",
+            "meaning": "饮料"
+          },
+          {
+            "word": "cooled",
+            "pos": "v.",
+            "meaning": "冷却"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "placing",
+            "pos": "v.",
+            "meaning": "放置"
+          },
+          {
+            "word": "on ice",
+            "pos": "prep. phr.",
+            "meaning": "放在冰上"
+          },
+          {
+            "word": "rather than",
+            "pos": "conj. phr.",
+            "meaning": "而不是"
+          },
+          {
+            "word": "adding",
+            "pos": "v.",
+            "meaning": "添加"
+          },
+          {
+            "word": "ice",
+            "pos": "n.",
+            "meaning": "冰"
+          }
+        ]
       }
     },
     {
@@ -407,9 +1014,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "alcohol",
+            "pos": "n.",
+            "meaning": "酒精"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "medical",
+            "pos": "adj.",
+            "meaning": "医疗的"
+          },
+          {
+            "word": "disinfectant",
+            "pos": "n.",
+            "meaning": "消毒剂"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该"
+          },
+          {
+            "word": "rely upon",
+            "pos": "v. phr.",
+            "meaning": "依赖"
+          },
+          {
+            "word": "sterilize",
+            "pos": "v.",
+            "meaning": "消毒"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
           }
         ]
       }
@@ -424,14 +1076,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Ethanol",
+            "pos": "n.",
+            "meaning": "乙醇"
           },
           {
-            "word": "At",
+            "word": "effective",
+            "pos": "adj.",
+            "meaning": "有效的"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在"
+          },
+          {
+            "word": "concentration",
+            "pos": "n.",
+            "meaning": "浓度"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "50-70 percent",
+            "pos": "num.",
+            "meaning": "百分之五十至七十"
           }
         ]
       }
@@ -446,9 +1118,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "below",
+            "pos": "prep.",
+            "meaning": "低于"
+          },
+          {
+            "word": "20",
+            "pos": "num.",
+            "meaning": "二十"
+          },
+          {
+            "word": "per cent",
+            "pos": "n. phr.",
+            "meaning": "百分之"
+          },
+          {
+            "word": "bactericidal",
+            "pos": "adj.",
+            "meaning": "杀菌的"
+          },
+          {
+            "word": "action",
+            "pos": "n.",
+            "meaning": "作用"
+          },
+          {
+            "word": "negligible",
+            "pos": "adj.",
+            "meaning": "微不足道的"
           }
         ]
       }
@@ -459,7 +1156,51 @@
       "text": "Spirits labelled 95 proof contain only about 47 per cent alcohol.",
       "translation": "",
       "startTime": 135.91,
-      "endTime": 142.62
+      "endTime": 142.62,
+      "analysis": {
+        "words": [
+          {
+            "word": "Spirits",
+            "pos": "n.",
+            "meaning": "烈酒"
+          },
+          {
+            "word": "labelled",
+            "pos": "adj.",
+            "meaning": "标注的"
+          },
+          {
+            "word": "95 proof",
+            "pos": "adj. phr.",
+            "meaning": "95度的(酒精)"
+          },
+          {
+            "word": "contain",
+            "pos": "v.",
+            "meaning": "含有"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "about",
+            "pos": "adv.",
+            "meaning": "大约"
+          },
+          {
+            "word": "47 per cent",
+            "pos": "num. phr.",
+            "meaning": "47% (百分之四十七)"
+          },
+          {
+            "word": "alcohol",
+            "pos": "n.",
+            "meaning": "酒精"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -467,7 +1208,26 @@
       "text": "Beware of methylated alcohol,",
       "translation": "",
       "startTime": 142.63,
-      "endTime": 144.88
+      "endTime": 144.88,
+      "analysis": {
+        "words": [
+          {
+            "word": "beware of",
+            "pos": "v. phr.",
+            "meaning": "小心，提防"
+          },
+          {
+            "word": "methylated",
+            "pos": "adj.",
+            "meaning": "掺甲醇的，变性的"
+          },
+          {
+            "word": "alcohol",
+            "pos": "n.",
+            "meaning": "酒精"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -479,14 +1239,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "其，哪个"
           },
           {
-            "word": "Very",
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "poisonous",
+            "pos": "adj.",
+            "meaning": "有毒的"
+          },
+          {
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不，绝不"
+          },
+          {
+            "word": "add to",
+            "pos": "v. phr.",
+            "meaning": "加入，添加到"
+          },
+          {
+            "word": "drinking water",
+            "pos": "n. phr.",
+            "meaning": "饮用水"
           }
         ]
       }
@@ -499,7 +1284,38 @@
       "startTime": 150.71,
       "endTime": 154.44,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "no",
+            "pos": "adv.",
+            "meaning": "没有"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "safe",
+            "pos": "adj.",
+            "meaning": "安全的"
+          },
+          {
+            "word": "water supply",
+            "pos": "n. phr.",
+            "meaning": "供水"
+          },
+          {
+            "word": "obtain",
+            "pos": "v.",
+            "meaning": "获得，得到"
+          }
+        ]
       }
     },
     {
@@ -512,24 +1328,54 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "tap water",
+            "pos": "n. phr.",
+            "meaning": "自来水"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Too",
+            "word": "too",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "太，过于"
           },
           {
-            "word": "Hot",
+            "word": "hot",
             "pos": "adj.",
             "meaning": "热的"
+          },
+          {
+            "word": "touch",
+            "pos": "v.",
+            "meaning": "触碰"
+          },
+          {
+            "word": "can",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "leave to cool",
+            "pos": "v. phr.",
+            "meaning": "任其冷却"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，并且"
+          },
+          {
+            "word": "generally",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "safe",
+            "pos": "adj.",
+            "meaning": "安全的"
+          },
+          {
+            "word": "drink",
+            "pos": "v.",
+            "meaning": "饮用"
           }
         ]
       }
@@ -544,14 +1390,79 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些人"
           },
           {
-            "word": "Not",
+            "word": "planning",
+            "pos": "v.",
+            "meaning": "计划"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "去，到"
+          },
+          {
+            "word": "remote",
+            "pos": "adj.",
+            "meaning": "偏远的"
+          },
+          {
+            "word": "areas",
+            "pos": "n.",
+            "meaning": "地区"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "intending",
+            "pos": "v.",
+            "meaning": "打算"
+          },
+          {
+            "word": "live",
+            "pos": "v.",
+            "meaning": "居住"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "countries",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "where",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "在...地方"
+          },
+          {
+            "word": "drinking water",
+            "pos": "n. phr.",
+            "meaning": "饮用水"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不，没有"
+          },
+          {
+            "word": "readily available",
+            "pos": "adj. phr.",
+            "meaning": "随时可用的"
           }
         ]
       }
@@ -564,7 +1475,48 @@
       "startTime": 169.29,
       "endTime": 174.29,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "should",
+            "pos": "aux. v.",
+            "meaning": "应该"
+          },
+          {
+            "word": "know about",
+            "pos": "v. phr.",
+            "meaning": "了解"
+          },
+          {
+            "word": "various",
+            "pos": "adj.",
+            "meaning": "各种各样的"
+          },
+          {
+            "word": "possible",
+            "pos": "adj.",
+            "meaning": "可能的"
+          },
+          {
+            "word": "methods",
+            "pos": "n.",
+            "meaning": "方法"
+          },
+          {
+            "word": "making",
+            "pos": "v.",
+            "meaning": "使"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "safe",
+            "pos": "adj.",
+            "meaning": "安全的"
+          }
+        ]
       }
     }
   ]

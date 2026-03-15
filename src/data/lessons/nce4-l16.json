@@ -27,7 +27,21 @@
       "text": "The modern city",
       "translation": "现代城市",
       "startTime": 2.51,
-      "endTime": 9.49
+      "endTime": 9.49,
+      "analysis": {
+        "words": [
+          {
+            "word": "modern",
+            "pos": "adj.",
+            "meaning": "现代的"
+          },
+          {
+            "word": "city",
+            "pos": "n.",
+            "meaning": "城市"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "录音带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -96,9 +100,39 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "author",
+            "pos": "n.",
+            "meaning": "作者"
+          },
+          {
+            "word": "main",
+            "pos": "adj.",
+            "meaning": "主要的"
+          },
+          {
+            "word": "argument",
+            "pos": "n.",
+            "meaning": "论点"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "modern",
+            "pos": "adj.",
+            "meaning": "现代的"
+          },
+          {
+            "word": "city",
+            "pos": "n.",
+            "meaning": "城市"
           }
         ]
       }
@@ -109,7 +143,76 @@
       "text": "In the organization of industrial life the influence of the factory upon the physiological and mental state of the workers has been completely neglected.",
       "translation": "在工业生活的组织中，工厂对工人生理和心理状态的影响被完全忽视了。",
       "startTime": 15.45,
-      "endTime": 26.72
+      "endTime": 26.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "organization",
+            "pos": "n.",
+            "meaning": "组织"
+          },
+          {
+            "word": "industrial",
+            "pos": "adj.",
+            "meaning": "工业的"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生活"
+          },
+          {
+            "word": "influence",
+            "pos": "n.",
+            "meaning": "影响"
+          },
+          {
+            "word": "factory",
+            "pos": "n.",
+            "meaning": "工厂"
+          },
+          {
+            "word": "upon",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "physiological",
+            "pos": "adj.",
+            "meaning": "生理的"
+          },
+          {
+            "word": "mental",
+            "pos": "adj.",
+            "meaning": "心理的"
+          },
+          {
+            "word": "state",
+            "pos": "n.",
+            "meaning": "状态"
+          },
+          {
+            "word": "workers",
+            "pos": "n.",
+            "meaning": "工人"
+          },
+          {
+            "word": "completely",
+            "pos": "adv.",
+            "meaning": "完全地"
+          },
+          {
+            "word": "neglected",
+            "pos": "v.",
+            "meaning": "被忽视"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -121,14 +224,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Modern",
+            "pos": "adj.",
+            "meaning": "现代的"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "industry",
+            "pos": "n.",
+            "meaning": "工业"
+          },
+          {
+            "word": "based on",
+            "pos": "v. phr.",
+            "meaning": "基于"
+          },
+          {
+            "word": "conception",
+            "pos": "n.",
+            "meaning": "构想，概念"
+          },
+          {
+            "word": "maximum production",
+            "pos": "n. phr.",
+            "meaning": "最大产量"
+          },
+          {
+            "word": "at lowest cost",
+            "pos": "adv. phr.",
+            "meaning": "以最低成本"
           }
         ]
       }
@@ -143,14 +266,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "in order that",
+            "pos": "conj.",
+            "meaning": "为了"
           },
           {
-            "word": "Much",
-            "pos": "adv.",
-            "meaning": "非常"
+            "word": "individual",
+            "pos": "n.",
+            "meaning": "个人"
+          },
+          {
+            "word": "group",
+            "pos": "n.",
+            "meaning": "群体"
+          },
+          {
+            "word": "individuals",
+            "pos": "n.",
+            "meaning": "个人"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "earn",
+            "pos": "v.",
+            "meaning": "赚取"
+          },
+          {
+            "word": "as much money as possible",
+            "pos": "adv. phr.",
+            "meaning": "尽可能多的钱"
           }
         ]
       }
@@ -165,9 +313,54 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "expand",
+            "pos": "v.",
+            "meaning": "扩展，发展"
+          },
+          {
+            "word": "without",
+            "pos": "prep.",
+            "meaning": "没有，无"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "想法，概念"
+          },
+          {
+            "word": "true",
+            "pos": "adj.",
+            "meaning": "真实的，真正的"
+          },
+          {
+            "word": "nature",
+            "pos": "n.",
+            "meaning": "本质，天性"
+          },
+          {
+            "word": "human beings",
+            "pos": "n. phr.",
+            "meaning": "人类"
+          },
+          {
+            "word": "who",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "指代人"
+          },
+          {
+            "word": "run",
+            "pos": "v.",
+            "meaning": "运行，操作"
+          },
+          {
+            "word": "machines",
+            "pos": "n.",
+            "meaning": "机器"
           }
         ]
       }
@@ -180,7 +373,78 @@
       "startTime": 46.55,
       "endTime": 58.62,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "without",
+            "pos": "prep.",
+            "meaning": "没有"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给予"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "consideration",
+            "pos": "n.",
+            "meaning": "考虑"
+          },
+          {
+            "word": "effect",
+            "pos": "n.",
+            "meaning": "影响"
+          },
+          {
+            "word": "produce",
+            "pos": "v.",
+            "meaning": "产生"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "individual",
+            "pos": "n.",
+            "meaning": "个人"
+          },
+          {
+            "word": "descendant",
+            "pos": "n.",
+            "meaning": "后代"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "由，通过"
+          },
+          {
+            "word": "artificial",
+            "pos": "adj.",
+            "meaning": "人造的"
+          },
+          {
+            "word": "mode of existence",
+            "pos": "n. phr.",
+            "meaning": "生存方式"
+          },
+          {
+            "word": "impose",
+            "pos": "v.",
+            "meaning": "强加"
+          },
+          {
+            "word": "factory",
+            "pos": "n.",
+            "meaning": "工厂"
+          }
+        ]
       }
     },
     {
@@ -189,7 +453,31 @@
       "text": "The great cities have been built with no regard for us.",
       "translation": "伟大的城市是在不顾我们的情况下建造的。",
       "startTime": 58.63,
-      "endTime": 62.64
+      "endTime": 62.64,
+      "analysis": {
+        "words": [
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "伟大的"
+          },
+          {
+            "word": "cities",
+            "pos": "n.",
+            "meaning": "城市"
+          },
+          {
+            "word": "built",
+            "pos": "v.",
+            "meaning": "被建造"
+          },
+          {
+            "word": "with no regard for",
+            "pos": "prep. phr.",
+            "meaning": "不顾，不考虑"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -197,7 +485,66 @@
       "text": "The shape and dimensions of the skyscrapers depend entirely on the necessity of obtaining the maximum income per square foot of ground,",
       "translation": "摩天大楼的形状和尺寸完全取决于获得每平方英尺地面最大收入的必要性，",
       "startTime": 62.65,
-      "endTime": 71.67
+      "endTime": 71.67,
+      "analysis": {
+        "words": [
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "dimensions",
+            "pos": "n.",
+            "meaning": "尺寸"
+          },
+          {
+            "word": "skyscrapers",
+            "pos": "n.",
+            "meaning": "摩天大楼"
+          },
+          {
+            "word": "depend on",
+            "pos": "v. phr.",
+            "meaning": "取决于"
+          },
+          {
+            "word": "entirely",
+            "pos": "adv.",
+            "meaning": "完全地"
+          },
+          {
+            "word": "necessity",
+            "pos": "n.",
+            "meaning": "必要性"
+          },
+          {
+            "word": "obtaining",
+            "pos": "v.",
+            "meaning": "获得"
+          },
+          {
+            "word": "maximum",
+            "pos": "adj.",
+            "meaning": "最大的"
+          },
+          {
+            "word": "income",
+            "pos": "n.",
+            "meaning": "收入"
+          },
+          {
+            "word": "per square foot",
+            "pos": "n. phr.",
+            "meaning": "每平方英尺"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地皮"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -209,14 +556,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "offering",
+            "pos": "v.",
+            "meaning": "提供"
           },
           {
-            "word": "Please",
-            "pos": "int.",
-            "meaning": "请"
+            "word": "tenants",
+            "pos": "n.",
+            "meaning": "租户"
+          },
+          {
+            "word": "offices",
+            "pos": "n.",
+            "meaning": "办公室"
+          },
+          {
+            "word": "apartments",
+            "pos": "n.",
+            "meaning": "公寓"
+          },
+          {
+            "word": "please",
+            "pos": "v.",
+            "meaning": "使满意"
           }
         ]
       }
@@ -233,12 +595,57 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Too",
+            "word": "caused",
+            "pos": "v.",
+            "meaning": "导致"
+          },
+          {
+            "word": "construction",
+            "pos": "n.",
+            "meaning": "建造"
+          },
+          {
+            "word": "gigantic",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "buildings",
+            "pos": "n.",
+            "meaning": "建筑物"
+          },
+          {
+            "word": "where",
             "pos": "adv.",
-            "meaning": "也"
+            "meaning": "在那里"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "太"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "masses of",
+            "pos": "n. phr.",
+            "meaning": "大量"
+          },
+          {
+            "word": "human beings",
+            "pos": "n. phr.",
+            "meaning": "人类"
+          },
+          {
+            "word": "crowded together",
+            "pos": "v. phr.",
+            "meaning": "挤在一起"
           }
         ]
       }
@@ -249,7 +656,36 @@
       "text": "Civilized men like such a way of living.",
       "translation": "文明人喜欢这种生活方式。",
       "startTime": 84.66,
-      "endTime": 87.96
+      "endTime": 87.96,
+      "analysis": {
+        "words": [
+          {
+            "word": "Civilized",
+            "pos": "adj.",
+            "meaning": "文明的"
+          },
+          {
+            "word": "men",
+            "pos": "n.",
+            "meaning": "人类"
+          },
+          {
+            "word": "like",
+            "pos": "v.",
+            "meaning": "喜欢"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          },
+          {
+            "word": "way of living",
+            "pos": "n. phr.",
+            "meaning": "生活方式"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -261,14 +697,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "While",
+            "pos": "conj.",
+            "meaning": "然而，尽管"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "enjoy",
+            "pos": "v.",
+            "meaning": "享受"
+          },
+          {
+            "word": "comfort",
+            "pos": "n.",
+            "meaning": "舒适"
+          },
+          {
+            "word": "banal",
+            "pos": "adj.",
+            "meaning": "平庸的，乏味的"
+          },
+          {
+            "word": "luxury",
+            "pos": "n.",
+            "meaning": "奢华，奢侈品"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的，关于"
+          },
+          {
+            "word": "dwelling",
+            "pos": "n.",
+            "meaning": "住所"
+          },
+          {
+            "word": "realize",
+            "pos": "v.",
+            "meaning": "意识到"
+          },
+          {
+            "word": "deprived of",
+            "pos": "v. phr.",
+            "meaning": "被剥夺"
+          },
+          {
+            "word": "necessities",
+            "pos": "n.",
+            "meaning": "必需品"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生活，生命"
           }
         ]
       }
@@ -279,7 +760,76 @@
       "text": "The modern city consists of monstrous edifices and of dark, narrow streets full of petrol fumes and toxic gases,",
       "translation": "这座现代化的城市由巨大的建筑和充满汽油烟雾和有毒气体的黑暗狭窄的街道组成，",
       "startTime": 97.06,
-      "endTime": 106.19
+      "endTime": 106.19,
+      "analysis": {
+        "words": [
+          {
+            "word": "modern",
+            "pos": "adj.",
+            "meaning": "现代的"
+          },
+          {
+            "word": "city",
+            "pos": "n.",
+            "meaning": "城市"
+          },
+          {
+            "word": "consists of",
+            "pos": "v. phr.",
+            "meaning": "组成；构成"
+          },
+          {
+            "word": "monstrous",
+            "pos": "adj.",
+            "meaning": "巨大的；骇人的"
+          },
+          {
+            "word": "edifices",
+            "pos": "n.",
+            "meaning": "大厦；建筑物"
+          },
+          {
+            "word": "dark",
+            "pos": "adj.",
+            "meaning": "黑暗的"
+          },
+          {
+            "word": "narrow",
+            "pos": "adj.",
+            "meaning": "狭窄的"
+          },
+          {
+            "word": "streets",
+            "pos": "n.",
+            "meaning": "街道"
+          },
+          {
+            "word": "full of",
+            "pos": "adj. phr.",
+            "meaning": "充满…的"
+          },
+          {
+            "word": "petrol",
+            "pos": "n.",
+            "meaning": "汽油"
+          },
+          {
+            "word": "fumes",
+            "pos": "n.",
+            "meaning": "烟雾；废气"
+          },
+          {
+            "word": "toxic",
+            "pos": "adj.",
+            "meaning": "有毒的"
+          },
+          {
+            "word": "gases",
+            "pos": "n.",
+            "meaning": "气体"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -287,7 +837,71 @@
       "text": "torn by the noise of the taxicabs, lorries and buses, and thronged ceaselessly by great crowds.",
       "translation": "被出租车、卡车和公共汽车的噪音撕裂，不断挤满了大批人群。",
       "startTime": 106.2,
-      "endTime": 114.57
+      "endTime": 114.57,
+      "analysis": {
+        "words": [
+          {
+            "word": "torn",
+            "pos": "v.",
+            "meaning": "饱受困扰"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "被，由"
+          },
+          {
+            "word": "noise",
+            "pos": "n.",
+            "meaning": "噪音"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "taxicabs",
+            "pos": "n.",
+            "meaning": "出租车"
+          },
+          {
+            "word": "lorries",
+            "pos": "n.",
+            "meaning": "卡车"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，与"
+          },
+          {
+            "word": "buses",
+            "pos": "n.",
+            "meaning": "公共汽车"
+          },
+          {
+            "word": "thronged",
+            "pos": "v.",
+            "meaning": "挤满，拥挤"
+          },
+          {
+            "word": "ceaselessly",
+            "pos": "adv.",
+            "meaning": "不停地，持续地"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "大量的，巨大的"
+          },
+          {
+            "word": "crowds",
+            "pos": "n.",
+            "meaning": "人群"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -299,14 +913,24 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Obviously",
+            "pos": "adv.",
+            "meaning": "显然地"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "planned",
+            "pos": "v.",
+            "meaning": "计划"
+          },
+          {
+            "word": "for the good of",
+            "pos": "prep. phr.",
+            "meaning": "为了…的利益"
+          },
+          {
+            "word": "inhabitants",
+            "pos": "n.",
+            "meaning": "居民"
           }
         ]
       }

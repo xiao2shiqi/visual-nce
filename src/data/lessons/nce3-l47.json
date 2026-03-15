@@ -31,24 +31,19 @@
       "analysis": {
         "words": [
           {
-            "word": "Too",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "过于，太"
           },
           {
             "word": "high",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "pos": "adj.",
+            "meaning": "高的"
           },
           {
             "word": "price",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "价格"
           }
         ]
       }
@@ -63,24 +58,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -94,7 +79,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -115,6 +100,21 @@
       "analysis": {
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作者"
+          },
+          {
+            "word": "describe as",
+            "pos": "v. phr.",
+            "meaning": "描述为"
+          },
+          {
             "word": "amusing",
             "pos": "adj.",
             "meaning": "有趣的"
@@ -123,6 +123,11 @@
             "word": "old-fashioned",
             "pos": "adj.",
             "meaning": "老式的"
+          },
+          {
+            "word": "source of noise",
+            "pos": "n. phr.",
+            "meaning": "噪音来源"
           }
         ]
       }
@@ -137,9 +142,24 @@
       "analysis": {
         "words": [
           {
-            "word": "pollution",
+            "word": "Pollution",
             "pos": "n.",
             "meaning": "污染"
+          },
+          {
+            "word": "price",
+            "pos": "n.",
+            "meaning": "代价"
+          },
+          {
+            "word": "pay",
+            "pos": "v.",
+            "meaning": "付出"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "作为代价"
           },
           {
             "word": "overpopulated",
@@ -150,6 +170,11 @@
             "word": "overindustrialized",
             "pos": "adj.",
             "meaning": "过度工业化的"
+          },
+          {
+            "word": "planet",
+            "pos": "n.",
+            "meaning": "行星"
           }
         ]
       }
@@ -165,88 +190,48 @@
         "words": [
           {
             "word": "When",
-            "pos": "n.",
+            "pos": "conj.",
             "meaning": "当...时"
           },
           {
-            "word": "you",
-            "pos": "pron.",
-            "meaning": "你"
+            "word": "come to think about it",
+            "pos": "v. phr.",
+            "meaning": "仔细想想"
           },
           {
-            "word": "come",
-            "pos": "n.",
-            "meaning": "来"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "think",
-            "pos": "n.",
-            "meaning": "想"
-          },
-          {
-            "word": "about",
-            "pos": "n.",
-            "meaning": "关于"
-          },
-          {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "there",
-            "pos": "n.",
-            "meaning": "那里"
-          },
-          {
-            "word": "are",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "there are",
+            "pos": "v. phr.",
+            "meaning": "有，存在"
           },
           {
             "word": "only",
-            "pos": "n.",
-            "meaning": "只有"
+            "pos": "adv.",
+            "meaning": "仅仅，只有"
           },
           {
             "word": "four",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "num.",
+            "meaning": "四"
           },
           {
             "word": "ways",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "you",
-            "pos": "pron.",
-            "meaning": "你"
+            "meaning": "方法，方式"
           },
           {
             "word": "can",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "aux. v.",
+            "meaning": "能，可以"
           },
           {
-            "word": "deal",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "with",
-            "pos": "n.",
-            "meaning": "和...一起"
+            "word": "deal with",
+            "pos": "v. phr.",
+            "meaning": "处理，应对"
           },
           {
             "word": "rubbish",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "垃圾，废弃物"
           }
         ]
       }
@@ -264,6 +249,51 @@
             "word": "dump",
             "pos": "v.",
             "meaning": "倾倒"
+          },
+          {
+            "word": "burn",
+            "pos": "v.",
+            "meaning": "燃烧"
+          },
+          {
+            "word": "turn into",
+            "pos": "v. phr.",
+            "meaning": "变成"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某物"
+          },
+          {
+            "word": "can",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "use",
+            "pos": "v.",
+            "meaning": "使用"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
+          },
+          {
+            "word": "attempt",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "produce",
+            "pos": "v.",
+            "meaning": "生产"
+          },
+          {
+            "word": "less",
+            "pos": "adj.",
+            "meaning": "更少的"
           }
         ]
       }
@@ -278,19 +308,64 @@
       "analysis": {
         "words": [
           {
+            "word": "keep trying",
+            "pos": "v. phr.",
+            "meaning": "持续尝试"
+          },
+          {
+            "word": "all",
+            "pos": "adj.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "four",
+            "pos": "num.",
+            "meaning": "四"
+          },
+          {
+            "word": "methods",
+            "pos": "n.",
+            "meaning": "方法"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "sheer",
+            "pos": "adj.",
+            "meaning": "大量的；纯粹的"
+          },
+          {
             "word": "volume",
             "pos": "n.",
-            "meaning": "体积，容量"
+            "meaning": "数量；体积"
+          },
+          {
+            "word": "rubbish",
+            "pos": "n.",
+            "meaning": "垃圾"
+          },
+          {
+            "word": "produce",
+            "pos": "v.",
+            "meaning": "生产；制造"
           },
           {
             "word": "worldwide",
-            "pos": "adj.",
-            "meaning": "全世界的"
+            "pos": "adv.",
+            "meaning": "世界各地地"
+          },
+          {
+            "word": "threaten",
+            "pos": "v.",
+            "meaning": "威胁"
           },
           {
             "word": "overwhelm",
             "pos": "v.",
-            "meaning": "淹没"
+            "meaning": "淹没；压倒"
           }
         ]
       }
@@ -305,14 +380,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Rubbish",
+            "word": "rubbish",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "垃圾"
           },
           {
             "word": "however",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "然而"
           },
           {
             "word": "is",
@@ -321,8 +396,8 @@
           },
           {
             "word": "only",
-            "pos": "n.",
-            "meaning": "只有"
+            "pos": "adv.",
+            "meaning": "仅仅"
           },
           {
             "word": "part",
@@ -331,13 +406,8 @@
           },
           {
             "word": "of",
-            "pos": "adj.",
+            "pos": "prep.",
             "meaning": "的"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
           },
           {
             "word": "problem",
@@ -346,23 +416,18 @@
           },
           {
             "word": "of",
-            "pos": "adj.",
+            "pos": "prep.",
             "meaning": "的"
           },
           {
             "word": "polluting",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "our",
-            "pos": "adj.",
-            "meaning": "我们的"
+            "pos": "v.",
+            "meaning": "污染"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           }
         ]
       }
@@ -377,89 +442,54 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "need",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "meaning": "需要"
           },
           {
             "word": "produce",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "生产"
           },
           {
-            "word": "ever",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "increasing",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "ever increasing",
+            "pos": "adj. phr.",
+            "meaning": "不断增长的"
           },
           {
             "word": "quantities",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "meaning": "数量"
           },
           {
             "word": "cheap",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "廉价的"
           },
           {
             "word": "food",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "食物"
           },
           {
-            "word": "leads",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "word": "leads to",
+            "pos": "v. phr.",
+            "meaning": "导致"
           },
           {
             "word": "different",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "kind",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
             "pos": "adj.",
-            "meaning": "的"
+            "meaning": "不同的"
+          },
+          {
+            "word": "kind of",
+            "pos": "n. phr.",
+            "meaning": "一种，类型的"
           },
           {
             "word": "pollution",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "污染"
           }
         ]
       }
@@ -474,59 +504,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Industriallized",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "industrialized",
+            "pos": "adj.",
+            "meaning": "工业化的"
           },
           {
-            "word": "farming",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "metheods",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "farming methods",
+            "pos": "n. phr.",
+            "meaning": "养殖方法"
           },
           {
             "word": "produce",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "生产"
           },
           {
             "word": "cheap",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "廉价的"
           },
           {
-            "word": "meat",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "products",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "meat products",
+            "pos": "n. phr.",
+            "meaning": "肉制品"
           },
           {
             "word": "beef",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "牛肉"
           },
           {
             "word": "pork",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
+            "meaning": "猪肉"
           },
           {
             "word": "chicken",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "鸡肉"
           }
         ]
       }
@@ -541,14 +556,39 @@
       "analysis": {
         "words": [
           {
-            "word": "pesticide",
+            "word": "use",
+            "pos": "n.",
+            "meaning": "使用"
+          },
+          {
+            "word": "pesticides",
             "pos": "n.",
             "meaning": "杀虫剂"
           },
           {
-            "word": "fertilizer",
+            "word": "fertilizers",
             "pos": "n.",
-            "meaning": "化肥"
+            "meaning": "肥料"
+          },
+          {
+            "word": "produces",
+            "pos": "v.",
+            "meaning": "生产"
+          },
+          {
+            "word": "cheap",
+            "pos": "adj.",
+            "meaning": "廉价的"
+          },
+          {
+            "word": "grain",
+            "pos": "n.",
+            "meaning": "谷物"
+          },
+          {
+            "word": "vegetables",
+            "pos": "n.",
+            "meaning": "蔬菜"
           }
         ]
       }
@@ -563,64 +603,44 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "price",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "价格"
           },
           {
-            "word": "we",
-            "pos": "pron.",
-            "meaning": "我们"
-          },
-          {
-            "word": "pay",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "for",
-            "pos": "n.",
-            "meaning": "为了"
+            "word": "pay for",
+            "pos": "v. phr.",
+            "meaning": "支付"
           },
           {
             "word": "cheap",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "廉价的"
           },
           {
             "word": "food",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "食物"
           },
           {
             "word": "may",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "be",
-            "pos": "v.",
-            "meaning": "是"
+            "pos": "aux. v.",
+            "meaning": "可能"
           },
           {
             "word": "already",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "已经"
           },
           {
             "word": "too",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "太"
           },
           {
             "word": "high",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "高的"
           }
         ]
       }
@@ -635,14 +655,44 @@
       "analysis": {
         "words": [
           {
+            "word": "Mad Cow Disease",
+            "pos": "n. phr.",
+            "meaning": "疯牛病"
+          },
+          {
+            "word": "BSE",
+            "pos": "n.",
+            "meaning": "牛海绵状脑病"
+          },
+          {
+            "word": "cattle",
+            "pos": "n.",
+            "meaning": "牛"
+          },
+          {
             "word": "salmonella",
             "pos": "n.",
             "meaning": "沙门氏菌"
           },
           {
+            "word": "chicken",
+            "pos": "n.",
+            "meaning": "鸡肉"
+          },
+          {
+            "word": "eggs",
+            "pos": "n.",
+            "meaning": "鸡蛋"
+          },
+          {
             "word": "listeria",
             "pos": "n.",
             "meaning": "李斯特菌"
+          },
+          {
+            "word": "dairy products",
+            "pos": "n. phr.",
+            "meaning": "乳制品"
           }
         ]
       }
@@ -656,6 +706,31 @@
       "endTime": 93.85,
       "analysis": {
         "words": [
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "abandon",
+            "pos": "v.",
+            "meaning": "放弃"
+          },
+          {
+            "word": "meat",
+            "pos": "n.",
+            "meaning": "肉"
+          },
+          {
+            "word": "become",
+            "pos": "v.",
+            "meaning": "成为"
+          },
           {
             "word": "vegetarian",
             "pos": "n.",
@@ -674,9 +749,34 @@
       "analysis": {
         "words": [
           {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "choice",
+            "pos": "n.",
+            "meaning": "选择"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "expensive",
+            "pos": "adj.",
+            "meaning": "昂贵的"
+          },
+          {
             "word": "organically-grown",
             "pos": "adj.",
             "meaning": "有机种植的"
+          },
+          {
+            "word": "vegetables",
+            "pos": "n.",
+            "meaning": "蔬菜"
           }
         ]
       }
@@ -692,83 +792,53 @@
         "words": [
           {
             "word": "or",
-            "pos": "n.",
+            "pos": "conj.",
             "meaning": "或者"
           },
           {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
-          },
-          {
-            "word": "steady",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "diet",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "word": "steady diet of",
+            "pos": "n. phr.",
+            "meaning": "持续摄入"
           },
           {
             "word": "pesticides",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "杀虫剂"
           },
           {
-            "word": "every",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "time",
-            "pos": "n.",
-            "meaning": "时间"
-          },
-          {
-            "word": "you",
-            "pos": "pron.",
-            "meaning": "你"
+            "word": "every time",
+            "pos": "adv. phr.",
+            "meaning": "每当"
           },
           {
             "word": "think",
-            "pos": "n.",
-            "meaning": "想"
-          },
-          {
-            "word": "you're",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "认为"
           },
           {
             "word": "eating",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "吃"
           },
           {
             "word": "fresh",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "新鲜的"
           },
           {
             "word": "salads",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "沙拉"
           },
           {
             "word": "and",
-            "pos": "n.",
+            "pos": "conj.",
             "meaning": "和"
           },
           {
             "word": "vegetables",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "蔬菜"
           }
         ]
       }
@@ -783,9 +853,29 @@
       "analysis": {
         "words": [
           {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "having",
+            "pos": "v.",
+            "meaning": "喝"
+          },
+          {
             "word": "innocent",
             "pos": "adj.",
-            "meaning": "无罪的，无害的"
+            "meaning": "无害的"
+          },
+          {
+            "word": "glass of water",
+            "pos": "n. phr.",
+            "meaning": "一杯水"
           }
         ]
       }
@@ -800,14 +890,79 @@
       "analysis": {
         "words": [
           {
-            "word": "insidious",
-            "pos": "adj.",
-            "meaning": "阴险的，隐袭的"
+            "word": "However",
+            "pos": "adv.",
+            "meaning": "然而"
           },
           {
-            "word": "urban",
+            "word": "there is",
+            "pos": "v. phr.",
+            "meaning": "存在"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "insidious",
             "pos": "adj.",
-            "meaning": "城市的"
+            "meaning": "潜伏的"
+          },
+          {
+            "word": "kind of",
+            "pos": "n. phr.",
+            "meaning": "种类"
+          },
+          {
+            "word": "pollution",
+            "pos": "n.",
+            "meaning": "污染"
+          },
+          {
+            "word": "particularly",
+            "pos": "adv.",
+            "meaning": "尤其"
+          },
+          {
+            "word": "affects",
+            "pos": "v.",
+            "meaning": "影响"
+          },
+          {
+            "word": "urban area",
+            "pos": "n. phr.",
+            "meaning": "城区"
+          },
+          {
+            "word": "invades",
+            "pos": "v.",
+            "meaning": "侵入"
+          },
+          {
+            "word": "daily",
+            "pos": "adj.",
+            "meaning": "日常的"
+          },
+          {
+            "word": "lives",
+            "pos": "n.",
+            "meaning": "生活"
+          },
+          {
+            "word": "that is",
+            "pos": "v. phr.",
+            "meaning": "那就是"
+          },
+          {
+            "word": "noise",
+            "pos": "n.",
+            "meaning": "噪音"
           }
         ]
       }
@@ -822,9 +977,69 @@
       "analysis": {
         "words": [
           {
+            "word": "burglar alarm",
+            "pos": "n. phr.",
+            "meaning": "防盗警报器"
+          },
+          {
+            "word": "go off",
+            "pos": "v. phr.",
+            "meaning": "(警报)响起"
+          },
+          {
+            "word": "at any time",
+            "pos": "adv. phr.",
+            "meaning": "任何时候"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "白天"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "夜晚"
+          },
+          {
+            "word": "serve",
+            "pos": "v.",
+            "meaning": "起作用"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "annoy",
+            "pos": "v.",
+            "meaning": "惹恼，打扰"
+          },
+          {
+            "word": "passers-by",
+            "pos": "n. phr.",
+            "meaning": "过路人"
+          },
+          {
+            "word": "actually",
+            "pos": "adv.",
+            "meaning": "实际上"
+          },
+          {
+            "word": "assist",
+            "pos": "v.",
+            "meaning": "帮助，协助"
+          },
+          {
             "word": "burglar",
             "pos": "n.",
             "meaning": "窃贼"
+          },
+          {
+            "word": "burgle",
+            "pos": "v.",
+            "meaning": "入室盗窃"
           }
         ]
       }
@@ -839,9 +1054,34 @@
       "analysis": {
         "words": [
           {
+            "word": "car alarms",
+            "pos": "n. phr.",
+            "meaning": "汽车警报器"
+          },
+          {
+            "word": "constantly",
+            "pos": "adv.",
+            "meaning": "持续地"
+          },
+          {
+            "word": "scream at",
+            "pos": "v. phr.",
+            "meaning": "发出尖叫"
+          },
+          {
+            "word": "in the street",
+            "pos": "adv. phr.",
+            "meaning": "在街上"
+          },
+          {
+            "word": "source of",
+            "pos": "n. phr.",
+            "meaning": "…的来源"
+          },
+          {
             "word": "profound",
             "pos": "adj.",
-            "meaning": "深刻的，极度的"
+            "meaning": "极大的"
           },
           {
             "word": "irritation",
@@ -861,9 +1101,29 @@
       "analysis": {
         "words": [
           {
-            "word": "reveal",
+            "word": "recent",
+            "pos": "adj.",
+            "meaning": "最近的"
+          },
+          {
+            "word": "survey",
+            "pos": "n.",
+            "meaning": "调查"
+          },
+          {
+            "word": "effects",
+            "pos": "n.",
+            "meaning": "影响"
+          },
+          {
+            "word": "noise",
+            "pos": "n.",
+            "meaning": "噪音"
+          },
+          {
+            "word": "revealed",
             "pos": "v.",
-            "meaning": "揭露，显示"
+            "meaning": "揭示"
           }
         ]
       }
@@ -878,9 +1138,64 @@
       "analysis": {
         "words": [
           {
+            "word": "dog",
+            "pos": "n.",
+            "meaning": "狗"
+          },
+          {
+            "word": "bark",
+            "pos": "v.",
+            "meaning": "吠叫"
+          },
+          {
             "word": "incessantly",
             "pos": "adv.",
             "meaning": "不停地"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "夜晚"
+          },
+          {
+            "word": "rate",
+            "pos": "v.",
+            "meaning": "评估"
+          },
+          {
+            "word": "highest",
+            "pos": "adj.",
+            "meaning": "最高的"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形式"
+          },
+          {
+            "word": "noise pollution",
+            "pos": "n. phr.",
+            "meaning": "噪音污染"
+          },
+          {
+            "word": "scale",
+            "pos": "n.",
+            "meaning": "等级"
+          },
+          {
+            "word": "range from...to...",
+            "pos": "v. phr.",
+            "meaning": "范围从…到…"
+          },
+          {
+            "word": "1",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "7",
+            "pos": "num.",
+            "meaning": "七"
           }
         ]
       }
@@ -895,74 +1210,39 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "survey",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "调查"
           },
           {
             "word": "revealed",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "揭示，透露"
           },
           {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
-          },
-          {
-            "word": "large",
-            "pos": "adj.",
-            "meaning": "大的"
-          },
-          {
-            "word": "number",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "word": "a large number of",
+            "pos": "n. phr.",
+            "meaning": "许多，大量"
           },
           {
             "word": "sources",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "meaning": "来源，根源"
           },
           {
             "word": "noise",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
-            "word": "we",
-            "pos": "pron.",
-            "meaning": "我们"
+            "meaning": "噪音，喧哗"
           },
           {
             "word": "really",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "确实，真正地"
           },
           {
             "word": "dislike",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "不喜欢，厌恶"
           }
         ]
       }
@@ -977,9 +1257,34 @@
       "analysis": {
         "words": [
           {
+            "word": "lawn mowers",
+            "pos": "n.",
+            "meaning": "割草机"
+          },
+          {
             "word": "whining",
             "pos": "v.",
-            "meaning": "发呜呜声"
+            "meaning": "嗡嗡作响"
+          },
+          {
+            "word": "summer's day",
+            "pos": "n. phr.",
+            "meaning": "夏日"
+          },
+          {
+            "word": "late-night",
+            "pos": "adj.",
+            "meaning": "深夜的"
+          },
+          {
+            "word": "parties",
+            "pos": "n.",
+            "meaning": "聚会"
+          },
+          {
+            "word": "apartment blocks",
+            "pos": "n.",
+            "meaning": "公寓楼"
           }
         ]
       }
@@ -995,33 +1300,23 @@
         "words": [
           {
             "word": "noisy",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "嘈杂的"
           },
           {
             "word": "neighbours",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "邻居"
           },
           {
             "word": "vehicles",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "车辆"
           },
           {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "all",
-            "pos": "n.",
-            "meaning": "所有"
-          },
-          {
-            "word": "kinds",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "of all kinds",
+            "pos": "adj. phr.",
+            "meaning": "各种各样的"
           }
         ]
       }
@@ -1037,43 +1332,38 @@
         "words": [
           {
             "word": "especially",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "尤其，特别是"
           },
           {
             "word": "large",
             "pos": "adj.",
-            "meaning": "大的"
+            "meaning": "大型的"
           },
           {
-            "word": "container",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "trucks",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "container trucks",
+            "pos": "n. phr.",
+            "meaning": "集装箱卡车"
           },
           {
             "word": "thundering",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "轰鸣着疾驰"
           },
           {
             "word": "through",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "prep.",
+            "meaning": "穿过"
           },
           {
             "word": "quiet",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "宁静的"
           },
           {
             "word": "villages",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "村庄"
           }
         ]
       }
@@ -1090,87 +1380,52 @@
           {
             "word": "planes",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
+            "meaning": "飞机"
           },
           {
             "word": "helicopters",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "直升机"
           },
           {
             "word": "flying",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "飞行"
           },
           {
             "word": "overhead",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "在头顶上空"
           },
           {
             "word": "large",
             "pos": "adj.",
-            "meaning": "大的"
+            "meaning": "大型的"
           },
           {
             "word": "radios",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "收音机"
           },
           {
-            "word": "carried",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "carry round",
+            "pos": "v. phr.",
+            "meaning": "随身携带"
           },
           {
-            "word": "round",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "public places",
+            "pos": "n. phr.",
+            "meaning": "公共场所"
           },
           {
-            "word": "in",
-            "pos": "n.",
-            "meaning": "在...里"
+            "word": "play",
+            "pos": "v.",
+            "meaning": "播放"
           },
           {
-            "word": "public",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "places",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
-          },
-          {
-            "word": "played",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "at",
-            "pos": "n.",
-            "meaning": "在..."
-          },
-          {
-            "word": "maximum",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "volume",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "at maximum volume",
+            "pos": "adv. phr.",
+            "meaning": "最大音量"
           }
         ]
       }
@@ -1185,54 +1440,34 @@
       "analysis": {
         "words": [
           {
-            "word": "New",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
           },
           {
             "word": "technology",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "has",
-            "pos": "n.",
-            "meaning": "有"
+            "meaning": "技术"
           },
           {
             "word": "also",
-            "pos": "n.",
+            "pos": "adv.",
             "meaning": "也"
           },
           {
-            "word": "made",
-            "pos": "n.",
-            "meaning": "制作"
-          },
-          {
-            "word": "its",
-            "pos": "adj.",
-            "meaning": "它的"
-          },
-          {
             "word": "own",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "自己的"
           },
           {
-            "word": "contribution",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "word": "make contribution to",
+            "pos": "v. phr.",
+            "meaning": "对…做出贡献"
           },
           {
             "word": "noise",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "噪音"
           }
         ]
       }
@@ -1247,9 +1482,74 @@
       "analysis": {
         "words": [
           {
-            "word": "object",
-            "pos": "v.",
+            "word": "a lot of",
+            "pos": "adj. phr.",
+            "meaning": "许多，大量"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人"
+          },
+          {
+            "word": "object to",
+            "pos": "v. phr.",
             "meaning": "反对"
+          },
+          {
+            "word": "mobile phone",
+            "pos": "n. phr.",
+            "meaning": "手机"
+          },
+          {
+            "word": "especially",
+            "pos": "adv.",
+            "meaning": "尤其，特别"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当…时候"
+          },
+          {
+            "word": "use",
+            "pos": "v.",
+            "meaning": "使用"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在…里"
+          },
+          {
+            "word": "public place",
+            "pos": "n. phr.",
+            "meaning": "公共场所"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像，例如"
+          },
+          {
+            "word": "restaurant",
+            "pos": "n.",
+            "meaning": "餐馆"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在…上"
+          },
+          {
+            "word": "public transport",
+            "pos": "n. phr.",
+            "meaning": "公共交通"
           }
         ]
       }
@@ -1264,99 +1564,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Loud",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "loud",
+            "pos": "adj.",
+            "meaning": "喧闹的"
           },
           {
             "word": "conversations",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "对话"
           },
           {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
-          },
-          {
-            "word": "mobile",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "phones",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "mobile phones",
+            "pos": "n. phr.",
+            "meaning": "手机"
           },
           {
             "word": "invade",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "our",
-            "pos": "adj.",
-            "meaning": "我们的"
+            "pos": "v.",
+            "meaning": "侵扰"
           },
           {
             "word": "thoughts",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "思绪"
           },
           {
             "word": "or",
-            "pos": "n.",
+            "pos": "conj.",
             "meaning": "或者"
           },
           {
             "word": "interrupt",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "v.",
+            "meaning": "打断"
           },
           {
             "word": "pleasure",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "meaning": "乐趣"
           },
           {
             "word": "meeting",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "会面"
           },
           {
             "word": "friends",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "朋友"
           },
           {
             "word": "for",
-            "pos": "n.",
+            "pos": "prep.",
             "meaning": "为了"
           },
           {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
-          },
-          {
             "word": "quiet",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "安静的"
           },
           {
             "word": "chat",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "闲聊"
           }
         ]
       }
@@ -1371,79 +1641,54 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "noise",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "pollution",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "noise pollution",
+            "pos": "n. phr.",
+            "meaning": "噪音污染"
           },
           {
             "word": "survey",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "调查"
           },
           {
             "word": "revealed",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "pos": "v.",
+            "meaning": "揭示，透露"
           },
           {
             "word": "rather",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "相当，颇"
           },
           {
             "word": "surprising",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
+            "pos": "adj.",
+            "meaning": "令人惊讶的"
           },
           {
             "word": "possibly",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "可能地"
           },
           {
             "word": "amusing",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "有趣的"
           },
           {
             "word": "old-fashioned",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "老式的"
           },
           {
             "word": "source",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "meaning": "来源"
           },
           {
             "word": "noise",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "噪音"
           }
         ]
       }
@@ -1458,14 +1703,34 @@
       "analysis": {
         "words": [
           {
+            "word": "turn out",
+            "pos": "v. phr.",
+            "meaning": "结果是"
+          },
+          {
             "word": "snoring",
             "pos": "n.",
             "meaning": "打鼾"
           },
           {
-            "word": "offender",
+            "word": "men",
             "pos": "n.",
-            "meaning": "冒犯者"
+            "meaning": "男人"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "被发现"
+          },
+          {
+            "word": "worst",
+            "pos": "adj.",
+            "meaning": "最差的"
+          },
+          {
+            "word": "offenders",
+            "pos": "n.",
+            "meaning": "肇事者"
           }
         ]
       }
@@ -1480,59 +1745,29 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
             "word": "revealed",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
+            "pos": "v.",
+            "meaning": "揭示"
           },
           {
             "word": "20%",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "pos": "num.",
+            "meaning": "百分之二十"
           },
           {
             "word": "men",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "in",
-            "pos": "n.",
-            "meaning": "在...里"
-          },
-          {
-            "word": "their",
-            "pos": "adj.",
-            "meaning": "他们的"
+            "meaning": "男人"
           },
           {
             "word": "mid-thirties",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "n. phr.",
+            "meaning": "三十多岁"
           },
           {
             "word": "snore",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "打鼾"
           }
         ]
       }
@@ -1547,9 +1782,49 @@
       "analysis": {
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "figure",
+            "pos": "n.",
+            "meaning": "数字，数据"
+          },
+          {
+            "word": "rises to",
+            "pos": "v. phr.",
+            "meaning": "上升到"
+          },
+          {
             "word": "staggering",
             "pos": "adj.",
-            "meaning": "令人惊愕的"
+            "meaning": "惊人的"
+          },
+          {
+            "word": "60%",
+            "pos": "num.",
+            "meaning": "百分之六十"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "men",
+            "pos": "n.",
+            "meaning": "男人"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "sixties",
+            "pos": "n.",
+            "meaning": "六十多岁"
           }
         ]
       }
@@ -1564,69 +1839,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Against",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "these",
-            "pos": "n.",
-            "meaning": "这些"
+            "word": "against",
+            "pos": "prep.",
+            "meaning": "相比"
           },
           {
             "word": "figures",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
+            "meaning": "数据"
           },
           {
             "word": "found",
-            "pos": "n.",
+            "pos": "v.",
             "meaning": "发现"
           },
           {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
             "word": "only",
-            "pos": "n.",
-            "meaning": "只有"
+            "pos": "adv.",
+            "meaning": "仅仅"
           },
           {
             "word": "5%",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "pos": "num.",
+            "meaning": "百分之五"
           },
           {
             "word": "women",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "女性"
           },
           {
             "word": "snore",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "打鼾"
           },
           {
             "word": "regularly",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "经常地"
           }
         ]
       }
@@ -1641,9 +1891,44 @@
       "analysis": {
         "words": [
           {
-            "word": "trumpeting",
+            "word": "while",
+            "pos": "conj.",
+            "meaning": "然而；当…时候"
+          },
+          {
+            "word": "rest",
+            "pos": "n.",
+            "meaning": "其余部分"
+          },
+          {
+            "word": "constantly",
+            "pos": "adv.",
+            "meaning": "持续地；不断地"
+          },
+          {
+            "word": "woken",
             "pos": "v.",
-            "meaning": "大声地宣扬(此处指大声打鼾)"
+            "meaning": "被吵醒；醒来"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "kept awake",
+            "pos": "v. phr.",
+            "meaning": "保持清醒；使清醒"
+          },
+          {
+            "word": "trumpeting",
+            "pos": "adj.",
+            "meaning": "喧闹的；吹号的"
+          },
+          {
+            "word": "partners",
+            "pos": "n.",
+            "meaning": "同伴；配偶"
           }
         ]
       }
@@ -1659,88 +1944,63 @@
         "words": [
           {
             "word": "Whatever",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "pron.",
+            "meaning": "无论什么"
           },
           {
             "word": "source",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "来源"
           },
           {
             "word": "of",
-            "pos": "adj.",
+            "pos": "prep.",
             "meaning": "的"
           },
           {
             "word": "noise",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "噪音"
           },
           {
             "word": "one",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "num.",
+            "meaning": "一个"
           },
           {
             "word": "thing",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
+            "meaning": "事情"
           },
           {
             "word": "certain",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "确定的"
           },
           {
             "word": "silence",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "寂静"
           },
           {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "seems",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "has",
-            "pos": "n.",
-            "meaning": "有"
+            "word": "it seems",
+            "pos": "v. phr.",
+            "meaning": "似乎"
           },
           {
             "word": "become",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "pos": "v.",
+            "meaning": "变成"
           },
           {
             "word": "golden",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "珍贵的"
           },
           {
             "word": "memory",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "记忆"
           }
         ]
       }

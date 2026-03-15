@@ -31,9 +31,24 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "what",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "所求"
+          },
+          {
+            "word": "every",
+            "pos": "adj.",
+            "meaning": "每一个"
+          },
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
           }
         ]
       }
@@ -48,24 +63,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -79,7 +84,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -102,22 +107,47 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
           },
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "professional",
+            "pos": "adj.",
+            "meaning": "专业的"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "School",
+            "word": "writers",
             "pos": "n.",
-            "meaning": "学校"
+            "meaning": "作家"
+          },
+          {
+            "word": "ignore",
+            "pos": "v.",
+            "meaning": "忽视"
+          },
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所…的"
+          },
+          {
+            "word": "taught",
+            "pos": "v.",
+            "meaning": "教导"
+          },
+          {
+            "word": "at school",
+            "pos": "prep. phr.",
+            "meaning": "在学校"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "writing",
+            "pos": "n.",
+            "meaning": "写作"
           }
         ]
       }
@@ -132,9 +162,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Very",
+            "word": "known",
+            "pos": "v.",
+            "meaning": "认识，知道"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "few",
+            "pos": "adj.",
+            "meaning": "很少的"
+          },
+          {
+            "word": "writers",
+            "pos": "n.",
+            "meaning": "作家"
           }
         ]
       }
@@ -149,19 +194,64 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "That",
+            "word": "those",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那些"
           },
           {
-            "word": "Pen",
-            "pos": "n.",
-            "meaning": "钢笔"
+            "word": "have known",
+            "pos": "v. phr.",
+            "meaning": "认识，了解"
+          },
+          {
+            "word": "whom",
+            "pos": "pron.",
+            "meaning": "谁（的宾格）"
+          },
+          {
+            "word": "respect",
+            "pos": "v.",
+            "meaning": "尊重"
+          },
+          {
+            "word": "confess",
+            "pos": "v.",
+            "meaning": "承认"
+          },
+          {
+            "word": "at once",
+            "pos": "adv. phr.",
+            "meaning": "立刻，马上"
+          },
+          {
+            "word": "have little idea",
+            "pos": "v. phr.",
+            "meaning": "没什么主意"
+          },
+          {
+            "word": "where",
+            "pos": "conj.",
+            "meaning": "哪里"
+          },
+          {
+            "word": "going",
+            "pos": "v.",
+            "meaning": "前往，去向"
+          },
+          {
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "最初，首次"
+          },
+          {
+            "word": "set pen to paper",
+            "pos": "v. phr.",
+            "meaning": "提笔写作"
           }
         ]
       }
@@ -172,7 +262,31 @@
       "text": "They have a character, perhaps two;",
       "translation": "他们有一个性格，也许有两个；",
       "startTime": 36.13,
-      "endTime": 39.09
+      "endTime": 39.09,
+      "analysis": {
+        "words": [
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有，拥有"
+          },
+          {
+            "word": "character",
+            "pos": "n.",
+            "meaning": "特点，性格"
+          },
+          {
+            "word": "perhaps",
+            "pos": "adv.",
+            "meaning": "也许，可能"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二，两个"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -184,9 +298,69 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "condition",
+            "pos": "n.",
+            "meaning": "状况"
+          },
+          {
+            "word": "eager",
+            "pos": "adj.",
+            "meaning": "渴望的"
+          },
+          {
+            "word": "discomfort",
+            "pos": "n.",
+            "meaning": "不适"
+          },
+          {
+            "word": "passes for",
+            "pos": "v. phr.",
+            "meaning": "被视为"
+          },
+          {
+            "word": "inspiration",
+            "pos": "n.",
+            "meaning": "灵感"
+          },
+          {
+            "word": "all",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "所有"
+          },
+          {
+            "word": "admit",
+            "pos": "v.",
+            "meaning": "承认"
+          },
+          {
+            "word": "radical",
+            "pos": "adj.",
+            "meaning": "彻底的"
+          },
+          {
+            "word": "changes",
+            "pos": "n.",
+            "meaning": "变化"
+          },
+          {
+            "word": "destination",
+            "pos": "n.",
+            "meaning": "目的地"
+          },
+          {
+            "word": "once",
+            "pos": "conj.",
+            "meaning": "一旦"
+          },
+          {
+            "word": "journey",
+            "pos": "n.",
+            "meaning": "旅程"
+          },
+          {
+            "word": "begun",
+            "pos": "v.",
+            "meaning": "开始"
           }
         ]
       }
@@ -201,9 +375,49 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
+            "word": "one",
             "pos": "pron.",
-            "meaning": "我的"
+            "meaning": "一人"
+          },
+          {
+            "word": "to my certain knowledge",
+            "pos": "adv. phr.",
+            "meaning": "据我确知"
+          },
+          {
+            "word": "spent",
+            "pos": "v.",
+            "meaning": "花费"
+          },
+          {
+            "word": "nine",
+            "pos": "num.",
+            "meaning": "九"
+          },
+          {
+            "word": "months",
+            "pos": "n.",
+            "meaning": "月"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "novel",
+            "pos": "n.",
+            "meaning": "小说"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "Kashmir",
+            "pos": "n.",
+            "meaning": "克什米尔"
           }
         ]
       }
@@ -214,7 +428,41 @@
       "text": "then reset the whole thing in the Scottish Highlands.",
       "translation": "然后在苏格兰高地重置整个事情。",
       "startTime": 57.61,
-      "endTime": 61.37
+      "endTime": 61.37,
+      "analysis": {
+        "words": [
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "reset",
+            "pos": "v.",
+            "meaning": "重置"
+          },
+          {
+            "word": "whole",
+            "pos": "adj.",
+            "meaning": "整个的"
+          },
+          {
+            "word": "thing",
+            "pos": "n.",
+            "meaning": "事情"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "Scottish Highlands",
+            "pos": "n. phr.",
+            "meaning": "苏格兰高地"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -226,14 +474,44 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从未"
           },
           {
-            "word": "School",
+            "word": "heard of",
+            "pos": "v. phr.",
+            "meaning": "听说过"
+          },
+          {
+            "word": "anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
+          },
+          {
+            "word": "making",
+            "pos": "v.",
+            "meaning": "制作"
+          },
+          {
+            "word": "skeleton",
             "pos": "n.",
-            "meaning": "学校"
+            "meaning": "骨架"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "正如"
+          },
+          {
+            "word": "taught",
+            "pos": "v.",
+            "meaning": "教导"
+          },
+          {
+            "word": "at school",
+            "pos": "prep. phr.",
+            "meaning": "在学校"
           }
         ]
       }
@@ -244,7 +522,36 @@
       "text": "In the breaking and remaking, in the timing interweaving, beginning afresh,",
       "translation": "在打破与重塑中，在时间的交织中，重新开始，",
       "startTime": 67.35,
-      "endTime": 74.79
+      "endTime": 74.79,
+      "analysis": {
+        "words": [
+          {
+            "word": "breaking",
+            "pos": "n.",
+            "meaning": "破裂"
+          },
+          {
+            "word": "remaking",
+            "pos": "n.",
+            "meaning": "重塑"
+          },
+          {
+            "word": "timing",
+            "pos": "n.",
+            "meaning": "时机"
+          },
+          {
+            "word": "interweaving",
+            "pos": "n.",
+            "meaning": "交织"
+          },
+          {
+            "word": "beginning afresh",
+            "pos": "v. phr.",
+            "meaning": "重新开始"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -256,9 +563,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "comes to discern",
+            "pos": "v. phr.",
+            "meaning": "逐渐辨别"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "事物"
+          },
+          {
+            "word": "material",
+            "pos": "n.",
+            "meaning": "素材"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "consciously",
+            "pos": "adv.",
+            "meaning": "有意识地"
+          },
+          {
+            "word": "mind",
+            "pos": "n.",
+            "meaning": "头脑"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "began",
+            "pos": "v.",
+            "meaning": "开始"
           }
         ]
       }
@@ -273,14 +620,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "organic",
+            "pos": "adj.",
+            "meaning": "有机的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "process",
+            "pos": "n.",
+            "meaning": "过程"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "lead to",
+            "pos": "v. phr.",
+            "meaning": "导致"
+          },
+          {
+            "word": "moments",
+            "pos": "n.",
+            "meaning": "时刻"
+          },
+          {
+            "word": "extraordinary",
+            "pos": "adj.",
+            "meaning": "非凡的"
+          },
+          {
+            "word": "self-discovery",
+            "pos": "n.",
+            "meaning": "自我发现"
+          },
+          {
+            "word": "indescribable",
+            "pos": "adj.",
+            "meaning": "难以描述的"
+          },
+          {
+            "word": "fascination",
+            "pos": "n.",
+            "meaning": "魅力"
           }
         ]
       }
@@ -295,14 +677,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "blurred",
+            "pos": "adj.",
+            "meaning": "模糊的"
           },
           {
-            "word": "Is",
+            "word": "image",
+            "pos": "n.",
+            "meaning": "图像"
+          },
+          {
+            "word": "appear",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "出现"
+          },
+          {
+            "word": "add",
+            "pos": "v.",
+            "meaning": "添加"
+          },
+          {
+            "word": "brushstroke",
+            "pos": "n.",
+            "meaning": "一笔画"
+          },
+          {
+            "word": "another",
+            "pos": "pron.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "be gone",
+            "pos": "v. phr.",
+            "meaning": "消失"
           }
         ]
       }
@@ -317,14 +724,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "It",
+            "word": "something",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "某物"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是，存在"
+          },
+          {
+            "word": "there",
+            "pos": "adv.",
+            "meaning": "在那里"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "will",
+            "pos": "aux. v.",
+            "meaning": "将要"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "rest",
+            "pos": "v.",
+            "meaning": "休息，停止"
+          },
+          {
+            "word": "till",
+            "pos": "conj.",
+            "meaning": "直到"
+          },
+          {
+            "word": "has",
+            "pos": "aux. v.",
+            "meaning": "已经"
+          },
+          {
+            "word": "captured",
+            "pos": "v.",
+            "meaning": "捕获"
           }
         ]
       }
@@ -339,9 +791,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Book",
+            "word": "sometimes",
+            "pos": "adv.",
+            "meaning": "有时，偶尔"
+          },
+          {
+            "word": "yeast",
+            "pos": "n.",
+            "meaning": "酵母"
+          },
+          {
+            "word": "within",
+            "pos": "prep.",
+            "meaning": "在...内部"
+          },
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "outlives",
+            "pos": "v.",
+            "meaning": "比...长寿/存在更久"
+          },
+          {
+            "word": "book",
             "pos": "n.",
             "meaning": "书"
+          },
+          {
+            "word": "written",
+            "pos": "v.",
+            "meaning": "创作"
           }
         ]
       }
@@ -354,7 +836,43 @@
       "startTime": 112.77,
       "endTime": 117,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "hear of",
+            "pos": "v. phr.",
+            "meaning": "听说"
+          },
+          {
+            "word": "writers",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "谁，指代人"
+          },
+          {
+            "word": "read",
+            "pos": "v.",
+            "meaning": "阅读"
+          },
+          {
+            "word": "nothing but",
+            "pos": "adv. phr.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "own",
+            "pos": "adj.",
+            "meaning": "自己的"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书籍"
+          }
+        ]
       }
     },
     {
@@ -363,7 +881,36 @@
       "text": "like adolescents they stand before the mirror,",
       "translation": "他们像青少年一样站在镜子前，",
       "startTime": 117.01,
-      "endTime": 120.45
+      "endTime": 120.45,
+      "analysis": {
+        "words": [
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像，如同"
+          },
+          {
+            "word": "adolescents",
+            "pos": "n.",
+            "meaning": "青少年"
+          },
+          {
+            "word": "stand",
+            "pos": "v.",
+            "meaning": "站立"
+          },
+          {
+            "word": "before",
+            "pos": "prep.",
+            "meaning": "在…前面"
+          },
+          {
+            "word": "mirror",
+            "pos": "n.",
+            "meaning": "镜子"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -371,7 +918,46 @@
       "text": "and still cannot fathom the exact outline of the vision before them.",
       "translation": "仍然无法理解眼前幻象的确切轮廓。",
       "startTime": 120.46,
-      "endTime": 126.14
+      "endTime": 126.14,
+      "analysis": {
+        "words": [
+          {
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "cannot",
+            "pos": "aux. v.",
+            "meaning": "不能"
+          },
+          {
+            "word": "fathom",
+            "pos": "v.",
+            "meaning": "理解"
+          },
+          {
+            "word": "exact",
+            "pos": "adj.",
+            "meaning": "精确的"
+          },
+          {
+            "word": "outline",
+            "pos": "n.",
+            "meaning": "轮廓"
+          },
+          {
+            "word": "vision",
+            "pos": "n.",
+            "meaning": "景象"
+          },
+          {
+            "word": "before",
+            "pos": "prep.",
+            "meaning": "在…前面"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -381,7 +967,38 @@
       "startTime": 126.15,
       "endTime": 132.36,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "For the same reason",
+            "pos": "adv. phr.",
+            "meaning": "出于同样原因"
+          },
+          {
+            "word": "writers",
+            "pos": "n.",
+            "meaning": "作家们"
+          },
+          {
+            "word": "talk about",
+            "pos": "v. phr.",
+            "meaning": "谈论，讨论"
+          },
+          {
+            "word": "interminably",
+            "pos": "adv.",
+            "meaning": "没完没了地"
+          },
+          {
+            "word": "own",
+            "pos": "adj.",
+            "meaning": "自己的"
+          },
+          {
+            "word": "books",
+            "pos": "n.",
+            "meaning": "书籍"
+          }
+        ]
       }
     },
     {
@@ -390,7 +1007,41 @@
       "text": "winkling out hidden meanings, super-imposing new ones,",
       "translation": "揭示隐藏的含义，叠加新的含义，",
       "startTime": 132.37,
-      "endTime": 137.18
+      "endTime": 137.18,
+      "analysis": {
+        "words": [
+          {
+            "word": "winkling out",
+            "pos": "v. phr.",
+            "meaning": "费力找出"
+          },
+          {
+            "word": "hidden",
+            "pos": "adj.",
+            "meaning": "隐藏的"
+          },
+          {
+            "word": "meanings",
+            "pos": "n.",
+            "meaning": "含义"
+          },
+          {
+            "word": "super-imposing",
+            "pos": "v.",
+            "meaning": "叠加"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "ones",
+            "pos": "pron.",
+            "meaning": "那些"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -398,7 +1049,36 @@
       "text": "begging response from those around them.",
       "translation": "请求周围人的回应。",
       "startTime": 137.19,
-      "endTime": 140.56
+      "endTime": 140.56,
+      "analysis": {
+        "words": [
+          {
+            "word": "begging",
+            "pos": "v.",
+            "meaning": "乞求，恳求"
+          },
+          {
+            "word": "response",
+            "pos": "n.",
+            "meaning": "回应，反应"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自，从..."
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些人"
+          },
+          {
+            "word": "around",
+            "pos": "prep.",
+            "meaning": "在...周围"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -410,19 +1090,54 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "of course",
+            "pos": "adv. phr.",
+            "meaning": "当然"
           },
           {
-            "word": "Is",
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "doing",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "做，从事"
           },
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这个"
+          },
+          {
+            "word": "misunderstood",
+            "pos": "v.",
+            "meaning": "被误解"
+          },
+          {
+            "word": "might as well",
+            "pos": "v. phr.",
+            "meaning": "不妨，倒不如"
+          },
+          {
+            "word": "try",
+            "pos": "v.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "explain",
+            "pos": "v.",
+            "meaning": "解释，说明"
+          },
+          {
+            "word": "crime",
+            "pos": "n.",
+            "meaning": "罪行"
+          },
+          {
+            "word": "love affair",
+            "pos": "n. phr.",
+            "meaning": "风流韵事"
           }
         ]
       }
@@ -437,9 +1152,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "also",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "incidentally",
+            "pos": "adv.",
+            "meaning": "顺便说一句"
+          },
+          {
+            "word": "unforgivable",
+            "pos": "adj.",
+            "meaning": "不可原谅的"
+          },
+          {
+            "word": "bore",
+            "pos": "n.",
+            "meaning": "讨厌鬼"
           }
         ]
       }
@@ -456,7 +1186,37 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这个"
+          },
+          {
+            "word": "temptation",
+            "pos": "n.",
+            "meaning": "诱惑"
+          },
+          {
+            "word": "cover",
+            "pos": "v.",
+            "meaning": "缩短"
+          },
+          {
+            "word": "distance",
+            "pos": "n.",
+            "meaning": "距离"
+          },
+          {
+            "word": "between",
+            "pos": "prep.",
+            "meaning": "在...之间"
+          },
+          {
+            "word": "himself",
+            "pos": "pron.",
+            "meaning": "他自己"
+          },
+          {
+            "word": "reader",
+            "pos": "n.",
+            "meaning": "读者"
           }
         ]
       }
@@ -471,14 +1231,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "study",
+            "pos": "v.",
+            "meaning": "研究"
           },
           {
-            "word": "Please",
-            "pos": "int.",
-            "meaning": "请"
+            "word": "image",
+            "pos": "n.",
+            "meaning": "形象"
+          },
+          {
+            "word": "in the sight of",
+            "pos": "prep. phr.",
+            "meaning": "在…看来"
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些人"
+          },
+          {
+            "word": "not know",
+            "pos": "v. phr.",
+            "meaning": "不了解"
+          },
+          {
+            "word": "can be",
+            "pos": "aux. v. phr.",
+            "meaning": "可能是"
+          },
+          {
+            "word": "undoing",
+            "pos": "n.",
+            "meaning": "失败原因"
+          },
+          {
+            "word": "has begun",
+            "pos": "v. phr.",
+            "meaning": "已开始"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "写"
+          },
+          {
+            "word": "please",
+            "pos": "v.",
+            "meaning": "取悦"
           }
         ]
       }
@@ -493,9 +1293,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Young",
+            "word": "young",
             "pos": "adj.",
             "meaning": "年轻的"
+          },
+          {
+            "word": "English",
+            "pos": "adj.",
+            "meaning": "英国的"
+          },
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "made",
+            "pos": "v.",
+            "meaning": "发表，作出"
+          },
+          {
+            "word": "pertinent",
+            "pos": "adj.",
+            "meaning": "中肯的，相关的"
+          },
+          {
+            "word": "observation",
+            "pos": "n.",
+            "meaning": "观察，看法"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "back",
+            "pos": "adv.",
+            "meaning": "以前，往回"
           }
         ]
       }
@@ -510,9 +1355,44 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "talent",
+            "pos": "n.",
+            "meaning": "天赋"
+          },
+          {
+            "word": "goes into",
+            "pos": "v. phr.",
+            "meaning": "投入"
+          },
+          {
+            "word": "first",
+            "pos": "adj.",
+            "meaning": "第一的"
+          },
+          {
+            "word": "draft",
+            "pos": "n.",
+            "meaning": "草稿"
+          },
+          {
+            "word": "art",
+            "pos": "n.",
+            "meaning": "技巧"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "drafts",
+            "pos": "n.",
+            "meaning": "草稿"
+          },
+          {
+            "word": "follow",
+            "pos": "v.",
+            "meaning": "随后"
           }
         ]
       }
@@ -527,9 +1407,34 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "For this reason",
+            "pos": "adv. phr.",
+            "meaning": "因此"
+          },
+          {
+            "word": "also",
+            "pos": "adv.",
+            "meaning": "也"
+          },
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像"
+          },
+          {
+            "word": "any other",
+            "pos": "adj. phr.",
+            "meaning": "任何其他的"
+          },
+          {
+            "word": "artist",
+            "pos": "n.",
+            "meaning": "艺术家"
           }
         ]
       }
@@ -542,7 +1447,48 @@
       "startTime": 188.09,
       "endTime": 195.17,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "有，拥有"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
+          },
+          {
+            "word": "resting place",
+            "pos": "n. phr.",
+            "meaning": "栖息地，安息处"
+          },
+          {
+            "word": "crowd",
+            "pos": "n.",
+            "meaning": "人群"
+          },
+          {
+            "word": "movement",
+            "pos": "n.",
+            "meaning": "移动，活动"
+          },
+          {
+            "word": "in which",
+            "pos": "conj. phr.",
+            "meaning": "在其中"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可以，可能"
+          },
+          {
+            "word": "take comfort",
+            "pos": "v. phr.",
+            "meaning": "获得慰藉"
+          }
+        ]
       }
     },
     {
@@ -553,7 +1499,38 @@
       "startTime": 195.18,
       "endTime": 200.65,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "无"
+          },
+          {
+            "word": "judgment",
+            "pos": "n.",
+            "meaning": "判断"
+          },
+          {
+            "word": "from outside",
+            "pos": "adv. phr.",
+            "meaning": "来自外部"
+          },
+          {
+            "word": "can",
+            "pos": "aux. v.",
+            "meaning": "能"
+          },
+          {
+            "word": "replace",
+            "pos": "v.",
+            "meaning": "取代"
+          },
+          {
+            "word": "from within",
+            "pos": "adv. phr.",
+            "meaning": "来自内部"
+          }
+        ]
       }
     },
     {
@@ -564,7 +1541,28 @@
       "startTime": 200.66,
       "endTime": 204.69,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作家"
+          },
+          {
+            "word": "makes order out of",
+            "pos": "v. phr.",
+            "meaning": "从…中建立秩序"
+          },
+          {
+            "word": "anarchy",
+            "pos": "n.",
+            "meaning": "混乱"
+          },
+          {
+            "word": "heart",
+            "pos": "n.",
+            "meaning": "内心"
+          }
+        ]
       }
     },
     {
@@ -573,7 +1571,41 @@
       "text": "he submits himself to a more ruthless discipline than any critic dreamed of,",
       "translation": "他让自己受到比任何批评家所梦想的更残酷的纪律，",
       "startTime": 204.7,
-      "endTime": 210.72
+      "endTime": 210.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "submit oneself to",
+            "pos": "v. phr.",
+            "meaning": "服从于, 接受"
+          },
+          {
+            "word": "ruthless",
+            "pos": "adj.",
+            "meaning": "无情的, 残酷的"
+          },
+          {
+            "word": "discipline",
+            "pos": "n.",
+            "meaning": "纪律, 自律"
+          },
+          {
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "critic",
+            "pos": "n.",
+            "meaning": "评论家"
+          },
+          {
+            "word": "dream of",
+            "pos": "v. phr.",
+            "meaning": "想到, 梦想"
+          }
+        ]
+      }
     },
     {
       "id": "s30",
@@ -585,9 +1617,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时候"
+          },
+          {
+            "word": "flirt with",
+            "pos": "v. phr.",
+            "meaning": "涉足，轻尝"
+          },
+          {
+            "word": "fame",
+            "pos": "n.",
+            "meaning": "名声"
+          },
+          {
+            "word": "take time off",
+            "pos": "v. phr.",
+            "meaning": "休息，暂离"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从..."
+          },
+          {
+            "word": "live with oneself",
+            "pos": "v. phr.",
+            "meaning": "与自己相处"
           }
         ]
       }
@@ -602,14 +1659,49 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
           },
           {
-            "word": "At",
+            "word": "search",
+            "pos": "n.",
+            "meaning": "搜寻"
+          },
+          {
+            "word": "for",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "关于"
+          },
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所…之物"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "contains",
+            "pos": "v.",
+            "meaning": "包含"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "inmost",
+            "pos": "adj.",
+            "meaning": "最深处的"
+          },
+          {
+            "word": "point",
+            "pos": "n.",
+            "meaning": "点"
           }
         ]
       }

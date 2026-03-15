@@ -38,7 +38,12 @@
           {
             "word": "life",
             "pos": "n.",
-            "meaning": "生活"
+            "meaning": "生活，人生"
+          },
+          {
+            "word": "Alfred Bloggs",
+            "pos": "n.",
+            "meaning": "阿尔弗雷德·布洛格斯"
           }
         ]
       }
@@ -53,19 +58,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
+            "word": "listen to",
+            "pos": "v. phr.",
+            "meaning": "听，听取"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音磁带"
+            "meaning": "磁带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
           },
           {
             "word": "answer",
-            "pos": "v./n.",
+            "pos": "v.",
             "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -85,14 +100,24 @@
       "analysis": {
         "words": [
           {
-            "word": "white-collar",
-            "pos": "adj.",
-            "meaning": "白领的"
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
           },
           {
-            "word": "job",
+            "word": "Alf",
             "pos": "n.",
-            "meaning": "工作"
+            "meaning": "阿尔夫"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          },
+          {
+            "word": "white-collar job",
+            "pos": "n. phr.",
+            "meaning": "白领工作"
           }
         ]
       }
@@ -107,14 +132,64 @@
       "analysis": {
         "words": [
           {
-            "word": "manual",
-            "pos": "adj.",
-            "meaning": "体力的"
+            "word": "These days",
+            "pos": "adv. phr.",
+            "meaning": "如今"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "关系代词"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "从事"
+          },
+          {
+            "word": "manual work",
+            "pos": "n. phr.",
+            "meaning": "体力劳动"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
           },
           {
             "word": "receive",
             "pos": "v.",
-            "meaning": "收到，得到"
+            "meaning": "获得"
+          },
+          {
+            "word": "far more",
+            "pos": "adv. phr.",
+            "meaning": "远多于"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比"
+          },
+          {
+            "word": "work",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "offices",
+            "pos": "n.",
+            "meaning": "办公室"
           }
         ]
       }
@@ -129,6 +204,21 @@
       "analysis": {
         "words": [
           {
+            "word": "People",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "work",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "offices",
+            "pos": "n.",
+            "meaning": "办公室"
+          },
+          {
             "word": "frequently",
             "pos": "adv.",
             "meaning": "经常地"
@@ -136,7 +226,27 @@
           {
             "word": "referred to as",
             "pos": "v. phr.",
-            "meaning": "被称为"
+            "meaning": "被称作"
+          },
+          {
+            "word": "white-collar workers",
+            "pos": "n. phr.",
+            "meaning": "白领"
+          },
+          {
+            "word": "for the simple reason that",
+            "pos": "conj. phr.",
+            "meaning": "因为"
+          },
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "wear",
+            "pos": "v.",
+            "meaning": "穿戴"
           },
           {
             "word": "collar",
@@ -147,6 +257,11 @@
             "word": "tie",
             "pos": "n.",
             "meaning": "领带"
+          },
+          {
+            "word": "go to work",
+            "pos": "v. phr.",
+            "meaning": "去上班"
           }
         ]
       }
@@ -161,24 +276,79 @@
       "analysis": {
         "words": [
           {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "如此的"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
             "word": "human nature",
             "pos": "n. phr.",
             "meaning": "人性"
           },
           {
-            "word": "willing",
-            "pos": "adj.",
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "a great many",
+            "pos": "adj. phr.",
+            "meaning": "许多的"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "willing to",
+            "pos": "adj. phr.",
             "meaning": "乐意的"
           },
           {
             "word": "sacrifice",
-            "pos": "v./n.",
+            "pos": "v.",
             "meaning": "牺牲"
+          },
+          {
+            "word": "higher pay",
+            "pos": "n. phr.",
+            "meaning": "高薪"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
           },
           {
             "word": "privilege",
             "pos": "n.",
-            "meaning": "特权，荣幸"
+            "meaning": "特权"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "becoming",
+            "pos": "v.",
+            "meaning": "成为"
+          },
+          {
+            "word": "white-collar workers",
+            "pos": "n. phr.",
+            "meaning": "白领"
           }
         ]
       }
@@ -193,6 +363,11 @@
       "analysis": {
         "words": [
           {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
             "word": "give rise to",
             "pos": "v. phr.",
             "meaning": "引起，导致"
@@ -200,17 +375,52 @@
           {
             "word": "curious",
             "pos": "adj.",
-            "meaning": "好奇的，古怪的"
+            "meaning": "稀奇的，奇怪的"
+          },
+          {
+            "word": "situations",
+            "pos": "n.",
+            "meaning": "情况，局面"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "如同，像"
+          },
+          {
+            "word": "in the case of",
+            "pos": "prep. phr.",
+            "meaning": "就…而言"
+          },
+          {
+            "word": "Alfred Bloggs",
+            "pos": "n. phr.",
+            "meaning": "阿尔弗雷德·布洛格斯"
+          },
+          {
+            "word": "worked",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
           },
           {
             "word": "dustman",
             "pos": "n.",
-            "meaning": "清洁工"
+            "meaning": "清洁工，垃圾工"
           },
           {
-            "word": "corporation",
-            "pos": "n.",
-            "meaning": "公司"
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为…服务"
+          },
+          {
+            "word": "Ellesmere Corporation",
+            "pos": "n. phr.",
+            "meaning": "埃尔斯米尔公司"
           }
         ]
       }
@@ -225,14 +435,54 @@
       "analysis": {
         "words": [
           {
-            "word": "married",
-            "pos": "adj.",
-            "meaning": "结婚的"
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "get married",
+            "pos": "v. phr.",
+            "meaning": "结婚"
+          },
+          {
+            "word": "Alf",
+            "pos": "n.",
+            "meaning": "艾尔夫"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "太"
           },
           {
             "word": "embarrassed",
             "pos": "adj.",
-            "meaning": "尴尬的，难为情的"
+            "meaning": "尴尬的"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "anything",
+            "pos": "pron.",
+            "meaning": "任何事"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -247,54 +497,24 @@
       "analysis": {
         "words": [
           {
-            "word": "He",
-            "pos": "n.",
-            "meaning": "他"
-          },
-          {
             "word": "simply",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "仅仅，只不过"
           },
           {
             "word": "told",
-            "pos": "n.",
+            "pos": "v.",
             "meaning": "告诉"
           },
           {
-            "word": "her",
-            "pos": "n.",
-            "meaning": "她"
-          },
-          {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
-            "word": "he",
-            "pos": "n.",
-            "meaning": "他"
-          },
-          {
-            "word": "worked",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "for",
-            "pos": "n.",
-            "meaning": "为了"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "word": "worked for",
+            "pos": "v. phr.",
+            "meaning": "为…工作"
           },
           {
             "word": "Corporation",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "公司，企业"
           }
         ]
       }
@@ -309,6 +529,21 @@
       "analysis": {
         "words": [
           {
+            "word": "every morning",
+            "pos": "adv. phr.",
+            "meaning": "每天早上"
+          },
+          {
+            "word": "left",
+            "pos": "v.",
+            "meaning": "离开"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家"
+          },
+          {
             "word": "dressed in",
             "pos": "v. phr.",
             "meaning": "穿着"
@@ -316,7 +551,12 @@
           {
             "word": "smart",
             "pos": "adj.",
-            "meaning": "精明的，整洁的"
+            "meaning": "时髦的"
+          },
+          {
+            "word": "black",
+            "pos": "adj.",
+            "meaning": "黑色的"
           },
           {
             "word": "suit",
@@ -336,14 +576,49 @@
       "analysis": {
         "words": [
           {
-            "word": "changed into",
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "change into",
             "pos": "v. phr.",
             "meaning": "换上"
           },
           {
             "word": "overalls",
             "pos": "n.",
-            "meaning": "工作服"
+            "meaning": "工装裤"
+          },
+          {
+            "word": "spent",
+            "pos": "v.",
+            "meaning": "度过，花费"
+          },
+          {
+            "word": "next",
+            "pos": "adj.",
+            "meaning": "接下来的"
+          },
+          {
+            "word": "eight",
+            "pos": "num.",
+            "meaning": "八"
+          },
+          {
+            "word": "hours",
+            "pos": "n.",
+            "meaning": "小时"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "dustman",
+            "pos": "n.",
+            "meaning": "清洁工"
           }
         ]
       }
@@ -358,9 +633,44 @@
       "analysis": {
         "words": [
           {
-            "word": "shower",
-            "pos": "n./v.",
-            "meaning": "淋浴"
+            "word": "before",
+            "pos": "prep.",
+            "meaning": "在…之前"
+          },
+          {
+            "word": "return",
+            "pos": "v.",
+            "meaning": "返回"
+          },
+          {
+            "word": "home",
+            "pos": "adv.",
+            "meaning": "回家"
+          },
+          {
+            "word": "at night",
+            "pos": "adv. phr.",
+            "meaning": "在夜间"
+          },
+          {
+            "word": "take a shower",
+            "pos": "v. phr.",
+            "meaning": "洗澡"
+          },
+          {
+            "word": "change back",
+            "pos": "v. phr.",
+            "meaning": "换回"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "suit",
+            "pos": "n.",
+            "meaning": "西装"
           }
         ]
       }
@@ -375,9 +685,49 @@
       "analysis": {
         "words": [
           {
+            "word": "Alf",
+            "pos": "n.",
+            "meaning": "人名（阿尔夫）"
+          },
+          {
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "超过"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
             "word": "fellow",
-            "pos": "adj./n.",
-            "meaning": "同伴，同事"
+            "pos": "adj.",
+            "meaning": "同伴的"
+          },
+          {
+            "word": "dustman",
+            "pos": "n.",
+            "meaning": "清洁工"
+          },
+          {
+            "word": "keep",
+            "pos": "v.",
+            "meaning": "保守（秘密）"
           },
           {
             "word": "secret",
@@ -397,9 +747,64 @@
       "analysis": {
         "words": [
           {
+            "word": "Alf",
+            "pos": "n.",
+            "meaning": "阿尔夫"
+          },
+          {
+            "word": "wife",
+            "pos": "n.",
+            "meaning": "妻子"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
             "word": "discovered",
             "pos": "v.",
             "meaning": "发现"
+          },
+          {
+            "word": "married",
+            "pos": "v.",
+            "meaning": "结婚"
+          },
+          {
+            "word": "dustman",
+            "pos": "n.",
+            "meaning": "清洁工"
+          },
+          {
+            "word": "will",
+            "pos": "aux. v.",
+            "meaning": "将"
+          },
+          {
+            "word": "for",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "找到"
+          },
+          {
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
           }
         ]
       }
@@ -417,6 +822,16 @@
             "word": "soon",
             "pos": "adv.",
             "meaning": "很快"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
           }
         ]
       }
@@ -431,9 +846,49 @@
       "analysis": {
         "words": [
           {
-            "word": "earning",
+            "word": "earn",
             "pos": "v.",
-            "meaning": "挣钱"
+            "meaning": "挣得，赚取"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只，仅仅"
+          },
+          {
+            "word": "half",
+            "pos": "num.",
+            "meaning": "一半"
+          },
+          {
+            "word": "as much as",
+            "pos": "conj.",
+            "meaning": "像...一样多"
+          },
+          {
+            "word": "used to",
+            "pos": "v. phr.",
+            "meaning": "过去常常"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "feel",
+            "pos": "v.",
+            "meaning": "觉得，感到"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导宾语从句"
+          },
+          {
+            "word": "rise",
+            "pos": "n.",
+            "meaning": "上升，提高"
           },
           {
             "word": "status",
@@ -441,14 +896,19 @@
             "meaning": "地位，身份"
           },
           {
-            "word": "worth",
-            "pos": "adj.",
-            "meaning": "值得"
+            "word": "well worth",
+            "pos": "adj. phr.",
+            "meaning": "非常值得"
           },
           {
             "word": "loss",
             "pos": "n.",
             "meaning": "损失"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
           }
         ]
       }
@@ -463,9 +923,49 @@
       "analysis": {
         "words": [
           {
-            "word": "From now on",
+            "word": "from now on",
             "pos": "adv. phr.",
             "meaning": "从今以后"
+          },
+          {
+            "word": "wear",
+            "pos": "v.",
+            "meaning": "穿戴"
+          },
+          {
+            "word": "suit",
+            "pos": "n.",
+            "meaning": "西装"
+          },
+          {
+            "word": "all day",
+            "pos": "adv. phr.",
+            "meaning": "一整天"
+          },
+          {
+            "word": "others",
+            "pos": "pron.",
+            "meaning": "其他人"
+          },
+          {
+            "word": "call",
+            "pos": "v.",
+            "meaning": "称呼"
+          },
+          {
+            "word": "Mr. Bloggs",
+            "pos": "n. phr.",
+            "meaning": "布洛格斯先生"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "Alf",
+            "pos": "n.",
+            "meaning": "阿尔夫"
           }
         ]
       }

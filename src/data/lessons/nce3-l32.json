@@ -31,19 +31,14 @@
       "analysis": {
         "words": [
           {
-            "word": "A",
-            "pos": "n.",
-            "meaning": "一个"
-          },
-          {
             "word": "lost",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "迷失的"
           },
           {
             "word": "ship",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "船"
           }
         ]
       }
@@ -58,29 +53,19 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
+            "word": "listen to",
+            "pos": "v. phr.",
+            "meaning": "听，倾听"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带，录音带"
           },
           {
             "word": "then",
             "pos": "adv.",
-            "meaning": "然后"
+            "meaning": "然后，接着"
           },
           {
             "word": "answer",
@@ -89,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -112,7 +97,32 @@
           {
             "word": "crew",
             "pos": "n.",
-            "meaning": "全体船员"
+            "meaning": "船员"
+          },
+          {
+            "word": "Elkor",
+            "pos": "n.",
+            "meaning": "埃尔科尔"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到"
+          },
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所寻找的"
+          },
+          {
+            "word": "look for",
+            "pos": "v. phr.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
           }
         ]
       }
@@ -127,14 +137,19 @@
       "analysis": {
         "words": [
           {
-            "word": "salvage",
-            "pos": "v./n.",
-            "meaning": "打捞"
+            "word": "salvage operation",
+            "pos": "n. phr.",
+            "meaning": "打捞行动"
           },
           {
-            "word": "operation",
+            "word": "complete",
+            "pos": "adj.",
+            "meaning": "完全的"
+          },
+          {
+            "word": "failure",
             "pos": "n.",
-            "meaning": "行动，业务，手术"
+            "meaning": "失败"
           }
         ]
       }
@@ -149,9 +164,39 @@
       "analysis": {
         "words": [
           {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "Elkor",
+            "pos": "n.",
+            "meaning": "埃尔科尔号"
+          },
+          {
             "word": "search",
             "pos": "v.",
             "meaning": "搜寻"
+          },
+          {
+            "word": "Barents Sea",
+            "pos": "n. phr.",
+            "meaning": "巴伦支海"
+          },
+          {
+            "word": "for weeks",
+            "pos": "adv. phr.",
+            "meaning": "持续数周"
+          },
+          {
+            "word": "on its way home",
+            "pos": "adv. phr.",
+            "meaning": "在回家的路上"
           }
         ]
       }
@@ -166,14 +211,39 @@
       "analysis": {
         "words": [
           {
+            "word": "radio message",
+            "pos": "n. phr.",
+            "meaning": "无线电信息"
+          },
+          {
             "word": "mainland",
             "pos": "n.",
             "meaning": "大陆"
           },
           {
+            "word": "received",
+            "pos": "v.",
+            "meaning": "收到"
+          },
+          {
+            "word": "ship's captain",
+            "pos": "n. phr.",
+            "meaning": "船长"
+          },
+          {
             "word": "instructing",
             "pos": "v.",
-            "meaning": "指导，指示"
+            "meaning": "指示"
+          },
+          {
+            "word": "give up",
+            "pos": "v. phr.",
+            "meaning": "放弃"
+          },
+          {
+            "word": "search",
+            "pos": "n.",
+            "meaning": "搜寻"
           }
         ]
       }
@@ -188,9 +258,59 @@
       "analysis": {
         "words": [
           {
+            "word": "captain",
+            "pos": "n.",
+            "meaning": "船长"
+          },
+          {
+            "word": "knew",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "attempt",
+            "pos": "n.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "made",
+            "pos": "v.",
+            "meaning": "进行"
+          },
+          {
+            "word": "later",
+            "pos": "adv.",
+            "meaning": "稍后"
+          },
+          {
+            "word": "for",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
             "word": "sunken",
             "pos": "adj.",
             "meaning": "沉没的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "trying to find",
+            "pos": "v. phr.",
+            "meaning": "试图找到"
+          },
+          {
+            "word": "carrying",
+            "pos": "v.",
+            "meaning": "运载"
           },
           {
             "word": "precious",
@@ -198,9 +318,14 @@
             "meaning": "珍贵的"
           },
           {
-            "word": "bullion",
+            "word": "cargo",
             "pos": "n.",
-            "meaning": "金条，银条"
+            "meaning": "货物"
+          },
+          {
+            "word": "gold bullion",
+            "pos": "n. phr.",
+            "meaning": "金条"
           }
         ]
       }
@@ -216,68 +341,38 @@
         "words": [
           {
             "word": "Despite",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "prep.",
+            "meaning": "尽管"
           },
           {
             "word": "message",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "meaning": "信息，消息"
           },
           {
             "word": "captain",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "meaning": "船长"
           },
           {
             "word": "Elkor",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "埃尔科号"
           },
           {
             "word": "decided",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
             "pos": "v.",
-            "meaning": "去/向"
+            "meaning": "决定"
           },
           {
             "word": "try",
-            "pos": "n.",
+            "pos": "v.",
             "meaning": "尝试"
           },
           {
-            "word": "once",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "more",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "once more",
+            "pos": "adv. phr.",
+            "meaning": "再一次"
           }
         ]
       }
@@ -292,14 +387,54 @@
       "analysis": {
         "words": [
           {
+            "word": "sea bed",
+            "pos": "n. phr.",
+            "meaning": "海底"
+          },
+          {
             "word": "scoured",
             "pos": "v.",
-            "meaning": "搜索"
+            "meaning": "彻底搜寻"
+          },
+          {
+            "word": "powerful",
+            "pos": "adj.",
+            "meaning": "强大的"
+          },
+          {
+            "word": "nets",
+            "pos": "n.",
+            "meaning": "渔网"
+          },
+          {
+            "word": "tremendous",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "excitement",
+            "pos": "n.",
+            "meaning": "兴奋"
+          },
+          {
+            "word": "on board",
+            "pos": "adv. phr.",
+            "meaning": "在船上"
           },
           {
             "word": "chest",
             "pos": "n.",
             "meaning": "箱子"
+          },
+          {
+            "word": "raised",
+            "pos": "v.",
+            "meaning": "提起"
+          },
+          {
+            "word": "bottom",
+            "pos": "n.",
+            "meaning": "底部"
           }
         ]
       }
@@ -314,9 +449,64 @@
       "analysis": {
         "words": [
           {
-            "word": "impression",
+            "word": "though",
+            "pos": "conj.",
+            "meaning": "尽管"
+          },
+          {
+            "word": "crew",
             "pos": "n.",
-            "meaning": "印象"
+            "meaning": "全体船员"
+          },
+          {
+            "word": "at first",
+            "pos": "adv. phr.",
+            "meaning": "起初，最初"
+          },
+          {
+            "word": "under the impression",
+            "pos": "prep. phr.",
+            "meaning": "以为，认为"
+          },
+          {
+            "word": "lost",
+            "pos": "adj.",
+            "meaning": "失踪的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "found",
+            "pos": "v.",
+            "meaning": "被发现"
+          },
+          {
+            "word": "contents",
+            "pos": "n.",
+            "meaning": "内容物"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "…的"
+          },
+          {
+            "word": "chest",
+            "pos": "n.",
+            "meaning": "箱子"
+          },
+          {
+            "word": "proved",
+            "pos": "v.",
+            "meaning": "证明"
+          },
+          {
+            "word": "wrong",
+            "pos": "adj.",
+            "meaning": "错误的"
           }
         ]
       }
@@ -331,84 +521,49 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所...之事"
           },
           {
-            "word": "they",
-            "pos": "n.",
-            "meaning": "他们"
-          },
-          {
-            "word": "had",
-            "pos": "n.",
-            "meaning": "有"
-          },
-          {
-            "word": "in",
-            "pos": "n.",
-            "meaning": "在...里"
-          },
-          {
-            "word": "fact",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "in fact",
+            "pos": "adv. phr.",
+            "meaning": "事实上"
           },
           {
             "word": "found",
-            "pos": "n.",
-            "meaning": "发现"
-          },
-          {
-            "word": "was",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "meaning": "发现"
           },
           {
             "word": "ship",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "船"
           },
           {
             "word": "which",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "had",
-            "pos": "n.",
-            "meaning": "有"
-          },
-          {
-            "word": "been",
-            "pos": "v.",
-            "meaning": "是"
+            "pos": "pron.",
+            "meaning": "其（指物）"
           },
           {
             "word": "sunk",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "沉没"
           },
           {
             "word": "many",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "许多的"
           },
           {
             "word": "years",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "年"
           },
           {
             "word": "before",
-            "pos": "n.",
-            "meaning": "在...前"
+            "pos": "adv.",
+            "meaning": "以前"
           }
         ]
       }
@@ -423,9 +578,34 @@
       "analysis": {
         "words": [
           {
-            "word": "belonging",
+            "word": "chest",
             "pos": "n.",
-            "meaning": "财物"
+            "meaning": "箱子"
+          },
+          {
+            "word": "contained",
+            "pos": "v.",
+            "meaning": "包含"
+          },
+          {
+            "word": "personal",
+            "pos": "adj.",
+            "meaning": "私人的"
+          },
+          {
+            "word": "belongings",
+            "pos": "n.",
+            "meaning": "个人物品"
+          },
+          {
+            "word": "seaman",
+            "pos": "n.",
+            "meaning": "海员"
+          },
+          {
+            "word": "Alan Fielding",
+            "pos": "n.",
+            "meaning": "艾伦·菲尔丁"
           }
         ]
       }
@@ -440,94 +620,54 @@
       "analysis": {
         "words": [
           {
-            "word": "There",
-            "pos": "n.",
-            "meaning": "那里"
-          },
-          {
-            "word": "were",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
             "word": "books",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "书籍"
           },
           {
             "word": "clothing",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
+            "meaning": "衣物"
           },
           {
             "word": "photographs",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "照片"
           },
           {
-            "word": "together",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "with",
-            "pos": "n.",
-            "meaning": "和...一起"
+            "word": "together with",
+            "pos": "prep. phr.",
+            "meaning": "连同"
           },
           {
             "word": "letters",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "which",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "meaning": "信件"
           },
           {
             "word": "seaman",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "had",
-            "pos": "n.",
-            "meaning": "有"
+            "meaning": "水手"
           },
           {
             "word": "once",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "曾经"
           },
           {
             "word": "received",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "收到"
           },
           {
             "word": "from",
-            "pos": "n.",
+            "pos": "prep.",
             "meaning": "来自"
-          },
-          {
-            "word": "his",
-            "pos": "adj.",
-            "meaning": "他的"
           },
           {
             "word": "wife",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "妻子"
           }
         ]
       }
@@ -542,9 +682,44 @@
       "analysis": {
         "words": [
           {
+            "word": "captain",
+            "pos": "n.",
+            "meaning": "船长"
+          },
+          {
+            "word": "Elkor",
+            "pos": "n.",
+            "meaning": "埃尔科号"
+          },
+          {
+            "word": "ordered",
+            "pos": "v.",
+            "meaning": "命令"
+          },
+          {
+            "word": "men",
+            "pos": "n.",
+            "meaning": "手下，船员"
+          },
+          {
+            "word": "salvage",
+            "pos": "v.",
+            "meaning": "打捞"
+          },
+          {
+            "word": "as much as possible",
+            "pos": "adv. phr.",
+            "meaning": "尽可能多地"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从...中"
+          },
+          {
             "word": "wreck",
             "pos": "n.",
-            "meaning": "沉船"
+            "meaning": "残骸，沉船"
           }
         ]
       }
@@ -559,109 +734,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Nothing",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "nothing",
+            "pos": "pron.",
+            "meaning": "什么也没有"
           },
           {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "value",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "of value",
+            "pos": "adj. phr.",
+            "meaning": "有价值的"
           },
           {
             "word": "found",
-            "pos": "n.",
-            "meaning": "发现"
+            "pos": "v.",
+            "meaning": "被发现"
           },
           {
             "word": "but",
-            "pos": "v.",
+            "pos": "conj.",
             "meaning": "但是"
           },
           {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "numerous",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "许多的"
           },
           {
             "word": "items",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "物品"
           },
           {
-            "word": "which",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "brought to the surface",
+            "pos": "v. phr.",
+            "meaning": "被带到水面"
           },
           {
-            "word": "were",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "proved to be",
+            "pos": "v. phr.",
+            "meaning": "结果是"
           },
           {
-            "word": "brought",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "surface",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "proved",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "be",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "great",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "interest",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "of great interest",
+            "pos": "adj. phr.",
+            "meaning": "极有趣的"
           }
         ]
       }
@@ -675,6 +790,46 @@
       "endTime": 108.0,
       "analysis": {
         "words": [
+          {
+            "word": "From",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "heavy",
+            "pos": "adj.",
+            "meaning": "重型的"
+          },
+          {
+            "word": "gun",
+            "pos": "n.",
+            "meaning": "炮"
+          },
+          {
+            "word": "raised",
+            "pos": "v.",
+            "meaning": "竖起"
+          },
+          {
+            "word": "captain",
+            "pos": "n.",
+            "meaning": "舰长"
+          },
+          {
+            "word": "realized",
+            "pos": "v.",
+            "meaning": "意识到"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "舰"
+          },
+          {
+            "word": "must have been",
+            "pos": "aux. v. phr.",
+            "meaning": "一定是"
+          },
           {
             "word": "cruiser",
             "pos": "n.",
@@ -693,124 +848,59 @@
       "analysis": {
         "words": [
           {
-            "word": "In",
-            "pos": "n.",
-            "meaning": "在...里"
-          },
-          {
             "word": "another",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "另一个"
           },
           {
             "word": "chest",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "which",
-            "pos": "n.",
-            "meaning": "???"
+            "meaning": "箱子"
           },
           {
             "word": "contained",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "v.",
+            "meaning": "包含"
           },
           {
             "word": "belongings",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "财物"
           },
           {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
-          },
-          {
-            "word": "ship's",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "officer",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "there",
-            "pos": "n.",
-            "meaning": "那里"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "an",
-            "pos": "n.",
-            "meaning": "一个"
+            "word": "ship's officer",
+            "pos": "n. phr.",
+            "meaning": "船员"
           },
           {
             "word": "unfinished",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "未完成的"
           },
           {
             "word": "letter",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "which",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "had",
-            "pos": "n.",
-            "meaning": "有"
-          },
-          {
-            "word": "been",
-            "pos": "v.",
-            "meaning": "是"
+            "meaning": "信"
           },
           {
             "word": "written",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
+            "pos": "v.",
+            "meaning": "写"
           },
           {
             "word": "March",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "三月"
           },
           {
             "word": "14th",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "num.",
+            "meaning": "十四日"
           },
           {
             "word": "1943",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "num.",
+            "meaning": "1943年"
           }
         ]
       }
@@ -825,69 +915,49 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "captain",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "船长"
           },
           {
             "word": "learnt",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "得知"
           },
           {
             "word": "from",
-            "pos": "n.",
-            "meaning": "来自"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "prep.",
+            "meaning": "从..."
           },
           {
             "word": "letter",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "信"
           },
           {
             "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "conj.",
+            "meaning": "那"
           },
           {
             "word": "name",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "名字"
           },
           {
             "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "prep.",
+            "meaning": "...的"
           },
           {
             "word": "lost",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "丢失的"
           },
           {
             "word": "ship",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "船"
           },
           {
             "word": "was",
@@ -895,14 +965,9 @@
             "meaning": "是"
           },
           {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "Karen",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "凯伦"
           }
         ]
       }
@@ -917,34 +982,19 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "most",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
             "word": "valuable",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "有价值的"
           },
           {
             "word": "find",
             "pos": "n.",
-            "meaning": "发现"
+            "meaning": "发现物"
           },
           {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "all",
-            "pos": "n.",
-            "meaning": "所有"
+            "word": "of all",
+            "pos": "adv. phr.",
+            "meaning": "在所有中"
           },
           {
             "word": "was",
@@ -952,69 +1002,34 @@
             "meaning": "是"
           },
           {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "ship's",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "log",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "book",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "ship's log book",
+            "pos": "n. phr.",
+            "meaning": "航海日志"
           },
           {
             "word": "parts",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "部分"
           },
           {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "which",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "of which",
+            "pos": "pron. phr.",
+            "meaning": "其中"
           },
           {
             "word": "still",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "仍然"
           },
           {
             "word": "possible",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "pos": "adj.",
+            "meaning": "可能的"
           },
           {
             "word": "read",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "阅读"
           }
         ]
       }
@@ -1029,89 +1044,39 @@
       "analysis": {
         "words": [
           {
-            "word": "From",
-            "pos": "n.",
-            "meaning": "来自"
-          },
-          {
             "word": "this",
-            "pos": "n.",
-            "meaning": "这个"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "pron.",
+            "meaning": "这/此"
           },
           {
             "word": "captain",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "船长/队长"
           },
           {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "be able to",
+            "pos": "v. phr.",
+            "meaning": "能够/可以"
           },
           {
-            "word": "able",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "piece",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "together",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "piece together",
+            "pos": "v. phr.",
+            "meaning": "拼凑/整理"
           },
           {
             "word": "all",
-            "pos": "n.",
-            "meaning": "所有"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "adj.",
+            "meaning": "所有/全部"
           },
           {
             "word": "information",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "信息/资料"
           },
           {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
-            "word": "had",
-            "pos": "n.",
-            "meaning": "有"
-          },
-          {
-            "word": "come",
-            "pos": "n.",
-            "meaning": "来"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "light",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "come to light",
+            "pos": "v. phr.",
+            "meaning": "显露/曝光"
           }
         ]
       }
@@ -1126,19 +1091,44 @@
       "analysis": {
         "words": [
           {
+            "word": "Karen",
+            "pos": "n.",
+            "meaning": "卡伦号 (船名)"
+          },
+          {
+            "word": "sailing",
+            "pos": "v.",
+            "meaning": "航行"
+          },
+          {
             "word": "convoy",
             "pos": "n.",
-            "meaning": "护航"
+            "meaning": "护航队"
+          },
+          {
+            "word": "Russia",
+            "pos": "n.",
+            "meaning": "俄罗斯"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
           },
           {
             "word": "torpedoed",
             "pos": "v.",
-            "meaning": "鱼雷袭击"
+            "meaning": "被鱼雷击中"
+          },
+          {
+            "word": "enemy",
+            "pos": "adj.",
+            "meaning": "敌人的"
           },
           {
             "word": "submarine",
             "pos": "n.",
-            "meaning": "潜水艇"
+            "meaning": "潜艇"
           }
         ]
       }
@@ -1153,9 +1143,49 @@
       "analysis": {
         "words": [
           {
+            "word": "This",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "later",
+            "pos": "adv.",
+            "meaning": "后来"
+          },
+          {
+            "word": "confirmed",
+            "pos": "v.",
+            "meaning": "证实，确认"
+          },
+          {
             "word": "naval",
             "pos": "adj.",
             "meaning": "海军的"
+          },
+          {
+            "word": "official",
+            "pos": "n.",
+            "meaning": "官员"
+          },
+          {
+            "word": "Ministry of Defence",
+            "pos": "n. phr.",
+            "meaning": "国防部"
+          },
+          {
+            "word": "after",
+            "pos": "conj.",
+            "meaning": "在…之后"
+          },
+          {
+            "word": "Elkor",
+            "pos": "n.",
+            "meaning": "埃尔科尔号"
+          },
+          {
+            "word": "returned home",
+            "pos": "v. phr.",
+            "meaning": "回家，返回基地"
           }
         ]
       }
@@ -1170,64 +1200,34 @@
       "analysis": {
         "words": [
           {
-            "word": "All",
-            "pos": "n.",
-            "meaning": "所有"
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "全部"
           },
           {
-            "word": "the",
+            "word": "item",
             "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "items",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
-            "word": "were",
-            "pos": "v.",
-            "meaning": "是"
+            "meaning": "物品"
           },
           {
             "word": "found",
-            "pos": "n.",
-            "meaning": "发现"
-          },
-          {
-            "word": "were",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "被发现"
           },
           {
             "word": "sent",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "被送往"
           },
           {
             "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "pos": "prep.",
+            "meaning": "到，往"
           },
           {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "War",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "Museum",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "War Museum",
+            "pos": "n. phr.",
+            "meaning": "战争博物馆"
           }
         ]
       }

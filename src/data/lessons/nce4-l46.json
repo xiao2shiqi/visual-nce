@@ -27,7 +27,16 @@
       "text": "Hobbies",
       "translation": "",
       "startTime": 2.93,
-      "endTime": 9.55
+      "endTime": 9.55,
+      "analysis": {
+        "words": [
+          {
+            "word": "hobbies",
+            "pos": "n.",
+            "meaning": "爱好"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +48,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
+            "word": "listen to",
+            "pos": "v. phr.",
+            "meaning": "听，聆听"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带，录音带"
           },
           {
             "word": "then",
@@ -70,8 +69,8 @@
           },
           {
             "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
+            "pos": "adj.",
+            "meaning": "这个，这"
           },
           {
             "word": "question",
@@ -89,7 +88,28 @@
       "startTime": 9.56,
       "endTime": 16.62,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "according to",
+            "pos": "prep. phr.",
+            "meaning": "根据，按照"
+          },
+          {
+            "word": "author",
+            "pos": "n.",
+            "meaning": "作者"
+          },
+          {
+            "word": "Fortune's favoured children",
+            "pos": "n. phr.",
+            "meaning": "命运的宠儿"
+          }
+        ]
       }
     },
     {
@@ -102,14 +122,44 @@
       "analysis": {
         "words": [
           {
+            "word": "gifted",
+            "pos": "adj.",
+            "meaning": "有天赋的"
+          },
+          {
             "word": "American",
             "pos": "adj.",
             "meaning": "美国的"
           },
           {
-            "word": "Is",
+            "word": "psychologist",
+            "pos": "n.",
+            "meaning": "心理学家"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "worry",
+            "pos": "n.",
+            "meaning": "忧虑"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "spasm",
+            "pos": "n.",
+            "meaning": "痉挛"
+          },
+          {
+            "word": "emotion",
+            "pos": "n.",
+            "meaning": "情感"
           }
         ]
       }
@@ -124,14 +174,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "mind",
+            "pos": "n.",
+            "meaning": "思想"
           },
           {
-            "word": "It",
+            "word": "catch hold of",
+            "pos": "v. phr.",
+            "meaning": "抓住"
+          },
+          {
+            "word": "something",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "某事"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "let go",
+            "pos": "v. phr.",
+            "meaning": "放手"
           }
         ]
       }
@@ -146,19 +211,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "useless",
+            "pos": "adj.",
+            "meaning": "无用的"
           },
           {
-            "word": "Is",
+            "word": "argue",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "争论"
           },
           {
-            "word": "This",
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "与，和"
+          },
+          {
+            "word": "mind",
+            "pos": "n.",
+            "meaning": "头脑，心智"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在…中，处于…"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
+          },
+          {
+            "word": "condition",
+            "pos": "n.",
+            "meaning": "状况，状态"
           }
         ]
       }
@@ -171,7 +256,28 @@
       "startTime": 30.89,
       "endTime": 34.53,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "stronger",
+            "pos": "adj.",
+            "meaning": "更强的"
+          },
+          {
+            "word": "will",
+            "pos": "n.",
+            "meaning": "意志"
+          },
+          {
+            "word": "futile",
+            "pos": "adj.",
+            "meaning": "徒劳的"
+          },
+          {
+            "word": "task",
+            "pos": "n.",
+            "meaning": "任务"
+          }
+        ]
       }
     },
     {
@@ -182,7 +288,58 @@
       "startTime": 34.54,
       "endTime": 39.97,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "某人"
+          },
+          {
+            "word": "can",
+            "pos": "aux. v.",
+            "meaning": "能，可以"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "gently",
+            "pos": "adv.",
+            "meaning": "轻轻地"
+          },
+          {
+            "word": "insinuate",
+            "pos": "v.",
+            "meaning": "悄悄引入，暗中插入"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某物"
+          },
+          {
+            "word": "else",
+            "pos": "adv.",
+            "meaning": "别的"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "convulsive",
+            "pos": "adj.",
+            "meaning": "痉挛的"
+          },
+          {
+            "word": "grasp",
+            "pos": "n.",
+            "meaning": "紧握"
+          }
+        ]
       }
     },
     {
@@ -195,19 +352,59 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "something else",
+            "pos": "n. phr.",
+            "meaning": "别的东西"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "rightly",
+            "pos": "adv.",
+            "meaning": "正确地，恰当地"
+          },
+          {
+            "word": "chosen",
+            "pos": "v.",
+            "meaning": "被选择，被选中"
+          },
+          {
+            "word": "really",
+            "pos": "adv.",
+            "meaning": "真正地，确实"
+          },
+          {
+            "word": "attended by",
+            "pos": "v. phr.",
+            "meaning": "伴随着，附带"
+          },
+          {
+            "word": "illumination",
+            "pos": "n.",
+            "meaning": "启发，领悟"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "...的"
+          },
+          {
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "另一个的"
+          },
+          {
+            "word": "field of interest",
+            "pos": "n. phr.",
+            "meaning": "兴趣领域"
           }
         ]
       }
@@ -222,9 +419,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Old",
+            "word": "gradually",
+            "pos": "adv.",
+            "meaning": "逐渐地"
+          },
+          {
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "quite",
+            "pos": "adv.",
+            "meaning": "相当"
+          },
+          {
+            "word": "swiftly",
+            "pos": "adv.",
+            "meaning": "迅速地"
+          },
+          {
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "旧的"
+          },
+          {
+            "word": "undue",
+            "pos": "adj.",
+            "meaning": "过度的"
+          },
+          {
+            "word": "grip",
+            "pos": "n.",
+            "meaning": "掌控"
+          },
+          {
+            "word": "relaxes",
+            "pos": "v.",
+            "meaning": "缓解"
+          },
+          {
+            "word": "process",
+            "pos": "n.",
+            "meaning": "过程"
+          },
+          {
+            "word": "recuperation",
+            "pos": "n.",
+            "meaning": "恢复"
+          },
+          {
+            "word": "repair",
+            "pos": "n.",
+            "meaning": "修复"
+          },
+          {
+            "word": "begins",
+            "pos": "v.",
+            "meaning": "开始"
           }
         ]
       }
@@ -239,14 +491,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "cultivation",
+            "pos": "n.",
+            "meaning": "培养"
           },
           {
-            "word": "Man",
+            "word": "hobby",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "爱好"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，并且"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "forms",
+            "pos": "n.",
+            "meaning": "形式"
+          },
+          {
+            "word": "interest",
+            "pos": "n.",
+            "meaning": "兴趣"
+          },
+          {
+            "word": "therefore",
+            "pos": "adv.",
+            "meaning": "因此"
+          },
+          {
+            "word": "policy",
+            "pos": "n.",
+            "meaning": "策略，方针"
+          },
+          {
+            "word": "of the first importance",
+            "pos": "adj. phr.",
+            "meaning": "最重要的"
+          },
+          {
+            "word": "public man",
+            "pos": "n. phr.",
+            "meaning": "公众人物"
           }
         ]
       }
@@ -261,24 +553,64 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "business",
+            "pos": "n.",
+            "meaning": "事业"
+          },
+          {
+            "word": "undertake",
+            "pos": "v.",
+            "meaning": "从事，承担"
+          },
+          {
+            "word": "in a day",
+            "pos": "adv. phr.",
+            "meaning": "一日之内"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "swiftly",
+            "pos": "adv.",
+            "meaning": "迅速地"
+          },
+          {
+            "word": "improvise",
+            "pos": "v.",
+            "meaning": "即兴安排"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过，凭借"
+          },
+          {
+            "word": "mere",
+            "pos": "adj.",
+            "meaning": "仅仅的"
+          },
+          {
+            "word": "command of the will",
+            "pos": "n. phr.",
+            "meaning": "意志的驱使"
           }
         ]
       }
@@ -293,9 +625,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "growth",
+            "pos": "n.",
+            "meaning": "增长"
+          },
+          {
+            "word": "alternative",
+            "pos": "adj.",
+            "meaning": "替代的"
+          },
+          {
+            "word": "mental",
+            "pos": "adj.",
+            "meaning": "精神的"
+          },
+          {
+            "word": "interests",
+            "pos": "n.",
+            "meaning": "兴趣"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "漫长的"
+          },
+          {
+            "word": "process",
+            "pos": "n.",
+            "meaning": "过程"
           }
         ]
       }
@@ -308,7 +665,43 @@
       "startTime": 80.65,
       "endTime": 85.46,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "seeds",
+            "pos": "n.",
+            "meaning": "种子"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "carefully",
+            "pos": "adv.",
+            "meaning": "仔细地"
+          },
+          {
+            "word": "chosen",
+            "pos": "v.",
+            "meaning": "被选择"
+          },
+          {
+            "word": "fall on",
+            "pos": "v. phr.",
+            "meaning": "落在"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "土地"
+          }
+        ]
       }
     },
     {
@@ -321,9 +714,54 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "sedulously",
+            "pos": "adv.",
+            "meaning": "勤勉地"
+          },
+          {
+            "word": "tended",
+            "pos": "v.",
+            "meaning": "照料"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "vivifying",
+            "pos": "adj.",
+            "meaning": "活力的"
+          },
+          {
+            "word": "fruits",
+            "pos": "n.",
+            "meaning": "成果"
+          },
+          {
+            "word": "are to be",
+            "pos": "aux. v. phr.",
+            "meaning": "将要, 应该"
+          },
+          {
+            "word": "at hand",
+            "pos": "adv. phr.",
+            "meaning": "唾手可得"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "needed",
+            "pos": "v.",
+            "meaning": "需要"
           }
         ]
       }
@@ -338,9 +776,69 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "really",
+            "pos": "adv.",
+            "meaning": "真的，非常"
+          },
+          {
+            "word": "happy",
+            "pos": "adj.",
+            "meaning": "快乐的"
+          },
+          {
+            "word": "safe",
+            "pos": "adj.",
+            "meaning": "安全的"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "某人"
+          },
+          {
+            "word": "ought to",
+            "pos": "aux. v.",
+            "meaning": "应该，理应"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "at least",
+            "pos": "adv. phr.",
+            "meaning": "至少"
+          },
+          {
+            "word": "two or three",
+            "pos": "num. phr.",
+            "meaning": "两三个"
+          },
+          {
+            "word": "hobbies",
+            "pos": "n.",
+            "meaning": "爱好"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "都，全部"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是，存在"
+          },
+          {
+            "word": "real",
+            "pos": "adj.",
+            "meaning": "真实的"
           }
         ]
       }
@@ -355,22 +853,37 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "it is no use",
+            "pos": "idiom",
+            "meaning": "做…没用"
           },
           {
-            "word": "Is",
+            "word": "starting",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "开始"
           },
           {
-            "word": "This",
+            "word": "late in life",
+            "pos": "adv. phr.",
+            "meaning": "在晚年"
+          },
+          {
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "take an interest in",
+            "pos": "v. phr.",
+            "meaning": "对…感兴趣"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这个"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
           }
@@ -383,7 +896,46 @@
       "text": "Such an attempt only aggravates the strain of mental effort.",
       "translation": "",
       "startTime": 106.63,
-      "endTime": 111.35
+      "endTime": 111.35,
+      "analysis": {
+        "words": [
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          },
+          {
+            "word": "attempt",
+            "pos": "n.",
+            "meaning": "尝试"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "aggravates",
+            "pos": "v.",
+            "meaning": "加剧"
+          },
+          {
+            "word": "strain",
+            "pos": "n.",
+            "meaning": "压力"
+          },
+          {
+            "word": "mental",
+            "pos": "adj.",
+            "meaning": "精神的"
+          },
+          {
+            "word": "effort",
+            "pos": "n.",
+            "meaning": "努力"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -395,9 +947,74 @@
       "analysis": {
         "words": [
           {
-            "word": "Man",
+            "word": "man",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "人"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "acquire",
+            "pos": "v.",
+            "meaning": "获得"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "knowledge",
+            "pos": "n.",
+            "meaning": "知识"
+          },
+          {
+            "word": "topics",
+            "pos": "n.",
+            "meaning": "话题"
+          },
+          {
+            "word": "unconnected with",
+            "pos": "adj. phr.",
+            "meaning": "与...无关的"
+          },
+          {
+            "word": "daily",
+            "pos": "adj.",
+            "meaning": "日常的"
+          },
+          {
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "yet",
+            "pos": "conj.",
+            "meaning": "然而,却"
+          },
+          {
+            "word": "get",
+            "pos": "v.",
+            "meaning": "得到"
+          },
+          {
+            "word": "hardly any",
+            "pos": "adv. phr.",
+            "meaning": "几乎没有"
+          },
+          {
+            "word": "benefit",
+            "pos": "n.",
+            "meaning": "益处,好处"
+          },
+          {
+            "word": "relief",
+            "pos": "n.",
+            "meaning": "解脱,减轻"
           }
         ]
       }
@@ -412,24 +1029,29 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "no use doing",
+            "pos": "v. phr.",
+            "meaning": "做…无益"
           },
           {
-            "word": "Is",
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "所…之物"
+          },
+          {
+            "word": "like",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "喜欢"
           },
           {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
+            "word": "have got to",
+            "pos": "aux. v. phr.",
+            "meaning": "必须"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "do",
+            "pos": "v.",
+            "meaning": "做"
           }
         ]
       }
@@ -442,7 +1064,33 @@
       "startTime": 124.74,
       "endTime": 130.26,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Broadly speaking",
+            "pos": "adv. phr.",
+            "meaning": "广义地说"
+          },
+          {
+            "word": "human beings",
+            "pos": "n. phr.",
+            "meaning": "人类"
+          },
+          {
+            "word": "be divided into",
+            "pos": "v. phr.",
+            "meaning": "被分为"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "classes",
+            "pos": "n.",
+            "meaning": "类别"
+          }
+        ]
       }
     },
     {
@@ -453,7 +1101,28 @@
       "startTime": 130.27,
       "endTime": 138.47,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些人"
+          },
+          {
+            "word": "toiled to death",
+            "pos": "v. phr.",
+            "meaning": "劳累致死"
+          },
+          {
+            "word": "worried to death",
+            "pos": "adj. phr.",
+            "meaning": "担忧致死"
+          },
+          {
+            "word": "bored to death",
+            "pos": "adj. phr.",
+            "meaning": "无聊致死"
+          }
+        ]
       }
     },
     {
@@ -466,14 +1135,24 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "no use",
+            "pos": "n. phr.",
+            "meaning": "徒劳"
           },
           {
-            "word": "Is",
+            "word": "offering",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "提供"
+          },
+          {
+            "word": "manual",
+            "pos": "adj.",
+            "meaning": "体力的"
+          },
+          {
+            "word": "labourer",
+            "pos": "n.",
+            "meaning": "体力劳动者"
           }
         ]
       }
@@ -488,9 +1167,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Tired",
+            "word": "tired out",
+            "pos": "adj. phr.",
+            "meaning": "筋疲力尽的"
+          },
+          {
+            "word": "hard",
             "pos": "adj.",
-            "meaning": "疲劳的"
+            "meaning": "辛苦的"
+          },
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期"
+          },
+          {
+            "word": "sweat",
+            "pos": "n.",
+            "meaning": "汗水"
+          },
+          {
+            "word": "effort",
+            "pos": "n.",
+            "meaning": "努力"
+          },
+          {
+            "word": "chance",
+            "pos": "n.",
+            "meaning": "机会"
+          },
+          {
+            "word": "play",
+            "pos": "v.",
+            "meaning": "玩，进行"
+          },
+          {
+            "word": "game",
+            "pos": "n.",
+            "meaning": "比赛"
+          },
+          {
+            "word": "football",
+            "pos": "n.",
+            "meaning": "足球"
+          },
+          {
+            "word": "baseball",
+            "pos": "n.",
+            "meaning": "棒球"
+          },
+          {
+            "word": "Saturday afternoon",
+            "pos": "n. phr.",
+            "meaning": "周六下午"
           }
         ]
       }
@@ -505,19 +1234,59 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "no use",
+            "pos": "adj. phr.",
+            "meaning": "没有用处"
           },
           {
-            "word": "Is",
+            "word": "inviting",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "邀请"
           },
           {
-            "word": "Man",
+            "word": "politician",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "政治家"
+          },
+          {
+            "word": "professional",
+            "pos": "n.",
+            "meaning": "专业人士"
+          },
+          {
+            "word": "business man",
+            "pos": "n. phr.",
+            "meaning": "商人"
+          },
+          {
+            "word": "working",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "worrying about",
+            "pos": "v. phr.",
+            "meaning": "担心"
+          },
+          {
+            "word": "serious",
+            "pos": "adj.",
+            "meaning": "严肃的，重要的"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "事情"
+          },
+          {
+            "word": "six",
+            "pos": "num.",
+            "meaning": "六"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "天"
           }
         ]
       }
@@ -532,9 +1301,29 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "work",
+            "pos": "v.",
+            "meaning": "工作"
+          },
+          {
+            "word": "worry about",
+            "pos": "v. phr.",
+            "meaning": "担心"
+          },
+          {
+            "word": "trifling",
+            "pos": "adj.",
+            "meaning": "微不足道的"
+          },
+          {
+            "word": "things",
+            "pos": "n.",
+            "meaning": "事情"
+          },
+          {
+            "word": "at the weekend",
+            "pos": "adv. phr.",
+            "meaning": "在周末"
           }
         ]
       }
@@ -547,7 +1336,38 @@
       "startTime": 164.75,
       "endTime": 169.52,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "As for",
+            "pos": "prep. phr.",
+            "meaning": "至于，关于"
+          },
+          {
+            "word": "unfortunate",
+            "pos": "adj.",
+            "meaning": "不幸的"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人"
+          },
+          {
+            "word": "command",
+            "pos": "v.",
+            "meaning": "掌控，支配"
+          },
+          {
+            "word": "everything",
+            "pos": "pron.",
+            "meaning": "一切"
+          },
+          {
+            "word": "want",
+            "pos": "v.",
+            "meaning": "想要"
+          }
+        ]
       }
     },
     {
@@ -560,9 +1380,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "gratify",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "使满足"
+          },
+          {
+            "word": "every",
+            "pos": "adj.",
+            "meaning": "每个"
+          },
+          {
+            "word": "caprice",
+            "pos": "n.",
+            "meaning": "任性"
+          },
+          {
+            "word": "lay hands on",
+            "pos": "v. phr.",
+            "meaning": "得到"
+          },
+          {
+            "word": "almost",
+            "pos": "adv.",
+            "meaning": "几乎"
+          },
+          {
+            "word": "object of desire",
+            "pos": "n. phr.",
+            "meaning": "渴望之物"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "pleasure",
+            "pos": "n.",
+            "meaning": "乐趣"
+          },
+          {
+            "word": "excitement",
+            "pos": "n.",
+            "meaning": "兴奋"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "additional",
+            "pos": "adj.",
+            "meaning": "额外的"
+          },
+          {
+            "word": "satiation",
+            "pos": "n.",
+            "meaning": "满足"
           }
         ]
       }
@@ -573,7 +1453,71 @@
       "text": "In vain they rush frantically round from place to place, trying to escape from avenging boredom by mere clatter and motion.",
       "translation": "",
       "startTime": 182.4,
-      "endTime": 191.87
+      "endTime": 191.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "in vain",
+            "pos": "adv. phr.",
+            "meaning": "徒劳地"
+          },
+          {
+            "word": "rush",
+            "pos": "v.",
+            "meaning": "冲，奔跑"
+          },
+          {
+            "word": "frantically",
+            "pos": "adv.",
+            "meaning": "发狂地"
+          },
+          {
+            "word": "round",
+            "pos": "adv.",
+            "meaning": "四处，到处"
+          },
+          {
+            "word": "from place to place",
+            "pos": "adv. phr.",
+            "meaning": "到处，处处"
+          },
+          {
+            "word": "trying",
+            "pos": "v.",
+            "meaning": "试图"
+          },
+          {
+            "word": "escape from",
+            "pos": "v. phr.",
+            "meaning": "逃离"
+          },
+          {
+            "word": "avenging",
+            "pos": "adj.",
+            "meaning": "报复性的"
+          },
+          {
+            "word": "boredom",
+            "pos": "n.",
+            "meaning": "无聊"
+          },
+          {
+            "word": "mere",
+            "pos": "adj.",
+            "meaning": "仅仅的"
+          },
+          {
+            "word": "clatter",
+            "pos": "n.",
+            "meaning": "喧闹声"
+          },
+          {
+            "word": "motion",
+            "pos": "n.",
+            "meaning": "运动，活动"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -585,9 +1529,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "discipline",
+            "pos": "n.",
+            "meaning": "纪律"
+          },
+          {
+            "word": "in one form or another",
+            "pos": "adv. phr.",
+            "meaning": "以某种形式"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "hopeful",
+            "pos": "adj.",
+            "meaning": "有希望的"
+          },
+          {
+            "word": "path",
+            "pos": "n.",
+            "meaning": "道路"
           }
         ]
       }
@@ -602,14 +1566,59 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "also",
+            "pos": "adv.",
+            "meaning": "也，此外"
+          },
+          {
+            "word": "be said",
+            "pos": "v. phr.",
+            "meaning": "据说，被说"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "rational",
+            "pos": "adj.",
+            "meaning": "理性的"
+          },
+          {
+            "word": "industrious",
+            "pos": "adj.",
+            "meaning": "勤奋的"
+          },
+          {
+            "word": "useful",
+            "pos": "adj.",
+            "meaning": "有用的"
+          },
+          {
+            "word": "human beings",
+            "pos": "n. phr.",
+            "meaning": "人类"
+          },
+          {
+            "word": "be divided into",
+            "pos": "v. phr.",
+            "meaning": "被分成"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "classes",
+            "pos": "n.",
+            "meaning": "阶级，类别"
           }
         ]
       }
@@ -624,9 +1633,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "首先"
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些人"
+          },
+          {
+            "word": "whose",
+            "pos": "pron.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "pleasure",
+            "pos": "n.",
+            "meaning": "乐趣"
           }
         ]
       }
@@ -639,7 +1668,38 @@
       "startTime": 211.2,
       "endTime": 215.48,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "secondly",
+            "pos": "adv.",
+            "meaning": "其次"
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些人"
+          },
+          {
+            "word": "whose",
+            "pos": "pron.",
+            "meaning": "他们的"
+          },
+          {
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "pleasure",
+            "pos": "n.",
+            "meaning": "乐趣"
+          },
+          {
+            "word": "one",
+            "pos": "adj.",
+            "meaning": "一致的"
+          }
+        ]
       }
     },
     {
@@ -650,7 +1710,33 @@
       "startTime": 215.49,
       "endTime": 220.39,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Of these",
+            "pos": "prep. phr.",
+            "meaning": "在其中"
+          },
+          {
+            "word": "former",
+            "pos": "pron.",
+            "meaning": "前者"
+          },
+          {
+            "word": "majority",
+            "pos": "n.",
+            "meaning": "大多数"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "compensations",
+            "pos": "n.",
+            "meaning": "补偿"
+          }
+        ]
       }
     },
     {
@@ -661,7 +1747,48 @@
       "startTime": 220.4,
       "endTime": 225.45,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长时间的"
+          },
+          {
+            "word": "hours",
+            "pos": "n.",
+            "meaning": "时间"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "office",
+            "pos": "n.",
+            "meaning": "办公室"
+          },
+          {
+            "word": "factory",
+            "pos": "n.",
+            "meaning": "工厂"
+          },
+          {
+            "word": "bring with",
+            "pos": "v. phr.",
+            "meaning": "带来"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "reward",
+            "pos": "n.",
+            "meaning": "报酬"
+          }
+        ]
       }
     },
     {
@@ -674,9 +1801,84 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "not only",
+            "pos": "adv. phr.",
+            "meaning": "不仅"
+          },
+          {
+            "word": "means",
+            "pos": "n.",
+            "meaning": "手段"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "sustenance",
+            "pos": "n.",
+            "meaning": "生计"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "keen",
+            "pos": "adj.",
+            "meaning": "强烈的"
+          },
+          {
+            "word": "appetite",
+            "pos": "n.",
+            "meaning": "欲望"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "pleasure",
+            "pos": "n.",
+            "meaning": "乐趣"
+          },
+          {
+            "word": "even",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "甚至"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "simplest",
+            "pos": "adj.",
+            "meaning": "最简单的"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "modest",
+            "pos": "adj.",
+            "meaning": "适度的"
+          },
+          {
+            "word": "forms",
+            "pos": "n.",
+            "meaning": "形式"
           }
         ]
       }
@@ -687,7 +1889,46 @@
       "text": "But Fortune's favoured children belong to the second class.",
       "translation": "",
       "startTime": 233.8,
-      "endTime": 238.16
+      "endTime": 238.16,
+      "analysis": {
+        "words": [
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "Fortune",
+            "pos": "n.",
+            "meaning": "命运女神"
+          },
+          {
+            "word": "favoured",
+            "pos": "adj.",
+            "meaning": "受眷顾的"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "宠儿"
+          },
+          {
+            "word": "belong to",
+            "pos": "v. phr.",
+            "meaning": "属于"
+          },
+          {
+            "word": "second",
+            "pos": "num.",
+            "meaning": "第二的"
+          },
+          {
+            "word": "class",
+            "pos": "n.",
+            "meaning": "阶级"
+          }
+        ]
+      }
     },
     {
       "id": "s34",
@@ -699,9 +1940,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生命"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "natural",
+            "pos": "adj.",
+            "meaning": "自然的"
+          },
+          {
+            "word": "harmony",
+            "pos": "n.",
+            "meaning": "和谐"
           }
         ]
       }
@@ -714,7 +1970,33 @@
       "startTime": 241.28,
       "endTime": 244.91,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "working hours",
+            "pos": "n. phr.",
+            "meaning": "工作时间"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不，绝不"
+          },
+          {
+            "word": "long enough",
+            "pos": "adj. phr.",
+            "meaning": "足够长"
+          }
+        ]
       }
     },
     {
@@ -727,9 +2009,79 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "each",
+            "pos": "adj.",
+            "meaning": "每个"
+          },
+          {
+            "word": "day",
+            "pos": "n.",
+            "meaning": "日子"
+          },
+          {
+            "word": "holiday",
+            "pos": "n.",
+            "meaning": "假日"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "ordinary",
+            "pos": "adj.",
+            "meaning": "普通的"
+          },
+          {
+            "word": "holidays",
+            "pos": "n.",
+            "meaning": "假日"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "come",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "来临"
+          },
+          {
+            "word": "grudged",
+            "pos": "v.",
+            "meaning": "被勉强给予"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "enforced",
+            "pos": "adj.",
+            "meaning": "被强制的"
+          },
+          {
+            "word": "interruptions",
+            "pos": "n.",
+            "meaning": "中断"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "absorbing",
+            "pos": "adj.",
+            "meaning": "引人入胜的"
+          },
+          {
+            "word": "vocation",
+            "pos": "n.",
+            "meaning": "职业"
           }
         ]
       }
@@ -744,9 +2096,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "yet",
+            "pos": "conj.",
+            "meaning": "然而"
+          },
+          {
+            "word": "both",
+            "pos": "pron.",
+            "meaning": "两者"
+          },
+          {
+            "word": "classes",
+            "pos": "n.",
+            "meaning": "阶层"
+          },
+          {
+            "word": "need",
+            "pos": "n.",
+            "meaning": "需求"
+          },
+          {
+            "word": "alternative",
+            "pos": "adj.",
+            "meaning": "可选择的"
+          },
+          {
+            "word": "outlook",
+            "pos": "n.",
+            "meaning": "观点"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "改变"
+          },
+          {
+            "word": "atmosphere",
+            "pos": "n.",
+            "meaning": "气氛"
+          },
+          {
+            "word": "diversion",
+            "pos": "n.",
+            "meaning": "转移"
+          },
+          {
+            "word": "effort",
+            "pos": "n.",
+            "meaning": "努力"
+          },
+          {
+            "word": "essential",
+            "pos": "adj.",
+            "meaning": "必要的"
           }
         ]
       }
@@ -761,29 +2163,89 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "Indeed",
+            "pos": "adv.",
+            "meaning": "确实"
+          },
+          {
+            "word": "may well be",
+            "pos": "v. phr.",
+            "meaning": "很可能"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "其"
+          },
+          {
+            "word": "those",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "那些人"
           },
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
-          },
-          {
-            "word": "That",
+            "word": "whose",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "他们的"
           },
           {
-            "word": "Is",
+            "word": "work",
+            "pos": "n.",
+            "meaning": "工作"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "At",
+            "word": "pleasure",
+            "pos": "n.",
+            "meaning": "乐趣"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "那些人"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "need",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "means",
+            "pos": "n.",
+            "meaning": "方法"
+          },
+          {
+            "word": "banishing",
+            "pos": "v.",
+            "meaning": "消除"
+          },
+          {
+            "word": "at intervals",
+            "pos": "adv. phr.",
+            "meaning": "不时地"
+          },
+          {
+            "word": "from",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "从"
+          },
+          {
+            "word": "minds",
+            "pos": "n.",
+            "meaning": "思绪"
           }
         ]
       }

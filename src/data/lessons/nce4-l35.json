@@ -27,7 +27,16 @@
       "text": "Space odyssey",
       "translation": "太空漫游",
       "startTime": 3.08,
-      "endTime": 11.09
+      "endTime": 11.09,
+      "analysis": {
+        "words": [
+          {
+            "word": "Space odyssey",
+            "pos": "n. phr.",
+            "meaning": "太空漫游"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +48,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "录音带"
           },
           {
             "word": "then",
@@ -70,8 +69,8 @@
           },
           {
             "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
+            "pos": "adj.",
+            "meaning": "这"
           },
           {
             "word": "question",
@@ -91,9 +90,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "When",
+            "pos": "adv.",
+            "meaning": "何时"
+          },
+          {
+            "word": "will",
+            "pos": "aux. v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "possible",
+            "pos": "adj.",
+            "meaning": "可能的"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "think seriously",
+            "pos": "v. phr.",
+            "meaning": "认真考虑"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "colonising",
+            "pos": "v.",
+            "meaning": "殖民"
+          },
+          {
+            "word": "Mars",
+            "pos": "n.",
+            "meaning": "火星"
           }
         ]
       }
@@ -108,9 +147,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "Moon",
+            "pos": "n.",
+            "meaning": "月球"
+          },
+          {
+            "word": "likely to",
+            "pos": "adj. phr.",
+            "meaning": "很可能"
+          },
+          {
+            "word": "become",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "成为"
+          },
+          {
+            "word": "industrial",
+            "pos": "adj.",
+            "meaning": "工业的"
+          },
+          {
+            "word": "hub",
+            "pos": "n.",
+            "meaning": "中心"
+          },
+          {
+            "word": "Solar System",
+            "pos": "n. phr.",
+            "meaning": "太阳系"
+          },
+          {
+            "word": "supplying",
+            "pos": "v.",
+            "meaning": "供应"
+          },
+          {
+            "word": "rocket fuels",
+            "pos": "n. phr.",
+            "meaning": "火箭燃料"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "供"
+          },
+          {
+            "word": "ships",
+            "pos": "n.",
+            "meaning": "飞船"
           }
         ]
       }
@@ -121,7 +205,46 @@
       "text": "easily obtainable from the lunar rocks in the form of liquid oxygen.",
       "translation": "很容易从月球岩石中以液氧的形式获得。",
       "startTime": 27.37,
-      "endTime": 33.53
+      "endTime": 33.53,
+      "analysis": {
+        "words": [
+          {
+            "word": "easily",
+            "pos": "adv.",
+            "meaning": "容易地"
+          },
+          {
+            "word": "obtainable",
+            "pos": "adj.",
+            "meaning": "可获得的"
+          },
+          {
+            "word": "lunar",
+            "pos": "adj.",
+            "meaning": "月球的"
+          },
+          {
+            "word": "rocks",
+            "pos": "n.",
+            "meaning": "岩石"
+          },
+          {
+            "word": "in the form of",
+            "pos": "adv. phr.",
+            "meaning": "以…形式"
+          },
+          {
+            "word": "liquid",
+            "pos": "adj.",
+            "meaning": "液体的"
+          },
+          {
+            "word": "oxygen",
+            "pos": "n.",
+            "meaning": "氧气"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -131,7 +254,23 @@
       "startTime": 33.54,
       "endTime": 36.78,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "reason",
+            "pos": "n.",
+            "meaning": "原因"
+          },
+          {
+            "word": "lies in",
+            "pos": "v. phr.",
+            "meaning": "在于"
+          },
+          {
+            "word": "gravity",
+            "pos": "n.",
+            "meaning": "重要性"
+          }
+        ]
       }
     },
     {
@@ -140,7 +279,51 @@
       "text": "Because the Moon has only an eightieth of the Earth's mass,",
       "translation": "因为月球的质量只有地球的八十分之一，",
       "startTime": 36.79,
-      "endTime": 41.42
+      "endTime": 41.42,
+      "analysis": {
+        "words": [
+          {
+            "word": "Because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "Moon",
+            "pos": "n.",
+            "meaning": "月亮"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "有，拥有"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅，只有"
+          },
+          {
+            "word": "eightieth",
+            "pos": "num.",
+            "meaning": "八十分之一"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "Earth",
+            "pos": "n.",
+            "meaning": "地球"
+          },
+          {
+            "word": "mass",
+            "pos": "n.",
+            "meaning": "质量"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -152,9 +335,24 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "require",
+            "pos": "v.",
+            "meaning": "需要"
+          },
+          {
+            "word": "97%",
+            "pos": "num.",
+            "meaning": "百分之九十七"
+          },
+          {
+            "word": "less",
+            "pos": "adj.",
+            "meaning": "更少的"
+          },
+          {
+            "word": "energy",
+            "pos": "n.",
+            "meaning": "能量"
           }
         ]
       }
@@ -165,7 +363,76 @@
       "text": "to travel the quarter of a million miles from the Moon to Earth-orbit than the 200 mile-journey from Earth's surface into orbit!",
       "translation": "从月球到地球轨道行驶 25 万英里比从地球表面进入轨道 200 英里的旅程还要多！",
       "startTime": 46.02,
-      "endTime": 57.43
+      "endTime": 57.43,
+      "analysis": {
+        "words": [
+          {
+            "word": "travel",
+            "pos": "v.",
+            "meaning": "旅行"
+          },
+          {
+            "word": "quarter of a million",
+            "pos": "n. phr.",
+            "meaning": "二十五万"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "Moon",
+            "pos": "n.",
+            "meaning": "月球"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "Earth-orbit",
+            "pos": "n. phr.",
+            "meaning": "地球轨道"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比"
+          },
+          {
+            "word": "200",
+            "pos": "num.",
+            "meaning": "二百"
+          },
+          {
+            "word": "mile-journey",
+            "pos": "n. phr.",
+            "meaning": "英里旅程"
+          },
+          {
+            "word": "Earth's surface",
+            "pos": "n. phr.",
+            "meaning": "地球表面"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入"
+          },
+          {
+            "word": "orbit",
+            "pos": "n.",
+            "meaning": "轨道"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -179,17 +446,32 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
           },
           {
-            "word": "Is",
+            "word": "sound",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "听起来"
+          },
+          {
+            "word": "fantastic",
+            "pos": "adj.",
+            "meaning": "极好的"
+          },
+          {
+            "word": "easily",
+            "pos": "adv.",
+            "meaning": "容易地"
+          },
+          {
+            "word": "calculated",
+            "pos": "v.",
+            "meaning": "计算"
           }
         ]
       }
@@ -204,9 +486,49 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "escape from",
+            "pos": "v. phr.",
+            "meaning": "逃离"
+          },
+          {
+            "word": "Earth",
+            "pos": "n.",
+            "meaning": "地球"
+          },
+          {
+            "word": "rocket",
+            "pos": "n.",
+            "meaning": "火箭"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "某人"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "travel",
+            "pos": "v.",
+            "meaning": "行进"
+          },
+          {
+            "word": "seven",
+            "pos": "num.",
+            "meaning": "七"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "per second",
+            "pos": "adv. phr.",
+            "meaning": "每秒"
           }
         ]
       }
@@ -221,9 +543,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "comparable",
+            "pos": "adj.",
+            "meaning": "可比较的"
+          },
+          {
+            "word": "speed",
+            "pos": "n.",
+            "meaning": "速度"
+          },
+          {
+            "word": "Moon",
+            "pos": "n.",
+            "meaning": "月球"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "1.5",
+            "pos": "num.",
+            "meaning": "一点五"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "per second",
+            "pos": "adv. phr.",
+            "meaning": "每秒"
           }
         ]
       }
@@ -238,14 +590,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Because",
+            "pos": "conj.",
+            "meaning": "因为"
           },
           {
-            "word": "How",
+            "word": "gravity",
+            "pos": "n.",
+            "meaning": "重力"
+          },
+          {
+            "word": "Moon",
+            "pos": "n.",
+            "meaning": "月球"
+          },
+          {
+            "word": "surface",
+            "pos": "n.",
+            "meaning": "表面"
+          },
+          {
+            "word": "only",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "仅仅"
+          },
+          {
+            "word": "sixth",
+            "pos": "num.",
+            "meaning": "六分之一"
+          },
+          {
+            "word": "Earth",
+            "pos": "n.",
+            "meaning": "地球"
+          },
+          {
+            "word": "remember",
+            "pos": "v.",
+            "meaning": "记住"
+          },
+          {
+            "word": "how",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "easily",
+            "pos": "adv.",
+            "meaning": "轻松地"
+          },
+          {
+            "word": "Apollo",
+            "pos": "n.",
+            "meaning": "阿波罗"
+          },
+          {
+            "word": "astronauts",
+            "pos": "n.",
+            "meaning": "宇航员"
+          },
+          {
+            "word": "bounded along",
+            "pos": "v. phr.",
+            "meaning": "跳跃前进"
           }
         ]
       }
@@ -260,19 +667,59 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "takes",
+            "pos": "v.",
+            "meaning": "花费，需要"
           },
           {
-            "word": "Much",
+            "word": "much",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "大大地，很多"
           },
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "less",
+            "pos": "adj.",
+            "meaning": "更少的"
+          },
+          {
+            "word": "energy",
+            "pos": "n.",
+            "meaning": "能量"
+          },
+          {
+            "word": "accelerate",
+            "pos": "v.",
+            "meaning": "加速"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "达到，向"
+          },
+          {
+            "word": "that",
+            "pos": "adj.",
             "meaning": "那个"
+          },
+          {
+            "word": "1.5mps",
+            "pos": "n.",
+            "meaning": "每秒1.5米"
+          },
+          {
+            "word": "than",
+            "pos": "conj.",
+            "meaning": "比"
+          },
+          {
+            "word": "does",
+            "pos": "aux. v.",
+            "meaning": "代替动词"
+          },
+          {
+            "word": "on Earth",
+            "pos": "prep. phr.",
+            "meaning": "在地球上"
           }
         ]
       }
@@ -287,9 +734,74 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "Moon dwellers",
+            "pos": "n. phr.",
+            "meaning": "月球居民"
+          },
+          {
+            "word": "able to",
+            "pos": "adj. phr.",
+            "meaning": "能够"
+          },
+          {
+            "word": "fly",
+            "pos": "v.",
+            "meaning": "飞行"
+          },
+          {
+            "word": "space",
+            "pos": "n.",
+            "meaning": "太空"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "以"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "three percent",
+            "pos": "num. phr.",
+            "meaning": "百分之三"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "cost",
+            "pos": "n.",
+            "meaning": "成本"
+          },
+          {
+            "word": "similar",
+            "pos": "adj.",
+            "meaning": "相似的"
+          },
+          {
+            "word": "journeys",
+            "pos": "n.",
+            "meaning": "旅程"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "由，通过"
+          },
+          {
+            "word": "terrestrial",
+            "pos": "adj.",
+            "meaning": "地球的"
+          },
+          {
+            "word": "cousins",
+            "pos": "n.",
+            "meaning": "亲戚"
           }
         ]
       }
@@ -300,7 +812,51 @@
       "text": "Arthur C.Clark once suggested a revolutionary idea passes through three phases:",
       "translation": "亚瑟·C·克拉克 (Arthur C.Clark) 曾经提出，一个革命性的想法要经历三个阶段：",
       "startTime": 107.18,
-      "endTime": 115.36
+      "endTime": 115.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "Arthur C. Clark",
+            "pos": "n.",
+            "meaning": "亚瑟·C·克拉克"
+          },
+          {
+            "word": "once",
+            "pos": "adv.",
+            "meaning": "曾经"
+          },
+          {
+            "word": "suggested",
+            "pos": "v.",
+            "meaning": "提出"
+          },
+          {
+            "word": "revolutionary",
+            "pos": "adj.",
+            "meaning": "革命性的"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "想法"
+          },
+          {
+            "word": "passes through",
+            "pos": "v. phr.",
+            "meaning": "经历"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "phases",
+            "pos": "n.",
+            "meaning": "阶段"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -312,9 +868,14 @@
       "analysis": {
         "words": [
           {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
+            "word": "impossible",
+            "pos": "adj.",
+            "meaning": "不可能的"
+          },
+          {
+            "word": "waste time",
+            "pos": "v. phr.",
+            "meaning": "浪费时间"
           }
         ]
       }
@@ -329,9 +890,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "possible",
+            "pos": "adj.",
+            "meaning": "可能的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "worth doing",
+            "pos": "adj. phr.",
+            "meaning": "值得做"
           }
         ]
       }
@@ -346,9 +922,29 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "say",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "主意"
+          },
+          {
+            "word": "all along",
+            "pos": "adv. phr.",
+            "meaning": "一直，始终"
           }
         ]
       }
@@ -359,7 +955,76 @@
       "text": "The idea of colonising Mars--a world 160 times more distant than the Moon--will move decisively from the second phase to the third,",
       "translation": "殖民火星——一个比月球远160倍的世界——的想法将决定性地从第二阶段转向第三阶段，",
       "startTime": 132.06,
-      "endTime": 145.2
+      "endTime": 145.2,
+      "analysis": {
+        "words": [
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "想法"
+          },
+          {
+            "word": "colonising",
+            "pos": "v.",
+            "meaning": "殖民"
+          },
+          {
+            "word": "Mars",
+            "pos": "n.",
+            "meaning": "火星"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "160",
+            "pos": "num.",
+            "meaning": "160"
+          },
+          {
+            "word": "times",
+            "pos": "n.",
+            "meaning": "倍"
+          },
+          {
+            "word": "more distant",
+            "pos": "adj. phr.",
+            "meaning": "更遥远"
+          },
+          {
+            "word": "Moon",
+            "pos": "n.",
+            "meaning": "月球"
+          },
+          {
+            "word": "move",
+            "pos": "v.",
+            "meaning": "转移"
+          },
+          {
+            "word": "decisively",
+            "pos": "adv.",
+            "meaning": "果断地"
+          },
+          {
+            "word": "second",
+            "pos": "adj.",
+            "meaning": "第二"
+          },
+          {
+            "word": "phase",
+            "pos": "n.",
+            "meaning": "阶段"
+          },
+          {
+            "word": "third",
+            "pos": "adj.",
+            "meaning": "第三"
+          }
+        ]
+      }
     },
     {
       "id": "s17",
@@ -371,9 +1036,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...的时候"
+          },
+          {
+            "word": "a significant number of",
+            "pos": "n. phr.",
+            "meaning": "大量的"
+          },
+          {
+            "word": "people",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "人"
+          },
+          {
+            "word": "living",
+            "pos": "v.",
+            "meaning": "居住"
+          },
+          {
+            "word": "permanently",
+            "pos": "adv.",
+            "meaning": "永久地"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "space",
+            "pos": "n.",
+            "meaning": "太空"
           }
         ]
       }
@@ -384,7 +1079,46 @@
       "text": "Mars has an extraordinary fascination for would-be voyagers.",
       "translation": "火星对未来的航行者有着非凡的吸引力。",
       "startTime": 150.48,
-      "endTime": 155.76
+      "endTime": 155.76,
+      "analysis": {
+        "words": [
+          {
+            "word": "Mars",
+            "pos": "n.",
+            "meaning": "火星"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "具有"
+          },
+          {
+            "word": "extraordinary",
+            "pos": "adj.",
+            "meaning": "非凡的"
+          },
+          {
+            "word": "fascination",
+            "pos": "n.",
+            "meaning": "魅力"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "would-be",
+            "pos": "adj.",
+            "meaning": "未来的"
+          },
+          {
+            "word": "voyagers",
+            "pos": "n.",
+            "meaning": "旅行者"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -396,9 +1130,74 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "America",
+            "pos": "n.",
+            "meaning": "美国"
+          },
+          {
+            "word": "Russia",
+            "pos": "n.",
+            "meaning": "俄罗斯"
+          },
+          {
+            "word": "Europe",
+            "pos": "n.",
+            "meaning": "欧洲"
+          },
+          {
+            "word": "filled with",
+            "pos": "v. phr.",
+            "meaning": "充满"
+          },
+          {
+            "word": "enthusiasts",
+            "pos": "n.",
+            "meaning": "狂热者"
+          },
+          {
+            "word": "many",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "许多"
+          },
+          {
+            "word": "serious",
+            "pos": "adj.",
+            "meaning": "认真的"
+          },
+          {
+            "word": "senior",
+            "pos": "adj.",
+            "meaning": "资深的"
+          },
+          {
+            "word": "scientists",
+            "pos": "n.",
+            "meaning": "科学家"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "（指人的）谁"
+          },
+          {
+            "word": "dream of",
+            "pos": "v. phr.",
+            "meaning": "梦想"
+          },
+          {
+            "word": "sending",
+            "pos": "v.",
+            "meaning": "派遣，发送"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到，向"
           }
         ]
       }
@@ -413,9 +1212,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "aim",
+            "pos": "n.",
+            "meaning": "目标"
+          },
+          {
+            "word": "understandable",
+            "pos": "adj.",
+            "meaning": "可以理解的"
           }
         ]
       }
@@ -430,19 +1234,29 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "one",
+            "pos": "num.",
+            "meaning": "唯一的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Solar System",
+            "pos": "n. phr.",
+            "meaning": "太阳系"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "Earth",
+            "pos": "n.",
+            "meaning": "地球"
           }
         ]
       }
@@ -457,19 +1271,39 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Red",
+            "word": "red",
             "pos": "adj.",
             "meaning": "红色的"
+          },
+          {
+            "word": "sandy",
+            "pos": "adj.",
+            "meaning": "沙质的"
+          },
+          {
+            "word": "deserts",
+            "pos": "n.",
+            "meaning": "沙漠"
+          },
+          {
+            "word": "hence",
+            "pos": "adv.",
+            "meaning": "因此"
+          },
+          {
+            "word": "name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "Red Planet",
+            "pos": "n. phr.",
+            "meaning": "火星"
           }
         ]
       }
@@ -484,14 +1318,74 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "cloudless",
+            "pos": "adj.",
+            "meaning": "无云的"
           },
           {
-            "word": "Tall",
+            "word": "skies",
+            "pos": "n.",
+            "meaning": "天空"
+          },
+          {
+            "word": "savage",
+            "pos": "adj.",
+            "meaning": "狂暴的"
+          },
+          {
+            "word": "sandstorms",
+            "pos": "n.",
+            "meaning": "沙尘暴"
+          },
+          {
+            "word": "chasms",
+            "pos": "n.",
+            "meaning": "峡谷"
+          },
+          {
+            "word": "wider",
+            "pos": "adj.",
+            "meaning": "更宽的"
+          },
+          {
+            "word": "Grand Canyon",
+            "pos": "n. phr.",
+            "meaning": "大峡谷"
+          },
+          {
+            "word": "at least",
+            "pos": "adv. phr.",
+            "meaning": "至少"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "mountain",
+            "pos": "n.",
+            "meaning": "山"
+          },
+          {
+            "word": "more than",
+            "pos": "adv. phr.",
+            "meaning": "超过"
+          },
+          {
+            "word": "twice",
+            "pos": "adv.",
+            "meaning": "两倍"
+          },
+          {
+            "word": "tall",
             "pos": "adj.",
             "meaning": "高的"
+          },
+          {
+            "word": "Everest",
+            "pos": "n.",
+            "meaning": "珠穆朗玛峰"
           }
         ]
       }
@@ -506,9 +1400,24 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "seem",
+            "pos": "v.",
+            "meaning": "似乎，好像"
+          },
+          {
+            "word": "ideal",
+            "pos": "adj.",
+            "meaning": "理想的"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "适合于"
+          },
+          {
+            "word": "settlement",
+            "pos": "n.",
+            "meaning": "定居"
           }
         ]
       }

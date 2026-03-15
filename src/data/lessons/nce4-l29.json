@@ -27,7 +27,16 @@
       "text": "The hovercraft",
       "translation": "",
       "startTime": 2.96,
-      "endTime": 10.3
+      "endTime": 10.3,
+      "analysis": {
+        "words": [
+          {
+            "word": "hovercraft",
+            "pos": "n.",
+            "meaning": "气垫船"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +48,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,8 +69,8 @@
           },
           {
             "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
+            "pos": "adj.",
+            "meaning": "这"
           },
           {
             "word": "question",
@@ -96,14 +95,24 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "hovercraft",
+            "pos": "n.",
+            "meaning": "气垫船"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "riding on",
+            "pos": "v. phr.",
+            "meaning": "在...上行驶"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "in motion",
+            "pos": "adv. phr.",
+            "meaning": "在运动中"
           }
         ]
       }
@@ -116,7 +125,38 @@
       "startTime": 16.55,
       "endTime": 22.28,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多的"
+          },
+          {
+            "word": "strange",
+            "pos": "adj.",
+            "meaning": "奇怪的"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "means of transport",
+            "pos": "n. phr.",
+            "meaning": "交通方式"
+          },
+          {
+            "word": "developed",
+            "pos": "v.",
+            "meaning": "被开发，发展"
+          },
+          {
+            "word": "century",
+            "pos": "n.",
+            "meaning": "世纪"
+          }
+        ]
       }
     },
     {
@@ -125,7 +165,31 @@
       "text": "the strangest of them being perhaps the hovercraft.",
       "translation": "",
       "startTime": 22.29,
-      "endTime": 27.28
+      "endTime": 27.28,
+      "analysis": {
+        "words": [
+          {
+            "word": "strangest",
+            "pos": "adj.",
+            "meaning": "最奇怪的"
+          },
+          {
+            "word": "being",
+            "pos": "v.",
+            "meaning": "是，作为"
+          },
+          {
+            "word": "perhaps",
+            "pos": "adv.",
+            "meaning": "也许，可能"
+          },
+          {
+            "word": "hovercraft",
+            "pos": "n.",
+            "meaning": "气垫船"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -137,9 +201,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Engineer",
+            "word": "1953",
+            "pos": "num.",
+            "meaning": "1953年"
+          },
+          {
+            "word": "former",
+            "pos": "adj.",
+            "meaning": "以前的"
+          },
+          {
+            "word": "electronics",
+            "pos": "n.",
+            "meaning": "电子学"
+          },
+          {
+            "word": "engineer",
             "pos": "n.",
             "meaning": "工程师"
+          },
+          {
+            "word": "in his fifties",
+            "pos": "adj. phr.",
+            "meaning": "五十多岁"
+          },
+          {
+            "word": "Christopher Cockerell",
+            "pos": "n. phr.",
+            "meaning": "克里斯托弗·科克雷尔"
           }
         ]
       }
@@ -150,7 +239,31 @@
       "text": "who had turned to boat-building on the Norfolk Broads,",
       "translation": "",
       "startTime": 35.44,
-      "endTime": 39.51
+      "endTime": 39.51,
+      "analysis": {
+        "words": [
+          {
+            "word": "turned to",
+            "pos": "v. phr.",
+            "meaning": "转向; 从事"
+          },
+          {
+            "word": "boat-building",
+            "pos": "n.",
+            "meaning": "造船"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "Norfolk Broads",
+            "pos": "n. phr.",
+            "meaning": "诺福克湖区"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -158,7 +271,61 @@
       "text": "suggested an idea on which he had been working for many years to the British Government and industrial circles.",
       "translation": "",
       "startTime": 39.52,
-      "endTime": 48.12
+      "endTime": 48.12,
+      "analysis": {
+        "words": [
+          {
+            "word": "suggested",
+            "pos": "v.",
+            "meaning": "建议"
+          },
+          {
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "主意，想法"
+          },
+          {
+            "word": "work on",
+            "pos": "v. phr.",
+            "meaning": "致力于"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "达…之久"
+          },
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多的"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向，致"
+          },
+          {
+            "word": "British",
+            "pos": "adj.",
+            "meaning": "英国的"
+          },
+          {
+            "word": "Government",
+            "pos": "n.",
+            "meaning": "政府"
+          },
+          {
+            "word": "industrial circles",
+            "pos": "n. phr.",
+            "meaning": "工业界"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -170,14 +337,54 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "idea",
+            "pos": "n.",
+            "meaning": "想法"
           },
           {
-            "word": "Air",
+            "word": "supporting",
+            "pos": "v.",
+            "meaning": "支撑"
+          },
+          {
+            "word": "craft",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "飞行器"
+          },
+          {
+            "word": "pad",
+            "pos": "n.",
+            "meaning": "垫子"
+          },
+          {
+            "word": "cushion",
+            "pos": "n.",
+            "meaning": "气垫"
+          },
+          {
+            "word": "low-pressure",
+            "pos": "adj.",
+            "meaning": "低压的"
+          },
+          {
+            "word": "air",
+            "pos": "n.",
+            "meaning": "空气"
+          },
+          {
+            "word": "ringed",
+            "pos": "adj.",
+            "meaning": "环绕的"
+          },
+          {
+            "word": "curtain",
+            "pos": "n.",
+            "meaning": "幕帘"
+          },
+          {
+            "word": "higher pressure",
+            "pos": "adj. phr.",
+            "meaning": "更高压的"
           }
         ]
       }
@@ -190,7 +397,53 @@
       "startTime": 60.2,
       "endTime": 69.37,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Ever since",
+            "pos": "adv. phr.",
+            "meaning": "从那时起"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "difficulty",
+            "pos": "n.",
+            "meaning": "困难"
+          },
+          {
+            "word": "decide",
+            "pos": "v.",
+            "meaning": "决定"
+          },
+          {
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
+            "word": "craft",
+            "pos": "n.",
+            "meaning": "飞行器, 船只"
+          },
+          {
+            "word": "range among",
+            "pos": "v. phr.",
+            "meaning": "归类于, 列入"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船只"
+          },
+          {
+            "word": "plane",
+            "pos": "n.",
+            "meaning": "飞机"
+          }
+        ]
       }
     },
     {
@@ -203,14 +456,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
           },
           {
-            "word": "Is",
+            "word": "land vehicles",
+            "pos": "n. phr.",
+            "meaning": "陆地车辆"
+          },
+          {
+            "word": "for",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某种东西"
+          },
+          {
+            "word": "in between",
+            "pos": "prep. phr.",
+            "meaning": "在...之间"
+          },
+          {
+            "word": "boat",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，以及"
+          },
+          {
+            "word": "aircraft",
+            "pos": "n.",
+            "meaning": "飞机"
           }
         ]
       }
@@ -223,7 +511,78 @@
       "startTime": 77.57,
       "endTime": 91.53,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "As",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "shipbuilder",
+            "pos": "n.",
+            "meaning": "造船者"
+          },
+          {
+            "word": "Cockerell",
+            "pos": "n.",
+            "meaning": "考克雷尔"
+          },
+          {
+            "word": "try to find",
+            "pos": "v. phr.",
+            "meaning": "试图找到"
+          },
+          {
+            "word": "solution",
+            "pos": "n.",
+            "meaning": "解决方案"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "wave resistance",
+            "pos": "n. phr.",
+            "meaning": "波浪阻力"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "waste",
+            "pos": "v.",
+            "meaning": "浪费"
+          },
+          {
+            "word": "a good deal of",
+            "pos": "adv. phr.",
+            "meaning": "大量"
+          },
+          {
+            "word": "surface ship",
+            "pos": "n. phr.",
+            "meaning": "水面舰艇"
+          },
+          {
+            "word": "power",
+            "pos": "n.",
+            "meaning": "动力"
+          },
+          {
+            "word": "limit",
+            "pos": "v.",
+            "meaning": "限制"
+          },
+          {
+            "word": "speed",
+            "pos": "n.",
+            "meaning": "速度"
+          }
+        ]
       }
     },
     {
@@ -236,14 +595,74 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "answer",
+            "pos": "n.",
+            "meaning": "回答"
           },
           {
-            "word": "Air",
+            "word": "lift",
+            "pos": "v.",
+            "meaning": "举起，抬起"
+          },
+          {
+            "word": "vessel",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "容器，船只"
+          },
+          {
+            "word": "out of",
+            "pos": "prep. phr.",
+            "meaning": "离开，从...中"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "making",
+            "pos": "v.",
+            "meaning": "使，制造"
+          },
+          {
+            "word": "ride on",
+            "pos": "v. phr.",
+            "meaning": "在...上运行"
+          },
+          {
+            "word": "cushion",
+            "pos": "n.",
+            "meaning": "垫子，气垫"
+          },
+          {
+            "word": "air",
+            "pos": "n.",
+            "meaning": "空气"
+          },
+          {
+            "word": "no more than",
+            "pos": "adv. phr.",
+            "meaning": "不超过，仅仅"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "feet",
+            "pos": "n.",
+            "meaning": "英尺"
+          },
+          {
+            "word": "thick",
+            "pos": "adj.",
+            "meaning": "厚的"
           }
         ]
       }
@@ -260,22 +679,42 @@
           {
             "word": "This",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "is done",
+            "pos": "v. phr.",
+            "meaning": "被完成"
           },
           {
-            "word": "Number",
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "a great number of",
+            "pos": "adj. phr.",
+            "meaning": "大量的"
+          },
+          {
+            "word": "ring-shaped",
+            "pos": "adj.",
+            "meaning": "环形的"
+          },
+          {
+            "word": "air jets",
+            "pos": "n. phr.",
+            "meaning": "喷气口"
+          },
+          {
+            "word": "on the bottom of",
+            "pos": "prep. phr.",
+            "meaning": "在……底部"
+          },
+          {
+            "word": "craft",
             "pos": "n.",
-            "meaning": "号码，数字"
-          },
-          {
-            "word": "Air",
-            "pos": "n.",
-            "meaning": "空格"
+            "meaning": "飞行器"
           }
         ]
       }
@@ -290,9 +729,79 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "flies",
+            "pos": "v.",
+            "meaning": "飞行"
+          },
+          {
+            "word": "therefore",
+            "pos": "adv.",
+            "meaning": "因此"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "cannot",
+            "pos": "aux. v.",
+            "meaning": "不能"
+          },
+          {
+            "word": "fly",
+            "pos": "v.",
+            "meaning": "飞行"
+          },
+          {
+            "word": "higher",
+            "pos": "adv.",
+            "meaning": "更高"
+          },
+          {
+            "word": "action",
+            "pos": "n.",
+            "meaning": "作用"
+          },
+          {
+            "word": "depends on",
+            "pos": "v. phr.",
+            "meaning": "取决于"
+          },
+          {
+            "word": "surface",
+            "pos": "n.",
+            "meaning": "表面"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地面"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "越过"
+          },
+          {
+            "word": "which",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "指代前文"
+          },
+          {
+            "word": "rides",
+            "pos": "v.",
+            "meaning": "滑行"
           }
         ]
       }
@@ -303,7 +812,41 @@
       "text": "The first tests on the Solent in 1959 caused a sensation.",
       "translation": "",
       "startTime": 122.29,
-      "endTime": 128.56
+      "endTime": 128.56,
+      "analysis": {
+        "words": [
+          {
+            "word": "first",
+            "pos": "adj.",
+            "meaning": "第一的"
+          },
+          {
+            "word": "tests",
+            "pos": "n.",
+            "meaning": "试验"
+          },
+          {
+            "word": "Solent",
+            "pos": "n.",
+            "meaning": "索伦特海峡"
+          },
+          {
+            "word": "1959",
+            "pos": "num.",
+            "meaning": "1959年"
+          },
+          {
+            "word": "caused",
+            "pos": "v.",
+            "meaning": "引起"
+          },
+          {
+            "word": "sensation",
+            "pos": "n.",
+            "meaning": "轰动"
+          }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -311,7 +854,76 @@
       "text": "The hovercraft travelled first over the water, then mounted the beach, climbed up the dunes, and sat down on a road.",
       "translation": "",
       "startTime": 128.57,
-      "endTime": 139.56
+      "endTime": 139.56,
+      "analysis": {
+        "words": [
+          {
+            "word": "hovercraft",
+            "pos": "n.",
+            "meaning": "气垫船"
+          },
+          {
+            "word": "travelled",
+            "pos": "v.",
+            "meaning": "行驶"
+          },
+          {
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "首先"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "越过"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "mounted",
+            "pos": "v.",
+            "meaning": "登上"
+          },
+          {
+            "word": "beach",
+            "pos": "n.",
+            "meaning": "海滩"
+          },
+          {
+            "word": "climbed up",
+            "pos": "v. phr.",
+            "meaning": "爬上"
+          },
+          {
+            "word": "dunes",
+            "pos": "n.",
+            "meaning": "沙丘"
+          },
+          {
+            "word": "sat down",
+            "pos": "v. phr.",
+            "meaning": "停下"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在…上"
+          },
+          {
+            "word": "road",
+            "pos": "n.",
+            "meaning": "道路"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -323,9 +935,54 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Later",
+            "pos": "adv.",
+            "meaning": "后来"
+          },
+          {
+            "word": "crossed",
+            "pos": "v.",
+            "meaning": "横渡"
+          },
+          {
+            "word": "Channel",
+            "pos": "n.",
+            "meaning": "英吉利海峡"
+          },
+          {
+            "word": "riding",
+            "pos": "v.",
+            "meaning": "航行"
+          },
+          {
+            "word": "smoothly",
+            "pos": "adv.",
+            "meaning": "平稳地"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "越过"
+          },
+          {
+            "word": "waves",
+            "pos": "n.",
+            "meaning": "波浪"
+          },
+          {
+            "word": "presented",
+            "pos": "v.",
+            "meaning": "造成"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题"
           }
         ]
       }
@@ -340,9 +997,44 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Since that time",
+            "pos": "adv. phr.",
+            "meaning": "从那时起"
+          },
+          {
+            "word": "various",
+            "pos": "adj.",
+            "meaning": "各种各样的"
+          },
+          {
+            "word": "types",
+            "pos": "n.",
+            "meaning": "种类"
+          },
+          {
+            "word": "hovercraft",
+            "pos": "n.",
+            "meaning": "气垫船"
+          },
+          {
+            "word": "appeared",
+            "pos": "v.",
+            "meaning": "出现"
+          },
+          {
+            "word": "taken up",
+            "pos": "v. phr.",
+            "meaning": "投入使用"
+          },
+          {
+            "word": "regular",
+            "pos": "adj.",
+            "meaning": "定期的"
+          },
+          {
+            "word": "service",
+            "pos": "n.",
+            "meaning": "业务"
           }
         ]
       }
@@ -357,9 +1049,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "hovercraft",
+            "pos": "n.",
+            "meaning": "气垫船"
+          },
+          {
+            "word": "particularly",
+            "pos": "adv.",
+            "meaning": "尤其，特别"
+          },
+          {
+            "word": "useful",
+            "pos": "adj.",
+            "meaning": "有用的，实用的"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...里"
+          },
+          {
+            "word": "large",
+            "pos": "adj.",
+            "meaning": "大型的"
+          },
+          {
+            "word": "areas",
+            "pos": "n.",
+            "meaning": "区域，地区"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "具有，带有"
+          },
+          {
+            "word": "poor",
+            "pos": "adj.",
+            "meaning": "差的，贫乏的"
+          },
+          {
+            "word": "communications",
+            "pos": "n.",
+            "meaning": "通信"
+          },
+          {
+            "word": "such as",
+            "pos": "prep. phr.",
+            "meaning": "例如，诸如"
+          },
+          {
+            "word": "Africa",
+            "pos": "n.",
+            "meaning": "非洲"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
           }
         ]
       }
@@ -374,9 +1126,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "can",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "become",
+            "pos": "v.",
+            "meaning": "成为"
+          },
+          {
+            "word": "flying fruit-bowl",
+            "pos": "n. phr.",
+            "meaning": "飞行果盘"
+          },
+          {
+            "word": "carrying",
+            "pos": "v.",
+            "meaning": "运载"
+          },
+          {
+            "word": "bananas",
+            "pos": "n.",
+            "meaning": "香蕉"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "plantations",
+            "pos": "n.",
+            "meaning": "种植园"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "ports",
+            "pos": "n.",
+            "meaning": "港口"
           }
         ]
       }
@@ -387,7 +1179,31 @@
       "text": "giant hovercraft liners could span the Atlantic;",
       "translation": "",
       "startTime": 171.89,
-      "endTime": 175.66
+      "endTime": 175.66,
+      "analysis": {
+        "words": [
+          {
+            "word": "giant",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "hovercraft liners",
+            "pos": "n. phr.",
+            "meaning": "气垫船班轮"
+          },
+          {
+            "word": "span",
+            "pos": "v.",
+            "meaning": "横跨，跨越"
+          },
+          {
+            "word": "Atlantic",
+            "pos": "n.",
+            "meaning": "大西洋"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -399,9 +1215,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "railway",
+            "pos": "n.",
+            "meaning": "铁路"
+          },
+          {
+            "word": "future",
+            "pos": "n.",
+            "meaning": "未来"
+          },
+          {
+            "word": "may well",
+            "pos": "aux. v. phr.",
+            "meaning": "很可能"
+          },
+          {
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "hovertrain",
+            "pos": "n.",
+            "meaning": "磁悬浮列车"
           }
         ]
       }
@@ -416,19 +1252,79 @@
       "analysis": {
         "words": [
           {
-            "word": "Air",
-            "pos": "n.",
-            "meaning": "空格"
+            "word": "riding",
+            "pos": "v.",
+            "meaning": "乘坐"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "air cushion",
+            "pos": "n. phr.",
+            "meaning": "气垫"
           },
           {
-            "word": "At",
+            "word": "over",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在...上方"
+          },
+          {
+            "word": "single",
+            "pos": "adj.",
+            "meaning": "单一的"
+          },
+          {
+            "word": "rail",
+            "pos": "n.",
+            "meaning": "轨道"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "（指物）哪个"
+          },
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不"
+          },
+          {
+            "word": "touches",
+            "pos": "v.",
+            "meaning": "接触"
+          },
+          {
+            "word": "speeds",
+            "pos": "n.",
+            "meaning": "速度"
+          },
+          {
+            "word": "up to",
+            "pos": "prep. phr.",
+            "meaning": "高达"
+          },
+          {
+            "word": "300",
+            "pos": "num.",
+            "meaning": "三百"
+          },
+          {
+            "word": "m.p.h.",
+            "pos": "n. phr.",
+            "meaning": "英里/小时"
+          },
+          {
+            "word": "possibilities",
+            "pos": "n.",
+            "meaning": "可能性"
+          },
+          {
+            "word": "appear",
+            "pos": "v.",
+            "meaning": "似乎"
+          },
+          {
+            "word": "unlimited",
+            "pos": "adj.",
+            "meaning": "无限的"
           }
         ]
       }

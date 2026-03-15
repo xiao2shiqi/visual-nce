@@ -27,7 +27,16 @@
       "text": "The stuff of dreams",
       "translation": "",
       "startTime": 2.7,
-      "endTime": 10.85
+      "endTime": 10.85,
+      "analysis": {
+        "words": [
+          {
+            "word": "stuff of dreams",
+            "pos": "n. phr.",
+            "meaning": "理想之物"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +48,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +69,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -96,9 +95,44 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "go on",
+            "pos": "v. phr.",
+            "meaning": "发生"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当…时候"
+          },
+          {
+            "word": "person",
+            "pos": "n.",
+            "meaning": "人"
+          },
+          {
+            "word": "experience",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "经历"
+          },
+          {
+            "word": "rapid",
+            "pos": "adj.",
+            "meaning": "快速的"
+          },
+          {
+            "word": "eye-movement",
+            "pos": "n.",
+            "meaning": "眼球运动"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在…期间"
+          },
+          {
+            "word": "sleep",
+            "pos": "n.",
+            "meaning": "睡眠"
           }
         ]
       }
@@ -113,24 +147,69 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
-          },
-          {
-            "word": "Much",
+            "word": "fairly",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "相当地"
+          },
+          {
+            "word": "clear",
+            "pos": "adj.",
+            "meaning": "清楚的，明白的"
+          },
+          {
+            "word": "sleeping period",
+            "pos": "n. phr.",
+            "meaning": "睡眠期"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有，拥有"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "某些，一些"
+          },
+          {
+            "word": "function",
+            "pos": "n.",
+            "meaning": "功能，作用"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "there is",
+            "pos": "v. phr.",
+            "meaning": "存在，有"
+          },
+          {
+            "word": "so much",
+            "pos": "adv. phr.",
+            "meaning": "如此之多"
+          },
+          {
+            "word": "would",
+            "pos": "aux. v.",
+            "meaning": "会，将"
+          },
+          {
+            "word": "seem to be",
+            "pos": "v. phr.",
+            "meaning": "似乎是，看来是"
+          },
+          {
+            "word": "important",
+            "pos": "adj.",
+            "meaning": "重要的"
           }
         ]
       }
@@ -143,7 +222,48 @@
       "startTime": 28.71,
       "endTime": 35.15,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "speculation",
+            "pos": "n.",
+            "meaning": "推测，猜测"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "nature",
+            "pos": "n.",
+            "meaning": "性质，本质"
+          },
+          {
+            "word": "go on",
+            "pos": "v. phr.",
+            "meaning": "持续，进行"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "达...之久"
+          },
+          {
+            "word": "literally",
+            "pos": "adv.",
+            "meaning": "确实地，真正地"
+          },
+          {
+            "word": "thousands",
+            "pos": "n.",
+            "meaning": "数千"
+          },
+          {
+            "word": "year",
+            "pos": "n.",
+            "meaning": "年"
+          }
+        ]
       }
     },
     {
@@ -156,34 +276,79 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
           },
           {
-            "word": "Is",
+            "word": "odd",
+            "pos": "adj.",
+            "meaning": "奇怪的"
+          },
+          {
+            "word": "finding",
+            "pos": "n.",
+            "meaning": "发现；结果"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "使成为"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "puzzling",
+            "pos": "adj.",
+            "meaning": "令人困惑的"
+          },
+          {
+            "word": "be",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "look very much as if",
+            "pos": "v. phr.",
+            "meaning": "看起来很像是"
           },
           {
-            "word": "Very",
-            "pos": "adv.",
-            "meaning": "很，非常"
+            "word": "sleeping",
+            "pos": "n.",
+            "meaning": "睡眠"
           },
           {
-            "word": "Much",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "非常"
+            "meaning": "不"
           },
           {
-            "word": "Not",
+            "word": "simply",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "仅仅"
+          },
+          {
+            "word": "a matter of",
+            "pos": "n. phr.",
+            "meaning": "…的问题"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给予"
+          },
+          {
+            "word": "body",
+            "pos": "n.",
+            "meaning": "身体"
+          },
+          {
+            "word": "rest",
+            "pos": "n.",
+            "meaning": "休息"
           }
         ]
       }
@@ -196,7 +361,63 @@
       "startTime": 45.36,
       "endTime": 55.74,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Rest",
+            "pos": "n.",
+            "meaning": "休息"
+          },
+          {
+            "word": "in terms of",
+            "pos": "prep. phr.",
+            "meaning": "就…而言"
+          },
+          {
+            "word": "muscle",
+            "pos": "n.",
+            "meaning": "肌肉"
+          },
+          {
+            "word": "relaxation",
+            "pos": "n.",
+            "meaning": "放松"
+          },
+          {
+            "word": "and so on",
+            "pos": "adv. phr.",
+            "meaning": "等等"
+          },
+          {
+            "word": "achieve",
+            "pos": "v.",
+            "meaning": "达到，实现"
+          },
+          {
+            "word": "brief",
+            "pos": "adj.",
+            "meaning": "短暂的"
+          },
+          {
+            "word": "period",
+            "pos": "n.",
+            "meaning": "时期"
+          },
+          {
+            "word": "lying",
+            "pos": "v.",
+            "meaning": "躺卧"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "sitting down",
+            "pos": "v. phr.",
+            "meaning": "坐下"
+          }
+        ]
       }
     },
     {
@@ -207,7 +428,58 @@
       "startTime": 55.75,
       "endTime": 66.26,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "body",
+            "pos": "n.",
+            "meaning": "身体"
+          },
+          {
+            "word": "tissues",
+            "pos": "n.",
+            "meaning": "组织"
+          },
+          {
+            "word": "self-repairing",
+            "pos": "adj.",
+            "meaning": "自我修复的"
+          },
+          {
+            "word": "self-restoring",
+            "pos": "adj.",
+            "meaning": "自我恢复的"
+          },
+          {
+            "word": "to a degree",
+            "pos": "adv. phr.",
+            "meaning": "在某种程度上"
+          },
+          {
+            "word": "function",
+            "pos": "v.",
+            "meaning": "运作"
+          },
+          {
+            "word": "best",
+            "pos": "adv.",
+            "meaning": "最好地"
+          },
+          {
+            "word": "more or less",
+            "pos": "adv. phr.",
+            "meaning": "或多或少"
+          },
+          {
+            "word": "continuously",
+            "pos": "adv.",
+            "meaning": "持续地"
+          },
+          {
+            "word": "active",
+            "pos": "adj.",
+            "meaning": "活跃的"
+          }
+        ]
       }
     },
     {
@@ -220,9 +492,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "in fact",
+            "pos": "adv. phr.",
+            "meaning": "事实上"
+          },
+          {
+            "word": "basic",
+            "pos": "adj.",
+            "meaning": "基本的"
+          },
+          {
+            "word": "amount",
+            "pos": "n.",
+            "meaning": "数量"
+          },
+          {
+            "word": "movement",
+            "pos": "n.",
+            "meaning": "运动"
+          },
+          {
+            "word": "occurs",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "发生"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在…期间"
+          },
+          {
+            "word": "sleep",
+            "pos": "n.",
+            "meaning": "睡眠"
+          },
+          {
+            "word": "specifically",
+            "pos": "adv.",
+            "meaning": "特别地"
+          },
+          {
+            "word": "concerned with",
+            "pos": "adj. phr.",
+            "meaning": "与…有关"
+          },
+          {
+            "word": "preventing",
+            "pos": "v.",
+            "meaning": "预防"
+          },
+          {
+            "word": "muscle",
+            "pos": "n.",
+            "meaning": "肌肉"
+          },
+          {
+            "word": "inactivity",
+            "pos": "n.",
+            "meaning": "不活动"
           }
         ]
       }
@@ -237,24 +564,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "a question of",
+            "pos": "n. phr.",
+            "meaning": "...的问题"
+          },
+          {
+            "word": "resting",
+            "pos": "v.",
+            "meaning": "休息"
+          },
+          {
+            "word": "body",
+            "pos": "n.",
+            "meaning": "身体"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "那么"
+          },
+          {
+            "word": "perhaps",
+            "pos": "adv.",
+            "meaning": "也许"
+          },
+          {
+            "word": "brain",
+            "pos": "n.",
+            "meaning": "大脑"
+          },
+          {
+            "word": "needs",
+            "pos": "v.",
+            "meaning": "需要"
           }
         ]
       }
@@ -274,14 +626,39 @@
             "meaning": "这，这个"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "might",
+            "pos": "aux. v.",
+            "meaning": "可能"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "be",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "plausible",
+            "pos": "adj.",
+            "meaning": "貌似合理"
+          },
+          {
+            "word": "hypothesis",
+            "pos": "n.",
+            "meaning": "假设"
+          },
+          {
+            "word": "were it not for",
+            "pos": "prep. phr.",
+            "meaning": "要不是，若非"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二，两个"
+          },
+          {
+            "word": "factors",
+            "pos": "n.",
+            "meaning": "因素"
           }
         ]
       }
@@ -296,9 +673,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "首先"
+          },
+          {
+            "word": "electroencephalograph",
+            "pos": "n.",
+            "meaning": "脑电图仪"
+          },
+          {
+            "word": "simply",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "device",
+            "pos": "n.",
+            "meaning": "设备"
+          },
+          {
+            "word": "record",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "记录"
+          },
+          {
+            "word": "electrical",
+            "pos": "adj.",
+            "meaning": "电的"
+          },
+          {
+            "word": "activity",
+            "pos": "n.",
+            "meaning": "活动"
+          },
+          {
+            "word": "brain",
+            "pos": "n.",
+            "meaning": "大脑"
+          },
+          {
+            "word": "attach",
+            "pos": "v.",
+            "meaning": "连接，附着"
+          },
+          {
+            "word": "electrodes",
+            "pos": "n.",
+            "meaning": "电极"
+          },
+          {
+            "word": "scalp",
+            "pos": "n.",
+            "meaning": "头皮"
           }
         ]
       }
@@ -313,14 +740,44 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "shows",
+            "pos": "v.",
+            "meaning": "显示"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "while",
+            "pos": "conj.",
+            "meaning": "然而"
+          },
+          {
+            "word": "there is",
+            "pos": "v. phr.",
+            "meaning": "存在着"
+          },
+          {
+            "word": "change",
+            "pos": "n.",
+            "meaning": "改变"
+          },
+          {
+            "word": "pattern",
+            "pos": "n.",
+            "meaning": "模式"
+          },
+          {
+            "word": "activity",
+            "pos": "n.",
+            "meaning": "活动"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在...期间"
+          },
+          {
+            "word": "sleep",
+            "pos": "n.",
+            "meaning": "睡眠"
           }
         ]
       }
@@ -335,14 +792,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "there is",
+            "pos": "v. phr.",
+            "meaning": "有，存在"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
+          },
+          {
+            "word": "evidence",
+            "pos": "n.",
+            "meaning": "证据"
+          },
+          {
+            "word": "total",
+            "pos": "adj.",
+            "meaning": "总的"
+          },
+          {
+            "word": "amount",
+            "pos": "n.",
+            "meaning": "数量"
+          },
+          {
+            "word": "activity",
+            "pos": "n.",
+            "meaning": "活动"
+          },
+          {
+            "word": "any less",
+            "pos": "adv. phr.",
+            "meaning": "丝毫不少"
           }
         ]
       }
@@ -357,9 +839,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "second",
+            "pos": "num.",
+            "meaning": "第二个"
+          },
+          {
+            "word": "factor",
+            "pos": "n.",
+            "meaning": "因素"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更，更加"
+          },
+          {
+            "word": "interesting",
+            "pos": "adj.",
+            "meaning": "有趣的"
+          },
+          {
+            "word": "fundamental",
+            "pos": "adj.",
+            "meaning": "根本的，基础的"
           }
         ]
       }
@@ -374,9 +876,74 @@
       "analysis": {
         "words": [
           {
+            "word": "Some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
             "word": "American",
             "pos": "adj.",
             "meaning": "美国的"
+          },
+          {
+            "word": "psychiatrist",
+            "pos": "n.",
+            "meaning": "精神病医生"
+          },
+          {
+            "word": "named",
+            "pos": "v.",
+            "meaning": "名叫"
+          },
+          {
+            "word": "William Dement",
+            "pos": "n.",
+            "meaning": "威廉·德门特"
+          },
+          {
+            "word": "published",
+            "pos": "v.",
+            "meaning": "出版"
+          },
+          {
+            "word": "experiments",
+            "pos": "n.",
+            "meaning": "实验"
+          },
+          {
+            "word": "dealing with",
+            "pos": "v. phr.",
+            "meaning": "关于，处理"
+          },
+          {
+            "word": "recording",
+            "pos": "n.",
+            "meaning": "记录"
+          },
+          {
+            "word": "eye-movements",
+            "pos": "n.",
+            "meaning": "眼球运动"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在…期间"
+          },
+          {
+            "word": "sleep",
+            "pos": "n.",
+            "meaning": "睡眠"
           }
         ]
       }
@@ -391,14 +958,74 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "showed",
+            "pos": "v.",
+            "meaning": "表明，显示"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "average",
+            "pos": "adj.",
+            "meaning": "平均的，普通的"
+          },
+          {
+            "word": "individual",
+            "pos": "n.",
+            "meaning": "个体，个人"
+          },
+          {
+            "word": "sleep cycle",
+            "pos": "n. phr.",
+            "meaning": "睡眠周期"
+          },
+          {
+            "word": "punctuated with",
+            "pos": "v. phr.",
+            "meaning": "间断，点缀着"
+          },
+          {
+            "word": "peculiar",
+            "pos": "adj.",
+            "meaning": "奇特的，异常的"
+          },
+          {
+            "word": "bursts",
+            "pos": "n.",
+            "meaning": "爆发，一阵"
+          },
+          {
+            "word": "eye-movements",
+            "pos": "n. phr.",
+            "meaning": "眼球运动"
+          },
+          {
+            "word": "some",
+            "pos": "pron.",
+            "meaning": "一些"
+          },
+          {
+            "word": "drifting",
+            "pos": "adj.",
+            "meaning": "漂移的，缓慢移动的"
+          },
+          {
+            "word": "slow",
+            "pos": "adj.",
+            "meaning": "缓慢的"
+          },
+          {
+            "word": "others",
+            "pos": "pron.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "jerky",
+            "pos": "adj.",
+            "meaning": "抽搐的，不连贯的"
+          },
+          {
+            "word": "rapid",
+            "pos": "adj.",
+            "meaning": "快速的"
           }
         ]
       }
@@ -413,9 +1040,49 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "woken",
+            "pos": "v.",
+            "meaning": "被唤醒的"
+          },
+          {
+            "word": "during",
+            "pos": "prep.",
+            "meaning": "在…期间"
+          },
+          {
+            "word": "these",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "这些"
+          },
+          {
+            "word": "periods",
+            "pos": "n.",
+            "meaning": "时期"
+          },
+          {
+            "word": "eye-movements",
+            "pos": "n.",
+            "meaning": "眼球运动"
+          },
+          {
+            "word": "generally",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "reported",
+            "pos": "v.",
+            "meaning": "报告"
+          },
+          {
+            "word": "dreaming",
+            "pos": "v.",
+            "meaning": "做梦"
           }
         ]
       }
@@ -430,9 +1097,34 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "woken",
+            "pos": "v.",
+            "meaning": "被唤醒"
+          },
+          {
+            "word": "at other times",
+            "pos": "adv. phr.",
+            "meaning": "在其他时候"
+          },
+          {
+            "word": "reported",
+            "pos": "v.",
+            "meaning": "报告；描述"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
+          },
+          {
+            "word": "dreams",
+            "pos": "n.",
+            "meaning": "梦"
           }
         ]
       }
@@ -445,7 +1137,63 @@
       "startTime": 150.85,
       "endTime": 156.29,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "one",
+            "pos": "num.",
+            "meaning": "一个"
+          },
+          {
+            "word": "group",
+            "pos": "n.",
+            "meaning": "群；组"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "disturbed",
+            "pos": "v.",
+            "meaning": "被打扰"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从…"
+          },
+          {
+            "word": "eye-movement sleep",
+            "pos": "n. phr.",
+            "meaning": "眼动睡眠"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "持续"
+          },
+          {
+            "word": "several",
+            "pos": "adj.",
+            "meaning": "几个"
+          },
+          {
+            "word": "nights",
+            "pos": "n.",
+            "meaning": "夜晚"
+          },
+          {
+            "word": "on end",
+            "pos": "adv. phr.",
+            "meaning": "连续地"
+          }
+        ]
       }
     },
     {
@@ -458,9 +1206,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "另外的"
+          },
+          {
+            "word": "group",
+            "pos": "n.",
+            "meaning": "组"
+          },
+          {
+            "word": "disturbed",
+            "pos": "v.",
+            "meaning": "被打扰"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "达（某段时间）"
+          },
+          {
+            "word": "equal",
+            "pos": "adj.",
+            "meaning": "相等的"
+          },
+          {
+            "word": "period of time",
+            "pos": "n. phr.",
+            "meaning": "一段时间"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "exhibiting",
+            "pos": "v.",
+            "meaning": "表现出"
+          },
+          {
+            "word": "eye-movements",
+            "pos": "n.",
+            "meaning": "眼球运动"
           }
         ]
       }
@@ -471,7 +1269,66 @@
       "text": "the first group began to show some personality disorders while the others seemed more or less unaffected.",
       "translation": "",
       "startTime": 165.44,
-      "endTime": 174.87
+      "endTime": 174.87,
+      "analysis": {
+        "words": [
+          {
+            "word": "first",
+            "pos": "num.",
+            "meaning": "第一个"
+          },
+          {
+            "word": "group",
+            "pos": "n.",
+            "meaning": "组"
+          },
+          {
+            "word": "began",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "show",
+            "pos": "v.",
+            "meaning": "表现出"
+          },
+          {
+            "word": "some",
+            "pos": "adj.",
+            "meaning": "一些"
+          },
+          {
+            "word": "personality disorders",
+            "pos": "n. phr.",
+            "meaning": "人格障碍"
+          },
+          {
+            "word": "while",
+            "pos": "conj.",
+            "meaning": "而"
+          },
+          {
+            "word": "others",
+            "pos": "pron.",
+            "meaning": "其他人"
+          },
+          {
+            "word": "seemed",
+            "pos": "v.",
+            "meaning": "看起来"
+          },
+          {
+            "word": "more or less",
+            "pos": "adv. phr.",
+            "meaning": "或多或少"
+          },
+          {
+            "word": "unaffected",
+            "pos": "adj.",
+            "meaning": "不受影响的"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -483,24 +1340,49 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "implications",
+            "pos": "n.",
+            "meaning": "含义，暗示"
           },
           {
-            "word": "That",
+            "word": "all",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "全部，所有"
           },
           {
-            "word": "It",
+            "word": "this",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "这，这一切"
           },
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "disturbance",
+            "pos": "n.",
+            "meaning": "打扰，扰乱"
+          },
+          {
+            "word": "sleep",
+            "pos": "n.",
+            "meaning": "睡眠"
+          },
+          {
+            "word": "mattered",
+            "pos": "v.",
+            "meaning": "重要，有关系"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "dreaming",
+            "pos": "n.",
+            "meaning": "做梦，梦境"
           }
         ]
       }

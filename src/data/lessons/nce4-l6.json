@@ -27,7 +27,21 @@
       "text": "The sporting spirit",
       "translation": "",
       "startTime": 1.51,
-      "endTime": 7.63
+      "endTime": 7.63,
+      "analysis": {
+        "words": [
+          {
+            "word": "sporting",
+            "pos": "adj.",
+            "meaning": "运动的"
+          },
+          {
+            "word": "spirit",
+            "pos": "n.",
+            "meaning": "精神"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -91,14 +95,34 @@
       "analysis": {
         "words": [
           {
-            "word": "How",
+            "word": "how",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何，怎样"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作者"
+          },
+          {
+            "word": "describe",
+            "pos": "v.",
+            "meaning": "描述"
+          },
+          {
+            "word": "sport",
+            "pos": "n.",
+            "meaning": "运动"
+          },
+          {
+            "word": "international",
+            "pos": "adj.",
+            "meaning": "国际的"
+          },
+          {
+            "word": "level",
+            "pos": "n.",
+            "meaning": "水平，层面"
           }
         ]
       }
@@ -113,19 +137,134 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
           },
           {
-            "word": "Meet",
+            "word": "amazed",
+            "pos": "adj.",
+            "meaning": "惊讶的"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "hear",
             "pos": "v.",
-            "meaning": "遇见，结识"
+            "meaning": "听见"
           },
           {
-            "word": "At",
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "saying",
+            "pos": "v.",
+            "meaning": "说"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "sport",
+            "pos": "n.",
+            "meaning": "体育运动"
+          },
+          {
+            "word": "creates",
+            "pos": "v.",
+            "meaning": "创造"
+          },
+          {
+            "word": "goodwill",
+            "pos": "n.",
+            "meaning": "善意"
+          },
+          {
+            "word": "between",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在...之间"
+          },
+          {
+            "word": "nations",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "if only",
+            "pos": "conj. phr.",
+            "meaning": "要是...就好了"
+          },
+          {
+            "word": "common",
+            "pos": "adj.",
+            "meaning": "普通的"
+          },
+          {
+            "word": "peoples",
+            "pos": "n.",
+            "meaning": "民族，人民"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "could",
+            "pos": "aux. v.",
+            "meaning": "能，可以"
+          },
+          {
+            "word": "meet",
+            "pos": "v.",
+            "meaning": "见面"
+          },
+          {
+            "word": "one another",
+            "pos": "pron. phr.",
+            "meaning": "互相"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "football",
+            "pos": "n.",
+            "meaning": "足球"
+          },
+          {
+            "word": "cricket",
+            "pos": "n.",
+            "meaning": "板球"
+          },
+          {
+            "word": "would",
+            "pos": "aux. v.",
+            "meaning": "会，将"
+          },
+          {
+            "word": "inclination",
+            "pos": "n.",
+            "meaning": "意愿，倾向"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "battlefield",
+            "pos": "n.",
+            "meaning": "战场"
           }
         ]
       }
@@ -140,14 +279,94 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Even if",
+            "pos": "conj. phr.",
+            "meaning": "即使"
           },
           {
-            "word": "It",
+            "word": "one",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "某人/人们"
+          },
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "根据/从"
+          },
+          {
+            "word": "concrete",
+            "pos": "adj.",
+            "meaning": "具体的"
+          },
+          {
+            "word": "examples",
+            "pos": "n.",
+            "meaning": "例子"
+          },
+          {
+            "word": "1936",
+            "pos": "num.",
+            "meaning": "1936年"
+          },
+          {
+            "word": "Olympic Games",
+            "pos": "n. phr.",
+            "meaning": "奥运会"
+          },
+          {
+            "word": "for instance",
+            "pos": "adv. phr.",
+            "meaning": "例如"
+          },
+          {
+            "word": "international",
+            "pos": "adj.",
+            "meaning": "国际的"
+          },
+          {
+            "word": "sporting",
+            "pos": "adj.",
+            "meaning": "体育的"
+          },
+          {
+            "word": "contests",
+            "pos": "n.",
+            "meaning": "竞赛"
+          },
+          {
+            "word": "lead to",
+            "pos": "v. phr.",
+            "meaning": "导致"
+          },
+          {
+            "word": "orgies",
+            "pos": "n.",
+            "meaning": "放纵/狂热"
+          },
+          {
+            "word": "hatred",
+            "pos": "n.",
+            "meaning": "仇恨"
+          },
+          {
+            "word": "deduce",
+            "pos": "v.",
+            "meaning": "推断"
+          },
+          {
+            "word": "general",
+            "pos": "adj.",
+            "meaning": "普遍的"
+          },
+          {
+            "word": "principles",
+            "pos": "n.",
+            "meaning": "原则"
           }
         ]
       }
@@ -160,7 +379,38 @@
       "startTime": 45.53,
       "endTime": 49.39,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎"
+          },
+          {
+            "word": "all",
+            "pos": "pron.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "sports",
+            "pos": "n.",
+            "meaning": "运动"
+          },
+          {
+            "word": "practised",
+            "pos": "v.",
+            "meaning": "从事；实行"
+          },
+          {
+            "word": "nowadays",
+            "pos": "adv.",
+            "meaning": "现今；如今"
+          },
+          {
+            "word": "competitive",
+            "pos": "adj.",
+            "meaning": "竞争性的"
+          }
+        ]
       }
     },
     {
@@ -173,14 +423,44 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "play",
+            "pos": "v.",
+            "meaning": "比赛"
           },
           {
-            "word": "Your",
-            "pos": "pron.",
-            "meaning": "你的，你们的"
+            "word": "win",
+            "pos": "v.",
+            "meaning": "赢"
+          },
+          {
+            "word": "game",
+            "pos": "n.",
+            "meaning": "比赛"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "有"
+          },
+          {
+            "word": "little",
+            "pos": "adj.",
+            "meaning": "很少的"
+          },
+          {
+            "word": "meaning",
+            "pos": "n.",
+            "meaning": "意义"
+          },
+          {
+            "word": "unless",
+            "pos": "conj.",
+            "meaning": "除非"
+          },
+          {
+            "word": "do your utmost",
+            "pos": "v. phr.",
+            "meaning": "竭尽全力"
           }
         ]
       }
@@ -195,29 +475,124 @@
       "analysis": {
         "words": [
           {
-            "word": "Green",
+            "word": "village green",
+            "pos": "n. phr.",
+            "meaning": "村办绿地"
+          },
+          {
+            "word": "pick up sides",
+            "pos": "v. phr.",
+            "meaning": "分队"
+          },
+          {
+            "word": "feeling",
+            "pos": "n.",
+            "meaning": "感觉"
+          },
+          {
+            "word": "local",
             "pos": "adj.",
-            "meaning": "绿色的"
+            "meaning": "当地的"
           },
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "patriotism",
+            "pos": "n.",
+            "meaning": "爱国主义"
           },
           {
-            "word": "Is",
+            "word": "involved",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "牵涉"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "possible",
+            "pos": "adj.",
+            "meaning": "可能的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "play",
+            "pos": "v.",
+            "meaning": "玩耍,比赛"
+          },
+          {
+            "word": "simply",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "fun",
+            "pos": "n.",
+            "meaning": "乐趣"
+          },
+          {
+            "word": "exercise",
+            "pos": "n.",
+            "meaning": "锻炼"
+          },
+          {
+            "word": "as soon as",
+            "pos": "conj. phr.",
+            "meaning": "一…就…"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "prestige",
+            "pos": "n.",
+            "meaning": "威望"
+          },
+          {
+            "word": "arises",
+            "pos": "v.",
+            "meaning": "出现"
+          },
+          {
+            "word": "feel",
+            "pos": "v.",
+            "meaning": "感觉"
+          },
+          {
+            "word": "larger",
+            "pos": "adj.",
+            "meaning": "较大的"
+          },
+          {
+            "word": "unit",
+            "pos": "n.",
+            "meaning": "单位,团体"
+          },
+          {
+            "word": "disgraced",
+            "pos": "v.",
+            "meaning": "蒙羞,受辱"
+          },
+          {
+            "word": "lose",
+            "pos": "v.",
+            "meaning": "输,失败"
+          },
+          {
+            "word": "savage",
+            "pos": "adj.",
+            "meaning": "野蛮的"
+          },
+          {
+            "word": "combative",
+            "pos": "adj.",
+            "meaning": "好斗的"
+          },
+          {
+            "word": "instincts",
+            "pos": "n.",
+            "meaning": "本能,天性"
+          },
+          {
+            "word": "aroused",
+            "pos": "v.",
+            "meaning": "激起,唤醒"
           }
         ]
       }
@@ -232,14 +607,44 @@
       "analysis": {
         "words": [
           {
-            "word": "School",
-            "pos": "n.",
-            "meaning": "学校"
+            "word": "Anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
           },
           {
-            "word": "This",
+            "word": "who",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "谁"
+          },
+          {
+            "word": "played",
+            "pos": "v.",
+            "meaning": "参赛"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在...中"
+          },
+          {
+            "word": "school football match",
+            "pos": "n. phr.",
+            "meaning": "学校足球赛"
+          },
+          {
+            "word": "knows",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
           }
         ]
       }
@@ -254,14 +659,34 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "international",
+            "pos": "adj.",
+            "meaning": "国际的"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "level",
+            "pos": "n.",
+            "meaning": "水平，层面"
+          },
+          {
+            "word": "sport",
+            "pos": "n.",
+            "meaning": "运动"
+          },
+          {
+            "word": "frankly",
+            "pos": "adv.",
+            "meaning": "坦率地"
+          },
+          {
+            "word": "mimic",
+            "pos": "adj.",
+            "meaning": "模拟的"
+          },
+          {
+            "word": "warfare",
+            "pos": "n.",
+            "meaning": "战争"
           }
         ]
       }
@@ -276,14 +701,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "significant",
+            "pos": "adj.",
+            "meaning": "重要的"
+          },
+          {
+            "word": "thing",
+            "pos": "n.",
+            "meaning": "事情"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "behaviour",
+            "pos": "n.",
+            "meaning": "行为"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "players",
+            "pos": "n.",
+            "meaning": "球员"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "而是"
+          },
+          {
+            "word": "attitude",
+            "pos": "n.",
+            "meaning": "态度"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "spectators",
+            "pos": "n.",
+            "meaning": "观众"
           }
         ]
       }
@@ -294,7 +769,46 @@
       "text": "and, behind the spectators, of the nations who work themselves into furies over these absurd contests,",
       "translation": "",
       "startTime": 94.89,
-      "endTime": 101.92
+      "endTime": 101.92,
+      "analysis": {
+        "words": [
+          {
+            "word": "behind",
+            "pos": "prep.",
+            "meaning": "在…后面"
+          },
+          {
+            "word": "spectators",
+            "pos": "n.",
+            "meaning": "观众"
+          },
+          {
+            "word": "nations",
+            "pos": "n.",
+            "meaning": "国家"
+          },
+          {
+            "word": "work themselves into furies",
+            "pos": "v. phr.",
+            "meaning": "变得狂怒"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "关于，为了"
+          },
+          {
+            "word": "absurd",
+            "pos": "adj.",
+            "meaning": "荒谬的"
+          },
+          {
+            "word": "contests",
+            "pos": "n.",
+            "meaning": "比赛，争夺"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -306,19 +820,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "seriously",
+            "pos": "adv.",
+            "meaning": "认真地"
           },
           {
-            "word": "Short",
+            "word": "believe",
+            "pos": "v.",
+            "meaning": "相信"
+          },
+          {
+            "word": "at any rate",
+            "pos": "adv. phr.",
+            "meaning": "无论如何"
+          },
+          {
+            "word": "short",
             "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "短的"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "period",
+            "pos": "n.",
+            "meaning": "时期"
+          },
+          {
+            "word": "running",
+            "pos": "n.",
+            "meaning": "跑步"
+          },
+          {
+            "word": "jumping",
+            "pos": "n.",
+            "meaning": "跳跃"
+          },
+          {
+            "word": "kicking a ball",
+            "pos": "n. phr.",
+            "meaning": "踢球"
+          },
+          {
+            "word": "test",
+            "pos": "n.",
+            "meaning": "考验"
+          },
+          {
+            "word": "national",
+            "pos": "adj.",
+            "meaning": "国家的"
+          },
+          {
+            "word": "virtue",
+            "pos": "n.",
+            "meaning": "美德"
           }
         ]
       }

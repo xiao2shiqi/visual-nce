@@ -27,7 +27,21 @@
       "text": "A man-made disease",
       "translation": "一种人为疾病",
       "startTime": 2.78,
-      "endTime": 11.75
+      "endTime": 11.75,
+      "analysis": {
+        "words": [
+          {
+            "word": "man-made",
+            "pos": "adj.",
+            "meaning": "人造的"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
+            "word": "listen to",
+            "pos": "v. phr.",
+            "meaning": "听，倾听"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -91,9 +95,34 @@
       "analysis": {
         "words": [
           {
-            "word": "What",
+            "word": "what",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "factor",
+            "pos": "n.",
+            "meaning": "因素"
+          },
+          {
+            "word": "helped",
+            "pos": "v.",
+            "meaning": "帮助"
+          },
+          {
+            "word": "spread",
+            "pos": "v.",
+            "meaning": "传播"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "myxomatosis",
+            "pos": "n.",
+            "meaning": "黏液瘤病"
           }
         ]
       }
@@ -104,7 +133,56 @@
       "text": "In the early days of the settlement of Australia, enterprising settlers unwisely introduced the European rabbit.",
       "translation": "在澳大利亚定居的早期，有进取心的定居者不明智地引入了欧洲兔子。",
       "startTime": 18.28,
-      "endTime": 28.41
+      "endTime": 28.41,
+      "analysis": {
+        "words": [
+          {
+            "word": "early days",
+            "pos": "n. phr.",
+            "meaning": "初期"
+          },
+          {
+            "word": "settlement",
+            "pos": "n.",
+            "meaning": "定居, 殖民"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
+          },
+          {
+            "word": "enterprising",
+            "pos": "adj.",
+            "meaning": "有进取心的"
+          },
+          {
+            "word": "settlers",
+            "pos": "n.",
+            "meaning": "定居者"
+          },
+          {
+            "word": "unwisely",
+            "pos": "adv.",
+            "meaning": "不明智地"
+          },
+          {
+            "word": "introduced",
+            "pos": "v.",
+            "meaning": "引进, 传入"
+          },
+          {
+            "word": "European",
+            "pos": "adj.",
+            "meaning": "欧洲的"
+          },
+          {
+            "word": "rabbit",
+            "pos": "n.",
+            "meaning": "兔子"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -116,19 +194,74 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
+            "word": "this",
+            "pos": "det.",
             "meaning": "这，这个"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "rabbit",
+            "pos": "n.",
+            "meaning": "兔子"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "have",
+            "pos": "v.",
+            "meaning": "有，拥有"
+          },
+          {
+            "word": "no",
+            "pos": "det.",
+            "meaning": "没有"
+          },
+          {
+            "word": "natural",
+            "pos": "adj.",
+            "meaning": "自然的"
+          },
+          {
+            "word": "enemy",
+            "pos": "n.",
+            "meaning": "敌人"
+          },
+          {
+            "word": "Antipodes",
+            "pos": "n.",
+            "meaning": "澳新地区"
+          },
+          {
+            "word": "so that",
+            "pos": "conj. phr.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "multiply",
+            "pos": "v.",
+            "meaning": "繁殖，倍增"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "伴随"
+          },
+          {
+            "word": "that",
+            "pos": "det.",
+            "meaning": "那，那样"
+          },
+          {
+            "word": "promiscuous",
+            "pos": "adj.",
+            "meaning": "无节制的"
+          },
+          {
+            "word": "abandon",
+            "pos": "n.",
+            "meaning": "放任，无拘束"
+          },
+          {
+            "word": "characteristic of",
+            "pos": "adj. phr.",
+            "meaning": "……的特点"
           }
         ]
       }
@@ -143,9 +276,19 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "overran",
+            "pos": "v.",
+            "meaning": "占领；泛滥"
+          },
+          {
+            "word": "whole",
+            "pos": "adj.",
+            "meaning": "整个的"
+          },
+          {
+            "word": "continent",
+            "pos": "n.",
+            "meaning": "大陆；洲"
           }
         ]
       }
@@ -160,9 +303,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "cause",
+            "pos": "v.",
+            "meaning": "造成"
+          },
+          {
+            "word": "devastation",
+            "pos": "n.",
+            "meaning": "破坏"
+          },
+          {
+            "word": "burrowing",
+            "pos": "v.",
+            "meaning": "挖洞"
+          },
+          {
+            "word": "devouring",
+            "pos": "v.",
+            "meaning": "吞食"
+          },
+          {
+            "word": "herbage",
+            "pos": "n.",
+            "meaning": "牧草"
+          },
+          {
+            "word": "maintain",
+            "pos": "v.",
+            "meaning": "维持，养活"
+          },
+          {
+            "word": "millions",
+            "pos": "num.",
+            "meaning": "数百万"
+          },
+          {
+            "word": "sheep",
+            "pos": "n.",
+            "meaning": "绵羊"
+          },
+          {
+            "word": "cattle",
+            "pos": "n.",
+            "meaning": "牛"
           }
         ]
       }
@@ -177,14 +360,64 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "Scientists",
+            "pos": "n.",
+            "meaning": "科学家"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "discovered",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "particular",
+            "pos": "adj.",
+            "meaning": "特定的"
+          },
+          {
+            "word": "variety",
+            "pos": "n.",
+            "meaning": "种类，品种"
+          },
+          {
+            "word": "rabbit",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "apparently",
+            "pos": "adv.",
+            "meaning": "显然地"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "animal",
+            "pos": "n.",
+            "meaning": "动物"
+          },
+          {
+            "word": "susceptible to",
+            "pos": "adj. phr.",
+            "meaning": "易受...影响/感染"
+          },
+          {
+            "word": "fatal",
+            "pos": "adj.",
+            "meaning": "致命的"
+          },
+          {
+            "word": "virus disease",
+            "pos": "n. phr.",
+            "meaning": "病毒性疾病"
+          },
+          {
+            "word": "myxomatosis",
+            "pos": "n.",
+            "meaning": "黏液瘤病"
           }
         ]
       }
@@ -199,9 +432,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "infecting",
+            "pos": "v.",
+            "meaning": "感染"
+          },
+          {
+            "word": "animals",
+            "pos": "n.",
+            "meaning": "动物"
+          },
+          {
+            "word": "letting loose",
+            "pos": "v. phr.",
+            "meaning": "释放, 放生"
+          },
+          {
+            "word": "burrows",
+            "pos": "n.",
+            "meaning": "洞穴"
+          },
+          {
+            "word": "local",
+            "pos": "adj.",
+            "meaning": "地方的, 局部的"
+          },
+          {
+            "word": "epidemics",
+            "pos": "n.",
+            "meaning": "流行病"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "created",
+            "pos": "v.",
+            "meaning": "造成, 产生"
           }
         ]
       }
@@ -216,19 +484,74 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "Later",
+            "pos": "adv.",
+            "meaning": "后来"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "found",
+            "pos": "v.",
+            "meaning": "被发现"
           },
           {
-            "word": "This",
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "there was",
+            "pos": "v. phr.",
+            "meaning": "有，存在"
+          },
+          {
+            "word": "type of",
+            "pos": "n. phr.",
+            "meaning": "一种，类型"
+          },
+          {
+            "word": "mosquito",
+            "pos": "n.",
+            "meaning": "蚊子"
+          },
+          {
+            "word": "which",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "关系代词"
+          },
+          {
+            "word": "acted as",
+            "pos": "v. phr.",
+            "meaning": "充当，作为"
+          },
+          {
+            "word": "carrier",
+            "pos": "n.",
+            "meaning": "携带者"
+          },
+          {
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和，并且"
+          },
+          {
+            "word": "passed on",
+            "pos": "v. phr.",
+            "meaning": "传播，传染"
+          },
+          {
+            "word": "rabbits",
+            "pos": "n.",
+            "meaning": "兔子"
           }
         ]
       }
@@ -243,9 +566,54 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "So",
+            "pos": "adv.",
+            "meaning": "因此"
+          },
+          {
+            "word": "while",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "the rest of",
+            "pos": "n. phr.",
+            "meaning": "其余的"
+          },
+          {
+            "word": "world",
+            "pos": "n.",
+            "meaning": "世界"
+          },
+          {
+            "word": "try to",
+            "pos": "v. phr.",
+            "meaning": "试图"
+          },
+          {
+            "word": "get rid of",
+            "pos": "v. phr.",
+            "meaning": "摆脱"
+          },
+          {
+            "word": "mosquitoes",
+            "pos": "n.",
+            "meaning": "蚊子"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
+          },
+          {
+            "word": "encourage",
+            "pos": "v.",
+            "meaning": "鼓励"
+          },
+          {
+            "word": "this one",
+            "pos": "pron. phr.",
+            "meaning": "这一个"
           }
         ]
       }
@@ -260,9 +628,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "effectively",
+            "pos": "adv.",
+            "meaning": "有效地"
+          },
+          {
+            "word": "spread",
+            "pos": "v.",
+            "meaning": "传播"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "all over",
+            "pos": "adv. phr.",
+            "meaning": "遍及"
+          },
+          {
+            "word": "continent",
+            "pos": "n.",
+            "meaning": "大陆"
+          },
+          {
+            "word": "drastically",
+            "pos": "adv.",
+            "meaning": "彻底地, 剧烈地"
+          },
+          {
+            "word": "reduced",
+            "pos": "v.",
+            "meaning": "减少"
+          },
+          {
+            "word": "rabbit",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "population",
+            "pos": "n.",
+            "meaning": "种群, 数量"
           }
         ]
       }
@@ -277,19 +685,49 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "later",
+            "pos": "adv.",
+            "meaning": "后来"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "become apparent",
+            "pos": "v. phr.",
+            "meaning": "变得明显"
           },
           {
-            "word": "This",
+            "word": "rabbits",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "develop",
+            "pos": "v.",
+            "meaning": "产生, 发展"
+          },
+          {
+            "word": "a degree of",
+            "pos": "n. phr.",
+            "meaning": "某种程度, 一定程度"
+          },
+          {
+            "word": "resistance",
+            "pos": "n.",
+            "meaning": "抵抗力, 抗性"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "对...的"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这, 这个"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
           }
         ]
       }
@@ -304,9 +742,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "so that",
+            "pos": "conj. phr.",
+            "meaning": "以致"
+          },
+          {
+            "word": "rabbit",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "population",
+            "pos": "n.",
+            "meaning": "种群"
+          },
+          {
+            "word": "unlikely",
+            "pos": "adj.",
+            "meaning": "不太可能"
+          },
+          {
+            "word": "completely",
+            "pos": "adv.",
+            "meaning": "完全地"
+          },
+          {
+            "word": "exterminate",
+            "pos": "v.",
+            "meaning": "根除"
           }
         ]
       }
@@ -321,9 +784,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "hopes",
+            "pos": "n.",
+            "meaning": "希望"
+          },
+          {
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "rabbit",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "would",
+            "pos": "aux. v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "become",
+            "pos": "v.",
+            "meaning": "变成"
+          },
+          {
+            "word": "manageable",
+            "pos": "adj.",
+            "meaning": "可处理的"
           }
         ]
       }
@@ -338,9 +831,59 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "Ironically",
+            "pos": "adv.",
+            "meaning": "讽刺地"
+          },
+          {
+            "word": "Europe",
+            "pos": "n.",
+            "meaning": "欧洲"
+          },
+          {
+            "word": "bequeathed",
+            "pos": "v.",
+            "meaning": "遗留，传下"
+          },
+          {
+            "word": "rabbit",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "pest",
+            "pos": "n.",
+            "meaning": "害虫"
+          },
+          {
+            "word": "Australia",
+            "pos": "n.",
+            "meaning": "澳大利亚"
+          },
+          {
+            "word": "acquired",
+            "pos": "v.",
+            "meaning": "获得"
+          },
+          {
+            "word": "man-made",
+            "pos": "adj.",
+            "meaning": "人造的"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "pestilence",
+            "pos": "n.",
+            "meaning": "瘟疫"
           }
         ]
       }
@@ -357,7 +900,52 @@
           {
             "word": "French",
             "pos": "adj.",
-            "meaning": "法国的，法语"
+            "meaning": "法国的"
+          },
+          {
+            "word": "physician",
+            "pos": "n.",
+            "meaning": "医生"
+          },
+          {
+            "word": "decided",
+            "pos": "v.",
+            "meaning": "决定"
+          },
+          {
+            "word": "get rid of",
+            "pos": "v. phr.",
+            "meaning": "摆脱，清除"
+          },
+          {
+            "word": "wild",
+            "pos": "adj.",
+            "meaning": "野生的"
+          },
+          {
+            "word": "rabbits",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "own",
+            "pos": "adj.",
+            "meaning": "自己的"
+          },
+          {
+            "word": "estate",
+            "pos": "n.",
+            "meaning": "庄园，地产"
+          },
+          {
+            "word": "introduced",
+            "pos": "v.",
+            "meaning": "引入，引进"
+          },
+          {
+            "word": "myxomatosis",
+            "pos": "n.",
+            "meaning": "黏液瘤病"
           }
         ]
       }
@@ -372,19 +960,34 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而, 不过"
+          },
+          {
+            "word": "remain",
+            "pos": "v.",
+            "meaning": "保持, 停留"
+          },
+          {
+            "word": "within the confines of",
+            "pos": "prep. phr.",
+            "meaning": "在...范围内"
+          },
+          {
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
+          },
+          {
+            "word": "estate",
+            "pos": "n.",
+            "meaning": "庄园"
           }
         ]
       }
@@ -399,14 +1002,69 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "spread through",
+            "pos": "v. phr.",
+            "meaning": "蔓延开，遍及"
           },
           {
-            "word": "Not",
+            "word": "France",
+            "pos": "n.",
+            "meaning": "法国"
+          },
+          {
+            "word": "where",
+            "pos": "conj.",
+            "meaning": "在那里"
+          },
+          {
+            "word": "wild",
+            "pos": "adj.",
+            "meaning": "野生的"
+          },
+          {
+            "word": "rabbits",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "generally",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "通常地"
+          },
+          {
+            "word": "regard as",
+            "pos": "v. phr.",
+            "meaning": "视为，看作"
+          },
+          {
+            "word": "pest",
+            "pos": "n.",
+            "meaning": "害虫"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "sport",
+            "pos": "n.",
+            "meaning": "运动，娱乐"
+          },
+          {
+            "word": "useful",
+            "pos": "adj.",
+            "meaning": "有用的"
+          },
+          {
+            "word": "food supply",
+            "pos": "n. phr.",
+            "meaning": "食物来源"
           }
         ]
       }
@@ -421,9 +1079,44 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "spread",
+            "pos": "v.",
+            "meaning": "传播，蔓延"
+          },
+          {
+            "word": "Britain",
+            "pos": "n.",
+            "meaning": "英国"
+          },
+          {
+            "word": "where",
+            "pos": "adv.",
+            "meaning": "在...之处"
+          },
+          {
+            "word": "wild",
+            "pos": "adj.",
+            "meaning": "野生的"
+          },
+          {
+            "word": "rabbits",
+            "pos": "n.",
+            "meaning": "兔子"
+          },
+          {
+            "word": "regard as",
+            "pos": "v. phr.",
+            "meaning": "视为，认为"
+          },
+          {
+            "word": "pest",
+            "pos": "n.",
+            "meaning": "害虫，有害动物"
+          },
+          {
+            "word": "domesticated",
+            "pos": "adj.",
+            "meaning": "驯养的"
           }
         ]
       }
@@ -436,7 +1129,43 @@
       "startTime": 158.62,
       "endTime": 165.49,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "equally",
+            "pos": "adv.",
+            "meaning": "同样地"
+          },
+          {
+            "word": "susceptible to",
+            "pos": "adj. phr.",
+            "meaning": "易受...影响的"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "basis of",
+            "pos": "n. phr.",
+            "meaning": "...的基础"
+          },
+          {
+            "word": "profitable",
+            "pos": "adj.",
+            "meaning": "有利可图的"
+          },
+          {
+            "word": "fur",
+            "pos": "n.",
+            "meaning": "毛皮"
+          },
+          {
+            "word": "industry",
+            "pos": "n.",
+            "meaning": "产业"
+          }
+        ]
       }
     },
     {
@@ -449,9 +1178,49 @@
       "analysis": {
         "words": [
           {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "become",
+            "pos": "v.",
+            "meaning": "变成"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "某一"
+          },
+          {
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
             "word": "Man",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "人类"
+          },
+          {
+            "word": "could",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "control",
+            "pos": "v.",
+            "meaning": "控制"
+          },
+          {
+            "word": "disease",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "invent",
+            "pos": "v.",
+            "meaning": "发明"
           }
         ]
       }

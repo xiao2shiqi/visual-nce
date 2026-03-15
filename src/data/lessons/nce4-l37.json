@@ -27,7 +27,21 @@
       "text": "The process of ageing",
       "translation": "衰老的过程",
       "startTime": 3.12,
-      "endTime": 11.65
+      "endTime": 11.65,
+      "analysis": {
+        "words": [
+          {
+            "word": "process",
+            "pos": "n.",
+            "meaning": "过程"
+          },
+          {
+            "word": "ageing",
+            "pos": "n.",
+            "meaning": "衰老"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
+            "word": "listen to",
+            "pos": "v. phr.",
+            "meaning": "听，倾听"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -96,9 +100,54 @@
             "meaning": "什么"
           },
           {
-            "word": "Is",
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "one of",
+            "pos": "pron. phr.",
+            "meaning": "其中之一"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "unpleasant",
+            "pos": "adj.",
+            "meaning": "令人不快的"
+          },
+          {
+            "word": "discoveries",
+            "pos": "n.",
+            "meaning": "发现"
+          },
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "做出"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "ourselves",
+            "pos": "pron.",
+            "meaning": "我们自己"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "get older",
+            "pos": "v. phr.",
+            "meaning": "变老"
           }
         ]
       }
@@ -113,14 +162,34 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "At the age of",
+            "pos": "prep. phr.",
+            "meaning": "在…岁时"
           },
           {
-            "word": "Is",
+            "word": "twelve",
+            "pos": "num.",
+            "meaning": "十二"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "岁"
+          },
+          {
+            "word": "human body",
+            "pos": "n. phr.",
+            "meaning": "人体"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "at its most vigorous",
+            "pos": "adj. phr.",
+            "meaning": "活力最充沛"
           }
         ]
       }
@@ -135,24 +204,69 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "has yet to",
+            "pos": "v. phr.",
+            "meaning": "尚未；还未"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
-          },
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
-          },
-          {
-            "word": "Is",
+            "word": "reach",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "达到"
+          },
+          {
+            "word": "full",
+            "pos": "adj.",
+            "meaning": "完全的；充分的"
+          },
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "大小；尺寸"
+          },
+          {
+            "word": "strength",
+            "pos": "n.",
+            "meaning": "力量；体力"
+          },
+          {
+            "word": "owner",
+            "pos": "n.",
+            "meaning": "主人"
+          },
+          {
+            "word": "intelligence",
+            "pos": "n.",
+            "meaning": "智力；智慧"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "at this age",
+            "pos": "adv. phr.",
+            "meaning": "在这个年龄"
+          },
+          {
+            "word": "likelihood",
+            "pos": "n.",
+            "meaning": "可能性"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的；关于"
+          },
+          {
+            "word": "death",
+            "pos": "n.",
+            "meaning": "死亡"
+          },
+          {
+            "word": "least",
+            "pos": "adj.",
+            "meaning": "最少的；最低的"
           }
         ]
       }
@@ -167,9 +281,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Young",
+            "word": "earlier",
+            "pos": "adv.",
+            "meaning": "之前，更早地"
+          },
+          {
+            "word": "were",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "infants",
+            "pos": "n.",
+            "meaning": "婴儿"
+          },
+          {
+            "word": "young",
             "pos": "adj.",
-            "meaning": "年轻的"
+            "meaning": "年幼的"
+          },
+          {
+            "word": "children",
+            "pos": "n.",
+            "meaning": "孩子"
+          },
+          {
+            "word": "consequently",
+            "pos": "adv.",
+            "meaning": "因此，结果"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更，更加"
+          },
+          {
+            "word": "vulnerable",
+            "pos": "adj.",
+            "meaning": "脆弱的，易受伤害的"
           }
         ]
       }
@@ -184,9 +333,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "later",
+            "pos": "adv.",
+            "meaning": "后来，稍后"
+          },
+          {
+            "word": "shall",
+            "pos": "aux. v.",
+            "meaning": "将，会"
+          },
+          {
+            "word": "undergo",
+            "pos": "v.",
+            "meaning": "经历，遭受"
+          },
+          {
+            "word": "progressive",
+            "pos": "adj.",
+            "meaning": "渐进的，逐步的"
+          },
+          {
+            "word": "loss",
+            "pos": "n.",
+            "meaning": "丧失，损失"
+          },
+          {
+            "word": "vigour",
+            "pos": "n.",
+            "meaning": "活力，精力"
+          },
+          {
+            "word": "resistance",
+            "pos": "n.",
+            "meaning": "抵抗力，反抗"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "这，那个"
+          },
+          {
+            "word": "though",
+            "pos": "conj.",
+            "meaning": "尽管，虽然"
+          },
+          {
+            "word": "imperceptible",
+            "pos": "adj.",
+            "meaning": "难以察觉的"
+          },
+          {
+            "word": "at first",
+            "pos": "adv. phr.",
+            "meaning": "起初，最初"
           }
         ]
       }
@@ -201,9 +400,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "finally",
+            "pos": "adv.",
+            "meaning": "最终"
+          },
+          {
+            "word": "become",
+            "pos": "v.",
+            "meaning": "成为"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此"
+          },
+          {
+            "word": "steep",
+            "pos": "adj.",
+            "meaning": "陡峭的"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "以至于"
+          },
+          {
+            "word": "live",
+            "pos": "v.",
+            "meaning": "生存"
+          },
+          {
+            "word": "no longer",
+            "pos": "adv. phr.",
+            "meaning": "不再"
           }
         ]
       }
@@ -218,14 +447,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "however well",
+            "pos": "adv. phr.",
+            "meaning": "无论多好"
           },
           {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
+            "word": "look after",
+            "pos": "v. phr.",
+            "meaning": "照顾"
+          },
+          {
+            "word": "ourselves",
+            "pos": "pron.",
+            "meaning": "我们自己"
+          },
+          {
+            "word": "society",
+            "pos": "n.",
+            "meaning": "社会"
+          },
+          {
+            "word": "doctors",
+            "pos": "n.",
+            "meaning": "医生"
           }
         ]
       }
@@ -240,14 +484,34 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "decline",
+            "pos": "n.",
+            "meaning": "衰退"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "vigour",
+            "pos": "n.",
+            "meaning": "精力，活力"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "随着"
+          },
+          {
+            "word": "passing of time",
+            "pos": "n. phr.",
+            "meaning": "时间流逝"
+          },
+          {
+            "word": "is called",
+            "pos": "v. phr.",
+            "meaning": "被称为"
+          },
+          {
+            "word": "ageing",
+            "pos": "n.",
+            "meaning": "衰老"
           }
         ]
       }
@@ -262,24 +526,59 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
+            "word": "one",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "其中之一"
           },
           {
-            "word": "Is",
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "unpleasant",
+            "pos": "adj.",
+            "meaning": "不愉快的"
+          },
+          {
+            "word": "discoveries",
+            "pos": "n.",
+            "meaning": "发现"
+          },
+          {
+            "word": "all",
+            "pos": "adv.",
+            "meaning": "都"
+          },
+          {
+            "word": "make",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "做出"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
           },
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "decline",
+            "pos": "v.",
+            "meaning": "衰退"
+          },
+          {
+            "word": "in this way",
+            "pos": "adv. phr.",
+            "meaning": "以这种方式"
+          },
+          {
+            "word": "escape",
+            "pos": "v.",
+            "meaning": "逃脱"
+          },
+          {
+            "word": "wars",
+            "pos": "n.",
+            "meaning": "战争"
           }
         ]
       }
@@ -294,24 +593,69 @@
       "analysis": {
         "words": [
           {
-            "word": "Old",
-            "pos": "adj.",
-            "meaning": "老的，旧的"
+            "word": "accidents",
+            "pos": "n.",
+            "meaning": "事故"
           },
           {
-            "word": "That",
+            "word": "diseases",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "shall",
+            "pos": "aux. v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "eventually",
+            "pos": "adv.",
+            "meaning": "最终"
+          },
+          {
+            "word": "die of old age",
+            "pos": "v. phr.",
+            "meaning": "老死"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "这"
           },
           {
-            "word": "This",
+            "word": "happens",
+            "pos": "v.",
+            "meaning": "发生"
+          },
+          {
+            "word": "at a rate",
+            "pos": "prep. phr.",
+            "meaning": "以...速度"
+          },
+          {
+            "word": "which",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "引导从句"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "differs",
+            "pos": "v.",
+            "meaning": "不同"
+          },
+          {
+            "word": "little",
+            "pos": "adv.",
+            "meaning": "几乎不"
+          },
+          {
+            "word": "from person to person",
+            "pos": "adv. phr.",
+            "meaning": "因人而异"
           }
         ]
       }
@@ -326,9 +670,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "so that",
+            "pos": "conj.",
+            "meaning": "以便，结果是"
+          },
+          {
+            "word": "heavy odds",
+            "pos": "n. phr.",
+            "meaning": "很大的可能性"
+          },
+          {
+            "word": "in favour of",
+            "pos": "prep. phr.",
+            "meaning": "有利于，赞成"
+          },
+          {
+            "word": "dying",
+            "pos": "n.",
+            "meaning": "死亡"
+          },
+          {
+            "word": "between the ages of",
+            "pos": "prep. phr.",
+            "meaning": "在...岁之间"
+          },
+          {
+            "word": "65",
+            "pos": "num.",
+            "meaning": "65"
+          },
+          {
+            "word": "80",
+            "pos": "num.",
+            "meaning": "80"
           }
         ]
       }
@@ -341,7 +715,58 @@
       "startTime": 104.68,
       "endTime": 112.88,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "some",
+            "pos": "pron.",
+            "meaning": "一些"
+          },
+          {
+            "word": "die",
+            "pos": "v.",
+            "meaning": "死亡"
+          },
+          {
+            "word": "sooner",
+            "pos": "adv.",
+            "meaning": "更早地"
+          },
+          {
+            "word": "a few",
+            "pos": "pron. phr.",
+            "meaning": "少数人"
+          },
+          {
+            "word": "live",
+            "pos": "v.",
+            "meaning": "活,生存"
+          },
+          {
+            "word": "longer",
+            "pos": "adv.",
+            "meaning": "更久地"
+          },
+          {
+            "word": "on into",
+            "pos": "prep. phr.",
+            "meaning": "直到,进入"
+          },
+          {
+            "word": "ninth",
+            "pos": "num.",
+            "meaning": "第九的"
+          },
+          {
+            "word": "tenth",
+            "pos": "num.",
+            "meaning": "第十的"
+          },
+          {
+            "word": "decade",
+            "pos": "n.",
+            "meaning": "十年"
+          }
+        ]
       }
     },
     {
@@ -354,9 +779,14 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是，然而"
+          },
+          {
+            "word": "chances are against",
+            "pos": "v. phr.",
+            "meaning": "不太可能，对…不利"
           }
         ]
       }
@@ -371,14 +801,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "virtual",
+            "pos": "adj.",
+            "meaning": "虚拟的，实际的"
           },
           {
-            "word": "How",
+            "word": "limit",
+            "pos": "n.",
+            "meaning": "限制，限度"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "关于，对于"
+          },
+          {
+            "word": "how long",
+            "pos": "adv. phr.",
+            "meaning": "多久"
+          },
+          {
+            "word": "hope",
+            "pos": "v.",
+            "meaning": "希望"
+          },
+          {
+            "word": "remain",
+            "pos": "v.",
+            "meaning": "保持，继续"
+          },
+          {
+            "word": "alive",
+            "pos": "adj.",
+            "meaning": "活着的"
+          },
+          {
+            "word": "however",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "无论怎样"
+          },
+          {
+            "word": "lucky",
+            "pos": "adj.",
+            "meaning": "幸运的"
+          },
+          {
+            "word": "robust",
+            "pos": "adj.",
+            "meaning": "强壮的，健康的"
           }
         ]
       }
@@ -393,14 +863,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "normal",
+            "pos": "adj.",
+            "meaning": "正常的"
           },
           {
-            "word": "It",
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "tend to",
+            "pos": "v. phr.",
+            "meaning": "倾向于"
+          },
+          {
+            "word": "forget",
+            "pos": "v.",
+            "meaning": "忘记"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "这个"
+          },
+          {
+            "word": "process",
+            "pos": "n.",
+            "meaning": "过程"
+          },
+          {
+            "word": "unless and until",
+            "pos": "conj. phr.",
+            "meaning": "除非…才"
+          },
+          {
+            "word": "reminded of",
+            "pos": "v. phr.",
+            "meaning": "被提醒，想起"
           }
         ]
       }
@@ -415,14 +915,59 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此地"
           },
           {
-            "word": "Man",
+            "word": "familiar with",
+            "pos": "adj. phr.",
+            "meaning": "熟悉"
+          },
+          {
+            "word": "fact",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "事实"
+          },
+          {
+            "word": "man",
+            "pos": "n.",
+            "meaning": "人类"
+          },
+          {
+            "word": "ages",
+            "pos": "v.",
+            "meaning": "变老"
+          },
+          {
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "for years",
+            "pos": "adv. phr.",
+            "meaning": "多年来"
+          },
+          {
+            "word": "assumed",
+            "pos": "v.",
+            "meaning": "认为,假定"
+          },
+          {
+            "word": "process",
+            "pos": "n.",
+            "meaning": "过程"
+          },
+          {
+            "word": "losing vigour",
+            "pos": "n. phr.",
+            "meaning": "失去活力"
+          },
+          {
+            "word": "with time",
+            "pos": "adv. phr.",
+            "meaning": "随着时间"
           }
         ]
       }
@@ -433,7 +978,41 @@
       "text": "of becoming more likely to die the older we get, was something self-evident",
       "translation": "我们年纪越大，死亡的可能性就越大，这是不言而喻的",
       "startTime": 139.48,
-      "endTime": 145.36
+      "endTime": 145.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "become",
+            "pos": "v.",
+            "meaning": "变得"
+          },
+          {
+            "word": "more likely",
+            "pos": "adj. phr.",
+            "meaning": "更有可能"
+          },
+          {
+            "word": "die",
+            "pos": "v.",
+            "meaning": "死亡"
+          },
+          {
+            "word": "the older we get",
+            "pos": "adv. phr.",
+            "meaning": "随着年龄增长"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某事"
+          },
+          {
+            "word": "self-evident",
+            "pos": "adj.",
+            "meaning": "不言而喻的"
+          }
+        ]
+      }
     },
     {
       "id": "s16",
@@ -445,9 +1024,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Hot",
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像，如同"
+          },
+          {
+            "word": "cooling",
+            "pos": "n.",
+            "meaning": "冷却"
+          },
+          {
+            "word": "hot",
             "pos": "adj.",
             "meaning": "热的"
+          },
+          {
+            "word": "kettle",
+            "pos": "n.",
+            "meaning": "水壶"
+          },
+          {
+            "word": "wearing-out",
+            "pos": "n.",
+            "meaning": "磨损"
+          },
+          {
+            "word": "pair of",
+            "pos": "n. phr.",
+            "meaning": "一双"
+          },
+          {
+            "word": "shoes",
+            "pos": "n.",
+            "meaning": "鞋子"
           }
         ]
       }
@@ -462,9 +1071,24 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "also",
+            "pos": "adv.",
+            "meaning": "另外，也"
+          },
+          {
+            "word": "assumed",
+            "pos": "v.",
+            "meaning": "假设，认为"
+          },
+          {
+            "word": "all",
+            "pos": "adj.",
+            "meaning": "所有的"
+          },
+          {
+            "word": "animals",
+            "pos": "n.",
+            "meaning": "动物"
           }
         ]
       }
@@ -477,7 +1101,63 @@
       "startTime": 154.17,
       "endTime": 164.81,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "probably",
+            "pos": "adv.",
+            "meaning": "大概"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "organisms",
+            "pos": "n.",
+            "meaning": "有机体"
+          },
+          {
+            "word": "such as",
+            "pos": "conj. phr.",
+            "meaning": "例如"
+          },
+          {
+            "word": "trees",
+            "pos": "n.",
+            "meaning": "树木"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "universe",
+            "pos": "n.",
+            "meaning": "宇宙"
+          },
+          {
+            "word": "itself",
+            "pos": "pron.",
+            "meaning": "其本身"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必定"
+          },
+          {
+            "word": "in the nature of things",
+            "pos": "idiom",
+            "meaning": "必然地"
+          },
+          {
+            "word": "wear out",
+            "pos": "v. phr.",
+            "meaning": "耗尽，磨损"
+          }
+        ]
       }
     },
     {
@@ -488,7 +1168,48 @@
       "startTime": 164.82,
       "endTime": 169.81,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Most",
+            "pos": "adj.",
+            "meaning": "大部分的"
+          },
+          {
+            "word": "animals",
+            "pos": "n.",
+            "meaning": "动物"
+          },
+          {
+            "word": "commonly",
+            "pos": "adv.",
+            "meaning": "通常地"
+          },
+          {
+            "word": "observe",
+            "pos": "v.",
+            "meaning": "观察"
+          },
+          {
+            "word": "do in fact",
+            "pos": "adv. phr.",
+            "meaning": "事实上"
+          },
+          {
+            "word": "age",
+            "pos": "v.",
+            "meaning": "衰老"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "像...一样"
+          },
+          {
+            "word": "do",
+            "pos": "aux. v.",
+            "meaning": "同样"
+          }
+        ]
       }
     },
     {
@@ -497,7 +1218,36 @@
       "text": "if given the chance to live long enough;",
       "translation": "如果有机会活得足够长；",
       "startTime": 169.82,
-      "endTime": 172.41
+      "endTime": 172.41,
+      "analysis": {
+        "words": [
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "given",
+            "pos": "v.",
+            "meaning": "被给予, 得到"
+          },
+          {
+            "word": "chance",
+            "pos": "n.",
+            "meaning": "机会"
+          },
+          {
+            "word": "live",
+            "pos": "v.",
+            "meaning": "生活, 存活"
+          },
+          {
+            "word": "long enough",
+            "pos": "adv. phr.",
+            "meaning": "足够长的时间"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -509,9 +1259,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Watch",
+            "word": "mechanical",
+            "pos": "adj.",
+            "meaning": "机械的"
+          },
+          {
+            "word": "systems",
             "pos": "n.",
-            "meaning": "手表"
+            "meaning": "系统"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像；例如"
+          },
+          {
+            "word": "wound",
+            "pos": "adj.",
+            "meaning": "上紧发条的"
+          },
+          {
+            "word": "watch",
+            "pos": "n.",
+            "meaning": "表"
+          },
+          {
+            "word": "sun",
+            "pos": "n.",
+            "meaning": "太阳"
           }
         ]
       }
@@ -526,14 +1301,59 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "in fact",
+            "pos": "adv. phr.",
+            "meaning": "事实上"
           },
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "run out of",
+            "pos": "v. phr.",
+            "meaning": "耗尽"
+          },
+          {
+            "word": "energy",
+            "pos": "n.",
+            "meaning": "能量"
+          },
+          {
+            "word": "in accordance with",
+            "pos": "prep. phr.",
+            "meaning": "按照"
+          },
+          {
+            "word": "second law of thermodynamics",
+            "pos": "n. phr.",
+            "meaning": "热力学第二定律"
+          },
+          {
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
+            "word": "whole",
+            "pos": "adj.",
+            "meaning": "整个的"
+          },
+          {
+            "word": "universe",
+            "pos": "n.",
+            "meaning": "宇宙"
+          },
+          {
+            "word": "does so",
+            "pos": "v. phr.",
+            "meaning": "如此做"
+          },
+          {
+            "word": "moot point",
+            "pos": "n. phr.",
+            "meaning": "争议点"
+          },
+          {
+            "word": "at present",
+            "pos": "adv. phr.",
+            "meaning": "目前"
           }
         ]
       }
@@ -548,19 +1368,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "What",
+            "word": "these",
             "pos": "pron.",
-            "meaning": "什么"
+            "meaning": "这些"
           },
           {
-            "word": "Man",
+            "word": "are",
+            "pos": "aux. v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "analogous to",
+            "pos": "adj. phr.",
+            "meaning": "与...相似的"
+          },
+          {
+            "word": "what",
+            "pos": "pron.",
+            "meaning": "何事"
+          },
+          {
+            "word": "happens",
+            "pos": "v.",
+            "meaning": "发生"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "man",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "人类"
+          },
+          {
+            "word": "ages",
+            "pos": "v.",
+            "meaning": "变老"
           }
         ]
       }
@@ -575,14 +1430,24 @@
       "analysis": {
         "words": [
           {
-            "word": "Watch",
+            "word": "run-down",
+            "pos": "adj.",
+            "meaning": "破旧的"
+          },
+          {
+            "word": "watch",
             "pos": "n.",
             "meaning": "手表"
           },
           {
-            "word": "Is",
+            "word": "still",
+            "pos": "adv.",
+            "meaning": "仍然"
+          },
+          {
+            "word": "rewound",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "上发条"
           }
         ]
       }
@@ -597,34 +1462,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Old",
+            "word": "old",
             "pos": "adj.",
-            "meaning": "老的，旧的"
+            "meaning": "旧的"
           },
           {
-            "word": "Watch",
+            "word": "watch",
             "pos": "n.",
             "meaning": "手表"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "by contrast",
+            "pos": "adv. phr.",
+            "meaning": "相比之下"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "Is",
+            "word": "becomes",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "变得"
           },
           {
-            "word": "Not",
+            "word": "so",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "如此地"
+          },
+          {
+            "word": "worn",
+            "pos": "adj.",
+            "meaning": "磨损的"
+          },
+          {
+            "word": "unreliable",
+            "pos": "adj.",
+            "meaning": "不可靠的"
+          },
+          {
+            "word": "eventually",
+            "pos": "adv.",
+            "meaning": "最终"
+          },
+          {
+            "word": "not worth mending",
+            "pos": "adj. phr.",
+            "meaning": "不值得修补"
           }
         ]
       }
@@ -639,14 +1519,79 @@
       "analysis": {
         "words": [
           {
-            "word": "Watch",
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "watch",
             "pos": "n.",
             "meaning": "手表"
           },
           {
-            "word": "Not",
+            "word": "could",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "never",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "从不"
+          },
+          {
+            "word": "repair",
+            "pos": "v.",
+            "meaning": "修理"
+          },
+          {
+            "word": "itself",
+            "pos": "pron.",
+            "meaning": "它自己"
+          },
+          {
+            "word": "consist of",
+            "pos": "v. phr.",
+            "meaning": "由...组成"
+          },
+          {
+            "word": "living",
+            "pos": "adj.",
+            "meaning": "有生命的"
+          },
+          {
+            "word": "parts",
+            "pos": "n.",
+            "meaning": "部件"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "metal",
+            "pos": "n.",
+            "meaning": "金属"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "指代的"
+          },
+          {
+            "word": "wears away",
+            "pos": "v. phr.",
+            "meaning": "磨损"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "friction",
+            "pos": "n.",
+            "meaning": "摩擦"
           }
         ]
       }
@@ -661,9 +1606,69 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "could",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "at one time",
+            "pos": "adv. phr.",
+            "meaning": "曾经，一度"
+          },
+          {
+            "word": "repair",
+            "pos": "v.",
+            "meaning": "修理，修复"
+          },
+          {
+            "word": "ourselves",
+            "pos": "pron.",
+            "meaning": "我们自己"
+          },
+          {
+            "word": "well enough",
+            "pos": "adv. phr.",
+            "meaning": "足够好地"
+          },
+          {
+            "word": "at least",
+            "pos": "adv. phr.",
+            "meaning": "至少"
+          },
+          {
+            "word": "overcome",
+            "pos": "v.",
+            "meaning": "克服"
+          },
+          {
+            "word": "all but",
+            "pos": "adv. phr.",
+            "meaning": "除了...之外"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "instantly",
+            "pos": "adv.",
+            "meaning": "立即"
+          },
+          {
+            "word": "fatal",
+            "pos": "adj.",
+            "meaning": "致命的"
+          },
+          {
+            "word": "illnesses",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "accidents",
+            "pos": "n.",
+            "meaning": "事故"
           }
         ]
       }
@@ -678,9 +1683,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "between",
+            "pos": "prep.",
+            "meaning": "介于"
+          },
+          {
+            "word": "twelve",
+            "pos": "num.",
+            "meaning": "十二"
+          },
+          {
+            "word": "eighty",
+            "pos": "num.",
+            "meaning": "八十"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年，岁"
+          },
+          {
+            "word": "gradually",
+            "pos": "adv.",
+            "meaning": "逐渐地"
+          },
+          {
+            "word": "lose",
+            "pos": "v.",
+            "meaning": "失去"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
-            "meaning": "这，这个"
+            "meaning": "这"
+          },
+          {
+            "word": "power",
+            "pos": "n.",
+            "meaning": "能力"
           }
         ]
       }
@@ -695,9 +1735,44 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "illness",
+            "pos": "n.",
+            "meaning": "疾病"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（年龄）"
+          },
+          {
+            "word": "12",
+            "pos": "num.",
+            "meaning": "十二"
+          },
+          {
+            "word": "knock over",
+            "pos": "v. phr.",
+            "meaning": "击倒，打翻"
+          },
+          {
+            "word": "80",
+            "pos": "num.",
+            "meaning": "八十"
+          },
+          {
+            "word": "knock out",
+            "pos": "v. phr.",
+            "meaning": "击昏，使失去知觉"
+          },
+          {
+            "word": "into",
+            "pos": "prep.",
+            "meaning": "进入，到...里"
+          },
+          {
+            "word": "grave",
+            "pos": "n.",
+            "meaning": "坟墓"
           }
         ]
       }
@@ -712,9 +1787,44 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "could",
+            "pos": "aux. v.",
+            "meaning": "能够"
+          },
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "保持"
+          },
+          {
+            "word": "as",
+            "pos": "adv.",
+            "meaning": "像…一样地"
+          },
+          {
+            "word": "vigorous",
+            "pos": "adj.",
+            "meaning": "精力充沛的"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "像…一样"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "at twelve",
+            "pos": "prep. phr.",
+            "meaning": "在十二岁时"
           }
         ]
       }
@@ -729,9 +1839,54 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "would take",
+            "pos": "v. phr.",
+            "meaning": "耗费(时间)"
+          },
+          {
+            "word": "about",
+            "pos": "adv.",
+            "meaning": "大约"
+          },
+          {
+            "word": "700",
+            "pos": "num.",
+            "meaning": "七百"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "half",
+            "pos": "n.",
+            "meaning": "一半"
+          },
+          {
+            "word": "die",
+            "pos": "v.",
+            "meaning": "死亡"
+          },
+          {
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "又一，另一"
+          },
+          {
+            "word": "survivors",
+            "pos": "n.",
+            "meaning": "幸存者"
+          },
+          {
+            "word": "be reduced by half",
+            "pos": "v. phr.",
+            "meaning": "减少一半"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
           }
         ]
       }

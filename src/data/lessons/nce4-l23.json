@@ -27,7 +27,21 @@
       "text": "Bird flight",
       "translation": "鸟飞行",
       "startTime": 2.98,
-      "endTime": 10.51
+      "endTime": 10.51,
+      "analysis": {
+        "words": [
+          {
+            "word": "bird",
+            "pos": "n.",
+            "meaning": "鸟"
+          },
+          {
+            "word": "flight",
+            "pos": "n.",
+            "meaning": "飞行"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -94,6 +98,36 @@
             "word": "What",
             "pos": "pron.",
             "meaning": "什么"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "两个"
+          },
+          {
+            "word": "main",
+            "pos": "adj.",
+            "meaning": "主要的"
+          },
+          {
+            "word": "types",
+            "pos": "n.",
+            "meaning": "种类"
+          },
+          {
+            "word": "bird flight",
+            "pos": "n. phr.",
+            "meaning": "鸟类飞行"
+          },
+          {
+            "word": "described",
+            "pos": "v.",
+            "meaning": "描述"
+          },
+          {
+            "word": "author",
+            "pos": "n.",
+            "meaning": "作者"
           }
         ]
       }
@@ -104,7 +138,51 @@
       "text": "No two sorts of birds practise quite the same sort of flight;",
       "translation": "没有两种鸟具有完全相同的飞行方式。",
       "startTime": 17.99,
-      "endTime": 23.46
+      "endTime": 23.46,
+      "analysis": {
+        "words": [
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "sort",
+            "pos": "n.",
+            "meaning": "种类"
+          },
+          {
+            "word": "bird",
+            "pos": "n.",
+            "meaning": "鸟"
+          },
+          {
+            "word": "practise",
+            "pos": "v.",
+            "meaning": "从事，实行"
+          },
+          {
+            "word": "quite",
+            "pos": "adv.",
+            "meaning": "完全地"
+          },
+          {
+            "word": "same",
+            "pos": "adj.",
+            "meaning": "相同的"
+          },
+          {
+            "word": "flight",
+            "pos": "n.",
+            "meaning": "飞行"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -114,7 +192,48 @@
       "startTime": 23.47,
       "endTime": 29.44,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "variety",
+            "pos": "n.",
+            "meaning": "种类"
+          },
+          {
+            "word": "infinite",
+            "pos": "adj.",
+            "meaning": "无限的"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "class",
+            "pos": "n.",
+            "meaning": "类别"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "roughly",
+            "pos": "adv.",
+            "meaning": "大致地"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "区分"
+          }
+        ]
       }
     },
     {
@@ -127,9 +246,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "any",
+            "pos": "adj.",
+            "meaning": "任何的"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "关系代词"
+          },
+          {
+            "word": "cross",
+            "pos": "v.",
+            "meaning": "穿越"
+          },
+          {
+            "word": "Pacific",
+            "pos": "n.",
+            "meaning": "太平洋"
           }
         ]
       }
@@ -144,9 +283,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "accompanied by",
+            "pos": "v. phr.",
+            "meaning": "被...伴随"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "持续"
+          },
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多的"
+          },
+          {
+            "word": "days",
+            "pos": "n.",
+            "meaning": "天"
+          },
+          {
+            "word": "smaller",
+            "pos": "adj.",
+            "meaning": "更小的"
+          },
+          {
+            "word": "albatross",
+            "pos": "n.",
+            "meaning": "信天翁"
           }
         ]
       }
@@ -159,7 +323,38 @@
       "startTime": 36.85,
       "endTime": 40.09,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "指代物"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "keep company with",
+            "pos": "v. phr.",
+            "meaning": "陪伴"
+          },
+          {
+            "word": "vessel",
+            "pos": "n.",
+            "meaning": "船只"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "达...之久"
+          },
+          {
+            "word": "hour",
+            "pos": "n.",
+            "meaning": "小时"
+          }
+        ]
       }
     },
     {
@@ -168,7 +363,41 @@
       "text": "without visible or more than occasional movement of wing.",
       "translation": "机翼没有明显的运动或超过偶尔的运动。",
       "startTime": 40.1,
-      "endTime": 45.7
+      "endTime": 45.7,
+      "analysis": {
+        "words": [
+          {
+            "word": "without",
+            "pos": "prep.",
+            "meaning": "没有"
+          },
+          {
+            "word": "visible",
+            "pos": "adj.",
+            "meaning": "可见的"
+          },
+          {
+            "word": "more than",
+            "pos": "adv. phr.",
+            "meaning": "超出"
+          },
+          {
+            "word": "occasional",
+            "pos": "adj.",
+            "meaning": "偶尔的"
+          },
+          {
+            "word": "movement",
+            "pos": "n.",
+            "meaning": "移动"
+          },
+          {
+            "word": "wing",
+            "pos": "n.",
+            "meaning": "翅膀"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -180,14 +409,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Air",
+            "word": "currents",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "气流"
           },
           {
-            "word": "That",
+            "word": "air",
+            "pos": "n.",
+            "meaning": "空气"
+          },
+          {
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "（关系代词）那，那些"
+          },
+          {
+            "word": "walls",
+            "pos": "n.",
+            "meaning": "墙壁"
+          },
+          {
+            "word": "ship",
+            "pos": "n.",
+            "meaning": "船"
+          },
+          {
+            "word": "direct",
+            "pos": "v.",
+            "meaning": "引导，指向"
+          },
+          {
+            "word": "upwards",
+            "pos": "adv.",
+            "meaning": "向上地"
           }
         ]
       }
@@ -202,9 +456,19 @@
       "analysis": {
         "words": [
           {
-            "word": "Well",
-            "pos": "adj.",
-            "meaning": "健康的，良好的"
+            "word": "as well as",
+            "pos": "conj.",
+            "meaning": "以及"
+          },
+          {
+            "word": "line",
+            "pos": "n.",
+            "meaning": "路线"
+          },
+          {
+            "word": "course",
+            "pos": "n.",
+            "meaning": "路线"
           }
         ]
       }
@@ -217,7 +481,43 @@
       "startTime": 53.78,
       "endTime": 57.44,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "enough",
+            "pos": "adv.",
+            "meaning": "足够地"
+          },
+          {
+            "word": "give",
+            "pos": "v.",
+            "meaning": "给予"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "bird",
+            "pos": "n.",
+            "meaning": "鸟"
+          },
+          {
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "带有"
+          },
+          {
+            "word": "immense",
+            "pos": "adj.",
+            "meaning": "巨大的"
+          },
+          {
+            "word": "wings",
+            "pos": "n.",
+            "meaning": "翅膀"
+          }
+        ]
       }
     },
     {
@@ -226,7 +526,26 @@
       "text": "sufficient sustenance and progress.",
       "translation": "足够的寄托和进步。",
       "startTime": 57.45,
-      "endTime": 60.83
+      "endTime": 60.83,
+      "analysis": {
+        "words": [
+          {
+            "word": "sufficient",
+            "pos": "adj.",
+            "meaning": "足够的"
+          },
+          {
+            "word": "sustenance",
+            "pos": "n.",
+            "meaning": "食物"
+          },
+          {
+            "word": "progress",
+            "pos": "n.",
+            "meaning": "进步"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -238,9 +557,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "albatross",
+            "pos": "n.",
+            "meaning": "信天翁"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
+          },
+          {
+            "word": "king",
+            "pos": "n.",
+            "meaning": "王者"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "gliders",
+            "pos": "n.",
+            "meaning": "滑翔者"
           }
         ]
       }
@@ -255,9 +594,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Air",
+            "word": "class",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "类别"
+          },
+          {
+            "word": "fliers",
+            "pos": "n.",
+            "meaning": "飞行物"
+          },
+          {
+            "word": "harness",
+            "pos": "v.",
+            "meaning": "利用"
+          },
+          {
+            "word": "air",
+            "pos": "n.",
+            "meaning": "空气"
+          },
+          {
+            "word": "purpose",
+            "pos": "n.",
+            "meaning": "目的"
           }
         ]
       }
@@ -270,7 +629,28 @@
       "startTime": 68.22,
       "endTime": 71.6,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是，然而"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "yield to",
+            "pos": "v. phr.",
+            "meaning": "屈服于，让步"
+          },
+          {
+            "word": "opposition",
+            "pos": "n.",
+            "meaning": "反对，对手"
+          }
+        ]
       }
     },
     {
@@ -283,14 +663,24 @@
       "analysis": {
         "words": [
           {
-            "word": "School",
-            "pos": "n.",
-            "meaning": "学校"
+            "word": "In",
+            "pos": "prep.",
+            "meaning": "在...中"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "contrary school",
+            "pos": "n. phr.",
+            "meaning": "对立学派"
+          },
+          {
+            "word": "duck",
+            "pos": "n.",
+            "meaning": "鸭子"
+          },
+          {
+            "word": "supreme",
+            "pos": "adj.",
+            "meaning": "至高无上的"
           }
         ]
       }
@@ -305,19 +695,44 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "comes nearer to",
+            "pos": "v. phr.",
+            "meaning": "更接近于"
           },
           {
-            "word": "Man",
+            "word": "engines",
             "pos": "n.",
-            "meaning": "男人"
+            "meaning": "引擎"
           },
           {
-            "word": "Air",
+            "word": "with which",
+            "pos": "prep. phr.",
+            "meaning": "凭借"
+          },
+          {
+            "word": "man",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "人类"
+          },
+          {
+            "word": "conquered",
+            "pos": "v.",
+            "meaning": "征服"
+          },
+          {
+            "word": "air",
+            "pos": "n.",
+            "meaning": "天空"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "正如"
+          },
+          {
+            "word": "boasts",
+            "pos": "v.",
+            "meaning": "吹嘘"
           }
         ]
       }
@@ -330,7 +745,38 @@
       "startTime": 82.79,
       "endTime": 90.23,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "duck",
+            "pos": "n.",
+            "meaning": "鸭子"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像...一样"
+          },
+          {
+            "word": "pigeons",
+            "pos": "n.",
+            "meaning": "鸽子"
+          },
+          {
+            "word": "endow with",
+            "pos": "v. phr.",
+            "meaning": "赋予，使具有"
+          },
+          {
+            "word": "steel-like",
+            "pos": "adj.",
+            "meaning": "钢一般的"
+          },
+          {
+            "word": "muscles",
+            "pos": "n.",
+            "meaning": "肌肉"
+          }
+        ]
       }
     },
     {
@@ -343,9 +789,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "其"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "good part of",
+            "pos": "n. phr.",
+            "meaning": "很大一部分"
+          },
+          {
+            "word": "weight",
+            "pos": "n.",
+            "meaning": "重量"
+          },
+          {
+            "word": "bird",
+            "pos": "n.",
+            "meaning": "鸟"
           }
         ]
       }
@@ -360,9 +826,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Short",
+            "word": "these",
+            "pos": "pron.",
+            "meaning": "这些"
+          },
+          {
+            "word": "will",
+            "pos": "aux. v.",
+            "meaning": "将"
+          },
+          {
+            "word": "ply with",
+            "pos": "v. phr.",
+            "meaning": "持续施加"
+          },
+          {
+            "word": "short",
             "pos": "adj.",
-            "meaning": "矮的"
+            "meaning": "短的"
+          },
+          {
+            "word": "wings",
+            "pos": "n.",
+            "meaning": "翅膀"
+          },
+          {
+            "word": "such",
+            "pos": "adv.",
+            "meaning": "如此"
+          },
+          {
+            "word": "irresistible",
+            "pos": "adj.",
+            "meaning": "不可抗拒的"
+          },
+          {
+            "word": "power",
+            "pos": "n.",
+            "meaning": "力量"
           }
         ]
       }
@@ -377,9 +878,29 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "bore through",
+            "pos": "v. phr.",
+            "meaning": "穿过；顶着穿行"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "distances",
+            "pos": "n.",
+            "meaning": "距离"
+          },
+          {
+            "word": "opposing",
+            "pos": "adj.",
+            "meaning": "相反的；迎面的"
+          },
+          {
+            "word": "gale",
+            "pos": "n.",
+            "meaning": "大风；疾风"
           }
         ]
       }
@@ -390,7 +911,26 @@
       "text": "before exhaustion follows.",
       "translation": "在精疲力尽之前。",
       "startTime": 103.04,
-      "endTime": 105.73
+      "endTime": 105.73,
+      "analysis": {
+        "words": [
+          {
+            "word": "before",
+            "pos": "conj.",
+            "meaning": "在……之前"
+          },
+          {
+            "word": "exhaustion",
+            "pos": "n.",
+            "meaning": "筋疲力尽"
+          },
+          {
+            "word": "follows",
+            "pos": "v.",
+            "meaning": "接着发生"
+          }
+        ]
+      }
     },
     {
       "id": "s20",
@@ -400,7 +940,28 @@
       "startTime": 105.74,
       "endTime": 109.63,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "humbler",
+            "pos": "adj.",
+            "meaning": "更卑微的"
+          },
+          {
+            "word": "followers",
+            "pos": "n.",
+            "meaning": "追随者"
+          },
+          {
+            "word": "such as",
+            "pos": "conj. phr.",
+            "meaning": "例如"
+          },
+          {
+            "word": "partridges",
+            "pos": "n.",
+            "meaning": "鹧鸪"
+          }
+        ]
       }
     },
     {
@@ -409,7 +970,51 @@
       "text": "have a like power of strong propulsion, but soon tire.",
       "translation": "有一种类似力量的强大推进力，但很快就会疲倦。",
       "startTime": 109.64,
-      "endTime": 114.29
+      "endTime": 114.29,
+      "analysis": {
+        "words": [
+          {
+            "word": "have",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "like",
+            "pos": "adj.",
+            "meaning": "类似的"
+          },
+          {
+            "word": "power",
+            "pos": "n.",
+            "meaning": "力量"
+          },
+          {
+            "word": "strong",
+            "pos": "adj.",
+            "meaning": "强的"
+          },
+          {
+            "word": "propulsion",
+            "pos": "n.",
+            "meaning": "推进力"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快地"
+          },
+          {
+            "word": "tire",
+            "pos": "v.",
+            "meaning": "疲倦"
+          }
+        ]
+      }
     },
     {
       "id": "s22",
@@ -421,9 +1026,19 @@
       "analysis": {
         "words": [
           {
-            "word": "You",
-            "pos": "pron.",
-            "meaning": "你，你们"
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能，可以"
+          },
+          {
+            "word": "pick up",
+            "pos": "v. phr.",
+            "meaning": "拿起"
+          },
+          {
+            "word": "in utter exhaustion",
+            "pos": "adv. phr.",
+            "meaning": "筋疲力尽地"
           }
         ]
       }
@@ -434,7 +1049,51 @@
       "text": "if wind over the sea has driven them to a long journey.",
       "translation": "如果海上的风驱使他们长途跋涉。",
       "startTime": 117.52,
-      "endTime": 121.77
+      "endTime": 121.77,
+      "analysis": {
+        "words": [
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "wind",
+            "pos": "n.",
+            "meaning": "风"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "越过"
+          },
+          {
+            "word": "sea",
+            "pos": "n.",
+            "meaning": "海"
+          },
+          {
+            "word": "drive",
+            "pos": "v.",
+            "meaning": "驱使"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "journey",
+            "pos": "n.",
+            "meaning": "旅程"
+          }
+        ]
+      }
     },
     {
       "id": "s24",
@@ -442,7 +1101,46 @@
       "text": "The swallow shares the virtues of both schools in highest measure.",
       "translation": "燕子在很大程度上分享了两所学校的优点。",
       "startTime": 121.78,
-      "endTime": 126.52
+      "endTime": 126.52,
+      "analysis": {
+        "words": [
+          {
+            "word": "swallow",
+            "pos": "n.",
+            "meaning": "燕子"
+          },
+          {
+            "word": "shares",
+            "pos": "v.",
+            "meaning": "拥有，具有"
+          },
+          {
+            "word": "virtues",
+            "pos": "n.",
+            "meaning": "优点，美德"
+          },
+          {
+            "word": "both",
+            "pos": "pron.",
+            "meaning": "两者"
+          },
+          {
+            "word": "schools",
+            "pos": "n.",
+            "meaning": "学派，流派"
+          },
+          {
+            "word": "highest",
+            "pos": "adj.",
+            "meaning": "最高的"
+          },
+          {
+            "word": "measure",
+            "pos": "n.",
+            "meaning": "程度，限度"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -454,19 +1152,44 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "tire",
+            "pos": "v.",
+            "meaning": "感到疲惫"
           },
           {
-            "word": "Not",
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
           },
           {
-            "word": "Air",
+            "word": "nor",
+            "pos": "conj.",
+            "meaning": "也不"
+          },
+          {
+            "word": "boast of",
+            "pos": "v. phr.",
+            "meaning": "夸耀"
+          },
+          {
+            "word": "power",
             "pos": "n.",
-            "meaning": "空格"
+            "meaning": "力量"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "belong to",
+            "pos": "v. phr.",
+            "meaning": "属于"
+          },
+          {
+            "word": "air",
+            "pos": "n.",
+            "meaning": "空气"
           }
         ]
       }
@@ -481,9 +1204,44 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "travelling",
+            "pos": "v.",
+            "meaning": "旅行，行进"
+          },
+          {
+            "word": "may be",
+            "pos": "aux. v.",
+            "meaning": "也许是，可能是"
+          },
+          {
+            "word": "six thousand",
+            "pos": "num.",
+            "meaning": "六千"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "to and from",
+            "pos": "adv. phr.",
+            "meaning": "往返，来回"
+          },
+          {
+            "word": "northern",
+            "pos": "adj.",
+            "meaning": "北方的"
+          },
+          {
+            "word": "nesting",
+            "pos": "adj.",
+            "meaning": "筑巢的"
+          },
+          {
+            "word": "home",
+            "pos": "n.",
+            "meaning": "家园，栖息地"
           }
         ]
       }
@@ -498,14 +1256,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Young",
-            "pos": "adj.",
-            "meaning": "年轻的"
+            "word": "feeding",
+            "pos": "v.",
+            "meaning": "喂养"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "flown",
+            "pos": "adj.",
+            "meaning": "已离巢的"
+          },
+          {
+            "word": "young",
+            "pos": "n.",
+            "meaning": "幼崽"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "flies",
+            "pos": "v.",
+            "meaning": "飞翔"
+          },
+          {
+            "word": "slipping through",
+            "pos": "v. phr.",
+            "meaning": "滑过，穿过"
+          },
+          {
+            "word": "medium",
+            "pos": "n.",
+            "meaning": "介质"
           }
         ]
       }
@@ -520,14 +1303,39 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "那，那个"
           },
           {
-            "word": "Is",
+            "word": "seems",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "似乎，好像"
+          },
+          {
+            "word": "help",
+            "pos": "v.",
+            "meaning": "帮助"
+          },
+          {
+            "word": "passage",
+            "pos": "n.",
+            "meaning": "通行；行进"
+          },
+          {
+            "word": "even when",
+            "pos": "conj. phr.",
+            "meaning": "即使当...时"
+          },
+          {
+            "word": "wind",
+            "pos": "n.",
+            "meaning": "风"
+          },
+          {
+            "word": "adverse",
+            "pos": "adj.",
+            "meaning": "不利的；逆向的"
           }
         ]
       }
@@ -540,7 +1348,23 @@
       "startTime": 148.78,
       "endTime": 150.9,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          },
+          {
+            "word": "birds",
+            "pos": "n.",
+            "meaning": "鸟"
+          },
+          {
+            "word": "do good",
+            "pos": "v. phr.",
+            "meaning": "有益处"
+          }
+        ]
       }
     },
     {
@@ -553,14 +1377,34 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "though",
+            "pos": "conj.",
+            "meaning": "尽管"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "no longer",
+            "pos": "adv. phr.",
+            "meaning": "不再"
+          },
+          {
+            "word": "take omens",
+            "pos": "v. phr.",
+            "meaning": "取兆头"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "flight",
+            "pos": "n.",
+            "meaning": "飞行"
+          },
+          {
+            "word": "on this side and that",
+            "pos": "adv. phr.",
+            "meaning": "来回地"
           }
         ]
       }
@@ -575,9 +1419,59 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "superstitious",
+            "pos": "adj.",
+            "meaning": "迷信的"
+          },
+          {
+            "word": "villagers",
+            "pos": "n.",
+            "meaning": "村民"
+          },
+          {
+            "word": "no longer",
+            "pos": "adv. phr.",
+            "meaning": "不再"
+          },
+          {
+            "word": "take off",
+            "pos": "v. phr.",
+            "meaning": "脱掉"
+          },
+          {
+            "word": "hats",
+            "pos": "n.",
+            "meaning": "帽子"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "magpie",
+            "pos": "n.",
+            "meaning": "喜鹊"
+          },
+          {
+            "word": "wish",
+            "pos": "v.",
+            "meaning": "祝愿"
+          },
+          {
+            "word": "good-morning",
+            "pos": "n. phr.",
+            "meaning": "早上好"
           }
         ]
       }

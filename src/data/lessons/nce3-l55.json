@@ -31,7 +31,17 @@
       "analysis": {
         "words": [
           {
-            "word": "greetings",
+            "word": "From",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "earth",
+            "pos": "n.",
+            "meaning": "地球"
+          },
+          {
+            "word": "Greetings",
             "pos": "n.",
             "meaning": "问候"
           }
@@ -48,24 +58,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -79,8 +79,8 @@
           },
           {
             "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
+            "pos": "pron.",
+            "meaning": "这，这个"
           },
           {
             "word": "question",
@@ -101,63 +101,38 @@
         "words": [
           {
             "word": "Which",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "pron.",
+            "meaning": "哪些"
           },
           {
-            "word": "life",
-            "pos": "n.",
-            "meaning": "生活"
+            "word": "life forms",
+            "pos": "n. phr.",
+            "meaning": "生命形式"
           },
           {
-            "word": "forms",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "are",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "most",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "likely",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "word": "most likely",
+            "pos": "adv. phr.",
+            "meaning": "最有可能"
           },
           {
             "word": "develop",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "发展"
           },
           {
             "word": "on",
-            "pos": "n.",
+            "pos": "prep.",
             "meaning": "在...上"
           },
           {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
-          },
-          {
             "word": "distant",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "遥远的"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           }
         ]
       }
@@ -172,12 +147,52 @@
       "analysis": {
         "words": [
           {
+            "word": "Recent",
+            "pos": "adj.",
+            "meaning": "近来的"
+          },
+          {
+            "word": "developments",
+            "pos": "n.",
+            "meaning": "发展"
+          },
+          {
             "word": "astronomy",
             "pos": "n.",
             "meaning": "天文学"
           },
           {
-            "word": "galaxy",
+            "word": "made it possible",
+            "pos": "v. phr.",
+            "meaning": "使…成为可能"
+          },
+          {
+            "word": "detect",
+            "pos": "v.",
+            "meaning": "探测"
+          },
+          {
+            "word": "planets",
+            "pos": "n.",
+            "meaning": "行星"
+          },
+          {
+            "word": "own",
+            "pos": "adj.",
+            "meaning": "自己的"
+          },
+          {
+            "word": "Milky Way",
+            "pos": "n. phr.",
+            "meaning": "银河系"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "galaxies",
             "pos": "n.",
             "meaning": "星系"
           }
@@ -194,9 +209,54 @@
       "analysis": {
         "words": [
           {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这，这个"
+          },
+          {
+            "word": "major",
+            "pos": "adj.",
+            "meaning": "主要的"
+          },
+          {
+            "word": "achievement",
+            "pos": "n.",
+            "meaning": "成就"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "in relative terms",
+            "pos": "adv. phr.",
+            "meaning": "相对而言"
+          },
+          {
+            "word": "planets",
+            "pos": "n.",
+            "meaning": "行星"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
             "word": "emit",
             "pos": "v.",
-            "meaning": "放射，散发"
+            "meaning": "发出"
+          },
+          {
+            "word": "light",
+            "pos": "n.",
+            "meaning": "光"
           }
         ]
       }
@@ -211,9 +271,64 @@
       "analysis": {
         "words": [
           {
+            "word": "Finding",
+            "pos": "v.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "planets",
+            "pos": "n.",
+            "meaning": "行星"
+          },
+          {
+            "word": "proving",
+            "pos": "v.",
+            "meaning": "结果是"
+          },
+          {
+            "word": "hard",
+            "pos": "adj.",
+            "meaning": "困难的"
+          },
+          {
+            "word": "enough",
+            "pos": "adv.",
+            "meaning": "足够地"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生命"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "prove",
+            "pos": "v.",
+            "meaning": "证明是"
+          },
+          {
             "word": "infinitely",
             "pos": "adv.",
-            "meaning": "无限地"
+            "meaning": "极其"
+          },
+          {
+            "word": "more",
+            "pos": "adv.",
+            "meaning": "更"
+          },
+          {
+            "word": "difficult",
+            "pos": "adj.",
+            "meaning": "困难的"
           }
         ]
       }
@@ -228,29 +343,19 @@
       "analysis": {
         "words": [
           {
-            "word": "The",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
             "word": "first",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "num.",
+            "meaning": "第一个"
           },
           {
             "word": "question",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "meaning": "问题"
           },
           {
             "word": "answer",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "回答"
           },
           {
             "word": "is",
@@ -259,38 +364,33 @@
           },
           {
             "word": "whether",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "pos": "conj.",
+            "meaning": "是否"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           },
           {
             "word": "can",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "aux. v.",
+            "meaning": "能，可以"
           },
           {
             "word": "actually",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "实际上"
           },
           {
             "word": "support",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "支持，维持"
           },
           {
             "word": "life",
             "pos": "n.",
-            "meaning": "生活"
+            "meaning": "生命"
           }
         ]
       }
@@ -305,9 +405,19 @@
       "analysis": {
         "words": [
           {
-            "word": "solar",
+            "word": "own",
             "pos": "adj.",
-            "meaning": "太阳的"
+            "meaning": "自己的"
+          },
+          {
+            "word": "solar system",
+            "pos": "n. phr.",
+            "meaning": "太阳系"
+          },
+          {
+            "word": "for example",
+            "pos": "adv. phr.",
+            "meaning": "例如"
           },
           {
             "word": "Venus",
@@ -315,9 +425,44 @@
             "meaning": "金星"
           },
           {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "far too",
+            "pos": "adv. phr.",
+            "meaning": "太…以致于"
+          },
+          {
+            "word": "hot",
+            "pos": "adj.",
+            "meaning": "热的"
+          },
+          {
             "word": "Mars",
             "pos": "n.",
             "meaning": "火星"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "cold",
+            "pos": "adj.",
+            "meaning": "冷的"
+          },
+          {
+            "word": "support",
+            "pos": "v.",
+            "meaning": "维持"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生命"
           }
         ]
       }
@@ -331,6 +476,71 @@
       "endTime": 68.34,
       "analysis": {
         "words": [
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "Earth",
+            "pos": "n.",
+            "meaning": "地球"
+          },
+          {
+            "word": "provides",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "ideal",
+            "pos": "adj.",
+            "meaning": "理想的"
+          },
+          {
+            "word": "conditions",
+            "pos": "n.",
+            "meaning": "条件"
+          },
+          {
+            "word": "even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "here",
+            "pos": "adv.",
+            "meaning": "这里"
+          },
+          {
+            "word": "take",
+            "pos": "v.",
+            "meaning": "花费"
+          },
+          {
+            "word": "more than",
+            "pos": "adv. phr.",
+            "meaning": "超过"
+          },
+          {
+            "word": "four billion",
+            "pos": "num.",
+            "meaning": "四十亿"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "for",
+            "pos": "prep.",
+            "meaning": "为了"
+          },
+          {
+            "word": "plant and animal life",
+            "pos": "n. phr.",
+            "meaning": "动植物生命"
+          },
           {
             "word": "evolve",
             "pos": "v.",
@@ -349,99 +559,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Whether",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "can",
-            "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           },
           {
             "word": "support",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "维持，支持"
           },
           {
             "word": "life",
             "pos": "n.",
-            "meaning": "生活"
+            "meaning": "生命"
           },
           {
-            "word": "depends",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "word": "depends on",
+            "pos": "v. phr.",
+            "meaning": "取决于"
           },
           {
             "word": "size",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
+            "meaning": "大小"
           },
           {
             "word": "brightness",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "its",
-            "pos": "adj.",
-            "meaning": "它的"
+            "meaning": "亮度"
           },
           {
             "word": "star",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "恒星"
           },
           {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "its",
-            "pos": "adj.",
-            "meaning": "它的"
+            "word": "that is",
+            "pos": "adv. phr.",
+            "meaning": "也就是说"
           },
           {
             "word": "sun",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "太阳"
           }
         ]
       }
@@ -456,169 +621,109 @@
       "analysis": {
         "words": [
           {
-            "word": "Imagine",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "word": "imagine",
+            "pos": "v.",
+            "meaning": "想象"
           },
           {
             "word": "star",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "恒星"
           },
           {
-            "word": "up",
-            "pos": "n.",
-            "meaning": "向上"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "word": "up to",
+            "pos": "prep. phr.",
+            "meaning": "多达, 至多"
           },
           {
             "word": "twenty",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "num.",
+            "meaning": "二十"
           },
           {
             "word": "times",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "倍数"
           },
           {
             "word": "larger",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "更大的"
           },
           {
             "word": "brighter",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
+            "pos": "adj.",
+            "meaning": "更亮的"
           },
           {
             "word": "hotter",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "更热的"
           },
           {
             "word": "than",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "our",
-            "pos": "adj.",
-            "meaning": "我们的"
+            "pos": "prep.",
+            "meaning": "比"
           },
           {
             "word": "own",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "自己的"
           },
           {
             "word": "sun",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "A",
-            "pos": "n.",
-            "meaning": "一个"
+            "meaning": "太阳"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           },
           {
             "word": "would",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "aux. v.",
+            "meaning": "将会"
           },
           {
-            "word": "have",
-            "pos": "n.",
-            "meaning": "有"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "word": "have to",
+            "pos": "v. phr.",
+            "meaning": "必须"
           },
           {
             "word": "be",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "a",
-            "pos": "n.",
-            "meaning": "一个"
+            "meaning": "是, 存在"
           },
           {
             "word": "very",
-            "pos": "n.",
+            "pos": "adv.",
             "meaning": "非常"
           },
           {
-            "word": "long",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "way",
-            "pos": "n.",
-            "meaning": "路/方式"
+            "word": "long way",
+            "pos": "n. phr.",
+            "meaning": "很远的距离"
           },
           {
             "word": "from",
-            "pos": "n.",
-            "meaning": "来自"
+            "pos": "prep.",
+            "meaning": "离, 从"
           },
           {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "be",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "capable",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "word": "capable of",
+            "pos": "adj. phr.",
+            "meaning": "能够, 有能力"
           },
           {
             "word": "supporting",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "维持, 供养"
           },
           {
             "word": "life",
             "pos": "n.",
-            "meaning": "生活"
+            "meaning": "生命"
           }
         ]
       }
@@ -635,12 +740,82 @@
           {
             "word": "alternatively",
             "pos": "adv.",
-            "meaning": "或者，作为替代"
+            "meaning": "或者，二选一地"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "star",
+            "pos": "n.",
+            "meaning": "恒星"
+          },
+          {
+            "word": "small",
+            "pos": "adj.",
+            "meaning": "小的"
+          },
+          {
+            "word": "life-supporting",
+            "pos": "adj.",
+            "meaning": "维持生命的"
+          },
+          {
+            "word": "planet",
+            "pos": "n.",
+            "meaning": "行星"
+          },
+          {
+            "word": "have to",
+            "pos": "v. phr.",
+            "meaning": "必须"
+          },
+          {
+            "word": "close",
+            "pos": "adj.",
+            "meaning": "近的，紧密的"
           },
           {
             "word": "orbit",
             "pos": "n.",
             "meaning": "轨道"
+          },
+          {
+            "word": "round",
+            "pos": "prep.",
+            "meaning": "围绕，环绕"
+          },
+          {
+            "word": "also",
+            "pos": "adv.",
+            "meaning": "也，此外"
+          },
+          {
+            "word": "provide",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "perfect",
+            "pos": "adj.",
+            "meaning": "完美的"
+          },
+          {
+            "word": "conditions",
+            "pos": "n.",
+            "meaning": "条件"
+          },
+          {
+            "word": "life forms",
+            "pos": "n. phr.",
+            "meaning": "生命形式"
+          },
+          {
+            "word": "develop",
+            "pos": "v.",
+            "meaning": "发展，进化"
           }
         ]
       }
@@ -655,9 +830,79 @@
       "analysis": {
         "words": [
           {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "how",
+            "pos": "adv.",
+            "meaning": "如何"
+          },
+          {
+            "word": "would",
+            "pos": "aux. v.",
+            "meaning": "会，将"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          },
+          {
+            "word": "planet",
+            "pos": "n.",
+            "meaning": "行星"
+          },
+          {
+            "word": "At present",
+            "pos": "adv. phr.",
+            "meaning": "目前"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
+          },
+          {
             "word": "telescope",
             "pos": "n.",
             "meaning": "望远镜"
+          },
+          {
+            "word": "in existence",
+            "pos": "adj. phr.",
+            "meaning": "现存的"
+          },
+          {
+            "word": "that",
+            "pos": "pron.",
+            "meaning": "那个"
+          },
+          {
+            "word": "capable of",
+            "pos": "adj. phr.",
+            "meaning": "能够"
+          },
+          {
+            "word": "detecting",
+            "pos": "v.",
+            "meaning": "探测"
+          },
+          {
+            "word": "presence",
+            "pos": "n.",
+            "meaning": "存在"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生命"
           }
         ]
       }
@@ -672,9 +917,44 @@
       "analysis": {
         "words": [
           {
+            "word": "development",
+            "pos": "n.",
+            "meaning": "发展"
+          },
+          {
+            "word": "such",
+            "pos": "adj.",
+            "meaning": "这样的"
+          },
+          {
+            "word": "telescope",
+            "pos": "n.",
+            "meaning": "望远镜"
+          },
+          {
+            "word": "one of",
+            "pos": "n. phr.",
+            "meaning": "其中之一"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "伟大的"
+          },
+          {
             "word": "astronomical",
             "pos": "adj.",
-            "meaning": "天文学的"
+            "meaning": "天文的"
+          },
+          {
+            "word": "projects",
+            "pos": "n.",
+            "meaning": "项目"
+          },
+          {
+            "word": "21st century",
+            "pos": "n. phr.",
+            "meaning": "21世纪"
           }
         ]
       }
@@ -689,179 +969,94 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
             "word": "impossible",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "不可能的"
           },
           {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
-          },
-          {
-            "word": "look",
-            "pos": "n.",
-            "meaning": "看"
-          },
-          {
-            "word": "for",
-            "pos": "n.",
-            "meaning": "为了"
+            "word": "look for",
+            "pos": "v. phr.",
+            "meaning": "寻找"
           },
           {
             "word": "life",
             "pos": "n.",
-            "meaning": "生活"
-          },
-          {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
+            "meaning": "生命"
           },
           {
             "word": "another",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "另一个"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           },
           {
             "word": "using",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "使用"
           },
           {
             "word": "earth-based",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "telescopes",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "Our",
             "pos": "adj.",
-            "meaning": "我们的"
-          },
-          {
-            "word": "own",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "warm",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "atmosphere",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "and",
-            "pos": "n.",
-            "meaning": "和"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "heat",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "generated",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "by",
-            "pos": "n.",
-            "meaning": "通过"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "meaning": "地基的"
           },
           {
             "word": "telescope",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "望远镜"
           },
           {
-            "word": "would",
+            "word": "own",
+            "pos": "adj.",
+            "meaning": "自己的"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "温暖的"
+          },
+          {
+            "word": "atmosphere",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "大气层"
           },
           {
-            "word": "make",
+            "word": "heat",
             "pos": "n.",
-            "meaning": "制作"
+            "meaning": "热量"
           },
           {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "impossible",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
+            "word": "generate",
             "pos": "v.",
-            "meaning": "去/向"
+            "meaning": "产生"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "由，被"
+          },
+          {
+            "word": "make impossible",
+            "pos": "v. phr.",
+            "meaning": "使…不可能"
           },
           {
             "word": "detect",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "探测"
           },
           {
-            "word": "objects",
+            "word": "object",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "物体"
           },
           {
-            "word": "as",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "small",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "as",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "planets",
-            "pos": "n.",
-            "meaning": "???"
+            "word": "as small as",
+            "pos": "adj. phr.",
+            "meaning": "像…一样小"
           }
         ]
       }
@@ -876,9 +1071,79 @@
       "analysis": {
         "words": [
           {
-            "word": "particle",
+            "word": "Even",
+            "pos": "adv.",
+            "meaning": "甚至"
+          },
+          {
+            "word": "telescope",
             "pos": "n.",
-            "meaning": "微粒"
+            "meaning": "望远镜"
+          },
+          {
+            "word": "in orbit",
+            "pos": "adv. phr.",
+            "meaning": "在轨道上"
+          },
+          {
+            "word": "round",
+            "pos": "prep.",
+            "meaning": "围绕"
+          },
+          {
+            "word": "earth",
+            "pos": "n.",
+            "meaning": "地球"
+          },
+          {
+            "word": "like",
+            "pos": "prep.",
+            "meaning": "像"
+          },
+          {
+            "word": "very",
+            "pos": "adv.",
+            "meaning": "非常"
+          },
+          {
+            "word": "successful",
+            "pos": "adj.",
+            "meaning": "成功的"
+          },
+          {
+            "word": "Hubble telescope",
+            "pos": "n. phr.",
+            "meaning": "哈勃望远镜"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "suitable",
+            "pos": "adj.",
+            "meaning": "合适的"
+          },
+          {
+            "word": "because of",
+            "pos": "prep. phr.",
+            "meaning": "因为"
+          },
+          {
+            "word": "dust particles",
+            "pos": "n. phr.",
+            "meaning": "尘埃颗粒"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "solar system",
+            "pos": "n. phr.",
+            "meaning": "太阳系"
           }
         ]
       }
@@ -893,9 +1158,94 @@
       "analysis": {
         "words": [
           {
+            "word": "telescope",
+            "pos": "n.",
+            "meaning": "望远镜"
+          },
+          {
+            "word": "would have to",
+            "pos": "aux. v. phr.",
+            "meaning": "必须"
+          },
+          {
+            "word": "as far away as",
+            "pos": "adv. phr.",
+            "meaning": "和...一样远"
+          },
+          {
+            "word": "planet",
+            "pos": "n.",
+            "meaning": "行星"
+          },
+          {
             "word": "Jupiter",
             "pos": "n.",
             "meaning": "木星"
+          },
+          {
+            "word": "look for",
+            "pos": "v. phr.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生命"
+          },
+          {
+            "word": "outer space",
+            "pos": "n. phr.",
+            "meaning": "外太空"
+          },
+          {
+            "word": "because",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "dust",
+            "pos": "n.",
+            "meaning": "尘埃"
+          },
+          {
+            "word": "becomes",
+            "pos": "v.",
+            "meaning": "变得"
+          },
+          {
+            "word": "thinner",
+            "pos": "adj.",
+            "meaning": "更薄的"
+          },
+          {
+            "word": "further",
+            "pos": "adv.",
+            "meaning": "更远地"
+          },
+          {
+            "word": "travel",
+            "pos": "v.",
+            "meaning": "移动"
+          },
+          {
+            "word": "towards",
+            "pos": "prep.",
+            "meaning": "朝向"
+          },
+          {
+            "word": "outer edges",
+            "pos": "n. phr.",
+            "meaning": "外部边缘"
+          },
+          {
+            "word": "own",
+            "pos": "adj.",
+            "meaning": "自己的"
+          },
+          {
+            "word": "solar system",
+            "pos": "n. phr.",
+            "meaning": "太阳系"
           }
         ]
       }
@@ -910,9 +1260,84 @@
       "analysis": {
         "words": [
           {
-            "word": "blot",
+            "word": "once",
+            "pos": "conj.",
+            "meaning": "一旦"
+          },
+          {
+            "word": "detected",
             "pos": "v.",
-            "meaning": "遮盖"
+            "meaning": "探测到"
+          },
+          {
+            "word": "planet",
+            "pos": "n.",
+            "meaning": "行星"
+          },
+          {
+            "word": "would have to",
+            "pos": "aux. v. phr.",
+            "meaning": "将不得不"
+          },
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到"
+          },
+          {
+            "word": "way",
+            "pos": "n.",
+            "meaning": "方法"
+          },
+          {
+            "word": "blot out",
+            "pos": "v. phr.",
+            "meaning": "遮住, 抹去"
+          },
+          {
+            "word": "light",
+            "pos": "n.",
+            "meaning": "光线"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "来自"
+          },
+          {
+            "word": "star",
+            "pos": "n.",
+            "meaning": "恒星"
+          },
+          {
+            "word": "so that",
+            "pos": "conj. phr.",
+            "meaning": "以便, 为了"
+          },
+          {
+            "word": "would be able to",
+            "pos": "aux. v. phr.",
+            "meaning": "将能"
+          },
+          {
+            "word": "see",
+            "pos": "v.",
+            "meaning": "看到"
+          },
+          {
+            "word": "properly",
+            "pos": "adv.",
+            "meaning": "恰当地, 正确地"
+          },
+          {
+            "word": "analyse",
+            "pos": "v.",
+            "meaning": "分析"
+          },
+          {
+            "word": "atmosphere",
+            "pos": "n.",
+            "meaning": "大气层"
           }
         ]
       }
@@ -926,6 +1351,51 @@
       "endTime": 188.84,
       "analysis": {
         "words": [
+          {
+            "word": "in the first instance",
+            "pos": "adv. phr.",
+            "meaning": "首先，一开始"
+          },
+          {
+            "word": "look for",
+            "pos": "v. phr.",
+            "meaning": "寻找"
+          },
+          {
+            "word": "plant life",
+            "pos": "n. phr.",
+            "meaning": "植物生命"
+          },
+          {
+            "word": "rather than",
+            "pos": "conj.",
+            "meaning": "而不是"
+          },
+          {
+            "word": "little green men",
+            "pos": "n. phr.",
+            "meaning": "小绿人 (外星人)"
+          },
+          {
+            "word": "life forms",
+            "pos": "n. phr.",
+            "meaning": "生命形式"
+          },
+          {
+            "word": "most likely",
+            "pos": "adv. phr.",
+            "meaning": "最有可能地"
+          },
+          {
+            "word": "develop",
+            "pos": "v.",
+            "meaning": "发展，形成"
+          },
+          {
+            "word": "planet",
+            "pos": "n.",
+            "meaning": "行星"
+          },
           {
             "word": "bacteria",
             "pos": "n.",
@@ -944,149 +1414,64 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
             "word": "bacteria",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "that",
-            "pos": "n.",
-            "meaning": "那个"
-          },
-          {
-            "word": "have",
-            "pos": "n.",
-            "meaning": "有"
+            "meaning": "细菌"
           },
           {
             "word": "generated",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "pos": "v.",
+            "meaning": "产生，生成"
           },
           {
             "word": "oxygen",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "we",
-            "pos": "pron.",
-            "meaning": "我们"
+            "meaning": "氧气"
           },
           {
             "word": "breathe",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
+            "pos": "v.",
+            "meaning": "呼吸"
           },
           {
             "word": "earth",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "For",
-            "pos": "n.",
-            "meaning": "为了"
+            "meaning": "地球"
           },
           {
             "word": "most",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
-          },
-          {
-            "word": "earth's",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "pron.",
+            "meaning": "大部分"
           },
           {
             "word": "history",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "they",
-            "pos": "n.",
-            "meaning": "他们"
-          },
-          {
-            "word": "have",
-            "pos": "n.",
-            "meaning": "有"
+            "meaning": "历史"
           },
           {
             "word": "been",
             "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "the",
-            "pos": "n.",
-            "meaning": "这/那"
+            "meaning": "存在"
           },
           {
             "word": "only",
-            "pos": "n.",
-            "meaning": "只有"
+            "pos": "adj.",
+            "meaning": "唯一的"
           },
           {
             "word": "form",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "meaning": "形式，种类"
           },
           {
             "word": "life",
             "pos": "n.",
-            "meaning": "生活"
-          },
-          {
-            "word": "on",
-            "pos": "n.",
-            "meaning": "在...上"
-          },
-          {
-            "word": "our",
-            "pos": "adj.",
-            "meaning": "我们的"
+            "meaning": "生命"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           }
         ]
       }
@@ -1101,14 +1486,84 @@
       "analysis": {
         "words": [
           {
-            "word": "dweller",
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "Earth-dwellers",
             "pos": "n.",
-            "meaning": "居民"
+            "meaning": "地球居民"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
           },
           {
             "word": "cherish",
             "pos": "v.",
-            "meaning": "怀抱，珍爱"
+            "meaning": "珍视"
+          },
+          {
+            "word": "hope",
+            "pos": "n.",
+            "meaning": "希望"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "visited",
+            "pos": "v.",
+            "meaning": "被拜访"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "由，被"
+          },
+          {
+            "word": "little green men",
+            "pos": "n. phr.",
+            "meaning": "小绿人 (外星人)"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "be able to",
+            "pos": "aux. v. phr.",
+            "meaning": "能够"
+          },
+          {
+            "word": "communicate with",
+            "pos": "v. phr.",
+            "meaning": "与...交流"
+          },
+          {
+            "word": "But",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
+          },
+          {
+            "word": "in the realms of",
+            "pos": "prep. phr.",
+            "meaning": "在...领域"
+          },
+          {
+            "word": "science fiction",
+            "pos": "n. phr.",
+            "meaning": "科幻小说"
           }
         ]
       }
@@ -1124,118 +1579,78 @@
         "words": [
           {
             "word": "If",
-            "pos": "n.",
+            "pos": "conj.",
             "meaning": "如果"
           },
           {
-            "word": "we",
-            "pos": "pron.",
-            "meaning": "我们"
-          },
-          {
-            "word": "were",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
             "word": "able",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "to",
-            "pos": "v.",
-            "meaning": "去/向"
+            "pos": "adj.",
+            "meaning": "能够的"
           },
           {
             "word": "discover",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "v.",
+            "meaning": "发现"
           },
           {
             "word": "lowly",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "低级的"
           },
           {
             "word": "forms",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "meaning": "形式"
           },
           {
             "word": "life",
             "pos": "n.",
-            "meaning": "生活"
+            "meaning": "生命"
           },
           {
             "word": "like",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "prep.",
+            "meaning": "像...一样"
           },
           {
             "word": "bacteria",
             "pos": "n.",
-            "meaning": "???"
+            "meaning": "细菌"
           },
           {
             "word": "on",
-            "pos": "n.",
+            "pos": "prep.",
             "meaning": "在...上"
           },
           {
             "word": "another",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adj.",
+            "meaning": "另一个"
           },
           {
             "word": "planet",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "it",
-            "pos": "n.",
-            "meaning": "它"
-          },
-          {
-            "word": "would",
-            "pos": "n.",
-            "meaning": "???"
+            "meaning": "行星"
           },
           {
             "word": "completely",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "adv.",
+            "meaning": "完全地"
           },
           {
             "word": "change",
-            "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "our",
-            "pos": "adj.",
-            "meaning": "我们的"
+            "pos": "v.",
+            "meaning": "改变"
           },
           {
             "word": "view",
             "pos": "n.",
-            "meaning": "???"
-          },
-          {
-            "word": "of",
-            "pos": "adj.",
-            "meaning": "的"
+            "meaning": "观点"
           },
           {
             "word": "ourselves",
-            "pos": "n.",
-            "meaning": "???"
+            "pos": "pron.",
+            "meaning": "我们自己"
           }
         ]
       }
@@ -1250,9 +1665,74 @@
       "analysis": {
         "words": [
           {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "正如"
+          },
+          {
+            "word": "Daniel Goldin",
+            "pos": "n. phr.",
+            "meaning": "丹尼尔·戈尔丁"
+          },
+          {
+            "word": "NASA",
+            "pos": "n.",
+            "meaning": "美国宇航局"
+          },
+          {
+            "word": "observe",
+            "pos": "v.",
+            "meaning": "观察到，评论道"
+          },
+          {
+            "word": "finding",
+            "pos": "n.",
+            "meaning": "发现"
+          },
+          {
+            "word": "life",
+            "pos": "n.",
+            "meaning": "生命"
+          },
+          {
+            "word": "elsewhere",
+            "pos": "adv.",
+            "meaning": "在别处"
+          },
+          {
+            "word": "change",
+            "pos": "v.",
+            "meaning": "改变"
+          },
+          {
+            "word": "everything",
+            "pos": "pron.",
+            "meaning": "一切"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
+          },
+          {
+            "word": "human",
+            "pos": "adj.",
+            "meaning": "人类的"
+          },
+          {
             "word": "endeavour",
             "pos": "n.",
-            "meaning": "努力"
+            "meaning": "努力，事业"
+          },
+          {
+            "word": "thought",
+            "pos": "n.",
+            "meaning": "思想"
+          },
+          {
+            "word": "unchanged",
+            "pos": "adj.",
+            "meaning": "未改变的"
           }
         ]
       }

@@ -31,9 +31,9 @@
       "analysis": {
         "words": [
           {
-            "word": "fact",
+            "word": "facts",
             "pos": "n.",
-            "meaning": "事实，实际情况"
+            "meaning": "事实"
           }
         ]
       }
@@ -48,19 +48,29 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音磁带"
+            "meaning": "磁带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
           },
           {
             "word": "answer",
-            "pos": "v./n.",
+            "pos": "v.",
             "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "adj.",
+            "meaning": "这个"
           },
           {
             "word": "question",
@@ -80,14 +90,19 @@
       "analysis": {
         "words": [
           {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
             "word": "consequence",
             "pos": "n.",
-            "meaning": "后果"
+            "meaning": "结果"
           },
           {
             "word": "editor",
             "pos": "n.",
-            "meaning": "编辑，主编"
+            "meaning": "编辑"
           },
           {
             "word": "insistence",
@@ -95,9 +110,14 @@
             "meaning": "坚持"
           },
           {
+            "word": "facts",
+            "pos": "n.",
+            "meaning": "事实"
+          },
+          {
             "word": "statistics",
             "pos": "n.",
-            "meaning": "统计数字"
+            "meaning": "统计数据"
           }
         ]
       }
@@ -112,14 +132,54 @@
       "analysis": {
         "words": [
           {
-            "word": "magazine",
+            "word": "editors",
+            "pos": "n.",
+            "meaning": "编辑"
+          },
+          {
+            "word": "newspapers",
+            "pos": "n.",
+            "meaning": "报纸"
+          },
+          {
+            "word": "magazines",
             "pos": "n.",
             "meaning": "杂志"
           },
           {
-            "word": "extreme",
-            "pos": "n./adj.",
-            "meaning": "极端"
+            "word": "often",
+            "pos": "adv.",
+            "meaning": "经常"
+          },
+          {
+            "word": "go to extremes",
+            "pos": "v. phr.",
+            "meaning": "走极端"
+          },
+          {
+            "word": "provide",
+            "pos": "v.",
+            "meaning": "提供"
+          },
+          {
+            "word": "readers",
+            "pos": "n.",
+            "meaning": "读者"
+          },
+          {
+            "word": "unimportant",
+            "pos": "adj.",
+            "meaning": "不重要的"
+          },
+          {
+            "word": "facts",
+            "pos": "n.",
+            "meaning": "事实"
+          },
+          {
+            "word": "statistics",
+            "pos": "n.",
+            "meaning": "统计数据"
           }
         ]
       }
@@ -134,19 +194,59 @@
       "analysis": {
         "words": [
           {
+            "word": "Last year",
+            "pos": "n. phr.",
+            "meaning": "去年"
+          },
+          {
             "word": "journalist",
             "pos": "n.",
             "meaning": "记者"
           },
           {
-            "word": "instruct",
+            "word": "instructed",
             "pos": "v.",
-            "meaning": "指示，指导"
+            "meaning": "受命，指示"
+          },
+          {
+            "word": "well-known",
+            "pos": "adj.",
+            "meaning": "著名的"
+          },
+          {
+            "word": "magazine",
+            "pos": "n.",
+            "meaning": "杂志"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "撰写"
+          },
+          {
+            "word": "article",
+            "pos": "n.",
+            "meaning": "文章"
+          },
+          {
+            "word": "president",
+            "pos": "n.",
+            "meaning": "总统"
           },
           {
             "word": "palace",
             "pos": "n.",
-            "meaning": "宫殿，府邸"
+            "meaning": "宫殿"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "African",
+            "pos": "adj.",
+            "meaning": "非洲的"
           },
           {
             "word": "republic",
@@ -166,9 +266,44 @@
       "analysis": {
         "words": [
           {
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "article",
+            "pos": "n.",
+            "meaning": "文章"
+          },
+          {
+            "word": "arrived",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "editor",
+            "pos": "n.",
+            "meaning": "编辑"
+          },
+          {
+            "word": "read",
+            "pos": "v.",
+            "meaning": "阅读"
+          },
+          {
+            "word": "first",
+            "pos": "num.",
+            "meaning": "第一的"
+          },
+          {
             "word": "sentence",
             "pos": "n.",
             "meaning": "句子"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
           },
           {
             "word": "refused",
@@ -178,7 +313,7 @@
           {
             "word": "publish",
             "pos": "v.",
-            "meaning": "出版，发表"
+            "meaning": "发表"
           }
         ]
       }
@@ -193,9 +328,54 @@
       "analysis": {
         "words": [
           {
+            "word": "article",
+            "pos": "n.",
+            "meaning": "文章"
+          },
+          {
+            "word": "began",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "hundreds",
+            "pos": "num.",
+            "meaning": "几百"
+          },
+          {
+            "word": "steps",
+            "pos": "n.",
+            "meaning": "台阶"
+          },
+          {
+            "word": "lead to",
+            "pos": "v. phr.",
+            "meaning": "通向"
+          },
+          {
+            "word": "high",
+            "pos": "adj.",
+            "meaning": "高的"
+          },
+          {
+            "word": "wall",
+            "pos": "n.",
+            "meaning": "墙"
+          },
+          {
             "word": "surrounds",
             "pos": "v.",
-            "meaning": "围绕"
+            "meaning": "环绕"
+          },
+          {
+            "word": "president",
+            "pos": "n.",
+            "meaning": "总统"
+          },
+          {
+            "word": "palace",
+            "pos": "n.",
+            "meaning": "宫殿"
           }
         ]
       }
@@ -210,19 +390,64 @@
       "analysis": {
         "words": [
           {
+            "word": "editor",
+            "pos": "n.",
+            "meaning": "编辑"
+          },
+          {
+            "word": "at once",
+            "pos": "adv. phr.",
+            "meaning": "立刻，马上"
+          },
+          {
+            "word": "sent",
+            "pos": "v.",
+            "meaning": "寄送，发送"
+          },
+          {
+            "word": "journalist",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
             "word": "fax",
-            "pos": "n./v.",
+            "pos": "n.",
             "meaning": "传真"
+          },
+          {
+            "word": "instructing",
+            "pos": "v.",
+            "meaning": "指示，命令"
+          },
+          {
+            "word": "find out",
+            "pos": "v. phr.",
+            "meaning": "查明，发现"
           },
           {
             "word": "exact",
             "pos": "adj.",
-            "meaning": "确切的"
+            "meaning": "精确的"
+          },
+          {
+            "word": "number",
+            "pos": "n.",
+            "meaning": "数目，数量"
+          },
+          {
+            "word": "steps",
+            "pos": "n.",
+            "meaning": "台阶"
           },
           {
             "word": "height",
             "pos": "n.",
             "meaning": "高度"
+          },
+          {
+            "word": "wall",
+            "pos": "n.",
+            "meaning": "墙"
           }
         ]
       }
@@ -237,14 +462,54 @@
       "analysis": {
         "words": [
           {
+            "word": "journalist",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
             "word": "immediately",
             "pos": "adv.",
-            "meaning": "立即"
+            "meaning": "立刻，马上"
+          },
+          {
+            "word": "set out",
+            "pos": "v. phr.",
+            "meaning": "着手，出发"
           },
           {
             "word": "obtain",
             "pos": "v.",
-            "meaning": "获得"
+            "meaning": "获取，得到"
+          },
+          {
+            "word": "these",
+            "pos": "pron.",
+            "meaning": "这些"
+          },
+          {
+            "word": "important",
+            "pos": "adj.",
+            "meaning": "重要的"
+          },
+          {
+            "word": "facts",
+            "pos": "n.",
+            "meaning": "事实"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "took a long time",
+            "pos": "v. phr.",
+            "meaning": "花很长时间"
+          },
+          {
+            "word": "send",
+            "pos": "v.",
+            "meaning": "发送"
           }
         ]
       }
@@ -264,14 +529,34 @@
             "meaning": "与此同时"
           },
           {
-            "word": "impatient",
-            "pos": "adj.",
-            "meaning": "不耐烦的"
+            "word": "editor",
+            "pos": "n.",
+            "meaning": "编辑"
           },
           {
-            "word": "press",
-            "pos": "n./v.",
-            "meaning": "出版，压力"
+            "word": "get impatient",
+            "pos": "v. phr.",
+            "meaning": "变得不耐烦"
+          },
+          {
+            "word": "for",
+            "pos": "conj.",
+            "meaning": "因为"
+          },
+          {
+            "word": "magazine",
+            "pos": "n.",
+            "meaning": "杂志"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          },
+          {
+            "word": "go to press",
+            "pos": "v. phr.",
+            "meaning": "付印"
           }
         ]
       }
@@ -286,9 +571,49 @@
       "analysis": {
         "words": [
           {
+            "word": "sent",
+            "pos": "v.",
+            "meaning": "寄送"
+          },
+          {
+            "word": "journalist",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
+            "word": "two",
+            "pos": "num.",
+            "meaning": "二"
+          },
+          {
+            "word": "more",
+            "pos": "adj.",
+            "meaning": "更多的"
+          },
+          {
+            "word": "faxes",
+            "pos": "n.",
+            "meaning": "传真"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "received",
+            "pos": "v.",
+            "meaning": "收到"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
+          },
+          {
             "word": "reply",
-            "pos": "n./v.",
-            "meaning": "回答，回信"
+            "pos": "n.",
+            "meaning": "回复"
           }
         ]
       }
@@ -303,14 +628,49 @@
       "analysis": {
         "words": [
           {
-            "word": "inform",
+            "word": "sent",
             "pos": "v.",
-            "meaning": "通知"
+            "meaning": "发送"
+          },
+          {
+            "word": "yet another",
+            "pos": "adj. phr.",
+            "meaning": "又一个"
+          },
+          {
+            "word": "fax",
+            "pos": "n.",
+            "meaning": "传真"
+          },
+          {
+            "word": "informing",
+            "pos": "v.",
+            "meaning": "告知"
+          },
+          {
+            "word": "journalist",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
+            "word": "if",
+            "pos": "conj.",
+            "meaning": "如果"
+          },
+          {
+            "word": "reply",
+            "pos": "v.",
+            "meaning": "回复"
+          },
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
           },
           {
             "word": "fired",
             "pos": "v.",
-            "meaning": "被开除，解雇"
+            "meaning": "解雇"
           }
         ]
       }
@@ -325,19 +685,64 @@
       "analysis": {
         "words": [
           {
-            "word": "failed",
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "journalist",
+            "pos": "n.",
+            "meaning": "记者"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再次"
+          },
+          {
+            "word": "fail",
             "pos": "v.",
-            "meaning": "失败，没能"
+            "meaning": "未能，失败"
+          },
+          {
+            "word": "reply",
+            "pos": "v.",
+            "meaning": "回复，答复"
+          },
+          {
+            "word": "editor",
+            "pos": "n.",
+            "meaning": "编辑"
           },
           {
             "word": "reluctantly",
             "pos": "adv.",
-            "meaning": "勉强地，不情愿地"
+            "meaning": "不情愿地"
+          },
+          {
+            "word": "publish",
+            "pos": "v.",
+            "meaning": "出版，发表"
+          },
+          {
+            "word": "article",
+            "pos": "n.",
+            "meaning": "文章"
+          },
+          {
+            "word": "as",
+            "pos": "conj.",
+            "meaning": "如同，按照"
           },
           {
             "word": "originally",
             "pos": "adv.",
-            "meaning": "起初，原先"
+            "meaning": "最初，原来"
+          },
+          {
+            "word": "write",
+            "pos": "v.",
+            "meaning": "写"
           }
         ]
       }
@@ -352,9 +757,44 @@
       "analysis": {
         "words": [
           {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "周"
+          },
+          {
+            "word": "later",
+            "pos": "adv.",
+            "meaning": "后来"
+          },
+          {
+            "word": "editor",
+            "pos": "n.",
+            "meaning": "编辑"
+          },
+          {
+            "word": "at last",
+            "pos": "adv. phr.",
+            "meaning": "最终"
+          },
+          {
             "word": "received",
             "pos": "v.",
             "meaning": "收到"
+          },
+          {
+            "word": "fax",
+            "pos": "n.",
+            "meaning": "传真"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "journalist",
+            "pos": "n.",
+            "meaning": "记者"
           }
         ]
       }
@@ -369,14 +809,39 @@
       "analysis": {
         "words": [
           {
-            "word": "arrested",
-            "pos": "v.",
-            "meaning": "逮捕"
+            "word": "Not only",
+            "pos": "adv. phr.",
+            "meaning": "不仅"
           },
           {
-            "word": "prison",
+            "word": "poor",
+            "pos": "adj.",
+            "meaning": "可怜的"
+          },
+          {
+            "word": "man",
             "pos": "n.",
-            "meaning": "监狱"
+            "meaning": "人"
+          },
+          {
+            "word": "arrested",
+            "pos": "v.",
+            "meaning": "被捕"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "sent to prison",
+            "pos": "v. phr.",
+            "meaning": "送进监狱"
+          },
+          {
+            "word": "as well",
+            "pos": "adv. phr.",
+            "meaning": "也，同样"
           }
         ]
       }
@@ -391,9 +856,54 @@
       "analysis": {
         "words": [
           {
+            "word": "However",
+            "pos": "adv.",
+            "meaning": "然而"
+          },
+          {
+            "word": "at last",
+            "pos": "adv. phr.",
+            "meaning": "终于"
+          },
+          {
             "word": "allowed",
             "pos": "v.",
             "meaning": "允许"
+          },
+          {
+            "word": "send",
+            "pos": "v.",
+            "meaning": "发送"
+          },
+          {
+            "word": "fax",
+            "pos": "n.",
+            "meaning": "传真"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "它 (关系代词)"
+          },
+          {
+            "word": "informed",
+            "pos": "v.",
+            "meaning": "告知"
+          },
+          {
+            "word": "editor",
+            "pos": "n.",
+            "meaning": "编辑"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "arrested",
+            "pos": "v.",
+            "meaning": "被捕"
           }
         ]
       }
@@ -408,9 +918,54 @@
       "analysis": {
         "words": [
           {
+            "word": "while",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
             "word": "counting",
             "pos": "v.",
             "meaning": "数数"
+          },
+          {
+            "word": "1,084",
+            "pos": "num.",
+            "meaning": "一千零八十四"
+          },
+          {
+            "word": "steps",
+            "pos": "n.",
+            "meaning": "阶梯"
+          },
+          {
+            "word": "leading to",
+            "pos": "v. phr.",
+            "meaning": "通向"
+          },
+          {
+            "word": "15th",
+            "pos": "num.",
+            "meaning": "第十五"
+          },
+          {
+            "word": "foot wall",
+            "pos": "n. phr.",
+            "meaning": "脚墙"
+          },
+          {
+            "word": "surrounded",
+            "pos": "v.",
+            "meaning": "环绕"
+          },
+          {
+            "word": "president",
+            "pos": "n.",
+            "meaning": "总统"
+          },
+          {
+            "word": "palace",
+            "pos": "n.",
+            "meaning": "宫殿"
           }
         ]
       }

@@ -29,7 +29,18 @@
       "startTime": 2.26,
       "endTime": 7.91,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          }
+        ]
       }
     },
     {
@@ -42,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "磁带"
           },
           {
             "word": "then",
@@ -73,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -94,14 +95,64 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "Why",
+            "pos": "adv.",
+            "meaning": "为什么"
           },
           {
-            "word": "Name",
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有"
+          },
+          {
+            "word": "risk",
+            "pos": "n.",
+            "meaning": "风险"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "对于"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "prints",
+            "pos": "v.",
+            "meaning": "打印"
+          },
+          {
+            "word": "customer's",
+            "pos": "n.",
+            "meaning": "顾客的"
+          },
+          {
+            "word": "name",
             "pos": "n.",
             "meaning": "名字"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "在...上"
+          },
+          {
+            "word": "cheques",
+            "pos": "n.",
+            "meaning": "支票"
           }
         ]
       }
@@ -116,14 +167,44 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "When",
+            "pos": "conj.",
+            "meaning": "当...时"
           },
           {
-            "word": "Is",
+            "word": "anyone",
+            "pos": "pron.",
+            "meaning": "任何人"
+          },
+          {
+            "word": "opens",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "开设"
+          },
+          {
+            "word": "current account",
+            "pos": "n. phr.",
+            "meaning": "活期账户"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "lend",
+            "pos": "v.",
+            "meaning": "借给"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
           }
         ]
       }
@@ -138,9 +219,59 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
-            "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "word": "repayment",
+            "pos": "n.",
+            "meaning": "偿还"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "此款项"
+          },
+          {
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可以"
+          },
+          {
+            "word": "demand",
+            "pos": "v.",
+            "meaning": "要求"
+          },
+          {
+            "word": "at any time",
+            "pos": "adv. phr.",
+            "meaning": "随时"
+          },
+          {
+            "word": "either...or...",
+            "pos": "conj. phr.",
+            "meaning": "要么...要么..."
+          },
+          {
+            "word": "in cash",
+            "pos": "adv. phr.",
+            "meaning": "用现金"
+          },
+          {
+            "word": "drawing a cheque",
+            "pos": "v. phr.",
+            "meaning": "开支票"
+          },
+          {
+            "word": "in favour of",
+            "pos": "prep. phr.",
+            "meaning": "以...为受益人"
+          },
+          {
+            "word": "another",
+            "pos": "adj.",
+            "meaning": "另一个"
+          },
+          {
+            "word": "person",
+            "pos": "n.",
+            "meaning": "人"
           }
         ]
       }
@@ -155,14 +286,44 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "primarily",
+            "pos": "adv.",
+            "meaning": "主要地"
+          },
+          {
+            "word": "banker-customer",
+            "pos": "adj.",
+            "meaning": "银行与客户的"
+          },
+          {
+            "word": "relationship",
+            "pos": "n.",
+            "meaning": "关系"
+          },
+          {
+            "word": "be",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "That",
+            "word": "that",
             "pos": "pron.",
             "meaning": "那个"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "debtor",
+            "pos": "n.",
+            "meaning": "债务人"
+          },
+          {
+            "word": "creditor",
+            "pos": "n.",
+            "meaning": "债权人"
           }
         ]
       }
@@ -177,9 +338,49 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "哪位"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "哪种"
+          },
+          {
+            "word": "depending on",
+            "pos": "v. phr.",
+            "meaning": "取决于"
+          },
+          {
+            "word": "whether",
+            "pos": "conj.",
+            "meaning": "是否"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "account",
+            "pos": "n.",
+            "meaning": "账户"
+          },
+          {
+            "word": "in credit",
+            "pos": "adj. phr.",
+            "meaning": "有盈余"
+          },
+          {
+            "word": "or",
+            "pos": "conj.",
+            "meaning": "或者"
+          },
+          {
+            "word": "overdrawn",
+            "pos": "adj.",
+            "meaning": "透支的"
           }
         ]
       }
@@ -194,9 +395,34 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是，然而"
+          },
+          {
+            "word": "in addition to",
+            "pos": "prep. phr.",
+            "meaning": "除了…之外"
+          },
+          {
+            "word": "that",
+            "pos": "adj.",
             "meaning": "那个"
+          },
+          {
+            "word": "basically",
+            "pos": "adv.",
+            "meaning": "基本上"
+          },
+          {
+            "word": "simple",
+            "pos": "adj.",
+            "meaning": "简单的"
+          },
+          {
+            "word": "concept",
+            "pos": "n.",
+            "meaning": "概念"
           }
         ]
       }
@@ -211,9 +437,34 @@
       "analysis": {
         "words": [
           {
-            "word": "Number",
+            "word": "bank",
             "pos": "n.",
-            "meaning": "号码，数字"
+            "meaning": "银行"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "owe",
+            "pos": "v.",
+            "meaning": "欠；有义务"
+          },
+          {
+            "word": "large number of",
+            "pos": "adj. phr.",
+            "meaning": "大量"
+          },
+          {
+            "word": "obligations",
+            "pos": "n.",
+            "meaning": "义务；职责"
+          },
+          {
+            "word": "one another",
+            "pos": "pron. phr.",
+            "meaning": "互相；彼此"
           }
         ]
       }
@@ -226,7 +477,63 @@
       "startTime": 49.72,
       "endTime": 58.86,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "Many",
+            "pos": "pron.",
+            "meaning": "许多"
+          },
+          {
+            "word": "obligations",
+            "pos": "n.",
+            "meaning": "义务；责任"
+          },
+          {
+            "word": "give rise to",
+            "pos": "v. phr.",
+            "meaning": "引起；导致"
+          },
+          {
+            "word": "problems",
+            "pos": "n.",
+            "meaning": "问题"
+          },
+          {
+            "word": "complications",
+            "pos": "n.",
+            "meaning": "复杂情况"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "bank customer",
+            "pos": "n. phr.",
+            "meaning": "银行客户"
+          },
+          {
+            "word": "unlike",
+            "pos": "prep.",
+            "meaning": "不像"
+          },
+          {
+            "word": "say",
+            "pos": "adv.",
+            "meaning": "比如说"
+          },
+          {
+            "word": "buyer",
+            "pos": "n.",
+            "meaning": "买方"
+          },
+          {
+            "word": "goods",
+            "pos": "n.",
+            "meaning": "货物"
+          }
+        ]
       }
     },
     {
@@ -239,14 +546,24 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "cannot",
+            "pos": "aux. v.",
+            "meaning": "不能"
           },
           {
-            "word": "Is",
+            "word": "complain",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "抱怨"
+          },
+          {
+            "word": "law",
+            "pos": "n.",
+            "meaning": "法律"
+          },
+          {
+            "word": "loaded against",
+            "pos": "v. phr.",
+            "meaning": "不利于"
           }
         ]
       }
@@ -261,9 +578,54 @@
       "analysis": {
         "words": [
           {
-            "word": "Not",
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "obey",
+            "pos": "v.",
+            "meaning": "服从"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "instructions",
+            "pos": "n.",
+            "meaning": "指示"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "并且"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "those",
+            "pos": "pron.",
+            "meaning": "那些"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "属于"
+          },
+          {
+            "word": "anyone else",
+            "pos": "pron. phr.",
+            "meaning": "任何人"
           }
         ]
       }
@@ -276,7 +638,78 @@
       "startTime": 67.79,
       "endTime": 77.87,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当...时"
+          },
+          {
+            "word": "for example",
+            "pos": "adv. phr.",
+            "meaning": "例如"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "客户"
+          },
+          {
+            "word": "first",
+            "pos": "adv.",
+            "meaning": "初次"
+          },
+          {
+            "word": "opens",
+            "pos": "v.",
+            "meaning": "开设"
+          },
+          {
+            "word": "account",
+            "pos": "n.",
+            "meaning": "账户"
+          },
+          {
+            "word": "instructs",
+            "pos": "v.",
+            "meaning": "指示"
+          },
+          {
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "debit",
+            "pos": "v.",
+            "meaning": "扣款"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "仅仅"
+          },
+          {
+            "word": "in respect of",
+            "pos": "prep. phr.",
+            "meaning": "关于"
+          },
+          {
+            "word": "cheques",
+            "pos": "n.",
+            "meaning": "支票"
+          },
+          {
+            "word": "drawn",
+            "pos": "v.",
+            "meaning": "开出 (支票)"
+          },
+          {
+            "word": "by himself",
+            "pos": "pron. phr.",
+            "meaning": "本人，亲自"
+          }
+        ]
       }
     },
     {
@@ -289,14 +722,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
+            "word": "give",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "提供，给出"
           },
           {
-            "word": "Very",
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "specimen",
+            "pos": "n.",
+            "meaning": "样本，标本"
+          },
+          {
+            "word": "signature",
+            "pos": "n.",
+            "meaning": "签名"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "firm",
+            "pos": "adj.",
+            "meaning": "坚定的，严格的"
+          },
+          {
+            "word": "rule",
+            "pos": "n.",
+            "meaning": "规定，规则"
           }
         ]
       }
@@ -311,9 +769,54 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "has",
+            "pos": "v.",
+            "meaning": "拥有"
+          },
+          {
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "没有的"
+          },
+          {
+            "word": "right",
+            "pos": "n.",
+            "meaning": "权利"
+          },
+          {
+            "word": "authority",
+            "pos": "n.",
+            "meaning": "权力"
+          },
+          {
+            "word": "pay out",
+            "pos": "v. phr.",
+            "meaning": "支付"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "money",
+            "pos": "n.",
+            "meaning": "钱"
+          },
+          {
+            "word": "on",
+            "pos": "prep.",
+            "meaning": "凭借"
+          },
+          {
+            "word": "cheque",
+            "pos": "n.",
+            "meaning": "支票"
           }
         ]
       }
@@ -326,7 +829,28 @@
       "startTime": 87.94,
       "endTime": 91.89,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "on which",
+            "pos": "prep. phr.",
+            "meaning": "在上面"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "signature",
+            "pos": "n.",
+            "meaning": "签名"
+          },
+          {
+            "word": "forged",
+            "pos": "v.",
+            "meaning": "被伪造"
+          }
+        ]
       }
     },
     {
@@ -339,19 +863,34 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "make no difference",
+            "pos": "v. phr.",
+            "meaning": "没关系，不重要"
           },
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "forgery",
+            "pos": "n.",
+            "meaning": "伪造品，赝品"
           },
           {
-            "word": "Very",
+            "word": "may",
+            "pos": "aux. v.",
+            "meaning": "可能"
+          },
+          {
+            "word": "very",
             "pos": "adv.",
-            "meaning": "很，非常"
+            "meaning": "非常"
+          },
+          {
+            "word": "skillful",
+            "pos": "adj.",
+            "meaning": "熟练的，巧妙的"
+          },
+          {
+            "word": "one",
+            "pos": "pron.",
+            "meaning": "一个 (指代)"
           }
         ]
       }
@@ -364,7 +903,33 @@
       "startTime": 96.48,
       "endTime": 100.23,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "must",
+            "pos": "aux. v.",
+            "meaning": "必须"
+          },
+          {
+            "word": "recognize",
+            "pos": "v.",
+            "meaning": "识别，认出"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "signature",
+            "pos": "n.",
+            "meaning": "签名"
+          }
+        ]
       }
     },
     {
@@ -377,19 +942,54 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "for this reason",
+            "pos": "adv. phr.",
+            "meaning": "因此"
           },
           {
-            "word": "Is",
+            "word": "no",
+            "pos": "adj.",
+            "meaning": "无"
+          },
+          {
+            "word": "risk",
+            "pos": "n.",
+            "meaning": "风险"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客"
+          },
+          {
+            "word": "practice",
+            "pos": "n.",
+            "meaning": "惯例"
+          },
+          {
+            "word": "adopted",
             "pos": "v.",
-            "meaning": "是"
+            "meaning": "被采用"
           },
           {
-            "word": "Name",
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "printing",
+            "pos": "v.",
+            "meaning": "印刷"
+          },
+          {
+            "word": "name",
             "pos": "n.",
             "meaning": "名字"
+          },
+          {
+            "word": "cheque",
+            "pos": "n.",
+            "meaning": "支票"
           }
         ]
       }
@@ -404,24 +1004,54 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "If",
+            "pos": "conj.",
+            "meaning": "如果"
           },
           {
-            "word": "It",
+            "word": "this",
             "pos": "pron.",
-            "meaning": "它"
+            "meaning": "这"
           },
           {
-            "word": "Is",
+            "word": "facilitates",
+            "pos": "v.",
+            "meaning": "促进；使便利"
+          },
+          {
+            "word": "forgery",
+            "pos": "n.",
+            "meaning": "伪造；伪造品"
+          },
+          {
+            "word": "is",
             "pos": "v.",
             "meaning": "是"
           },
           {
-            "word": "Not",
+            "word": "bank",
+            "pos": "n.",
+            "meaning": "银行"
+          },
+          {
+            "word": "will",
+            "pos": "aux. v.",
+            "meaning": "将会"
+          },
+          {
+            "word": "lose",
+            "pos": "v.",
+            "meaning": "蒙受损失"
+          },
+          {
+            "word": "not",
             "pos": "adv.",
-            "meaning": "不，不是"
+            "meaning": "不"
+          },
+          {
+            "word": "customer",
+            "pos": "n.",
+            "meaning": "顾客；客户"
           }
         ]
       }

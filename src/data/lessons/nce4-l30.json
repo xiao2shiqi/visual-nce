@@ -27,7 +27,21 @@
       "text": "Exploring the sea-floor",
       "translation": "",
       "startTime": 2.38,
-      "endTime": 9.47
+      "endTime": 9.47,
+      "analysis": {
+        "words": [
+          {
+            "word": "exploring",
+            "pos": "v.",
+            "meaning": "探索"
+          },
+          {
+            "word": "sea-floor",
+            "pos": "n.",
+            "meaning": "海底"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -39,24 +53,14 @@
       "analysis": {
         "words": [
           {
-            "word": "Listen",
-            "pos": "v.",
+            "word": "listen to",
+            "pos": "v. phr.",
             "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
           },
           {
             "word": "tape",
             "pos": "n.",
-            "meaning": "录音"
+            "meaning": "录音带"
           },
           {
             "word": "then",
@@ -70,7 +74,7 @@
           },
           {
             "word": "this",
-            "pos": "det.",
+            "pos": "adj.",
             "meaning": "这个"
           },
           {
@@ -93,12 +97,37 @@
           {
             "word": "How",
             "pos": "adv.",
-            "meaning": "怎样，如何"
+            "meaning": "如何"
           },
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "people",
+            "pos": "n.",
+            "meaning": "人们"
+          },
+          {
+            "word": "probably",
+            "pos": "adv.",
+            "meaning": "大概"
+          },
+          {
+            "word": "imagine",
+            "pos": "v.",
+            "meaning": "想象"
+          },
+          {
+            "word": "sea-floor",
+            "pos": "n.",
+            "meaning": "海底"
+          },
+          {
+            "word": "before",
+            "pos": "conj.",
+            "meaning": "在...之前"
+          },
+          {
+            "word": "investigated",
+            "pos": "v.",
+            "meaning": "调查"
           }
         ]
       }
@@ -111,7 +140,58 @@
       "startTime": 17.45,
       "endTime": 24.89,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "knowledge",
+            "pos": "n.",
+            "meaning": "知识"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的，关于"
+          },
+          {
+            "word": "oceans",
+            "pos": "n.",
+            "meaning": "海洋"
+          },
+          {
+            "word": "hundred",
+            "pos": "num.",
+            "meaning": "一百"
+          },
+          {
+            "word": "years",
+            "pos": "n.",
+            "meaning": "年"
+          },
+          {
+            "word": "ago",
+            "pos": "adv.",
+            "meaning": "以前"
+          },
+          {
+            "word": "confined to",
+            "pos": "v. phr.",
+            "meaning": "局限于"
+          },
+          {
+            "word": "two-dimensional",
+            "pos": "adj.",
+            "meaning": "二维的"
+          },
+          {
+            "word": "shape",
+            "pos": "n.",
+            "meaning": "形状"
+          },
+          {
+            "word": "sea surface",
+            "pos": "n. phr.",
+            "meaning": "海面"
+          }
+        ]
       }
     },
     {
@@ -120,7 +200,56 @@
       "text": "and the hazards of navigation presented by the irregularities in depth of the shallow water close to the land.",
       "translation": "",
       "startTime": 24.9,
-      "endTime": 33.52
+      "endTime": 33.52,
+      "analysis": {
+        "words": [
+          {
+            "word": "hazards",
+            "pos": "n.",
+            "meaning": "危害"
+          },
+          {
+            "word": "navigation",
+            "pos": "n.",
+            "meaning": "航行"
+          },
+          {
+            "word": "presented",
+            "pos": "v.",
+            "meaning": "造成"
+          },
+          {
+            "word": "irregularities",
+            "pos": "n.",
+            "meaning": "不规则性"
+          },
+          {
+            "word": "depth",
+            "pos": "n.",
+            "meaning": "深度"
+          },
+          {
+            "word": "shallow",
+            "pos": "adj.",
+            "meaning": "浅的"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "close to",
+            "pos": "prep. phr.",
+            "meaning": "靠近"
+          },
+          {
+            "word": "land",
+            "pos": "n.",
+            "meaning": "陆地"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -128,7 +257,31 @@
       "text": "The open sea was deep and mysterious,",
       "translation": "",
       "startTime": 33.53,
-      "endTime": 36.85
+      "endTime": 36.85,
+      "analysis": {
+        "words": [
+          {
+            "word": "open sea",
+            "pos": "n. phr.",
+            "meaning": "公海，开阔海域"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "曾是，是"
+          },
+          {
+            "word": "deep",
+            "pos": "adj.",
+            "meaning": "深的"
+          },
+          {
+            "word": "mysterious",
+            "pos": "adj.",
+            "meaning": "神秘的"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -140,9 +293,64 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
+            "word": "anyone",
             "pos": "pron.",
-            "meaning": "那个"
+            "meaning": "任何人"
+          },
+          {
+            "word": "who",
+            "pos": "pron.",
+            "meaning": "关系代词"
+          },
+          {
+            "word": "gave more than a passing thought to",
+            "pos": "v. phr.",
+            "meaning": "认真思考"
+          },
+          {
+            "word": "bottom confines",
+            "pos": "n. phr.",
+            "meaning": "底部范围"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "oceans",
+            "pos": "n.",
+            "meaning": "海洋"
+          },
+          {
+            "word": "probably",
+            "pos": "adv.",
+            "meaning": "可能地"
+          },
+          {
+            "word": "assumed",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "that",
+            "pos": "conj.",
+            "meaning": "引导从句"
+          },
+          {
+            "word": "sea-bed",
+            "pos": "n.",
+            "meaning": "海底"
+          },
+          {
+            "word": "was",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "flat",
+            "pos": "adj.",
+            "meaning": "平坦的"
           }
         ]
       }
@@ -157,9 +365,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Sir",
+            "word": "Sir James Clark Ross",
             "pos": "n.",
-            "meaning": "先生"
+            "meaning": "詹姆斯·克拉克·罗斯爵士"
+          },
+          {
+            "word": "obtained",
+            "pos": "v.",
+            "meaning": "获得"
+          },
+          {
+            "word": "sounding",
+            "pos": "n.",
+            "meaning": "测深"
+          },
+          {
+            "word": "over",
+            "pos": "prep.",
+            "meaning": "超过"
+          },
+          {
+            "word": "2, 400",
+            "pos": "num.",
+            "meaning": "两千四百"
+          },
+          {
+            "word": "fathoms",
+            "pos": "n.",
+            "meaning": "英寻"
+          },
+          {
+            "word": "1839",
+            "pos": "num.",
+            "meaning": "一八三九年"
           }
         ]
       }
@@ -174,19 +412,54 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
           },
           {
-            "word": "Not",
-            "pos": "adv.",
-            "meaning": "不，不是"
+            "word": "not until",
+            "pos": "adv. phr.",
+            "meaning": "直到…才"
           },
           {
-            "word": "At",
+            "word": "1869",
+            "pos": "num.",
+            "meaning": "1869年"
+          },
+          {
+            "word": "when",
+            "pos": "conj.",
+            "meaning": "当…时"
+          },
+          {
+            "word": "H.M.S. Porcupine",
+            "pos": "n. phr.",
+            "meaning": "豪猪号军舰"
+          },
+          {
+            "word": "put at the disposal of",
+            "pos": "v. phr.",
+            "meaning": "供…使用/支配"
+          },
+          {
+            "word": "Royal Society",
+            "pos": "n. phr.",
+            "meaning": "皇家学会"
+          },
+          {
+            "word": "for",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "用于；持续"
+          },
+          {
+            "word": "several",
+            "pos": "adj.",
+            "meaning": "几个；数个"
+          },
+          {
+            "word": "cruises",
+            "pos": "n.",
+            "meaning": "航行；航海"
           }
         ]
       }
@@ -201,9 +474,59 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "a series of",
+            "pos": "n. phr.",
+            "meaning": "一系列"
+          },
+          {
+            "word": "deep",
+            "pos": "adj.",
+            "meaning": "深的"
+          },
+          {
+            "word": "soundings",
+            "pos": "n.",
+            "meaning": "测深"
+          },
+          {
+            "word": "obtained",
+            "pos": "v.",
+            "meaning": "获得"
+          },
+          {
+            "word": "Atlantic",
+            "pos": "n.",
+            "meaning": "大西洋"
+          },
+          {
+            "word": "first",
+            "pos": "adj.",
+            "meaning": "第一的"
+          },
+          {
+            "word": "samples",
+            "pos": "n.",
+            "meaning": "样本"
+          },
+          {
+            "word": "collected",
+            "pos": "v.",
+            "meaning": "收集"
+          },
+          {
+            "word": "by",
+            "pos": "prep.",
+            "meaning": "通过"
+          },
+          {
+            "word": "dredging",
+            "pos": "v.",
+            "meaning": "挖泥；疏浚"
+          },
+          {
+            "word": "bottom",
+            "pos": "n.",
+            "meaning": "底部"
           }
         ]
       }
@@ -218,9 +541,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
+            "word": "shortly after",
+            "pos": "adv. phr.",
+            "meaning": "不久之后"
+          },
+          {
+            "word": "this",
             "pos": "pron.",
             "meaning": "这，这个"
+          },
+          {
+            "word": "famous",
+            "pos": "adj.",
+            "meaning": "著名的"
+          },
+          {
+            "word": "H.M.S. Challenger",
+            "pos": "n. phr.",
+            "meaning": "挑战者号（舰名）"
+          },
+          {
+            "word": "expedition",
+            "pos": "n.",
+            "meaning": "远征，探险"
+          },
+          {
+            "word": "established",
+            "pos": "v.",
+            "meaning": "建立，确立"
+          },
+          {
+            "word": "study",
+            "pos": "n.",
+            "meaning": "研究"
+          },
+          {
+            "word": "sea-floor",
+            "pos": "n.",
+            "meaning": "海底"
           }
         ]
       }
@@ -231,7 +589,46 @@
       "text": "as a subject worthy of the most qualified physicists and geologists.",
       "translation": "",
       "startTime": 79.01,
-      "endTime": 84.36
+      "endTime": 84.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "as",
+            "pos": "prep.",
+            "meaning": "作为"
+          },
+          {
+            "word": "subject",
+            "pos": "n.",
+            "meaning": "学科"
+          },
+          {
+            "word": "worthy of",
+            "pos": "adj. phr.",
+            "meaning": "值得…的"
+          },
+          {
+            "word": "most",
+            "pos": "adv.",
+            "meaning": "最"
+          },
+          {
+            "word": "qualified",
+            "pos": "adj.",
+            "meaning": "合格的"
+          },
+          {
+            "word": "physicists",
+            "pos": "n.",
+            "meaning": "物理学家"
+          },
+          {
+            "word": "geologists",
+            "pos": "n.",
+            "meaning": "地质学家"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -239,7 +636,36 @@
       "text": "A burst of activity associated with the laying of submarine cables",
       "translation": "",
       "startTime": 84.37,
-      "endTime": 89.61
+      "endTime": 89.61,
+      "analysis": {
+        "words": [
+          {
+            "word": "burst of activity",
+            "pos": "n. phr.",
+            "meaning": "一阵活跃"
+          },
+          {
+            "word": "associated with",
+            "pos": "adj. phr.",
+            "meaning": "与...相关"
+          },
+          {
+            "word": "laying",
+            "pos": "n.",
+            "meaning": "铺设"
+          },
+          {
+            "word": "submarine",
+            "pos": "adj.",
+            "meaning": "海底的"
+          },
+          {
+            "word": "cables",
+            "pos": "n.",
+            "meaning": "电缆"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -251,9 +677,54 @@
       "analysis": {
         "words": [
           {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那个"
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快"
+          },
+          {
+            "word": "confirmed",
+            "pos": "v.",
+            "meaning": "证实"
+          },
+          {
+            "word": "Challenger",
+            "pos": "n.",
+            "meaning": "挑战者号"
+          },
+          {
+            "word": "observation",
+            "pos": "n.",
+            "meaning": "观察, 观测"
+          },
+          {
+            "word": "many",
+            "pos": "adj.",
+            "meaning": "许多"
+          },
+          {
+            "word": "parts",
+            "pos": "n.",
+            "meaning": "部分"
+          },
+          {
+            "word": "ocean",
+            "pos": "n.",
+            "meaning": "海洋"
+          },
+          {
+            "word": "two to three",
+            "pos": "num. phr.",
+            "meaning": "二到三"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "deep",
+            "pos": "adj.",
+            "meaning": "深的"
           }
         ]
       }
@@ -264,7 +735,36 @@
       "text": "and the existence of underwater features of considerable magnitude.",
       "translation": "",
       "startTime": 97.28,
-      "endTime": 102.73
+      "endTime": 102.73,
+      "analysis": {
+        "words": [
+          {
+            "word": "existence",
+            "pos": "n.",
+            "meaning": "存在"
+          },
+          {
+            "word": "underwater",
+            "pos": "adj.",
+            "meaning": "水下的"
+          },
+          {
+            "word": "features",
+            "pos": "n.",
+            "meaning": "特征"
+          },
+          {
+            "word": "considerable",
+            "pos": "adj.",
+            "meaning": "相当大的"
+          },
+          {
+            "word": "magnitude",
+            "pos": "n.",
+            "meaning": "巨大，规模"
+          }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -279,6 +779,41 @@
             "word": "Today",
             "pos": "adv.",
             "meaning": "今天"
+          },
+          {
+            "word": "enough",
+            "pos": "adj.",
+            "meaning": "足够的"
+          },
+          {
+            "word": "soundings",
+            "pos": "n.",
+            "meaning": "水深测量"
+          },
+          {
+            "word": "available",
+            "pos": "adj.",
+            "meaning": "可用的"
+          },
+          {
+            "word": "enable",
+            "pos": "v.",
+            "meaning": "使能够"
+          },
+          {
+            "word": "relief map",
+            "pos": "n. phr.",
+            "meaning": "地形图"
+          },
+          {
+            "word": "Atlantic",
+            "pos": "n.",
+            "meaning": "大西洋"
+          },
+          {
+            "word": "drawn",
+            "pos": "v.",
+            "meaning": "被绘制"
           }
         ]
       }
@@ -289,7 +824,41 @@
       "text": "and we know something of the great variety of the sea bed's topography.",
       "translation": "",
       "startTime": 109.02,
-      "endTime": 114.77
+      "endTime": 114.77,
+      "analysis": {
+        "words": [
+          {
+            "word": "know",
+            "pos": "v.",
+            "meaning": "知道"
+          },
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某些"
+          },
+          {
+            "word": "great",
+            "pos": "adj.",
+            "meaning": "极大的"
+          },
+          {
+            "word": "variety",
+            "pos": "n.",
+            "meaning": "多样性"
+          },
+          {
+            "word": "sea bed",
+            "pos": "n.",
+            "meaning": "海床"
+          },
+          {
+            "word": "topography",
+            "pos": "n.",
+            "meaning": "地形"
+          }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -297,7 +866,41 @@
       "text": "Since the sea covers the greater part of the earth's surface,",
       "translation": "",
       "startTime": 114.78,
-      "endTime": 118.55
+      "endTime": 118.55,
+      "analysis": {
+        "words": [
+          {
+            "word": "Since",
+            "pos": "conj.",
+            "meaning": "既然，由于"
+          },
+          {
+            "word": "sea",
+            "pos": "n.",
+            "meaning": "海洋"
+          },
+          {
+            "word": "cover",
+            "pos": "v.",
+            "meaning": "覆盖"
+          },
+          {
+            "word": "the greater part",
+            "pos": "n. phr.",
+            "meaning": "大部分"
+          },
+          {
+            "word": "earth",
+            "pos": "n.",
+            "meaning": "地球"
+          },
+          {
+            "word": "surface",
+            "pos": "n.",
+            "meaning": "表面"
+          }
+        ]
+      }
     },
     {
       "id": "s15",
@@ -309,14 +912,44 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "quite",
+            "pos": "adv.",
+            "meaning": "相当"
           },
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "reasonable",
+            "pos": "adj.",
+            "meaning": "合理的"
+          },
+          {
+            "word": "regard as",
+            "pos": "v. phr.",
+            "meaning": "视为"
+          },
+          {
+            "word": "sea floor",
+            "pos": "n. phr.",
+            "meaning": "海底"
+          },
+          {
+            "word": "basic",
+            "pos": "adj.",
+            "meaning": "基本的"
+          },
+          {
+            "word": "form",
+            "pos": "n.",
+            "meaning": "形式"
+          },
+          {
+            "word": "crust",
+            "pos": "n.",
+            "meaning": "地壳"
+          },
+          {
+            "word": "earth",
+            "pos": "n.",
+            "meaning": "地球"
           }
         ]
       }
@@ -331,9 +964,19 @@
       "analysis": {
         "words": [
           {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
+            "word": "with",
+            "pos": "prep.",
+            "meaning": "伴随，带着"
+          },
+          {
+            "word": "superimposed upon",
+            "pos": "v. phr.",
+            "meaning": "叠加在...上"
+          },
+          {
+            "word": "continents",
+            "pos": "n.",
+            "meaning": "大洲"
           }
         ]
       }
@@ -344,7 +987,41 @@
       "text": "together with the islands and other features of the oceans.",
       "translation": "",
       "startTime": 128.74,
-      "endTime": 133.04
+      "endTime": 133.04,
+      "analysis": {
+        "words": [
+          {
+            "word": "together with",
+            "pos": "prep. phr.",
+            "meaning": "连同"
+          },
+          {
+            "word": "islands",
+            "pos": "n.",
+            "meaning": "岛屿"
+          },
+          {
+            "word": "other",
+            "pos": "adj.",
+            "meaning": "其他的"
+          },
+          {
+            "word": "features",
+            "pos": "n.",
+            "meaning": "特征"
+          },
+          {
+            "word": "of",
+            "pos": "prep.",
+            "meaning": "的"
+          },
+          {
+            "word": "oceans",
+            "pos": "n.",
+            "meaning": "海洋"
+          }
+        ]
+      }
     },
     {
       "id": "s18",
@@ -352,7 +1029,71 @@
       "text": "The continents form rugged tablelands which stand nearly three miles above the floor of the open ocean.",
       "translation": "",
       "startTime": 133.05,
-      "endTime": 140.94
+      "endTime": 140.94,
+      "analysis": {
+        "words": [
+          {
+            "word": "continents",
+            "pos": "n.",
+            "meaning": "大陆"
+          },
+          {
+            "word": "form",
+            "pos": "v.",
+            "meaning": "形成；构成"
+          },
+          {
+            "word": "rugged",
+            "pos": "adj.",
+            "meaning": "崎岖不平的"
+          },
+          {
+            "word": "tablelands",
+            "pos": "n.",
+            "meaning": "高原；台地"
+          },
+          {
+            "word": "stand",
+            "pos": "v.",
+            "meaning": "耸立；矗立"
+          },
+          {
+            "word": "nearly",
+            "pos": "adv.",
+            "meaning": "几乎；将近"
+          },
+          {
+            "word": "three",
+            "pos": "num.",
+            "meaning": "三"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "above",
+            "pos": "prep.",
+            "meaning": "在…上方"
+          },
+          {
+            "word": "floor",
+            "pos": "n.",
+            "meaning": "底部；底面"
+          },
+          {
+            "word": "open",
+            "pos": "adj.",
+            "meaning": "广阔的"
+          },
+          {
+            "word": "ocean",
+            "pos": "n.",
+            "meaning": "海洋"
+          }
+        ]
+      }
     },
     {
       "id": "s19",
@@ -362,7 +1103,63 @@
       "startTime": 140.95,
       "endTime": 148.62,
       "analysis": {
-        "words": []
+        "words": [
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "shore line",
+            "pos": "n. phr.",
+            "meaning": "海岸线"
+          },
+          {
+            "word": "out",
+            "pos": "adv.",
+            "meaning": "向外"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "到"
+          },
+          {
+            "word": "distance",
+            "pos": "n.",
+            "meaning": "距离"
+          },
+          {
+            "word": "which",
+            "pos": "pron.",
+            "meaning": "关系代词"
+          },
+          {
+            "word": "may be",
+            "pos": "aux. v. phr.",
+            "meaning": "可能是"
+          },
+          {
+            "word": "anywhere",
+            "pos": "adv.",
+            "meaning": "任何地方"
+          },
+          {
+            "word": "a few",
+            "pos": "adj. phr.",
+            "meaning": "一些"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "a few hundred",
+            "pos": "num. phr.",
+            "meaning": "几百"
+          }
+        ]
       }
     },
     {
@@ -371,7 +1168,46 @@
       "text": "runs the gentle slope of the continental shelf, geologically part of the continents.",
       "translation": "",
       "startTime": 148.63,
-      "endTime": 155.44
+      "endTime": 155.44,
+      "analysis": {
+        "words": [
+          {
+            "word": "runs",
+            "pos": "v.",
+            "meaning": "延伸"
+          },
+          {
+            "word": "gentle",
+            "pos": "adj.",
+            "meaning": "平缓的"
+          },
+          {
+            "word": "slope",
+            "pos": "n.",
+            "meaning": "斜坡"
+          },
+          {
+            "word": "continental shelf",
+            "pos": "n. phr.",
+            "meaning": "大陆架"
+          },
+          {
+            "word": "geologically",
+            "pos": "adv.",
+            "meaning": "地质学上地"
+          },
+          {
+            "word": "part",
+            "pos": "n.",
+            "meaning": "部分"
+          },
+          {
+            "word": "continents",
+            "pos": "n.",
+            "meaning": "大陆"
+          }
+        ]
+      }
     },
     {
       "id": "s21",
@@ -383,9 +1219,49 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "real",
+            "pos": "adj.",
+            "meaning": "真实的"
+          },
+          {
+            "word": "dividing line",
+            "pos": "n. phr.",
+            "meaning": "分界线"
+          },
+          {
+            "word": "between",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在…之间"
+          },
+          {
+            "word": "continents",
+            "pos": "n.",
+            "meaning": "大陆"
+          },
+          {
+            "word": "oceans",
+            "pos": "n.",
+            "meaning": "海洋"
+          },
+          {
+            "word": "occurs",
+            "pos": "v.",
+            "meaning": "发生"
+          },
+          {
+            "word": "at the foot of",
+            "pos": "prep. phr.",
+            "meaning": "在…脚下"
+          },
+          {
+            "word": "steeper",
+            "pos": "adj.",
+            "meaning": "更陡峭的"
+          },
+          {
+            "word": "slope",
+            "pos": "n.",
+            "meaning": "斜坡"
           }
         ]
       }
@@ -400,14 +1276,44 @@
       "analysis": {
         "words": [
           {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这，这个"
+            "word": "continental slope",
+            "pos": "n. phr.",
+            "meaning": "大陆坡"
           },
           {
-            "word": "At",
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常"
+          },
+          {
+            "word": "starts",
+            "pos": "v.",
+            "meaning": "开始"
+          },
+          {
+            "word": "place",
+            "pos": "n.",
+            "meaning": "地方"
+          },
+          {
+            "word": "somewhere",
+            "pos": "adv.",
+            "meaning": "在某处"
+          },
+          {
+            "word": "near",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在...附近"
+          },
+          {
+            "word": "100-fathom",
+            "pos": "adj.",
+            "meaning": "一百英寻的"
+          },
+          {
+            "word": "mark",
+            "pos": "n.",
+            "meaning": "深度线, 标记"
           }
         ]
       }
@@ -422,9 +1328,54 @@
       "analysis": {
         "words": [
           {
-            "word": "At",
+            "word": "in the course of",
+            "pos": "prep. phr.",
+            "meaning": "在…期间"
+          },
+          {
+            "word": "few",
+            "pos": "adj.",
+            "meaning": "少量，一些"
+          },
+          {
+            "word": "hundred",
+            "pos": "num.",
+            "meaning": "百"
+          },
+          {
+            "word": "miles",
+            "pos": "n.",
+            "meaning": "英里"
+          },
+          {
+            "word": "reaches",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "true",
+            "pos": "adj.",
+            "meaning": "真正的"
+          },
+          {
+            "word": "ocean floor",
+            "pos": "n. phr.",
+            "meaning": "洋底"
+          },
+          {
+            "word": "at",
             "pos": "prep.",
-            "meaning": "在...（小地点/时刻）"
+            "meaning": "在（某深度）"
+          },
+          {
+            "word": "2,500-3,500",
+            "pos": "num.",
+            "meaning": "2500至3500"
+          },
+          {
+            "word": "fathoms",
+            "pos": "n.",
+            "meaning": "英寻（水深单位）"
           }
         ]
       }
@@ -435,7 +1386,46 @@
       "text": "The slope averages about 1 in 30, but contains steep,",
       "translation": "",
       "startTime": 179.08,
-      "endTime": 183.48
+      "endTime": 183.48,
+      "analysis": {
+        "words": [
+          {
+            "word": "slope",
+            "pos": "n.",
+            "meaning": "坡度"
+          },
+          {
+            "word": "averages",
+            "pos": "v.",
+            "meaning": "平均为"
+          },
+          {
+            "word": "about",
+            "pos": "adv.",
+            "meaning": "大约"
+          },
+          {
+            "word": "1 in 30",
+            "pos": "num. phr.",
+            "meaning": "三十分之一"
+          },
+          {
+            "word": "but",
+            "pos": "conj.",
+            "meaning": "但是"
+          },
+          {
+            "word": "contains",
+            "pos": "v.",
+            "meaning": "包含"
+          },
+          {
+            "word": "steep",
+            "pos": "adj.",
+            "meaning": "陡峭的"
+          }
+        ]
+      }
     },
     {
       "id": "s25",
@@ -443,7 +1433,41 @@
       "text": "probably vertical, cliffs, and gentle sediment-covered terraces,",
       "translation": "",
       "startTime": 183.49,
-      "endTime": 188.13
+      "endTime": 188.13,
+      "analysis": {
+        "words": [
+          {
+            "word": "probably",
+            "pos": "adv.",
+            "meaning": "可能"
+          },
+          {
+            "word": "vertical",
+            "pos": "adj.",
+            "meaning": "垂直的"
+          },
+          {
+            "word": "cliffs",
+            "pos": "n.",
+            "meaning": "悬崖"
+          },
+          {
+            "word": "gentle",
+            "pos": "adj.",
+            "meaning": "平缓的"
+          },
+          {
+            "word": "sediment-covered",
+            "pos": "adj.",
+            "meaning": "覆盖沉积物"
+          },
+          {
+            "word": "terraces",
+            "pos": "n.",
+            "meaning": "台地"
+          }
+        ]
+      }
     },
     {
       "id": "s26",
@@ -455,9 +1479,39 @@
       "analysis": {
         "words": [
           {
-            "word": "Is",
-            "pos": "v.",
-            "meaning": "是"
+            "word": "near",
+            "pos": "prep.",
+            "meaning": "在…附近"
+          },
+          {
+            "word": "lower reaches",
+            "pos": "n. phr.",
+            "meaning": "下游"
+          },
+          {
+            "word": "there is",
+            "pos": "v. phr.",
+            "meaning": "存在有"
+          },
+          {
+            "word": "long",
+            "pos": "adj.",
+            "meaning": "长的"
+          },
+          {
+            "word": "tailing-off",
+            "pos": "n.",
+            "meaning": "逐渐消退"
+          },
+          {
+            "word": "almost certainly",
+            "pos": "adv. phr.",
+            "meaning": "几乎肯定"
+          },
+          {
+            "word": "result of",
+            "pos": "n. phr.",
+            "meaning": "…的结果"
           }
         ]
       }
@@ -468,7 +1522,56 @@
       "text": "material transported out to deep water after being eroded from the continental masses.",
       "translation": "",
       "startTime": 194.36,
-      "endTime": 199.36
+      "endTime": 199.36,
+      "analysis": {
+        "words": [
+          {
+            "word": "material",
+            "pos": "n.",
+            "meaning": "材料, 物质"
+          },
+          {
+            "word": "transported out",
+            "pos": "v. phr.",
+            "meaning": "运出"
+          },
+          {
+            "word": "deep",
+            "pos": "adj.",
+            "meaning": "深的"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          },
+          {
+            "word": "after",
+            "pos": "conj.",
+            "meaning": "在...之后"
+          },
+          {
+            "word": "eroded",
+            "pos": "v.",
+            "meaning": "侵蚀, 腐蚀"
+          },
+          {
+            "word": "from",
+            "pos": "prep.",
+            "meaning": "从"
+          },
+          {
+            "word": "continental",
+            "pos": "adj.",
+            "meaning": "大陆的"
+          },
+          {
+            "word": "masses",
+            "pos": "n.",
+            "meaning": "团块, 大量"
+          }
+        ]
+      }
     }
   ]
 }
