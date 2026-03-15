@@ -296,7 +296,7 @@
     {
       "id": "s1",
       "role": "Man",
-      "image": "/images/nce2/l3/scene2.png",
+      "image": "/images/nce2/l3/scene1.png",
       "text": "A friendly waiter taught me a few words of Italian.",
       "translation": "一个热情的服务员教了我几句意大利语。",
       "startTime": 28.95,
@@ -391,12 +391,13 @@
             "meaning": "书"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l3/scene1.png"
     },
     {
       "id": "s3",
       "role": "Man",
-      "image": "/images/nce2/l3/scene3.png",
+      "image": "/images/nce2/l3/scene1.png",
       "text": "I read a few lines, but I did not understand a word.",
       "translation": "我读了几行，但一个字也不懂。",
       "startTime": 36.1,
@@ -464,8 +465,7 @@
     {
       "id": "s4",
       "role": "Woman",
-  "image": "/images/nce2/l3/thumbnail.jpg",
-
+      "image": "/images/nce2/l3/scene1.png",
       "text": "Everyday I thought about postcards.",
       "translation": "每天我都想着明信片的事。",
       "startTime": 41.78,
@@ -575,7 +575,8 @@
             "meaning": "朋友（复数）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l3/writing_cards.png"
     },
     {
       "id": "s6",
@@ -632,12 +633,13 @@
             "meaning": "决定"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l3/writing_cards.png"
     },
     {
       "id": "s7",
       "role": "Woman",
-      "image": "/images/nce2/l3/scene4.png",
+      "image": "/images/nce2/l3/writing_cards.png",
       "text": "I got up early and bought thirty-seven cards.",
       "translation": "我早早起了床，买了37张明信片。",
       "startTime": 57.49,
@@ -685,7 +687,7 @@
     {
       "id": "s8",
       "role": "Man",
-      "image": "/images/nce2/l3/scene5.png",
+      "image": "/images/nce2/l3/writing_cards.png",
       "text": "I spent the whole day in my room, but I did not write a single card!",
       "translation": "我在房间里关了整整一天。但是一张明信片也没写！",
       "startTime": 63.08,
@@ -775,7 +777,5 @@
         ]
       }
     }
-  ],
-  "thumbnail": "/images/nce2/l3/scene1.png"
-
+  ]
 }

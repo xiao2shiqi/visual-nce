@@ -111,7 +111,7 @@
     },
     {
       "id": "s1",
-      "role": "Woman",
+      "role": "Gary",
       "text": "Look, Gary!",
       "translation": "看，加里！",
       "startTime": 19.23,
@@ -134,7 +134,7 @@
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Policeman",
       "text": "That policeman's waving to you.",
       "translation": "那个警察正在向你挥手。",
       "startTime": 21.08,
@@ -172,7 +172,7 @@
     },
     {
       "id": "s3",
-      "role": "Woman",
+      "role": "Gary",
       "text": "He wants you to stop.",
       "translation": "他希望你停下来。",
       "startTime": 24.51,
@@ -210,7 +210,7 @@
     },
     {
       "id": "s4",
-      "role": "Man",
+      "role": "Policeman",
       "text": "Where do you think you are?",
       "translation": "你以为自己在哪里啊？",
       "startTime": 27.91,
@@ -253,7 +253,7 @@
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Gary",
       "text": "On a race track?",
       "translation": "在赛道上？",
       "startTime": 31.32,
@@ -286,7 +286,7 @@
     },
     {
       "id": "s6",
-      "role": "Man",
+      "role": "Policeman",
       "text": "You must have been driving at seventy miles an hour.",
       "translation": "你当时肯定是以每小时70英里的速度在开车。",
       "startTime": 33.56,
@@ -349,7 +349,7 @@
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Gary",
       "text": "I can't have been.",
       "translation": "我不可能开那么快。",
       "startTime": 38.88,
@@ -382,12 +382,12 @@
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Policeman",
       "text": "I was doing eighty when I overtook you.",
       "translation": "我超过你的时候，时速是八十英里。",
       "startTime": 41.85,
       "endTime": 45.87,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/police_chase.png",
       "analysis": {
         "words": [
           {
@@ -435,12 +435,12 @@
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Gary",
       "text": "Didn't you see the speed limit?",
       "translation": "你没看到限速标志吗？",
       "startTime": 46.37,
       "endTime": 49.27,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/police_chase.png",
       "analysis": {
         "words": [
           {
@@ -478,12 +478,12 @@
     },
     {
       "id": "s10",
-      "role": "Man",
+      "role": "Policeman",
       "text": "I'm afraid I didn't, officer.",
       "translation": "恐怕我没有，警官。",
       "startTime": 49.77,
       "endTime": 52.33,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/police_chase.png",
       "analysis": {
         "words": [
           {
@@ -516,12 +516,12 @@
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Gary",
       "text": "I must have been dreaming.",
       "translation": "我肯定是在做梦。",
       "startTime": 52.83,
       "endTime": 55.51,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/police_chase.png",
       "analysis": {
         "words": [
           {
@@ -554,12 +554,12 @@
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Policeman",
       "text": "He wasn't dreaming, officer.",
       "translation": "他并没有在做梦，警官。",
       "startTime": 56.01,
       "endTime": 58.4,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/police_chase.png",
       "analysis": {
         "words": [
           {
@@ -587,12 +587,12 @@
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Gary",
       "text": "I was telling him to drive slowly.",
       "translation": "我当时在告诉他要开慢一点。",
       "startTime": 58.9,
       "endTime": 102.96,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/police_chase.png",
       "analysis": {
         "words": [
           {
@@ -635,12 +635,12 @@
     },
     {
       "id": "s14",
-      "role": "Man",
+      "role": "Policeman",
       "text": "That's why I didn't see the sign.",
       "translation": "这就是为什么我没有看到那个标志的原因。",
       "startTime": 103.46,
       "endTime": 107.3,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/police_chase.png",
       "analysis": {
         "words": [
           {
@@ -683,12 +683,12 @@
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Gary",
       "text": "Let me see your driving licence.",
       "translation": "请让我看一下你的驾驶执照。",
       "startTime": 107.8,
       "endTime": 111.25,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {
@@ -726,12 +726,12 @@
     },
     {
       "id": "s16",
-      "role": "Man",
+      "role": "Policeman",
       "text": "I won't charge you this time.",
       "translation": "这次我就不罚你了。",
       "startTime": 111.75,
       "endTime": 114.26,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {
@@ -769,12 +769,12 @@
     },
     {
       "id": "s17",
-      "role": "Man",
+      "role": "Gary",
       "text": "But you'd better not do it again!",
       "translation": "但你最好别再这么做了！",
       "startTime": 114.76,
       "endTime": 117.94,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {
@@ -817,12 +817,12 @@
     },
     {
       "id": "s18",
-      "role": "Man",
+      "role": "Policeman",
       "text": "Thank you.",
       "translation": "谢谢。",
       "startTime": 118.44,
       "endTime": 119.24,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {
@@ -840,12 +840,12 @@
     },
     {
       "id": "s19",
-      "role": "Man",
+      "role": "Gary",
       "text": "I'll certainly be more careful.",
       "translation": "我一定会更加小心的。",
       "startTime": 119.74,
       "endTime": 122.89,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {
@@ -883,7 +883,7 @@
       "translation": "我早就告诉过你要开慢一点，加里。",
       "startTime": 123.39,
       "endTime": 126.95,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {
@@ -931,7 +931,7 @@
       "translation": "你总是让我开慢车，亲爱的。",
       "startTime": 127.45,
       "endTime": 131.29,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {
@@ -984,7 +984,7 @@
       "translation": "嗯，下次你最好还是听我的建议吧！",
       "startTime": 131.79,
       "endTime": 136.79,
-      "image": "/images/nce1/l129/scene1.png",
+      "image": "/images/nce1/l129/ticketed.png",
       "analysis": {
         "words": [
           {

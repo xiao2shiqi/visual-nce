@@ -323,12 +323,13 @@
             "meaning": "它"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/scene1.png"
     },
     {
       "id": "s2",
       "role": "Narrator",
-      "image": "/images/nce2/l1/young_couple_talking.png",
+      "image": "/images/nce2/l1/scene1.png",
       "text": "A young man and a young woman were sitting behind me.",
       "translation": "一对青年男女坐在我的身后。",
       "startTime": 27.43,
@@ -413,7 +414,8 @@
             "meaning": "大声地"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/scene1.png"
     },
     {
       "id": "s4",
@@ -445,7 +447,8 @@
             "meaning": "生气的"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/angry_narrator.png"
     },
     {
       "id": "s5",
@@ -487,12 +490,13 @@
             "meaning": "演员（复数）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/angry_narrator.png"
     },
     {
       "id": "s6",
       "role": "Narrator",
-      "image": "/images/nce2/l1/writer_turns_angrily.png",
+      "image": "/images/nce2/l1/angry_narrator.png",
       "text": "I turned round.",
       "translation": "我转过身去。",
       "startTime": 40.64,
@@ -567,7 +571,8 @@
             "meaning": "愤怒地"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/angry_narrator.png"
     },
     {
       "id": "s8",
@@ -609,7 +614,8 @@
             "meaning": "注意"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/angry_narrator.png"
     },
     {
       "id": "s9",
@@ -661,7 +667,8 @@
             "meaning": "它"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/angry_narrator.png"
     },
     {
       "id": "s10",
@@ -693,12 +700,13 @@
             "meaning": "再一次"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l1/turning_round.png"
     },
     {
       "id": "s11",
       "role": "Writer",
-      "image": "/images/nce2/l1/writer_complains.png",
+      "image": "/images/nce2/l1/turning_round.png",
       "text": "'I can't hear a word!' I said angrily.",
       "translation": "'我一个字也听不见！'我生气地说。",
       "startTime": 57.75,
@@ -751,7 +759,7 @@
     {
       "id": "s12",
       "role": "Young Man",
-      "image": "/images/nce2/l1/young_man_replies_rudely.png",
+      "image": "/images/nce2/l1/turning_round.png",
       "text": "'It's none of your business,' the young man said rudely.",
       "translation": "'不关你的事，'那个年轻人粗鲁地回答。",
       "startTime": 63.45,
@@ -814,7 +822,7 @@
     {
       "id": "s13",
       "role": "Young Man",
-      "image": "/images/nce2/l1/private_conversation_reply.png",
+      "image": "/images/nce2/l1/turning_round.png",
       "text": "'This is a private conversation!'",
       "translation": "'这是私人间的谈话！'",
       "startTime": 69,
@@ -849,7 +857,5 @@
         ]
       }
     }
-  ],
-  "thumbnail": "/images/nce2/l1/scene1.png"
-
+  ]
 }

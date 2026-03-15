@@ -149,7 +149,7 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Traveler",
       "text": "Where do you come from?",
       "translation": "你是哪国人？",
       "startTime": 17.01,
@@ -182,11 +182,12 @@
             "meaning": "从...来"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/scene1.png"
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Dimitri",
       "text": "I come from Greece.",
       "translation": "我从希腊来。",
       "startTime": 19.9,
@@ -214,11 +215,12 @@
             "meaning": "希腊"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/scene1.png"
     },
     {
       "id": "s3",
-      "role": "Narrator",
+      "role": "Traveler",
       "text": "What's the climate like in your country?",
       "translation": "你们国家的气候怎么样？",
       "startTime": 22.94,
@@ -266,11 +268,12 @@
             "meaning": "国家"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/scene1.png"
     },
     {
       "id": "s4",
-      "role": "Man",
+      "role": "Dimitri",
       "text": "It's very pleasant.",
       "translation": "非常宜人。",
       "startTime": 27.32,
@@ -298,11 +301,12 @@
             "meaning": "宜人的"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/scene1.png"
     },
     {
       "id": "s5",
-      "role": "Narrator",
+      "role": "Traveler",
       "text": "What's the weather like in spring?",
       "translation": "春天的天气怎么样？",
       "startTime": 30.37,
@@ -345,11 +349,12 @@
             "meaning": "春天"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/spring_windy.png"
     },
     {
       "id": "s6",
-      "role": "Man",
+      "role": "Dimitri",
       "text": "It's often windy in March.",
       "translation": "三月里常常刮风。",
       "startTime": 34.29,
@@ -387,11 +392,12 @@
             "meaning": "三月"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/spring_windy.png"
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Traveler",
       "text": "It's always warm in April and May, but it rains sometimes.",
       "translation": "四月和五月总是很暖和，但有时下雨。",
       "startTime": 37.79,
@@ -459,11 +465,12 @@
             "meaning": "有时"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/spring_windy.png"
     },
     {
       "id": "s8",
-      "role": "Narrator",
+      "role": "Dimitri",
       "text": "What's it like in summer?",
       "translation": "夏天怎么样？",
       "startTime": 45.53,
@@ -501,11 +508,12 @@
             "meaning": "夏天"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/summer_hot.png"
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Traveler",
       "text": "It's always hot in June, July and August.",
       "translation": "六月、七月和八月总是很热。",
       "startTime": 49.04,
@@ -558,11 +566,12 @@
             "meaning": "八月"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/summer_hot.png"
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Dimitri",
       "text": "The sun shines every day.",
       "translation": "阳光每天都灿烂。",
       "startTime": 54.7,
@@ -595,11 +604,12 @@
             "meaning": "天"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/summer_hot.png"
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Traveler",
       "text": "Is it cold or warm in autumn?",
       "translation": "秋天天气冷还是暖和？",
       "startTime": 58.16,
@@ -642,11 +652,12 @@
             "meaning": "秋天"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/autumn_warm.png"
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Dimitri",
       "text": "It's always warm in September and October.",
       "translation": "九月和十月总是很暖和。",
       "startTime": 62.17,
@@ -694,11 +705,12 @@
             "meaning": "十月"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/autumn_warm.png"
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Traveler",
       "text": "It's often cold in November and it rains sometimes.",
       "translation": "十一月常常很冷，而且有时下雨。",
       "startTime": 67.11,
@@ -756,11 +768,12 @@
             "meaning": "有时"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/autumn_warm.png"
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Dimitri",
       "text": "Is it very cold in winter?",
       "translation": "冬天非常冷吗？",
       "startTime": 73.51,
@@ -798,11 +811,12 @@
             "meaning": "冬天"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/winter_snow.png"
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Traveler",
       "text": "It's often cold in December, January and February.",
       "translation": "十二月、一月和二月常常很冷。",
       "startTime": 77.23,
@@ -855,11 +869,12 @@
             "meaning": "二月"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/winter_snow.png"
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Dimitri",
       "text": "It snows sometimes.",
       "translation": "有时下雪。",
       "startTime": 83.34,
@@ -882,7 +897,8 @@
             "meaning": "有时"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l51/winter_snow.png"
     }
   ]
 }

@@ -303,12 +303,13 @@
             "meaning": "迟，晚"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/scene1.png"
     },
     {
       "id": "s2",
       "role": "Narrator",
-      "image": "/images/nce2/l2/rainy_window.png",
+      "image": "/images/nce2/l2/scene1.png",
       "text": "I looked out of the window.",
       "translation": "我往窗外一看。",
       "startTime": 31.06,
@@ -373,7 +374,8 @@
             "meaning": "在外面"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/scene1.png"
     },
     {
       "id": "s4",
@@ -410,7 +412,8 @@
             "meaning": "想（think的过去式）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/scene1.png"
     },
     {
       "id": "s5",
@@ -437,12 +440,13 @@
             "meaning": "再一次，又"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/aunt_lucy_phone.png"
     },
     {
       "id": "s6",
       "role": "Narrator",
-      "image": "/images/nce2/l2/telephone_rings.png",
+      "image": "/images/nce2/l2/aunt_lucy_phone.png",
       "text": "Just then, the telephone rang.",
       "translation": "就在这时，电话铃响了。",
       "startTime": 42.61,
@@ -480,7 +484,7 @@
     {
       "id": "s7",
       "role": "Narrator",
-      "image": "/images/nce2/l2/aunt_lucy_calls.png",
+      "image": "/images/nce2/l2/aunt_lucy_phone.png",
       "text": "It was my aunt Lucy.",
       "translation": "是我姑妈露西打来的。",
       "startTime": 46.04,
@@ -560,7 +564,8 @@
             "meaning": "说（say的过去式）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/aunt_lucy_phone.png"
     },
     {
       "id": "s9",
@@ -597,12 +602,13 @@
             "meaning": "你"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/aunt_lucy_phone.png"
     },
     {
       "id": "s10",
       "role": "Writer",
-      "image": "/images/nce2/l2/writer_still_breakfast.png",
+      "image": "/images/nce2/l2/breakfast_lunch.png",
       "text": "'But I'm still having breakfast,' I said.",
       "translation": "'但我还在吃早饭，'我说。",
       "startTime": 56.01,
@@ -687,7 +693,8 @@
             "meaning": "问（ask的过去式）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/breakfast_lunch.png"
     },
     {
       "id": "s12",
@@ -724,7 +731,8 @@
             "meaning": "重复（repeat的过去式）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/breakfast_lunch.png"
     },
     {
       "id": "s13",
@@ -756,12 +764,13 @@
             "meaning": "说（say的过去式）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/breakfast_lunch.png"
     },
     {
       "id": "s14",
       "role": "Aunt Lucy",
-      "image": "/images/nce2/l2/breakfast_one_oclock.png",
+      "image": "/images/nce2/l2/breakfast_lunch.png",
       "text": "'Do you always get up so late?",
       "translation": "'你总是起得这么晚吗？",
       "startTime": 70.4,
@@ -826,9 +835,8 @@
             "meaning": "点钟"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l2/breakfast_lunch.png"
     }
-  ],
-  "thumbnail": "/images/nce2/l2/scene1.png"
-
+  ]
 }

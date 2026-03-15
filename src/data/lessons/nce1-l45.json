@@ -149,7 +149,7 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Boss",
       "text": "Can you come here a minute please, Bob?",
       "translation": "鲍勃，请你过来一下好吗？",
       "startTime": 17.66,
@@ -197,11 +197,12 @@
             "meaning": "鲍勃"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/scene1.png"
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Bob",
       "text": "Yes, sir?",
       "translation": "是的，先生？",
       "startTime": 21.77,
@@ -219,11 +220,12 @@
             "meaning": "先生"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/scene1.png"
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Boss",
       "text": "Where's Pamela?",
       "translation": "帕梅拉在哪儿？",
       "startTime": 24.03,
@@ -246,11 +248,12 @@
             "meaning": "帕梅拉"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/scene1.png"
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Bob",
       "text": "She's next door.",
       "translation": "她在隔壁。",
       "startTime": 26.2,
@@ -273,11 +276,12 @@
             "meaning": "在隔壁"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/handing_letter.png"
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Bob",
       "text": "She's in her office, sir.",
       "translation": "先生，她在她的办公室里。",
       "startTime": 28.24,
@@ -315,11 +319,12 @@
             "meaning": "先生"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/handing_letter.png"
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Boss",
       "text": "Can she type this letter for me?",
       "translation": "她能为我打这封信吗？",
       "startTime": 31.48,
@@ -362,11 +367,12 @@
             "meaning": "我（宾格）"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/handing_letter.png"
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Boss",
       "text": "Ask her please.",
       "translation": "请问问她。",
       "startTime": 35.19,
@@ -389,11 +395,12 @@
             "meaning": "请"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/handing_letter.png"
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Bob",
       "text": "Yes, sir.",
       "translation": "好的，先生。",
       "startTime": 36.92,
@@ -411,11 +418,12 @@
             "meaning": "先生"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/handing_letter.png"
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Bob",
       "text": "Can you type this letter for the boss please, Pamela?",
       "translation": "帕梅拉，请你为老板打这封信好吗？",
       "startTime": 39.31,
@@ -473,11 +481,12 @@
             "meaning": "帕梅拉"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/pamela_office.png"
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Pamela",
       "text": "Yes, of course I can.",
       "translation": "好的，我当然能打。",
       "startTime": 44.15,
@@ -505,11 +514,12 @@
             "meaning": "能"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/pamela_office.png"
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Bob",
       "text": "Here you are.",
       "translation": "给你。",
       "startTime": 47.75,
@@ -532,11 +542,12 @@
             "meaning": "是"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/pamela_office.png"
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Pamela",
       "text": "Thank you, Bob.",
       "translation": "谢谢你，鲍勃。",
       "startTime": 49.36,
@@ -559,11 +570,12 @@
             "meaning": "鲍勃"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/pamela_office.png"
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Pamela",
       "text": "Bob!",
       "translation": "鲍勃！",
       "startTime": 51.88,
@@ -576,11 +588,12 @@
             "meaning": "鲍勃"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/pamela_office.png"
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Bob",
       "text": "Yes?",
       "translation": "什么事？",
       "startTime": 52.73,
@@ -593,11 +606,12 @@
             "meaning": "是的"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/pamela_office.png"
     },
     {
       "id": "s15",
-      "role": "Narrator",
+      "role": "Bob",
       "text": "What's the matter?",
       "translation": "怎么回事？",
       "startTime": 53.94,
@@ -625,11 +639,12 @@
             "meaning": "事情/麻烦"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/pamela_office.png"
     },
     {
       "id": "s16",
-      "role": "Man",
+      "role": "Pamela",
       "text": "I can't type this letter.",
       "translation": "我没法打这封信。",
       "startTime": 56.11,
@@ -662,11 +677,12 @@
             "meaning": "信"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/terrible_handwriting.png"
     },
     {
       "id": "s17",
-      "role": "Woman",
+      "role": "Pamela",
       "text": "I can't read it!",
       "translation": "我看不懂这封信！",
       "startTime": 59.3,
@@ -694,11 +710,12 @@
             "meaning": "它"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/terrible_handwriting.png"
     },
     {
       "id": "s18",
-      "role": "Man",
+      "role": "Pamela",
       "text": "The boss's handwriting is terrible!",
       "translation": "老板的手写字太糟糕了！",
       "startTime": 61.59,
@@ -731,7 +748,8 @@
             "meaning": "糟糕的/可怕的"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l45/terrible_handwriting.png"
     }
   ]
 }

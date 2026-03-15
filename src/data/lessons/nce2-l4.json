@@ -2,7 +2,7 @@
   "id": "nce2-l4",
   "title": "Lesson 4: An Exciting Trip",
   "audio": "/audio/nce2/04－An Exciting Trip.mp3",
-  "image": "/images/nce2/l4/thumbnail.jpg",
+  "image": "/images/nce2/l4/scene1.png",
   "segments": [
     {
       "id": "intro_1",
@@ -313,12 +313,13 @@
             "meaning": "工程师"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l4/scene1.png"
     },
     {
       "id": "s2",
       "role": "Woman",
-      "image": "/images/nce2/l4/tim_australia.png",
+      "image": "/images/nce2/l4/scene1.png",
       "text": "He is working for a big firm and he has already visited a great number of different places in Australia.",
       "translation": "他正在一家大公司工作，并且已经去过澳大利亚的很多地方了。",
       "startTime": 28.72,
@@ -431,7 +432,7 @@
     {
       "id": "s3",
       "role": "Woman",
-      "image": "/images/nce2/l4/alice_springs.png",
+      "image": "/images/nce2/l4/scene1.png",
       "text": "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.",
       "translation": "他刚买了一辆澳大利亚小汽车，现在去了艾利斯斯普林斯，那是澳大利亚中部的一个小镇。",
       "startTime": 37.61,
@@ -576,12 +577,13 @@
             "meaning": "达尔文（城市名）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l4/scene1.png"
     },
     {
       "id": "s5",
       "role": "Man",
-      "image": "/images/nce2/l4/perth_flight.png",
+      "image": "/images/nce2/l4/flying_high.png",
       "text": "From there, he will fly to Perth.",
       "translation": "从那里，他将飞往珀斯。",
       "startTime": 50.09,
@@ -629,7 +631,7 @@
     {
       "id": "s6",
       "role": "Woman",
-      "image": "/images/nce2/l4/excited_tim.png",
+      "image": "/images/nce2/l4/flying_high.png",
       "text": "My brother has never been abroad before, so he is finding this trip very exciting.",
       "translation": "我弟弟以前从未出过国，因此，他觉得这次旅行非常激动人心。",
       "startTime": 53.81,
@@ -714,6 +716,5 @@
         ]
       }
     }
-  ],
-  "thumbnail": "/images/nce2/l4/scene1.png"
+  ]
 }

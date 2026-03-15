@@ -144,7 +144,7 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Butcher",
       "text": "Do you want any meat today, Mrs. Bird?",
       "translation": "伯德夫人，您今天买点肉吗？",
       "startTime": 15.71,
@@ -192,11 +192,12 @@
             "meaning": "伯德"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/scene1.png"
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Mrs. Bird",
       "text": "Yes, please.",
       "translation": "是的，我想买点。",
       "startTime": 20.64,
@@ -214,11 +215,12 @@
             "meaning": "请"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/scene1.png"
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Butcher",
       "text": "Do you want beef or lamb?",
       "translation": "您要牛肉还是羔羊肉？",
       "startTime": 23.3,
@@ -256,11 +258,12 @@
             "meaning": "羔羊肉"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_lamb.png"
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Mrs. Bird",
       "text": "Beef, please.",
       "translation": "请给我牛肉。",
       "startTime": 27.05,
@@ -278,11 +281,12 @@
             "meaning": "请"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_lamb.png"
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Butcher",
       "text": "This lamb's very good.",
       "translation": "这羔羊肉很好。",
       "startTime": 29.77,
@@ -315,11 +319,12 @@
             "meaning": "好的"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_lamb.png"
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Mrs. Bird",
       "text": "I like lamb, but my husband doesn't.",
       "translation": "我喜欢羔羊肉，但我丈夫不喜欢。",
       "startTime": 33.75,
@@ -362,11 +367,12 @@
             "meaning": "不/没有"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_lamb.png"
     },
     {
       "id": "s7",
-      "role": "Narrator",
+      "role": "Butcher",
       "text": "What about some steak?",
       "translation": "买点牛排吗？",
       "startTime": 38.62,
@@ -394,11 +400,12 @@
             "meaning": "牛排"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/steak_mince.png"
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Mrs. Bird",
       "text": "This is a nice piece.",
       "translation": "这是一块很好的肉。",
       "startTime": 41.57,
@@ -431,11 +438,12 @@
             "meaning": "块"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/steak_mince.png"
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Butcher",
       "text": "Give me that piece, please.",
       "translation": "请把那块给我。",
       "startTime": 45,
@@ -468,11 +476,12 @@
             "meaning": "请"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/steak_mince.png"
     },
     {
       "id": "s10",
-      "role": "Man",
+      "role": "Mrs. Bird",
       "text": "And a pound of mince, too.",
       "translation": "还要一磅肉馅。",
       "startTime": 48.27,
@@ -510,11 +519,12 @@
             "meaning": "也"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/steak_mince.png"
     },
     {
       "id": "s11",
-      "role": "Woman",
+      "role": "Butcher",
       "text": "Do you want a chicken, Mrs. Bird?",
       "translation": "伯德夫人，您要只鸡吗？",
       "startTime": 52.96,
@@ -557,11 +567,12 @@
             "meaning": "伯德"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_chicken.png"
     },
     {
       "id": "s12",
-      "role": "Man",
+      "role": "Mrs. Bird",
       "text": "They're very nice.",
       "translation": "这些鸡很好。",
       "startTime": 57.46,
@@ -589,11 +600,12 @@
             "meaning": "好的"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_chicken.png"
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Butcher",
       "text": "No, thank you.",
       "translation": "不，谢谢。",
       "startTime": 59.88,
@@ -611,11 +623,12 @@
             "meaning": "谢谢"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_chicken.png"
     },
     {
       "id": "s14",
-      "role": "Man",
+      "role": "Mrs. Bird",
       "text": "My husband likes steak, but he doesn't like chicken.",
       "translation": "我丈夫喜欢牛排，但他不喜欢鸡肉。",
       "startTime": 62.23,
@@ -668,11 +681,12 @@
             "meaning": "鸡/鸡肉"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_chicken.png"
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Butcher",
       "text": "To tell you the truth, Mrs. Bird, I don't like chicken either!",
       "translation": "伯德夫人，老实告诉你，我也不喜欢鸡肉！",
       "startTime": 68.64,
@@ -740,7 +754,8 @@
             "meaning": "也"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l49/showing_chicken.png"
     }
   ]
 }

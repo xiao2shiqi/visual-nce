@@ -164,7 +164,7 @@
     },
     {
       "id": "s1",
-      "role": "Narrator",
+      "role": "Sam",
       "text": "What are you going to do with that vase, Penny?",
       "translation": "潘妮，你打算怎么处理那个花瓶？",
       "startTime": 18.55,
@@ -222,11 +222,12 @@
             "meaning": "潘妮"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/scene1.png"
     },
     {
       "id": "s2",
-      "role": "Man",
+      "role": "Penny",
       "text": "I'm going to put it on this table, Sam.",
       "translation": "萨姆，我打算把它放在这张桌子上。",
       "startTime": 24.02,
@@ -284,11 +285,12 @@
             "meaning": "萨姆"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/handing_vase.png"
     },
     {
       "id": "s3",
-      "role": "Woman",
+      "role": "Penny",
       "text": "Don't do that.",
       "translation": "别那么做。",
       "startTime": 29.15,
@@ -311,11 +313,12 @@
             "meaning": "那（件事）"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/handing_vase.png"
     },
     {
       "id": "s4",
-      "role": "Man",
+      "role": "Penny",
       "text": "Give it to me.",
       "translation": "把它给我。",
       "startTime": 31.31,
@@ -343,11 +346,12 @@
             "meaning": "我（宾格）"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/handing_vase.png"
     },
     {
       "id": "s5",
-      "role": "Narrator",
+      "role": "Sam",
       "text": "What are you going to do with it?",
       "translation": "你打算用它做什么？",
       "startTime": 33.63,
@@ -395,11 +399,12 @@
             "meaning": "它"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/handing_vase.png"
     },
     {
       "id": "s6",
-      "role": "Man",
+      "role": "Sam",
       "text": "I'm going to put it here, in front of the window.",
       "translation": "我打算把它放在这儿，就在窗子前面。",
       "startTime": 37.39,
@@ -457,11 +462,12 @@
             "meaning": "窗户"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/handing_vase.png"
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Penny",
       "text": "Be careful! Don't drop it!",
       "translation": "小心！别把它摔了！",
       "startTime": 43.03,
@@ -494,11 +500,12 @@
             "meaning": "它"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/handing_vase.png"
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Penny",
       "text": "Don't put it there, Sam.",
       "translation": "萨姆，别把它放在那儿。",
       "startTime": 47.32,
@@ -531,11 +538,12 @@
             "meaning": "萨姆"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/vase_shelf.png"
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Penny",
       "text": "Put it here, on this shelf.",
       "translation": "把它放在这儿，放在这个架子上。",
       "startTime": 50.31,
@@ -573,11 +581,12 @@
             "meaning": "架子"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/vase_shelf.png"
     },
     {
       "id": "s10",
-      "role": "Man",
+      "role": "Sam",
       "text": "There we are!",
       "translation": "好啦！ / 放好啦！",
       "startTime": 54.7,
@@ -600,11 +609,12 @@
             "meaning": "是"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/vase_shelf.png"
     },
     {
       "id": "s11",
-      "role": "Woman",
+      "role": "Penny",
       "text": "It's a lovely vase.",
       "translation": "这是一个漂亮的花瓶。",
       "startTime": 56.74,
@@ -637,11 +647,12 @@
             "meaning": "花瓶"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/vase_shelf.png"
     },
     {
       "id": "s12",
-      "role": "Man",
+      "role": "Sam",
       "text": "Those flowers are lovely, too.",
       "translation": "那些花也很漂亮。",
       "startTime": 59.47,
@@ -674,7 +685,8 @@
             "meaning": "也"
           }
         ]
-      }
+      },
+      "image": "/images/nce1/l39/successful_placement.png"
     }
   ]
 }

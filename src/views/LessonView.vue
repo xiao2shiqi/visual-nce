@@ -27,7 +27,7 @@ const STORAGE_KEYS = {
 
 const currentTime = ref(0);
 const playbackRate = ref(Number(localStorage.getItem(STORAGE_KEYS.PLAYBACK_RATE)) || 1.0);
-const playbackRates = [0.75, 1.0, 1.2, 1.25, 1.5, 1.75, 2.0];
+const playbackRates = [0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
 const playMode = ref((localStorage.getItem(STORAGE_KEYS.PLAY_MODE) as any) || 'continuous');
 const showTranslation = ref(localStorage.getItem(STORAGE_KEYS.SHOW_TRANSLATION) === 'true');
 

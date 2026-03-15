@@ -2,7 +2,7 @@
   "id": "nce2-l6",
   "title": "Lesson 6: Percy Buttons",
   "audio": "/audio/nce2/06－Percy Buttons.mp3",
-  "image": "/images/nce2/l6/thumbnail.jpg",
+  "image": "/images/nce2/l6/scene1.png",
   "segments": [
     {
       "id": "intro_1",
@@ -306,7 +306,7 @@
     {
       "id": "s1",
       "role": "Man",
-      "image": "/images/nce2/l6/percy_upside_down.png",
+      "image": "/images/nce2/l6/scene1.png",
       "text": "In return for this, the beggar stood on his head and sang songs.",
       "translation": "作为回报，那乞丐用头顶地倒立起来，还唱起歌来。",
       "startTime": 26.54,
@@ -374,7 +374,7 @@
     {
       "id": "s2",
       "role": "Man",
-      "image": "/images/nce2/l6/percy_eating.png",
+      "image": "/images/nce2/l6/scene1.png",
       "text": "I gave him a meal.",
       "translation": "我给了他一顿饭。",
       "startTime": 32.87,
@@ -459,12 +459,13 @@
             "meaning": "啤酒"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l6/scene1.png"
     },
     {
       "id": "s4",
       "role": "Man",
-      "image": "/images/nce2/l6/percy_leaving.png",
+      "image": "/images/nce2/l6/scene1.png",
       "text": "Then he put a piece of cheese in his pocket and went away.",
       "translation": "然后把一块奶酪装进口袋走了。",
       "startTime": 38.41,
@@ -574,7 +575,8 @@
             "meaning": "他（宾格）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l6/thompson_food.png"
     },
     {
       "id": "s6",
@@ -601,7 +603,8 @@
             "meaning": "他（宾格）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l6/thompson_food.png"
     },
     {
       "id": "s7",
@@ -638,7 +641,8 @@
             "meaning": "巴顿斯（姓氏）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l6/thompson_food.png"
     },
     {
       "id": "s8",
@@ -755,9 +759,8 @@
             "meaning": "啤酒"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l6/thompson_food.png"
     }
-  ],
-  "thumbnail": "/images/nce2/l6/thumbnail.jpg"
-
+  ]
 }
