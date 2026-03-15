@@ -45,3 +45,8 @@ coverage
 # Temporary Files
 tmp/
 temp/
+
+# Generation output logs
+gen_output*.txt
+nce2_gen_output*.txt
+nce1_missing_images_prompts.md
