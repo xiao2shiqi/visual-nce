@@ -290,7 +290,7 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "I did not enjoy it.",
       "translation": "但我却没有好好欣赏。",
       "startTime": 25.1,
@@ -327,8 +327,8 @@
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "image": "/images/nce2/l1/scene2.png",
+      "role": "Narrator",
+      "image": "/images/nce2/l1/young_couple_talking.png",
       "text": "A young man and a young woman were sitting behind me.",
       "translation": "一对青年男女坐在我的身后。",
       "startTime": 27.43,
@@ -385,7 +385,7 @@
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "They were talking loudly.",
       "translation": "他们在大声说话。",
       "startTime": 31.96,
@@ -417,7 +417,7 @@
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "I got very angry.",
       "translation": "我非常生气。",
       "startTime": 34.59,
@@ -449,9 +449,9 @@
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Narrator",
       "text": "I could not hear the actors.",
-      "translation": "我听看见演员们在说什么。",
+      "translation": "我听不见演员们在说什么。",
       "startTime": 37.41,
       "endTime": 40.14,
       "analysis": {
@@ -491,8 +491,8 @@
     },
     {
       "id": "s6",
-      "role": "Woman",
-      "image": "/images/nce2/l1/scene3.png",
+      "role": "Narrator",
+      "image": "/images/nce2/l1/writer_turns_angrily.png",
       "text": "I turned round.",
       "translation": "我转过身去。",
       "startTime": 40.64,
@@ -519,7 +519,7 @@
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Narrator",
       "text": "I looked at the man and the woman angrily.",
       "translation": "愤怒地看着那个男人和那个女人。",
       "startTime": 42.8,
@@ -571,7 +571,7 @@
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "They did not pay any attention.",
       "translation": "他们却毫不理会。",
       "startTime": 47.27,
@@ -613,7 +613,7 @@
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Narrator",
       "text": "In the end, I could not bear it.",
       "translation": "最后，我实在忍不住了。",
       "startTime": 50.69,
@@ -665,7 +665,7 @@
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "I turned round again.",
       "translation": "我又一次回过头去。",
       "startTime": 54.98,
@@ -697,8 +697,8 @@
     },
     {
       "id": "s11",
-      "role": "Man",
-      "image": "/images/nce2/l1/scene4.png",
+      "role": "Writer",
+      "image": "/images/nce2/l1/writer_complains.png",
       "text": "'I can't hear a word!' I said angrily.",
       "translation": "'我一个字也听不见！'我生气地说。",
       "startTime": 57.75,
@@ -750,7 +750,8 @@
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Young Man",
+      "image": "/images/nce2/l1/young_man_replies_rudely.png",
       "text": "'It's none of your business,' the young man said rudely.",
       "translation": "'不关你的事，'那个年轻人粗鲁地回答。",
       "startTime": 63.45,
@@ -812,7 +813,8 @@
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Young Man",
+      "image": "/images/nce2/l1/private_conversation_reply.png",
       "text": "'This is a private conversation!'",
       "translation": "'这是私人间的谈话！'",
       "startTime": 69,

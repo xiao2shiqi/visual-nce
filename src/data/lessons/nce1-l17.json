@@ -169,588 +169,289 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Mr. Jackson",
       "text": "Come and meet our employees Mr.Richards.",
       "translation": "理查兹先生，来见见我们的雇员。",
       "startTime": 19.59,
       "endTime": 24.69,
+      "image": "/images/nce1/l17/scene1.png",
       "analysis": {
         "words": [
-          {
-            "word": "Come",
-            "pos": "v.",
-            "meaning": "来"
-          },
-          {
-            "word": "and",
-            "pos": "conj.",
-            "meaning": "和"
-          },
-          {
-            "word": "meet",
-            "pos": "v.",
-            "meaning": "遇见"
-          },
-          {
-            "word": "our",
-            "pos": "pron.",
-            "meaning": "我们的"
-          },
-          {
-            "word": "employees",
-            "pos": "n.",
-            "meaning": "雇员"
-          },
-          {
-            "word": "Mr.",
-            "pos": "n.",
-            "meaning": "先生"
-          },
-          {
-            "word": "Richards",
-            "pos": "n.",
-            "meaning": "理查兹"
-          }
+          {"word": "Come", "pos": "v.", "meaning": "来"},
+          {"word": "and", "pos": "conj.", "meaning": "和"},
+          {"word": "meet", "pos": "v.", "meaning": "遇见"},
+          {"word": "our", "pos": "pron.", "meaning": "我们的"},
+          {"word": "employees", "pos": "n.", "meaning": "雇员"},
+          {"word": "Mr.", "pos": "n.", "meaning": "先生"},
+          {"word": "Richards", "pos": "n.", "meaning": "理查兹"}
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Mr. Richards",
       "text": "Thank you Mr. Jackson.",
       "translation": "谢谢你，杰克逊先生。",
       "startTime": 25.19,
       "endTime": 27.95,
+      "image": "/images/nce1/l17/scene1.png",
       "analysis": {
         "words": [
-          {
-            "word": "Thank",
-            "pos": "v.",
-            "meaning": "感谢"
-          },
-          {
-            "word": "you",
-            "pos": "pron.",
-            "meaning": "你"
-          },
-          {
-            "word": "Mr.",
-            "pos": "n.",
-            "meaning": "先生"
-          },
-          {
-            "word": "Jackson",
-            "pos": "n.",
-            "meaning": "杰克逊"
-          }
+          {"word": "Thank", "pos": "v.", "meaning": "感谢"},
+          {"word": "you", "pos": "pron.", "meaning": "你"},
+          {"word": "Mr.", "pos": "n.", "meaning": "先生"},
+          {"word": "Jackson", "pos": "n.", "meaning": "杰克逊"}
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Mr. Jackson",
       "text": "This is Nicola Grey and this is Claire Taylor.",
       "translation": "这位是妮科拉·格雷，这位是克莱尔·泰勒。",
       "startTime": 28.45,
       "endTime": 34.8,
+      "image": "/images/nce1/l17/keyboard_operators.png",
       "analysis": {
         "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Nicola",
-            "pos": "n.",
-            "meaning": "妮科拉"
-          },
-          {
-            "word": "Grey",
-            "pos": "n.",
-            "meaning": "格雷"
-          },
-          {
-            "word": "and",
-            "pos": "conj.",
-            "meaning": "和"
-          },
-          {
-            "word": "this",
-            "pos": "pron.",
-            "meaning": "这"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Claire",
-            "pos": "n.",
-            "meaning": "克莱尔"
-          },
-          {
-            "word": "Taylor",
-            "pos": "n.",
-            "meaning": "泰勒"
-          }
+          {"word": "This", "pos": "pron.", "meaning": "这"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "Nicola", "pos": "n.", "meaning": "妮科拉"},
+          {"word": "Grey", "pos": "n.", "meaning": "格雷"},
+          {"word": "and", "pos": "conj.", "meaning": "和"},
+          {"word": "this", "pos": "pron.", "meaning": "这"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "Claire", "pos": "n.", "meaning": "克莱尔"},
+          {"word": "Taylor", "pos": "n.", "meaning": "泰勒"}
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Narrator",
+      "role": "Mr. Richards",
       "text": "How do you do?",
       "translation": "您好！",
       "startTime": 35.3,
       "endTime": 37.9,
+      "image": "/images/nce1/l17/keyboard_operators.png",
       "analysis": {
         "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "如何"
-          },
-          {
-            "word": "do",
-            "pos": "v.",
-            "meaning": "（助动词）"
-          },
-          {
-            "word": "you",
-            "pos": "pron.",
-            "meaning": "你"
-          },
-          {
-            "word": "do",
-            "pos": "v.",
-            "meaning": "做"
-          }
+          {"word": "How", "pos": "adv.", "meaning": "如何"},
+          {"word": "do", "pos": "v.", "meaning": "（助动词）"},
+          {"word": "you", "pos": "pron.", "meaning": "你"},
+          {"word": "do", "pos": "v.", "meaning": "做"}
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Mr. Jackson",
       "text": "Those women are very hard-working.",
       "translation": "那些妇女非常勤奋。",
       "startTime": 38.4,
       "endTime": 42.68,
+      "image": "/images/nce1/l17/keyboard_operators.png",
       "analysis": {
         "words": [
-          {
-            "word": "Those",
-            "pos": "det.",
-            "meaning": "那些"
-          },
-          {
-            "word": "women",
-            "pos": "n.",
-            "meaning": "妇女"
-          },
-          {
-            "word": "are",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "very",
-            "pos": "adv.",
-            "meaning": "非常"
-          },
-          {
-            "word": "hard-working",
-            "pos": "adj.",
-            "meaning": "勤奋的"
-          }
+          {"word": "Those", "pos": "det.", "meaning": "那些"},
+          {"word": "women", "pos": "n.", "meaning": "妇女"},
+          {"word": "are", "pos": "v.", "meaning": "是"},
+          {"word": "very", "pos": "adv.", "meaning": "非常"},
+          {"word": "hard-working", "pos": "adj.", "meaning": "勤奋的"}
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Narrator",
+      "role": "Mr. Richards",
       "text": "What are their jobs?",
       "translation": "她们的工作是什么？",
       "startTime": 43.18,
       "endTime": 46.1,
+      "image": "/images/nce1/l17/keyboard_operators.png",
       "analysis": {
         "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "are",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "their",
-            "pos": "pron.",
-            "meaning": "她们的"
-          },
-          {
-            "word": "jobs",
-            "pos": "n.",
-            "meaning": "工作"
-          }
+          {"word": "What", "pos": "pron.", "meaning": "什么"},
+          {"word": "are", "pos": "v.", "meaning": "是"},
+          {"word": "their", "pos": "pron.", "meaning": "她们的"},
+          {"word": "jobs", "pos": "n.", "meaning": "工作"}
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Mr. Jackson",
       "text": "They're keyboard operators.",
       "translation": "她们是电脑录入员。",
       "startTime": 46.6,
       "endTime": 50.4,
+      "image": "/images/nce1/l17/keyboard_operators.png",
       "analysis": {
         "words": [
-          {
-            "word": "They",
-            "pos": "pron.",
-            "meaning": "她们"
-          },
-          {
-            "word": "'re",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "keyboard",
-            "pos": "n.",
-            "meaning": "键盘"
-          },
-          {
-            "word": "operators",
-            "pos": "n.",
-            "meaning": "操作员"
-          }
+          {"word": "They", "pos": "pron.", "meaning": "她们"},
+          {"word": "'re", "pos": "v.", "meaning": "是"},
+          {"word": "keyboard", "pos": "n.", "meaning": "键盘"},
+          {"word": "operators", "pos": "n.", "meaning": "操作员"},
+          {"word": "badge", "pos": "n.", "meaning": "证章/徽章"}
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Mr. Jackson",
       "text": "This is Michael Baker and this is Jeremy Short.",
       "translation": "这位是迈克尔·贝克，这位是杰里米·肖特。",
       "startTime": 50.9,
       "endTime": 56.92,
+      "image": "/images/nce1/l17/sales_reps.png",
       "analysis": {
         "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Michael",
-            "pos": "n.",
-            "meaning": "迈克尔"
-          },
-          {
-            "word": "Baker",
-            "pos": "n.",
-            "meaning": "贝克"
-          },
-          {
-            "word": "and",
-            "pos": "conj.",
-            "meaning": "和"
-          },
-          {
-            "word": "this",
-            "pos": "pron.",
-            "meaning": "这"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Jeremy",
-            "pos": "n.",
-            "meaning": "杰里米"
-          },
-          {
-            "word": "Short",
-            "pos": "n.",
-            "meaning": "肖特"
-          }
+          {"word": "This", "pos": "pron.", "meaning": "这"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "Michael", "pos": "n.", "meaning": "迈克尔"},
+          {"word": "Baker", "pos": "n.", "meaning": "贝克"},
+          {"word": "and", "pos": "conj.", "meaning": "和"},
+          {"word": "this", "pos": "pron.", "meaning": "这"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "Jeremy", "pos": "n.", "meaning": "杰里米"},
+          {"word": "Short", "pos": "n.", "meaning": "肖特"}
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Narrator",
+      "role": "Mr. Richards",
       "text": "How do you do?",
       "translation": "您好！",
       "startTime": 57.42,
       "endTime": 60.17,
+      "image": "/images/nce1/l17/introductions.png",
       "analysis": {
         "words": [
-          {
-            "word": "How",
-            "pos": "adv.",
-            "meaning": "如何"
-          },
-          {
-            "word": "do",
-            "pos": "v.",
-            "meaning": "助动词"
-          },
-          {
-            "word": "you",
-            "pos": "pron.",
-            "meaning": "你"
-          },
-          {
-            "word": "do",
-            "pos": "v.",
-            "meaning": "做"
-          }
+          {"word": "How", "pos": "adv.", "meaning": "如何"},
+          {"word": "do", "pos": "v.", "meaning": "助动词"},
+          {"word": "you", "pos": "pron.", "meaning": "你"},
+          {"word": "do", "pos": "v.", "meaning": "做"}
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Man",
+      "role": "Mr. Richards",
       "text": "They aren't very busy!",
       "translation": "他们不怎么忙！",
       "startTime": 60.67,
       "endTime": 63.3,
+      "image": "/images/nce1/l17/sales_reps.png",
       "analysis": {
         "words": [
-          {
-            "word": "They",
-            "pos": "pron.",
-            "meaning": "他们"
-          },
-          {
-            "word": "aren't",
-            "pos": "v.",
-            "meaning": "不"
-          },
-          {
-            "word": "very",
-            "pos": "adv.",
-            "meaning": "非常"
-          },
-          {
-            "word": "busy",
-            "pos": "adj.",
-            "meaning": "忙碌的"
-          }
+          {"word": "They", "pos": "pron.", "meaning": "他们"},
+          {"word": "aren't", "pos": "v.", "meaning": "不"},
+          {"word": "very", "pos": "adv.", "meaning": "非常"},
+          {"word": "busy", "pos": "adj.", "meaning": "忙碌的"}
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Narrator",
+      "role": "Mr. Jackson",
       "text": "What are their jobs?",
       "translation": "他们的工作是什么？",
       "startTime": 63.8,
       "endTime": 67.45,
+      "image": "/images/nce1/l17/sales_reps.png",
       "analysis": {
         "words": [
-          {
-            "word": "What",
-            "pos": "pron.",
-            "meaning": "什么"
-          },
-          {
-            "word": "are",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "their",
-            "pos": "pron.",
-            "meaning": "他们的"
-          },
-          {
-            "word": "jobs",
-            "pos": "n.",
-            "meaning": "工作"
-          }
+          {"word": "What", "pos": "pron.", "meaning": "什么"},
+          {"word": "are", "pos": "v.", "meaning": "是"},
+          {"word": "their", "pos": "pron.", "meaning": "他们的"},
+          {"word": "jobs", "pos": "n.", "meaning": "工作"}
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Man",
+      "role": "Mr. Jackson",
       "text": "They're sales reps.",
       "translation": "他们是推销员。",
       "startTime": 67.95,
       "endTime": 69.71,
+      "image": "/images/nce1/l17/sales_reps.png",
       "analysis": {
         "words": [
-          {
-            "word": "They",
-            "pos": "pron.",
-            "meaning": "他们"
-          },
-          {
-            "word": "'re",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "sales",
-            "pos": "n.",
-            "meaning": "销售"
-          },
-          {
-            "word": "reps",
-            "pos": "n.",
-            "meaning": "代表"
-          }
+          {"word": "They", "pos": "pron.", "meaning": "他们"},
+          {"word": "'re", "pos": "v.", "meaning": "是"},
+          {"word": "sales", "pos": "n.", "meaning": "销售"},
+          {"word": "reps", "pos": "n.", "meaning": "代表"}
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Mr. Richards",
       "text": "They're very lazy.",
       "translation": "他们非常懒。",
       "startTime": 70.21,
       "endTime": 72.78,
+      "image": "/images/nce1/l17/sales_reps.png",
       "analysis": {
         "words": [
-          {
-            "word": "They",
-            "pos": "pron.",
-            "meaning": "他们"
-          },
-          {
-            "word": "'re",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "very",
-            "pos": "adv.",
-            "meaning": "非常"
-          },
-          {
-            "word": "lazy",
-            "pos": "adj.",
-            "meaning": "懒惰的"
-          }
+          {"word": "They", "pos": "pron.", "meaning": "他们"},
+          {"word": "'re", "pos": "v.", "meaning": "是"},
+          {"word": "very", "pos": "adv.", "meaning": "非常"},
+          {"word": "lazy", "pos": "adj.", "meaning": "懒惰的"}
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Narrator",
+      "role": "Mr. Richards",
       "text": "Who is this young man?",
       "translation": "这位年轻男子是谁？",
       "startTime": 73.28,
       "endTime": 76.53,
+      "image": "/images/nce1/l17/jim.png",
       "analysis": {
         "words": [
-          {
-            "word": "Who",
-            "pos": "pron.",
-            "meaning": "谁"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这"
-          },
-          {
-            "word": "young",
-            "pos": "adj.",
-            "meaning": "年轻的"
-          },
-          {
-            "word": "man",
-            "pos": "n.",
-            "meaning": "男人"
-          }
+          {"word": "Who", "pos": "pron.", "meaning": "谁"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "this", "pos": "det.", "meaning": "这"},
+          {"word": "young", "pos": "adj.", "meaning": "年轻的"},
+          {"word": "man", "pos": "n.", "meaning": "男人"}
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Mr. Jackson",
       "text": "This is Jim.",
       "translation": "这位是吉姆。",
       "startTime": 77.03,
       "endTime": 78.92,
+      "image": "/images/nce1/l17/jim.png",
       "analysis": {
         "words": [
-          {
-            "word": "This",
-            "pos": "pron.",
-            "meaning": "这"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Jim",
-            "pos": "n.",
-            "meaning": "吉姆"
-          }
+          {"word": "This", "pos": "pron.", "meaning": "这"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "Jim", "pos": "n.", "meaning": "吉姆"}
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Mr. Jackson",
       "text": "He's our office assistant.",
       "translation": "他是我们的办公室助理。",
       "startTime": 79.42,
       "endTime": 84.42,
+      "image": "/images/nce1/l17/jim.png",
       "analysis": {
         "words": [
-          {
-            "word": "He",
-            "pos": "pron.",
-            "meaning": "他"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "our",
-            "pos": "pron.",
-            "meaning": "我们的"
-          },
-          {
-            "word": "office",
-            "pos": "n.",
-            "meaning": "办公室"
-          },
-          {
-            "word": "assistant",
-            "pos": "n.",
-            "meaning": "助理"
-          }
+          {"word": "He", "pos": "pron.", "meaning": "他"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "our", "pos": "pron.", "meaning": "我们的"},
+          {"word": "office", "pos": "n.", "meaning": "办公室"},
+          {"word": "assistant", "pos": "n.", "meaning": "助理"}
         ]
       }
     }

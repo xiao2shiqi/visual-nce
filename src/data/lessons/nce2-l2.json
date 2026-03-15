@@ -2,7 +2,7 @@
   "id": "nce2-l2",
   "title": "Lesson 2: Breakfast or Lunch",
   "audio": "/audio/nce2/02－Breakfast or Lunch.mp3",
-  "image": "/images/nce2/l2/thumbnail.jpg",
+  "image": "/images/nce2/l2/scene1.png",
   "segments": [
     {
       "id": "intro_1",
@@ -265,7 +265,7 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Narrator",
       "text": "Last Sunday I got up very late.",
       "translation": "上星期天，我起得很晚。",
       "startTime": 26.81,
@@ -307,8 +307,8 @@
     },
     {
       "id": "s2",
-      "role": "Woman",
-      "image": "/images/nce2/l2/scene2.png",
+      "role": "Narrator",
+      "image": "/images/nce2/l2/rainy_window.png",
       "text": "I looked out of the window.",
       "translation": "我往窗外一看。",
       "startTime": 31.06,
@@ -345,7 +345,7 @@
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Narrator",
       "text": "It was dark outside.",
       "translation": "外面一片漆黑。",
       "startTime": 33.45,
@@ -377,7 +377,7 @@
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Narrator",
       "text": "'What a day!' I thought.",
       "translation": "'鬼天气！'我想。",
       "startTime": 35.84,
@@ -414,12 +414,11 @@
     },
     {
       "id": "s5",
-      "role": "Man",
-      "image": "/images/nce2/l2/scene3.png",
-      "text": "'It's raining again.' Just then, the telephone rang.",
-      "translation": "'又下雨了。'就在这时，电话铃响了。",
+      "role": "Narrator",
+      "text": "'It's raining again.'",
+      "translation": "'又下雨了。'",
       "startTime": 39.6,
-      "endTime": 45.54,
+      "endTime": 42.61,
       "analysis": {
         "words": [
           {
@@ -436,7 +435,20 @@
             "word": "again",
             "pos": "adv.",
             "meaning": "再一次，又"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "role": "Narrator",
+      "image": "/images/nce2/l2/telephone_rings.png",
+      "text": "Just then, the telephone rang.",
+      "translation": "就在这时，电话铃响了。",
+      "startTime": 42.61,
+      "endTime": 45.54,
+      "analysis": {
+        "words": [
           {
             "word": "Just",
             "pos": "adv.",
@@ -466,9 +478,9 @@
       }
     },
     {
-      "id": "s6",
-      "role": "Man",
-      "image": "/images/nce2/l2/scene4.png",
+      "id": "s7",
+      "role": "Narrator",
+      "image": "/images/nce2/l2/aunt_lucy_calls.png",
       "text": "It was my aunt Lucy.",
       "translation": "是我姑妈露西打来的。",
       "startTime": 46.04,
@@ -504,8 +516,8 @@
       }
     },
     {
-      "id": "s7",
-      "role": "Woman",
+      "id": "s8",
+      "role": "Aunt Lucy",
       "text": "'I've just arrived by train,' she said.",
       "translation": "'我刚下火车，'她说。",
       "startTime": 49.04,
@@ -551,13 +563,12 @@
       }
     },
     {
-      "id": "s8",
-      "role": "Man",
-      "image": "/images/nce2/l2/scene5.png",
-      "text": "'I'm coming to see you.' 'But I'm still having breakfast,' I said.",
-      "translation": "'我这就来看你。''但我还在吃早饭，'我说。",
+      "id": "s9",
+      "role": "Aunt Lucy",
+      "text": "'I'm coming to see you.'",
+      "translation": "'我这就来看你。'",
       "startTime": 53.09,
-      "endTime": 60.04,
+      "endTime": 56.01,
       "analysis": {
         "words": [
           {
@@ -584,7 +595,20 @@
             "word": "you",
             "pos": "pron.",
             "meaning": "你"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "role": "Writer",
+      "image": "/images/nce2/l2/writer_still_breakfast.png",
+      "text": "'But I'm still having breakfast,' I said.",
+      "translation": "'但我还在吃早饭，'我说。",
+      "startTime": 56.01,
+      "endTime": 60.04,
+      "analysis": {
+        "words": [
           {
             "word": "But",
             "pos": "conj.",
@@ -624,8 +648,8 @@
       }
     },
     {
-      "id": "s9",
-      "role": "Man",
+      "id": "s11",
+      "role": "Aunt Lucy",
       "text": "'What are you doing?' she asked.",
       "translation": "'你在做什么？'她问。",
       "startTime": 60.54,
@@ -666,8 +690,8 @@
       }
     },
     {
-      "id": "s10",
-      "role": "Woman",
+      "id": "s12",
+      "role": "Writer",
       "text": "'I'm having breakfast,' I repeated.",
       "translation": "'我在吃早饭，'我又说了一遍。",
       "startTime": 63.84,
@@ -703,8 +727,8 @@
       }
     },
     {
-      "id": "s11",
-      "role": "Man",
+      "id": "s13",
+      "role": "Aunt Lucy",
       "text": "'Dear me,' she said.",
       "translation": "'天哪，'她说。",
       "startTime": 67.5,
@@ -735,8 +759,9 @@
       }
     },
     {
-      "id": "s12",
-      "role": "Woman",
+      "id": "s14",
+      "role": "Aunt Lucy",
+      "image": "/images/nce2/l2/breakfast_one_oclock.png",
       "text": "'Do you always get up so late?",
       "translation": "'你总是起得这么晚吗？",
       "startTime": 70.4,
@@ -777,8 +802,8 @@
       }
     },
     {
-      "id": "s13",
-      "role": "Man",
+      "id": "s15",
+      "role": "Aunt Lucy",
       "text": "It's one o'clock!'",
       "translation": "现在已经一点钟了！'",
       "startTime": 73.39,

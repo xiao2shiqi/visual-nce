@@ -11,18 +11,11 @@
       "translation": "第13课",
       "startTime": 0.41,
       "endTime": 2.21,
+      "image": "/images/nce1/l13/scene1.png",
       "analysis": {
         "words": [
-          {
-            "word": "Lesson",
-            "pos": "n.",
-            "meaning": "课"
-          },
-          {
-            "word": "13",
-            "pos": "num.",
-            "meaning": "十三"
-          }
+          {"word": "Lesson", "pos": "n.", "meaning": "课"},
+          {"word": "13", "pos": "num.", "meaning": "十三"}
         ]
       }
     },
@@ -35,21 +28,9 @@
       "endTime": 5.03,
       "analysis": {
         "words": [
-          {
-            "word": "A",
-            "pos": "art.",
-            "meaning": "一件"
-          },
-          {
-            "word": "new",
-            "pos": "adj.",
-            "meaning": "新的"
-          },
-          {
-            "word": "dress",
-            "pos": "n.",
-            "meaning": "连衣裙"
-          }
+          {"word": "A", "pos": "art.", "meaning": "一件"},
+          {"word": "new", "pos": "adj.", "meaning": "新的"},
+          {"word": "dress", "pos": "n.", "meaning": "连衣裙"}
         ]
       }
     },
@@ -59,49 +40,17 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.53,
-      "endTime": 11.22,
+      "endTime": 11.00,
       "analysis": {
         "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音带"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
+          {"word": "Listen", "pos": "v.", "meaning": "听"},
+          {"word": "to", "pos": "prep.", "meaning": "向"},
+          {"word": "the", "pos": "art.", "meaning": "这"},
+          {"word": "tape", "pos": "n.", "meaning": "录音"},
+          {"word": "then", "pos": "adv.", "meaning": "然后"},
+          {"word": "answer", "pos": "v.", "meaning": "回答"},
+          {"word": "this", "pos": "det.", "meaning": "这个"},
+          {"word": "question", "pos": "n.", "meaning": "问题"}
         ]
       }
     },
@@ -111,455 +60,233 @@
       "text": "What colour is Anna's hat?",
       "translation": "安娜的帽子是什么颜色的？",
       "startTime": 11.72,
-      "endTime": 16.17,
+      "endTime": 16.00,
       "analysis": {
         "words": [
-          {
-            "word": "What",
-            "pos": "det.",
-            "meaning": "什么"
-          },
-          {
-            "word": "colour",
-            "pos": "n.",
-            "meaning": "颜色"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "Anna",
-            "pos": "n.",
-            "meaning": "安娜"
-          },
-          {
-            "word": "'s",
-            "pos": "case.",
-            "meaning": "的"
-          },
-          {
-            "word": "hat",
-            "pos": "n.",
-            "meaning": "帽子"
-          }
+          {"word": "What", "pos": "det.", "meaning": "什么"},
+          {"word": "colour", "pos": "n.", "meaning": "颜色"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "Anna", "pos": "n.", "meaning": "安娜"},
+          {"word": "'s", "pos": "case.", "meaning": "的"},
+          {"word": "hat", "pos": "n.", "meaning": "帽子"}
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Narrator",
+      "role": "Louise",
       "text": "What colour's your new dress?",
       "translation": "你的新连衣裙是什么颜色的？",
       "startTime": 16.67,
       "endTime": 19.96,
       "analysis": {
         "words": [
-          {
-            "word": "What",
-            "pos": "det.",
-            "meaning": "什么"
-          },
-          {
-            "word": "colour",
-            "pos": "n.",
-            "meaning": "颜色"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "your",
-            "pos": "pron.",
-            "meaning": "你的"
-          },
-          {
-            "word": "new",
-            "pos": "adj.",
-            "meaning": "新的"
-          },
-          {
-            "word": "dress",
-            "pos": "n.",
-            "meaning": "连衣裙"
-          }
+          {"word": "What", "pos": "det.", "meaning": "什么"},
+          {"word": "colour", "pos": "n.", "meaning": "颜色"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "your", "pos": "pron.", "meaning": "你的"},
+          {"word": "new", "pos": "adj.", "meaning": "新的"},
+          {"word": "dress", "pos": "n.", "meaning": "连衣裙"}
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Man",
+      "role": "Anna",
       "text": "It's green.",
       "translation": "它是绿色的。",
       "startTime": 20.46,
       "endTime": 22.02,
       "analysis": {
         "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "green",
-            "pos": "adj.",
-            "meaning": "绿色的"
-          }
+          {"word": "It", "pos": "pron.", "meaning": "它"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "green", "pos": "adj.", "meaning": "绿色的"}
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Woman",
+      "role": "Anna",
       "text": "Come upstairs and see it.",
       "translation": "上楼来看看它。",
       "startTime": 22.52,
       "endTime": 25.28,
       "analysis": {
         "words": [
-          {
-            "word": "Come",
-            "pos": "v.",
-            "meaning": "来"
-          },
-          {
-            "word": "upstairs",
-            "pos": "adv.",
-            "meaning": "楼上"
-          },
-          {
-            "word": "and",
-            "pos": "conj.",
-            "meaning": "和"
-          },
-          {
-            "word": "see",
-            "pos": "v.",
-            "meaning": "看"
-          },
-          {
-            "word": "it",
-            "pos": "pron.",
-            "meaning": "它"
-          }
+          {"word": "Come", "pos": "v.", "meaning": "来"},
+          {"word": "upstairs", "pos": "adv.", "meaning": "楼上"},
+          {"word": "and", "pos": "conj.", "meaning": "和"},
+          {"word": "see", "pos": "v.", "meaning": "看"},
+          {"word": "it", "pos": "pron.", "meaning": "它"}
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Man",
+      "role": "Louise",
       "text": "Thank you.",
       "translation": "谢谢。",
       "startTime": 25.78,
-      "endTime": 27.03,
+      "endTime": 27.00,
+      "image": "/images/nce1/l13/scene2.png",
       "analysis": {
         "words": [
-          {
-            "word": "Thank",
-            "pos": "v.",
-            "meaning": "感谢"
-          },
-          {
-            "word": "you",
-            "pos": "pron.",
-            "meaning": "你"
-          }
+          {"word": "Thank", "pos": "v.", "meaning": "感谢"},
+          {"word": "you", "pos": "pron.", "meaning": "你"}
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Woman",
+      "role": "Anna",
       "text": "Look!",
       "translation": "看！",
       "startTime": 27.53,
       "endTime": 28.16,
+      "image": "/images/nce1/l13/scene3.png",
       "analysis": {
         "words": [
-          {
-            "word": "Look",
-            "pos": "v.",
-            "meaning": "看"
-          }
+          {"word": "Look", "pos": "v.", "meaning": "看"}
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Man",
+      "role": "Anna",
       "text": "Here it is!",
       "translation": "它在这儿呢！",
       "startTime": 28.66,
       "endTime": 30.29,
+      "image": "/images/nce1/l13/scene3.png",
       "analysis": {
         "words": [
-          {
-            "word": "Here",
-            "pos": "adv.",
-            "meaning": "这里"
-          },
-          {
-            "word": "it",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          }
+          {"word": "Here", "pos": "adv.", "meaning": "这里"},
+          {"word": "it", "pos": "pron.", "meaning": "它"},
+          {"word": "is", "pos": "v.", "meaning": "是"}
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Louise",
       "text": "That's a nice dress.",
       "translation": "那是一件漂亮的连衣裙。",
       "startTime": 30.79,
       "endTime": 33.01,
+      "image": "/images/nce1/l13/scene4.png",
       "analysis": {
         "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一件"
-          },
-          {
-            "word": "nice",
-            "pos": "adj.",
-            "meaning": "漂亮的"
-          },
-          {
-            "word": "dress",
-            "pos": "n.",
-            "meaning": "连衣裙"
-          }
+          {"word": "That", "pos": "pron.", "meaning": "那"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "a", "pos": "art.", "meaning": "一件"},
+          {"word": "nice", "pos": "adj.", "meaning": "漂亮的"},
+          {"word": "dress", "pos": "n.", "meaning": "连衣裙"}
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Louise",
       "text": "It's very smart.",
       "translation": "它非常时髦。",
       "startTime": 33.51,
       "endTime": 35.66,
+      "image": "/images/nce1/l13/scene4.png",
       "analysis": {
         "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "very",
-            "pos": "adv.",
-            "meaning": "非常"
-          },
-          {
-            "word": "smart",
-            "pos": "adj.",
-            "meaning": "时髦的"
-          }
+          {"word": "It", "pos": "pron.", "meaning": "它"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "very", "pos": "adv.", "meaning": "非常"},
+          {"word": "smart", "pos": "adj.", "meaning": "时髦的"}
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Anna",
       "text": "My hat's new too.",
       "translation": "我的帽子也是新的。",
       "startTime": 36.16,
       "endTime": 38.72,
+      "image": "/images/nce1/l13/scene5.png",
       "analysis": {
         "words": [
-          {
-            "word": "My",
-            "pos": "pron.",
-            "meaning": "我的"
-          },
-          {
-            "word": "hat",
-            "pos": "n.",
-            "meaning": "帽子"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "new",
-            "pos": "adj.",
-            "meaning": "新的"
-          },
-          {
-            "word": "too",
-            "pos": "adv.",
-            "meaning": "也"
-          }
+          {"word": "My", "pos": "pron.", "meaning": "我的"},
+          {"word": "hat", "pos": "n.", "meaning": "帽子"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "new", "pos": "adj.", "meaning": "新的"},
+          {"word": "too", "pos": "adv.", "meaning": "也"}
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Narrator",
+      "role": "Louise",
       "text": "What colour is it?",
       "translation": "它是什么颜色的？",
       "startTime": 39.22,
-      "endTime": 41.12,
+      "endTime": 41.20,
+      "image": "/images/nce1/l13/scene5.png",
       "analysis": {
         "words": [
-          {
-            "word": "What",
-            "pos": "det.",
-            "meaning": "什么"
-          },
-          {
-            "word": "colour",
-            "pos": "n.",
-            "meaning": "颜色"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "it",
-            "pos": "pron.",
-            "meaning": "它"
-          }
+          {"word": "What", "pos": "det.", "meaning": "什么"},
+          {"word": "colour", "pos": "n.", "meaning": "颜色"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "it", "pos": "pron.", "meaning": "它"}
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Anna",
       "text": "It's the same colour.",
       "translation": "它是同样的颜色。",
       "startTime": 41.62,
-      "endTime": 43.68,
+      "endTime": 43.60,
+      "image": "/images/nce1/l13/scene5.png",
       "analysis": {
         "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "same",
-            "pos": "adj.",
-            "meaning": "同样的"
-          },
-          {
-            "word": "colour",
-            "pos": "n.",
-            "meaning": "颜色"
-          }
+          {"word": "It", "pos": "pron.", "meaning": "它"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "the", "pos": "art.", "meaning": "这"},
+          {"word": "same", "pos": "adj.", "meaning": "同样的"},
+          {"word": "colour", "pos": "n.", "meaning": "颜色"}
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Anna",
       "text": "It's green too.",
       "translation": "它也是绿色的。",
       "startTime": 44.18,
       "endTime": 46.62,
+      "image": "/images/nce1/l13/scene5.png",
       "analysis": {
         "words": [
-          {
-            "word": "It",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "'s",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "green",
-            "pos": "adj.",
-            "meaning": "绿色的"
-          },
-          {
-            "word": "too",
-            "pos": "adv.",
-            "meaning": "也"
-          }
+          {"word": "It", "pos": "pron.", "meaning": "它"},
+          {"word": "'s", "pos": "v.", "meaning": "是"},
+          {"word": "green", "pos": "adj.", "meaning": "绿色的"},
+          {"word": "too", "pos": "adv.", "meaning": "也"}
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Louise",
       "text": "That is a lovely hat!",
       "translation": "那顶帽子真可爱！",
       "startTime": 47.12,
       "endTime": 52.12,
+      "image": "/images/nce1/l13/scene6.png",
       "analysis": {
         "words": [
-          {
-            "word": "That",
-            "pos": "pron.",
-            "meaning": "那"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "lovely",
-            "pos": "adj.",
-            "meaning": "可爱的"
-          },
-          {
-            "word": "hat",
-            "pos": "n.",
-            "meaning": "帽子"
-          }
+          {"word": "That", "pos": "pron.", "meaning": "那"},
+          {"word": "is", "pos": "v.", "meaning": "是"},
+          {"word": "a", "pos": "art.", "meaning": "一个"},
+          {"word": "lovely", "pos": "adj.", "meaning": "可爱的"},
+          {"word": "hat", "pos": "n.", "meaning": "帽子"}
         ]
       }
     }

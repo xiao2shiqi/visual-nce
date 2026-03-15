@@ -7,10 +7,10 @@
     {
       "id": "intro_1",
       "role": "Narrator",
-      "text": "Lesson 23 Which glasses?",
-      "translation": "第23课哪几只杯子？",
+      "text": "Lesson 23",
+      "translation": "第23课",
       "startTime": 0.42,
-      "endTime": 5.14,
+      "endTime": 2.4,
       "analysis": {
         "words": [
           {
@@ -22,11 +22,23 @@
             "word": "23",
             "pos": "num.",
             "meaning": "二十三"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "id": "intro_2",
+      "role": "Narrator",
+      "text": "Which glasses?",
+      "translation": "哪几只杯子？",
+      "startTime": 2.92,
+      "endTime": 5.14,
+      "analysis": {
+        "words": [
           {
             "word": "Which",
             "pos": "det.",
-            "meaning": "哪一些"
+            "meaning": "哪一个"
           },
           {
             "word": "glasses",
@@ -137,6 +149,7 @@
       "translation": "简，请给我几只杯子。",
       "startTime": 17.14,
       "endTime": 20.68,
+      "image": "/images/nce1/l23/scene1.png",
       "analysis": {
         "words": [
           {
@@ -174,11 +187,12 @@
     },
     {
       "id": "s2",
-      "role": "Narrator",
+      "role": "Jane",
       "text": "Which glasses?",
       "translation": "哪几只杯子？",
       "startTime": 21.18,
       "endTime": 22.78,
+      "image": "/images/nce1/l23/pointing_shelf.png",
       "analysis": {
         "words": [
           {
@@ -196,11 +210,12 @@
     },
     {
       "id": "s3",
-      "role": "Man",
+      "role": "Jane",
       "text": "These glasses?",
       "translation": "是这几只吗？",
       "startTime": 23.28,
       "endTime": 25.33,
+      "image": "/images/nce1/l23/pointing_shelf.png",
       "analysis": {
         "words": [
           {
@@ -218,11 +233,12 @@
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Man",
       "text": "No, not those.",
       "translation": "不，不是那几只。",
       "startTime": 25.83,
       "endTime": 28.08,
+      "image": "/images/nce1/l23/which_glasses.png",
       "analysis": {
         "words": [
           {
@@ -250,6 +266,7 @@
       "translation": "架子上的那几只。",
       "startTime": 28.58,
       "endTime": 30.9,
+      "image": "/images/nce1/l23/which_glasses.png",
       "analysis": {
         "words": [
           {
@@ -282,11 +299,12 @@
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Jane",
       "text": "These?",
       "translation": "是这几只吗？",
       "startTime": 31.4,
       "endTime": 32.34,
+      "image": "/images/nce1/l23/which_glasses.png",
       "analysis": {
         "words": [
           {
@@ -304,6 +322,7 @@
       "translation": "是的，请。/ 是的，请拿给我。",
       "startTime": 32.84,
       "endTime": 34.48,
+      "image": "/images/nce1/l23/handing_glasses.png",
       "analysis": {
         "words": [
           {
@@ -321,11 +340,12 @@
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Jane",
       "text": "Here you are.",
       "translation": "给你。",
       "startTime": 34.98,
       "endTime": 36.63,
+      "image": "/images/nce1/l23/handing_glasses.png",
       "analysis": {
         "words": [
           {
@@ -353,6 +373,7 @@
       "translation": "谢谢。",
       "startTime": 37.13,
       "endTime": 42.13,
+      "image": "/images/nce1/l23/thanking.png",
       "analysis": {
         "words": [
           {

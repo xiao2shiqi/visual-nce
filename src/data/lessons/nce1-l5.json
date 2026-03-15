@@ -144,6 +144,7 @@
       "translation": "早上好。",
       "startTime": 14.23,
       "endTime": 15.57,
+      "image": "/images/nce1/l5/mr_blake_enters.png",
       "analysis": {
         "words": [
           {
@@ -166,6 +167,7 @@
       "translation": "早上好，布莱克先生。",
       "startTime": 16.07,
       "endTime": 19.22,
+      "image": "/images/nce1/l5/alice_greets.png",
       "analysis": {
         "words": [
           {
@@ -198,6 +200,7 @@
       "translation": "这位是索菲·杜邦小姐。",
       "startTime": 19.72,
       "endTime": 23.11,
+      "image": "/images/nce1/l5/introducing_sophie.png",
       "analysis": {
         "words": [
           {
@@ -235,6 +238,7 @@
       "translation": "索菲是一名新学生。",
       "startTime": 23.61,
       "endTime": 26.05,
+      "image": "/images/nce1/l5/sophie_smile.png",
       "analysis": {
         "words": [
           {
@@ -272,6 +276,7 @@
       "translation": "她是法国人。",
       "startTime": 26.55,
       "endTime": 28.49,
+      "image": "/images/nce1/l5/sophie_smile.png",
       "analysis": {
         "words": [
           {
@@ -299,6 +304,7 @@
       "translation": "索菲，这位是汉斯。",
       "startTime": 28.99,
       "endTime": 32.04,
+      "image": "/images/nce1/l5/introducing_hans.png",
       "analysis": {
         "words": [
           {
@@ -331,6 +337,7 @@
       "translation": "他是德国人。",
       "startTime": 32.54,
       "endTime": 34.06,
+      "image": "/images/nce1/l5/introducing_hans.png",
       "analysis": {
         "words": [
           {
@@ -358,6 +365,7 @@
       "translation": "很高兴见到你。",
       "startTime": 34.56,
       "endTime": 36.83,
+      "image": "/images/nce1/l5/sophie_hans_greet.png",
       "analysis": {
         "words": [
           {
@@ -390,6 +398,7 @@
       "translation": "这位是直子。",
       "startTime": 37.33,
       "endTime": 39.49,
+      "image": "/images/nce1/l5/introducing_naoko.png",
       "analysis": {
         "words": [
           {
@@ -421,7 +430,8 @@
       "text": "She's Japanese.",
       "translation": "她是日本人。",
       "startTime": 39.99,
-      "endTime": 46.99,
+      "endTime": 41.75,
+      "image": "/images/nce1/l5/introducing_naoko.png",
       "analysis": {
         "words": [
           {
@@ -443,12 +453,79 @@
       }
     },
     {
+      "id": "s11",
+      "role": "Woman",
+      "text": "Nice to meet you.",
+      "translation": "很高兴见到你。",
+      "startTime": 42.25,
+      "endTime": 44.31,
+      "image": "/images/nce1/l5/introducing_naoko.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "愉快的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "meet",
+            "pos": "v.",
+            "meaning": "遇见"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "role": "Man",
+      "text": "And this is Chang-woo.",
+      "translation": "这位是昌宇。",
+      "startTime": 44.81,
+      "endTime": 46.99,
+      "image": "/images/nce1/l5/introducing_changwoo.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Chang-woo",
+            "pos": "n.",
+            "meaning": "昌宇"
+          }
+        ]
+      }
+    },
+    {
       "id": "s13",
       "role": "Man",
       "text": "He's Korean.",
       "translation": "他是韩国人。",
       "startTime": 47.49,
-      "endTime": 53.64,
+      "endTime": 48.76,
+      "image": "/images/nce1/l5/introducing_changwoo.png",
       "analysis": {
         "words": [
           {
@@ -470,12 +547,79 @@
       }
     },
     {
+      "id": "s14",
+      "role": "Woman",
+      "text": "Nice to meet you.",
+      "translation": "很高兴见到你。",
+      "startTime": 49.26,
+      "endTime": 51.15,
+      "image": "/images/nce1/l5/introducing_changwoo.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "愉快的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "meet",
+            "pos": "v.",
+            "meaning": "遇见"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "role": "Man",
+      "text": "And this is Luming.",
+      "translation": "这位是鲁明。",
+      "startTime": 51.65,
+      "endTime": 53.64,
+      "image": "/images/nce1/l5/introducing_luming.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Luming",
+            "pos": "n.",
+            "meaning": "鲁明"
+          }
+        ]
+      }
+    },
+    {
       "id": "s16",
       "role": "Man",
       "text": "He's Chinese.",
       "translation": "他是中国人。",
       "startTime": 54.14,
-      "endTime": 61.23,
+      "endTime": 55.7,
+      "image": "/images/nce1/l5/introducing_luming.png",
       "analysis": {
         "words": [
           {
@@ -497,12 +641,79 @@
       }
     },
     {
+      "id": "s17",
+      "role": "Woman",
+      "text": "Nice to meet you.",
+      "translation": "很高兴见到你。",
+      "startTime": 56.2,
+      "endTime": 58.06,
+      "image": "/images/nce1/l5/introducing_luming.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "愉快的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "meet",
+            "pos": "v.",
+            "meaning": "遇见"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "role": "Man",
+      "text": "And this is Xiaohui.",
+      "translation": "这位是晓惠。",
+      "startTime": 58.56,
+      "endTime": 61.23,
+      "image": "/images/nce1/l5/introducing_xiaohui.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "And",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "this",
+            "pos": "pron.",
+            "meaning": "这"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Xiaohui",
+            "pos": "n.",
+            "meaning": "晓惠"
+          }
+        ]
+      }
+    },
+    {
       "id": "s19",
       "role": "Man",
       "text": "She is Chinese too.",
       "translation": "她也是中国人。",
       "startTime": 61.73,
-      "endTime": 66.73,
+      "endTime": 63.71,
+      "image": "/images/nce1/l5/introducing_xiaohui.png",
       "analysis": {
         "words": [
           {
@@ -524,6 +735,39 @@
             "word": "too",
             "pos": "adv.",
             "meaning": "也"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "role": "Woman",
+      "text": "Nice to meet you.",
+      "translation": "很高兴见到你。",
+      "startTime": 64.21,
+      "endTime": 66.73,
+      "image": "/images/nce1/l5/introducing_xiaohui.png",
+      "analysis": {
+        "words": [
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "愉快的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "meet",
+            "pos": "v.",
+            "meaning": "遇见"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
           }
         ]
       }

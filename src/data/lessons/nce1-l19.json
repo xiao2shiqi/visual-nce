@@ -154,11 +154,12 @@
     },
     {
       "id": "s1",
-      "role": "Narrator",
+      "role": "Mother",
       "text": "What's the matter children?",
       "translation": "怎么了，孩子们？",
       "startTime": 17.95,
       "endTime": 20.35,
+      "image": "/images/nce1/l19/scene1.png",
       "analysis": {
         "words": [
           {
@@ -191,11 +192,12 @@
     },
     {
       "id": "s2",
-      "role": "Man",
+      "role": "Andy",
       "text": "We're tired ...",
       "translation": "我们累了……",
       "startTime": 20.85,
       "endTime": 22.21,
+      "image": "/images/nce1/l19/scene1.png",
       "analysis": {
         "words": [
           {
@@ -218,11 +220,12 @@
     },
     {
       "id": "s3",
-      "role": "Woman",
+      "role": "Lucy",
       "text": "... and thirsty  Mum.",
       "translation": "……还渴了，妈妈。",
       "startTime": 22.71,
       "endTime": 24.76,
+      "image": "/images/nce1/l19/scene1.png",
       "analysis": {
         "words": [
           {
@@ -245,11 +248,12 @@
     },
     {
       "id": "s4",
-      "role": "Man",
+      "role": "Mother",
       "text": "Sit down here.",
       "translation": "坐在这儿吧。",
       "startTime": 25.26,
       "endTime": 27.32,
+      "image": "/images/nce1/l19/bench.png",
       "analysis": {
         "words": [
           {
@@ -272,11 +276,12 @@
     },
     {
       "id": "s5",
-      "role": "Woman",
+      "role": "Mother",
       "text": "Are you all right now?",
       "translation": "你们现在好了吗？",
       "startTime": 27.82,
       "endTime": 29.61,
+      "image": "/images/nce1/l19/sitting.png",
       "analysis": {
         "words": [
           {
@@ -309,11 +314,12 @@
     },
     {
       "id": "s6",
-      "role": "Man",
+      "role": "Andy",
       "text": "No we aren't.",
       "translation": "不，还没有。",
       "startTime": 30.11,
       "endTime": 32.02,
+      "image": "/images/nce1/l19/sitting.png",
       "analysis": {
         "words": [
           {
@@ -341,11 +347,12 @@
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Mother",
       "text": "Look!",
       "translation": "看！",
       "startTime": 32.52,
       "endTime": 33.11,
+      "image": "/images/nce1/l19/ice_cream_man.png",
       "analysis": {
         "words": [
           {
@@ -358,11 +365,12 @@
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Andy",
       "text": "There's an ice cream man.",
       "translation": "那儿有个卖冰淇淋的人。",
       "startTime": 33.61,
       "endTime": 36.44,
+      "image": "/images/nce1/l19/ice_cream_man.png",
       "analysis": {
         "words": [
           {
@@ -395,11 +403,12 @@
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Mother",
       "text": "Two ice cream please.",
       "translation": "请拿两个冰淇淋。",
       "startTime": 36.94,
       "endTime": 40.18,
+      "image": "/images/nce1/l19/buying.png",
       "analysis": {
         "words": [
           {
@@ -422,11 +431,12 @@
     },
     {
       "id": "s10",
-      "role": "Man",
+      "role": "Mother",
       "text": "Here you are children.",
       "translation": "给你们，孩子们。",
       "startTime": 40.68,
       "endTime": 43.16,
+      "image": "/images/nce1/l19/eating.png",
       "analysis": {
         "words": [
           {
@@ -454,11 +464,12 @@
     },
     {
       "id": "s11",
-      "role": "Woman",
+      "role": "Lucy",
       "text": "Thanks Mum.",
       "translation": "谢谢，妈妈。",
       "startTime": 43.66,
       "endTime": 45.59,
+      "image": "/images/nce1/l19/eating.png",
       "analysis": {
         "words": [
           {
@@ -476,11 +487,12 @@
     },
     {
       "id": "s12",
-      "role": "Man",
+      "role": "Andy",
       "text": "These ice creams are nice.",
       "translation": "这些冰淇淋真好吃。",
       "startTime": 46.09,
       "endTime": 49.32,
+      "image": "/images/nce1/l19/eating.png",
       "analysis": {
         "words": [
           {
@@ -508,11 +520,12 @@
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Mother",
       "text": "Are you all right now?",
       "translation": "你们现在好了吗？",
       "startTime": 49.82,
       "endTime": 52.39,
+      "image": "/images/nce1/l19/eating.png",
       "analysis": {
         "words": [
           {
@@ -534,17 +547,23 @@
             "word": "right",
             "pos": "adj.",
             "meaning": "好的"
+          },
+          {
+            "word": "now",
+            "pos": "adv.",
+            "meaning": "现在"
           }
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Man",
+      "role": "Andy and Lucy",
       "text": "Yes we are thank you!",
       "translation": "是的，我们好了，谢谢您！",
       "startTime": 52.89,
       "endTime": 57.89,
+      "image": "/images/nce1/l19/eating.png",
       "analysis": {
         "words": [
           {

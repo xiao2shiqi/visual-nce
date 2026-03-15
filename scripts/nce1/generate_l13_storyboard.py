@@ -39,42 +39,43 @@ def gemini_generate_image(api_key, model, prompt):
     return None
 
 
-# Master Specs for Lesson 3
-STYLE = "Studio Ghibli illustration style, vibrant watercolor textures, painterly, detailed background, warm interior lighting, nostalgic atmosphere. "
-SCENE = "Location: A classic elegant cloakroom counter with wooden panels, rows of coats hanging in the background, brass coat check tags visible. "
-CHAR_YOUNG_MAN = "Character Young Man (Customer): Young man in his 20s, with short black hair, wearing a brown corduroy jacket over a white collared shirt, polite and neat appearance. "
-CHAR_OLD_MAN = "Character Older Man (Attendant): Kind older man in his 60s, balding with white hair on the sides, wearing a gray knitted vest over a light blue shirt and a dark tie, wearing round spectacles. "
+# Master Specs for Lesson 13
+STYLE = "Studio Ghibli-inspired illustration style, vibrant watercolor textures, soft hand-drawn lines, nostalgic 1970s interior, warm and cozy lighting. "
+SCENE_LIVING_ROOM = "Location: A cozy 1970s living room with a patterned rug, a wooden coffee table, and a staircase visible in the background. "
+SCENE_BEDROOM = "Location: A sunny upstairs bedroom with a floral wallpaper, a large wooden wardrobe, and a mirror. "
+CHAR_ANNA = "Character Anna: A young woman with auburn hair tied in a loose bun, wearing a simple white blouse and a beige skirt. "
+CHAR_LOUISE = "Character Louise: Anna's friend, a young woman with short blonde hair, wearing a light yellow cardigan over a floral dress. "
 
 STORYBOARD = [
     {
         "id": "scene1",
-        "desc": "Wide shot of the cloakroom. The older attendant is behind the counter, and the young man is standing in front of it. Both characters fully visible, talking politely.",
+        "desc": "Wide shot of the living room. Louise and Anna are sitting on a sofa, talking. Louise is asking Anna a question. Warm afternoon light through the window.",
     },
     {
-        "id": "handing_ticket",
-        "desc": "Close-up of the young man's hand handing a small paper ticket to the older attendant across the wooden counter.",
+        "id": "scene2",
+        "desc": "Anna standing up with a smile, gesturing towards the stairs. Louise is also standing, looking curious and ready to follow.",
     },
     {
-        "id": "searching",
-        "desc": "The older attendant is searching through a row of hanging wool coats and umbrellas, looking closely at the numbered tags.",
+        "id": "scene3",
+        "desc": "Wide shot of the upstairs bedroom. Anna is opening her wardrobe, revealing a vibrant emerald green dress hanging inside. The dress has a small white tag on the collar.",
     },
     {
-        "id": "wrong_umbrella",
-        "desc": "The older attendant hands a bright red umbrella and a black coat to the young man; the young man looks confused and is politely gesturing 'no' with one hand.",
+        "id": "scene4",
+        "desc": "Close-up of the emerald green dress. Anna is holding the fabric, showing the fine texture to Louise who is looking on with admiration.",
     },
     {
-        "id": "showing_correct",
-        "desc": "The older attendant is now showing a dark green umbrella to the young man. The young man looks at it with interest and recognition.",
+        "id": "scene5",
+        "desc": "Anna reaching into the wardrobe again and pulling out a stylish green hat that matches the dress exactly. She looks proud of it.",
     },
     {
-        "id": "receiving_correct",
-        "desc": "The young man is smiling happily and receiving the dark green umbrella from the older attendant. Both are smiling, warm atmosphere.",
+        "id": "scene6",
+        "desc": "Louise looking at the green hat with a delighted expression, gesturing towards it with both hands. A lovely, friendly atmosphere.",
     },
 ]
 
 
 def main():
-    root = Path(__file__).resolve().parents[1]
+    root = Path(__file__).resolve().parents[2]
     load_env_file(root / ".env")
     api_key = os.environ.get("GOOGLE_API_KEY")
     model = os.environ.get("VERTEX_IMAGE_MODEL", "gemini-3.1-flash-image-preview")
@@ -83,23 +84,25 @@ def main():
         print("Error: GOOGLE_API_KEY not found")
         return
 
-    out_dir = root / "public" / "images" / "nce1" / "l3"
+    out_dir = root / "public" / "images" / "nce1" / "l13"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"🎨 Starting Storyboard Generation for NCE1 L3...")
+    print(f"🎨 Starting Storyboard Generation for NCE1 L13...")
 
     for item in STORYBOARD:
         out_path = out_dir / f"{item['id']}.png"
-        if out_path.exists():
-            print(f"Skipping {item['id']} (already exists)")
-            continue
-
         print(f"Generating {item['id']}...")
+
+        # Determine which scene spec to use
+        scene_spec = (
+            SCENE_LIVING_ROOM if item["id"] in ["scene1", "scene2"] else SCENE_BEDROOM
+        )
+
         full_prompt = (
             STYLE
-            + SCENE
-            + CHAR_YOUNG_MAN
-            + CHAR_OLD_MAN
+            + scene_spec
+            + CHAR_ANNA
+            + CHAR_LOUISE
             + item["desc"]
             + " Maintain high character and background consistency. Studio Ghibli watercolor style."
         )
