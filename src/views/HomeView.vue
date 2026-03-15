@@ -66,95 +66,139 @@ const handleLessonClick = (lesson: any) => {
       </button>
     </div>
 
-    <!-- Hero / Vision Section -->
-    <section class="hero-section relative py-12 px-6 overflow-hidden">
-      <!-- Ambient background decorations -->
+    <!-- Compact Hero -->
+    <section class="hero-section relative py-8 px-6 overflow-hidden">
       <div class="absolute top-0 left-0 w-full h-full -z-10 bg-gradient-to-b from-blue-50/50 to-transparent"></div>
-      
+
       <!-- Top Right Actions -->
-      <div class="absolute top-6 right-6 z-10">
-        <button 
+      <div class="absolute top-5 right-6 z-10">
+        <button
           @click="donationModalRef?.openDonation()"
           class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-slate-200 shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300 group"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-slate-400 group-hover:text-amber-500 transition-colors">
-             <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+            <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
           </svg>
           <span class="text-xs font-bold text-slate-500 group-hover:text-slate-700">Support</span>
         </button>
       </div>
 
-      <div class="max-w-5xl mx-auto text-center relative">
-        <h1 class="text-5xl md:text-6xl font-black text-slate-900 mb-4 tracking-tight leading-tight animate-fade-in">
-          Visual <span class="text-gradient">NCE</span>
-        </h1>
-
-        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white shadow-sm border border-blue-50 mb-8 animate-fade-in scale-90">
-          <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-          <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Immersive Learning Experience</span>
+      <div class="max-w-2xl mx-auto text-center relative">
+        <!-- Logo + badge inline -->
+        <div class="flex items-center justify-center gap-3 mb-3 animate-fade-in">
+          <h1 class="text-3xl font-black text-slate-900 tracking-tight">
+            Visual <span class="text-gradient">NCE</span>
+          </h1>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white shadow-sm border border-blue-50">
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse"></span>
+            <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">Immersive Learning</span>
+          </div>
         </div>
-        
-        <div class="max-w-3xl mx-auto">
-          <p class="text-lg text-slate-600 font-medium leading-relaxed">
-            融合 AI 与现代 Web 技术重构经典。通过沉浸式的场景与音频交互，让《新概念英语》的学习不再枯燥，也让老教材焕发出新的活力。也通过这种有趣沉浸式的方式，陪你走过英语学习这段艰难的旅程。
-          </p>
+
+        <!-- One-line tagline -->
+        <p class="text-sm text-slate-500 font-medium mb-5 leading-relaxed">
+          用 AI 重构《新概念英语》——吉卜力插画 × 音画同步 × 深度解析，让经典教材焕发新生。
+        </p>
+
+        <!-- Stats badges -->
+        <div class="flex items-center justify-center gap-3 animate-fade-in flex-wrap">
+          <div class="flex items-center gap-1.5 px-4 py-2 rounded-2xl bg-white shadow-sm border border-slate-100">
+            <span class="text-base font-black text-blue-600">4</span>
+            <span class="text-xs font-semibold text-slate-400">册全收录</span>
+          </div>
+          <div class="flex items-center gap-1.5 px-4 py-2 rounded-2xl bg-white shadow-sm border border-slate-100">
+            <span class="text-base font-black text-violet-600">500+</span>
+            <span class="text-xs font-semibold text-slate-400">课时覆盖</span>
+          </div>
+          <div class="flex items-center gap-1.5 px-4 py-2 rounded-2xl bg-white shadow-sm border border-slate-100">
+            <span class="text-base font-black text-emerald-600">AI</span>
+            <span class="text-xs font-semibold text-slate-400">吉卜力插画</span>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Features Section -->
-    <section class="max-w-6xl mx-auto px-6 mb-16 animate-fade-in">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Feature 1: Ghibli Style -->
-        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-          <div class="w-12 h-12 rounded-2xl bg-blue-50 group-hover:bg-blue-500 transition-colors duration-300 flex items-center justify-center text-blue-500 group-hover:text-white mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+    <section class="max-w-4xl mx-auto px-6 mb-14 animate-fade-in">
+      <!-- Section header -->
+      <div class="text-center mb-8">
+        <p class="text-[11px] font-bold text-blue-500 uppercase tracking-widest mb-1.5">核心特色</p>
+        <h2 class="text-xl font-black text-slate-800">为什么选择 Visual NCE？</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Row 1: Visual -->
+        <div class="group flex gap-4 p-5 rounded-2xl bg-white shadow-sm border border-slate-100 hover:shadow-md hover:border-blue-100 hover:-translate-y-0.5 transition-all duration-300">
+          <div class="w-10 h-10 shrink-0 rounded-xl bg-blue-50 group-hover:bg-blue-500 transition-colors duration-300 flex items-center justify-center text-blue-500 group-hover:text-white mt-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
             </svg>
           </div>
-          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">吉卜力视觉重制</h3>
-          <p class="text-sm text-slate-500 font-medium leading-relaxed">
-            告别枯燥的原版插图。每一课场景都以<span class="text-blue-500 font-bold">温暖治愈的吉卜力风格</span>重新绘制，让英语学习变成一场像看漫画一样的视觉之旅。
-          </p>
+          <div>
+            <h3 class="text-sm font-black text-slate-800 mb-1 group-hover:text-blue-600 transition-colors">吉卜力视觉重制</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">告别枯燥原版插图。每一课场景以<span class="text-blue-500 font-bold">温暖治愈的吉卜力风格</span>重新绘制，学习变成一场视觉之旅。</p>
+          </div>
         </div>
-        
-        <!-- Feature 2: Sentence Analysis -->
-        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-          <div class="w-12 h-12 rounded-2xl bg-indigo-50 group-hover:bg-indigo-500 transition-colors duration-300 flex items-center justify-center text-indigo-500 group-hover:text-white mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+
+        <div class="group flex gap-4 p-5 rounded-2xl bg-white shadow-sm border border-slate-100 hover:shadow-md hover:border-violet-100 hover:-translate-y-0.5 transition-all duration-300">
+          <div class="w-10 h-10 shrink-0 rounded-xl bg-violet-50 group-hover:bg-violet-500 transition-colors duration-300 flex items-center justify-center text-violet-500 group-hover:text-white mt-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-sm font-black text-slate-800 mb-1 group-hover:text-violet-600 transition-colors">音画实时同步</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">听到哪里，画面跟到哪里。音频播放时插画<span class="text-violet-500 font-bold">自动随台词切换</span>，每句对话都有对应场景。</p>
+          </div>
+        </div>
+
+        <!-- Row 2: Learning -->
+        <div class="group flex gap-4 p-5 rounded-2xl bg-white shadow-sm border border-slate-100 hover:shadow-md hover:border-indigo-100 hover:-translate-y-0.5 transition-all duration-300">
+          <div class="w-10 h-10 shrink-0 rounded-xl bg-indigo-50 group-hover:bg-indigo-500 transition-colors duration-300 flex items-center justify-center text-indigo-500 group-hover:text-white mt-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
             </svg>
           </div>
-          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">逐句深度解析</h3>
-          <p class="text-sm text-slate-500 font-medium leading-relaxed">
-            不留任何知识盲区。内置<span class="text-indigo-500 font-bold">详细的句子分析</span>功能，智能拆解每一句话的语法结构、核心词汇与发音重点，助你真正吃透课文。
-          </p>
+          <div>
+            <h3 class="text-sm font-black text-slate-800 mb-1 group-hover:text-indigo-600 transition-colors">逐句深度解析</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">不留知识盲区。内置<span class="text-indigo-500 font-bold">句子分析</span>功能，智能拆解语法结构、核心词汇与发音重点，真正吃透课文。</p>
+          </div>
         </div>
 
-        <!-- Feature 3: Professional Tools -->
-        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-          <div class="w-12 h-12 rounded-2xl bg-cyan-50 group-hover:bg-cyan-500 transition-colors duration-300 flex items-center justify-center text-cyan-500 group-hover:text-white mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+        <div class="group flex gap-4 p-5 rounded-2xl bg-white shadow-sm border border-slate-100 hover:shadow-md hover:border-cyan-100 hover:-translate-y-0.5 transition-all duration-300">
+          <div class="w-10 h-10 shrink-0 rounded-xl bg-cyan-50 group-hover:bg-cyan-500 transition-colors duration-300 flex items-center justify-center text-cyan-500 group-hover:text-white mt-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
             </svg>
           </div>
-          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">专业级听读工具</h3>
-          <p class="text-sm text-slate-500 font-medium leading-relaxed">
-            为精听与跟读量身打造。支持<span class="text-cyan-500 font-bold">无级变速、单句循环</span>与键盘快捷键控制，配合滚动高亮与双语切换，让语言训练更高效。
-          </p>
+          <div>
+            <h3 class="text-sm font-black text-slate-800 mb-1 group-hover:text-cyan-600 transition-colors">专业级听读工具</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">为精听与跟读量身打造。支持<span class="text-cyan-500 font-bold">无级变速、单句循环</span>与键盘快捷键，滚动高亮 + 双语切换。</p>
+          </div>
         </div>
 
-        <!-- Feature 4: Dictionary Integration -->
-        <div class="group p-6 rounded-3xl bg-white shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-          <div class="w-12 h-12 rounded-2xl bg-amber-50 group-hover:bg-amber-500 transition-colors duration-300 flex items-center justify-center text-amber-500 group-hover:text-white mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+        <!-- Row 3: Utility -->
+        <div class="group flex gap-4 p-5 rounded-2xl bg-white shadow-sm border border-slate-100 hover:shadow-md hover:border-amber-100 hover:-translate-y-0.5 transition-all duration-300">
+          <div class="w-10 h-10 shrink-0 rounded-xl bg-amber-50 group-hover:bg-amber-500 transition-colors duration-300 flex items-center justify-center text-amber-500 group-hover:text-white mt-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
             </svg>
           </div>
-          <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-amber-600 transition-colors">词典一键直达</h3>
-          <p class="text-sm text-slate-500 font-medium leading-relaxed">
-            无缝衔接你的学习工具链。点击任意单词即可<span class="text-amber-500 font-bold">一键唤起欧路词典</span>进行深度查询，省去复制粘贴的繁琐步骤，学习更流畅。
-          </p>
+          <div>
+            <h3 class="text-sm font-black text-slate-800 mb-1 group-hover:text-amber-600 transition-colors">词典一键直达</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">点击任意单词即可<span class="text-amber-500 font-bold">一键唤起欧路词典</span>深度查询，省去复制粘贴，学习更流畅高效。</p>
+          </div>
+        </div>
+
+        <div class="group flex gap-4 p-5 rounded-2xl bg-white shadow-sm border border-slate-100 hover:shadow-md hover:border-emerald-100 hover:-translate-y-0.5 transition-all duration-300">
+          <div class="w-10 h-10 shrink-0 rounded-xl bg-emerald-50 group-hover:bg-emerald-500 transition-colors duration-300 flex items-center justify-center text-emerald-500 group-hover:text-white mt-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-sm font-black text-slate-800 mb-1 group-hover:text-emerald-600 transition-colors">四册完整收录</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">NCE 1–4 全四册<span class="text-emerald-500 font-bold">完整覆盖</span>，从英语初阶到高阶，体系化学习一站直达，无需切换平台。</p>
+          </div>
         </div>
       </div>
     </section>
