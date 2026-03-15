@@ -1,117 +1,124 @@
 #!/usr/bin/env python3
-import os
-import base64
-import json
-import time
-from pathlib import Path
-from urllib import request
 
+# =============================================================================
+# NCE1 Lesson 29: Come In, Amy.
+# Story: Mrs. Jones calls Amy (the maid) into an untidy bedroom and gives her
+# instructions: shut door, open window/air room, put clothes in wardrobe,
+# make the bed, dust dressing table, sweep the floor.
+# Characters: Mrs. Jones (employer), Amy (young maid)
+# =============================================================================
 
-def load_env_file(env_path: Path) -> None:
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        key, value = key.strip(), value.strip().strip('"').strip("'")
-        if key and key not in os.environ:
-            os.environ[key] = value
+STYLE = (
+    "Studio Ghibli-inspired illustration style, delicate watercolor textures, "
+    "soft hand-drawn lines, warm 1960s British bedroom interior light, cosy domestic mood. "
+)
 
+SCENE = (
+    "Location: a 1960s British bedroom — "
+    "floral wallpaper in soft pink and cream, wooden floorboards with a rug, "
+    "a single bed with a headboard, a wooden wardrobe, a dressing table with a mirror, "
+    "a window with net curtains. "
+    "Keep the floral wallpaper, wooden furniture, and warm light consistent across ALL frames. "
+    "NO captions, NO speech bubbles, NO subtitles, NO split panels, NO visible written words. "
+)
 
-def gemini_generate_image(api_key, model, prompt):
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-    }
-    data = json.dumps(payload).encode("utf-8")
-    req = request.Request(
-        endpoint, data=data, headers={"Content-Type": "application/json"}, method="POST"
-    )
+CHAR_JONES = (
+    "Character MRS. JONES: an authoritative but kind British employer, approximately 45-50 years old, "
+    "dark hair neatly pinned up in a bun, composed and poised expression, "
+    "wearing a smart navy blue dress with a pearl necklace. "
+    "CRITICAL: navy blue dress + dark hair in bun + pearl necklace — NEVER change. "
+    "She looks like a well-dressed, confident English homeowner. "
+)
 
-    with request.urlopen(req, timeout=120) as resp:
-        full_resp = json.loads(resp.read().decode("utf-8"))
-        parts = full_resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        for part in parts:
-            if "inlineData" in part:
-                return base64.b64decode(part["inlineData"]["data"])
-    return None
-
-
-# Master Specs for Lesson 29
-STYLE = "Studio Ghibli-inspired illustration style, vibrant watercolor textures, soft hand-drawn lines, nostalgic 1970s bedroom interior, warm lighting. "
-SCENE = "Location: A messy bedroom with a wooden bed, a large wardrobe, and a dressing table. "
-CHAR_MRS_JONES = "Character Mrs. Jones: A middle-aged woman with tidy hair, wearing a floral apron over a simple dress. "
-CHAR_AMY = "Character Amy: A young girl with her hair in a ponytail, wearing a light blue dress and a white apron. "
+CHAR_AMY = (
+    "Character AMY: a young maid, approximately 20-23 years old, "
+    "light brown hair pulled back under a small white cap, eager attentive expression, "
+    "wearing a grey maid's dress with a white collar and a white apron. "
+    "CRITICAL: grey dress + white apron + white cap + light brown hair — NEVER change. "
+    "She looks like a cheerful, capable young domestic worker. "
+)
 
 STORYBOARD = [
     {
         "id": "scene1",
-        "desc": "Wide shot of the messy bedroom. Amy is standing at the door looking in. Mrs. Jones is standing inside, gesturing to the clothes on the floor and the unmade bed.",
+        "desc": (
+            "Wide establishing shot of the UNTIDY bedroom. "
+            "Mrs. Jones (navy blue dress, dark hair in bun, pearl necklace) "
+            "stands near the doorway, gesturing at the messy room with a disapproving expression. "
+            "Amy (grey dress, white apron, white cap) stands just inside the doorway, "
+            "looking around the room with an attentive, ready expression. "
+            "The bedroom is clearly UNTIDY: clothes scattered on the floor, "
+            "the bed unmade with crumpled bedding, items out of place. "
+            "Floral wallpaper, wooden wardrobe, dressing table with mirror visible. "
+            "CRITICAL: EXACTLY TWO people — ONE Mrs. Jones + ONE Amy. Show both characters clearly."
+        ),
     },
     {
         "id": "shut_door",
-        "desc": "Amy turning back to shut the wooden bedroom door politely. Mrs. Jones is looking at her.",
+        "desc": (
+            "COMPOSITION: MEDIUM SHOT focused on Amy at the door. "
+            "Amy (grey dress, white apron, white cap) stands at the bedroom door, "
+            "pushing it firmly closed with both hands — her back slightly toward us, "
+            "turning her head to look back into the room. "
+            "The wooden door fills much of the right side of the frame. "
+            "Mrs. Jones (navy blue dress) is visible in the background inside the room, watching. "
+            "CRITICAL: Amy shutting the door is the central action. "
+            "EXACTLY TWO people — Amy at door + Mrs. Jones in background."
+        ),
     },
     {
         "id": "air_room",
-        "desc": "Amy opening a large window to let the fresh air in. Mrs. Jones is standing nearby, giving instructions.",
+        "desc": (
+            "COMPOSITION: MEDIUM SHOT focused on Amy at the window. "
+            "Amy (grey dress, white apron, white cap) stands at the bedroom window, "
+            "pushing it open wide with both hands — fresh air and daylight flowing in. "
+            "The net curtains billow gently inward with the breeze. "
+            "Amy looks pleased as the fresh air enters the room. "
+            "The open window with billowing curtains is the visual focal point. "
+            "Mrs. Jones (navy blue dress) stands to one side watching with approval. "
+            "CRITICAL: Amy opening window + breeze coming in is the central action. "
+            "EXACTLY TWO people — Amy at window + Mrs. Jones watching."
+        ),
     },
     {
         "id": "wardrobe",
-        "desc": "Amy picking up clothes from a chair and putting them neatly into a large wooden wardrobe.",
+        "desc": (
+            "COMPOSITION: MEDIUM SHOT focused on Amy at the open wardrobe. "
+            "Amy (grey dress, white apron, white cap) stands in front of the open wooden wardrobe, "
+            "carefully placing and hanging clothes inside it — arms reaching into the wardrobe. "
+            "Several garments are draped over her arm; the wardrobe is open showing clothes inside. "
+            "The open wardrobe with clothes fills the right side of the frame. "
+            "Mrs. Jones (navy blue dress) watches from behind Amy, pointing at the wardrobe. "
+            "CRITICAL: Amy putting clothes INTO the open wardrobe is the central action. "
+            "EXACTLY TWO people — Amy at wardrobe + Mrs. Jones watching."
+        ),
     },
     {
         "id": "make_bed",
-        "desc": "Amy smoothing out the blankets and pillows on the wooden bed, making it look tidy.",
+        "desc": (
+            "COMPOSITION: MEDIUM SHOT focused on Amy making the bed. "
+            "Amy (grey dress, white apron, white cap) leans over the bed, "
+            "smoothing and tucking the white bedsheet with both hands — "
+            "her posture bent forward over the bed in the action of bed-making. "
+            "The bed with its headboard fills the centre of the frame. "
+            "The bedding is being neatly arranged — pillows being straightened. "
+            "Mrs. Jones (navy blue dress) stands at the foot of the bed, arms folded, supervising. "
+            "CRITICAL: Amy making/smoothing the bed is the central action. "
+            "EXACTLY TWO people — Amy making bed + Mrs. Jones supervising."
+        ),
     },
     {
         "id": "sweep_floor",
-        "desc": "Amy using a wooden broom to sweep the wooden floor. The bedroom now looks much tidier.",
+        "desc": (
+            "COMPOSITION: MEDIUM SHOT focused on Amy sweeping the floor. "
+            "Amy (grey dress, white apron, white cap) holds a long-handled broom "
+            "and sweeps the wooden bedroom floor with energetic strokes — "
+            "her body leaning into the sweeping motion. "
+            "A small pile of dust and debris is visible being swept. "
+            "The broom and sweeping action fills the foreground. "
+            "Mrs. Jones (navy blue dress) stands in the background doorway, watching with approval. "
+            "CRITICAL: Amy sweeping the floor with a broom is the central action. "
+            "EXACTLY TWO people — Amy sweeping + Mrs. Jones in background."
+        ),
     },
 ]
-
-
-def main():
-    root = Path(__file__).resolve().parents[2]
-    load_env_file(root / ".env")
-    api_key = os.environ.get("GOOGLE_API_KEY")
-    model = os.environ.get("VERTEX_IMAGE_MODEL", "gemini-3.1-flash-image-preview")
-
-    if not api_key:
-        print("Error: GOOGLE_API_KEY not found")
-        return
-
-    out_dir = root / "public" / "images" / "nce1" / "l29"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"🎨 Starting Storyboard Generation for NCE1 L29...")
-
-    for item in STORYBOARD:
-        out_path = out_dir / f"{item['id']}.png"
-        print(f"Generating {item['id']}...")
-
-        full_prompt = (
-            STYLE
-            + SCENE
-            + CHAR_MRS_JONES
-            + CHAR_AMY
-            + item["desc"]
-            + " Maintain high character and background consistency. Studio Ghibli watercolor style."
-        )
-
-        try:
-            img_bytes = gemini_generate_image(api_key, model, full_prompt)
-            if img_bytes:
-                out_path.write_bytes(img_bytes)
-                print(f"✅ Saved: {out_path}")
-            else:
-                print(f"❌ Failed to generate {item['id']}")
-            time.sleep(3)
-        except Exception as e:
-            print(f"🔥 Error generating {item['id']}: {e}")
-
-
-if __name__ == "__main__":
-    main()

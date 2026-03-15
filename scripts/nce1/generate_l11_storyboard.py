@@ -1,123 +1,115 @@
 #!/usr/bin/env python3
-import os
-import base64
-import json
-import time
-from pathlib import Path
-from urllib import request
 
+# =============================================================================
+# NCE1 Lesson 11: Is This Your Shirt?
+# Story: The teacher finds a white shirt in the classroom. He asks Dave if it's
+# his — Dave says no (his shirt is light blue). The teacher calls Tim and
+# throws the white shirt across the classroom to him. Tim catches it — it's his!
+# Characters: Teacher (Mr.), Dave (schoolboy), Tim (schoolboy)
+# =============================================================================
 
-def load_env_file(env_path: Path) -> None:
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        key, value = key.strip(), value.strip().strip('"').strip("'")
-        if key and key not in os.environ:
-            os.environ[key] = value
+STYLE = (
+    "Studio Ghibli-inspired illustration style, delicate watercolor textures, "
+    "soft hand-drawn lines, warm 1960s classroom light, charming school atmosphere. "
+)
 
+SCENE = (
+    "Location: a classic 1960s British school classroom — "
+    "rows of wooden desks and chairs with schoolchildren, "
+    "a chalkboard at the front, tall windows with daylight, "
+    "a teacher's desk at the front with books and chalk. "
+    "Keep the classroom layout, wooden desks, chalkboard, and warm daylight consistent across ALL frames. "
+    "NO captions, NO speech bubbles, NO subtitles, NO split panels, NO visible written words. "
+)
 
-def gemini_generate_image(api_key, model, prompt):
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-    }
-    data = json.dumps(payload).encode("utf-8")
-    req = request.Request(
-        endpoint, data=data, headers={"Content-Type": "application/json"}, method="POST"
-    )
+CHAR_TEACHER = (
+    "Character THE TEACHER: middle-aged man, approximately 40-45 years old, "
+    "short brown hair, kind steady eyes, neat professional appearance, "
+    "wearing a brown tweed blazer over a white shirt and a green tie. "
+    "CRITICAL: brown tweed blazer + green tie — NEVER change. "
+    "He looks like a firm but good-natured British school teacher. "
+)
 
-    with request.urlopen(req, timeout=120) as resp:
-        full_resp = json.loads(resp.read().decode("utf-8"))
-        parts = full_resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        for part in parts:
-            if "inlineData" in part:
-                return base64.b64decode(part["inlineData"]["data"])
-    return None
+CHAR_DAVE = (
+    "Character DAVE: young schoolboy, approximately 12-14 years old, "
+    "short dark hair, cheeky but honest expression, "
+    "wearing a light blue school shirt. "
+    "CRITICAL: light blue school shirt — NEVER change. His shirt is NOT white. "
+    "He sits at a desk near the front of the class. "
+)
 
-
-# Master Specs for Lesson 11
-STYLE = "Studio Ghibli-inspired illustration style, vibrant watercolor textures, soft hand-drawn lines, nostalgic 1970s atmosphere, warm indoor lighting. "
-SCENE = "Location: A classic British classroom with wooden desks, large windows, and a chalkboard in the background. The atmosphere is orderly and school-like. "
-CHAR_TEACHER = "Character Teacher (Sir): A middle-aged man with kind eyes, graying hair, wearing a brown tweed blazer over a white shirt and a dark green tie. "
-CHAR_DAVE = "Character Dave: A young schoolboy with messy dark hair, wearing a light blue school shirt and a gray school sweater. "
-CHAR_TIM = "Character Tim: Another schoolboy with blond hair, also in a similar school uniform. "
+CHAR_TIM = (
+    "Character TIM: young schoolboy, approximately 12-14 years old, "
+    "blond hair, bright cheerful expression, "
+    "wearing a light blue school shirt. "
+    "CRITICAL: blond hair + light blue school shirt — NEVER change. "
+    "He sits at a desk toward the back of the class. "
+)
 
 STORYBOARD = [
     {
         "id": "scene1",
-        "desc": "Wide shot of the classroom. The Teacher is standing at the front, holding up a white shirt and looking closely at the label on the collar. Dave is sitting at a desk nearby, looking up at the teacher.",
+        "desc": (
+            "Wide shot of the classroom. The Teacher stands at the front, "
+            "holding up a FOLDED WHITE SHIRT and examining its label with a puzzled look. "
+            "Dave sits at a desk nearby, watching the Teacher curiously. "
+            "Other students are visible at their desks in the background. "
+            "The white shirt is clearly visible — it is distinctly white, not blue. "
+            "Show Teacher, Dave, and the white shirt clearly."
+        ),
     },
     {
-        "id": "scene3",
-        "desc": "Medium shot of the Teacher. He is holding the white shirt, pointing to the brand label on the neck, looking thoughtfully, then turns his gaze towards Tim.",
+        "id": "dave_denies",
+        "desc": (
+            "The Teacher holds the white shirt toward Dave with a questioning look. "
+            "Dave is shaking his head firmly 'no' — he points to his own light blue shirt "
+            "to show the Teacher that his shirt is blue, not white. "
+            "Dave's expression is honest and slightly amused. "
+            "CRITICAL: Dave wears a light blue shirt — the white shirt is NOT Dave's. "
+            "Show both Teacher and Dave clearly with the shirts distinguishable."
+        ),
     },
     {
-        "id": "scene2",
-        "desc": "Close-up of Dave at his desk. He is shaking his head 'no' with a polite expression, pointing to his own shirt, which is a distinct light blue color.",
+        "id": "teacher_thinks",
+        "desc": (
+            "The Teacher holds the white shirt in one hand and looks thoughtfully "
+            "toward the back of the classroom, turning away from Dave. "
+            "His expression is concentrated — searching for who the shirt belongs to. "
+            "Students visible at their desks in the background. "
+            "Tim is dimly visible at the back. Show the Teacher clearly."
+        ),
     },
     {
-        "id": "scene3",
-        "desc": "Medium shot of the Teacher. He is looking thoughtfully at the white shirt in his hands, then turns his gaze towards the back of the classroom where Tim is sitting.",
+        "id": "calling_tim",
+        "desc": (
+            "The Teacher cups one hand to his mouth and calls out loudly toward the back "
+            "of the classroom — looking directly at Tim who sits at a desk at the back. "
+            "Tim looks up from his work with a surprised expression. "
+            "The white shirt is still in the Teacher's other hand. "
+            "Show Teacher in the foreground and Tim visible in the background. "
+            "The classroom stretches between them."
+        ),
     },
     {
-        "id": "scene4",
-        "desc": "The Teacher cupping his hand slightly to call out 'Tim!', gesturing with his other hand towards Tim who is further away in the classroom.",
+        "id": "throwing_shirt",
+        "desc": (
+            "The Teacher has thrown the folded white shirt through the air across the classroom. "
+            "The white shirt is shown mid-flight — clearly visible in the air, "
+            "floating between the Teacher at the front and Tim at the back. "
+            "The Teacher watches with a satisfied expression. "
+            "Tim at the back is reaching up, ready to catch. "
+            "Show the dramatic mid-air shirt, Teacher, and Tim."
+        ),
     },
     {
-        "id": "scene5",
-        "desc": "Action shot: The Teacher is throwing the folded white shirt through the air. The shirt is captured in mid-motion, flying towards Tim.",
-    },
-    {
-        "id": "scene6",
-        "desc": "Tim standing by his desk, catching the white shirt with both hands, a bright smile on his face. Warm, happy ending scene.",
+        "id": "tim_catches",
+        "desc": (
+            "Tim is catching the white shirt with both hands, grinning broadly. "
+            "He holds the white shirt up triumphantly — clearly delighted and slightly surprised. "
+            "His blond hair and light blue school shirt are clearly visible underneath. "
+            "Classmates nearby look on with amused smiles. "
+            "The Teacher watches from the front with a satisfied nod. "
+            "Show Tim clearly. Cheerful, comic classroom atmosphere."
+        ),
     },
 ]
-
-
-def main():
-    root = Path(__file__).resolve().parents[2]
-    load_env_file(root / ".env")
-    api_key = os.environ.get("GOOGLE_API_KEY")
-    model = os.environ.get("VERTEX_IMAGE_MODEL", "gemini-3.1-flash-image-preview")
-
-    if not api_key:
-        print("Error: GOOGLE_API_KEY not found")
-        return
-
-    out_dir = root / "public" / "images" / "nce1" / "l11"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"🎨 Starting Storyboard Generation for NCE1 L11...")
-
-    for item in STORYBOARD:
-        out_path = out_dir / f"{item['id']}.png"
-
-        print(f"Generating {item['id']}...")
-        full_prompt = (
-            STYLE
-            + SCENE
-            + CHAR_TEACHER
-            + CHAR_DAVE
-            + CHAR_TIM
-            + item["desc"]
-            + " Maintain high character and background consistency. Studio Ghibli watercolor style."
-        )
-
-        try:
-            img_bytes = gemini_generate_image(api_key, model, full_prompt)
-            if img_bytes:
-                out_path.write_bytes(img_bytes)
-                print(f"✅ Saved: {out_path}")
-            else:
-                print(f"❌ Failed to generate {item['id']}")
-            time.sleep(3)
-        except Exception as e:
-            print(f"🔥 Error generating {item['id']}: {e}")
-
-
-if __name__ == "__main__":
-    main()

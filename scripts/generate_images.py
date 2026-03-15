@@ -102,12 +102,13 @@ def parse_storyboard_script(file_path: Path) -> List[Dict]:
 
     master_prompt = "".join(master_parts)
     tasks = []
-    for item in storyboard:
+    for order, item in enumerate(storyboard):
         scene_id = item["id"]
         desc = item["desc"]
         tasks.append(
             {
                 "lesson": lesson_num,
+                "order": order,
                 "filename": f"{scene_id}.png",
                 "prompt": normalize_prompt(master_prompt + desc + DEFAULT_SUFFIX),
                 "source": str(file_path.resolve().relative_to(ROOT)),
@@ -121,13 +122,34 @@ def gemini_generate_image(
     model: str,
     prompt: str,
     retries: int,
+    reference_image: Optional[bytes] = None,
 ) -> Optional[bytes]:
     endpoint = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{model}:generateContent?key={api_key}"
     )
+    if reference_image:
+        parts = [
+            {
+                "text": (
+                    "REFERENCE IMAGE FOR CONSISTENCY: The following image is scene 1 of this lesson. "
+                    "You MUST keep all character appearances strictly identical to this reference — "
+                    "same face, same hair color and style, same clothing, same body type. "
+                    "Only the scene action and composition should change as described below."
+                )
+            },
+            {
+                "inlineData": {
+                    "mimeType": "image/png",
+                    "data": base64.b64encode(reference_image).decode(),
+                }
+            },
+            {"text": prompt},
+        ]
+    else:
+        parts = [{"text": prompt}]
     payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "contents": [{"role": "user", "parts": parts}],
     }
     data = json.dumps(payload).encode("utf-8")
 
@@ -238,7 +260,9 @@ def collect_tasks(
 
         selected.extend(lesson_tasks)
 
-    return sorted(selected, key=lambda item: (item["lesson"], item["filename"]))
+    # Storyboard tasks preserve STORYBOARD list order (via "order" field).
+    # Markdown tasks fall back to filename sort.
+    return sorted(selected, key=lambda item: (item["lesson"], item.get("order", 9999), item["filename"]))
 
 
 def main():
@@ -314,6 +338,8 @@ def main():
         return
 
     print(f"Using model: {model}", flush=True)
+    # anchor_image: first successfully generated image per lesson, used as visual reference
+    anchor_by_lesson: Dict[int, bytes] = {}
     for task in tasks:
         lesson = task["lesson"]
         out_dir = DEFAULT_OUTPUT_DIR / args.book / f"l{lesson}"
@@ -321,9 +347,22 @@ def main():
 
         if out_path.exists() and not args.force:
             print(f"Skipping L{lesson} {task['filename']} (exists)", flush=True)
+            # Load existing file as anchor if we don't have one yet
+            if lesson not in anchor_by_lesson:
+                anchor_by_lesson[lesson] = out_path.read_bytes()
             continue
 
-        print(f"Generating {args.book} L{lesson} -> {task['filename']}...", flush=True)
+        reference = anchor_by_lesson.get(lesson)
+        if reference:
+            print(
+                f"Generating {args.book} L{lesson} -> {task['filename']} (with reference anchor)...",
+                flush=True,
+            )
+        else:
+            print(
+                f"Generating {args.book} L{lesson} -> {task['filename']} (anchor frame)...",
+                flush=True,
+            )
         try:
             out_dir.mkdir(parents=True, exist_ok=True)
             img_bytes = gemini_generate_image(
@@ -331,10 +370,14 @@ def main():
                 model=model,
                 prompt=task["prompt"],
                 retries=args.retries,
+                reference_image=reference,
             )
             if img_bytes:
                 out_path.write_bytes(img_bytes)
                 print(f"Saved: {out_path}", flush=True)
+                if lesson not in anchor_by_lesson:
+                    anchor_by_lesson[lesson] = img_bytes
+                    print(f"  -> Set as anchor for L{lesson}", flush=True)
             else:
                 print(f"Failed: {out_path}", flush=True)
             time.sleep(args.sleep)

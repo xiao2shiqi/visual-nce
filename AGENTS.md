@@ -3,46 +3,97 @@
 ## 1. 图像风格与生成协议（强制性）
 
 - **视觉风格**：严格执行带有水彩质感的吉卜力工作室（Studio Ghibli）插画风格。严禁写实、3D 渲染或非吉卜力风格。
-- **官方工具**：必须使用 `scripts/generate_images.py` 或专用 storyboard 脚本。
+- **核心规格 (Consistency Protocol)**：
+    1. **Master Specs (物理强锚定)**：必须在 Prompt 顶部明确定义一致性锚点。
+        - **人物 (Character)**：发型（色/长/款）、上装（色/领/袖/饰）、下装、特定配饰（如：黑框眼镜、红色碎花手提包）。
+        - **场景 (Scene)**：物理边界（如：严格在厨房内）、主色调（如：午后暖阳）、核心地标。
+    2. **物理排他 (Negative Constraints)**：Prompt 必须包含 `Strictly in [A], NO [B]`。例如："Strictly in a bedroom, NO outdoor elements, NO cars"。
+    3. **官方工具**：必须使用 `scripts/generate_images.py`。
 - **核心模型**：`gemini-3.1-flash-image-preview`。
+- **环境纯净度 (Artistic Purity)**：
+    - **禁止文字**：Prompt 必须包含 `NO text, NO subtitles, NO speech bubbles, NO characters, NO letters`。
+    - **追求意境**：画面应呈现出"意境窗"的纯净感，严禁出现任何破坏美感的现代 UI 元素或字符污染。
 - **分镜规则**：
-    1. **核心规格 (Master Specs)**：定义一致性锚点（角色服装/外貌、场景方位），并在所有 Prompt 中复用。
-    2. **视觉一致性**：高度强调不同帧之间的服装（如“白色长袖衬衫”）和物件（如“特定的碎花手提包”）保持相同。
-    3. **封面图对齐**：`scene1.png` 必须是主场景，且必须同时用于 `curriculum.json` 和课程 JSON 的根 `image` 字段。每次生成新图后，必须同步更新 `curriculum.json` 的路径。
-    4. **稳定开场**：标题、指令、旁白等非对话片段**不设置**独立 `image` 字段，以维持默认背景。
-    5. **即时切换**：图像切换必须立即执行，不使用任何过渡效果。
-    6. **描述性命名**：分镜帧使用语义化名称（如 `man_waves.png`），禁止随意编号。
-- **重置与覆盖**：当更新或修复现有课程的图片时，**必须强制覆盖**旧文件，严禁因文件已存在而跳过生成，以彻底消除过时的 AI 幻觉图。
-- **环境隔离（防幻觉）**：Prompt 必须包含明确的场景排他性描述（如“Strictly in a kitchen, NO trains or stations”），确保画面完全符合教材描述的物理空间。
+    1. **锚点引用 (Anchor Reference)**：`scene1.png` 作为全课"视觉标准图"。后续帧（Scene 2+）生成时，必须将 scene1 的图片字节作为 `inlineData` 传入 Gemini API（多模态输入），让模型**看到**角色而非靠文字猜测——这是防止人物漂移的核心机制，已在 `generate_images.py` 中实现，禁止绕过。
+    2. **STORYBOARD 顺序强制**：storyboard 脚本中 `STORYBOARD` 列表的**第一个元素必须是 `scene1`**。`generate_images.py` 按列表顺序执行，scene1 先生成才能成为后续帧的 anchor；若顺序错误，anchor 机制失效。
+    3. **视觉对齐**：高度强调不同帧之间的服装和物件保持像素级连续性。
+    4. **封面图同步**：`scene1.png` 同时用于 `curriculum.json` 和课程 JSON 的根 `image` 字段。
+    5. **稳定开场**：非对话片段不设置独立 `image` 字段，以维持默认背景。
+    6. **语义命名**：分镜帧使用语义化名称（如 `man_waves.png`），禁止随意编号。
+- **重置与覆盖**：更新或修复图片时，**必须强制覆盖**旧文件（`--force`），消除过时 AI 幻觉图。
 
-## 2. 数据完整性与教材对齐
+## 2. Storyboard 脚本规范
 
-- **台词校验**：对照 `.lrc` 文件或标准教材，确保对话片段（Segments）100% 完整，严禁跳过。
+每门课程必须有一个独立的 storyboard 脚本，路径为 `scripts/{book}/generate_l{N}_storyboard.py`。脚本通过以下模块变量定义分镜，由 `generate_images.py` 的 `parse_storyboard_script` 自动解析拼接：
+
+```python
+# 全局吉卜力画风描述（所有帧共用）
+STYLE = "Studio Ghibli-inspired illustration style, ..."
+
+# 场景物理空间定义（保持跨帧一致）
+SCENE = "Location: ..., Keep [...] consistent across ALL frames. NO captions, ..."
+
+# 角色外貌定义（每个角色一个变量，变量名以 CHAR_ 开头）
+CHAR_FOO = "Character FOO: [age], [hair], [clothing details]. CRITICAL: [key items] NEVER change."
+CHAR_BAR = "Character BAR: ..."
+
+# 分镜列表（第一个必须是 scene1，这决定了 anchor 帧）
+STORYBOARD = [
+    {"id": "scene1",      "desc": "建立场景的宽镜头 ..."},
+    {"id": "action_verb", "desc": "对应台词动作的描述 ..."},
+    ...
+]
+```
+
+**规则**：
+- `STYLE`、`SCENE`、`CHAR_*` 自动拼接为 `master_prompt`，前缀到每张图的 Prompt。
+- `STORYBOARD[0]` 的 `id` 通常为 `scene1`，生成后自动成为该课 anchor。
+- 每个 `desc` 只描述**当前帧的动作变化**，角色外貌无需重复（已在 `CHAR_*` 中定义）。
+- 每课分镜数量**不少于 5 张**。
+
+## 3. 数据完整性与教材对齐
+
+- **台词校验**：对照 `.lrc` 文件，确保对话片段（Segments）100% 完整。
 - **角色映射 (Role Mapping)**：
-    - **教材至上**：在编写分镜 Prompt 前，**必须**查阅对应课程的标准教材插图，确认角色的性别、年龄、外貌特征及人数，严禁凭直觉猜测。
-    - **性别与年龄校验**：必须通过听录音内容（判断说话人音色）和核对教材（插图）进行双重验证。如果录音是两个男性，Prompt 必须强调“TWO MEN, NO WOMEN”。同时必须在 Master Specs 中明确定义角色的年龄段（如“30多岁的年轻女性”），严禁在不同分镜中出现角色忽老忽少（Age Drift）的情况。
-- **视觉线索补完**：
+    - **教材验证**：查阅标准教材插图，确认角色性别、年龄段、外貌特征及人数。
+    - **双重校验**：通过录音音色（判断说话人）和教材插图双重验证。如果录音是两个男性，Prompt 必须强调"TWO MEN, NO WOMEN"，且年龄段需明确定义（如：30s Young Man），严禁出现 Age Drift（忽老忽少）。
+- **视觉线索补完**：分镜必须包含关键视觉细节（如：领口牌子 label、胸前徽章 badge），即便音频未提及。
 
-    - 分镜必须包含关键视觉细节（如：领口牌子 label、胸前徽章 badge 等），即便音频未提及。
-    - 在 `analysis` 词汇表中同步加入这些关键线索词。
+## 4. 课程验收标准 (Acceptance Criteria)
 
-## 3. 课程验收标准 (Acceptance Criteria)
+1. **物理一致性 (Visual Consistency)**：
+    - 检查 Scene 2+ 与 Scene 1 的发型、服装、场景色调是否完全相同。
+    - 严禁出现角色在同一课程中"变装"或"变脸"。
+2. **语义动效匹配 (Semantic Alignment)**：
+    - 画面必须直观解释 Segment 中的核心动词（如：摇头、递物、生气、微笑、指向）。
+3. **音画同步性 (Sync Accuracy)**：
+    - `startTime` 和 `endTime` 精确匹配音频；切换点位于动作起始点。
+4. **环境纯净度 (No Noise)**：
+    - 画面严禁出现文字、字幕、对话气泡、漫画分栏或错误文化符号。
+5. **语法与翻译 (JSON Validity)**：
+    - 中文翻译必须地道无病句；JSON 结构符合规范。
 
-1.  **台词-画面匹配**：每一张图必须能直观解释对应台词的动作（如摇头、递物、生气、微笑）。
-2.  **音画同步性**：`startTime` 和 `endTime` 精确匹配音频；切换点位于动作起始点。
-3.  **禁止模型污染**：画面严禁出现文字、字幕、对话气泡、漫画分栏或错误文化符号。
-4.  **翻译质量**：中文翻译必须准确、地道，无病句或主宾语错误。
+## 5. 交付与自检流程（每次必须执行）
 
-## 4. 交付与自检流程（每次必须执行）
+- **JSON 有效性检查**：执行 `jq . <path_to_json>`。大规模修改优先使用 Python 脚本全量重写。
+- **视觉图像审查 (Visual Image Review — MANDATORY)**：生成完成后必须实际查看每张生成的 PNG 图像，逐帧确认以下内容：
+    - **人物一致性**：同一课程内所有帧的角色发型、服装、体型是否完全相同，无"换装"、无"变脸"、无"忽老忽少"。
+    - **空间关系**：场景中角色的位置关系是否符合 storyboard desc 的描述（如剧院排座前后关系）。
+    - **人物数量**：每帧出现的角色数量是否正确，无重复人物、无幽灵角色。
+    - **无文字污染**：图面中无任何文字、字幕、标注、标志文字。
+    - **语义匹配**：画面动作是否与对应台词/desc 描述相符。
+    - **若发现问题**：必须修改对应 storyboard desc（加强约束），删除错误图片，重新生成，再次查看确认——直到所有帧合格为止。禁止带着已知错误交付。
+- **多维自检记录 (Self-Check Log)**：交付时需显式汇报以下项：
+    - [ ] 已核对教材插图/角色性别人数。
+    - [ ] 已核对 STORYBOARD 第一个元素为 `scene1`（anchor 顺序正确）。
+    - [ ] 已核对 Scene 2+ 与 Scene 1 的物理一致性（anchor 机制已生效）。
+    - [ ] 已实际查看全部生成图像，逐帧完成视觉审查。
+    - [ ] 确认跨帧人物一致性（服装/发型/年龄无漂移）。
+    - [ ] 确认画面无任何文字/气泡/字符污染。
+    - [ ] 已执行 jq 语法校验。
+    - [ ] 已跑 build 验证。
 
-- **JSON 有效性检查（核心）**：
-    - **语法校对**：修改后必须执行 `jq . <path_to_json>` 确保语法正确。
-    - **操作优化**：对于大规模结构调整，优先使用 Python 脚本或 `write` 工具进行**全量重写**，避免因多次局部 `edit` 导致括号不匹配。
-- **逐句音画对照**：按 segment 顺序复核角色归属、动作匹配和图片路径真实性。
-- **构建验证**：涉及前端引用路径或大规模数据改动时，需执行构建验证（如 `npm run build`）。
-- **结果汇报**：交付时需显式说明已完成自检（如“已核对教材插图 / 已执行 jq 校验 / 已跑 build”）。
+## 6. Git 规则
 
-## 5. Git 规则
-
-- 始终直接在 `main` 分支上工作，不要维护长期存在的沙盒分支。
+- 始终直接在 `main` 分支上工作。
 - 及时合并，确保代码库状态最新。

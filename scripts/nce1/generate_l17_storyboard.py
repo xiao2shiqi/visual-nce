@@ -1,123 +1,108 @@
 #!/usr/bin/env python3
-import os
-import base64
-import json
-import time
-from pathlib import Path
-from urllib import request
 
+# =============================================================================
+# NCE1 Lesson 17: How do you do?
+# Story: Mr. Jackson gives Mr. Richards a tour of the office, introducing staff.
+# Nicola Grey & Claire Taylor: keyboard operators — very hard-working.
+# Michael Baker & Jeremy Short: sales reps — NOT very busy (lazy!).
+# Jim: young office assistant.
+# Characters: Mr. Jackson (manager), Mr. Richards (visitor), Nicola, Claire,
+#             Michael, Jeremy, Jim
+# =============================================================================
 
-def load_env_file(env_path: Path) -> None:
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        key, value = key.strip(), value.strip().strip('"').strip("'")
-        if key and key not in os.environ:
-            os.environ[key] = value
+STYLE = (
+    "Studio Ghibli-inspired illustration style, delicate watercolor textures, "
+    "soft hand-drawn lines, warm 1970s office interior light, nostalgic professional mood. "
+)
 
+SCENE = (
+    "Location: a large open-plan 1970s British office — "
+    "rows of wooden desks with mechanical typewriters, "
+    "tall windows overlooking a city street, "
+    "filing cabinets and bookshelves along the walls, "
+    "warm fluorescent overhead light and natural daylight. "
+    "Keep the office layout, wooden desks, windows, and warm lighting consistent across ALL frames. "
+    "NO captions, NO speech bubbles, NO subtitles, NO split panels, NO visible written words or signs. "
+)
 
-def gemini_generate_image(api_key, model, prompt):
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-    }
-    data = json.dumps(payload).encode("utf-8")
-    req = request.Request(
-        endpoint, data=data, headers={"Content-Type": "application/json"}, method="POST"
-    )
+CHAR_JACKSON = (
+    "Character MR. JACKSON: senior manager, approximately 50-55 years old, "
+    "neatly combed grey hair, authoritative but friendly face, "
+    "wearing a dark navy suit jacket with a crisp white shirt and a red tie. "
+    "CRITICAL: dark navy suit + red tie + grey hair — NEVER change. "
+    "He looks like a confident, experienced office manager. "
+)
 
-    with request.urlopen(req, timeout=120) as resp:
-        full_resp = json.loads(resp.read().decode("utf-8"))
-        parts = full_resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        for part in parts:
-            if "inlineData" in part:
-                return base64.b64decode(part["inlineData"]["data"])
-    return None
-
-
-# Master Specs for Lesson 17
-STYLE = "Studio Ghibli-inspired illustration style, vibrant watercolor textures, soft hand-drawn lines, nostalgic 1970s office interior, warm indoor lighting. "
-SCENE = "Location: A large open-plan office with wooden desks, typewriters, large windows showing a city view, filing cabinets in the background. "
-CHAR_JACKSON = "Character Mr. Jackson: A senior manager in his 50s, graying hair, wearing a dark navy suit and a red tie. "
-CHAR_RICHARDS = "Character Mr. Richards: A visitor in his 40s, wearing a brown suit and glasses, looking curious. "
-CHAR_WOMEN = "Characters Nicola Grey and Claire Taylor: Two young women in professional dresses, one with dark hair and one with blonde hair. "
-CHAR_SALES = "Characters Michael Baker and Jeremy Short: Two men in shirts and ties, looking relaxed and not very busy. "
-CHAR_JIM = "Character Jim: A young office assistant with messy hair, wearing a white shirt and a gray vest. "
+CHAR_RICHARDS = (
+    "Character MR. RICHARDS: business visitor, approximately 40-45 years old, "
+    "short brown hair, wearing round tortoiseshell glasses, "
+    "wearing a brown tweed suit jacket over a pale shirt. "
+    "CRITICAL: brown tweed suit + round glasses — NEVER change. "
+    "He looks like a curious, observant visiting businessman. "
+)
 
 STORYBOARD = [
     {
         "id": "scene1",
-        "desc": "Wide shot of the office entrance. Mr. Jackson is welcoming Mr. Richards, gesturing towards the busy office area. Both men are smiling and professional.",
+        "desc": (
+            "Wide shot of the office entrance area. "
+            "Mr. Jackson (dark navy suit, red tie, grey hair) stands with Mr. Richards "
+            "(brown tweed suit, round glasses), gesturing broadly across the busy open-plan office. "
+            "Office desks, typewriters, and windows with city light are visible behind them. "
+            "Mr. Jackson looks proud and welcoming; Mr. Richards looks impressed and curious. "
+            "Show both men clearly. Professional, warm atmosphere."
+        ),
     },
     {
         "id": "keyboard_operators",
-        "desc": "Nicola and Claire sitting at their desks, typing busily on large mechanical keyboards. They both have small white name badges that say 'Keyboard Operator' on their lapels.",
+        "desc": (
+            "Two young women sit at adjacent wooden desks typing busily on large mechanical typewriters. "
+            "NICOLA GREY: dark-haired young woman, approximately 25 years old, "
+            "wearing a smart navy blue blouse, typing with focused concentration. "
+            "CLAIRE TAYLOR: blonde-haired young woman, approximately 25 years old, "
+            "wearing a smart green blouse, also typing energetically. "
+            "Both women look industrious, professional, and very hard at work. "
+            "Mr. Jackson stands nearby gesturing toward them with an approving expression. "
+            "Mr. Richards watches from one side, nodding. "
+            "Show all four characters. Office background with typewriters and filing cabinets."
+        ),
     },
     {
         "id": "sales_reps",
-        "desc": "Michael and Jeremy leaning against a desk, chatting and laughing, with coffee mugs in their hands. They look very relaxed and idle. A 'Sales Dept' sign is visible nearby.",
+        "desc": (
+            "Two young men lean casually against a desk in the office, clearly not busy. "
+            "MICHAEL BAKER: young man, approximately 28 years old, light brown hair, "
+            "wearing a pale blue shirt and a loosened tie, arms crossed, smirking. "
+            "JEREMY SHORT: young man, approximately 28 years old, dark hair, "
+            "wearing a white shirt with tie, hands in pockets, looking bored. "
+            "Both men look relaxed, idle, and completely unbothered. "
+            "Mr. Richards stands nearby watching them with a raised eyebrow and unimpressed expression. "
+            "Show all three characters clearly. Office background."
+        ),
     },
     {
         "id": "introductions",
-        "desc": "Mr. Jackson introducing Michael and Jeremy to Mr. Richards. Michael and Jeremy are standing up politely but still look very casual compared to the others.",
+        "desc": (
+            "Mr. Richards shakes hands with Michael Baker while Jeremy Short stands beside them. "
+            "Mr. Richards (brown tweed suit, round glasses) reaches out his hand formally. "
+            "Michael (pale blue shirt, loosened tie) shakes it with a casual grin. "
+            "Jeremy (white shirt) watches with a lazy half-smile. "
+            "Mr. Jackson (navy suit, red tie) stands to one side with a slight grimace — "
+            "clearly aware his sales reps are not making a great impression. "
+            "Show all four characters. Office background."
+        ),
     },
     {
         "id": "jim",
-        "desc": "Jim, the young office assistant, carrying a large stack of papers and files through the office. He looks energetic and busy.",
-    },
-    {
-        "id": "office_wide",
-        "desc": "Wide shot of the whole office scene showing the contrast between the hard-working women and the lazy sales reps. Mr. Jackson and Mr. Richards are observing the scene.",
+        "desc": (
+            "FOCAL CHARACTER: JIM — a young office assistant, approximately 18-20 years old, "
+            "with slightly messy dark hair and an eager expression, "
+            "wearing a white shirt and a grey waistcoat. "
+            "Jim is shown prominently in the FOREGROUND carrying a large stack of papers and files, "
+            "looking energetic and purposeful as he hurries across the office. "
+            "Mr. Richards and Mr. Jackson are visible smaller in the background watching him. "
+            "CRITICAL: Jim must be the large foreground focal character. "
+            "Warm office light. Show the busy, youthful energy."
+        ),
     },
 ]
-
-
-def main():
-    root = Path(__file__).resolve().parents[2]
-    load_env_file(root / ".env")
-    api_key = os.environ.get("GOOGLE_API_KEY")
-    model = os.environ.get("VERTEX_IMAGE_MODEL", "gemini-3.1-flash-image-preview")
-
-    if not api_key:
-        print("Error: GOOGLE_API_KEY not found")
-        return
-
-    out_dir = root / "public" / "images" / "nce1" / "l17"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"🎨 Starting Storyboard Generation for NCE1 L17...")
-
-    for item in STORYBOARD:
-        out_path = out_dir / f"{item['id']}.png"
-        print(f"Generating {item['id']}...")
-
-        full_prompt = (
-            STYLE
-            + SCENE
-            + CHAR_JACKSON
-            + CHAR_RICHARDS
-            + CHAR_WOMEN
-            + CHAR_SALES
-            + CHAR_JIM
-            + item["desc"]
-            + " Maintain high character and background consistency. Studio Ghibli watercolor style."
-        )
-
-        try:
-            img_bytes = gemini_generate_image(api_key, model, full_prompt)
-            if img_bytes:
-                out_path.write_bytes(img_bytes)
-                print(f"✅ Saved: {out_path}")
-            else:
-                print(f"❌ Failed to generate {item['id']}")
-            time.sleep(3)
-        except Exception as e:
-            print(f"🔥 Error generating {item['id']}: {e}")
-
-
-if __name__ == "__main__":
-    main()

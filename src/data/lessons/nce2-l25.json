@@ -67,7 +67,14 @@
       "translation": "我不知道去旅馆的路该怎么走，于是问了一个搬运工。",
       "startTime": 26.35,
       "endTime": 32.1,
-      "image": "/images/nce2/l25/scene1.png"
+      "image": "/images/nce2/l25/scene1.png",
+      "analysis": {
+        "grammar": "过去时叙述，so 表结果。",
+        "words": [
+          { "word": "porter", "pos": "n.", "meaning": "搬运工，行李员" },
+          { "word": "the way to", "pos": "phr.", "meaning": "去……的路" }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -76,7 +83,14 @@
       "translation": "我的英语讲得不但非常仔细，而且非常清楚。",
       "startTime": 32.6,
       "endTime": 39.66,
-      "image": "/images/nce2/l25/scene1.png"
+      "image": "/images/nce2/l25/writer_asks_porter.png",
+      "analysis": {
+        "grammar": "not only ... but ... as well 表并列递进。",
+        "words": [
+          { "word": "carefully", "pos": "adv.", "meaning": "仔细地" },
+          { "word": "clearly", "pos": "adv.", "meaning": "清楚地" }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -85,7 +99,13 @@
       "translation": "然而搬运工却听不懂我说的话。",
       "startTime": 40.16,
       "endTime": 43.94,
-      "image": "/images/nce2/l25/scene1.png"
+      "image": "/images/nce2/l25/porter_confused.png",
+      "analysis": {
+        "grammar": "however 作插入语，表转折。",
+        "words": [
+          { "word": "however", "pos": "adv.", "meaning": "然而，但是" }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -94,7 +114,15 @@
       "translation": "我把问题重复了几遍，他终于听懂了。",
       "startTime": 44.44,
       "endTime": 50.87,
-      "image": "/images/nce2/l25/scene1.png"
+      "image": "/images/nce2/l25/porter_confused.png",
+      "analysis": {
+        "grammar": "at last 表示经过努力后的结果。",
+        "words": [
+          { "word": "repeated", "pos": "v.", "meaning": "重复，重说" },
+          { "word": "several times", "pos": "phr.", "meaning": "几次，几遍" },
+          { "word": "at last", "pos": "phr.", "meaning": "终于，最终" }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -103,7 +131,13 @@
       "translation": "他回答了我的问题，但他既不说得慢，也不说得清楚。",
       "startTime": 51.37,
       "endTime": 56.92,
-      "image": "/images/nce2/l25/talking_to_porter.png"
+      "image": "/images/nce2/l25/porter_replies.png",
+      "analysis": {
+        "grammar": "neither ... nor ... 表示两者都不。",
+        "words": [
+          { "word": "neither...nor", "pos": "conj.", "meaning": "既不……也不……" }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -112,7 +146,13 @@
       "translation": "'我是个外国人，'我说。",
       "startTime": 57.42,
       "endTime": 60.62,
-      "image": "/images/nce2/l25/talking_to_porter.png"
+      "image": "/images/nce2/l25/says_foreigner.png",
+      "analysis": {
+        "grammar": "直接引语，said 后置。",
+        "words": [
+          { "word": "foreigner", "pos": "n.", "meaning": "外国人" }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -121,7 +161,13 @@
       "translation": "于是他说慢了，但我还是听不懂他说的话。",
       "startTime": 61.12,
       "endTime": 66.65,
-      "image": "/images/nce2/l25/talking_to_porter.png"
+      "image": "/images/nce2/l25/says_foreigner.png",
+      "analysis": {
+        "grammar": "转折连词 but 连接两个结果，强调语言障碍的深层原因（口音）。",
+        "words": [
+          { "word": "slowly", "pos": "adv.", "meaning": "慢慢地" }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -130,7 +176,14 @@
       "translation": "我的老师从来不那样说英语！",
       "startTime": 67.15,
       "endTime": 71.18,
-      "image": "/images/nce2/l25/talking_to_porter.png"
+      "image": "/images/nce2/l25/both_smile.png",
+      "analysis": {
+        "grammar": "never 加一般过去时表达强烈否定。",
+        "words": [
+          { "word": "never", "pos": "adv.", "meaning": "从不，从来不" },
+          { "word": "like that", "pos": "phr.", "meaning": "像那样" }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -139,7 +192,13 @@
       "translation": "搬运工和我相视一笑。",
       "startTime": 71.68,
       "endTime": 75.41,
-      "image": "/images/nce2/l25/talking_to_porter.png"
+      "image": "/images/nce2/l25/both_smile.png",
+      "analysis": {
+        "grammar": "look at each other 表示相互看，情感高潮。",
+        "words": [
+          { "word": "look at each other", "pos": "phr.", "meaning": "相视，互相看" }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -148,7 +207,13 @@
       "translation": "然后他说了些什么，我听懂了。",
       "startTime": 75.91,
       "endTime": 79.64,
-      "image": "/images/nce2/l25/understanding.png"
+      "image": "/images/nce2/l25/you_learn_english.png",
+      "analysis": {
+        "grammar": "something 不定代词，指模糊的内容。",
+        "words": [
+          { "word": "something", "pos": "pron.", "meaning": "某事，某物" }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -157,7 +222,14 @@
       "translation": "'你会很快学会英语的！'他说。",
       "startTime": 80.14,
       "endTime": 83.82,
-      "image": "/images/nce2/l25/understanding.png"
+      "image": "/images/nce2/l25/you_learn_english.png",
+      "analysis": {
+        "grammar": "will + soon 表示对近期未来的乐观预测。",
+        "words": [
+          { "word": "soon", "pos": "adv.", "meaning": "很快，不久" },
+          { "word": "learn", "pos": "v.", "meaning": "学会，学习" }
+        ]
+      }
     },
     {
       "id": "s12",
@@ -166,7 +238,13 @@
       "translation": "我感到很奇怪。",
       "startTime": 84.32,
       "endTime": 86.03,
-      "image": "/images/nce2/l25/understanding.png"
+      "image": "/images/nce2/l25/you_learn_english.png",
+      "analysis": {
+        "grammar": "独立句，wonder 此处表示怀疑或不确定。",
+        "words": [
+          { "word": "wonder", "pos": "v.", "meaning": "感到疑惑，不知道" }
+        ]
+      }
     },
     {
       "id": "s13",
@@ -175,7 +253,14 @@
       "translation": "在英国，每个人说的英语都不一样。",
       "startTime": 86.53,
       "endTime": 91,
-      "image": "/images/nce2/l25/understanding.png"
+      "image": "/images/nce2/l25/you_learn_english.png",
+      "analysis": {
+        "grammar": "each 强调个体，different 表多样性，幽默的结尾观察。",
+        "words": [
+          { "word": "each", "pos": "det.", "meaning": "每个" },
+          { "word": "different", "pos": "adj.", "meaning": "不同的" }
+        ]
+      }
     },
     {
       "id": "s14",
@@ -184,7 +269,13 @@
       "translation": "英国人互相听得懂，我却听不懂他们说的话！",
       "startTime": 91.5,
       "endTime": 96.5,
-      "image": "/images/nce2/l25/understanding.png"
+      "image": "/images/nce2/l25/you_learn_english.png",
+      "analysis": {
+        "grammar": "but 引出转折，对比英国人之间的互通与外国人的困惑，幽默收尾。",
+        "words": [
+          { "word": "understand each other", "pos": "phr.", "meaning": "互相理解，互相听懂" }
+        ]
+      }
     }
   ]
 }

@@ -1,119 +1,103 @@
 #!/usr/bin/env python3
-import os
-import base64
-import json
-import time
-from pathlib import Path
-from urllib import request
 
+# =============================================================================
+# NCE1 Lesson 23: Which Glasses?
+# Story: A man asks Jane (shop assistant) for some glasses (drinking glasses).
+# Jane asks which ones. She points to some — Man says no, the ones on the shelf.
+# Jane fetches the right glasses and hands them over. Man thanks her.
+# Characters: Man (customer), Jane (shop assistant)
+# Note: "glasses" here = drinking glasses / tumblers (杯子), NOT eyeglasses.
+# =============================================================================
 
-def load_env_file(env_path: Path) -> None:
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        key, value = key.strip(), value.strip().strip('"').strip("'")
-        if key and key not in os.environ:
-            os.environ[key] = value
+STYLE = (
+    "Studio Ghibli-inspired illustration style, delicate watercolor textures, "
+    "soft hand-drawn lines, warm cosy shop interior light, nostalgic 1960s British atmosphere. "
+)
 
+SCENE = (
+    "Location: a warm, cosy British kitchenware or glassware shop — "
+    "wooden shelves and display counters lined with rows of drinking glasses, "
+    "tumblers, and cups of different sizes and colours, "
+    "warm amber overhead lighting, polished wooden counter. "
+    "Keep the wooden shelves, glassware displays, and warm amber lighting consistent across ALL frames. "
+    "NO captions, NO speech bubbles, NO subtitles, NO split panels, NO visible written words. "
+)
 
-def gemini_generate_image(api_key, model, prompt):
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-    }
-    data = json.dumps(payload).encode("utf-8")
-    req = request.Request(
-        endpoint, data=data, headers={"Content-Type": "application/json"}, method="POST"
-    )
+CHAR_MAN = (
+    "Character MAN: a polite professional man, approximately 38-42 years old, "
+    "short neat dark brown hair, clean-shaven, friendly composed expression, "
+    "wearing a smart charcoal grey suit jacket over a white shirt with a dark navy tie. "
+    "CRITICAL: charcoal grey suit + white shirt + dark navy tie + dark brown hair — NEVER change. "
+    "He looks like a well-dressed, educated gentleman shopping for glassware. "
+)
 
-    with request.urlopen(req, timeout=120) as resp:
-        full_resp = json.loads(resp.read().decode("utf-8"))
-        parts = full_resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        for part in parts:
-            if "inlineData" in part:
-                return base64.b64decode(part["inlineData"]["data"])
-    return None
-
-
-# Master Specs for Lesson 23
-STYLE = "Studio Ghibli-inspired illustration style, vibrant watercolor textures, soft hand-drawn lines, nostalgic interior, warm indoor lighting. "
-SCENE = "Location: A cozy room with a wooden sideboard or shelf. Several pairs of glasses and cups are arranged on the shelf. "
-CHAR_MAN = "Character Man: A man in his 40s with short brown hair, wearing a light grey sweater over a collared shirt. "
-CHAR_WOMAN = (
-    "Character Woman: A woman in her 30s with blonde hair, wearing a floral dress. "
+CHAR_JANE = (
+    "Character JANE: a cheerful young shop assistant, approximately 24-26 years old, "
+    "auburn hair pinned up neatly with a few loose strands, warm helpful expression, "
+    "wearing a neat cream-coloured blouse with a dark green cardigan. "
+    "CRITICAL: cream blouse + dark green cardigan + auburn pinned-up hair — NEVER change. "
+    "She looks like a kind, efficient young shop assistant. "
 )
 
 STORYBOARD = [
     {
         "id": "scene1",
-        "desc": "Wide shot of the room. The Man is talking to the Woman, gesturing towards a shelf where several items are kept.",
+        "desc": (
+            "Wide establishing shot of the warm glassware shop interior. "
+            "The Man (charcoal grey suit, white shirt, dark navy tie, dark brown hair) "
+            "stands at the wooden counter, gesturing toward the shelves behind Jane with a polite expression. "
+            "Jane (cream blouse, dark green cardigan, auburn pinned-up hair) "
+            "stands behind the counter, smiling helpfully. "
+            "Shelves lined with rows of drinking glasses — tumblers, tall glasses, short glasses — fill the background. "
+            "Warm amber shop light. Show both characters clearly. Cosy, inviting atmosphere."
+        ),
     },
     {
         "id": "pointing_shelf",
-        "desc": "The Woman pointing to a high shelf where two pairs of glasses are visible next to some cups. One pair is large and one is small.",
+        "desc": (
+            "Jane (cream blouse, dark green cardigan, auburn pinned-up hair) "
+            "stands in front of wooden display shelves packed with drinking glasses and tumblers. "
+            "She gestures toward one group of glasses on the shelf with a questioning expression — "
+            "tilting her head as if to say 'these ones here?'. "
+            "The shelves clearly show multiple sets of glasses — clear glass tumblers, coloured glasses, etc. "
+            "The Man (charcoal grey suit) stands slightly behind her, watching with a mildly uncertain expression. "
+            "Show both characters and the glass-filled shelves clearly. Warm shop lighting."
+        ),
     },
     {
         "id": "which_glasses",
-        "desc": "Close-up of the shelf. There are two pairs of glasses: one large pair with thick black frames and one small pair with thin gold frames. The Man is pointing towards them.",
+        "desc": (
+            "Focus on a wooden shelf: a clearly visible set of TALL CLEAR DRINKING GLASSES "
+            "stands prominently on an upper shelf — these are the ones the Man wants. "
+            "The Man (charcoal grey suit, white shirt, dark navy tie) stands close to the shelf, "
+            "pointing directly at the tall clear glasses with one finger — his expression showing certainty. "
+            "Jane (cream blouse, dark green cardigan) stands beside him, reaching toward those glasses, "
+            "her face showing recognition — 'Oh, THOSE ones on the shelf!'. "
+            "The tall clear glasses on the shelf are the visual focal point. "
+            "Show both characters and the glasses clearly. Warm amber shop lighting."
+        ),
     },
     {
         "id": "handing_glasses",
-        "desc": "The Woman taking the small gold-framed glasses from the shelf and handing them to the Man.",
-    },
-    {
-        "id": "checking_glasses",
-        "desc": "The Man holding the small glasses, looking at them closely. The Woman is smiling at him.",
+        "desc": (
+            "Jane (cream blouse, dark green cardigan, auburn pinned-up hair) "
+            "carefully holds out a set of tall clear drinking glasses toward the Man with both hands and a warm smile. "
+            "The Man (charcoal grey suit, white shirt, dark navy tie) extends his hands to receive them, "
+            "looking pleased and satisfied. "
+            "The tall clear drinking glasses are clearly visible being passed between them — the focal action. "
+            "Warm amber shop light. Show both characters and the glasses clearly."
+        ),
     },
     {
         "id": "thanking",
-        "desc": "The Man putting the glasses into his pocket and nodding his head in thanks to the Woman. Friendly and warm atmosphere.",
+        "desc": (
+            "The Man (charcoal grey suit, white shirt, dark navy tie, dark brown hair) "
+            "holds the tall clear drinking glasses contentedly, "
+            "turning back toward Jane with a warm, appreciative smile and a slight nod of thanks. "
+            "Jane (cream blouse, dark green cardigan, auburn pinned-up hair) "
+            "smiles back warmly from behind the counter — a pleasant, satisfied expression. "
+            "Warm amber shop light. Show both characters clearly. "
+            "The glasses are visible in the Man's hands. Friendly, warm ending atmosphere."
+        ),
     },
 ]
-
-
-def main():
-    root = Path(__file__).resolve().parents[2]
-    load_env_file(root / ".env")
-    api_key = os.environ.get("GOOGLE_API_KEY")
-    model = os.environ.get("VERTEX_IMAGE_MODEL", "gemini-3.1-flash-image-preview")
-
-    if not api_key:
-        print("Error: GOOGLE_API_KEY not found")
-        return
-
-    out_dir = root / "public" / "images" / "nce1" / "l23"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"🎨 Starting Storyboard Generation for NCE1 L23...")
-
-    for item in STORYBOARD:
-        out_path = out_dir / f"{item['id']}.png"
-        print(f"Generating {item['id']}...")
-
-        full_prompt = (
-            STYLE
-            + SCENE
-            + CHAR_MAN
-            + CHAR_WOMAN
-            + item["desc"]
-            + " Maintain high character and background consistency. Studio Ghibli watercolor style."
-        )
-
-        try:
-            img_bytes = gemini_generate_image(api_key, model, full_prompt)
-            if img_bytes:
-                out_path.write_bytes(img_bytes)
-                print(f"✅ Saved: {out_path}")
-            else:
-                print(f"❌ Failed to generate {item['id']}")
-            time.sleep(3)
-        except Exception as e:
-            print(f"🔥 Error generating {item['id']}: {e}")
-
-
-if __name__ == "__main__":
-    main()

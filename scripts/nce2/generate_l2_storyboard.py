@@ -1,67 +1,107 @@
 #!/usr/bin/env python3
 
+# =============================================================================
+# NCE2 Lesson 2: Breakfast or Lunch
+# Story: The Writer sleeps in on Sunday. Aunt Lucy phones to say she has
+# arrived at the station. She is shocked he is still having breakfast at 1pm.
+# Characters: ONE MAN (Writer), ONE WOMAN (Aunt Lucy) — no other characters.
+# =============================================================================
+
 STYLE = (
     "Studio Ghibli-inspired illustration style, delicate watercolor textures, "
-    "soft hand-drawn lines, warm nostalgic lighting, cozy domestic atmosphere. "
+    "soft hand-drawn lines, warm cozy domestic lighting, gentle nostalgic mood. "
 )
 
 SCENE = (
-    "Location: a cozy English bedroom-study with a wooden bed, floral curtains, bookshelves, potted plants, "
-    "a bedside table, and a writing desk in the corner. Keep the room layout, window position, desk position, "
-    "bed orientation, and soft watercolor look consistent across all frames. No captions, no comic text, "
-    "no subtitles, and no visible written words anywhere in the image. "
+    "Primary location: a cozy 1960s English home — a bedroom with a wooden bed frame, "
+    "floral curtains, a bedside table with a black rotary telephone, a small wall clock, "
+    "and a writing desk in the corner. The dining area has a small wooden table with "
+    "breakfast items: toast rack, teapot, teacup, marmalade jar, and breakfast plate. "
+    "Keep the room layout, window position, floral curtain pattern, and warm lighting "
+    "strictly consistent across all home frames. "
+    "Strictly inside the home or at the railway station platform. NO other locations. "
+    "NO captions, NO speech bubbles, NO subtitles, NO split panels, NO visible written words. "
 )
 
 CHAR_WRITER = (
-    "Character Writer: middle-aged British man with tousled light brown hair, gentle sleepy face, "
-    "wearing blue-and-white striped pajamas. "
+    "Character THE WRITER: young British man, approximately 22-25 years old, "
+    "tousled messy light brown hair, youthful face with slight stubble, slim build. "
+    "He wears blue-and-white striped cotton pajamas throughout all home scenes. "
+    "CRITICAL: young face (early 20s), tousled hair, blue-and-white striped pajamas — these NEVER change. "
+    "He must look clearly YOUNG — a university-age young man, NOT middle-aged, NOT old. "
+)
+
+CHAR_AUNT_LUCY = (
+    "Character AUNT LUCY: kindly elderly British woman, approximately 65-70 years old, "
+    "neatly styled white-grey hair pinned up, warm rosy face with a surprised expression, "
+    "wearing a tasteful lavender-purple wool coat with a small brooch, "
+    "a matching small hat, and carrying a brown leather suitcase. "
+    "CRITICAL: lavender-purple coat + white-grey hair + brown suitcase — these NEVER change. "
+    "She appears ONLY in the railway station scene, NOT in the home. "
 )
 
 STORYBOARD = [
     {
         "id": "scene1",
         "desc": (
-            "Wide shot in the cozy bedroom-study. The Writer is alone, still in bed very late in the day, looking sleepy and comfortable "
-            "under a blue blanket, while a simple wall clock clearly shows one o'clock in the afternoon. No other people are present."
+            "Wide shot of the cozy bedroom. The Writer is alone, still lying in bed very late in the day, "
+            "looking sleepy and comfortable under a blue blanket. "
+            "A simple wall clock on the wall clearly shows 1 o'clock in the afternoon. "
+            "Warm soft light filters through the floral curtains. Atmosphere: lazy, cozy, Sunday indulgence. "
+            "No other people present."
         ),
     },
     {
         "id": "rainy_window",
         "desc": (
-            "View from inside the Writer's room toward the window only. No people are visible. Outside it is dark and raining heavily even "
-            "though it is daytime, with wet streets, blurred lights, and rain on the window glass."
+            "View from inside the Writer's cozy bedroom toward the window. "
+            "The Writer stands or sits near the window looking out. "
+            "Outside the glass, it is dark and raining heavily — wet grey streets, "
+            "blurred lamplight reflections, raindrops streaming down the glass. "
+            "The contrast between the warm cozy interior and the bleak wet outside is clear. "
+            "NO other people visible outside."
         ),
     },
     {
-        "id": "telephone_rings",
+        "id": "phone_rings",
         "desc": (
-            "The Writer has just sat up in bed and is reaching toward a black rotary telephone on the bedside table as it begins to ring. "
-            "He still wears his striped pajamas and looks surprised by the interruption. He is alone in the room. No speech bubbles, sound effects, "
-            "or any visible text."
+            "The Writer has sat up in bed, still in striped pajamas, and is reaching toward "
+            "the black rotary telephone on the bedside table as it begins to ring. "
+            "His expression is groggy and surprised by the interruption. "
+            "He is alone in the bedroom. The wall clock is still visible showing 1 o'clock. "
+            "NO speech bubbles, NO sound effect text, NO visible words anywhere."
         ),
     },
     {
-        "id": "aunt_lucy_calls",
+        "id": "aunt_lucy_station",
         "desc": (
-            "Location changes to a small traditional English railway station platform with an old public telephone, soft grey daylight, and a just-arrived train atmosphere. "
-            "Character Aunt Lucy: kindly elderly British woman with white-grey hair, wearing a tasteful purple coat and small hat, carrying a brown suitcase. "
-            "Aunt Lucy stands at the public telephone and is speaking cheerfully into the receiver. Single normal frame only. "
-            "Do not show the Writer, do not show any split screen, and do not divide the image into panels."
+            "Scene changes entirely to a small traditional English railway station platform. "
+            "Grey soft daylight, a steam train visible in the background having just arrived. "
+            "Aunt Lucy stands alone at an old black public telephone mounted on the platform wall, "
+            "her brown suitcase on the ground beside her. She speaks cheerfully into the receiver. "
+            "Show Aunt Lucy clearly in a single normal cinematic frame. "
+            "Do NOT show the Writer. Do NOT show split screens or panels. Do NOT show the home. "
+            "NO text, NO signs readable in English."
         ),
     },
     {
-        "id": "writer_still_breakfast",
+        "id": "writer_at_breakfast",
         "desc": (
-            "The Writer is now at a small dining table in the same home, still in his striped pajamas, holding the telephone receiver while "
-            "eating breakfast late in the day. On the table are toast, a cup of coffee or tea, and breakfast dishes. He looks apologetic and awkward."
+            "The Writer is now at a small wooden dining table in his home, still in his striped pajamas. "
+            "He holds the telephone receiver awkwardly in one hand while eating breakfast — "
+            "toast, tea, marmalade on the table. His expression is sheepish and apologetic. "
+            "He is alone in this frame. Warm kitchen or dining room light. "
+            "The contrast of pajamas + breakfast at 1pm is visually clear."
         ),
     },
     {
-        "id": "breakfast_one_oclock",
+        "id": "one_oclock",
         "desc": (
-            "Single normal illustration frame only. The Writer is still sitting at breakfast with toast and tea on the table while holding the telephone, and a nearby wall clock "
-            "clearly shows one o'clock. His expression suggests embarrassment as Aunt Lucy's surprise makes sense. The Writer is the only visible person. "
-            "No split screen, no collage, no panels, and no visible text anywhere."
+            "Single cinematic frame. The Writer sits at the breakfast table, still in pajamas, "
+            "holding the telephone receiver with an embarrassed guilty expression. "
+            "A wall clock clearly and prominently shows 1 o'clock. Toast and tea are on the table. "
+            "He is the only person visible. "
+            "NO split screen, NO collage, NO panels, NO visible text anywhere."
         ),
     },
 ]

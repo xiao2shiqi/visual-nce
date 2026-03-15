@@ -1,124 +1,114 @@
 #!/usr/bin/env python3
-import os
-import base64
-import json
-import time
-from pathlib import Path
-from urllib import request
 
+# =============================================================================
+# NCE1 Lesson 9: How Are You Today?
+# Story: Steven and Helen bump into each other on a sunny park path.
+# They greet each other cheerfully, ask how each other is, mention Tony
+# (Helen's son) and Emma (Steven's wife), then say goodbye and go separate ways.
+# Characters: Steven (young man), Helen (young woman)
+# =============================================================================
 
-def load_env_file(env_path: Path) -> None:
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        key, value = key.strip(), value.strip().strip('"').strip("'")
-        if key and key not in os.environ:
-            os.environ[key] = value
+STYLE = (
+    "Studio Ghibli-inspired illustration style, delicate watercolor textures, "
+    "soft hand-drawn lines, warm sunny outdoor English park light, cheerful friendly mood. "
+)
 
+SCENE = (
+    "Location: a pleasant English park path on a sunny day — "
+    "a wide tree-lined path with green grass on either side, "
+    "colourful flower beds, old-fashioned park benches, "
+    "dappled sunlight through leafy trees overhead. "
+    "Keep the park path, green trees, flower beds, and warm sunlight consistent across ALL frames. "
+    "NO captions, NO speech bubbles, NO subtitles, NO split panels, NO visible written words. "
+)
 
-def gemini_generate_image(api_key, model, prompt):
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-    }
-    data = json.dumps(payload).encode("utf-8")
-    req = request.Request(
-        endpoint, data=data, headers={"Content-Type": "application/json"}, method="POST"
-    )
+CHAR_STEVEN = (
+    "Character STEVEN: young man, approximately 22-25 years old, "
+    "short dark hair, relaxed cheerful expression, "
+    "wearing a bright orange crew-neck sweater and dark blue jeans. "
+    "CRITICAL: orange sweater + dark jeans — NEVER change. "
+    "He looks like a happy, easygoing young man. NOT middle-aged. "
+)
 
-    with request.urlopen(req, timeout=120) as resp:
-        full_resp = json.loads(resp.read().decode("utf-8"))
-        parts = full_resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        for part in parts:
-            if "inlineData" in part:
-                return base64.b64decode(part["inlineData"]["data"])
-    return None
-
-
-# Master Specs for Lesson 9
-STYLE = "Studio Ghibli-inspired illustration style, vibrant watercolor textures, soft hand-drawn lines, bright and warm lighting, nostalgic atmosphere. "
-SCENE = "Location: A pleasant park path with green trees, flower beds, and a park bench in the background. Sunny day. "
-CHAR_STEVEN = "Character Steven: Young man with short dark hair, wearing a casual orange sweater and jeans, friendly and energetic. "
-CHAR_HELEN = "Character Helen: Young woman with shoulder-length brown hair, wearing a light yellow dress and a white cardigan, looking healthy and cheerful. "
+CHAR_HELEN = (
+    "Character HELEN: young woman, approximately 22-25 years old, "
+    "shoulder-length warm brown hair, bright cheerful smile, "
+    "wearing a light yellow dress with a white cardigan over it. "
+    "CRITICAL: light yellow dress + white cardigan + brown hair — NEVER change. "
+    "She looks like a friendly, healthy young woman. NOT middle-aged. "
+)
 
 STORYBOARD = [
     {
         "id": "scene1",
-        "desc": "Wide shot of a park path. Steven and Helen have just bumped into each other and are waving. Bright, sunny morning atmosphere.",
+        "desc": (
+            "Wide establishing shot of the sunny park path. "
+            "Steven and Helen have just spotted each other coming from opposite directions "
+            "and are both raising a hand in surprised, happy greeting. "
+            "They are still a few steps apart on the path. "
+            "Trees and flower beds visible on either side. "
+            "Warm sunlight, cheerful atmosphere. Show both characters clearly."
+        ),
     },
     {
         "id": "meeting",
-        "desc": "Steven and Helen standing on the path, smiling and greeting each other. Steven has his hands in his pockets, Helen is holding a small book.",
+        "desc": (
+            "Steven and Helen now stand face to face on the path, smiling broadly "
+            "as they greet each other. "
+            "Steven's orange sweater and Helen's yellow dress are clearly visible. "
+            "They look genuinely pleased to meet. "
+            "Park background with flower beds and trees. Show both characters clearly."
+        ),
     },
     {
         "id": "helen_healthy",
-        "desc": "Close-up of Helen smiling brightly, looking very well. Her eyes are sparkling, and the sunlight filters through the trees behind her.",
+        "desc": (
+            "Close-medium shot of Helen, smiling radiantly and looking very healthy and energetic. "
+            "She stands straight with a bright expression, clearly in good spirits. "
+            "Her light yellow dress and white cardigan are clearly visible. "
+            "Steven is visible beside her, watching her with a pleased expression. "
+            "Warm park sunlight. Show both characters."
+        ),
     },
     {
         "id": "steven_fine",
-        "desc": "Steven nodding and smiling, looking relaxed and healthy. He is enjoying the conversation.",
+        "desc": (
+            "Close-medium shot of Steven, nodding contentedly and smiling — "
+            "he looks relaxed, healthy, and at ease. "
+            "His orange sweater is clearly visible. "
+            "He gestures casually with one hand as he replies. "
+            "Helen is visible beside him, listening warmly. "
+            "Dappled park light. Show both characters."
+        ),
     },
     {
         "id": "tony_fine",
-        "desc": "Helen talking about Tony (a young boy, perhaps her son, visible in a small 'thought bubble' or just mentioned by her gesture). She looks happy.",
+        "desc": (
+            "Helen talks about Tony — she gestures fondly, perhaps miming a child's height "
+            "with one hand held low, smiling warmly as she mentions him. "
+            "Her expression is affectionate and proud. "
+            "Steven listens and nods with an interested smile. "
+            "Show both characters on the sunny park path."
+        ),
     },
     {
         "id": "emma_fine",
-        "desc": "Steven talking about Emma (a young woman, perhaps his wife, mentioned by his gesture). He looks very pleased.",
+        "desc": (
+            "Steven mentions Emma — he gestures with a warm, fond expression, "
+            "looking happy as he talks about her. "
+            "Helen nods and smiles back in understanding. "
+            "Show both characters on the park path. Warm sunlight and flower beds visible."
+        ),
     },
     {
         "id": "goodbye",
-        "desc": "Steven and Helen walking away from each other in opposite directions, waving goodbye over their shoulders. The sun is setting slightly, warm colors.",
+        "desc": (
+            "Wide shot of the park path. "
+            "Steven and Helen have turned and are walking away from each other "
+            "in opposite directions along the path. "
+            "They each look back over their shoulders, waving goodbye with a smile. "
+            "The warm park stretches behind each of them. "
+            "Charming, cheerful parting atmosphere. Show both characters clearly."
+        ),
     },
 ]
-
-
-def main():
-    root = Path(__file__).resolve().parents[1]
-    load_env_file(root / ".env")
-    api_key = os.environ.get("GOOGLE_API_KEY")
-    model = os.environ.get("VERTEX_IMAGE_MODEL", "gemini-3.1-flash-image-preview")
-
-    if not api_key:
-        print("Error: GOOGLE_API_KEY not found")
-        return
-
-    out_dir = root / "public" / "images" / "nce1" / "l9"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"🎨 Starting Storyboard Generation for NCE1 L9...")
-
-    for item in STORYBOARD:
-        out_path = out_dir / f"{item['id']}.png"
-        if out_path.exists():
-            print(f"Skipping {item['id']} (already exists)")
-            continue
-
-        print(f"Generating {item['id']}...")
-        full_prompt = (
-            STYLE
-            + SCENE
-            + CHAR_STEVEN
-            + CHAR_HELEN
-            + item["desc"]
-            + " Maintain high character and background consistency. Studio Ghibli watercolor style."
-        )
-
-        try:
-            img_bytes = gemini_generate_image(api_key, model, full_prompt)
-            if img_bytes:
-                out_path.write_bytes(img_bytes)
-                print(f"✅ Saved: {out_path}")
-            else:
-                print(f"❌ Failed to generate {item['id']}")
-            time.sleep(3)
-        except Exception as e:
-            print(f"🔥 Error generating {item['id']}: {e}")
-
-
-if __name__ == "__main__":
-    main()
