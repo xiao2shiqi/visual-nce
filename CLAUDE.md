@@ -20,6 +20,10 @@
     4. **封面图同步**：`scene1.png` 同时用于 `curriculum.json` 和课程 JSON 的根 `image` 字段。
     5. **稳定开场**：非对话片段不设置独立 `image` 字段，以维持默认背景。
     6. **语义命名**：分镜帧使用语义化名称（如 `man_waves.png`），禁止随意编号。
+    7. **人物复制防护（教训：L81）**：仅写 `EXACTLY N people` 不足以防止 AI 复制角色——尤其当同一帧内有**两个同性别角色**时，AI 会把其中一人复制到空位。必须在 `desc` 中加三层约束：
+        - ① `STRICTLY N INDIVIDUALS ONLY. Do NOT duplicate any character. Do NOT add extra people.`
+        - ② 逐人指定位置与外貌：`The person on the LEFT is X (浅棕发+V领毛衣). The person on the RIGHT is Y (深发+灰夹克).`
+        - ③ `These are DIFFERENT people with DIFFERENT hair and clothing — do NOT make them look alike.`
 - **重置与覆盖**：更新或修复图片时，**必须强制覆盖**旧文件（`--force`），消除过时 AI 幻觉图。
 
 ## 2. Storyboard 脚本规范
@@ -57,6 +61,7 @@ STORYBOARD = [
 - **角色映射 (Role Mapping)**：
     - **教材验证**：查阅标准教材插图，确认角色性别、年龄段、外貌特征及人数。
     - **双重校验**：通过录音音色（判断说话人）和教材插图双重验证。如果录音是两个男性，Prompt 必须强调"TWO MEN, NO WOMEN"，且年龄段需明确定义（如：30s Young Man），严禁出现 Age Drift（忽老忽少）。
+    - **性别强锚（教训：L75）**：**写 `CHAR_*` 前必须先听录音确认每个角色的性别**，不可凭故事情境猜测（如"鞋店店员应该是女的"）。一旦确认性别，必须在 `CHAR_*` 里加 `CRITICAL: MALE` 或 `CRITICAL: FEMALE`，并在该角色出现的每个 `desc` 里重复一句 `is a MAN / is a WOMAN`，防止 AI 自行篡改。
 - **视觉线索补完**：分镜必须包含关键视觉细节（如：领口牌子 label、胸前徽章 badge），即便音频未提及。
 
 ## 4. 课程验收标准 (Acceptance Criteria)
