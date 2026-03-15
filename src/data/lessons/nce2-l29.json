@@ -2,7 +2,7 @@
   "id": "nce2-l29",
   "title": "Lesson 29: Taxi",
   "audio": "/audio/nce2/29－Taxi.mp3",
-  "image": "/images/nce2/l29/scene1.jpg",
+  "image": "/images/nce2/l29/scene1.png",
   "segments": [
     {
       "id": "intro_1",
@@ -10,38 +10,15 @@
       "text": "Lesson 29",
       "translation": "第29课",
       "startTime": 0.5,
-      "endTime": 1.83,
-      "analysis": {
-        "words": [
-          {
-            "word": "Lesson",
-            "pos": "n.",
-            "meaning": "课"
-          },
-          {
-            "word": "29",
-            "pos": "num.",
-            "meaning": "第29"
-          }
-        ]
-      }
+      "endTime": 1.83
     },
     {
       "id": "intro_2",
       "role": "Narrator",
       "text": "Taxi",
       "translation": "出租汽车！",
-      "startTime": 2.3299999999999996,
-      "endTime": 4.61,
-      "analysis": {
-        "words": [
-          {
-            "word": "Taxi",
-            "pos": "n.",
-            "meaning": "出租车"
-          }
-        ]
-      }
+      "startTime": 2.33,
+      "endTime": 4.61
     },
     {
       "id": "intro_3",
@@ -49,51 +26,7 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.114,
-      "endTime": 8.78,
-      "analysis": {
-        "words": [
-          {
-            "word": "Listen",
-            "pos": "v.",
-            "meaning": "听"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "向，对"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "tape",
-            "pos": "n.",
-            "meaning": "录音"
-          },
-          {
-            "word": "then",
-            "pos": "adv.",
-            "meaning": "然后"
-          },
-          {
-            "word": "answer",
-            "pos": "v.",
-            "meaning": "回答"
-          },
-          {
-            "word": "this",
-            "pos": "det.",
-            "meaning": "这个"
-          },
-          {
-            "word": "question",
-            "pos": "n.",
-            "meaning": "问题"
-          }
-        ]
-      }
+      "endTime": 8.78
     },
     {
       "id": "intro_4",
@@ -101,56 +34,7 @@
       "text": "Does Captain Fawcett think any trip is too dangerous?",
       "translation": "福赛特机长认为有什么飞行太危险吗？",
       "startTime": 9.28,
-      "endTime": 15.19,
-      "analysis": {
-        "words": [
-          {
-            "word": "Does",
-            "pos": "aux.",
-            "meaning": "（助动词）"
-          },
-          {
-            "word": "Captain",
-            "pos": "n.",
-            "meaning": "机长"
-          },
-          {
-            "word": "Fawcett",
-            "pos": "n.",
-            "meaning": "福赛特"
-          },
-          {
-            "word": "think",
-            "pos": "v.",
-            "meaning": "认为"
-          },
-          {
-            "word": "any",
-            "pos": "det.",
-            "meaning": "任何"
-          },
-          {
-            "word": "trip",
-            "pos": "n.",
-            "meaning": "飞行/旅行"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "too",
-            "pos": "adv.",
-            "meaning": "太"
-          },
-          {
-            "word": "dangerous",
-            "pos": "adj.",
-            "meaning": "危险的"
-          }
-        ]
-      }
+      "endTime": 15.19
     },
     {
       "id": "intro_5",
@@ -158,76 +42,7 @@
       "text": "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.",
       "translation": "本·福赛特机长买了一辆不寻常的出租汽车，开始了一项新的业务。",
       "startTime": 15.69,
-      "endTime": 22.84,
-      "analysis": {
-        "words": [
-          {
-            "word": "Captain",
-            "pos": "n.",
-            "meaning": "机长"
-          },
-          {
-            "word": "Ben Fawcett",
-            "pos": "n.",
-            "meaning": "本·福赛特"
-          },
-          {
-            "word": "has",
-            "pos": "aux.",
-            "meaning": "已经"
-          },
-          {
-            "word": "bought",
-            "pos": "v.",
-            "meaning": "买"
-          },
-          {
-            "word": "an",
-            "pos": "art.",
-            "meaning": "一辆"
-          },
-          {
-            "word": "unusual",
-            "pos": "adj.",
-            "meaning": "不寻常的"
-          },
-          {
-            "word": "taxi",
-            "pos": "n.",
-            "meaning": "出租车"
-          },
-          {
-            "word": "and",
-            "pos": "conj.",
-            "meaning": "并"
-          },
-          {
-            "word": "has",
-            "pos": "aux.",
-            "meaning": "已经"
-          },
-          {
-            "word": "begun",
-            "pos": "v.",
-            "meaning": "开始"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "new",
-            "pos": "adj.",
-            "meaning": "新的"
-          },
-          {
-            "word": "service",
-            "pos": "n.",
-            "meaning": "业务/服务"
-          }
-        ]
-      }
+      "endTime": 22.84
     },
     {
       "id": "intro_6",
@@ -235,61 +50,7 @@
       "text": "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.",
       "translation": "这辆'出租汽车'是一架小型瑞士飞机，叫'皮拉图斯·波特'。",
       "startTime": 23.34,
-      "endTime": 29.19,
-      "analysis": {
-        "words": [
-          {
-            "word": "The",
-            "pos": "art.",
-            "meaning": "这辆"
-          },
-          {
-            "word": "taxi",
-            "pos": "n.",
-            "meaning": "出租车"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一架"
-          },
-          {
-            "word": "small",
-            "pos": "adj.",
-            "meaning": "小的"
-          },
-          {
-            "word": "Swiss",
-            "pos": "adj.",
-            "meaning": "瑞士的"
-          },
-          {
-            "word": "aeroplane",
-            "pos": "n.",
-            "meaning": "飞机"
-          },
-          {
-            "word": "called",
-            "pos": "v.",
-            "meaning": "名叫"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "（指某种名称）"
-          },
-          {
-            "word": "Pilatus Porter",
-            "pos": "n.",
-            "meaning": "皮勒特斯·波特"
-          }
-        ]
-      }
+      "endTime": 29.19
     },
     {
       "id": "intro_7",
@@ -297,46 +58,7 @@
       "text": "This wonderful plane can carry seven passengers.",
       "translation": "这架奇妙的飞机能载7名乘客。",
       "startTime": 29.69,
-      "endTime": 33.9,
-      "analysis": {
-        "words": [
-          {
-            "word": "This",
-            "pos": "det.",
-            "meaning": "这架"
-          },
-          {
-            "word": "wonderful",
-            "pos": "adj.",
-            "meaning": "奇妙的"
-          },
-          {
-            "word": "plane",
-            "pos": "n.",
-            "meaning": "飞机"
-          },
-          {
-            "word": "can",
-            "pos": "aux.",
-            "meaning": "能"
-          },
-          {
-            "word": "carry",
-            "pos": "v.",
-            "meaning": "携带/载"
-          },
-          {
-            "word": "seven",
-            "pos": "num.",
-            "meaning": "七个"
-          },
-          {
-            "word": "passengers",
-            "pos": "n.",
-            "meaning": "乘客"
-          }
-        ]
-      }
+      "endTime": 33.9
     },
     {
       "id": "s1",
@@ -345,120 +67,7 @@
       "translation": "然而，最让人惊奇的是它能在任何地方降落：雪地上、水面上，甚至犁过的田里。",
       "startTime": 34.4,
       "endTime": 46.61,
-      "analysis": {
-        "words": [
-          {
-            "word": "The",
-            "pos": "art.",
-            "meaning": "最"
-          },
-          {
-            "word": "most",
-            "pos": "adv.",
-            "meaning": "最"
-          },
-          {
-            "word": "surprising",
-            "pos": "adj.",
-            "meaning": "令人吃惊的"
-          },
-          {
-            "word": "thing",
-            "pos": "n.",
-            "meaning": "事"
-          },
-          {
-            "word": "about",
-            "pos": "prep.",
-            "meaning": "关于"
-          },
-          {
-            "word": "it",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "however",
-            "pos": "adv.",
-            "meaning": "然而"
-          },
-          {
-            "word": "is",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "that",
-            "pos": "conj.",
-            "meaning": "（引导词）"
-          },
-          {
-            "word": "it",
-            "pos": "pron.",
-            "meaning": "它"
-          },
-          {
-            "word": "can",
-            "pos": "aux.",
-            "meaning": "能"
-          },
-          {
-            "word": "land",
-            "pos": "v.",
-            "meaning": "着陆"
-          },
-          {
-            "word": "anywhere",
-            "pos": "adv.",
-            "meaning": "任何地方"
-          },
-          {
-            "word": "on",
-            "pos": "prep.",
-            "meaning": "在..."
-          },
-          {
-            "word": "snow",
-            "pos": "n.",
-            "meaning": "雪地"
-          },
-          {
-            "word": "water",
-            "pos": "n.",
-            "meaning": "水面"
-          },
-          {
-            "word": "or",
-            "pos": "conj.",
-            "meaning": "或"
-          },
-          {
-            "word": "even",
-            "pos": "adv.",
-            "meaning": "甚至"
-          },
-          {
-            "word": "on",
-            "pos": "prep.",
-            "meaning": "在"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一块"
-          },
-          {
-            "word": "ploughed",
-            "pos": "adj.",
-            "meaning": "耕过的"
-          },
-          {
-            "word": "field",
-            "pos": "n.",
-            "meaning": "田地"
-          }
-        ]
-      }
+      "image": "/images/nce2/l29/plane_mountains.png"
     },
     {
       "id": "s2",
@@ -466,106 +75,7 @@
       "text": "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.",
       "translation": "福赛特机长的第一位乘客是一位医生，他从伯明翰飞往威尔士山区的一个偏僻村庄。",
       "startTime": 47.11,
-      "endTime": 56.39,
-      "analysis": {
-        "words": [
-          {
-            "word": "Captain",
-            "pos": "n.",
-            "meaning": "上尉，队长，船长，机长"
-          },
-          {
-            "word": "Fawcett's",
-            "pos": "n.",
-            "meaning": "福赛特的"
-          },
-          {
-            "word": "first",
-            "pos": "num.",
-            "meaning": "第一"
-          },
-          {
-            "word": "passenger",
-            "pos": "n.",
-            "meaning": "乘客"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "doctor",
-            "pos": "n.",
-            "meaning": "医生"
-          },
-          {
-            "word": "who",
-            "pos": "pron.",
-            "meaning": "谁"
-          },
-          {
-            "word": "flew",
-            "pos": "v.",
-            "meaning": "飞"
-          },
-          {
-            "word": "from",
-            "pos": "prep.",
-            "meaning": "从"
-          },
-          {
-            "word": "Birmingham",
-            "pos": "n.",
-            "meaning": "伯明翰"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "到"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "lonely",
-            "pos": "adj.",
-            "meaning": "孤独的，偏僻的"
-          },
-          {
-            "word": "village",
-            "pos": "n.",
-            "meaning": "村庄"
-          },
-          {
-            "word": "in",
-            "pos": "prep.",
-            "meaning": "在...里"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这，那"
-          },
-          {
-            "word": "Welsh",
-            "pos": "adj.",
-            "meaning": "威尔士的"
-          },
-          {
-            "word": "mountains",
-            "pos": "n.",
-            "meaning": "山脉"
-          }
-        ]
-      }
+      "endTime": 56.39
     },
     {
       "id": "s3",
@@ -573,56 +83,7 @@
       "text": "Since then, Captain Fawcett has flown passengers to many unusual places.",
       "translation": "从那时起，福赛特机长已经把乘客送往许多不寻常的地方。",
       "startTime": 56.89,
-      "endTime": 63.98,
-      "analysis": {
-        "words": [
-          {
-            "word": "Since then",
-            "pos": "adv.",
-            "meaning": "从那时起"
-          },
-          {
-            "word": "Captain Fawcett",
-            "pos": "n.",
-            "meaning": "福塞特机长"
-          },
-          {
-            "word": "has",
-            "pos": "aux.",
-            "meaning": "已经"
-          },
-          {
-            "word": "flown",
-            "pos": "v.",
-            "meaning": "载（客）飞行"
-          },
-          {
-            "word": "passengers",
-            "pos": "n.",
-            "meaning": "乘客"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "到"
-          },
-          {
-            "word": "many",
-            "pos": "adj.",
-            "meaning": "许多"
-          },
-          {
-            "word": "unusual",
-            "pos": "adj.",
-            "meaning": "不同寻常的"
-          },
-          {
-            "word": "places",
-            "pos": "n.",
-            "meaning": "地方"
-          }
-        ]
-      }
+      "endTime": 63.98
     },
     {
       "id": "s4",
@@ -631,105 +92,7 @@
       "translation": "一次他降落在一栋公寓楼的屋顶上，还有一次他降落在一个废弃的停车场里。",
       "startTime": 64.48,
       "endTime": 74.36,
-      "analysis": {
-        "words": [
-          {
-            "word": "Once",
-            "pos": "adv.",
-            "meaning": "一次"
-          },
-          {
-            "word": "he",
-            "pos": "pron.",
-            "meaning": "他"
-          },
-          {
-            "word": "landed",
-            "pos": "v.",
-            "meaning": "降落"
-          },
-          {
-            "word": "on",
-            "pos": "prep.",
-            "meaning": "在...上"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "roof",
-            "pos": "n.",
-            "meaning": "屋顶"
-          },
-          {
-            "word": "of",
-            "pos": "prep.",
-            "meaning": "一个"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "block of flats",
-            "pos": "n.",
-            "meaning": "公寓大楼"
-          },
-          {
-            "word": "and",
-            "pos": "conj.",
-            "meaning": "另外"
-          },
-          {
-            "word": "on",
-            "pos": "prep.",
-            "meaning": "在"
-          },
-          {
-            "word": "another",
-            "pos": "adj.",
-            "meaning": "另一次"
-          },
-          {
-            "word": "occasion",
-            "pos": "n.",
-            "meaning": "场合/时候"
-          },
-          {
-            "word": "he",
-            "pos": "pron.",
-            "meaning": "他"
-          },
-          {
-            "word": "landed",
-            "pos": "v.",
-            "meaning": "降落"
-          },
-          {
-            "word": "in",
-            "pos": "prep.",
-            "meaning": "在"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "deserted",
-            "pos": "adj.",
-            "meaning": "废弃的"
-          },
-          {
-            "word": "car park",
-            "pos": "n.",
-            "meaning": "停车场"
-          }
-        ]
-      }
+      "image": "/images/nce2/l29/plane_rooftop.png"
     },
     {
       "id": "s5",
@@ -738,60 +101,7 @@
       "translation": "福赛特机长刚刚拒绝了一位商人的奇怪请求。",
       "startTime": 74.86,
       "endTime": 80.67,
-      "analysis": {
-        "words": [
-          {
-            "word": "Captain Fawcett",
-            "pos": "n.",
-            "meaning": "福塞特机长"
-          },
-          {
-            "word": "has",
-            "pos": "aux.",
-            "meaning": "刚刚"
-          },
-          {
-            "word": "just",
-            "pos": "adv.",
-            "meaning": "刚刚"
-          },
-          {
-            "word": "refused",
-            "pos": "v.",
-            "meaning": "拒绝"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "strange",
-            "pos": "adj.",
-            "meaning": "奇怪的"
-          },
-          {
-            "word": "request",
-            "pos": "n.",
-            "meaning": "请求"
-          },
-          {
-            "word": "from",
-            "pos": "prep.",
-            "meaning": "来自"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "businessman",
-            "pos": "n.",
-            "meaning": "商人"
-          }
-        ]
-      }
+      "image": "/images/nce2/l29/refusal.png"
     },
     {
       "id": "s6",
@@ -799,126 +109,7 @@
       "text": "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.",
       "translation": "那人想飞往罗科尔，大西洋上的一个偏远小岛，但福赛特机长没有同意，因为那段飞行太危险了。",
       "startTime": 81.17,
-      "endTime": 93.27,
-      "analysis": {
-        "words": [
-          {
-            "word": "The",
-            "pos": "art.",
-            "meaning": "这位"
-          },
-          {
-            "word": "man",
-            "pos": "n.",
-            "meaning": "男人"
-          },
-          {
-            "word": "wanted to",
-            "pos": "v.",
-            "meaning": "想要"
-          },
-          {
-            "word": "fly",
-            "pos": "v.",
-            "meaning": "飞往"
-          },
-          {
-            "word": "to",
-            "pos": "prep.",
-            "meaning": "到"
-          },
-          {
-            "word": "Rockall",
-            "pos": "n.",
-            "meaning": "罗考尔"
-          },
-          {
-            "word": "a",
-            "pos": "art.",
-            "meaning": "一个"
-          },
-          {
-            "word": "lonely",
-            "pos": "adj.",
-            "meaning": "孤零零的"
-          },
-          {
-            "word": "island",
-            "pos": "n.",
-            "meaning": "小岛"
-          },
-          {
-            "word": "in",
-            "pos": "prep.",
-            "meaning": "在...中"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这"
-          },
-          {
-            "word": "Atlantic Ocean",
-            "pos": "n.",
-            "meaning": "大西洋"
-          },
-          {
-            "word": "but",
-            "pos": "conj.",
-            "meaning": "但是"
-          },
-          {
-            "word": "Captain Fawcett",
-            "pos": "n.",
-            "meaning": "福塞特机长"
-          },
-          {
-            "word": "did not",
-            "pos": "aux.",
-            "meaning": "没有"
-          },
-          {
-            "word": "take",
-            "pos": "v.",
-            "meaning": "带"
-          },
-          {
-            "word": "him",
-            "pos": "pron.",
-            "meaning": "他"
-          },
-          {
-            "word": "because",
-            "pos": "conj.",
-            "meaning": "因为"
-          },
-          {
-            "word": "the",
-            "pos": "art.",
-            "meaning": "这次"
-          },
-          {
-            "word": "trip",
-            "pos": "n.",
-            "meaning": "旅行"
-          },
-          {
-            "word": "was",
-            "pos": "v.",
-            "meaning": "是"
-          },
-          {
-            "word": "too",
-            "pos": "adv.",
-            "meaning": "太"
-          },
-          {
-            "word": "dangerous",
-            "pos": "adj.",
-            "meaning": "危险的"
-          }
-        ]
-      }
+      "endTime": 93.27
     }
   ]
 }
