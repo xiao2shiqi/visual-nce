@@ -17,10 +17,10 @@ const isPlaying = ref(false);
 const currentTime = ref(0);
 const duration = ref(0);
 watch(() => props.playbackRate, (newRate) => {
-  if (audioRef.value && newRate) {
+  if (audioRef.value && newRate !== undefined) {
     audioRef.value.playbackRate = newRate;
   }
-});
+}, { immediate: true });
 
 const togglePlay = () => {
   if (!audioRef.value) return;
@@ -40,6 +40,9 @@ const onTimeUpdate = () => {
 const onLoadedMetadata = () => {
   if (!audioRef.value) return;
   duration.value = audioRef.value.duration;
+  if (props.playbackRate !== undefined) {
+    audioRef.value.playbackRate = props.playbackRate;
+  }
 };
 
 const onPlay = () => (isPlaying.value = true);

@@ -19,11 +19,22 @@ const sceneViewerRef = ref<any>(null);
 const scriptRef = ref<any>(null);
 const donationModalRef = ref<any>(null);
 
+const STORAGE_KEYS = {
+  PLAYBACK_RATE: 'vnce_playback_rate',
+  PLAY_MODE: 'vnce_play_mode',
+  SHOW_TRANSLATION: 'vnce_show_translation'
+};
+
 const currentTime = ref(0);
-const playbackRate = ref(1.0);
-const playbackRates = [0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
-const playMode = ref<'continuous' | 'single' | 'repeat'>('continuous');
-const showTranslation = ref(false);
+const playbackRate = ref(Number(localStorage.getItem(STORAGE_KEYS.PLAYBACK_RATE)) || 1.0);
+const playbackRates = [0.75, 1.0, 1.2, 1.25, 1.5, 1.75, 2.0];
+const playMode = ref((localStorage.getItem(STORAGE_KEYS.PLAY_MODE) as any) || 'continuous');
+const showTranslation = ref(localStorage.getItem(STORAGE_KEYS.SHOW_TRANSLATION) === 'true');
+
+// 持久化用户设置
+watch(playbackRate, (val) => localStorage.setItem(STORAGE_KEYS.PLAYBACK_RATE, val.toString()));
+watch(playMode, (val) => localStorage.setItem(STORAGE_KEYS.PLAY_MODE, val));
+watch(showTranslation, (val) => localStorage.setItem(STORAGE_KEYS.SHOW_TRANSLATION, val.toString()));
 
 // 响应式加载课程数据
 const lessonData = shallowRef<any>(null);
