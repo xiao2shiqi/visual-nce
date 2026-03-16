@@ -5,17 +5,22 @@ const props = defineProps<{
   src: string;
   playbackRate?: number;
   loop?: boolean;
+  hidden?: boolean;
 }>();
 
 const emit = defineEmits<{
   (e: 'timeupdate', time: number): void;
   (e: 'ended'): void;
+  (e: 'play'): void;
+  (e: 'pause'): void;
+  (e: 'durationchange', duration: number): void;
 }>();
 
 const audioRef = ref<HTMLAudioElement | null>(null);
 const isPlaying = ref(false);
 const currentTime = ref(0);
 const duration = ref(0);
+
 watch(() => props.playbackRate, (newRate) => {
   if (audioRef.value && newRate !== undefined) {
     audioRef.value.playbackRate = newRate;
@@ -40,13 +45,14 @@ const onTimeUpdate = () => {
 const onLoadedMetadata = () => {
   if (!audioRef.value) return;
   duration.value = audioRef.value.duration;
+  emit('durationchange', duration.value);
   if (props.playbackRate !== undefined) {
     audioRef.value.playbackRate = props.playbackRate;
   }
 };
 
-const onPlay = () => (isPlaying.value = true);
-const onPause = () => (isPlaying.value = false);
+const onPlay = () => { isPlaying.value = true; emit('play'); };
+const onPause = () => { isPlaying.value = false; emit('pause'); };
 
 const seek = (event: MouseEvent) => {
   if (!audioRef.value || !duration.value) return;
@@ -55,12 +61,9 @@ const seek = (event: MouseEvent) => {
   const clickX = event.clientX - rect.left;
   const width = rect.width;
   const percentage = clickX / width;
-  
-  const newTime = percentage * duration.value;
-  audioRef.value.currentTime = newTime;
+  audioRef.value.currentTime = percentage * duration.value;
 };
 
-// Format time helper (e.g. 65 -> "1:05")
 const formatTime = (seconds: number) => {
   const m = Math.floor(seconds / 60);
   const s = Math.floor(seconds % 60);
@@ -83,15 +86,20 @@ const pause = () => {
 defineExpose({
   playAt,
   pause,
+  togglePlay,
   isPlaying,
+  currentTime,
+  duration,
+  formatTime,
   innerAudio: audioRef
 });
 </script>
 
 <template>
-  <div class="audio-player glass p-4 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex items-center gap-4 border border-white/40">
+  <!-- Full player UI -->
+  <div v-if="!hidden" class="audio-player glass p-4 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex items-center gap-4 border border-white/40">
     <!-- Play/Pause Button -->
-    <button 
+    <button
       @click="togglePlay"
       class="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-2xl hover:scale-105 transition-all shadow-lg shadow-blue-500/40 active:scale-95 group relative overflow-hidden"
     >
@@ -107,7 +115,7 @@ defineExpose({
         </svg>
       </span>
     </button>
-    
+
     <div class="flex-1 min-w-0 py-1">
       <!-- Info Row -->
       <div class="flex justify-between items-end mb-2.5">
@@ -127,36 +135,30 @@ defineExpose({
       </div>
 
       <!-- Progress Bar -->
-      <div 
+      <div
         class="h-2 bg-gray-200/50 rounded-full cursor-pointer relative group transition-all hover:h-3"
         @click="seek"
       >
-        <!-- Background track -->
         <div class="absolute inset-0 bg-gray-200/50 rounded-full overflow-hidden">
-             <!-- Progress Fill -->
-            <div 
+            <div
               class="h-full bg-gradient-to-r from-blue-500 to-indigo-600 relative rounded-full transition-all duration-150 ease-out"
               :style="{ width: (currentTime / duration * 100) + '%' }"
             >
-              <!-- Glow -->
               <div class="absolute right-0 top-0 bottom-0 w-4 shadow-[0_0_15px_rgba(59,130,246,0.6)]"></div>
             </div>
         </div>
-        
-        <!-- Handle on Hover -->
-        <div 
+        <div
           class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-2 border-blue-600 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
           :style="{ left: `calc(${(currentTime / duration * 100)}% - 8px)` }"
         ></div>
       </div>
     </div>
 
-       <!-- Volume Icon Placeholder -->
-       <button class="p-2 text-gray-400 hover:text-blue-600 transition-colors hidden sm:block">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-          </svg>
-       </button>
+    <button class="p-2 text-gray-400 hover:text-blue-600 transition-colors hidden sm:block">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+      </svg>
+    </button>
 
     <audio
       ref="audioRef"
@@ -169,6 +171,19 @@ defineExpose({
       @ended="emit('ended')"
     ></audio>
   </div>
+
+  <!-- Headless: audio element only -->
+  <audio
+    v-else
+    ref="audioRef"
+    :src="src"
+    :loop="loop"
+    @timeupdate="onTimeUpdate"
+    @loadedmetadata="onLoadedMetadata"
+    @play="onPlay"
+    @pause="onPause"
+    @ended="emit('ended')"
+  ></audio>
 </template>
 
 <style scoped>
@@ -177,5 +192,3 @@ defineExpose({
   50% { transform: scaleY(1.2); }
 }
 </style>
-
-

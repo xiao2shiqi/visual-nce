@@ -39,12 +39,25 @@ watch(showTranslation, (val) => localStorage.setItem(STORAGE_KEYS.SHOW_TRANSLATI
 // 响应式加载课程数据
 const lessonData = shallowRef<any>(null);
 
+const preloadLessonImages = (data: any) => {
+  const urls = new Set<string>();
+  if (data.image) urls.add(resolvePath(data.image));
+  data.segments?.forEach((s: any) => {
+    if (s.image) urls.add(resolvePath(s.image));
+  });
+  urls.forEach(src => {
+    const img = new Image();
+    img.src = src;
+  });
+};
+
 const loadLessonData = async (id: string) => {
   try {
     // 映射 ID 到文件名，例如 l1 -> l1.json, l127 -> l127.json
     const data = await import(`../data/lessons/${id}.json`);
     lessonData.value = data.default;
-    
+    preloadLessonImages(data.default);
+
     // 重置状态
     currentTime.value = 0;
     singlePlayStartTime.value = null;

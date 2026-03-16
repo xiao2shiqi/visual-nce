@@ -1,11 +1,48 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import HomeView from './views/HomeView.vue';
 import LessonView from './views/LessonView.vue';
+import curriculum from './data/curriculum.json';
 
-const currentView = ref('home');
-const selectedCourse = ref(null);
-const activeBookId = ref('nce1');
+// 从 curriculum 中通过 lessonId 查找课程对象和所属 bookId
+const findLesson = (lessonId: string) => {
+  for (const book of curriculum.books) {
+    const lesson = book.lessons.find((l: any) => l.id === lessonId);
+    if (lesson) return { lesson, bookId: book.id };
+  }
+  return null;
+};
+
+// 同步读取 hash，避免首帧渲染主页导致闪烁
+const initFromHash = () => {
+  const hash = window.location.hash.slice(1);
+  if (hash) {
+    const found = findLesson(hash);
+    if (found) return found;
+  }
+  return null;
+};
+
+const _init = initFromHash();
+const currentView = ref(_init ? 'lesson' : 'home');
+const selectedCourse = ref<any>(_init ? _init.lesson : null);
+const activeBookId = ref(_init ? _init.bookId : 'nce1');
+
+// 从 URL hash 恢复状态（格式：#nce1-l1）
+const restoreFromHash = () => {
+  const hash = window.location.hash.slice(1);
+  if (hash) {
+    const found = findLesson(hash);
+    if (found) {
+      selectedCourse.value = found.lesson;
+      activeBookId.value = found.bookId;
+      currentView.value = 'lesson';
+      return;
+    }
+  }
+  currentView.value = 'home';
+  selectedCourse.value = null;
+};
 
 const handleSelectCourse = (payload: any) => {
   if (payload?.lesson) {
@@ -13,8 +50,10 @@ const handleSelectCourse = (payload: any) => {
     if (payload.bookId) {
       activeBookId.value = payload.bookId;
     }
+    window.location.hash = payload.lesson.id;
   } else {
     selectedCourse.value = payload;
+    window.location.hash = payload.id;
   }
   currentView.value = 'lesson';
 };
@@ -22,7 +61,20 @@ const handleSelectCourse = (payload: any) => {
 const handleBackToHome = () => {
   currentView.value = 'home';
   selectedCourse.value = null;
+  history.pushState(null, '', window.location.pathname); // 清除 hash
 };
+
+// 支持浏览器前进/后退
+const onHashChange = () => restoreFromHash();
+
+onMounted(() => {
+  restoreFromHash();
+  window.addEventListener('hashchange', onHashChange);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('hashchange', onHashChange);
+});
 </script>
 
 <template>
