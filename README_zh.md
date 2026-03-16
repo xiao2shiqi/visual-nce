@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="public/images/nce1/l121/scene1.jpg" width="600" alt="Visual NCE Splash" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+  <img src="https://raw.githubusercontent.com/xiao2shiqi/visual-nce/main/public/images/nce1/l121/scene1.png" width="600" alt="Visual NCE Splash" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
 </p>
 
 <p align="center">
