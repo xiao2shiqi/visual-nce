@@ -5,6 +5,13 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/xiao2shiqi/visual-nce/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue-3.x-42b883?logo=vue.js" alt="Vue 3"></a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-6.x-646cff?logo=vite" alt="Vite"></a>
+  <a href="https://github.com/xiao2shiqi/visual-nce/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/xiao2shiqi/visual-nce/main/public/images/nce1/l121/scene1.png" width="600" alt="Visual NCE Splash" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
 </p>
 
@@ -42,7 +49,7 @@
 ## ✨ 核心卖点 (Magic Factors)
 
 ### 🎨 治愈系重制计划
-我们利用 AI 技术，将全书 144 门课程的插图全部重绘为 **Studio Ghibli（吉卜力）** 风格。每一张封面图都是一个故事，让你的学习列表像精选电影集一样赏心悦目。
+我们利用 AI 技术，将全书四册课程的插图全部重绘为 **Studio Ghibli（吉卜力）** 风格。每一张封面图都是一个故事，让你的学习列表像精选电影集一样赏心悦目。
 
 ### 🎧 丝滑的音画同步
 - **滚动高亮**：课文朗读到哪，文字高亮就跟到哪，视听完全一致。
@@ -67,6 +74,49 @@
 
 ---
 
+## 🗂️ 项目结构
+
+```
+visual-nce/
+├── public/
+│   ├── audios/             # NCE 音频文件 (mp3/lrc)
+│   └── images/             # 吉卜力风格插图（按课程分目录）
+│       ├── nce1/
+│       ├── nce2/
+│       ├── nce3/
+│       └── nce4/
+├── src/
+│   ├── components/         # Vue 组件（AudioPlayer、SceneViewer 等）
+│   ├── data/
+│   │   ├── curriculum.json # 课程索引与元数据
+│   │   └── lessons/        # 每课 JSON（文本、时间戳、语法解析）
+│   ├── views/              # 页面级视图（首页、课程页）
+│   ├── types/              # TypeScript 类型定义
+│   └── utils/
+└── scripts/
+    ├── generate_images.py  # AI 图像生成流水线（Gemini）
+    ├── nce1/               # 新概念第一册分镜脚本
+    └── nce2/               # 新概念第二册分镜脚本
+```
+
+---
+
+## 🗺️ 路线图 (Roadmap)
+
+| 教材 | 课程数 | 音画同步 | 语法解析 | 吉卜力插图 |
+|------|--------|----------|----------|------------|
+| 新概念第一册 | 72 课 | ✅ | ✅ | ✅ |
+| 新概念第二册 | 96 课 | ✅ | ✅ | ✅ |
+| 新概念第三册 | 60 课 | ✅ | ✅ | 🚧 进行中 |
+| 新概念第四册 | 48 课 | ✅ | ✅ | 🚧 进行中 |
+
+**近期计划：**
+- [ ] PWA 移动端离线支持
+- [ ] 学习进度记录
+- [ ] 词汇间隔重复复习
+
+---
+
 ## 🛠️ 本地开发 (Getting Started)
 
 1. **克隆项目**
@@ -88,12 +138,21 @@
 
 ## 🤝 参与项目
 
-由于数据量巨大（144 课！），如果你在学习过程中发现了：
+由于数据量巨大（276 课！），如果你在学习过程中发现了：
 - 翻译错误
 - 断句不准
 - 拼写 Bug
 
 欢迎直接开 **Issue** 或 **Pull Request**。让我们一起完成这份给所有英语学习者的"情怀大礼"。
+
+---
+
+## 🙏 致谢
+
+- **[《新概念英语》](https://en.wikipedia.org/wiki/New_Concept_English)** — L.G. Alexander 编著的经典教材，本项目内容源于此，版权归原著作权人所有，仅供非商业教育用途。
+- **[Studio Ghibli（吉卜力工作室）](https://www.ghibli.jp/)** — 本项目视觉风格受吉卜力电影启发，与官方无任何关联。
+- **[Google Gemini](https://deepmind.google/technologies/gemini/)** — 驱动本项目 AI 图像生成流水线。
+- **[Vue](https://vuejs.org/) / [Vite](https://vitejs.dev/) / [TailwindCSS](https://tailwindcss.com/)** — 支撑整个项目流畅运行的现代 Web 基础设施。
 
 ---
 
