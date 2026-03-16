@@ -20,6 +20,14 @@
 
 ---
 
+## 🖼️ 产品预览
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xiao2shiqi/visual-nce/main/public/home_page.jpg" width="800" alt="Visual NCE 功能预览">
+</p>
+
+---
+
 ## 💭 为什么做这个项目？
 
 很多人的童年记忆里，都有一段被《新概念英语》支配的恐惧："背诵全文"、"磁带复读"、"枯燥的黑白插图"……

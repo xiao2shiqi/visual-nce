@@ -20,6 +20,14 @@
 
 ---
 
+## 🖼️ Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xiao2shiqi/visual-nce/main/public/home_page.jpg" width="800" alt="Visual NCE Features Preview">
+</p>
+
+---
+
 ## 💭 Why This Project?
 
 Many people have bittersweet memories of studying with *New Concept English*: memorizing entire passages, rewinding cassette tapes, staring at dull black-and-white illustrations...
