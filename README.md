@@ -16,7 +16,7 @@
 
 ## 🚀 Live Demo
 
-**[Start your healing learning journey](https://xiao2shiqi.github.io/visual-nce/)**
+**[Start your healing learning journey](https://nce.xiao27.com/)**
 
 ---
 

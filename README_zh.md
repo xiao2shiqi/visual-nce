@@ -16,7 +16,7 @@
 
 ## 🚀 在线体验
 
-**[点击开启治愈学习之旅](https://xiao2shiqi.github.io/visual-nce/)**
+**[点击开启治愈学习之旅](https://nce.xiao27.com/)**
 
 ---
 
