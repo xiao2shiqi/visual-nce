@@ -58,6 +58,7 @@ const getSpeakerColorClass = (speaker: string): string => {
 };
 
 
+const scriptContainer = ref<HTMLElement | null>(null);
 const activeAnalysisSegment = ref<Segment | null>(null);
 const copiedId = ref<string | null>(null);
 
@@ -86,8 +87,11 @@ const closeAnalysis = () => {
 
 const scrollToActive = (id: string) => {
   const el = document.getElementById(`segment-${id}`);
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  const container = scriptContainer.value;
+  if (el && container) {
+    const elTop = el.offsetTop - container.offsetTop;
+    const scrollTarget = elTop - container.clientHeight / 2 + el.clientHeight / 2;
+    container.scrollTo({ top: scrollTarget, behavior: 'smooth' });
   }
 };
 
@@ -169,7 +173,7 @@ defineExpose({
     </div>
 
     <!-- Script Cards -->
-    <div class="max-h-[620px] overflow-y-auto pr-4 -mr-4 space-y-2.5">
+    <div ref="scriptContainer" class="max-h-[620px] overflow-y-auto pr-4 -mr-4 space-y-2.5">
       <div 
         v-for="s in segments" 
         :key="s.id"

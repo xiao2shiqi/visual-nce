@@ -337,7 +337,7 @@ onUnmounted(() => {
     />
 
     <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <div class="lg:grid lg:grid-cols-12 lg:gap-10">
         <SceneViewer 
           ref="sceneViewerRef"
           :current-image="currentImage"
@@ -351,7 +351,8 @@ onUnmounted(() => {
           @timeupdate="handleTimeUpdate"
         />
 
-        <DialogueScript 
+        <DialogueScript
+          class="mt-6 lg:mt-0"
           ref="scriptRef"
           :segments="lessonData.segments"
           :active-segment-id="activeSegmentId"

@@ -47,7 +47,7 @@ defineExpose({ audioPlayerRef });
 </script>
 
 <template>
-  <div class="lg:col-span-5 lg:sticky lg:top-24 lg:self-start">
+  <div class="sticky top-0 z-20 pb-4 bg-[#fafbfc] border-b border-slate-200/60 -mx-6 px-6 lg:mx-0 lg:px-0 lg:pb-0 lg:bg-transparent lg:border-b-0 lg:z-auto lg:col-span-5 lg:top-24 lg:self-start">
 
     <!-- Movie Player Container -->
     <div class="relative group rounded-3xl overflow-hidden shadow-2xl shadow-slate-300/40 ring-1 ring-black/5 bg-black aspect-[4/3] cursor-pointer">
@@ -153,7 +153,7 @@ defineExpose({ audioPlayerRef });
     </div>
 
     <!-- Keyboard Shortcuts -->
-    <div class="mt-6 pt-5 border-t border-slate-200/60">
+    <div class="hidden lg:block mt-6 pt-5 border-t border-slate-200/60">
       <div class="flex items-center gap-2 mb-3">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3 h-3 text-slate-400">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5 2.25 12l4.5 4.5m10.5-9 4.5 4.5-4.5 4.5m-9-1.5 3-6h3l3 6" />
