@@ -340,7 +340,7 @@ onUnmounted(() => {
       <div class="lg:grid lg:grid-cols-12 lg:gap-10 lg:flex-1 lg:min-h-0">
 
         <!-- Left column: SceneViewer + desktop navigation -->
-        <div class="lg:col-span-5 lg:flex lg:flex-col lg:min-h-0">
+        <div class="lg:col-span-5 lg:flex lg:flex-col lg:min-h-0 lg:overflow-hidden">
           <SceneViewer
             ref="sceneViewerRef"
             :current-image="currentImage"
@@ -390,7 +390,7 @@ onUnmounted(() => {
         </div>
 
         <DialogueScript
-          class="mt-6 lg:mt-0 lg:flex lg:flex-col lg:min-h-0"
+          class="mt-6 lg:mt-0 lg:flex lg:flex-col lg:min-h-0 lg:overflow-hidden"
           ref="scriptRef"
           :segments="lessonData.segments"
           :active-segment-id="activeSegmentId"
