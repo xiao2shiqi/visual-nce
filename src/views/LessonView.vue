@@ -322,7 +322,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="lesson-page min-h-screen pb-44">
+  <div class="lesson-page min-h-screen pb-44 lg:h-screen lg:overflow-hidden lg:pb-0 lg:flex lg:flex-col">
     <!-- Ambient Background -->
     <div class="fixed inset-0 -z-10 overflow-hidden">
       <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-to-bl from-blue-400/10 via-indigo-300/5 to-transparent rounded-full blur-3xl"></div>
@@ -336,23 +336,61 @@ onUnmounted(() => {
       @support-click="donationModalRef?.openDonation()"
     />
 
-    <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
-      <div class="lg:grid lg:grid-cols-12 lg:gap-10">
-        <SceneViewer 
-          ref="sceneViewerRef"
-          :current-image="currentImage"
-          :active-segment-id="activeSegmentId"
-          :audio-src="resolvePath(lessonData.audio)"
-          :playback-rate="playbackRate"
-          :progress="(lessonData.segments.findIndex((s: any) => s.id === activeSegmentId) + 1) / lessonData.segments.length * 100"
-          :segments-count="lessonData.segments.length"
-          :lesson-title="lessonData.title"
-          :loop="playMode === 'continuous'"
-          @timeupdate="handleTimeUpdate"
-        />
+    <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10 lg:py-6 lg:flex-1 lg:flex lg:flex-col lg:min-h-0">
+      <div class="lg:grid lg:grid-cols-12 lg:gap-10 lg:flex-1 lg:min-h-0">
+
+        <!-- Left column: SceneViewer + desktop navigation -->
+        <div class="lg:col-span-5 lg:flex lg:flex-col lg:min-h-0">
+          <SceneViewer
+            ref="sceneViewerRef"
+            :current-image="currentImage"
+            :active-segment-id="activeSegmentId"
+            :audio-src="resolvePath(lessonData.audio)"
+            :playback-rate="playbackRate"
+            :progress="(lessonData.segments.findIndex((s: any) => s.id === activeSegmentId) + 1) / lessonData.segments.length * 100"
+            :segments-count="lessonData.segments.length"
+            :lesson-title="lessonData.title"
+            :loop="playMode === 'continuous'"
+            @timeupdate="handleTimeUpdate"
+          />
+
+          <!-- Desktop Navigation (no background, minimal) -->
+          <div class="hidden lg:flex flex-col gap-0.5 mt-auto pt-5 border-t border-slate-200/60">
+            <button
+              v-if="navigation.prev"
+              @click="emit('select-course', navigation.prev)"
+              class="flex items-center gap-3 py-2 w-full group text-left"
+            >
+              <div class="w-7 h-7 rounded-lg flex items-center justify-center text-slate-300 group-hover:text-blue-400 transition-colors flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+              </div>
+              <div class="min-w-0">
+                <div class="text-[9px] font-bold text-slate-400 uppercase tracking-widest group-hover:text-blue-400 transition-colors">Previous</div>
+                <div class="text-sm font-semibold text-slate-500 group-hover:text-blue-600 transition-colors truncate">{{ navigation.prev.title }}: {{ navigation.prev.subtitle }}</div>
+              </div>
+            </button>
+            <button
+              v-if="navigation.next"
+              @click="emit('select-course', navigation.next)"
+              class="flex items-center gap-3 py-2 w-full group text-left"
+            >
+              <div class="min-w-0 flex-1">
+                <div class="text-[9px] font-bold text-slate-400 uppercase tracking-widest group-hover:text-indigo-400 transition-colors">Next</div>
+                <div class="text-sm font-semibold text-slate-500 group-hover:text-indigo-600 transition-colors truncate">{{ navigation.next.title }}: {{ navigation.next.subtitle }}</div>
+              </div>
+              <div class="w-7 h-7 rounded-lg flex items-center justify-center text-slate-300 group-hover:text-indigo-400 transition-colors flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
 
         <DialogueScript
-          class="mt-6 lg:mt-0"
+          class="mt-6 lg:mt-0 lg:flex lg:flex-col lg:min-h-0"
           ref="scriptRef"
           :segments="lessonData.segments"
           :active-segment-id="activeSegmentId"
@@ -364,9 +402,9 @@ onUnmounted(() => {
         />
       </div>
 
-      <!-- Quick Navigation -->
-      <div class="mt-20 pt-10 border-t border-slate-200/60 grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in">
-        <button 
+      <!-- Mobile Navigation (hidden on desktop) -->
+      <div class="mt-10 pt-8 border-t border-slate-200/60 grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in lg:hidden">
+        <button
           v-if="navigation.prev"
           @click="emit('select-course', navigation.prev)"
           class="flex items-center gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-blue-400 hover:bg-white hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-500 group text-left"
@@ -385,7 +423,7 @@ onUnmounted(() => {
         </button>
         <div v-else class="hidden sm:block"></div>
 
-        <button 
+        <button
           v-if="navigation.next"
           @click="emit('select-course', navigation.next)"
           class="flex items-center justify-end gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-indigo-400 hover:bg-white hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-500 group text-right"
