@@ -50,7 +50,7 @@ defineExpose({ audioPlayerRef });
 </script>
 
 <template>
-  <div class="lg:col-span-5 lg:sticky lg:top-24 lg:self-start">
+  <div class="sticky top-0 z-20 pb-4 bg-[#fafbfc] border-b border-slate-200/60 -mx-6 px-6 lg:relative lg:mx-0 lg:px-0 lg:pb-0 lg:bg-transparent lg:border-b-0 lg:z-auto">
 
     <!-- Movie Player Container -->
     <div class="relative group rounded-3xl overflow-hidden shadow-2xl shadow-slate-300/40 ring-1 ring-black/5 bg-black aspect-[4/3] cursor-pointer">
