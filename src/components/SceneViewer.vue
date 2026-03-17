@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import AudioPlayer from './AudioPlayer.vue';
+import LessonDownloadButton from './LessonDownloadButton.vue';
+import type { VideoSegment } from '../utils/videoExporter';
 
 /**
  * @author xiaobin
@@ -14,6 +16,7 @@ defineProps<{
   segmentsCount: number;
   lessonTitle: string;
   loop?: boolean;
+  segments?: VideoSegment[];
 }>();
 
 const emit = defineEmits(['timeupdate', 'ended']);
@@ -47,7 +50,7 @@ defineExpose({ audioPlayerRef });
 </script>
 
 <template>
-  <div class="sticky top-0 z-20 pb-4 bg-[#fafbfc] border-b border-slate-200/60 -mx-6 px-6 lg:mx-0 lg:px-0 lg:pb-0 lg:bg-transparent lg:border-b-0 lg:z-auto lg:col-span-5 lg:top-24 lg:self-start">
+  <div class="lg:col-span-5 lg:sticky lg:top-24 lg:self-start">
 
     <!-- Movie Player Container -->
     <div class="relative group rounded-3xl overflow-hidden shadow-2xl shadow-slate-300/40 ring-1 ring-black/5 bg-black aspect-[4/3] cursor-pointer">
@@ -134,6 +137,25 @@ defineExpose({ audioPlayerRef });
         </div>
       </div>
 
+      <!-- Download Icon Overlay -->
+      <transition 
+        enter-active-class="transition duration-300 ease-out"
+        enter-from-class="opacity-0 translate-y-2"
+        enter-to-class="opacity-100 translate-y-0"
+        leave-active-class="transition duration-200 ease-in"
+        leave-from-class="opacity-100"
+        leave-to-class="opacity-0"
+      >
+        <LessonDownloadButton 
+          v-if="segments"
+          v-show="!localIsPlaying"
+          :title="lessonTitle"
+          :audio-src="audioSrc"
+          :segments="segments"
+          :icon-only="true"
+        />
+      </transition>
+
       <!-- Glow Effect -->
       <div class="absolute -inset-4 bg-gradient-to-r from-blue-500/20 via-indigo-500/20 to-violet-500/20 rounded-[2rem] blur-2xl opacity-0 group-hover:opacity-60 transition-opacity duration-700 -z-10 pointer-events-none"></div>
 
@@ -153,7 +175,7 @@ defineExpose({ audioPlayerRef });
     </div>
 
     <!-- Keyboard Shortcuts -->
-    <div class="hidden lg:block mt-6 pt-5 border-t border-slate-200/60">
+    <div class="mt-6 pt-5 border-t border-slate-200/60">
       <div class="flex items-center gap-2 mb-3">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3 h-3 text-slate-400">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5 2.25 12l4.5 4.5m10.5-9 4.5 4.5-4.5 4.5m-9-1.5 3-6h3l3 6" />
