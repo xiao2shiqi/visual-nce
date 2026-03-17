@@ -338,7 +338,7 @@ onUnmounted(() => {
 
     <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
-        <SceneViewer 
+        <SceneViewer
           ref="sceneViewerRef"
           :current-image="currentImage"
           :active-segment-id="activeSegmentId"
@@ -348,6 +348,12 @@ onUnmounted(() => {
           :segments-count="lessonData.segments.length"
           :lesson-title="lessonData.title"
           :loop="playMode === 'continuous'"
+          :segments="lessonData.segments.map((s: any) => ({
+            id: s.id,
+            startTime: s.startTime,
+            endTime: s.endTime,
+            image: resolvePath(s.image || lessonData.image)
+          }))"
           @timeupdate="handleTimeUpdate"
         />
 

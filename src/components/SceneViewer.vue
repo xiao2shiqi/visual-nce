@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import AudioPlayer from './AudioPlayer.vue';
+import LessonDownloadButton from './LessonDownloadButton.vue';
+import type { VideoSegment } from '../utils/videoExporter';
 
 /**
  * @author xiaobin
@@ -14,6 +16,7 @@ defineProps<{
   segmentsCount: number;
   lessonTitle: string;
   loop?: boolean;
+  segments?: VideoSegment[];
 }>();
 
 const emit = defineEmits(['timeupdate', 'ended']);
@@ -133,6 +136,25 @@ defineExpose({ audioPlayerRef });
           <span class="text-[10px] font-bold text-white uppercase tracking-wider">{{ lessonTitle }}</span>
         </div>
       </div>
+
+      <!-- Download Icon Overlay -->
+      <transition
+        enter-active-class="transition duration-300 ease-out"
+        enter-from-class="opacity-0 translate-y-2"
+        enter-to-class="opacity-100 translate-y-0"
+        leave-active-class="transition duration-200 ease-in"
+        leave-from-class="opacity-100"
+        leave-to-class="opacity-0"
+      >
+        <LessonDownloadButton
+          v-if="segments"
+          v-show="!localIsPlaying"
+          :title="lessonTitle"
+          :audio-src="audioSrc"
+          :segments="segments"
+          :icon-only="true"
+        />
+      </transition>
 
       <!-- Glow Effect -->
       <div class="absolute -inset-4 bg-gradient-to-r from-blue-500/20 via-indigo-500/20 to-violet-500/20 rounded-[2rem] blur-2xl opacity-0 group-hover:opacity-60 transition-opacity duration-700 -z-10 pointer-events-none"></div>
