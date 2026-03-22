@@ -138,7 +138,7 @@ defineExpose({ audioPlayerRef });
       </div>
 
       <!-- Download Icon Overlay -->
-      <transition 
+      <transition
         enter-active-class="transition duration-300 ease-out"
         enter-from-class="opacity-0 translate-y-2"
         enter-to-class="opacity-100 translate-y-0"
@@ -146,7 +146,7 @@ defineExpose({ audioPlayerRef });
         leave-from-class="opacity-100"
         leave-to-class="opacity-0"
       >
-        <LessonDownloadButton 
+        <LessonDownloadButton
           v-if="segments"
           v-show="!localIsPlaying"
           :title="lessonTitle"

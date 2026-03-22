@@ -20,6 +20,10 @@
     4. **封面图同步**：`scene1.png` 同时用于 `curriculum.json` 和课程 JSON 的根 `image` 字段。
     5. **稳定开场**：非对话片段不设置独立 `image` 字段，以维持默认背景。
     6. **语义命名**：分镜帧使用语义化名称（如 `man_waves.png`），禁止随意编号。
+    7. **人物复制防护（教训：L81）**：仅写 `EXACTLY N people` 不足以防止 AI 复制角色——尤其当同一帧内有**两个同性别角色**时，AI 会把其中一人复制到空位。必须在 `desc` 中加三层约束：
+        - ① `STRICTLY N INDIVIDUALS ONLY. Do NOT duplicate any character. Do NOT add extra people.`
+        - ② 逐人指定位置与外貌：`The person on the LEFT is X (浅棕发+V领毛衣). The person on the RIGHT is Y (深发+灰夹克).`
+        - ③ `These are DIFFERENT people with DIFFERENT hair and clothing — do NOT make them look alike.`
 - **重置与覆盖**：更新或修复图片时，**必须强制覆盖**旧文件（`--force`），消除过时 AI 幻觉图。
 
 ## 2. Storyboard 脚本规范
@@ -50,6 +54,11 @@ STORYBOARD = [
 - `STORYBOARD[0]` 的 `id` 通常为 `scene1`，生成后自动成为该课 anchor。
 - 每个 `desc` 只描述**当前帧的动作变化**，角色外貌无需重复（已在 `CHAR_*` 中定义）。
 - 每课分镜数量**不少于 5 张**。
+- **补图规则（低帧课程强制）**：
+    - 若现有课程图片少于 5 张，必须先补 storyboard，再补课程 JSON 的图片映射；禁止只生成图片不更新 JSON。
+    - 新增帧必须优先补**剧情转折点、动作变化点、诊断/结论点、笑点/收束点**，不得用语义重复的静态同景图凑数。
+    - `segments[].image` 必须按叙事顺序映射到这些新增帧，确保台词与画面语义一一对应；优先采用“发现问题 -> 商量处理 -> 动作检查 -> 诊断结果 -> punchline/收束”的切分方式。
+    - 补图完成后，必须复核该课满足：`实际图片数 >= 5`、`实际图片数 = JSON 实际引用数`、`不存在生成了但页面没引用的 PNG`。
 
 ## 3. 数据完整性与教材对齐
 
@@ -57,6 +66,7 @@ STORYBOARD = [
 - **角色映射 (Role Mapping)**：
     - **教材验证**：查阅标准教材插图，确认角色性别、年龄段、外貌特征及人数。
     - **双重校验**：通过录音音色（判断说话人）和教材插图双重验证。如果录音是两个男性，Prompt 必须强调"TWO MEN, NO WOMEN"，且年龄段需明确定义（如：30s Young Man），严禁出现 Age Drift（忽老忽少）。
+    - **性别强锚（教训：L75）**：**写 `CHAR_*` 前必须先听录音确认每个角色的性别**，不可凭故事情境猜测（如"鞋店店员应该是女的"）。一旦确认性别，必须在 `CHAR_*` 里加 `CRITICAL: MALE` 或 `CRITICAL: FEMALE`，并在该角色出现的每个 `desc` 里重复一句 `is a MAN / is a WOMAN`，防止 AI 自行篡改。
 - **视觉线索补完**：分镜必须包含关键视觉细节（如：领口牌子 label、胸前徽章 badge），即便音频未提及。
 
 ## 4. 课程验收标准 (Acceptance Criteria)
@@ -76,7 +86,7 @@ STORYBOARD = [
 ## 5. 交付与自检流程（每次必须执行）
 
 - **JSON 有效性检查**：执行 `jq . <path_to_json>`。大规模修改优先使用 Python 脚本全量重写。
-- **视觉图像审查 (Visual Image Review — MANDATORY)**：生成完成后必须实际查看每张生成的 PNG 图像，逐帧确认以下内容：
+- **视觉图像审查 (Visual Image Review — MANDATORY)**：生成完成后必须用 `Read` 工具实际查看每张生成的 PNG 图像，逐帧确认以下内容：
     - **人物一致性**：同一课程内所有帧的角色发型、服装、体型是否完全相同，无"换装"、无"变脸"、无"忽老忽少"。
     - **空间关系**：场景中角色的位置关系是否符合 storyboard desc 的描述（如剧院排座前后关系）。
     - **人物数量**：每帧出现的角色数量是否正确，无重复人物、无幽灵角色。

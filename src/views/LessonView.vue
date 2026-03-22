@@ -336,8 +336,26 @@ onUnmounted(() => {
       @support-click="donationModalRef?.openDonation()"
     />
 
-    <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10 lg:py-6 lg:flex-1 lg:flex lg:flex-col lg:min-h-0">
-      <div class="lg:grid lg:grid-cols-12 lg:gap-10 lg:flex-1 lg:min-h-0">
+    <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <SceneViewer
+          ref="sceneViewerRef"
+          :current-image="currentImage"
+          :active-segment-id="activeSegmentId"
+          :audio-src="resolvePath(lessonData.audio)"
+          :playback-rate="playbackRate"
+          :progress="(lessonData.segments.findIndex((s: any) => s.id === activeSegmentId) + 1) / lessonData.segments.length * 100"
+          :segments-count="lessonData.segments.length"
+          :lesson-title="lessonData.title"
+          :loop="playMode === 'continuous'"
+          :segments="lessonData.segments.map((s: any) => ({
+            id: s.id,
+            startTime: s.startTime,
+            endTime: s.endTime,
+            image: resolvePath(s.image || lessonData.image)
+          }))"
+          @timeupdate="handleTimeUpdate"
+        />
 
         <!-- Left column: SceneViewer + desktop navigation -->
         <div class="lg:col-span-5 lg:flex lg:flex-col lg:min-h-0 lg:overflow-hidden">
