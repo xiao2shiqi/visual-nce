@@ -530,15 +530,15 @@
           }
         ]
       },
-      "image": "/images/nce2/l45/scene1.png"
+      "image": "/images/nce2/l45/wallet_lost.png"
     },
     {
       "id": "s3",
       "role": "Woman",
-      "text": "It had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said: 'A thief, yes, but only 50 per cent a thief!' Two months later, some more money was sent to Sam with another note: 'Only 25 per cent a thief now!' In time, all Sam's money was paid back in this way.",
+      "text": "It had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said: 'A thief, yes, but only 50 per cent a thief!'",
       "translation": "钱包是用报纸包着的，里面有他丢失的钱的一半，还附着一张纸条，上面写着：'一个小偷，是的，但只是一个50%的小偷！'两个月后，又寄来了一些钱，还附着另一张纸条：'现在只是25%的小偷了！'后来，萨姆的钱以这种方式全都退回来了。",
       "startTime": 49.07,
-      "endTime": 81.84,
+      "endTime": 65.13,
       "analysis": {
         "words": [
           {
@@ -690,7 +690,20 @@
             "word": "Two",
             "pos": "num.",
             "meaning": "二"
-          },
+          }
+        ]
+      },
+      "image": "/images/nce2/l45/wallet_found_in_newspaper.png"
+    },
+    {
+      "id": "s3b",
+      "role": "Woman",
+      "text": "Two months later, some more money was sent to Sam with another note: 'Only 25 per cent a thief now!' In time, all Sam's money was paid back in this way.",
+      "translation": "",
+      "startTime": 65.13,
+      "endTime": 81.84,
+      "analysis": {
+        "words": [
           {
             "word": "months",
             "pos": "n.",
@@ -833,7 +846,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l45/scene1.png"
+      "image": "/images/nce2/l45/half_the_money_inside.png"
     },
     {
       "id": "s4",
@@ -901,7 +914,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l45/scene1.png"
+      "image": "/images/nce2/l45/one_hundred_percent_honest.png"
     }
   ]
 }

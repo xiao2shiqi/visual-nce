@@ -395,7 +395,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l16/scene1.png"
+      "image": "/images/nce2/l16/polite_note.png"
     },
     {
       "id": "s3",
@@ -533,15 +533,15 @@
           }
         ]
       },
-      "image": "/images/nce2/l16/scene1.png"
+      "image": "/images/nce2/l16/narrator_finds_note.png"
     },
     {
       "id": "s4",
       "role": "Man",
-      "text": "You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.' If you receive a request like this, you cannot fail to obey it!",
+      "text": "You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'",
       "translation": "如果您对我们的路标留意的话，您在这里会过得很愉快的。这张纸条只是一个提示。'如果你收到这样的请求，你是不会不遵守的！",
       "startTime": 49.85,
-      "endTime": 65.31,
+      "endTime": 60.31,
       "analysis": {
         "words": [
           {
@@ -643,7 +643,20 @@
             "word": "reminder",
             "pos": "n.",
             "meaning": "提醒"
-          },
+          }
+        ]
+      },
+      "image": "/images/nce2/l16/traffic_signs.png"
+    },
+    {
+      "id": "s4b",
+      "role": "Man",
+      "text": "If you receive a request like this, you cannot fail to obey it!",
+      "translation": "",
+      "startTime": 60.31,
+      "endTime": 65.31,
+      "analysis": {
+        "words": [
           {
             "word": "If",
             "pos": "conj.",
@@ -711,7 +724,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l16/scene1.png"
+      "image": "/images/nce2/l16/police_smiles.png"
     }
   ]
 }

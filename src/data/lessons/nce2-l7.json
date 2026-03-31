@@ -572,15 +572,15 @@
           }
         ]
       },
-      "image": "/images/nce2/l7/scene1.png"
+      "image": "/images/nce2/l7/plane_arrives.png"
     },
     {
       "id": "s3",
       "role": "Man",
-      "text": "While two detectives were keeping guard at the door, two others opened the parcel.",
-      "translation": "当两个侦探在门口警戒时，另外两个侦探打开了包裹。",
+      "text": "While two detectives were keeping guard at the door,",
+      "translation": "当两个侦探在门口警戒时，",
       "startTime": 51.8,
-      "endTime": 58.43,
+      "endTime": 55.93,
       "analysis": {
         "words": [
           {
@@ -627,7 +627,20 @@
             "word": "door",
             "pos": "n.",
             "meaning": "门"
-          },
+          }
+        ]
+      },
+      "image": "/images/nce2/l7/thieves_carry_parcel.png"
+    },
+    {
+      "id": "s3b",
+      "role": "Man",
+      "text": "two others opened the parcel.",
+      "translation": "另外两个侦探打开了包裹。",
+      "startTime": 55.93,
+      "endTime": 58.43,
+      "analysis": {
+        "words": [
           {
             "word": "two",
             "pos": "num.",
@@ -655,7 +668,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l7/scene1.png"
+      "image": "/images/nce2/l7/opening_the_parcel.png"
     },
     {
       "id": "s4",
@@ -723,7 +736,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l7/scene1.png"
+      "image": "/images/nce2/l7/too_late.png"
     }
   ]
 }

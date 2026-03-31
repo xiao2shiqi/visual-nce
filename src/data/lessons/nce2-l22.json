@@ -436,10 +436,10 @@
     {
       "id": "s1",
       "role": "Man",
-      "text": "She never thought of it again, but ten months later, she received a letter from a girl in Holland.",
-      "translation": "她再也没去想那只瓶子。但10个月以后，她收到了荷兰一个女孩的来信。",
+      "text": "She never thought of it again,",
+      "translation": "她再也没有想起这件事，",
       "startTime": 41.19,
-      "endTime": 49.43,
+      "endTime": 45.31,
       "analysis": {
         "words": [
           {
@@ -486,7 +486,20 @@
             "word": "later",
             "pos": "adv.",
             "meaning": "后来，以后"
-          },
+          }
+        ]
+      },
+      "image": "/images/nce2/l22/scene1.png"
+    },
+    {
+      "id": "s1b",
+      "role": "Man",
+      "text": "but ten months later, she received a letter from a girl in Holland.",
+      "translation": "但十个月后，她收到了一个荷兰女孩的来信。",
+      "startTime": 45.31,
+      "endTime": 49.43,
+      "analysis": {
+        "words": [
           {
             "word": "she",
             "pos": "pron.",
@@ -534,7 +547,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l22/scene1.png"
+      "image": "/images/nce2/l22/bottle_thrown.png"
     },
     {
       "id": "s2",
@@ -577,7 +590,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l22/scene1.png"
+      "image": "/images/nce2/l22/letter_arrives.png"
     },
     {
       "id": "s3",
@@ -630,7 +643,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l22/scene1.png"
+      "image": "/images/nce2/l22/penfriends_write.png"
     },
     {
       "id": "s4",
@@ -698,7 +711,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l22/scene1.png"
+      "image": "/images/nce2/l22/post_office.png"
     }
   ]
 }

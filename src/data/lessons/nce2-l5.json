@@ -379,7 +379,6 @@
     {
       "id": "s1",
       "role": "Man",
-      "image": "/images/nce2/l5/scene1.png",
       "text": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.",
       "translation": "昨天，一只鸽子把第一封信从平赫斯特带到了锡尔伯里。",
       "startTime": 38.96,
@@ -442,12 +441,12 @@
             "meaning": "锡尔伯里（地名）"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l5/scene1.png"
     },
     {
       "id": "s2",
       "role": "Woman",
-      "image": "/images/nce2/l5/pigeon_flies.png",
       "text": "The bird covered the distance in three minutes.",
       "translation": "这只鸟只用了3分钟就飞完了全程。",
       "startTime": 45.61,
@@ -495,16 +494,16 @@
             "meaning": "分钟"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l5/pigeon_flies.png"
     },
     {
       "id": "s3",
       "role": "Man",
-      "image": "/images/nce2/l5/scott_sends_message.png",
-      "text": "Up to now, Mr.Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.",
+      "text": "Up to now, Mr.Scott has sent a great many requests for spare parts",
       "translation": "到目前为止，斯科特先生已经发送了大量索取备件的信件和其他紧急信件从一个修理站发到另一个修理站。",
       "startTime": 49.3,
-      "endTime": 60.45,
+      "endTime": 56.05,
       "analysis": {
         "words": [
           {
@@ -561,7 +560,20 @@
             "word": "parts",
             "pos": "n.",
             "meaning": "零件"
-          },
+          }
+        ]
+      },
+      "image": "/images/nce2/l5/scott_sends_message.png"
+    },
+    {
+      "id": "s3b",
+      "role": "Man",
+      "text": "and other urgent messages from one garage to the other.",
+      "translation": "",
+      "startTime": 56.05,
+      "endTime": 60.45,
+      "analysis": {
+        "words": [
           {
             "word": "and",
             "pos": "conj.",
@@ -613,7 +625,8 @@
             "meaning": "另一个"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l5/private_telephone.png"
     },
     {
       "id": "s4",
@@ -681,7 +694,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l5/private_telephone.png"
+      "image": "/images/nce2/l5/twelve_pigeons.png"
     }
   ]
 }

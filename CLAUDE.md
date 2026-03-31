@@ -10,6 +10,7 @@
     2. **物理排他 (Negative Constraints)**：Prompt 必须包含 `Strictly in [A], NO [B]`。例如："Strictly in a bedroom, NO outdoor elements, NO cars"。
     3. **官方工具**：必须使用 `scripts/generate_images.py`。
 - **核心模型**：`gemini-3.1-flash-image-preview`。
+- **API 密钥**：调用生成脚本前，先读取项目根目录的 `.env` 文件获取 `GOOGLE_API_KEY`，通过 `export $(cat .env | grep -v '#' | xargs)` 注入环境变量，再运行 `generate_images.py`。
 - **环境纯净度 (Artistic Purity)**：
     - **禁止文字**：Prompt 必须包含 `NO text, NO subtitles, NO speech bubbles, NO characters, NO letters`。
     - **追求意境**：画面应呈现出"意境窗"的纯净感，严禁出现任何破坏美感的现代 UI 元素或字符污染。
@@ -54,6 +55,11 @@ STORYBOARD = [
 - `STORYBOARD[0]` 的 `id` 通常为 `scene1`，生成后自动成为该课 anchor。
 - 每个 `desc` 只描述**当前帧的动作变化**，角色外貌无需重复（已在 `CHAR_*` 中定义）。
 - 每课分镜数量**不少于 5 张**。
+- **补图规则（低帧课程强制）**：
+    - 若现有课程图片少于 5 张，必须先补 storyboard，再补课程 JSON 的图片映射；禁止只生成图片不更新 JSON。
+    - 新增帧必须优先补**剧情转折点、动作变化点、诊断/结论点、笑点/收束点**，不得用语义重复的静态同景图凑数。
+    - `segments[].image` 必须按叙事顺序映射到这些新增帧，确保台词与画面语义一一对应；优先采用"发现问题 -> 商量处理 -> 动作检查 -> 诊断结果 -> punchline/收束"的切分方式。
+    - 补图完成后，必须复核该课满足：`实际图片数 >= 5`、`实际图片数 = JSON 实际引用数`、`不存在生成了但页面没引用的 PNG`。
 
 ## 3. 数据完整性与教材对齐
 
@@ -96,9 +102,18 @@ STORYBOARD = [
     - [ ] 确认跨帧人物一致性（服装/发型/年龄无漂移）。
     - [ ] 确认画面无任何文字/气泡/字符污染。
     - [ ] 已执行 jq 语法校验。
+    - [ ] 已统计各图片实际显示时长，无单张图片占比异常（尤其根图 scene1 不得在中途反复出现）。
     - [ ] 已跑 build 验证。
 
-## 6. Git 规则
+## 6. 图片继承机制（LessonView 行为规范）
+
+- **无 `image` 字段的 segment**：LessonView 会回溯最近一个有图的 segment，继续显示那张图，直到下一张切入。**不会**跳回课程根图。
+- **根图（`lessonData.image`）的作用**：仅在音轨开始、尚未播到任何有 `image` 的 segment 之前作为默认背景，不会在中途反复插入。
+- **教训（NCE3 L1）**：修复前，无图 segment 会强制回退到根图（`scene1.png`），导致课程播放时 scene1 反复出现。修复后逻辑已正确。
+- **验收时必须核查**：用脚本统计每张图的实际显示时长分布，若某张图占比异常高（尤其是根图 scene1），说明存在段落未映射的情况，需补充 `image` 字段或检查 LessonView 逻辑。
+- **均匀分布原则**：每张图的显示时长应大致均衡（理想每张 15-25%），单张超过 30% 视为需要补帧的信号。
+
+## 7. Git 规则
 
 - 始终直接在 `main` 分支上工作。
 - 及时合并，确保代码库状态最新。

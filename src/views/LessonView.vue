@@ -119,8 +119,10 @@ const currentImage = computed(() => {
 
   let rawImg = '';
   if (segment) {
-    // 句子存在但没配置句子图时，回退课程主图
-    rawImg = lessonData.value.image || '';
+    // 句子存在但没配置句子图时，回溯最近一个有图的句子；再回退课程主图
+    const pastSegments = lessonData.value.segments.filter((s: any) => s.startTime !== undefined && s.startTime <= currentTime.value);
+    const latestWithImage = [...pastSegments].reverse().find((s: any) => !!s.image);
+    rawImg = latestWithImage?.image || lessonData.value.image || '';
   } else {
     // 不在任何句子时间段时，回溯最近一个有图的句子；再回退课程主图
     const pastSegments = lessonData.value.segments.filter((s: any) => s.startTime !== undefined && s.startTime <= currentTime.value);
