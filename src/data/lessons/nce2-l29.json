@@ -10,7 +10,21 @@
       "text": "Lesson 29",
       "translation": "第29课",
       "startTime": 0.5,
-      "endTime": 1.83
+      "endTime": 1.83,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "29",
+            "pos": "num.",
+            "meaning": "二十九"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +32,16 @@
       "text": "Taxi",
       "translation": "出租汽车！",
       "startTime": 2.33,
-      "endTime": 4.61
+      "endTime": 4.61,
+      "analysis": {
+        "words": [
+          {
+            "word": "Taxi",
+            "pos": "n.",
+            "meaning": "出租汽车"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +49,51 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.114,
-      "endTime": 8.78
+      "endTime": 8.78,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +101,36 @@
       "text": "Does Captain Fawcett think any trip is too dangerous?",
       "translation": "福赛特机长认为有什么飞行太危险吗？",
       "startTime": 9.28,
-      "endTime": 15.19
+      "endTime": 15.19,
+      "analysis": {
+        "words": [
+          {
+            "word": "Captain",
+            "pos": "n.",
+            "meaning": "机长，船长"
+          },
+          {
+            "word": "Fawcett",
+            "pos": "n.",
+            "meaning": "福赛特（人名）"
+          },
+          {
+            "word": "think",
+            "pos": "v.",
+            "meaning": "认为"
+          },
+          {
+            "word": "trip",
+            "pos": "n.",
+            "meaning": "旅行，飞行"
+          },
+          {
+            "word": "dangerous",
+            "pos": "adj.",
+            "meaning": "危险的"
+          }
+        ]
+      }
     },
     {
       "id": "intro_5",
@@ -42,7 +138,37 @@
       "text": "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.",
       "translation": "本·福赛特机长买了一辆不寻常的出租汽车，开始了一项新的业务。",
       "startTime": 15.69,
-      "endTime": 22.84
+      "endTime": 22.84,
+      "analysis": {
+        "grammar": "has bought...and has begun 并列现在完成时；unusual taxi 不寻常的出租车引出悬念。",
+        "words": [
+          {
+            "word": "Captain",
+            "pos": "n.",
+            "meaning": "机长"
+          },
+          {
+            "word": "unusual",
+            "pos": "adj.",
+            "meaning": "不寻常的，特别的"
+          },
+          {
+            "word": "taxi",
+            "pos": "n.",
+            "meaning": "出租汽车"
+          },
+          {
+            "word": "begun",
+            "pos": "v.",
+            "meaning": "开始（begin 过去分词）"
+          },
+          {
+            "word": "service",
+            "pos": "n.",
+            "meaning": "服务，业务"
+          }
+        ]
+      }
     },
     {
       "id": "intro_6",
@@ -50,7 +176,32 @@
       "text": "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.",
       "translation": "这辆'出租汽车'是一架小型瑞士飞机，叫'皮拉图斯·波特'。",
       "startTime": 23.34,
-      "endTime": 29.19
+      "endTime": 29.19,
+      "analysis": {
+        "grammar": "called a 'Pilatus Porter' 过去分词作后置定语。",
+        "words": [
+          {
+            "word": "Swiss",
+            "pos": "adj.",
+            "meaning": "瑞士的"
+          },
+          {
+            "word": "aeroplane",
+            "pos": "n.",
+            "meaning": "飞机"
+          },
+          {
+            "word": "called",
+            "pos": "v.",
+            "meaning": "叫做，被称为"
+          },
+          {
+            "word": "Pilatus Porter",
+            "pos": "n.",
+            "meaning": "皮拉图斯·波特（飞机型号名）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_7",
@@ -58,7 +209,27 @@
       "text": "This wonderful plane can carry seven passengers.",
       "translation": "这架奇妙的飞机能载7名乘客。",
       "startTime": 29.69,
-      "endTime": 33.9
+      "endTime": 33.9,
+      "analysis": {
+        "grammar": "wonderful 赞美，can carry seven passengers 能力表达。",
+        "words": [
+          {
+            "word": "wonderful",
+            "pos": "adj.",
+            "meaning": "奇妙的，了不起的"
+          },
+          {
+            "word": "carry",
+            "pos": "v.",
+            "meaning": "运载，携带"
+          },
+          {
+            "word": "passengers",
+            "pos": "n.",
+            "meaning": "乘客（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -67,7 +238,42 @@
       "translation": "然而，最让人惊奇的是它能在任何地方降落：雪地上、水面上，甚至犁过的田里。",
       "startTime": 34.4,
       "endTime": 46.61,
-      "image": "/images/nce2/l29/scene1.png"
+      "image": "/images/nce2/l29/scene1.png",
+      "analysis": {
+        "grammar": "the most surprising thing about it 最高级定语，however 转折插入语，or even 递进列举。",
+        "words": [
+          {
+            "word": "surprising",
+            "pos": "adj.",
+            "meaning": "令人惊奇的"
+          },
+          {
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而"
+          },
+          {
+            "word": "land",
+            "pos": "v.",
+            "meaning": "降落，着陆"
+          },
+          {
+            "word": "anywhere",
+            "pos": "adv.",
+            "meaning": "任何地方"
+          },
+          {
+            "word": "snow",
+            "pos": "n.",
+            "meaning": "雪地"
+          },
+          {
+            "word": "ploughed field",
+            "pos": "n.",
+            "meaning": "犁过的田地"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -76,7 +282,37 @@
       "translation": "福赛特机长的第一位乘客是一位医生，他从伯明翰飞往威尔士山区的一个偏僻村庄。",
       "startTime": 47.11,
       "endTime": 56.39,
-      "image": "/images/nce2/l29/plane_landing_unusual.png"
+      "image": "/images/nce2/l29/plane_landing_unusual.png",
+      "analysis": {
+        "grammar": "first passenger 第一位乘客引出故事，who flew 定语从句，from...to 从……到……。",
+        "words": [
+          {
+            "word": "passenger",
+            "pos": "n.",
+            "meaning": "乘客"
+          },
+          {
+            "word": "flew",
+            "pos": "v.",
+            "meaning": "飞（fly 过去式）"
+          },
+          {
+            "word": "Birmingham",
+            "pos": "n.",
+            "meaning": "伯明翰（英国城市）"
+          },
+          {
+            "word": "lonely",
+            "pos": "adj.",
+            "meaning": "偏僻的，荒凉的"
+          },
+          {
+            "word": "Welsh mountains",
+            "pos": "n.",
+            "meaning": "威尔士山区"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -85,7 +321,27 @@
       "translation": "从那时起，福赛特机长已经把乘客送往许多不寻常的地方。",
       "startTime": 56.89,
       "endTime": 63.98,
-      "image": "/images/nce2/l29/captain_confident.png"
+      "image": "/images/nce2/l29/captain_confident.png",
+      "analysis": {
+        "grammar": "since then 自那以后；has flown 现在完成时，强调积累的经验。",
+        "words": [
+          {
+            "word": "since then",
+            "pos": "phr.",
+            "meaning": "自那以后"
+          },
+          {
+            "word": "flown",
+            "pos": "v.",
+            "meaning": "飞（fly 过去分词）"
+          },
+          {
+            "word": "unusual places",
+            "pos": "phr.",
+            "meaning": "不寻常的地方"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -93,7 +349,47 @@
       "text": "Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.",
       "translation": "一次他降落在一栋公寓楼的屋顶上，还有一次他降落在一个废弃的停车场里。",
       "startTime": 64.48,
-      "endTime": 74.36
+      "endTime": 74.36,
+      "analysis": {
+        "grammar": "once...and on another occasion 两次经历并列；roof of a block of flats 公寓楼屋顶；deserted car park 废弃停车场。",
+        "words": [
+          {
+            "word": "once",
+            "pos": "adv.",
+            "meaning": "曾经，有一次"
+          },
+          {
+            "word": "landed",
+            "pos": "v.",
+            "meaning": "降落（land 过去式）"
+          },
+          {
+            "word": "roof",
+            "pos": "n.",
+            "meaning": "屋顶"
+          },
+          {
+            "word": "block of flats",
+            "pos": "n.",
+            "meaning": "公寓楼"
+          },
+          {
+            "word": "on another occasion",
+            "pos": "phr.",
+            "meaning": "另有一次"
+          },
+          {
+            "word": "deserted",
+            "pos": "adj.",
+            "meaning": "废弃的，荒无人烟的"
+          },
+          {
+            "word": "car park",
+            "pos": "n.",
+            "meaning": "停车场"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -102,7 +398,32 @@
       "translation": "福赛特机长刚刚拒绝了一位商人的奇怪请求。",
       "startTime": 74.86,
       "endTime": 80.67,
-      "image": "/images/nce2/l29/rockall_request.png"
+      "image": "/images/nce2/l29/rockall_request.png",
+      "analysis": {
+        "grammar": "has just refused 刚刚拒绝（完成时强调刚发生）；strange request 奇怪请求制造悬念。",
+        "words": [
+          {
+            "word": "refused",
+            "pos": "v.",
+            "meaning": "拒绝（refuse 过去式/过去分词）"
+          },
+          {
+            "word": "strange",
+            "pos": "adj.",
+            "meaning": "奇怪的"
+          },
+          {
+            "word": "request",
+            "pos": "n.",
+            "meaning": "请求"
+          },
+          {
+            "word": "businessman",
+            "pos": "n.",
+            "meaning": "商人"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -111,7 +432,32 @@
       "translation": "那人想飞往罗科尔，大西洋上的一个偏远小岛，但福赛特机长没有同意，因为那段飞行太危险了。",
       "startTime": 81.17,
       "endTime": 93.27,
-      "image": "/images/nce2/l29/tiny_island.png"
+      "image": "/images/nce2/l29/tiny_island.png",
+      "analysis": {
+        "grammar": "wanted to fly to 想要飞往；did not take him because 因果关系否定句。",
+        "words": [
+          {
+            "word": "Rockall",
+            "pos": "n.",
+            "meaning": "罗科尔（大西洋孤岛地名）"
+          },
+          {
+            "word": "island",
+            "pos": "n.",
+            "meaning": "岛屿"
+          },
+          {
+            "word": "Atlantic Ocean",
+            "pos": "n.",
+            "meaning": "大西洋"
+          },
+          {
+            "word": "dangerous",
+            "pos": "adj.",
+            "meaning": "危险的"
+          }
+        ]
+      }
     }
   ]
 }

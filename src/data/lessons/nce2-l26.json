@@ -10,7 +10,21 @@
       "text": "Lesson 26",
       "translation": "第26课",
       "startTime": 0.5,
-      "endTime": 2.01
+      "endTime": 2.01,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "26",
+            "pos": "num.",
+            "meaning": "二十六"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +32,26 @@
       "text": "The Best Art Critics",
       "translation": "最佳艺术评论家",
       "startTime": 2.51,
-      "endTime": 5.01
+      "endTime": 5.01,
+      "analysis": {
+        "words": [
+          {
+            "word": "best",
+            "pos": "adj.",
+            "meaning": "最好的"
+          },
+          {
+            "word": "art",
+            "pos": "n.",
+            "meaning": "艺术"
+          },
+          {
+            "word": "critics",
+            "pos": "n.",
+            "meaning": "评论家（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +59,51 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.51,
-      "endTime": 10.49
+      "endTime": 10.49,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +111,31 @@
       "text": "Who is the student's best critic?",
       "translation": "谁是这个学生最好的评论家？",
       "startTime": 10.99,
-      "endTime": 15.47
+      "endTime": 15.47,
+      "analysis": {
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "student",
+            "pos": "n.",
+            "meaning": "学生"
+          },
+          {
+            "word": "best",
+            "pos": "adj.",
+            "meaning": "最好的"
+          },
+          {
+            "word": "critic",
+            "pos": "n.",
+            "meaning": "评论家"
+          }
+        ]
+      }
     },
     {
       "id": "intro_5",
@@ -42,7 +143,27 @@
       "text": "I am an art student and I paint a lot of pictures.",
       "translation": "我是个学艺术的学生，画了很多画。",
       "startTime": 15.97,
-      "endTime": 20.95
+      "endTime": 20.95,
+      "analysis": {
+        "grammar": "I am an art student 自我介绍，a lot of 表数量多。",
+        "words": [
+          {
+            "word": "art student",
+            "pos": "n.",
+            "meaning": "艺术学生"
+          },
+          {
+            "word": "paint",
+            "pos": "v.",
+            "meaning": "绘画，画画"
+          },
+          {
+            "word": "a lot of",
+            "pos": "phr.",
+            "meaning": "很多"
+          }
+        ]
+      }
     },
     {
       "id": "intro_6",
@@ -50,7 +171,32 @@
       "text": "Many people pretend that they understand modern art.",
       "translation": "很多人假装他们懂现代艺术。",
       "startTime": 21.45,
-      "endTime": 25.82
+      "endTime": 25.82,
+      "analysis": {
+        "grammar": "pretend that 表假装，understand modern art 是宾语从句。",
+        "words": [
+          {
+            "word": "pretend",
+            "pos": "v.",
+            "meaning": "假装"
+          },
+          {
+            "word": "understand",
+            "pos": "v.",
+            "meaning": "理解，懂得"
+          },
+          {
+            "word": "modern",
+            "pos": "adj.",
+            "meaning": "现代的"
+          },
+          {
+            "word": "art",
+            "pos": "n.",
+            "meaning": "艺术"
+          }
+        ]
+      }
     },
     {
       "id": "intro_7",
@@ -58,7 +204,27 @@
       "text": "They always tell you what a picture is 'about'.",
       "translation": "他们总是告诉你一幅画'讲的是什么'。",
       "startTime": 26.32,
-      "endTime": 30.05
+      "endTime": 30.05,
+      "analysis": {
+        "grammar": "what a picture is 'about' 为间接疑问句作宾语。",
+        "words": [
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "tell",
+            "pos": "v.",
+            "meaning": "告诉"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -67,7 +233,27 @@
       "translation": "当然，很多画什么也不'讲'。",
       "startTime": 30.55,
       "endTime": 34.8,
-      "image": "/images/nce2/l26/scene1.png"
+      "image": "/images/nce2/l26/scene1.png",
+      "analysis": {
+        "grammar": "of course 表当然，not 'about' anything 双重否定加引号讽刺。",
+        "words": [
+          {
+            "word": "of course",
+            "pos": "phr.",
+            "meaning": "当然"
+          },
+          {
+            "word": "about",
+            "pos": "prep.",
+            "meaning": "关于"
+          },
+          {
+            "word": "anything",
+            "pos": "pron.",
+            "meaning": "任何事物"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -75,7 +261,27 @@
       "text": "They are just pretty patterns.",
       "translation": "它们只是好看的图案。",
       "startTime": 35.3,
-      "endTime": 37.61
+      "endTime": 37.61,
+      "analysis": {
+        "grammar": "just 表仅仅，pretty patterns 简洁描述抽象画。",
+        "words": [
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "仅仅，只是"
+          },
+          {
+            "word": "pretty",
+            "pos": "adj.",
+            "meaning": "漂亮的"
+          },
+          {
+            "word": "patterns",
+            "pos": "n.",
+            "meaning": "图案，花样（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -84,7 +290,27 @@
       "translation": "我们喜欢它们就像我们喜欢漂亮的窗帘布一样。",
       "startTime": 38.11,
       "endTime": 43.68,
-      "image": "/images/nce2/l26/sister_critical.png"
+      "image": "/images/nce2/l26/sister_critical.png",
+      "analysis": {
+        "grammar": "in the same way that 引出比较状语从句。",
+        "words": [
+          {
+            "word": "in the same way",
+            "pos": "phr.",
+            "meaning": "以同样的方式"
+          },
+          {
+            "word": "curtain",
+            "pos": "n.",
+            "meaning": "窗帘"
+          },
+          {
+            "word": "material",
+            "pos": "n.",
+            "meaning": "布料，材料"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -92,7 +318,32 @@
       "text": "I think that young children often appreciate modern pictures better than anyone else.",
       "translation": "我认为小孩子往往比任何人都更能欣赏现代画。",
       "startTime": 44.18,
-      "endTime": 51.51
+      "endTime": 51.51,
+      "analysis": {
+        "grammar": "think that 引出宾语从句，better than anyone else 最高级比较。",
+        "words": [
+          {
+            "word": "young children",
+            "pos": "n.",
+            "meaning": "小孩子"
+          },
+          {
+            "word": "appreciate",
+            "pos": "v.",
+            "meaning": "欣赏，鉴赏"
+          },
+          {
+            "word": "better than",
+            "pos": "phr.",
+            "meaning": "比……更好"
+          },
+          {
+            "word": "anyone else",
+            "pos": "pron.",
+            "meaning": "任何其他人"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -100,7 +351,17 @@
       "text": "They notice more.",
       "translation": "他们观察得更多。",
       "startTime": 52.01,
-      "endTime": 53.77
+      "endTime": 53.77,
+      "analysis": {
+        "grammar": "简短句，more 比较级强调更多观察。",
+        "words": [
+          {
+            "word": "notice",
+            "pos": "v.",
+            "meaning": "注意，察觉"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -109,7 +370,27 @@
       "translation": "我的妹妹只有7岁，但她总是告诉我她是否喜欢我的画。",
       "startTime": 54.27,
       "endTime": 62.17,
-      "image": "/images/nce2/l26/friend_agrees.png"
+      "image": "/images/nce2/l26/friend_agrees.png",
+      "analysis": {
+        "grammar": "but 转折，whether...or not 引出宾语从句。",
+        "words": [
+          {
+            "word": "sister",
+            "pos": "n.",
+            "meaning": "妹妹，姐姐"
+          },
+          {
+            "word": "always",
+            "pos": "adv.",
+            "meaning": "总是"
+          },
+          {
+            "word": "whether...or not",
+            "pos": "conj.",
+            "meaning": "是否"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -117,7 +398,22 @@
       "text": "She came into my room yesterday.",
       "translation": "她昨天来到我的房间。",
       "startTime": 62.67,
-      "endTime": 65.44
+      "endTime": 65.44,
+      "analysis": {
+        "grammar": "came into 表进入，yesterday 过去时间状语。",
+        "words": [
+          {
+            "word": "came into",
+            "pos": "phr.v.",
+            "meaning": "走进，进入"
+          },
+          {
+            "word": "yesterday",
+            "pos": "adv.",
+            "meaning": "昨天"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -125,7 +421,22 @@
       "text": "'What are you doing?' she asked.",
       "translation": "'你在干什么？'她问。",
       "startTime": 65.94,
-      "endTime": 68.86
+      "endTime": 68.86,
+      "analysis": {
+        "grammar": "直接引语，What are you doing 现在进行时疑问句。",
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "doing",
+            "pos": "v.",
+            "meaning": "做（do 的现在分词）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -134,7 +445,32 @@
       "translation": "'我正把这幅画挂到墙上，'我回答说。'这是一幅新画。你喜欢吗？'她用挑剔的眼光看了一会儿。",
       "startTime": 69.36,
       "endTime": 80.57,
-      "image": "/images/nce2/l26/painting_upside_down.png"
+      "image": "/images/nce2/l26/painting_upside_down.png",
+      "analysis": {
+        "grammar": "hang...on the wall 把……挂到墙上；look at...critically 用挑剔的眼光审视。",
+        "words": [
+          {
+            "word": "hanging",
+            "pos": "v.",
+            "meaning": "悬挂（hang 的现在分词）"
+          },
+          {
+            "word": "wall",
+            "pos": "n.",
+            "meaning": "墙"
+          },
+          {
+            "word": "critically",
+            "pos": "adv.",
+            "meaning": "批判性地，挑剔地"
+          },
+          {
+            "word": "for a moment",
+            "pos": "phr.",
+            "meaning": "片刻，一会儿"
+          }
+        ]
+      }
     },
     {
       "id": "s10",
@@ -142,7 +478,22 @@
       "text": "'It's all right,' she said, 'but isn't it upside down?' I looked at it again.",
       "translation": "'还可以，'她说，'但它是不是挂倒了？'我又看了看这幅画。",
       "startTime": 81.07,
-      "endTime": 88.47
+      "endTime": 88.47,
+      "analysis": {
+        "grammar": "isn't it upside down 反问，表惊讶；looked at again 再次审视。",
+        "words": [
+          {
+            "word": "all right",
+            "pos": "phr.",
+            "meaning": "还可以，凑合"
+          },
+          {
+            "word": "upside down",
+            "pos": "phr.",
+            "meaning": "颠倒的，倒置的"
+          }
+        ]
+      }
     },
     {
       "id": "s11",
@@ -151,7 +502,17 @@
       "translation": "她说得对！确实是倒挂着的！",
       "startTime": 88.97,
       "endTime": 93.97,
-      "image": "/images/nce2/l26/writer_corrects_painting.png"
+      "image": "/images/nce2/l26/writer_corrects_painting.png",
+      "analysis": {
+        "grammar": "She was right 确认妹妹的判断；It was! 省略句，强调确实倒挂。",
+        "words": [
+          {
+            "word": "right",
+            "pos": "adj.",
+            "meaning": "对的，正确的"
+          }
+        ]
+      }
     }
   ]
 }

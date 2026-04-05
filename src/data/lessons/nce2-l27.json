@@ -10,7 +10,21 @@
       "text": "Lesson 27",
       "translation": "第27课",
       "startTime": 0.5,
-      "endTime": 2.01
+      "endTime": 2.01,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "27",
+            "pos": "num.",
+            "meaning": "二十七"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +32,21 @@
       "text": "A Wet Night",
       "translation": "雨夜",
       "startTime": 2.51,
-      "endTime": 5.01
+      "endTime": 5.01,
+      "analysis": {
+        "words": [
+          {
+            "word": "wet",
+            "pos": "adj.",
+            "meaning": "潮湿的，下雨的"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "夜晚"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +54,51 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.51,
-      "endTime": 9.79
+      "endTime": 9.79,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +106,26 @@
       "text": "What happened to the boys in the night?",
       "translation": "那天晚上孩子们发生了什么事？",
       "startTime": 10.29,
-      "endTime": 14.58
+      "endTime": 14.58,
+      "analysis": {
+        "words": [
+          {
+            "word": "happened",
+            "pos": "v.",
+            "meaning": "发生（happen 过去式）"
+          },
+          {
+            "word": "boys",
+            "pos": "n.",
+            "meaning": "男孩们"
+          },
+          {
+            "word": "night",
+            "pos": "n.",
+            "meaning": "夜晚"
+          }
+        ]
+      }
     },
     {
       "id": "intro_5",
@@ -42,7 +133,37 @@
       "text": "Late in the afternoon, the boys put up their tent in the middle of a field.",
       "translation": "下午很晚的时候，男孩们在一块田的中央搭起了帐篷。",
       "startTime": 15.08,
-      "endTime": 21.35
+      "endTime": 21.35,
+      "analysis": {
+        "grammar": "put up their tent 搭帐篷，in the middle of 在……中间。",
+        "words": [
+          {
+            "word": "late in the afternoon",
+            "pos": "phr.",
+            "meaning": "下午很晚的时候"
+          },
+          {
+            "word": "put up",
+            "pos": "phr.v.",
+            "meaning": "搭起，竖起"
+          },
+          {
+            "word": "tent",
+            "pos": "n.",
+            "meaning": "帐篷"
+          },
+          {
+            "word": "in the middle of",
+            "pos": "phr.",
+            "meaning": "在……中央"
+          },
+          {
+            "word": "field",
+            "pos": "n.",
+            "meaning": "田野"
+          }
+        ]
+      }
     },
     {
       "id": "intro_6",
@@ -50,7 +171,32 @@
       "text": "As soon as this was done, they cooked a meal over an open fire.",
       "translation": "这件事刚做完，他们就在露天生火做饭。",
       "startTime": 21.85,
-      "endTime": 27.48
+      "endTime": 27.48,
+      "analysis": {
+        "grammar": "as soon as 一……就……，表时间紧接。",
+        "words": [
+          {
+            "word": "as soon as",
+            "pos": "conj.",
+            "meaning": "一……就……"
+          },
+          {
+            "word": "cooked",
+            "pos": "v.",
+            "meaning": "做饭（cook 过去式）"
+          },
+          {
+            "word": "meal",
+            "pos": "n.",
+            "meaning": "一顿饭"
+          },
+          {
+            "word": "open fire",
+            "pos": "n.",
+            "meaning": "露天篝火"
+          }
+        ]
+      }
     },
     {
       "id": "intro_7",
@@ -58,7 +204,27 @@
       "text": "They were all hungry and the food smelled good.",
       "translation": "他们都饿了，饭菜的味道真香。",
       "startTime": 27.98,
-      "endTime": 32.49
+      "endTime": 32.49,
+      "analysis": {
+        "grammar": "all hungry 全都饿了，smelled good 闻起来香。",
+        "words": [
+          {
+            "word": "hungry",
+            "pos": "adj.",
+            "meaning": "饥饿的"
+          },
+          {
+            "word": "smelled",
+            "pos": "v.",
+            "meaning": "有……气味（smell 过去式）"
+          },
+          {
+            "word": "good",
+            "pos": "adj.",
+            "meaning": "好的，香的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -67,7 +233,32 @@
       "translation": "吃过一顿美味的饭菜后，他们围在营火旁讲故事、唱歌。",
       "startTime": 32.99,
       "endTime": 40.41,
-      "image": "/images/nce2/l27/scene1.png"
+      "image": "/images/nce2/l27/scene1.png",
+      "analysis": {
+        "grammar": "after + 名词短语表时间，told stories and sang songs 并列动作。",
+        "words": [
+          {
+            "word": "wonderful",
+            "pos": "adj.",
+            "meaning": "精彩的，美妙的"
+          },
+          {
+            "word": "told stories",
+            "pos": "phr.",
+            "meaning": "讲故事"
+          },
+          {
+            "word": "sang songs",
+            "pos": "phr.",
+            "meaning": "唱歌"
+          },
+          {
+            "word": "campfire",
+            "pos": "n.",
+            "meaning": "营地篝火"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -75,7 +266,22 @@
       "text": "But some time later it began to rain.",
       "translation": "但过了一些时候天下起雨来。",
       "startTime": 40.91,
-      "endTime": 44.21
+      "endTime": 44.21,
+      "analysis": {
+        "grammar": "some time later 时间推进，began to rain 天开始下雨。",
+        "words": [
+          {
+            "word": "some time later",
+            "pos": "phr.",
+            "meaning": "过了一会儿"
+          },
+          {
+            "word": "began to rain",
+            "pos": "phr.",
+            "meaning": "开始下雨"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -84,7 +290,27 @@
       "translation": "孩子们感到累了，于是熄灭了篝火，钻进了帐篷。",
       "startTime": 44.71,
       "endTime": 50.97,
-      "image": "/images/nce2/l27/campfire_songs.png"
+      "image": "/images/nce2/l27/campfire_songs.png",
+      "analysis": {
+        "grammar": "felt tired so... 因果关系；put out 熄灭；crept into 悄悄钻入。",
+        "words": [
+          {
+            "word": "felt tired",
+            "pos": "phr.",
+            "meaning": "感到疲劳"
+          },
+          {
+            "word": "put out",
+            "pos": "phr.v.",
+            "meaning": "熄灭"
+          },
+          {
+            "word": "crept",
+            "pos": "v.",
+            "meaning": "爬行，悄悄走（creep 过去式）"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -92,7 +318,32 @@
       "text": "Their sleeping bags were warm and comfortable, so they all slept soundly.",
       "translation": "他们的睡袋既暖和又舒适，所以他们都睡得很香。",
       "startTime": 51.47,
-      "endTime": 58.16
+      "endTime": 58.16,
+      "analysis": {
+        "grammar": "sleeping bags 睡袋；so 引出结果从句；slept soundly 睡得香。",
+        "words": [
+          {
+            "word": "sleeping bags",
+            "pos": "n.",
+            "meaning": "睡袋"
+          },
+          {
+            "word": "warm",
+            "pos": "adj.",
+            "meaning": "暖和的"
+          },
+          {
+            "word": "comfortable",
+            "pos": "adj.",
+            "meaning": "舒适的"
+          },
+          {
+            "word": "soundly",
+            "pos": "adv.",
+            "meaning": "酣畅地，熟睡地"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -101,7 +352,27 @@
       "translation": "半夜里，两个孩子醒来大声叫了起来。",
       "startTime": 58.66,
       "endTime": 64.05,
-      "image": "/images/nce2/l27/heavy_rain.png"
+      "image": "/images/nce2/l27/heavy_rain.png",
+      "analysis": {
+        "grammar": "in the middle of the night 深夜，woke up and began shouting 并列动作。",
+        "words": [
+          {
+            "word": "in the middle of the night",
+            "pos": "phr.",
+            "meaning": "半夜，深夜"
+          },
+          {
+            "word": "woke up",
+            "pos": "phr.v.",
+            "meaning": "醒来"
+          },
+          {
+            "word": "shouting",
+            "pos": "v.",
+            "meaning": "大叫，呼喊"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -109,7 +380,22 @@
       "text": "The tent was full of water!",
       "translation": "帐篷里全是水！",
       "startTime": 64.55,
-      "endTime": 67.06
+      "endTime": 67.06,
+      "analysis": {
+        "grammar": "简短惊叹句，full of water 充满水，制造紧张感。",
+        "words": [
+          {
+            "word": "full of",
+            "pos": "phr.",
+            "meaning": "充满……"
+          },
+          {
+            "word": "water",
+            "pos": "n.",
+            "meaning": "水"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -118,7 +404,27 @@
       "translation": "他们全都跳出睡袋，跑到帐篷外面。",
       "startTime": 67.56,
       "endTime": 73.15,
-      "image": "/images/nce2/l27/farmhouse_door.png"
+      "image": "/images/nce2/l27/farmhouse_door.png",
+      "analysis": {
+        "grammar": "leapt out of 从……跳出；hurried outside 急忙跑到外面。",
+        "words": [
+          {
+            "word": "leapt",
+            "pos": "v.",
+            "meaning": "跳（leap 过去式）"
+          },
+          {
+            "word": "hurried",
+            "pos": "v.",
+            "meaning": "急忙（hurry 过去式）"
+          },
+          {
+            "word": "outside",
+            "pos": "adv.",
+            "meaning": "在外面"
+          }
+        ]
+      }
     },
     {
       "id": "s8",
@@ -126,7 +432,27 @@
       "text": "It was raining heavily and they found that a stream had formed in the field.",
       "translation": "雨下得很大，他们发现田里已形成了一条小溪。",
       "startTime": 73.65,
-      "endTime": 79.59
+      "endTime": 79.59,
+      "analysis": {
+        "grammar": "found that 发现（引出宾语从句）；a stream had formed 过去完成时。",
+        "words": [
+          {
+            "word": "raining heavily",
+            "pos": "phr.",
+            "meaning": "大雨倾盆"
+          },
+          {
+            "word": "stream",
+            "pos": "n.",
+            "meaning": "小溪，溪流"
+          },
+          {
+            "word": "formed",
+            "pos": "v.",
+            "meaning": "形成（form 过去式）"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
@@ -135,7 +461,32 @@
       "translation": "那条小溪弯弯曲曲穿过田野，然后正好从他们帐篷底下流过去！",
       "startTime": 80.09,
       "endTime": 85.09,
-      "image": "/images/nce2/l27/sleeping_in_barn.png"
+      "image": "/images/nce2/l27/sleeping_in_barn.png",
+      "analysis": {
+        "grammar": "wound its way 蜿蜒流淌；flowed right under 正好从……下面流过，punchline。",
+        "words": [
+          {
+            "word": "wound",
+            "pos": "v.",
+            "meaning": "蜿蜒（wind 过去式）"
+          },
+          {
+            "word": "across",
+            "pos": "prep.",
+            "meaning": "穿越，横过"
+          },
+          {
+            "word": "flowed",
+            "pos": "v.",
+            "meaning": "流淌（flow 过去式）"
+          },
+          {
+            "word": "right under",
+            "pos": "phr.",
+            "meaning": "正好在……下面"
+          }
+        ]
+      }
     }
   ]
 }

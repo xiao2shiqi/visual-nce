@@ -10,7 +10,21 @@
       "text": "Lesson 28",
       "translation": "第28课",
       "startTime": 0.5,
-      "endTime": 1.92
+      "endTime": 1.92,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "28",
+            "pos": "num.",
+            "meaning": "二十八"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +32,21 @@
       "text": "No Parking",
       "translation": "禁止停车",
       "startTime": 2.42,
-      "endTime": 4.81
+      "endTime": 4.81,
+      "analysis": {
+        "words": [
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "禁止"
+          },
+          {
+            "word": "Parking",
+            "pos": "n./v.",
+            "meaning": "停车"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +54,51 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.312,
-      "endTime": 9.14
+      "endTime": 9.14,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +106,26 @@
       "text": "What is Jasper White's problem?",
       "translation": "贾斯珀·怀特遇到了什么问题？",
       "startTime": 9.64,
-      "endTime": 13.72
+      "endTime": 13.72,
+      "analysis": {
+        "words": [
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "Jasper White",
+            "pos": "n.",
+            "meaning": "贾斯珀·怀特（人名）"
+          },
+          {
+            "word": "problem",
+            "pos": "n.",
+            "meaning": "问题，麻烦"
+          }
+        ]
+      }
     },
     {
       "id": "intro_5",
@@ -42,7 +133,32 @@
       "text": "Jasper White is one of those rare people who believes in ancient myths.",
       "translation": "贾斯珀·怀特是少有的相信古代神话的人之一。",
       "startTime": 14.22,
-      "endTime": 20.62
+      "endTime": 20.62,
+      "analysis": {
+        "grammar": "one of those...who 定语从句，believes in 相信……。",
+        "words": [
+          {
+            "word": "rare",
+            "pos": "adj.",
+            "meaning": "罕见的"
+          },
+          {
+            "word": "believes in",
+            "pos": "phr.v.",
+            "meaning": "相信，信仰"
+          },
+          {
+            "word": "ancient",
+            "pos": "adj.",
+            "meaning": "古代的"
+          },
+          {
+            "word": "myths",
+            "pos": "n.",
+            "meaning": "神话（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_6",
@@ -50,7 +166,32 @@
       "text": "He has just bought a new house in the city, but ever since he moved in, he has had trouble with cars and their owners.",
       "translation": "他刚在城里买了一座新房子，但自从搬进去后，他就开始与汽车及其车主发生了麻烦。",
       "startTime": 21.12,
-      "endTime": 31.46
+      "endTime": 31.46,
+      "analysis": {
+        "grammar": "ever since 自从；has had trouble with 与……发生麻烦（现在完成时）。",
+        "words": [
+          {
+            "word": "ever since",
+            "pos": "conj.",
+            "meaning": "自从……以来"
+          },
+          {
+            "word": "moved in",
+            "pos": "phr.v.",
+            "meaning": "搬进去"
+          },
+          {
+            "word": "trouble",
+            "pos": "n.",
+            "meaning": "麻烦，困扰"
+          },
+          {
+            "word": "owners",
+            "pos": "n.",
+            "meaning": "车主，所有者（复数）"
+          }
+        ]
+      }
     },
     {
       "id": "intro_7",
@@ -58,7 +199,32 @@
       "text": "When he returns home at night, he always finds that someone has parked a car outside his gate.",
       "translation": "当他晚上回家时，总是发现有人把汽车停在他家大门外。",
       "startTime": 31.96,
-      "endTime": 40.06
+      "endTime": 40.06,
+      "analysis": {
+        "grammar": "when 时间从句；always finds 习惯性动作；parked a car 停放了车。",
+        "words": [
+          {
+            "word": "returns",
+            "pos": "v.",
+            "meaning": "回来，返回"
+          },
+          {
+            "word": "finds",
+            "pos": "v.",
+            "meaning": "发现"
+          },
+          {
+            "word": "parked",
+            "pos": "v.",
+            "meaning": "停车（park 过去式/过去分词）"
+          },
+          {
+            "word": "outside his gate",
+            "pos": "phr.",
+            "meaning": "在他家门外"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -67,7 +233,27 @@
       "translation": "因此，他甚至一次也没能把自己的车开进他的车库。",
       "startTime": 40.56,
       "endTime": 48.52,
-      "image": "/images/nce2/l28/scene1.png"
+      "image": "/images/nce2/l28/scene1.png",
+      "analysis": {
+        "grammar": "because of this 因此；not been able to 一次也没能（现在完成时否定）。",
+        "words": [
+          {
+            "word": "because of",
+            "pos": "phr.",
+            "meaning": "因为，由于"
+          },
+          {
+            "word": "garage",
+            "pos": "n.",
+            "meaning": "车库"
+          },
+          {
+            "word": "even once",
+            "pos": "phr.",
+            "meaning": "哪怕一次"
+          }
+        ]
+      }
     },
     {
       "id": "s2",
@@ -75,7 +261,27 @@
       "text": "Jasper has put up 'No Parking' signs outside his gate, but these have not had any effect.",
       "translation": "贾斯珀在大门外挂上了'禁止停车'的牌子，但这没有任何效果。",
       "startTime": 49.02,
-      "endTime": 58.44
+      "endTime": 58.44,
+      "analysis": {
+        "grammar": "put up signs 挂牌子；have not had any effect 没有任何效果（完成时）。",
+        "words": [
+          {
+            "word": "put up",
+            "pos": "phr.v.",
+            "meaning": "挂起，竖立"
+          },
+          {
+            "word": "signs",
+            "pos": "n.",
+            "meaning": "标牌，指示牌（复数）"
+          },
+          {
+            "word": "effect",
+            "pos": "n.",
+            "meaning": "效果，作用"
+          }
+        ]
+      }
     },
     {
       "id": "s3",
@@ -84,7 +290,27 @@
       "translation": "现在他在大门上方放了一个丑陋的石头像。",
       "startTime": 58.94,
       "endTime": 63.69,
-      "image": "/images/nce2/l28/medusa_stone_head.png"
+      "image": "/images/nce2/l28/medusa_stone_head.png",
+      "analysis": {
+        "grammar": "has put 现在完成时，表动作已完成并影响现在。",
+        "words": [
+          {
+            "word": "ugly",
+            "pos": "adj.",
+            "meaning": "丑陋的"
+          },
+          {
+            "word": "stone head",
+            "pos": "n.",
+            "meaning": "石头像"
+          },
+          {
+            "word": "over the gate",
+            "pos": "phr.",
+            "meaning": "在大门上方"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
@@ -93,7 +319,27 @@
       "translation": "那是我见过的最丑陋的面孔之一。",
       "startTime": 64.19,
       "endTime": 69.01,
-      "image": "/images/nce2/l28/imagined_stone_cars.png"
+      "image": "/images/nce2/l28/imagined_stone_cars.png",
+      "analysis": {
+        "grammar": "one of the ugliest 最高级，I have ever seen 现在完成时定语从句。",
+        "words": [
+          {
+            "word": "ugliest",
+            "pos": "adj.",
+            "meaning": "最丑陋的（ugly 最高级）"
+          },
+          {
+            "word": "faces",
+            "pos": "n.",
+            "meaning": "面孔（复数）"
+          },
+          {
+            "word": "ever",
+            "pos": "adv.",
+            "meaning": "曾经"
+          }
+        ]
+      }
     },
     {
       "id": "s5",
@@ -102,7 +348,32 @@
       "translation": "我问他那是什么，他告诉我那是蛇发女妖美杜莎。",
       "startTime": 69.51,
       "endTime": 76.25,
-      "image": "/images/nce2/l28/cars_still_parking.png"
+      "image": "/images/nce2/l28/cars_still_parking.png",
+      "analysis": {
+        "grammar": "asked him what it was 间接疑问句作宾语；told me that 宾语从句。",
+        "words": [
+          {
+            "word": "asked",
+            "pos": "v.",
+            "meaning": "询问（ask 过去式）"
+          },
+          {
+            "word": "told",
+            "pos": "v.",
+            "meaning": "告诉（tell 过去式）"
+          },
+          {
+            "word": "Medusa",
+            "pos": "n.",
+            "meaning": "美杜莎（希腊神话蛇发女妖）"
+          },
+          {
+            "word": "Gorgon",
+            "pos": "n.",
+            "meaning": "戈尔贡（希腊神话怪物）"
+          }
+        ]
+      }
     },
     {
       "id": "s6",
@@ -110,7 +381,22 @@
       "text": "Jasper hopes that she will turn cars and their owners to stone.",
       "translation": "贾斯珀希望她能把汽车和车主都变成石头。",
       "startTime": 76.75,
-      "endTime": 82.08
+      "endTime": 82.08,
+      "analysis": {
+        "grammar": "hopes that 宾语从句；turn...to stone 变成石头（神话典故）。",
+        "words": [
+          {
+            "word": "hopes",
+            "pos": "v.",
+            "meaning": "希望"
+          },
+          {
+            "word": "turn...to stone",
+            "pos": "phr.",
+            "meaning": "把……变成石头"
+          }
+        ]
+      }
     },
     {
       "id": "s7",
@@ -119,7 +405,27 @@
       "translation": "但到目前为止还没有一个变成石头！",
       "startTime": 82.58,
       "endTime": 87.58,
-      "image": "/images/nce2/l28/none_turned_to_stone.png"
+      "image": "/images/nce2/l28/none_turned_to_stone.png",
+      "analysis": {
+        "grammar": "none of them 其中没有一个；has been turned 被动语态完成时；yet 表示还未发生。",
+        "words": [
+          {
+            "word": "none of them",
+            "pos": "phr.",
+            "meaning": "其中没有一个"
+          },
+          {
+            "word": "turned to stone",
+            "pos": "phr.",
+            "meaning": "变成石头"
+          },
+          {
+            "word": "yet",
+            "pos": "adv.",
+            "meaning": "还，尚且（否定句末）"
+          }
+        ]
+      }
     }
   ]
 }

@@ -10,7 +10,21 @@
       "text": "Lesson 25",
       "translation": "第25课",
       "startTime": 0.5,
-      "endTime": 0.34
+      "endTime": 0.34,
+      "analysis": {
+        "words": [
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "25",
+            "pos": "num.",
+            "meaning": "二十五"
+          }
+        ]
+      }
     },
     {
       "id": "intro_2",
@@ -18,7 +32,21 @@
       "text": "Do the English Speak English",
       "translation": "英国人讲的是英语吗？",
       "startTime": 0.835,
-      "endTime": 1.33
+      "endTime": 1.33,
+      "analysis": {
+        "words": [
+          {
+            "word": "English",
+            "pos": "adj./n.",
+            "meaning": "英语的/英国的"
+          },
+          {
+            "word": "speak",
+            "pos": "v.",
+            "meaning": "说，讲"
+          }
+        ]
+      }
     },
     {
       "id": "intro_3",
@@ -26,7 +54,51 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 1.825,
-      "endTime": 2.8
+      "endTime": 2.8,
+      "analysis": {
+        "words": [
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
+        ]
+      }
     },
     {
       "id": "intro_4",
@@ -34,7 +106,31 @@
       "text": "Do they speak English?",
       "translation": "他们说英语吗？",
       "startTime": 3.3,
-      "endTime": 11.76
+      "endTime": 11.76,
+      "analysis": {
+        "words": [
+          {
+            "word": "Do",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "they",
+            "pos": "pron.",
+            "meaning": "他们"
+          },
+          {
+            "word": "speak",
+            "pos": "v.",
+            "meaning": "说，讲"
+          },
+          {
+            "word": "English",
+            "pos": "n.",
+            "meaning": "英语"
+          }
+        ]
+      }
     },
     {
       "id": "intro_5",
@@ -42,7 +138,27 @@
       "text": "Why does the writer not understand the porter?",
       "translation": "为什么作者听不懂搬运工的话？",
       "startTime": 12.26,
-      "endTime": 17.21
+      "endTime": 17.21,
+      "analysis": {
+        "grammar": "why 引导特殊疑问句，not understand 表否定理解。",
+        "words": [
+          {
+            "word": "writer",
+            "pos": "n.",
+            "meaning": "作者，写作者"
+          },
+          {
+            "word": "understand",
+            "pos": "v.",
+            "meaning": "理解，听懂"
+          },
+          {
+            "word": "porter",
+            "pos": "n.",
+            "meaning": "搬运工，行李员"
+          }
+        ]
+      }
     },
     {
       "id": "intro_6",
@@ -50,7 +166,22 @@
       "text": "I arrived in London at last.",
       "translation": "我终于到了伦敦。",
       "startTime": 17.71,
-      "endTime": 20.55
+      "endTime": 20.55,
+      "analysis": {
+        "grammar": "at last 强调终于到达，情节铺垫。",
+        "words": [
+          {
+            "word": "arrived",
+            "pos": "v.",
+            "meaning": "到达（arrive 过去式）"
+          },
+          {
+            "word": "at last",
+            "pos": "phr.",
+            "meaning": "终于，最终"
+          }
+        ]
+      }
     },
     {
       "id": "intro_7",
@@ -58,7 +189,32 @@
       "text": "The railway station was big, black and dark.",
       "translation": "火车站很大、很黑、很暗。",
       "startTime": 21.05,
-      "endTime": 25.85
+      "endTime": 25.85,
+      "analysis": {
+        "grammar": "三个形容词并列描写车站，渲染陌生感。",
+        "words": [
+          {
+            "word": "railway station",
+            "pos": "n.",
+            "meaning": "火车站"
+          },
+          {
+            "word": "big",
+            "pos": "adj.",
+            "meaning": "大的"
+          },
+          {
+            "word": "black",
+            "pos": "adj.",
+            "meaning": "黑色的"
+          },
+          {
+            "word": "dark",
+            "pos": "adj.",
+            "meaning": "黑暗的"
+          }
+        ]
+      }
     },
     {
       "id": "s1",
@@ -71,8 +227,16 @@
       "analysis": {
         "grammar": "过去时叙述，so 表结果。",
         "words": [
-          { "word": "porter", "pos": "n.", "meaning": "搬运工，行李员" },
-          { "word": "the way to", "pos": "phr.", "meaning": "去……的路" }
+          {
+            "word": "porter",
+            "pos": "n.",
+            "meaning": "搬运工，行李员"
+          },
+          {
+            "word": "the way to",
+            "pos": "phr.",
+            "meaning": "去……的路"
+          }
         ]
       }
     },
@@ -87,8 +251,16 @@
       "analysis": {
         "grammar": "not only ... but ... as well 表并列递进。",
         "words": [
-          { "word": "carefully", "pos": "adv.", "meaning": "仔细地" },
-          { "word": "clearly", "pos": "adv.", "meaning": "清楚地" }
+          {
+            "word": "carefully",
+            "pos": "adv.",
+            "meaning": "仔细地"
+          },
+          {
+            "word": "clearly",
+            "pos": "adv.",
+            "meaning": "清楚地"
+          }
         ]
       }
     },
@@ -103,7 +275,11 @@
       "analysis": {
         "grammar": "however 作插入语，表转折。",
         "words": [
-          { "word": "however", "pos": "adv.", "meaning": "然而，但是" }
+          {
+            "word": "however",
+            "pos": "adv.",
+            "meaning": "然而，但是"
+          }
         ]
       }
     },
@@ -118,9 +294,21 @@
       "analysis": {
         "grammar": "at last 表示经过努力后的结果。",
         "words": [
-          { "word": "repeated", "pos": "v.", "meaning": "重复，重说" },
-          { "word": "several times", "pos": "phr.", "meaning": "几次，几遍" },
-          { "word": "at last", "pos": "phr.", "meaning": "终于，最终" }
+          {
+            "word": "repeated",
+            "pos": "v.",
+            "meaning": "重复，重说"
+          },
+          {
+            "word": "several times",
+            "pos": "phr.",
+            "meaning": "几次，几遍"
+          },
+          {
+            "word": "at last",
+            "pos": "phr.",
+            "meaning": "终于，最终"
+          }
         ]
       }
     },
@@ -135,7 +323,11 @@
       "analysis": {
         "grammar": "neither ... nor ... 表示两者都不。",
         "words": [
-          { "word": "neither...nor", "pos": "conj.", "meaning": "既不……也不……" }
+          {
+            "word": "neither...nor",
+            "pos": "conj.",
+            "meaning": "既不……也不……"
+          }
         ]
       }
     },
@@ -150,7 +342,11 @@
       "analysis": {
         "grammar": "直接引语，said 后置。",
         "words": [
-          { "word": "foreigner", "pos": "n.", "meaning": "外国人" }
+          {
+            "word": "foreigner",
+            "pos": "n.",
+            "meaning": "外国人"
+          }
         ]
       }
     },
@@ -165,7 +361,11 @@
       "analysis": {
         "grammar": "转折连词 but 连接两个结果，强调语言障碍的深层原因（口音）。",
         "words": [
-          { "word": "slowly", "pos": "adv.", "meaning": "慢慢地" }
+          {
+            "word": "slowly",
+            "pos": "adv.",
+            "meaning": "慢慢地"
+          }
         ]
       }
     },
@@ -180,8 +380,16 @@
       "analysis": {
         "grammar": "never 加一般过去时表达强烈否定。",
         "words": [
-          { "word": "never", "pos": "adv.", "meaning": "从不，从来不" },
-          { "word": "like that", "pos": "phr.", "meaning": "像那样" }
+          {
+            "word": "never",
+            "pos": "adv.",
+            "meaning": "从不，从来不"
+          },
+          {
+            "word": "like that",
+            "pos": "phr.",
+            "meaning": "像那样"
+          }
         ]
       }
     },
@@ -196,7 +404,11 @@
       "analysis": {
         "grammar": "look at each other 表示相互看，情感高潮。",
         "words": [
-          { "word": "look at each other", "pos": "phr.", "meaning": "相视，互相看" }
+          {
+            "word": "look at each other",
+            "pos": "phr.",
+            "meaning": "相视，互相看"
+          }
         ]
       }
     },
@@ -207,11 +419,15 @@
       "translation": "然后他说了些什么，我听懂了。",
       "startTime": 75.91,
       "endTime": 79.64,
-      "image": "/images/nce2/l25/you_learn_english.png",
+      "image": "/images/nce2/l25/both_smile.png",
       "analysis": {
         "grammar": "something 不定代词，指模糊的内容。",
         "words": [
-          { "word": "something", "pos": "pron.", "meaning": "某事，某物" }
+          {
+            "word": "something",
+            "pos": "pron.",
+            "meaning": "某事，某物"
+          }
         ]
       }
     },
@@ -226,8 +442,16 @@
       "analysis": {
         "grammar": "will + soon 表示对近期未来的乐观预测。",
         "words": [
-          { "word": "soon", "pos": "adv.", "meaning": "很快，不久" },
-          { "word": "learn", "pos": "v.", "meaning": "学会，学习" }
+          {
+            "word": "soon",
+            "pos": "adv.",
+            "meaning": "很快，不久"
+          },
+          {
+            "word": "learn",
+            "pos": "v.",
+            "meaning": "学会，学习"
+          }
         ]
       }
     },
@@ -242,7 +466,11 @@
       "analysis": {
         "grammar": "独立句，wonder 此处表示怀疑或不确定。",
         "words": [
-          { "word": "wonder", "pos": "v.", "meaning": "感到疑惑，不知道" }
+          {
+            "word": "wonder",
+            "pos": "v.",
+            "meaning": "感到疑惑，不知道"
+          }
         ]
       }
     },
@@ -257,8 +485,16 @@
       "analysis": {
         "grammar": "each 强调个体，different 表多样性，幽默的结尾观察。",
         "words": [
-          { "word": "each", "pos": "det.", "meaning": "每个" },
-          { "word": "different", "pos": "adj.", "meaning": "不同的" }
+          {
+            "word": "each",
+            "pos": "det.",
+            "meaning": "每个"
+          },
+          {
+            "word": "different",
+            "pos": "adj.",
+            "meaning": "不同的"
+          }
         ]
       }
     },
@@ -273,7 +509,11 @@
       "analysis": {
         "grammar": "but 引出转折，对比英国人之间的互通与外国人的困惑，幽默收尾。",
         "words": [
-          { "word": "understand each other", "pos": "phr.", "meaning": "互相理解，互相听懂" }
+          {
+            "word": "understand each other",
+            "pos": "phr.",
+            "meaning": "互相理解，互相听懂"
+          }
         ]
       }
     }
