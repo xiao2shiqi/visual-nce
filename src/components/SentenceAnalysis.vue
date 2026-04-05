@@ -114,7 +114,7 @@ const speakWord = (word: string) => {
               </h5>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div 
-                  v-for="(word, i) in segment.analysis.words.filter(w => !['pron.', 'art.'].includes(w.pos))"
+                  v-for="(word, i) in segment.analysis.words"
                   :key="i"
                   class="p-4 rounded-xl bg-white border border-slate-200/60 shadow-sm group/word transition-all hover:shadow-lg hover:shadow-purple-500/10 hover:border-violet-200 hover:-translate-y-0.5 text-left relative overflow-hidden"
                 >
