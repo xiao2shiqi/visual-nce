@@ -45,6 +45,12 @@ coverage
 # Temporary Files
 tmp/
 temp/
+tmp_*
+
+# Python cache
+.ruff_cache/
+__pycache__/
+*.pyc
 
 # Generation output logs
 gen_output*.txt
