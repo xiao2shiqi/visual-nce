@@ -151,7 +151,6 @@ visual-nce/
 
 - **[《新概念英语》](https://en.wikipedia.org/wiki/New_Concept_English)** — L.G. Alexander 编著的经典教材，本项目内容源于此，版权归原著作权人所有，仅供非商业教育用途。
 - **[Studio Ghibli（吉卜力工作室）](https://www.ghibli.jp/)** — 本项目视觉风格受吉卜力电影启发，与官方无任何关联。
-- **[Google Gemini](https://deepmind.google/technologies/gemini/)** — 驱动本项目 AI 图像生成流水线。
 - **[Vue](https://vuejs.org/) / [Vite](https://vitejs.dev/) / [TailwindCSS](https://tailwindcss.com/)** — 支撑整个项目流畅运行的现代 Web 基础设施。
 
 ---

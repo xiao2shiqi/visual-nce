@@ -151,7 +151,6 @@ Feel free to open an **Issue** or submit a **Pull Request**. Let's build this lo
 
 - **[New Concept English](https://en.wikipedia.org/wiki/New_Concept_English)** — The timeless textbook by L.G. Alexander that inspired this project. All original content belongs to its respective rights holders and is used here solely for non-commercial educational purposes.
 - **[Studio Ghibli](https://www.ghibli.jp/)** — The visual style of this project is inspired by the warmth and artistry of Studio Ghibli films. No official affiliation.
-- **[Google Gemini](https://deepmind.google/technologies/gemini/)** — Powers the AI image generation pipeline.
 - **[Vue](https://vuejs.org/) / [Vite](https://vitejs.dev/) / [TailwindCSS](https://tailwindcss.com/)** — The modern web foundation that makes this all run smoothly.
 
 ---
