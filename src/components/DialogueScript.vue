@@ -169,7 +169,7 @@ defineExpose({
     </div>
 
     <!-- Script Cards -->
-    <div class="max-h-[620px] overflow-y-auto pr-4 -mr-4 space-y-2.5">
+    <div ref="scriptContainer" class="max-h-[calc(100vh-280px)] lg:max-h-none lg:flex-1 lg:min-h-0 overflow-y-auto pr-4 -mr-4 space-y-2.5">
       <div 
         v-for="s in segments" 
         :key="s.id"
