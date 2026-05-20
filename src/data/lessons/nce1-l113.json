@@ -188,7 +188,7 @@
     },
     {
       "id": "s4",
-      "role": "Mr. Scott",
+      "role": "Conductor",
       "text": "I can't change a ten-pound note.",
       "translation": "我找不开十英镑的钞票。",
       "startTime": 24.17,
@@ -276,7 +276,7 @@
       "id": "s6",
       "role": "Mr. Scott",
       "text": "I've got no small change, I am afraid.",
-      "translation": "我也没有。",
+      "translation": "恐怕我没有零钱。",
       "startTime": 31.97,
       "endTime": 36.01,
       "analysis": {
@@ -370,7 +370,7 @@
     },
     {
       "id": "s8",
-      "role": "Mr. Scott",
+      "role": "Conductor",
       "text": "Have you any small change, sir?",
       "translation": "先生，您有零钱吗？",
       "startTime": 40.19,
@@ -413,7 +413,7 @@
     },
     {
       "id": "s9",
-      "role": "Conductor",
+      "role": "Man",
       "text": "I'm sorry.",
       "translation": "对不起。",
       "startTime": 43.64,
@@ -436,7 +436,7 @@
     },
     {
       "id": "s10",
-      "role": "Mr. Scott",
+      "role": "Man",
       "text": "I've got none.",
       "translation": "我没有。",
       "startTime": 44.96,
@@ -460,11 +460,11 @@
           }
         ]
       },
-      "image": "/images/nce1/l113/no_change.png"
+      "image": "/images/nce1/l113/asking_passengers.png"
     },
     {
       "id": "s11",
-      "role": "Conductor",
+      "role": "Man",
       "text": "I haven't got any either.",
       "translation": "我也没有。",
       "startTime": 48.01,
@@ -498,11 +498,11 @@
           }
         ]
       },
-      "image": "/images/nce1/l113/no_change.png"
+      "image": "/images/nce1/l113/asking_passengers.png"
     },
     {
       "id": "s12",
-      "role": "Mr. Scott",
+      "role": "Conductor",
       "text": "Can you change this ten-pound note, madam?",
       "translation": "女士，您能换开这张十英镑的钞票吗？",
       "startTime": 51.8,
@@ -550,7 +550,7 @@
     },
     {
       "id": "s13",
-      "role": "Conductor",
+      "role": "Woman",
       "text": "I'm afraid I can't.",
       "translation": "恐怕我换不开。",
       "startTime": 56.84,
@@ -583,7 +583,7 @@
     },
     {
       "id": "s14",
-      "role": "Mr. Scott",
+      "role": "Man",
       "text": "Neither can I.",
       "translation": "我也换不开。",
       "startTime": 60.13,
@@ -607,7 +607,7 @@
           }
         ]
       },
-      "image": "/images/nce1/l113/no_change.png"
+      "image": "/images/nce1/l113/must_get_off.png"
     },
     {
       "id": "s15",
@@ -644,7 +644,7 @@
     },
     {
       "id": "s16",
-      "role": "Mr. Scott",
+      "role": "Conductor",
       "text": "You must get off the bus.",
       "translation": "您必须下车。",
       "startTime": 65.29,
@@ -736,7 +736,7 @@
           }
         ]
       },
-      "image": "/images/nce1/l113/change_found.png"
+      "image": "/images/nce1/l113/must_get_off.png"
     },
     {
       "id": "s18",
@@ -764,7 +764,7 @@
           }
         ]
       },
-      "image": "/images/nce1/l113/change_found.png"
+      "image": "/images/nce1/l113/must_get_off.png"
     },
     {
       "id": "s19",
@@ -787,7 +787,7 @@
           }
         ]
       },
-      "image": "/images/nce1/l113/change_found.png"
+      "image": "/images/nce1/l113/must_get_off.png"
     },
     {
       "id": "s20",
@@ -829,7 +829,7 @@
     },
     {
       "id": "s21",
-      "role": "Woman",
+      "role": "Man",
       "text": "So have I.",
       "translation": "我也有。",
       "startTime": 82.96,
