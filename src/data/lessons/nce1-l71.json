@@ -211,7 +211,7 @@
     },
     {
       "id": "s2",
-      "role": "Ron",
+      "role": "Pauline",
       "text": "He's awful!",
       "translation": "他这人太客气了（此处意为讨厌）！",
       "startTime": 24.07,
@@ -239,7 +239,7 @@
     },
     {
       "id": "s3",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "He telephoned me four times yesterday and three times the day before yesterday.",
       "translation": "他昨天给我打了4次电话，前天打了3次。",
       "startTime": 26.62,
@@ -317,7 +317,7 @@
     },
     {
       "id": "s4",
-      "role": "Ron",
+      "role": "Pauline",
       "text": "He telephoned the office yesterday morning and yesterday afternoon.",
       "translation": "昨天上午和昨天下午他都给办公室打了电话。",
       "startTime": 37.22,
@@ -375,7 +375,7 @@
     },
     {
       "id": "s5",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "My boss answered the telephone.",
       "translation": "是我老板接的电话。",
       "startTime": 45.55,
@@ -413,7 +413,7 @@
     },
     {
       "id": "s6",
-      "role": "Ron",
+      "role": "Jane",
       "text": "What did your boss say to him?",
       "translation": "你老板是怎么对他说的？",
       "startTime": 50.14,
@@ -461,7 +461,7 @@
     },
     {
       "id": "s7",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "He said, 'Pauline is typing letters.",
       "translation": "他说：“波琳正在打信。”",
       "startTime": 53.8,
@@ -504,7 +504,7 @@
     },
     {
       "id": "s8",
-      "role": "Ron",
+      "role": "Pauline",
       "text": "She can't speak to you now!' Then I arrived home at six o'clock yesterday evening.",
       "translation": "“她现在不能和你通话。”后来我昨天傍晚6点钟到家。",
       "startTime": 58.5,
@@ -592,7 +592,7 @@
     },
     {
       "id": "s9",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "He telephoned again.",
       "translation": "他又来电话了。",
       "startTime": 68.82,
@@ -620,7 +620,7 @@
     },
     {
       "id": "s10",
-      "role": "Ron",
+      "role": "Pauline",
       "text": "But I didn't answer the phone!",
       "translation": "但我没接电话！",
       "startTime": 71.61,
@@ -663,7 +663,7 @@
     },
     {
       "id": "s11",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "Did he telephone again last night?",
       "translation": "昨晚他又打电话了吗？",
       "startTime": 75.67,
@@ -706,7 +706,7 @@
     },
     {
       "id": "s12",
-      "role": "Ron",
+      "role": "Jane",
       "text": "Yes, he did.",
       "translation": "是的，他打了。",
       "startTime": 79.83,
@@ -734,7 +734,7 @@
     },
     {
       "id": "s13",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "He telephoned at nine o'clock.",
       "translation": "他在9点钟打来电话。",
       "startTime": 82.21,
@@ -772,7 +772,7 @@
     },
     {
       "id": "s14",
-      "role": "Ron",
+      "role": "Pauline",
       "text": "What did you say to him?",
       "translation": "你对他怎么说的？",
       "startTime": 86.41,
@@ -815,7 +815,7 @@
     },
     {
       "id": "s15",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "I said, 'This is Pauline's mother.",
       "translation": "我说：“我是波琳的母亲。”",
       "startTime": 89.67,
@@ -857,11 +857,74 @@
       "image": "/images/nce1/l71/ron_working.png"
     },
     {
-      "id": "s16",
-      "role": "Ron",
-      "text": "Please don't telephone my daughter again!' Did he telephone again?",
+      "id": "s16a",
+      "role": "Pauline",
+      "text": "Please don't telephone my daughter again!'",
       "translation": "“请不要再给我女儿打电话了！”他又打来电话了吗？",
       "startTime": 93.82,
+      "endTime": 97.5,
+      "analysis": {
+        "words": [
+          {
+            "word": "Please",
+            "pos": "int.",
+            "meaning": "请"
+          },
+          {
+            "word": "don't",
+            "pos": "v.aux.",
+            "meaning": "不要"
+          },
+          {
+            "word": "telephone",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "my",
+            "pos": "det.",
+            "meaning": "我的"
+          },
+          {
+            "word": "daughter",
+            "pos": "n.",
+            "meaning": "女儿"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再"
+          },
+          {
+            "word": "Did",
+            "pos": "v.aux.",
+            "meaning": "（助动词）"
+          },
+          {
+            "word": "he",
+            "pos": "pron.",
+            "meaning": "他"
+          },
+          {
+            "word": "telephone",
+            "pos": "v.",
+            "meaning": "打电话"
+          },
+          {
+            "word": "again",
+            "pos": "adv.",
+            "meaning": "再"
+          }
+        ]
+      },
+      "image": "/images/nce1/l71/ron_working.png"
+    },
+    {
+      "id": "s16b",
+      "role": "Jane",
+      "text": "Did he telephone again?",
+      "translation": "“请不要再给我女儿打电话了！”他又打来电话了吗？",
+      "startTime": 98.0,
       "endTime": 101.6,
       "analysis": {
         "words": [
@@ -921,7 +984,7 @@
     },
     {
       "id": "s17",
-      "role": "Jane",
+      "role": "Pauline",
       "text": "No, he didn't!",
       "translation": "没，他没再打过！",
       "startTime": 102.1,

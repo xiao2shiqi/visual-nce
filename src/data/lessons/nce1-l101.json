@@ -174,7 +174,7 @@
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "Read Jimmy's card to me please, Penny.",
       "translation": "请把吉米的明信片读给我听，佩妮。",
       "startTime": 23.61,
@@ -221,11 +221,94 @@
       "image": "/images/nce1/l101/scene1.png"
     },
     {
-      "id": "s2",
-      "role": "Woman",
-      "text": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.' Eh?",
+      "id": "s2a",
+      "role": "Penny",
+      "text": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'",
       "translation": "'我刚到苏格兰，正住在一家青年旅舍。'嗯？",
       "startTime": 28.94,
+      "endTime": 36.5,
+      "analysis": {
+        "words": [
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "have",
+            "pos": "aux.",
+            "meaning": "已经"
+          },
+          {
+            "word": "just",
+            "pos": "adv.",
+            "meaning": "刚刚"
+          },
+          {
+            "word": "arrived",
+            "pos": "v.",
+            "meaning": "到达"
+          },
+          {
+            "word": "in",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "Scotland",
+            "pos": "n.",
+            "meaning": "苏格兰"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "和"
+          },
+          {
+            "word": "I'm",
+            "pos": "pron.+v.",
+            "meaning": "我是"
+          },
+          {
+            "word": "staying",
+            "pos": "v.",
+            "meaning": "停留"
+          },
+          {
+            "word": "at",
+            "pos": "prep.",
+            "meaning": "在"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "Youth",
+            "pos": "n.",
+            "meaning": "青年"
+          },
+          {
+            "word": "Hostel",
+            "pos": "n.",
+            "meaning": "招待所"
+          },
+          {
+            "word": "Eh",
+            "pos": "int.",
+            "meaning": "嗯？"
+          }
+        ]
+      },
+      "image": "/images/nce1/l101/scotland_hostel.png"
+    },
+    {
+      "id": "s2b",
+      "role": "Grandmother",
+      "text": "Eh?",
+      "translation": "'我刚到苏格兰，正住在一家青年旅舍。'嗯？",
+      "startTime": 37.0,
       "endTime": 38.47,
       "analysis": {
         "words": [
@@ -305,7 +388,7 @@
     },
     {
       "id": "s3",
-      "role": "Woman",
+      "role": "Penny",
       "text": "He says he's just arrived in Scotland.",
       "translation": "他说他刚到苏格兰。",
       "startTime": 38.97,
@@ -353,7 +436,7 @@
     },
     {
       "id": "s4",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "He says he's staying at a Youth Hostel.",
       "translation": "他说他正住在一家青年旅舍。",
       "startTime": 44.04,
@@ -406,7 +489,7 @@
     },
     {
       "id": "s5",
-      "role": "Woman",
+      "role": "Penny",
       "text": "You know he's a member of the Y.H.A.",
       "translation": "你知道他是青旅协会的会员。",
       "startTime": 49.41,
@@ -459,7 +542,7 @@
     },
     {
       "id": "s6",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "The what?",
       "translation": "什么协会？",
       "startTime": 56.34,
@@ -482,7 +565,7 @@
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Penny",
       "text": "The Y.H.A., Mum.",
       "translation": "青旅协会，妈妈。",
       "startTime": 58.18,
@@ -510,7 +593,7 @@
     },
     {
       "id": "s8",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "The Youth Hostels Association.",
       "translation": "青旅协会。",
       "startTime": 61.31,
@@ -543,7 +626,7 @@
     },
     {
       "id": "s9",
-      "role": "Narrator",
+      "role": "Grandmother",
       "text": "What else does he say?",
       "translation": "他还说了什么？",
       "startTime": 65.82,
@@ -581,7 +664,7 @@
     },
     {
       "id": "s10",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "'I'll write a letter soon.",
       "translation": "'我很快会写信。",
       "startTime": 69.36,
@@ -619,7 +702,7 @@
     },
     {
       "id": "s11",
-      "role": "Woman",
+      "role": "Penny",
       "text": "I hope you are all well.'",
       "translation": "希望你们大家都好。'",
       "startTime": 72.45,
@@ -662,7 +745,7 @@
     },
     {
       "id": "s12",
-      "role": "Narrator",
+      "role": "Grandmother",
       "text": "What? Speak up, Penny.",
       "translation": "什么？大声点，佩妮。",
       "startTime": 76.64,
@@ -695,7 +778,7 @@
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "I'm afraid I can't hear you.",
       "translation": "恐怕我听不见你说话。",
       "startTime": 80.3,
@@ -738,7 +821,7 @@
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Penny",
       "text": "He says he'll write a letter soon.",
       "translation": "他说他很快会写信。",
       "startTime": 84.2,
@@ -786,7 +869,7 @@
     },
     {
       "id": "s15",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "He hopes we are all well.",
       "translation": "他希望我们大家都好。",
       "startTime": 88.45,
@@ -828,11 +911,49 @@
       "image": "/images/nce1/l101/postcard_closeup.png"
     },
     {
-      "id": "s16",
-      "role": "Woman",
-      "text": "'Love, Jimmy.' Is that all?",
+      "id": "s16a",
+      "role": "Penny",
+      "text": "'Love, Jimmy.'",
       "translation": "'爱你们的，吉米。'就这些吗？",
       "startTime": 92.6,
+      "endTime": 94.5,
+      "analysis": {
+        "words": [
+          {
+            "word": "Love",
+            "pos": "n.",
+            "meaning": "爱"
+          },
+          {
+            "word": "Jimmy",
+            "pos": "n.",
+            "meaning": "吉米"
+          },
+          {
+            "word": "Is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "that",
+            "pos": "pron.",
+            "meaning": "那"
+          },
+          {
+            "word": "all",
+            "pos": "pron.",
+            "meaning": "全部"
+          }
+        ]
+      },
+      "image": "/images/nce1/l101/postcard_closeup.png"
+    },
+    {
+      "id": "s16b",
+      "role": "Grandmother",
+      "text": "Is that all?",
+      "translation": "'爱你们的，吉米。'就这些吗？",
+      "startTime": 95.0,
       "endTime": 97.41,
       "analysis": {
         "words": [
@@ -867,7 +988,7 @@
     },
     {
       "id": "s17",
-      "role": "Woman",
+      "role": "Penny",
       "text": "He doesn't say very much, does he?",
       "translation": "他没写多少，是吗？",
       "startTime": 97.91,
@@ -915,7 +1036,7 @@
     },
     {
       "id": "s18",
-      "role": "Man",
+      "role": "Grandmother",
       "text": "He can't write very much on a card, Mum.",
       "translation": "他在明信片上写不了多少，妈妈。",
       "startTime": 102.43,

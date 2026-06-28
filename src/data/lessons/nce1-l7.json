@@ -14,8 +14,16 @@
       "image": "/images/nce1/l7/scene1.png",
       "analysis": {
         "words": [
-          { "word": "Lesson", "pos": "n.", "meaning": "课" },
-          { "word": "7", "pos": "num.", "meaning": "七" }
+          {
+            "word": "Lesson",
+            "pos": "n.",
+            "meaning": "课"
+          },
+          {
+            "word": "7",
+            "pos": "num.",
+            "meaning": "七"
+          }
         ]
       }
     },
@@ -29,10 +37,26 @@
       "image": "/images/nce1/l7/scene1.png",
       "analysis": {
         "words": [
-          { "word": "Are", "pos": "v.", "meaning": "是" },
-          { "word": "you", "pos": "pron.", "meaning": "你" },
-          { "word": "a", "pos": "art.", "meaning": "一个" },
-          { "word": "teacher", "pos": "n.", "meaning": "教师" }
+          {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "teacher",
+            "pos": "n.",
+            "meaning": "教师"
+          }
         ]
       }
     },
@@ -46,14 +70,46 @@
       "image": "/images/nce1/l7/scene1.png",
       "analysis": {
         "words": [
-          { "word": "Listen", "pos": "v.", "meaning": "听" },
-          { "word": "to", "pos": "prep.", "meaning": "向" },
-          { "word": "the", "pos": "art.", "meaning": "这" },
-          { "word": "tape", "pos": "n.", "meaning": "录音带" },
-          { "word": "then", "pos": "adv.", "meaning": "然后" },
-          { "word": "answer", "pos": "v.", "meaning": "回答" },
-          { "word": "this", "pos": "det.", "meaning": "这个" },
-          { "word": "question", "pos": "n.", "meaning": "问题" }
+          {
+            "word": "Listen",
+            "pos": "v.",
+            "meaning": "听"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "向"
+          },
+          {
+            "word": "the",
+            "pos": "art.",
+            "meaning": "这"
+          },
+          {
+            "word": "tape",
+            "pos": "n.",
+            "meaning": "录音带"
+          },
+          {
+            "word": "then",
+            "pos": "adv.",
+            "meaning": "然后"
+          },
+          {
+            "word": "answer",
+            "pos": "v.",
+            "meaning": "回答"
+          },
+          {
+            "word": "this",
+            "pos": "det.",
+            "meaning": "这个"
+          },
+          {
+            "word": "question",
+            "pos": "n.",
+            "meaning": "问题"
+          }
         ]
       }
     },
@@ -67,16 +123,32 @@
       "image": "/images/nce1/l7/scene1.png",
       "analysis": {
         "words": [
-          { "word": "What", "pos": "pron.", "meaning": "什么" },
-          { "word": "is", "pos": "v.", "meaning": "是" },
-          { "word": "Robert's", "pos": "n.", "meaning": "罗伯特的" },
-          { "word": "job", "pos": "n.", "meaning": "工作" }
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Robert's",
+            "pos": "n.",
+            "meaning": "罗伯特的"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
+          }
         ]
       }
     },
     {
       "id": "s1",
-      "role": "Man",
+      "role": "Robert",
       "text": "I am a new student.",
       "translation": "我是一名新学生。",
       "startTime": 15.24,
@@ -84,17 +156,37 @@
       "image": "/images/nce1/l7/robert_intro.png",
       "analysis": {
         "words": [
-          { "word": "I", "pos": "pron.", "meaning": "我" },
-          { "word": "am", "pos": "v.", "meaning": "是" },
-          { "word": "a", "pos": "art.", "meaning": "一个" },
-          { "word": "new", "pos": "adj.", "meaning": "新的" },
-          { "word": "student", "pos": "n.", "meaning": "学生" }
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "new",
+            "pos": "adj.",
+            "meaning": "新的"
+          },
+          {
+            "word": "student",
+            "pos": "n.",
+            "meaning": "学生"
+          }
         ]
       }
     },
     {
       "id": "s2",
-      "role": "Man",
+      "role": "Robert",
       "text": "My name's Robert.",
       "translation": "我的名字叫罗伯特。",
       "startTime": 18,
@@ -102,16 +194,32 @@
       "image": "/images/nce1/l7/robert_intro.png",
       "analysis": {
         "words": [
-          { "word": "My", "pos": "pron.", "meaning": "我的" },
-          { "word": "name", "pos": "n.", "meaning": "名字" },
-          { "word": "'s", "pos": "v.", "meaning": "是" },
-          { "word": "Robert", "pos": "n.", "meaning": "罗伯特" }
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Robert",
+            "pos": "n.",
+            "meaning": "罗伯特"
+          }
         ]
       }
     },
     {
       "id": "s3",
-      "role": "Woman",
+      "role": "Sophie",
       "text": "Nice to meet you.",
       "translation": "很高兴见到你。",
       "startTime": 20.61,
@@ -119,16 +227,32 @@
       "image": "/images/nce1/l7/sophie_intro.png",
       "analysis": {
         "words": [
-          { "word": "Nice", "pos": "adj.", "meaning": "高兴的/好的" },
-          { "word": "to", "pos": "prep.", "meaning": "（不定式标志）" },
-          { "word": "meet", "pos": "v.", "meaning": "见到/认识" },
-          { "word": "you", "pos": "pron.", "meaning": "你" }
+          {
+            "word": "Nice",
+            "pos": "adj.",
+            "meaning": "高兴的/好的"
+          },
+          {
+            "word": "to",
+            "pos": "prep.",
+            "meaning": "（不定式标志）"
+          },
+          {
+            "word": "meet",
+            "pos": "v.",
+            "meaning": "见到/认识"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          }
         ]
       }
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Sophie",
       "text": "My name's Sophie.",
       "translation": "我的名字叫索菲。",
       "startTime": 22.45,
@@ -136,16 +260,32 @@
       "image": "/images/nce1/l7/sophie_intro.png",
       "analysis": {
         "words": [
-          { "word": "My", "pos": "pron.", "meaning": "我的" },
-          { "word": "name", "pos": "n.", "meaning": "名字" },
-          { "word": "'s", "pos": "v.", "meaning": "是" },
-          { "word": "Sophie", "pos": "n.", "meaning": "索菲" }
+          {
+            "word": "My",
+            "pos": "pron.",
+            "meaning": "我的"
+          },
+          {
+            "word": "name",
+            "pos": "n.",
+            "meaning": "名字"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Sophie",
+            "pos": "n.",
+            "meaning": "索菲"
+          }
         ]
       }
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Robert",
       "text": "Are you French?",
       "translation": "你是法国人吗？",
       "startTime": 25.7,
@@ -153,15 +293,27 @@
       "image": "/images/nce1/l7/talking_job.png",
       "analysis": {
         "words": [
-          { "word": "Are", "pos": "v.", "meaning": "是" },
-          { "word": "you", "pos": "pron.", "meaning": "你" },
-          { "word": "French", "pos": "adj.", "meaning": "法国的/法国人" }
+          {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的/法国人"
+          }
         ]
       }
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Sophie",
       "text": "Yes I am.",
       "translation": "是的，我是。",
       "startTime": 27.9,
@@ -169,15 +321,27 @@
       "image": "/images/nce1/l7/talking_job.png",
       "analysis": {
         "words": [
-          { "word": "Yes", "pos": "adv.", "meaning": "是的" },
-          { "word": "I", "pos": "pron.", "meaning": "我" },
-          { "word": "am", "pos": "v.", "meaning": "是" }
+          {
+            "word": "Yes",
+            "pos": "adv.",
+            "meaning": "是的"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          }
         ]
       }
     },
     {
       "id": "s7",
-      "role": "Man",
+      "role": "Robert",
       "text": "Are you French too?",
       "translation": "你也是法国人吗？",
       "startTime": 30.38,
@@ -185,16 +349,32 @@
       "image": "/images/nce1/l7/talking_job.png",
       "analysis": {
         "words": [
-          { "word": "Are", "pos": "v.", "meaning": "是" },
-          { "word": "you", "pos": "pron.", "meaning": "你" },
-          { "word": "French", "pos": "adj.", "meaning": "法国的/法国人" },
-          { "word": "too", "pos": "adv.", "meaning": "也" }
+          {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "French",
+            "pos": "adj.",
+            "meaning": "法国的/法国人"
+          },
+          {
+            "word": "too",
+            "pos": "adv.",
+            "meaning": "也"
+          }
         ]
       }
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Sophie",
       "text": "No I am not.",
       "translation": "不，我不是。",
       "startTime": 33.22,
@@ -202,16 +382,32 @@
       "image": "/images/nce1/l7/talking_job.png",
       "analysis": {
         "words": [
-          { "word": "No", "pos": "adv.", "meaning": "不" },
-          { "word": "I", "pos": "pron.", "meaning": "我" },
-          { "word": "am", "pos": "v.", "meaning": "是" },
-          { "word": "not", "pos": "adv.", "meaning": "不" }
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "am",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          }
         ]
       }
     },
     {
       "id": "s9",
-      "role": "Man",
+      "role": "Robert",
       "text": "What nationality are you?",
       "translation": "你是哪国人？",
       "startTime": 36.54,
@@ -219,16 +415,32 @@
       "image": "/images/nce1/l7/robert_intro.png",
       "analysis": {
         "words": [
-          { "word": "What", "pos": "det.", "meaning": "什么" },
-          { "word": "nationality", "pos": "n.", "meaning": "国籍" },
-          { "word": "are", "pos": "v.", "meaning": "是" },
-          { "word": "you", "pos": "pron.", "meaning": "你" }
+          {
+            "word": "What",
+            "pos": "det.",
+            "meaning": "什么"
+          },
+          {
+            "word": "nationality",
+            "pos": "n.",
+            "meaning": "国籍"
+          },
+          {
+            "word": "are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          }
         ]
       }
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Sophie",
       "text": "I'm Italian.",
       "translation": "我是意大利人。",
       "startTime": 40.1,
@@ -236,15 +448,27 @@
       "image": "/images/nce1/l7/sophie_intro.png",
       "analysis": {
         "words": [
-          { "word": "I", "pos": "pron.", "meaning": "我" },
-          { "word": "'m", "pos": "v.", "meaning": "是" },
-          { "word": "Italian", "pos": "adj.", "meaning": "意大利的/意大利人" }
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "Italian",
+            "pos": "adj.",
+            "meaning": "意大利的/意大利人"
+          }
         ]
       }
     },
     {
       "id": "s11",
-      "role": "Man",
+      "role": "Robert",
       "text": "Are you a teacher?",
       "translation": "你是教师吗？",
       "startTime": 43.55,
@@ -252,16 +476,32 @@
       "image": "/images/nce1/l7/talking_job.png",
       "analysis": {
         "words": [
-          { "word": "Are", "pos": "v.", "meaning": "是" },
-          { "word": "you", "pos": "pron.", "meaning": "你" },
-          { "word": "a", "pos": "art.", "meaning": "一个" },
-          { "word": "teacher", "pos": "n.", "meaning": "教师" }
+          {
+            "word": "Are",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "you",
+            "pos": "pron.",
+            "meaning": "你"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "teacher",
+            "pos": "n.",
+            "meaning": "教师"
+          }
         ]
       }
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Sophie",
       "text": "No I'm not.",
       "translation": "不，我不是。",
       "startTime": 46.12,
@@ -269,16 +509,32 @@
       "image": "/images/nce1/l7/talking_job.png",
       "analysis": {
         "words": [
-          { "word": "No", "pos": "adv.", "meaning": "不" },
-          { "word": "I", "pos": "pron.", "meaning": "我" },
-          { "word": "'m", "pos": "v.", "meaning": "是" },
-          { "word": "not", "pos": "adv.", "meaning": "不" }
+          {
+            "word": "No",
+            "pos": "adv.",
+            "meaning": "不"
+          },
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "not",
+            "pos": "adv.",
+            "meaning": "不"
+          }
         ]
       }
     },
     {
       "id": "s13",
-      "role": "Man",
+      "role": "Robert",
       "text": "What's your job?",
       "translation": "你的工作是什么？",
       "startTime": 48.45,
@@ -286,16 +542,32 @@
       "image": "/images/nce1/l7/keyboard_operator.png",
       "analysis": {
         "words": [
-          { "word": "What", "pos": "pron.", "meaning": "什么" },
-          { "word": "'s", "pos": "v.", "meaning": "是" },
-          { "word": "your", "pos": "pron.", "meaning": "你的" },
-          { "word": "job", "pos": "n.", "meaning": "工作" }
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
+          }
         ]
       }
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Robert",
       "text": "I'm a keyboard operator.",
       "translation": "我是一名电脑录入员。",
       "startTime": 50.64,
@@ -303,17 +575,37 @@
       "image": "/images/nce1/l7/keyboard_operator.png",
       "analysis": {
         "words": [
-          { "word": "I", "pos": "pron.", "meaning": "我" },
-          { "word": "'m", "pos": "v.", "meaning": "是" },
-          { "word": "a", "pos": "art.", "meaning": "一个" },
-          { "word": "keyboard", "pos": "n.", "meaning": "键盘" },
-          { "word": "operator", "pos": "n.", "meaning": "操作员/录入员" }
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "a",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "keyboard",
+            "pos": "n.",
+            "meaning": "键盘"
+          },
+          {
+            "word": "operator",
+            "pos": "n.",
+            "meaning": "操作员/录入员"
+          }
         ]
       }
     },
     {
       "id": "s15",
-      "role": "Woman",
+      "role": "Sophie",
       "text": "What's your job?",
       "translation": "你的工作是什么？",
       "startTime": 54.18,
@@ -321,16 +613,32 @@
       "image": "/images/nce1/l7/engineer.png",
       "analysis": {
         "words": [
-          { "word": "What", "pos": "pron.", "meaning": "什么" },
-          { "word": "'s", "pos": "v.", "meaning": "是" },
-          { "word": "your", "pos": "pron.", "meaning": "你的" },
-          { "word": "job", "pos": "n.", "meaning": "工作" }
+          {
+            "word": "What",
+            "pos": "pron.",
+            "meaning": "什么"
+          },
+          {
+            "word": "'s",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "your",
+            "pos": "pron.",
+            "meaning": "你的"
+          },
+          {
+            "word": "job",
+            "pos": "n.",
+            "meaning": "工作"
+          }
         ]
       }
     },
     {
       "id": "s16",
-      "role": "Man",
+      "role": "Sophie",
       "text": "I'm an engineer.",
       "translation": "我是一名工程师。",
       "startTime": 56.34,
@@ -338,10 +646,26 @@
       "image": "/images/nce1/l7/engineer.png",
       "analysis": {
         "words": [
-          { "word": "I", "pos": "pron.", "meaning": "我" },
-          { "word": "'m", "pos": "v.", "meaning": "是" },
-          { "word": "an", "pos": "art.", "meaning": "一个" },
-          { "word": "engineer", "pos": "n.", "meaning": "工程师" }
+          {
+            "word": "I",
+            "pos": "pron.",
+            "meaning": "我"
+          },
+          {
+            "word": "'m",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "an",
+            "pos": "art.",
+            "meaning": "一个"
+          },
+          {
+            "word": "engineer",
+            "pos": "n.",
+            "meaning": "工程师"
+          }
         ]
       }
     }
