@@ -59,7 +59,7 @@
       "text": "Listen to the tape then answer this question.",
       "translation": "听录音，然后回答问题。",
       "startTime": 5.51,
-      "endTime": 20.1,
+      "endTime": 12.14,
       "analysis": {
         "words": [
           {
@@ -106,8 +106,65 @@
       }
     },
     {
+      "id": "intro_4",
+      "role": "Narrator",
+      "text": "Who is only twenty-nine, and why is it so unclear?",
+      "translation": "谁只有29岁？为什么这一点如此难以确定呢？",
+      "startTime": 12.14,
+      "endTime": 20.6,
+      "analysis": {
+        "words": [
+          {
+            "word": "Who",
+            "pos": "pron.",
+            "meaning": "谁"
+          },
+          {
+            "word": "is",
+            "pos": "v.",
+            "meaning": "是"
+          },
+          {
+            "word": "only",
+            "pos": "adv.",
+            "meaning": "只"
+          },
+          {
+            "word": "twenty-nine",
+            "pos": "num.",
+            "meaning": "二十九"
+          },
+          {
+            "word": "and",
+            "pos": "conj.",
+            "meaning": "而且"
+          },
+          {
+            "word": "why",
+            "pos": "adv.",
+            "meaning": "为什么"
+          },
+          {
+            "word": "it",
+            "pos": "pron.",
+            "meaning": "它"
+          },
+          {
+            "word": "so",
+            "pos": "adv.",
+            "meaning": "如此"
+          },
+          {
+            "word": "unclear",
+            "pos": "adj.",
+            "meaning": "不清楚的"
+          }
+        ]
+      }
+    },
+    {
       "id": "s1",
-      "role": "Man",
+      "role": "Kate",
       "text": "Can you recognize that woman, Liz?",
       "translation": "你能认出那个女人吗，莉兹？",
       "startTime": 20.6,
@@ -150,7 +207,7 @@
     },
     {
       "id": "s2",
-      "role": "Woman",
+      "role": "Liz",
       "text": "I think I can, Kate.",
       "translation": "我想我能认出来，凯特。",
       "startTime": 25.13,
@@ -188,7 +245,7 @@
     },
     {
       "id": "s3",
-      "role": "Woman",
+      "role": "Liz",
       "text": "It must be Karen Marsh, the actress.",
       "translation": "那一定是凯伦·马什，那位女演员。",
       "startTime": 28.27,
@@ -236,7 +293,7 @@
     },
     {
       "id": "s4",
-      "role": "Woman",
+      "role": "Kate",
       "text": "I thought so.",
       "translation": "我也这么认为。",
       "startTime": 33.29,
@@ -264,7 +321,7 @@
     },
     {
       "id": "s5",
-      "role": "Woman",
+      "role": "Kate",
       "text": "Who's that beside her?",
       "translation": "她旁边的是谁？",
       "startTime": 35.36,
@@ -297,7 +354,7 @@
     },
     {
       "id": "s6",
-      "role": "Woman",
+      "role": "Liz",
       "text": "That must be Conrad Reeves.",
       "translation": "那一定是康拉德·里夫斯。",
       "startTime": 38.3,
@@ -335,7 +392,7 @@
     },
     {
       "id": "s7",
-      "role": "Woman",
+      "role": "Kate",
       "text": "Conrad Reeves, the actor?",
       "translation": "康拉德·里夫斯，那位演员？",
       "startTime": 42.79,
@@ -368,7 +425,7 @@
     },
     {
       "id": "s8",
-      "role": "Woman",
+      "role": "Kate",
       "text": "It can't be.",
       "translation": "不可能是他。",
       "startTime": 45.91,
@@ -396,7 +453,7 @@
     },
     {
       "id": "s9",
-      "role": "Woman",
+      "role": "Kate",
       "text": "Let me have another look.",
       "translation": "让我再看看。",
       "startTime": 47.84,
@@ -434,7 +491,7 @@
     },
     {
       "id": "s10",
-      "role": "Woman",
+      "role": "Kate",
       "text": "I think you're right!",
       "translation": "我觉得你是对的！",
       "startTime": 51.49,
@@ -467,7 +524,7 @@
     },
     {
       "id": "s11",
-      "role": "Woman",
+      "role": "Kate",
       "text": "Isn't he her third husband?",
       "translation": "他不是她的第三任丈夫吗？",
       "startTime": 53.62,
@@ -505,7 +562,7 @@
     },
     {
       "id": "s12",
-      "role": "Woman",
+      "role": "Liz",
       "text": "No.",
       "translation": "不是。",
       "startTime": 57.46,
@@ -523,7 +580,7 @@
     },
     {
       "id": "s13",
-      "role": "Woman",
+      "role": "Liz",
       "text": "He must be her fourth or fifth.",
       "translation": "他一定是她的第四或第五任丈夫。",
       "startTime": 58.91,
@@ -571,7 +628,7 @@
     },
     {
       "id": "s14",
-      "role": "Woman",
+      "role": "Kate",
       "text": "Doesn't Karen Marsh look old!",
       "translation": "凯伦·马什看起来真老啊！",
       "startTime": 63.89,
@@ -609,7 +666,7 @@
     },
     {
       "id": "s15",
-      "role": "Woman",
+      "role": "Liz",
       "text": "She does, doesn't she!",
       "translation": "是啊，她看起来是挺老的。",
       "startTime": 67.51,
@@ -642,7 +699,7 @@
     },
     {
       "id": "s16",
-      "role": "Woman",
+      "role": "Liz",
       "text": "I read she's twenty-nine, but she must be at least forty.",
       "translation": "我看到报道说她29岁，但她肯定至少有40岁了。",
       "startTime": 71.03,
@@ -710,7 +767,7 @@
     },
     {
       "id": "s17",
-      "role": "Woman",
+      "role": "Kate",
       "text": "I'm sure she is.",
       "translation": "我肯定她有。",
       "startTime": 79.16,
@@ -743,7 +800,7 @@
     },
     {
       "id": "s18",
-      "role": "Woman",
+      "role": "Kate",
       "text": "She was a famous actress when I was still at school.",
       "translation": "我还在上学的时候，她就已经是著名演员了。",
       "startTime": 82.52,
@@ -811,7 +868,7 @@
     },
     {
       "id": "s19",
-      "role": "Woman",
+      "role": "Liz",
       "text": "That was a long time ago, wasn't it?",
       "translation": "那已经是很久以前的事了，对吧？",
       "startTime": 88.89,
@@ -864,7 +921,7 @@
     },
     {
       "id": "s20",
-      "role": "Woman",
+      "role": "Kate",
       "text": "Not that long ago!",
       "translation": "没那么久吧！",
       "startTime": 93.41,
@@ -897,7 +954,7 @@
     },
     {
       "id": "s21",
-      "role": "Woman",
+      "role": "Kate",
       "text": "I'm not more than twenty-nine myself.",
       "translation": "我自己也才29岁。",
       "startTime": 96.34,
