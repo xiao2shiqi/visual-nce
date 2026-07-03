@@ -4,6 +4,7 @@ import LessonHeader from '../components/LessonHeader.vue';
 import SceneViewer from '../components/SceneViewer.vue';
 import DialogueScript from '../components/DialogueScript.vue';
 import DonationModal from '../components/DonationModal.vue';
+import GrammarMap from '../components/GrammarMap.vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 
@@ -370,6 +371,9 @@ onUnmounted(() => {
           @segment-click="handleSegmentClick"
         />
       </div>
+
+      <!-- Grammar Map -->
+      <GrammarMap :lesson-id="lessonData.id" />
 
       <!-- Quick Navigation -->
       <div class="mt-20 pt-10 border-t border-slate-200/60 grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in">
