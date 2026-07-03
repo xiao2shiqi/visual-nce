@@ -13,35 +13,46 @@ const findLesson = (lessonId: string) => {
   return null;
 };
 
-// 同步读取 hash，避免首帧渲染主页导致闪烁
-const initFromHash = () => {
+const BOOK_IDS = curriculum.books.map(b => b.id);
+
+// 解析 hash：#nce1-l1 → 课程页；#nce2 → 首页对应册；其他 → 首页
+const parseHash = () => {
   const hash = window.location.hash.slice(1);
-  if (hash) {
-    const found = findLesson(hash);
-    if (found) return found;
-  }
+  if (!hash) return null;
+  if (BOOK_IDS.includes(hash)) return { view: 'home', bookId: hash, lesson: null };
+  const found = findLesson(hash);
+  if (found) return { view: 'lesson', bookId: found.bookId, lesson: found.lesson };
   return null;
 };
 
-const _init = initFromHash();
-const currentView = ref(_init ? 'lesson' : 'home');
-const selectedCourse = ref<any>(_init ? _init.lesson : null);
-const activeBookId = ref(_init ? _init.bookId : 'nce1');
+// 同步读取 hash，避免首帧渲染主页导致闪烁
+const _init = parseHash();
+const currentView = ref(_init?.view === 'lesson' ? 'lesson' : 'home');
+const selectedCourse = ref<any>(_init?.lesson || null);
+const activeBookId = ref(_init?.bookId || 'nce1');
 
-// 从 URL hash 恢复状态（格式：#nce1-l1）
+// 从 URL hash 恢复状态
 const restoreFromHash = () => {
-  const hash = window.location.hash.slice(1);
-  if (hash) {
-    const found = findLesson(hash);
-    if (found) {
-      selectedCourse.value = found.lesson;
-      activeBookId.value = found.bookId;
-      currentView.value = 'lesson';
-      return;
-    }
+  const parsed = parseHash();
+  if (parsed?.view === 'lesson') {
+    selectedCourse.value = parsed.lesson;
+    activeBookId.value = parsed.bookId;
+    currentView.value = 'lesson';
+    return;
+  }
+  if (parsed?.view === 'home') {
+    activeBookId.value = parsed.bookId;
   }
   currentView.value = 'home';
   selectedCourse.value = null;
+};
+
+// 首页切换册数时同步到 URL（replace，避免污染历史记录）
+const handleBookChange = (bookId: string) => {
+  activeBookId.value = bookId;
+  if (currentView.value === 'home') {
+    history.replaceState(null, '', `#${bookId}`);
+  }
 };
 
 const handleSelectCourse = (payload: any) => {
@@ -61,7 +72,8 @@ const handleSelectCourse = (payload: any) => {
 const handleBackToHome = () => {
   currentView.value = 'home';
   selectedCourse.value = null;
-  history.pushState(null, '', window.location.pathname); // 清除 hash
+  // 回首页保留当前册数，便于继续浏览和分享目录
+  history.pushState(null, '', `#${activeBookId.value}`);
 };
 
 // 支持浏览器前进/后退
@@ -80,11 +92,11 @@ onUnmounted(() => {
 <template>
   <main class="app-container">
     <Transition name="page" mode="out-in">
-      <HomeView 
-        v-if="currentView === 'home'" 
+      <HomeView
+        v-if="currentView === 'home'"
         :active-book-id="activeBookId"
-        @update:active-book-id="activeBookId = $event"
-        @select-course="handleSelectCourse" 
+        @update:active-book-id="handleBookChange"
+        @select-course="handleSelectCourse"
       />
       <LessonView 
         v-else 
@@ -97,20 +109,11 @@ onUnmounted(() => {
 </template>
 
 <style>
+/* 底色、文字色、body 最小宽度统一由 style.css 管理，这里不再重复声明 */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #f8fafc;
-  color: #1e293b;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 #app {
