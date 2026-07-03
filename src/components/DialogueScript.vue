@@ -115,21 +115,21 @@ defineExpose({
           <button 
             @click="emit('update:playMode', 'continuous')"
             class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'continuous' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
+            :class="playMode === 'continuous' ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             连读
           </button>
           <button 
             @click="emit('update:playMode', 'single')"
             class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'single' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
+            :class="playMode === 'single' ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             点读
           </button>
           <button 
             @click="emit('update:playMode', 'repeat')"
             class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'repeat' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
+            :class="playMode === 'repeat' ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             循环
           </button>
@@ -140,7 +140,7 @@ defineExpose({
           <select 
             :value="playbackRate"
             @change="(e) => emit('update:playbackRate', parseFloat((e.target as HTMLSelectElement).value))"
-            class="appearance-none bg-transparent px-3 py-1.5 text-xs font-bold text-gray-500 hover:text-blue-600 transition-all cursor-pointer outline-none"
+            class="appearance-none bg-transparent px-3 py-1.5 text-xs font-bold text-gray-500 hover:text-amber-700 transition-all cursor-pointer outline-none"
           >
             <option v-for="rate in playbackRates" :key="rate" :value="rate">
               {{ rate === 1.0 ? '1.0x' : rate + 'x' }}
@@ -153,14 +153,14 @@ defineExpose({
           <button 
             @click="emit('update:showTranslation', false)"
             class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="!showTranslation ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
+            :class="!showTranslation ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             EN
           </button>
           <button 
             @click="emit('update:showTranslation', true)"
             class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="showTranslation ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
+            :class="showTranslation ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             EN+CN
           </button>
@@ -181,7 +181,7 @@ defineExpose({
           class="relative p-3.5 rounded-xl transition-all duration-300 border flex items-start gap-3"
           :class="[
             activeSegmentId === s.id 
-              ? 'bg-white shadow-xl shadow-blue-500/5 border-blue-100 scale-[1.01]' 
+              ? 'bg-white shadow-xl shadow-amber-500/5 border-amber-100 scale-[1.01]' 
               : 'bg-white/50 border-transparent hover:bg-white hover:shadow-lg hover:border-gray-100'
           ]"
         >
@@ -211,8 +211,8 @@ defineExpose({
             <!-- Copy Button -->
             <button 
               @click="handleCopy(s, $event)"
-              class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 hover:bg-blue-50 group/copy"
-              :class="[copiedId === s.id ? 'text-green-500' : 'text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-blue-400']"
+              class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 hover:bg-amber-50 group/copy"
+              :class="[copiedId === s.id ? 'text-green-500' : 'text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-amber-500']"
               title="复制句子"
             >
               <svg v-if="copiedId !== s.id" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
@@ -240,7 +240,7 @@ defineExpose({
             <div 
               v-if="s.startTime !== undefined"
               class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300"
-              :class="activeSegmentId === s.id ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-400 opacity-0 group-hover:opacity-100'"
+              :class="activeSegmentId === s.id ? 'bg-amber-600 text-white' : 'bg-gray-100 text-gray-400 opacity-0 group-hover:opacity-100'"
             >
               <svg v-if="activeSegmentId !== s.id" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5">
                 <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />

@@ -328,8 +328,8 @@ onUnmounted(() => {
   <div class="lesson-page min-h-screen pb-44">
     <!-- Ambient Background -->
     <div class="fixed inset-0 -z-10 overflow-hidden">
-      <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-to-bl from-blue-400/10 via-indigo-300/5 to-transparent rounded-full blur-3xl"></div>
-      <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-tr from-violet-400/10 via-pink-300/5 to-transparent rounded-full blur-3xl"></div>
+      <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-to-bl from-amber-400/10 via-orange-300/5 to-transparent rounded-full blur-3xl"></div>
+      <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-tr from-rose-300/10 via-amber-200/5 to-transparent rounded-full blur-3xl"></div>
     </div>
 
     <LessonHeader 
@@ -380,15 +380,15 @@ onUnmounted(() => {
         <button 
           v-if="navigation.prev"
           @click="emit('select-course', navigation.prev)"
-          class="flex items-center gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-blue-400 hover:bg-white hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-500 group text-left"
+          class="flex items-center gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-amber-500/60 hover:bg-white hover:shadow-xl hover:shadow-amber-500/5 transition-all duration-500 group text-left"
         >
-          <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-blue-50 group-hover:text-blue-500 transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-amber-50 group-hover:text-amber-600 transition-all duration-500">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
           </div>
           <div class="overflow-hidden">
-            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1 group-hover:text-blue-400 transition-colors">Previous Lesson</div>
+            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1 group-hover:text-amber-500 transition-colors">Previous Lesson</div>
             <div class="text-base font-bold text-slate-700 group-hover:text-slate-900 transition-colors truncate">
               {{ navigation.prev.title }}: {{ navigation.prev.subtitle }}
             </div>
@@ -399,15 +399,15 @@ onUnmounted(() => {
         <button 
           v-if="navigation.next"
           @click="emit('select-course', navigation.next)"
-          class="flex items-center justify-end gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-indigo-400 hover:bg-white hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-500 group text-right"
+          class="flex items-center justify-end gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-slate-200 hover:border-amber-500/60 hover:bg-white hover:shadow-xl hover:shadow-amber-500/5 transition-all duration-500 group text-right"
         >
           <div class="overflow-hidden">
-            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1 group-hover:text-indigo-400 transition-colors">Next Lesson</div>
+            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1 group-hover:text-amber-500 transition-colors">Next Lesson</div>
             <div class="text-base font-bold text-slate-700 group-hover:text-slate-900 transition-colors truncate">
               {{ navigation.next.title }}: {{ navigation.next.subtitle }}
             </div>
           </div>
-          <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-indigo-50 group-hover:text-indigo-500 transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-400 group-hover:bg-amber-50 group-hover:text-amber-600 transition-all duration-500">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
@@ -419,7 +419,7 @@ onUnmounted(() => {
     <!-- Loading State -->
     <div v-else class="flex items-center justify-center min-h-[60vh]">
       <div class="flex flex-col items-center gap-4">
-        <div class="w-12 h-12 border-4 border-blue-500/20 border-t-blue-500 rounded-full animate-spin"></div>
+        <div class="w-12 h-12 border-4 border-amber-600/20 border-t-amber-600 rounded-full animate-spin"></div>
         <p class="text-sm font-bold text-slate-400 uppercase tracking-widest">Loading Lesson...</p>
       </div>
     </div>

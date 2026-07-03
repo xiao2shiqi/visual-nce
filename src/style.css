@@ -2,13 +2,15 @@
 
 @theme {
   --font-sans: "Inter", "Outfit", system-ui, sans-serif;
-  --color-primary: #3b82f6;
-  --color-secondary: #ec4899;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --color-primary: #c2703e;
+  --color-secondary: #7a8c5f;
 }
 
 :root {
-  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-  color: #1e293b;
+  /* 温暖纸质底色，贴合吉卜力水彩插画 */
+  background: linear-gradient(160deg, #fbf7ef 0%, #f6efe2 55%, #f2e9d8 100%);
+  color: #3f3529;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,26 +30,31 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: #d6c9b2;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: #bfae90;
 }
 
 /* 文字渐变效果类 */
 .text-gradient {
-  background: linear-gradient(to right, #3b82f6, #6366f1);
+  background: linear-gradient(to right, #c2703e, #a0522d);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+/* 衬线展示字体（英文标题用，呼应绘本感） */
+.font-display {
+  font-family: var(--font-display);
+}
+
 /* 玻璃态效果 */
 .glass {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 252, 245, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
