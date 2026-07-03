@@ -50,7 +50,7 @@ defineExpose({ audioPlayerRef });
 </script>
 
 <template>
-  <div class="col-span-5 sticky top-24 self-start">
+  <div>
 
     <!-- Movie Player Container -->
     <div class="relative group rounded-3xl overflow-hidden shadow-2xl shadow-slate-300/40 ring-1 ring-black/5 bg-black aspect-[4/3] cursor-pointer">
@@ -174,46 +174,21 @@ defineExpose({ audioPlayerRef });
       />
     </div>
 
-    <!-- Keyboard Shortcuts -->
-    <div class="mt-6 pt-5 border-t border-slate-200/60">
-      <div class="flex items-center gap-2 mb-3">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3 h-3 text-slate-400">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5 2.25 12l4.5 4.5m10.5-9 4.5 4.5-4.5 4.5m-9-1.5 3-6h3l3 6" />
-        </svg>
-        <span class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Keyboard Shortcuts</span>
-      </div>
-
-      <div class="grid grid-cols-2 gap-y-3 gap-x-6">
-        <div class="flex items-center justify-between group">
-          <span class="text-[10px] font-bold text-slate-500 group-hover:text-amber-700 transition-colors">Play / Pause</span>
-          <kbd class="min-w-[40px] text-center px-1.5 py-1 rounded-md border border-slate-200 bg-white text-[9px] font-black text-slate-600 shadow-sm ring-1 ring-slate-900/5 group-hover:border-amber-200 group-hover:text-amber-700 transition-all">Space</kbd>
-        </div>
-
-        <div class="flex items-center justify-between group">
-          <span class="text-[10px] font-bold text-slate-500 group-hover:text-amber-700 transition-colors">Repeat Line</span>
-          <kbd class="min-w-[40px] text-center px-1.5 py-1 rounded-md border border-slate-200 bg-white text-[9px] font-black text-slate-600 shadow-sm ring-1 ring-slate-900/5 group-hover:border-amber-200 group-hover:text-amber-700 transition-all">R</kbd>
-        </div>
-
-        <div class="flex items-center justify-between group">
-          <span class="text-[10px] font-bold text-slate-500 group-hover:text-amber-700 transition-colors">Prev / Next</span>
-          <div class="flex gap-1">
-            <kbd class="min-w-[20px] text-center px-1 py-1 rounded-md border border-slate-200 bg-white text-[10px] font-black text-slate-600 shadow-sm ring-1 ring-slate-900/5 group-hover:border-amber-200 group-hover:text-amber-700 transition-all">←</kbd>
-            <kbd class="min-w-[20px] text-center px-1 py-1 rounded-md border border-slate-200 bg-white text-[10px] font-black text-slate-600 shadow-sm ring-1 ring-slate-900/5 group-hover:border-amber-200 group-hover:text-amber-700 transition-all">→</kbd>
-          </div>
-        </div>
-
-        <div class="flex items-center justify-between group">
-          <span class="text-[10px] font-bold text-slate-500 group-hover:text-amber-700 transition-colors">Sentence Analysis</span>
-          <div class="flex items-center gap-1.5">
-            <span class="text-[9px] font-medium text-slate-400">Click</span>
-            <div class="w-5 h-5 rounded-md border border-slate-200 bg-white flex items-center justify-center text-slate-400 group-hover:border-amber-200 group-hover:text-amber-700 transition-all">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3 h-3">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Keyboard Shortcuts: 压缩成一行小字，把左栏空间让给语法地图 -->
+    <div class="mt-5 pt-4 border-t border-slate-200/60 flex items-center flex-wrap gap-x-4 gap-y-1.5 text-[10px] font-bold text-slate-400">
+      <span class="flex items-center gap-1.5">
+        <kbd class="px-1.5 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">Space</kbd>
+        播放/暂停
+      </span>
+      <span class="flex items-center gap-1.5">
+        <kbd class="px-1 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">←</kbd>
+        <kbd class="px-1 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">→</kbd>
+        上/下句
+      </span>
+      <span class="flex items-center gap-1.5">
+        <kbd class="px-1.5 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">R</kbd>
+        重复本句
+      </span>
     </div>
 
   </div>

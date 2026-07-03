@@ -431,6 +431,8 @@ onUnmounted(() => {
 
     <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
       <div class="grid grid-cols-12 gap-10">
+        <!-- 左栏：播放器 + 快捷键 + 语法地图，整体吸顶 -->
+        <div class="col-span-5 sticky top-24 self-start">
         <SceneViewer
           ref="sceneViewerRef"
           :current-image="currentImage"
@@ -449,8 +451,10 @@ onUnmounted(() => {
           }))"
           @timeupdate="handleTimeUpdate"
         />
+        <GrammarMap :lesson-id="lessonData.id" />
+        </div>
 
-        <DialogueScript 
+        <DialogueScript
           ref="scriptRef"
           :segments="lessonData.segments"
           :active-segment-id="activeSegmentId"
@@ -463,11 +467,8 @@ onUnmounted(() => {
         />
       </div>
 
-      <!-- Grammar Map -->
-      <GrammarMap :lesson-id="lessonData.id" />
-
       <!-- Quick Navigation -->
-      <div class="mt-20 pt-10 border-t border-slate-200/60 grid grid-cols-2 gap-6 animate-fade-in">
+      <div class="mt-12 pt-8 border-t border-slate-200/60 grid grid-cols-2 gap-6 animate-fade-in">
         <button 
           v-if="navigation.prev"
           @click="emit('select-course', navigation.prev)"
