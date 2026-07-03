@@ -340,7 +340,7 @@ onUnmounted(() => {
     />
 
     <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <div class="grid grid-cols-12 gap-10">
         <SceneViewer
           ref="sceneViewerRef"
           :current-image="currentImage"
@@ -376,7 +376,7 @@ onUnmounted(() => {
       <GrammarMap :lesson-id="lessonData.id" />
 
       <!-- Quick Navigation -->
-      <div class="mt-20 pt-10 border-t border-slate-200/60 grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in">
+      <div class="mt-20 pt-10 border-t border-slate-200/60 grid grid-cols-2 gap-6 animate-fade-in">
         <button 
           v-if="navigation.prev"
           @click="emit('select-course', navigation.prev)"
@@ -394,7 +394,7 @@ onUnmounted(() => {
             </div>
           </div>
         </button>
-        <div v-else class="hidden sm:block"></div>
+        <div v-else class="block"></div>
 
         <button 
           v-if="navigation.next"

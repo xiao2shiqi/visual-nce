@@ -38,10 +38,10 @@ defineExpose({
       leave-from-class="opacity-100 scale-100"
       leave-to-class="opacity-0 scale-95"
     >
-      <div v-if="isOpen" class="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-slate-500/75 backdrop-blur-sm">
+      <div v-if="isOpen" class="fixed inset-0 z-[100] flex items-center justify-center p-4 p-6 bg-slate-500/75 backdrop-blur-sm">
         
         <!-- Modal Panel -->
-        <div class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+        <div class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all my-8 w-full max-w-sm p-6">
           <div>
             <!-- Success/Status Icon -->
             <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
@@ -54,7 +54,7 @@ defineExpose({
               </svg>
             </div>
 
-            <div class="mt-3 text-center sm:mt-5">
+            <div class="mt-3 text-center mt-5">
               <h3 class="text-base font-semibold leading-6 text-gray-900" id="modal-title">
                 {{ progress < 100 ? 'Generating Video...' : 'Generation Complete' }}
               </h3>
@@ -69,7 +69,7 @@ defineExpose({
           </div>
 
           <!-- Progress Bar Section -->
-          <div class="mt-5 sm:mt-6">
+          <div class="mt-5 mt-6">
             <div class="flex justify-between items-center mb-2">
                <span class="text-xs font-medium text-gray-500 uppercase tracking-wider">Progress</span>
                <span class="text-xs font-bold text-green-600">{{ progress }}%</span>
@@ -83,7 +83,7 @@ defineExpose({
           </div>
 
           <!-- Hint Footer (Optional) -->
-          <div v-if="!isExporting && progress === 100" class="mt-5 sm:mt-6">
+          <div v-if="!isExporting && progress === 100" class="mt-5 mt-6">
             <button 
               type="button" 
               @click="close"

@@ -168,7 +168,7 @@ const features = [
       </div>
 
       <!-- Lessons Grid -->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 animate-slide-up" :key="activeBookId + 'grid'">
+      <div class="grid grid-cols-6 gap-6 animate-slide-up" :key="activeBookId + 'grid'">
         <div
           v-for="lesson in activeBook.lessons"
           :key="lesson.id"
@@ -242,7 +242,7 @@ const features = [
         <div class="text-center mb-10">
           <h2 class="font-display text-2xl text-stone-800">为什么选择 Visual NCE？</h2>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="grid grid-cols-2 gap-4">
           <div
             v-for="f in features"
             :key="f.title"
@@ -265,7 +265,7 @@ const features = [
     <!-- Footer / Project Info Section -->
     <footer class="border-t border-stone-200/60 bg-white/40 py-8 px-6">
       <div class="max-w-6xl mx-auto">
-        <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-stone-400">
+        <div class="flex flex-row justify-between items-center gap-4 text-stone-400">
           <p class="text-xs font-bold uppercase tracking-tighter">© 2025 Visual NCE Project</p>
           <div class="flex items-center gap-6 text-xs font-bold uppercase tracking-tighter">
             <span class="hover:text-primary cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">About & Disclaimer</span>

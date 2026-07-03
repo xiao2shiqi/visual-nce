@@ -58,7 +58,7 @@ const emit = defineEmits(['back', 'supportClick']);
         </button>
 
         <!-- Original Badge (optional, hidden on mobile) -->
-        <div v-if="badge" class="hidden lg:flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-amber-50 to-orange-50 rounded-full border border-amber-100/60">
+        <div v-if="badge" class="flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-amber-50 to-orange-50 rounded-full border border-amber-100/60">
           <div class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></div>
           <span class="text-[10px] font-bold text-amber-700 uppercase tracking-wider">{{ badge }}</span>
         </div>

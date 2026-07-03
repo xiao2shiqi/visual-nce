@@ -9,7 +9,6 @@ const props = defineProps<{
 type BookId = 'elem' | 'int';
 
 interface GrammarRef {
-  book: BookId;
   unit: number;
   title: string;
 }
@@ -21,25 +20,26 @@ interface GrammarPoint {
 
 const books = grammarMap.books as Record<BookId, { name: string; edition: string; en: string }>;
 
+// NCE1 只对应剑桥初级英语语法，NCE2 只对应剑桥中级英语语法
+const bookId = computed<BookId>(() => (props.lessonId.startsWith('nce1') ? 'elem' : 'int'));
+const book = computed(() => books[bookId.value]);
+
 const points = computed<GrammarPoint[]>(() => {
   const raw = (grammarMap.lessons as Record<string, any[]>)[props.lessonId];
   if (!raw) return [];
   return raw.map((p) => ({
     point: p.point,
-    refs: (Object.entries(p.refs) as [BookId, number[]][]).flatMap(([book, units]) =>
-      units.map((unit) => ({
-        book,
-        unit,
-        title: (grammarMap.unitTitles as Record<BookId, Record<string, string>>)[book][String(unit)] || ''
-      }))
-    )
+    refs: (p.refs[bookId.value] || []).map((unit: number) => ({
+      unit,
+      title: (grammarMap.unitTitles as Record<BookId, Record<string, string>>)[bookId.value][String(unit)] || ''
+    }))
   }));
 });
 </script>
 
 <template>
   <section v-if="points.length" class="mt-16 animate-fade-in">
-    <div class="flex items-baseline justify-between mb-5 flex-wrap gap-2">
+    <div class="flex items-baseline justify-between mb-5">
       <div class="flex items-center gap-3">
         <div class="w-9 h-9 rounded-xl bg-amber-100 flex items-center justify-center text-amber-600">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
@@ -49,11 +49,11 @@ const points = computed<GrammarPoint[]>(() => {
         <h2 class="text-lg font-black text-slate-800">本课语法地图</h2>
       </div>
       <p class="text-xs text-slate-400">
-        对应《{{ books.elem.name }}》（{{ books.elem.edition }}）与《{{ books.int.name }}》（{{ books.int.edition }}）的章节
+        对应《{{ book.name }}》（{{ book.edition }}）章节
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="grid grid-cols-2 gap-4">
       <div
         v-for="(p, i) in points"
         :key="i"
@@ -63,14 +63,11 @@ const points = computed<GrammarPoint[]>(() => {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="ref in p.refs"
-            :key="ref.book + ref.unit"
-            class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-semibold border"
-            :class="ref.book === 'elem'
-              ? 'bg-emerald-50 text-emerald-700 border-emerald-200/70'
-              : 'bg-indigo-50 text-indigo-700 border-indigo-200/70'"
-            :title="`${books[ref.book].name}（${books[ref.book].edition}）Unit ${ref.unit}`"
+            :key="ref.unit"
+            class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-semibold border bg-amber-50 text-amber-800 border-amber-200/70"
+            :title="`${book.name}（${book.edition}）Unit ${ref.unit}`"
           >
-            <span class="font-black">{{ ref.book === 'elem' ? '初级' : '中级' }} U{{ ref.unit }}</span>
+            <span class="font-black">Unit {{ ref.unit }}</span>
             <span class="opacity-70 font-medium">{{ ref.title }}</span>
           </span>
         </div>
@@ -78,8 +75,7 @@ const points = computed<GrammarPoint[]>(() => {
     </div>
 
     <p class="mt-4 text-[11px] text-slate-400 leading-relaxed">
-      标签含义：<span class="font-semibold text-emerald-600">初级</span> = 剑桥初级英语语法（第三版），
-      <span class="font-semibold text-indigo-600">中级</span> = 剑桥中级英语语法（第四版）。学完本课后，可翻到对应 Unit 做配套练习加深理解。
+      学完本课后，可翻到《{{ book.name }}》（{{ book.edition }}）对应 Unit 做配套练习加深理解。
     </p>
   </section>
 </template>

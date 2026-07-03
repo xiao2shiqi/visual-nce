@@ -112,7 +112,7 @@ const speakWord = (word: string) => {
                 词汇详解
                 <span class="text-[9px] font-medium text-slate-400 normal-case tracking-normal ml-1">点击发音</span>
               </h5>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="grid grid-cols-2 gap-3">
                 <div 
                   v-for="(word, i) in segment.analysis.words"
                   :key="i"

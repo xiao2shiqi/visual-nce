@@ -18,7 +18,7 @@ defineExpose({ openAbout });
   <Teleport to="body">
     <Transition name="fade">
       <div v-if="showAboutModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm" @click.self="closeAbout">
-        <div class="bg-white w-full max-w-2xl rounded-3xl shadow-2xl p-8 md:p-10 relative overflow-hidden animate-scale-up">
+        <div class="bg-white w-full max-w-2xl rounded-3xl shadow-2xl p-8 p-10 relative overflow-hidden animate-scale-up">
           
           <!-- Close Button -->
           <button @click="closeAbout" class="absolute top-4 right-4 p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-400 hover:text-slate-600">
