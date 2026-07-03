@@ -1,29 +1,47 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import type { Segment } from '../types/lesson';
 import SentenceAnalysis from './SentenceAnalysis.vue';
 
 /**
  * DialogueScript 组件
- * 显示对话脚本，支持播放控制、翻译切换和语法分析
+ * 显示对话脚本，支持播放控制、翻译切换、盲听遮罩和语法分析
  * @author xiaobin
  */
 
 const props = defineProps<{
   segments: Segment[];
   activeSegmentId: string | null;
-  playMode: 'continuous' | 'single' | 'repeat';
+  playMode: 'continuous' | 'single' | 'repeat' | 'shadowing';
   playbackRate: number;
   showTranslation: boolean;
+  blindMode: boolean;
   playbackRates: number[];
 }>();
 
 const emit = defineEmits([
-  'update:playMode', 
-  'update:playbackRate', 
-  'update:showTranslation', 
+  'update:playMode',
+  'update:playbackRate',
+  'update:showTranslation',
+  'update:blindMode',
   'segmentClick'
 ]);
+
+// 盲听模式：已手动揭示的句子集合；切换课程或关闭盲听时重置
+const revealedIds = ref(new Set<string>());
+
+watch(() => props.segments, () => { revealedIds.value = new Set(); });
+watch(() => props.blindMode, () => { revealedIds.value = new Set(); });
+
+const isMasked = (s: Segment) => props.blindMode && !revealedIds.value.has(s.id);
+
+const revealSegment = (s: Segment, event: Event) => {
+  // 点击被遮罩的文字只揭示，不触发跳播
+  event.stopPropagation();
+  const next = new Set(revealedIds.value);
+  next.add(s.id);
+  revealedIds.value = next;
+};
 
 // 预定义的说话人颜色调色板（每个人一个独特颜色）
 const speakerColorPalette = [
@@ -126,12 +144,39 @@ defineExpose({
           >
             点读
           </button>
-          <button 
+          <button
             @click="emit('update:playMode', 'repeat')"
             class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
             :class="playMode === 'repeat' ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
           >
             循环
+          </button>
+          <button
+            @click="emit('update:playMode', 'shadowing')"
+            class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
+            :class="playMode === 'shadowing' ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
+            title="每句播完自动停顿，留出开口跟读的时间"
+          >
+            跟读
+          </button>
+        </div>
+
+        <!-- Blind Listening Toggle -->
+        <div class="flex items-center bg-gray-100/80 p-0.5 rounded-lg border border-gray-200/50">
+          <button
+            @click="emit('update:blindMode', !blindMode)"
+            class="px-3 py-1.5 text-xs font-bold rounded-md transition-all duration-200 flex items-center gap-1.5"
+            :class="blindMode ? 'bg-white text-amber-700 shadow-sm' : 'text-gray-400 hover:text-gray-600'"
+            title="盲听模式：隐藏字幕，先听后看；点击句子文字可单独揭示"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5">
+              <path v-if="blindMode" stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+              <template v-else>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </template>
+            </svg>
+            盲听
           </button>
         </div>
 
@@ -191,21 +236,24 @@ defineExpose({
                 class="text-sm leading-relaxed transition-colors duration-300"
                 :class="activeSegmentId === s.id ? 'text-gray-900 font-semibold' : 'text-gray-600'"
               >
-                <span 
-                  v-if="s.speaker" 
+                <span
+                  v-if="s.speaker"
                   class="inline-block mr-1.5 px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase shadow-sm select-none"
                   :class="getSpeakerColorClass(s.speaker)"
                 >
                   {{ s.speaker }}
                 </span>
-                {{ s.text }}
+                <span
+                  :class="isMasked(s) ? 'blur-[6px] select-none cursor-help transition-all duration-300' : 'transition-all duration-300'"
+                  :title="isMasked(s) ? '点击揭示这句' : undefined"
+                  @click="isMasked(s) && revealSegment(s, $event)"
+                >{{ s.text }}</span>
               </p>
-              <p 
-                v-if="showTranslation" 
+              <p
+                v-if="showTranslation && !isMasked(s)"
                 class="text-[11px] mt-1 text-gray-400 font-medium leading-relaxed animate-fade-in"
               >
-                {{ s.translation }}
-              </p>
+                {{ s.translation }}</p>
             </div>
             
             <!-- Copy Button -->

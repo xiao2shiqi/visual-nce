@@ -35,6 +35,27 @@ const activeBook = computed(() => {
   return (book || curriculum.books[0]) as typeof curriculum.books[0];
 });
 
+// 继续学习：读取上次学习记录（由 LessonView 写入 localStorage）
+const lastStudy = (() => {
+  try {
+    const raw = localStorage.getItem('vnce_last_lesson');
+    if (!raw) return null;
+    const saved = JSON.parse(raw);
+    for (const book of curriculum.books) {
+      const lesson = book.lessons.find((l: any) => l.id === saved.id);
+      if (lesson) return { lesson, bookId: book.id, time: saved.time as number };
+    }
+  } catch { /* 记录损坏则忽略 */ }
+  return null;
+})();
+
+const formatTime = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+const continueStudy = () => {
+  if (!lastStudy) return;
+  emit('select-course', { lesson: lastStudy.lesson, bookId: lastStudy.bookId });
+};
+
 const handleLessonClick = (lesson: any) => {
   if (lesson.image && lesson.image.includes('coming-soon')) {
     showComingSoonToast.value = true;
@@ -146,6 +167,24 @@ const features = [
 
     <!-- Course Selection Section -->
     <section class="max-w-6xl mx-auto px-6 pb-24 pt-4">
+      <!-- Continue Learning -->
+      <div v-if="lastStudy" class="flex justify-center mb-8 animate-fade-in">
+        <button
+          @click="continueStudy"
+          class="group flex items-center gap-3 pl-4 pr-5 py-2.5 rounded-full bg-white/80 border border-amber-200/70 shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300"
+        >
+          <span class="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center text-amber-700">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 translate-x-[1px]">
+              <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
+            </svg>
+          </span>
+          <span class="text-left">
+            <span class="block text-[10px] font-bold text-stone-400 uppercase tracking-widest">继续学习 · 上次到 {{ formatTime(lastStudy.time) }}</span>
+            <span class="block text-sm font-bold text-stone-700 group-hover:text-primary transition-colors">{{ lastStudy.lesson.title }}: {{ lastStudy.lesson.subtitle }}</span>
+          </span>
+        </button>
+      </div>
+
       <!-- Book Tabs -->
       <div class="flex flex-wrap justify-center gap-2 mb-10 px-2 py-2 rounded-full bg-white/60 backdrop-blur-sm w-fit mx-auto border border-stone-200/70 shadow-sm">
         <button
@@ -269,6 +308,7 @@ const features = [
           <p class="text-xs font-bold uppercase tracking-tighter">© 2025 Visual NCE Project</p>
           <div class="flex items-center gap-6 text-xs font-bold uppercase tracking-tighter">
             <span class="hover:text-primary cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">About & Disclaimer</span>
+            <span class="hover:text-primary cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">作者微信</span>
             <a href="https://github.com/xiao2shiqi/visual-nce" target="_blank" class="hover:text-primary cursor-pointer transition-colors">GitHub</a>
             <span class="hover:text-primary cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">Author: xiaobin</span>
           </div>

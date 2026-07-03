@@ -23,7 +23,9 @@ const donationModalRef = ref<any>(null);
 const STORAGE_KEYS = {
   PLAYBACK_RATE: 'vnce_playback_rate',
   PLAY_MODE: 'vnce_play_mode',
-  SHOW_TRANSLATION: 'vnce_show_translation'
+  SHOW_TRANSLATION: 'vnce_show_translation',
+  BLIND_MODE: 'vnce_blind_mode',
+  LAST_LESSON: 'vnce_last_lesson'
 };
 
 const currentTime = ref(0);
@@ -31,11 +33,57 @@ const playbackRate = ref(Number(localStorage.getItem(STORAGE_KEYS.PLAYBACK_RATE)
 const playbackRates = [0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
 const playMode = ref((localStorage.getItem(STORAGE_KEYS.PLAY_MODE) as any) || 'continuous');
 const showTranslation = ref(localStorage.getItem(STORAGE_KEYS.SHOW_TRANSLATION) === 'true');
+const blindMode = ref(localStorage.getItem(STORAGE_KEYS.BLIND_MODE) === 'true');
 
 // 持久化用户设置
 watch(playbackRate, (val) => localStorage.setItem(STORAGE_KEYS.PLAYBACK_RATE, val.toString()));
 watch(playMode, (val) => localStorage.setItem(STORAGE_KEYS.PLAY_MODE, val));
 watch(showTranslation, (val) => localStorage.setItem(STORAGE_KEYS.SHOW_TRANSLATION, val.toString()));
+watch(blindMode, (val) => localStorage.setItem(STORAGE_KEYS.BLIND_MODE, val.toString()));
+
+// ---- 学习进度记忆（首页"继续学习"的数据源）----
+let lastProgressSave = 0;
+const saveProgress = (time: number) => {
+  if (!lessonData.value?.id || time < 3) return;
+  localStorage.setItem(STORAGE_KEYS.LAST_LESSON, JSON.stringify({
+    id: lessonData.value.id,
+    time: Math.floor(time),
+    updatedAt: Date.now()
+  }));
+};
+
+// ---- 跟读模式：每句播完自动停顿一个句长，再续播 ----
+let shadowTimer: number | null = null;
+let shadowLastSegId: string | null = null;
+
+const clearShadowTimer = () => {
+  if (shadowTimer !== null) {
+    clearTimeout(shadowTimer);
+    shadowTimer = null;
+  }
+};
+
+const handleShadowing = (time: number) => {
+  const segs = lessonData.value?.segments || [];
+  const cur = segs.find((s: any) => s.startTime !== undefined && time >= s.startTime && time <= s.endTime);
+  const audioPlayer = sceneViewerRef.value?.audioPlayerRef;
+  const audioEl = audioPlayer?.innerAudio;
+
+  // 刚离开上一句（播完或跨句）且没有等待中的停顿 → 暂停，留出跟读时间
+  if (shadowLastSegId && cur?.id !== shadowLastSegId && shadowTimer === null && audioEl && !audioEl.paused) {
+    const prev = segs.find((s: any) => s.id === shadowLastSegId);
+    if (prev) {
+      audioPlayer.pause();
+      // 停顿时长 = 原句时长（随倍速换算），最少 1.5 秒
+      const gapMs = Math.max(1.5, (prev.endTime - prev.startTime) / playbackRate.value) * 1000;
+      shadowTimer = window.setTimeout(() => {
+        shadowTimer = null;
+        if (playMode.value === 'shadowing') audioEl.play();
+      }, gapMs);
+    }
+  }
+  shadowLastSegId = cur?.id ?? shadowLastSegId;
+};
 
 // 响应式加载课程数据
 const lessonData = shallowRef<any>(null);
@@ -64,6 +112,28 @@ const loadLessonData = async (id: string) => {
     singlePlayStartTime.value = null;
     singlePlayEndTime.value = null;
     stopMonitoring();
+    clearShadowTimer();
+    shadowLastSegId = null;
+    lastProgressSave = 0;
+
+    // 续播：如果这就是上次学习的课，把音频定位到上次的位置（不自动播放）
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEYS.LAST_LESSON) || 'null');
+      if (saved?.id === id && saved.time > 5) {
+        nextTick(() => {
+          const audioEl = sceneViewerRef.value?.audioPlayerRef?.innerAudio;
+          if (!audioEl) return;
+          const seek = () => {
+            if (saved.time < (audioEl.duration || Infinity) - 3) {
+              audioEl.currentTime = saved.time;
+              currentTime.value = saved.time;
+            }
+          };
+          if (audioEl.readyState > 0) seek();
+          else audioEl.addEventListener('loadedmetadata', seek, { once: true });
+        });
+      }
+    } catch { /* 记录损坏则忽略 */ }
   } catch (err) {
     console.error(`Failed to load lesson data for ${id}:`, err);
   }
@@ -146,6 +216,16 @@ const singlePlayEndTime = ref<number | null>(null);
 
 const handleTimeUpdate = (time: number) => {
   currentTime.value = time;
+
+  // 每 5 秒记录一次学习进度
+  if (Math.abs(time - lastProgressSave) > 5) {
+    lastProgressSave = time;
+    saveProgress(time);
+  }
+
+  if (playMode.value === 'shadowing') {
+    handleShadowing(time);
+  }
 };
 
 // 核心逻辑：利用 requestAnimationFrame 实现高精度的停止控制
@@ -199,9 +279,12 @@ const handleSegmentClick = (segment: any) => {
       audioPlayer.playAt(segment.startTime);
       nextTick(() => startMonitoring());
     } else {
-      lastClickedSegmentId.value = null; // Clear in continuous mode
+      // continuous / shadowing 模式：点句即从该句起连续播放
+      lastClickedSegmentId.value = null;
       singlePlayStartTime.value = null;
       singlePlayEndTime.value = null;
+      clearShadowTimer();
+      shadowLastSegId = segment.id;
       audioPlayer.playAt(segment.startTime);
     }
   } else {
@@ -216,7 +299,11 @@ const handleSegmentClick = (segment: any) => {
 
 // 模式切换时清理
 watch(playMode, (newMode) => {
-  if (newMode === 'continuous') {
+  if (newMode !== 'shadowing') {
+    clearShadowTimer();
+    shadowLastSegId = null;
+  }
+  if (newMode === 'continuous' || newMode === 'shadowing') {
     lastClickedSegmentId.value = null; // Clear highlight when switching to continuous
     singlePlayStartTime.value = null;
     singlePlayEndTime.value = null;
@@ -321,6 +408,9 @@ onMounted(() => {
 
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeyDown);
+  clearShadowTimer();
+  // 离开课程时保存最终进度
+  saveProgress(currentTime.value);
 });
 </script>
 
@@ -367,6 +457,7 @@ onUnmounted(() => {
           v-model:play-mode="playMode"
           v-model:playback-rate="playbackRate"
           v-model:show-translation="showTranslation"
+          v-model:blind-mode="blindMode"
           :playback-rates="playbackRates"
           @segment-click="handleSegmentClick"
         />

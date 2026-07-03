@@ -62,17 +62,27 @@ defineExpose({ openAbout });
             <!-- Contact Section -->
             <div class="text-center space-y-4">
               <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">联系开发者 / Contact</p>
-              
+
+              <!-- WeChat QR -->
+              <div class="flex flex-col items-center gap-2">
+                <img
+                  src="/images/wechat_qr.png"
+                  alt="作者微信二维码"
+                  loading="lazy"
+                  class="w-44 h-44 object-contain rounded-2xl border border-slate-100 shadow-sm bg-white"
+                />
+                <p class="text-xs text-slate-400">微信扫码加好友，进入学习交流群</p>
+              </div>
+
               <div class="space-y-2">
                 <div>
                   <a href="https://blog.xiao27.com" target="_blank" class="text-blue-600 font-bold hover:underline transition-all">
                     https://blog.xiao27.com
                   </a>
                 </div>
-                
+
                 <div class="text-sm font-medium text-slate-600">
                   <span class="font-bold text-slate-800">WeChat:</span> 18198971094
-                  <span class="text-xs text-slate-400 ml-1">(加好友进入学习交流群)</span>
                 </div>
 
                 <div>
