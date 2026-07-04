@@ -58,5 +58,12 @@ nce2_gen_output*.txt
 nce1_missing_images_prompts.md
 
 # Python scripts (image generation / analysis tools, not part of the build)
-scripts/
+scripts/*
 !scripts/validate_lessons.py
+# 生图管线脚本是 CLAUDE.md §1 协议的参考实现，纳入跟踪
+!scripts/compress_images.py
+!scripts/nce1/
+scripts/nce1/*
+!scripts/nce1/generate_l137_storyboard.py
+!scripts/nce1/generate_l139_storyboard.py
+!scripts/nce1/generate_l141_storyboard.py
