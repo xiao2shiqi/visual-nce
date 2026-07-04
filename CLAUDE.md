@@ -2,6 +2,17 @@
 
 > **Language note**: Please always use simple English. I am learning English.
 
+## 0. 生图管线（2026-07-04 起，优先于 §1 的生成方式描述）
+
+- **Gemini API key 通道已废**（账号区域限制，Gemini CLI OAuth 同样报 UNSUPPORTED_LOCATION）。
+- **现行通道：Antigravity CLI（`agy`）**，Google 账号 OAuth + AI Pro 会员额度。非交互调用：
+  `agy --add-dir . --dangerously-skip-permissions --print-timeout 8m -p "<prompt>"`（cwd 设为课程图片目录）。
+- **一致性的关键是「编辑模式」而非「文生图 + 参考描述」**：prompt 必须声明
+  `CRITICAL: image EDITING task. Pass scene1.webp as an INPUT IMAGE to your image editing tool so the model sees the pixels.`
+  然后用「keep the painting exactly as it is + Make ONLY these changes: …」的句式。实测房间与人物可做到近乎零漂移（L137 四帧一次通过）。
+- **坑**：① agy 常把输出丢到 `~/.gemini/antigravity-cli/scratch/`，跑完必须检查并拷回；② 偶发输出 1024x1024 正方形，会被播放器裁掉顶部气泡，需在 prompt 里加 `keep the exact same wide landscape framing`（标准尺寸 1376x768）；③ 输出为 PNG，入库前转 WebP q82。
+- 参考实现：`scripts/nce1/generate_l137_storyboard.py`。§1 的 Master Specs / 叙事 / 验收规则仍然全部适用。
+
 ## 1. 图像风格与生成协议（强制性）
 
 - **视觉风格**：严格执行带有水彩质感的吉卜力工作室（Studio Ghibli）插画风格。严禁写实、3D 渲染或非吉卜力风格。
