@@ -25,7 +25,8 @@ const STORAGE_KEYS = {
   PLAY_MODE: 'vnce_play_mode',
   SHOW_TRANSLATION: 'vnce_show_translation',
   BLIND_MODE: 'vnce_blind_mode',
-  LAST_LESSON: 'vnce_last_lesson'
+  LAST_LESSON: 'vnce_last_lesson',
+  COMPLETED: 'vnce_completed'
 };
 
 const currentTime = ref(0);
@@ -50,6 +51,33 @@ const saveProgress = (time: number) => {
     time: Math.floor(time),
     updatedAt: Date.now()
   }));
+};
+
+// ---- 课程完成：播放到 95% 记为完成，弹出完成卡（每次进课只弹一次）----
+const showCompletionCard = ref(false);
+const showWechatQr = ref(false);
+let completionShownThisVisit = false;
+
+const markCompleted = (id: string) => {
+  try {
+    const set = new Set(JSON.parse(localStorage.getItem(STORAGE_KEYS.COMPLETED) || '[]'));
+    if (!set.has(id)) {
+      set.add(id);
+      localStorage.setItem(STORAGE_KEYS.COMPLETED, JSON.stringify([...set]));
+    }
+  } catch { /* 存储异常时静默跳过 */ }
+};
+
+const checkCompletion = (time: number) => {
+  if (completionShownThisVisit || !lessonData.value?.id) return;
+  const audioEl = sceneViewerRef.value?.audioPlayerRef?.innerAudio;
+  const duration = audioEl?.duration;
+  if (!duration || !isFinite(duration)) return;
+  if (time / duration >= 0.95) {
+    completionShownThisVisit = true;
+    markCompleted(lessonData.value.id);
+    showCompletionCard.value = true;
+  }
 };
 
 // ---- 跟读模式：每句播完自动停顿一个句长，再续播 ----
@@ -115,6 +143,9 @@ const loadLessonData = async (id: string) => {
     clearShadowTimer();
     shadowLastSegId = null;
     lastProgressSave = 0;
+    completionShownThisVisit = false;
+    showCompletionCard.value = false;
+    showWechatQr.value = false;
 
     // 续播：如果这就是上次学习的课，把音频定位到上次的位置（不自动播放）
     try {
@@ -226,6 +257,8 @@ const handleTimeUpdate = (time: number) => {
   if (playMode.value === 'shadowing') {
     handleShadowing(time);
   }
+
+  checkCompletion(time);
 };
 
 // 核心逻辑：利用 requestAnimationFrame 实现高精度的停止控制
@@ -508,8 +541,58 @@ onUnmounted(() => {
       </div>
     </main>
 
+    <!-- Completion Card：播放完成的轻量提示，右下角滑入 -->
+    <Transition name="completion">
+      <div
+        v-if="showCompletionCard"
+        class="fixed bottom-6 right-6 z-40 w-72 rounded-2xl bg-white/95 backdrop-blur-sm border border-amber-200/70 shadow-xl shadow-amber-900/10 p-5"
+      >
+        <button
+          @click="showCompletionCard = false"
+          class="absolute top-3 right-3 w-6 h-6 rounded-full flex items-center justify-center text-slate-300 hover:text-slate-500 hover:bg-slate-100 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-9 h-9 rounded-full bg-amber-600 flex items-center justify-center shadow-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white" class="w-4.5 h-4.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+            </svg>
+          </div>
+          <div>
+            <p class="text-sm font-black text-slate-800">本课完成</p>
+            <p class="text-[11px] text-slate-400">已记入学习进度</p>
+          </div>
+        </div>
+
+        <button
+          v-if="navigation.next"
+          @click="emit('select-course', navigation.next)"
+          class="w-full py-2.5 rounded-xl bg-amber-600 text-white text-sm font-bold hover:bg-amber-700 transition-colors"
+        >
+          下一课：{{ navigation.next.title }} →
+        </button>
+
+        <button
+          @click="showWechatQr = !showWechatQr"
+          class="mt-3 w-full text-center text-[11px] text-slate-400 hover:text-amber-700 transition-colors"
+        >
+          觉得有用？加作者微信交流学习
+        </button>
+        <img
+          v-if="showWechatQr"
+          src="/images/wechat_qr.png"
+          alt="作者微信"
+          class="mt-2 w-40 mx-auto rounded-xl border border-slate-100"
+        />
+      </div>
+    </Transition>
+
     <!-- Loading State -->
-    <div v-else class="flex items-center justify-center min-h-[60vh]">
+    <div v-if="!lessonData" class="flex items-center justify-center min-h-[60vh]">
       <div class="flex flex-col items-center gap-4">
         <div class="w-12 h-12 border-4 border-amber-600/20 border-t-amber-600 rounded-full animate-spin"></div>
         <p class="text-sm font-bold text-slate-400 uppercase tracking-widest">Loading Lesson...</p>
@@ -520,6 +603,18 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
+/* 完成卡滑入动画 */
+.completion-enter-active,
+.completion-leave-active {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.completion-enter-from,
+.completion-leave-to {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
 .lesson-page {
   background: linear-gradient(to bottom, #fafbfc, #f5f7fa);
 }

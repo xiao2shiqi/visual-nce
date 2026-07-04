@@ -69,6 +69,18 @@ const handleSelectCourse = (payload: any) => {
   currentView.value = 'lesson';
 };
 
+// 手机误入提示（本站不做移动端适配，见 CLAUDE.md）
+const showMobileNotice = ref(
+  window.innerWidth < 820 &&
+  window.matchMedia('(pointer: coarse)').matches &&
+  !sessionStorage.getItem('vnce_mobile_notice_dismissed')
+);
+
+const dismissMobileNotice = () => {
+  showMobileNotice.value = false;
+  sessionStorage.setItem('vnce_mobile_notice_dismissed', '1');
+};
+
 const handleBackToHome = () => {
   currentView.value = 'home';
   selectedCourse.value = null;
@@ -91,6 +103,13 @@ onUnmounted(() => {
 
 <template>
   <main class="app-container">
+    <div
+      v-if="showMobileNotice"
+      class="sticky top-0 z-50 flex items-center justify-center gap-3 px-4 py-2.5 bg-stone-800 text-amber-50 text-xs"
+    >
+      <span>本站是桌面端学习工具，建议用电脑访问以获得完整体验</span>
+      <button @click="dismissMobileNotice" class="font-bold underline underline-offset-2">知道了</button>
+    </div>
     <Transition name="page" mode="out-in">
       <HomeView
         v-if="currentView === 'home'"

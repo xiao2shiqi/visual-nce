@@ -53,19 +53,26 @@ const speakerColorPalette = [
   { bg: 'bg-cyan-100', text: 'text-cyan-600' },      // 第6个说话人
 ];
 
+// 台词的角色名：数据里存于 role 字段（speaker 为历史字段，兼容读取）。
+// Narrator（叙述/报课名）不显示标签，避免叙述课每行重复噪音。
+const roleOf = (s: Segment): string | null => {
+  const r = (s as any).speaker || (s as any).role;
+  return r && r !== 'Narrator' ? r : null;
+};
+
 // 计算说话人与颜色的映射关系（按出场顺序分配）
 const speakerColorMap = computed(() => {
   const map = new Map<string, { bg: string; text: string }>();
   let colorIndex = 0;
-  
+
   for (const segment of props.segments) {
-    const speaker = segment.speaker;
+    const speaker = roleOf(segment);
     if (speaker && !map.has(speaker)) {
       map.set(speaker, speakerColorPalette[colorIndex % speakerColorPalette.length]!);
       colorIndex++;
     }
   }
-  
+
   return map;
 });
 
@@ -220,11 +227,11 @@ defineExpose({
                 :class="activeSegmentId === s.id ? 'text-gray-900 font-semibold' : 'text-gray-600'"
               >
                 <span
-                  v-if="s.speaker"
+                  v-if="roleOf(s)"
                   class="inline-block mr-1.5 px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase shadow-sm select-none"
-                  :class="getSpeakerColorClass(s.speaker)"
+                  :class="getSpeakerColorClass(roleOf(s)!)"
                 >
-                  {{ s.speaker }}
+                  {{ roleOf(s) }}
                 </span>
                 <span
                   :class="isMasked(s) ? 'blur-[6px] select-none cursor-help transition-all duration-300' : 'transition-all duration-300'"

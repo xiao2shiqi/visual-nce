@@ -51,6 +51,24 @@ const lastStudy = (() => {
 
 const formatTime = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
 
+// 已完成课程集合（LessonView 播放到 95% 时写入）
+const completedSet = (() => {
+  try {
+    return new Set<string>(JSON.parse(localStorage.getItem('vnce_completed') || '[]'));
+  } catch {
+    return new Set<string>();
+  }
+})();
+
+const isCompleted = (lessonId: string) => completedSet.has(lessonId);
+
+// 当前册的学习进度
+const bookProgress = computed(() => {
+  const lessons = activeBook.value.lessons;
+  const done = lessons.filter((l: any) => completedSet.has(l.id)).length;
+  return { done, total: lessons.length, pct: lessons.length ? Math.round(done / lessons.length * 100) : 0 };
+});
+
 const continueStudy = () => {
   if (!lastStudy) return;
   emit('select-course', { lesson: lastStudy.lesson, bookId: lastStudy.bookId });
@@ -204,6 +222,14 @@ const features = [
       <div class="text-center animate-fade-in mb-12" :key="activeBookId">
         <h2 class="font-display text-3xl text-stone-800 mb-3">{{ activeBook.title }}</h2>
         <p class="text-stone-500">{{ activeBook.description }}</p>
+
+        <!-- 学习进度（有记录才显示，保持首屏干净） -->
+        <div v-if="bookProgress.done > 0" class="mt-5 flex items-center justify-center gap-3">
+          <div class="w-48 h-1.5 rounded-full bg-stone-200/80 overflow-hidden">
+            <div class="h-full rounded-full bg-amber-600 transition-all duration-500" :style="{ width: bookProgress.pct + '%' }"></div>
+          </div>
+          <span class="text-xs font-semibold text-stone-500">已学 {{ bookProgress.done }} / {{ bookProgress.total }}</span>
+        </div>
       </div>
 
       <!-- Lessons Grid -->
@@ -228,6 +254,17 @@ const features = [
 
             <!-- Overlay -->
             <div class="absolute inset-0 bg-gradient-to-t from-stone-900/85 via-stone-900/10 to-transparent"></div>
+
+            <!-- Completed Badge -->
+            <div
+              v-if="isCompleted(lesson.id)"
+              class="absolute top-2.5 right-2.5 w-6 h-6 rounded-full bg-amber-500 shadow-md flex items-center justify-center"
+              title="已完成"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.5" stroke="white" class="w-3 h-3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
+            </div>
 
             <!-- Content -->
             <div class="absolute inset-0 p-4 flex flex-col justify-end">
