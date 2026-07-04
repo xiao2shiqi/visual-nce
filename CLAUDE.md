@@ -42,7 +42,7 @@ Save as <frame_id>.png in the current directory.
 
 1. **scratch 目录**：agy 常把输出存到 `~/.gemini/antigravity-cli/scratch/` 而不是 cwd，每帧跑完必须检查并拷回。
 2. **假文件**：额度耗尽时 agy 可能把输入图复制成输出文件名——**字节数与锚点图完全相同即为假文件**，入库前必须比对（`ls -la` 看 size 或哈希）。
-3. **额度锁**：连续生成会触发约 4.5 小时的 quota lock（Max 一晚约可出 10+ 帧）。批量任务要按课分批，锁了就记录进度等重置。
+3. **额度锁**：连续生成触发约 4.5 小时的 quota lock。实测单窗口 12–20 帧（保守按 15 规划）；agent 的找文件/读图等中间步骤同样耗额度，prompt 用绝对路径+独特文件名可减少内耗。锁定表现有两种：假文件（复制输入图冒充输出，靠字节数比对识别）或直接超时。批量任务按课分批，锁了记录进度等重置。
 4. **方图**：偶发输出 1024x1024 正方形，播放器会裁掉顶部（气泡最常受害）。prompt 里必须带 `keep the exact same wide landscape framing`；出图后校验尺寸应为 1376x768。
 5. **格式**：输出为 PNG，入库前转 WebP（`PIL: quality=82, method=6`），命名 `<frame_id>.webp`。
 
