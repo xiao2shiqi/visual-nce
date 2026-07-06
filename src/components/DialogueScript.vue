@@ -138,7 +138,10 @@ defineExpose({
   <div class="col-span-7">
     <!-- Section Title & Controls: 单行布局，高频的播放模式用分段控件，低频设置降级为小图标 -->
     <div class="flex flex-row items-center justify-between gap-3 mb-4">
-      <h2 class="text-sm font-bold text-gray-900 uppercase tracking-wide whitespace-nowrap">Dialogue Script</h2>
+      <div class="flex items-baseline gap-2 whitespace-nowrap min-w-0">
+        <h2 class="text-sm font-bold text-gray-900 uppercase tracking-wide">Dialogue Script</h2>
+        <span class="text-[11px] text-gray-400 font-medium truncate">点击单词查欧路词典</span>
+      </div>
 
       <div class="flex items-center gap-2">
         <!-- Play Mode Toggle (高频操作，保留分段控件) -->
@@ -252,7 +255,7 @@ defineExpose({
                   @click="isMasked(s) && revealSegment(s, $event)"
                 ><template v-for="(t, i) in tokenize(s.text)" :key="i"><span
                     v-if="isWordToken(t)"
-                    class="cursor-pointer rounded-sm transition-colors hover:text-amber-700 hover:bg-amber-100/70"
+                    :class="isMasked(s) ? undefined : 'lookup-word'"
                     :title="isMasked(s) ? undefined : `查词典：${t}`"
                     @click="handleWordClick(s, t, $event)"
                   >{{ t }}</span><template v-else>{{ t }}</template></template></span>
@@ -303,6 +306,22 @@ defineExpose({
 <style scoped>
 .script-card {
   -webkit-tap-highlight-color: transparent;
+}
+/* 可查词的单词：悬停句子时全句单词浮现浅虚线（提示可点），
+   悬停单词本身时琥珀色高亮 + 加深虚线 */
+.lookup-word {
+  cursor: pointer;
+  border-bottom: 1px dotted transparent;
+  border-radius: 2px;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+.script-card:hover .lookup-word {
+  border-bottom-color: #cbd5e1; /* slate-300 */
+}
+.lookup-word:hover {
+  color: #b45309;               /* amber-700 */
+  background-color: rgb(254 243 199 / 0.7); /* amber-100/70 */
+  border-bottom-color: #d97706; /* amber-600 */
 }
 @keyframes eq {
   0%, 100% { height: 4px; }
