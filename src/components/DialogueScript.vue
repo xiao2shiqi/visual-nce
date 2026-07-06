@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
 import type { Segment } from '../types/lesson';
-import SentenceAnalysis from './SentenceAnalysis.vue';
 
 /**
  * DialogueScript 组件
- * 显示对话脚本，支持播放控制、翻译切换、盲听遮罩和语法分析
+ * 显示对话脚本，支持播放控制、翻译切换、盲听遮罩和点词查词典
  * @author xiaobin
  */
 
@@ -83,12 +82,30 @@ const getSpeakerColorClass = (speaker: string): string => {
 };
 
 
-const activeAnalysisSegment = ref<Segment | null>(null);
 const copiedId = ref<string | null>(null);
 
-const toggleAnalysis = (segment: Segment, event: Event) => {
-  event.stopPropagation();
-  activeAnalysisSegment.value = segment;
+// 把句子切成「单词 / 非单词」token，单词渲染成可点击查词的 span
+const tokenize = (text: string) =>
+  text.split(/([A-Za-z]+(?:[’'-][A-Za-z]+)*)/g).filter(t => t !== '');
+
+const isWordToken = (t: string) => /^[A-Za-z]/.test(t);
+
+// 查词：优先唤起本机欧路（eudic://），未安装时页面不会失焦，降级打开网页词典
+const lookupWord = (word: string) => {
+  const w = word.replace(/’/g, "'");
+  window.location.href = `eudic://dict/${encodeURIComponent(w)}`;
+  setTimeout(() => {
+    if (document.hasFocus()) {
+      window.open(`https://dict.eudic.net/dicts/en/${encodeURIComponent(w)}`, '_blank');
+    }
+  }, 1200);
+};
+
+const handleWordClick = (s: Segment, token: string, e: Event) => {
+  // 盲听遮罩下不查词，让点击冒泡到外层做揭示
+  if (isMasked(s)) return;
+  e.stopPropagation();
+  lookupWord(token);
 };
 
 const handleCopy = (segment: Segment, event: Event) => {
@@ -103,10 +120,6 @@ const handleCopy = (segment: Segment, event: Event) => {
       }
     }, 2000);
   });
-};
-
-const closeAnalysis = () => {
-    activeAnalysisSegment.value = null;
 };
 
 const scrollToActive = (id: string) => {
@@ -237,7 +250,12 @@ defineExpose({
                   :class="isMasked(s) ? 'blur-[6px] select-none cursor-help transition-all duration-300' : 'transition-all duration-300'"
                   :title="isMasked(s) ? '点击揭示这句' : undefined"
                   @click="isMasked(s) && revealSegment(s, $event)"
-                >{{ s.text }}</span>
+                ><template v-for="(t, i) in tokenize(s.text)" :key="i"><span
+                    v-if="isWordToken(t)"
+                    class="cursor-pointer rounded-sm transition-colors hover:text-amber-700 hover:bg-amber-100/70"
+                    :title="isMasked(s) ? undefined : `查词典：${t}`"
+                    @click="handleWordClick(s, t, $event)"
+                  >{{ t }}</span><template v-else>{{ t }}</template></template></span>
               </p>
               <p
                 v-if="showTranslation && !isMasked(s)"
@@ -261,19 +279,6 @@ defineExpose({
               </svg>
             </button>
 
-            <!-- Analysis Trigger (Magic Wand) -->
-            <!-- Now always visible on hover, even if analysis is missing (will show coming soon) -->
-            <button 
-              @click="toggleAnalysis(s, $event)"
-              class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 hover:bg-purple-50 group/ai"
-              :class="[activeAnalysisSegment?.id === s.id ? 'bg-purple-100 text-purple-600 shadow-sm ring-1 ring-purple-200' : activeSegmentId === s.id ? 'text-purple-400 opacity-70 group-hover:opacity-100' : 'text-slate-300 opacity-20 group-hover:opacity-100 group-hover:text-purple-400']"
-              title="魔法分析"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 transition-transform group-hover/ai:rotate-12">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
-              </svg>
-            </button>
-
             <!-- Play Indicator -->
             <div 
               v-if="s.startTime !== undefined"
@@ -293,12 +298,6 @@ defineExpose({
         </div>
       </div>
     </div>
-
-    <SentenceAnalysis 
-        :visible="!!activeAnalysisSegment"
-        :segment="activeAnalysisSegment"
-        @close="closeAnalysis"
-    />
 </template>
 
 <style scoped>
