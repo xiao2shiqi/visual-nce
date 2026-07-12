@@ -1,0 +1,95 @@
+{
+  "id": "nce2-l81",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "past-perfect",
+      "title": "过去完成时",
+      "subtitle": "Past perfect (I had done)",
+      "refUnit": 15,
+      "sections": [
+        {
+          "heading": "两件过去的事，谁先谁后",
+          "body": "一句话里出现两个过去发生的动作，先发生的那个要用「had + 过去分词」，后发生的用一般过去时。这样听者一听就知道谁先谁后，不用靠 first、then 硬排。本课开头就是一个典型例子，一会儿你会在课文里听到：",
+          "examples": [
+            {
+              "en": "When he had killed the guard, the prisoner of war quickly dragged him into the bushes.",
+              "zh": "战俘杀死卫兵后，迅速把他拖进了灌木丛。"
+            }
+          ]
+        },
+        {
+          "heading": "had + 过去分词，怎么搭",
+          "body": "过去分词就是动词的第三形式，规则动词一样加 -ed，不规则动词要单独记（kill → killed 是规则的）。had 不随主语变化，he/she/they 后面都是 had。",
+          "examples": [
+            {
+              "en": "they had just discovered that a prisoner had escaped",
+              "zh": "他们刚刚发现一名囚犯逃跑了"
+            }
+          ],
+          "note": "这句里两个 had 分别对应两层「更早」：先是囚犯逃跑（escaped），才有他们发现（discovered）——所以 escaped 也用过去完成时。"
+        },
+        {
+          "heading": "When they had gone……",
+          "body": "When 引导的从句用过去完成时，主句用一般过去时，是这种句型的常见写法——意思是「等前一件事彻底结束，后一件事才发生」。听课文时留意这种 When...had...的节奏：",
+          "examples": [
+            {
+              "en": "When they had gone the driver of the car came towards him.",
+              "zh": "军官们走后，汽车司机向他走来。"
+            }
+          ]
+        },
+        {
+          "heading": "不是随便哪两件过去的事都要用",
+          "body": "如果两件事挨得很紧，或者先后顺序已经很清楚（比如靠 then、and 连接），用一般过去时就够了，不必都套上过去完成时。过去完成时主要是为了强调「这件事在另一件事之前已经完成」。",
+          "examples": [
+            {
+              "en": "The officers got out and the prisoner stood to attention and saluted as they passed.",
+              "zh": "军官们下了车，囚犯立正敬礼，目送他们走过。",
+              "note": "两个动作几乎同时，都用一般过去时，不需要 had。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ing-clauses",
+      "title": "-ing 分词短语作状语",
+      "subtitle": "-ing clauses (Feeling tired, I went to bed)",
+      "refUnit": 68,
+      "sections": [
+        {
+          "heading": "一个人不能同时做两件「主要」的事，但可以顺带做",
+          "body": "句子的主干动词只有一个，另一个动作如果是伴随着主干发生的（几乎同时，或者是手段/方式），就把它改成 -ing 形式放在句首或句尾，不用 and 硬接两个完整句子。这样句子更紧凑，也更像英语的叙事节奏。",
+          "examples": [
+            {
+              "en": "Working rapidly in the darkness, he soon changed into the dead man's clothes.",
+              "zh": "他在黑暗中迅速行动，很快换上了死者的衣服。"
+            }
+          ]
+        },
+        {
+          "heading": "-ing 短语放句首，逗号隔开主句",
+          "body": "「-ing 短语，主句」的语序里，-ing 短语说的动作和主句主语是同一个人在做，而且时间上基本重合。逗号必须有，不然容易读岔。",
+          "examples": [
+            {
+              "en": "Working rapidly in the darkness, he soon changed into the dead man's clothes.",
+              "zh": "他在黑暗中迅速行动，很快换上了死者的衣服。",
+              "note": "✗ Worked rapidly in the darkness, he soon changed…（不能用过去式做这个位置）"
+            }
+          ]
+        },
+        {
+          "heading": "-ing 短语也可以放句尾",
+          "body": "同样的结构挪到句子后半段，逗号照样要加，表示「在做主句这件事的同时／顺便」做了 -ing 后面的动作。课文结尾这句就是这么用的：",
+          "examples": [
+            {
+              "en": "Then, jumping into the car, he drove off as quickly as he could.",
+              "zh": "然后，他跳进汽车，以最快的速度开走了。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

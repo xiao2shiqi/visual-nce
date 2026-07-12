@@ -1,0 +1,105 @@
+{
+  "id": "nce2-l47",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "passive-and-relative-clause",
+      "title": "被动语态与定语从句",
+      "subtitle": "Relative clauses 1: who/that/which",
+      "refUnit": 92,
+      "sections": [
+        {
+          "heading": "which 从句：补一句说明这个名词",
+          "body": "which 后面跟一整句话，专门用来补充说明前面那个名词是什么样的。这句里 which was recently bought by Mr.Ian Thompson 就是在解释「哪家酒店」——最近被伊恩·汤普森买下的那家。一会儿你会在课文开头听到：",
+          "examples": [
+            {
+              "en": "A public house which was recently bought by Mr.Ian Thompson is up for sale.",
+              "zh": "伊恩·汤普森先生最近买的一家酒店现在正在待售。"
+            }
+          ]
+        },
+        {
+          "heading": "被动语态：主语是「被怎么样」的那个",
+          "body": "was bought 是「被买」，主语 public house 不是动作的发出者，而是承受者。结构就是 be 动词 + 过去分词，谁干的用 by 带出来，不重要的话可以省掉。",
+          "examples": [
+            {
+              "en": "A public house which was recently bought by Mr.Ian Thompson is up for sale.",
+              "zh": "伊恩·汤普森先生最近买的一家酒店现在正在待售。",
+              "note": "was bought by Mr.Ian Thompson = 被 Mr.Ian Thompson 买下"
+            }
+          ]
+        },
+        {
+          "heading": "had been + 过去分词：被动的过去完成时",
+          "body": "被动语态也能配过去完成时，表示「在过去某一刻之前，已经被怎么样了」。汤普森第二天早上发现的，是前一晚就已经发生的事——门早就被堵上，家具早就被搬动过了。听的时候留意这两个 had been：",
+          "examples": [
+            {
+              "en": "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.",
+              "zh": "第二天早上，他发现门被椅子堵住了，家具也被搬动了。"
+            }
+          ]
+        },
+        {
+          "heading": "which 也可以当从句里的宾语",
+          "body": "which 不一定是从句的主语，也能当宾语用。这句里 the ghost must have drunk 少了一个宾语，which 补上了——那五个空瓶子，是「鬼魂喝掉的」瓶子。",
+          "examples": [
+            {
+              "en": "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.",
+              "zh": "他还说他发现了5只空威士忌瓶子，那一定是鬼魂前天晚上喝的。",
+              "note": "which the ghost must have drunk = 鬼魂一定喝掉了的（瓶子）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reported-speech",
+      "title": "间接引语",
+      "subtitle": "Reported speech 1 (He said that...)",
+      "refUnit": 47,
+      "sections": [
+        {
+          "heading": "转述别人说的话：told/said + that",
+          "body": "不直接引用原话，而是用自己的话转述别人说了什么，就是间接引语。常见结构是 told me that / said that，后面接一整句话当宾语。本课整篇故事，几乎都是作者在转述汤普森先生说的话：",
+          "examples": [
+            {
+              "en": "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.",
+              "zh": "他告诉我有一天晚上他没法入睡，因为他听到酒吧里传来一种奇怪的声音。"
+            }
+          ]
+        },
+        {
+          "heading": "转述时，时态要往前退一格",
+          "body": "汤普森说这话的时候，原话大概是「我发现了五个空瓶子」，用的是过去时。但作者转述时，因为整体框架是过去（said），这句就要再往前退一格，变成过去完成时 had found。这叫时态倒退。",
+          "examples": [
+            {
+              "en": "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.",
+              "zh": "他还说他发现了5只空威士忌瓶子，那一定是鬼魂前天晚上喝的。",
+              "note": "found → had found，倒退一格"
+            }
+          ]
+        },
+        {
+          "heading": "不止 said/told，suggest 也能带 that 从句",
+          "body": "能带 that 从句转述的动词不只有 said 和 told，suggest（暗示、提议）也是常客。留意这句里 suggested 后面同样跟了一整句话：",
+          "examples": [
+            {
+              "en": "When I suggested that some villagers must have come in for a free drink, Mr.Thompson shook his head.",
+              "zh": "当我暗示一定是有些村民来白喝酒时，汤普森先生摇了摇头。"
+            }
+          ]
+        },
+        {
+          "heading": "have told：现在完成时也能带间接引语",
+          "body": "转述句的主句不一定是过去时，have told 这种现在完成时也可以，表示「（到现在为止）已经告诉过」。这时从句里的时态就不用倒退，直接按原话的时态来——will not accept 保持不变。",
+          "examples": [
+            {
+              "en": "The villagers have told him that they will not accept the pub even if he gives it away.",
+              "zh": "村民们告诉他，即使他把酒店白送给他们，他们也不要。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

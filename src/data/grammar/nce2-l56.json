@@ -1,0 +1,111 @@
+{
+  "id": "nce2-l56",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "present-passive",
+      "title": "一般现在时被动",
+      "subtitle": "Passive 1 (is done / was done)",
+      "refUnit": 42,
+      "sections": [
+        {
+          "heading": "什么是被动语态",
+          "body": "主语不是动作的发出者，而是承受者，这时候就用被动语态。句子关心的是「事情发生了」，谁做的反而不重要，甚至干脆省略不提。本课一开头就有个例子，一会儿留意一下：",
+          "examples": [
+            {
+              "en": "Once a year, a race is held for old cars.",
+              "zh": "每年都有一场为老式汽车举办的比赛。"
+            }
+          ]
+        },
+        {
+          "heading": "怎么构成",
+          "body": "结构很固定：be 动词 + 过去分词。主语是「比赛」，比赛不会自己举办自己，是有人（组委会之类）去举办的，但这个「谁」不重要，所以用被动句把 race 提到主语位置。",
+          "examples": [
+            {
+              "en": "a race is held",
+              "zh": "一场比赛被举办",
+              "note": "is（一般现在时 be）+ held（hold 的过去分词）"
+            }
+          ]
+        },
+        {
+          "heading": "为什么用一般现在时",
+          "body": "这场比赛不是只办一次，而是「每年一次」，是个反复发生的规律性动作，所以用一般现在时的被动，而不是一般过去时。对比一下就清楚了：is held 说的是「年年都办」这个事实，不是「去年办过」这一次。",
+          "examples": [
+            {
+              "en": "Once a year, a race is held for old cars.",
+              "zh": "每年都有一场为老式汽车举办的比赛。",
+              "note": "✗ Once a year, a race was held…（那样就变成只发生过一次了）"
+            }
+          ]
+        },
+        {
+          "heading": "past passive 顺带一提",
+          "body": "被动语态不只有现在时，过去时同样常见：be 动词换成 was/were 就行。课文这句其实是省略了 was 的过去分词短语，完整说法是 it was built in 1885，这里省掉 it was，直接用 Built in 1885 开头，效果差不多。",
+          "examples": [
+            {
+              "en": "Built in 1885, it was the oldest car taking part.",
+              "zh": "它造于1885年，是参赛中最老的一辆。",
+              "note": "Built = (was) built，过去时被动"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantity-words",
+      "title": "数量词的用法",
+      "subtitle": "Much, many, little, few, a lot, plenty",
+      "refUnit": 87,
+      "sections": [
+        {
+          "heading": "there was + 不可数名词，说「有一种气氛」",
+          "body": "there is/there was 后面接不可数名词，常用来说场面、气氛这种摸不着但能感觉到的东西。course 里的 excitement（激动）是不可数名词，前面配一个表示数量的短语就行，不能直接说 many excitement。",
+          "examples": [
+            {
+              "en": "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.",
+              "zh": "去年有很多汽车报名参加了这项比赛，比赛开始前令人非常激动。"
+            }
+          ]
+        },
+        {
+          "heading": "a great deal of / a lot of：修饰不可数名词的「大量」",
+          "body": "a great deal of 专门用来修饰不可数名词，意思是「大量的」，比 much 更书面一点。a lot of 用途更广，可数、不可数名词都能接，上一句里的 a lot of cars 就是接的可数名词复数。",
+          "examples": [
+            {
+              "en": "The race gave everyone a great deal of pleasure.",
+              "zh": "这次比赛给每个人带来了极大的乐趣。"
+            },
+            {
+              "en": "A lot of cars entered for this race last year",
+              "zh": "去年有很多汽车报名参加了这项比赛。",
+              "note": "cars 是可数名词复数，a lot of 一样能修饰"
+            }
+          ]
+        },
+        {
+          "heading": "many + 可数名词复数",
+          "body": "many 只能接可数名词的复数形式，说「很多」。它常常和 of 连用，构成「many of + 特指的一群」，强调「这群里的很多个」。",
+          "examples": [
+            {
+              "en": "Many of the cars broke down on the course and some drivers spent more time under their cars than in them!",
+              "zh": "许多汽车在途中抛锚了，有些司机在车底下待的时间比在车里待的时间还长！"
+            }
+          ]
+        },
+        {
+          "heading": "a few：不多，但「还是有几个」",
+          "body": "a few 也接可数名词复数，意思是「少量、几个」，语气是中性偏肯定——虽然不多，但确实有。跟 few（不加 a）比，few 语气偏消极，强调「几乎没有」，两者一字之差意思正好拧着。",
+          "examples": [
+            {
+              "en": "A few cars, however, completed the race.",
+              "zh": "然而，有几辆汽车完成了比赛。",
+              "note": "✗ Few cars completed the race. 意思会变成「几乎没有车完成」"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

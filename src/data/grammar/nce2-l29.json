@@ -1,0 +1,102 @@
+{
+  "id": "nce2-l29",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "present-perfect",
+      "title": "现在完成时",
+      "subtitle": "Present perfect 1 (I have done)",
+      "refUnit": 7,
+      "sections": [
+        {
+          "heading": "什么时候用",
+          "body": "一件事在过去发生了，但重点不是它发生在哪个具体时间点，而是它跟现在的状态挂上了钩——这就用现在完成时：has/have + 过去分词。本课开头这句就是这个用法，一会儿你听课文时留意一下：",
+          "examples": [
+            {
+              "en": "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.",
+              "zh": "本·福赛特机长买了一辆不寻常的出租汽车，开始了一项新的业务。"
+            }
+          ]
+        },
+        {
+          "heading": "过去分词要单独记",
+          "body": "现在完成时的动词部分不是过去式，是过去分词，很多不规则动词这两个形式长得不一样，得分开背。本课出现的就是一个典型例子：",
+          "examples": [
+            {
+              "en": "Since then, Captain Fawcett has flown passengers to many unusual places.",
+              "zh": "从那时起，福赛特机长已经把乘客送往许多不寻常的地方。",
+              "note": "fly → flew（过去式）→ flown（过去分词），三个形式都不同"
+            }
+          ]
+        },
+        {
+          "heading": "常和 just、since 搭配",
+          "body": "just 表示「刚刚」，since then 表示「从那以后」，这两个词经常出现在现在完成时的句子里，帮你一眼认出这个时态。",
+          "examples": [
+            {
+              "en": "Captain Fawcett has just refused a strange request from a businessman.",
+              "zh": "福赛特机长刚刚拒绝了一位商人的奇怪请求。"
+            }
+          ]
+        },
+        {
+          "heading": "和一般过去时的区别",
+          "body": "如果句子里点明了具体是哪一次、什么时候发生的，就要换回一般过去时，不能再用现在完成时。课文后面讲到两次具体降落经历时，用的就是过去式：",
+          "examples": [
+            {
+              "en": "Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.",
+              "zh": "一次他降落在一栋公寓楼的屋顶上，还有一次他降落在一个废弃的停车场里。",
+              "note": "once、on another occasion 点明具体次数，所以用 landed 而不是 has landed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed-clause-post-modifier",
+      "title": "过去分词作定语",
+      "subtitle": "-ing and -ed clauses",
+      "refUnit": 97,
+      "sections": [
+        {
+          "heading": "用一个分词代替一整个从句",
+          "body": "「一架飞机，它被称为……」可以把「它被称为」压缩成一个过去分词，直接跟在名词后面，句子一下就短了。本课介绍飞机型号那句就是这么写的：",
+          "examples": [
+            {
+              "en": "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.",
+              "zh": "这辆'出租汽车'是一架小型瑞士飞机，叫'皮拉图斯·波特'。",
+              "note": "called = which is called，被动含义"
+            }
+          ]
+        },
+        {
+          "heading": "为什么是 -ed 不是 -ing",
+          "body": "-ed 分词表示这个名词是「被……」的一方，飞机不会自己去叫自己名字，是「被叫做」，所以用 called 而不是 calling。判断标准很简单：名词是动作的承受者，就用 -ed。",
+          "examples": [
+            {
+              "en": "on another occasion, he landed in a deserted car park",
+              "zh": "还有一次他降落在一个废弃的停车场里",
+              "note": "deserted = 被遗弃的，car park 是被遗弃的一方"
+            }
+          ]
+        },
+        {
+          "heading": "短的放名词前，长的放名词后",
+          "body": "如果分词只有一个词，习惯上直接放在名词前面当形容词用；如果分词后面还带着别的成分（比如具体叫什么名字），就整体挪到名词后面。课文里正好一前一后各有一个例子：",
+          "examples": [
+            {
+              "en": "even on a ploughed field",
+              "zh": "甚至犁过的田里",
+              "note": "ploughed 单独一个词，放在 field 前面"
+            },
+            {
+              "en": "a small Swiss aeroplane called a 'Pilatus Porter'",
+              "zh": "一架小型瑞士飞机，叫'皮拉图斯·波特'",
+              "note": "called a 'Pilatus Porter' 带宾语，整体放在 aeroplane 后面"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

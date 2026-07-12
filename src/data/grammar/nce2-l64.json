@@ -1,0 +1,113 @@
+{
+  "id": "nce2-l64",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "reported-speech",
+      "title": "间接引语",
+      "subtitle": "Reported speech 1 (He said that...)",
+      "refUnit": 47,
+      "sections": [
+        {
+          "heading": "转述别人说的话，不用引号",
+          "body": "把别人说过的话原封不动搬进自己的句子，就是间接引语：说话动词（said）后面直接接 that 从句，不用双引号，that 也可以省略。本课讲隧道历史，大量用这个句型转述当年工程师的设想：",
+          "examples": [
+            {
+              "en": "He said that it would be possible to build a platform in the centre of the Channel.",
+              "zh": "他说可以在海峡中央建造一个平台。"
+            }
+          ]
+        },
+        {
+          "heading": "从句时态要跟着往后退一格",
+          "body": "said 是过去时，后面从句的时态也要相应往后退一格：原本设想的 will 变成 would。这不是随便换个词，而是「过去说的对未来的设想」的固定标记，听的时候留意 would 出现的位置。",
+          "examples": [
+            {
+              "en": "it would be possible to build a platform in the centre of the Channel",
+              "zh": "可以在海峡中央建造一个平台。",
+              "note": "转述前是 will be possible，转述后退一格变成 would be possible"
+            }
+          ]
+        },
+        {
+          "heading": "suggest 类动词有自己的接法",
+          "body": "suggest（建议）后面接 that 从句时，从句里习惯用 should + 动词原形，should 甚至可以省略，只留光秃秃的动词原形。这跟 said 那种简单退时态不一样，是 suggest 这类词专属的用法。",
+          "examples": [
+            {
+              "en": "He suggested that a double railway-tunnel should be built.",
+              "zh": "他建议建造一条双轨铁路隧道。"
+            }
+          ]
+        },
+        {
+          "heading": "从句本身还可以再套一层",
+          "body": "间接引语的从句里，经常还嵌着一个原因状语或条件状语，读起来长，但拆开看骨架还是「said/suggested + that + 从句」。",
+          "examples": [
+            {
+              "en": "This would solve the problem of ventilation for if a train entered this tunnel, it would draw in fresh air behind it.",
+              "zh": "这样就解决了通风问题，因为如果一列火车进入隧道，它就把新鲜空气带进去了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "passive-voice",
+      "title": "被动语态",
+      "subtitle": "Passive 1 (is done / was done)",
+      "refUnit": 42,
+      "sections": [
+        {
+          "heading": "被动语态怎么搭出来",
+          "body": "谁做了动作不重要，或者说话人想先说「什么东西被怎么样」，就用被动语态：be 动词 + 过去分词。这一课讲的是隧道两百年的建造史，主角一直是「隧道/计划」，所以被动句特别多。",
+          "examples": [
+            {
+              "en": "In 1860, a better plan was put forward by an Englishman, William Low.",
+              "zh": "1860年，一位名叫威廉·洛的英国人提出了一个更好的计划。"
+            }
+          ]
+        },
+        {
+          "heading": "过去时的被动：was/were + 过去分词",
+          "body": "本课讲的是历史，所以几乎全用过去时的被动：was/were 加动词的过去分词。一会儿你会在课文里反复听到这个结构，注意主语始终是「被动作影响的那个东西」。",
+          "examples": [
+            {
+              "en": "Forty-two years later a tunnel was actually begun.",
+              "zh": "42年后，隧道实际上开始挖掘了。"
+            },
+            {
+              "en": "It was officially opened on March 7, 1994, finally connecting Britain to the European continent.",
+              "zh": "它于1994年3月7日正式开通，终于把英国与欧洲大陆连接起来了。"
+            }
+          ]
+        },
+        {
+          "heading": "by 引出动作的执行者，可以省略",
+          "body": "如果需要说清楚是谁做的，被动句末尾加 by + 执行者；如果执行者不重要或没人知道，直接不写就行。对比一下这两句，一句写了 by，一句没写：",
+          "examples": [
+            {
+              "en": "a better plan was put forward by an Englishman, William Low.",
+              "zh": "一位名叫威廉·洛的英国人提出了一个更好的计划。",
+              "note": "by 交代了执行者"
+            },
+            {
+              "en": "a tunnel was actually begun.",
+              "zh": "隧道实际上开始挖掘了。",
+              "note": "省略 by，因为执行者不重要"
+            }
+          ]
+        },
+        {
+          "heading": "被动语态也能配上虚拟语气",
+          "body": "被动结构不是孤立的，它可以叠加在虚拟条件句的主句里：would have been + 过去分词，表示「本来会被完成，但实际没有」。这句正是本课的一个转折点，讲隧道差一点就建成了。",
+          "examples": [
+            {
+              "en": "If, at the time, the British had not feared invasion, it would have been completed.",
+              "zh": "如果当时英国人不是担心遭到入侵，隧道就完工了。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

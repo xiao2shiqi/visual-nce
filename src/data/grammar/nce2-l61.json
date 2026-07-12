@@ -1,0 +1,115 @@
+{
+  "id": "nce2-l61",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "passive-voice",
+      "title": "被动语态",
+      "subtitle": "Passive 1 (is done / was done)",
+      "refUnit": 42,
+      "sections": [
+        {
+          "heading": "什么是被动语态",
+          "body": "主动语态说「谁做了什么」，被动语态反过来，把动作的承受者放到主语位置，说「什么被怎么样了」。结构是 be 动词 + 过去分词。这一课讲哈勃望远镜发射的这句话，一会儿你会听到：",
+          "examples": [
+            {
+              "en": "The Hubble telescope was launched into space by NASA on April 20, 1990 at a cost of over a billion dollars.",
+              "zh": "哈勃望远镜于1990年4月20日由美国航空航天局发射升空，造价超过10亿美元。"
+            }
+          ]
+        },
+        {
+          "heading": "be 动词决定时态",
+          "body": "被动语态的时态全看前面那个 be 动词：was/were 是过去时被动，is/are 是现在时被动，will be 是将来时被动。这句用的是 was，说明发射这件事发生在过去，望远镜是被发射的那一方：",
+          "examples": [
+            {
+              "en": "The Hubble telescope was launched into space",
+              "zh": "哈勃望远镜被发射进入太空",
+              "note": "was + 过去分词 = 过去时被动"
+            }
+          ]
+        },
+        {
+          "heading": "谁做的动作，用 by 带出来",
+          "body": "被动句里，真正动手做事的人或机构不是主语，要靠句尾的 by 说明。这句话里，望远镜是被发射的对象，NASA 才是真正发射它的一方：",
+          "examples": [
+            {
+              "en": "was launched into space by NASA",
+              "zh": "被美国航空航天局发射进太空",
+              "note": "by NASA 说明动作的执行者，不是句子主语"
+            }
+          ]
+        },
+        {
+          "heading": "过去分词怎么来",
+          "body": "被动语态的核心是过去分词。规则动词直接加 -ed，跟过去式长得一模一样；不规则动词得单独记，没有固定规律。本课出现的动词形式：",
+          "examples": [
+            {
+              "en": "launch → launched",
+              "zh": "规则动词，过去分词与过去式同形"
+            },
+            {
+              "en": "send → sent",
+              "zh": "不规则动词的过去分词"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prep-at-cost",
+      "title": "at / on / in 的用法",
+      "subtitle": "In/on/at (other uses)",
+      "refUnit": 127,
+      "sections": [
+        {
+          "heading": "at + 数字，表示代价",
+          "body": "at 除了表示时间点、地点，还能带出一个数字，说明「以...为代价」。这一课说哈勃望远镜的造价，就是这么用的：",
+          "examples": [
+            {
+              "en": "at a cost of over a billion dollars",
+              "zh": "造价超过10亿美元",
+              "note": "at + 数字 = 以...为代价"
+            }
+          ]
+        },
+        {
+          "heading": "on + 具体日期",
+          "body": "说到某一天（月份加日子），用 on，不用 in 也不用 at。这一课交代发射日期，就是这么写的：",
+          "examples": [
+            {
+              "en": "on April 20, 1990",
+              "zh": "在1990年4月20日"
+            }
+          ]
+        },
+        {
+          "heading": "in + 大范围的空间",
+          "body": "in 常用在大范围的空间上，比如「太空」这么大的范围，用 in，不用 at。听课文开头的问题时留意一下：",
+          "examples": [
+            {
+              "en": "a telescope in space",
+              "zh": "太空中的望远镜"
+            }
+          ]
+        },
+        {
+          "heading": "into 和 in 不是一回事",
+          "body": "into 强调「进入」这个动作和方向，in 强调「已经在里面」这个状态。望远镜被送上天用的是 into，描述它已经在太空里用的是 in，别混着用：",
+          "examples": [
+            {
+              "en": "was launched into space",
+              "zh": "被发射进入太空",
+              "note": "into：强调进入的过程"
+            },
+            {
+              "en": "a telescope in space",
+              "zh": "太空中的望远镜",
+              "note": "in：强调已经在里面的状态"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

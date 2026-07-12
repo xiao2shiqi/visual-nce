@@ -1,0 +1,84 @@
+{
+  "id": "nce2-l83",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "present-continuous-future",
+      "title": "现在进行时表变化",
+      "subtitle": "Present tenses for the future",
+      "refUnit": 19,
+      "sections": [
+        {
+          "heading": "什么时候用",
+          "body": "现在进行时（am/is/are + doing）不只能说「这一刻正在做的事」，也能说「已经在推进、正处于变化中」的事情。本课一开始就用它交代前首相退休这件正在发生的事：",
+          "examples": [
+            {
+              "en": "He is now retiring from political life",
+              "zh": "他现在正退出政治生涯"
+            }
+          ]
+        },
+        {
+          "heading": "结构：is/am/are + 动词-ing",
+          "body": "主语 + be 动词 + 动词的 -ing 形式。主语是第三人称单数 he，所以 be 动词用 is。一会儿听课文开头，留意这句的两个动词形式并不一样：",
+          "examples": [
+            {
+              "en": "He is now retiring from political life and has gone abroad.",
+              "zh": "他现在正退出政治生涯，出国了。",
+              "note": "is retiring 是进行时（正在推进的变化），has gone 是现在完成时（已经完成的动作），两者说的不是同一个时间点"
+            }
+          ]
+        },
+        {
+          "heading": "别理解成「这一秒正在办手续」",
+          "body": "retiring 不是说他此刻正坐在办公室签退休文件，而是「这件事正处在进行阶段」——这正是现在进行时用来描述趋势和状态变化的常见用法，跟表示动作的进行时是两回事。",
+          "examples": [
+            {
+              "en": "retiring from political life",
+              "zh": "退出政治生涯（这件事正在进行）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "passive-voice",
+      "title": "被动语态",
+      "subtitle": "Passive 1 (is done / was done)",
+      "refUnit": 42,
+      "sections": [
+        {
+          "heading": "什么是被动语态",
+          "body": "主语不是动作的发出者，而是动作的承受者，这就是被动语态。构成很简单：be 动词 + 过去分词（比如 defeated）。整篇课文的起点就是这样一句被动句：",
+          "examples": [
+            {
+              "en": "The former Prime Minister, Mr. Wentworth Lane, was defeated in the recent elections.",
+              "zh": "前首相温特沃斯·莱恩先生在最近的选举中落选了。"
+            }
+          ]
+        },
+        {
+          "heading": "过去的被动：was/were + 过去分词",
+          "body": "说过去发生的被动的事，be 动词要用过去式 was（单数）或 were（复数），后面的动词还是过去分词，不用再变形。警察被问烦了之后重复的还是这个结构：",
+          "examples": [
+            {
+              "en": "Mr.Lane was defeated in the elections.",
+              "zh": "莱恩先生在选举中落选了。"
+            }
+          ]
+        },
+        {
+          "heading": "为什么用被动，不说「大家打败了他」",
+          "body": "这句话想强调的是「莱恩落选了」这件事本身，谁投票、怎么投的不重要，所以干脆省掉施动者，用被动句把重点放在莱恩身上。这是被动语态最常见的用途：动作对象比动作发出者更重要的时候就用它。",
+          "examples": [
+            {
+              "en": "was defeated in the elections",
+              "zh": "在选举中落选了",
+              "note": "✗ 不必写成 The voters defeated Mr. Lane in the elections——课文根本不关心是谁投的票"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

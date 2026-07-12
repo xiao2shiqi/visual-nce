@@ -21,8 +21,8 @@ const emit = defineEmits(['back', 'select-course']);
 const sceneViewerRef = ref<any>(null);
 const scriptRef = ref<any>(null);
 
-// 回译挑战试点课程（效果验证后铺开）
-const BACK_TRANSLATION_LESSONS = ['nce2-l1'];
+// 完整学习闭环（语法预习 + 回译挑战 + 学习动线）：NCE2 全量开放
+const hasFullLoop = (id: string) => id.startsWith('nce2-');
 
 // 学习动线的引用与消化状态
 const grammarMapRef = ref<any>(null);
@@ -484,7 +484,7 @@ onUnmounted(() => {
     <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
       <!-- 学习动线：进入课程先看按什么顺序学（试点课程） -->
       <LearningPath
-        v-if="BACK_TRANSLATION_LESSONS.includes(lessonData.id)"
+        v-if="hasFullLoop(lessonData.id)"
         :digested="digested"
         @open-grammar="grammarMapRef?.openStudy()"
         @open-challenge="backTranslationRef?.open()"
@@ -528,7 +528,7 @@ onUnmounted(() => {
       </div>
 
       <!-- 回译挑战：听完课文后的消化验收（试点课程） -->
-      <div v-if="BACK_TRANSLATION_LESSONS.includes(lessonData.id)" class="mt-10 max-w-xl mx-auto text-center animate-fade-in">
+      <div v-if="hasFullLoop(lessonData.id)" class="mt-10 max-w-xl mx-auto text-center animate-fade-in">
         <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">听完课文了？</p>
         <BackTranslation
           ref="backTranslationRef"

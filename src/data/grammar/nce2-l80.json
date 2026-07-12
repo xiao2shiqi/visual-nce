@@ -1,0 +1,104 @@
+{
+  "id": "nce2-l80",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "passive-voice",
+      "title": "被动语态",
+      "subtitle": "Passive 1 (is done / was done)",
+      "refUnit": 42,
+      "sections": [
+        {
+          "heading": "什么时候用被动",
+          "body": "主语不是动作的发出者，而是承受者，就用被动语态。这一课讲水晶宫的历史，宫殿本身不会「建造」「搬迁」「烧毁」，都是别人对它做的事，所以整篇课文被动句特别多。",
+          "examples": [
+            {
+              "en": "Later, the Crystal Palace was moved to South London.",
+              "zh": "后来，水晶宫被迁往伦敦南部。"
+            }
+          ]
+        },
+        {
+          "heading": "怎么构成：was/were + 过去分词",
+          "body": "过去时的被动语态是 was/were 加动词的过去分词，单数用 was，复数用 were。一会儿你会在课文里连着听到好几句这样的结构。",
+          "examples": [
+            {
+              "en": "The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.",
+              "zh": "水晶宫与世界上所有其他建筑都不同，因为它是用钢铁和玻璃造的。"
+            },
+            {
+              "en": "A great many goods were sent to the exhibition from various parts of the world.",
+              "zh": "大量的商品从世界各地运来参展。"
+            }
+          ]
+        },
+        {
+          "heading": "谁做的不重要，就不写 by",
+          "body": "被动句最大的用处是可以不提动作是谁做的——课文里没人关心是谁把利润拿去建博物馆的，重点是钱花在了哪儿。这种时候直接省掉 by 加人。",
+          "examples": [
+            {
+              "en": "There were six million visitors in all, and the profits from the exhibition were used to build museums and colleges.",
+              "zh": "参观者总共有600万人，博览会的收入被用来建造博物馆和大学。"
+            }
+          ]
+        },
+        {
+          "heading": "过去分词要记熟，很多是不规则的",
+          "body": "被动语态用的是过去分词，不少动词的过去分词和过去式长得不一样，要单独记。听课文时留意这几个词的发音和用法。",
+          "examples": [
+            {
+              "en": "It remained one of the most famous buildings in the world until it was burnt down in 1936.",
+              "zh": "它一直是世界上最著名的建筑之一，直到1936年被烧毁。",
+              "note": "burn → burnt（过去分词），不是 burned it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "superlatives",
+      "title": "最高级",
+      "subtitle": "Superlatives (the longest)",
+      "refUnit": 108,
+      "sections": [
+        {
+          "heading": "最高级怎么构成",
+          "body": "单音节和部分双音节形容词，词尾加 -est；长一点的形容词前面加 most。课文一开头就用了这个句型，把水晶宫捧到了「最」的位置。",
+          "examples": [
+            {
+              "en": "Perhaps the most extraordinary building of the 19th century was the Crystal Palace which was built in Hyde Park for the Great Exhibition of 1851.",
+              "zh": "也许19世纪最不寻常的建筑就是水晶宫，它建在海德公园，是为1851年的世博会而建造的。"
+            },
+            {
+              "en": "It was one of the biggest buildings of all time and a lot of people from many countries came to see it.",
+              "zh": "它是有史以来最大的建筑之一，许多国家的人都来参观它。",
+              "note": "big → biggest，重复末尾字母 g 再加 -est"
+            }
+          ]
+        },
+        {
+          "heading": "最高级前面一定要有 the",
+          "body": "说「最……的」，形容词前必须加 the，这是硬规则，不能省。课文里这句话就是标准示范。",
+          "examples": [
+            {
+              "en": "The most wonderful piece of machinery on show was Nasmyth's steam hammer.",
+              "zh": "展出的最了不起的机器设备是内史密斯的蒸汽锤。",
+              "note": "✗ Most wonderful piece of machinery…（漏了 the）"
+            }
+          ]
+        },
+        {
+          "heading": "one of the + 最高级 + 复数名词",
+          "body": "「众多最……之一」这个说法，最高级后面接的名词要用复数——意思是它排在最顶尖的一批里，不是唯一的第一名。留意听这句话里 buildings 有没有加 s。",
+          "examples": [
+            {
+              "en": "It remained one of the most famous buildings in the world until it was burnt down in 1936.",
+              "zh": "它一直是世界上最著名的建筑之一，直到1936年被烧毁。",
+              "note": "✗ one of the most famous building（名词漏了复数 s）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

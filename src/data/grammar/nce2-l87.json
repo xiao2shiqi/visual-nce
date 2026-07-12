@@ -1,0 +1,103 @@
+{
+  "id": "nce2-l87",
+  "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "past-continuous",
+      "title": "过去进行时",
+      "subtitle": "Past continuous (I was doing)",
+      "refUnit": 6,
+      "sections": [
+        {
+          "heading": "什么时候用过去进行时",
+          "body": "过去进行时说的是「过去某一刻正在做的事」，强调动作还在进行中、没做完。这一课嫌疑人交代不在场证明，用的就是这个时态——听的时候留意这句：",
+          "examples": [
+            {
+              "en": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.",
+              "zh": "'谋杀发生时，我正乘8点钟的火车去伦敦，'那人说。"
+            }
+          ]
+        },
+        {
+          "heading": "结构：was/were + 动词-ing",
+          "body": "I/he/she/it 用 was，you/we/they 用 were，后面接动词的 -ing 形式。be 动词不能省，光留个 -ing 是不成句的。",
+          "examples": [
+            {
+              "en": "I was travelling on the 8 o'clock train to London",
+              "zh": "我正乘8点钟的火车去伦敦",
+              "note": "✗ I travelling on the 8 o'clock train to London"
+            }
+          ]
+        },
+        {
+          "heading": "为什么这句话成了破绽",
+          "body": "嫌疑人说案发那一刻自己「正在乘8点钟的火车」，这句过去进行时听着天衣无缝。可探长后来查出，那天早上8点钟的火车根本没开——一个不存在的动作，是没法「正在进行」的。",
+          "examples": [
+            {
+              "en": "the 8 o'clock train did not run at all",
+              "zh": "8点钟的火车根本没有开"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "passive-voice",
+      "title": "被动语态",
+      "subtitle": "Passive 1 (is done / was done)",
+      "refUnit": 42,
+      "sections": [
+        {
+          "heading": "被动语态是什么",
+          "body": "主语不是动作的发出者，而是承受者，这就是被动语态，结构是 be + 过去分词。课文一开头交代案发时间，用的正是被动：",
+          "examples": [
+            {
+              "en": "the murder was committed",
+              "zh": "谋杀发生时"
+            }
+          ]
+        },
+        {
+          "heading": "过去分词怎么来",
+          "body": "规则动词的过去分词也是加 -ed，和过去式长一样；不规则动词的过去分词要单独记，本课出现了这几个：",
+          "examples": [
+            {
+              "en": "commit → committed",
+              "zh": "规则动词，过去分词加 -ed"
+            },
+            {
+              "en": "take → taken, break → broke → broken",
+              "zh": "不规则动词，过去分词单独记"
+            }
+          ]
+        },
+        {
+          "heading": "课文结尾又用了一次被动",
+          "body": "真相揭晓的地方，被动语态又出现了——火车「被撤出了运行」，强调的是火车这件事本身，不是谁去撤的：",
+          "examples": [
+            {
+              "en": "and was taken off the line",
+              "zh": "被撤出了运行"
+            }
+          ]
+        },
+        {
+          "heading": "was committed 和 was travelling 别混了",
+          "body": "两句都带 was，但结构完全不同：was + 过去分词是被动，was + 动词-ing 是过去进行时。分清这两个，才能听懂嫌疑人到底在说什么。",
+          "examples": [
+            {
+              "en": "the murder was committed",
+              "zh": "谋杀发生时",
+              "note": "被动：was + 过去分词"
+            },
+            {
+              "en": "I was travelling on the 8 o'clock train to London",
+              "zh": "我正乘8点钟的火车去伦敦",
+              "note": "进行时：was + 动词-ing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
