@@ -1,0 +1,195 @@
+{
+  "id": "nce2-l1",
+  "note": "本页讲解与练习为本站原创编写，例句取自本课课文。建议先学完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
+  "topics": [
+    {
+      "id": "past-simple",
+      "title": "一般过去时叙事",
+      "subtitle": "Past simple (I did)",
+      "refUnit": 5,
+      "sections": [
+        {
+          "heading": "什么时候用",
+          "body": "说过去发生、已经结束的事，就用一般过去时。讲故事、写日记、复述经历，都是它。本课整篇课文就是一段过去时叙事——下面这两句，一会儿你会在课文里听到：",
+          "examples": [
+            { "en": "Last week I went to the theatre.", "zh": "上星期我去看戏。" },
+            { "en": "I had a very good seat.", "zh": "我的座位很好。" }
+          ]
+        },
+        {
+          "heading": "动词怎么变",
+          "body": "规则动词在词尾加 -ed；不规则动词没有规律，要单独记。本课出现的动词：",
+          "examples": [
+            { "en": "turn → turned, look → looked", "zh": "规则动词，直接加 -ed" },
+            { "en": "go → went, have → had, get → got", "zh": "不规则动词" },
+            { "en": "sit → sat, say → said, hear → heard", "zh": "不规则动词" }
+          ]
+        },
+        {
+          "heading": "否定：did not + 动词原形",
+          "body": "过去时的否定用 did not（didn't）加动词原形。注意：did 已经表示过去了，后面的动词要变回原形，不能再用过去式。",
+          "examples": [
+            { "en": "I did not enjoy it.", "zh": "但我却没有好好欣赏。" },
+            { "en": "They did not pay any attention.", "zh": "他们却毫不理会。", "note": "✗ They did not paid…" }
+          ]
+        },
+        {
+          "heading": "疑问：Did + 主语 + 动词原形",
+          "body": "问过去的事用 Did 开头，动词同样用原形。这一课课前的问题就是现成的例子：",
+          "examples": [
+            { "en": "Why did the writer complain to the people behind him?", "zh": "作者为什么要抱怨坐在他身后的人？" }
+          ]
+        },
+        {
+          "heading": "could：can 的过去式",
+          "body": "can 的过去式是 could，否定是 could not（couldn't），后面接动词原形。",
+          "examples": [
+            { "en": "I could not hear the actors.", "zh": "我听不见演员们说的话。" },
+            { "en": "In the end, I could not bear it.", "zh": "最后，我实在忍不住了。" }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "fill",
+          "prompt": "Last week I ___ to the theatre. (go)",
+          "answers": ["went"],
+          "explain": "go 是不规则动词，过去式是 went。"
+        },
+        {
+          "type": "fill",
+          "prompt": "I ___ a very good seat. (have)",
+          "answers": ["had"],
+          "explain": "have 的过去式是 had。"
+        },
+        {
+          "type": "fill",
+          "prompt": "I got very angry and ___ round. (turn)",
+          "answers": ["turned"],
+          "explain": "turn 是规则动词，直接加 -ed → turned。"
+        },
+        {
+          "type": "choice",
+          "prompt": "They ___ pay any attention.",
+          "options": ["did not", "do not", "were not"],
+          "answer": 0,
+          "explain": "过去的否定：did not + 动词原形 pay。故事发生在上星期，用 do not 不对；were not 后面不能直接接动词原形。"
+        },
+        {
+          "type": "fill",
+          "prompt": "'It's none of your business,' the young man ___ rudely. (say)",
+          "answers": ["said"],
+          "explain": "say 的过去式是 said，读音是 /sed/。"
+        },
+        {
+          "type": "choice",
+          "prompt": "下面哪句是对的？",
+          "options": [
+            "I didn't enjoyed the play.",
+            "I didn't enjoy the play.",
+            "I don't enjoyed the play."
+          ],
+          "answer": 1,
+          "explain": "didn't 已经表示过去，后面的动词用原形 enjoy，不能再用过去式 enjoyed。"
+        },
+        {
+          "type": "fill",
+          "prompt": "I ___ not hear the actors. (can)",
+          "answers": ["could"],
+          "explain": "can 的过去式是 could。"
+        },
+        {
+          "type": "choice",
+          "prompt": "___ the writer enjoy the play?",
+          "options": ["Did", "Does", "Was"],
+          "answer": 0,
+          "explain": "问过去的事：Did + 主语 + 动词原形。回答是 No, he didn't. —— 身后有人一直在大声说话。"
+        }
+      ]
+    },
+    {
+      "id": "word-order",
+      "title": "陈述句语序",
+      "subtitle": "Word order: verb + object; place and time",
+      "refUnit": 109,
+      "sections": [
+        {
+          "heading": "动词和宾语不分家",
+          "body": "英语里动词和它的宾语要紧挨着，中间不能插进别的词。「非常喜欢这出戏」不能逐字翻成 like very much this play——very much 要放到宾语后面去：",
+          "examples": [
+            { "en": "I like this play very much.", "zh": "我非常喜欢这出戏。", "note": "✗ I like very much this play." },
+            { "en": "I can't hear a word!", "zh": "我一个字也听不见！", "note": "hear + a word，动词紧跟宾语" }
+          ]
+        },
+        {
+          "heading": "先说地点，再说时间",
+          "body": "「去了哪儿 + 什么时候」：地点在前，时间在后。这正是课文第一句话的骨架，听的时候留意一下：",
+          "examples": [
+            { "en": "I went to the theatre last week.", "zh": "上星期我去了剧院。", "note": "✗ I went last week to the theatre." }
+          ]
+        },
+        {
+          "heading": "时间词也可以提到句首",
+          "body": "想强调时间，可以把时间词整个搬到句子最前面。课文开头就是这么写的：",
+          "examples": [
+            { "en": "Last week I went to the theatre.", "zh": "上星期我去看戏。" }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "order",
+          "prompt": "连词成句：上星期我去了剧院。",
+          "words": ["I", "went", "to the theatre", "last week"],
+          "answers": ["I went to the theatre last week", "last week I went to the theatre"],
+          "explain": "地点 to the theatre 在前，时间 last week 在后；时间词也可以提到句首。"
+        },
+        {
+          "type": "choice",
+          "prompt": "哪句语序是对的？",
+          "options": ["I like very much this play.", "I like this play very much."],
+          "answer": 1,
+          "explain": "动词 like 和宾语 this play 要挨着，very much 放在宾语后面。"
+        },
+        {
+          "type": "order",
+          "prompt": "连词成句：他们在大声说话。",
+          "words": ["They", "were talking", "loudly"],
+          "answers": ["They were talking loudly"],
+          "explain": "副词 loudly 放在动词后面，说明「怎么说话」。"
+        },
+        {
+          "type": "choice",
+          "prompt": "哪句语序是对的？",
+          "options": ["He read quickly the letter.", "He read the letter quickly."],
+          "answer": 1,
+          "explain": "动词 read 和宾语 the letter 之间不能插 quickly。"
+        },
+        {
+          "type": "order",
+          "prompt": "连词成句：我听不见演员们说的话。",
+          "words": ["I", "could not", "hear", "the actors"],
+          "answers": ["I could not hear the actors"],
+          "explain": "could not + 动词原形 hear，后面紧跟宾语 the actors。"
+        },
+        {
+          "type": "choice",
+          "prompt": "哪句语序是对的？",
+          "options": [
+            "We arrived at the theatre at seven o'clock.",
+            "We arrived at seven o'clock at the theatre."
+          ],
+          "answer": 0,
+          "explain": "先地点 at the theatre，再时间 at seven o'clock。"
+        },
+        {
+          "type": "order",
+          "prompt": "连词成句：她每天都去健身房。",
+          "words": ["She", "goes", "to the gym", "every day"],
+          "answers": ["She goes to the gym every day"],
+          "explain": "地点 to the gym 在前，时间 every day 在后。"
+        }
+      ]
+    }
+  ]
+}
