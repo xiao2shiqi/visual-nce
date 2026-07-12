@@ -3,91 +3,43 @@
   "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
   "topics": [
     {
-      "id": "present-passive",
-      "title": "一般现在时被动",
-      "subtitle": "Passive 1 (is done / was done)",
-      "refUnit": 42,
+      "id": "comparative-superlative",
+      "title": "比较级与最高级",
+      "subtitle": "Comparison (cheaper / more expensive etc.)",
+      "refUnit": 105,
       "sections": [
         {
-          "heading": "什么是被动语态",
-          "body": "主语不是动作的发出者，而是承受者，这时候就用被动语态。句子关心的是「事情发生了」，谁做的反而不重要，甚至干脆省略不提。本课一开头就有个例子，一会儿留意一下：",
+          "heading": "最高级：the most + 多音节形容词",
+          "body": "这场老式汽车比赛里，作者一上来就要给参赛车排个高低。遇到 unusual、handsome 这类多音节形容词，最高级在前面加 the most，意思是「最……」。听课文时留意这两个 the most 开头的句子，一辆「最不寻常」，一辆「最帅气」。",
           "examples": [
             {
-              "en": "Once a year, a race is held for old cars.",
-              "zh": "每年都有一场为老式汽车举办的比赛。"
+              "en": "The most unusual car was a Benz which had only three wheels.",
+              "zh": "最不寻常的汽车是一辆只有3个轮子的奔驰。"
+            },
+            {
+              "en": "One of the most handsome cars was a Rolls-Royce Silver Ghost.",
+              "zh": "其中最漂亮的汽车之一是一辆劳斯莱斯银魂。"
             }
           ]
         },
         {
-          "heading": "怎么构成",
-          "body": "结构很固定：be 动词 + 过去分词。主语是「比赛」，比赛不会自己举办自己，是有人（组委会之类）去举办的，但这个「谁」不重要，所以用被动句把 race 提到主语位置。",
-          "examples": [
-            {
-              "en": "a race is held",
-              "zh": "一场比赛被举办",
-              "note": "is（一般现在时 be）+ held（hold 的过去分词）"
-            }
-          ]
-        },
-        {
-          "heading": "为什么用一般现在时",
-          "body": "这场比赛不是只办一次，而是「每年一次」，是个反复发生的规律性动作，所以用一般现在时的被动，而不是一般过去时。对比一下就清楚了：is held 说的是「年年都办」这个事实，不是「去年办过」这一次。",
-          "examples": [
-            {
-              "en": "Once a year, a race is held for old cars.",
-              "zh": "每年都有一场为老式汽车举办的比赛。",
-              "note": "✗ Once a year, a race was held…（那样就变成只发生过一次了）"
-            }
-          ]
-        },
-        {
-          "heading": "past passive 顺带一提",
-          "body": "被动语态不只有现在时，过去时同样常见：be 动词换成 was/were 就行。课文这句其实是省略了 was 的过去分词短语，完整说法是 it was built in 1885，这里省掉 it was，直接用 Built in 1885 开头，效果差不多。",
+          "heading": "短形容词的最高级：词尾加 -est",
+          "body": "像 old 这种短小的形容词，最高级直接在词尾加 -est，前面照例加 the。那辆 1885 年造的奔驰资格最老，所以作者说它是「the oldest car」。one of the + 最高级 则是固定搭配，表示「最……的之一」。",
           "examples": [
             {
               "en": "Built in 1885, it was the oldest car taking part.",
-              "zh": "它造于1885年，是参赛中最老的一辆。",
-              "note": "Built = (was) built，过去时被动"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "quantity-words",
-      "title": "数量词的用法",
-      "subtitle": "Much, many, little, few, a lot, plenty",
-      "refUnit": 87,
-      "sections": [
-        {
-          "heading": "there was + 不可数名词，说「有一种气氛」",
-          "body": "there is/there was 后面接不可数名词，常用来说场面、气氛这种摸不着但能感觉到的东西。course 里的 excitement（激动）是不可数名词，前面配一个表示数量的短语就行，不能直接说 many excitement。",
-          "examples": [
-            {
-              "en": "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.",
-              "zh": "去年有很多汽车报名参加了这项比赛，比赛开始前令人非常激动。"
+              "zh": "它造于1885年，是参赛中最老的一辆。"
             }
           ]
         },
         {
-          "heading": "a great deal of / a lot of：修饰不可数名词的「大量」",
-          "body": "a great deal of 专门用来修饰不可数名词，意思是「大量的」，比 much 更书面一点。a lot of 用途更广，可数、不可数名词都能接，上一句里的 a lot of cars 就是接的可数名词复数。",
+          "heading": "比较级 + than：拿赢家跟对手比",
+          "body": "比较两个人或物，用「比较级 + than」。要是想强调「快得多」，比较级前面还能加 much、a lot、far 这类程度词。课文里那辆冠军车跑到 40 英里时速，作者一句 much faster than 把它和所有对手拉开了距离。",
           "examples": [
             {
-              "en": "The race gave everyone a great deal of pleasure.",
-              "zh": "这次比赛给每个人带来了极大的乐趣。"
+              "en": "The winning car reached a speed of forty miles an hour -- much faster than any of its rivals.",
+              "zh": "获胜的那辆车达到了每小时40英里的速度——比其他任何车都快得多。"
             },
-            {
-              "en": "A lot of cars entered for this race last year",
-              "zh": "去年有很多汽车报名参加了这项比赛。",
-              "note": "cars 是可数名词复数，a lot of 一样能修饰"
-            }
-          ]
-        },
-        {
-          "heading": "many + 可数名词复数",
-          "body": "many 只能接可数名词的复数形式，说「很多」。它常常和 of 连用，构成「many of + 特指的一群」，强调「这群里的很多个」。",
-          "examples": [
             {
               "en": "Many of the cars broke down on the course and some drivers spent more time under their cars than in them!",
               "zh": "许多汽车在途中抛锚了，有些司机在车底下待的时间比在车里待的时间还长！"
@@ -95,13 +47,68 @@
           ]
         },
         {
-          "heading": "a few：不多，但「还是有几个」",
-          "body": "a few 也接可数名词复数，意思是「少量、几个」，语气是中性偏肯定——虽然不多，但确实有。跟 few（不加 a）比，few 语气偏消极，强调「几乎没有」，两者一字之差意思正好拧着。",
+          "heading": "no less ...：不比……差",
+          "body": "no less + 形容词，字面是「不少」，其实就是「照样、同样」，常暗含「和……一样」的比较意味。老式车赛虽然和现代赛车很不一样，但精彩程度一点不输——作者结尾就用这个说法收了尾。",
+          "examples": [
+            {
+              "en": "It was very different from modern car races but no less exciting.",
+              "zh": "它与现代汽车比赛非常不同，但同样激动人心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantifiers",
+      "title": "量词短语表数量",
+      "subtitle": "A lot / lots / plenty etc.",
+      "refUnit": 87,
+      "sections": [
+        {
+          "heading": "a lot of：可数、不可数通吃",
+          "body": "a lot of 是最百搭的量词短语，后面既可接可数名词复数（cars、people），也可接不可数名词（trouble、money）。课文里两次用到它：一次说「很多车」报名参赛，一次说司机「费了好大劲」才把车停下。",
+          "examples": [
+            {
+              "en": "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.",
+              "zh": "去年有很多汽车报名参加了这项比赛，比赛开始前令人非常激动。"
+            },
+            {
+              "en": "It sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.",
+              "zh": "它在比赛结束时冲下山坡，司机费了好大劲才把它停下来。"
+            }
+          ]
+        },
+        {
+          "heading": "a great deal of：只配不可数名词",
+          "body": "a great deal of 意思跟 a lot of 差不多，但它只能接不可数名词，比如 excitement（激动）、pleasure（乐趣）、time、money。课文里一会儿兴奋一场、一会儿乐趣一场，作者都用它来「量」。",
+          "examples": [
+            {
+              "en": "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.",
+              "zh": "去年有很多汽车报名参加了这项比赛，比赛开始前令人非常激动。"
+            },
+            {
+              "en": "The race gave everyone a great deal of pleasure.",
+              "zh": "这次比赛给每个人带来了极大的乐趣。"
+            }
+          ]
+        },
+        {
+          "heading": "a great many：专门数可数复数",
+          "body": "a great many 和 a great deal of 正好反过来，它只能接可数名词复数，强调数量很多。发车前那一阵「巨响」，作者就用 a great many loud explosions 来形容。",
+          "examples": [
+            {
+              "en": "After a great many loud explosions, the race began.",
+              "zh": "在一阵巨响后，比赛开始了。"
+            }
+          ]
+        },
+        {
+          "heading": "a few：有几个（肯定的）",
+          "body": "注意 a few 和单独的 few 不一样：a few 是「有几个」，带肯定语气；单独的 few 才是「没几个」。课文里许多车半路抛锚，但「还是有几辆」跑完了全程，所以这里用 a few。",
           "examples": [
             {
               "en": "A few cars, however, completed the race.",
-              "zh": "然而，有几辆汽车完成了比赛。",
-              "note": "✗ Few cars completed the race. 意思会变成「几乎没有车完成」"
+              "zh": "然而，有几辆汽车完成了比赛。"
             }
           ]
         }

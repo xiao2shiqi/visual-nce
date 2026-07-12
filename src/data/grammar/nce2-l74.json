@@ -3,14 +3,14 @@
   "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
   "topics": [
     {
-      "id": "dressed-in-clause",
-      "title": "分词短语作状语",
-      "subtitle": "-ing clauses (Feeling tired, I went to bed)",
-      "refUnit": 68,
+      "id": "past-perfect",
+      "title": "过去完成时 had done",
+      "subtitle": "Past perfect (I had done)",
+      "refUnit": 15,
       "sections": [
         {
-          "heading": "句首的 Dressed in... 是什么意思",
-          "body": "句子一开头就是个过去分词（-ed），后面跟着主句，等于把 When they were dressed in... 里的 When they were 省掉了。这样写更紧凑，意思还是「处于某种状态的时候」。一会儿你会在课文开头听到这一句：",
+          "heading": "什么时候用过去完成时",
+          "body": "过去完成时说的是「在过去的某个时间点之前，事情就已经做完了」。这一课几位大明星乔装打扮去河边野餐，故事里不少动作都发生在警长出现之前：他们先化好装、搬好食物、安顿好自己，然后那个陌生人——也就是警长——才登场。这些「先做完」的事，作者都用 had done 来交代。",
           "examples": [
             {
               "en": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
@@ -19,64 +19,71 @@
           ]
         },
         {
-          "heading": "为什么用 dressed，不用 dressing",
-          "body": "dress 这个动词，主语是「被穿上」还是「主动穿」，决定了用 -ed 还是 -ing。演员们不是自己给自己「穿」这个动作的执行者，而是「处于穿戴好的状态」，所以用被动意味的 dressed（-ed 分词），不是 dressing。",
+          "heading": "结构：had + 过去分词",
+          "body": "过去完成时的样子是 had 加上动词的过去分词（done），不管主语是单数还是复数，had 都不变。课文里 Rockwall 和 Merlin 这两位演员，「搬篮子」这件事发生在大家安顿下来之前，所以用了 had carried 这个完成式，表示「早就搬好了」。",
           "examples": [
             {
-              "en": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
-              "zh": "他们戴着墨镜，穿着旧衣服，采取了特别的预防措施以使人们不会认出他们来。",
-              "note": "同样是主动的事，如果是「自己在做」的动作才用 -ing，比如 Feeling tired, I went to bed（这是剑桥语法书上的经典例子，不是课文的）。"
+              "en": "Meanwhile, two other actors Rockwall Slinger and Merlin Greeves, had carried two large food baskets to a shady spot under some trees.",
+              "zh": "与此同时，另外两位演员罗克沃尔·斯林格和梅林·格里夫斯把两个大食品篮子搬到了树荫下的一个阴凉处。"
             }
           ]
         },
         {
-          "heading": "逗号后面的主语必须对得上",
-          "body": "分词短语后面紧跟的那个词，必须是分词动作真正指向的人，不能张冠李戴。课文里逗号后面马上接 they（演员们），说明 dressed 说的正是「他们」，读起来才不别扭。",
+          "heading": "和一般过去时配合：先发生的用 had done",
+          "body": "课文最典型的一句：当他们都舒舒服服坐好了（先发生，用 had made），一个陌生人才出现（后发生，用一般过去时 appeared）。两个动作一前一后，先完成的那个用过去完成时，时间线就一目了然——这是过去完成时最常见的用法。",
           "examples": [
             {
-              "en": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
-              "zh": "他们戴着墨镜，穿着旧衣服，采取了特别的预防措施以使人们不会认出他们来。",
-              "note": "✗ Dressed in dark glasses and old clothes, the bus stopped by the river.（分词说的是「人」，主句主语却变成了「车」，前后对不上）"
+              "en": "When they had all made themselves comfortable, a stranger appeared.",
+              "zh": "当他们都舒舒服服地坐好后，一个陌生人出现了。"
+            }
+          ]
+        },
+        {
+          "heading": "为什么这里非用 had done 不可",
+          "body": "如果先后的动作都用一般过去时，听众就分不清到底哪件事在前。给先发生的动作打上「早已完成」的 had done 标记，读起来时间先后清清楚楚。听课文时留意这种「先……再……」的语气，正是过去完成时的精髓——也正是这群明星「先精心伪装，后败露身份」这个故事的节奏。",
+          "examples": [
+            {
+              "en": "When they had all made themselves comfortable, a stranger appeared.",
+              "zh": "当他们都舒舒服服地坐好后，一个陌生人出现了。"
             }
           ]
         }
       ]
     },
     {
-      "id": "had-to-past-necessity",
-      "title": "过去必须：had to",
-      "subtitle": "Have to and must",
-      "refUnit": 31,
+      "id": "participle-clauses",
+      "title": "过去分词短语作状语",
+      "subtitle": "Participle clauses (-ing/-ed clauses)",
+      "refUnit": 68,
       "sections": [
         {
-          "heading": "must 没有过去式，得换个词",
-          "body": "must 只有现在这一种形式，没有 musted 这种写法。要说过去「必须做什么」，英语里只能换成 had to + 动词原形。这一点课文没有直接示范，但整个故事的逻辑很清楚：演员们不想被记者和影迷认出来，出发前就必须（had to）先化好装、绕开人群。",
+          "heading": "什么是过去分词短语作状语",
+          "body": "课文开头那一句很特别：Dressed in dark glasses and old clothes… ——这不是一个完整的句子，而是用一个过去分词短语先描绘出几位明星的打扮，再接上主句。这种结构就是「过去分词短语作状语」，相当于中文「戴着墨镜、穿着旧衣服，（他们）……」，先给你一幅画面，再讲故事。",
+          "examples": [
+            {
+              "en": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
+              "zh": "他们戴着墨镜，穿着旧衣服，采取了特别的预防措施以使人们不会认出他们来。"
+            }
+          ]
+        },
+        {
+          "heading": "分词的主语要和主句对上号",
+          "body": "用这种分词短语时，分词的逻辑主语必须和主句主语一致。课文里 Dressed in… 后面紧接的就是 they，说明被套上这身行头的正是这群演员，前后主语一致，句子才站得住。也正因为如此，他们「伪装得太完美」，警长才彻底认不出他们来。",
           "examples": [
             {
               "en": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
               "zh": "他们戴着墨镜，穿着旧衣服，采取了特别的预防措施以使人们不会认出他们来。",
-              "note": "这里的 had taken 是「已经做了」（过去完成时），不是「必须做」（had to）——两个 had 长得像，意思完全不同，读的时候别搞混。"
+              "note": "这里的 they 既指 Dressed 的逻辑主语，也是主句 they had taken 的主语，两者必须是同一群人。"
             }
           ]
         },
         {
-          "heading": "had to 后面照样接动词原形",
-          "body": "和现在时的 have to 一样，had to 后面直接接动词原形，不加 to do 以外的变化。比如 they had to disguise themselves（他们必须把自己伪装起来），这句话虽然不是课文原句，但正是课文故事想表达的意思。",
+          "heading": "为什么要倒着放在句首",
+          "body": "把 Dressed in… 放在句首而不是写成 they were dressed in…，是为了先给你一个镜头：一群人戴着墨镜、穿着破衣服，再告诉你他们做了什么。这种顺序更有画面感，也为后文「伪装太完美」的讽刺埋下伏笔——他们越像普通游客，警长越不可能想到眼前这帮人就是大红大紫的明星。",
           "examples": [
             {
-              "en": "But as they soon discovered, disguises can sometimes be too perfect.",
-              "zh": "但他们很快就发现，伪装有时候也可能过于完美。",
-              "note": "✗ they had to disguising themselves（had to 后面不能用 -ing 形式）"
-            }
-          ]
-        },
-        {
-          "heading": "命令句也能表达「必须」",
-          "body": "「必须」这个意思，英语里不止 have to/must 一种说法。警长直接用祈使句喊出来，语气比 you must leave 还硬，听的时候留意一下这种更直接的表达方式：",
-          "examples": [
-            {
-              "en": "'Now you get out of here, all of you!' he shouted.",
-              "zh": "'你们都给我出去！'他喊道。"
+              "en": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
+              "zh": "他们戴着墨镜，穿着旧衣服，采取了特别的预防措施以使人们不会认出他们来。"
             }
           ]
         }

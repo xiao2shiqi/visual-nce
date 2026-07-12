@@ -1885,16 +1885,24 @@
     ],
     "nce2-l2": [
       {
-        "point": "一般现在时 + 频度副词（never / sometimes / always）",
+        "point": "一般过去时连贯叙事（got up, looked, rang, said, asked, repeated, arrived）",
         "refs": {
           "int": [
-            2,
-            110
+            5
           ]
         }
       },
       {
-        "point": "until 表示直到（stay in bed until lunchtime）",
+        "point": "引语中现在进行时表说话时刻的动作，与叙事过去时形成对比（'I'm having breakfast' / 'What are you doing?'）",
+        "refs": {
+          "int": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "point": "until 表示直到某时间点为止（stay in bed until lunchtime）",
         "refs": {
           "int": [
             120
@@ -2390,25 +2398,7 @@
     ],
     "nce2-l30": [
       {
-        "point": "定语从句 that（a small river that cuts across the park）",
-        "refs": {
-          "int": [
-            92
-          ]
-        }
-      },
-      {
-        "point": "like + -ing（I like sitting by the Wayle）",
-        "refs": {
-          "int": [
-            58
-          ]
-        }
-      }
-    ],
-    "nce2-l31": [
-      {
-        "point": "过去进行时（Frank was telling me about his experiences）",
+        "point": "过去进行时铺垫背景 + 一般过去时打断（were playing/were rowing 对比 Suddenly...kicked/struck/laughed/threw）",
         "refs": {
           "int": [
             6
@@ -2416,10 +2406,20 @@
         }
       },
       {
-        "point": "before + 过去时（Before he retired, Frank was the head of...）",
+        "point": "so...that 结果状语从句（struck him so hard that he nearly fell into the water）",
         "refs": {
           "int": [
-            15
+            102
+          ]
+        }
+      }
+    ],
+    "nce2-l31": [
+      {
+        "point": "used to + 动词原形，表过去反复的习惯或状态、现在已不同（used to work in a small shop / used to work fourteen hours a day / used to make spare parts）",
+        "refs": {
+          "int": [
+            18
           ]
         }
       }
@@ -2490,7 +2490,15 @@
     ],
     "nce2-l35": [
       {
-        "point": "used to 过去的习惯（Roy used to drive a taxi）",
+        "point": "过去进行时表背景/被打断的动作，一般过去时表突发事件（When he was driving...he saw two thieves; As the thieves were trying to get away...Roy drove his bus; While the battered car was moving away, Roy stopped his bus）",
+        "refs": {
+          "int": [
+            6
+          ]
+        }
+      },
+      {
+        "point": "used to 表过去的习惯/状态，与现在对比（Roy Trenton used to drive a taxi）",
         "refs": {
           "int": [
             18
@@ -2498,18 +2506,10 @@
         }
       },
       {
-        "point": "现在完成时（he has not regretted it）",
+        "point": "such...that 结果状语从句（got such a fright that he dropped the bag）",
         "refs": {
           "int": [
-            7
-          ]
-        }
-      },
-      {
-        "point": "find + 宾语 + 形容词（finding his new work far more exciting）",
-        "refs": {
-          "int": [
-            105
+            102
           ]
         }
       }
@@ -2597,18 +2597,18 @@
     ],
     "nce2-l40": [
       {
-        "point": "ask sb to do（the hostess asked me to sit next to Mrs. R.）",
+        "point": "将来进行时问既定安排（Will you be seeing it? / be spending your holidays abroad? / be staying in England?）",
         "refs": {
           "int": [
-            55
+            24
           ]
         }
       },
       {
-        "point": "过去时叙事与人物描写",
+        "point": "虚拟条件句：if+过去式, would+动词原形，表对现在的假设（if you ate more and talked less, we would both enjoy our dinner）",
         "refs": {
           "int": [
-            5
+            38
           ]
         }
       }
@@ -2678,19 +2678,19 @@
     ],
     "nce2-l44": [
       {
-        "point": "while + 过去进行时（while she was walking through the forest）",
+        "point": "so + 形容词 + that / such + a + 名词 + that 结果状语从句（got so angry that she ran after them；got such a fright that they dropped the bag and ran away）",
         "refs": {
           "int": [
-            6,
-            119
+            102
           ]
         }
       },
       {
-        "point": "risk + -ing / 动名词（did not think of the risk she was taking）",
+        "point": "过去完成时与过去进行时搭配的分层叙事（had rushed up / had sat down 与 was having a picnic / were going through the contents）",
         "refs": {
           "int": [
-            53
+            15,
+            6
           ]
         }
       }
@@ -2790,19 +2790,26 @@
     ],
     "nce2-l50": [
       {
-        "point": "动名词作宾语（I don't like losing my way）",
+        "point": "不定式表目的（sat in the front of the bus to get a good view of the countryside）",
         "refs": {
           "int": [
-            53,
-            58
+            64
           ]
         }
       },
       {
-        "point": "比较级（my trip took me longer than I expected）",
+        "point": "forget to do sth 忘记去做某事（I forgot to put you off）",
         "refs": {
           "int": [
-            105
+            54
+          ]
+        }
+      },
+      {
+        "point": "as far as 结构表示范围终点（This is as far as we go）",
+        "refs": {
+          "int": [
+            107
           ]
         }
       }
@@ -2918,15 +2925,17 @@
     ],
     "nce2-l56": [
       {
-        "point": "一般现在被动（a race is held for old cars）",
+        "point": "比较级与最高级（the most unusual car / the oldest / one of the most handsome / much faster than any of its rivals / no less exciting than）",
         "refs": {
           "int": [
-            42
+            105,
+            106,
+            108
           ]
         }
       },
       {
-        "point": "there was + 抽象名词（there was a great deal of excitement）",
+        "point": "量词短语表数量（a lot of cars / a great deal of excitement / a great many loud explosions / a few cars）",
         "refs": {
           "int": [
             87
@@ -2990,36 +2999,53 @@
     ],
     "nce2-l60": [
       {
-        "point": "过去完成时 + after（After I had given her some money, she looked...）",
+        "point": "will 表将来预测（A relation of yours is coming...will get a big surprise / will speak to you / will lead you away / will rush towards you / Your sister will be here）",
         "refs": {
           "int": [
-            15
+            21,
+            22
           ]
         }
       },
       {
-        "point": "间接引语指令（she told me to sit down）",
+        "point": "will be doing 表已安排好的将来动作（She will be arriving this evening）",
         "refs": {
           "int": [
-            48
+            24
+          ]
+        }
+      },
+      {
+        "point": "时间状语从句用一般现在时表将来（The moment you leave this tent, you will get a big surprise）",
+        "refs": {
+          "int": [
+            25
           ]
         }
       }
     ],
     "nce2-l61": [
       {
-        "point": "被动语态（The Hubble telescope was launched by NASA）",
+        "point": "be going to 表将来计划（NASA is now going to put the telescope right）",
         "refs": {
           "int": [
-            42
+            20
           ]
         }
       },
       {
-        "point": "at a cost of / 介词短语",
+        "point": "will be doing 将来进行时（will soon be sending, will be taking the astronauts）",
         "refs": {
           "int": [
-            127
+            24
+          ]
+        }
+      },
+      {
+        "point": "will have done 将来完成时（by the time you read this, will have sent us thousands of pictures）",
+        "refs": {
+          "int": [
+            24
           ]
         }
       }
@@ -3045,18 +3071,27 @@
     ],
     "nce2-l63": [
       {
-        "point": "admire sb for sth（Everybody admires him for his sense of humour）",
+        "point": "过去完成时表示先发生的动作（he had finished, had included, she hadn't enjoyed）",
         "refs": {
           "int": [
-            134
+            15
           ]
         }
       },
       {
-        "point": "一般现在时描述人物（has a large circle of friends / is very popular）",
+        "point": "as soon as 引导时间状语从句（As soon as he had finished）",
         "refs": {
           "int": [
-            2
+            120
+          ]
+        }
+      },
+      {
+        "point": "间接引语与间接疑问句（asked her if she had enjoyed the speech; told him that she did not like...）",
+        "refs": {
+          "int": [
+            47,
+            50
           ]
         }
       }
@@ -3274,19 +3309,19 @@
     ],
     "nce2-l74": [
       {
-        "point": "过去分词短语作状语（Dressed in dark glasses and old clothes...）",
+        "point": "过去完成时 had taken/had carried/had made themselves comfortable",
         "refs": {
           "int": [
-            68,
-            97
+            15
           ]
         }
       },
       {
-        "point": "had to（they had to look their best）? 过去的必须",
+        "point": "过去分词短语作状语 Dressed in dark glasses and old clothes",
         "refs": {
           "int": [
-            31
+            68,
+            97
           ]
         }
       }
@@ -3565,20 +3600,19 @@
     ],
     "nce2-l89": [
       {
-        "point": "even if 让步（even if it is a bad one）",
+        "point": "should have + 过去分词，表示过去本该做而未做的遗憾/批评（artistes who should have appeared did not come；what he should have said）",
         "refs": {
           "int": [
-            112,
-            113
+            34
           ]
         }
       },
       {
-        "point": "will 表意愿（People will do anything to see a free show）",
+        "point": "need not have + 过去分词，表示过去不必做却做了（Those who failed to get in need not have felt disappointed）",
         "refs": {
           "int": [
-            21,
-            22
+            32,
+            34
           ]
         }
       }
@@ -3619,7 +3653,7 @@
         }
       },
       {
-        "point": "定语从句 which",
+        "point": "定语从句 which（a balloon which seemed to be making for the station）",
         "refs": {
           "int": [
             92
@@ -3627,7 +3661,7 @@
         }
       },
       {
-        "point": "间接引语（He informed the station at once）",
+        "point": "间接引语，情态动词退一格 may→might（He said that someone might be spying on the station）",
         "refs": {
           "int": [
             47
@@ -3692,7 +3726,7 @@
     ],
     "nce2-l95": [
       {
-        "point": "when 时间从句 + 过去时（When the Ambassador returned home, his wife got a shock）",
+        "point": "when 时间从句 + 一般过去时（When the Ambassador returned home, his wife got a shock）",
         "refs": {
           "int": [
             5
@@ -3700,10 +3734,10 @@
         }
       },
       {
-        "point": "过去时叙事与对话",
+        "point": "过去虚拟条件句 / 第三条件句（If I had been, I would not have been able to get home for lunch）",
         "refs": {
           "int": [
-            5
+            40
           ]
         }
       }

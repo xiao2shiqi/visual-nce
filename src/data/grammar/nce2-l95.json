@@ -4,13 +4,13 @@
   "topics": [
     {
       "id": "when-clause-past-simple",
-      "title": "when 从句+过去时",
+      "title": "when 时间从句 + 一般过去时",
       "subtitle": "Past simple (I did)",
       "refUnit": 5,
       "sections": [
         {
-          "heading": "when 从句怎么用",
-          "body": "when 引导一个「当...的时候」的时间从句，讲的是过去某个时间点发生的事，所以从句和主句的动词都要用一般过去时，保持前后一致。本课开头就是这个句型，一会儿你会在课文里听到：",
+          "heading": "when 引导的时间从句",
+          "body": "when 的意思是「当……的时候」，它后面跟着一个时间从句，专门交代主句动作发生的时间背景。本课一上来就是这个句型：伊斯卡罗比亚大使回家吃午饭，一进门却浑身是灭火器的白沫、帽子还被人打了个洞，妻子当场吓了一大跳。一会儿你会在课文开头听到：",
           "examples": [
             {
               "en": "When the Ambassador of Escalopia returned home for lunch, his wife got a shock.",
@@ -19,8 +19,8 @@
           ]
         },
         {
-          "heading": "when 从句也可以放在句子后半段",
-          "body": "when 从句不一定要放在句首，也可以跟在主句后面，中间照样用逗号隔开。听的时候留意一下这句：主句先说妻子在继续问问题，when 从句再补充她那时候注意到了什么。",
+          "heading": "when 从句可以放句首，也可以放句尾",
+          "body": "when 从句的位置很灵活。放在句首时，后面要加逗号和主句隔开（像上面那句）；放在句尾时则不用逗号。课文后段，作者先说妻子还在不停地追问，再用 when 从句补一句「就在这时她突然发现了帽子上的洞」，这里的 when 有点「就在这时候」的意味：",
           "examples": [
             {
               "en": "The Ambassador's wife went on asking questions, when she suddenly noticed a big hole in her husband's hat.",
@@ -29,41 +29,48 @@
           ]
         },
         {
-          "heading": "两个分句主语可以不一样",
-          "body": "when 从句和主句的主语不需要相同——上面第一句里，从句主语是「大使」，主句主语是「他的妻子」，两个人物分别做各自的事，但时态都锁定在过去。",
+          "heading": "主句和从句都用一般过去时",
+          "body": "讲过去发生的事，when 从句和主句的动词都要用一般过去时，前后保持一致。两个分句的主语也不必相同——开头这句里，从句的主语是大使，主句的主语却换成了他的妻子，各做各的事，但时态都牢牢锁在过去。",
           "examples": [
             {
               "en": "When the Ambassador of Escalopia returned home for lunch, his wife got a shock.",
               "zh": "当伊斯卡罗比亚大使回家吃午饭时，他的妻子吓了一跳。",
-              "note": "从句主语是大使，主句主语是妻子"
+              "note": "从句主语是大使，主句主语是妻子；returned 和 got 都是一般过去时"
             }
           ]
         }
       ]
     },
     {
-      "id": "past-simple-narrative-dialogue",
-      "title": "过去时叙事与对话",
-      "subtitle": "Past simple (I did)",
-      "refUnit": 5,
+      "id": "third-conditional",
+      "title": "第三条件句：过去没发生的事",
+      "subtitle": "If I had known... I wish I had known...",
+      "refUnit": 40,
       "sections": [
         {
-          "heading": "动词怎么变",
-          "body": "规则动词词尾加 -ed；不规则动词没有固定套路，得一个个记。这一课出现了不少，先混个眼熟：",
+          "heading": "第三条件句说什么",
+          "body": "第三条件句（也叫过去虚拟条件句）专管「马后炮」：事情明明已经发生了，我们偏偏反过来假设「如果当时不是这样，结果会怎样」。本课的笑点就靠它抖出来——有人朝大使办公室开了一枪，子弹把他帽子打了个洞，他却一脸庆幸地说，幸好当时没戴帽子，不然这顿午饭就吃不上了：",
           "examples": [
             {
-              "en": "return → returned, look → looked, ask → asked",
-              "zh": "规则动词，直接加 -ed"
-            },
-            {
-              "en": "go → went, get → got, think → thought, say → said, have → had",
-              "zh": "不规则动词"
+              "en": "If I had been, I would not have been able to get home for lunch.",
+              "zh": "如果我（戴着它）的话，我就不能回家吃午饭了。"
             }
           ]
         },
         {
-          "heading": "否定：was not / were not",
-          "body": "be 动词的过去时否定，直接在 was / were 后面加 not，口语常缩写成 wasn't / weren't。这一课的笑点就藏在这句否定句里：",
+          "heading": "结构：If + 过去完成时，would have + 过去分词",
+          "body": "第三条件句的套路很固定：if 从句用「had + 过去分词」（过去完成时），主句用「would have + 过去分词」。两边都在过去的基础上再往回退一步，表示「当时其实并没有那样」。课文这句里的 been 就是 be 的过去分词，would not have been able to 则是「本来就不可能」的意思。",
+          "examples": [
+            {
+              "en": "If I had been, I would not have been able to get home for lunch.",
+              "zh": "如果我（戴着它）的话，我就不能回家吃午饭了。",
+              "note": "if 从句：had been（过去完成时）；主句：would not have been able to（would have + 过去分词）"
+            }
+          ]
+        },
+        {
+          "heading": "上下文里的省略",
+          "body": "这句 If I had been 后面其实省掉了 wearing it（戴着它），得接上一句才能读通。前一句大使刚说「幸好当时我没戴它」，下一句立刻用第三条件句反推「要是我当时戴着的话……」。这种省略在口语里非常常见，因为戴没戴帽子刚刚才说过，省掉反而更利落、更有戏剧效果。",
           "examples": [
             {
               "en": "Fortunately, I wasn't wearing it at the time.",
@@ -72,27 +79,12 @@
           ]
         },
         {
-          "heading": "疑问：Did + 主语 + 动词原形",
-          "body": "问过去发生的事，用 did 开头，后面的动词要变回原形——did 已经带了过去的意思，动词不用再变一次。大使夫人一开口就是这个句型：",
+          "heading": "别和真实条件句搞混",
+          "body": "要回头说过去已经定死的事——比如帽子已经被打穿了、子弹已经飞过了——就只能用第三条件句，因为事情没法再改了。大使那句之所以好笑，正因为子弹是过去真实发生的事，他只能用「假如当时」的口气来调侃自己侥幸逃过一劫。",
           "examples": [
             {
-              "en": "'How did your clothes get into such a mess?'",
-              "zh": "'你的衣服怎么弄成这样？'",
-              "note": "✗ How did your clothes got..."
-            }
-          ]
-        },
-        {
-          "heading": "对话里的「说」也要用过去时",
-          "body": "整篇课文是对话套着叙述，所以 said、asked、exclaimed、answered 这些引述动词全部用过去时，哪怕引号里的话本身是别的时态。听的时候留意这些引述动词，它们撑起了整个故事的框架：",
-          "examples": [
-            {
-              "en": "'Oh, that,' said the Ambassador.",
-              "zh": "'哦，那个，'大使说。"
-            },
-            {
-              "en": "'University students set the Embassy on fire this morning.' 'Good heavens!' exclaimed his wife.",
-              "zh": "'今天早上大学生们把大使馆点着了。''天哪！'他妻子惊呼道。"
+              "en": "If I had been, I would not have been able to get home for lunch.",
+              "zh": "如果我（戴着它）的话，我就不能回家吃午饭了。"
             }
           ]
         }

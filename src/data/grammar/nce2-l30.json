@@ -3,78 +3,104 @@
   "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
   "topics": [
     {
-      "id": "relative-clause-that",
-      "title": "that 引导定语从句",
-      "subtitle": "Relative clauses 1: who/that/which",
-      "refUnit": 92,
+      "id": "past-continuous-background",
+      "title": "过去进行时铺垫背景 + 一般过去时打断",
+      "subtitle": "Past continuous (I was doing)",
+      "refUnit": 6,
       "sections": [
         {
-          "heading": "从句在补充说明前面那个名词",
-          "body": "一个名词后面紧跟着 that + 一个小句子，这个小句子就是用来解释「这个名词到底是什么样的」。课文一开始就用这种结构介绍威尔河，一会儿你会在课文里听到：",
+          "heading": "过去进行时：搭一个『正在进行』的背景",
+          "body": "故事发生在威尔河（the Wayle）边。叙述者一上来先给我们搭好一个画面：孩子们在岸边玩耍，有人在河上划船。这种『当时正在进行、可以一直延续』的背景，作者用的就是过去进行时（were doing）。讲故事时这种开场特别常见——先把场景铺开，再让事情发生。",
           "examples": [
             {
-              "en": "The Wayle is a small river that cuts across the park near my home.",
-              "zh": "威尔河是一条小河，它穿过我家附近的公园。"
+              "en": "Some children were playing games on the bank and there were some people rowing on the river.",
+              "zh": "一些孩子们在河边玩耍，河面上有些人在划船。"
             }
           ]
         },
         {
-          "heading": "指物用 that/which，指人用 who",
-          "body": "先行词是物（river）的时候，从句可以用 that，也可以换成 which，两个意思一样，只是 that 更口语一点。要是先行词换成人，就得用 who，不能再用 that。听的时候留意一下这条河的描述：",
+          "heading": "形式：was/were + 动词-ing",
+          "body": "过去进行时长得就是这个样子：was/were + 动词的 -ing 形式。课文这一句里其实藏着两个进行时：some children 后面是 were playing；some people 后面省掉了 who were，只留下 rowing，但本质还是 were rowing。抓住 were + ing 这个标志，背景就一目了然了。",
           "examples": [
             {
-              "en": "a small river that cuts across the park near my home",
-              "zh": "一条小河，它穿过我家附近的公园"
+              "en": "Some children were playing games on the bank and there were some people rowing on the river.",
+              "zh": "一些孩子们在河边玩耍，河面上有些人在划船。",
+              "note": "were playing 是完整的过去进行时；rowing 前面省了 who were，本质也是 were rowing。"
             }
           ]
         },
         {
-          "heading": "从句里的 that 本身就是主语",
-          "body": "这里的 that 不只是个连接词，它在从句里还顶替了 river 做主语，所以后面直接接动词 cuts，前面不能再多加一个 it。因为 that 在这句里当主语，所以也不能省略——只有当 that 在从句里当宾语时才可以省。",
+          "heading": "『突然』打断：切换成一般过去时",
+          "body": "背景铺好之后，故事要有动作。Suddenly 一冒出来，时态立刻切换——后面跟的是 kicked，一般过去时。道理很简单：were playing 是可以一直延续的背景，而 kicked 是一瞬间完成、把背景『打断』的动作。听课文时留意这种『背景—打断』的切换，你会感觉故事一下子动起来了。",
           "examples": [
             {
-              "en": "The Wayle is a small river that cuts across the park near my home.",
-              "zh": "威尔河是一条小河，它穿过我家附近的公园。",
-              "note": "✗ …a river that it cuts across the park（it 多余，重复了主语）"
+              "en": "Suddenly, one of the children kicked a ball very hard and it went towards a passing boat.",
+              "zh": "突然，一个孩子狠踢了一脚球，球飞向一只划过来的小船。"
+            }
+          ]
+        },
+        {
+          "heading": "后续动作都用一般过去时",
+          "body": "打断之后，一连串动作——called out、struck、turned、laughed、threw——清一色一般过去时，因为它们都是一个个已经完成的动作。通篇只有开头的 were playing / were rowing 在当『背景』，其余全是『事件』。这就是『过去进行时铺背景 + 一般过去时讲故事』的经典搭配，剑桥 Unit 6 专门讲这个。",
+          "examples": [
+            {
+              "en": "Some people on the bank called out to the man in the boat, but he did not hear them.",
+              "zh": "河边一些人对着船上的人高喊，但他没有听到。"
+            },
+            {
+              "en": "He called out to the children and threw the ball back to the bank.",
+              "zh": "他喊着那些孩子，把球扔回了岸上。"
             }
           ]
         }
       ]
     },
     {
-      "id": "like-doing",
-      "title": "like + -ing",
-      "subtitle": "Verb + -ing or to... 3 (like / would like)",
-      "refUnit": 58,
+      "id": "so-that-result",
+      "title": "so...that 结果状语从句",
+      "subtitle": "So and such",
+      "refUnit": 102,
       "sections": [
         {
-          "heading": "喜欢做的事，动词用 -ing",
-          "body": "表达「喜欢做某件事」这个习惯或爱好，like 后面直接接动词的 -ing 形式，不需要 to。这是很常见的固定搭配，本课作者交代自己的爱好就是这么说的：",
+          "heading": "so...that：如此……以至于",
+          "body": "课文里有一句把球的力道写得特别生动：球砸得那么重，重到船上那人差点掉进水里。这就是 so...that 结果状语从句——so 说『到了某种程度』，that 引出『因此造成了什么结果』，整体意思就是『如此……以至于』。",
           "examples": [
             {
-              "en": "I like sitting by the Wayle on fine afternoons.",
-              "zh": "我喜欢在天气晴朗的下午坐在威尔河边。"
+              "en": "The ball struck him so hard that he nearly fell into the water.",
+              "zh": "球重重地打在他身上，使他差点落入水中。"
             }
           ]
         },
         {
-          "heading": "-ing 强调的是这件事本身的感觉",
-          "body": "like sitting 说的不是「喜欢去坐」这个目的，而是坐在河边这件事本身让人觉得舒服惬意——后面再加个 on fine afternoons，就更看得出这是一种享受、一种习惯，不是一次性的打算。",
+          "heading": "so 紧跟它修饰的形容词/副词",
+          "body": "so 的位置很讲究：它必须紧贴在被它修饰的那个形容词或副词前面。课文这句里 so 修饰的是副词 hard（用力地），所以是 so hard。换成 so heavy、so quickly 也是一样的道理——so 在前，程度词紧跟其后，that 再引出结果。",
           "examples": [
             {
-              "en": "I like sitting by the Wayle on fine afternoons.",
-              "zh": "我喜欢在天气晴朗的下午坐在威尔河边。",
-              "note": "想说「想要做某事」要用 would like + to，✗ would like sitting"
+              "en": "The ball struck him so hard that he nearly fell into the water.",
+              "zh": "球重重地打在他身上，使他差点落入水中。",
+              "note": "so 紧贴副词 hard；✗ The ball so struck him hard that…（so 不能跑到动词前面）"
             }
           ]
         },
         {
-          "heading": "-ing 的形式不随时态变化",
-          "body": "不管前面的 like 是现在时还是变成过去时（liked），后面跟的动词都固定用 -ing，不会因为时态变成别的形式。这点和一般过去时里动词要变 -ed 不一样，容易搞混，留意一下就好。",
+          "heading": "别和单独的 so『因此』搞混",
+          "body": "同一个 so，长得一样，角色却不同。课文开头还有一句『天很暖和，于是我照常坐到河边』——这里的 so 是连词，意思是『因此、所以』，单独连接因果，后面不跟 that。而 so...that 里的 so 是修饰程度、后面必须有 that 引出结果。看 that 跟没跟在后面，是区分两者的关键。",
           "examples": [
             {
-              "en": "I like sitting by the Wayle on fine afternoons.",
-              "zh": "我喜欢在天气晴朗的下午坐在威尔河边。"
+              "en": "It was warm last Sunday, so I went and sat on the river bank as usual.",
+              "zh": "上星期天天气很暖和。于是我和往常一样，坐在河边。",
+              "note": "这里的 so = 因此/所以，单独连接因果，后面没有 that，与 so...that 不是一回事。"
+            }
+          ]
+        },
+        {
+          "heading": "结果从句：差点就掉下去了",
+          "body": "that 后面那个从句，讲的就是『so 到了这种程度，结果怎样』。课文的结果是 he nearly fell into the water——注意 nearly，差点，说明结果『差一点』发生、却没真发生。所以 so...that 并不要求结果一定真实发生，只要把『程度 → 结果』的逻辑串起来就行。",
+          "examples": [
+            {
+              "en": "The ball struck him so hard that he nearly fell into the water.",
+              "zh": "球重重地打在他身上，使他差点落入水中。",
+              "note": "that 从句里的 nearly fell 说明结果『差一点』发生，so...that 不要求结果真的发生。"
             }
           ]
         }

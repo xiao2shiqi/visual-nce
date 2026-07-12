@@ -3,14 +3,72 @@
   "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
   "topics": [
     {
-      "id": "while-past-continuous",
-      "title": "while 从句的过去进行时",
-      "subtitle": "Past continuous (I was doing)",
-      "refUnit": 6,
+      "id": "so-such-that",
+      "title": "so...that / such...that",
+      "subtitle": "So and such",
+      "refUnit": 102,
       "sections": [
         {
-          "heading": "while 后面为什么用 was / were doing",
-          "body": "while 表示「在……的那段时间里」，后面接的从句常用过去进行时，交代当时正在发生的背景动作；主句再说另一件突然插进来的事，一般用过去时。这一课有一句现成的例子，一会儿留意一下：",
+          "heading": "so + 形容词 + that，说“气到做了什么”",
+          "body": "so 后面直接接形容词，that 从句说这个程度带来的结果。这一课斯特林夫人的怒气就是这么写的，一会儿你会在课文里听到：",
+          "examples": [
+            {
+              "en": "Mrs. Sterling got so angry that she ran after them.",
+              "zh": "斯特林夫人非常气愤，向着他们追去。"
+            }
+          ]
+        },
+        {
+          "heading": "such + a + 名词 + that，说“吓成什么样”",
+          "body": "如果程度词后面跟的是一个名词（前面常有形容词修饰），就不能用 so，要换成 such。名词单数前别忘了加 a。两个小偷被吓跑的这句就是典型：",
+          "examples": [
+            {
+              "en": "The men got such a fright that they dropped the bag and ran away.",
+              "zh": "那两个人吓得扔下提包逃跑了。"
+            }
+          ]
+        },
+        {
+          "heading": "怎么区分该用哪个",
+          "body": "看程度词后面接的是形容词还是名词：接形容词（angry、tired、happy…）用 so；接名词（a fright、a shock、a surprise…）用 such。这两句结构几乎一样，就是因为 angry 是形容词、fright 是名词，才一个用 so 一个用 such。",
+          "examples": [
+            {
+              "en": "Mrs. Sterling got so angry that she ran after them.",
+              "zh": "斯特林夫人非常气愤，向着他们追去。",
+              "note": "✗ Mrs. Sterling got such angry..."
+            },
+            {
+              "en": "The men got such a fright that they dropped the bag and ran away.",
+              "zh": "那两个人吓得扔下提包逃跑了。",
+              "note": "✗ The men got so fright..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-narrative",
+      "title": "过去完成时+过去进行时叙事",
+      "subtitle": "Past perfect (I had done)",
+      "refUnit": 15,
+      "sections": [
+        {
+          "heading": "为什么要用 had，不直接用过去式",
+          "body": "整篇课文都是过去时叙事，但有些动作发生在“过去的过去”——比故事主线的时间点还要早一步。这时英语要用过去完成时（had + 过去分词）把先后顺序标出来，而不是全部堆成一般过去时。留意课文里这两处：",
+          "examples": [
+            {
+              "en": "They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.",
+              "zh": "她和孩子们正在森林边上野餐时，那两个人冲到她跟前，企图抢她的手提包。"
+            },
+            {
+              "en": "she saw that they had sat down and were going through the contents of the bag",
+              "zh": "发现他们已经坐了下来，正在翻她的提包"
+            }
+          ]
+        },
+        {
+          "heading": "was/were doing 描述“正在发生的背景”",
+          "body": "过去进行时（was/were + 动词-ing）不是讲一个独立事件，而是给某个时刻搭一个背景画面——别的事就是在这个画面里发生的。第一句里，她正在野餐（背景），两个人冲上来抢包（背景之上发生的事）：",
           "examples": [
             {
               "en": "They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.",
@@ -19,62 +77,23 @@
           ]
         },
         {
-          "heading": "一件事还没做完，另一件事先发生了",
-          "body": "不一定非要有 while，when 也能带出同样的画面：先说她正在做什么（过去进行时），再说这时候另一件事发生了（一般过去时）。课文开头就是这个结构：",
-          "examples": [
-            {
-              "en": "Mrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.",
-              "zh": "安妮·斯特林夫人在穿过森林追赶两个男人时，没有考虑她所冒的风险。"
-            }
-          ]
-        },
-        {
-          "heading": "过去进行时也能两个动词并排用",
-          "body": "同一句里可以连用 had done（早先发生）和 were doing（当时正在发生），把动作的先后层次说清楚。斯特林夫人追上去时看到的画面就是这样描述的：",
+          "heading": "两个时态叠在一起，讲的是一幅完整画面",
+          "body": "第四句更明显：她追上时看到的画面有两层——他们“已经坐下”（had sat down，坐下这个动作先完成）和“正在翻包”（were going through，此刻仍在进行）。一先一后、一静一动，全靠时态区分开：",
           "examples": [
             {
               "en": "When she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them.",
-              "zh": "当她赶上他们时，发现他们已经坐了下来，正在翻她的提包。于是她径直朝着他们冲去。",
-              "note": "were going through 是过去进行时，表示追上的那一刻他们正在翻包；顺带一提，这跟 Unit 119 讲的 while/during 用法是同一路数——while 后面接从句，用的就是这种进行时。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "risk-plus-ing",
-      "title": "risk 与动词 + -ing",
-      "subtitle": "Verb + -ing (enjoy doing / stop doing)",
-      "refUnit": 53,
-      "sections": [
-        {
-          "heading": "课文这句怎么拆",
-          "body": "\"the risk she was taking\" 里，risk 是名词（风险），she was taking 是修饰它的从句，省略了 which——完整说是 the risk (which) she was taking，意思是「她当时正冒着的那个风险」。was taking 用过去进行时，强调这风险是她追赶途中一直背着的，不是一瞬间的事。",
-          "examples": [
-            {
-              "en": "Mrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.",
-              "zh": "安妮·斯特林夫人在穿过森林追赶两个男人时，没有考虑她所冒的风险。"
+              "zh": "当她赶上他们时，发现他们已经坐了下来，正在翻她的提包。于是她径直朝着他们冲去。"
             }
           ]
         },
         {
-          "heading": "risk 当动词用时，后面直接加 -ing",
-          "body": "risk 除了当名词，也能直接当动词用，意思还是「冒……的风险」。这时候后面接动词要用 -ing 形式，中间不能加 to。",
+          "heading": "对比一下：普通过去式只讲“发生了”",
+          "body": "课文里其余动作大多是一般过去时（ran、saw、dropped…），单纯说“做过某事”，不强调先后或背景。只有需要把时间层次讲清楚的地方，才会特意换用过去完成时或过去进行时。听课文时可以留意哪几句用了 had 或 was/were，那就是作者在提醒你“这件事发生得更早”或“这是背景画面”。",
           "examples": [
             {
-              "en": "risk doing sth → risk losing money",
-              "zh": "冒着丢钱的风险",
-              "note": "不能说 risk to lose money"
-            }
-          ]
-        },
-        {
-          "heading": "这类动词有一批，一起记",
-          "body": "像 risk 这样，后面必须直接跟 -ing、不能跟 to do 的动词还有不少，常见的有 enjoy、stop、avoid、finish、mind 等，都是同一个规律，记住一个就能带出一串。",
-          "examples": [
-            {
-              "en": "enjoy → enjoy doing, stop → stop doing, avoid → avoid doing, risk → risk doing",
-              "zh": "都是动词后面直接加 -ing，不加 to"
+              "en": "The men got such a fright that they dropped the bag and ran away.",
+              "zh": "那两个人吓得扔下提包逃跑了。",
+              "note": "普通过去式：dropped、ran away 都是单纯叙述发生的事，没有先后层次"
             }
           ]
         }

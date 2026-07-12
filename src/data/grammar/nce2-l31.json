@@ -3,80 +3,50 @@
   "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
   "topics": [
     {
-      "id": "past-continuous",
-      "title": "过去进行时",
-      "subtitle": "Past continuous (I was doing)",
-      "refUnit": 6,
+      "id": "used-to",
+      "title": "used to 表过去习惯",
+      "subtitle": "Used to (do)",
+      "refUnit": 18,
       "sections": [
         {
-          "heading": "什么时候用",
-          "body": "过去进行时说的是「过去某一刻正在发生的事」，动作还没结束，是个背景画面。整篇课文就是从这么一个画面切入的——一会儿你会在课文里听到：",
+          "heading": "什么时候用 used to",
+          "body": "used to 说的是过去长期、反复发生的事或状态，而且潜台词是「现在已经不这样了」。这一课整个就是弗兰克回忆自己年轻时的老习惯，一会儿你会在课文里听到：",
           "examples": [
             {
-              "en": "Yesterday afternoon Frank Hawkins was telling me about his experiences as a young man.",
-              "zh": "昨天下午弗兰克·霍金斯在向我讲述他年轻时的经历。"
-            }
-          ]
-        },
-        {
-          "heading": "怎么构成",
-          "body": "was/were + 动词的 -ing 形式。主语是第三人称单数（he/she/it）用 was，其余大多用 were。was telling 就是 was + telling。",
-          "examples": [
-            {
-              "en": "Yesterday afternoon Frank Hawkins was telling me about his experiences as a young man.",
-              "zh": "昨天下午弗兰克·霍金斯在向我讲述他年轻时的经历。",
-              "note": "he → was + telling"
-            }
-          ]
-        },
-        {
-          "heading": "一件长动作，配一件短动作",
-          "body": "过去进行时最常见的用法，是搭一个正在持续的动作，去衬托另一件突然发生、把它打断的短动作。后面那件短动作反而用一般过去时。听的时候留意一下这个搭配：",
-          "examples": [
-            {
-              "en": "He was still smiling when the door opened and his wife came in.",
-              "zh": "门开了，他的妻子走了进来，他还在笑着。",
-              "note": "was smiling（持续的笑）被 opened / came in（突然发生）打断"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "past-perfect",
-      "title": "过去完成时",
-      "subtitle": "Past perfect (I had done)",
-      "refUnit": 15,
-      "sections": [
-        {
-          "heading": "什么时候用",
-          "body": "过去完成时说的是「过去的过去」：在讲一件过去的事时，还要提到比它更早发生的另一件事，那件更早的事就用过去完成时。它帮你把两个过去的时间点排出先后顺序。",
-          "examples": [
-            {
-              "en": "In a few years the small workshop had become a large factory which employed seven hundred and twenty-eight people.",
-              "zh": "几年之后，小铺子已经发展成一个大工厂，雇用了728人。",
-              "note": "had become 发生在「几年之后」这个过去时间点之前"
-            }
-          ]
-        },
-        {
-          "heading": "怎么构成",
-          "body": "had + 动词的过去分词，人称、单复数都不影响 had，永远是 had，不像一般过去时那样要分动词变形。become 的过去分词还是 become，所以 had become 看着和原形一样，容易漏看。",
-          "examples": [
-            {
-              "en": "In a few years the small workshop had become a large factory which employed seven hundred and twenty-eight people.",
-              "zh": "几年之后，小铺子已经发展成一个大工厂，雇用了728人。"
-            }
-          ]
-        },
-        {
-          "heading": "有 before 时，反而可以不用过去完成",
-          "body": "本课开头这句话，「先」和「后」两件事已经被 before 这个词说清楚了，所以两个分句都用了一般过去时，没有必要再叠一层 had。before/after 本身就自带顺序，句子意思不会乱：",
-          "examples": [
-            {
-              "en": "Before he retired,",
-              "zh": "在退休之前，"
+              "en": "Frank was the head of a very large business company, but as a boy he used to work in a small shop.",
+              "zh": "弗兰克是一家非常大的商业公司的总裁，但小时候他曾在一家小铺子里工作。"
             },
+            {
+              "en": "It was his job to repair bicycles and at that time he used to work fourteen hours a day.",
+              "zh": "他的工作是修理自行车，那时他常常一天工作14个小时。"
+            }
+          ]
+        },
+        {
+          "heading": "结构：used to + 动词原形",
+          "body": "used to 后面直接接动词原形，不管主语是谁、句子是单数复数，used 这个形式都不变。可以把它当成一个固定短语来记，别拆开分析时态。",
+          "examples": [
+            {
+              "en": "In his twenties Frank used to make spare parts for aeroplanes.",
+              "zh": "20多岁的时候，弗兰克曾经生产过飞机零配件。"
+            }
+          ]
+        },
+        {
+          "heading": "否定和疑问怎么变",
+          "body": "否定是 didn't use to（注意 use 不加 -d，因为 didn't 已经带走了过去时），疑问是 Did ... use to。课文里没有出现否定疑问句，这里拿课文的肯定句改一改帮你记结构。",
+          "examples": [
+            {
+              "en": "It was his job to repair bicycles and at that time he used to work fourteen hours a day.",
+              "zh": "他的工作是修理自行车，那时他常常一天工作14个小时。",
+              "note": "改否定：he didn't use to work fourteen hours a day；✗ he didn't used to work…（used 不能带 -d）"
+            }
+          ]
+        },
+        {
+          "heading": "用一般过去时行不行",
+          "body": "描述单次或几次的过去动作，一般过去时就够了；但要强调「那是一段时间里反复的老习惯，现在不一样了」，用 used to 更地道。课文里弗兰克从修车小工到工厂老板，前后对比强烈，所以作者选了 used to。听的时候留意这种前后对比的语气。",
+          "examples": [
             {
               "en": "Frank was the head of a very large business company, but as a boy he used to work in a small shop.",
               "zh": "弗兰克是一家非常大的商业公司的总裁，但小时候他曾在一家小铺子里工作。"

@@ -3,63 +3,130 @@
   "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
   "topics": [
     {
-      "id": "present-simple-frequency",
-      "title": "一般现在时+频度副词",
-      "subtitle": "Present simple (I do)",
-      "refUnit": 2,
+      "id": "past-simple-narrative",
+      "title": "一般过去时连贯叙事",
+      "subtitle": "Past simple (I did)",
+      "refUnit": 5,
       "sections": [
         {
-          "heading": "一般现在时说的是「习惯」，不是「正在发生」",
-          "body": "作者说自己星期天的习惯，不是只发生过一次的事，所以用一般现在时。这一课开头几句就是这种句子，一会儿你会在课文里听到：",
+          "heading": "为什么要用过去时",
+          "body": "故事一开头 'It was Sunday' 就把时间钉在了过去——这是已经发生过的某个星期天。接下来讲那天的事，动词统统用一般过去时。你听课文时会有种「放幻灯片」的感觉：作者把那个早上发生的事一件件摆出来，每件都带着过去的标记。",
           "examples": [
             {
-              "en": "I never get up early on Sundays.",
-              "zh": "星期天我从来不早起。"
+              "en": "It was Sunday.",
+              "zh": "那是个星期天。"
+            },
+            {
+              "en": "Last Sunday I got up very late.",
+              "zh": "上星期天，我起得很晚。"
             }
           ]
         },
         {
-          "heading": "never / sometimes / always 放在哪",
-          "body": "这几个频度副词有个固定站位：跟在 be 动词后面，站在行为动词前面。never 表示「从不」，sometimes 是「有时」，always 是「总是」，程度从低到高。",
+          "heading": "一连串动作，依次发生",
+          "body": "讲故事最常用的招数，就是把几个过去时动词排成一串，让动作一个接一个往下走。这一课里「起床—往窗外看—电话铃响」就是按时间顺序排列的，每个过去时动词都把故事往前推一步，节奏也跟着紧起来。听的时候顺着这条动作链走，就能跟住故事的进展。",
           "examples": [
             {
-              "en": "I sometimes stay in bed until lunchtime.",
-              "zh": "有时我会一直在床上躺到吃午饭的时间。"
+              "en": "I looked out of the window.",
+              "zh": "我往窗外一看。"
+            },
+            {
+              "en": "Just then, the telephone rang.",
+              "zh": "就在这时，电话铃响了。"
             }
           ]
         },
         {
-          "heading": "疑问句里，频度副词站在主语和动词中间",
-          "body": "变成一般疑问句时，Do/Does 提到句首，主语紧跟其后，频度副词依然夹在主语和行为动词之间，位置不变。姑妈打电话质问作者，用的就是这个结构：",
+          "heading": "引述动词：said、asked、repeated",
+          "body": "故事里有人开口说话时，作者用 said、asked、repeated 这些「引述动词」来带出对话。注意它们也是过去时——因为整段对话发生在那个星期天。引号里面的话用什么时态是另一回事（下一节细讲），但「谁说了这句话」这个动作，永远跟着故事的过去时走。",
           "examples": [
             {
-              "en": "'Do you always get up so late?",
-              "zh": "'你总是起得这么晚吗？"
+              "en": "'What are you doing?' she asked.",
+              "zh": "'你在做什么？'她问。"
+            },
+            {
+              "en": "'I'm having breakfast,' I repeated.",
+              "zh": "'我在吃早饭，'我又说了一遍。"
             }
           ]
         },
         {
-          "heading": "never 本身就是否定，不能再加 not",
-          "body": "never 已经带了「不」的意思，句子里不需要也不能再出现 not，直接把 never 放进正常的现在时句子里就行。",
+          "heading": "规则动词和不规则动词混着用",
+          "body": "这一课的过去时动词里，有规则的 looked（加 -ed），也有不规则的 got up、rang、thought——这些得单独记变形。听课文时不妨把每个过去时动词都抓出来念一遍，你会更清楚哪些是规则变化、哪些得死记。",
           "examples": [
             {
-              "en": "I never get up early on Sundays.",
-              "zh": "星期天我从来不早起。",
-              "note": "✗ I don't never get up early."
+              "en": "Just then, the telephone rang.",
+              "zh": "就在这时，电话铃响了。"
+            },
+            {
+              "en": "'What a day!' I thought.",
+              "zh": "'鬼天气！'我想。"
             }
           ]
         }
       ]
     },
     {
-      "id": "until-lunchtime",
-      "title": "until 表示直到",
-      "subtitle": "By and until / by the time...",
+      "id": "present-continuous-contrast",
+      "title": "引语里的现在进行时",
+      "subtitle": "Present continuous (I am doing)",
+      "refUnit": 1,
+      "sections": [
+        {
+          "heading": "说话那一刻正在做的事",
+          "body": "这一课最妙的地方是：讲故事用的是过去时，可一进引号，里面的人却用起了现在进行时。为什么？因为引号里的话，是那个人说出口的那一瞬间正在做的事——「我此刻正在吃早饭」。所以 I'm having breakfast 用现在进行时，跟外面的过去时刚好形成对比。",
+          "examples": [
+            {
+              "en": "'But I'm still having breakfast,' I said.",
+              "zh": "'但我还在吃早饭，'我说。"
+            },
+            {
+              "en": "'I'm having breakfast,' I repeated.",
+              "zh": "'我在吃早饭，'我又说了一遍。"
+            }
+          ]
+        },
+        {
+          "heading": "问别人此刻在干嘛",
+          "body": "姑妈露西电话一接通，劈头就问「你在干嘛？」——她问的是说话这一刻的动作，所以同样用现在进行时 What are you doing?。注意她问的是「此刻」，不是问你的习惯，所以没用 What do you do?。",
+          "examples": [
+            {
+              "en": "'What are you doing?' she asked.",
+              "zh": "'你在做什么？'她问。"
+            }
+          ]
+        },
+        {
+          "heading": "现在进行时还能表「马上要做」的事",
+          "body": "现在进行时除了说「此刻正在做」，还能表示已经安排好、马上要做的事。露西说「我这就来看你」——她已经动身、或马上动身，所以用 I'm coming to see you，而不是 I come。",
+          "examples": [
+            {
+              "en": "'I'm coming to see you.'",
+              "zh": "'我这就来看你。'"
+            }
+          ]
+        },
+        {
+          "heading": "里外对比：过去时套着现在进行时",
+          "body": "把这几句摆在一起就特别清楚：外层的 said、asked、repeated 是过去时（讲故事），引号里的 I'm having、are you doing 是现在进行时（说话当下）。一层套一层，时态各管各的时间，这正是英语叙事的一大特点，听的时候留意这种「双层结构」。",
+          "examples": [
+            {
+              "en": "'What are you doing?' she asked.",
+              "zh": "'你在做什么？'她问。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "until-time",
+      "title": "until 表示「直到……为止」",
+      "subtitle": "If / when / unless etc.",
       "refUnit": 120,
       "sections": [
         {
-          "heading": "until 强调「一直持续到」",
-          "body": "until 后面接一个时间点，意思是某个动作或状态从现在一路延续，中间不间断，一直延续到那个时间点才停。重点在「过程一直没变」，不是「到了那个点才发生」。留意课文里作者赖床的这句：",
+          "heading": "until 在这里是什么意思",
+          "body": "课文那句「有时我会一直睡到午饭时间」，关键的 until 就是「直到……为止」。我赖在床上这个状态一直持续，停在午饭时间这个点上——until 后面接的就是那个「终点」。所以 stay in bed until lunchtime = 在床上一直待到午饭。",
           "examples": [
             {
               "en": "I sometimes stay in bed until lunchtime.",
@@ -68,24 +135,27 @@
           ]
         },
         {
-          "heading": "until 后面可以是名词，也可以是一句话",
-          "body": "本课里 until 后面接的是 lunchtime 这个时间名词。除此之外，until 后面还能接一个完整的从句，表示「直到某件事发生为止」，用法是同一个道理，只是后面换成了主谓结构。",
+          "heading": "until 后面接什么",
+          "body": "until 后面可以接一个时间名词，比如 lunchtime；也可以接一个具体时刻，或一个完整的句子。重点是记住：until 强调「动作一直持续，到这个点才停」，所以前面的动词通常是能持续的，像 stay、wait、sleep 这类。",
           "examples": [
             {
               "en": "I sometimes stay in bed until lunchtime.",
-              "zh": "有时我会一直在床上躺到吃午饭的时间。",
-              "note": "until + 名词；换成从句可以说 until she arrives"
+              "zh": "有时我会一直在床上躺到吃午饭的时间。"
+            },
+            {
+              "en": "I sometimes stay in bed until one o'clock.",
+              "zh": "有时我会一直在床上躺到一点钟。",
+              "note": "由课文 lunchtime 一句改写，演示 until + 具体时刻"
             }
           ]
         },
         {
-          "heading": "别和 by 混了",
-          "body": "by 表示「最晚不超过某个时间点」，动作只在那个点之前完成一次就行，中间可以不连续；until 表示「一直到那个点」，中间的状态是连着的、没断过。作者是「一直躺着没起来」，用的是 until，不是 by。",
+          "heading": "和 till、before 的区别",
+          "body": "until 在口语里常缩成 till，意思一样，可以混用。但它跟 before 不同：before 是「在某时间点之前」（动作未必撑到那个点），until 是「一直持续到那个点才结束」。作者用 until，正是想强调「赖床赖到午饭才起」，和后面「起得很晚」呼应。",
           "examples": [
             {
               "en": "I sometimes stay in bed until lunchtime.",
-              "zh": "有时我会一直在床上躺到吃午饭的时间。",
-              "note": "✗ I sometimes stay in bed by lunchtime.（by 强调的是截止，不是持续过程）"
+              "zh": "有时我会一直在床上躺到吃午饭的时间。"
             }
           ]
         }

@@ -3,14 +3,66 @@
   "note": "本页讲解为本站原创编写，例句取自本课课文。建议先看完这里再去听课文，听的时候你会「对上号」。想系统深入，可翻《剑桥中级英语语法》对应 Unit。",
   "topics": [
     {
+      "id": "past-continuous",
+      "title": "过去进行时：背景动作与突发打断",
+      "subtitle": "Past continuous (I was doing)",
+      "refUnit": 6,
+      "sections": [
+        {
+          "heading": "背景动作 vs 突发事件",
+          "body": "这一课满眼都是「某件事正在发生，突然另一件事插了进来」。规则很实在：正在进行的那段长动作（背景）用过去进行时 was/were doing，半路冒出来的短动作、突发事件用一般过去时。Roy 正沿着街道开车，这是背景；就在这时他瞧见两个小偷冲出来，这是突发。你听课文时，先注意这种「长背景里忽然插一刀」的节奏。",
+          "examples": [
+            {
+              "en": "When he was driving along Catford Street recently, he saw two thieves rush out of a shop and run towards a waiting car.",
+              "zh": "最近，当他正开车行驶在凯特福德街时，他看见两个小偷从一家商店冲出来，跑向一辆等在那里的汽车。"
+            }
+          ]
+        },
+        {
+          "heading": "As / While 也能引导背景",
+          "body": "除了 when，as 和 while 同样常用来挂出一段背景动作，主句再说那件打断或穿插的事。Roy 追贼那两段最典型：小偷们正设法溜走，Roy 一头撞上去；那辆撞瘪的车正往远处挪，Roy 停车报警。三句话结构一模一样，把背景动词都标成了进行时。",
+          "examples": [
+            {
+              "en": "As the thieves were trying to get away in their car, Roy drove his bus into the back of it.",
+              "zh": "两个小偷企图乘车逃跑时，罗伊驾驶公共汽车撞上了那辆车的尾部。"
+            },
+            {
+              "en": "While the battered car was moving away, Roy stopped his bus and telephoned the police.",
+              "zh": "当那辆被撞坏的车开走时，罗伊停下车，给警察打了电话。"
+            }
+          ]
+        },
+        {
+          "heading": "光有背景，没人打断",
+          "body": "有时过去进行时只用来交代当时「正在怎样」，并不一定后面紧跟一个打断的动作，目的就是给你一幅当时的画面。比如那两个小偷从店里窜出来时，其中一个手里正拎着满满一袋钞票——画面感一下子就出来了。",
+          "examples": [
+            {
+              "en": "One of them was carrying a bag full of money.",
+              "zh": "其中一个拎着装满钞票的袋子。"
+            }
+          ]
+        },
+        {
+          "heading": "结构小结：was/were + 动词 -ing",
+          "body": "过去进行时的固定长相是 was/were + 动词的 -ing 形式，主语单数用 was，复数用 were。它只负责「那段正在进行」，至于突然发生了什么，留给一般过去时去说。记住这一分工，再听 Roy 这场惊险追击，时态的搭配就一目了然了。",
+          "examples": [
+            {
+              "en": "When he was driving along Catford Street recently, he saw two thieves rush out of a shop and run towards a waiting car.",
+              "zh": "最近，当他正开车行驶在凯特福德街时，他看见两个小偷从一家商店冲出来，跑向一辆等在那里的汽车。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "used-to",
-      "title": "过去的习惯",
+      "title": "used to 表过去习惯或身份",
       "subtitle": "Used to (do)",
       "refUnit": 18,
       "sections": [
         {
-          "heading": "used to 说的是什么",
-          "body": "used to + 动词原形，说的是过去经常做、但现在已经不做的事，或过去的状态跟现在不一样了。罗伊以前开出租车，现在改开公共汽车了——一会儿听课文，开头就是这句：",
+          "heading": "什么时候用 used to",
+          "body": "used to 说的是过去持续了一段时间的状态或习惯，潜台词永远是「现在已经不这样了」。故事一开篇就交代 Roy 的老本行，用的是 used to——意思很明确：他以前是开出租的，后来改行了。听课文开头那句，重点抓住这层「今昔之变」。",
           "examples": [
             {
               "en": "Roy Trenton used to drive a taxi.",
@@ -19,33 +71,13 @@
           ]
         },
         {
-          "heading": "后面永远接动词原形",
-          "body": "不管主语是 he、she 还是 they，used to 后面都接动词原形，不加 -s，也不加 -ing。这点跟一般现在时不一样，容易写错成 uses to 或 used to driving。",
+          "heading": "潜台词：现在不一样了",
+          "body": "used to 的味道全在那句没说出口的「现在不了」。课文紧接着就点明 Roy 如今当上了公交司机，前后一对照，used to 的对比意味就立住了：过去开出租，现在开公交，两段生涯一交接。",
           "examples": [
             {
               "en": "Roy Trenton used to drive a taxi.",
-              "zh": "罗伊·特伦顿过去常常开出租车。",
-              "note": "✗ Roy Trenton used to drives a taxi."
-            }
-          ]
-        },
-        {
-          "heading": "否定和疑问怎么变",
-          "body": "否定是 didn't use to（注意 used 变回原形 use），疑问是 Did...use to。这里 did 已经带出过去的意思，use 就不用再变形了。",
-          "note": "✗ He didn't used to drive a taxi. → 应为 He didn't use to drive a taxi."
-        }
-      ]
-    },
-    {
-      "id": "present-perfect",
-      "title": "现在完成时",
-      "subtitle": "Present perfect 1 (I have done)",
-      "refUnit": 7,
-      "sections": [
-        {
-          "heading": "现在完成时管的是什么",
-          "body": "have/has + 过去分词，讲的不是过去某个具体时刻发生了什么，而是这件事一直延续到现在、对现在还有影响。罗伊换了工作，重点不是「什么时候后悔」，而是「到现在为止都没后悔过」：",
-          "examples": [
+              "zh": "罗伊·特伦顿过去常常开出租车。"
+            },
             {
               "en": "A short while ago, however, he became a bus driver and he has not regretted it.",
               "zh": "然而不久前，他当上了公共汽车司机，他并不后悔。"
@@ -53,62 +85,72 @@
           ]
         },
         {
-          "heading": "一句话里两种时态并存",
-          "body": "留意这句里前后两个动词：became 是一般过去时，讲一件已经结束的具体事（当上司机是哪一刻的事）；has not regretted 是现在完成时，讲这件事从那以后一直到现在的状态。两者搭配很常见，听的时候留意区分。",
+          "heading": "结构：used to + 动词原形",
+          "body": "used to 后面直接接动词原形，不论主语是单是复、是人是物，used 这个样子都不变。可以把它当一个固定短语整块记下来，别拆开来抠时态，这样用起来最干脆。",
           "examples": [
             {
-              "en": "he became a bus driver and he has not regretted it",
-              "zh": "他当上了公共汽车司机，他并不后悔"
+              "en": "Roy Trenton used to drive a taxi.",
+              "zh": "罗伊·特伦顿过去常常开出租车。"
             }
           ]
         },
         {
-          "heading": "否定：has/have not + 过去分词",
-          "body": "现在完成时的否定就是在 has/have 后面加 not，过去分词本身不用变。has not 常缩写成 hasn't。",
+          "heading": "否定和疑问怎么变",
+          "body": "否定用 didn't use to（注意 use 不再带 -d，因为 didn't 已经把过去时背走了），疑问用 Did ... use to。课文里只出现了肯定句，这里照着改一改帮你记牢结构。",
           "examples": [
             {
-              "en": "he has not regretted it",
-              "zh": "他并不后悔",
-              "note": "✗ he has not regret it"
+              "en": "Roy Trenton used to drive a taxi.",
+              "zh": "罗伊·特伦顿过去常常开出租车。",
+              "note": "改否定：Roy didn't use to drive a bus（过去他不常开公交）；✗ Roy didn't used to…（used 不能带 -d）"
             }
           ]
         }
       ]
     },
     {
-      "id": "comparison-far-more",
-      "title": "形容词比较级加强",
-      "subtitle": "Comparison 1 (cheaper, more expensive)",
-      "refUnit": 105,
+      "id": "such-that",
+      "title": "such...that 表结果",
+      "subtitle": "So and such",
+      "refUnit": 102,
       "sections": [
         {
-          "heading": "长一点的形容词，用 more 而不是 -er",
-          "body": "像 exciting 这种音节比较多的形容词，比较级不是词尾加 -er，而是前面加 more。exciting → more exciting，就是「更刺激」。",
+          "heading": "such...that 是什么",
+          "body": "such...that 用来表达「如此……以至于」，前面用 such 强调某个名词，后面 that 引出由此带来的结果。Roy 一头撞过去，拎钱的小偷被吓得手一松——课文把「吓」和「扔袋子」用 such...that 串成因果关系，结果清清楚楚。",
           "examples": [
             {
-              "en": "He is finding his new work far more exciting.",
-              "zh": "他发觉新的工作比以前有趣得多。"
+              "en": "The one with the money got such a fright that he dropped the bag.",
+              "zh": "拿钱的那个小偷吓得厉害，以至于把袋子都扔了。"
             }
           ]
         },
         {
-          "heading": "far 让比较级更夸张",
-          "body": "比较级前面加 far（或 much、a lot）可以加强语气，意思是「远远更……」。far more exciting 就是「远比以前刺激得多」，比单说 more exciting 语气更强。",
+          "heading": "such 要跟着名词走",
+          "body": "such 的关键在于它后面必须接名词（或名词短语），这是它和 so 最大的区别。课文里 such 后面是 a fright，一个名词短语，所以用 such 而不是 so。看到 such，就去找它修饰的那个名词。",
           "examples": [
             {
-              "en": "far more exciting",
-              "zh": "远比以前有趣得多"
+              "en": "The one with the money got such a fright that he dropped the bag.",
+              "zh": "拿钱的那个小偷吓得厉害，以至于把袋子都扔了。",
+              "note": "such a fright（名词短语）→ 用 such；若说 so frightened（形容词）→ 才用 so"
             }
           ]
         },
         {
-          "heading": "find + 宾语 + 形容词：觉得某样东西怎么样",
-          "body": "find 后面直接接「宾语 + 形容词」，表示「觉得/发现某物是怎样的」，中间不用加 that 或 is。课文这句的骨架就是 find + his new work + far more exciting：",
+          "heading": "such a / such + 形容词 + 名词",
+          "body": "常见搭配是 such a + 单数可数名词，中间也可以塞形容词，变成 such a/an + 形容词 + 名词。fright 是可数名词，前面有 a，于是 such a fright 顺理成章，结果由 that 引出。",
           "examples": [
             {
-              "en": "He is finding his new work far more exciting.",
-              "zh": "他发觉新的工作比以前有趣得多。",
-              "note": "✗ He is finding that his new work is far more exciting is not wrong, but find + 宾语 + 形容词更简洁常用"
+              "en": "The one with the money got such a fright that he dropped the bag.",
+              "zh": "拿钱的那个小偷吓得厉害，以至于把袋子都扔了。"
+            }
+          ]
+        },
+        {
+          "heading": "that 引出的就是结果",
+          "body": "such...that 里，that 后面是一个完整的小句子，交代「程度大到发生了什么」。这里「吓得把袋子扔了」就是结果，主角的小命和赃款一起飞了。such 负责把程度顶上去，that 负责把后果摆出来，分工明确。",
+          "examples": [
+            {
+              "en": "The one with the money got such a fright that he dropped the bag.",
+              "zh": "拿钱的那个小偷吓得厉害，以至于把袋子都扔了。"
             }
           ]
         }
