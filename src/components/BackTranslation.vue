@@ -25,6 +25,7 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   (e: 'replay-segment', seg: Segment): void;
+  (e: 'digested'): void;
 }>();
 
 const DIGESTED_KEY = 'nce-digested-lessons';
@@ -149,6 +150,7 @@ const markDigested = () => {
     set.add(props.lessonId);
     localStorage.setItem(DIGESTED_KEY, JSON.stringify([...set]));
     digested.value = true;
+    emit('digested');
   } catch { /* ignore */ }
 };
 

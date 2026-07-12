@@ -12,6 +12,9 @@ const studyModules = import.meta.glob('../data/grammar/*.json');
 const hasStudy = computed(() => `../data/grammar/${props.lessonId}.json` in studyModules);
 const studyRef = ref<InstanceType<typeof GrammarStudy> | null>(null);
 
+// 供学习动线步骤条直接打开预习弹窗
+defineExpose({ openStudy: () => studyRef.value?.open() });
+
 type BookId = 'elem' | 'int';
 
 interface GrammarRef {

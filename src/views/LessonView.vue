@@ -6,6 +6,7 @@ import DialogueScript from '../components/DialogueScript.vue';
 import DonationModal from '../components/DonationModal.vue';
 import GrammarMap from '../components/GrammarMap.vue';
 import BackTranslation from '../components/BackTranslation.vue';
+import LearningPath from '../components/LearningPath.vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 
@@ -22,6 +23,19 @@ const scriptRef = ref<any>(null);
 
 // 回译挑战试点课程（效果验证后铺开）
 const BACK_TRANSLATION_LESSONS = ['nce2-l1'];
+
+// 学习动线的引用与消化状态
+const grammarMapRef = ref<any>(null);
+const backTranslationRef = ref<any>(null);
+const digested = ref(false);
+
+const loadDigested = (id: string) => {
+  try {
+    digested.value = (JSON.parse(localStorage.getItem('nce-digested-lessons') || '[]') as string[]).includes(id);
+  } catch {
+    digested.value = false;
+  }
+};
 const donationModalRef = ref<any>(null);
 
 const STORAGE_KEYS = {
@@ -138,6 +152,7 @@ const loadLessonData = async (id: string) => {
     const data = await import(`../data/lessons/${id}.json`);
     lessonData.value = data.default;
     preloadLessonImages(data.default);
+    loadDigested(data.default.id);
 
     // 重置状态
     currentTime.value = 0;
@@ -467,6 +482,14 @@ onUnmounted(() => {
     />
 
     <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
+      <!-- 学习动线：进入课程先看按什么顺序学（试点课程） -->
+      <LearningPath
+        v-if="BACK_TRANSLATION_LESSONS.includes(lessonData.id)"
+        :digested="digested"
+        @open-grammar="grammarMapRef?.openStudy()"
+        @open-challenge="backTranslationRef?.open()"
+      />
+
       <div class="grid grid-cols-12 gap-10">
         <!-- 左栏：播放器 + 快捷键 + 语法地图，整体吸顶 -->
         <div class="col-span-5 sticky top-24 self-start">
@@ -488,7 +511,7 @@ onUnmounted(() => {
           }))"
           @timeupdate="handleTimeUpdate"
         />
-        <GrammarMap :lesson-id="lessonData.id" />
+        <GrammarMap ref="grammarMapRef" :lesson-id="lessonData.id" />
         </div>
 
         <DialogueScript
@@ -508,10 +531,12 @@ onUnmounted(() => {
       <div v-if="BACK_TRANSLATION_LESSONS.includes(lessonData.id)" class="mt-10 max-w-xl mx-auto text-center animate-fade-in">
         <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">听完课文了？</p>
         <BackTranslation
+          ref="backTranslationRef"
           :lesson-id="lessonData.id"
           :lesson-title="lessonData.title"
           :segments="lessonData.segments"
           @replay-segment="handleSegmentClick"
+          @digested="digested = true"
           class="!mt-0 !py-3 !text-sm !rounded-2xl"
         />
         <p class="mt-2 text-[11px] text-slate-400">看中文拼回英文原句——全部拼对，这门课才算真消化</p>
