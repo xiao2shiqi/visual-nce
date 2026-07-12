@@ -5,6 +5,7 @@ import SceneViewer from '../components/SceneViewer.vue';
 import DialogueScript from '../components/DialogueScript.vue';
 import DonationModal from '../components/DonationModal.vue';
 import GrammarMap from '../components/GrammarMap.vue';
+import BackTranslation from '../components/BackTranslation.vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 
@@ -18,6 +19,9 @@ const props = defineProps<{
 const emit = defineEmits(['back', 'select-course']);
 const sceneViewerRef = ref<any>(null);
 const scriptRef = ref<any>(null);
+
+// 回译挑战试点课程（效果验证后铺开）
+const BACK_TRANSLATION_LESSONS = ['nce2-l1'];
 const donationModalRef = ref<any>(null);
 
 const STORAGE_KEYS = {
@@ -498,6 +502,19 @@ onUnmounted(() => {
           :playback-rates="playbackRates"
           @segment-click="handleSegmentClick"
         />
+      </div>
+
+      <!-- 回译挑战：听完课文后的消化验收（试点课程） -->
+      <div v-if="BACK_TRANSLATION_LESSONS.includes(lessonData.id)" class="mt-10 max-w-xl mx-auto text-center animate-fade-in">
+        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">听完课文了？</p>
+        <BackTranslation
+          :lesson-id="lessonData.id"
+          :lesson-title="lessonData.title"
+          :segments="lessonData.segments"
+          @replay-segment="handleSegmentClick"
+          class="!mt-0 !py-3 !text-sm !rounded-2xl"
+        />
+        <p class="mt-2 text-[11px] text-slate-400">看中文拼回英文原句——全部拼对，这门课才算真消化</p>
       </div>
 
       <!-- Quick Navigation -->

@@ -63,7 +63,7 @@ const points = computed<GrammarPoint[]>(() => {
             :key="ref.unit"
             class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold border bg-amber-50 text-amber-800 border-amber-200/70"
             :class="hasStudy ? 'cursor-pointer hover:bg-amber-100 hover:border-amber-400 hover:shadow-sm transition-all' : ''"
-            :title="hasStudy ? '点击学讲解、做练习' : `${book.name}（${book.edition}）Unit ${ref.unit}`"
+            :title="hasStudy ? '点击看本课语法讲解' : `${book.name}（${book.edition}）Unit ${ref.unit}`"
             @click="hasStudy && studyRef?.open(ref.unit)"
           >
             <span class="font-black">Unit {{ ref.unit }}</span>

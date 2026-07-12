@@ -52,7 +52,7 @@ const activeTopic = computed(() => topics.value[activeIdx.value]);
 
 <template>
   <Teleport to="body">
-    <Transition name="fade">
+    <Transition name="fade" :duration="200">
       <div v-if="show" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm" @click.self="close">
         <div class="bg-white w-full max-w-3xl max-h-[88vh] rounded-3xl shadow-2xl relative overflow-hidden animate-scale-up flex flex-col">
 
