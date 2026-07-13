@@ -122,7 +122,7 @@ const activeTopic = computed(() => topics.value[activeIdx.value]);
                 @click="activeIdx++"
                 class="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-2xl text-sm font-bold bg-amber-500 text-white hover:bg-amber-600 shadow-md shadow-amber-500/20 transition-all"
               >
-                下一个语法点：{{ topics[activeIdx + 1].title }}
+                下一个语法点：{{ topics[activeIdx + 1]?.title }}
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>

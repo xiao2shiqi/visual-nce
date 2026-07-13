@@ -52,7 +52,9 @@ const shuffle = (n: number): number[] => {
   const arr = Array.from({ length: n }, (_, i) => i);
   for (let i = n - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+    const tmp = arr[i]!;
+    arr[i] = arr[j]!;
+    arr[j] = tmp;
   }
   return arr;
 };
@@ -101,10 +103,12 @@ const sentence = (it: Item, indices: number[]) => indices.map((i) => it.words[i]
 
 const pick = (wi: number) => {
   if (curStatus.value !== 'pending' || chosen.value.includes(wi)) return;
+  const it = item.value;
+  if (!it) return;
   chosen.value.push(wi);
   // 拼满自动判定（按词序列比对，重复词等价）
-  if (chosen.value.length === item.value.words.length) {
-    if (sentence(item.value, chosen.value) === item.value.words.join(' ')) {
+  if (chosen.value.length === it.words.length) {
+    if (sentence(it, chosen.value) === it.words.join(' ')) {
       status.value[cur.value] = 'correct';
     } else {
       wrongFlash.value = true;
