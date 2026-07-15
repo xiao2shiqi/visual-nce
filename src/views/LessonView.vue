@@ -523,7 +523,6 @@ onUnmounted(() => {
 
       <!-- 回译挑战：听完课文后的消化验收（试点课程） -->
       <div v-if="hasFullLoop(lessonData.id)" class="mt-10 max-w-xl mx-auto text-center animate-fade-in">
-        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">听完课文了？</p>
         <BackTranslation
           ref="backTranslationRef"
           :lesson-id="lessonData.id"
@@ -533,7 +532,6 @@ onUnmounted(() => {
           @digested="handleDigested"
           class="!mt-0 !py-3 !text-sm !rounded-2xl"
         />
-        <p class="mt-2 text-[11px] text-slate-400">看中文拼回英文原句——全部拼对，这门课才算真消化</p>
       </div>
 
       <!-- Quick Navigation -->

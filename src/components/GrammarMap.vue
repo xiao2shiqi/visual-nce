@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue';
 import grammarMap from '../data/grammar-map.json';
 import GrammarStudy from './GrammarStudy.vue';
+import InfoTip from './InfoTip.vue';
 
 const props = defineProps<{
   lessonId: string;
@@ -49,11 +50,16 @@ const points = computed<GrammarPoint[]>(() => {
 <template>
   <!-- 紧凑侧栏卡片：放在播放器下方，作为学完后的延伸阅读 -->
   <section v-if="points.length" class="mt-5 pt-4 border-t border-slate-200/60 animate-fade-in">
-    <div class="flex items-center gap-2 mb-3">
+    <div class="flex items-center gap-1.5 mb-3">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3 h-3 text-amber-500">
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
       </svg>
       <span class="text-[10px] font-black text-slate-400 uppercase tracking-widest">{{ hasStudy ? '课前语法预习' : '本课语法地图' }}</span>
+      <InfoTip
+        :text="hasStudy
+          ? `听课前先花 3 分钟看完讲解，听课文时你会「对上号」。讲解为本站原创编写；想系统深入，可翻《${book.name}》（${book.edition}）对应 Unit。`
+          : `学完本课后，可翻到《${book.name}》（${book.edition}）对应 Unit 做配套练习。`"
+      />
     </div>
 
     <div class="space-y-3">
@@ -89,11 +95,6 @@ const points = computed<GrammarPoint[]>(() => {
       </svg>
       先学语法，再听故事
     </button>
-
-    <p class="mt-3 text-[10px] text-slate-400 leading-relaxed">
-      <template v-if="hasStudy">听课前先花 3 分钟看完讲解，听课文时你会「对上号」。讲解为本站原创编写；想系统深入，可翻《{{ book.name }}》（{{ book.edition }}）对应 Unit。</template>
-      <template v-else>学完本课后，可翻到《{{ book.name }}》（{{ book.edition }}）对应 Unit 做配套练习。</template>
-    </p>
 
     <GrammarStudy ref="studyRef" :lesson-id="lessonId" />
   </section>
