@@ -21,8 +21,8 @@ const emit = defineEmits(['back', 'select-course']);
 const sceneViewerRef = ref<any>(null);
 const scriptRef = ref<any>(null);
 
-// 完整学习闭环（语法预习 + 回译挑战 + 学习动线）：NCE2 全量开放
-const hasFullLoop = (id: string) => id.startsWith('nce2-');
+// 完整学习闭环（语法预习 + 回译挑战 + 学习动线）：NCE1、NCE2 全量开放（NCE3/4 暂无配套语法预习数据）
+const hasFullLoop = (id: string) => id.startsWith('nce1-') || id.startsWith('nce2-');
 
 // 学习动线的引用与消化状态
 const grammarMapRef = ref<any>(null);
@@ -71,7 +71,7 @@ const saveProgress = (time: number) => {
   }));
 };
 
-// ---- 课程完成：播放到 95% 记为完成，弹出完成卡（每次进课只弹一次）----
+// ---- 课程完成：回译挑战全部拼对记为完成，弹出完成卡（每次进课只弹一次）----
 const showCompletionCard = ref(false);
 const showWechatQr = ref(false);
 let completionShownThisVisit = false;
@@ -86,16 +86,12 @@ const markCompleted = (id: string) => {
   } catch { /* 存储异常时静默跳过 */ }
 };
 
-const checkCompletion = (time: number) => {
+const handleDigested = () => {
+  digested.value = true;
   if (completionShownThisVisit || !lessonData.value?.id) return;
-  const audioEl = sceneViewerRef.value?.audioPlayerRef?.innerAudio;
-  const duration = audioEl?.duration;
-  if (!duration || !isFinite(duration)) return;
-  if (time / duration >= 0.95) {
-    completionShownThisVisit = true;
-    markCompleted(lessonData.value.id);
-    showCompletionCard.value = true;
-  }
+  completionShownThisVisit = true;
+  markCompleted(lessonData.value.id);
+  showCompletionCard.value = true;
 };
 
 // ---- 跟读模式：每句播完自动停顿一个句长，再续播 ----
@@ -276,8 +272,6 @@ const handleTimeUpdate = (time: number) => {
   if (playMode.value === 'shadowing') {
     handleShadowing(time);
   }
-
-  checkCompletion(time);
 };
 
 // 核心逻辑：利用 requestAnimationFrame 实现高精度的停止控制
@@ -536,7 +530,7 @@ onUnmounted(() => {
           :lesson-title="lessonData.title"
           :segments="lessonData.segments"
           @replay-segment="handleSegmentClick"
-          @digested="digested = true"
+          @digested="handleDigested"
           class="!mt-0 !py-3 !text-sm !rounded-2xl"
         />
         <p class="mt-2 text-[11px] text-slate-400">看中文拼回英文原句——全部拼对，这门课才算真消化</p>
