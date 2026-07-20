@@ -75,12 +75,33 @@ def load_book(book):
     return [(f, json.load(open(f, encoding='utf-8'))) for f in files]
 
 
+def norm(s):
+    return re.sub(r'[^a-z0-9]+', '', (s or '').lower())
+
+
+def is_title_segment(text, data):
+    """The title line is a headline, not teaching text.
+
+    Its words are always taught again in the body with a proper gloss, and in
+    nce2 the title segments carry placeholder glosses ("Polite（待补充）") that
+    would otherwise surface at the top of the word list.
+    """
+    t = norm(text)
+    if not t:
+        return False
+    title = data.get('title', '')
+    # "Lesson 7: Too Late" -> "Too Late"; also matches the combined
+    # "Lesson 69 But not Murder" form.
+    tail = title.split(':', 1)[1] if ':' in title else title
+    return t in (norm(title), norm(tail))
+
+
 def iter_words(lessons):
     """Yield (lesson_path, segment, raw_word, entry, is_sentence_initial)."""
     for path, data in lessons:
         for seg in data.get('segments', []):
             text = seg.get('text', '') or ''
-            if SCAFFOLD_RE.match(text):
+            if SCAFFOLD_RE.match(text) or is_title_segment(text, data):
                 continue
             first_tok = clean(text.split()[0]).lower() if text.split() else None
             for entry in (seg.get('analysis') or {}).get('words', []):
