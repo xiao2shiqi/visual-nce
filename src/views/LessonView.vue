@@ -24,18 +24,10 @@ const scriptRef = ref<any>(null);
 // 完整学习闭环（语法预习 + 回译挑战 + 学习动线）：NCE1、NCE2 全量开放（NCE3/4 暂无配套语法预习数据）
 const hasFullLoop = (id: string) => id.startsWith('nce1-') || id.startsWith('nce2-');
 
-// 学习动线的引用与消化状态
+// 学习动线的引用与完成状态
 const grammarMapRef = ref<any>(null);
 const backTranslationRef = ref<any>(null);
-const digested = ref(false);
-
-const loadDigested = (id: string) => {
-  try {
-    digested.value = (JSON.parse(localStorage.getItem('nce-digested-lessons') || '[]') as string[]).includes(id);
-  } catch {
-    digested.value = false;
-  }
-};
+const completed = ref(false);
 const donationModalRef = ref<any>(null);
 
 const STORAGE_KEYS = {
@@ -45,6 +37,31 @@ const STORAGE_KEYS = {
   BLIND_MODE: 'vnce_blind_mode',
   LAST_LESSON: 'vnce_last_lesson',
   COMPLETED: 'vnce_completed'
+};
+
+// 旧版本另存了一份「已消化」（回译全对自动打勾），现已合并到同一份完成表
+const LEGACY_DIGESTED_KEY = 'nce-digested-lessons';
+
+const readCompleted = (): Set<string> => {
+  try {
+    return new Set<string>(JSON.parse(localStorage.getItem(STORAGE_KEYS.COMPLETED) || '[]'));
+  } catch {
+    return new Set<string>();
+  }
+};
+
+try {
+  const legacy = localStorage.getItem(LEGACY_DIGESTED_KEY);
+  if (legacy) {
+    const set = readCompleted();
+    for (const id of JSON.parse(legacy) as string[]) set.add(id);
+    localStorage.setItem(STORAGE_KEYS.COMPLETED, JSON.stringify([...set]));
+    localStorage.removeItem(LEGACY_DIGESTED_KEY);
+  }
+} catch { /* 迁移失败则忽略，旧标记丢失不影响使用 */ }
+
+const loadCompleted = (id: string) => {
+  completed.value = readCompleted().has(id);
 };
 
 const currentTime = ref(0);
@@ -71,27 +88,22 @@ const saveProgress = (time: number) => {
   }));
 };
 
-// ---- 课程完成：回译挑战全部拼对记为完成，弹出完成卡（每次进课只弹一次）----
+// ---- 课程完成：由学习者在学习动线末尾手动标记，系统只记账、不判定掌握程度 ----
 const showCompletionCard = ref(false);
 const showWechatQr = ref(false);
-let completionShownThisVisit = false;
 
-const markCompleted = (id: string) => {
+const toggleCompleted = () => {
+  const id = lessonData.value?.id;
+  if (!id) return;
+  const set = readCompleted();
+  const next = !set.has(id);
+  if (next) set.add(id);
+  else set.delete(id);
+  completed.value = next;
+  showCompletionCard.value = next;
   try {
-    const set = new Set(JSON.parse(localStorage.getItem(STORAGE_KEYS.COMPLETED) || '[]'));
-    if (!set.has(id)) {
-      set.add(id);
-      localStorage.setItem(STORAGE_KEYS.COMPLETED, JSON.stringify([...set]));
-    }
+    localStorage.setItem(STORAGE_KEYS.COMPLETED, JSON.stringify([...set]));
   } catch { /* 存储异常时静默跳过 */ }
-};
-
-const handleDigested = () => {
-  digested.value = true;
-  if (completionShownThisVisit || !lessonData.value?.id) return;
-  completionShownThisVisit = true;
-  markCompleted(lessonData.value.id);
-  showCompletionCard.value = true;
 };
 
 // ---- 跟读模式：每句播完自动停顿一个句长，再续播 ----
@@ -148,7 +160,7 @@ const loadLessonData = async (id: string) => {
     const data = await import(`../data/lessons/${id}.json`);
     lessonData.value = data.default;
     preloadLessonImages(data.default);
-    loadDigested(data.default.id);
+    loadCompleted(data.default.id);
 
     // 重置状态
     currentTime.value = 0;
@@ -158,7 +170,6 @@ const loadLessonData = async (id: string) => {
     clearShadowTimer();
     shadowLastSegId = null;
     lastProgressSave = 0;
-    completionShownThisVisit = false;
     showCompletionCard.value = false;
     showWechatQr.value = false;
 
@@ -479,9 +490,10 @@ onUnmounted(() => {
       <!-- 学习动线：进入课程先看按什么顺序学（试点课程） -->
       <LearningPath
         v-if="hasFullLoop(lessonData.id)"
-        :digested="digested"
+        :completed="completed"
         @open-grammar="grammarMapRef?.openStudy()"
         @open-challenge="backTranslationRef?.open()"
+        @toggle-complete="toggleCompleted"
       />
 
       <div class="grid grid-cols-12 gap-10">
@@ -521,15 +533,13 @@ onUnmounted(() => {
         />
       </div>
 
-      <!-- 回译挑战：听完课文后的消化验收（试点课程） -->
+      <!-- 回译挑战：选做的输出练习，不参与完成标记 -->
       <div v-if="hasFullLoop(lessonData.id)" class="mt-10 max-w-xl mx-auto text-center animate-fade-in">
         <BackTranslation
           ref="backTranslationRef"
-          :lesson-id="lessonData.id"
           :lesson-title="lessonData.title"
           :segments="lessonData.segments"
           @replay-segment="handleSegmentClick"
-          @digested="handleDigested"
           class="!mt-0 !py-3 !text-sm !rounded-2xl"
         />
       </div>
@@ -575,7 +585,7 @@ onUnmounted(() => {
       </div>
     </main>
 
-    <!-- Completion Card：播放完成的轻量提示，右下角滑入 -->
+    <!-- Completion Card：手动标记学完后的轻量提示，右下角滑入 -->
     <Transition name="completion">
       <div
         v-if="showCompletionCard"
@@ -597,7 +607,7 @@ onUnmounted(() => {
             </svg>
           </div>
           <div>
-            <p class="text-sm font-black text-slate-800">本课完成</p>
+            <p class="text-sm font-black text-slate-800">已标记学完</p>
             <p class="text-[11px] text-slate-400">已记入学习进度</p>
           </div>
         </div>

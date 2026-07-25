@@ -51,7 +51,7 @@ const lastStudy = (() => {
 
 const formatTime = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
 
-// 已完成课程集合（LessonView 播放到 95% 时写入）
+// 已完成课程集合（学习者在课程页手动标记，LessonView 写入）
 const completedSet = (() => {
   try {
     return new Set<string>(JSON.parse(localStorage.getItem('vnce_completed') || '[]'));

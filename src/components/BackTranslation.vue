@@ -18,17 +18,13 @@ interface Item {
 type ItemStatus = 'pending' | 'correct' | 'revealed';
 
 const props = defineProps<{
-  lessonId: string;
   lessonTitle: string;
   segments: Segment[];
 }>();
 
 const emit = defineEmits<{
   (e: 'replay-segment', seg: Segment): void;
-  (e: 'digested'): void;
 }>();
-
-const DIGESTED_KEY = 'nce-digested-lessons';
 
 // ---- 出题：课文正句，剔除课号/标题/听前指令/听前问题等元信息 ----
 const normalize = (s: string) => s.trim().toLowerCase().replace(/[^a-z ]/g, '').replace(/\s+/g, ' ');
@@ -133,7 +129,6 @@ const next = () => {
     chosen.value = [];
   } else {
     finished.value = true;
-    if (correctCount.value === items.value.length) markDigested();
   }
 };
 
@@ -141,22 +136,6 @@ const retry = () => { open(); };
 
 const correctCount = computed(() => status.value.filter((s) => s === 'correct').length);
 const failedItems = computed(() => items.value.filter((_, i) => status.value[i] === 'revealed'));
-
-// ---- 消化标记 ----
-const digested = ref(false);
-try {
-  digested.value = (JSON.parse(localStorage.getItem(DIGESTED_KEY) || '[]') as string[]).includes(props.lessonId);
-} catch { /* ignore */ }
-
-const markDigested = () => {
-  try {
-    const set = new Set(JSON.parse(localStorage.getItem(DIGESTED_KEY) || '[]'));
-    set.add(props.lessonId);
-    localStorage.setItem(DIGESTED_KEY, JSON.stringify([...set]));
-    digested.value = true;
-    emit('digested');
-  } catch { /* ignore */ }
-};
 
 const replay = (seg: Segment) => {
   close();
@@ -174,15 +153,12 @@ defineOptions({ inheritAttrs: false });
     v-if="challengeSegments.length"
     v-bind="$attrs"
     @click="open"
-    class="mt-3 w-full flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold transition-all"
-    :class="digested
-      ? 'bg-white text-emerald-600 border border-emerald-300 hover:bg-emerald-50'
-      : 'bg-emerald-500 text-white hover:bg-emerald-600 shadow-md shadow-emerald-500/20'"
+    class="mt-3 w-full flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-white hover:bg-emerald-600 shadow-md shadow-emerald-500/20"
   >
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
       <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
     </svg>
-    {{ digested ? '已消化 ✓ 再挑战一次' : '回译挑战：看中文，说英文' }}
+    回译挑战：看中文，说英文
   </button>
 
   <Teleport to="body">
@@ -204,7 +180,7 @@ defineOptions({ inheritAttrs: false });
               </svg>
               <h2 class="text-lg font-black text-slate-800">回译挑战</h2>
             </div>
-            <p class="text-xs text-slate-400 font-medium">看中文，把英文原句拼回来——拼得出，才算真消化</p>
+            <p class="text-xs text-slate-400 font-medium">看中文，把英文原句拼回来——选做的练习，不计成绩，也不影响本课的完成标记</p>
             <!-- 进度条 -->
             <div v-if="!finished" class="mt-4 flex items-center gap-3">
               <div class="flex-1 h-1.5 rounded-full bg-slate-100 overflow-hidden">
@@ -285,7 +261,7 @@ defineOptions({ inheritAttrs: false });
                 {{ correctCount }} <span class="text-2xl text-slate-300">/ {{ items.length }}</span>
               </div>
               <p v-if="correctCount === items.length" class="text-sm font-bold text-emerald-600">
-                全部独立重构，这门课消化了 ✓
+                全部独立重构 ✓
               </p>
               <p v-else class="text-sm font-medium text-slate-500">
                 还有 {{ items.length - correctCount }} 句没拼出来——回去把这几句多听几遍，再来一次
