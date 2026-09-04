@@ -1,0 +1,9 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="7" fill="#09090b" />
+  <!-- 左页：向外下垂，形成摊开的书 -->
+  <path d="M15.2 11.8L5 9.5V21L15.2 23.2Z" fill="#E4E4E7" fill-opacity="0.92" />
+  <!-- 右页 -->
+  <path d="M16.8 11.8L27 9.5V21L16.8 23.2Z" fill="#A1A1AA" fill-opacity="0.6" />
+  <!-- 书脊 -->
+  <path d="M15.2 11.8H16.8V23.2H15.2Z" fill="#FFFFFF" />
+</svg>
