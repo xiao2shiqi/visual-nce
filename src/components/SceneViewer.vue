@@ -53,7 +53,7 @@ defineExpose({ audioPlayerRef });
   <div>
 
     <!-- Movie Player Container -->
-    <div class="relative group rounded-3xl overflow-hidden shadow-2xl shadow-slate-300/40 ring-1 ring-black/5 bg-black aspect-[4/3] cursor-pointer">
+    <div class="relative group rounded-3xl overflow-hidden shadow-2xl shadow-zinc-300/40 ring-1 ring-black/5 bg-black aspect-[4/3] cursor-pointer">
 
       <!-- Scene Image -->
       <img
@@ -112,9 +112,9 @@ defineExpose({ audioPlayerRef });
 
           <div class="flex items-center gap-2">
             <div v-if="localIsPlaying" class="flex gap-0.5 h-3 items-end">
-              <div class="w-0.5 bg-amber-500 animate-[waveBar_0.8s_ease-in-out_infinite]"></div>
-              <div class="w-0.5 bg-amber-500 animate-[waveBar_1.2s_ease-in-out_infinite]"></div>
-              <div class="w-0.5 bg-amber-500 animate-[waveBar_1s_ease-in-out_infinite]"></div>
+              <div class="w-0.5 bg-zinc-900 animate-[waveBar_0.8s_ease-in-out_infinite]"></div>
+              <div class="w-0.5 bg-zinc-900 animate-[waveBar_1.2s_ease-in-out_infinite]"></div>
+              <div class="w-0.5 bg-zinc-900 animate-[waveBar_1s_ease-in-out_infinite]"></div>
             </div>
             <span class="text-[10px] font-bold text-white/50 uppercase tracking-wider">{{ lessonTitle }}</span>
           </div>
@@ -124,7 +124,7 @@ defineExpose({ audioPlayerRef });
       <!-- Segment Progress Line (top of bottom bar) -->
       <div class="absolute bottom-0 left-0 right-0 h-0.5 pointer-events-none">
         <div
-          class="h-full bg-gradient-to-r from-amber-600 to-indigo-500 transition-all duration-300"
+          class="h-full bg-gradient-to-r from-zinc-900 to-indigo-500 transition-all duration-300"
           :style="{ width: `${progress}%` }"
         ></div>
       </div>
@@ -132,7 +132,7 @@ defineExpose({ audioPlayerRef });
       <!-- Top Badge -->
       <div class="absolute top-4 left-4 pointer-events-none">
         <div class="backdrop-blur-xl bg-black/40 px-3 py-1.5 rounded-full flex items-center gap-2">
-          <div class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></div>
+          <div class="w-1.5 h-1.5 rounded-full bg-zinc-900 animate-pulse"></div>
           <span class="text-[10px] font-bold text-white uppercase tracking-wider">{{ lessonTitle }}</span>
         </div>
       </div>
@@ -157,7 +157,7 @@ defineExpose({ audioPlayerRef });
       </transition>
 
       <!-- Glow Effect -->
-      <div class="absolute -inset-4 bg-gradient-to-r from-amber-600/20 via-indigo-500/20 to-violet-500/20 rounded-[2rem] blur-2xl opacity-0 group-hover:opacity-60 transition-opacity duration-700 -z-10 pointer-events-none"></div>
+      <div class="absolute -inset-4 bg-gradient-to-r from-zinc-900/20 via-indigo-500/20 to-violet-500/20 rounded-[2rem] blur-2xl opacity-0 group-hover:opacity-60 transition-opacity duration-700 -z-10 pointer-events-none"></div>
 
       <!-- Headless Audio Player (logic only) -->
       <AudioPlayer
@@ -175,18 +175,18 @@ defineExpose({ audioPlayerRef });
     </div>
 
     <!-- Keyboard Shortcuts: 压缩成一行小字，把左栏空间让给语法地图 -->
-    <div class="mt-5 pt-4 border-t border-slate-200/60 flex items-center flex-wrap gap-x-4 gap-y-1.5 text-[10px] font-bold text-slate-400">
+    <div class="mt-5 pt-4 border-t border-zinc-200/60 flex items-center flex-wrap gap-x-4 gap-y-1.5 text-[10px] font-bold text-zinc-400">
       <span class="flex items-center gap-1.5">
-        <kbd class="px-1.5 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">Space</kbd>
+        <kbd class="px-1.5 py-0.5 rounded border border-zinc-200 bg-white text-[9px] font-black text-zinc-500 shadow-sm">Space</kbd>
         播放/暂停
       </span>
       <span class="flex items-center gap-1.5">
-        <kbd class="px-1 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">←</kbd>
-        <kbd class="px-1 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">→</kbd>
+        <kbd class="px-1 py-0.5 rounded border border-zinc-200 bg-white text-[9px] font-black text-zinc-500 shadow-sm">←</kbd>
+        <kbd class="px-1 py-0.5 rounded border border-zinc-200 bg-white text-[9px] font-black text-zinc-500 shadow-sm">→</kbd>
         上/下句
       </span>
       <span class="flex items-center gap-1.5">
-        <kbd class="px-1.5 py-0.5 rounded border border-slate-200 bg-white text-[9px] font-black text-slate-500 shadow-sm">R</kbd>
+        <kbd class="px-1.5 py-0.5 rounded border border-zinc-200 bg-white text-[9px] font-black text-zinc-500 shadow-sm">R</kbd>
         重复本句
       </span>
     </div>

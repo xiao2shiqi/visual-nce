@@ -1,0 +1,141 @@
+/**
+ * xiao27 品牌变量 —— 唯一真源
+ *
+ * 维护在 xiao27-hub/brand/brand.css，其他项目通过 `npm run sync:brand` 拷贝。
+ * 请勿在子项目中直接修改本文件。
+ *
+ * 用法：项目的 index.css 里
+ *   @import "tailwindcss";
+ *   @import "./brand.css";
+ * 再给 <html> 加 class="theme-ink"（深色）或 "theme-paper"（浅色）。
+ *
+ * 配色原则：黑白灰占 90%，彩色只用在"必须抢眼"的地方（当前播放句、错误提示、在线状态）。
+ */
+
+@theme {
+  /* 字体 */
+  --font-sans: "Inter", system-ui, -apple-system, "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+    serif; /* 仅 visual-nce 英文标题 */
+
+  /* 圆角：只保留三档 */
+  --radius-md: 0.375rem; /* 按钮、输入框、图标按钮 */
+  --radius-xl: 0.75rem;  /* 卡片、弹窗、面板 */
+  --radius-full: 9999px; /* 标签、头像、状态点 */
+
+  /* 动效 */
+  --ease-brand: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-brand: 300ms;
+
+  /* 功能色 —— 只在必要时出现，不当装饰 */
+  --color-accent: #f59e0b;   /* 琥珀：当前播放句、正在进行的高亮 */
+  --color-success: #10b981;  /* 在线 / 完成 */
+  --color-danger: #ef4444;   /* 错误 / 破坏性操作 */
+}
+
+/* ── 深色主题：xiao27-hub、tube-shadowing ── */
+.theme-ink {
+  --bg-base: #09090b;
+  --bg-raised: #131316;
+  --bg-hover: #1c1c20;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #52525b;
+  /* 主按钮：深色底上用白底黑字 */
+  --btn-bg: #fafafa;
+  --btn-fg: #09090b;
+  --btn-bg-hover: #ffffff;
+  --scrollbar-thumb: #3f3f46;
+  --scrollbar-thumb-hover: #52525b;
+}
+
+/* ── 浅色主题：visual-nce ── */
+.theme-paper {
+  --bg-base: #fafafa;
+  --bg-raised: #ffffff;
+  --bg-hover: #f4f4f5;
+  --border-subtle: rgba(9, 9, 11, 0.08);
+  --border-strong: rgba(9, 9, 11, 0.18);
+  --text-primary: #18181b;
+  --text-secondary: #52525b;
+  --text-muted: #a1a1aa;
+  /* 主按钮：浅色底上用黑底白字 */
+  --btn-bg: #18181b;
+  --btn-fg: #fafafa;
+  --btn-bg-hover: #09090b;
+  --scrollbar-thumb: #d4d4d8;
+  --scrollbar-thumb-hover: #a1a1aa;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code, kbd, samp, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+/* ── 共用工具类 ── */
+
+/* 卡片 / 浮层 */
+.surface {
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  transition: all var(--duration-brand) var(--ease-brand);
+}
+.surface:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-strong);
+}
+
+/* 主按钮：黑底白字（浅色主题）/ 白底黑字（深色主题） */
+.btn-primary {
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: background var(--duration-brand) var(--ease-brand);
+}
+.btn-primary:hover { background: var(--btn-bg-hover); }
+
+/* 次按钮：描边 */
+.btn-secondary {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  transition: all var(--duration-brand) var(--ease-brand);
+}
+.btn-secondary:hover {
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+  background: var(--bg-hover);
+}
+
+.ink-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border-strong), transparent);
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }

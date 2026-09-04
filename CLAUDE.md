@@ -110,3 +110,9 @@ Save as <frame_id>.png in the current directory.
 ## 7. Git 规则
 
 - 始终在 `main` 分支直接工作，及时提交。
+
+## 8. 发布规则
+
+- 本项目采用 **Cloudflare Workers (Static Assets) + Wrangler** 本地一键发布模式。
+- 发布命令：`npm run deploy`（等价于 `npm run build && wrangler deploy`）。
+- 部署目标：`nce.xiao27.com`（`wrangler.jsonc`）。

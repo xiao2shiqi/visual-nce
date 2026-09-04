@@ -57,11 +57,11 @@ defineExpose({ openFeedback });
 <template>
   <Teleport to="body">
     <Transition name="fade">
-      <div v-if="showFeedbackModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm" @click.self="closeFeedback">
+      <div v-if="showFeedbackModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-zinc-900/60 backdrop-blur-sm" @click.self="closeFeedback">
         <div class="bg-white w-full max-w-lg rounded-3xl shadow-2xl p-8 relative overflow-hidden animate-scale-up">
           
           <!-- Close Button -->
-          <button @click="closeFeedback" class="absolute top-4 right-4 p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-400 hover:text-slate-600">
+          <button @click="closeFeedback" class="absolute top-4 right-4 p-2 rounded-full hover:bg-zinc-100 transition-colors text-zinc-400 hover:text-zinc-600">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
@@ -69,25 +69,25 @@ defineExpose({ openFeedback });
 
           <!-- Content -->
           <div v-if="!isSuccess">
-            <h2 class="text-2xl font-black text-slate-800 mb-1">反馈与建议</h2>
-            <p class="text-slate-500 text-sm mb-6">Feedback / Suggestions</p>
+            <h2 class="text-2xl font-black text-zinc-800 mb-1">反馈与建议</h2>
+            <p class="text-zinc-500 text-sm mb-6">Feedback / Suggestions</p>
 
             <form @submit.prevent="handleSubmit" class="space-y-4">
               <!-- Name & Contact -->
               <div class="grid grid-cols-1 grid-cols-2 gap-4">
                 <div>
-                  <label class="block text-xs font-bold text-slate-500 uppercase mb-1">您的称呼 (Name)</label>
-                  <input v-model="form.name" type="text" class="w-full px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm font-medium text-slate-700" placeholder="怎么称呼您" />
+                  <label class="block text-xs font-bold text-zinc-500 uppercase mb-1">您的称呼 (Name)</label>
+                  <input v-model="form.name" type="text" class="w-full px-4 py-2 rounded-xl bg-zinc-50 border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm font-medium text-zinc-700" placeholder="怎么称呼您" />
                 </div>
                 <div>
-                  <label class="block text-xs font-bold text-slate-500 uppercase mb-1">联系邮箱 (Email) <span class="text-red-500">*</span></label>
-                  <input v-model="form.email" type="email" required class="w-full px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm font-medium text-slate-700" placeholder="用于接收回复" />
+                  <label class="block text-xs font-bold text-zinc-500 uppercase mb-1">联系邮箱 (Email) <span class="text-red-500">*</span></label>
+                  <input v-model="form.email" type="email" required class="w-full px-4 py-2 rounded-xl bg-zinc-50 border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm font-medium text-zinc-700" placeholder="用于接收回复" />
                 </div>
               </div>
 
               <!-- Type -->
               <div>
-                <label class="block text-xs font-bold text-slate-500 uppercase mb-1">反馈类型 (Type)</label>
+                <label class="block text-xs font-bold text-zinc-500 uppercase mb-1">反馈类型 (Type)</label>
                 <div class="flex flex-wrap gap-2">
                   <label v-for="type in [
                     {val: 'suggestion', label: '✨ 功能建议'},
@@ -96,7 +96,7 @@ defineExpose({ openFeedback });
                     {val: 'other', label: '💬 其他'}
                   ]" :key="type.val" class="cursor-pointer">
                     <input type="radio" v-model="form.type" :value="type.val" class="hidden peer" />
-                    <span class="inline-block px-3 py-1.5 rounded-lg bg-slate-50 border border-slate-200 text-xs font-bold text-slate-500 peer-checked:bg-blue-50 peer-checked:text-blue-600 peer-checked:border-blue-200 transition-all hover:bg-slate-100">
+                    <span class="inline-block px-3 py-1.5 rounded-lg bg-zinc-50 border border-zinc-200 text-xs font-bold text-zinc-500 peer-checked:bg-blue-50 peer-checked:text-blue-600 peer-checked:border-blue-200 transition-all hover:bg-zinc-100">
                       {{ type.label }}
                     </span>
                   </label>
@@ -105,8 +105,8 @@ defineExpose({ openFeedback });
 
               <!-- Message -->
               <div>
-                <label class="block text-xs font-bold text-slate-500 uppercase mb-1">详细内容 (Details) <span class="text-red-500">*</span></label>
-                <textarea v-model="form.message" required rows="4" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm font-medium text-slate-700 resize-none" placeholder="请详细描述您的建议或遇到的问题..."></textarea>
+                <label class="block text-xs font-bold text-zinc-500 uppercase mb-1">详细内容 (Details) <span class="text-red-500">*</span></label>
+                <textarea v-model="form.message" required rows="4" class="w-full px-4 py-3 rounded-xl bg-zinc-50 border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm font-medium text-zinc-700 resize-none" placeholder="请详细描述您的建议或遇到的问题..."></textarea>
               </div>
 
               <!-- Submit Button -->
@@ -131,8 +131,8 @@ defineExpose({ openFeedback });
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
             </div>
-            <h3 class="text-xl font-black text-slate-800 mb-2">提交成功！</h3>
-            <p class="text-slate-500 text-sm">感谢您的宝贵建议，我们会认真阅读。</p>
+            <h3 class="text-xl font-black text-zinc-800 mb-2">提交成功！</h3>
+            <p class="text-zinc-500 text-sm">感谢您的宝贵建议，我们会认真阅读。</p>
           </div>
 
         </div>

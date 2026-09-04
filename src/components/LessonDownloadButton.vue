@@ -111,7 +111,7 @@ const handleDownload = async (e: MouseEvent) => {
       <div class="absolute inset-0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg]"></div>
     </button>
     
-    <p v-if="!iconOnly" class="mt-2 text-[10px] text-center text-slate-400 font-medium uppercase tracking-widest opacity-60">
+    <p v-if="!iconOnly" class="mt-2 text-[10px] text-center text-zinc-400 font-medium uppercase tracking-widest opacity-60">
       Combines current lesson's illustrations and audio
     </p>
   </div>

@@ -1,19 +1,7 @@
 @import "tailwindcss";
+@import "./brand.css";
 
-@theme {
-  --font-sans: "Inter", "Outfit", system-ui, sans-serif;
-  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --color-primary: #c2703e;
-  --color-secondary: #7a8c5f;
-}
-
-:root {
-  /* 温暖纸质底色，贴合吉卜力水彩插画 */
-  background: linear-gradient(160deg, #fbf7ef 0%, #f6efe2 55%, #f2e9d8 100%);
-  color: #3f3529;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* ── visual-nce 专属样式 ── */
 
 body {
   margin: 0;
@@ -22,41 +10,15 @@ body {
   min-width: 1200px;
 }
 
-/* 自定义滚动条 */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #d6c9b2;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #bfae90;
-}
-
-/* 文字渐变效果类 */
-.text-gradient {
-  background: linear-gradient(to right, #c2703e, #a0522d);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* 衬线展示字体（英文标题用，呼应绘本感） */
+/* 衬线展示字体：英文标题用，呼应绘本感 */
 .font-display {
   font-family: var(--font-display);
 }
 
 /* 玻璃态效果 */
 .glass {
-  background: rgba(255, 252, 245, 0.7);
+  background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--border-subtle);
 }
