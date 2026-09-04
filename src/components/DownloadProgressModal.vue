@@ -38,10 +38,10 @@ defineExpose({
       leave-from-class="opacity-100 scale-100"
       leave-to-class="opacity-0 scale-95"
     >
-      <div v-if="isOpen" class="fixed inset-0 z-[100] flex items-center justify-center p-4 p-6 bg-zinc-500/75 backdrop-blur-sm">
+      <div v-if="isOpen" class="fixed inset-0 z-[100] flex items-center justify-center p-4 p-6 bg-hovered0/75 backdrop-blur-sm">
         
         <!-- Modal Panel -->
-        <div class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all my-8 w-full max-w-sm p-6">
+        <div class="relative transform overflow-hidden rounded-md bg-raised px-4 pb-4 pt-5 text-left shadow-xl transition-all my-8 w-full max-w-sm p-6">
           <div>
             <!-- Success/Status Icon -->
             <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
@@ -55,11 +55,11 @@ defineExpose({
             </div>
 
             <div class="mt-3 text-center mt-5">
-              <h3 class="text-base font-semibold leading-6 text-zinc-900" id="modal-title">
+              <h3 class="text-base font-semibold leading-6 text-ink" id="modal-title">
                 {{ progress < 100 ? 'Generating Video...' : 'Generation Complete' }}
               </h3>
               <div class="mt-2">
-                <p class="text-sm text-zinc-500">
+                <p class="text-sm text-ink-soft">
                   {{ progress < 100 
                     ? 'Please do not close or refresh this page. We are stitching your lesson illustrations and audio together.' 
                     : 'The video has been successfully generated and is being downloaded.' }}
@@ -71,10 +71,10 @@ defineExpose({
           <!-- Progress Bar Section -->
           <div class="mt-5 mt-6">
             <div class="flex justify-between items-center mb-2">
-               <span class="text-xs font-medium text-zinc-500 uppercase tracking-wider">Progress</span>
+               <span class="text-xs font-medium text-ink-soft uppercase tracking-wider">Progress</span>
                <span class="text-xs font-bold text-green-600">{{ progress }}%</span>
             </div>
-            <div class="h-2 w-full bg-zinc-100 rounded-full overflow-hidden">
+            <div class="h-2 w-full bg-hovered rounded-full overflow-hidden">
                <div 
                  class="h-full bg-green-500 transition-all duration-300 ease-out shadow-[0_0_10px_rgba(34,197,94,0.3)]"
                  :style="{ width: progress + '%' }"

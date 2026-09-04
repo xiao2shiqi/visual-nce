@@ -75,12 +75,12 @@ const handleDownload = async (e: MouseEvent) => {
       :class="[
         iconOnly 
           ? 'w-8 h-8 rounded-full bg-black/40 backdrop-blur-xl border border-white/20 hover:bg-black/60 hover:scale-110 active:scale-95' 
-          : 'w-full gap-3 px-6 py-4 rounded-2xl bg-gradient-to-br from-teal-500/90 to-emerald-600/90 text-white font-bold shadow-xl shadow-teal-500/20 hover:shadow-2xl hover:shadow-teal-500/30 hover:-translate-y-0.5'
+          : 'w-full gap-3 px-6 py-4 rounded-xl bg-gradient-to-br from-teal-500/90 to-emerald-600/90 text-white font-bold shadow-xl shadow-teal-500/20 hover:shadow-2xl hover:shadow-teal-500/30 hover:-translate-y-0.5'
       ]"
     >
       <!-- Background Decorative Elements -->
       <div v-if="!iconOnly" class="absolute inset-0 opacity-20 pointer-events-none">
-        <div class="absolute -top-4 -right-4 w-12 h-12 bg-white rounded-full blur-xl"></div>
+        <div class="absolute -top-4 -right-4 w-12 h-12 bg-raised rounded-full blur-xl"></div>
         <div class="absolute -bottom-4 -left-4 w-16 h-16 bg-teal-200 rounded-full blur-2xl"></div>
       </div>
 
@@ -103,7 +103,7 @@ const handleDownload = async (e: MouseEvent) => {
       <!-- Progress Overlay -->
       <div 
         v-if="isExporting && !iconOnly"
-        class="absolute inset-0 bg-white/10 origin-left transition-transform duration-300"
+        class="absolute inset-0 bg-raised/10 origin-left transition-transform duration-300"
         :style="{ transform: `scaleX(${progress / 100})` }"
       ></div>
 
@@ -111,7 +111,7 @@ const handleDownload = async (e: MouseEvent) => {
       <div class="absolute inset-0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-20deg]"></div>
     </button>
     
-    <p v-if="!iconOnly" class="mt-2 text-[10px] text-center text-zinc-400 font-medium uppercase tracking-widest opacity-60">
+    <p v-if="!iconOnly" class="mt-2 text-[10px] text-center text-ink-mute font-medium uppercase tracking-widest opacity-60">
       Combines current lesson's illustrations and audio
     </p>
   </div>

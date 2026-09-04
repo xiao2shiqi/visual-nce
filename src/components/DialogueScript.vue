@@ -43,13 +43,14 @@ const revealSegment = (s: Segment, event: Event) => {
 };
 
 // 预定义的说话人颜色调色板（每个人一个独特颜色）
+// 说话人标签一律中性灰，靠深浅区分出场顺序（配色原则：黑白灰为主，不用彩色做装饰）
 const speakerColorPalette = [
-  { bg: 'bg-blue-100', text: 'text-blue-600' },      // 第1个说话人
-  { bg: 'bg-rose-100', text: 'text-rose-600' },      // 第2个说话人
-  { bg: 'bg-emerald-100', text: 'text-emerald-600' },// 第3个说话人
-  { bg: 'bg-violet-100', text: 'text-violet-600' },  // 第4个说话人
-  { bg: 'bg-zinc-100', text: 'text-zinc-900' },    // 第5个说话人
-  { bg: 'bg-cyan-100', text: 'text-cyan-600' },      // 第6个说话人
+  { bg: 'bg-hovered', text: 'text-ink' },
+  { bg: 'bg-hovered', text: 'text-ink-soft' },
+  { bg: 'bg-line-strong', text: 'text-ink' },
+  { bg: 'bg-line-strong', text: 'text-ink-soft' },
+  { bg: 'bg-hovered', text: 'text-ink-mute' },
+  { bg: 'bg-line-strong', text: 'text-ink-mute' },
 ];
 
 // 台词的角色名：数据里存于 role 字段（speaker 为历史字段，兼容读取）。
@@ -78,7 +79,7 @@ const speakerColorMap = computed(() => {
 // 获取说话人的颜色类
 const getSpeakerColorClass = (speaker: string): string => {
   const color = speakerColorMap.value.get(speaker);
-  return color ? `${color.bg} ${color.text}` : 'bg-zinc-100 text-zinc-500';
+  return color ? `${color.bg} ${color.text}` : 'bg-hovered text-ink-soft';
 };
 
 
@@ -139,51 +140,51 @@ defineExpose({
     <!-- Section Title & Controls: 单行布局，高频的播放模式用分段控件，低频设置降级为小图标 -->
     <div class="flex flex-row items-center justify-between gap-3 mb-4">
       <div class="flex items-baseline gap-2 whitespace-nowrap min-w-0">
-        <h2 class="text-sm font-bold text-zinc-900 uppercase tracking-wide">Dialogue Script</h2>
-        <span class="text-[11px] text-zinc-400 font-medium truncate">点击单词查欧路词典</span>
+        <h2 class="text-sm font-bold text-ink uppercase tracking-wide">Dialogue Script</h2>
+        <span class="text-[11px] text-ink-mute font-medium truncate">点击单词查欧路词典</span>
       </div>
 
       <div class="flex items-center gap-2">
         <!-- Play Mode Toggle (高频操作，保留分段控件) -->
-        <div class="flex items-center bg-zinc-100/80 p-0.5 rounded-lg border border-zinc-200/50">
+        <div class="flex items-center bg-hovered p-0.5 rounded-md border border-line">
           <button
             @click="emit('update:playMode', 'continuous')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'continuous' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-400 hover:text-zinc-600'"
+            :class="playMode === 'continuous' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
           >
             连读
           </button>
           <button
             @click="emit('update:playMode', 'single')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'single' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-400 hover:text-zinc-600'"
+            :class="playMode === 'single' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
           >
             点读
           </button>
           <button
             @click="emit('update:playMode', 'repeat')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'repeat' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-400 hover:text-zinc-600'"
+            :class="playMode === 'repeat' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
           >
             循环
           </button>
           <button
             @click="emit('update:playMode', 'shadowing')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'shadowing' ? 'bg-white text-zinc-900 shadow-sm' : 'text-zinc-400 hover:text-zinc-600'"
+            :class="playMode === 'shadowing' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
             title="每句播完自动停顿，留出开口跟读的时间"
           >
             跟读
           </button>
         </div>
 
-        <div class="w-px h-5 bg-zinc-200"></div>
+        <div class="w-px h-5 bg-line-strong"></div>
 
         <!-- Blind Listening (低频设置，图标按钮) -->
         <button
           @click="emit('update:blindMode', !blindMode)"
-          class="w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-200"
-          :class="blindMode ? 'bg-zinc-100 text-zinc-900' : 'text-zinc-400 hover:text-zinc-600 hover:bg-zinc-100'"
+          class="w-8 h-8 rounded-md flex items-center justify-center transition-all duration-200"
+          :class="blindMode ? 'bg-hovered text-ink' : 'text-ink-mute hover:text-ink-soft hover:bg-hovered'"
           title="盲听模式：隐藏字幕，先听后看；点击句子文字可单独揭示"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
@@ -199,7 +200,7 @@ defineExpose({
         <select
           :value="playbackRate"
           @change="(e) => emit('update:playbackRate', parseFloat((e.target as HTMLSelectElement).value))"
-          class="appearance-none bg-transparent h-8 px-1.5 text-xs font-bold text-zinc-400 hover:text-zinc-900 rounded-lg hover:bg-zinc-100 transition-all cursor-pointer outline-none"
+          class="appearance-none bg-transparent h-8 px-1.5 text-xs font-bold text-ink-mute hover:text-ink rounded-md hover:bg-hovered transition-all cursor-pointer outline-none"
           title="播放速度"
         >
           <option v-for="rate in playbackRates" :key="rate" :value="rate">
@@ -210,8 +211,8 @@ defineExpose({
         <!-- Translation Toggle (低频设置，图标按钮) -->
         <button
           @click="emit('update:showTranslation', !showTranslation)"
-          class="w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold transition-all duration-200"
-          :class="showTranslation ? 'bg-zinc-100 text-zinc-900' : 'text-zinc-400 hover:text-zinc-600 hover:bg-zinc-100'"
+          class="w-8 h-8 rounded-md flex items-center justify-center text-xs font-bold transition-all duration-200"
+          :class="showTranslation ? 'bg-hovered text-ink' : 'text-ink-mute hover:text-ink-soft hover:bg-hovered'"
           title="显示中文译文"
         >
           中
@@ -232,15 +233,15 @@ defineExpose({
           class="relative p-3.5 rounded-xl transition-all duration-300 border flex items-start gap-3"
           :class="[
             activeSegmentId === s.id 
-              ? 'bg-white shadow-xl shadow-zinc-900/5 border-amber-400 scale-[1.01]' 
-              : 'bg-white/50 border-transparent hover:bg-white hover:shadow-lg hover:border-zinc-100'
+              ? 'bg-raised shadow-xl shadow-zinc-900/5 border-amber-400 scale-[1.01]' 
+              : 'bg-raised border-transparent hover:bg-raised hover:shadow-lg hover:border-line'
           ]"
         >
             <!-- Content -->
             <div class="flex-1 min-w-0">
               <p 
                 class="text-sm leading-relaxed transition-colors duration-300"
-                :class="activeSegmentId === s.id ? 'text-zinc-900 font-semibold' : 'text-zinc-600'"
+                :class="activeSegmentId === s.id ? 'text-ink font-semibold' : 'text-ink-soft'"
               >
                 <span
                   v-if="roleOf(s)"
@@ -262,7 +263,7 @@ defineExpose({
               </p>
               <p
                 v-if="showTranslation && !isMasked(s)"
-                class="text-[11px] mt-1 text-zinc-400 font-medium leading-relaxed animate-fade-in"
+                class="text-[11px] mt-1 text-ink-mute font-medium leading-relaxed animate-fade-in"
               >
                 {{ s.translation }}</p>
             </div>
@@ -270,8 +271,8 @@ defineExpose({
             <!-- Copy Button -->
             <button 
               @click="handleCopy(s, $event)"
-              class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-300 hover:bg-zinc-100 group/copy"
-              :class="[copiedId === s.id ? 'text-green-500' : 'text-zinc-300 opacity-0 group-hover:opacity-100 group-hover:text-zinc-400']"
+              class="flex-shrink-0 w-8 h-8 rounded-md flex items-center justify-center transition-all duration-300 hover:bg-hovered group/copy"
+              :class="[copiedId === s.id ? 'text-green-500' : 'text-ink-mute opacity-0 group-hover:opacity-100 group-hover:text-ink-mute']"
               title="复制句子"
             >
               <svg v-if="copiedId !== s.id" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
@@ -286,15 +287,15 @@ defineExpose({
             <div 
               v-if="s.startTime !== undefined"
               class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300"
-              :class="activeSegmentId === s.id ? 'bg-zinc-900 text-white' : 'bg-zinc-100 text-zinc-400 opacity-0 group-hover:opacity-100'"
+              :class="activeSegmentId === s.id ? 'bg-btn text-btn-fg' : 'bg-hovered text-ink-mute opacity-0 group-hover:opacity-100'"
             >
               <svg v-if="activeSegmentId !== s.id" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5">
                 <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
               </svg>
               <div v-else class="flex gap-0.5 items-end h-3">
-                <div class="w-0.5 bg-white rounded-full animate-[eq_0.8s_ease-in-out_infinite]"></div>
-                <div class="w-0.5 bg-white rounded-full animate-[eq_0.8s_ease-in-out_0.2s_infinite]"></div>
-                <div class="w-0.5 bg-white rounded-full animate-[eq_0.8s_ease-in-out_0.4s_infinite]"></div>
+                <div class="w-0.5 bg-raised rounded-full animate-[eq_0.8s_ease-in-out_infinite]"></div>
+                <div class="w-0.5 bg-raised rounded-full animate-[eq_0.8s_ease-in-out_0.2s_infinite]"></div>
+                <div class="w-0.5 bg-raised rounded-full animate-[eq_0.8s_ease-in-out_0.4s_infinite]"></div>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
-    "sync:brand": "cp ../xiao27-hub/brand/brand.css src/brand.css && echo \"brand.css 已从 xiao27-hub 同步\""
+    "sync:brand": "cp ../xiao27-hub/brand/brand.css src/brand.css && cp ../xiao27-hub/brand/README.md BRAND.md && echo \"brand.css 与 BRAND.md 已从 xiao27-hub 同步\""
   },
   "dependencies": {
     "vue": "^3.5.24"

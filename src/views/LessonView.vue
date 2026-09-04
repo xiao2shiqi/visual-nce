@@ -540,25 +540,25 @@ onUnmounted(() => {
           :lesson-title="lessonData.title"
           :segments="lessonData.segments"
           @replay-segment="handleSegmentClick"
-          class="!mt-0 !py-3 !text-sm !rounded-2xl"
+          class="!mt-0 !py-3 !text-sm !rounded-xl"
         />
       </div>
 
       <!-- Quick Navigation -->
-      <div class="mt-12 pt-8 border-t border-zinc-200/60 grid grid-cols-2 gap-6 animate-fade-in">
+      <div class="mt-12 pt-8 border-t border-line grid grid-cols-2 gap-6 animate-fade-in">
         <button 
           v-if="navigation.prev"
           @click="emit('select-course', navigation.prev)"
-          class="flex items-center gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-zinc-200 hover:border-zinc-400 hover:bg-white hover:shadow-xl hover:shadow-zinc-900/5 transition-all duration-500 group text-left"
+          class="flex items-center gap-4 p-5 rounded-xl bg-raised backdrop-blur-sm border border-line hover:border-line-strong hover:bg-raised hover:shadow-xl hover:shadow-zinc-900/5 transition-all duration-500 group text-left"
         >
-          <div class="w-12 h-12 rounded-xl bg-zinc-100 flex items-center justify-center text-zinc-400 group-hover:bg-zinc-100 group-hover:text-zinc-900 transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-hovered flex items-center justify-center text-ink-mute group-hover:bg-hovered group-hover:text-ink transition-all duration-500">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
           </div>
           <div class="overflow-hidden">
-            <div class="text-[10px] font-black text-zinc-400 uppercase tracking-widest mb-1 group-hover:text-zinc-400 transition-colors">Previous Lesson</div>
-            <div class="text-base font-bold text-zinc-700 group-hover:text-zinc-900 transition-colors truncate">
+            <div class="text-[10px] font-black text-ink-mute uppercase tracking-widest mb-1 group-hover:text-ink-mute transition-colors">Previous Lesson</div>
+            <div class="text-base font-bold text-ink-soft group-hover:text-ink transition-colors truncate">
               {{ navigation.prev.title }}: {{ navigation.prev.subtitle }}
             </div>
           </div>
@@ -568,15 +568,15 @@ onUnmounted(() => {
         <button 
           v-if="navigation.next"
           @click="emit('select-course', navigation.next)"
-          class="flex items-center justify-end gap-4 p-5 rounded-2xl bg-white/50 backdrop-blur-sm border border-zinc-200 hover:border-zinc-400 hover:bg-white hover:shadow-xl hover:shadow-zinc-900/5 transition-all duration-500 group text-right"
+          class="flex items-center justify-end gap-4 p-5 rounded-xl bg-raised backdrop-blur-sm border border-line hover:border-line-strong hover:bg-raised hover:shadow-xl hover:shadow-zinc-900/5 transition-all duration-500 group text-right"
         >
           <div class="overflow-hidden">
-            <div class="text-[10px] font-black text-zinc-400 uppercase tracking-widest mb-1 group-hover:text-zinc-400 transition-colors">Next Lesson</div>
-            <div class="text-base font-bold text-zinc-700 group-hover:text-zinc-900 transition-colors truncate">
+            <div class="text-[10px] font-black text-ink-mute uppercase tracking-widest mb-1 group-hover:text-ink-mute transition-colors">Next Lesson</div>
+            <div class="text-base font-bold text-ink-soft group-hover:text-ink transition-colors truncate">
               {{ navigation.next.title }}: {{ navigation.next.subtitle }}
             </div>
           </div>
-          <div class="w-12 h-12 rounded-xl bg-zinc-100 flex items-center justify-center text-zinc-400 group-hover:bg-zinc-100 group-hover:text-zinc-900 transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-hovered flex items-center justify-center text-ink-mute group-hover:bg-hovered group-hover:text-ink transition-all duration-500">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
@@ -589,11 +589,11 @@ onUnmounted(() => {
     <Transition name="completion">
       <div
         v-if="showCompletionCard"
-        class="fixed bottom-6 right-6 z-40 w-72 rounded-2xl bg-white/95 backdrop-blur-sm border border-zinc-200/70 shadow-xl shadow-zinc-900/10 p-5"
+        class="fixed bottom-6 right-6 z-40 w-72 rounded-xl bg-raised backdrop-blur-sm border border-line shadow-xl shadow-zinc-900/10 p-5"
       >
         <button
           @click="showCompletionCard = false"
-          class="absolute top-3 right-3 w-6 h-6 rounded-full flex items-center justify-center text-zinc-300 hover:text-zinc-500 hover:bg-zinc-100 transition-colors"
+          class="absolute top-3 right-3 w-6 h-6 rounded-full flex items-center justify-center text-ink-mute hover:text-ink-soft hover:bg-hovered transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -601,28 +601,28 @@ onUnmounted(() => {
         </button>
 
         <div class="flex items-center gap-3 mb-4">
-          <div class="w-9 h-9 rounded-full bg-zinc-900 flex items-center justify-center shadow-sm">
+          <div class="w-9 h-9 rounded-full bg-btn flex items-center justify-center shadow-sm">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white" class="w-4.5 h-4.5">
               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
             </svg>
           </div>
           <div>
-            <p class="text-sm font-black text-zinc-800">已标记学完</p>
-            <p class="text-[11px] text-zinc-400">已记入学习进度</p>
+            <p class="text-sm font-black text-ink">已标记学完</p>
+            <p class="text-[11px] text-ink-mute">已记入学习进度</p>
           </div>
         </div>
 
         <button
           v-if="navigation.next"
           @click="emit('select-course', navigation.next)"
-          class="w-full py-2.5 rounded-xl bg-zinc-900 text-white text-sm font-bold hover:bg-zinc-700 transition-colors"
+          class="w-full py-2.5 rounded-xl bg-btn text-btn-fg text-sm font-bold hover:bg-hovered transition-colors"
         >
           下一课：{{ navigation.next.title }} →
         </button>
 
         <button
           @click="showWechatQr = !showWechatQr"
-          class="mt-3 w-full text-center text-[11px] text-zinc-400 hover:text-zinc-900 transition-colors"
+          class="mt-3 w-full text-center text-[11px] text-ink-mute hover:text-ink transition-colors"
         >
           觉得有用？加作者微信交流学习
         </button>
@@ -630,7 +630,7 @@ onUnmounted(() => {
           v-if="showWechatQr"
           src="/images/wechat_qr.png"
           alt="作者微信"
-          class="mt-2 w-40 mx-auto rounded-xl border border-zinc-100"
+          class="mt-2 w-40 mx-auto rounded-xl border border-line"
         />
       </div>
     </Transition>
@@ -638,8 +638,8 @@ onUnmounted(() => {
     <!-- Loading State -->
     <div v-if="!lessonData" class="flex items-center justify-center min-h-[60vh]">
       <div class="flex flex-col items-center gap-4">
-        <div class="w-12 h-12 border-4 border-zinc-200 border-t-zinc-900 rounded-full animate-spin"></div>
-        <p class="text-sm font-bold text-zinc-400 uppercase tracking-widest">Loading Lesson...</p>
+        <div class="w-12 h-12 border-4 border-line border-t-ink rounded-full animate-spin"></div>
+        <p class="text-sm font-bold text-ink-mute uppercase tracking-widest">Loading Lesson...</p>
       </div>
     </div>
     <DonationModal ref="donationModalRef" />

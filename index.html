@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN" class="theme-paper">
+<html lang="zh-CN">
 
 <head>
   <meta charset="UTF-8" />
@@ -66,6 +66,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    // 首屏渲染前套用已保存的主题，避免主题闪烁
+    (function () {
+      try {
+        var t = localStorage.getItem('xiao27-theme');
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}
+    })();
+  </script>
 </head>
 
 <body>

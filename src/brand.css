@@ -7,7 +7,12 @@
  * 用法：项目的 index.css 里
  *   @import "tailwindcss";
  *   @import "./brand.css";
- * 再给 <html> 加 class="theme-ink"（深色）或 "theme-paper"（浅色）。
+ *
+ * 主题有两种接法：
+ *   1) 可切换（如 xiao27-hub）：<html> 不加类，默认跟随系统；
+ *      用 <html data-theme="light|dark"> 覆盖成固定主题。
+ *   2) 固定单主题（如 visual-nce / tube-shadowing）：
+ *      <html class="theme-paper"> 或 <html class="theme-ink">。
  *
  * 配色原则：黑白灰占 90%，彩色只用在"必须抢眼"的地方（当前播放句、错误提示、在线状态）。
  */
@@ -33,27 +38,25 @@
   --color-accent: #f59e0b;   /* 琥珀：当前播放句、正在进行的高亮 */
   --color-success: #10b981;  /* 在线 / 完成 */
   --color-danger: #ef4444;   /* 错误 / 破坏性操作 */
+
+  /* 语义色 → Tailwind 工具类。
+     写 bg-base / text-ink / border-line，而不是写死 zinc-900，
+     颜色随主题自动变。注意：这些不支持 /50 这类透明度修饰符。 */
+  --color-base: var(--bg-base);
+  --color-raised: var(--bg-raised);
+  --color-hovered: var(--bg-hover);
+  --color-ink: var(--text-primary);
+  --color-ink-soft: var(--text-secondary);
+  --color-ink-mute: var(--text-muted);
+  --color-line: var(--border-subtle);
+  --color-line-strong: var(--border-strong);
+  --color-btn: var(--btn-bg);
+  --color-btn-fg: var(--btn-fg);
 }
 
-/* ── 深色主题：xiao27-hub、tube-shadowing ── */
-.theme-ink {
-  --bg-base: #09090b;
-  --bg-raised: #131316;
-  --bg-hover: #1c1c20;
-  --border-subtle: rgba(255, 255, 255, 0.06);
-  --border-strong: rgba(255, 255, 255, 0.14);
-  --text-primary: #fafafa;
-  --text-secondary: #a1a1aa;
-  --text-muted: #52525b;
-  /* 主按钮：深色底上用白底黑字 */
-  --btn-bg: #fafafa;
-  --btn-fg: #09090b;
-  --btn-bg-hover: #ffffff;
-  --scrollbar-thumb: #3f3f46;
-  --scrollbar-thumb-hover: #52525b;
-}
-
-/* ── 浅色主题：visual-nce ── */
+/* ── 浅色 tokens ── */
+:root,
+:root[data-theme="light"],
 .theme-paper {
   --bg-base: #fafafa;
   --bg-raised: #ffffff;
@@ -63,18 +66,80 @@
   --text-primary: #18181b;
   --text-secondary: #52525b;
   --text-muted: #a1a1aa;
-  /* 主按钮：浅色底上用黑底白字 */
+  /* 主按钮：浅色底上黑底白字 */
   --btn-bg: #18181b;
   --btn-fg: #fafafa;
   --btn-bg-hover: #09090b;
   --scrollbar-thumb: #d4d4d8;
   --scrollbar-thumb-hover: #a1a1aa;
+  /* 装饰层 */
+  --veil: rgba(9, 9, 11, 0.03);
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-bg-hover: rgba(255, 255, 255, 0.92);
+  /* 选中 / 激活态与遮罩 */
+  --active-bg: rgba(9, 9, 11, 0.06);
+  --active-bg-hover: rgba(9, 9, 11, 0.1);
+  --active-border: rgba(9, 9, 11, 0.2);
+  --overlay: rgba(9, 9, 11, 0.5);
+}
+
+/* ── 深色 tokens ── */
+:root[data-theme="dark"],
+.theme-ink {
+  --bg-base: #09090b;
+  --bg-raised: #131316;
+  --bg-hover: #1c1c20;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #52525b;
+  /* 主按钮：深色底上白底黑字 */
+  --btn-bg: #fafafa;
+  --btn-fg: #09090b;
+  --btn-bg-hover: #ffffff;
+  --scrollbar-thumb: #3f3f46;
+  --scrollbar-thumb-hover: #52525b;
+  --veil: rgba(255, 255, 255, 0.03);
+  --glass-bg: rgba(16, 16, 18, 0.6);
+  --glass-bg-hover: rgba(22, 22, 25, 0.85);
+  --active-bg: rgba(250, 250, 250, 0.1);
+  --active-bg-hover: rgba(250, 250, 250, 0.16);
+  --active-border: rgba(250, 250, 250, 0.25);
+  --overlay: rgba(0, 0, 0, 0.8);
+}
+
+/* 跟随系统：没有显式指定 data-theme 且没戴固定主题类时生效 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not(.theme-paper) {
+    --bg-base: #09090b;
+    --bg-raised: #131316;
+    --bg-hover: #1c1c20;
+    --border-subtle: rgba(255, 255, 255, 0.06);
+    --border-strong: rgba(255, 255, 255, 0.14);
+    --text-primary: #fafafa;
+    --text-secondary: #a1a1aa;
+    --text-muted: #52525b;
+    --btn-bg: #fafafa;
+    --btn-fg: #09090b;
+    --btn-bg-hover: #ffffff;
+    --scrollbar-thumb: #3f3f46;
+    --scrollbar-thumb-hover: #52525b;
+    --veil: rgba(255, 255, 255, 0.03);
+    --glass-bg: rgba(16, 16, 18, 0.6);
+    --glass-bg-hover: rgba(22, 22, 25, 0.85);
+    --active-bg: rgba(250, 250, 250, 0.1);
+    --active-bg-hover: rgba(250, 250, 250, 0.16);
+    --active-border: rgba(250, 250, 250, 0.25);
+    --overlay: rgba(0, 0, 0, 0.8);
+  }
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
     font-family: var(--font-sans);
+    color-scheme: light dark;
   }
 
   body {
@@ -82,6 +147,8 @@
     color: var(--text-primary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: background-color var(--duration-brand) var(--ease-brand),
+                color var(--duration-brand) var(--ease-brand);
   }
 
   code, kbd, samp, pre {
@@ -103,7 +170,21 @@
   border-color: var(--border-strong);
 }
 
-/* 主按钮：黑底白字（浅色主题）/ 白底黑字（深色主题） */
+/* 毛玻璃卡片 */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  transition: all var(--duration-brand) var(--ease-brand);
+}
+.glass-card:hover {
+  background: var(--glass-bg-hover);
+  border-color: var(--border-strong);
+}
+
+/* 主按钮 */
 .btn-primary {
   background: var(--btn-bg);
   color: var(--btn-fg);
@@ -139,3 +220,18 @@
   border-radius: var(--radius-full);
 }
 ::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
+
+/* 选中 / 激活态：分段控件、模式开关、被选中的卡片 */
+.is-active {
+  background: var(--active-bg);
+  color: var(--text-primary);
+  border-color: var(--active-border);
+}
+.is-active:hover { background: var(--active-bg-hover); }
+
+/* 弹窗遮罩 */
+.overlay {
+  background: var(--overlay);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
