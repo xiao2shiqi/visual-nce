@@ -235,3 +235,19 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+
+/* 按主题显隐：同一处放两份素材（如浅色截图与深色截图），
+   由主题决定显示哪一份。用法：
+   <img class="theme-light-only" ...><img class="theme-dark-only" ...> */
+.theme-dark-only { display: none; }
+.theme-light-only { display: block; }
+
+:root[data-theme="dark"] .theme-dark-only,
+.theme-ink .theme-dark-only { display: block; }
+:root[data-theme="dark"] .theme-light-only,
+.theme-ink .theme-light-only { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not(.theme-paper) .theme-dark-only { display: block; }
+  :root:not([data-theme="light"]):not(.theme-paper) .theme-light-only { display: none; }
+}
