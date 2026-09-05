@@ -22,3 +22,93 @@ body {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border-subtle);
 }
+
+/* ── 学习动线阶段色 ────────────────────────────────────────────────
+ * 一套颜色两个主题，取值参照 macOS 系统色（浅色偏深、深色偏亮）。
+ * --stage-N      实心填充色（序号方块、主按钮底）
+ * --stage-N-on   压在实心色上的前景色
+ * --stage-N-btn  大面积主按钮的底色 / -btn-on 其前景色。序号方块那种
+ *                小色块可以用高亮色，但整条按钮铺荧光色会刺眼，要压深。
+ * --stage-N-ink  放在中性底上的文字/图标色，深色主题下要明显提亮，
+ *                否则饱和色压在黑底上会糊成一团。
+ * brand.css 是 xiao27-hub 同步过来的真源，不在那里加，加在这里。
+ */
+:root,
+:root[data-theme="light"] {
+  /* 靛蓝：语法 */
+  --stage-1: #5856d6; --stage-1-ink: #4b49c4; --stage-1-on: #ffffff;
+  --stage-1-btn: #5856d6; --stage-1-btn-on: #ffffff;
+  /* 蓝：听课文 */
+  --stage-2: #007aff; --stage-2-ink: #0062cc; --stage-2-on: #ffffff;
+  --stage-2-btn: #007aff; --stage-2-btn-on: #ffffff;
+  /* 琥珀：循环跟读。白字压在琥珀上只有 2.1:1，所以配深字 */
+  --stage-3: #f59e0b; --stage-3-ink: #b45309; --stage-3-on: #1c1917;
+  --stage-3-btn: #b45309; --stage-3-btn-on: #ffffff;
+  /* 绿：回译。浅色主题下把绿压深，白字才够对比（#28cd41 只有 2.1:1） */
+  --stage-4: #178a35; --stage-4-ink: #14762e; --stage-4-on: #ffffff;
+  --stage-4-btn: #178a35; --stage-4-btn-on: #ffffff;
+}
+
+:root[data-theme="dark"] {
+  --stage-1: #5e5ce6; --stage-1-ink: #a9a7f7; --stage-1-on: #ffffff;
+  --stage-2: #0a84ff; --stage-2-ink: #7cc0ff; --stage-2-on: #ffffff;
+  --stage-3: #ff9f0a; --stage-3-ink: #ffc86b; --stage-3-on: #1c1917;
+  --stage-4: #32d74b; --stage-4-ink: #83e894; --stage-4-on: #0a1c0f;
+  /* 大按钮压深，白字够对比，也不至于在纯黑上刺眼 */
+  --stage-1-btn: #5250d8; --stage-1-btn-on: #ffffff;
+  --stage-2-btn: #0a6fd8; --stage-2-btn-on: #ffffff;
+  --stage-3-btn: #a4620c; --stage-3-btn-on: #ffffff;
+  --stage-4-btn: #1c8f37; --stage-4-btn-on: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --stage-1: #5e5ce6; --stage-1-ink: #a9a7f7; --stage-1-on: #ffffff;
+    --stage-2: #0a84ff; --stage-2-ink: #7cc0ff; --stage-2-on: #ffffff;
+    --stage-3: #ff9f0a; --stage-3-ink: #ffc86b; --stage-3-on: #1c1917;
+    --stage-4: #32d74b; --stage-4-ink: #83e894; --stage-4-on: #0a1c0f;
+    /* 大按钮压深，白字够对比，也不至于在纯黑上刺眼 */
+    --stage-1-btn: #5250d8; --stage-1-btn-on: #ffffff;
+    --stage-2-btn: #0a6fd8; --stage-2-btn-on: #ffffff;
+    --stage-3-btn: #a4620c; --stage-3-btn-on: #ffffff;
+    --stage-4-btn: #1c8f37; --stage-4-btn-on: #ffffff;
+  }
+}
+
+.stage-1 { --s: var(--stage-1); --s-ink: var(--stage-1-ink); --s-on: var(--stage-1-on);
+            --s-btn: var(--stage-1-btn); --s-btn-on: var(--stage-1-btn-on); }
+.stage-2 { --s: var(--stage-2); --s-ink: var(--stage-2-ink); --s-on: var(--stage-2-on);
+            --s-btn: var(--stage-2-btn); --s-btn-on: var(--stage-2-btn-on); }
+.stage-3 { --s: var(--stage-3); --s-ink: var(--stage-3-ink); --s-on: var(--stage-3-on);
+            --s-btn: var(--stage-3-btn); --s-btn-on: var(--stage-3-btn-on); }
+.stage-4 { --s: var(--stage-4); --s-ink: var(--stage-4-ink); --s-on: var(--stage-4-on);
+            --s-btn: var(--stage-4-btn); --s-btn-on: var(--stage-4-btn-on); }
+
+/* 实心色块：序号方块、图标底、主按钮。
+   前景色走 --s-on：琥珀、亮绿这类高亮色配深字，别硬套白字。 */
+.stage-solid {
+  background: var(--s);
+  color: var(--s-on);
+}
+.stage-solid-btn {
+  background: var(--s-btn);
+  color: var(--s-btn-on);
+  transition: background var(--duration-brand) var(--ease-brand);
+}
+.stage-solid-btn:hover { background: color-mix(in oklab, var(--s-btn) 86%, #fff); }
+.stage-solid-btn:active { background: color-mix(in oklab, var(--s-btn) 88%, #000); }
+
+/* 淡色标签：中性底上的小面积着色，两个主题都保持可读 */
+.stage-chip {
+  background: color-mix(in oklab, var(--s) 12%, transparent);
+  border-color: color-mix(in oklab, var(--s) 32%, transparent);
+  color: var(--s-ink);
+}
+.stage-chip-hover:hover {
+  background: color-mix(in oklab, var(--s) 20%, transparent);
+  border-color: color-mix(in oklab, var(--s) 48%, transparent);
+}
+.stage-dot { background: var(--s); }
+.stage-text { color: var(--s-ink); }
+.stage-text-hover:hover { color: var(--s-ink); }
+.stage-border-hover:hover { border-color: color-mix(in oklab, var(--s) 55%, transparent); }
