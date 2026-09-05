@@ -19,7 +19,7 @@ defineProps<{
   segments?: VideoSegment[];
 }>();
 
-const emit = defineEmits(['timeupdate', 'ended']);
+const emit = defineEmits(['timeupdate', 'ended', 'play', 'pause']);
 const audioPlayerRef = ref<any>(null);
 
 const localCurrentTime = ref(0);
@@ -167,8 +167,8 @@ defineExpose({ audioPlayerRef });
         :playback-rate="playbackRate"
         :loop="loop"
         @timeupdate="handleTimeUpdate"
-        @play="localIsPlaying = true"
-        @pause="localIsPlaying = false"
+        @play="localIsPlaying = true; emit('play')"
+        @pause="localIsPlaying = false; emit('pause')"
         @durationchange="(d) => localDuration = d"
         @ended="emit('ended')"
       />

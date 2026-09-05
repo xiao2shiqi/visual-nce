@@ -65,6 +65,7 @@ const loadCompleted = (id: string) => {
 };
 
 const currentTime = ref(0);
+const isPlaying = ref(false);
 const playbackRate = ref(Number(localStorage.getItem(STORAGE_KEYS.PLAYBACK_RATE)) || 1.0);
 const playbackRates = [0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
 const playMode = ref((localStorage.getItem(STORAGE_KEYS.PLAY_MODE) as any) || 'continuous');
@@ -164,6 +165,7 @@ const loadLessonData = async (id: string) => {
 
     // 重置状态
     currentTime.value = 0;
+    isPlaying.value = false;
     singlePlayStartTime.value = null;
     singlePlayEndTime.value = null;
     stopMonitoring();
@@ -328,6 +330,13 @@ const handleSegmentClick = (segment: any) => {
   if (!audioPlayer) return;
 
   if (segment.startTime !== undefined) {
+    const audioEl = audioPlayer.innerAudio;
+    // 如果点击的是当前正在播放的句子，再次点击则暂停
+    if (activeSegmentId.value === segment.id && audioEl && !audioEl.paused) {
+      audioPlayer.pause();
+      return;
+    }
+
     stopMonitoring(); 
     if (playMode.value === 'single' || playMode.value === 'repeat') {
       lastClickedSegmentId.value = segment.id; // Track last clicked segment
@@ -516,6 +525,8 @@ onUnmounted(() => {
             image: resolvePath(s.image || lessonData.image)
           }))"
           @timeupdate="handleTimeUpdate"
+          @play="isPlaying = true"
+          @pause="isPlaying = false"
         />
         <GrammarMap ref="grammarMapRef" :lesson-id="lessonData.id" />
         </div>
@@ -529,6 +540,7 @@ onUnmounted(() => {
           v-model:show-translation="showTranslation"
           v-model:blind-mode="blindMode"
           :playback-rates="playbackRates"
+          :is-playing="isPlaying"
           @segment-click="handleSegmentClick"
         />
       </div>
@@ -660,6 +672,7 @@ onUnmounted(() => {
 }
 
 .lesson-page {
-  background: linear-gradient(to bottom, #fafbfc, #f5f7fa);
+  /* 跟随主题，不写死颜色（BRAND.md §配色） */
+  background: var(--bg-base);
 }
 </style>

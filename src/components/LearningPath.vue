@@ -29,12 +29,12 @@ const emit = defineEmits<{
         <!-- 1 语法预习（可点击） -->
         <button
           @click="emit('open-grammar')"
-          class="group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line/80 bg-hovered hover:bg-hovered hover:border-line-strong transition-all"
+          class="group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-indigo-200/60 dark:border-indigo-800/50 bg-indigo-50/40 dark:bg-indigo-950/20 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 hover:border-indigo-300 transition-all"
           title="点击打开语法预习"
         >
-          <span class="w-5 h-5 rounded-md bg-btn text-btn-fg text-[11px] font-black flex items-center justify-center">1</span>
-          <span class="text-xs font-bold text-ink-soft">语法预习</span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-2.5 h-2.5 text-ink-mute opacity-0 group-hover:opacity-100 transition-opacity">
+          <span class="w-5 h-5 rounded-md bg-indigo-500 text-white text-[11px] font-black flex items-center justify-center shadow-sm">1</span>
+          <span class="text-xs font-bold text-indigo-900 dark:text-indigo-200">语法预习</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-2.5 h-2.5 text-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity">
             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
           </svg>
         </button>
@@ -45,7 +45,7 @@ const emit = defineEmits<{
 
         <!-- 2 听课文 -->
         <div class="flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line bg-raised">
-          <span class="w-5 h-5 rounded-md bg-line-strong text-white text-[11px] font-black flex items-center justify-center">2</span>
+          <span class="w-5 h-5 rounded-md bg-sky-500 text-white text-[11px] font-black flex items-center justify-center shadow-sm">2</span>
           <span class="text-xs font-bold text-ink-soft">听课文</span>
         </div>
 
@@ -55,7 +55,7 @@ const emit = defineEmits<{
 
         <!-- 3 循环跟读 -->
         <div class="flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line bg-raised">
-          <span class="w-5 h-5 rounded-md bg-line-strong text-white text-[11px] font-black flex items-center justify-center">3</span>
+          <span class="w-5 h-5 rounded-md bg-amber-500 text-white text-[11px] font-black flex items-center justify-center shadow-sm">3</span>
           <span class="text-xs font-bold text-ink-soft">循环 · 跟读</span>
         </div>
 
@@ -66,11 +66,11 @@ const emit = defineEmits<{
         <!-- 4 回译练习（选做，可点击） -->
         <button
           @click="emit('open-challenge')"
-          class="group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line bg-hovered hover:border-line-strong transition-all"
+          class="group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-emerald-200/60 dark:border-emerald-800/50 bg-emerald-50/40 dark:bg-emerald-950/20 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 hover:border-emerald-300 transition-all"
           title="点击打开回译挑战（选做）"
         >
-          <span class="w-5 h-5 rounded-md bg-btn text-btn-fg text-[11px] font-black flex items-center justify-center">4</span>
-          <span class="text-xs font-bold text-ink">回译练习</span>
+          <span class="w-5 h-5 rounded-md bg-emerald-500 text-white text-[11px] font-black flex items-center justify-center shadow-sm">4</span>
+          <span class="text-xs font-bold text-emerald-900 dark:text-emerald-200">回译练习</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-2.5 h-2.5 text-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity">
             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
           </svg>

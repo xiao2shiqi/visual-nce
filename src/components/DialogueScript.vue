@@ -8,7 +8,7 @@ import type { Segment } from '../types/lesson';
  * @author xiaobin
  */
 
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   segments: Segment[];
   activeSegmentId: string | null;
   playMode: 'continuous' | 'single' | 'repeat' | 'shadowing';
@@ -16,7 +16,10 @@ const props = defineProps<{
   showTranslation: boolean;
   blindMode: boolean;
   playbackRates: number[];
-}>();
+  isPlaying?: boolean;
+}>(), {
+  isPlaying: false
+});
 
 const emit = defineEmits([
   'update:playMode',
@@ -25,6 +28,11 @@ const emit = defineEmits([
   'update:blindMode',
   'segmentClick'
 ]);
+
+const handlePlayButtonClick = (s: Segment, event: Event) => {
+  event.stopPropagation();
+  emit('segmentClick', s);
+};
 
 // 盲听模式：已手动揭示的句子集合；切换课程或关闭盲听时重置
 const revealedIds = ref(new Set<string>());
@@ -221,7 +229,7 @@ defineExpose({
     </div>
 
     <!-- Script Cards -->
-    <div class="max-h-[620px] overflow-y-auto pr-4 -mr-4 space-y-2.5">
+    <div class="max-h-[620px] overflow-y-auto px-1.5 py-1 pr-3.5 -mr-3.5 space-y-2.5">
       <div 
         v-for="s in segments" 
         :key="s.id"
@@ -232,8 +240,8 @@ defineExpose({
         <div 
           class="relative p-3.5 rounded-xl transition-all duration-300 border flex items-start gap-3"
           :class="[
-            activeSegmentId === s.id 
-              ? 'bg-raised shadow-xl shadow-zinc-900/5 border-amber-400 scale-[1.01]' 
+            activeSegmentId === s.id
+              ? 'bg-raised border-accent ring-2 ring-accent/30 shadow-md shadow-accent/10'
               : 'bg-raised border-transparent hover:bg-raised hover:shadow-lg hover:border-line'
           ]"
         >
@@ -283,21 +291,35 @@ defineExpose({
               </svg>
             </button>
 
-            <!-- Play Indicator -->
-            <div 
+            <!-- Play Button / Indicator -->
+            <button 
               v-if="s.startTime !== undefined"
-              class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300"
-              :class="activeSegmentId === s.id ? 'bg-btn text-btn-fg' : 'bg-hovered text-ink-mute opacity-0 group-hover:opacity-100'"
+              type="button"
+              @click="handlePlayButtonClick(s, $event)"
+              :title="activeSegmentId === s.id && isPlaying ? '暂停' : '播放此句'"
+              class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm active:scale-95 group/playbtn"
+              :class="[
+                activeSegmentId === s.id
+                  ? 'bg-accent text-white shadow-accent/25 ring-2 ring-accent/30'
+                  : 'bg-hovered text-ink-mute opacity-0 group-hover:opacity-100 hover:bg-accent/10 hover:text-accent'
+              ]"
             >
-              <svg v-if="activeSegmentId !== s.id" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5">
+              <!-- If active AND is playing: show equalizer animation, and show pause on hover -->
+              <template v-if="activeSegmentId === s.id && isPlaying">
+                <div class="flex gap-0.5 items-end h-3 group-hover/playbtn:hidden">
+                  <div class="w-0.5 bg-white rounded-full animate-[eq_0.8s_ease-in-out_infinite]"></div>
+                  <div class="w-0.5 bg-white rounded-full animate-[eq_0.8s_ease-in-out_0.2s_infinite]"></div>
+                  <div class="w-0.5 bg-white rounded-full animate-[eq_0.8s_ease-in-out_0.4s_infinite]"></div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 hidden group-hover/playbtn:block">
+                  <path fill-rule="evenodd" d="M6.75 5.25a.75.75 0 01.75-.75H9a.75.75 0 01.75.75v13.5a.75.75 0 01-.75.75H7.5a.75.75 0 01-.75-.75V5.25zm7.5 0A.75.75 0 0115 4.5h1.5a.75.75 0 01.75.75v13.5a.75.75 0 01-.75.75H15a.75.75 0 01-.75-.75V5.25z" clip-rule="evenodd" />
+                </svg>
+              </template>
+              <!-- If not active OR paused: show play arrow -->
+              <svg v-else xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 ml-0.5">
                 <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
               </svg>
-              <div v-else class="flex gap-0.5 items-end h-3">
-                <div class="w-0.5 bg-raised rounded-full animate-[eq_0.8s_ease-in-out_infinite]"></div>
-                <div class="w-0.5 bg-raised rounded-full animate-[eq_0.8s_ease-in-out_0.2s_infinite]"></div>
-                <div class="w-0.5 bg-raised rounded-full animate-[eq_0.8s_ease-in-out_0.4s_infinite]"></div>
-              </div>
-            </div>
+            </button>
           </div>
         </div>
       </div>

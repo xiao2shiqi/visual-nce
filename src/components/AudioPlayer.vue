@@ -27,12 +27,23 @@ watch(() => props.playbackRate, (newRate) => {
   }
 }, { immediate: true });
 
+watch(() => props.src, (newSrc) => {
+  if (audioRef.value && newSrc) {
+    audioRef.value.pause();
+    audioRef.value.load();
+    isPlaying.value = false;
+    currentTime.value = 0;
+  }
+});
+
 const togglePlay = () => {
   if (!audioRef.value) return;
-  if (isPlaying.value) {
+  if (!audioRef.value.paused) {
     audioRef.value.pause();
   } else {
-    audioRef.value.play();
+    audioRef.value.play().catch((err) => {
+      console.warn('Audio play() was interrupted or failed:', err);
+    });
   }
 };
 
@@ -72,15 +83,19 @@ const formatTime = (seconds: number) => {
 
 const playAt = (seconds: number) => {
   if (!audioRef.value) return;
-  audioRef.value.currentTime = seconds;
-  audioRef.value.play();
-  isPlaying.value = true;
+  try {
+    audioRef.value.currentTime = seconds;
+  } catch (e) {
+    console.warn('Seek error in playAt:', e);
+  }
+  audioRef.value.play().catch((err) => {
+    console.warn('Audio play() in playAt failed:', err);
+  });
 };
 
 const pause = () => {
   if (!audioRef.value) return;
   audioRef.value.pause();
-  isPlaying.value = false;
 };
 
 defineExpose({
