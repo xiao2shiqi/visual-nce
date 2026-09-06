@@ -29,10 +29,10 @@ const emit = defineEmits<{
         <!-- 1 语法预习（可点击） -->
         <button
           @click="emit('open-grammar')"
-          class="stage-1 stage-chip stage-chip-hover group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border transition-all"
+          class="step-chip group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl"
           title="点击打开语法预习"
         >
-          <span class="stage-solid w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">1</span>
+          <span class="step-num w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">1</span>
           <span class="text-xs font-bold">语法预习</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-2.5 h-2.5 opacity-0 group-hover:opacity-100 transition-opacity">
             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
@@ -44,8 +44,8 @@ const emit = defineEmits<{
         </svg>
 
         <!-- 2 听课文 -->
-        <div class="flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line bg-raised">
-          <span class="stage-2 stage-solid w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">2</span>
+        <div class="flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line bg-raised text-ink-soft">
+          <span class="step-num w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">2</span>
           <span class="text-xs font-bold text-ink-soft">听课文</span>
         </div>
 
@@ -54,8 +54,8 @@ const emit = defineEmits<{
         </svg>
 
         <!-- 3 循环跟读 -->
-        <div class="flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line bg-raised">
-          <span class="stage-3 stage-solid w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">3</span>
+        <div class="flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border border-line bg-raised text-ink-soft">
+          <span class="step-num w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">3</span>
           <span class="text-xs font-bold text-ink-soft">循环 · 跟读</span>
         </div>
 
@@ -66,10 +66,10 @@ const emit = defineEmits<{
         <!-- 4 回译练习（选做，可点击） -->
         <button
           @click="emit('open-challenge')"
-          class="stage-4 stage-chip stage-chip-hover group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl border transition-all"
+          class="step-chip group flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-xl"
           title="点击打开回译挑战（选做）"
         >
-          <span class="stage-solid w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">4</span>
+          <span class="step-num w-5 h-5 rounded-md text-[11px] font-black flex items-center justify-center">4</span>
           <span class="text-xs font-bold">回译练习</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-2.5 h-2.5 opacity-0 group-hover:opacity-100 transition-opacity">
             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
@@ -83,10 +83,10 @@ const emit = defineEmits<{
         <!-- 终点：由学习者自己打勾，可反悔 -->
         <button
           @click="emit('toggle-complete')"
-          class="stage-4 flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition-colors"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition-colors"
           :class="completed
-            ? 'stage-chip stage-chip-hover'
-            : 'border-dashed border-line-strong bg-transparent text-ink-mute stage-text-hover stage-border-hover'"
+            ? 'is-done'
+            : 'border-dashed border-line-strong bg-transparent text-ink-mute hover:text-ink-soft hover:border-line-strong'"
           :title="completed ? '再点一次可取消标记' : '觉得这课学完了就点一下'"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 h-3">

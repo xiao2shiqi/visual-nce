@@ -34,7 +34,7 @@ const emit = defineEmits(['back', 'supportClick']);
 
         <!-- Title Area -->
         <div class="flex items-center gap-3.5">
-          <div class="stage-1 stage-solid w-10 h-10 rounded-xl flex items-center justify-center shadow-sm shrink-0">
+          <div class="bg-hovered text-ink border border-line w-10 h-10 rounded-xl flex items-center justify-center shrink-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
             </svg>
@@ -42,7 +42,7 @@ const emit = defineEmits(['back', 'supportClick']);
           <div>
             <h1 class="text-xl sm:text-2xl font-black tracking-tight text-ink flex items-center gap-2 flex-wrap">
               <span v-if="title.match(/^(Lesson\s+\d+):\s*(.*)/i)">
-                <span class="stage-1 stage-chip inline-flex items-center px-2 py-0.5 rounded-md text-xs font-black border uppercase tracking-wider mr-1.5 align-middle">
+                <span class="bg-hovered text-ink-soft border border-line inline-flex items-center px-2 py-0.5 rounded-md text-xs font-black uppercase tracking-wider mr-1.5 align-middle">
                   {{ title.match(/^(Lesson\s+\d+):\s*(.*)/i)![1] }}
                 </span>
                 <span class="align-middle">{{ title.match(/^(Lesson\s+\d+):\s*(.*)/i)![2] }}</span>
@@ -50,7 +50,7 @@ const emit = defineEmits(['back', 'supportClick']);
               <span v-else class="align-middle">{{ title }}</span>
             </h1>
             <p class="text-xs text-ink-mute font-medium flex items-center gap-1.5 mt-0.5">
-              <span class="stage-1 stage-dot w-1.5 h-1.5 rounded-full"></span>
+              <span class="bg-ink-mute w-1.5 h-1.5 rounded-full"></span>
               <span>{{ subtitle || 'New Concept English' }}</span>
             </p>
           </div>
