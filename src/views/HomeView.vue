@@ -141,13 +141,13 @@ const features = [
 
     <!-- 顶栏：与 xiao27-hub / tube-shadowing 同一套壳 -->
     <header class="sticky top-0 z-40 w-full border-b border-line bg-base/85 backdrop-blur-md">
-      <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+      <div class="max-w-7xl mx-auto px-6 sm:px-8 h-16 flex items-center justify-between">
         <SiteMark name="Visual NCE" />
         <div class="flex items-center gap-3">
           <ThemeToggle />
           <button
             @click="donationModalRef?.openDonation()"
-            class="flex items-center gap-2 px-4 py-2 rounded-md bg-raised border border-line hover:border-line-strong transition-colors duration-300 group"
+            class="flex items-center gap-2 px-3.5 py-1.5 rounded-md bg-raised border border-line hover:border-line-strong transition-colors duration-300 group cursor-pointer"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-ink-mute group-hover:text-ink transition-colors">
               <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
@@ -158,181 +158,243 @@ const features = [
       </div>
     </header>
 
-    <!-- Hero：一张大图撑门面 -->
-    <section class="hero-section relative pt-10 pb-8 px-6">
-      <div class="max-w-5xl mx-auto animate-fade-in">
-        <!-- 门面插画：整站只在这里出现一次，其余插画进入课程页才加载 -->
-        <div class="relative rounded-xl overflow-hidden ring-1 ring-line">
-          <img
-            src="/images/nce1/l121/scene1.webp"
-            alt="Visual NCE"
-            width="1280"
-            height="548"
-            fetchpriority="high"
-            class="w-full aspect-[21/9] object-cover"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-zinc-950/45 to-zinc-950/10"></div>
+    <!-- Hero：全幅铺满主视觉（顶到屏幕两侧，无圆角无留白，高度 70~80vh） -->
+    <section class="hero-section relative w-full h-[72vh] min-h-[560px] max-h-[820px] overflow-hidden flex items-end">
+      <div class="absolute inset-0 w-full h-full">
+        <img
+          src="/images/nce1/l121/scene1.webp"
+          alt="Visual NCE - 吉卜力风格插画重制版新概念英语"
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+          class="w-full h-full object-cover object-center"
+        />
+        <!-- 渐变遮罩：保证文字在任何底图上都具备极高可读性（符合 BRAND.md 图片压字例外） -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/45 to-black/10"></div>
+      </div>
 
-          <div class="absolute inset-0 flex flex-col items-center justify-end pb-10 px-6 text-center">
-            <h1 class="font-display text-5xl text-white tracking-tight mb-3">Visual NCE</h1>
-            <p class="text-sm text-zinc-200 mb-1">用 AI 重构《新概念英语》</p>
-            <p class="text-xs text-zinc-300">吉卜力插画 × 音画同步 × 深度解析</p>
+      <div class="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 pb-16 pt-20 flex flex-col items-start justify-end">
+        <div class="animate-fade-in max-w-3xl">
+          <span class="inline-block px-3 py-1 rounded-full text-xs font-mono font-medium bg-white/10 text-white/90 backdrop-blur-md mb-4 border border-white/15">
+            Studio Ghibli Style · AI Remastered
+          </span>
+          <h1 class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-normal tracking-tight leading-[1.05] mb-4">
+            Visual NCE
+          </h1>
+          <p class="text-xl sm:text-2xl text-zinc-200 font-light tracking-wide leading-relaxed mb-6">
+            用吉卜力艺术重构《新概念英语》
+          </p>
+          <div class="flex flex-wrap items-center gap-6 sm:gap-10 text-xs sm:text-sm text-zinc-300 font-medium tracking-wide">
+            <span class="flex items-center gap-2">
+              <strong class="text-white text-base font-bold font-mono">4</strong> 册全量收录
+            </span>
+            <span class="w-1 h-1 rounded-full bg-white/40"></span>
+            <span class="flex items-center gap-2">
+              <strong class="text-white text-base font-bold font-mono">276</strong> 篇经典课文
+            </span>
+            <span class="w-1 h-1 rounded-full bg-white/40"></span>
+            <span class="flex items-center gap-2">
+              <strong class="text-white text-base font-bold font-mono">100%</strong> 逐句音画同步
+            </span>
           </div>
-        </div>
-
-        <!-- Stats -->
-        <div class="flex items-center justify-center gap-8 mt-6 text-xs text-ink-soft">
-          <span><strong class="text-ink font-semibold">4</strong> 册全收录</span>
-          <span class="w-px h-3 bg-line-strong"></span>
-          <span><strong class="text-ink font-semibold">500+</strong> 课时覆盖</span>
-          <span class="w-px h-3 bg-line-strong"></span>
-          <span><strong class="text-ink font-semibold">AI</strong> 吉卜力插画</span>
         </div>
       </div>
     </section>
 
 
     <!-- Course Selection Section -->
-    <section class="max-w-6xl mx-auto px-6 pb-24 pt-4">
+    <section class="max-w-7xl mx-auto px-6 sm:px-8 py-20">
       <!-- Continue Learning -->
-      <div v-if="lastStudy" class="flex justify-center mb-8 animate-fade-in">
+      <div v-if="lastStudy" class="flex justify-center mb-12 animate-fade-in">
         <button
           @click="continueStudy"
-          class="group flex items-center gap-3 pl-4 pr-5 py-2.5 rounded-full bg-raised border border-line shadow-sm hover:shadow-md hover:border-line-strong transition-all duration-300"
+          class="group flex items-center gap-3.5 pl-4 pr-6 py-2.5 rounded-full bg-raised border border-line shadow-xs hover:shadow-md hover:border-line-strong transition-all duration-300 cursor-pointer"
         >
-          <span class="w-8 h-8 rounded-full bg-hovered flex items-center justify-center text-ink">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 translate-x-[1px]">
+          <span class="w-8 h-8 rounded-full bg-btn flex items-center justify-center text-btn-fg shadow-xs">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 translate-x-0.5">
               <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
             </svg>
           </span>
           <span class="text-left">
-            <span class="block text-[10px] font-bold text-ink-mute uppercase tracking-widest">继续学习 · 上次到 {{ formatTime(lastStudy.time) }}</span>
-            <span class="block text-sm font-bold text-ink-soft group-hover:text-ink transition-colors">{{ lastStudy.lesson.title }}: {{ lastStudy.lesson.subtitle }}</span>
+            <span class="block text-[11px] font-mono font-medium text-ink-mute">继续学习 · 上次进度 {{ formatTime(lastStudy.time) }}</span>
+            <span class="block text-sm font-bold text-ink group-hover:text-ink transition-colors truncate max-w-xs sm:max-w-md">
+              {{ lastStudy.lesson.title }} · {{ lastStudy.lesson.subtitle }}
+            </span>
           </span>
         </button>
       </div>
 
-      <!-- Book Tabs -->
-      <div class="flex flex-wrap justify-center gap-2 mb-10 px-2 py-2 rounded-full bg-raised backdrop-blur-sm w-fit mx-auto border border-line shadow-sm">
-        <button
-          v-for="book in curriculum.books"
-          :key="book.id"
-          @click="activeBookId = book.id"
-          class="px-6 py-2.5 rounded-full text-sm font-bold transition-colors duration-300"
-          :class="activeBookId === book.id
-            ? 'bg-btn text-btn-fg shadow-md'
-            : 'text-ink-soft hover:text-ink hover:bg-raised'"
-        >
-          {{ book.subtitle }}
-        </button>
-      </div>
-
-      <!-- Active Book Highlight -->
-      <div class="text-center animate-fade-in mb-12" :key="activeBookId">
-        <h2 class="font-display text-3xl text-ink mb-3">{{ activeBook.title }}</h2>
-        <p class="text-ink-soft">{{ activeBook.description }}</p>
-
-        <!-- 学习进度（有记录才显示，保持首屏干净） -->
-        <div v-if="bookProgress.done > 0" class="mt-5 flex items-center justify-center gap-3">
-          <div class="w-48 h-1.5 rounded-full bg-line-strong/80 overflow-hidden">
-            <div class="h-full rounded-full bg-btn transition-all duration-500" :style="{ width: bookProgress.pct + '%' }"></div>
-          </div>
-          <span class="text-xs font-semibold text-ink-soft">已学 {{ bookProgress.done }} / {{ bookProgress.total }}</span>
+      <!-- Book Switcher Tabs -->
+      <div class="flex justify-center mb-14">
+        <div class="inline-flex p-1.5 rounded-full bg-raised border border-line shadow-xs gap-1.5">
+          <button
+            v-for="book in curriculum.books"
+            :key="book.id"
+            @click="activeBookId = book.id"
+            class="px-6 py-2 rounded-full text-sm font-bold transition-all duration-200 cursor-pointer"
+            :class="activeBookId === book.id
+              ? 'bg-btn text-btn-fg shadow-xs'
+              : 'text-ink-soft hover:text-ink hover:bg-hovered'"
+          >
+            {{ book.subtitle }}
+          </button>
         </div>
       </div>
 
-      <!-- Lessons List：纯文字列表，插画进入课程页才加载 -->
+      <!-- Active Book Headline & Info -->
+      <div class="text-center mb-14 animate-fade-in" :key="activeBookId">
+        <span class="inline-block text-xs font-mono font-bold tracking-widest text-ink-mute uppercase mb-2">
+          {{ activeBook.subtitle }} · {{ activeBook.level || 'Course Syllabus' }}
+        </span>
+        <h2 class="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-ink tracking-tight mb-3">
+          {{ activeBook.title }}
+        </h2>
+        <p class="text-base sm:text-lg text-ink-soft max-w-xl mx-auto leading-relaxed">
+          {{ activeBook.description }}
+        </p>
+
+        <!-- 学习进度 -->
+        <div v-if="bookProgress.done > 0" class="mt-6 flex flex-col items-center gap-2">
+          <div class="w-56 h-1.5 rounded-full bg-hovered border border-line overflow-hidden">
+            <div class="h-full rounded-full bg-btn transition-all duration-500" :style="{ width: bookProgress.pct + '%' }"></div>
+          </div>
+          <span class="text-xs font-mono text-ink-mute">已完成 {{ bookProgress.done }} / {{ bookProgress.total }} 课 ({{ bookProgress.pct }}%)</span>
+        </div>
+      </div>
+
+      <!-- Lessons Grid：缩略图网格卡片（懒加载 + 异步解码 + 避免布局抖动） -->
       <div class="animate-slide-up" :key="activeBookId + 'list'">
-        <div v-if="activeBook.lessons.length" class="grid grid-cols-2 gap-x-10 border-t border-line">
+        <div v-if="activeBook.lessons.length" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
           <button
             v-for="lesson in activeBook.lessons"
             :key="lesson.id"
             @click="handleLessonClick(lesson)"
-            class="group flex items-center gap-4 py-3 px-3 -mx-3 text-left border-b border-line hover:bg-hovered transition-colors duration-200"
+            class="group flex flex-col text-left cursor-pointer transition-all duration-300"
           >
-            <span class="w-12 shrink-0 font-mono text-xs text-ink-mute group-hover:text-ink-soft transition-colors">
-              {{ lesson.title.replace('Lesson ', 'L') }}
-            </span>
-            <span class="flex-1 text-sm text-ink-soft group-hover:text-ink transition-colors truncate">
-              {{ lesson.subtitle }}
-            </span>
-            <span v-if="isCompleted(lesson.id)" class="shrink-0 text-ink-mute" title="已完成">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-              </svg>
-            </span>
-            <span class="shrink-0 w-3 text-ink-mute opacity-0 group-hover:opacity-100 transition-opacity">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3 h-3">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-              </svg>
-            </span>
+            <!-- 缩略图容器（固定 480x262 比例，防 CLS） -->
+            <div class="relative w-full aspect-[480/262] rounded-xl overflow-hidden bg-hovered border border-line shadow-xs group-hover:border-line-strong group-hover:shadow-xl transition-all duration-300">
+              <img
+                :src="lesson.image"
+                :alt="lesson.title + ' ' + lesson.subtitle"
+                loading="lazy"
+                decoding="async"
+                width="480"
+                height="262"
+                class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-[1.04]"
+              />
+
+              <!-- 课程编号标签 -->
+              <div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-full text-[11px] font-mono font-bold bg-black/65 text-white/95 backdrop-blur-md border border-white/10 shadow-xs">
+                {{ lesson.title.replace('Lesson ', 'L') }}
+              </div>
+
+              <!-- 已完成勾选徽章 -->
+              <div
+                v-if="isCompleted(lesson.id)"
+                class="absolute top-2.5 right-2.5 w-6 h-6 rounded-full bg-[var(--color-success)] text-white flex items-center justify-center shadow-md"
+                title="已完成"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3.5 h-3.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+              </div>
+
+              <!-- Hover 播放微动效指示器 -->
+              <div class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-black/60 text-white/90 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 border border-white/10 shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 translate-x-0.5">
+                  <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- 课程文本 -->
+            <div class="pt-3 px-1">
+              <h3 class="text-base font-bold text-ink group-hover:text-ink transition-colors truncate">
+                {{ lesson.subtitle }}
+              </h3>
+              <p class="text-xs font-mono text-ink-mute mt-0.5">
+                {{ lesson.title }}
+              </p>
+            </div>
           </button>
         </div>
 
         <!-- 空册占位 -->
-        <div v-else class="py-20 text-center">
-          <p class="text-ink-mute text-sm">该册内容制作中</p>
+        <div v-else class="py-24 text-center">
+          <p class="text-base text-ink-mute font-medium">该册内容正在由 AI 画师精心重制中，敬请期待</p>
         </div>
       </div>
-
 
       <!-- Coming Soon Toast -->
       <Transition name="toast">
         <div
           v-if="showComingSoonToast"
-          class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 px-8 py-5 bg-hovered/95 backdrop-blur-sm text-white rounded-xl shadow-2xl flex items-center gap-4"
+          class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 px-7 py-4 bg-raised text-ink border border-line rounded-xl shadow-2xl flex items-center gap-3.5 backdrop-blur-md"
         >
-          <div class="w-12 h-12 bg-btn/20 rounded-xl flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 text-ink-mute">
+          <div class="w-10 h-10 bg-hovered rounded-xl flex items-center justify-center text-ink shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 text-ink">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             </svg>
           </div>
           <div>
-            <p class="font-black text-lg">敬请期待</p>
-            <p class="text-ink-mute text-sm">该课程正在制作中...</p>
+            <p class="font-bold text-base text-ink">敬请期待</p>
+            <p class="text-xs text-ink-soft">该课程内容正在制作中...</p>
           </div>
         </div>
       </Transition>
-
     </section>
 
-    <!-- Features Section -->
-    <section class="border-t border-line bg-raised py-16 px-6">
-      <div class="max-w-4xl mx-auto animate-fade-in">
-        <div class="text-center mb-10">
-          <h2 class="font-display text-2xl text-ink">为什么选择 Visual NCE？</h2>
+    <!-- Features Section：去掉所有盒子与多余边框，依靠呼吸感大留白浮现 -->
+    <section class="border-t border-line py-28 px-6 sm:px-8">
+      <div class="max-w-7xl mx-auto">
+        <!-- Section Title with Apple scale contrast -->
+        <div class="text-center max-w-3xl mx-auto mb-20">
+          <span class="text-xs font-mono font-bold tracking-widest text-ink-mute uppercase mb-3 block">
+            Core Highlights · 核心特性
+          </span>
+          <h2 class="font-display text-4xl sm:text-5xl font-bold text-ink tracking-tight mb-4">
+            为什么选择 Visual NCE？
+          </h2>
+          <p class="text-base sm:text-lg text-ink-soft leading-relaxed">
+            告别枯燥的黑白排版。结合前沿生成式 AI 与经典教材，打造沉浸式英语精听体验。
+          </p>
         </div>
-        <div class="grid grid-cols-2 gap-4">
+
+        <!-- Features Grid：无边框无背景，靠间距与排版建立秩序 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
           <div
             v-for="f in features"
             :key="f.title"
-            class="flex gap-4 p-5 rounded-xl bg-raised border border-line shadow-sm hover:shadow-md transition-shadow duration-300"
+            class="flex flex-col text-left group"
           >
-            <div class="w-10 h-10 shrink-0 rounded-xl bg-hovered flex items-center justify-center text-ink mt-0.5">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+            <!-- 图标直接浮在页面上，去掉厚重底座 -->
+            <div class="w-8 h-8 text-ink mb-4 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" class="w-7 h-7">
                 <path stroke-linecap="round" stroke-linejoin="round" :d="f.icon" />
               </svg>
             </div>
-            <div>
-              <h3 class="text-sm font-bold text-ink mb-1">{{ f.title }}</h3>
-              <p class="text-xs text-ink-soft leading-relaxed">{{ f.desc }}</p>
-            </div>
+            <h3 class="text-xl font-bold text-ink mb-2 tracking-tight">
+              {{ f.title }}
+            </h3>
+            <p class="text-sm text-ink-soft leading-relaxed">
+              {{ f.desc }}
+            </p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer / Project Info Section -->
-    <footer class="border-t border-line bg-raised py-8 px-6">
-      <div class="max-w-6xl mx-auto">
-        <div class="flex flex-row justify-between items-center gap-4 text-ink-mute">
-          <p class="text-xs font-bold uppercase tracking-tighter">© 2025 Visual NCE Project</p>
-          <div class="flex items-center gap-6 text-xs font-bold uppercase tracking-tighter">
-            <span class="hover:text-ink cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">About & Disclaimer</span>
-            <span class="hover:text-ink cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">作者微信</span>
+    <footer class="border-t border-line bg-raised py-12 px-6 sm:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-6 text-ink-mute">
+          <p class="text-xs font-mono font-medium tracking-tight">© 2025–2026 Visual NCE Project</p>
+          <div class="flex flex-wrap items-center justify-center gap-6 text-xs font-medium">
+            <button class="hover:text-ink cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">About & Disclaimer</button>
+            <button class="hover:text-ink cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">作者微信</button>
             <a href="https://xiao27.com" class="hover:text-ink cursor-pointer transition-colors">← xiao27 hub</a>
             <a href="https://github.com/xiao2shiqi/visual-nce" target="_blank" class="hover:text-ink cursor-pointer transition-colors">GitHub</a>
-            <span class="hover:text-ink cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">Author: xiaobin</span>
+            <button class="hover:text-ink cursor-pointer transition-colors" @click="aboutModalRef?.openAbout()">Author: xiaobin</button>
           </div>
         </div>
       </div>
@@ -356,23 +418,23 @@ const features = [
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.8s ease-out forwards;
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .animate-slide-up {
-  animation: slideUp 0.6s ease-out forwards;
+  animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 /* Toast animation */
 .toast-enter-active,
 .toast-leave-active {
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
 
 .toast-enter-from,
 .toast-leave-to {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.9);
+  transform: translate(-50%, -50%) scale(0.95);
 }
 
 .animate-fade-in-up {
@@ -382,5 +444,9 @@ const features = [
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+.home-container {
+  background: var(--bg-base);
 }
 </style>
