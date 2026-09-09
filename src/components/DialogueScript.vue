@@ -385,29 +385,29 @@ defineExpose({
         <div class="flex items-center bg-hovered p-0.5 rounded-md border border-line">
           <button
             @click="emit('update:playMode', 'continuous')"
-            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'continuous' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
+            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-150 cursor-pointer active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+            :class="playMode === 'continuous' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink hover:bg-raised/60'"
           >
             连读
           </button>
           <button
             @click="emit('update:playMode', 'single')"
-            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'single' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
+            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-150 cursor-pointer active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+            :class="playMode === 'single' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink hover:bg-raised/60'"
           >
             点读
           </button>
           <button
             @click="emit('update:playMode', 'repeat')"
-            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'repeat' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
+            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-150 cursor-pointer active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+            :class="playMode === 'repeat' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink hover:bg-raised/60'"
           >
             循环
           </button>
           <button
             @click="emit('update:playMode', 'shadowing')"
-            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'shadowing' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
+            class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-150 cursor-pointer active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+            :class="playMode === 'shadowing' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink hover:bg-raised/60'"
             title="每句播完自动停顿，留出开口跟读的时间"
           >
             跟读
@@ -419,9 +419,10 @@ defineExpose({
         <!-- Blind Listening (低频设置，图标按钮) -->
         <button
           @click="emit('update:blindMode', !blindMode)"
-          class="w-8 h-8 rounded-md flex items-center justify-center transition-all duration-200"
+          class="w-8 h-8 rounded-md flex items-center justify-center transition-all duration-150 cursor-pointer active:scale-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
           :class="blindMode ? 'bg-hovered text-ink' : 'text-ink-soft hover:text-ink hover:bg-hovered'"
           title="盲听模式：隐藏字幕，先听后看；点击句子文字可单独揭示"
+          aria-label="盲听模式"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
             <path v-if="blindMode" stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
@@ -436,8 +437,9 @@ defineExpose({
         <select
           :value="playbackRate"
           @change="(e) => emit('update:playbackRate', parseFloat((e.target as HTMLSelectElement).value))"
-          class="appearance-none bg-transparent h-8 px-1.5 text-xs font-bold text-ink-soft hover:text-ink rounded-md hover:bg-hovered transition-all cursor-pointer outline-none"
+          class="appearance-none bg-transparent h-8 px-2 min-w-[36px] text-xs font-bold text-ink-soft hover:text-ink rounded-md hover:bg-hovered active:scale-95 transition-all duration-150 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
           title="播放速度"
+          aria-label="播放速度"
         >
           <option v-for="rate in playbackRates" :key="rate" :value="rate">
             {{ rate === 1.0 ? '1.0x' : rate + 'x' }}
@@ -447,9 +449,10 @@ defineExpose({
         <!-- Translation Toggle (低频设置，图标按钮) -->
         <button
           @click="emit('update:showTranslation', !showTranslation)"
-          class="w-8 h-8 rounded-md flex items-center justify-center text-xs font-bold transition-all duration-200"
+          class="w-8 h-8 rounded-md flex items-center justify-center text-xs font-bold transition-all duration-150 cursor-pointer active:scale-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
           :class="showTranslation ? 'bg-hovered text-ink' : 'text-ink-soft hover:text-ink hover:bg-hovered'"
           title="显示中文译文"
+          aria-label="显示中文译文"
         >
           中
         </button>
@@ -466,21 +469,25 @@ defineExpose({
           v-for="s in segments" 
           :key="s.id"
           :id="`segment-${s.id}`"
-          class="script-card group relative cursor-pointer"
+          tabindex="0"
+          role="button"
+          :aria-label="`播放台词：${s.text}`"
+          class="script-card group relative cursor-pointer focus-visible:outline-none"
           @click="handleCardClick(s)"
+          @keydown.enter.prevent="handleCardClick(s)"
         >
         <div 
-          class="relative p-3.5 rounded-xl transition-all duration-300 border flex items-start gap-3"
+          class="relative p-3.5 rounded-xl transition-all duration-150 border flex items-start gap-3 active:scale-[0.99] group-focus-visible:ring-2 group-focus-visible:ring-ink group-focus-visible:ring-offset-2 group-focus-visible:ring-offset-base"
           :class="[
             activeSegmentId === s.id
               ? 'bg-raised border-accent ring-2 ring-accent/30 shadow-md shadow-accent/10'
-              : 'bg-raised border-transparent hover:bg-raised hover:shadow-lg hover:border-line'
+              : 'bg-raised border-transparent hover:bg-hovered hover:border-line-strong hover:shadow-md'
           ]"
         >
             <!-- Content -->
             <div class="flex-1 min-w-0">
               <p 
-                class="text-sm leading-relaxed transition-colors duration-300"
+                class="text-sm leading-relaxed transition-colors duration-150"
                 :class="activeSegmentId === s.id ? 'text-ink font-semibold' : 'text-ink-soft'"
               >
                 <span
@@ -491,7 +498,7 @@ defineExpose({
                   {{ roleOf(s) }}
                 </span>
                 <span
-                  :class="isMasked(s) ? 'blur-[6px] select-none cursor-help transition-all duration-300' : 'transition-all duration-300'"
+                  :class="isMasked(s) ? 'blur-[6px] select-none cursor-help transition-all duration-150' : 'transition-all duration-150'"
                   :title="isMasked(s) ? '点击揭示这句' : undefined"
                   @click="isMasked(s) && revealSegment(s, $event)"
                 ><template v-for="(t, i) in tokenize(s.text)" :key="i"><span
@@ -511,9 +518,10 @@ defineExpose({
             <!-- Copy Button -->
             <button 
               @click="handleCopy(s, $event)"
-              class="flex-shrink-0 w-8 h-8 rounded-md flex items-center justify-center transition-all duration-300 hover:bg-hovered group/copy"
-              :class="[copiedId === s.id ? 'text-green-500' : 'text-ink-mute opacity-0 group-hover:opacity-100 group-hover:text-ink-mute']"
+              class="flex-shrink-0 w-8 h-8 rounded-md flex items-center justify-center transition-all duration-150 cursor-pointer hover:bg-hovered active:scale-90 focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink group/copy"
+              :class="[copiedId === s.id ? 'text-success opacity-100' : 'text-ink-mute opacity-0 group-hover:opacity-100 focus-visible:opacity-100 hover:text-ink']"
               title="复制句子"
+              aria-label="复制句子"
             >
               <svg v-if="copiedId !== s.id" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
@@ -529,11 +537,12 @@ defineExpose({
               type="button"
               @click="handlePlayButtonClick(s, $event)"
               :title="activeSegmentId === s.id && isPlaying ? '暂停' : '播放此句'"
-              class="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm active:scale-95 group/playbtn"
+              :aria-label="activeSegmentId === s.id && isPlaying ? '暂停此句' : '播放此句'"
+              class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-150 cursor-pointer shadow-sm active:scale-90 group/playbtn focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
               :class="[
                 activeSegmentId === s.id
                   ? 'bg-accent text-white shadow-accent/25 ring-2 ring-accent/30'
-                  : 'bg-hovered text-ink-mute opacity-0 group-hover:opacity-100 hover:bg-accent/10 hover:text-accent'
+                  : 'bg-hovered text-ink-mute opacity-0 group-hover:opacity-100 focus-visible:opacity-100 hover:bg-accent/15 hover:text-accent'
               ]"
             >
               <!-- If active AND is playing: show equalizer animation, and show pause on hover -->
@@ -558,7 +567,7 @@ defineExpose({
 
       <!-- Floating "Back to Current" button -->
       <transition
-        enter-active-class="transition duration-200 ease-out"
+        enter-active-class="transition duration-150 ease-out"
         enter-from-class="opacity-0 translate-y-2 scale-95"
         enter-to-class="opacity-100 translate-y-0 scale-100"
         leave-active-class="transition duration-150 ease-in"
@@ -569,7 +578,8 @@ defineExpose({
           v-if="isAutoScrollPaused && isCurrentOutOfView"
           type="button"
           @click="handleBackToActive"
-          class="absolute bottom-3 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-raised/95 backdrop-blur-md border border-line shadow-lg hover:border-line-strong hover:bg-hovered text-xs font-semibold text-ink cursor-pointer transition-all duration-200 select-none group"
+          class="absolute bottom-3 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 px-3.5 py-1.5 min-h-[32px] rounded-full bg-raised/95 backdrop-blur-md border border-line shadow-lg hover:border-line-strong hover:bg-hovered active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink text-xs font-semibold text-ink cursor-pointer transition-all duration-150 select-none group"
+          aria-label="回到当前朗读句子"
         >
           <span class="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></span>
           <svg
@@ -606,20 +616,24 @@ defineExpose({
   -webkit-tap-highlight-color: transparent;
 }
 /* 可查词的单词：悬停句子时全句单词浮现浅虚线（提示可点），
-   悬停单词本身时琥珀色高亮 + 加深虚线 */
+   悬停单词本身时琥珀色高亮 + 加深虚线，按下时轻微缩放即时反馈 */
 .lookup-word {
   cursor: pointer;
   border-bottom: 1px dotted transparent;
   border-radius: 2px;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  transition: color 0.15s, background-color 0.15s, border-color 0.15s, transform 0.15s, opacity 0.15s;
 }
 .script-card:hover .lookup-word {
-  border-bottom-color: #cbd5e1; /* zinc-300 */
+  border-bottom-color: var(--border-strong, #cbd5e1);
 }
 .lookup-word:hover {
-  color: #b45309;               /* amber-700 */
-  background-color: rgb(254 243 199 / 0.7); /* amber-100/70 */
-  border-bottom-color: #d97706; /* amber-600 */
+  color: var(--color-accent, #b45309);
+  background-color: color-mix(in srgb, var(--color-accent) 15%, transparent);
+  border-bottom-color: var(--color-accent, #d97706);
+}
+.lookup-word:active {
+  transform: scale(0.96);
+  opacity: 0.85;
 }
 @keyframes eq {
   0%, 100% { height: 4px; }

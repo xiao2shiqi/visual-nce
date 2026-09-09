@@ -153,7 +153,7 @@ defineOptions({ inheritAttrs: false });
     v-if="challengeSegments.length"
     v-bind="$attrs"
     @click="open"
-    class="btn-secondary mt-3 w-full flex items-center justify-center gap-2 px-4 py-2.5 !rounded-xl text-xs font-bold active:scale-[0.99]"
+    class="btn-secondary mt-3 w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold active:scale-[0.99] cursor-pointer"
   >
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
       <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
@@ -164,29 +164,29 @@ defineOptions({ inheritAttrs: false });
   <Teleport to="body">
     <Transition name="fade" :duration="200">
       <div v-if="show" class="fixed inset-0 z-50 flex items-center justify-center p-4 overlay backdrop-blur-sm" @click.self="close">
-        <div class="bg-raised w-full max-w-2xl max-h-[88vh] rounded-xl shadow-2xl relative overflow-hidden animate-scale-up flex flex-col">
+        <div class="bg-raised w-full max-w-2xl max-h-[88vh] rounded-xl shadow-2xl relative overflow-hidden animate-scale-up flex flex-col border border-line">
 
-          <button @click="close" class="absolute top-4 right-4 z-10 p-2 rounded-full hover:bg-hovered transition-colors text-ink-mute hover:text-ink-soft">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+          <button @click="close" class="absolute top-4 right-4 z-10 p-2 rounded-full hover:bg-hovered transition-colors text-ink-mute hover:text-ink-soft cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
           </button>
 
           <!-- Header -->
-          <div class="px-8 pt-8 pb-4 border-b border-line">
-            <div class="flex items-center gap-2 mb-1">
+          <div class="px-8 pt-8 pb-5 border-b border-line">
+            <div class="flex items-center gap-2 mb-1.5">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 text-emerald-500">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
               </svg>
-              <h2 class="text-lg font-black text-ink">回译挑战</h2>
+              <h2 class="text-xl font-bold text-ink tracking-tight">回译挑战</h2>
             </div>
-            <p class="text-xs text-ink-mute font-medium">看中文，把英文原句拼回来——选做的练习，不计成绩，也不影响本课的完成标记</p>
+            <p class="text-xs text-ink-soft leading-relaxed">看中文，把英文原句拼回来——选做的练习，不计成绩，也不影响本课的完成标记</p>
             <!-- 进度条 -->
             <div v-if="!finished" class="mt-4 flex items-center gap-3">
               <div class="flex-1 h-1.5 rounded-full bg-hovered overflow-hidden">
-                <div class="h-full rounded-full bg-ink transition-all duration-500" :style="{ width: `${(cur + (curStatus !== 'pending' ? 1 : 0)) / items.length * 100}%` }"></div>
+                <div class="h-full rounded-full bg-btn transition-all duration-500" :style="{ width: `${(cur + (curStatus !== 'pending' ? 1 : 0)) / items.length * 100}%` }"></div>
               </div>
-              <span class="text-xs font-black text-ink-mute tabular-nums">{{ cur + 1 }} / {{ items.length }}</span>
+              <span class="text-xs font-mono font-bold text-ink-soft tabular-nums">{{ cur + 1 }} / {{ items.length }}</span>
             </div>
           </div>
 

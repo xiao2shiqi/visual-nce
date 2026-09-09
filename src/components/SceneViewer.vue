@@ -154,10 +154,11 @@ defineExpose({ audioPlayerRef });
       <!-- Center Play/Pause Button -->
       <button
         @click="audioPlayerRef?.togglePlay()"
-        class="absolute inset-0 flex items-center justify-center transition-opacity duration-300"
-        :class="localIsPlaying ? 'opacity-0 hover:opacity-100' : 'opacity-100'"
+        aria-label="播放或暂停"
+        class="absolute inset-0 flex items-center justify-center transition-opacity duration-200 cursor-pointer focus-visible:outline-none group/centerbtn"
+        :class="localIsPlaying ? 'opacity-0 hover:opacity-100 focus-visible:opacity-100' : 'opacity-100'"
       >
-        <div class="w-16 h-16 rounded-full bg-black/50 backdrop-blur-sm border border-white/30 flex items-center justify-center text-white hover:scale-110 transition-transform duration-200 shadow-2xl">
+        <div class="w-16 h-16 rounded-full bg-black/50 backdrop-blur-sm border border-white/30 flex items-center justify-center text-white hover:scale-110 active:scale-95 group-focus-visible/centerbtn:ring-2 group-focus-visible/centerbtn:ring-white group-focus-visible/centerbtn:ring-offset-2 group-focus-visible/centerbtn:ring-offset-black/60 transition-all duration-150 shadow-2xl">
           <svg v-if="!localIsPlaying" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7 ml-0.5">
             <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
           </svg>
@@ -186,7 +187,7 @@ defineExpose({ audioPlayerRef });
           :aria-valuemax="localDuration ? Math.floor(localDuration) : 0"
           :aria-valuenow="localDuration ? Math.floor(displayTime) : 0"
           :aria-valuetext="`${formatTime(displayTime)} / ${formatTime(localDuration)}`"
-          class="h-1 bg-white/30 rounded-full cursor-pointer mb-3 hover:h-1.5 focus-visible:h-1.5 transition-all duration-150 pointer-events-auto relative group/bar select-none before:absolute before:-top-2 before:-bottom-2 before:left-0 before:right-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black/60"
+          class="h-1 bg-white/30 rounded-full cursor-pointer mb-3 hover:h-1.5 focus-visible:h-1.5 transition-all duration-150 pointer-events-auto relative group/bar select-none before:absolute before:-top-3.5 before:-bottom-3.5 before:left-0 before:right-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black/60"
           @mousedown="onMouseDown"
           @keydown="onKeyDown"
           @focus="isFocused = true"
@@ -223,7 +224,11 @@ defineExpose({ audioPlayerRef });
         <!-- Controls Row -->
         <div class="flex items-center justify-between text-white pointer-events-auto">
           <div class="flex items-center gap-3">
-            <button @click="audioPlayerRef?.togglePlay()" class="hover:opacity-70 transition-opacity active:scale-95">
+            <button
+              @click="audioPlayerRef?.togglePlay()"
+              aria-label="播放或暂停"
+              class="w-8 h-8 rounded-full flex items-center justify-center text-white hover:bg-white/20 active:scale-90 transition-all duration-150 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            >
               <svg v-if="!localIsPlaying" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
                 <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
               </svg>

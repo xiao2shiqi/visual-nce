@@ -18,6 +18,7 @@ const emit = defineEmits<{
 
 const audioRef = ref<HTMLAudioElement | null>(null);
 const isPlaying = ref(false);
+const isMuted = ref(false);
 const currentTime = ref(0);
 const duration = ref(0);
 
@@ -98,10 +99,57 @@ const pause = () => {
   audioRef.value.pause();
 };
 
+const seekTo = (seconds: number) => {
+  if (!audioRef.value || !duration.value) return;
+  const clamped = Math.max(0, Math.min(duration.value, seconds));
+  audioRef.value.currentTime = clamped;
+  currentTime.value = clamped;
+  emit('timeupdate', clamped);
+};
+
+const onProgressBarKeyDown = (e: KeyboardEvent) => {
+  if (!duration.value) return;
+  const isLeft = e.key === 'ArrowLeft' || e.code === 'ArrowLeft' || e.key === 'ArrowDown' || e.code === 'ArrowDown';
+  const isRight = e.key === 'ArrowRight' || e.code === 'ArrowRight' || e.key === 'ArrowUp' || e.code === 'ArrowUp';
+  const isHome = e.key === 'Home' || e.code === 'Home';
+  const isEnd = e.key === 'End' || e.code === 'End';
+  const isSpace = e.key === ' ' || e.code === 'Space';
+
+  if (isLeft) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(currentTime.value - 3);
+  } else if (isRight) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(currentTime.value + 3);
+  } else if (isHome) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(0);
+  } else if (isEnd) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(duration.value);
+  } else if (isSpace) {
+    e.preventDefault();
+    e.stopPropagation();
+    togglePlay();
+  }
+};
+
+const toggleMute = () => {
+  if (!audioRef.value) return;
+  audioRef.value.muted = !audioRef.value.muted;
+  isMuted.value = audioRef.value.muted;
+};
+
 defineExpose({
   playAt,
   pause,
   togglePlay,
+  toggleMute,
+  isMuted,
   isPlaying,
   currentTime,
   duration,
@@ -112,11 +160,13 @@ defineExpose({
 
 <template>
   <!-- Full player UI -->
-  <div v-if="!hidden" class="audio-player glass p-4 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex items-center gap-4 border border-white/40">
+  <div v-if="!hidden" class="audio-player glass-card p-4 rounded-xl shadow-lg shadow-ink/5 flex items-center gap-4 border border-line">
     <!-- Play/Pause Button -->
     <button
+      type="button"
       @click="togglePlay"
-      class="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-btn text-btn-fg rounded-xl hover:scale-105 transition-all shadow-lg shadow-zinc-900/25 active:scale-95 group relative overflow-hidden"
+      :aria-label="isPlaying ? '暂停' : '播放'"
+      class="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-btn text-btn-fg rounded-xl hover:scale-105 active:scale-95 transition-all duration-150 shadow-md group relative overflow-hidden cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-base"
     >
       <div class="absolute inset-0 bg-raised/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
       <span v-if="!isPlaying" class="relative z-10 scale-125">
@@ -151,7 +201,14 @@ defineExpose({
 
       <!-- Progress Bar -->
       <div
-        class="h-2 bg-line-strong/50 rounded-full cursor-pointer relative group transition-all hover:h-3"
+        class="h-2 bg-line-strong/50 rounded-full cursor-pointer relative group transition-all duration-150 hover:h-3 focus-visible:h-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-base before:content-[''] before:absolute before:-top-3.5 before:-bottom-3.5 before:left-0 before:right-0 before:z-10"
+        role="slider"
+        tabindex="0"
+        :aria-valuenow="Math.round(currentTime)"
+        :aria-valuemin="0"
+        :aria-valuemax="Math.round(duration)"
+        aria-label="音频播放进度"
+        @keydown="onProgressBarKeyDown"
         @click="seek"
       >
         <div class="absolute inset-0 bg-line-strong/50 rounded-full overflow-hidden">
@@ -159,19 +216,26 @@ defineExpose({
               class="h-full bg-ink relative rounded-full transition-all duration-150 ease-out"
               :style="{ width: (currentTime / duration * 100) + '%' }"
             >
-              <div class="absolute right-0 top-0 bottom-0 w-4 shadow-[0_0_15px_rgba(59,130,246,0.6)]"></div>
             </div>
         </div>
         <div
-          class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-raised border-2 border-line-strong rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+          class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-raised border-2 border-line-strong rounded-full shadow-lg opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity pointer-events-none"
           :style="{ left: `calc(${(currentTime / duration * 100)}% - 8px)` }"
         ></div>
       </div>
     </div>
 
-    <button class="p-2 text-ink-mute hover:text-ink transition-colors block">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+    <button
+      type="button"
+      @click="toggleMute"
+      :aria-label="isMuted ? '取消静音' : '静音'"
+      class="w-8 h-8 rounded-md flex items-center justify-center text-ink-mute hover:text-ink hover:bg-hovered active:scale-90 transition-all duration-150 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+    >
+      <svg v-if="!isMuted" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+      </svg>
+      <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75L19.5 12m0 0l2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-1.5l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
       </svg>
     </button>
 

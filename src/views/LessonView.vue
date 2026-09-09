@@ -772,12 +772,6 @@ onUnmounted(() => {
 
 <template>
   <div class="lesson-page min-h-screen pb-44">
-    <!-- Ambient Background -->
-    <div class="fixed inset-0 -z-10 overflow-hidden">
-      <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-to-bl from-zinc-400/10 via-zinc-300/5 to-transparent rounded-full blur-3xl"></div>
-      <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-tr from-zinc-300/10 via-zinc-200/5 to-transparent rounded-full blur-3xl"></div>
-    </div>
-
     <LessonHeader 
       v-if="lessonData"
       :title="lessonData.title"
@@ -785,7 +779,7 @@ onUnmounted(() => {
       @support-click="donationModalRef?.openDonation()"
     />
 
-    <main v-if="lessonData" class="max-w-6xl mx-auto px-6 py-10">
+    <main v-if="lessonData" class="max-w-7xl mx-auto px-6 sm:px-8 py-8">
       <!-- 学习动线：进入课程先看按什么顺序学（试点课程） -->
       <LearningPath
         v-if="hasFullLoop(lessonData.id)"
@@ -795,9 +789,9 @@ onUnmounted(() => {
         @toggle-complete="toggleCompleted"
       />
 
-      <div class="grid grid-cols-12 gap-10">
+      <div class="grid grid-cols-12 gap-8 lg:gap-10">
         <!-- 左栏：播放器 + 快捷键 + 语法地图，整体吸顶 -->
-        <div class="col-span-5 sticky top-24 self-start">
+        <div class="col-span-5 sticky top-20 self-start">
         <SceneViewer
           ref="sceneViewerRef"
           :current-image="currentImage"
@@ -847,20 +841,20 @@ onUnmounted(() => {
       </div>
 
       <!-- Quick Navigation -->
-      <div class="mt-12 pt-8 border-t border-line grid grid-cols-2 gap-6 animate-fade-in">
+      <div class="mt-14 pt-8 border-t border-line grid grid-cols-2 gap-6 animate-fade-in">
         <button 
           v-if="navigation.prev"
           @click="emit('select-course', navigation.prev)"
-          class="flex items-center gap-4 p-5 rounded-xl bg-raised backdrop-blur-sm border border-line hover:border-line-strong hover:bg-raised hover:shadow-xl hover:shadow-zinc-900/5 transition-all duration-500 group text-left"
+          class="flex items-center gap-4 p-5 rounded-xl bg-raised border border-line hover:border-line-strong hover:bg-hovered/40 shadow-xs hover:shadow-md transition-all duration-300 group text-left cursor-pointer"
         >
-          <div class="w-12 h-12 rounded-xl bg-hovered flex items-center justify-center text-ink-mute group-hover:bg-hovered group-hover:text-ink transition-all duration-500">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+          <div class="w-11 h-11 rounded-xl bg-hovered border border-line flex items-center justify-center text-ink-mute group-hover:text-ink group-hover:border-line-strong transition-all duration-300 shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 group-hover:-translate-x-0.5 transition-transform">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
           </div>
-          <div class="overflow-hidden">
-            <div class="text-[10px] font-black text-ink-mute uppercase tracking-widest mb-1 group-hover:text-ink-mute transition-colors">Previous Lesson</div>
-            <div class="text-base font-bold text-ink-soft group-hover:text-ink transition-colors truncate">
+          <div class="overflow-hidden min-w-0">
+            <div class="text-xs font-mono font-bold text-ink-mute uppercase tracking-wider mb-1">Previous Lesson</div>
+            <div class="font-display text-lg sm:text-xl font-bold text-ink group-hover:text-ink transition-colors truncate">
               {{ navigation.prev.title }}: {{ navigation.prev.subtitle }}
             </div>
           </div>
@@ -870,16 +864,16 @@ onUnmounted(() => {
         <button 
           v-if="navigation.next"
           @click="emit('select-course', navigation.next)"
-          class="flex items-center justify-end gap-4 p-5 rounded-xl bg-raised backdrop-blur-sm border border-line hover:border-line-strong hover:bg-raised hover:shadow-xl hover:shadow-zinc-900/5 transition-all duration-500 group text-right"
+          class="flex items-center justify-end gap-4 p-5 rounded-xl bg-raised border border-line hover:border-line-strong hover:bg-hovered/40 shadow-xs hover:shadow-md transition-all duration-300 group text-right cursor-pointer"
         >
-          <div class="overflow-hidden">
-            <div class="text-[10px] font-black text-ink-mute uppercase tracking-widest mb-1 group-hover:text-ink-mute transition-colors">Next Lesson</div>
-            <div class="text-base font-bold text-ink-soft group-hover:text-ink transition-colors truncate">
+          <div class="overflow-hidden min-w-0">
+            <div class="text-xs font-mono font-bold text-ink-mute uppercase tracking-wider mb-1">Next Lesson</div>
+            <div class="font-display text-lg sm:text-xl font-bold text-ink group-hover:text-ink transition-colors truncate">
               {{ navigation.next.title }}: {{ navigation.next.subtitle }}
             </div>
           </div>
-          <div class="w-12 h-12 rounded-xl bg-hovered flex items-center justify-center text-ink-mute group-hover:bg-hovered group-hover:text-ink transition-all duration-500">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+          <div class="w-11 h-11 rounded-xl bg-hovered border border-line flex items-center justify-center text-ink-mute group-hover:text-ink group-hover:border-line-strong transition-all duration-300 shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform">
               <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
           </div>
@@ -891,11 +885,11 @@ onUnmounted(() => {
     <Transition name="completion">
       <div
         v-if="showCompletionCard"
-        class="fixed bottom-6 right-6 z-40 w-72 rounded-xl bg-raised backdrop-blur-sm border border-line shadow-xl shadow-zinc-900/10 p-5"
+        class="fixed bottom-6 right-6 z-40 w-72 rounded-xl bg-raised border border-line shadow-2xl p-5"
       >
         <button
           @click="showCompletionCard = false"
-          class="absolute top-3 right-3 w-6 h-6 rounded-full flex items-center justify-center text-ink-mute hover:text-ink-soft hover:bg-hovered transition-colors"
+          class="absolute top-3 right-3 w-6 h-6 rounded-full flex items-center justify-center text-ink-mute hover:text-ink hover:bg-hovered transition-colors cursor-pointer"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -903,28 +897,28 @@ onUnmounted(() => {
         </button>
 
         <div class="flex items-center gap-3 mb-4">
-          <div class="w-9 h-9 rounded-full bg-btn flex items-center justify-center shadow-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white" class="w-4.5 h-4.5">
+          <div class="w-9 h-9 rounded-full bg-btn flex items-center justify-center shadow-xs text-btn-fg shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4.5 h-4.5">
               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
             </svg>
           </div>
           <div>
-            <p class="text-sm font-black text-ink">已标记学完</p>
-            <p class="text-[11px] text-ink-mute">已记入学习进度</p>
+            <p class="text-sm font-bold text-ink">已标记学完</p>
+            <p class="text-xs text-ink-mute font-mono">已记入学习进度</p>
           </div>
         </div>
 
         <button
           v-if="navigation.next"
           @click="emit('select-course', navigation.next)"
-          class="w-full py-2.5 rounded-xl bg-btn text-btn-fg text-sm font-bold hover:bg-hovered transition-colors"
+          class="btn-primary w-full py-2.5 !rounded-xl text-xs font-bold transition-all cursor-pointer"
         >
           下一课：{{ navigation.next.title }} →
         </button>
 
         <button
           @click="showWechatQr = !showWechatQr"
-          class="mt-3 w-full text-center text-[11px] text-ink-mute hover:text-ink transition-colors"
+          class="mt-3 w-full text-center text-xs text-ink-mute hover:text-ink transition-colors cursor-pointer"
         >
           觉得有用？加作者微信交流学习
         </button>

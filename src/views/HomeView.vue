@@ -162,10 +162,10 @@ const features = [
     <section class="hero-section relative w-full h-[72vh] min-h-[560px] max-h-[820px] overflow-hidden flex items-end">
       <div class="absolute inset-0 w-full h-full">
         <img
-          src="/images/nce1/l121/scene1.webp"
+          src="/images/hero-home.webp"
           alt="Visual NCE - 吉卜力风格插画重制版新概念英语"
-          width="1920"
-          height="1080"
+          width="1408"
+          height="768"
           fetchpriority="high"
           class="w-full h-full object-cover object-center"
         />
