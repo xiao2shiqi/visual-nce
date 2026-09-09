@@ -1,10 +1,14 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "visual-nce",
+  "main": "./worker/index.ts",
   "compatibility_date": "2026-08-20",
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "single-page-application"
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS",
+    // 静态资源层不支持 Range，音频必须先过 Worker 自行切片，否则浏览器认定不可跳转
+    "run_worker_first": ["/audio/*"]
   },
   "routes": [
     { "pattern": "nce.xiao27.com/*", "zone_name": "xiao27.com" }
