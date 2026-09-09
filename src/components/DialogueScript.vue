@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, onMounted, onUnmounted, nextTick } from 'vue';
 import type { Segment } from '../types/lesson';
 
 /**
@@ -31,13 +31,17 @@ const emit = defineEmits([
 
 const handlePlayButtonClick = (s: Segment, event: Event) => {
   event.stopPropagation();
+  resumeAutoScroll(false);
   emit('segmentClick', s);
 };
 
 // 盲听模式：已手动揭示的句子集合；切换课程或关闭盲听时重置
 const revealedIds = ref(new Set<string>());
 
-watch(() => props.segments, () => { revealedIds.value = new Set(); });
+watch(() => props.segments, () => {
+  revealedIds.value = new Set();
+  resumeAutoScroll(false);
+});
 watch(() => props.blindMode, () => { revealedIds.value = new Set(); });
 
 const isMasked = (s: Segment) => props.blindMode && !revealedIds.value.has(s.id);
@@ -131,12 +135,236 @@ const handleCopy = (segment: Segment, event: Event) => {
   });
 };
 
-const scrollToActive = (id: string) => {
-  const el = document.getElementById(`segment-${id}`);
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+// 滚动容器与自动滚动控制
+const scrollContainerRef = ref<HTMLElement | null>(null);
+const isAutoScrollPaused = ref(false);
+const isCurrentOutOfView = ref(false);
+const outOfViewDirection = ref<'up' | 'down'>('up');
+
+let resumeTimer: number | null = null;
+let isProgrammaticScrolling = false;
+let programmaticScrollTimer: number | null = null;
+let visibilityRafId: number | null = null;
+const PAUSE_DURATION_MS = 5000;
+
+// 检查当前活跃句子是否在滚动容器可视区内
+const updateActiveVisibility = () => {
+  if (!isAutoScrollPaused.value || !props.activeSegmentId || !scrollContainerRef.value) {
+    isCurrentOutOfView.value = false;
+    return;
+  }
+
+  const container = scrollContainerRef.value;
+  const el = document.getElementById(`segment-${props.activeSegmentId}`);
+  if (!el) {
+    isCurrentOutOfView.value = false;
+    return;
+  }
+
+  const containerRect = container.getBoundingClientRect();
+  const elRect = el.getBoundingClientRect();
+
+  // 当前句完全或大部分已滑出可视区上方
+  if (elRect.bottom < containerRect.top + 16) {
+    isCurrentOutOfView.value = true;
+    outOfViewDirection.value = 'up';
+  } else if (elRect.top > containerRect.bottom - 16) {
+    // 当前句在可视区下方尚未进入
+    isCurrentOutOfView.value = true;
+    outOfViewDirection.value = 'down';
+  } else {
+    // 当前句依然在可视区域内
+    isCurrentOutOfView.value = false;
   }
 };
+
+const scheduleVisibilityUpdate = () => {
+  if (visibilityRafId !== null) return;
+  visibilityRafId = requestAnimationFrame(() => {
+    visibilityRafId = null;
+    updateActiveVisibility();
+  });
+};
+
+// 暂停自动滚动（用户手动操作触发）
+const pauseAutoScroll = () => {
+  isAutoScrollPaused.value = true;
+  if (resumeTimer !== null) {
+    clearTimeout(resumeTimer);
+  }
+  resumeTimer = window.setTimeout(() => {
+    resumeAutoScroll(true);
+  }, PAUSE_DURATION_MS);
+};
+
+// 恢复自动滚动
+const resumeAutoScroll = (shouldScrollIfPlaying = true) => {
+  isAutoScrollPaused.value = false;
+  if (resumeTimer !== null) {
+    clearTimeout(resumeTimer);
+    resumeTimer = null;
+  }
+  isCurrentOutOfView.value = false;
+
+  if (shouldScrollIfPlaying && props.isPlaying && props.activeSegmentId) {
+    const el = document.getElementById(`segment-${props.activeSegmentId}`);
+    if (el) {
+      performProgrammaticScroll(el);
+    }
+  }
+};
+
+// 执行程序化平滑滚动，并标记 programmatic 状态以区分用户手动滚动
+const performProgrammaticScroll = (el: HTMLElement) => {
+  isProgrammaticScrolling = true;
+  if (programmaticScrollTimer !== null) {
+    clearTimeout(programmaticScrollTimer);
+  }
+
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  // 设置安全超时（平滑滚动通常在 300~600ms 内完成）
+  programmaticScrollTimer = window.setTimeout(() => {
+    isProgrammaticScrolling = false;
+    programmaticScrollTimer = null;
+    updateActiveVisibility();
+  }, 800);
+};
+
+// 用户主动交互（鼠标滚轮、触摸滑动、拖动滚动条等）
+const handleUserInteraction = () => {
+  // 用户发生操作时，若正处于程序滚动的平滑动画中，立即打断并交还控制权
+  if (isProgrammaticScrolling) {
+    isProgrammaticScrolling = false;
+    if (programmaticScrollTimer !== null) {
+      clearTimeout(programmaticScrollTimer);
+      programmaticScrollTimer = null;
+    }
+  }
+  pauseAutoScroll();
+};
+
+// 监听键盘按键引起的滚动
+const handleUserKeydown = (e: KeyboardEvent) => {
+  const scrollKeys = ['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '];
+  if (scrollKeys.includes(e.key)) {
+    handleUserInteraction();
+  }
+};
+
+// 容器滚动事件监听
+const handleContainerScroll = () => {
+  if (isProgrammaticScrolling) {
+    // 程序引起的平滑滚动过程中：重置 debounce 计时器
+    if (programmaticScrollTimer !== null) {
+      clearTimeout(programmaticScrollTimer);
+    }
+    programmaticScrollTimer = window.setTimeout(() => {
+      isProgrammaticScrolling = false;
+      programmaticScrollTimer = null;
+      updateActiveVisibility();
+    }, 200);
+    return;
+  }
+
+  // 非程序触发的滚动（如拖动滚动条等）
+  pauseAutoScroll();
+  scheduleVisibilityUpdate();
+};
+
+// 标准 scrollend 事件
+const handleScrollEnd = () => {
+  if (isProgrammaticScrolling) {
+    isProgrammaticScrolling = false;
+    if (programmaticScrollTimer !== null) {
+      clearTimeout(programmaticScrollTimer);
+      programmaticScrollTimer = null;
+    }
+    updateActiveVisibility();
+  }
+};
+
+// 点击卡片：用户主动选择某一句，立即恢复自动滚动
+const handleCardClick = (s: Segment) => {
+  resumeAutoScroll(false);
+  emit('segmentClick', s);
+};
+
+// 点击回到当前句按钮
+const handleBackToActive = () => {
+  if (props.activeSegmentId) {
+    isAutoScrollPaused.value = false;
+    if (resumeTimer !== null) {
+      clearTimeout(resumeTimer);
+      resumeTimer = null;
+    }
+    isCurrentOutOfView.value = false;
+    const el = document.getElementById(`segment-${props.activeSegmentId}`);
+    if (el) {
+      performProgrammaticScroll(el);
+    }
+  }
+};
+
+const scrollToActive = (id: string) => {
+  if (isAutoScrollPaused.value) {
+    // 用户手动滚动暂停期间，不强行把视口拽回，仅更新提示状态
+    nextTick(() => {
+      updateActiveVisibility();
+    });
+    return;
+  }
+
+  const el = document.getElementById(`segment-${id}`);
+  if (el) {
+    performProgrammaticScroll(el);
+  }
+};
+
+// 监听活跃片段变化，在暂停期间动态刷新提示显隐及方向
+watch(() => props.activeSegmentId, () => {
+  if (isAutoScrollPaused.value) {
+    nextTick(() => {
+      updateActiveVisibility();
+    });
+  }
+});
+
+onMounted(() => {
+  const container = scrollContainerRef.value;
+  if (container) {
+    container.addEventListener('wheel', handleUserInteraction, { passive: true });
+    container.addEventListener('pointerdown', handleUserInteraction, { passive: true });
+    container.addEventListener('touchstart', handleUserInteraction, { passive: true });
+    container.addEventListener('keydown', handleUserKeydown, { passive: true });
+    container.addEventListener('scroll', handleContainerScroll, { passive: true });
+    container.addEventListener('scrollend', handleScrollEnd);
+  }
+});
+
+onUnmounted(() => {
+  if (visibilityRafId !== null) {
+    cancelAnimationFrame(visibilityRafId);
+    visibilityRafId = null;
+  }
+  if (resumeTimer !== null) {
+    clearTimeout(resumeTimer);
+    resumeTimer = null;
+  }
+  if (programmaticScrollTimer !== null) {
+    clearTimeout(programmaticScrollTimer);
+    programmaticScrollTimer = null;
+  }
+  const container = scrollContainerRef.value;
+  if (container) {
+    container.removeEventListener('wheel', handleUserInteraction);
+    container.removeEventListener('pointerdown', handleUserInteraction);
+    container.removeEventListener('touchstart', handleUserInteraction);
+    container.removeEventListener('keydown', handleUserKeydown);
+    container.removeEventListener('scroll', handleContainerScroll);
+    container.removeEventListener('scrollend', handleScrollEnd);
+  }
+});
 
 defineExpose({
   scrollToActive
@@ -228,15 +456,19 @@ defineExpose({
       </div>
     </div>
 
-    <!-- Script Cards -->
-    <div class="max-h-[620px] overflow-y-auto px-1.5 py-1 pr-3.5 -mr-3.5 space-y-2.5">
+    <!-- Script Cards Container -->
+    <div class="relative">
       <div 
-        v-for="s in segments" 
-        :key="s.id"
-        :id="`segment-${s.id}`"
-        class="script-card group relative cursor-pointer"
-        @click="emit('segmentClick', s)"
+        ref="scrollContainerRef"
+        class="max-h-[620px] overflow-y-auto px-1.5 py-1 pr-3.5 -mr-3.5 space-y-2.5"
       >
+        <div 
+          v-for="s in segments" 
+          :key="s.id"
+          :id="`segment-${s.id}`"
+          class="script-card group relative cursor-pointer"
+          @click="handleCardClick(s)"
+        >
         <div 
           class="relative p-3.5 rounded-xl transition-all duration-300 border flex items-start gap-3"
           :class="[
@@ -323,7 +555,50 @@ defineExpose({
           </div>
         </div>
       </div>
+
+      <!-- Floating "Back to Current" button -->
+      <transition
+        enter-active-class="transition duration-200 ease-out"
+        enter-from-class="opacity-0 translate-y-2 scale-95"
+        enter-to-class="opacity-100 translate-y-0 scale-100"
+        leave-active-class="transition duration-150 ease-in"
+        leave-from-class="opacity-100 translate-y-0 scale-100"
+        leave-to-class="opacity-0 translate-y-2 scale-95"
+      >
+        <button
+          v-if="isAutoScrollPaused && isCurrentOutOfView"
+          type="button"
+          @click="handleBackToActive"
+          class="absolute bottom-3 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-raised/95 backdrop-blur-md border border-line shadow-lg hover:border-line-strong hover:bg-hovered text-xs font-semibold text-ink cursor-pointer transition-all duration-200 select-none group"
+        >
+          <span class="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></span>
+          <svg
+            v-if="outOfViewDirection === 'up'"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="currentColor"
+            class="w-3.5 h-3.5 text-accent transition-transform group-hover:-translate-y-0.5"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+          </svg>
+          <svg
+            v-else
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="currentColor"
+            class="w-3.5 h-3.5 text-accent transition-transform group-hover:translate-y-0.5"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+          </svg>
+          <span>回到当前句</span>
+        </button>
+      </transition>
     </div>
+  </div>
 </template>
 
 <style scoped>

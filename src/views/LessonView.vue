@@ -7,6 +7,7 @@ import DonationModal from '../components/DonationModal.vue';
 import GrammarMap from '../components/GrammarMap.vue';
 import BackTranslation from '../components/BackTranslation.vue';
 import LearningPath from '../components/LearningPath.vue';
+import ShortcutHelp from '../components/ShortcutHelp.vue';
 import curriculum from '../data/curriculum.json';
 import { resolvePath } from '../utils/resolvePath';
 
@@ -409,15 +410,107 @@ const navigation = computed(() => {
   };
 });
 
+// 快捷键帮助浮层状态
+const showShortcutHelp = ref(false);
+
+// 快捷键轻量视觉反馈 Toast
+const toastText = ref('');
+const showToastNotification = ref(false);
+let toastTimer: number | null = null;
+
+const showToast = (msg: string) => {
+  toastText.value = msg;
+  showToastNotification.value = true;
+  if (toastTimer !== null) {
+    clearTimeout(toastTimer);
+  }
+  toastTimer = window.setTimeout(() => {
+    showToastNotification.value = false;
+    toastTimer = null;
+  }, 1000);
+};
+
+// 档位变速调节（0.75x ~ 2.0x）
+const changePlaybackRate = (delta: number) => {
+  let currentIdx = playbackRates.indexOf(playbackRate.value);
+  if (currentIdx === -1) {
+    let minDiff = Infinity;
+    playbackRates.forEach((r, idx) => {
+      const diff = Math.abs(r - playbackRate.value);
+      if (diff < minDiff) {
+        minDiff = diff;
+        currentIdx = idx;
+      }
+    });
+  }
+  const newIdx = Math.max(0, Math.min(playbackRates.length - 1, currentIdx + delta));
+  playbackRate.value = playbackRates[newIdx]!;
+  showToast(`播放速度：${playbackRate.value === 1.0 ? '1.0x' : playbackRate.value + 'x'}`);
+};
+
+// 重听当前句（从当前句起始位置重新播放）
+const replaySegment = (segment: any) => {
+  const audioPlayer = sceneViewerRef.value?.audioPlayerRef;
+  if (!audioPlayer) return;
+
+  if (segment && segment.startTime !== undefined) {
+    stopMonitoring();
+    if (playMode.value === 'single' || playMode.value === 'repeat') {
+      lastClickedSegmentId.value = segment.id;
+      singlePlayStartTime.value = segment.startTime;
+      singlePlayEndTime.value = segment.endTime;
+      audioPlayer.playAt(segment.startTime);
+      nextTick(() => startMonitoring());
+    } else {
+      lastClickedSegmentId.value = null;
+      singlePlayStartTime.value = null;
+      singlePlayEndTime.value = null;
+      clearShadowTimer();
+      shadowLastSegId = segment.id;
+      audioPlayer.playAt(segment.startTime);
+    }
+  } else {
+    audioPlayer.playAt(0);
+  }
+};
+
 // 快捷键处理
 const handleKeyDown = (e: KeyboardEvent) => {
   if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) return;
+
+  // 快捷键帮助浮层打开时，按 Escape 或 ? 键关闭
+  if (showShortcutHelp.value) {
+    if (e.key === 'Escape' || e.code === 'Escape' || e.key === '?') {
+      e.preventDefault();
+      showShortcutHelp.value = false;
+      return;
+    }
+  }
+
+  // 问号键：打开/关闭快捷键帮助浮层
+  if (e.key === '?' || (e.shiftKey && e.code === 'Slash')) {
+    e.preventDefault();
+    showShortcutHelp.value = !showShortcutHelp.value;
+    return;
+  }
 
   const audioPlayer = sceneViewerRef.value?.audioPlayerRef;
   if (!audioPlayer || !lessonData.value) return;
 
   const segments = lessonData.value.segments;
   const currentIndex = segments.findIndex((s: any) => s.id === activeSegmentId.value);
+
+  // 减号键降速 / 等号键升速
+  if (e.key === '-' || e.key === '_' || e.code === 'Minus' || e.code === 'NumpadSubtract') {
+    e.preventDefault();
+    changePlaybackRate(-1);
+    return;
+  }
+  if (e.key === '=' || e.key === '+' || e.code === 'Equal' || e.code === 'NumpadAdd') {
+    e.preventDefault();
+    changePlaybackRate(1);
+    return;
+  }
 
   switch (e.code) {
     case 'Space':
@@ -454,13 +547,56 @@ const handleKeyDown = (e: KeyboardEvent) => {
       }
       break;
 
-    case 'KeyR':
+    case 'KeyR': {
       e.preventDefault();
       if (currentIndex !== -1) {
-        handleSegmentClick(segments[currentIndex]);
+        replaySegment(segments[currentIndex]);
       } else {
-        audioPlayer.playAt(0);
+        const prevIdx = segments.reduce((acc: number, s: any, idx: number) => 
+          s.startTime < currentTime.value ? idx : acc, -1);
+        if (prevIdx !== -1) {
+          replaySegment(segments[prevIdx]);
+        } else if (segments.length > 0) {
+          replaySegment(segments[0]);
+        } else {
+          audioPlayer.playAt(0);
+        }
       }
+      showToast('重听当前句');
+      break;
+    }
+
+    case 'KeyL': {
+      e.preventDefault();
+      const modes: Array<'continuous' | 'single' | 'repeat' | 'shadowing'> = [
+        'continuous',
+        'single',
+        'repeat',
+        'shadowing'
+      ];
+      const modeLabels: Record<string, string> = {
+        continuous: '连读模式',
+        single: '点读模式',
+        repeat: '循环模式',
+        shadowing: '跟读模式'
+      };
+      const idx = modes.indexOf(playMode.value);
+      const nextMode = modes[(idx + 1) % modes.length]!;
+      playMode.value = nextMode;
+      showToast(`播放模式：${modeLabels[nextMode]}`);
+      break;
+    }
+
+    case 'KeyT':
+      e.preventDefault();
+      showTranslation.value = !showTranslation.value;
+      showToast(`译文显示：${showTranslation.value ? '已开启' : '已关闭'}`);
+      break;
+
+    case 'KeyB':
+      e.preventDefault();
+      blindMode.value = !blindMode.value;
+      showToast(`盲听模式：${blindMode.value ? '已开启' : '已关闭'}`);
       break;
   }
 };
@@ -475,6 +611,10 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeyDown);
   clearShadowTimer();
+  if (toastTimer !== null) {
+    clearTimeout(toastTimer);
+    toastTimer = null;
+  }
   // 离开课程时保存最终进度
   saveProgress(currentTime.value);
 });
@@ -654,11 +794,41 @@ onUnmounted(() => {
         <p class="text-sm font-bold text-ink-mute uppercase tracking-widest">Loading Lesson...</p>
       </div>
     </div>
+    <!-- 快捷键操作反馈 Toast（1秒后淡出） -->
+    <Transition name="toast">
+      <div
+        v-if="showToastNotification"
+        class="fixed top-20 left-1/2 -translate-x-1/2 z-50 pointer-events-none flex items-center gap-2 px-4 py-2 rounded-full bg-raised border border-line shadow-lg backdrop-blur-md"
+      >
+        <span class="w-2 h-2 rounded-full bg-accent"></span>
+        <span class="text-xs font-bold text-ink tracking-wide">{{ toastText }}</span>
+      </div>
+    </Transition>
+
+    <!-- 快捷键帮助浮层 -->
+    <ShortcutHelp
+      :visible="showShortcutHelp"
+      @close="showShortcutHelp = false"
+      @update:visible="showShortcutHelp = $event"
+    />
+
     <DonationModal ref="donationModalRef" />
   </div>
 </template>
 
 <style scoped>
+/* 快捷键提示 Toast 动画 */
+.toast-enter-active,
+.toast-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast-enter-from,
+.toast-leave-to {
+  opacity: 0;
+  transform: translate(-50%, -8px);
+}
+
 /* 完成卡滑入动画 */
 .completion-enter-active,
 .completion-leave-active {
