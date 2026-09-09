@@ -386,28 +386,28 @@ defineExpose({
           <button
             @click="emit('update:playMode', 'continuous')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'continuous' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
+            :class="playMode === 'continuous' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
           >
             连读
           </button>
           <button
             @click="emit('update:playMode', 'single')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'single' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
+            :class="playMode === 'single' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
           >
             点读
           </button>
           <button
             @click="emit('update:playMode', 'repeat')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'repeat' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
+            :class="playMode === 'repeat' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
           >
             循环
           </button>
           <button
             @click="emit('update:playMode', 'shadowing')"
             class="px-2.5 py-1.5 text-xs font-bold rounded-md transition-all duration-200"
-            :class="playMode === 'shadowing' ? 'bg-raised text-ink shadow-sm' : 'text-ink-mute hover:text-ink-soft'"
+            :class="playMode === 'shadowing' ? 'bg-raised text-ink shadow-sm' : 'text-ink-soft hover:text-ink'"
             title="每句播完自动停顿，留出开口跟读的时间"
           >
             跟读
@@ -420,7 +420,7 @@ defineExpose({
         <button
           @click="emit('update:blindMode', !blindMode)"
           class="w-8 h-8 rounded-md flex items-center justify-center transition-all duration-200"
-          :class="blindMode ? 'bg-hovered text-ink' : 'text-ink-mute hover:text-ink-soft hover:bg-hovered'"
+          :class="blindMode ? 'bg-hovered text-ink' : 'text-ink-soft hover:text-ink hover:bg-hovered'"
           title="盲听模式：隐藏字幕，先听后看；点击句子文字可单独揭示"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
@@ -436,7 +436,7 @@ defineExpose({
         <select
           :value="playbackRate"
           @change="(e) => emit('update:playbackRate', parseFloat((e.target as HTMLSelectElement).value))"
-          class="appearance-none bg-transparent h-8 px-1.5 text-xs font-bold text-ink-mute hover:text-ink rounded-md hover:bg-hovered transition-all cursor-pointer outline-none"
+          class="appearance-none bg-transparent h-8 px-1.5 text-xs font-bold text-ink-soft hover:text-ink rounded-md hover:bg-hovered transition-all cursor-pointer outline-none"
           title="播放速度"
         >
           <option v-for="rate in playbackRates" :key="rate" :value="rate">
@@ -448,7 +448,7 @@ defineExpose({
         <button
           @click="emit('update:showTranslation', !showTranslation)"
           class="w-8 h-8 rounded-md flex items-center justify-center text-xs font-bold transition-all duration-200"
-          :class="showTranslation ? 'bg-hovered text-ink' : 'text-ink-mute hover:text-ink-soft hover:bg-hovered'"
+          :class="showTranslation ? 'bg-hovered text-ink' : 'text-ink-soft hover:text-ink hover:bg-hovered'"
           title="显示中文译文"
         >
           中

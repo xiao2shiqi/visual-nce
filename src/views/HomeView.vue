@@ -175,7 +175,7 @@ const features = [
 
       <div class="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 pb-16 pt-20 flex flex-col items-start justify-end">
         <div class="animate-fade-in max-w-3xl">
-          <span class="inline-block px-3 py-1 rounded-full text-xs font-mono font-medium bg-white/10 text-white/90 backdrop-blur-md mb-4 border border-white/15">
+          <span class="inline-block px-3 py-1 rounded-full text-xs font-mono font-medium bg-black/45 text-white backdrop-blur-md mb-4 border border-white/25">
             Studio Ghibli Style · AI Remastered
           </span>
           <h1 class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-normal tracking-tight leading-[1.05] mb-4">

@@ -37,6 +37,17 @@ body {
   :root:not([data-theme="light"]) { --success-ink: #4ade80; }
 }
 
+/* 次要文字的可读版本：--text-muted 原值浅色 #a1a1aa 压在白底只有 2.56:1、
+ * 深色 #75757e 压在 raised 上只有 3.51:1，都达不到 WCAG AA 的 4.5:1。
+ * brand.css 是 xiao27-hub 同步过来的真源，不在那里改，按既有做法覆盖在这里。
+ */
+:root,
+:root[data-theme="light"] { --text-muted: #6d6d73; }
+:root[data-theme="dark"] { --text-muted: #8b8b91; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --text-muted: #8b8b91; }
+}
+
 /* 序号方块：中性，靠底色深浅与页面分层，不用色相区分第几步 */
 .step-num {
   background: var(--bg-hover);
