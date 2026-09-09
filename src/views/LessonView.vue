@@ -144,24 +144,151 @@ const handleShadowing = (time: number) => {
 // 响应式加载课程数据
 const lessonData = shallowRef<any>(null);
 
-const preloadLessonImages = (data: any) => {
-  const urls = new Set<string>();
-  if (data.image) urls.add(resolvePath(data.image));
-  data.segments?.forEach((s: any) => {
-    if (s.image) urls.add(resolvePath(s.image));
-  });
-  urls.forEach(src => {
-    const img = new Image();
-    img.src = src;
-  });
+// ==========================================
+// 性能优化：按需滑动窗口预加载 + 网络感知 + 空闲调度 + 中止控制
+// ==========================================
+
+// 1. 网络感知（实验性 API 防御性检测，不支持时静默回退）
+const isSaveDataOrSlowNetwork = (): boolean => {
+  if (typeof navigator === 'undefined') return false;
+  const conn = (navigator as any).connection || (navigator as any).mozConnection || (navigator as any).webkitConnection;
+  if (!conn) return false;
+  if (conn.saveData === true) return true;
+  const effectiveType = conn.effectiveType;
+  if (effectiveType === 'slow-2g' || effectiveType === '2g' || effectiveType === '3g') return true;
+  return false;
+};
+
+// 2. 空闲调度（requestIdleCallback + Safari/老浏览器 setTimeout 兜底）
+const runWhenIdle = (cb: () => void, timeout = 2000): number => {
+  const win = typeof window !== 'undefined' ? (window as any) : null;
+  if (win && typeof win.requestIdleCallback === 'function') {
+    return win.requestIdleCallback(cb, { timeout });
+  }
+  return setTimeout(cb, Math.min(timeout, 300)) as unknown as number;
+};
+
+const cancelIdle = (id: number) => {
+  const win = typeof window !== 'undefined' ? (window as any) : null;
+  if (win && typeof win.cancelIdleCallback === 'function') {
+    win.cancelIdleCallback(id);
+  } else {
+    clearTimeout(id);
+  }
+};
+
+// 3. 预加载状态管理与取消机制
+let preloadGeneration = 0;
+let idleCallbackId: number | null = null;
+let preloadAbortController: AbortController | null = null;
+const prefetchedUrls = new Set<string>();
+const PRELOAD_WINDOW_SIZE = 2; // 预取后续 1~2 张不重复插图
+
+const cancelCurrentPreload = () => {
+  preloadGeneration++;
+  if (idleCallbackId !== null) {
+    cancelIdle(idleCallbackId);
+    idleCallbackId = null;
+  }
+  if (preloadAbortController) {
+    preloadAbortController.abort();
+    preloadAbortController = null;
+  }
+  prefetchedUrls.clear();
+};
+
+const prefetchImage = async (url: string, signal: AbortSignal): Promise<void> => {
+  if (prefetchedUrls.has(url) || signal.aborted) return;
+  prefetchedUrls.add(url);
+
+  try {
+    const response = await fetch(url, { signal, priority: 'low' as any });
+    if (response.ok && !signal.aborted) {
+      // 触发底层解码缓存，保证视口切图时 0 延迟渲染
+      const img = new Image();
+      img.src = url;
+    } else {
+      prefetchedUrls.delete(url);
+    }
+  } catch (err: any) {
+    if (err?.name !== 'AbortError') {
+      // 非主动中止的偶发网络错误允许后续重试
+      prefetchedUrls.delete(url);
+    }
+  }
+};
+
+// 4. 滑动窗口计算：基于当前播放句，向后查找后续 1~2 张未缓存插图
+const preloadUpcomingImages = async () => {
+  if (!lessonData.value || !lessonData.value.segments) return;
+  if (isSaveDataOrSlowNetwork()) return;
+
+  const currentGen = preloadGeneration;
+  const signal = preloadAbortController?.signal;
+  if (!signal || signal.aborted) return;
+
+  const segments = lessonData.value.segments;
+  // 查找当前句所在的序号；若未播放则从首句开始
+  const curId = activeSegmentId.value;
+  let curIdx = segments.findIndex((s: any) => s.id === curId);
+  if (curIdx === -1) {
+    curIdx = segments.findIndex((s: any) => s.startTime !== undefined && currentTime.value <= s.endTime);
+    if (curIdx === -1) curIdx = 0;
+  }
+
+  const curImgUrl = currentImage.value;
+  const targetsToFetch: string[] = [];
+
+  for (let i = curIdx + 1; i < segments.length; i++) {
+    const rawImg = segments[i]?.image;
+    if (!rawImg) continue;
+    const resolved = resolvePath(rawImg);
+    if (!resolved || resolved === curImgUrl) continue;
+    if (prefetchedUrls.has(resolved)) continue;
+    if (!targetsToFetch.includes(resolved)) {
+      targetsToFetch.push(resolved);
+      if (targetsToFetch.length >= PRELOAD_WINDOW_SIZE) break;
+    }
+  }
+
+  if (targetsToFetch.length === 0) return;
+
+  for (const url of targetsToFetch) {
+    if (currentGen !== preloadGeneration || signal.aborted) return;
+    await prefetchImage(url, signal);
+  }
+};
+
+// 5. 空闲时机调度（防抖避免频繁触发）
+const scheduleIdlePreload = (delay = 1500) => {
+  if (isSaveDataOrSlowNetwork()) return;
+
+  if (idleCallbackId !== null) {
+    cancelIdle(idleCallbackId);
+    idleCallbackId = null;
+  }
+
+  const currentGen = preloadGeneration;
+  idleCallbackId = runWhenIdle(() => {
+    idleCallbackId = null;
+    if (currentGen !== preloadGeneration) return;
+    preloadUpcomingImages();
+  }, delay);
 };
 
 const loadLessonData = async (id: string) => {
+  // 切课时立即中止上一课正在进行的预加载网络请求和定时器
+  cancelCurrentPreload();
+  preloadAbortController = new AbortController();
+  const currentGen = preloadGeneration;
+
   try {
     // 映射 ID 到文件名，例如 l1 -> l1.json, l127 -> l127.json
     const data = await import(`../data/lessons/${id}.json`);
+    // 如果异步加载期间用户已切到其他课，丢弃已过期的旧课数据
+    if (currentGen !== preloadGeneration) return;
+
     lessonData.value = data.default;
-    preloadLessonImages(data.default);
     loadCompleted(data.default.id);
 
     // 重置状态
@@ -175,6 +302,27 @@ const loadLessonData = async (id: string) => {
     lastProgressSave = 0;
     showCompletionCard.value = false;
     showWechatQr.value = false;
+
+    // 让路给关键路径：首屏只渲染当前主图/首句图。
+    // 后续图片的预取等待音频就绪（canplaythrough）或浏览器处于空闲时再启动
+    nextTick(() => {
+      const audioEl = sceneViewerRef.value?.audioPlayerRef?.innerAudio;
+      if (audioEl && !isSaveDataOrSlowNetwork()) {
+        if (audioEl.readyState >= 4) {
+          scheduleIdlePreload(600);
+        } else {
+          audioEl.addEventListener('canplaythrough', () => {
+            if (currentGen === preloadGeneration) {
+              scheduleIdlePreload(600);
+            }
+          }, { once: true });
+          // 兜底超时：避免音频因外部网络挂起导致永远不触发预加载
+          scheduleIdlePreload(2500);
+        }
+      } else {
+        scheduleIdlePreload(1500);
+      }
+    });
 
     // 续播：如果这就是上次学习的课，把音频定位到上次的位置（不自动播放）
     try {
@@ -385,11 +533,12 @@ watch(playMode, (newMode) => {
   }
 });
 
-// 监听活跃片段变化，自动滚动
+// 监听活跃片段变化，自动滚动与滑动窗口预取
 watch(activeSegmentId, async (newId) => {
   if (newId) {
     await nextTick();
     scriptRef.value?.scrollToActive(newId);
+    scheduleIdlePreload(300);
   }
 });
 
@@ -609,6 +758,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  cancelCurrentPreload();
   window.removeEventListener('keydown', handleKeyDown);
   clearShadowTimer();
   if (toastTimer !== null) {
