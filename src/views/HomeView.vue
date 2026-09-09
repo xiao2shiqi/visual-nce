@@ -158,44 +158,41 @@ const features = [
       </div>
     </header>
 
-    <!-- Hero：全幅铺满主视觉（顶到屏幕两侧，无圆角无留白，高度 70~80vh） -->
-    <section class="hero-section relative w-full h-[72vh] min-h-[560px] max-h-[820px] overflow-hidden flex items-end">
-      <div class="absolute inset-0 w-full h-full">
-        <img
-          src="/images/hero-home.webp"
-          alt="Visual NCE - 吉卜力风格插画重制版新概念英语"
-          width="1408"
-          height="768"
-          fetchpriority="high"
-          class="w-full h-full object-cover object-center"
-        />
-        <!-- 渐变遮罩：保证文字在任何底图上都具备极高可读性（符合 BRAND.md 图片压字例外） -->
-        <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/45 to-black/10"></div>
-      </div>
-
-      <div class="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 pb-16 pt-20 flex flex-col items-start justify-end">
-        <div class="animate-fade-in max-w-3xl">
-          <span class="inline-block px-3 py-1 rounded-full text-xs font-mono font-medium bg-black/45 text-white backdrop-blur-md mb-4 border border-white/25">
-            Studio Ghibli Style · AI Remastered
+    <!-- 首屏：直接讲清这个站是什么、有什么，不用装饰性大图占掉第一屏 -->
+    <section class="pt-24 pb-6 px-6 sm:px-8">
+      <div class="max-w-7xl mx-auto">
+        <!-- Section Title with Apple scale contrast -->
+        <div class="text-center max-w-3xl mx-auto mb-20">
+          <span class="text-xs font-mono font-bold tracking-widest text-ink-mute uppercase mb-3 block">
+            Core Highlights · 核心特性
           </span>
-          <h1 class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-normal tracking-tight leading-[1.05] mb-4">
-            Visual NCE
+          <h1 class="font-display text-4xl sm:text-5xl font-bold text-ink tracking-tight mb-4">
+            为什么选择 Visual NCE？
           </h1>
-          <p class="text-xl sm:text-2xl text-zinc-200 font-light tracking-wide leading-relaxed mb-6">
-            用吉卜力艺术重构《新概念英语》
+          <p class="text-base sm:text-lg text-ink-soft leading-relaxed">
+            告别枯燥的黑白排版。结合前沿生成式 AI 与经典教材，打造沉浸式英语精听体验。
           </p>
-          <div class="flex flex-wrap items-center gap-6 sm:gap-10 text-xs sm:text-sm text-zinc-300 font-medium tracking-wide">
-            <span class="flex items-center gap-2">
-              <strong class="text-white text-base font-bold font-mono">4</strong> 册全量收录
-            </span>
-            <span class="w-1 h-1 rounded-full bg-white/40"></span>
-            <span class="flex items-center gap-2">
-              <strong class="text-white text-base font-bold font-mono">276</strong> 篇经典课文
-            </span>
-            <span class="w-1 h-1 rounded-full bg-white/40"></span>
-            <span class="flex items-center gap-2">
-              <strong class="text-white text-base font-bold font-mono">100%</strong> 逐句音画同步
-            </span>
+        </div>
+
+        <!-- Features Grid：无边框无背景，靠间距与排版建立秩序 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+          <div
+            v-for="f in features"
+            :key="f.title"
+            class="flex flex-col text-left group"
+          >
+            <!-- 图标直接浮在页面上，去掉厚重底座 -->
+            <div class="w-8 h-8 text-ink mb-4 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" class="w-7 h-7">
+                <path stroke-linecap="round" stroke-linejoin="round" :d="f.icon" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-ink mb-2 tracking-tight">
+              {{ f.title }}
+            </h3>
+            <p class="text-sm text-ink-soft leading-relaxed">
+              {{ f.desc }}
+            </p>
           </div>
         </div>
       </div>
@@ -344,45 +341,6 @@ const features = [
       </Transition>
     </section>
 
-    <!-- Features Section：去掉所有盒子与多余边框，依靠呼吸感大留白浮现 -->
-    <section class="border-t border-line py-28 px-6 sm:px-8">
-      <div class="max-w-7xl mx-auto">
-        <!-- Section Title with Apple scale contrast -->
-        <div class="text-center max-w-3xl mx-auto mb-20">
-          <span class="text-xs font-mono font-bold tracking-widest text-ink-mute uppercase mb-3 block">
-            Core Highlights · 核心特性
-          </span>
-          <h2 class="font-display text-4xl sm:text-5xl font-bold text-ink tracking-tight mb-4">
-            为什么选择 Visual NCE？
-          </h2>
-          <p class="text-base sm:text-lg text-ink-soft leading-relaxed">
-            告别枯燥的黑白排版。结合前沿生成式 AI 与经典教材，打造沉浸式英语精听体验。
-          </p>
-        </div>
-
-        <!-- Features Grid：无边框无背景，靠间距与排版建立秩序 -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
-          <div
-            v-for="f in features"
-            :key="f.title"
-            class="flex flex-col text-left group"
-          >
-            <!-- 图标直接浮在页面上，去掉厚重底座 -->
-            <div class="w-8 h-8 text-ink mb-4 flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" class="w-7 h-7">
-                <path stroke-linecap="round" stroke-linejoin="round" :d="f.icon" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-ink mb-2 tracking-tight">
-              {{ f.title }}
-            </h3>
-            <p class="text-sm text-ink-soft leading-relaxed">
-              {{ f.desc }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Footer / Project Info Section -->
     <footer class="border-t border-line bg-raised py-12 px-6 sm:px-8">
