@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, computed, onUnmounted } from 'vue';
 import AudioPlayer from './AudioPlayer.vue';
 import LessonDownloadButton from './LessonDownloadButton.vue';
 import type { VideoSegment } from '../utils/videoExporter';
@@ -22,11 +22,26 @@ defineProps<{
 const emit = defineEmits(['timeupdate', 'ended', 'play', 'pause']);
 const audioPlayerRef = ref<any>(null);
 
+const progressBarRef = ref<HTMLElement | null>(null);
+const isDragging = ref(false);
+const isFocused = ref(false);
+const dragTime = ref(0);
+
 const localCurrentTime = ref(0);
 const localDuration = ref(0);
 const localIsPlaying = ref(false);
 
+const displayTime = computed(() => {
+  return isDragging.value ? dragTime.value : localCurrentTime.value;
+});
+
+const progressPercent = computed(() => {
+  if (!localDuration.value || localDuration.value <= 0) return 0;
+  return Math.max(0, Math.min(100, (displayTime.value / localDuration.value) * 100));
+});
+
 const handleTimeUpdate = (t: number) => {
+  if (isDragging.value) return;
   localCurrentTime.value = t;
   emit('timeupdate', t);
 };
@@ -37,14 +52,88 @@ const formatTime = (seconds: number) => {
   return `${m}:${s.toString().padStart(2, '0')}`;
 };
 
-const handleSeek = (event: MouseEvent) => {
+const seekTo = (seconds: number) => {
   if (!localDuration.value) return;
-  const bar = event.currentTarget as HTMLElement;
-  const rect = bar.getBoundingClientRect();
-  const fraction = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
+  const clamped = Math.max(0, Math.min(localDuration.value, seconds));
   const audio = audioPlayerRef.value?.innerAudio;
-  if (audio) audio.currentTime = fraction * localDuration.value;
+  if (audio) {
+    audio.currentTime = clamped;
+  }
+  localCurrentTime.value = clamped;
+  emit('timeupdate', clamped);
 };
+
+const calculateTimeFromEvent = (e: MouseEvent): number => {
+  if (!progressBarRef.value || !localDuration.value) return 0;
+  const rect = progressBarRef.value.getBoundingClientRect();
+  if (rect.width <= 0) return 0;
+  const fraction = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+  return fraction * localDuration.value;
+};
+
+const onMouseMove = (e: MouseEvent) => {
+  if (!isDragging.value || !localDuration.value) return;
+  dragTime.value = calculateTimeFromEvent(e);
+};
+
+const onMouseUp = (e: MouseEvent) => {
+  if (!isDragging.value) return;
+  window.removeEventListener('mousemove', onMouseMove);
+  window.removeEventListener('mouseup', onMouseUp);
+
+  const targetTime = calculateTimeFromEvent(e);
+  isDragging.value = false;
+  seekTo(targetTime);
+};
+
+const onMouseDown = (e: MouseEvent) => {
+  if (e.button !== 0 || !localDuration.value) return;
+  e.preventDefault();
+  progressBarRef.value?.focus();
+
+  isDragging.value = true;
+  dragTime.value = calculateTimeFromEvent(e);
+
+  window.addEventListener('mousemove', onMouseMove);
+  window.addEventListener('mouseup', onMouseUp);
+};
+
+const onKeyDown = (e: KeyboardEvent) => {
+  if (!localDuration.value) return;
+
+  const isLeft = e.key === 'ArrowLeft' || e.code === 'ArrowLeft' || e.key === 'ArrowDown' || e.code === 'ArrowDown';
+  const isRight = e.key === 'ArrowRight' || e.code === 'ArrowRight' || e.key === 'ArrowUp' || e.code === 'ArrowUp';
+  const isHome = e.key === 'Home' || e.code === 'Home';
+  const isEnd = e.key === 'End' || e.code === 'End';
+  const isSpace = e.key === ' ' || e.code === 'Space';
+
+  if (isLeft) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(localCurrentTime.value - 3);
+  } else if (isRight) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(localCurrentTime.value + 3);
+  } else if (isHome) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(0);
+  } else if (isEnd) {
+    e.preventDefault();
+    e.stopPropagation();
+    seekTo(localDuration.value);
+  } else if (isSpace) {
+    e.preventDefault();
+    e.stopPropagation();
+    audioPlayerRef.value?.togglePlay();
+  }
+};
+
+onUnmounted(() => {
+  window.removeEventListener('mousemove', onMouseMove);
+  window.removeEventListener('mouseup', onMouseUp);
+});
 
 defineExpose({ audioPlayerRef });
 </script>
@@ -81,16 +170,53 @@ defineExpose({ audioPlayerRef });
       <!-- Bottom Controls Overlay -->
       <div
         class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pt-14 px-4 pb-4 transition-opacity duration-300 pointer-events-none"
-        :class="localIsPlaying ? 'opacity-0 group-hover:opacity-100' : 'opacity-100'"
+        :class="[
+          (localIsPlaying && !isFocused && !isDragging)
+            ? 'opacity-0 group-hover:opacity-100 focus-within:opacity-100'
+            : 'opacity-100'
+        ]"
       >
-        <!-- Progress Bar -->
+        <!-- Progress Bar (Slider) -->
         <div
-          class="h-1 bg-raised/30 rounded-full cursor-pointer mb-3 hover:h-1.5 transition-all duration-150 pointer-events-auto"
-          @click="handleSeek"
+          ref="progressBarRef"
+          role="slider"
+          tabindex="0"
+          aria-label="音频播放进度"
+          :aria-valuemin="0"
+          :aria-valuemax="localDuration ? Math.floor(localDuration) : 0"
+          :aria-valuenow="localDuration ? Math.floor(displayTime) : 0"
+          :aria-valuetext="`${formatTime(displayTime)} / ${formatTime(localDuration)}`"
+          class="h-1 bg-white/30 rounded-full cursor-pointer mb-3 hover:h-1.5 focus-visible:h-1.5 transition-all duration-150 pointer-events-auto relative group/bar select-none before:absolute before:-top-2 before:-bottom-2 before:left-0 before:right-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black/60"
+          @mousedown="onMouseDown"
+          @keydown="onKeyDown"
+          @focus="isFocused = true"
+          @blur="isFocused = false"
         >
+          <!-- Floating Target Time Badge when dragging -->
           <div
-            class="h-full bg-raised rounded-full pointer-events-none transition-all duration-150"
-            :style="{ width: localDuration > 0 ? (localCurrentTime / localDuration * 100) + '%' : '0%' }"
+            v-if="isDragging"
+            class="absolute -top-7 -translate-x-1/2 px-1.5 py-0.5 bg-black/80 backdrop-blur-sm border border-white/20 text-white text-[10px] font-mono font-bold rounded-md shadow-md pointer-events-none select-none"
+            :style="{ left: `${progressPercent}%` }"
+          >
+            {{ formatTime(displayTime) }}
+          </div>
+
+          <!-- Progress Fill -->
+          <div
+            class="h-full bg-white rounded-full pointer-events-none"
+            :class="isDragging ? 'transition-none' : 'transition-all duration-150'"
+            :style="{ width: `${progressPercent}%` }"
+          ></div>
+
+          <!-- Thumb Knob -->
+          <div
+            class="absolute top-1/2 -translate-y-1/2 w-3.5 h-3.5 bg-white rounded-full shadow-md pointer-events-none transition-opacity duration-150"
+            :class="[
+              (isDragging || isFocused)
+                ? 'opacity-100 scale-110'
+                : 'opacity-0 group-hover/bar:opacity-100'
+            ]"
+            :style="{ left: `calc(${progressPercent}% - 7px)` }"
           ></div>
         </div>
 
@@ -106,7 +232,7 @@ defineExpose({ audioPlayerRef });
               </svg>
             </button>
             <span class="text-xs font-mono text-white/80">
-              {{ formatTime(localCurrentTime) }} / {{ formatTime(localDuration) }}
+              {{ formatTime(displayTime) }} / {{ formatTime(localDuration) }}
             </span>
           </div>
 
