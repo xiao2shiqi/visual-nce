@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onUnmounted } from 'vue';
+import { ref, computed, watch, onUnmounted } from 'vue';
 import AudioPlayer from './AudioPlayer.vue';
 import LessonDownloadButton from './LessonDownloadButton.vue';
 import type { VideoSegment } from '../utils/videoExporter';
@@ -7,8 +7,9 @@ import type { VideoSegment } from '../utils/videoExporter';
 /**
  * @author xiaobin
  */
-defineProps<{
+const props = defineProps<{
   currentImage: string;
+  currentClip?: { src: string; start: number } | null;
   activeSegmentId: string | null;
   audioSrc: string;
   playbackRate: number;
@@ -130,6 +131,30 @@ const onKeyDown = (e: KeyboardEvent) => {
   }
 };
 
+// ---- 动画片段：静态图之上叠一层静音视频，跟随音频时间轴 ----
+const videoRef = ref<HTMLVideoElement | null>(null);
+const videoReady = ref(false);
+const videoFailed = ref(false);
+
+const syncVideo = () => {
+  const video = videoRef.value;
+  const clip = props.currentClip;
+  if (!video || !clip || !videoReady.value) return;
+  video.playbackRate = props.playbackRate;
+  const end = Math.max(0, video.duration - 0.05);
+  const target = Math.min(Math.max(0, localCurrentTime.value - clip.start), end);
+  if (Math.abs(video.currentTime - target) > 0.25) video.currentTime = target;
+  const shouldPlay = localIsPlaying.value && target < end;
+  if (shouldPlay && video.paused) video.play().catch(() => {});
+  if (!shouldPlay && !video.paused) video.pause();
+};
+
+watch(() => props.currentClip?.src, () => {
+  videoReady.value = false;
+  videoFailed.value = false;
+});
+watch([localCurrentTime, localIsPlaying, () => props.playbackRate], syncVideo);
+
 onUnmounted(() => {
   window.removeEventListener('mousemove', onMouseMove);
   window.removeEventListener('mouseup', onMouseUp);
@@ -150,6 +175,22 @@ defineExpose({ audioPlayerRef });
         :alt="lessonTitle"
         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
       />
+
+      <!-- Scene Clip：有动画时盖在静态图上；加载完成前或失败时显示静态图 -->
+      <video
+        v-if="currentClip && !videoFailed"
+        ref="videoRef"
+        :key="currentClip.src"
+        :src="currentClip.src"
+        muted
+        playsinline
+        preload="auto"
+        aria-hidden="true"
+        class="absolute inset-0 w-full h-full object-cover transition-[transform,opacity] duration-700 group-hover:scale-[1.02]"
+        :class="videoReady ? 'opacity-100' : 'opacity-0'"
+        @loadeddata="videoReady = true; syncVideo()"
+        @error="videoFailed = true"
+      ></video>
 
       <!-- Center Play/Pause Button -->
       <button
