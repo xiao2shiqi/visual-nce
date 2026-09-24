@@ -418,16 +418,15 @@ const currentImage = computed(() => {
   return resolvePath(rawImg);
 });
 
-// 当前画面对应的动画：取最近一个已开始的有图句子，若它配了 video 或 animation 就播放
-// 动画时间 = 音频时间 - 该句 startTime；video 播完停在最后一帧，animation 为代码绘制的场景
+// 当前画面对应的动画片段：取最近一个已开始的有图句子，若它配了 video 就播放
+// 视频时间 = 音频时间 - 该句 startTime，播完停在最后一帧
 const currentClip = computed(() => {
   if (!lessonData.value) return null;
   const source = [...lessonData.value.segments]
     .reverse()
     .find((s: any) => s.image && s.startTime !== undefined && s.startTime <= currentTime.value);
-  if (source?.animation) return { animation: source.animation as string, start: source.startTime as number };
-  if (source?.video) return { src: resolvePath(source.video), start: source.startTime as number };
-  return null;
+  if (!source?.video) return null;
+  return { src: resolvePath(source.video), start: source.startTime as number };
 });
 
 // 记录当前点击的句子起止时间

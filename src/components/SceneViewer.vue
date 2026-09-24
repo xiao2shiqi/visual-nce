@@ -3,14 +3,13 @@ import { ref, computed, watch, onUnmounted } from 'vue';
 import AudioPlayer from './AudioPlayer.vue';
 import LessonDownloadButton from './LessonDownloadButton.vue';
 import type { VideoSegment } from '../utils/videoExporter';
-import { sceneAnimations } from './scene-animations';
 
 /**
  * @author xiaobin
  */
 const props = defineProps<{
   currentImage: string;
-  currentClip?: { src?: string; animation?: string; start: number } | null;
+  currentClip?: { src: string; start: number } | null;
   activeSegmentId: string | null;
   audioSrc: string;
   playbackRate: number;
@@ -140,7 +139,7 @@ const videoFailed = ref(false);
 const syncVideo = () => {
   const video = videoRef.value;
   const clip = props.currentClip;
-  if (!video || !clip?.src || !videoReady.value) return;
+  if (!video || !clip || !videoReady.value) return;
   video.playbackRate = props.playbackRate;
   const end = Math.max(0, video.duration - 0.05);
   const target = Math.min(Math.max(0, localCurrentTime.value - clip.start), end);
@@ -155,12 +154,6 @@ watch(() => props.currentClip?.src, () => {
   videoFailed.value = false;
 });
 watch([localCurrentTime, localIsPlaying, () => props.playbackRate], syncVideo);
-
-// 代码绘制的场景动画：直接读音频元素时间，逐帧平滑
-const animationComponent = computed(() =>
-  props.currentClip?.animation ? sceneAnimations[props.currentClip.animation] ?? null : null
-);
-const getAudioTime = () => audioPlayerRef.value?.innerAudio?.currentTime ?? localCurrentTime.value;
 
 onUnmounted(() => {
   window.removeEventListener('mousemove', onMouseMove);
@@ -185,7 +178,7 @@ defineExpose({ audioPlayerRef });
 
       <!-- Scene Clip：有动画时盖在静态图上；加载完成前或失败时显示静态图 -->
       <video
-        v-if="currentClip?.src && !videoFailed"
+        v-if="currentClip && !videoFailed"
         ref="videoRef"
         :key="currentClip.src"
         :src="currentClip.src"
@@ -198,11 +191,6 @@ defineExpose({ audioPlayerRef });
         @loadeddata="videoReady = true; syncVideo()"
         @error="videoFailed = true"
       ></video>
-
-      <!-- Scene Animation：代码绘制，盖在静态图上 -->
-      <div v-if="animationComponent" class="absolute inset-0" aria-hidden="true">
-        <component :is="animationComponent" :key="currentClip!.animation" :start="currentClip!.start" :get-time="getAudioTime" />
-      </div>
 
       <!-- Center Play/Pause Button -->
       <button
