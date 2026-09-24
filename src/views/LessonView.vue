@@ -218,6 +218,9 @@ const prefetchImage = async (url: string, signal: AbortSignal): Promise<void> =>
   }
 };
 
+const isKeyframeUrl = (url: string) =>
+  !!lessonData.value?.segments?.some((s: any) => s.keyframes?.some((k: any) => resolvePath(k.image) === url));
+
 // 4. 滑动窗口计算：基于当前播放句，向后查找后续 1~2 张未缓存插图
 const preloadUpcomingImages = async () => {
   if (!lessonData.value || !lessonData.value.segments) return;
@@ -239,7 +242,12 @@ const preloadUpcomingImages = async () => {
   const curImgUrl = currentImage.value;
   const targetsToFetch: string[] = [];
 
-  for (let i = curIdx + 1; i < segments.length; i++) {
+  for (let i = curIdx; i < segments.length; i++) {
+    for (const k of segments[i]?.keyframes ?? []) {
+      const url = resolvePath(k.image);
+      if (url && url !== curImgUrl && !prefetchedUrls.has(url) && !targetsToFetch.includes(url)) targetsToFetch.unshift(url);
+    }
+    if (i === curIdx) continue;
     const rawImg = segments[i]?.image;
     if (!rawImg) continue;
     const resolved = resolvePath(rawImg);
@@ -247,7 +255,7 @@ const preloadUpcomingImages = async () => {
     if (prefetchedUrls.has(resolved)) continue;
     if (!targetsToFetch.includes(resolved)) {
       targetsToFetch.push(resolved);
-      if (targetsToFetch.length >= PRELOAD_WINDOW_SIZE) break;
+      if (targetsToFetch.filter((u) => !isKeyframeUrl(u)).length >= PRELOAD_WINDOW_SIZE) break;
     }
   }
 
@@ -393,7 +401,7 @@ const currentImage = computed(() => {
 
   // 优先使用当前句子的图片，实现按台词切图
   if (segment?.image) {
-    return resolvePath(segment.image);
+    return resolvePath(pickKeyframe(segment.image));
   }
 
   let rawImg = '';
@@ -415,8 +423,19 @@ const currentImage = computed(() => {
     }
   }
 
-  return resolvePath(rawImg);
+  return resolvePath(pickKeyframe(rawImg));
 });
+
+// 逐帧动画：segment.keyframes = [{ at: 句内秒数, image }]，图片与该句 image 相同时才按时间换帧
+const pickKeyframe = (rawImg: string) => {
+  const source = [...(lessonData.value?.segments ?? [])]
+    .reverse()
+    .find((s: any) => s.image && s.startTime !== undefined && s.startTime <= currentTime.value);
+  if (!source?.keyframes?.length || source.image !== rawImg) return rawImg;
+  const t = currentTime.value - source.startTime;
+  const frame = [...source.keyframes].reverse().find((k: any) => k.at <= t);
+  return frame?.image ?? rawImg;
+};
 
 // 当前画面对应的动画片段：取最近一个已开始的有图句子，若它配了 video 就播放
 // 视频时间 = 音频时间 - 该句 startTime，播完停在最后一帧

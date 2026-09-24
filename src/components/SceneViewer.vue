@@ -131,6 +131,20 @@ const onKeyDown = (e: KeyboardEvent) => {
   }
 };
 
+// ---- 换图交叉淡入 ----
+const prevImage = ref<string | null>(null);
+const imageLoaded = ref(true);
+let fadeTimer: ReturnType<typeof setTimeout> | null = null;
+watch(() => props.currentImage, (_next, prev) => {
+  if (fadeTimer) clearTimeout(fadeTimer);
+  prevImage.value = prev || null;
+  imageLoaded.value = false;
+});
+const onImageLoad = () => {
+  imageLoaded.value = true;
+  fadeTimer = setTimeout(() => { prevImage.value = null; }, 320);
+};
+
 // ---- 动画片段：静态图之上叠一层静音视频，跟随音频时间轴 ----
 const videoRef = ref<HTMLVideoElement | null>(null);
 const videoReady = ref(false);
@@ -169,11 +183,21 @@ defineExpose({ audioPlayerRef });
     <!-- Movie Player Container -->
     <div class="relative group rounded-xl overflow-hidden shadow-2xl shadow-zinc-300/40 ring-1 ring-black/5 bg-black aspect-[4/3] cursor-pointer">
 
-      <!-- Scene Image -->
+      <!-- Scene Image：换图时新图盖在旧图上淡入，逐帧动画也靠它过渡 -->
       <img
+        v-if="prevImage"
+        :src="prevImage"
+        alt=""
+        aria-hidden="true"
+        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+      />
+      <img
+        :key="currentImage"
         :src="currentImage"
         :alt="lessonTitle"
-        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+        class="absolute inset-0 w-full h-full object-cover transition-[transform,opacity] duration-300 group-hover:scale-[1.02]"
+        :class="imageLoaded ? 'opacity-100' : 'opacity-0'"
+        @load="onImageLoad"
       />
 
       <!-- Scene Clip：有动画时盖在静态图上；加载完成前或失败时显示静态图 -->

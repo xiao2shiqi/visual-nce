@@ -395,7 +395,21 @@
           }
         ]
       },
-      "image": "/images/nce2/l16/polite_note.webp"
+      "image": "/images/nce2/l16/polite_note.webp",
+      "keyframes": [
+        {
+          "at": 0,
+          "image": "/images/nce2/l16/polite_note.webp"
+        },
+        {
+          "at": 1.4,
+          "image": "/images/nce2/l16/pn_k2.webp"
+        },
+        {
+          "at": 2.8,
+          "image": "/images/nce2/l16/pn_k3.webp"
+        }
+      ]
     },
     {
       "id": "s3",
