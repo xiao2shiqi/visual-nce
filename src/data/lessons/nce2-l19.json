@@ -339,7 +339,7 @@
           }
         ]
       },
-      "image": "/images/nce2/l19/scene1.webp"
+      "image": "/images/nce2/l19/sold_out.webp"
     },
     {
       "id": "s2",
@@ -413,8 +413,7 @@
             "meaning": "感叹"
           }
         ]
-      },
-      "image": "/images/nce2/l19/sold_out.webp"
+      }
     },
     {
       "id": "s4",
@@ -466,11 +465,12 @@
             "meaning": "售票处"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l19/man_returns_tickets.webp"
     },
     {
       "id": "s5",
-      "role": "Man",
+      "role": "Customer",
       "text": "'Can I return these two tickets?' he asked.",
       "translation": "'我可以退掉这两张票吗？'他问。",
       "startTime": 46.59,
@@ -518,12 +518,11 @@
             "meaning": "询问"
           }
         ]
-      },
-      "image": "/images/nce2/l19/man_returns_tickets.webp"
+      }
     },
     {
       "id": "s6",
-      "role": "Narrator",
+      "role": "Girl",
       "text": "'Certainly,' the girl said.",
       "translation": "'当然可以，'那姑娘说。",
       "startTime": 51.15,
@@ -598,7 +597,8 @@
             "meaning": "立刻"
           }
         ]
-      }
+      },
+      "image": "/images/nce2/l19/wrong_night.webp"
     },
     {
       "id": "s8",
@@ -655,8 +655,7 @@
             "meaning": "询问"
           }
         ]
-      },
-      "image": "/images/nce2/l19/wrong_night.webp"
+      }
     },
     {
       "id": "s9",
@@ -790,8 +789,7 @@
             "meaning": "悲哀地"
           }
         ]
-      },
-      "image": "/images/nce2/l19/man_returns_tickets.webp"
+      }
     }
   ]
 }
