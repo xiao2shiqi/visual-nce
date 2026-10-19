@@ -36,56 +36,50 @@
       ]
     },
     {
-      "id": "past-simple-narrative",
-      "title": "一般过去时叙事",
-      "subtitle": "Past simple (I did)",
-      "refUnit": 5,
+      "id": "adverbial-clauses-complex",
+      "title": "状语从句：because, although, when",
+      "subtitle": "Complex statements: Adverbial clauses",
+      "refUnit": 113,
       "sections": [
         {
-          "heading": "整篇课文的时态骨架",
-          "body": "这一课讲的是已经发生、已经结束的一件事，所以从头到尾都用一般过去时。存钱、买床、搬床上屋顶，一个动作接一个动作往下叙述：",
+          "heading": "第三单元的跨越：进入复合句（Complex Statements）",
+          "body": "第49课是第三单元的开篇大课。第一单元学简单句，第二单元学并列句，而从本课开始，全书正式迈入「主句 + 从句」的复合句阶段。主句表达核心事实，从句充当状语，交代原因、让步或时间背景：",
           "examples": [
             {
               "en": "Because the weather was very hot, he carried the bed on to the roof of his house.",
               "zh": "由于天气很热，他把床搬到了房顶上。"
-            },
-            {
-              "en": "He slept very well for the first two nights, but on the third night, a storm blew up.",
-              "zh": "头两天晚上他睡得很好，但第三天晚上刮起了大风。"
             }
           ]
         },
         {
-          "heading": "本课的不规则动词",
-          "body": "规则动词加 -ed，比如 carried、picked up；不规则动词没有规律，得单独记。本课出现了不少，一会儿留意它们在课文里怎么读：",
+          "heading": "原因状语从句：because 说明行动缘由",
+          "body": "because 引导原因状语从句，直接给出做这件事的前提或根源。放句首时，后面用逗号和主句隔开；也可以放在主句之后，此时通常不用逗号。",
           "examples": [
             {
-              "en": "sleep → slept, sweep → swept, send → sent",
-              "zh": "不规则动词"
-            },
-            {
-              "en": "strike → struck, wake → woke, become → became",
-              "zh": "不规则动词"
+              "en": "Because the weather was very hot, he carried the bed on to the roof of his house.",
+              "zh": "由于天气很热，他把床搬到了房顶上。",
+              "note": "because 强调直接因果；注意有了 because，主句就不能再加 so"
             }
           ]
         },
         {
-          "heading": "一句话里的两个过去动作，谁先谁后",
-          "body": "一般过去时只说明「这是过去的事」，不负责说明先后顺序。像 swept 和 sent 这样并列的动作，通常按写的顺序理解为先后发生：先被刮走，接着摔进院子。",
-          "examples": [
-            {
-              "en": "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.",
-              "zh": "一阵大风把床从屋顶上刮了下来，砸到了下面的院子里。"
-            }
-          ]
-        },
-        {
-          "heading": "was/were：be 动词的过去式",
-          "body": "be 动词的过去式是 was（单数）和 were（复数），本课几乎全用 was，因为主角是「他」和「床」，都是单数。",
+          "heading": "让步状语从句：although（虽然……但是……）",
+          "body": "although 意思是「虽然，尽管」，引导让步状语从句，表达反常、出人意料的结果。英语语法铁律：用了 although，主句就绝对不能再出现 but！",
           "examples": [
             {
               "en": "Although the bed was smashed to pieces, the man was miraculously unhurt.",
-              "zh": "尽管床被摔成了碎片，那年轻人却奇迹般地没有受伤。"
+              "zh": "尽管床被摔成了碎片，那年轻人却奇迹般地没有受伤。",
+              "note": "✗ Although the bed was smashed to pieces, but the man was unhurt.（although 与 but 绝不能同用）"
+            }
+          ]
+        },
+        {
+          "heading": "时间状语从句：when 精准锁定关键瞬间",
+          "body": "when 引导时间状语从句，定格动作发生的具体时刻。课文中主人公摔晕后苏醒的戏剧性一刻，就是用 when 锁定的：",
+          "examples": [
+            {
+              "en": "When he woke up, he was still on the mattress.",
+              "zh": "当他醒来时，他仍然躺在褥垫上。"
             }
           ]
         }
